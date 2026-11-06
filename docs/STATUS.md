@@ -1,3 +1,12 @@
+## 7 Nov 2026 — Pricing marketing pass live (owner's four changes)
+
+- main f30bb1059, Vercel dpl_AUjRSddvYHZWeaX8ByuJ5pXPcqSJ READY, no runtime errors, live text checked.
+- Hero hook: About ₹1 a mock on Pro at 3 full mocks a day (nearest rupee from ₹1 up; was ₹1.10).
+- Pro card (home and /pricing): Practise, Fix (Mistake Lab; Mistake Repair and Ask Mobi, 50 credits a month all for Mobi), Revise (every Key card, saved questions), Plan. Compare table adds Mistake Lab, Mistake Repair and Ask Mobi, Key cards.
+- Value card: mock series says 10 to 30 papers a subject; the repeated totals line under the bars removed.
+- Note: Pro gets 50 credits a month (AI_PRO_INCLUDED_MONTHLY_CREDITS), the same as Free; the owner thought 100.
+- Checks: landing/pricing tests 335, billing 453, app 1021, keycards 125, all pass; 390 Day and 1440 Night looked at.
+
 ## 7 Nov 2026 — Round 5 scroll fix pushed to main
 
 - Pushed to main `c267858d1` (commits `e0f323057` + `c267858d1` on top of `bac4ae9ab`; main was `d629a2939`). The Vercel deploy is being verified separately.
