@@ -9,7 +9,7 @@
 - Not done: a real Android emulator swipe test on the final build (owner asked to ship within 10 minutes). The value card iteration remains open to the owner.
 - Machine note: the AI OS nightly (rag index --vectors, two embed-pending jobs, brain ingest) held the CPU at about 60-100% for over an hour on the night of 6-7 Nov and invalidated speed benches; two embed-pending ran at once (possible duplicate).
 
-## 6 Nov 2026, about 1:00 pm IST — Round 5... 
+## 6 Nov 2026, about 1:00 pm IST — Round 4 release gate passed; pushed to main
 
 - Runtime unchanged from `06aed8557` (the webpack build of 03:14 am served on 127.0.0.1:3518). The only code change is the source assertion in `data/tests/one_gesture_source_1104.test.mjs`: outside touches are now checked as `native` in `onTouchStart`; the preventDefault and behaviour assertions are unchanged.
 - Landing suites (`src/components/landing/*.test.mjs`, `*_1104`, `*_1105`, `web_landing_health_1020`): 437 pass, 0 fail, 11 skipped, 12 todo. ESLint on every JS file changed since `400d647a8`: clean.
