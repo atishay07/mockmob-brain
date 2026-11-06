@@ -50,3 +50,4 @@
 - [Perf bench needs a quiet PC](perf-bench-quiet-machine.md) — 5 Nov: 4x-CPU benches show fake long frames while suites/builds run; never delete another agent's browser.lock
 - [Team shared brain](team-shared-brain-plan.md) — 6 Nov: built at C:\Users\atish\mockmob-brain (bridge mode here, CTO installs standalone); MockMob docs live in its docs/; GitHub repo creation was pending
 - [Preserve mtimes in AI OS folders](preserve-mtimes-when-copying-into-ai-os.md) — 6 Nov: a mass mtime change made continuum search re-index for 10+ min; copy with copy2/os.utime
+- [No useless background work](no-useless-background-work.md) — 7 Nov: AI OS pop-ups and CPU hogs angered him; jobs windowless, low priority, only when output is needed; hub briefs gated on views
