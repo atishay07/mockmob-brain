@@ -1,0 +1,356 @@
+{
+ "hold": [
+  {
+   "id": "kc.accountancy.accounting-ratios.types-ratios-help-comparison-in-which-three-ways",
+   "keep": "kc.accountancy.accounting-ratios.list-ratio-comparisons",
+   "subject": "accountancy",
+   "why": "Same three comparisons; list card has the fuller quote"
+  },
+  {
+   "id": "kc.accountancy.accounting-ratios.def-ratio-analysis-ncert",
+   "keep": "kc.accountancy.accounting-ratios.def-ratio-analysis",
+   "subject": "accountancy",
+   "why": "Both define ratio analysis; keep the clean front, drop the NCERT-labelled one"
+  },
+  {
+   "id": "kc.accountancy.cash-flow-statement.fact-proposed-dividend-contingent",
+   "keep": "kc.accountancy.financial-statements-of-company.key-proposed-dividend-contingent",
+   "subject": "accountancy",
+   "why": "Same fact; Financial Statements is the home chapter"
+  },
+  {
+   "id": "kc.accountancy.cash-flow-statement.fact-proposed-dividend-as4",
+   "keep": "kc.accountancy.financial-statements-of-company.fact-proposed-dividend-as4",
+   "subject": "accountancy",
+   "why": "Same AS-4 fact; home chapter kept"
+  },
+  {
+   "id": "kc.accountancy.cash-flow-statement.fact-proposed-dividend-previous-year",
+   "keep": "kc.accountancy.financial-statements-of-company.fact-proposed-dividend-previous-year",
+   "subject": "accountancy",
+   "why": "Same fact; home chapter has the fuller quote"
+  },
+  {
+   "id": "kc.accountancy.cash-flow-statement.fact-starting-point-before-tax",
+   "keep": "kc.accountancy.cash-flow-statement.fact-indirect-starting-point",
+   "subject": "accountancy",
+   "why": "Same starting-point fact; kept card is linked to a live question"
+  },
+  {
+   "id": "kc.accountancy.partnership-fundamentals.def-partnership-section-4",
+   "keep": "kc.accountancy.partnership-fundamentals.def-partnership",
+   "subject": "accountancy",
+   "why": "Both define partnership; kept has the fuller quote"
+  },
+  {
+   "id": "kc.accountancy.partnership-fundamentals.term-deed-term-summary",
+   "keep": "kc.accountancy.partnership-fundamentals.def-deed-meaning",
+   "subject": "accountancy",
+   "why": "Same fact; kept is linked"
+  },
+  {
+   "id": "kc.accountancy.profit-and-loss-appropriation-account.fact-ioc-net-loss",
+   "keep": "kc.accountancy.profit-and-loss-appropriation-account.kl-ioc-only-profit",
+   "subject": "accountancy",
+   "why": "Same rule (no interest on capital in a loss year); kept has fuller quote and must importance"
+  },
+  {
+   "id": "kc.accountancy.admission-of-partner.fact-sacrificing-ratio-name",
+   "keep": "kc.accountancy.admission-of-partner.def-sacrificing-ratio",
+   "subject": "accountancy",
+   "why": "Same definition; kept is linked"
+  },
+  {
+   "id": "kc.accountancy.change-in-profit-sharing-ratio.term-gaining-ratio-term",
+   "keep": "kc.accountancy.change-in-profit-sharing-ratio.def-gaining-ratio",
+   "subject": "accountancy",
+   "why": "Identical sentence; kept is linked (L3)"
+  },
+  {
+   "id": "kc.accountancy.change-in-profit-sharing-ratio.fact-ratio-change-goodwill-adjusted",
+   "keep": "kc.accountancy.change-in-profit-sharing-ratio.fact-credit-sacrificing-debit-gaining",
+   "subject": "accountancy",
+   "why": "Same fact; kept is linked to far more questions"
+  },
+  {
+   "id": "kc.accountancy.share-capital.def-premium-def-intro",
+   "keep": "kc.accountancy.share-capital.def-premium-def",
+   "subject": "accountancy",
+   "why": "Same concept; kept is the dedicated premium section and has more links"
+  },
+  {
+   "id": "kc.accountancy.share-capital.def-sum-forfeit-def",
+   "keep": "kc.accountancy.share-capital.fact-forfeit-when",
+   "subject": "accountancy",
+   "why": "Same forfeiture fact; kept is linked and has the fuller quote"
+  },
+  {
+   "id": "kc.biology.principles-of-inheritance-and-variation.fact-honeybee-chromosomes",
+   "keep": "kc.biology.principles-of-inheritance-and-variation.def-haplodiploid",
+   "subject": "biology",
+   "why": "Same sentence; kept has fuller quote and must importance"
+  },
+  {
+   "id": "kc.biology.human-reproduction.fact-mammary-late",
+   "keep": "kc.biology.human-reproduction.def-lactation",
+   "subject": "biology",
+   "why": "Same sentence; kept names lactation, fuller quote"
+  },
+  {
+   "id": "kc.biology.organisms-and-populations.fact-verhulst-pearl",
+   "keep": "kc.biology.organisms-and-populations.term-sigmoid",
+   "subject": "biology",
+   "why": "Identical quote; kept is linked"
+  },
+  {
+   "id": "kc.business_studies.business-environment.ex-legal-advertising-rules",
+   "keep": "kc.business_studies.business-environment.ex-legal-advertising-warnings",
+   "subject": "business_studies",
+   "why": "Same legal-environment example; kept has fuller quote and more links"
+  },
+  {
+   "id": "kc.business_studies.consumer-protection.fact-state-jurisdiction",
+   "keep": "kc.business_studies.consumer-protection.fact-state-commission-appeal-route",
+   "subject": "business_studies",
+   "why": "Kept card covers jurisdiction plus appeal route"
+  },
+  {
+   "id": "kc.business_studies.consumer-protection.kl-national-jurisdiction",
+   "keep": "kc.business_studies.consumer-protection.fact-national-commission-appeal-route",
+   "subject": "business_studies",
+   "why": "Kept card covers jurisdiction plus appeal route"
+  },
+  {
+   "id": "kc.business_studies.controlling.def-controlling-summary",
+   "keep": "kc.business_studies.controlling.def-controlling",
+   "subject": "business_studies",
+   "why": "Same definition; kept is linked"
+  },
+  {
+   "id": "kc.business_studies.marketing-management.term-non-durable-term",
+   "keep": "kc.business_studies.marketing-management.def-non-durable",
+   "subject": "business_studies",
+   "why": "Same sentence, cloze vs question; keep the question"
+  },
+  {
+   "id": "kc.business_studies.marketing-management.term-trademark-term",
+   "keep": "kc.business_studies.marketing-management.def-trade-mark",
+   "subject": "business_studies",
+   "why": "Same sentence; kept has the fuller back"
+  },
+  {
+   "id": "kc.business_studies.marketing-management.term-packaging-term",
+   "keep": "kc.business_studies.marketing-management.def-packaging",
+   "subject": "business_studies",
+   "why": "Same sentence, cloze vs question"
+  },
+  {
+   "id": "kc.business_studies.staffing.key-vestibule-away",
+   "keep": "kc.business_studies.staffing.def-vestibule-training",
+   "subject": "business_studies",
+   "why": "Kept card contains the same line plus the rest"
+  },
+  {
+   "id": "kc.business_studies.staffing.term-recruitment-finding-candidates",
+   "keep": "kc.business_studies.staffing.def-recruitment-searching",
+   "subject": "business_studies",
+   "why": "Both define recruitment; kept is linked (L3)"
+  },
+  {
+   "id": "kc.business_studies.staffing.term-selection-identifying-best",
+   "keep": "kc.business_studies.staffing.def-selection-pool",
+   "subject": "business_studies",
+   "why": "Both define selection; kept is linked"
+  },
+  {
+   "id": "kc.business_studies.nature-and-significance-of-management.def-planning",
+   "keep": "kc.business_studies.planning.def-planning",
+   "subject": "business_studies",
+   "why": "Same concept; Planning is the home chapter"
+  },
+  {
+   "id": "kc.economics.indian-economic-development-1950-1990.term-marketed-surplus",
+   "keep": "kc.economics.indian-economic-development-1950-1990.def-marketed-surplus",
+   "subject": "economics",
+   "why": "Same sentence, cloze vs question"
+  },
+  {
+   "id": "kc.economics.indian-economic-development-1950-1990.term-modernisation",
+   "keep": "kc.economics.indian-economic-development-1950-1990.def-modernisation",
+   "subject": "economics",
+   "why": "Same sentence, cloze vs question"
+  },
+  {
+   "id": "kc.economics.production-and-costs.key-summary-sum-mc",
+   "keep": "kc.economics.production-and-costs.key-sum-mc-tvc",
+   "subject": "economics",
+   "why": "Same fact (sum of MC gives TVC)"
+  },
+  {
+   "id": "kc.economics.production-and-costs.key-summary-area-smc",
+   "keep": "kc.economics.production-and-costs.key-tvc-area-smc",
+   "subject": "economics",
+   "why": "Same fact (area under SMC gives TVC)"
+  },
+  {
+   "id": "kc.economics.production-and-costs.key-summary-tc",
+   "keep": "kc.economics.production-and-costs.frm-tc",
+   "subject": "economics",
+   "why": "TC = TVC + TFC twice; kept is linked"
+  },
+  {
+   "id": "kc.economics.production-and-costs.key-summary-ac",
+   "keep": "kc.economics.production-and-costs.frm-sac-avc-afc",
+   "subject": "economics",
+   "why": "AC = AVC + AFC twice; kept is linked"
+  },
+  {
+   "id": "kc.economics.human-capital-formation.def-hc-vs-hd-definition",
+   "keep": "kc.economics.human-capital-formation.diff-hc-vs-hd-view",
+   "subject": "economics",
+   "why": "Kept comparison card already contains the human development definition"
+  },
+  {
+   "id": "kc.economics.balance-of-payments.diff-devaluation-revaluation",
+   "keep": "kc.economics.balance-of-payments.def-devaluation",
+   "subject": "economics",
+   "why": "Comparison repeats both single-answer definitions; keep def-devaluation and def-revaluation (resolves both pairs)"
+  },
+  {
+   "id": "kc.economics.indian-economic-development-1950-1990.kl-goals-four-names",
+   "keep": "kc.economics.indian-economic-development-1950-1990.list-goals-four",
+   "subject": "economics",
+   "why": "Same four goals"
+  },
+  {
+   "id": "kc.economics.introduction-and-theory-of-consumer-behaviour.key-optimum-tangency-summary",
+   "keep": "kc.economics.introduction-and-theory-of-consumer-behaviour.key-optimum-tangent",
+   "subject": "economics",
+   "why": "Same optimum-bundle fact; kept is linked"
+  },
+  {
+   "id": "kc.economics.economic-reforms-since-1991.key-industry-slowed",
+   "keep": "kc.economics.economic-reforms-since-1991.fact-industry-slowdown",
+   "subject": "economics",
+   "why": "Same slowdown fact; kept has the fuller quote"
+  },
+  {
+   "id": "kc.economics.economic-reforms-since-1991.key-reserves-two-weeks",
+   "keep": "kc.economics.economic-reforms-since-1991.fact-forex-fortnight",
+   "subject": "economics",
+   "why": "Same fortnight / two-weeks reserves fact"
+  },
+  {
+   "id": "kc.economics.rural-development.list-agricultural-marketing-activities",
+   "keep": "kc.economics.rural-development.def-agricultural-marketing",
+   "subject": "economics",
+   "why": "List is the same sentence as the definition"
+  },
+  {
+   "id": "kc.economics.money-and-banking.key-quantitative-tools",
+   "keep": "kc.economics.money-and-banking.types-tools-types",
+   "subject": "economics",
+   "why": "Kept card covers quantitative and qualitative tools"
+  },
+  {
+   "id": "kc.economics.money-and-banking.formula-liabilities-formula",
+   "keep": "kc.economics.money-and-banking.def-liabilities",
+   "subject": "economics",
+   "why": "Liabilities = Deposits is already the definition answer"
+  },
+  {
+   "id": "kc.economics.balance-of-payments.key-flexible-major-advantage",
+   "keep": "kc.economics.balance-of-payments.list-flexible-merits",
+   "subject": "economics",
+   "why": "Kept list already includes that merit"
+  },
+  {
+   "id": "kc.economics.national-income-and-related-aggregates.def-barter-exchanges",
+   "keep": "kc.economics.money-and-banking.def-barter-exchange",
+   "subject": "economics",
+   "why": "Same definition; Money & Banking is the home chapter"
+  },
+  {
+   "id": "kc.economics.indian-economic-development-1950-1990.def-gdp",
+   "keep": "kc.economics.employment.def-gdp",
+   "subject": "economics",
+   "why": "Same GDP definition; kept has the fuller quote"
+  },
+  {
+   "id": "kc.political_science.challenges-to-and-restoration-of-the-congress-system.fact-indira-assassination",
+   "keep": "kc.political_science.regional-aspirations.fact-indira-assassination",
+   "subject": "political_science",
+   "why": "Same fact; kept answers when and by whom"
+  },
+  {
+   "id": "kc.political_science.era-of-one-party-dominance.fact-cpi-16-seats",
+   "keep": "kc.political_science.era-of-one-party-dominance.fact-cpi-largest-opposition",
+   "subject": "political_science",
+   "why": "Kept card includes the 16 seats plus more"
+  },
+  {
+   "id": "kc.political_science.contemporary-south-asia.fact-saarc-1985",
+   "keep": "kc.political_science.contemporary-south-asia.fact-tl-saarc-charter",
+   "subject": "political_science",
+   "why": "Kept answers year and place"
+  }
+ ],
+ "notDuplicates": [
+  [
+   "kc.accountancy.debentures.fact-important-borrowing-cost-discount",
+   "kc.accountancy.debentures.kl-discount-loss-capital-loss"
+  ],
+  [
+   "kc.accountancy.debentures.kl-interest-charge-against-profit",
+   "kc.accountancy.debentures.diff-shares-vs-debentures-dividend-interest"
+  ],
+  [
+   "kc.biology.principles-of-inheritance-and-variation.def-linkage",
+   "kc.biology.principles-of-inheritance-and-variation.def-recombination"
+  ],
+  [
+   "kc.business_studies.marketing-management.def-physical-distribution",
+   "kc.business_studies.marketing-management.def-physical-distribution-covers"
+  ],
+  [
+   "kc.economics.income-determination.def-mps-box",
+   "kc.economics.income-determination.formula-mps-eq"
+  ],
+  [
+   "kc.economics.income-determination.def-mpc-box",
+   "kc.economics.income-determination.formula-mpc-eq"
+  ],
+  [
+   "kc.economics.income-determination.def-savings",
+   "kc.economics.income-determination.formula-savings-eq"
+  ],
+  [
+   "kc.economics.theory-of-firms-under-perfect-competition.def-profit-def",
+   "kc.economics.theory-of-firms-under-perfect-competition.formula-profit-formula"
+  ],
+  [
+   "kc.economics.production-and-costs.def-total-revenue",
+   "kc.economics.production-and-costs.formula-total-revenue"
+  ],
+  [
+   "kc.economics.balance-of-payments.def-autonomous",
+   "kc.economics.balance-of-payments.fact-autonomous-above-the-line"
+  ],
+  [
+   "kc.economics.balance-of-payments.fact-managed-dirty-floating",
+   "kc.economics.balance-of-payments.fact-managed-official-reserve-nonzero"
+  ],
+  [
+   "kc.economics.economic-reforms-since-1991.fact-wto-purpose",
+   "kc.economics.economic-reforms-since-1991.key-wto-objective"
+  ],
+  [
+   "kc.economics.production-and-costs.def-short-run",
+   "kc.economics.production-and-costs.key-summary-sr-lr"
+  ],
+  [
+   "kc.political_science.challenges-of-nation-building.fact-potti-sriramulu-fast",
+   "kc.political_science.challenges-of-nation-building.fact-potti-sriramulu-dates"
+  ]
+ ]
+}

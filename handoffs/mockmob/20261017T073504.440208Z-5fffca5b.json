@@ -1,0 +1,28 @@
+{
+  "id": "20261017T073504.440208Z-5fffca5b",
+  "observed_at": "2026-10-17T07:35:04.441209+00:00",
+  "agent": "claude-opus-5.5 F15 design reviser",
+  "task": "F15 Learn and Review decision: revise after critic 6.2",
+  "status": "complete",
+  "done": "Revised LEARN-REVIEW-1017.md and learn-review mocks; committed 8ce5464b on feat/app-and-web (mockmob-next), not pushed. Next move now = RESULT-1017 nextMove (order + 6/5 pricing), no second builder; NAV A1 drawn; one fixture.json + check.mjs; kept lamp-lit Mobi empty, free answer sheet (L13), app Q chips + Show me, lifeline connector; Revise dedupe + storage in revise_cards mode; fail/offline/zero states; 58 captures all opened. Section 14 maps all 21 critic points.",
+  "next": "Lead: resolve cross-doc flags in LEARN-REVIEW-1017 section 12 (TODAY and RESULT still ask Start key to go quiet, conflicting with NAV 6.8/A1; TODAY batch repair wording vs RESULT 'Repair Q{n}'). Owner questions in section 11. Build order: RESULT S1, then P-LR0..P-LR7.",
+  "blockers": [],
+  "evidence": [
+    "commit 8ce5464b",
+    "node check.mjs: no missing or banned strings",
+    "58 captures in tmp/design-1017/learn-review/captures"
+  ],
+  "touched_files": [
+    "docs/design-decisions/pass-1017/LEARN-REVIEW-1017.md",
+    "tmp/design-1017/learn-review/web.html",
+    "tmp/design-1017/learn-review/app.html",
+    "tmp/design-1017/learn-review/fixture.json",
+    "tmp/design-1017/learn-review/check.mjs",
+    "tmp/design-1017/learn-review/cap.mjs",
+    "tmp/design-1017/learn-review/jobs.json",
+    "tmp/design-1017/learn-review/captures/"
+  ],
+  "verification": "Headless Chrome via CDP, temp profile deleted; every capture opened at 390x844, 1440x900, 412x915 Night and Day. Design only; no app or web code changed; GLASS-1017.md uncommitted edit by another agent left alone.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

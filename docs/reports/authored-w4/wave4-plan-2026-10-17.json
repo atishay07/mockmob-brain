@@ -1,0 +1,1084 @@
+{
+ "kind": "authored_w4_plan",
+ "date": "2026-10-17",
+ "source": "claude-authored-2026-10-17-w4",
+ "branch": "content/wave4-1017",
+ "questions": 300,
+ "jobCount": 15,
+ "note": "Planned from select-only production counts (live, not deleted) and the committed NTA score tables against the 2026 blueprints. See coverage.",
+ "totals": {
+  "physics": {
+   "n": 60,
+   "keys": {
+    "A": 13,
+    "B": 13,
+    "C": 17,
+    "D": 17
+   },
+   "types": {
+    "single_mcq": 48,
+    "match_the_following": 6,
+    "sequence_ordering": 3,
+    "statement_based": 3,
+    "assertion_reason": 0
+   },
+   "difficulty": {
+    "easy": 15,
+    "medium": 30,
+    "hard": 15
+   },
+   "chapters": {
+    "Electric Charges & Fields": 6,
+    "Electrostatic Potential & Capacitance": 4,
+    "Current Electricity": 7,
+    "Magnetism & Matter": 3,
+    "Moving Charges & Magnetism": 4,
+    "Electromagnetic Induction": 4,
+    "Alternating Current": 3,
+    "Electromagnetic Waves": 3,
+    "Semiconductor Electronics": 6,
+    "Ray Optics & Optical Instruments": 5,
+    "Wave Optics": 4,
+    "Dual Nature of Radiation & Matter": 4,
+    "Atoms": 4,
+    "Nuclei": 3
+   }
+  },
+  "chemistry": {
+   "n": 60,
+   "keys": {
+    "A": 15,
+    "B": 15,
+    "C": 15,
+    "D": 15
+   },
+   "types": {
+    "single_mcq": 44,
+    "match_the_following": 4,
+    "sequence_ordering": 6,
+    "statement_based": 6,
+    "assertion_reason": 0
+   },
+   "difficulty": {
+    "easy": 18,
+    "medium": 30,
+    "hard": 12
+   },
+   "chapters": {
+    "Haloalkanes & Haloarenes": 5,
+    "Alcohols, Phenols & Ethers": 5,
+    "Aldehydes, Ketones & Carboxylic Acids": 10,
+    "Amines": 9,
+    "Biomolecules": 6,
+    "Solutions": 5,
+    "Electrochemistry": 5,
+    "Chemical Kinetics": 5,
+    "d- and f-Block Elements": 5,
+    "Coordination Compounds": 5
+   }
+  },
+  "mathematics": {
+   "n": 60,
+   "keys": {
+    "A": 15,
+    "B": 15,
+    "C": 15,
+    "D": 15
+   },
+   "types": {
+    "single_mcq": 51,
+    "match_the_following": 6,
+    "statement_based": 3,
+    "sequence_ordering": 0,
+    "assertion_reason": 0
+   },
+   "difficulty": {
+    "easy": 15,
+    "medium": 30,
+    "hard": 15
+   },
+   "chapters": {
+    "Numbers, Quantification and Numerical Applications": 8,
+    "Financial Mathematics": 7,
+    "Probability Distributions": 5,
+    "Time Based Data": 3,
+    "Inferential Statistics": 3,
+    "Matrices": 5,
+    "Determinants": 3,
+    "Linear Programming": 5,
+    "Relations & Functions": 1,
+    "Continuity & Differentiability": 3,
+    "Application of Derivatives": 3,
+    "Integrals": 2,
+    "Application of Integrals": 3,
+    "Differential Equations": 3,
+    "Vector Algebra": 2,
+    "Three Dimensional Geometry": 2,
+    "Inverse Trigonometric Functions": 1,
+    "Probability": 1
+   }
+  },
+  "biology": {
+   "n": 60,
+   "keys": {
+    "A": 15,
+    "B": 15,
+    "C": 15,
+    "D": 15
+   },
+   "types": {
+    "single_mcq": 39,
+    "match_the_following": 3,
+    "sequence_ordering": 12,
+    "statement_based": 6,
+    "assertion_reason": 0
+   },
+   "difficulty": {
+    "easy": 18,
+    "medium": 30,
+    "hard": 12
+   },
+   "chapters": {
+    "Sexual Reproduction in Flowering Plants": 3,
+    "Human Reproduction": 5,
+    "Reproductive Health": 2,
+    "Principles of Inheritance & Variation": 3,
+    "Molecular Basis of Inheritance": 4,
+    "Evolution": 3,
+    "Human Health & Disease": 9,
+    "Microbes in Human Welfare": 7,
+    "Biotechnology Principles & Processes": 4,
+    "Biotechnology & its Applications": 9,
+    "Organisms & Populations": 4,
+    "Ecosystem": 4,
+    "Biodiversity & Conservation": 3
+   }
+  },
+  "general_test": {
+   "n": 60,
+   "keys": {
+    "A": 16,
+    "B": 14,
+    "C": 13,
+    "D": 17
+   },
+   "types": {
+    "single_mcq": 51,
+    "match_the_following": 2,
+    "sequence_ordering": 3,
+    "statement_based": 3,
+    "assertion_reason": 1
+   },
+   "difficulty": {
+    "easy": 20,
+    "medium": 28,
+    "hard": 12
+   },
+   "chapters": {
+    "General Knowledge": 17,
+    "General Science and Environment Literacy": 3,
+    "Current Affairs": 12,
+    "General Mental Ability": 5,
+    "Basic Mathematical Concepts": 3,
+    "Logical & Analytical Reasoning": 7,
+    "Numerical Ability": 5,
+    "Quantitative Reasoning": 5,
+    "Statistical Data Analysis": 3
+   }
+  }
+ },
+ "jobs": [
+  {
+   "job": "w4-phys-01",
+   "subject": "physics",
+   "subjectBank": "physics",
+   "title": "Physics A: Electrostatics, Current Electricity, Magnetism and Matter",
+   "count": 20,
+   "chapters": [
+    {
+     "chapter": "Electric Charges & Fields",
+     "unit": "Electrostatics",
+     "n": 6,
+     "set": 0
+    },
+    {
+     "chapter": "Electrostatic Potential & Capacitance",
+     "unit": "Electrostatics",
+     "n": 4,
+     "set": 0
+    },
+    {
+     "chapter": "Current Electricity",
+     "unit": "Current Electricity",
+     "n": 7,
+     "set": 0
+    },
+    {
+     "chapter": "Magnetism & Matter",
+     "unit": "Magnetic Effects of Current and Magnetism",
+     "n": 3,
+     "set": 0
+    }
+   ],
+   "types": {
+    "single_mcq": 16,
+    "match_the_following": 2,
+    "sequence_ordering": 1,
+    "statement_based": 1,
+    "assertion_reason": 0
+   },
+   "difficulty": {
+    "easy": 5,
+    "medium": 10,
+    "hard": 5
+   },
+   "keys": {
+    "A": 4,
+    "B": 4,
+    "C": 6,
+    "D": 6
+   },
+   "numericalMin": 10,
+   "sets": [],
+   "outPath": "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-wave4\\tmp\\authored-w4\\drafts\\physics\\w4-phys-01.json",
+   "allocationPath": "tmp/authored-w4/plan/allocations/w4-phys-01.txt",
+   "avoidPath": "tmp/authored-w4/plan/avoid/w4-phys-01.txt"
+  },
+  {
+   "job": "w4-phys-02",
+   "subject": "physics",
+   "subjectBank": "physics",
+   "title": "Physics B: Moving Charges, EMI, AC, EM Waves, Semiconductors",
+   "count": 20,
+   "chapters": [
+    {
+     "chapter": "Moving Charges & Magnetism",
+     "unit": "Magnetic Effects of Current and Magnetism",
+     "n": 4,
+     "set": 0
+    },
+    {
+     "chapter": "Electromagnetic Induction",
+     "unit": "Electromagnetic Induction and Alternating Currents",
+     "n": 4,
+     "set": 0
+    },
+    {
+     "chapter": "Alternating Current",
+     "unit": "Electromagnetic Induction and Alternating Currents",
+     "n": 3,
+     "set": 0
+    },
+    {
+     "chapter": "Electromagnetic Waves",
+     "unit": "Electromagnetic Waves",
+     "n": 3,
+     "set": 0
+    },
+    {
+     "chapter": "Semiconductor Electronics",
+     "unit": "Electronic Devices",
+     "n": 6,
+     "set": 0
+    }
+   ],
+   "types": {
+    "single_mcq": 16,
+    "match_the_following": 2,
+    "sequence_ordering": 1,
+    "statement_based": 1,
+    "assertion_reason": 0
+   },
+   "difficulty": {
+    "easy": 5,
+    "medium": 10,
+    "hard": 5
+   },
+   "keys": {
+    "A": 4,
+    "B": 5,
+    "C": 5,
+    "D": 6
+   },
+   "numericalMin": 9,
+   "sets": [],
+   "outPath": "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-wave4\\tmp\\authored-w4\\drafts\\physics\\w4-phys-02.json",
+   "allocationPath": "tmp/authored-w4/plan/allocations/w4-phys-02.txt",
+   "avoidPath": "tmp/authored-w4/plan/avoid/w4-phys-02.txt"
+  },
+  {
+   "job": "w4-phys-03",
+   "subject": "physics",
+   "subjectBank": "physics",
+   "title": "Physics C: Optics, Dual Nature, Atoms, Nuclei",
+   "count": 20,
+   "chapters": [
+    {
+     "chapter": "Ray Optics & Optical Instruments",
+     "unit": "Optics",
+     "n": 5,
+     "set": 0
+    },
+    {
+     "chapter": "Wave Optics",
+     "unit": "Optics",
+     "n": 4,
+     "set": 0
+    },
+    {
+     "chapter": "Dual Nature of Radiation & Matter",
+     "unit": "Dual Nature of Matter and Radiation",
+     "n": 4,
+     "set": 0
+    },
+    {
+     "chapter": "Atoms",
+     "unit": "Atoms and Nuclei",
+     "n": 4,
+     "set": 0
+    },
+    {
+     "chapter": "Nuclei",
+     "unit": "Atoms and Nuclei",
+     "n": 3,
+     "set": 0
+    }
+   ],
+   "types": {
+    "single_mcq": 16,
+    "match_the_following": 2,
+    "sequence_ordering": 1,
+    "statement_based": 1,
+    "assertion_reason": 0
+   },
+   "difficulty": {
+    "easy": 5,
+    "medium": 10,
+    "hard": 5
+   },
+   "keys": {
+    "A": 5,
+    "B": 4,
+    "C": 6,
+    "D": 5
+   },
+   "numericalMin": 10,
+   "sets": [],
+   "outPath": "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-wave4\\tmp\\authored-w4\\drafts\\physics\\w4-phys-03.json",
+   "allocationPath": "tmp/authored-w4/plan/allocations/w4-phys-03.txt",
+   "avoidPath": "tmp/authored-w4/plan/avoid/w4-phys-03.txt"
+  },
+  {
+   "job": "w4-chem-01",
+   "subject": "chemistry",
+   "subjectBank": "chemistry",
+   "title": "Chemistry A: Haloalkanes, Alcohols-Phenols-Ethers, Aldehydes-Ketones-Acids",
+   "count": 20,
+   "chapters": [
+    {
+     "chapter": "Haloalkanes & Haloarenes",
+     "unit": "Haloalkanes and Haloarenes",
+     "n": 5,
+     "set": 0
+    },
+    {
+     "chapter": "Alcohols, Phenols & Ethers",
+     "unit": "Alcohols, Phenols and Ethers",
+     "n": 5,
+     "set": 0
+    },
+    {
+     "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+     "unit": "Aldehydes, Ketones and Carboxylic Acids",
+     "n": 10,
+     "set": 0
+    }
+   ],
+   "types": {
+    "single_mcq": 15,
+    "match_the_following": 1,
+    "sequence_ordering": 2,
+    "statement_based": 2,
+    "assertion_reason": 0
+   },
+   "difficulty": {
+    "easy": 6,
+    "medium": 10,
+    "hard": 4
+   },
+   "keys": {
+    "A": 5,
+    "B": 5,
+    "C": 5,
+    "D": 5
+   },
+   "numericalMin": 0,
+   "sets": [],
+   "outPath": "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-wave4\\tmp\\authored-w4\\drafts\\chemistry\\w4-chem-01.json",
+   "allocationPath": "tmp/authored-w4/plan/allocations/w4-chem-01.txt",
+   "avoidPath": "tmp/authored-w4/plan/avoid/w4-chem-01.txt"
+  },
+  {
+   "job": "w4-chem-02",
+   "subject": "chemistry",
+   "subjectBank": "chemistry",
+   "title": "Chemistry B: Amines (with a case set), Biomolecules, Solutions",
+   "count": 20,
+   "chapters": [
+    {
+     "chapter": "Amines",
+     "unit": "Amines",
+     "n": 9,
+     "set": 5
+    },
+    {
+     "chapter": "Biomolecules",
+     "unit": "Biomolecules",
+     "n": 6,
+     "set": 0
+    },
+    {
+     "chapter": "Solutions",
+     "unit": "Solutions",
+     "n": 5,
+     "set": 0
+    }
+   ],
+   "types": {
+    "single_mcq": 14,
+    "match_the_following": 1,
+    "sequence_ordering": 2,
+    "statement_based": 3,
+    "assertion_reason": 0
+   },
+   "difficulty": {
+    "easy": 6,
+    "medium": 10,
+    "hard": 4
+   },
+   "keys": {
+    "A": 5,
+    "B": 5,
+    "C": 5,
+    "D": 5
+   },
+   "numericalMin": 3,
+   "sets": [
+    {
+     "chapter": "Amines",
+     "size": 5,
+     "words": "150 to 250",
+     "itemTypes": "4 single_mcq + 1 statement_based"
+    }
+   ],
+   "outPath": "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-wave4\\tmp\\authored-w4\\drafts\\chemistry\\w4-chem-02.json",
+   "allocationPath": "tmp/authored-w4/plan/allocations/w4-chem-02.txt",
+   "avoidPath": "tmp/authored-w4/plan/avoid/w4-chem-02.txt"
+  },
+  {
+   "job": "w4-chem-03",
+   "subject": "chemistry",
+   "subjectBank": "chemistry",
+   "title": "Chemistry C: Electrochemistry, Kinetics, d- and f-Block, Coordination",
+   "count": 20,
+   "chapters": [
+    {
+     "chapter": "Electrochemistry",
+     "unit": "Electrochemistry",
+     "n": 5,
+     "set": 0
+    },
+    {
+     "chapter": "Chemical Kinetics",
+     "unit": "Chemical Kinetics",
+     "n": 5,
+     "set": 0
+    },
+    {
+     "chapter": "d- and f-Block Elements",
+     "unit": "d and f Block Elements",
+     "n": 5,
+     "set": 0
+    },
+    {
+     "chapter": "Coordination Compounds",
+     "unit": "Coordination Compounds",
+     "n": 5,
+     "set": 0
+    }
+   ],
+   "types": {
+    "single_mcq": 15,
+    "match_the_following": 2,
+    "sequence_ordering": 2,
+    "statement_based": 1,
+    "assertion_reason": 0
+   },
+   "difficulty": {
+    "easy": 6,
+    "medium": 10,
+    "hard": 4
+   },
+   "keys": {
+    "A": 5,
+    "B": 5,
+    "C": 5,
+    "D": 5
+   },
+   "numericalMin": 6,
+   "sets": [],
+   "outPath": "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-wave4\\tmp\\authored-w4\\drafts\\chemistry\\w4-chem-03.json",
+   "allocationPath": "tmp/authored-w4/plan/allocations/w4-chem-03.txt",
+   "avoidPath": "tmp/authored-w4/plan/avoid/w4-chem-03.txt"
+  },
+  {
+   "job": "w4-math-01",
+   "subject": "mathematics",
+   "subjectBank": "mathematics",
+   "title": "Mathematics A: Applied Mathematics (Numbers, Financial Mathematics, Probability Distributions)",
+   "count": 20,
+   "chapters": [
+    {
+     "chapter": "Numbers, Quantification and Numerical Applications",
+     "unit": "Applied Mathematics",
+     "n": 8,
+     "set": 0
+    },
+    {
+     "chapter": "Financial Mathematics",
+     "unit": "Applied Mathematics",
+     "n": 7,
+     "set": 0
+    },
+    {
+     "chapter": "Probability Distributions",
+     "unit": "Applied Mathematics",
+     "n": 5,
+     "set": 0
+    }
+   ],
+   "types": {
+    "single_mcq": 17,
+    "match_the_following": 2,
+    "statement_based": 1,
+    "sequence_ordering": 0,
+    "assertion_reason": 0
+   },
+   "difficulty": {
+    "easy": 5,
+    "medium": 10,
+    "hard": 5
+   },
+   "keys": {
+    "A": 5,
+    "B": 5,
+    "C": 5,
+    "D": 5
+   },
+   "numericalMin": 16,
+   "sets": [],
+   "outPath": "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-wave4\\tmp\\authored-w4\\drafts\\mathematics\\w4-math-01.json",
+   "allocationPath": "tmp/authored-w4/plan/allocations/w4-math-01.txt",
+   "avoidPath": "tmp/authored-w4/plan/avoid/w4-math-01.txt"
+  },
+  {
+   "job": "w4-math-02",
+   "subject": "mathematics",
+   "subjectBank": "mathematics",
+   "title": "Mathematics B: Time Based Data, Inferential Statistics, Matrices, Determinants, Linear Programming, Relations",
+   "count": 20,
+   "chapters": [
+    {
+     "chapter": "Time Based Data",
+     "unit": "Applied Mathematics",
+     "n": 3,
+     "set": 0
+    },
+    {
+     "chapter": "Inferential Statistics",
+     "unit": "Applied Mathematics",
+     "n": 3,
+     "set": 0
+    },
+    {
+     "chapter": "Matrices",
+     "unit": "Algebra",
+     "n": 5,
+     "set": 0
+    },
+    {
+     "chapter": "Determinants",
+     "unit": "Algebra",
+     "n": 3,
+     "set": 0
+    },
+    {
+     "chapter": "Linear Programming",
+     "unit": "Linear Programming",
+     "n": 5,
+     "set": 0
+    },
+    {
+     "chapter": "Relations & Functions",
+     "unit": "Relations and Functions",
+     "n": 1,
+     "set": 0
+    }
+   ],
+   "types": {
+    "single_mcq": 17,
+    "match_the_following": 2,
+    "statement_based": 1,
+    "sequence_ordering": 0,
+    "assertion_reason": 0
+   },
+   "difficulty": {
+    "easy": 5,
+    "medium": 10,
+    "hard": 5
+   },
+   "keys": {
+    "A": 5,
+    "B": 5,
+    "C": 5,
+    "D": 5
+   },
+   "numericalMin": 15,
+   "sets": [],
+   "outPath": "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-wave4\\tmp\\authored-w4\\drafts\\mathematics\\w4-math-02.json",
+   "allocationPath": "tmp/authored-w4/plan/allocations/w4-math-02.txt",
+   "avoidPath": "tmp/authored-w4/plan/avoid/w4-math-02.txt"
+  },
+  {
+   "job": "w4-math-03",
+   "subject": "mathematics",
+   "subjectBank": "mathematics",
+   "title": "Mathematics C: Calculus, Vectors, 3D Geometry, Probability, Inverse Trigonometric Functions",
+   "count": 20,
+   "chapters": [
+    {
+     "chapter": "Continuity & Differentiability",
+     "unit": "Calculus",
+     "n": 3,
+     "set": 0
+    },
+    {
+     "chapter": "Application of Derivatives",
+     "unit": "Calculus",
+     "n": 3,
+     "set": 0
+    },
+    {
+     "chapter": "Integrals",
+     "unit": "Calculus",
+     "n": 2,
+     "set": 0
+    },
+    {
+     "chapter": "Application of Integrals",
+     "unit": "Calculus",
+     "n": 3,
+     "set": 0
+    },
+    {
+     "chapter": "Differential Equations",
+     "unit": "Calculus",
+     "n": 3,
+     "set": 0
+    },
+    {
+     "chapter": "Vector Algebra",
+     "unit": "Vectors and Three-Dimensional Geometry",
+     "n": 2,
+     "set": 0
+    },
+    {
+     "chapter": "Three Dimensional Geometry",
+     "unit": "Vectors and Three-Dimensional Geometry",
+     "n": 2,
+     "set": 0
+    },
+    {
+     "chapter": "Inverse Trigonometric Functions",
+     "unit": "Relations and Functions",
+     "n": 1,
+     "set": 0
+    },
+    {
+     "chapter": "Probability",
+     "unit": "Probability",
+     "n": 1,
+     "set": 0
+    }
+   ],
+   "types": {
+    "single_mcq": 17,
+    "match_the_following": 2,
+    "statement_based": 1,
+    "sequence_ordering": 0,
+    "assertion_reason": 0
+   },
+   "difficulty": {
+    "easy": 5,
+    "medium": 10,
+    "hard": 5
+   },
+   "keys": {
+    "A": 5,
+    "B": 5,
+    "C": 5,
+    "D": 5
+   },
+   "numericalMin": 15,
+   "sets": [],
+   "outPath": "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-wave4\\tmp\\authored-w4\\drafts\\mathematics\\w4-math-03.json",
+   "allocationPath": "tmp/authored-w4/plan/allocations/w4-math-03.txt",
+   "avoidPath": "tmp/authored-w4/plan/avoid/w4-math-03.txt"
+  },
+  {
+   "job": "w4-bio-01",
+   "subject": "biology",
+   "subjectBank": "biology",
+   "title": "Biology A: Reproduction and Genetics and Evolution",
+   "count": 20,
+   "chapters": [
+    {
+     "chapter": "Sexual Reproduction in Flowering Plants",
+     "unit": "Reproduction",
+     "n": 3,
+     "set": 0
+    },
+    {
+     "chapter": "Human Reproduction",
+     "unit": "Reproduction",
+     "n": 5,
+     "set": 0
+    },
+    {
+     "chapter": "Reproductive Health",
+     "unit": "Reproduction",
+     "n": 2,
+     "set": 0
+    },
+    {
+     "chapter": "Principles of Inheritance & Variation",
+     "unit": "Genetics and Evolution",
+     "n": 3,
+     "set": 0
+    },
+    {
+     "chapter": "Molecular Basis of Inheritance",
+     "unit": "Genetics and Evolution",
+     "n": 4,
+     "set": 0
+    },
+    {
+     "chapter": "Evolution",
+     "unit": "Genetics and Evolution",
+     "n": 3,
+     "set": 0
+    }
+   ],
+   "types": {
+    "single_mcq": 13,
+    "match_the_following": 1,
+    "sequence_ordering": 4,
+    "statement_based": 2,
+    "assertion_reason": 0
+   },
+   "difficulty": {
+    "easy": 6,
+    "medium": 10,
+    "hard": 4
+   },
+   "keys": {
+    "A": 5,
+    "B": 5,
+    "C": 5,
+    "D": 5
+   },
+   "numericalMin": 0,
+   "sets": [],
+   "outPath": "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-wave4\\tmp\\authored-w4\\drafts\\biology\\w4-bio-01.json",
+   "allocationPath": "tmp/authored-w4/plan/allocations/w4-bio-01.txt",
+   "avoidPath": "tmp/authored-w4/plan/avoid/w4-bio-01.txt"
+  },
+  {
+   "job": "w4-bio-02",
+   "subject": "biology",
+   "subjectBank": "biology",
+   "title": "Biology B: Human Health and Disease (with a case set), Microbes, Biotechnology Principles",
+   "count": 20,
+   "chapters": [
+    {
+     "chapter": "Human Health & Disease",
+     "unit": "Biology and Human Welfare",
+     "n": 9,
+     "set": 5
+    },
+    {
+     "chapter": "Microbes in Human Welfare",
+     "unit": "Biology and Human Welfare",
+     "n": 7,
+     "set": 0
+    },
+    {
+     "chapter": "Biotechnology Principles & Processes",
+     "unit": "Biotechnology and its Applications",
+     "n": 4,
+     "set": 0
+    }
+   ],
+   "types": {
+    "single_mcq": 13,
+    "match_the_following": 1,
+    "sequence_ordering": 4,
+    "statement_based": 2,
+    "assertion_reason": 0
+   },
+   "difficulty": {
+    "easy": 6,
+    "medium": 10,
+    "hard": 4
+   },
+   "keys": {
+    "A": 5,
+    "B": 5,
+    "C": 5,
+    "D": 5
+   },
+   "numericalMin": 0,
+   "sets": [
+    {
+     "chapter": "Human Health & Disease",
+     "size": 5,
+     "words": "150 to 250",
+     "itemTypes": "4 single_mcq + 1 statement_based"
+    }
+   ],
+   "outPath": "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-wave4\\tmp\\authored-w4\\drafts\\biology\\w4-bio-02.json",
+   "allocationPath": "tmp/authored-w4/plan/allocations/w4-bio-02.txt",
+   "avoidPath": "tmp/authored-w4/plan/avoid/w4-bio-02.txt"
+  },
+  {
+   "job": "w4-bio-03",
+   "subject": "biology",
+   "subjectBank": "biology",
+   "title": "Biology C: Biotechnology and its Applications (with a case set), Ecology",
+   "count": 20,
+   "chapters": [
+    {
+     "chapter": "Biotechnology & its Applications",
+     "unit": "Biotechnology and its Applications",
+     "n": 9,
+     "set": 5
+    },
+    {
+     "chapter": "Organisms & Populations",
+     "unit": "Ecology and Environment",
+     "n": 4,
+     "set": 0
+    },
+    {
+     "chapter": "Ecosystem",
+     "unit": "Ecology and Environment",
+     "n": 4,
+     "set": 0
+    },
+    {
+     "chapter": "Biodiversity & Conservation",
+     "unit": "Ecology and Environment",
+     "n": 3,
+     "set": 0
+    }
+   ],
+   "types": {
+    "single_mcq": 13,
+    "match_the_following": 1,
+    "sequence_ordering": 4,
+    "statement_based": 2,
+    "assertion_reason": 0
+   },
+   "difficulty": {
+    "easy": 6,
+    "medium": 10,
+    "hard": 4
+   },
+   "keys": {
+    "A": 5,
+    "B": 5,
+    "C": 5,
+    "D": 5
+   },
+   "numericalMin": 0,
+   "sets": [
+    {
+     "chapter": "Biotechnology & its Applications",
+     "size": 5,
+     "words": "150 to 250",
+     "itemTypes": "4 single_mcq + 1 statement_based"
+    }
+   ],
+   "outPath": "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-wave4\\tmp\\authored-w4\\drafts\\biology\\w4-bio-03.json",
+   "allocationPath": "tmp/authored-w4/plan/allocations/w4-bio-03.txt",
+   "avoidPath": "tmp/authored-w4/plan/avoid/w4-bio-03.txt"
+  },
+  {
+   "job": "w4-gat-01",
+   "subject": "general_test",
+   "subjectBank": "gat",
+   "title": "General Test A: General Knowledge and General Science and Environment Literacy",
+   "count": 20,
+   "chapters": [
+    {
+     "chapter": "General Knowledge",
+     "unit": "General Knowledge and Current Affairs",
+     "n": 17,
+     "set": 0
+    },
+    {
+     "chapter": "General Science and Environment Literacy",
+     "unit": "General Science and Environment Literacy",
+     "n": 3,
+     "set": 0
+    }
+   ],
+   "types": {
+    "single_mcq": 16,
+    "match_the_following": 1,
+    "sequence_ordering": 1,
+    "statement_based": 1,
+    "assertion_reason": 1
+   },
+   "difficulty": {
+    "easy": 8,
+    "medium": 9,
+    "hard": 3
+   },
+   "keys": {
+    "A": 6,
+    "B": 4,
+    "C": 4,
+    "D": 6
+   },
+   "numericalMin": 0,
+   "sets": [],
+   "outPath": "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-wave4\\tmp\\authored-w4\\drafts\\general_test\\w4-gat-01.json",
+   "allocationPath": "tmp/authored-w4/plan/allocations/w4-gat-01.txt",
+   "avoidPath": "tmp/authored-w4/plan/avoid/w4-gat-01.txt"
+  },
+  {
+   "job": "w4-gat-02",
+   "subject": "general_test",
+   "subjectBank": "gat",
+   "title": "General Test B: Current Affairs, General Mental Ability, Basic Mathematical Concepts",
+   "count": 20,
+   "chapters": [
+    {
+     "chapter": "Current Affairs",
+     "unit": "General Knowledge and Current Affairs",
+     "n": 12,
+     "set": 0
+    },
+    {
+     "chapter": "General Mental Ability",
+     "unit": "General Mental Ability",
+     "n": 5,
+     "set": 0
+    },
+    {
+     "chapter": "Basic Mathematical Concepts",
+     "unit": "Quantitative Reasoning",
+     "n": 3,
+     "set": 0
+    }
+   ],
+   "types": {
+    "single_mcq": 17,
+    "match_the_following": 1,
+    "sequence_ordering": 1,
+    "statement_based": 1,
+    "assertion_reason": 0
+   },
+   "difficulty": {
+    "easy": 7,
+    "medium": 9,
+    "hard": 4
+   },
+   "keys": {
+    "A": 5,
+    "B": 5,
+    "C": 4,
+    "D": 6
+   },
+   "numericalMin": 3,
+   "sets": [],
+   "outPath": "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-wave4\\tmp\\authored-w4\\drafts\\general_test\\w4-gat-02.json",
+   "allocationPath": "tmp/authored-w4/plan/allocations/w4-gat-02.txt",
+   "avoidPath": "tmp/authored-w4/plan/avoid/w4-gat-02.txt"
+  },
+  {
+   "job": "w4-gat-03",
+   "subject": "general_test",
+   "subjectBank": "gat",
+   "title": "General Test C: Logical Reasoning, Numerical Ability (caselet), Quantitative Reasoning, Statistical Data Analysis",
+   "count": 20,
+   "chapters": [
+    {
+     "chapter": "Logical & Analytical Reasoning",
+     "unit": "Logical and Analytical Reasoning",
+     "n": 7,
+     "set": 0
+    },
+    {
+     "chapter": "Numerical Ability",
+     "unit": "Numerical Ability",
+     "n": 5,
+     "set": 5
+    },
+    {
+     "chapter": "Quantitative Reasoning",
+     "unit": "Quantitative Reasoning",
+     "n": 5,
+     "set": 0
+    },
+    {
+     "chapter": "Statistical Data Analysis",
+     "unit": "Quantitative Reasoning",
+     "n": 3,
+     "set": 0
+    }
+   ],
+   "types": {
+    "single_mcq": 18,
+    "match_the_following": 0,
+    "sequence_ordering": 1,
+    "statement_based": 1,
+    "assertion_reason": 0
+   },
+   "difficulty": {
+    "easy": 5,
+    "medium": 10,
+    "hard": 5
+   },
+   "keys": {
+    "A": 5,
+    "B": 5,
+    "C": 5,
+    "D": 5
+   },
+   "numericalMin": 13,
+   "sets": [
+    {
+     "chapter": "Numerical Ability",
+     "size": 5,
+     "words": "90 to 160",
+     "itemTypes": "5 single_mcq"
+    }
+   ],
+   "outPath": "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-wave4\\tmp\\authored-w4\\drafts\\general_test\\w4-gat-03.json",
+   "allocationPath": "tmp/authored-w4/plan/allocations/w4-gat-03.txt",
+   "avoidPath": "tmp/authored-w4/plan/avoid/w4-gat-03.txt"
+  }
+ ]
+}

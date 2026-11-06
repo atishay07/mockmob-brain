@@ -1,0 +1,21 @@
+{
+  "id": "20261013T170324.567666Z-b88f22d4",
+  "observed_at": "2026-10-13T17:03:24.567666+00:00",
+  "agent": "claude-opus-5.5 (main orchestrator, relay session 782f4b0d on personal)",
+  "task": "MockMob 13 Oct night: second resume of the 4 workflows after session 44f0f9d4 died at about 22:01",
+  "status": "active",
+  "done": "Found all 4 workflows of session 44f0f9d4 stopped at about 22:01 with agents cut off and no error recorded; the app's Claude processes restarted at 22:15. Copied the 4 journal folders into 782f4b0d/subagents/workflows and resumed them from their journals:\n- App round 3, wf_09e4d5a9-88f, now task wre82kxmp\n- Logo B, wf_9e3e4eb5-aa5, now task wsja1c5hb\n- NTA engine fixes, wf_a9fd4cdc-f96, now task wkbt05fmf (engine r4.1 was already committed as ad2023c at 21:50; the Fix stage is re-running)\n- CUET-fit rest, wf_881d3ee1-6bc, now task wkmlz98h8, args.pairs = the 431 entries in mockmob-hotfix/tmp/nta-pass/fit/missing-pairs.json. 513 result files existed at the resume.\nThe live state at resume: mockmob-next has 549 uncommitted files from app round 3 and has not been verified. mockmob-hotfix has data/nta_engine.js modified (21:09) and nta_fit_scores.js plus scripts/nta-fit-merge.mjs untracked.",
+  "next": "1) When the logo fix and app round 3 finish: review, commit mockmob-next, build the real app (not the demo), and tell the owner to connect the phone after deleting all 3 old MockMob apps. 2) After the CUET-fit merge: run node --use-system-ca scripts/nta-engine-run.mjs in mockmob-hotfix myself (subagent production reads are blocked) and commit it. 3) Give the owner the 12 extra corrupted-connective ids and the 63 listed-order keys for a hold decision (mockmob-hotfix/tmp/nta-review-cleanup/CLEANUP-2026-10-13.md). 4) Start the next app round right after round 3. If this session also dies: copy the 4 journal folders from 782f4b0d/subagents/workflows into the new session's folder and resume with the same scriptPath, resumeFromRunId and args.",
+  "blockers": [
+    "Subagent production reads are blocked by the classifier; the orchestrator runs them",
+    "Both accounts are near their limits; default resets at 00:39 IST 14 Oct"
+  ],
+  "evidence": [
+    "mockmob-hotfix ad2023c, 2c6e5a1, 96ff500, a404f09, c1fc654",
+    "C:/Users/atish/.claude/projects/C--Users-atish-Desktop-mockmob-copy/782f4b0d-7661-4ff4-baf5-4cb5ba4dce77/subagents/workflows"
+  ],
+  "touched_files": [],
+  "verification": "Workflows relaunched (tool returned task ids); no output verified yet",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

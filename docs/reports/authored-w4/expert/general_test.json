@@ -1,0 +1,344 @@
+{
+ "kind": "authored_w4_expert_pass",
+ "source": "claude-authored-2026-10-17-w4",
+ "batch": "general_test",
+ "subject": "general_test",
+ "pass": "wave4 expert pass (CUET GAT subject expert; same procedure as waves 1, 2 and 3)",
+ "date": "2026-10-17",
+ "reviewer": "claude-sonnet-5-5 (expert pass, wave 4; every question solved independently before the key was read)",
+ "scope": "51 general_test questions accepted in docs/brain/reports/authored-w4/wave4-acceptance-2026-10-17.json (wave4-candidates-scored-2026-10-17.json). No model, network or database was used. Checked: own solution, key, explanation (facts and arithmetic, no option-position references), options (length, grammar, giveaways), unit and chapter against data/nta_blueprints/general_test.json, the 2026 CUET GAT syllabus (data/CUET 2026/general_test.pdf), syllabus reference, CUET level and time, difficulty label against the two quality judges and the reviewer's own solve, repeats against the wave 2 and 3 general_test finals, and the engine content gates (offline precheck on the final text).",
+ "counts": {
+  "ready": 39,
+  "repaired": 12,
+  "drop": 0,
+  "total": 51
+ },
+ "solver_visible_text_changed_ids": [],
+ "notes": [
+  "repaired: fields holds the new value of every changed field; the original value is in wave4-candidates-scored-2026-10-17.json. Every repair here touches only the explanation or the difficulty label, so stem and options are unchanged and the five blind solvers saw exactly the final text (no re-solve is asked for; same rule as wave 2 and 3 for explanation-only and label-only repairs).",
+  "The syllabus (data/CUET 2026/general_test.pdf) lists: General Knowledge, Current Affairs, General Mental Ability, Numerical Ability, Reasoning (simple application of basic mathematical concepts: quantitative arithmetic, algebra, geometry, mensuration, statistics), Logical and Analytical Reasoning, General Science and Environment Literacy. All 51 questions fall inside those lines, so there is no syllabus drop. Units and chapters match the blueprint names and stay within its maxima (General Knowledge 17 of 18, Current Affairs 4 of 12, General Mental Ability 5 of 8, Numerical Ability 5 of 8, Quantitative Reasoning chapter 5 of 9, Basic Mathematical Concepts 3 of 5, Statistical Data Analysis 3 of 4, Logical and Analytical Reasoning 6 of 14, General Science and Environment Literacy 3 of 4).",
+  "Difficulty after the label repairs: 19 easy, 29 medium, 3 hard of 51 (before: 16, 24, 11). Seven hard labels and three medium labels were moved on the judges' agreement (both judges said medium, or both said easy); one more hard label (f7f57f20) was lowered on the reviewer's own solve with the judges split. Hard labels kept where the judges split and the reviewer's own solve agreed with hard: fd963a54 (assertion-reason on the ozone and warming mix-up), a5193f36 (shadow and turn), 52f17738 (rectangle diagonal and perimeter). Hard stays far below the blueprint target (0.2); nothing was relabelled upwards to fill the quota.",
+  "The five Numerical Ability children (set w4-gat-03-set-1, the Meera stationery caselet, 116 words) are all ready, but the General Test blueprint has sets.count.target 0, so data/nta_engine.js counts them as passage_set_not_in_this_paper and never serves them in NTA mode (the acceptance-stage engine check lists the set as servable: false). They serve practice only, and the Numerical Ability unit (target 5) has no standalone item from wave 4.",
+  "Items with a two-judge quality mean below 8 that stay ready or repaired (not an expert concern, listed for the wave-3 publish rule of mean 8 or more): b5b28434, 95d55b69, 22d432e5, c0bb6d07, 9e401dbb, 7057b6a7, 299f290b, 07b12999, 97bd26d3, df0be1fe, a33daca3, beabf729. 52f17738 and f7f57f20 each carry one off_pattern_for_subject fit flag (fewer than two, so accepted); both were solved here and judged in pattern.",
+  "Shape twins kept, not dropped: the dictionary-order item 8b76423d (wave 3 had one with different words) and the compound-interest item f7f57f20 (wave 2 had a plain compound-interest item). The same-fact screen against the wave 2 and 3 general_test finals found no repeated fact.",
+  "Not changed although loosely worded: 299f290b says 'Surgeons lies wholly inside Doctors' (a set name used as a singular subject); changing it would alter solver-visible text for no change in meaning, so it stands."
+ ],
+ "verdicts": [
+  {
+   "id": "b5b28434-a2ac-4345-8c7c-d9030b0a747c",
+   "verdict": "ready",
+   "why": "Raman won the 1930 Physics Nobel for the scattering of light (key B); the photoelectric effect is Einstein's. Core Indian-laureate recall, easy."
+  },
+  {
+   "id": "1e33bc13-6ec6-4b68-99d1-f906be55b319",
+   "verdict": "ready",
+   "why": "Quo warranto asks by what authority a person holds a public office (key D); habeas corpus, mandamus and certiorari are explained correctly. Standard polity writ recall, medium."
+  },
+  {
+   "id": "8eafb85b-a7b8-4a32-b9e1-6b8df01d35a5",
+   "verdict": "ready",
+   "why": "Tapi flows west into the Arabian Sea (key A); Mahanadi, Krishna and Kaveri drain east. Standard rivers recall, easy."
+  },
+  {
+   "id": "d027bc08-53d8-4205-a32b-58abd2110ed5",
+   "verdict": "repaired",
+   "why": "Pairs: World Environment Day 5 June, World Health Day 7 April, Women's Day 8 March, Human Rights Day 10 December, so key C is right. The explanation's last sentence was inaccurate (swapping 5 June with 7 April does not mix environment and health days with 'days of rights'); it now says exactly which two dates each wrong option swaps, without position references.",
+   "repair": "explanation changed; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "explanation": "World Environment Day falls on 5 June, World Health Day on 7 April, International Women's Day on 8 March and Human Rights Day on 10 December, the date on which the UN General Assembly adopted the Universal Declaration of Human Rights in 1948. Each wrong mapping swaps the dates of two days: one swaps 8 March with 7 April, one swaps 5 June with 7 April, and one swaps 8 March with 10 December."
+   }
+  },
+  {
+   "id": "95d55b69-54f8-42c8-bf57-51841b333358",
+   "verdict": "repaired",
+   "why": "Article 109(5): a Money Bill not returned by the Rajya Sabha within 14 days is deemed passed in the form the Lok Sabha passed it (key A); the joint sitting under Article 108 does not apply to Money Bills. Pure one-fact recall, and both judges rated it medium, so the label is lowered from hard.",
+   "repair": "difficulty_label hard -> medium; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "34d1af78-a46f-4ece-af95-77767c117d69",
+   "verdict": "ready",
+   "why": "Dayanand Saraswati founded the Arya Samaj in 1875 (key D); Brahmo Samaj, Ramakrishna Mission and Vidyasagar are placed correctly in the explanation. Core reform-movement recall, easy."
+  },
+  {
+   "id": "22d432e5-7aae-49c8-81aa-836232860258",
+   "verdict": "repaired",
+   "why": "A true (Chilika is a brackish lagoon), B true, C false (Tropic of Cancer does not cross Odisha), D true, so (A), (B) and (D) only, key B. Four short geography facts and both judges rated it medium, so the label is lowered from hard.",
+   "repair": "difficulty_label hard -> medium; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "a84dd64b-cdcf-4aa5-9fce-284f3872474e",
+   "verdict": "repaired",
+   "why": "The Thomas Cup is the men's team championship of badminton (key C); India's first win in 2022 and the Uber, Swaythling and Davis Cups are stated correctly. Both judges rated it easy, so the label is lowered from medium.",
+   "repair": "difficulty_label medium -> easy; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "easy"
+   }
+  },
+  {
+   "id": "ceb2f733-638d-4ca9-9e67-7cacc1c1cbf4",
+   "verdict": "ready",
+   "why": "The repo rate is the rate at which the RBI lends short-term funds to banks against government securities (key D); reverse repo, CRR and SLR are explained correctly. Standard NCERT definition item, easy."
+  },
+  {
+   "id": "b4607a32-bd4a-49c6-8c8f-18241ba6a26d",
+   "verdict": "ready",
+   "why": "Humayun 1530, Akbar 1556, Jahangir 1605, Shah Jahan 1628, so (B), (C), (D), (A), key A; the key is not the listed order (A)-(D). Standard chronology item, medium."
+  },
+  {
+   "id": "da5af9e8-7676-41eb-9941-e2ef773bdf65",
+   "verdict": "ready",
+   "why": "Kalhana wrote the Rajatarangini, a twelfth-century chronicle of Kashmir (key D); Banabhatta (Harshacharita), Kalidasa and Vishakhadatta (Mudrarakshasa) are plausible, correct distractors. Medium recall."
+  },
+  {
+   "id": "65824eee-c3c0-48cf-a105-ecaefb1188cd",
+   "verdict": "ready",
+   "why": "The Security Council has five permanent members with veto (key C); the General Assembly has one vote each and no veto. Core UN-organs recall, easy."
+  },
+  {
+   "id": "62c71845-ce4a-4284-8d4a-7a7e867a549a",
+   "verdict": "repaired",
+   "why": "Hampi was the capital of the Vijayanagara Empire (key A); founding in 1336 and the sack after Talikota in 1565 are correct, and Halebidu and Belur are Hoysala sites. Both judges rated it easy, so the label is lowered from medium.",
+   "repair": "difficulty_label medium -> easy; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "easy"
+   }
+  },
+  {
+   "id": "d8b5523a-c238-437e-9304-f14c999ef06f",
+   "verdict": "ready",
+   "why": "Article 60: the President takes the oath before the Chief Justice of India or the senior-most available judge (key B); the Vice-President has no role. Standard polity recall, medium."
+  },
+  {
+   "id": "27227f87-6ced-4f0c-ba60-30484c8328e4",
+   "verdict": "ready",
+   "why": "Madhubani painting is from Mithila, Bihar (key D); Warli (Maharashtra), Pattachitra (Odisha) and Phad (Rajasthan) are correctly assigned in the explanation. Easy art-and-culture recall."
+  },
+  {
+   "id": "12158eee-8b40-46e8-a7c1-f41854ac32e2",
+   "verdict": "ready",
+   "why": "Mars Orbiter Mission reached Mars orbit on 24 September 2014 (key C); 2013 is the launch and 2008 is Chandrayaan-1, both stated correctly. One fit judge gave 6 for a dated detail but the fact is a standard science-milestone item; the fit median is 8."
+  },
+  {
+   "id": "c0bb6d07-1e8f-43fc-8b57-b69826bad86c",
+   "verdict": "ready",
+   "why": "Kilimanjaro, about 5,895 m, is in Tanzania (key A); Mount Kenya is a different mountain, as the explanation says. Direct world-geography recall, easy."
+  },
+  {
+   "id": "9e401dbb-3c92-489e-a692-289d4c858c38",
+   "verdict": "ready",
+   "why": "Vitamin D is made in the skin in sunlight (key B); vitamin K is made by gut bacteria, as stated. Correct unit (General Science and Environment Literacy), easy."
+  },
+  {
+   "id": "74583f6d-5b1e-4ab4-9c9c-7e816edd8f14",
+   "verdict": "ready",
+   "why": "The Ramsar Convention (1971) concerns wetlands (key A); Basel (hazardous waste), Kyoto (greenhouse gases) and Montreal (ozone) are correctly described. Fits General Science and Environment Literacy, medium."
+  },
+  {
+   "id": "fd963a54-4700-44b6-b8b5-07b491494bf2",
+   "verdict": "ready",
+   "why": "A is false (carbon dioxide and other greenhouse gases, not ozone loss, drive global warming), R is true (CFCs are both ozone-depleting and greenhouse gases), so A false, R true, key D. The judges split between hard and medium; the common ozone/warming mix-up keeps hard defensible, so the label stays."
+  },
+  {
+   "id": "07b12999-6fa2-45e5-8de5-06234037091e",
+   "verdict": "ready",
+   "why": "The African Union joined the G20 as a permanent member at the September 2023 New Delhi summit (key B); ASEAN, Arab League and Commonwealth are not members. Standard current-affairs item, easy."
+  },
+  {
+   "id": "8626d182-95fe-44ca-a70a-2a8203b4e55e",
+   "verdict": "ready",
+   "why": "The 106th Amendment (Nari Shakti Vandan Adhiniyam, 2023) reserves one-third of seats for women in the Lok Sabha and State Legislative Assemblies, not in the Rajya Sabha or Councils (key D). Medium."
+  },
+  {
+   "id": "b1366004-d26e-490a-9191-a5fa84f02537",
+   "verdict": "ready",
+   "why": "(A) true, (B) true, (C) false (the Sakshya Adhiniyam replaces the Indian Evidence Act, not the IPC), (D) true (1 July 2024), so (A), (B) and (D) only, key C. Standard statement item, medium."
+  },
+  {
+   "id": "29021b9a-f0fc-4108-81fb-32e7a8034824",
+   "verdict": "ready",
+   "why": "A majority in 543 seats needs 272; 272 - 240 = 32 (key C). The distractors 31 (271 as the mark) and 303 (seats not won) are real slips. Current-affairs fact plus one subtraction, medium."
+  },
+  {
+   "id": "7057b6a7-b107-49d6-99aa-297fe4687e3c",
+   "verdict": "ready",
+   "why": "A puppy is the young of a dog, a lamb the young of a sheep (key B); kid, fawn and calf belong to goat, deer and cow. Classic analogy, easy."
+  },
+  {
+   "id": "1d3bd0b5-6b6e-4fd0-bd61-290ebfaf79ed",
+   "verdict": "ready",
+   "why": "R > P > Q and Q > T > S give R, P, Q, T, S from heaviest to lightest, so the second lightest is T (key D). Clean one-chain ranking, medium."
+  },
+  {
+   "id": "8b76423d-f6c6-47ee-8c20-69a4cdf9adab",
+   "verdict": "ready",
+   "why": "Plain, Plane, Planet, Plant is the dictionary order, so (C), (D), (A), (B), key C (not the listed order). Only a shape twin of the wave-3 dictionary item, with different words; kept."
+  },
+  {
+   "id": "a5193f36-d325-4778-a34d-d84c80c9df12",
+   "verdict": "ready",
+   "why": "Sunrise shadow falls west; shadow on his left means he faces north; a 90 degree clockwise turn gives east (key A). Two direction inferences with a trap, the judges split between hard and medium, so the hard label stays."
+  },
+  {
+   "id": "4d5c33d3-dfc1-4b51-9295-fcce20d6674c",
+   "verdict": "ready",
+   "why": "The son of my mother's only brother is a maternal cousin (key D). Standard blood-relation item with a one-link statement, easy."
+  },
+  {
+   "id": "0a76e5e8-c80c-42fe-8e89-05028b07cada",
+   "verdict": "ready",
+   "why": "3k and 5k with 5k - 3k = 12 gives k = 6 and a total of 48 (key B). One-step ratio item; the distractors 18, 30 and 96 are real slips. Medium."
+  },
+  {
+   "id": "52f17738-6e30-4fb6-9a77-21dbf32faded",
+   "verdict": "ready",
+   "why": "l + b = 17 and l squared + b squared = 169 give 2lb = 120 and area 60 (key C); sides 12 and 5 check. One fit judge flagged it as off-pattern for GAT, but it is a mensuration item in the syllabus line 'mensuration' and the 5-12-13 triple solves it fast, estimated time about 75 s. Hard stays as labelled."
+  },
+  {
+   "id": "f7f57f20-8388-4720-a1c1-f41ca3da3e22",
+   "verdict": "repaired",
+   "why": "P = 1,000 from the amount under simple interest, CI = 1,210 - 1,000 = 210 (key A); distractors are real slips. A standard two-step simple/compound interest item, so the label is lowered from hard to medium. One fit judge flagged off-pattern but SI and CI are named arithmetic in the syllabus and the time is about 80 s.",
+   "repair": "difficulty_label hard -> medium; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "299f290b-fb8a-4698-9c32-75261ecc9305",
+   "verdict": "ready",
+   "why": "Every surgeon is a doctor, so Surgeons lie inside Doctors, and Women cut across both (key C). The text-only description replaces the usual figure and is workable; 'Surgeons lies' is slightly loose grammar but unambiguous. Easy."
+  },
+  {
+   "id": "5a9bd18f-202f-4dec-a54e-b925fc90cc8a",
+   "verdict": "ready",
+   "why": "8 delegates, each pair once: (8 x 7) / 2 = 28 (key A); 56 counts each handshake twice and 36 is 1 + ... + 8. Standard counting item, easy."
+  },
+  {
+   "id": "f57d3a91-3ff8-4608-9ccf-8568eed19651",
+   "verdict": "repaired",
+   "why": "Only Lata is truthful: Meena cannot be truthful (that would make Kabir's true statement about Lata contradict his being a liar), so Meena lies, Lata is truthful, Kabir lies; key D is unique. Both judges rated it medium, so the label is lowered from hard.",
+   "repair": "difficulty_label hard -> medium; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "df5ce74e-79ae-4a89-adf9-2b39c6e49a1b",
+   "verdict": "ready",
+   "why": "Chetan 3, Bela 2, Divya 4, Esha not 1 so Arun 1 and Esha 5; after Arun and Chetan swap, Arun holds chair 3, just before Divya (key B). Unique, medium."
+  },
+  {
+   "id": "f27d1fb8-9357-4012-859e-240380f07967",
+   "verdict": "ready",
+   "why": "Weigh 3 against 3, then at most one more weighing among 3 or 2 coins: 2 weighings (key D); splitting 4 against 4 needs 3. Classic puzzle, medium."
+  },
+  {
+   "id": "978b5a0b-af20-4e18-a7cd-081298cce2a4",
+   "verdict": "repaired",
+   "why": "Esha, Farid, Gauri, Dev is the only order (key B). Two defects: the explanation's argument said that Gauri would have to be earliest if the pair is not first, which omits the case where Dev is earliest (ruled out because Gauri arrives before Dev); the explanation now covers both. Both judges rated it medium, so the label is lowered from hard.",
+   "repair": "explanation changed, difficulty_label hard -> medium; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "explanation": "Esha and Farid arrive one after the other, Esha first, and Gauri arrives before Dev but not first. If the pair did not come first, the earliest arrival would be Gauri or Dev. Gauri is ruled out as the earliest, and Dev cannot be the earliest because Gauri arrives before him. So Esha and Farid come first, then Gauri, then Dev: Esha, Farid, Gauri, Dev. Putting Dev before Gauri breaks the second clue.",
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "97bd26d3-c7f6-45e4-ae85-715b3aeed22b",
+   "verdict": "ready",
+   "why": "Cost per notebook 20,000 / 400 = 50, plus 40 per cent = Rs 70 (key A). Passage case, 116 words; note the GAT blueprint has no sets (count target 0), so the five children of this caselet are valid for practice but the NTA engine does not serve them."
+  },
+  {
+   "id": "a832f03c-904d-4957-827c-062a393b86d9",
+   "verdict": "repaired",
+   "why": "SI = 20,000 x 12 x (1/2) / 100 = Rs 1,200 (key C); Rs 2,400 and Rs 14,400 are the year and month slips. One formula, both judges rated it easy, so the label is lowered from medium. Same caselet as the other four children (not served in NTA mode, see note).",
+   "repair": "difficulty_label medium -> easy; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "easy"
+   }
+  },
+  {
+   "id": "eb8cf251-1014-400f-bbbd-4c32aeca9482",
+   "verdict": "ready",
+   "why": "0.9 x 70 = 63; 200 x 63 + 200 x 70 = 26,600 (key D). Medium, same caselet (practice only in the engine)."
+  },
+  {
+   "id": "ea0c3adb-a6ff-4438-a863-7f937512c34b",
+   "verdict": "ready",
+   "why": "Profit = 26,600 - 20,000 = 6,600, which is 33 per cent of the Rs 20,000 cost of the notebooks (key B); the stem says 'on the cost of the 400 notebooks', so the loan interest is not part of that cost. Medium, same caselet."
+  },
+  {
+   "id": "dca1d6ab-a689-4b0d-aa17-43b888be3348",
+   "verdict": "repaired",
+   "why": "Marked price 70 x 1.10 = 77, festival price 69.30, profit 19.30 (key C); the rise and discount do not cancel. Two chained percentage steps and both judges rated it medium, so the label is lowered from hard. Same caselet (practice only in the engine).",
+   "repair": "difficulty_label hard -> medium; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "b8c38f43-06fc-4321-9e75-a99d5f40ac70",
+   "verdict": "ready",
+   "why": "LCM(6, 8, 10) = 120, so the numbers are 120k + 3 and the smallest above 100 is 123 (key D); 117 fails with 8 and 120 leaves remainder 0. Medium."
+  },
+  {
+   "id": "5153b673-ed1c-49d8-b75c-9f0d16943838",
+   "verdict": "ready",
+   "why": "120 worker-days; 30 done in 5 days; 90 left for 9 workers is 10 days; total 15 (key A). Distractors are real slips. Medium."
+  },
+  {
+   "id": "9284a09e-a75f-4a93-89b2-7e5980be0446",
+   "verdict": "repaired",
+   "why": "Costs 1,000 and 1,500, total 2,500 against 2,400: a loss of Rs 100 (key C); 'no profit no loss' and 96 are real traps. A standard profit-and-loss item and both judges rated it medium, so the label is lowered from hard.",
+   "repair": "difficulty_label hard -> medium; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "b0914cae-cd5b-4bc1-bd14-d56ad9b7ff6d",
+   "verdict": "ready",
+   "why": "Margin 10 per cent of valid votes = 1,200, so 12,000 (key B); 6,600 and 24,000 are real slips. Medium, one-step percentage."
+  },
+  {
+   "id": "df0be1fe-22a9-4421-b4b8-db273379d6b7",
+   "verdict": "ready",
+   "why": "Four walls: 2 x (8 + 6) x 3 = 84 square metres, cost 84 x 15 = Rs 1,260 (key D); ceiling and volume slips are the distractors. Easy."
+  },
+  {
+   "id": "a33daca3-5daa-41d3-9ff8-1bfbcd64f9bc",
+   "verdict": "ready",
+   "why": "54 / 360 = 15 per cent of Rs 1,20,000 = Rs 18,000 (key B). Pie-chart item described in words, so no figure is missing. Easy."
+  },
+  {
+   "id": "beabf729-d7d5-45c9-abe1-4716d75a9f4d",
+   "verdict": "ready",
+   "why": "Fall of 1,800 on the earlier figure 9,000 is 20 per cent (key C); 25 and 36 per cent use the wrong base. Bar chart given in the stem, so nothing is missing. Medium."
+  },
+  {
+   "id": "7128b424-83df-4243-b086-2d2e0c327928",
+   "verdict": "repaired",
+   "why": "Total 90, smallest 30 - 22 = 8, middle three 90 - 30 - 8 = 52 (key A). Two linked steps and both judges rated it medium, so the label is lowered from hard.",
+   "repair": "difficulty_label hard -> medium; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "medium"
+   }
+  }
+ ]
+}

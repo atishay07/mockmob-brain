@@ -1,0 +1,32 @@
+{
+  "id": "20261010T002102.673331Z-8f1da271",
+  "observed_at": "2026-10-10T00:21:02.674330+00:00",
+  "agent": "claude-opus-root",
+  "task": "V716 final pass: integration, freeze, fresh qualification",
+  "status": "paused",
+  "done": "Closed all V716 handoff integration gaps locally with tests (atomic signed-row SQLite writer, receipt-only recovery, real column shape, 6/7 retrieval, dispute/family/group invalidation, registration bound to real freeze/cases/custody, final execution freeze). Native diagnostics found and fixed a critical shared-schema-node bug, policy over-strictness, missing author format contract, and missing Flex fallback; a root mid-run edit caused 6 duplicate Luna solves (recovered receipt-only, unsent rows cancelled at zero) and is now prevented by per-operation contract pinning. Final freeze d807498d...; one fresh 32-case independently keyed qualification (qualification-fresh32b) FAILED: 0/12 false accepts, valid 16/20 (80%<85%), Business Studies 3/5. 3 misses = justified audit rejections of root-authored valid-control explanation claims (Haiku custody missed them); 1 = validator option-status inversion on a NOT stem (policy mislabels as academic). Real signed records round-trip persistence with only the release missing.",
+  "next": "Owner decision: authorise minimal V7.17 (negative-stem answer-status semantics; self-contradiction -> review_incomplete; exemplar-anchored difficulty since reviewers rate everything Easy) + new excerpt-strict fresh benchmark + one bounded qualification. Pilot40 runner/builder and local publication proof tool are ready; staging migration is a proposal only. See final-pass-v716/NEXT-STEPS.md.",
+  "blockers": [
+    "Qualification failed; pilot/release/staging require a qualified profile and owner decision on a next bounded study."
+  ],
+  "evidence": [
+    "final-pass-v716/V716-QUALIFICATION-RESULT-20261010.md",
+    "final-pass-v716/qualification-fresh32b/summary.json (decision failed, 32/32 terminal, USD0.192796, 0 held)",
+    "final-pass-v716/V716-NATIVE-DIAGNOSTIC-FINDINGS-20261010.md",
+    "final-pass-v716/qualification-fresh32b/REAL-RECORD-PERSISTENCE-ROUNDTRIP.json",
+    "V716 focused suites 40/40; factory 1051/1051; recovery 40/40; payment/question/practice 61/61"
+  ],
+  "touched_files": [
+    "scripts/pipeline/lib/{scorecardPolicy,scorecardPrompt,scorecardReview,verify,generationPrompt,practiceSelection,campaignSession,publicationBridge}V716.mjs",
+    "scripts/pipeline/lib/publicationStoreV716Local.mjs",
+    "scripts/pipeline/lib/executionFreezeV716.mjs",
+    "scripts/pipeline/tools/{runQualificationV716,runPilotV716,recoverReceiptsV716,freezeV716,buildFreshBenchmarkV716,proveLocalPublicationV716}.mjs",
+    "scripts/pipeline/tests/v716{ScorecardPolicy,PublicationPersistence,RegistrationFreeze,SessionPublicationBridge.smoke}.test.mjs",
+    "docs/brain/STATUS.md",
+    "docs/brain/README.md",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v716/"
+  ],
+  "verification": "Frozen study outcome unchanged; no relabel/rescue. No production, staging, deployment or migration action.",
+  "cost_and_pending_requests": "This session USD0.271963 settled, 0 held. Ledger: settled USD39.078107 + held USD0.821324 (65 historic) = USD39.899431; remaining USD10.100569 under USD50. No active rows/worker.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

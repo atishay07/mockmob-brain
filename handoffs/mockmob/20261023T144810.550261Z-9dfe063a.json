@@ -1,0 +1,21 @@
+{
+  "id": "20261023T144810.550261Z-9dfe063a",
+  "observed_at": "2026-10-23T14:48:10.550261+00:00",
+  "agent": "claude-opus-5.5 session b448f889 (promo film orchestrator)",
+  "task": "MockMob 9:16 Reel: owner rejected candidate 2; rebuilding the basics (v8 opening full-screen, v8-level sound)",
+  "status": "active",
+  "done": "Owner 8:30 pm: candidate 2 \"not even at [v8's] level\": abrupt start, half-empty frames with a crop-like line, sound/music/effects/voice below v8, bed cut before \"Stuck at midnight\", CUET over-emphasised, end sound weaker, good parts removed, not optimized for mobile; after 20 s mostly good. Recorded verbatim in the ledger. Stopped wave 3c/3d. DIRECTOR REEL BASICS written (NOTES): v8 opening rebuilt full-screen (open, reveal, question + aha), full-screen rule (text y 270-1500, no ledge line), sound back to v8 standard (one continuous bed, v8 SFX flow, v8 end sound), voice = v8's approved takes for the preview (colleges line = v8 wording, no CUET). Workflow tools/reel916-orch/basics.js launched 8:45 pm (wf_c3ab6707-5d6).",
+  "next": "Basics workflow: plumb (new front chapters + v8 voice folder) || open || reveal || question+aha || sound, each checked; sound sync; real preview 0 to the end of aha; owner-lens judge side by side with v8; then send the preview; then a full-screen pass on the later chapters + the rest after his feedback. Open decision for the owner: re-voice the free-account v8 lines on the paid account matched to v8, or post with v8's takes.",
+  "blockers": [
+    "owner feedback on the v2 preview"
+  ],
+  "evidence": [
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\OWNER-LEDGER.md (23 Oct 8:30 pm)",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\NOTES.md (DIRECTOR REEL BASICS)",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\reel916-orch\\basics.js"
+  ],
+  "touched_files": [],
+  "verification": "8:15 pm: stopped runs left no process or lock.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "20261019T140527.805478Z-9813741d",
+  "observed_at": "2026-10-19T14:05:27.805478+00:00",
+  "agent": "R7 mob-v3 server (Claude)",
+  "task": "Mob v3 server Phase A: migrations, routes, tests, staging dry-run",
+  "status": "complete",
+  "done": "Branch web/1019pm-mob-v3 head b18a199a (wt-1019pm-mobsrv, from 4af47969): 4 v3 migrations + undo, v3 service/routes behind MOB_V3_ENABLED, 20 routes, rate limits, deletion steps, 30 contract fixtures in data/tests/fixtures/mob_v3. Staging onwkqxmjqjrhfbjjdydu: applied, smoke-tested in a rolled-back txn, undone to the exact pre-v3 hash, re-applied (now ON v3, bodies identical to repo).",
+  "next": "Main session: owner yes for the production migration (order core, games, chains, realtime, then MOB_V3_ENABLED). Open: the weekly paper holding answers until close (C-dec 2 item 1) was not built; Phase B room routes; seed script; admin metrics.",
+  "blockers": [],
+  "evidence": [
+    "mockmob-next/tmp/walk-1019/mob-v3/MOB-SERVER-A.md",
+    "wt-1019pm-mobsrv/docs/brain/MOB-V3-SERVER-A-DRYRUN-1019.md"
+  ],
+  "touched_files": [
+    "supabase/migrations/20261020100*_mob_v3_*.sql",
+    "supabase/undo/20261020100*_mob_v3_*.undo.sql",
+    "src/lib/mob/*",
+    "src/lib/chain/chain.mjs",
+    "src/lib/server/mob/*",
+    "src/lib/server/chain.js",
+    "src/app/api/mob/**",
+    "src/app/api/me/chain/**",
+    "data/tests/mob_v3*.test.mjs"
+  ],
+  "verification": "test:mob 147/147, recovery 610 pass 0 fail, billing 349/349, auth 110/110, app 841 pass 0 fail; lint clean; next build --webpack ok (turbopack panics on the node_modules junction)",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "20261015T065442.801434Z-a9cf878e",
+  "observed_at": "2026-10-15T06:54:42.801434+00:00",
+  "agent": "claude-opus-5.5 subagent (feature-wave planner, session cc0bf1af)",
+  "task": "Plan the 15 Oct feature wave: 14 packets (6 features, 4 motion, 3 imagery, 1 contract) across app (wt-phase2) and website (wt-web-ia)",
+  "status": "complete",
+  "done": "Wrote mockmob-next/tmp/feature-wave-1015/PLAN.md. Wave 1: K0 contract (glossary names, routes, slot placeholders, paper_pattern module and route, two migrations revise_cards and mistake_notes to staging, next.config viewTransition and AVIF), M2 living objects plus object flight, I3 one Mobi (interim poses, rig export, Canvas renderer behind mobiRig flag), M1 one motion language (shared tokens, web page transitions, haptic grammar, number memory), I2 13 new subject objects plus 2x and web OG/icons, I1 sharp scenes plus 4 new vignettes on app and web. Wave 2: F1 Revise (free, 10 a day, no attempts row, server-graded), F2 Your chapters (paper-weight map), F3 Paper formats (classifier plus format drill, quote unchanged), F5 Rule book plus traps, F4 Your reasons plus Left blank, M3 sheets recede plus glass note, M4 Learn feedback, F6 Week in review. Disjoint ownership map in section 5.",
+  "next": "Orchestrator: confirm preconditions (wf_e3d9b9c8-5f6 committed in wt-phase2, IA9 committed on web/ia-1015 with attempt_ledger.js), then launch wave 1 (6 builders), wave 2 as dependencies commit. Wave close: apply the two migrations to production under the 14 Oct standing authority, suites once, one capture pack, merge, no push. Raise owner decisions in PLAN section 6.",
+  "blockers": [
+    "Precondition: wt-phase2 has 93 uncommitted paths from the recording fixes; wt-web-ia lacks data/attempt_ledger.js until IA9 merges web/alive-1015"
+  ],
+  "evidence": [
+    "Production SELECT 15 Oct: user_question_progress 33,920 rows; 740 users with a latest-wrong answer; 518 with 5 or more; attempts 1,815; study_card_states has an FK only to users",
+    "Live tree checks: EmblemKind used only in lib/core/art; TonightMove.jsx draws any move generically; preview registry is one file per packet; /api/subjects has no [id] route yet; next.config has no /practice rewrite yet in wt-web-ia"
+  ],
+  "touched_files": [
+    "mockmob-next/tmp/feature-wave-1015/PLAN.md"
+  ],
+  "verification": "Read-only planning run; paths verified to exist with ls/grep in wt-phase2 and wt-web-ia; no builds or browsers.",
+  "cost_and_pending_requests": "No paid model calls. Image generation in I1/I2 uses Codex on the owner's ChatGPT login (no API spend).",
+  "confidence": "agent-reported; verify evidence before acting"
+}

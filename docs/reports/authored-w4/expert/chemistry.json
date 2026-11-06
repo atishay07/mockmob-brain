@@ -1,0 +1,368 @@
+{
+  "batch": "chemistry",
+  "subject": "chemistry",
+  "pass": "wave4 expert pass (Sonnet-equivalent CUET expert review, same procedure as waves 1 to 3)",
+  "date": "2026-10-17",
+  "scope": "All 57 accepted chemistry questions of wave4-candidates-scored-2026-10-17.json (all engine-eligible per the acceptance engineer). Every question was solved independently first (numericals recomputed); then key, explanation, option length and grammar giveaways, wrong-direction traps, unit and chapter against data/nta_blueprints/chemistry.json (every pair verified by script), the 2026 CUET Chemistry syllabus PDF (data/CUET 2026/chemistry.pdf), ncert_ref, CUET level and time, and the content gates (hedge words, source-citing, missing figures, passage dependence) were checked. NCERT itself was not available (no network); the NCERT check is against the reviewer's knowledge of the current rationalised Class 12 Chemistry books (Part I Ch 1 to 5, Part II Ch 6 to 10). No model call, database or network was used.",
+  "source_file": "docs/brain/reports/authored-w4/wave4-candidates-scored-2026-10-17.json",
+  "counts": {
+    "ready": 43,
+    "repaired": 14,
+    "drop": 0,
+    "total": 57
+  },
+  "solver_visible_text_changed": [
+    "01d16929-b579-401b-9a88-81ff84f82232"
+  ],
+  "notes": [
+    "Verdict \"drop\" is not publishable; none of the 57 needed it. No syllabus drops: every topic maps to a line of the 2026 syllabus (Wurtz-Fittig and Fittig under chemical properties of haloalkanes and haloarenes, methanol poisoning under commercially important alcohols, azeotropes as an elementary idea, spin-only moments under CFT magnetic properties, hormones and vitamins under Biomolecules).",
+    "Systemic: 14 refs (all 8 Amines items and all 6 Biomolecules items) carry old-edition numbering (\"Ch 13 Amines\", \"Ch 14 Biomolecules\") beside rationalised Part II numbers for Ch 6 to 8; renumbered to Ch 9 and Ch 10. ncert_ref is in the content hash, so these need the same admit-on-expert-verdict treatment as the wave 3 text-only repairs. 13 of the 14 are text-only; the 14th (01d16929) is also the solver-visible repair below.",
+    "One repair changes solver-visible text (01d16929-b579-401b-9a88-81ff84f82232, statement C, one word: chiral). Under the wave-1 rule it needs a fresh blind re-solve; under the wave-2/3 rule for text-only repairs it does not. The reviewer re-solved it and the key (D, statements A, C, D) is unchanged.",
+    "Key position of the 57: A 15, B 14, C 14, D 14. The key is never the unique longest option by more than 14 percent (largest margin: item 45, 8 vs 7 characters, numeric options). No near-duplicate stems; the 4 questions of passage set w4-chem-02-set-1 (a fifth was rejected on solver agreement) are each self-contained given the passage and none refers to the dropped sibling.",
+    "Level: 12 are labelled hard; the heaviest are 5 (three named coupling reactions), 39 (Nernst with squared concentration), 49 and 57 (four-way comparisons). Each is a standard NCERT/board shape that fits about 90 seconds, so none is flagged above CBT level. The difficulty labels run a notch high for 35 and 49 (medium would be fairer); labels were left unchanged because they do not affect the solver text."
+  ],
+  "verdicts": [
+    {
+      "id": "8ee1facc-2274-4141-bba7-1389a5caee34",
+      "verdict": "ready",
+      "why": "Solved: SN2/hydrolysis rate follows leaving-group ability, I > Br > Cl > F, so B, D, A, C. Key C correct and unique; A and B are the polarity-order and F-first traps. C-X energies quoted (452, 234 kJ/mol) match the NCERT table.",
+      "repair": null
+    },
+    {
+      "id": "440d1252-fc4c-4fb5-8c77-d6ffbdd335f4",
+      "verdict": "ready",
+      "why": "Solved: (A) true, (B) true (chlorobenzene 1.69 D vs cyclohexyl chloride 2.04 D), (C) false (1-chlorobutane is lighter than water), (D) true (p-dichlorobenzene melts highest). Key A (A, B, D) correct and unique; all four statements are NCERT lines.",
+      "repair": null
+    },
+    {
+      "id": "77382746-bcfe-4dc8-a4f6-f5bc5d2e75d0",
+      "verdict": "ready",
+      "why": "Solved: SOCl2 gives SO2 and HCl, both gases, so the product is pure; PCl5/PCl3 leave P compounds, HCl/ZnCl2 is the Lucas route. Key D correct and unique. The stem states the reason but the student must still know which reagent has gaseous by-products, so this is NCERT recall, not a leak.",
+      "repair": null
+    },
+    {
+      "id": "ce3ca84d-bf8b-44e6-a55b-d5c42ba29c2b",
+      "verdict": "ready",
+      "why": "Solved: covalent AgCN attacks through N, giving the isocyanide CH3CH2NC. Key B correct and unique (KCN would give the nitrile, AgNO2 the nitro compound). NCERT ambident-nucleophile line.",
+      "repair": null
+    },
+    {
+      "id": "83bcb2bd-fdce-4196-bbcc-daa578f27ba4",
+      "verdict": "ready",
+      "why": "Solved: Wurtz-Fittig gives toluene, Fittig gives biphenyl, Wurtz gives ethane, so 3 hydrocarbons. Key B correct and unique. All three reactions are in NCERT Ch 6; top of the CUET range but a board staple, three short steps, within time.",
+      "repair": null
+    },
+    {
+      "id": "2e4f3189-8abb-4e28-8c5b-13da81ddcbed",
+      "verdict": "ready",
+      "why": "Solved: Br2/CS2 cold gives o- and p-bromophenol (IV); chromic acid gives benzoquinone (I); conc. HNO3 gives picric acid (III); dilute HNO3 cold gives o- and p-nitrophenol (II). Key D (IV, I, III, II) correct and unique. Matches NCERT phenol reactions.",
+      "repair": null
+    },
+    {
+      "id": "be5f0133-bd71-4e1d-97ad-742ee67fe221",
+      "verdict": "ready",
+      "why": "Solved: cumene process, air oxidation gives cumene hydroperoxide, then acid gives phenol and propanone. Key A correct and unique. Easy NCERT recall.",
+      "repair": null
+    },
+    {
+      "id": "35246480-bd79-48c2-b3f9-8d6128c2a14e",
+      "verdict": "ready",
+      "why": "Solved: LiAlH4 reduces RCOOH to RCH2OH; NaBH4 does not reduce acids; Zn-Hg/HCl is Clemmensen; PCC oxidises. Key C correct and unique. Reduction of carboxylic acids is in the Ch 7 preparation of alcohols and the Ch 8 acid reactions (syllabus lists both).",
+      "repair": null
+    },
+    {
+      "id": "8e181c77-95ef-4e7c-8bf5-857cbba9f869",
+      "verdict": "ready",
+      "why": "Solved: methanol is oxidised to methanal then methanoic acid (NCERT methanol poisoning). Key D correct and unique; the other pairs mix ethanol's products in. Syllabus line: commercially important alcohols, methanol and ethanol.",
+      "repair": null
+    },
+    {
+      "id": "0192976d-ce4d-4ed3-9672-8b0d1578ab19",
+      "verdict": "ready",
+      "why": "Solved: PhONa + CH3Br gives anisole (Williamson); anisole brominates without FeBr3 in ethanoic acid, para major (NCERT). Key B correct and unique; tribromophenol is impossible because X is an ether. Two clear steps, within time.",
+      "repair": null
+    },
+    {
+      "id": "5afc1dc3-d029-4d47-ab5c-9c7043cbd7a4",
+      "verdict": "ready",
+      "why": "Solved: the chain of four carbons with COOH at C-1 puts Cl on C-3, so 3-chlorobutanoic acid. Key A correct and unique; B is the wrong-end numbering, D the wrong chain.",
+      "repair": null
+    },
+    {
+      "id": "47b26e05-f8b5-44e7-a499-1078b4ff6bdd",
+      "verdict": "ready",
+      "why": "Solved: HCN gives CH3CH(OH)CN; hydrolysis gives CH3CH(OH)COOH, 2-hydroxypropanoic (lactic) acid. Key A correct and unique.",
+      "repair": null
+    },
+    {
+      "id": "9f114e98-a8ab-4a14-a9e6-2ddf5d0a2729",
+      "verdict": "ready",
+      "why": "Solved: RCOONa + soda lime gives R-H, so ethane from sodium propanoate. Key D correct and unique; butane is the Kolbe product, methane the ethanoate product.",
+      "repair": null
+    },
+    {
+      "id": "6fa18b54-8d1a-48ce-b3cb-8c451d1e3287",
+      "verdict": "ready",
+      "why": "Solved: acid supplies the acyl part, alcohol the alkyl part: CH3CH2COOCH3, methyl propanoate. Key C correct and unique.",
+      "repair": null
+    },
+    {
+      "id": "eb20eba0-98e1-4090-8320-cab801471c74",
+      "verdict": "ready",
+      "why": "Solved: formalin is 40 percent aqueous methanal (NCERT uses of aldehydes). Key B correct and unique. Easy NCERT recall.",
+      "repair": null
+    },
+    {
+      "id": "359c50ec-370a-4277-a1e1-26ff626c290f",
+      "verdict": "ready",
+      "why": "Solved: (A) true, (B) true (NCERT: methanal, ethanal and propanone are miscible with water in all proportions), (C) true, (D) false (methanal is a gas, bp 252 K). Key C (A, B, C) correct and unique.",
+      "repair": null
+    },
+    {
+      "id": "b19fa8e5-08f3-47e4-8450-b40bc6631f53",
+      "verdict": "ready",
+      "why": "Solved: pKa 4-OCH3 4.47 > benzoic 4.20 > 4-Cl 3.98 > 4-NO2 3.44, so increasing acidity is C, A, D, B. Key A correct and unique. Substituent effect on acidity is an NCERT Ch 8 point; at the upper edge of CUET but fair and quick.",
+      "repair": null
+    },
+    {
+      "id": "5069f737-db90-4b0d-83ff-4c19643ca9a1",
+      "verdict": "ready",
+      "why": "Solved: side-chain oxidation needs a benzylic H; n-, sec- and isobutyl have one, tert-butyl has none (NCERT: tertiary alkyl groups are not oxidised). Key D correct and unique.",
+      "repair": null
+    },
+    {
+      "id": "efce0722-5459-4073-8962-fe465fb5fa07",
+      "verdict": "ready",
+      "why": "Solved: dry HCl with excess CH3OH takes ethanal through the hemiacetal to the acetal CH3CH(OCH3)2, 1,1-dimethoxyethane. Key B correct and unique; the hemiacetal is only the intermediate.",
+      "repair": null
+    },
+    {
+      "id": "6998f236-be20-4857-8d0b-2a448825755c",
+      "verdict": "repaired",
+      "why": "Solved: LiAlH4 reduces C-N triple bond to CH2NH2, so CH3CH2NH2 (ethanamine). Key C correct and unique. Defect: ncert_ref uses the old edition number for Amines.",
+      "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 13 Amines: preparation of primary amines by reduction of nitriles\" -> \"NCERT Class 12 Chemistry Part II, Ch 9 Amines: preparation of primary amines by reduction of nitriles\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+    },
+    {
+      "id": "c6a775ab-00e8-4a2d-bde7-7c5e34dac7be",
+      "verdict": "repaired",
+      "why": "Solved: O is more electronegative than N, so O-H...O bonds are stronger than N-H...N and butan-1-ol boils higher (about 118 C vs 78 C). Key A correct and unique; D states the reverse electronegativity. Defect: ncert_ref uses the old Amines number.",
+      "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 13 Amines: physical properties: boiling point and hydrogen bonding in amines and alcohols\" -> \"NCERT Class 12 Chemistry Part II, Ch 9 Amines: physical properties: boiling point and hydrogen bonding in amines and alcohols\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+    },
+    {
+      "id": "a123ad3b-9488-4b25-b787-98cf51e60a84",
+      "verdict": "repaired",
+      "why": "Solved: aniline > acetanilide > benzene > nitrobenzene for ring bromination, so increasing is D, B, C, A. Key D correct and unique. NCERT teaches that acetylation moderates the activation of NH2. Defect: ncert_ref uses the old Amines number.",
+      "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 13 Amines: electrophilic substitution of aniline and the effect of acetylation on ring reactivity\" -> \"NCERT Class 12 Chemistry Part II, Ch 9 Amines: electrophilic substitution of aniline and the effect of acetylation on ring reactivity\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+    },
+    {
+      "id": "696bfe65-83b2-493a-a030-aba88d361ae5",
+      "verdict": "repaired",
+      "why": "Solved: acylation releases HCl; pyridine, a base stronger than the amine, removes it and shifts the equilibrium (NCERT wording). Key B correct and unique. Defect: ncert_ref uses the old Amines number.",
+      "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 13 Amines: chemical reactions: acylation of amines\" -> \"NCERT Class 12 Chemistry Part II, Ch 9 Amines: chemical reactions: acylation of amines\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+    },
+    {
+      "id": "b01a98fe-7046-417d-b53a-52562cf973e6",
+      "verdict": "repaired",
+      "why": "Solved from the passage: 9.3 g aniline is 0.10 mol, one NaNO2 per NH2, so 0.10 x 69 = 6.9 g. Key A correct and unique; 13.8 g is the two-nitrite slip and 9.3 g the aniline mass. Passage-set item (set w4-chem-02-set-1, four of five questions kept); answerable only with the passage, as intended. Defect: ncert_ref uses the old Amines number.",
+      "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 13 Amines: diazotisation of aniline: stoichiometry of NaNO2 and HCl\" -> \"NCERT Class 12 Chemistry Part II, Ch 9 Amines: diazotisation of aniline: stoichiometry of NaNO2 and HCl\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+    },
+    {
+      "id": "1b3b17be-c28e-4dbd-b120-3d1416eeb97f",
+      "verdict": "repaired",
+      "why": "Solved from the passage: diazonium + alkaline phenol couples at the para position to give the orange 4-hydroxyazobenzene. Key D correct and unique. Defect: ncert_ref uses the old Amines number.",
+      "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 13 Amines: coupling reactions of benzenediazonium salts\" -> \"NCERT Class 12 Chemistry Part II, Ch 9 Amines: coupling reactions of benzenediazonium salts\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+    },
+    {
+      "id": "aefd3af3-ae37-410a-b5a1-aa5da54926d3",
+      "verdict": "repaired",
+      "why": "Solved from the passage: CuCN (Sandmeyer) gives benzonitrile; complete acid hydrolysis gives benzoic acid via benzamide. Key C correct and unique. Defect: ncert_ref uses the old Amines number.",
+      "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 13 Amines: Sandmeyer reaction with CuCN and hydrolysis of the nitrile to the carboxylic acid\" -> \"NCERT Class 12 Chemistry Part II, Ch 9 Amines: Sandmeyer reaction with CuCN and hydrolysis of the nitrile to the carboxylic acid\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+    },
+    {
+      "id": "a9b977b3-1415-4db5-8488-268a83327316",
+      "verdict": "repaired",
+      "why": "Solved from the passage: (A) true (KI needs no Cu), (B) false (the diazonium ion is the electrophile), (C) true, (D) true. Key D (A, C, D) correct and unique. Defect: ncert_ref uses the old Amines number.",
+      "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 13 Amines: replacement and coupling reactions of benzenediazonium salts\" -> \"NCERT Class 12 Chemistry Part II, Ch 9 Amines: replacement and coupling reactions of benzenediazonium salts\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+    },
+    {
+      "id": "cded2e6e-6e9e-45b1-a65b-3575d15e57ea",
+      "verdict": "repaired",
+      "why": "Solved: peptide bond joins amino acids, glycosidic joins monosaccharides, phosphodiester joins nucleotides, disulphide joins cysteine residues. Key A correct and unique; every option is a clean mapping. Defect: ncert_ref uses the old Biomolecules number.",
+      "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: linkages in carbohydrates, proteins and nucleic acids\" -> \"NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: linkages in carbohydrates, proteins and nucleic acids\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+    },
+    {
+      "id": "10cccaa9-4448-4fa8-8b00-e6f1b38082fc",
+      "verdict": "repaired",
+      "why": "Solved: base < nucleoside (base + sugar) < nucleotide (+ phosphate) < polynucleotide, so C, D, A, B. Key B correct and unique. The bracketed clause only fixes the base, it is not a hedge. Defect: ncert_ref uses the old Biomolecules number.",
+      "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: nucleic acids: base, nucleoside, nucleotide and polynucleotide\" -> \"NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: nucleic acids: base, nucleoside, nucleotide and polynucleotide\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+    },
+    {
+      "id": "01d16929-b579-401b-9a88-81ff84f82232",
+      "verdict": "repaired",
+      "why": "Solved: (A) true, (B) false (sucrose is non-reducing), (C) true, (D) true, so (A), (C), (D). Key D correct and unique. Two defects: statement (C) says the D label refers to \"the carbon farthest from the carbonyl group\", which literally is C-6 (a CH2OH, not a stereocentre) whereas the explanation and NCERT mean the chiral carbon C-5; and the ncert_ref uses the old Biomolecules number.",
+      "repair": "Statement (C) changed from \"The letter D in D-glucose refers to the configuration at the carbon farthest from the carbonyl group, the same as in D-glyceraldehyde.\" to \"The letter D in D-glucose refers to the configuration at the chiral carbon farthest from the carbonyl group, the same as in D-glyceraldehyde.\" (one word added: chiral). ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: disaccharides: maltose, sucrose and lactose; D and L configuration\" -> \"NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: disaccharides: maltose, sucrose and lactose; D and L configuration\". Options, key and explanation unchanged. Solver-visible text changed: yes (one word in statement C; the truth value of every statement and the key are unchanged)."
+    },
+    {
+      "id": "254a9fb5-145a-423d-906e-a4c19bc5ed30",
+      "verdict": "repaired",
+      "why": "Solved: specificity comes from the complementary fit of the active site (lock and key); an enzyme does not shift equilibrium. Key C correct and unique. Defect: ncert_ref uses the old Biomolecules number.",
+      "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: enzymes: lock-and-key model and specificity\" -> \"NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: enzymes: lock-and-key model and specificity\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+    },
+    {
+      "id": "1a14c1f3-5a24-4f5b-87cf-4ca79535162e",
+      "verdict": "repaired",
+      "why": "Solved: testosterone is a steroid; insulin is a polypeptide; thyroxine and norepinephrine are amino acid derivatives (NCERT hormone classification). Key A correct and unique. Defect: ncert_ref uses the old Biomolecules number.",
+      "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: hormones: classification into steroids, polypeptides and amino acid derivatives\" -> \"NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: hormones: classification into steroids, polypeptides and amino acid derivatives\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+    },
+    {
+      "id": "8ad575c4-7e7d-49e7-8364-51e79dd36658",
+      "verdict": "repaired",
+      "why": "Solved: vitamin B12 deficiency causes pernicious anaemia; B6 convulsions, K slow clotting, E fragile red cells (NCERT vitamin table). Key C correct and unique. Defect: ncert_ref uses the old Biomolecules number.",
+      "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: vitamins: sources and deficiency diseases\" -> \"NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: vitamins: sources and deficiency diseases\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+    },
+    {
+      "id": "010e16c1-2fa7-45d3-9044-5ab7bbe31d75",
+      "verdict": "ready",
+      "why": "Solved: reverse osmosis needs applied pressure greater than the osmotic pressure. Key B correct and unique. Easy NCERT line.",
+      "repair": null
+    },
+    {
+      "id": "c7147e61-c020-4ce4-9ca5-a48265b17d6e",
+      "verdict": "ready",
+      "why": "Solved: pX = 0.5 x 300 = 150, pY = 100, total 250, yX = 150/250 = 0.60. Key A correct and unique; 0.50 is the liquid composition. Two quick steps, no calculator needed.",
+      "repair": null
+    },
+    {
+      "id": "2c7eb3a9-5d8d-4c73-b5cf-89a0466e0d3f",
+      "verdict": "ready",
+      "why": "Solved: M = Kf x w2 x 1000 / (dTf x w1) = 20 x 1.5 x 1000 / (3.0 x 50) = 200 g/mol. Key C correct and unique; 100 is the wrong-solvent-mass slip. NCERT numerical shape.",
+      "repair": null
+    },
+    {
+      "id": "0e4e6d2a-0b5f-45a4-8cdb-27515531620c",
+      "verdict": "ready",
+      "why": "Solved: i = 1 + 0.5 x 2 = 2, dTb = 2 x 0.50 x 0.10 = 0.10 K. Key D correct and unique; 0.15 K (i = 3) and 0.050 K (i = 1) are the slips. Within time.",
+      "repair": null
+    },
+    {
+      "id": "ef0f30c8-bde7-4adc-ab4a-0934d0197b63",
+      "verdict": "ready",
+      "why": "Solved: (A) false, (B) true, (C) true, (D) true (68 percent HNO3 is the NCERT maximum-boiling azeotrope). Key B (B, C, D) correct and unique. Syllabus allows azeotropes as an elementary idea and this stays at that level.",
+      "repair": null
+    },
+    {
+      "id": "969ec6f8-7e52-48ce-9832-299e478417ce",
+      "verdict": "ready",
+      "why": "Solved: E0 = 1.05 V, n = 2, Q = 1.0/(0.01)^2 = 10^4, E = 1.05 - 0.0295 x 4 = 0.932 V. Key B correct and unique; 0.99 V is the unsquared-concentration slip. Three steps but all NCERT Nernst routine; about 90 s.",
+      "repair": null
+    },
+    {
+      "id": "5c0ee5c8-3f94-4d63-b0a2-b4d994547c7e",
+      "verdict": "ready",
+      "why": "Solved: oxidation at the anode, H2 + OH- gives water in alkaline electrolyte: 2H2 + 4OH- gives 4H2O + 4e-. Key A correct and unique; D is the acid-cell anode. Direct NCERT fuel-cell recall.",
+      "repair": null
+    },
+    {
+      "id": "e6056587-a51f-421d-a7eb-904e696e12af",
+      "verdict": "ready",
+      "why": "Solved: dilution lowers kappa but raises Lambda-m. Key C correct and unique. Easy NCERT staple.",
+      "repair": null
+    },
+    {
+      "id": "4fced3ab-5807-43b8-8025-82d9859180a1",
+      "verdict": "ready",
+      "why": "Solved: Kohlrausch, 2 x 189 + 3 x 160 = 858. Key B correct and unique; 349 and 887 are the slips. One-formula numerical, values match the NCERT ionic conductivity table.",
+      "repair": null
+    },
+    {
+      "id": "7e7b5652-225b-40a3-859f-5f1d822bfe17",
+      "verdict": "ready",
+      "why": "Solved: (A) true, (B) false (a catalyst does not shift equilibrium), (C) true, (D) true. Key A (A, C, D) correct and unique.",
+      "repair": null
+    },
+    {
+      "id": "973877a8-423b-40dd-847e-6e0491b45a02",
+      "verdict": "ready",
+      "why": "Solved: zero order, t = (0.20 - 0.05)/0.005 = 30 min. Key D correct and unique; 40 min is the repeated-half-life slip. One-formula numerical.",
+      "repair": null
+    },
+    {
+      "id": "a08beb87-d194-457a-81c5-2bf8b78436fe",
+      "verdict": "ready",
+      "why": "Solved: elementary, rate = k[A]^2[B]; volume one-third triples every concentration, 3^3 = 27. Key C correct and unique; 9 is the forgot-[B] slip.",
+      "repair": null
+    },
+    {
+      "id": "bc99a237-d954-40cc-a95a-0320cf346f7f",
+      "verdict": "ready",
+      "why": "Solved: e^(-Ea/RT) is the fraction of molecules with energy equal to or above Ea. Key B correct and unique. NCERT staple.",
+      "repair": null
+    },
+    {
+      "id": "38dd3ed0-f042-4470-b5b8-90886167286c",
+      "verdict": "ready",
+      "why": "Solved: (0.80 - 0.50)/600 s = 5.0 x 10^-4 mol L-1 s-1. Key D correct and unique; the other values are unit-conversion slips.",
+      "repair": null
+    },
+    {
+      "id": "0dfb5b38-ed97-4c20-8199-41135c08395b",
+      "verdict": "ready",
+      "why": "Solved: interstitial compounds are hard, conducting, inert and have higher melting points than the metal, so C is the false property. Key C correct and unique (NCERT).",
+      "repair": null
+    },
+    {
+      "id": "8199b343-e47e-40e5-acdd-8e458592a4d0",
+      "verdict": "ready",
+      "why": "Solved: E0cell = E0(oxidant) - E0(reductant): A gives -0.41 - 0.77 = -1.18 V (not spontaneous); B +0.80, C +1.18, D +1.98 V. Key A correct and unique. Uses the NCERT M3+/M2+ values.",
+      "repair": null
+    },
+    {
+      "id": "9796cd95-e541-4ba5-85eb-7f4b7cab45ad",
+      "verdict": "ready",
+      "why": "Solved: in alkali dichromate goes to yellow chromate, Cr2O7(2-) + 2OH- gives 2CrO4(2-) + H2O. Key D correct and unique. NCERT K2Cr2O7 line.",
+      "repair": null
+    },
+    {
+      "id": "c459a1d2-65e0-4cd0-b071-3ec287fe0efc",
+      "verdict": "ready",
+      "why": "Solved: Cu2+ blue, Cr3+ violet, Mn2+ pink, Ni2+ green (NCERT table). Key B correct and unique; each option is a clean mapping.",
+      "repair": null
+    },
+    {
+      "id": "34a6cabf-0b12-4321-b746-76378dd8d946",
+      "verdict": "ready",
+      "why": "Solved: lanthanoid contraction, radii La3+ > Pr3+ > Gd3+ > Lu3+, so increasing is C, A, D, B. Key A correct and unique.",
+      "repair": null
+    },
+    {
+      "id": "a58d364f-574c-424c-9ed2-0f6e4fdb5c3e",
+      "verdict": "ready",
+      "why": "Solved: only the two outer-sphere Cl- precipitate, 2 mol AgCl. Key C correct and unique. NCERT Werner theory staple.",
+      "repair": null
+    },
+    {
+      "id": "bdc87aa5-3aa5-4786-9440-5aa51f0bb35d",
+      "verdict": "ready",
+      "why": "Solved: ligands alphabetical (ammine before chlorido), Co(III) from x - 2 = +1, cationic so no -ate: tetraamminedichloridocobalt(III) chloride. Key D correct and unique; the names use the current IUPAC chlorido/ammine spelling of NCERT.",
+      "repair": null
+    },
+    {
+      "id": "5423cc50-4ae2-487d-94b9-6da3cf15a6dd",
+      "verdict": "ready",
+      "why": "Solved: [Co(en)2Cl2]+ has trans (achiral) and cis (a pair of enantiomers), 3 stereoisomers. Key A correct and unique. Named NCERT example.",
+      "repair": null
+    },
+    {
+      "id": "03468e44-24ac-4016-a28b-cdc361d9e934",
+      "verdict": "ready",
+      "why": "Solved: Fe(CO)5 trigonal bipyramidal, Cr(CO)6 octahedral, [Ni(CN)4]2- square planar, [NiCl4]2- tetrahedral. Key B correct and unique. All four shapes are NCERT lines (carbonyls and four-coordinate Ni(II)).",
+      "repair": null
+    },
+    {
+      "id": "c448902e-cfe8-4f58-afca-25e26e7a5cc9",
+      "verdict": "ready",
+      "why": "Solved: [Co(NH3)6]3+ low-spin d6, 0 BM; [Ni(H2O)6]2+ d8, 2.83; [Cr(H2O)6]3+ d3, 3.87; [Fe(H2O)6]2+ high-spin d6, 4.90. Key C (B, D, C, A) correct and unique. Four species, about 90 s: upper end but fair for CUET.",
+      "repair": null
+    }
+  ]
+}

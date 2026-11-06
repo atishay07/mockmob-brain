@@ -1,0 +1,20 @@
+{
+  "id": "20261014T092015.688841Z-27f41b16",
+  "observed_at": "2026-10-14T09:20:15.689841+00:00",
+  "agent": "claude-opus-5.5 session cc0bf1af",
+  "task": "NTA r5.1 follow-up ready for owner push; app phase 1B running",
+  "status": "active",
+  "done": "mockmob-hotfix deploy/nta-r5 b216023 (engine nta-engine-2026.10.14-r5.1), fast-forward on live main d58882f: second-paper refusals replaced by relaxed/none rebuilds with repeats named in the notice (fixtures: GT 44 refused -> 46, Economics 44 refused -> 45, Biology 45 unchanged); website refusal panel 'No NTA paper for <Subject> yet' with Start a Full Mock and Back to dashboard, not-retryable flag for bank refusals (timeouts keep Try again); refusal sentence names the dominant excluding gate; .next-staging ignored by eslint. Suites: test:nta 143, nta-e2e 418, recovery 40, app 108, auth 50; lint clean; build OK; browser-checked at 375 and 1366x650.",
+  "next": "Owner to run: git -C \"C:/Users/atish/Desktop/mockmob copy/mockmob-hotfix\" push origin deploy/nta-r5:main (agent pushes are blocked by auto mode). Optional afterwards: read-only production engine run with r5.1.",
+  "blockers": [
+    "owner push for b216023"
+  ],
+  "evidence": [
+    "mockmob-hotfix b216023",
+    "origin/main d58882f"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

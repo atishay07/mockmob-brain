@@ -1,0 +1,34 @@
+{
+  "id": "20261018T113215.555846Z-d202fa92",
+  "observed_at": "2026-10-18T11:32:15.556846+00:00",
+  "agent": "claude-opus-5.5 subagent (R9 Today packet)",
+  "task": "Website release 9, Today packet: D28, W-042, W-044, D27 nits, F18, Why-this answer",
+  "status": "complete",
+  "done": "All packet items fixed on web/r9-today-1018 (wt-r9-today), commits 3bba2bd8 and 106c8fb5 (STATUS). Local only, not pushed.",
+  "next": "Main session merges web/r9-today-1018 into the R9 integration; note askSuggestions.mjs today branch and package.json test:today line touched; measure real-account landing on production after deploy.",
+  "blockers": [],
+  "evidence": [
+    "tmp/r9-fixes/today/ screenshots (cue-nobar-m-*, fw3check-m-light, fw7-*, returning-d-light, whythis-*, g-241am-m-dark, ssr-preview-today.html)",
+    "timing: lead/week/road/weak land on same 30 ms tick at 390 and 1440"
+  ],
+  "touched_files": [
+    "src/app/(app)/today/page.jsx",
+    "src/components/today/TodayMove.jsx",
+    "src/components/today/TodayRoad.jsx",
+    "src/components/today/TodayWeek.jsx",
+    "src/components/today/useToday.js",
+    "src/components/today/today.css",
+    "src/lib/today/firstWeek.mjs",
+    "src/lib/today/greeting.mjs",
+    "src/lib/today/move.mjs",
+    "src/lib/today/week.mjs",
+    "src/components/ai/askContexts.mjs",
+    "src/components/ai/askSuggestions.mjs",
+    "package.json",
+    "data/tests/today_release9.test.mjs",
+    "docs/brain/STATUS.md"
+  ],
+  "verification": "eslint src+data/tests clean; test:today 99/99; test:app 653/653; test:recovery 586 pass 3 todo 0 fail; test:learning 357/357; next build --webpack ok, .next deleted; dev server on 3241 stopped",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "20261014T025559.938451Z-b4085da0",
+  "observed_at": "2026-10-14T02:55:59.939451+00:00",
+  "agent": "claude-opus-5.5 session cc0bf1af",
+  "task": "Owner stopped the overnight session (14 Oct ~08:10 IST) and asked for a full handover",
+  "status": "paused",
+  "done": "Full record in mockmob-next/docs/brain/HANDOVER-2026-10-14-MORNING.md (committed on feat/app-and-web). Everything stopped: agents, workflows, emulator, Gradle, flutter/dart processes, relay watcher (Continuum Relay Logon task still ENABLED). Last green suite a817371 (+2990). Rounds after it: 8bf1bfb, 846043f (35 round-2 bugs incl. 2 P0 sync data-loss fixes). WIP 2209123 stopped mid-edit, untested. CUET-fit 879/879 judged, merged on mockmob-fit wip/cuet-fit 76cbf0d (2221 fit at 8, 684 at 9); production engine run: full papers only in accountancy, business studies, economics, physics.",
+  "next": "Next agent: analyze plus targeted tests on WIP 2209123 (ApiClient expected-user guard, attempts list fetch time, cancelAll after sign-out, StateAction loading, MmSheetPage footer), finish it, get the full suite green again (one flutter process at a time), rebuild tmp/apk/mockmob-real-release-arm64.apk (the current one predates 8bf1bfb), then the owner installs it on his phone and signs in. Owner decisions are in section 8 of the handover.",
+  "blockers": [
+    "Owner decisions: night palette, question factory (paid), Start repair row length, web redesign D1-D19, NTA cleanup runbook, production SQL for AI reply reports, upload key and Google client id"
+  ],
+  "evidence": [
+    "mockmob-next HANDOVER-2026-10-14-MORNING.md",
+    "mockmob-next 2209123 WIP",
+    "mockmob-fit 76cbf0d"
+  ],
+  "touched_files": [
+    "mockmob-next feat/app-and-web 6be644d..2209123 plus handover",
+    "mockmob-hotfix fix/nta-mode 9dbf88f",
+    "mockmob-fit wip/cuet-fit 9471097, 76cbf0d",
+    "mockmob-backend feat/ai-reply-report ff23016, play-f4 3faa82a, sec-tests 7b2e20a",
+    "mockmob-web2 fix/web-state-home 613235c",
+    "AI OS relay task state"
+  ],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

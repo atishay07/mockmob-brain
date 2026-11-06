@@ -1,0 +1,26 @@
+{
+  "id": "20261015T041304.319090Z-0233b1cc",
+  "observed_at": "2026-10-15T04:13:04.319090+00:00",
+  "agent": "claude-opus-5.5 subagent (web IA planner, session 604ced81 workflow)",
+  "task": "Read-only plan: website structure redesign so a new student understands it in seconds and the web mirrors the app (Today, Practice, Start, Review, You)",
+  "status": "complete",
+  "done": "Returned a markdown IA plan to the orchestrating workflow (not saved as a repo file). Key choices: signed-in shell = 4 places + Start exactly like the app DOCK.md option A (desktop sidebar Start key + Today, Practice, Review, You; tablet labelled rail; phone 5-slot bar, no hamburger or More); every old route kept working and mapped (Radar -> Where your marks go under Review, PrepOS -> Ask Mobi in Review/Result header, Progress -> You, Explore -> Question stream in Practice, Learn -> Concepts in Practice, Compass/Combo/Guide -> You > CUET tools, Leaderboard/rival/Contribute -> You > Community web-only pending decision, /recovery -> /review, /features and /coming-soon redirect). Today first (reverses accepted D3 of 14 Oct; needs owner OK). First run: landing drill -> signup (sample-import exists, unwired) -> 2-step onboarding (subjects, days via /api/me/goal) -> Your first move -> result with SWOT ('What this paper says': Strong/Weak/Quick wins/Watch out) -> first repair. Landing cut from 12 sections with 3 autoplay widgets to 8 static sections; Mistake Repair copy decoupled from old RELEASE_GATES.content. Packets IA0-IA10 with disjoint paths; previews via /preview/arena fixtures headless, no sign-in or demo accounts. Reuse from mockmob-web2 feat/web-redesign-p2: navigation.js audience/shellGate logic and W2.1 tokens (Bricolage), not its 4-group sidebar.",
+  "next": "Orchestrator: show owner Gate A decisions (Today first, names, Community placement, SWOT labels, hero copy) with fixture screenshots before wave 2; run IA0 facts check (read-only production SQL: credit_balance default, AI credit allowances, contribution grants, monthly plan env) before any pricing copy.",
+  "blockers": [],
+  "evidence": [
+    "wt-web-refine/src/lib/arenaNavigation.js (14 destinations)",
+    "wt-phase2/flutter_app/lib/core/widgets/bar/bar_tabs.dart and core/router/routes.dart",
+    "mockmob-next/docs/brain/ui-phase2/DOCK.md sections 1, 2, 5.6, 6, 9.2",
+    "mockmob-next/docs/brain/design-2026-10-13/WEB-PARITY.md section 2",
+    "mockmob-next/docs/brain/WEB-REDESIGN-PLAN-2026-10-14.md (D1-D19 accepted)",
+    "mockmob-web2 feat/web-redesign-p2 ea69c5d src/lib/navigation.js (not in wt-web-refine HEAD)",
+    "wt-web-refine/src/app/api/me/sample-import (no web caller)",
+    "wt-web-refine/supabase/migrations/0027_enforce_credit_integrity.sql grant_contribution_credits",
+    "wt-web-refine/src/app/layout.js uses Gabarito, not Bricolage",
+    "wt-web-refine/public has no subject obj-*.webp art"
+  ],
+  "touched_files": [],
+  "verification": "Read-only. No code changed, no server or browser run, no database queried.",
+  "cost_and_pending_requests": "none",
+  "confidence": "agent-reported; verify evidence before acting"
+}

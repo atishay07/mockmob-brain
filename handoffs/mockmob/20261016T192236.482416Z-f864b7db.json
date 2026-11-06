@@ -1,0 +1,23 @@
+{
+  "id": "20261016T192236.482416Z-f864b7db",
+  "observed_at": "2026-10-16T19:22:36.483417+00:00",
+  "agent": "claude-opus-5.5 (session cc0bf1af, main)",
+  "task": "17 Oct ~1:50 am IST: leaderboard privacy fix live; AI cost audit; Mob decisions; content drafting started",
+  "status": "active",
+  "done": "Live main a2fe34b4: leaderboard privacy hotfix (/api/leaderboard 401 signed out; own standing only; fake rivals removed). Repair v4 fully proven live (3 repairs on 3 chapters, Check it held right and wrong recorded, no double charge). Docs: OWNER-FEEDBACK-2026-10-17.md (F1-F18), FEATURE-ADOPTION-2026-10-17.md, AI-COST-PER-USER-2026-10-17.md (typical Rs 1.4-1.8 per 50 credits; Pro gets 50/month up to 500 per season; no per-user cap), SUBJECT-COVERAGE-2026-10-17.md, SOCIAL-SPEC section 15 (Mob open to everyone; free vs Pro split with one free full side-by-side). Memory owner-feedback-1017 updated.",
+  "next": "Running: wf_a59c8a05-169 (B web UX verifier; C landing fixer r10; D app walk 1A; E integrate), wf_42b49303-279 (design round NAV/RESULT/START/TODAY/GLASS), wf_55219726-27c (content drafts GAT/Physics/Chemistry/Hindi to mockmob-next/tmp/authored-w3, Haiku author + verify, no publish), agent per-user AI cap (wt-aicap, fix/ai-user-cap-1017: migration + staging dry run). Next: on B verifier pass push web UX pass; on AI cap return gate+apply migration+push; when design docs land: build round reconciled with FEATURE-ADOPTION (web: result 3 layers, start menu + fine-tune scope, Today Up next, runner fix, dock; Mob free/pro split + remove age gate, then MOB_ENABLED after gate; app: nav, result, Today, glass in v13). Owner open: 50 credits per month vs total; PERSISTENT_LIMITS_ENABLED; publish yes for verified question drafts.",
+  "blockers": [
+    "Owner: 50/month vs 50 total credits",
+    "Owner: publish OK for question drafts",
+    "Owner: SUPABASE_DB_URL"
+  ],
+  "evidence": [
+    "curl /api/leaderboard -> 401 Unauthorized after a2fe34b4",
+    "ai_credit_reservations: 3 distinct repairs, check right=true and right=false recorded",
+    "runtime_ai_requests: Luna repair avg USD 0.000307 max 0.000479"
+  ],
+  "touched_files": [],
+  "verification": "Leaderboard fix verified live. Others in progress.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

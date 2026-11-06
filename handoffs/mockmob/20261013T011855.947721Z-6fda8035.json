@@ -1,0 +1,24 @@
+{
+  "id": "20261013T011855.947721Z-6fda8035",
+  "observed_at": "2026-10-13T01:18:55.948721+00:00",
+  "agent": "claude-code opus-5.5 (workflow subagent, result builder)",
+  "task": "Night Sheet result feature: folded sealed sheet, recap cards, full result (lib/features/result)",
+  "status": "complete",
+  "done": "Built lib/features/result: folded charcoal answer sheet with foil seal and paper art, drag/tap unfold in perspective (ticks 25/50/75, 60% rule, open haptic), ink-in-order reveal, monumental score, one light sweep (celebratory variants only), recap cards 2-4 with story bar and Skip, variants (default, first_mock, held skips card 2, lower calm, higher hop, keys unavailable), ritual decay, open-directly and repeat-visit redirects, TalkBack custom action, effort line, server-acknowledged first-mock token, full result in Lab order with key rule. Core fix: KeyButton non-expanded kept an invisible spinner ticking forever.",
+  "next": "Integrator: review module must read ?count=&minutes= on /review/repair/:attemptId/:questionId; check the unfold at 60 fps on the M06; practice builder owns practice_result_screen restyle.",
+  "blockers": [],
+  "evidence": [
+    "flutter analyze lib/features/result lib/core/widgets test/unit/result test/golden/result: No issues",
+    "flutter test -j 1 test/unit/result + core key tests + buttons golden: 73 passed",
+    "test/golden/result: 28 tests, 29 goldens regenerated and viewed at 2x"
+  ],
+  "touched_files": [
+    "flutter_app/lib/features/result/**",
+    "flutter_app/test/unit/result/**",
+    "flutter_app/test/golden/result/**",
+    "flutter_app/lib/core/widgets/key_button_face.dart"
+  ],
+  "verification": "Goldens and widget tests only; nothing run on a device.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

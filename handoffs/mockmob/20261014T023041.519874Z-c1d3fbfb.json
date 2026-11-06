@@ -1,0 +1,26 @@
+{
+  "id": "20261014T023041.519874Z-c1d3fbfb",
+  "observed_at": "2026-10-14T02:30:41.519874+00:00",
+  "agent": "claude-opus-5.5 subagent (auth-loadfailed fixer)",
+  "task": "Fix auth-loadfailed bugs from tmp/bughunt-r2.json (r2-01,03,04,05,06,07)",
+  "status": "complete",
+  "done": "All six fixed, uncommitted. 01: reload() starts a fresh /me read (bumps _epoch, drops older load). 05: retryStart keeps loadFailed with new AuthSnapshot.retrying, 20 s cap (AuthController.retryWait), profile load moved out of _starting. 06: load-failed screen has Sign out (quiet key, confirmSignOut warning, signOut keepQueuedWork) when the service runs. 03/04: remembered route captured at sign-in start (SignInController.signInStarting via sign_in_screen onBusyChanged), gateway.whenSignedIn waits for the account, launcher marks the offer only after push and dedupes; browser-return listener cancelled after a terminal kind. 07: rate-limited send sets codeSentTo so 'I already have a code' shows after relaunch.",
+  "next": "Orchestrator: review and commit the auth files listed. Optional: StateAction loading flag in lib/core/widgets/state_view.dart so Trying again shows a spinner.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "flutter_app/lib/core/auth/auth_controller.dart",
+    "flutter_app/lib/core/auth/auth_state.dart",
+    "flutter_app/lib/features/auth/after_sign_in.dart",
+    "flutter_app/lib/features/auth/auth_load_failed_screen.dart",
+    "flutter_app/lib/features/auth/copy.dart",
+    "flutter_app/lib/features/auth/sign_in_controller.dart",
+    "flutter_app/lib/features/auth/sign_in_gateway.dart",
+    "flutter_app/lib/features/auth/sign_in_screen.dart",
+    "flutter_app/test/unit/auth/*",
+    "flutter_app/test/unit/core_auth/auth_controller_profile_test.dart"
+  ],
+  "verification": "test/unit/auth +63, core_auth+account_access+router_redirect*+save_step +144, test/golden/auth +28 unchanged; analyze clean on touched folders; new tests for 01, 04 and 07 confirmed failing with the fix reverted.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

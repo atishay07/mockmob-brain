@@ -1,0 +1,28 @@
+{
+  "id": "20261010T052250.082107Z-d42c912e",
+  "observed_at": "2026-10-10T05:22:50.082107+00:00",
+  "agent": "/root/fresh_construction_r3",
+  "task": "V717 frozen fresh32 qualification benchmark construction and independent blind handoff",
+  "status": "active",
+  "done": "Authored a post-freeze 32-case candidate benchmark in separate sealed and blind artifacts. The blind packet binds to a copied active source-registry snapshot, includes official syllabus excerpts, and contains no author answers/explanations/labels. Structural/source-reference checks passed. Root was sent only blind packet path, source registry path, and counts/hashes.",
+  "next": "Root or an independent reviewer freezes source-only answers and caveats from the blind packet before opening sealed/authored.json and sealed/blind-id-map.json for comparison and any source/explanation audit. Root owns qualification registration/dispatch; do not call providers or pay.",
+  "blockers": [],
+  "evidence": [
+    "V717 freeze SHA-256 0f578d06f5efc8e42c5a1db598ef6b09495b051addf271c517da486f030682bd verified before writing; contract/prompt hashes match root signal.",
+    "Source-registry copy SHA-256 ac6d94ec8b5acdfccc71edf194ef49dbe8b79dfa5e89f2a033eed828477615c7; source packs active at accountancy 13, business studies 11, economics 12, English 12.",
+    "Authored and blind packets each contain 32 unique records; counts are 20 valid, 12 controlled defects, 5/3 per subject, key positions 5 each among valid, 3 each among defects, 8 each overall.",
+    "Five English items share an unused registered original factual stimulus; blind packet has question/options, source excerpts and official syllabus excerpts, with no answer, explanation, expected-valid, defect-class, or answer-set fields.",
+    "No native model evaluation, provider call, paid request, qualification preparation, registration, or dispatch was performed."
+  ],
+  "touched_files": [
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/qualification-fresh32/sealed/build-fresh32.mjs",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/qualification-fresh32/sealed/authored.json",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/qualification-fresh32/sealed/source-registry-binding.json",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/qualification-fresh32/sealed/blind-id-map.json",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/qualification-fresh32/source-registry.json",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/qualification-fresh32/blind/packet.json"
+  ],
+  "verification": "Builder asserts freeze binding, source references and extraction checks; structural check confirms unique IDs, balanced key positions, source pack versions and no sealed answer/label fields in blind packet. Academic correctness and novelty remain for the independent blind solver/source audit; no qualification result is claimed.",
+  "cost_and_pending_requests": "USD 0; no provider/API calls.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

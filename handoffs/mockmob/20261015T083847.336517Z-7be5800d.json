@@ -1,0 +1,41 @@
+{
+  "id": "20261015T083847.336517Z-7be5800d",
+  "observed_at": "2026-10-15T08:38:47.336517+00:00",
+  "agent": "claude-opus-5.5 v2 checker subagent",
+  "task": "Website v2 check in wt-web-v2 (web/v2-1015): review vs web-restructure-rejected, lint, suites, build, fixes",
+  "status": "complete",
+  "done": "Reviewed cf51d4d8 against live 0336dc43: landing keeps all 12 live sections plus the new pinned Mistake Lab cinema and the lamp-lit shelf; no bolt mark anywhere in src or public (logo B with dot, favicon, PWA icons, OG); brand.css present and styles .subj-obj. Resolved builder needs in commit 13847034: preview fixtures /api/me/goal and /api/me/consent; Practice subject tiles show lamp-lit objects (lamp on when chosen); /cuet/* guides show their object in the header; last native selects swapped (Learn prefs, PrepOS Focus, Contribute) with Listbox aria-invalid support; RhythmCard footnote links /profile#goal; shell listens for mockmob:open-guide; six new tests added to test:app.",
+  "next": "Main session: preview_start web-v2-local (http://localhost:3110) for the owner's review; push only on his OK. Optional cleanups: start/art and landing/art duplicate objects, dead CSS (.pr-seg, .na__seg, .pr-chapters, .du-seg, .du-check).",
+  "blockers": [
+    "Owner OK before any push",
+    "Visual check of pinned cinema, Start sheet and lists not done by agents"
+  ],
+  "evidence": [
+    "wt-web-v2 commit 13847034 on web/v2-1015",
+    "eslint --max-warnings 0 on 59 changed script files: exit 0",
+    "test:app 200/200, test:learning 274/274, test:recovery 48/48, test:auth 50/50, test:du 19/19, test:nta 150/150",
+    "next build passed (turbopack root temporarily parent, edited back by hand); headless next start on 3121: /, /cuet/accountancy, /pricing, /cuet-cutoff-calculator, /onboarding, /login, /opengraph-image 200; stopped; .next removed (269 MB)"
+  ],
+  "touched_files": [
+    "src/app/preview/arena/ArenaPreviewClient.jsx",
+    "src/app/(app)/dashboard/DashboardPageClient.jsx",
+    "src/app/(app)/arena.css",
+    "src/components/SeoContentPage.jsx",
+    "src/app/cuet/[subject]/page.js",
+    "src/app/globals.css",
+    "src/app/brand.css",
+    "src/components/study/StudyWorkspace.jsx",
+    "src/components/study/study.css",
+    "src/components/ai/MockMobAIHub.jsx",
+    "src/components/ai/prepos.css",
+    "src/components/feed/UploadForm.jsx",
+    "src/components/ui/controls/Listbox.jsx",
+    "src/components/RhythmCard.jsx",
+    "src/app/(app)/student-pages.css",
+    "src/app/(app)/AppLayoutClient.jsx",
+    "package.json"
+  ],
+  "verification": "Code review, lint, six suites, one production build and a headless HTTP render check. No browser render or screenshots (rule); visual check is the owner's local review.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

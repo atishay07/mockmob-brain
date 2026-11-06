@@ -1,0 +1,31 @@
+{
+  "id": "20261009T211150.865893Z-f358d138",
+  "observed_at": "2026-10-09T21:11:50.865893+00:00",
+  "agent": "Codex root",
+  "task": "Final V713 study failure diagnosis and additive V714 correction",
+  "status": "active",
+  "done": "First10 native R3 cases quarantinedsource_support; freshvalid5failed max13/18<required16/18 (jointvalid6failed max14/20). NativefirstwaveLuna.014647+Gem.050979=.065626settled. Same session98363/PID24128 continueswithin1cap; no restart. Concrete machinecause two cleanvalids: source/quotes/uniqueness/conditions/4optionresolutionpassed; Luna option_challenges=A/B/C withsolved_keyA, Dmissing, challenge_reason option_challenges_incomplete. Canonical nonchosenthree semantics and fitanchors absentcompactprompt. Created5additiveV714localfilesrestoringcanonicalinstructions/schema meanings and exact diagnosticreasons, unchangedgates. Independent Luna reviewingacademics/testingnewfiles; noV714runtimepublicationorpaidstudy.",
+  "next": "Sole recovery owner drains entirebounded37runincludingoutputincomplete/retryreceipts, exportsfixedoutcomes. difficulty_selection_final independentlyclassifiesfirst10academic/model/construction/representationfailures andtestsnew5, bodybounds/cacheversion/no-keyviews/inheritedfailurechecks. Parentrepairs demonstratedlocaldefects only. No anotherpaidbenchmark/labelchange/gaterelaxation; qualifyV713onlyfromitsfrozenoutcomes (alreadyunreachable).",
+  "blockers": [
+    "V713cannotpassfixedvalidsurvival; outcomesstillrunning.",
+    "Onecurrentprovider_output_incomplete muststaynonacademicerrorwithusagecounted.",
+    "19diagnosticunknowns/missinghistoricalusage prohibitfullpilotclaim.",
+    "NoV714freshqualificationauthorized inthissinglefinalstudy scope; localcorrectionnotrelease."
+  ],
+  "evidence": [
+    "qualification-fresh31-regression6/state.json actualfirst10outcomesandbothjudgments",
+    "f-c797dd7934bbaf7c and f-234e398c6040b350 rawLunachallengearrays includechosenA/omitD",
+    "V713compactSystem fullyreplacesinheritedsystem; noCUET_FIT_PROMPT",
+    "newV714fivefiles unwired/unqualified"
+  ],
+  "touched_files": [
+    "scripts/pipeline/lib/compactValidationV714.mjs",
+    "scripts/pipeline/lib/validatorDiagnosticsV714.mjs",
+    "scripts/pipeline/lib/contractV714.mjs",
+    "scripts/pipeline/lib/factoryEvidenceV714.mjs",
+    "scripts/pipeline/lib/verifyV714.mjs"
+  ],
+  "verification": "V713118academic/8R3dependenciesunchangedatprelaunch; newV714tests/reviewpending delegatedsolelyLuna. Scores3/9vsGem10 descriptivepregateonly, noeligiblequalityclaim.",
+  "cost_and_pending_requests": "Firstwave.065626actualsettled. Latestownernewstudy.094980settled +.197694inflight/queuedheld; old.821324holds65unresolvedremain. Globalsnapshotrefreshbeforefinalreports. Lifetime50/finalqualification1/diagnostic3 unchanged.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

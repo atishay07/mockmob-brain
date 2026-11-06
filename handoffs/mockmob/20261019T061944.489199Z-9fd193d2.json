@@ -1,0 +1,21 @@
+{
+  "id": "20261019T061944.489199Z-9fd193d2",
+  "observed_at": "2026-10-19T06:19:44.489199+00:00",
+  "agent": "app-fix v153-fix (Autopilot 19 Oct)",
+  "task": "v15.3 app fix item 1: free first full mock race (send firstFree=1 on a start quoted free; handle 409 FIRST_FULL_MOCK_TAKEN / 503 FIRST_FULL_MOCK_UNCHECKED)",
+  "status": "paused",
+  "done": "Research only, no code written. Web (wt-rel11): Practice sends firstFree:'1' (a string) in the POST /api/sessions JSON body, only when quote.freeReason==='first_full_mock_free'. The server refuses with 409 FIRST_FULL_MOCK_TAKEN (reason taken/off) or 503 FIRST_FULL_MOCK_UNCHECKED, charges nothing, and sends message = FIRST_FULL_MOCK_REFUSAL_COPY. Release 10 ignores the field. The app's start is in practice_starter.dart _start (line 164), not session_api.dart. The owner stopped the Autopilot, so an empty STOP POINT commit records the findings on ui/v153-fix.",
+  "next": "Parse freeReason in PracticeQuote. Send 'firstFree':'1' from PracticeStarter._start when the quote said free, and keep it in the PendingStart record. Add ApiCodes and a StartFailure for both codes, with no auto-retry. launch_flow requotes and returns the fresh quote. practice_composer shows the refusal copy and the new price. Unit tests in test/unit/practice. Then flutter analyze, test/unit/practice and test/unit/core.",
+  "blockers": [],
+  "evidence": [
+    "wt-rel11 data/first_full_mock.js lines 29-75",
+    "wt-rel11 src/lib/server/practiceSessions.js lines 96-101",
+    "wt-rel11 src/app/(app)/dashboard/DashboardPageClient.jsx line 514",
+    "wt-rel11 src/app/(app)/test/TestPageClient.jsx lines 383-384",
+    "wt-v153-fix flutter_app/lib/features/practice/data/practice_starter.dart line 164"
+  ],
+  "touched_files": [],
+  "verification": "None run: no code changed. No flutter process started.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

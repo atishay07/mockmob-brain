@@ -1,0 +1,30 @@
+{
+  "id": "20261015T062949.149964Z-28976e9d",
+  "observed_at": "2026-10-15T06:29:49.149964+00:00",
+  "agent": "claude-sonnet-5.5 (IA8 packet)",
+  "task": "IA8 pricing and public pages, wt-web-ia web/ia-1015, finished on top of WIP cdddb6c8",
+  "status": "complete",
+  "done": "Pricing (4.4) was already in the WIP: plan cards, credits section, line-by-line table, FAQ, all numbers from data/plan_facts.mjs and publicOffer(); /features, /coming-soon, /pricing/prepos are 308 pages. Finished now: du.css styles for the ladder, college starts and Your gap to each college (the calculator page had no CSS for them) plus du-lead/du-trust/du-h4 and Day-theme rules so the calculator and combo pages no longer need the landing scope; calculator CTA copy (no Arena/Radar, signed-out buttons go to /signup and /#how-it-works); Compass Pro renamed Your gap to each college; combo planner page rewritten name-first with no New pill; subject hubs copy; PYQ title; SeoContentPage dock goes to #try when the page carries the sample; dead EligibilityTeaser and its CSS removed; middle-dot meta strings removed in du/; flat fills, no nested cards, no monospace labels; new test file with 27 checks.",
+  "next": "Integrator: wire data/tests/public_ia8.test.mjs into test:ia. Update data/tests/route_moves.test.mjs 'only new paths' to expect /ask, /practice, /start only (/you page now exists from IA7). Delete landing/CompassLadder.jsx, landing/CollegeDestinations.jsx and src/app/compass-ladder.css (superseded by du/CutoffLadder and du/CollegeStarts), the .coming-soon-* rules in globals.css, and du-teaser/du-live mentions in home-refinements.css and marketing-theme.css. Gate B captures: /pricing, /cuet-cutoff-calculator, /cuet-subject-combination, /cuet-mock-test-free, /about at 375, 1440 in Night and Day.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "src/components/du/du.css",
+    "src/components/du/CutoffCalculator.jsx",
+    "src/components/du/CompassPro.jsx",
+    "src/components/du/GapAside.jsx",
+    "src/components/du/SubjectPicker.jsx",
+    "src/components/du/EligibilityTeaser.jsx (deleted)",
+    "src/app/cuet-subject-combination/page.js",
+    "src/app/cuet-subject-combination/combo-planner.css",
+    "src/app/cuet/[subject]/page.js",
+    "src/app/cuet-previous-year-questions/page.js",
+    "src/components/SeoContentPage.jsx",
+    "src/components/pricing/pricingContent.js",
+    "src/lib/subjectHubs.js",
+    "data/tests/public_ia8.test.mjs"
+  ],
+  "verification": "node --test data/tests/public_ia8.test.mjs: 27 pass. npx eslint on all owned paths: clean. glossary, plan_facts, navigation, landing_ia4, ia_modules tests pass; route_moves has 1 failure that is not from this packet (the new /you page from IA7). CSS brace balance checked. Not rendered: no dev server or browser per the rules; Night and Day, 360 to 1920 widths and hit-testing still need the Gate captures.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

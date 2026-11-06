@@ -1,0 +1,32 @@
+{
+  "id": "20261015T161108.998764Z-9ea2d675",
+  "observed_at": "2026-10-15T16:11:08.999763+00:00",
+  "agent": "claude-q8-fix5",
+  "task": "Q8 website fix 5: A5 slim session start, A6 nta_question_index prep",
+  "status": "complete",
+  "done": "A5 built and committed (2a9c43c0) on web/fix5-1015: data/practice_pick.js slim session start with full-read fallback and PRACTICE_SLIM_READ=off; identical picks proven by data/tests/practice_pick_parity.test.mjs and on real staging data. A6 prepared (d9e290eb): undo file, runbook, STATUS entry; migration applied, built, read and undone on STAGING only; production untouched.",
+  "next": "Orchestrator: owner OK to deploy A5; apply nta_question_index to production (steps in docs/brain/RUNBOOK-NTA-QUESTION-INDEX-2026-10-15.md) then run nta-index-build --write --allow-production from a machine with production keys; owner decision on chunking Database._userProgress (silent 400 for pools of about 700+ ids).",
+  "blockers": [
+    "Production nta_question_index apply and index build left to the orchestrator (needs production keys)",
+    "continuum_start failed at session start (brain.py error); fell back to reading docs directly"
+  ],
+  "evidence": [
+    "test:recovery 145, test:nta 155, test:learning 277, test:app 232, test:auth 50, test:answer-integrity 11, test:factory 332 all pass",
+    "staging real-data picks identical: accountancy quick 10 (4.23 to 0.75 MB), business_studies full 50 (5.91 to 2.32), english smart 15 (4.84 to 0.86), economics quick 25 (4.20 to 1.26)",
+    "npm run build 76/76 pages, next.config.mjs reverted",
+    "staging index build: english 156, accountancy 105, business_studies 162, economics 112; undo verified fallback to full"
+  ],
+  "touched_files": [
+    "data/practice_pick.js",
+    "data/db.js",
+    "data/practice_library.js",
+    "data/tests/practice_pick_parity.test.mjs",
+    "package.json",
+    "docs/brain/STATUS.md",
+    "docs/brain/RUNBOOK-NTA-QUESTION-INDEX-2026-10-15.md",
+    "supabase/undo/20261013190000_nta_question_index.undo.sql"
+  ],
+  "verification": "eslint --max-warnings 0 clean on changed files. test:authored-publish (agent biology table byte-match) and test:study (WordNet LICENSE_UNAVAILABLE) fail for reasons outside this branch's files.",
+  "cost_and_pending_requests": "none (no paid model calls; staging egress about 50 MB)",
+  "confidence": "agent-reported; verify evidence before acting"
+}

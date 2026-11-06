@@ -1,0 +1,30 @@
+{
+  "id": "20261016T163735.401015Z-498e016e",
+  "observed_at": "2026-10-16T16:37:35.401015+00:00",
+  "agent": "wp-c-builder (web pass 1016e packet 3)",
+  "task": "Web pass 1016e WP-C: Mistake Lab truth and hierarchy, in wt-webux2 (branch web/ux-social-1016)",
+  "status": "complete",
+  "done": "Committed 3cf9c751 (not pushed or deployed). WC-01: lab.method plus the 'How this is counted' row; WC-02: the net re-mark object with scores over one denominator; WC-03: the hero, segment glide-to-row, replay chips wrapping at 390; WC-04: no arrows found.",
+  "next": "Main session: run npx next build --webpack at the merge gate. AP-3 (app) reads lab.method, lab.hero, remark.scores/lost/won/net/max and cohort.truth (fixture contract_ready_v1.json).",
+  "blockers": [],
+  "evidence": [
+    "lint clean; test:recovery 359/359; test:app 344/344; test:learning 302/302",
+    "headless captures plus report: wt-webux2/tmp/1016e-wpc (390/360/1440, Night/Day, reduced): wide 0, chips all 44 px and hit, method row 44 px",
+    "docs/design-decisions/pass-1016e/WPC-DECISIONS.md"
+  ],
+  "touched_files": [
+    "data/mistake_lab.copy.json",
+    "data/mistake_lab.js",
+    "data/tests/mistake_lab.test.mjs",
+    "data/tests/fixtures/mistake_lab/contract_*_v1.json (8)",
+    "src/components/ScoreRecoveryLab.jsx",
+    "src/components/recovery/result.css",
+    "src/components/result/MarksLedger.jsx",
+    "src/components/result/marks-ledger.css",
+    "src/components/result/replay.css",
+    "docs/design-decisions/pass-1016e/WPC-DECISIONS.md"
+  ],
+  "verification": "Own headless Chrome against the shared dev server :3181 with real mouse clicks; next build not run (shared tree, low RAM)",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

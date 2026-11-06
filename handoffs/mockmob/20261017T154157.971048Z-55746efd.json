@@ -1,0 +1,23 @@
+{
+  "id": "20261017T154157.971048Z-55746efd",
+  "observed_at": "2026-10-17T15:41:57.971048+00:00",
+  "agent": "claude-opus-5.5 (session 25ef3d95, main)",
+  "task": "17 Oct ~9:05 pm IST: owner-requested stop at 99% usage; late handoff written",
+  "status": "paused",
+  "done": "Handoff mockmob-next/docs/brain/HANDOFF-2026-10-17-LATE.md + NEXT-SESSION-PROMPT-2026-10-17-LATE.md, scripts docs/brain/workflows-1017d, results tmp/resume-1017e (committed e6189fa1 on feat/app-and-web). All workflows stopped; STOP POINT commits: wt-fx-result bfc0f650, wt-fx-today d6f25937, wt-fx-nav 89ed9905, wt-mobfix c33d7f03, wt-lr17 b66d79d2, wt-lr3 d473dfac; security fixes committed unverified: wt-sec17 f9ee389d (creator API leak, referral wildcard, one-report takedown), wt-sec17b 403419d8 (explore leak, upload oracle, payout race + default-privileges migrations, mentor local, deletion scrub, votes); W-098 done wt-fx-aicap 7c43876b; Mob app wt-v13-mob2 e703da4e; v13 wt-v13 e92266bd. Nothing new live; production main f725a422.",
+  "next": "Next session: follow NEXT-SESSION-PROMPT-2026-10-17-LATE.md. Security verify+push first (~1 h), website release 2 (~4 h), v13 chain in parallel (~8 h), landing, Mob gate, corpus synthesizer, F15. At most ~12 heavy agents (CPU is the ceiling).",
+  "blockers": [
+    "Usage 99% until ~1:00 am IST",
+    "A process still listening on port 3306 at stop",
+    "Owner items unchanged"
+  ],
+  "evidence": [
+    "get_usage 99% at ~9:02 pm IST, resets 1:00 am IST",
+    "git commit e6189fa1",
+    "workflow journals saved to tmp/resume-1017e"
+  ],
+  "touched_files": [],
+  "verification": "Heads verified by git; security fixes and v13 unverified.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

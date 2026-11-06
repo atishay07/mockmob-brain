@@ -1,0 +1,375 @@
+{
+ "setup": "live https://www.mockmob.in, 390x844 dsf2 touch, Android UA, Day (first visit, empty cache), CDP Emulation.setCPUThrottlingRate 4, network NOT throttled (this PC), chrome-headless-shell 151",
+ "loadWallMs": 1342,
+ "nav": {
+  "ttfb": 100,
+  "dcl": 1331,
+  "load": 1338,
+  "htmlBytes": 54802
+ },
+ "fcp": 912,
+ "lcp": {
+  "t": 2392,
+  "size": 124800,
+  "el": "IMG.lp-room__file.lp-room__file--day",
+  "url": "ttps://www.mockmob.in/art/scenes/scene-empty-allclear-day-1280.v2.avif"
+ },
+ "lcpCandidates": [
+  {
+   "t": 912,
+   "size": 37454,
+   "el": "H1.lp-title",
+   "url": ""
+  },
+  {
+   "t": 2392,
+   "size": 124800,
+   "el": "IMG.lp-room__file.lp-room__file--day",
+   "url": "ttps://www.mockmob.in/art/scenes/scene-empty-allclear-day-1280.v2.avif"
+  }
+ ],
+ "clsLoad": 0,
+ "clsDuringScroll": 0,
+ "layoutShifts": [],
+ "tbtFcpToLoadPlus10s": 190,
+ "longTasksLoad": {
+  "n": 4,
+  "totalMs": 390,
+  "top": [
+   {
+    "t": 915,
+    "d": 145
+   },
+   {
+    "t": 1951,
+    "d": 108
+   },
+   {
+    "t": 1728,
+    "d": 77
+   },
+   {
+    "t": 2242,
+    "d": 60
+   }
+  ]
+ },
+ "loafLoadTop": [
+  {
+   "t": 294,
+   "d": 575,
+   "b": 348,
+   "s": []
+  },
+  {
+   "t": 894,
+   "d": 191,
+   "b": 107,
+   "s": [
+    {
+     "src": "turbopack-15_k7lhxdiil8.js",
+     "fn": "",
+     "inv": "https://www.mockmob.in/_next/static/chunks/turbopack-15_k7lhxdiil8.js",
+     "d": 16
+    },
+    {
+     "src": "0x8w092vo.iat.js",
+     "fn": "",
+     "inv": "https://www.mockmob.in/_next/static/chunks/0x8w092vo.iat.js",
+     "d": 146
+    }
+   ]
+  },
+  {
+   "t": 1926,
+   "d": 158,
+   "b": 76,
+   "s": [
+    {
+     "src": "15euem4lyi_on.js",
+     "fn": "O",
+     "inv": "MessagePort.onmessage",
+     "d": 25
+    },
+    {
+     "src": "15euem4lyi_on.js",
+     "fn": "O",
+     "inv": "MessagePort.onmessage",
+     "d": 109
+    }
+   ]
+  },
+  {
+   "t": 2242,
+   "d": 126,
+   "b": 55,
+   "s": [
+    {
+     "src": "15euem4lyi_on.js",
+     "fn": "O",
+     "inv": "MessagePort.onmessage",
+     "d": 60
+    },
+    {
+     "src": "15euem4lyi_on.js",
+     "fn": "O",
+     "inv": "MessagePort.onmessage",
+     "d": 16
+    }
+   ]
+  },
+  {
+   "t": 1728,
+   "d": 77,
+   "b": 27,
+   "s": [
+    {
+     "src": "15euem4lyi_on.js",
+     "fn": "O",
+     "inv": "MessagePort.onmessage",
+     "d": 77
+    }
+   ]
+  },
+  {
+   "t": 1182,
+   "d": 58,
+   "b": 0,
+   "s": [
+    {
+     "src": "15euem4lyi_on.js",
+     "fn": "O",
+     "inv": "MessagePort.onmessage",
+     "d": 8
+    },
+    {
+     "src": "",
+     "fn": "",
+     "inv": "https://www.mockmob.in/",
+     "d": 13
+    }
+   ]
+  }
+ ],
+ "loafLoadCount": 6,
+ "bytesAtLoadPlus10s": {
+  "Document": {
+   "n": 1,
+   "kb": 53.6
+  },
+  "Font": {
+   "n": 3,
+   "kb": 144.7
+  },
+  "Stylesheet": {
+   "n": 18,
+   "kb": 120.5
+  },
+  "Script": {
+   "n": 16,
+   "kb": 286.4
+  },
+  "Image": {
+   "n": 5,
+   "kb": 166.4
+  },
+  "Fetch": {
+   "n": 4,
+   "kb": 2.8
+  }
+ },
+ "requestsAtLoad": 47,
+ "scriptsAtLoad": [
+  {
+   "url": "/_next/static/chunks/15euem4lyi_on.js",
+   "kb": 71.1
+  },
+  {
+   "url": "/_next/static/chunks/0h9bqs8w8u3qm.js",
+   "kb": 39
+  },
+  {
+   "url": "/_next/static/chunks/01~804s7l7.6y.js",
+   "kb": 37.6
+  },
+  {
+   "url": "/_next/static/chunks/0ijs-ew9qzq_6.js",
+   "kb": 28
+  },
+  {
+   "url": "/_next/static/chunks/0jif3~bk8e-c-.js",
+   "kb": 23.5
+  },
+  {
+   "url": "/_next/static/chunks/17pwiblfjlk0w.js",
+   "kb": 17
+  },
+  {
+   "url": "/_next/static/chunks/0i.l9589uvx0j.js",
+   "kb": 13.4
+  },
+  {
+   "url": "/_next/static/chunks/0l7zs.j.t.tn_.js",
+   "kb": 11.6
+  },
+  {
+   "url": "/_next/static/chunks/0x8w092vo.iat.js",
+   "kb": 10.2
+  },
+  {
+   "url": "/_next/static/chunks/0ey4ry9spw3up.js",
+   "kb": 10
+  },
+  {
+   "url": "/_next/static/chunks/128aahewwf1we.js",
+   "kb": 9.7
+  },
+  {
+   "url": "/_next/static/chunks/0ssi8vcg7qkb0.js",
+   "kb": 5
+  },
+  {
+   "url": "/_next/static/chunks/turbopack-15_k7lhxdiil8.js",
+   "kb": 4.7
+  },
+  {
+   "url": "/_next/static/chunks/117ai6wjh65sd.js",
+   "kb": 3.6
+  },
+  {
+   "url": "/_next/static/chunks/0x.73w57rn4ou.js",
+   "kb": 1.6
+  },
+  {
+   "url": "/_next/static/chunks/0i3l745xi9mzq.js",
+   "kb": 0.5
+  }
+ ],
+ "bytesAfterScroll": {
+  "Document": {
+   "n": 1,
+   "kb": 53.6
+  },
+  "Font": {
+   "n": 3,
+   "kb": 144.7
+  },
+  "Stylesheet": {
+   "n": 18,
+   "kb": 120.5
+  },
+  "Script": {
+   "n": 16,
+   "kb": 286.4
+  },
+  "Image": {
+   "n": 5,
+   "kb": 166.4
+  },
+  "Fetch": {
+   "n": 4,
+   "kb": 2.8
+  }
+ },
+ "lateScripts": [],
+ "domNodes": 3562,
+ "docHeight": 27000,
+ "scroll": {
+  "swipes": 70,
+  "yEnd": 11804,
+  "ys": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "durationMs": 41863,
+  "frames": 2512,
+  "meanFrameMs": 16.67,
+  "framesOver25ms": 0,
+  "framesOver50ms": 0,
+  "worstFrameMs": 17,
+  "droppedFramesEstimate": 0,
+  "longTasks": {
+   "n": 0,
+   "totalMs": 0,
+   "top": []
+  },
+  "loafTop": [],
+  "loafCount": 0,
+  "mainThread": {
+   "TaskDuration": 17.291,
+   "ScriptDuration": 2.664,
+   "LayoutDuration": 0.496,
+   "RecalcStyleDuration": 3.86,
+   "LayoutCount": 2263,
+   "RecalcStyleCount": 2263
+  }
+ }
+}

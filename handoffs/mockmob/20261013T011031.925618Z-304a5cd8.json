@@ -1,0 +1,28 @@
+{
+  "id": "20261013T011031.925618Z-304a5cd8",
+  "observed_at": "2026-10-13T01:10:31.925618+00:00",
+  "agent": "claude-code opus-5.5 (workflow subagent, onboarding builder)",
+  "task": "Night Sheet onboarding rebuild (\"Your sheet\" step deck) + auth restyle in Flutter app",
+  "status": "complete",
+  "done": "Rebuilt lib/features/onboarding as a versioned data-driven deck (stage, course+college ladder with real CSAS 2026 R1 data, subjects+confidence+eligibility, worry, one warm-up question, rhythm, plan flip + hold to seal, save with age first, first move). Local versioned store, sheet sync after sign-in (consent age, PATCH subjects, PUT goal, studyWindow) only for new accounts, studentSheetProvider + FirstMoveHero + SheetStatus for Today. After-sign-in sheet now opens over Today (launcher in auth). Auth screens restyled. Sample flow removed (old files moved to scratchpad/retired_onboarding).",
+  "next": "Today builder: read features/onboarding/onboarding.dart (studentSheetProvider, FirstMoveHero, sheetSyncProvider). Owner: deregister assets/sample/ in pubspec and delete sample_questions.json (now unused). Device check of flip/hold/ink on M06.",
+  "blockers": [],
+  "evidence": [
+    "flutter analyze (onboarding, auth, their tests, tool): No issues found",
+    "flutter test onboarding+auth+core_ui+widget_test: 285 passed",
+    "full suite: only failures are result/runner goldens owned by other builders",
+    "58 onboarding goldens at 384x853 (+360x780, 1.3x text) and 26 auth goldens regenerated at 384x853 and viewed via MM_PREVIEW_DIR contact sheets"
+  ],
+  "touched_files": [
+    "flutter_app/lib/features/onboarding/**",
+    "flutter_app/lib/features/auth/** (after_sign_in.dart new, sign_in_controller, auth_page, email_field, code_slots)",
+    "flutter_app/test/unit/onboarding/**",
+    "flutter_app/test/golden/onboarding/**",
+    "flutter_app/test/unit/auth/fakes.dart, sign_in_controller_test.dart",
+    "flutter_app/test/golden/auth/auth_golden_test.dart + goldens",
+    "flutter_app/tool/make_onboarding_du.py"
+  ],
+  "verification": "Analyze clean on owned paths; owned tests pass; goldens opened. Not run on a device.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

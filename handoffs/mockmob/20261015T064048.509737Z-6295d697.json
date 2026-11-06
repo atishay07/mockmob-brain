@@ -1,0 +1,36 @@
+{
+  "id": "20261015T064048.509737Z-6295d697",
+  "observed_at": "2026-10-15T06:40:48.509737+00:00",
+  "agent": "claude-sonnet-5.5 (IA5 packet, web IA)",
+  "task": "Web IA packet IA5 Practice in wt-web-ia (branch web/ia-1015): finished the page, Question stream, Concepts labels, credits sheet, preview view and tests",
+  "status": "complete",
+  "done": "Rebuilt /dashboard as Practice: Tonight's move card (same rules as Today, sets the page up in place), Your subjects tiles (live counts, subjectArt flag), Session rows with cost on every row from plan_facts and Comes with Pro locks, length and exam-screen controls, Fine-tune, a session panel with the plan's confirm line and the only filled Start key (See Pro when the session comes with Pro). Prefill contract (?subject&mode&count&chapter&interface&tonightKey&tonightMinutes) kept byte for byte and unit tested against the old page's rules. Start re-quotes when the 60 s quote expired. Removed Feed the bank, saved to Radar, stats strip, recent sessions, leaderboard reads. Question stream (explore) lost its eyebrow, mono label and arrows; learn pages relabelled Concepts; CreditsRemainingModal now reads every number and Pro item from plan_facts. Preview view practice/dashboard with 18 cases in views/practice.jsx.",
+  "next": "Integrator (IA9): add data/tests/practice_ia5.test.mjs to the test:ia script in package.json; delete dead .pr-* Practice rules in arena.css (shell owner) and the now unused src/components/arena/NtaConsolePreview.jsx; /practice rewrite to /dashboard; Gate A captures of ?view=practice (cases in the toolbar, &brand=art for the 3D subject objects). Not committed, per instruction.",
+  "blockers": [],
+  "evidence": [
+    "node --test data/tests/practice_ia5.test.mjs: 32 pass, 0 fail",
+    "node --test --test-concurrency=1 practice_ia5, glossary, navigation, next_step_rules, plan_facts, ia_modules, practice_quote: 95 pass, 0 fail",
+    "npx eslint with no-undef and no-unused-vars on every owned file: clean",
+    "SSR render of every section and the credits sheet through a scratchpad TypeScript loader (no dev server, no browser): all states render, one filled button per state, no undefined or NaN text",
+    "data/tests/route_moves.test.mjs 'the only new paths' fails because /you now exists (IA7 page); not caused by IA5"
+  ],
+  "touched_files": [
+    "src/app/(app)/dashboard/DashboardPageClient.jsx",
+    "src/app/(app)/dashboard/PracticeSections.jsx",
+    "src/app/(app)/dashboard/PracticeParts.jsx",
+    "src/app/(app)/dashboard/practiceModel.mjs",
+    "src/app/(app)/dashboard/practice.css",
+    "src/app/(app)/dashboard/page.js",
+    "src/app/(app)/explore/explore.css",
+    "src/app/(app)/explore/page.js",
+    "src/app/(app)/learn/page.jsx",
+    "src/app/(app)/learn/summary/page.jsx",
+    "src/components/feed/DiscoveryFeed.jsx",
+    "src/components/CreditsRemainingModal.jsx",
+    "src/app/preview/arena/views/practice.jsx",
+    "data/tests/practice_ia5.test.mjs"
+  ],
+  "verification": "Unit tests, lint and SSR markup checks only. No browser or dev server was run (per instruction), so layout at 360/375/768/1024/1366x650/1920, Night and Day, keyboard flow and motion are NOT verified by screenshot; Gate A captures must cover them. The full DashboardPageClient effect flow (reads, quote, Start) was desk-checked, not executed.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

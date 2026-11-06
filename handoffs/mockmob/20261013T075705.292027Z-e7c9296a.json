@@ -1,0 +1,26 @@
+{
+  "id": "20261013T075705.292027Z-e7c9296a",
+  "observed_at": "2026-10-13T07:57:05.292027+00:00",
+  "agent": "claude-today-rhythm-builder",
+  "task": "Flutter app: Today first screen, road to May, weekly rhythm, milestones, Mobi on Today (owner feedback 1110, area today-rhythm)",
+  "status": "complete",
+  "done": "Today reworked: glass week row with the student's plan (counted/planned/rest/open days, count, outlook), hero with number beside the subject object (no gap), Mobi moments (day one, returning, late night, load failure) via MobiCharacter+MobiBubble with a screen MobiController that waves again on tab reselect, Show me pill bubbles now real (wrong answers), Recent papers replaces 50-dot strips with marks, change vs last comparable paper, and a right/wrong/blank bar, road to May rebuilt (weeks to window, weeks before boards, study days at the student's goal, this week's need, to-scale timeline with registration/boards/CUET/CSAS stops, ladder without decorative rail). Insights slot: TodayScreen(insights:) and TodayBody.insights. Milestones screen rebuilt as three track cards (token, step rail, next step with exact condition, exact progress for scored sets and weeks-at-goal only). Week sheet uses the shared PlanWeekStrip. Stale goal-editor test fixed.",
+  "next": "Integrator: pass the InsightsCard to TodayScreen(insights: ...) in today_routes.dart. Owner device pass for spacing and Mobi motion feel. Repairs milestone progress needs a server count (repair-record) before it can be shown.",
+  "blockers": [],
+  "evidence": [
+    "test/golden/today/goldens/today_ready_full_night.png",
+    "test/golden/rhythm/goldens/milestones_list_night.png",
+    "test/golden/rhythm/goldens/week_sheet_open_and_met_night.png"
+  ],
+  "touched_files": [
+    "flutter_app/lib/features/today/**",
+    "flutter_app/lib/features/rhythm/** (plan_week.dart, plan_week_strip.dart, milestone_progress.dart, milestone_track_card.dart, milestones_screen.dart, week_sheet.dart, copy.dart, rhythm.dart)",
+    "flutter_app/test/unit/today/**",
+    "flutter_app/test/unit/rhythm/screens_test.dart, milestone_progress_test.dart",
+    "flutter_app/test/golden/today/**",
+    "flutter_app/test/golden/rhythm/**"
+  ],
+  "verification": "flutter_locked analyze lib/features/today lib/features/rhythm and their tests: no issues. Tests: test/unit/today, test/unit/rhythm, test/unit/demo, test/unit/a11y/guidelines_test.dart pass; goldens test/golden/today + test/golden/rhythm regenerated (73 pass) and viewed in both themes.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "20261020T084122.391411Z-b4e5a819",
+  "observed_at": "2026-10-20T08:41:22.392410+00:00",
+  "agent": "claude-sonnet-5-5 deploy subagent",
+  "task": "Take referral credits (D165) live on the website: push, migrate production, flag on, STATUS",
+  "status": "complete",
+  "done": "web/1020-referrals fast-forwarded onto main (36492ed2..2ffaf29d, then STATUS 024a889a). Production migration referrals_welcome_credits applied on isrxrxzjocewrdureyhp (users.credit_balance default 100 -> 0, referral_program/referral_codes/referrals, 11 mm_referral_* functions, 2 triggers). REFERRALS_ENABLED=true set in Vercel Production and redeployed. Smoke clean, no runtime errors.",
+  "next": "Owner needs to do nothing. Optional: a real signed-in referral walk (no agent sign-in allowed) to see the first grant; app track ui/1020-referrals claims through the same API. Rollback order is in docs/brain/STATUS.md (grants_paused, flag off + redeploy, promote dpl_13vbidun9MJtWKaNPub88Hj5NfSY, undo file).",
+  "blockers": [],
+  "evidence": [
+    "Pre: default 100, sum(credit_balance) 112311, 1545 users, no referral tables. Post: default 0, sum 112311, 1545 users, RLS on, 0 policies, service_role-only grants, 11 function-body md5s equal the file.",
+    "Deployments: dpl_Dxotnw4QbbratpnGpZbBycgL4dga (code, flag off), dpl_GmV6rjynAJPULhWSU7yeZ1qu5jZv (flag on), dpl_E72LNC2t28hENMADCZrDBSpFL1ub (STATUS commit, current live). Rollback point dpl_13vbidun9MJtWKaNPub88Hj5NfSY (36492ed2).",
+    "Vercel env REFERRALS_ENABLED id yLb9Qkm9dvrNjm6s (production, plain)."
+  ],
+  "touched_files": [
+    "docs/brain/STATUS.md",
+    "supabase/migrations/20261020130000_referrals.sql (applied, unchanged)",
+    "supabase/undo/20261020130000_referrals.undo.sql (not applied)"
+  ],
+  "verification": "Builder suites not rerun because main had not moved. Production: / /pricing /wallet /signup /login /mob /privacy /join/TEST 200, /r/TEST 307 to /signup, /r/ABC2DEF sets mm_invite with the flag on, signed-out referral APIs 401, get_runtime_errors empty. No sign-in and no accounts created on the live site.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

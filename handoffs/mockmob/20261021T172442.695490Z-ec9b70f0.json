@@ -1,0 +1,17 @@
+{
+  "id": "20261021T172442.695490Z-ec9b70f0",
+  "observed_at": "2026-10-21T17:24:42.695490+00:00",
+  "agent": "claude-auto",
+  "task": "Auto-capture: claude session 70e212e3",
+  "status": "paused",
+  "done": "Auto-captured at Stop. Turns: 3. Last message: Got it, and it's all in the ledger. The opening pass for your logos has started.\n\n**What will change:**\n- **Kept:** the lime \"CUET UG 2027\" chip stays where it is, in the middle. The layout and card style you liked stay too. It stays a composed layer, not a logo dump.\n- **The NTA card's spot:** it becomes one wide card with the official CUET logo and the NTA logo side by side. If your CUET file al",
+  "next": "Unverified auto-capture. Read the session transcript and live repo state before continuing.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\70e212e3-e73d-462a-8b99-35838a14a68a.jsonl"
+  ],
+  "touched_files": [],
+  "verification": "auto-captured by hook; not agent-verified",
+  "cost_and_pending_requests": "unknown; hook does not see provider receipts",
+  "confidence": "agent-reported; verify evidence before acting"
+}

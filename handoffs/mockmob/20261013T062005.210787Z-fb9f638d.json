@@ -1,0 +1,45 @@
+{
+  "id": "20261013T062005.210787Z-fb9f638d",
+  "observed_at": "2026-10-13T06:20:05.211786+00:00",
+  "agent": "claude-code opus-5.5 (workflow subagent, web auth reliability)",
+  "task": "Website sign-in reliability: Supabase session refresh proxy, callback hardening, email code flow",
+  "status": "complete",
+  "done": "Root cause: root-level middleware.js was never compiled (app is in src/), so no session refresh ran; Server Component reads rotated refresh tokens without writing cookies -> reuse -> revoked sessions. Also AuthProvider reloaded app on every SIGNED_IN/TOKEN_REFRESHED, treated transient errors as signed out, used global signOut. Added src/proxy.js (@supabase/ssr pattern via src/lib/server/sessionProxy.js), authWithStatus + 503 on transient in /api/auth/me, removed NextAuth, hardened callback, safe next-path, email code resend/countdown/clear errors, in-app browser notice.",
+  "next": "Orchestrator commits (deletions of middleware.js and src/app/api/auth/[...nextauth]/route.js are unstaged working-tree deletions). Owner applies dashboard steps in docs/brain/AUTH-RELIABILITY-2026-10-13.md, then verifies Google and email sign-in surviving >1h on phone after deploy. Record in docs/brain/STATUS.md.",
+  "blockers": [
+    "Owner dashboard steps (Supabase sessions/URL config/Google provider; Google Cloud OAuth client and consent screen; Vercel NEXT_PUBLIC_SITE_URL)"
+  ],
+  "evidence": [
+    "npm run test:auth 33 pass",
+    "test:recovery 39 pass, test:learning 91 pass, payment/account/ui 28 pass",
+    "next build ok, lists Proxy (Middleware)",
+    "local 3101: bogus expired cookie cleared by proxy; /review -> /login?next=; 429 Retry-After 60"
+  ],
+  "touched_files": [
+    "src/proxy.js",
+    "src/lib/server/sessionProxy.js",
+    "src/lib/supabase-auth-errors.js",
+    "src/lib/auth-redirect.js",
+    "src/lib/auth-callback.js",
+    "src/lib/auth.ts",
+    "src/lib/supabase-browser.js",
+    "src/components/AuthProvider.jsx",
+    "src/components/ui/SignupCard.jsx",
+    "src/components/auth/AuthSessionScreen.jsx",
+    "src/app/auth/callback/AuthCallbackPageClient.jsx",
+    "src/app/login/LoginPageClient.jsx",
+    "src/app/signup/SignupPageClient.jsx",
+    "src/app/(app)/AppLayoutClient.jsx",
+    "src/app/api/auth/me/route.js",
+    "src/app/api/auth/email-login/route.js",
+    "src/app/auth.css",
+    "package.json",
+    "data/tests/auth_reliability.test.mjs",
+    "docs/brain/AUTH-RELIABILITY-2026-10-13.md",
+    "middleware.js (deleted)",
+    "src/app/api/auth/[...nextauth]/route.js (deleted)"
+  ],
+  "verification": "Tests, build, eslint, local staging browser run. Not exercised: completed Google sign-in or real inbox code; >1h session on production.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

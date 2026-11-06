@@ -1,0 +1,23 @@
+{
+  "id": "20261015T054748.863585Z-0d8867d5",
+  "observed_at": "2026-10-15T05:47:48.863585+00:00",
+  "agent": "verifier (Repair v3 + SWOT truth review, items 1-8)",
+  "task": "Independent verification of fixer's Repair v3 + SWOT truth-review fixes (spec mockmob-next/tmp/repair-v3/SPEC.md)",
+  "status": "complete",
+  "done": "All 8 items verified fixed in code and tests. I added web commit 11e30ec3 on web/alive-1015, not pushed. It makes cleanRepairText keep a factorial when a full stop follows it (\"5!.\" was turning into \"5.\", which is wrong maths). It also makes claimsAboutStudent catch \"got confused / fell for / thought / failed to notice\". Read-only production SQL on isrxrxzjocewrdureyhp: the findRepairTraps paths resolve, there are 6 committed repair rows, all v1, and 0 have a trap_type.",
+  "next": "Push web/alive-1015 (969dcf47 + 11e30ec3) when the owner's flow allows it. App A changes are still uncommitted in wt-phase2. A residual issue that does not block: the untried SWOT line is worded relative to this paper, so a later practice set in that chapter does not remove it when an old result is opened again.",
+  "blockers": [],
+  "evidence": [
+    "W test:learning 272/272, test:recovery 40/40, test:app 147/147, test:nta 150/150",
+    "eslint --max-warnings 0 clean on 13 changed web files",
+    "A flutter analyze: no issues; test -j 1 test/unit/review test/unit/result: 446 pass",
+    "SQL: ai_credit_reservations receipt jsonb; receipt->'repair'->>'trap_type', receipt->>'subject', receipt->>'chapter' resolve; synthetic v3 jsonb returns look_alike_term"
+  ],
+  "touched_files": [
+    "C:/Users/atish/Desktop/mockmob copy/wt-web-refine/data/mistake_repair.js",
+    "C:/Users/atish/Desktop/mockmob copy/wt-web-refine/data/tests/mistake_repair.test.mjs"
+  ],
+  "verification": "Generated SWOT output from every fixture in data/tests/fixtures/swot and read each student-facing string. Every count has its denominator or is a single fact. None contains \"!\", an em dash or a middle dot, and none is a forecast. When checks are pending, mistakeInsights is {}.",
+  "cost_and_pending_requests": "none (no paid model calls)",
+  "confidence": "agent-reported; verify evidence before acting"
+}

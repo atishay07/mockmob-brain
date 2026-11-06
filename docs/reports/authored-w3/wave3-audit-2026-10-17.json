@@ -1,0 +1,1066 @@
+{
+ "kind": "authored_w3_audit",
+ "date": "2026-10-17",
+ "source": "claude-authored-2026-10-17-w3",
+ "auditor": "claude-opus-5-5 (second, stronger checker; every audited question was solved from the stem and options before the key was read)",
+ "sample": {
+  "size": 45,
+  "of": 294,
+  "method": "seeded stratified draw (LCG seed 20261017): batch quota proportional to batch size with a minimum of 3, rare question types filled first",
+  "byBatch": {
+   "chem-01": 3,
+   "chem-02": 3,
+   "chem-03": 3,
+   "gat-01": 4,
+   "gat-02": 4,
+   "gat-03": 4,
+   "gat-04": 4,
+   "hin-01": 4,
+   "hin-02": 4,
+   "phys-01": 4,
+   "phys-02": 4,
+   "phys-03": 4
+  },
+  "byType": {
+   "sequence_ordering": 3,
+   "assertion_reason": 4,
+   "match_the_following": 5,
+   "single_mcq": 24,
+   "statement_based": 5,
+   "passage_set_item": 4
+  },
+  "rows": [
+   {
+    "n": 1,
+    "id": "1d013847-e124-44e4-b400-a5a55ad558cb",
+    "batch": "chem-01",
+    "type": "sequence_ordering",
+    "chapter": "Alcohols, Phenols & Ethers",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 2,
+    "id": "6a4e7b4f-47b5-425d-8887-7778fc06e6ee",
+    "batch": "chem-01",
+    "type": "assertion_reason",
+    "chapter": "Alcohols, Phenols & Ethers",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 3,
+    "id": "cc5ce6c8-e0fe-4cc4-afbd-1c9d4b8ee681",
+    "batch": "chem-01",
+    "type": "match_the_following",
+    "chapter": "Haloalkanes & Haloarenes",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 4,
+    "id": "e993c092-300c-4155-8a22-2b5228c43b87",
+    "batch": "chem-02",
+    "type": "single_mcq",
+    "chapter": "Biomolecules",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 5,
+    "id": "c7164d89-271f-4f8d-8340-124aa636b7a2",
+    "batch": "chem-02",
+    "type": "single_mcq",
+    "chapter": "Biomolecules",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 6,
+    "id": "6c9e8e40-c2e3-4240-946d-3e669d70a831",
+    "batch": "chem-02",
+    "type": "single_mcq",
+    "chapter": "Amines",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 7,
+    "id": "8ed9bbe9-5c6f-4785-84d1-6d8d6625e7c6",
+    "batch": "chem-03",
+    "type": "single_mcq",
+    "chapter": "Electrochemistry",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 8,
+    "id": "dc8c1ef9-3c6c-4ae0-ba28-3caf30b0c5fe",
+    "batch": "chem-03",
+    "type": "single_mcq",
+    "chapter": "d- and f-Block Elements",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 9,
+    "id": "c59ca92c-e396-4036-822d-1ef3fecdeda2",
+    "batch": "chem-03",
+    "type": "single_mcq",
+    "chapter": "d- and f-Block Elements",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 10,
+    "id": "9bf44c6e-60a3-4d29-90b1-afcdbf800ab4",
+    "batch": "gat-01",
+    "type": "statement_based",
+    "chapter": "Logical & Analytical Reasoning",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 11,
+    "id": "4650a47a-f12a-4916-975a-1e2bbd999de5",
+    "batch": "gat-01",
+    "type": "sequence_ordering",
+    "chapter": "Logical & Analytical Reasoning",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 12,
+    "id": "e8db991e-fd05-4e8d-9157-36a719ad405d",
+    "batch": "gat-01",
+    "type": "match_the_following",
+    "chapter": "Logical & Analytical Reasoning",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 13,
+    "id": "c6f4c6ab-0a24-49a8-ba45-23a3104b8826",
+    "batch": "gat-01",
+    "type": "single_mcq",
+    "chapter": "Logical & Analytical Reasoning",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 14,
+    "id": "29d9c92f-3fce-40f7-b1ea-c4c56f07ab15",
+    "batch": "gat-02",
+    "type": "statement_based",
+    "chapter": "General Knowledge",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 15,
+    "id": "13acff28-0d34-4e66-9f98-c2db0415b060",
+    "batch": "gat-02",
+    "type": "sequence_ordering",
+    "chapter": "General Knowledge",
+    "solved_key_matches": true,
+    "defects": [
+     "D5"
+    ]
+   },
+   {
+    "n": 16,
+    "id": "4d609f5a-fe44-4fbc-b574-688115b283c0",
+    "batch": "gat-02",
+    "type": "match_the_following",
+    "chapter": "General Knowledge",
+    "solved_key_matches": true,
+    "defects": [
+     "D4"
+    ]
+   },
+   {
+    "n": 17,
+    "id": "40c5bdcc-4867-421d-85e8-b9049b3b736a",
+    "batch": "gat-02",
+    "type": "assertion_reason",
+    "chapter": "General Knowledge",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 18,
+    "id": "5b2e9f08-7d13-4a6c-8e41-9c0f2b7d3a16",
+    "batch": "gat-03",
+    "type": "single_mcq",
+    "chapter": "Quantitative Reasoning",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 19,
+    "id": "e9a3d150-6b7f-4c28-9d4e-3f1a8c6b0e29",
+    "batch": "gat-03",
+    "type": "single_mcq",
+    "chapter": "Quantitative Reasoning",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 20,
+    "id": "e0d5a92c-18b7-4f3e-9c64-3a8f1d7e2b05",
+    "batch": "gat-03",
+    "type": "single_mcq",
+    "chapter": "Numerical Ability",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 21,
+    "id": "4e6a1b9c-8f2d-4c03-9e7b-a5d1f3c8e620",
+    "batch": "gat-03",
+    "type": "single_mcq",
+    "chapter": "Quantitative Reasoning",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 22,
+    "id": "c397d567-7836-4f84-a2ff-2e3913967ac9",
+    "batch": "gat-04",
+    "type": "statement_based",
+    "chapter": "Logical & Analytical Reasoning",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 23,
+    "id": "352e7338-650c-45f2-a195-74266a9fa337",
+    "batch": "gat-04",
+    "type": "single_mcq",
+    "chapter": "Basic Mathematical Concepts",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 24,
+    "id": "012e2c37-e60a-4306-bee3-7b8eafd080b4",
+    "batch": "gat-04",
+    "type": "single_mcq",
+    "chapter": "Logical & Analytical Reasoning",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 25,
+    "id": "cc704589-53b7-4f63-8da8-e2a3d2d05712",
+    "batch": "gat-04",
+    "type": "single_mcq",
+    "chapter": "General Mental Ability",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 26,
+    "id": "5f7b9d1a-3c5e-4b7d-8f9a-6c8e0b2d4f20",
+    "batch": "hin-01",
+    "type": "statement_based",
+    "chapter": "Vyakaran",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 27,
+    "id": "0d2f4a6c-8e0b-4c2d-b6e8-2a4c6e8f0b16",
+    "batch": "hin-01",
+    "type": "match_the_following",
+    "chapter": "Vyakaran",
+    "solved_key_matches": true,
+    "defects": [
+     "D5"
+    ]
+   },
+   {
+    "n": 28,
+    "id": "5d7f9b1c-2e4a-4c6d-8b0e-7a9c1e3f5b06",
+    "batch": "hin-01",
+    "type": "single_mcq",
+    "chapter": "Vyakaran",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 29,
+    "id": "8b0d2f4a-6c8e-4a0b-8d2f-1e3a5c7e9b12",
+    "batch": "hin-01",
+    "type": "single_mcq",
+    "chapter": "Vyakaran",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 30,
+    "id": "71f5818f-1ab8-401a-9831-d3df5f5df742",
+    "batch": "hin-02",
+    "type": "passage_set_item",
+    "chapter": "Kavya Khand",
+    "solved_key_matches": true,
+    "defects": [
+     "D1"
+    ]
+   },
+   {
+    "n": 31,
+    "id": "b058d829-ff4f-4603-9897-320747884a8e",
+    "batch": "hin-02",
+    "type": "passage_set_item",
+    "chapter": "Gadya Khand",
+    "solved_key_matches": true,
+    "defects": [
+     "D1"
+    ]
+   },
+   {
+    "n": 32,
+    "id": "d0a23e3a-cf62-4ea6-b87e-39f1bbca4f46",
+    "batch": "hin-02",
+    "type": "passage_set_item",
+    "chapter": "Gadya Khand",
+    "solved_key_matches": true,
+    "defects": [
+     "D1",
+     "D2"
+    ]
+   },
+   {
+    "n": 33,
+    "id": "40bcbcad-c123-46b1-bda5-d48ed9ebdd84",
+    "batch": "hin-02",
+    "type": "passage_set_item",
+    "chapter": "Gadya Khand",
+    "solved_key_matches": true,
+    "defects": [
+     "D1"
+    ]
+   },
+   {
+    "n": 34,
+    "id": "62c2ce5f-251f-4b6b-a2c2-be45de07dfc3",
+    "batch": "phys-01",
+    "type": "assertion_reason",
+    "chapter": "Current Electricity",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 35,
+    "id": "aea26296-5917-40a2-9a7c-d9cf913a5363",
+    "batch": "phys-01",
+    "type": "single_mcq",
+    "chapter": "Current Electricity",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 36,
+    "id": "06fb3fe8-7f7f-463d-a602-1a5953423084",
+    "batch": "phys-01",
+    "type": "statement_based",
+    "chapter": "Current Electricity",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 37,
+    "id": "9ef7bafe-2ca1-4e14-a12a-08890c27374c",
+    "batch": "phys-01",
+    "type": "single_mcq",
+    "chapter": "Moving Charges & Magnetism",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 38,
+    "id": "3c52abd8-b99f-46ac-aa70-29811ca6fe13",
+    "batch": "phys-02",
+    "type": "match_the_following",
+    "chapter": "Semiconductor Electronics",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 39,
+    "id": "2dd3f1b3-dd5a-4465-83a7-b8da3eb6449f",
+    "batch": "phys-02",
+    "type": "assertion_reason",
+    "chapter": "Dual Nature of Radiation & Matter",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 40,
+    "id": "3238f380-53b1-4775-b76b-5576a417e983",
+    "batch": "phys-02",
+    "type": "single_mcq",
+    "chapter": "Dual Nature of Radiation & Matter",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 41,
+    "id": "14640fcc-4496-4528-84bb-930a5d17bbae",
+    "batch": "phys-02",
+    "type": "single_mcq",
+    "chapter": "Dual Nature of Radiation & Matter",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 42,
+    "id": "7156b397-65f5-4272-aad7-2444451f0d72",
+    "batch": "phys-03",
+    "type": "single_mcq",
+    "chapter": "Alternating Current",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 43,
+    "id": "0731d7d3-671e-4714-8b36-65d0a388117c",
+    "batch": "phys-03",
+    "type": "single_mcq",
+    "chapter": "Wave Optics",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 44,
+    "id": "fb9cd358-0b96-4d88-948d-61c5f12549d6",
+    "batch": "phys-03",
+    "type": "single_mcq",
+    "chapter": "Ray Optics & Optical Instruments",
+    "solved_key_matches": true,
+    "defects": []
+   },
+   {
+    "n": 45,
+    "id": "c37ac200-ac31-42a5-b383-c0a8150a1771",
+    "batch": "phys-03",
+    "type": "single_mcq",
+    "chapter": "Wave Optics",
+    "solved_key_matches": true,
+    "defects": []
+   }
+  ]
+ },
+ "keys_wrong": 0,
+ "defects_in_sample": {
+  "questions": 7,
+  "rate": 0.15555555555555556
+ },
+ "full_recheck": {
+  "batches": [
+   "gat-02",
+   "hin-02",
+   "hin-01"
+  ],
+  "reason": "defects in the sample: hin-02 (chapter names, a passage typo) and gat-02 (explanation); hin-01 added as the same-author sibling of hin-02",
+  "questions": 74
+ },
+ "defects": [
+  {
+   "code": "D1",
+   "batch": "hin-02",
+   "rows": 24,
+   "kind": "chapter_name",
+   "what": "Unseen passage questions carry chapter 'Gadya Khand' or 'Kavya Khand' (the set-text literature chapters). The canonical chapters are 'Apathit Gadyansh' and 'Apathit Padyansh' (data/canonical_syllabus.js); the draft's own unit field already holds that name.",
+   "fix": "chapter set to the unit value"
+  },
+  {
+   "code": "D2",
+   "batch": "hin-02",
+   "rows": 5,
+   "kind": "passage_language",
+   "what": "Set hindi__g1__set2: the passage has the ungrammatical 'क्यों पढ़तीं?'.",
+   "fix": "'क्यों पढ़ती हैं?'"
+  },
+  {
+   "code": "D3",
+   "batch": "hin-02",
+   "rows": 1,
+   "kind": "explanation_wrong",
+   "what": "ea68c38a: the explanation says the author expresses the feeling 'through उपमा', while the set's own figure-of-speech question (the 'मानो ...' line) is utpreksha.",
+   "fix": "the figure name removed from the explanation"
+  },
+  {
+   "code": "D4",
+   "batch": "gat-02",
+   "rows": 1,
+   "kind": "explanation_weak",
+   "what": "4d609f5a (rivers and cities): the explanation only restates the answer ('each city is paired with the river that flows through it') and teaches nothing.",
+   "fix": "explanation rewritten with the four river-city pairs and how the other options go wrong"
+  },
+  {
+   "code": "D5",
+   "batch": "gat-02, phys-02, hin-01",
+   "rows": 3,
+   "kind": "key_is_listed_order",
+   "what": "The keyed option of a sequence or match item is the order the stem prints its items in (13acff28: (A),(B),(C),(D); 3d3a5b97 and 0d2f4a6c: (A)-(I),(B)-(II),(C)-(III),(D)-(IV)), which hands the answer to anyone who spots the pattern. The NTA engine refuses all three (listedOrderKeyReasons). I solved all three without noticing: the two in my own full re-check batches (13acff28 is sample #15 and 0d2f4a6c is sample #27) are misses of mine, found when the engine gates were run over all 294.",
+   "fix": "stem items reprinted in another order and the options remapped to the new labels (scripts/lib/listed-order-reorder.mjs for the first two, by hand for the Hindi list because the module reads only \"List-II\" headings); the key keeps its letter and means the same entries; verified by hand"
+  }
+ ],
+ "advisories_not_changed": [
+  "hin-01: Q4 (कनक = सोना/धतूरा) and Q12 (the कनक yamak line) test the same fact, and Q9 and Q24 both rest on the 'ता' suffix; in one paper the first of each pair gives the second away. The NTA engine's concept guards may or may not hold them apart.",
+  "Difficulty labels run high on some recall items: chem-02 N-nitrosoamine (labelled hard), phys-03 LCR resonant frequency by formula (labelled hard), gat-02 'Article 148 / Article 280' recall (hard). The NTA mix uses these labels.",
+  "hin-02 / k1: both verse sets ask for the dominant rasa of modern free verse (करुण for the dry well, शांत for the Kabir-style lines); defensible, the options hold no rival, but a purist could argue.",
+  "hin-01 Q22: ख-घ-ग-क is as coherent as the keyed ख-ग-क-घ, but is not offered, so the item stays unambiguous.",
+  "gat-02: several items are very basic for CUET (Festival of Lights, SI unit of resistance, zinc and acid); keep them in easy.",
+  "hin-01 is mostly grammar (alankar, ras, samas, sandhi). The 2026 syllabus PDF lists rearranging the parts, match the following, correct word, synonyms and antonyms; grammar items fall under 'not limited to'. Only 3 of 25 items are match-type and none is a part-rearrangement item.",
+  "Key letters over the 294: A 76, B 90, C 78, D 50 (D is 17 percent against 25 expected; chi-square 11.6 on 3 degrees, p about 0.009). The engine serves options in a per-student order (ntaServedRow), so the practice reader is the only place the skew shows.",
+  "Longest option is the key in 41 percent of the 49 Hindi rows (expected about 25-30 percent); chemistry 30, physics 27, general test 24.",
+  "Near-duplicate stems: the spin-only magnetic moment of Ti3+ (a405bec0), Fe2+ (89b11133) and, in waves 1-2, Cr3+ (1a6aba93); two milk-and-water mixture items (a81d6e42, 79b5e2a3); the generic stem \"Which one of the following does not belong to the group?\" (0d4b69da here, 941bb178 in wave 2). Different numbers or options, so not duplicates, but the NTA concept guard may hold them apart."
+ ],
+ "audited_ids": [
+  "1d013847-e124-44e4-b400-a5a55ad558cb",
+  "6a4e7b4f-47b5-425d-8887-7778fc06e6ee",
+  "cc5ce6c8-e0fe-4cc4-afbd-1c9d4b8ee681",
+  "e993c092-300c-4155-8a22-2b5228c43b87",
+  "c7164d89-271f-4f8d-8340-124aa636b7a2",
+  "6c9e8e40-c2e3-4240-946d-3e669d70a831",
+  "8ed9bbe9-5c6f-4785-84d1-6d8d6625e7c6",
+  "dc8c1ef9-3c6c-4ae0-ba28-3caf30b0c5fe",
+  "c59ca92c-e396-4036-822d-1ef3fecdeda2",
+  "9bf44c6e-60a3-4d29-90b1-afcdbf800ab4",
+  "4650a47a-f12a-4916-975a-1e2bbd999de5",
+  "e8db991e-fd05-4e8d-9157-36a719ad405d",
+  "c6f4c6ab-0a24-49a8-ba45-23a3104b8826",
+  "29d9c92f-3fce-40f7-b1ea-c4c56f07ab15",
+  "13acff28-0d34-4e66-9f98-c2db0415b060",
+  "4d609f5a-fe44-4fbc-b574-688115b283c0",
+  "40c5bdcc-4867-421d-85e8-b9049b3b736a",
+  "5b2e9f08-7d13-4a6c-8e41-9c0f2b7d3a16",
+  "e9a3d150-6b7f-4c28-9d4e-3f1a8c6b0e29",
+  "e0d5a92c-18b7-4f3e-9c64-3a8f1d7e2b05",
+  "4e6a1b9c-8f2d-4c03-9e7b-a5d1f3c8e620",
+  "c397d567-7836-4f84-a2ff-2e3913967ac9",
+  "352e7338-650c-45f2-a195-74266a9fa337",
+  "012e2c37-e60a-4306-bee3-7b8eafd080b4",
+  "cc704589-53b7-4f63-8da8-e2a3d2d05712",
+  "5f7b9d1a-3c5e-4b7d-8f9a-6c8e0b2d4f20",
+  "0d2f4a6c-8e0b-4c2d-b6e8-2a4c6e8f0b16",
+  "5d7f9b1c-2e4a-4c6d-8b0e-7a9c1e3f5b06",
+  "8b0d2f4a-6c8e-4a0b-8d2f-1e3a5c7e9b12",
+  "71f5818f-1ab8-401a-9831-d3df5f5df742",
+  "b058d829-ff4f-4603-9897-320747884a8e",
+  "d0a23e3a-cf62-4ea6-b87e-39f1bbca4f46",
+  "40bcbcad-c123-46b1-bda5-d48ed9ebdd84",
+  "62c2ce5f-251f-4b6b-a2c2-be45de07dfc3",
+  "aea26296-5917-40a2-9a7c-d9cf913a5363",
+  "06fb3fe8-7f7f-463d-a602-1a5953423084",
+  "9ef7bafe-2ca1-4e14-a12a-08890c27374c",
+  "3c52abd8-b99f-46ac-aa70-29811ca6fe13",
+  "2dd3f1b3-dd5a-4465-83a7-b8da3eb6449f",
+  "3238f380-53b1-4775-b76b-5576a417e983",
+  "14640fcc-4496-4528-84bb-930a5d17bbae",
+  "7156b397-65f5-4272-aad7-2444451f0d72",
+  "0731d7d3-671e-4714-8b36-65d0a388117c",
+  "fb9cd358-0b96-4d88-948d-61c5f12549d6",
+  "c37ac200-ac31-42a5-b383-c0a8150a1771",
+  "5d4111c6-388a-4181-9870-48f2433614c7",
+  "fa2c18d3-01f9-4649-b00e-a9e8ff238ad0",
+  "06136942-8436-4390-a2b3-5b8fe1fe0e55",
+  "6f4b8986-14b3-429a-a6b3-5be84ad78968",
+  "ccfced58-510d-48ef-abb4-96e5bef0c79c",
+  "4c35a04e-9361-4752-b43a-1d8dcd390199",
+  "78eb3759-1464-4e8b-bc15-a4c44426e185",
+  "774478bb-024f-426b-9322-d3efb4995839",
+  "e4bffc63-34a2-454c-a824-04a67523ea3c",
+  "27a22460-7b41-4d9e-bfa1-d1423c8ddeb4",
+  "e6889e85-b985-4243-ad3a-4c642d6af9c3",
+  "03df7dbd-0b5a-44c3-bd70-35e0fe87db04",
+  "190d65d3-c340-4f52-9200-f993ae17254d",
+  "134b88cc-ad0d-4e64-a43d-e913e5c50b8b",
+  "527b4906-0de1-4107-96da-3b6fbd53111f",
+  "7fc9c9ea-2cc0-43af-91bf-099821f07bff",
+  "8d00f227-84a2-4ed5-8e30-a13421089559",
+  "58e99246-9e9e-45b8-a31c-31662eb1f502",
+  "d9f17d54-ca5e-4301-88f7-9ea53cbbf264",
+  "301660c4-85f8-48f2-a8ad-07497eb84325",
+  "015244d0-de83-4f32-98b1-c2e293f25c58",
+  "3589c9bc-49ca-4548-a1c0-88f9b698733e",
+  "df652cb0-2495-4717-8176-b7cf791c48e9",
+  "d5be7cba-6a1d-489d-9379-61b10b578177",
+  "cfd46b3c-fc31-42ac-ba93-9fb6f283cbb0",
+  "2272509c-c516-4e51-b316-c957d85345e3",
+  "25f21a6c-2cca-4def-9cf0-365252ab0ef4",
+  "ba7dc7b0-fff4-4521-a3a3-04f95ae1c7de",
+  "ea68c38a-2bf6-4bc1-ac1d-f394b8a65df5",
+  "e97e71da-8da9-4e91-9494-6bf496ee895a",
+  "065ca807-d306-4d72-bf01-07900fa0bec4",
+  "da3c351f-941d-4d49-971b-244b08de65fe",
+  "188585d2-2eaa-4da9-9286-398425a99643",
+  "087c70bb-d0f0-4b83-b146-643a5e0e6b80",
+  "dab9eb47-e168-4069-985a-4d71f8f7818c",
+  "98be36bb-bded-4765-9a9b-6222cd61d686",
+  "3b56c9ce-8055-4d97-b055-18355ec7cda8",
+  "9b1ceace-8ecf-465d-b331-e6873d394d8d",
+  "732cfe3b-6953-4758-908f-d40d196dedfa",
+  "a7acf876-0ef8-4f71-a881-ed8ad90d998a",
+  "542c01df-28d6-4720-ba55-12252984bc9f",
+  "3f1a9c2e-6b4d-4e8a-9c1f-2a7d5e8b1c01",
+  "7b2e4d6f-1a3c-4f5b-8d9e-0c2b4a6e8f02",
+  "c5d8e1f3-9a2b-4c7d-8e6f-1b3d5a7c9e03",
+  "9e4f7a2b-3c6d-4e1f-a8b9-2d4c6e8f0a04",
+  "2a6c8e0f-4b1d-4a3e-9f7c-5e9b1d3f7a05",
+  "e8b0d2f4-6a8c-4e1b-9d3f-4c6a8e0b2d07",
+  "1c3e5a7b-9d2f-4b4e-a6c8-8e0b2d4f6a08",
+  "6f8a0c2e-4d6b-4f8a-b1d3-3f5a7c9e1b09",
+  "a4c6e8b0-2d4f-4a6c-8e0b-6d8f0a2c4e10",
+  "d2f4b6a8-0c2e-4e4f-9a6b-9c1e3f5a7d11",
+  "4e6a8c0e-2f4b-4c6d-9e8a-5b7d9f1a3c13",
+  "f0a2c4e6-8b0d-4d2f-a4c6-7e9b1d3f5a14",
+  "b3d5f7a9-1c3e-4a5b-8c7d-0e2f4a6b8d15",
+  "9a1c3e5f-7b9d-4f1a-8c3e-4b6d8f0a2c17",
+  "6e8a0c2d-4f6b-4a8c-9d0e-8f2a4c6e0d18",
+  "2c4e6a8b-0d2f-4e4c-a6b8-1d3f5a7c9e19",
+  "8d0f2b4e-6a8c-4f0e-9c2d-7a9b1d3f5e22",
+  "e6a8c0e2-4b6d-4a8f-8e0c-0b2d4f6a8c23",
+  "3b5d7f9a-1c3e-4d5b-a7c9-5d7f9b1e3a24",
+  "a9c1e3f5-7b9d-4e1a-9f3c-9f1b3d5e7a25",
+  "b7d9f1a3-5c7e-4f9b-8a1d-3c5e7f9a1b26"
+ ],
+ "repairs": [
+  {
+   "id": "3589c9bc-49ca-4548-a1c0-88f9b698733e",
+   "field": "chapter",
+   "expect": "Gadya Khand",
+   "set": "Apathit Gadyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "df652cb0-2495-4717-8176-b7cf791c48e9",
+   "field": "chapter",
+   "expect": "Gadya Khand",
+   "set": "Apathit Gadyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "d5be7cba-6a1d-489d-9379-61b10b578177",
+   "field": "chapter",
+   "expect": "Gadya Khand",
+   "set": "Apathit Gadyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "cfd46b3c-fc31-42ac-ba93-9fb6f283cbb0",
+   "field": "chapter",
+   "expect": "Gadya Khand",
+   "set": "Apathit Gadyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "2272509c-c516-4e51-b316-c957d85345e3",
+   "field": "chapter",
+   "expect": "Gadya Khand",
+   "set": "Apathit Gadyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "25f21a6c-2cca-4def-9cf0-365252ab0ef4",
+   "field": "chapter",
+   "expect": "Gadya Khand",
+   "set": "Apathit Gadyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "ba7dc7b0-fff4-4521-a3a3-04f95ae1c7de",
+   "field": "chapter",
+   "expect": "Gadya Khand",
+   "set": "Apathit Gadyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "d0a23e3a-cf62-4ea6-b87e-39f1bbca4f46",
+   "field": "chapter",
+   "expect": "Gadya Khand",
+   "set": "Apathit Gadyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "ea68c38a-2bf6-4bc1-ac1d-f394b8a65df5",
+   "field": "chapter",
+   "expect": "Gadya Khand",
+   "set": "Apathit Gadyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "e97e71da-8da9-4e91-9494-6bf496ee895a",
+   "field": "chapter",
+   "expect": "Gadya Khand",
+   "set": "Apathit Gadyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "065ca807-d306-4d72-bf01-07900fa0bec4",
+   "field": "chapter",
+   "expect": "Gadya Khand",
+   "set": "Apathit Gadyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "da3c351f-941d-4d49-971b-244b08de65fe",
+   "field": "chapter",
+   "expect": "Gadya Khand",
+   "set": "Apathit Gadyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "40bcbcad-c123-46b1-bda5-d48ed9ebdd84",
+   "field": "chapter",
+   "expect": "Gadya Khand",
+   "set": "Apathit Gadyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "b058d829-ff4f-4603-9897-320747884a8e",
+   "field": "chapter",
+   "expect": "Gadya Khand",
+   "set": "Apathit Gadyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "188585d2-2eaa-4da9-9286-398425a99643",
+   "field": "chapter",
+   "expect": "Gadya Khand",
+   "set": "Apathit Gadyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "087c70bb-d0f0-4b83-b146-643a5e0e6b80",
+   "field": "chapter",
+   "expect": "Kavya Khand",
+   "set": "Apathit Padyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "dab9eb47-e168-4069-985a-4d71f8f7818c",
+   "field": "chapter",
+   "expect": "Kavya Khand",
+   "set": "Apathit Padyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "98be36bb-bded-4765-9a9b-6222cd61d686",
+   "field": "chapter",
+   "expect": "Kavya Khand",
+   "set": "Apathit Padyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "3b56c9ce-8055-4d97-b055-18355ec7cda8",
+   "field": "chapter",
+   "expect": "Kavya Khand",
+   "set": "Apathit Padyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "9b1ceace-8ecf-465d-b331-e6873d394d8d",
+   "field": "chapter",
+   "expect": "Kavya Khand",
+   "set": "Apathit Padyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "732cfe3b-6953-4758-908f-d40d196dedfa",
+   "field": "chapter",
+   "expect": "Kavya Khand",
+   "set": "Apathit Padyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "a7acf876-0ef8-4f71-a881-ed8ad90d998a",
+   "field": "chapter",
+   "expect": "Kavya Khand",
+   "set": "Apathit Padyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "71f5818f-1ab8-401a-9831-d3df5f5df742",
+   "field": "chapter",
+   "expect": "Kavya Khand",
+   "set": "Apathit Padyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "542c01df-28d6-4720-ba55-12252984bc9f",
+   "field": "chapter",
+   "expect": "Kavya Khand",
+   "set": "Apathit Padyansh",
+   "defect": "D1"
+  },
+  {
+   "id": "25f21a6c-2cca-4def-9cf0-365252ab0ef4",
+   "field": "passage_text",
+   "find": "इतनी धीरे-धीरे क्यों पढ़तीं?",
+   "replace": "इतनी धीरे-धीरे क्यों पढ़ती हैं?",
+   "defect": "D2"
+  },
+  {
+   "id": "ba7dc7b0-fff4-4521-a3a3-04f95ae1c7de",
+   "field": "passage_text",
+   "find": "इतनी धीरे-धीरे क्यों पढ़तीं?",
+   "replace": "इतनी धीरे-धीरे क्यों पढ़ती हैं?",
+   "defect": "D2"
+  },
+  {
+   "id": "d0a23e3a-cf62-4ea6-b87e-39f1bbca4f46",
+   "field": "passage_text",
+   "find": "इतनी धीरे-धीरे क्यों पढ़तीं?",
+   "replace": "इतनी धीरे-धीरे क्यों पढ़ती हैं?",
+   "defect": "D2"
+  },
+  {
+   "id": "ea68c38a-2bf6-4bc1-ac1d-f394b8a65df5",
+   "field": "passage_text",
+   "find": "इतनी धीरे-धीरे क्यों पढ़तीं?",
+   "replace": "इतनी धीरे-धीरे क्यों पढ़ती हैं?",
+   "defect": "D2"
+  },
+  {
+   "id": "e97e71da-8da9-4e91-9494-6bf496ee895a",
+   "field": "passage_text",
+   "find": "इतनी धीरे-धीरे क्यों पढ़तीं?",
+   "replace": "इतनी धीरे-धीरे क्यों पढ़ती हैं?",
+   "defect": "D2"
+  },
+  {
+   "id": "ea68c38a-2bf6-4bc1-ac1d-f394b8a65df5",
+   "field": "explanation",
+   "find": "लेखक भाव को उपमा के सहारे अप्रत्यक्ष रूप से व्यक्त करता है।",
+   "replace": "लेखक भाव को अप्रत्यक्ष रूप से व्यक्त करता है।",
+   "defect": "D3"
+  },
+  {
+   "id": "4d609f5a-fe44-4fbc-b574-688115b283c0",
+   "field": "explanation",
+   "expect": "The Sabarmati flows past Ahmedabad, the Brahmaputra past Guwahati, the Yamuna past Delhi and the Mahanadi past Cuttack in Odisha. Matching each river to the major city on its course is a standard geography question. Each city is therefore paired with the river that flows through it.",
+   "set": "The Sabarmati flows past Ahmedabad in Gujarat, the Brahmaputra past Guwahati in Assam, the Yamuna past Delhi and the Mahanadi past Cuttack in Odisha. Only the second option pairs all four correctly. The other options swap rivers and cities; the first, for example, puts the Sabarmati at Guwahati and the Brahmaputra at Ahmedabad. Learn each major river with one or two cities on its banks.",
+   "defect": "D4"
+  },
+  {
+   "id": "13acff28-0d34-4e66-9f98-c2db0415b060",
+   "field": "stem",
+   "expect": "Arrange the following constitutional amendments of India in the chronological order of their enactment.\n(A) 1st Amendment\n(B) 42nd Amendment\n(C) 73rd Amendment\n(D) 86th Amendment\nChoose the correct answer from the options given below.",
+   "set": "Arrange the following constitutional amendments of India in the chronological order of their enactment.\n(A) 73rd Amendment\n(B) 1st Amendment\n(C) 42nd Amendment\n(D) 86th Amendment\nChoose the correct answer from the options given below.",
+   "defect": "D5"
+  },
+  {
+   "id": "13acff28-0d34-4e66-9f98-c2db0415b060",
+   "field": "options",
+   "expect": [
+    {
+     "key": "A",
+     "text": "(B), (A), (C), (D)"
+    },
+    {
+     "key": "B",
+     "text": "(A), (C), (B), (D)"
+    },
+    {
+     "key": "C",
+     "text": "(A), (B), (D), (C)"
+    },
+    {
+     "key": "D",
+     "text": "(A), (B), (C), (D)"
+    }
+   ],
+   "set": [
+    {
+     "key": "A",
+     "text": "(C), (B), (A), (D)"
+    },
+    {
+     "key": "B",
+     "text": "(B), (A), (C), (D)"
+    },
+    {
+     "key": "C",
+     "text": "(B), (C), (D), (A)"
+    },
+    {
+     "key": "D",
+     "text": "(B), (C), (A), (D)"
+    }
+   ],
+   "defect": "D5"
+  },
+  {
+   "id": "13acff28-0d34-4e66-9f98-c2db0415b060",
+   "field": "explanation",
+   "expect": "The 1st Amendment was enacted in 1951, the 42nd in 1976, the 73rd in 1992 and the 86th in 2002. The chronological order is therefore A, B, C, D. Remembering the decade of major amendments helps in answering ordering questions.",
+   "set": "The 1st Amendment was enacted in 1951, the 42nd in 1976, the 73rd in 1992 and the 86th in 2002. The chronological order is therefore B, C, A, D. Remembering the decade of major amendments helps in answering ordering questions.",
+   "defect": "D5"
+  },
+  {
+   "id": "3d3a5b97-0249-4275-9f58-5fd7ab90a3d3",
+   "field": "stem",
+   "expect": "Match List-I with List-II. List-I: (A) Lyman series (B) Balmer series (C) Paschen series (D) Brackett series. List-II: (I) Lower level n = 1 (II) Lower level n = 2 (III) Lower level n = 3 (IV) Lower level n = 4. Choose the correct answer from the options given below.",
+   "set": "Match List-I with List-II. List-I: (A) Lyman series (B) Balmer series (C) Paschen series (D) Brackett series. List-II: (I) Lower level n = 4 (II) Lower level n = 3 (III) Lower level n = 1 (IV) Lower level n = 2. Choose the correct answer from the options given below.",
+   "defect": "D5"
+  },
+  {
+   "id": "3d3a5b97-0249-4275-9f58-5fd7ab90a3d3",
+   "field": "options",
+   "expect": [
+    {
+     "key": "A",
+     "text": "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)"
+    },
+    {
+     "key": "B",
+     "text": "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+    },
+    {
+     "key": "C",
+     "text": "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)"
+    },
+    {
+     "key": "D",
+     "text": "(A)-(IV), (B)-(III), (C)-(II), (D)-(I)"
+    }
+   ],
+   "set": [
+    {
+     "key": "A",
+     "text": "(A)-(IV), (B)-(III), (C)-(II), (D)-(I)"
+    },
+    {
+     "key": "B",
+     "text": "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)"
+    },
+    {
+     "key": "C",
+     "text": "(A)-(III), (B)-(II), (C)-(IV), (D)-(I)"
+    },
+    {
+     "key": "D",
+     "text": "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)"
+    }
+   ],
+   "defect": "D5"
+  },
+  {
+   "id": "0d2f4a6c-8e0b-4c2d-b6e8-2a4c6e8f0b16",
+   "field": "stem",
+   "expect": "सूची-I का सूची-II से सही मिलान कीजिए। सूची-I: (A) नौ दो ग्यारह होना (B) दाल में काला होना (C) पानी-पानी होना (D) आँख चुराना। सूची-II: (I) भाग जाना (II) कुछ गड़बड़ होने का संदेह होना (III) लज्जित होना (IV) नज़र बचाना। सही विकल्प चुनिए।",
+   "set": "सूची-I का सूची-II से सही मिलान कीजिए। सूची-I: (A) नौ दो ग्यारह होना (B) दाल में काला होना (C) पानी-पानी होना (D) आँख चुराना। सूची-II: (I) नज़र बचाना (II) लज्जित होना (III) भाग जाना (IV) कुछ गड़बड़ होने का संदेह होना। सही विकल्प चुनिए।",
+   "defect": "D5"
+  },
+  {
+   "id": "0d2f4a6c-8e0b-4c2d-b6e8-2a4c6e8f0b16",
+   "field": "options",
+   "expect": [
+    {
+     "key": "A",
+     "text": "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+    },
+    {
+     "key": "B",
+     "text": "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)"
+    },
+    {
+     "key": "C",
+     "text": "(A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+    },
+    {
+     "key": "D",
+     "text": "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)"
+    }
+   ],
+   "set": [
+    {
+     "key": "A",
+     "text": "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)"
+    },
+    {
+     "key": "B",
+     "text": "(A)-(IV), (B)-(III), (C)-(I), (D)-(II)"
+    },
+    {
+     "key": "C",
+     "text": "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)"
+    },
+    {
+     "key": "D",
+     "text": "(A)-(III), (B)-(II), (C)-(IV), (D)-(I)"
+    }
+   ],
+   "defect": "D5"
+  }
+ ],
+ "engine_gates_all_294": {
+  "what": "ntaEligibility (score and fit supplied by test fixtures, so only the content gates speak) run on all 294 planned rows after the two Hindi gate fixes",
+  "refused": [
+   {
+    "id": "13acff28",
+    "gate": "sequence_key_is_listed_order",
+    "note": "D5, repaired"
+   },
+   {
+    "id": "3d3a5b97",
+    "gate": "match_key_is_listed_order",
+    "note": "D5, repaired"
+   },
+   {
+    "id": "0d2f4a6c",
+    "gate": "match_key_is_listed_order",
+    "note": "D5, repaired"
+   },
+   {
+    "id": "6bbde2ac",
+    "gate": "sequence_options_not_orderings_of_stem_items",
+    "note": "dictionary order of five words; options list the words, the stem has no (A)-(D) labels; answer correct"
+   },
+   {
+    "id": "f05bce07",
+    "gate": "sequence_options_not_orderings_of_stem_items",
+    "note": "tallest to shortest; same format issue; answer correct"
+   },
+   {
+    "id": "4650a47a",
+    "gate": "sequence_options_not_orderings_of_stem_items",
+    "note": "shelf arrangement written as a sequence item; it is an ordinary MCQ; answer correct"
+   },
+   {
+    "id": "fc6098bd",
+    "gate": "sequence_options_not_orderings_of_stem_items",
+    "note": "EM waves by wavelength, unlabelled words with arrow options; answer correct"
+   },
+   {
+    "id": "19c49938",
+    "gate": "statement_options_use_labels_not_in_stem",
+    "note": "circular seating; options are person letters P/Q/S/T, which the gate reads as statement labels; answer correct"
+   },
+   {
+    "id": "d72339f5",
+    "gate": "match_options_not_pairings",
+    "note": "lower-case a-d and P-S labels instead of (A)-(D) and (I)-(IV); answer correct"
+   },
+   {
+    "id": "dff97aad",
+    "gate": "answer_guard_options_invalid, near_duplicate_options",
+    "note": "logic-gate expressions A.B, A + B, (A + B)', (A.B)' collapse in the option normaliser; answer correct; reword the options in words"
+   },
+   {
+    "id": "fe0417ed",
+    "gate": "orphan_passage_question",
+    "note": "\"According to Huygens' principle\" reads as a passage reference; answer correct; reword"
+   }
+  ],
+  "hindi_gate_fixes": [
+   "hasRealPassageBlock counted only . ! ? as sentence ends (all 24 Hindi passage items were refused as fake_or_too_short_passage_block); a danda now counts, and verse kept in 8 or more lines counts",
+   "listSegments knew only \"List-II\" (3 Hindi match items refused as match_list_two_missing); it now reads \"सूची-II\" and the closing \"सही विकल्प चुनिए\""
+  ],
+  "note": "The 8 non-defect refusals are format refusals like the 19 that wave 1 reworded and re-judged: reword under the same id, then the fresh pass."
+ }
+}

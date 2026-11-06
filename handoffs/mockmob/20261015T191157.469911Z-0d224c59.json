@@ -1,0 +1,24 @@
+{
+  "id": "20261015T191157.469911Z-0d224c59",
+  "observed_at": "2026-10-15T19:11:57.469911+00:00",
+  "agent": "claude-sonnet-5.5 M4 builder",
+  "task": "M4 concept checks with life (app learn feature and web StudyRun)",
+  "status": "complete",
+  "done": "App commit c51c996c on ui/phase2: ink ring and drawn check, one MmShake nudge for a miss (no haptic), FeedbackMobi beside the words, StepSwap (rated card flies off on Springs.smooth, other steps on the 24 dp axis), rating key inks volt, spring pips, haptics.settle after the server ack. Web commit e3332ebe on web/learn-1015: studyFeel.js, ResultOptions and Feedback in StudyBlocks, ghost flight and arrival in StudyRun, study.css, study_feel test. Shared fixture feel.json is byte-identical in both repos.",
+  "next": "Owner look at the goldens run_choice_right_landed and run_choice_miss_landed; later: swipe to rate (skipped on purpose), Ask AI middle dot in StudyHelp.jsx, lower the motion_guard allow-list for run_step.dart and run_screen.dart, regenerate other agents' drifted learn goldens.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "wt-phase2/flutter_app/lib/features/learn/**",
+    "wt-phase2/flutter_app/test/unit/learn/learn_feel_test.dart",
+    "wt-phase2/flutter_app/test/golden/learn/feel_golden_test.dart",
+    "wt-phase2/flutter_app/test/fixtures/learn_feel/feel.json",
+    "wt-learn/src/components/study/{StudyRun,StudyBlocks,studyFeel,studyCopy}.js(x), study.css",
+    "wt-learn/data/tests/study_feel.test.mjs",
+    "wt-learn/data/fixtures/study_feel/feel.json",
+    "wt-learn/package.json (test:study)"
+  ],
+  "verification": "App: analyze clean on learn paths, test/unit/learn all pass, feel goldens opened. Web: eslint max-warnings 0, study_feel 16 pass, components rendered statically in Night and Day. No dev server, no model calls.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

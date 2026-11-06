@@ -1,0 +1,31 @@
+{
+  "id": "20261020T113804.590742Z-9f3d1621",
+  "observed_at": "2026-10-20T11:38:04.591739+00:00",
+  "agent": "claude-opus-5.5 full-together price subagent (session b7e1b5da)",
+  "task": "Enforce Full mock together pricing on web server (D174/D175)",
+  "status": "complete",
+  "done": "Branch web/1020-mob-fulltogether-price head 185eaaf2b (worktree wt-1020-fulltogether, from bd9e03ea7). Pro-only start billing on or off (MOCK_PRO_REQUIRED 403); Free sit charged 50 via solo Full mock path (mobPaper.creditAction attempt_full -> practiceCharge -> spend_credits practice_<id> / start_learning_session recovery:<id>), once per game per member; MOCK_CREDITS 402 with price; starts.mock and game.price in payload; web sheet/card/runner wired; contract docs/brain/APP-API-CONTRACT.md 2.12. No migration.",
+  "next": "Integrator: merge into v15 web; APP-API-CONTRACT.md is add/add vs feat/app-and-web (only section 2.12 + header line differ). App must map MOCK_PRO_REQUIRED/MOCK_CREDITS and show starts.mock/game.price. Browser visual check of sheet/card not done (no dev server by rule). Then MOB_FORMATS_ENABLED may be turned on.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "src/lib/mob/mockPrice.mjs",
+    "src/lib/mob/starts.mjs",
+    "src/lib/mob/model.mjs",
+    "src/lib/server/mob/games.js",
+    "src/lib/server/mob/service.js",
+    "data/practice_charge.js",
+    "src/lib/server/practiceSessions.js",
+    "src/components/mob/den/DenSheets.jsx",
+    "src/components/mob/v3/play/GameRun.jsx",
+    "src/components/mob/v3/play/formats.mjs",
+    "src/app/(app)/test/TestPageClient.jsx",
+    "docs/brain/APP-API-CONTRACT.md",
+    "docs/brain/STATUS.md",
+    "data/tests/mob_full_together_1020.test.mjs",
+    "data/tests/full_together_charge_1020.test.mjs"
+  ],
+  "verification": "test:mob 308/308, test:billing 448/448, test:app 962 pass 1 skipped, test:auth 125/125, test:recovery 636 pass 3 todo; eslint clean on touched files; next build --webpack exit 0",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

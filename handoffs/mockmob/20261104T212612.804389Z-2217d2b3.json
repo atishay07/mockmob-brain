@@ -1,0 +1,25 @@
+{
+  "id": "20261104T212612.804389Z-2217d2b3",
+  "observed_at": "2026-11-04T21:26:12.805389+00:00",
+  "agent": "claude-opus-5.5 session 34abe724 (single)",
+  "task": "5 Nov night refinement (owner LK81-LK98): slow-phone fix, home hero/CTA/brand/exam/scroll, web account pop-over, Learn options at onboarding (web+app), card turn, app build 19",
+  "status": "active",
+  "done": "Owner feedback 2:40 am recorded verbatim (feat/app-and-web eb218eb71; ledger LK81-LK98). LK81 perf fix on web/1105-perf 0c21de817 (storyPredraw idle predraw, tour screens stay mounted, narrow pause selector): 22-swipe 4x bench over100 11->0, max 442->91 ms, p95 24->12. Night spec docs/brain/night-1105/SPEC.md (682712138). NOW updated (882e36ccc).",
+  "next": "Workflow wf_8325864d-cee running 7 packets in worktrees wt-1105-{hero,brand,exam,scroll,account,options,app} (branches web/1105-* and ui/1105-app-19). Then: review renders, merge web packets into one branch from web/1105-perf, full gate (tests, eslint, webpack+turbopack builds in wt-1101-content, gesture matrix, 22-swipe perf, 390/1440 Night/Day critique), ship to main; app emulator walk, bump 1.0.21+19, signed AAB in clean worktree -> Desktop/MockMob-build-19. Content only after all that and only if he is away.",
+  "blockers": [
+    "Owner upload of AAB 18 (or 19 later)",
+    "No real-phone check possible by agents"
+  ],
+  "evidence": [
+    "web/1105-perf 0c21de817 perf commit",
+    "tmp/home-1105-perf/swipes.mjs bench results cold(after idle) p95 12.2 over100 0; warm p95 12.2 over100 0; immediate cold 3 frames>100 at rest",
+    "scout findings: options already built (student_subject_options, PUT /api/me/subject-options); demo jump loop = edge clamp on landing frame (scrollBus.run jumpFrame before subscribers + flinging 3 s after touchend)"
+  ],
+  "touched_files": [
+    "wt-1104-web-polish: src/components/landing/storyPredraw.mjs, ScrollStory.jsx, FeatureTour.jsx, TourScreens.jsx, src/app/feature-tour.css, landing.css, docs/brain/night-1105/SPEC.md",
+    "mockmob-next: docs/brain/OWNER-FEEDBACK-2026-10-31-LEARN.md, OWNER-MASTER-LEDGER.md, NOW.md"
+  ],
+  "verification": "landing node tests 193 pass 0 fail (8 skipped bench); storyPredraw.test 3 pass; eslint clean; webpack build OK",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "20261015T152455.807110Z-c620f195",
+  "observed_at": "2026-10-15T15:24:55.808110+00:00",
+  "agent": "claude-opus-5.5 G3 subagent",
+  "task": "Landing packet G3: illustrations that explain (LabCinema scenes, MistakeLab replay, TourScreens replay/repair)",
+  "status": "complete",
+  "done": "Commit fd81bc81 on web/v2-1015 (wt-web-v2). Time scene: 10 questions vs a dashed pace line, under-pace green, over-pace hatched amber (right) / coral (wrong) with \"+2:06 over pace\" labels, legend, summary tied to bars; pace line draws first then bars grow and push past. Changes scene: per-change story rows (first pick check or struck X, arrow crossed when it threw away a right answer, final pick, +6/-6), sum cells, clock lanes recoloured (desktop, hidden under 760px tall). Repair: Repair v3 layout and words (trap name, Explained from the answer key (B), Keep this, From your record). SWOT: Do these next + mock_swot.js wording + See Q chips, with an illustrative earlier-mocks record (labStory EARLIER). MistakeLab now imports labStory SESSION (same clock times), Find step = Mistake Lab ledger (You missed 28 marks), false \"slowest Q7\" removed. Tour Replay uses the same clock times and a crossed coral line; tour/replay labels lose ALL-CAPS and monospace.",
+  "next": "Owner review of the four scenes on the live deploy once the scroll-fix (one scroll one slide, ScrollStory rewrite by another agent) lands. .lp-kicker in mistake-lab.css is still monospace ALL-CAPS (shared page style, not in G3's packet).",
+  "blockers": [
+    "ScrollStory.jsx was being rewritten by another agent during this work; the Content contract (step, pinned, reduced, goTo) is unchanged as of the commit"
+  ],
+  "evidence": [
+    "Captures: mockmob-next/tmp/landing-fixes-1015/G3/ (final-*, v3-*, edge-*, rm-*, day-*)",
+    "node --test src/components/landing/labStory.test.mjs: 10 pass",
+    "npx eslint --max-warnings 0 on the 5 owned JS files: clean",
+    "Real-pointer checks: rail click moved to step 2; replay tile Q9 click showed the product sentence"
+  ],
+  "touched_files": [
+    "src/components/landing/LabCinema.jsx",
+    "src/app/lab-cinema.css",
+    "src/components/landing/labStory.mjs",
+    "src/components/landing/labStory.test.mjs",
+    "src/components/landing/MistakeLab.jsx",
+    "src/app/mistake-lab.css",
+    "src/components/landing/TourScreens.jsx",
+    "src/app/tour-screens.css"
+  ],
+  "verification": "Headless Chrome against the owner's dev server on localhost:3110 at 390x844, 360x740, 1440x900 and 1366x650, Night and Day, reduced motion, both settled and mid-animation. Not checked on a real device.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

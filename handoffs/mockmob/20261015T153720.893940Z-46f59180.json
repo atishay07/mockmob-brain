@@ -1,0 +1,24 @@
+{
+  "id": "20261015T153720.893940Z-46f59180",
+  "observed_at": "2026-10-15T15:37:20.893940+00:00",
+  "agent": "claude-opus-5.5 (session cc0bf1af, resumed 21:00 IST)",
+  "task": "15 Oct 21:20 IST: took over from session 604ced81 (its account hit the limit at 21:00); usage fixes deployed; 13 cut packets resumed",
+  "status": "active",
+  "done": "All 5 workflows of session 604ced81 died at about 21:00 (\"session limit, resets 11:30pm\"). WIP commits: wt-web-v2 ecaaa61e (G1 and speed, without next.config.mjs, which differed only in line endings), wt-deploy c11238a6 (lab3 web), wt-phase2 a04c0169 (wave 3 practice, today and tools; wave 4a account and ask; lab3 app); mockmob-next af139e53 (3 brain docs). Usage fixes A1-A4 deployed: pushed wt-usage 3be06112 to main (fast-forward from 48309076). Vercel dpl_B7jqvqkfxmRfxtsD5WrTDGSAVpFF READY, regions [sin1]; /api/stats 200 serving the stored snapshot (bankSize 8197, checkedAt 15:14 UTC); home 200. The cut briefs were extracted verbatim to mockmob-next/tmp/resume-2110/*.md. Workflow wf_bc96c478-883 resumes 13 packets: landing G1 and speed, then verify (wt-web-v2); lab3 web and app, then truth and check; wave 3 practice, today and tools, then check; wave 4a account and ask, then check.",
+  "next": "When wf_bc96c478-883 finishes: (1) if landing verify says deployReady, merge web/v2-1015 into main (main now has 3be06112 on top of f652aba0/48309076) and deploy; (2) if lab3 truth and check are clean, merge web/lab-s3 into main, server first, and deploy; (3) merge ui/phase2 into feat/app-and-web, build APK v9, install it on the owner's phone (adb serial 10BF370PA6002XR, if connected) and send the zip; (4) fix 5 (practice start downloads only picked questions; the slim NTA index in production), weekly backups and agent testing on staging; (5) confirm the 03:00 IST inventory cron logs '[inventory] daily refresh stored N questions' (a 409 means VERCEL_ENV is not exposed).",
+  "blockers": [
+    "Owner: delete the 5 paused Vercel projects; Razorpay reachability decides the Vercel Pro timing; one live repair for the v3 cost"
+  ],
+  "evidence": [
+    "origin/main 3be06112; Vercel dpl_B7jqvqkfxmRfxtsD5WrTDGSAVpFF READY regions sin1",
+    "curl /api/stats 200 1.76 s, / 200",
+    "15 usage-fix tests pass"
+  ],
+  "touched_files": [
+    "mockmob-next/tmp/resume-2110/*.md",
+    "WIP commits ecaaa61e, c11238a6, a04c0169, af139e53"
+  ],
+  "verification": "Journals read (agents failed with session limit text); deploy verified via Vercel MCP and curl.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

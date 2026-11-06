@@ -1,0 +1,25 @@
+{
+  "id": "20261014T162912.948485Z-a79ee7d2",
+  "observed_at": "2026-10-14T16:29:12.948485+00:00",
+  "agent": "claude-code subagent (bar icons)",
+  "task": "Replace bottom-bar custom-painted icons with Material Rounded/Outlined pairs (wt-phase2, branch ui/phase2)",
+  "status": "complete",
+  "done": "Bar icons are now Material pairs from the font Flutter ships with: Today home, Practice quiz, Review fact_check, You = initial avatar (22 dp ring, Hanken w700 12 dp; filled disc with the initial reversed out when active) or the person pair when there is no name. Active Night = volt, Day = ink (no volt on Day); inactive = ink2; labels w600. Motion: 200 ms fill on Motion.glide once the lens's leading edge passes 70%, settle 0.9 to 1 (420 ms, bounce 0.12), 160 ms departure on Motion.out; reduced motion swaps instantly. The bubble ink, tick and inkFrom code is removed.",
+  "next": "Orchestrator: commit the remaining working-tree changes (mm_bar.dart departure curve plus 10 bar PNGs). Commit a48b8171 by another agent already swept in bar_icons.dart, mm_bar.dart (first pass), bar_test.dart, pkg07 test, bar_golden_test.dart and bar_tabs/bar_badges PNGs. Update DOCK.md section 4 Icons, the colour table rows, the 5.4 icon rows and the section 7 reduced-motion bullet. Add loadMaterialIcons to the Today golden harness (or to loadAppFonts) and re-render the Today goldens that show the bar.",
+  "blockers": [],
+  "evidence": [
+    "candidate sheets in session scratchpad: bar_icon_candidates_{night,day}_{1x,3x}.png",
+    "goldens re-rendered at 2x: test/golden/core/goldens/bar_{tabs,badges,capsule,tiers,text,travel_left,travel_right}_{night,day}.png"
+  ],
+  "touched_files": [
+    "flutter_app/lib/core/widgets/bar/bar_icons.dart",
+    "flutter_app/lib/core/widgets/bar/mm_bar.dart",
+    "flutter_app/test/unit/core_ui/bar_test.dart",
+    "flutter_app/test/unit/core_ui/core_widgets_pkg07_test.dart",
+    "flutter_app/test/golden/core/bar_golden_test.dart",
+    "flutter_app/test/golden/core/goldens/bar_*.png"
+  ],
+  "verification": "analyze: No issues found (lib/core/widgets/bar and the 3 test files). test -j 1 bar_test.dart bar_golden_test.dart: 47 passed. pkg07 passed. Unrelated failures: router_widget_test welcome/auth overflow x7 and motion_foundation surfaces 64 dp row x1.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

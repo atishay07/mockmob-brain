@@ -1,0 +1,31 @@
+{
+  "id": "20261014T034811.774924Z-ff16552d",
+  "observed_at": "2026-10-14T03:48:11.774924+00:00",
+  "agent": "claude-opus-5.5 subagent (factory run, session 604ced81)",
+  "task": "Run the paid question factory for short NTA subjects (History, Political Science, Psychology, Sociology, Chemistry, English passage sets) inside the USD 50 ledger; stop before publication",
+  "status": "blocked",
+  "done": "Not run; zero paid calls. Ledger read read-only from mockmob copy/data/pipeline-budget.sqlite: settled USD 39.139769 + holds 0.821324 = committed 39.961093; remaining 10.038907; 65 unresolved, 0 unbounded; last request 10 Oct. Found 5 blockers: (1) no qualified generator, the 10 Oct log keeps qualification/pilot blocked pending the owner's threshold/policy decision, the V717 runner refuses without a pass, and no V718 exists; (2) FACTORY_SUBJECTS, source packs (8), PYQ exemplars, exam specs and calibration cover only english/accountancy/business_studies/economics, none for the 5 target subjects; (3) no registered 200-300 word English passages (24 originals are 92-132 words; one CUET 2024 passage of 335 words, not cleared) and no passage-authoring stage; (4) pipeline-prices.json expired 2026-10-12 21:37 UTC, the guard refuses dispatch, and refreshing it means editing a tracked, modified file in the dirty checkout; (5) the live V716/V717 factory and the ledger exist only in the dirty mockmob copy. Plan: 3 papers need 551 questions + 6 English sets, about 979 candidates, about USD 20.2 (22.7 including English verbal ability), about 2x the remaining budget; the remaining budget fits about 1 more paper per subject. Summary written to mockmob-hotfix/docs/brain/FACTORY-RUN-2026-10-14.md (uncommitted).",
+  "next": "Owner decides: (1) the qualification policy (V718 contract plus one fresh qualification, or a new quarantine-only exception); (2) adding the 5 subjects in code (clean branch from mockmob-hotfix) and registering their source packs and authenticated PYQs; (3) English passage authoring or a source of cleared passages; (4) price re-verification and a pipeline-prices.json update; (5) budget scope within the USD 10.04 remaining. Publication stays a separate approval. Factory evidence on the 662 scored questions expires 5-6 Nov.",
+  "blockers": [
+    "Owner threshold/qualification policy still open per decisions/log 10 Oct; no qualified profile; V717 pilot gate throws v717_pilot_requires_passed_current_qualification",
+    "Factory supports only 4 subjects; no source packs/PYQ exemplars/exam specs/calibration for History, PolSci, Psychology, Sociology, Chemistry (code + data change needed)",
+    "No 200-300 word registered English passages; no passage-authoring stage",
+    "data/pipeline-prices.json expired 2026-10-12T21:37:55Z; refresh would edit a tracked file in the dirty checkout",
+    "Live factory + ledger only in dirty mockmob copy"
+  ],
+  "evidence": [
+    "mockmob copy/data/pipeline-budget.sqlite read-only snapshot 14 Oct: committed 39.961093, remaining 10.038907",
+    "data/question_factory_policy.mjs line 6 FACTORY_SUBJECTS (both checkouts)",
+    "scripts/pipeline/lib/qualifiedPilotV717.mjs line 18",
+    "data/source_registry.json: 8 packs, examples acc45/bs48/eco50/eng30, exam_specs 4 subjects",
+    "data/pipeline-prices.json expires_at 2026-10-12T21:37:55.116Z",
+    "scripts/pipeline/lib/budgetLedger.mjs budgetedFetch expiry check; factoryTransport.mjs line 25",
+    "mockmob-fit/docs/brain/NTA-DATA-AUDIT.md lines 13, 218"
+  ],
+  "touched_files": [
+    "mockmob-hotfix/docs/brain/FACTORY-RUN-2026-10-14.md (new, uncommitted)"
+  ],
+  "verification": "Read-only only: ledger snapshot via node:sqlite readOnly; node process list showed no factory workers; no tests run (no code changed).",
+  "cost_and_pending_requests": "USD 0 spent; no pending paid requests from this task.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

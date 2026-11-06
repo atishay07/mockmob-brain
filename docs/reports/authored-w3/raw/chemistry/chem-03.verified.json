@@ -1,0 +1,798 @@
+{
+  "batch": "chem-03",
+  "subject": "chemistry",
+  "questions": [
+    {
+      "id": "846628da-e0bf-4947-b26c-5566653aee0a",
+      "subject": "chemistry",
+      "unit": "d and f Block Elements",
+      "chapter": "d- and f-Block Elements",
+      "type": "single_mcq",
+      "stem": "The ground-state electronic configuration of chromium (atomic number 24) is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "[Ar] 3d⁴ 4s²"
+        },
+        {
+          "key": "B",
+          "text": "[Ar] 3d⁵ 4s¹"
+        },
+        {
+          "key": "C",
+          "text": "[Ar] 3d⁶"
+        },
+        {
+          "key": "D",
+          "text": "[Ar] 3d³ 4s³"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Chromium moves one electron from 4s to 3d to get a half-filled 3d⁵ subshell, which has extra stability from exchange energy. So its configuration is [Ar] 3d⁵ 4s¹, not the one predicted by the simple filling order.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Electronic configurations of d-block elements",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "a405bec0-826f-44c5-9f84-2e908a39344b",
+      "subject": "chemistry",
+      "unit": "d and f Block Elements",
+      "chapter": "d- and f-Block Elements",
+      "type": "single_mcq",
+      "stem": "The spin-only magnetic moment of the Ti³⁺ ion (atomic number 22), in Bohr magnetons, is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "1.73"
+        },
+        {
+          "key": "B",
+          "text": "0 (diamagnetic)"
+        },
+        {
+          "key": "C",
+          "text": "2.83"
+        },
+        {
+          "key": "D",
+          "text": "3.87"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Ti³⁺ is 3d¹ with one unpaired electron. Spin-only moment is √(n(n+2)) with n = 1 unpaired electron, which gives √3 ≈ 1.73 BM.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Magnetic properties of transition elements",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "89b11133-4e7e-4f99-8cb2-d2d84288ccc6",
+      "subject": "chemistry",
+      "unit": "d and f Block Elements",
+      "chapter": "d- and f-Block Elements",
+      "type": "single_mcq",
+      "stem": "The spin-only magnetic moment of the free Fe²⁺ ion (atomic number 26), in Bohr magnetons, is closest to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "2.83"
+        },
+        {
+          "key": "B",
+          "text": "3.87"
+        },
+        {
+          "key": "C",
+          "text": "5.92"
+        },
+        {
+          "key": "D",
+          "text": "4.90"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "Fe²⁺ is 3d⁶, which has four unpaired electrons in the free ion. Spin-only moment √(4×6) = √24 ≈ 4.90 BM.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Magnetic properties of transition elements",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "c59ca92c-e396-4036-822d-1ef3fecdeda2",
+      "subject": "chemistry",
+      "unit": "d and f Block Elements",
+      "chapter": "d- and f-Block Elements",
+      "type": "single_mcq",
+      "stem": "Which of the following aqueous ions is colourless?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ti³⁺"
+        },
+        {
+          "key": "B",
+          "text": "V³⁺"
+        },
+        {
+          "key": "C",
+          "text": "Sc³⁺"
+        },
+        {
+          "key": "D",
+          "text": "Fe²⁺"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Colour in transition metal ions comes from d-d transitions, which need electrons in d orbitals. Sc³⁺ is 3d⁰, so it has no d-d transition and is colourless, while Ti³⁺, V³⁺ and Fe²⁺ are coloured.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Colour of transition metal ions",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "50a574d4-8098-483b-bac5-a7d1b5bd6741",
+      "subject": "chemistry",
+      "unit": "d and f Block Elements",
+      "chapter": "d- and f-Block Elements",
+      "type": "single_mcq",
+      "stem": "When potassium permanganate is reduced in a neutral aqueous solution, the manganese product is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mn²⁺"
+        },
+        {
+          "key": "B",
+          "text": "MnO₂"
+        },
+        {
+          "key": "C",
+          "text": "MnO₄²⁻"
+        },
+        {
+          "key": "D",
+          "text": "Mn³⁺"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "The reduction product depends on the medium: Mn²⁺ in acid (five electrons gained), MnO₂ in neutral solution (three electrons gained, Mn in +4), and manganate MnO₄²⁻ in strongly alkaline solution (one electron gained). In neutral solution the brown precipitate is MnO₂.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Potassium permanganate",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "dc8c1ef9-3c6c-4ae0-ba28-3caf30b0c5fe",
+      "subject": "chemistry",
+      "unit": "d and f Block Elements",
+      "chapter": "d- and f-Block Elements",
+      "type": "single_mcq",
+      "stem": "In acidic medium, one mole of dichromate ion (Cr₂O₇²⁻) oxidises how many moles of Fe²⁺ to Fe³⁺?",
+      "options": [
+        {
+          "key": "A",
+          "text": "6"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "8"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Each Cr₂O₇²⁻ is reduced to 2Cr³⁺, which gains 6 electrons. Each Fe²⁺ loses one electron on oxidation to Fe³⁺, so 6 moles of Fe²⁺ are oxidised per mole of dichromate.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Potassium dichromate",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "1f660152-f757-4ce1-8e8b-08e78037c1ef",
+      "subject": "chemistry",
+      "unit": "d and f Block Elements",
+      "chapter": "d- and f-Block Elements",
+      "type": "single_mcq",
+      "stem": "Which catalyst is used in the Contact process for manufacturing sulphuric acid?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fe₂O₃"
+        },
+        {
+          "key": "B",
+          "text": "TiCl₄"
+        },
+        {
+          "key": "C",
+          "text": "MnO₂"
+        },
+        {
+          "key": "D",
+          "text": "V₂O₅"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "In the Contact process, sulphur dioxide is oxidised to sulphur trioxide over vanadium(V) oxide. V₂O₅ works because vanadium switches between +5 and +4 oxidation states, which is typical of d-block catalysts. TiCl₄ belongs to Ziegler–Natta catalysis.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Catalytic properties of transition elements",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "9b644ffc-735c-4f84-ac54-623d8c0b3fc1",
+      "subject": "chemistry",
+      "unit": "d and f Block Elements",
+      "chapter": "d- and f-Block Elements",
+      "type": "single_mcq",
+      "stem": "Which of the following is an interstitial compound of a transition metal?",
+      "options": [
+        {
+          "key": "A",
+          "text": "NaCl"
+        },
+        {
+          "key": "B",
+          "text": "CaO"
+        },
+        {
+          "key": "C",
+          "text": "TiC"
+        },
+        {
+          "key": "D",
+          "text": "KCl"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Interstitial compounds form when small non-metal atoms such as carbon, nitrogen, hydrogen or boron occupy the voids in a metal lattice. TiC is the example here, and such compounds are hard, have high melting points and retain metallic conductivity.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Interstitial compounds",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "8ead33c1-64fa-464c-a683-af9dafe41340",
+      "subject": "chemistry",
+      "unit": "d and f Block Elements",
+      "chapter": "d- and f-Block Elements",
+      "type": "single_mcq",
+      "stem": "In aqueous solution Cu⁺ disproportionates, while Cu²⁺ is stable. The main reason is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "The high hydration enthalpy of Cu²⁺ more than compensates for the second ionisation enthalpy of copper"
+        },
+        {
+          "key": "B",
+          "text": "Cu⁺ has a higher hydration enthalpy than Cu²⁺"
+        },
+        {
+          "key": "C",
+          "text": "Cu⁺ has a half-filled d subshell"
+        },
+        {
+          "key": "D",
+          "text": "Cu⁺ is a stronger oxidising agent than Cu²⁺"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Cu⁺ is 3d¹⁰ and disproportionates as 2Cu⁺ → Cu + Cu²⁺. The Cu²⁺ ion has a very large hydration enthalpy, which offsets the energy needed to remove the second electron from copper, so Cu²⁺ is more stable in water.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Stability of copper oxidation states",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "bbb5fa0d-3c8b-4595-81bd-15d88f61ff99",
+      "subject": "chemistry",
+      "unit": "d and f Block Elements",
+      "chapter": "d- and f-Block Elements",
+      "type": "single_mcq",
+      "stem": "Actinoids show a wider range of oxidation states than lanthanoids. The main reason is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "5f electrons are more effectively shielded than 4f electrons"
+        },
+        {
+          "key": "B",
+          "text": "Actinoid ions have lower ionisation enthalpies than lanthanoid ions"
+        },
+        {
+          "key": "C",
+          "text": "Actinoids have no electrons in 6d orbitals"
+        },
+        {
+          "key": "D",
+          "text": "The 5f, 6d and 7s energy levels are close, so more electrons take part in bonding"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "The 5f, 6d and 7s orbitals have similar energies, so several electrons can be used in bonding. The 5f electrons are less effectively shielded than 4f electrons, and this allows a wider spread of oxidation states than in the lanthanoids.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Actinoids",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "12f5a5e7-81db-4ac3-97f7-3132d0850f9d",
+      "subject": "chemistry",
+      "unit": "d and f Block Elements",
+      "chapter": "d- and f-Block Elements",
+      "type": "single_mcq",
+      "stem": "In an acidic medium, MnO₄⁻ is reduced to Mn²⁺. How many moles of MnO₄⁻ are needed to oxidise 2.5 mol of Fe²⁺ to Fe³⁺?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.1"
+        },
+        {
+          "key": "B",
+          "text": "1.0"
+        },
+        {
+          "key": "C",
+          "text": "0.5"
+        },
+        {
+          "key": "D",
+          "text": "2.5"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Each MnO₄⁻ gains five electrons to become Mn²⁺, and each Fe²⁺ gives one electron. So 2.5 mol of Fe²⁺ supplies 2.5 mol of electrons, and 2.5 ÷ 5 = 0.5 mol of MnO₄⁻ is required.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Potassium permanganate",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "a8352fba-9650-44d2-b07b-c049b1d5a9f1",
+      "subject": "chemistry",
+      "unit": "Electrochemistry",
+      "chapter": "Electrochemistry",
+      "type": "single_mcq",
+      "stem": "Concentrated aqueous sodium chloride is electrolysed with inert electrodes. The products formed are:",
+      "options": [
+        {
+          "key": "A",
+          "text": "H₂ at the anode and Na at the cathode"
+        },
+        {
+          "key": "B",
+          "text": "Cl₂ at the anode and H₂ at the cathode"
+        },
+        {
+          "key": "C",
+          "text": "O₂ at the anode and Na at the cathode"
+        },
+        {
+          "key": "D",
+          "text": "Cl₂ at the cathode and H₂ at the anode"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "At the cathode, water is reduced to H₂ and OH⁻, which is easier than reducing Na⁺. At the anode, chloride ions are oxidised to Cl₂ in concentrated solution, which is preferred over oxidising water to O₂.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 3 Electrochemistry, Electrolytic cells and Faraday laws",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "65dc1291-1d76-460f-aa26-468908793116",
+      "subject": "chemistry",
+      "unit": "Electrochemistry",
+      "chapter": "Electrochemistry",
+      "type": "single_mcq",
+      "stem": "Iron is galvanised by coating it with a metal so that the coating protects iron even when the surface is scratched. The metal is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Zinc"
+        },
+        {
+          "key": "B",
+          "text": "Tin"
+        },
+        {
+          "key": "C",
+          "text": "Lead"
+        },
+        {
+          "key": "D",
+          "text": "Nickel"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Zinc has a more negative standard electrode potential (−0.76 V) than iron (−0.44 V), so it corrodes first and acts as a sacrificial anode. A tin or nickel coating protects only while it is intact.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 3 Electrochemistry, Corrosion",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "95b3813f-8e6c-46a2-9d87-159dae9088db",
+      "subject": "chemistry",
+      "unit": "Electrochemistry",
+      "chapter": "Electrochemistry",
+      "type": "single_mcq",
+      "stem": "The standard electrode potential of Zn²⁺/Zn is −0.76 V. At 298 K, the potential of the Zn²⁺/Zn electrode in 0.1 M Zn²⁺ solution is closest to (take 2.303RT/F = 0.059 V):",
+      "options": [
+        {
+          "key": "A",
+          "text": "−0.73 V"
+        },
+        {
+          "key": "B",
+          "text": "−0.82 V"
+        },
+        {
+          "key": "C",
+          "text": "−0.70 V"
+        },
+        {
+          "key": "D",
+          "text": "−0.79 V"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "By the Nernst equation, E = E° − (0.059/n) log(1/[Zn²⁺]) with n = 2. So E = −0.76 − (0.059/2) × log 10 = −0.76 − 0.03 = −0.79 V.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 3 Electrochemistry, Nernst equation",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "8ed9bbe9-5c6f-4785-84d1-6d8d6625e7c6",
+      "subject": "chemistry",
+      "unit": "Electrochemistry",
+      "chapter": "Electrochemistry",
+      "type": "single_mcq",
+      "stem": "For a cell reaction with n = 2, the standard EMF is 0.59 V at 298 K. Taking 2.303RT/F = 0.059 V, the equilibrium constant K is approximately:",
+      "options": [
+        {
+          "key": "A",
+          "text": "10⁵"
+        },
+        {
+          "key": "B",
+          "text": "10¹⁰"
+        },
+        {
+          "key": "C",
+          "text": "10²⁰"
+        },
+        {
+          "key": "D",
+          "text": "10³⁰"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "At equilibrium E = 0, so the Nernst equation gives log K = nE°/0.059. Here log K = (2 × 0.59)/0.059 = 20, so K ≈ 10²⁰.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 3 Electrochemistry, Relation between EMF and equilibrium constant",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "cb9ca16d-872d-484a-ab66-2a004c0f199e",
+      "subject": "chemistry",
+      "unit": "Electrochemistry",
+      "chapter": "Electrochemistry",
+      "type": "single_mcq",
+      "stem": "During discharge of a lead storage battery, the density of the sulphuric acid electrolyte:",
+      "options": [
+        {
+          "key": "A",
+          "text": "increases"
+        },
+        {
+          "key": "B",
+          "text": "decreases"
+        },
+        {
+          "key": "C",
+          "text": "remains unchanged"
+        },
+        {
+          "key": "D",
+          "text": "first increases and then decreases"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Discharge gives Pb + PbO₂ + 2H₂SO₄ → 2PbSO₄ + 2H₂O. Sulphuric acid is consumed and water is produced, so the electrolyte becomes more dilute and its density falls. Checking the density is how the battery state is judged.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 3 Electrochemistry, Batteries: lead storage battery",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "f36e1b45-5688-42fc-9a5a-9b5f39be20a2",
+      "subject": "chemistry",
+      "unit": "Electrochemistry",
+      "chapter": "Electrochemistry",
+      "type": "single_mcq",
+      "stem": "The conductivity of a 0.02 M solution of an electrolyte is 0.0024 S cm⁻¹ at 298 K. Its molar conductivity, in S cm² mol⁻¹, is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "1.2 × 10²"
+        },
+        {
+          "key": "B",
+          "text": "0.12"
+        },
+        {
+          "key": "C",
+          "text": "12"
+        },
+        {
+          "key": "D",
+          "text": "1.2 × 10³"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Molar conductivity is Λm = κ × 1000 / c, where c is in mol L⁻¹. So Λm = 0.0024 × 1000 / 0.02 = 120 S cm² mol⁻¹, which is 1.2 × 10².",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 3 Electrochemistry, Molar conductivity",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "1de140e3-81b2-467b-af74-6705474ba41f",
+      "subject": "chemistry",
+      "unit": "Electrochemistry",
+      "chapter": "Electrochemistry",
+      "type": "single_mcq",
+      "stem": "The quantity of electricity needed to deposit 21.6 g of silver (molar mass 108 g mol⁻¹) from a solution of Ag⁺ is closest to (F = 96500 C mol⁻¹):",
+      "options": [
+        {
+          "key": "A",
+          "text": "9.7 × 10³ C"
+        },
+        {
+          "key": "B",
+          "text": "3.9 × 10⁴ C"
+        },
+        {
+          "key": "C",
+          "text": "4.8 × 10³ C"
+        },
+        {
+          "key": "D",
+          "text": "1.9 × 10⁴ C"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "Moles of Ag = 21.6 / 108 = 0.2 mol, and each Ag⁺ needs one electron. So Q = 0.2 × 96500 = 19 300 C, which is 1.9 × 10⁴ C, as given by Faraday first law.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 3 Electrochemistry, Faraday laws of electrolysis",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "9aa422d7-bff1-4412-8008-218b678d96aa",
+      "subject": "chemistry",
+      "unit": "Electrochemistry",
+      "chapter": "Electrochemistry",
+      "type": "single_mcq",
+      "stem": "Among Li, K, Na and Mg, which metal is the strongest reducing agent in aqueous solution? (Standard potentials: Li⁺/Li −3.05 V, K⁺/K −2.93 V, Na⁺/Na −2.71 V, Mg²⁺/Mg −2.37 V)",
+      "options": [
+        {
+          "key": "A",
+          "text": "K"
+        },
+        {
+          "key": "B",
+          "text": "Na"
+        },
+        {
+          "key": "C",
+          "text": "Li"
+        },
+        {
+          "key": "D",
+          "text": "Mg"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "The most negative standard reduction potential means the metal is most easily oxidised, so it is the strongest reducing agent. Lithium is at −3.05 V, even though potassium is more reactive in air, because the Li⁺ ion is strongly hydrated in water.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 3 Electrochemistry, Standard electrode potential series",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "b0385c9a-67b6-4970-881c-51ffcb9dd566",
+      "subject": "chemistry",
+      "unit": "Electrochemistry",
+      "chapter": "Electrochemistry",
+      "type": "single_mcq",
+      "stem": "Kohlrausch law gives the limiting molar conductivity of NH₄OH as λ°(NH₄Cl) + λ°(NaOH) − λ°(NaCl). With λ°(NH₄Cl) = 150.0, λ°(NaOH) = 248.0 and λ°(NaCl) = 126.5 (S cm² mol⁻¹), Λ°m(NH₄OH) is closest to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "3.7 × 10² S cm² mol⁻¹"
+        },
+        {
+          "key": "B",
+          "text": "2.7 × 10² S cm² mol⁻¹"
+        },
+        {
+          "key": "C",
+          "text": "1.5 × 10² S cm² mol⁻¹"
+        },
+        {
+          "key": "D",
+          "text": "2.3 × 10² S cm² mol⁻¹"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Kohlrausch law gives Λ°m(NH₄OH) = 150.0 + 248.0 − 126.5 = 271.5 S cm² mol⁻¹, which is 2.7 × 10² to two significant figures. The law applies to each ion independently at infinite dilution.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 3 Electrochemistry, Kohlrausch law",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "c291f0d4-25c2-408a-b0c1-87bdf36b0011",
+      "subject": "chemistry",
+      "unit": "Electrochemistry",
+      "chapter": "Electrochemistry",
+      "type": "single_mcq",
+      "stem": "A concentration cell is Ag | Ag⁺ (0.1 M) || Ag⁺ (0.001 M) | Ag at 298 K. Taking 2.303RT/F = 0.059 V, its EMF is closest to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.12 V"
+        },
+        {
+          "key": "B",
+          "text": "0.059 V"
+        },
+        {
+          "key": "C",
+          "text": "0.18 V"
+        },
+        {
+          "key": "D",
+          "text": "0.24 V"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "The cell EMF is E = (0.059/n) log(c_cathode / c_anode). Reduction happens at the 0.1 M electrode, so E = 0.059 × log(0.1/0.001) = 0.059 × 2 = 0.118 V, which is 0.12 V.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 3 Electrochemistry, Nernst equation: concentration cells",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "fff99b39-cd2a-4a4a-a168-da9586b4c3b6",
+      "subject": "chemistry",
+      "unit": "Electrochemistry",
+      "chapter": "Electrochemistry",
+      "type": "single_mcq",
+      "stem": "A solution with 0.1 mol Ag⁺ and 0.1 mol Cu²⁺ is electrolysed with inert electrodes, and 0.15 F of charge is passed with 100% current efficiency. The mass of copper deposited is closest to (Ag = 108, Cu = 63.5 g mol⁻¹):",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.80 g"
+        },
+        {
+          "key": "B",
+          "text": "3.2 g"
+        },
+        {
+          "key": "C",
+          "text": "6.4 g"
+        },
+        {
+          "key": "D",
+          "text": "1.6 g"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "Ag⁺ is reduced first, because it has the higher reduction potential (+0.80 V). Its 0.1 mol takes 0.1 F, so 0.05 F is left for Cu²⁺. That gives 0.05 / 2 = 0.025 mol Cu, which is 0.025 × 63.5 ≈ 1.6 g.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 3 Electrochemistry, Electrolytic cells and Faraday laws",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "699befa6-e1f7-4cc1-9b97-42421013c718",
+      "subject": "chemistry",
+      "unit": "Coordination Compounds",
+      "chapter": "Coordination Compounds",
+      "type": "single_mcq",
+      "stem": "The chelate effect makes [Ni(en)₃]²⁺ more stable than [Ni(NH₃)₆]²⁺. The main thermodynamic reason is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "en is a stronger field ligand with a larger Δo"
+        },
+        {
+          "key": "B",
+          "text": "The enthalpy of formation of [Ni(en)₃]²⁺ is much larger"
+        },
+        {
+          "key": "C",
+          "text": "The number of particles increases on chelation, giving a positive entropy change"
+        },
+        {
+          "key": "D",
+          "text": "Chelating ligands have a lower coordination number"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "In [Ni(NH₃)₆]²⁺ + 3 en → [Ni(en)₃]²⁺ + 6 NH₃, the number of particles rises from 4 to 7. This gives a positive entropy change, which makes the chelate complex more stable. The enthalpy change is similar for both complexes.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 5 Coordination Compounds, Chelate effect and stability of complexes",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "3031f426-b0a1-41c2-95d3-bd80f195ae2f",
+      "subject": "chemistry",
+      "unit": "Coordination Compounds",
+      "chapter": "Coordination Compounds",
+      "type": "single_mcq",
+      "stem": "The crystal field stabilisation energy of the high-spin octahedral [Cr(H₂O)₆]²⁺ ion (a d⁴ ion) is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "−0.4 Δo"
+        },
+        {
+          "key": "B",
+          "text": "−0.6 Δo"
+        },
+        {
+          "key": "C",
+          "text": "−1.2 Δo"
+        },
+        {
+          "key": "D",
+          "text": "0"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Water is a weak-field ligand, so the complex is high spin: t₂g³ e_g¹. CFSE = 3(−0.4 Δo) + 1(+0.6 Δo) = −0.6 Δo. The eg electron adds +0.6 Δo, which is why the answer is not −1.2 Δo.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 5 Coordination Compounds, Crystal field theory",
+      "source": "claude-authored-2026-10-17-w3"
+    }
+  ]
+}

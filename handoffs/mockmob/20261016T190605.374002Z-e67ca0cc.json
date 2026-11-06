@@ -1,0 +1,27 @@
+{
+  "id": "20261016T190605.374002Z-e67ca0cc",
+  "observed_at": "2026-10-16T19:06:05.375003+00:00",
+  "agent": "claude-opus-5.5 (session cc0bf1af, main)",
+  "task": "17 Oct ~1:05 am IST: batch 4 live; Repair v4 proven live; owner feedback F1-F16 recorded; design round launched",
+  "status": "active",
+  "done": "Live main bc099c53 (batch 4) with 4 migrations applied (lease, weekdays, ai_reply_report, funnel steps), 0 runtime errors. Repair v4 proven on production by the owner's practice: 3 repairs committed (gpt-6-luna, no fallback, full receipt, Check it held offered; check not yet answered). Owner feedback saved: docs/brain/OWNER-FEEDBACK-2026-10-17.md (551a8ac8) + memory owner-feedback-1017.md. Subject coverage decision: docs/brain/SUBJECT-COVERAGE-2026-10-17.md (ec2650c0): 15 subjects = 95% of CUET papers, ~80% of candidates; retire '41 subjects'; depth (GAT, Physics, Chemistry, Maths, Biology) then Hindi, PE, Agriculture; owner yes/no pending on authoring waves. Leaderboard privacy hotfix agent running (wt-lbfix, fix/leaderboard-privacy-1017): /api/leaderboard leaked 794 real names/ids/608 photos publicly plus 12 fake rivals.",
+  "next": "Workflows: wf_a59c8a05-169 (B web UX fixer->verifier, C landing r10/r11, D app v12 walk->fix->release, E app UX integrate->walk), wf_42b49303-279 (design round: NAV, RESULT, START, TODAY, GLASS docs in docs/design-decisions/pass-1017 with mocks in tmp/design-1017). On leaderboard hotfix return: verify, push. On B pass: merge onto main, push. Then build round from the pass-1017 decisions (web: result, start menu+fine-tune scope, Today, runner fix, dock; app: nav, result, Today, glass), with gates. Fix the repair route's stderr diagnostic log (stage interpret) and the accountancy 'not_in_passage' trap label. Retire '41 subjects' copy in next web deploy.",
+  "blockers": [
+    "Owner: Mob D-S1 and D-S2 answers",
+    "Owner: yes/no on question authoring waves",
+    "Owner: SUPABASE_DB_URL",
+    "Owner: Check it held answer to finish Repair v4 proof"
+  ],
+  "evidence": [
+    "ai_credit_reservations: 3 score_recovery_repair committed 18:55-18:56 UTC, receipt keys model/repair/offered(checkQuestionId)",
+    "curl /api/leaderboard: 806 rows, 794 real with name+userId"
+  ],
+  "touched_files": [
+    "mockmob-next/docs/brain/OWNER-FEEDBACK-2026-10-17.md",
+    "mockmob-next/docs/brain/SUBJECT-COVERAGE-2026-10-17.md",
+    "memory/owner-feedback-1017.md"
+  ],
+  "verification": "Batch 4 deploy verified (routes 200, badges 401 signed out, 0 runtime errors). Design round and tracks unverified until they return.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

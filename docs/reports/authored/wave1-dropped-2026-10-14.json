@@ -1,0 +1,42 @@
+[
+  {
+    "id": "5417fab7-c777-435a-851d-c06d92c7480a",
+    "subject": "english",
+    "set_id": "english__p1__set3",
+    "chapter": "Literary Passage",
+    "expert_verdict": "repaired",
+    "fresh_batch": "fr-01",
+    "reason": "fresh quality judges 7/7 (bar 7 each); fresh fit judges 8/6/4 (median bar 8)",
+    "stem": "The word 'staleness' as used in the passage refers to:"
+  },
+  {
+    "id": "2aeac152-79f9-4bc3-b24d-a4fe11c51c3b",
+    "subject": "history",
+    "set_id": null,
+    "chapter": "Thinkers, Beliefs & Buildings",
+    "expert_verdict": "repaired",
+    "fresh_batch": "fr-02",
+    "reason": "fresh quality judges 7/3 (bar 7 each); flags: j2 duplicate_options; fresh fit judges 10/10/10 (median bar 8)",
+    "stem": "The idea of the Buddha as a saviour, along with the worship of his images, developed in which Buddhist tradition?"
+  },
+  {
+    "id": "bfe02c5b-46a2-478e-a826-fc0392cdff7f",
+    "subject": "political_science",
+    "set_id": null,
+    "chapter": "Environment & Natural Resources",
+    "expert_verdict": "repaired",
+    "fresh_batch": "fr-03",
+    "reason": "fresh quality judges 6/8 (bar 7 each); fresh fit judges 6/8/8 (median bar 8)",
+    "stem": "The principle of 'common but differentiated responsibilities' in international environmental negotiations means that:"
+  },
+  {
+    "id": "7620ca67-81e1-4155-8b15-c0f56c847aff",
+    "subject": "political_science",
+    "set_id": null,
+    "chapter": "Globalisation",
+    "expert_verdict": "repaired",
+    "fresh_batch": "fr-03",
+    "reason": "fresh quality judges 6/7 (bar 7 each); fresh fit judges 8/9/8 (median bar 8)",
+    "stem": "Which of the following is a political consequence of globalisation?"
+  }
+]

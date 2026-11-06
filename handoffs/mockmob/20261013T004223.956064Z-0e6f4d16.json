@@ -1,0 +1,24 @@
+{
+  "id": "20261013T004223.956064Z-0e6f4d16",
+  "observed_at": "2026-10-13T00:42:23.956064+00:00",
+  "agent": "claude-code opus-5.5 (workflow subagent, You builder)",
+  "task": "Night Sheet: rebuild You, rhythm and notifications presentation (Flutter)",
+  "status": "active",
+  "done": "You hub rebuilt identity-first (SheetCard over paper-tile with lit edge + OMR timing marks; course/colleges from a local StudentTarget store; subjects with object art; week as bubbles), brass TokenShelf (first mock, first repair, first week) with honest recesses, settings panels (YouPanel/YouRow). Appearance: theme preview tiles, GlassQualityPicker, celebrations now write the rhythm prefs (fixed duplicate store bug). Privacy/account/help restyled; Help and about carries non-affiliation and official sources. Rhythm: WeekMarks as lettered bubbles, hero with monumental count, panels, closed weeks with bubble rows, milestones = shelf + bubble thread, bests = monumental numbers. Goal picker = seven answer bubbles (shared by goal screen and goal editor sheet). Notifications: panels, volt study window on day bar, bubble chips, lit permission panel.",
+  "next": "Polish pass on goldens; check onboarding builder's target store to wire StudentTarget; final analyze; report.",
+  "blockers": [],
+  "evidence": [
+    "flutter test -j 1 test/unit/{you,rhythm,notifications} test/golden/{you,rhythm,notifications}: 324 passed",
+    "flutter analyze lib/features/you lib/features/rhythm: no issues"
+  ],
+  "touched_files": [
+    "flutter_app/lib/features/you/**",
+    "flutter_app/lib/features/rhythm/**",
+    "flutter_app/lib/features/notifications/{screens,widgets}/**",
+    "flutter_app/test/unit/{you,rhythm}/**",
+    "flutter_app/test/golden/{you,rhythm,notifications}/**"
+  ],
+  "verification": "Goldens regenerated at 384x853 DPR2 night/day and viewed as contact sheets.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

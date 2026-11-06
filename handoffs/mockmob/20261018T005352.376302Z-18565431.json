@@ -1,0 +1,36 @@
+{
+  "id": "20261018T005352.376302Z-18565431",
+  "observed_at": "2026-10-18T00:53:52.376302+00:00",
+  "agent": "claude-sonnet-5.5 v15 integration subagent",
+  "task": "Integrate v15 in wt-v15 (ui/v15-1018): merge today2 and askmobi, wire reel result entry, M-001 first-launch 3 s opening, goldens, profile APK",
+  "status": "complete",
+  "done": "Merged ui/v15-today2 (clean, no conflicts; paper_reel.dart kept the motion-guard version plus today2's root-navigator open) and ui/v15-askmobi (conflicts only in full_result_screen.dart imports and one comment, plus 16 binary goldens). Wired a quiet Play it back row (PaperReelResultEntry) under the answer sheet on the full result. M-001: brand opening plays 3.0 s only on the first launch after install (flag cold_open_seen, read at boot, set at hand-off; reduced motion keeps its short fade). Fixed askmobi's bare AnimatedSwitcher (motion guard) and practice golden harness (insights record override). Regenerated 39 goldens, each new image opened. Built profile APK against the staging rig defines.",
+  "next": "Walker: install the APK on the emulator (adb -e install -r), walk Today (new lead card, week, Road to CUET, Change plan, reel card), result (Ask Mobi line, Play it back row), Ask Mobi sheet, Practice row; first launch after install shows the 3 s opening once (adb shell pm clear in.mockmob.app to see it again, signs the test account out). Orchestrator: update docs/brain/NOW.md and the master ledger; nothing pushed.",
+  "blockers": [
+    "Old v13 Today goldens retired by today2 as intended",
+    "Reel result entry hides when the attempt detail is not on the phone yet (it appears once the detail loads)",
+    "Updating (not fresh) installs also see the 3 s opening once, since no earlier build wrote the flag"
+  ],
+  "evidence": [
+    "head fecc6a73 on ui/v15-1018 (worktree wt-v15), clean tree",
+    "analyze: No issues found",
+    "unit suite: 5506 passed, 0 failed",
+    "golden suite: 1417 passed, 0 failed",
+    "APK: C:\\Users\\atish\\Desktop\\mockmob copy\\wt-v15\\flutter_app\\build\\app\\outputs\\flutter-apk\\app-profile.apk (133 MB, sha1 23c4de5e70ea60f28ab9f0c0e863828bcbb81c8f), --profile --dart-define-from-file=dart_defines/phone-relay.json"
+  ],
+  "touched_files": [
+    "flutter_app/lib/features/result/full/full_result_screen.dart",
+    "flutter_app/lib/core/widgets/brand/brand_opening.dart",
+    "flutter_app/lib/core/widgets/brand/first_launch_opening.dart",
+    "flutter_app/lib/main.dart",
+    "flutter_app/lib/core/widgets/widgets.dart",
+    "flutter_app/lib/features/insights/widgets/ask_sheet.dart",
+    "flutter_app/test/unit/brand/first_launch_opening_test.dart",
+    "flutter_app/test/unit/result/reel_entry_test.dart",
+    "flutter_app/test/unit/practice/support/harness.dart",
+    "39 golden PNGs under flutter_app/test/golden/{result,practice,today,art}"
+  ],
+  "verification": "flutter_locked.sh with MOCKMOB_FLUTTER_SLOTS=3: analyze, test -j 2 test/unit + widget_test, test -j 2 test/golden, build apk --profile. Gradle daemon stopped (own only). Not walked on a device.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

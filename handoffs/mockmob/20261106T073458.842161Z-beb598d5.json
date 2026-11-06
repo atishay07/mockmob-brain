@@ -1,0 +1,22 @@
+{
+  "id": "20261106T073458.842161Z-beb598d5",
+  "observed_at": "2026-11-06T07:34:58.842161+00:00",
+  "agent": "claude-auto",
+  "task": "Auto-capture: claude session c7c9ed83",
+  "status": "paused",
+  "done": "Auto-captured at Stop. Turns: 3. Last message: Round 4 is live on www.mockmob.in. The full gate passed, so I pushed main from `400d647a8` to `068a7a061`. Vercel deployment `dpl_34h9RLVRZwqfGwEZ62R93vu4kR7q` is READY and www.mockmob.in now serves it.\n\n**What changed:** the only code change is the stale assertion in `data/tests/one_gesture_source_1104.test.mjs`. It now checks that a touch starting outside a held story is treated as native in `on",
+  "next": "Unverified auto-capture. Read the session transcript and live repo state before continuing.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\c7c9ed83-21a8-4dec-916a-36b5c7eec442.jsonl"
+  ],
+  "touched_files": [
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1104-web-polish\\data\\tests\\one_gesture_source_1104.test.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1104-web-polish\\tmp\\r4-release-gate\\keycards-settle.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1104-web-polish\\docs\\brain\\STATUS.md",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\docs\\brain\\NOW.md"
+  ],
+  "verification": "auto-captured by hook; not agent-verified",
+  "cost_and_pending_requests": "unknown; hook does not see provider receipts",
+  "confidence": "agent-reported; verify evidence before acting"
+}

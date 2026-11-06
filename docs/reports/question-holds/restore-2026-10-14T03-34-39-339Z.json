@@ -1,0 +1,119 @@
+{
+ "kind": "question_hold",
+ "mode": "apply",
+ "reason": "only-to-mainly text corruption, 12 more rows (NTA review clean-up 13 Oct 2026)",
+ "at": "2026-10-14T03:34:39.337Z",
+ "requested": 12,
+ "found": 12,
+ "missing": [],
+ "alreadyHidden": 0,
+ "toHold": 12,
+ "toHoldBySubject": {
+  "physics": 1,
+  "sociology": 4,
+  "business_studies": 1,
+  "biology": 1,
+  "english": 1,
+  "economics": 2,
+  "computer_science": 1,
+  "psychology": 1
+ },
+ "rows": [
+  {
+   "id": "029cbe99-88bc-4458-b427-a325f94a5cb3",
+   "subject": "physics",
+   "chapter": "Magnetism & Matter",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "05575fdc-6b12-452b-9090-080b18f7f581",
+   "subject": "sociology",
+   "chapter": "Structural Change",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "4fe04595-d747-44e6-abf9-2906ca05448c",
+   "subject": "business_studies",
+   "chapter": "Financial Management",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "53fc59a2-6ead-47ae-9e83-c8cdfc1c8f72",
+   "subject": "biology",
+   "chapter": "Molecular Basis of Inheritance",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "674b5799-1310-46bb-a668-e526bd31cceb",
+   "subject": "english",
+   "chapter": "Literary Passage",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "81d66632-2de9-4ffa-92e9-ae100cd4fd88",
+   "subject": "economics",
+   "chapter": "Government Budget & the Economy",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "b1391ceb-9fa7-4f18-be40-32c6c5ccd70c",
+   "subject": "computer_science",
+   "chapter": "Python Revision",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "bebc69db-2d6b-4da2-8954-061c1f889015",
+   "subject": "sociology",
+   "chapter": "Globalisation & Social Change",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "dc2a6877-c02b-4297-b006-ec4e27f1c348",
+   "subject": "sociology",
+   "chapter": "Patterns of Social Inequality",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "f1c913b3-5b6f-4b70-8fed-3824bd9e41ed",
+   "subject": "psychology",
+   "chapter": "Self & Personality",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "f28de43d-de86-4b6a-977f-896e551ba74b",
+   "subject": "sociology",
+   "chapter": "Introducing Indian Society",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "f7026f4e-4b56-4957-8c70-9d426710c72d",
+   "subject": "economics",
+   "chapter": "Introduction & Theory of Consumer Behaviour",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  }
+ ]
+}

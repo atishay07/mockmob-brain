@@ -1,0 +1,685 @@
+{
+ "kind": "authored_w3_expert_pass",
+ "source": "claude-authored-2026-10-17-w3",
+ "batch": "general_test",
+ "subject": "general_test",
+ "pass": "wave3 expert pass (CUET GAT subject expert; same procedure as waves 1 and 2)",
+ "date": "2026-10-17",
+ "reviewer": "claude-sonnet-5-5 (expert pass, wave 3; every question solved independently before the key was read)",
+ "scope": "83 general_test questions accepted in docs/brain/reports/authored-w3/wave3-acceptance-2026-10-17.json (wave3-candidates-scored-2026-10-17.json); no model, network or database was used. Checked: own solution, key, explanation, options (length, grammar, listed order), unit and chapter against data/nta_blueprints/general_test.json, syllabus reference, CUET level and time, difficulty label against the two quality judges, and the engine content gates (structural, wording, listed-order key, option shuffling) on the final text.",
+ "counts": {
+  "repaired": 30,
+  "ready": 53,
+  "drop": 0
+ },
+ "solver_visible_text_changed_ids": [
+  "6bbde2ac-85d2-4b61-a2e7-25ad64d121d3",
+  "f05bce07-08b2-491b-937f-d70bca9926c5",
+  "4650a47a-f12a-4916-975a-1e2bbd999de5",
+  "0468e07c-fb05-430c-850b-73aa1a93e4c9",
+  "3d1e7c96-f0a8-4b24-9d5e-c4a8b0f23e67",
+  "afbe82bd-a14e-4f5d-bfd6-a25d30ed0864",
+  "c397d567-7836-4f84-a2ff-2e3913967ac9"
+ ],
+ "notes": [
+  "repaired: fields holds the new value of every changed field; the original value is in wave3-candidates-scored-2026-10-17.json. Where stem or options changed, solver_visible_text_changed is true and the five blind solvers must re-solve the new text before the question is published (wave 1 and 2 rule).",
+  "The 4 engine-ineligible questions of wave3-engine-check-working-2026-10-17.json (6bbde2ac, f05bce07, 4650a47a, c397d567) are repaired here so that they pass the structural and wording gates; the other gates (agent score, fit) are re-scored on the new text at publication (hashChangedByRepair).",
+  "Unit and chapter of 774478bb, 78eb3759 and 527b4906 move to General Science and Environment Literacy (blueprint maximum 4, target 1; these are the only three in the set).",
+  "Difficulty after the label repairs: 25 easy, 54 medium, 4 hard of 83 (judges and the reviewer agree the authored hard labels were mostly one level high). The hard share is far below the blueprint target (0.2); hard items have to come from waves 1 and 2, nothing was relabelled upwards to fill the quota.",
+  "Not changed although a judge asked: the bare decimal and bare percentage items (format 2 notes) and the near-twin mixture and letter-series items; they are valid items, only twins in shape."
+ ],
+ "verdicts": [
+  {
+   "id": "5e3b444f-ec85-4577-a7c0-33efbda8bdb0",
+   "verdict": "repaired",
+   "why": "Key D is correct: the middle term gives no link between doctors and teachers, so neither conclusion is forced. The explanation overstated the case (the premises do not force the doctor circle to stay clear of the teacher circle); it now says a valid diagram exists in which they do not meet.",
+   "repair": "explanation changed; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "explanation": "All doctors lie inside the set of graduates, but the graduates who are teachers may lie entirely outside the doctor set, so neither conclusion is forced. A valid Venn diagram has the teacher circle overlapping the graduate circle without reaching the doctor circle, which sits inside the graduate circle."
+   }
+  },
+  {
+   "id": "9bebf5e8-f031-4b06-9d58-f8367fd84a68",
+   "verdict": "ready",
+   "why": "Tool-to-user analogy; key B (writer) is the only person among the options, and paper, ink and notebook are things."
+  },
+  {
+   "id": "e0c08075-b58b-4d3f-af73-dd797c293080",
+   "verdict": "ready",
+   "why": "Each letter moves one place forward; CHAIR gives DIBJS (key A). The distractors each change one letter."
+  },
+  {
+   "id": "e70bd8ee-73e0-4803-8b89-733d48f131aa",
+   "verdict": "ready",
+   "why": "Neha is the wife of Gita's brother, so sister-in-law (key A) is the only valid relation; aunt, cousin and niece do not fit."
+  },
+  {
+   "id": "75349543-7db7-44e5-b720-222dc0f55ff2",
+   "verdict": "ready",
+   "why": "Two right turns from north face south; key C is unique."
+  },
+  {
+   "id": "6bbde2ac-85d2-4b61-a2e7-25ad64d121d3",
+   "verdict": "repaired",
+   "why": "Key is right (Tab, Table, Tablet, Tail, Tiger) but the engine refused the item: the options named the words while the stem labelled none of them. The words are now labelled (A)-(E) in the stem and the options order the labels; the key (E),(C),(B),(D),(A) is not the listed order. Still option A, same answer.",
+   "repair": "stem changed; options changed; explanation changed; key unchanged in meaning; solver-visible text CHANGED (stem and/or options): needs a blind re-solve.",
+   "solver_visible_text_changed": true,
+   "fields": {
+    "stem": "Arrange the following words in the order they would appear in a dictionary, from first to last: (A) Tiger (B) Tablet (C) Table (D) Tail (E) Tab. Choose the correct sequence from the options given below.",
+    "options": [
+     {
+      "key": "A",
+      "text": "(E), (C), (B), (D), (A)"
+     },
+     {
+      "key": "B",
+      "text": "(E), (D), (C), (B), (A)"
+     },
+     {
+      "key": "C",
+      "text": "(C), (E), (B), (D), (A)"
+     },
+     {
+      "key": "D",
+      "text": "(E), (C), (D), (B), (A)"
+     }
+    ],
+    "explanation": "Dictionary order compares letters from left to right. Tab comes before Table because it is a prefix of it, and Table comes before Tablet for the same reason. Tablet comes before Tail because b precedes i at the third letter, and Tail comes before Tiger because a precedes i at the second letter. The order is Tab, Table, Tablet, Tail, Tiger, which is (E), (C), (B), (D), (A)."
+   }
+  },
+  {
+   "id": "e09818d8-3a95-4c58-bddd-a28479403f5d",
+   "verdict": "ready",
+   "why": "A-II (doubling), B-I (squares), C-III (Fibonacci), D-IV (step of 5); key B is unique and the explanation matches."
+  },
+  {
+   "id": "e8db991e-fd05-4e8d-9157-36a719ad405d",
+   "verdict": "ready",
+   "why": "All A are B = A inside B (III), No A is B = disjoint (II), Some A are B = partial overlap (I), All B are A = B inside A (IV); key B. 'Some' is read in the usual Venn convention of overlapping circles, which is the only reading under which the four pairings are distinct."
+  },
+  {
+   "id": "19c49938-f37a-419f-975a-03e609b82cdc",
+   "verdict": "ready",
+   "why": "Solved: round the table Q, P, R, T, S; P is the only person next to both Q and R (key C). The result does not depend on which hand is called right, because both clues use the same convention."
+  },
+  {
+   "id": "c2041ae3-9c59-4149-bdbc-3b863ca761f5",
+   "verdict": "ready",
+   "why": "T at the left end, P third, R and Q fourth and fifth, S second; second to the left of Q is P (key C). Mirror reading gives the same answer."
+  },
+  {
+   "id": "bd7ed369-d22b-4366-a731-45bd7dce9242",
+   "verdict": "ready",
+   "why": "12 + 5 = 17th from the top, 40 - 17 + 1 = 24th from the bottom (key C)."
+  },
+  {
+   "id": "7edd9bb1-56a1-431d-b322-59c335b4c8a0",
+   "verdict": "ready",
+   "why": "31 days from 15 March to 15 April, 31 mod 7 = 3, Sunday + 3 = Wednesday (key B); the real 2026 calendar agrees."
+  },
+  {
+   "id": "6e38970a-7eca-45b6-80f6-ebf5c9125a91",
+   "verdict": "ready",
+   "why": "Only assumption I is implicit (online classes need devices and a connection); II concerns a later decision the announcement does not need. Key A."
+  },
+  {
+   "id": "3d61c8af-814f-4665-a3d5-f8d26a01e25a",
+   "verdict": "ready",
+   "why": "Only the inspection of the caterer is a proportionate step; banning all feasts and telling guests to avoid weddings are not. Key A. Two weak distractors, acceptable."
+  },
+  {
+   "id": "9bf44c6e-60a3-4d29-90b1-afcdbf800ab4",
+   "verdict": "ready",
+   "why": "'Only those who ... are selected' makes the score a necessary condition, so I follows and II (the converse) does not. Key A."
+  },
+  {
+   "id": "f05bce07-08b2-491b-937f-d70bca9926c5",
+   "verdict": "repaired",
+   "why": "Key was right but the key order Ajay, Bina, Chirag, Divya, Esha was exactly the order the names first appear in the stem, and the engine refused the item (names in options, nothing labelled in the stem). Rewritten with new names, the clues in a different order, the five persons labelled (A)-(E) in a scrambled order and options that order the labels. Key stays option C (D),(B),(E),(A),(C); explanation restated.",
+   "repair": "stem changed; options changed; explanation changed; key unchanged in meaning; solver-visible text CHANGED (stem and/or options): needs a blind re-solve.",
+   "solver_visible_text_changed": true,
+   "fields": {
+    "stem": "Lata is taller than Mohan. Kiran is taller than Lata. Neha is shorter than Mohan but taller than Om. Arrange the following five persons from the tallest to the shortest: (A) Neha (B) Lata (C) Om (D) Kiran (E) Mohan. Choose the correct sequence from the options given below.",
+    "options": [
+     {
+      "key": "A",
+      "text": "(D), (B), (A), (E), (C)"
+     },
+     {
+      "key": "B",
+      "text": "(B), (D), (E), (A), (C)"
+     },
+     {
+      "key": "C",
+      "text": "(D), (B), (E), (A), (C)"
+     },
+     {
+      "key": "D",
+      "text": "(D), (E), (B), (A), (C)"
+     }
+    ],
+    "explanation": "Chain the comparisons: Kiran > Lata > Mohan from the first two clues, and Mohan > Neha > Om from the third. Combining the chains gives the full order Kiran, Lata, Mohan, Neha, Om, which is (D), (B), (E), (A), (C). Check a sequence against every clue, since one wrong adjacent pair rules it out."
+   }
+  },
+  {
+   "id": "72c5b422-6100-4243-87c5-e6da84a6f8c7",
+   "verdict": "ready",
+   "why": "Pens that are inks are liquids and so are not solids (I), and those pens are liquids (III); pens outside the ink group may be solids, so II fails. Key C. Judges and I rate it hard."
+  },
+  {
+   "id": "4650a47a-f12a-4916-975a-1e2bbd999de5",
+   "verdict": "repaired",
+   "why": "Key S,R,P,T,Q is unique (solved all placements). The engine refused the item because the books were not labelled in the stem, so the first mention is now (P),(Q),(R),(S),(T); the explanation also had a wrong step (P in the fourth place does not push Q beyond the fifth place, it puts Q next to P), now corrected. Both judges rated it medium, not hard.",
+   "repair": "stem changed; explanation changed; difficulty_label hard -> medium; key unchanged in meaning; solver-visible text CHANGED (stem and/or options): needs a blind re-solve.",
+   "solver_visible_text_changed": true,
+   "fields": {
+    "stem": "Five books (P), (Q), (R), (S) and (T) are placed on a shelf from left to right. S is at the left end. P is immediately to the right of R. Q is to the right of P but not next to P. Which arrangement from left to right is correct?",
+    "explanation": "S fixes the first place. R and P must then take two consecutive places among the second to the fifth, with P right after R. If P were in the fourth place, the only place to its right is the fifth, which is next to P, and if P were in the fifth place Q would have no place to its right. So R is in the second place and P in the third. Q must then be in the fifth place, to the right of P without touching it, which leaves T in the fourth place: S, R, P, T, Q.",
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "0468e07c-fb05-430c-850b-73aa1a93e4c9",
+   "verdict": "repaired",
+   "why": "Key C is right (18 boys is 3 parts, so 30 students). The key was by far the longest option (82 characters against 31, 62 and 36), a length giveaway. Options rewritten in matching length: A statement I alone, B statement II alone, C both together, D even both together are not sufficient. Both judges rated it medium, not hard.",
+   "repair": "options changed; difficulty_label hard -> medium; key unchanged in meaning; solver-visible text CHANGED (stem and/or options): needs a blind re-solve.",
+   "solver_visible_text_changed": true,
+   "fields": {
+    "options": [
+     {
+      "key": "A",
+      "text": "Statement I alone is sufficient"
+     },
+     {
+      "key": "B",
+      "text": "Statement II alone is sufficient"
+     },
+     {
+      "key": "C",
+      "text": "Both statements together are sufficient"
+     },
+     {
+      "key": "D",
+      "text": "Even both statements together are not sufficient"
+     }
+    ],
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "c6f4c6ab-0a24-49a8-ba45-23a3104b8826",
+   "verdict": "repaired",
+   "why": "Net 9 m west (key A). The first explanation sentence was a fragment; it is now a full sentence. Both judges rated it medium, not hard.",
+   "repair": "explanation changed; difficulty_label hard -> medium; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "explanation": "Ravi walks north, turns left to face west, turns left again to face south, and then turns right to face west. The 4 m north and 4 m south moves cancel, while the westward moves total 3 + 6 = 9 m. Track the facing direction after each turn and net the north-south and east-west moves separately.",
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "f6ac091e-cd92-418c-99f8-bf273c9fec50",
+   "verdict": "ready",
+   "why": "At 4:m the hands coincide when 6m = 120 + m/2, so m = 21 9/11 (key B). Classic clock item; hard is fair."
+  },
+  {
+   "id": "5d4111c6-388a-4181-9870-48f2433614c7",
+   "verdict": "ready",
+   "why": "Article list: the Eighth Schedule lists the recognised languages (key C). One of five blind solvers chose A; the other four matched the key."
+  },
+  {
+   "id": "78eb3759-1464-4e8b-bc15-a4c44426e185",
+   "verdict": "repaired",
+   "why": "Ohm is the SI unit of resistance (key D); farad, henry and tesla are explained correctly. Science item: moved from General Knowledge to General Science and Environment Literacy, as the three fit judges also found.",
+   "repair": "unit changed; chapter changed; ncert_ref changed; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "unit": "General Science and Environment Literacy",
+    "chapter": "General Science and Environment Literacy",
+    "ncert_ref": "CUET GAT syllabus, General Science and Environment Literacy: Physics basics, SI units"
+   }
+  },
+  {
+   "id": "774478bb-024f-426b-9322-d3efb4995839",
+   "verdict": "repaired",
+   "why": "Vitamin D is made in the skin in sunlight (key A). Science item: moved to General Science and Environment Literacy, as the fit judges found.",
+   "repair": "unit changed; chapter changed; ncert_ref changed; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "unit": "General Science and Environment Literacy",
+    "chapter": "General Science and Environment Literacy",
+    "ncert_ref": "CUET GAT syllabus, General Science and Environment Literacy: Human health and nutrition"
+   }
+  },
+  {
+   "id": "e4bffc63-34a2-454c-a824-04a67523ea3c",
+   "verdict": "ready",
+   "why": "42nd Amendment (1976) inserted socialist, secular and integrity (key D)."
+  },
+  {
+   "id": "27a22460-7b41-4d9e-bfa1-d1423c8ddeb4",
+   "verdict": "ready",
+   "why": "Article 352 is the National Emergency provision (key A); 356, 360 and 370 are real articles for other things."
+  },
+  {
+   "id": "29d9c92f-3fce-40f7-b1ea-c4c56f07ab15",
+   "verdict": "ready",
+   "why": "(A) true (44th Amendment), (B) false (DPSP are not justiciable), (C) true (Ambedkar on Article 32), (D) true (Part IVA); key B (A),(C),(D)."
+  },
+  {
+   "id": "190d65d3-c340-4f52-9200-f993ae17254d",
+   "verdict": "repaired",
+   "why": "Income tax is the direct tax; GST, customs and excise are indirect (key D). Both judges rated it easy, so the label was changed from medium to easy.",
+   "repair": "difficulty_label medium -> easy; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "easy"
+   }
+  },
+  {
+   "id": "527b4906-0de1-4107-96da-3b6fbd53111f",
+   "verdict": "repaired",
+   "why": "Zinc and dilute HCl give hydrogen (key B). Science item: moved to General Science and Environment Literacy as the fit judges found; both judges rated it easy, so the label was changed from medium to easy.",
+   "repair": "unit changed; chapter changed; ncert_ref changed; difficulty_label medium -> easy; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "unit": "General Science and Environment Literacy",
+    "chapter": "General Science and Environment Literacy",
+    "ncert_ref": "CUET GAT syllabus, General Science and Environment Literacy: Chemistry basics, metals and acids",
+    "difficulty_label": "easy"
+   }
+  },
+  {
+   "id": "7fc9c9ea-2cc0-43af-91bf-099821f07bff",
+   "verdict": "ready",
+   "why": "IAEA is in Vienna (key B); the other seats are named correctly in the explanation. Label medium kept (agency headquarters are recall that many students miss), although both judges said easy."
+  },
+  {
+   "id": "8d00f227-84a2-4ed5-8e30-a13421089559",
+   "verdict": "ready",
+   "why": "UNEP is in Nairobi (key A); the explanation names the other seats correctly. Label medium kept for the same reason as the IAEA item."
+  },
+  {
+   "id": "58e99246-9e9e-45b8-a31c-31662eb1f502",
+   "verdict": "repaired",
+   "why": "The Great Stupa at Sanchi is in Madhya Pradesh (key C). Both judges rated it easy, so the label was changed from medium to easy.",
+   "repair": "difficulty_label medium -> easy; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "easy"
+   }
+  },
+  {
+   "id": "d9f17d54-ca5e-4301-88f7-9ea53cbbf264",
+   "verdict": "repaired",
+   "why": "The Discovery of India is by Nehru (key D), written in Ahmednagar Fort in 1944. Both judges rated it easy, so the label was changed from medium to easy.",
+   "repair": "difficulty_label medium -> easy; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "easy"
+   }
+  },
+  {
+   "id": "40c5bdcc-4867-421d-85e8-b9049b3b736a",
+   "verdict": "repaired",
+   "why": "A is true and Article 61 sets out the procedure by which it happens, so key A (both true, R explains A) holds on the usual reading. Both judges rated it medium, not hard, so the label was changed.",
+   "repair": "difficulty_label hard -> medium; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "4d609f5a-fe44-4fbc-b574-688115b283c0",
+   "verdict": "repaired",
+   "why": "Sabarmati-Ahmedabad, Brahmaputra-Guwahati, Yamuna-Delhi, Mahanadi-Cuttack (key B). The explanation named options by position ('the second option', 'the first'), which is wrong once the engine shuffles the options; it now states the pairings by label and refers to wrong pairings without positions. Both judges rated it medium, not hard.",
+   "repair": "explanation changed; difficulty_label hard -> medium; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "explanation": "The Sabarmati flows past Ahmedabad in Gujarat, the Brahmaputra past Guwahati in Assam, the Yamuna past Delhi and the Mahanadi past Cuttack in Odisha, which gives (A)-(III), (B)-(I), (C)-(IV) and (D)-(II). Wrong pairings swap rivers and cities, for example by putting the Sabarmati at Guwahati and the Brahmaputra at Ahmedabad. Learn each major river with one or two cities on its banks.",
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "13acff28-0d34-4e66-9f98-c2db0415b060",
+   "verdict": "repaired",
+   "why": "1st (1951), 42nd (1976), 73rd (1992), 86th (2002): key (B),(C),(A),(D); not the listed order. Both judges rated it medium, not hard, so the label was changed.",
+   "repair": "difficulty_label hard -> medium; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "301660c4-85f8-48f2-a8ad-07497eb84325",
+   "verdict": "repaired",
+   "why": "Article 148 is the CAG; 124, 280 and 324 are real articles for other bodies (key B). Pure article recall, so medium rather than hard; both judges said easy and I take it as medium.",
+   "repair": "difficulty_label hard -> medium; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "015244d0-de83-4f32-98b1-c2e293f25c58",
+   "verdict": "repaired",
+   "why": "Article 280 is the Finance Commission (key C); 265, 300 and 324 are real articles for other things. Medium rather than hard (both judges said easy).",
+   "repair": "difficulty_label hard -> medium; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "3f9a2c17-8b4e-4d61-9a2f-5c7e1b0d4a63",
+   "verdict": "ready",
+   "why": "40,000 x 1.15 x 0.90 = 41,400 (key C); the 42,000 trap is covered in the explanation."
+  },
+  {
+   "id": "a81d6e42-0c9b-4f75-b3e8-2d6a9f1c7e05",
+   "verdict": "repaired",
+   "why": "Milk 40 L, water 16 L, 5:4 needs 32 L of water, so 16 L added (key D). Both judges rated it medium, not easy, so the label was changed.",
+   "repair": "difficulty_label easy -> medium; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "5b2e9f08-7d13-4a6c-8e41-9c0f2b7d3a16",
+   "verdict": "repaired",
+   "why": "1,134 / 0.9 = 1,260 (key A). The explanation said the wrong-base slip gives exactly 1,020 (it gives 1,020.6), now 'about Rs 1,020'.",
+   "repair": "explanation changed; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "explanation": "A loss of 10% means the selling price is 90% of the cost price. So the cost price is 1,134 / 0.90 = 1,260. Taking 10% off the selling price instead gives about Rs 1,020, which uses the wrong base."
+   }
+  },
+  {
+   "id": "d4c71a9e-3f25-4b8d-a6e0-1e8b5c2f9d47",
+   "verdict": "ready",
+   "why": "CI 820 less SI 800 = Rs 20 (key B)."
+  },
+  {
+   "id": "27e0b6f4-9a1c-4e3d-8f72-6b4d0a9c1e58",
+   "verdict": "ready",
+   "why": "Together 1/12 per hour, half done in 6 hours, Q alone needs 15 more hours (key B)."
+  },
+  {
+   "id": "1c8f4b7d-2e90-4a5f-b1c6-7d3e9a0f2b84",
+   "verdict": "ready",
+   "why": "(480 + 990) / 30 = 49 (key D); the simple-average trap is covered."
+  },
+  {
+   "id": "79b5e2a3-4d6c-4f1e-8a09-c2d7b4e6f513",
+   "verdict": "ready",
+   "why": "36 L at 7:2 holds 28 L milk and 8 L water, 7:3 needs 12 L water, so 4 L (key C). Same template as the 56-litre item (other numbers, other ratio); kept, as the numbers and ratios differ."
+  },
+  {
+   "id": "c3f08d6a-1e4b-4927-b5a8-0f9e2d7c6a31",
+   "verdict": "ready",
+   "why": "Vessel totals 50 L milk and 50 L water, ratio 1:1 (key B)."
+  },
+  {
+   "id": "4e6a1b9c-8f2d-4c03-9e7b-a5d1f3c8e620",
+   "verdict": "ready",
+   "why": "120 x 80 - 110 x 70 = 1,900 m2 (key D)."
+  },
+  {
+   "id": "b7d2c05e-3a9f-4e18-a46d-8c1f0e5b2d97",
+   "verdict": "ready",
+   "why": "6 x 6 x 6 = 216 m3 = 216,000 L (key B)."
+  },
+  {
+   "id": "0a5e8c3d-6f14-4b72-8d9a-e3b7c1f06a48",
+   "verdict": "ready",
+   "why": "Upstream 6 and downstream 10 km/h, still water 8 km/h (key D)."
+  },
+  {
+   "id": "f1b96e27-c4a0-4d5e-9f38-2a7d6b0e1c59",
+   "verdict": "repaired",
+   "why": "9,680 / 1.21 = Rs 8,000 (key D). Both judges rated it medium, not hard, so the label was changed.",
+   "repair": "difficulty_label hard -> medium; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "6d3c9a1f-7e28-4b06-a1d5-9f4c0e8b2a73",
+   "verdict": "ready",
+   "why": "84 = 2^2 x 3 x 7 and 126 = 2 x 3^2 x 7, HCF 42 (key D)."
+  },
+  {
+   "id": "e2a7f4b9-0d35-4c6e-8b12-4d9f1a6c3e05",
+   "verdict": "ready",
+   "why": "LCM of 12, 18 and 20 is 180 minutes, so 12:00 noon (key C)."
+  },
+  {
+   "id": "93c1e08b-5f7a-4d2c-b6e4-7a0d3c9f1b26",
+   "verdict": "ready",
+   "why": "7/3 / (7/4) = 4/3, times 3/8 = 1/2 (key B), taken left to right as the standard rule says."
+  },
+  {
+   "id": "58f0d4c2-a9e6-4b17-8c3f-1e5a7d2b9c40",
+   "verdict": "ready",
+   "why": "0.03 + 3 = 3.03 (key C)."
+  },
+  {
+   "id": "ad4b7e13-2c60-4f9a-9e85-6c1b3f0d8a72",
+   "verdict": "ready",
+   "why": "1.2 + 0.15 = 1.35 (key C)."
+  },
+  {
+   "id": "2f6e9c85-b1d4-4a37-8f0e-d5a2c7b1e963",
+   "verdict": "repaired",
+   "why": "(x + 1/x)^2 - 2 = 23 (key D). Standard identity; both judges rated it medium, not hard, so the label was changed.",
+   "repair": "difficulty_label hard -> medium; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "c8b13a7f-4e92-4d10-a6c5-0f8e2b9d7a14",
+   "verdict": "ready",
+   "why": "4,617 has digit sum 18 (key C); the other digit sums are 15, 20 and 12."
+  },
+  {
+   "id": "741e0d6b-93f8-4c25-b7a1-e6d3f5c09b58",
+   "verdict": "repaired",
+   "why": "350/1000 = 7/20 (key D). The last explanation sentence ('the simplest form is the one that matches the options') was circular and referred to the options; it now says 7 and 20 have no common factor.",
+   "repair": "explanation changed; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "explanation": "1 kilogram = 1,000 grams, so the fraction is 350/1,000. Dividing the numerator and the denominator by their common factor 50 gives 7/20, and 7 and 20 have no common factor, so 7/20 is in simplest form."
+   }
+  },
+  {
+   "id": "e0d5a92c-18b7-4f3e-9c64-3a8f1d7e2b05",
+   "verdict": "ready",
+   "why": "250 x 200 = 50,000 m2 = 5 hectares (key C)."
+  },
+  {
+   "id": "5a9c3f71-d2e6-4b8a-8f14-0b6e9d1c7a32",
+   "verdict": "ready",
+   "why": "0.375 < 0.4 < 5/12 < 3/7, so (A),(D),(C),(B) (key A); not the listed order."
+  },
+  {
+   "id": "b62f8e0d-7c4a-4e95-a3d1-9e5b2f6c0d81",
+   "verdict": "repaired",
+   "why": "(-8)(9) - (16 / -8) = -72 + 2 = -70 (key D). Both judges rated it medium, not hard, so the label was changed.",
+   "repair": "difficulty_label hard -> medium; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "3d1e7c96-f0a8-4b24-9d5e-c4a8b0f23e67",
+   "verdict": "repaired",
+   "why": "Key (A),(B),(C) is right ((D) is false, 15% of 240 = 36). Two defects: every wrong option contained (D), so one calculation settled the item; the options are now A: (A),(B),(C); B: (A),(C),(D); C: (A),(B); D: (B),(C),(D), so all four statements matter. The explanation said '(A) is correct' and 'the answer is (A)', which the option-shuffling code reads as option references, so the item could not be shuffled; it is reworded. Label changed from hard to medium (both judges).",
+   "repair": "options changed; explanation changed; difficulty_label hard -> medium; key unchanged in meaning; solver-visible text CHANGED (stem and/or options): needs a blind re-solve.",
+   "solver_visible_text_changed": true,
+   "fields": {
+    "options": [
+     {
+      "key": "A",
+      "text": "(A), (B) and (C) only"
+     },
+     {
+      "key": "B",
+      "text": "(A), (C) and (D) only"
+     },
+     {
+      "key": "C",
+      "text": "(A) and (B) only"
+     },
+     {
+      "key": "D",
+      "text": "(B), (C) and (D) only"
+     }
+    ],
+    "explanation": "2^10 = 1,024, so (A) holds. 0.7 x 0.7 = 0.49, so (B) holds. The LCM of 6, 8 and 12 is 24, so (C) holds. 15% of 240 = 36, not 32, so (D) fails. Statements (A), (B) and (C) hold and (D) does not.",
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "cc704589-53b7-4f63-8da8-e2a3d2d05712",
+   "verdict": "ready",
+   "why": "Positions 1, 3, 6, 10, 15 with gaps 2, 3, 4, 5, so the next is 21 = U (key C). One of five solvers chose B; the other four matched."
+  },
+  {
+   "id": "12fbdaab-5d8a-4b16-978b-55747e7b0529",
+   "verdict": "ready",
+   "why": "A barometer measures pressure (key B)."
+  },
+  {
+   "id": "645bed97-917e-45b9-a975-d2fa08619ddd",
+   "verdict": "ready",
+   "why": "With the symbols swapped: 18 x 6 / 3 - 2 + 1 = 35 (key C)."
+  },
+  {
+   "id": "17afca30-b3fa-40a5-98be-b3189fbb00b4",
+   "verdict": "ready",
+   "why": "3 + 8 + 1 + 18 + 20 = 50 (key B)."
+  },
+  {
+   "id": "fb045322-08ef-4936-ba8a-3be3190bc89e",
+   "verdict": "ready",
+   "why": "15 + 18 - 1 = 32 (key B)."
+  },
+  {
+   "id": "76a4ec3a-0bfe-43ae-8afb-855d89439611",
+   "verdict": "ready",
+   "why": "Each term is the sum of the previous two, so 18 + 29 = 47 (key C)."
+  },
+  {
+   "id": "afbe82bd-a14e-4f5d-bfd6-a25d30ed0864",
+   "verdict": "repaired",
+   "why": "Third number = first x second, so 7 x 2 = 14 (key B). The stem said 'the grid below' although the rows are inline; reworded to 'Each row of numbers'. Both judges rated it medium, not hard.",
+   "repair": "stem changed; difficulty_label hard -> medium; key unchanged in meaning; solver-visible text CHANGED (stem and/or options): needs a blind re-solve.",
+   "solver_visible_text_changed": true,
+   "fields": {
+    "stem": "Each row of numbers follows the same rule. Row 1: 2, 3, 6. Row 2: 4, 5, 20. Row 3: 7, 2, ?. What number replaces the question mark?",
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "307b8146-2141-49c9-abb2-cdc2e2c42bb9",
+   "verdict": "repaired",
+   "why": "First letters at 1, 3, 6, 10, then 15 = O, second letter one place later, so OP (key B). Both judges rated it medium, not hard, so the label was changed.",
+   "repair": "difficulty_label hard -> medium; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "52a1adba-4ac2-48f0-9803-5f519207dc97",
+   "verdict": "ready",
+   "why": "2:8, 3:27 and 5:125 are cubes, 4:16 is a square (key C)."
+  },
+  {
+   "id": "cf11e1b2-690f-4878-a6e7-c8925821c44c",
+   "verdict": "ready",
+   "why": "121, 169 and 225 are perfect squares; 250 is not (key D)."
+  },
+  {
+   "id": "e1479500-60ec-4884-ae31-679f70d3eb8b",
+   "verdict": "ready",
+   "why": "P1, Q2, S3, T4, R5, so S is in the middle (key C)."
+  },
+  {
+   "id": "c397d567-7836-4f84-a2ff-2e3913967ac9",
+   "verdict": "repaired",
+   "why": "Key B (I and III) is right, but the engine refused the item: the conclusion labels I., II., III. ran into the letters of the inequalities. The conclusions are now bracketed (I), (II), (III). Wording of the statements and options unchanged.",
+   "repair": "stem changed; key unchanged in meaning; solver-visible text CHANGED (stem and/or options): needs a blind re-solve.",
+   "solver_visible_text_changed": true,
+   "fields": {
+    "stem": "Statements: P > Q ≥ R; S < R; T ≥ P. Conclusions: (I) T > S. (II) S > Q. (III) P > R. Which conclusions follow?"
+   }
+  },
+  {
+   "id": "6892ed66-c504-4d51-8d9e-bba0cb1c1166",
+   "verdict": "ready",
+   "why": "Chain U > S > R > P > Q > T, so P is fourth (key B)."
+  },
+  {
+   "id": "70fa0d92-2494-40f8-83af-cb4649685922",
+   "verdict": "ready",
+   "why": "59 days from 1 January to 1 March, 59 mod 7 = 3, Wednesday + 3 = Saturday (key C); the real 2025 calendar agrees."
+  },
+  {
+   "id": "9c407b8f-146d-407d-8f8c-7d09d4ce18c9",
+   "verdict": "repaired",
+   "why": "Neither conclusion is forced (key D); the 'either-or' option does not apply because the two conclusions are not complementary. Both judges rated it medium, not hard, so the label was changed.",
+   "repair": "difficulty_label hard -> medium; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "difficulty_label": "medium"
+   }
+  },
+  {
+   "id": "0f2b8121-9083-4961-a25f-ac0878f9a15a",
+   "verdict": "ready",
+   "why": "Seats P1, Q2, R3, S4, T5, U6; T is opposite Q (key C). The same answer comes out under the other reading of clockwise."
+  },
+  {
+   "id": "4c830508-835a-4040-8064-984024bf0778",
+   "verdict": "ready",
+   "why": "C is on floor 5, B on 2, A on 3 (key B)."
+  },
+  {
+   "id": "aed34b71-fcf1-4bb3-bd90-b76d3b0ce52a",
+   "verdict": "repaired",
+   "why": "Roots 3 and 4, so 9 + 16 = 25 (key C). The reference cited relations between roots and coefficients under Chapter 4; that relation is taught with polynomials (Chapter 2), and the roots here can also be found by factorising (Chapter 4). Reference corrected.",
+   "repair": "ncert_ref changed; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "ncert_ref": "NCERT Class 10 Mathematics: Chapter 2 Polynomials (relation between zeroes and coefficients of a quadratic) and Chapter 4 Quadratic Equations"
+   }
+  },
+  {
+   "id": "352e7338-650c-45f2-a195-74266a9fa337",
+   "verdict": "ready",
+   "why": "S20 = 10 x (6 + 76) = 820 (key C); Class 10 Chapter 5 section 5.4 (sum of the first n terms) is the right place."
+  },
+  {
+   "id": "4c4837c1-e4d1-4788-af4a-ba9ddac78419",
+   "verdict": "ready",
+   "why": "1/4 + 3/4 = 1 (key B)."
+  },
+  {
+   "id": "f19a4dec-edf5-46f4-ba35-f0f0e4485de9",
+   "verdict": "repaired",
+   "why": "6 of 36 outcomes, 1/6 (key A). The reference named Chapter 15, which is the 2006 edition's number (Chapter 14 in the rationalised edition); the chapter number is dropped from the reference.",
+   "repair": "ncert_ref changed; key unchanged in meaning; solver-visible text (stem, options) unchanged.",
+   "solver_visible_text_changed": false,
+   "fields": {
+    "ncert_ref": "NCERT Class 10 Mathematics: Probability (theoretical probability of an event)"
+   }
+  }
+ ]
+}

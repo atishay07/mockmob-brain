@@ -1,0 +1,21 @@
+{
+  "id": "20261031T075245.215583Z-a84930d3",
+  "observed_at": "2026-10-31T07:52:45.216584+00:00",
+  "agent": "claude-opus-5.5 session 16f96fa8",
+  "task": "Key cards release: deployed with flag off; syllabus v2 + Key cards migrations, re-tags and question fixes applied on production",
+  "status": "paused",
+  "done": "Owner said \"Yes, run them\".\n- Deploy: main fast-forwarded 0b7d6bc03..5c1d03a37, Vercel dpl_jzeVzYF2yT6F8EwUQxM9EcnPvPau READY, KEY_CARDS_ENABLED off. Rollback dpl_5QtNxZUkLvxXBWxJfJLDL6tLxaXE.\n- Dry runs: rolled-back production dry runs of syllabus_v2 (567 retire, 59 merge) and key_cards (RPC ok/replay/conflict).\n- Applied: syllabus_v2, syllabus_v2_fix_live_rows (8 live chapters missing due to an id collision; now 199) and key_cards.\n- Re-tags: 85/85 and 476/476.\n- Questions: 59 flawed fixed (3 keys, 31 rewords, 25 pending).\n- Docs: STATUS f3ebd6b9c pushed; handoff and NOW d696e37be on feat/app-and-web.",
+  "next": "Owner, in order:\n1. Look at the screens, then turn KEY_CARDS_ENABLED=true in Vercel Production and redeploy.\n2. Decide on the 218 outside-syllabus questions.\n3. App v17 build from ui/1031-keycards 98c41a73e.\n\nFollow-ups:\n- Fix the syllabus v2 SQL generator's id-collision skip.\n- Split re-tag: 16 CS Data Structures and 2 Geography Resources & Development.\n- Inventory recount at the next cron (logic v4).",
+  "blockers": [
+    "Owner must see the screens before KEY_CARDS_ENABLED goes on"
+  ],
+  "evidence": [
+    "docs/brain/STATUS.md top entry (main f3ebd6b9c)",
+    "supabase/migrations/20261031150000_syllabus_v2_fix_live_rows.sql",
+    "docs/brain/HANDOFF-2026-10-31-KEYCARDS-3.md (update section)"
+  ],
+  "touched_files": [],
+  "verification": "Smoke:\n- Pages 200.\n- Key cards routes 404 KEY_CARDS_OFF; signed-in routes 401.\n- Dev preview 404.\n- No runtime errors in 40 minutes.\n\nDatabase:\n- 199 live chapters, all with units.\n- Pools: Biology 369, Chemistry 395, Political Science 252, CS 347.\n- Flawed batches verified by SELECT after apply.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

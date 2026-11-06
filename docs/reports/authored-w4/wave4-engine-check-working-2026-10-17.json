@@ -1,0 +1,133 @@
+{
+ "kind": "authored_w4_engine_check",
+ "label": "working",
+ "source": "claude-authored-2026-10-17-w4",
+ "at": "2026-10-17T04:26:50.175Z",
+ "engine": {
+  "root": "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-wave4",
+  "file": "data/nta_engine.js",
+  "version": "nta-engine-2026.10.14-r5.2",
+  "sha256": "0fa0cc018f57e9ee5cf589b1c6b081376872993498ffedf3735ecdd26e056b02",
+  "mtime": "2026-10-17T01:25:31.602Z",
+  "minScore": 8,
+  "minFit": 8
+ },
+ "method": "ntaEligibility (quality gate with the agent scores, content gates, CUET-fit gate) on every accepted wave-4 question with the committed agent and fit tables of the named checkout plus the wave-4 entries merged in memory (policy admit). Nothing in data/ is written. Rows are mapped like the wave-1 publisher (toQuestionRow); case-set items typed single_mcq are mapped as passage children.",
+ "candidatesSha256": "5a9fc8abb5d519050031c444017a0c7253e3ea45bdb045047027acdcd6d7f4e7",
+ "planned": 259,
+ "engineEligible": 259,
+ "engineIneligible": 0,
+ "engineIneligibleReasons": {},
+ "ineligibleByGate": {},
+ "bySubject": {
+  "biology": {
+   "planned": 55,
+   "eligible": 55,
+   "ineligible": 0,
+   "reasons": {}
+  },
+  "chemistry": {
+   "planned": 57,
+   "eligible": 57,
+   "ineligible": 0,
+   "reasons": {}
+  },
+  "general_test": {
+   "planned": 51,
+   "eligible": 51,
+   "ineligible": 0,
+   "reasons": {}
+  },
+  "mathematics": {
+   "planned": 58,
+   "eligible": 58,
+   "ineligible": 0,
+   "reasons": {}
+  },
+  "physics": {
+   "planned": 38,
+   "eligible": 38,
+   "ineligible": 0,
+   "reasons": {}
+  }
+ },
+ "passageSets": [
+  {
+   "set_id": "w4-bio-02-set-1",
+   "subject": "biology",
+   "chapter": "Human Health & Disease",
+   "passage_words": 201,
+   "passage_words_range": {
+    "min": 120,
+    "target": 200,
+    "max": 300
+   },
+   "min_children": 4,
+   "wave1_children": 0,
+   "wave1_children_eligible": 0,
+   "wave4_children": 4,
+   "wave4_children_eligible": 4,
+   "distinct_eligible_children": 4,
+   "blueprint_serves_sets": true,
+   "servable": true
+  },
+  {
+   "set_id": "w4-bio-03-set-1",
+   "subject": "biology",
+   "chapter": "Biotechnology & its Applications",
+   "passage_words": 203,
+   "passage_words_range": {
+    "min": 120,
+    "target": 200,
+    "max": 300
+   },
+   "min_children": 4,
+   "wave1_children": 0,
+   "wave1_children_eligible": 0,
+   "wave4_children": 5,
+   "wave4_children_eligible": 5,
+   "distinct_eligible_children": 5,
+   "blueprint_serves_sets": true,
+   "servable": true
+  },
+  {
+   "set_id": "w4-chem-02-set-1",
+   "subject": "chemistry",
+   "chapter": "Amines",
+   "passage_words": 221,
+   "passage_words_range": {
+    "min": 120,
+    "target": 200,
+    "max": 300
+   },
+   "min_children": 4,
+   "wave1_children": 0,
+   "wave1_children_eligible": 0,
+   "wave4_children": 4,
+   "wave4_children_eligible": 4,
+   "distinct_eligible_children": 4,
+   "blueprint_serves_sets": true,
+   "servable": true
+  },
+  {
+   "set_id": "w4-gat-03-set-1",
+   "subject": "general_test",
+   "chapter": "Numerical Ability",
+   "passage_words": 116,
+   "passage_words_range": null,
+   "min_children": 3,
+   "wave1_children": 0,
+   "wave1_children_eligible": 0,
+   "wave4_children": 5,
+   "wave4_children_eligible": 5,
+   "distinct_eligible_children": 5,
+   "blueprint_serves_sets": false,
+   "servable": false
+  }
+ ],
+ "placementProblems": [],
+ "informational": {
+  "authoredTypeVersusEngineType": []
+ },
+ "refused": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "20261018T230738.448537Z-1e5fedfc",
+  "observed_at": "2026-10-18T23:07:38.448537+00:00",
+  "agent": "C2 (Ask Mobi B, app)",
+  "task": "Build Ask Mobi option B in the Flutter app (brief 16, ASK-MOBI-1019 B, C-pick 2)",
+  "status": "paused",
+  "done": "Built /ask two doors, entry keys in Today/Practice/Mob, Practice card in the old row's slot, door query, honest \"Writing a reply\" wait, free last-paper answer, credit line, Pro locks, findings 4 and 38. flutter analyze clean; 25 new unit tests pass; old Ask/Practice tests moved to the B contract; 28 new goldens + 18 Ask goldens regenerated and opened.",
+  "next": "1) Article fix in askNowBank ('Explain the sacrificing ratio...') + regenerate B goldens. 2) Full test/unit run. 3) Emulator walk FRESH then HEAVY on 3103 with the OTP shim; G21_* shots; R5 frames; R4 vs baseline-v15.2 n58/n59.",
+  "blockers": [
+    "Emulator lock was held by A2a; walk not started",
+    "Usage stop at 80%"
+  ],
+  "evidence": [
+    "wt-1019-c2 branch ui/1019-c2-ask head 02e7adbe",
+    "flutter_app/test/unit/insights/ask_mobi_b_1019_test.dart (25 pass)",
+    "flutter_app/test/golden/insights/ask_mobi_b_1019_golden_test.dart (28 pass)"
+  ],
+  "touched_files": [
+    "flutter_app/lib/features/insights/**",
+    "flutter_app/lib/features/today/widgets/today_header.dart",
+    "flutter_app/lib/features/practice/practice_screen.dart",
+    "flutter_app/lib/features/practice/widgets/top_rows.dart",
+    "flutter_app/lib/features/you/widgets/you_page.dart",
+    "flutter_app/lib/features/social/screens/mob_screen.dart"
+  ],
+  "verification": "analyze clean; affected unit files pass; full unit run stopped mid-way with 0 failures; no emulator walk yet",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

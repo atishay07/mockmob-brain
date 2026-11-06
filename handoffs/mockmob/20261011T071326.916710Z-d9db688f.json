@@ -1,0 +1,31 @@
+{
+  "id": "20261011T071326.916710Z-d9db688f",
+  "observed_at": "2026-10-11T07:13:26.916710+00:00",
+  "agent": "codex subagent backend_audit",
+  "task": "Delegated read-only backend portion of Cloudflare hosting audit; diagnostics only",
+  "status": "complete",
+  "done": "Created tmp/cloudflare-audit/backend-findings.md, backend-diagnostics.mjs/json, backend-test-summary.json and four local test logs. Inspected real Supabase auth/HTTP DB paths, durable/device exams, AI guards, offline factory boundary and payments. Found 1.5s full-log autosave amplification, unshared 4.9MB evidence input parse per candidate, late-answer deadline seam, unbounded attempts/global leaderboard and global AI budget lock. No app code or production changed.",
+  "next": "Parent audit integrates backend evidence into CLOUDFLARE_MIGRATION_READINESS_AUDIT.md. Staging Workers and real Supabase concurrency/late-answer tests remain prerequisites; diagnostic expectations are not actual capacity. No implementation authorized by this audit.",
+  "blockers": [
+    "Actual cloud runtime compatibility and1000 signed-in user capacity unverified",
+    "No production DB query plans,Auth/AI quotas or deployed sweep schedule verified"
+  ],
+  "evidence": [
+    "tmp/cloudflare-audit/backend-findings.md",
+    "tmp/cloudflare-audit/backend-diagnostics.json",
+    "tmp/cloudflare-audit/backend-test-summary.json"
+  ],
+  "touched_files": [
+    "tmp/cloudflare-audit/backend-findings.md",
+    "tmp/cloudflare-audit/backend-diagnostics.mjs",
+    "tmp/cloudflare-audit/backend-diagnostics.json",
+    "tmp/cloudflare-audit/backend-test-summary.json",
+    "tmp/cloudflare-audit/test-recovery.log",
+    "tmp/cloudflare-audit/test-learning.log",
+    "tmp/cloudflare-audit/test-study.log",
+    "tmp/cloudflare-audit/test-question-payment.log"
+  ],
+  "verification": "190/190 local fixture tests passed:40 recovery84 learning11 study55 selectors/payments/integrity. Pure injected/local PGlite/temp SQLite, no real provider network. Synthetic score/ticket/payload diagnostic plus current registry+manifest read/parse baseline20 iterations measured32.8msCPU mean/p5039.75ms desktop Node24; not production/Workers.",
+  "cost_and_pending_requests": "USD0 new paid model requests; no infrastructure purchased; pending paid requests:none for this delegated audit.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "20261105T053756.014074Z-f4af0fa6",
+  "observed_at": "2026-11-05T05:37:56.014074+00:00",
+  "agent": "claude-opus-5.5 session 34abe724 (single)",
+  "task": "Round 3 (owner LK99-LK114, 5 Nov ~10 am): hero, brand, Day green, held-story bottom bar, tour glitch, phone exam, pricing/value/comparison, Key cards section; content lane (CAS, Financial Markets, English RC)",
+  "status": "active",
+  "done": "Owner words verbatim (feat/app-and-web 8898b64f1, ledger LK99-LK114). Research workflow wf_743866ee-53f done: tmp-night/r3-research/ALL.md (preparoo, daygreen, prices, scrolltour, brandloss, pricingmap, content). Spec docs/brain/night-1105/SPEC-R3.md on main 83925b982 (R3-D1..D11 + content lane).",
+  "next": "Running: build workflow wf_5a0cbbf1-c42 (7 packets in wt-r3-{brand,hero,bottom,tour,exam,pricing,cards}, branches web/r3-*; pipeline build -> hero judges -> adversarial review -> fix). Content workflow wf_2235e82d-173 in wt-1101-content on branch web/r3-content (downloads leca1ps/leca101-104, Wayback lebs202 -> olbs202; Sonnet author+review; merge/validate/tier/links; tests; builds; commit, not pushed). Then: merge all web/r3-* + web/r3-content into one branch from main, full gate (suites, eslint, webpack + Turbopack in wt-1101-content after content commit, matrix/fast/jump at 390, wheel at 1440, runPerf on a QUIET machine, 360/390/1440 Night/Day visual), push main, live check, NOW/ledger/STATUS, cleanup worktrees (rmdir junction first). Owner decision pending: whether Accountancy keeps offering CAS (NTA 2025 paper asked 0 CAS; a CAS pick drops AFS from practice/mocks).",
+  "blockers": [
+    "Owner: CAS choice decision",
+    "Owner upload of AAB 19"
+  ],
+  "evidence": [
+    "daygreen: 2557a2e10 removed Day olive layer; #3F5200 vs app #526700",
+    "scrolltour: TourScreens render-phase setState + settle timer -> finished-state flash 7/10 steps at 1440 4x",
+    "prices: live Pro Rs 99/month; Testbook cheaper per full mock at low use; Preparoo Rs 5,499 all access",
+    "content: Key cards are bundled data files; CAS book leca1 4 chapters"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

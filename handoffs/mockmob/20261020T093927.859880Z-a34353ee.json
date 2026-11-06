@@ -1,0 +1,41 @@
+{
+  "id": "20261020T093927.859880Z-a34353ee",
+  "observed_at": "2026-10-20T09:39:27.859880+00:00",
+  "agent": "claude-opus-5.5 web formats client subagent (session 604ced81)",
+  "task": "D167 web Mob formats client: race and full mock in the one Start a game sheet (D168/D169, MOB-MINIMAL 3.2), live rooms L-55 client, two-player flow",
+  "status": "complete",
+  "done": "Branch web/1020-mob-formats-web head 35c32bf86 (over STOP POINT 173327219, cut from origin main 024a889a) in wt-1020-mob-formats-web. Start a game sheet rebuilt to MOB-MINIMAL 3.2 (Anytime/Live on top, rows Sprint, Race 5/10 chips, Your own round 10/15/20, Full mock together Anytime only in Live / Pro-locked, covers Change, one key naming the action, allowance, weekly paper row); picker keeps Open now + one Start a game row. Race in GameRun (3-2-1 before /run, served one at a time, time-left chip, ghosts by count, growing ruler window, auto-advance, done title, podium answered, race moments). Full mock card in GameRun opening /test mode=full mob=1 game=<id>; mark sheets on the podium; MobResultRow links gameId attempts to the sheets. Live: no channel.track, presence via POST /room/presence + server presence broadcast + roster, 20 s heartbeat, 45 s stale drop, progress q up to 200, live race copy, two-tab preview s=two&as=riya, still Folds on resume, countdown head plate.",
+  "next": "Integrator: merge web/1020-mob-formats (server, 757c5fdde) and web/1020-mob-formats-web; expect a trivial denCopy overlap (server L-60 sentences vs my gameKind line); F-10 then runs against the server fixtures. Live stays behind MOB_LIVE_ENABLED; formats behind MOB_FORMATS_ENABLED. Not done: real Realtime two-player walk on staging (needs two signed-in staging accounts; agents do not sign in); inline Pass the mic chips and bottom-sheet MobDialog (wider MOB-MINIMAL restructure, not approved).",
+  "blockers": [],
+  "evidence": [
+    "test:mob 262 pass 0 fail 1 skipped (F-10 contract test skips until server fixtures merge; ran it against wt-1020-mob-formats-srv fixtures c26e2038c: pass)",
+    "test:app 962/0, test:auth 125/0, test:recovery 636/0",
+    "eslint clean on src/components/mob, src/app/preview, src/app/(app)/test, src/app/(app)/mob",
+    "next build --webpack exit 0",
+    "120 shots in mockmob-next/tmp/walk-1020/mob-formats-web (390 and 1440, Night and Day, reduced motion getset); two-tab walk: both rulers show each other moving, no page errors"
+  ],
+  "touched_files": [
+    "src/components/mob/v3/play/formats.mjs (new)",
+    "src/components/mob/v3/play/GameRun.jsx",
+    "src/components/mob/v3/play/Podium.jsx",
+    "src/components/mob/v3/play/RulerRace.jsx",
+    "src/components/mob/v3/play/MobGame.jsx",
+    "src/components/mob/v3/play/playApi.js",
+    "src/components/mob/v3/play/playModel.mjs",
+    "src/components/mob/v3/play/play.css",
+    "src/components/mob/v3/live/*",
+    "src/components/mob/den/DenSheets.jsx",
+    "src/components/mob/den/DenV3.jsx",
+    "src/components/mob/den/den.css",
+    "src/lib/mob/v3/denCopy.mjs (gameKind only)",
+    "src/components/mob/MobResultRow.jsx",
+    "src/components/mob/useMob.js",
+    "src/components/mob/mob.css",
+    "src/app/(app)/test/TestPageClient.jsx (game param)",
+    "src/app/preview/mob-play, mob-live, mob-den",
+    "data/tests/mob_v3_web_play.test.mjs, mob_v3_den_web.test.mjs, mob_v3_live_web.test.mjs"
+  ],
+  "verification": "Opened and judged sheet (anytime sprint, live 10-minute race, free Pro lock), picker, den race card, race ready/getset/play/feedback/next/last-30s/done/podium/moments, mock card/done/sheets, live race lobby/count/run, two-player tabs. Fixed from the shots: format order, seg height, underlined links, crowded race ruler labels, section max marks, \"You is on question\" label.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

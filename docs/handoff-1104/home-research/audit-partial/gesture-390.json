@@ -1,0 +1,167 @@
+[
+ {
+  "story": "#inside-the-lab",
+  "test": "slow drag 160 px at 120 px/s, finger lifted still (no fling)",
+  "steps": 4,
+  "stepDistancePx": 855,
+  "startStep": 2,
+  "endStep": 2,
+  "stepsMoved": 0,
+  "scrolledPx": 0,
+  "scrolledInSteps": 0
+ },
+ {
+  "story": "#inside-the-lab",
+  "test": "slow drag 320 px at 200 px/s, no fling",
+  "steps": 4,
+  "stepDistancePx": 855,
+  "startStep": 2,
+  "endStep": 2,
+  "stepsMoved": 0,
+  "scrolledPx": 0,
+  "scrolledInSteps": 0
+ },
+ {
+  "story": "#inside-the-lab",
+  "test": "ordinary swipe 250 px at 800 px/s, released moving (fling)",
+  "steps": 4,
+  "stepDistancePx": 855,
+  "startStep": 2,
+  "endStep": 2,
+  "stepsMoved": 0,
+  "scrolledPx": 0,
+  "scrolledInSteps": 0
+ },
+ {
+  "story": "#inside-the-lab",
+  "test": "quick flick 300 px at 2000 px/s (fling)",
+  "steps": 4,
+  "stepDistancePx": 855,
+  "startStep": 2,
+  "endStep": 2,
+  "stepsMoved": 0,
+  "scrolledPx": 0,
+  "scrolledInSteps": 0
+ },
+ {
+  "story": "#inside-the-lab",
+  "test": "fast flick 350 px at 5000 px/s (fling)",
+  "steps": 4,
+  "stepDistancePx": 855,
+  "startStep": 2,
+  "endStep": 2,
+  "stepsMoved": 0,
+  "scrolledPx": 0,
+  "scrolledInSteps": 0
+ },
+ {
+  "story": "#your-prep",
+  "test": "slow drag 160 px at 120 px/s, finger lifted still (no fling)",
+  "steps": 10,
+  "stepDistancePx": 544,
+  "startStep": 2,
+  "endStep": 2,
+  "stepsMoved": 0,
+  "scrolledPx": 0,
+  "scrolledInSteps": 0
+ },
+ {
+  "story": "#your-prep",
+  "test": "slow drag 320 px at 200 px/s, no fling",
+  "steps": 10,
+  "stepDistancePx": 544,
+  "startStep": 2,
+  "endStep": 2,
+  "stepsMoved": 0,
+  "scrolledPx": 0,
+  "scrolledInSteps": 0
+ },
+ {
+  "story": "#your-prep",
+  "test": "ordinary swipe 250 px at 800 px/s, released moving (fling)",
+  "steps": 10,
+  "stepDistancePx": 544,
+  "startStep": 2,
+  "endStep": 2,
+  "stepsMoved": 0,
+  "scrolledPx": 0,
+  "scrolledInSteps": 0
+ },
+ {
+  "story": "#your-prep",
+  "test": "quick flick 300 px at 2000 px/s (fling)",
+  "steps": 10,
+  "stepDistancePx": 544,
+  "startStep": 2,
+  "endStep": 2,
+  "stepsMoved": 0,
+  "scrolledPx": 0,
+  "scrolledInSteps": 0
+ },
+ {
+  "story": "#your-prep",
+  "test": "fast flick 350 px at 5000 px/s (fling)",
+  "steps": 10,
+  "stepDistancePx": 544,
+  "startStep": 2,
+  "endStep": 2,
+  "stepsMoved": 0,
+  "scrolledPx": 0,
+  "scrolledInSteps": 0
+ },
+ {
+  "story": "#score-recovery-lab",
+  "test": "slow drag 160 px at 120 px/s, finger lifted still (no fling)",
+  "steps": 4,
+  "stepDistancePx": 788,
+  "startStep": 2,
+  "endStep": 2,
+  "stepsMoved": 0,
+  "scrolledPx": 0,
+  "scrolledInSteps": 0
+ },
+ {
+  "story": "#score-recovery-lab",
+  "test": "slow drag 320 px at 200 px/s, no fling",
+  "steps": 4,
+  "stepDistancePx": 788,
+  "startStep": 2,
+  "endStep": 2,
+  "stepsMoved": 0,
+  "scrolledPx": 0,
+  "scrolledInSteps": 0
+ },
+ {
+  "story": "#score-recovery-lab",
+  "test": "ordinary swipe 250 px at 800 px/s, released moving (fling)",
+  "steps": 4,
+  "stepDistancePx": 788,
+  "startStep": 2,
+  "endStep": 2,
+  "stepsMoved": 0,
+  "scrolledPx": 0,
+  "scrolledInSteps": 0
+ },
+ {
+  "story": "#score-recovery-lab",
+  "test": "quick flick 300 px at 2000 px/s (fling)",
+  "steps": 4,
+  "stepDistancePx": 788,
+  "startStep": 2,
+  "endStep": 2,
+  "stepsMoved": 0,
+  "scrolledPx": 0,
+  "scrolledInSteps": 0
+ },
+ {
+  "story": "#score-recovery-lab",
+  "test": "fast flick 350 px at 5000 px/s (fling)",
+  "steps": 4,
+  "stepDistancePx": 788,
+  "startStep": 2,
+  "endStep": 2,
+  "stepsMoved": 0,
+  "scrolledPx": 0,
+  "scrolledInSteps": 0
+ }
+]

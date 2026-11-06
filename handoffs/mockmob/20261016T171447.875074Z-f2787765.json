@@ -1,0 +1,25 @@
+{
+  "id": "20261016T171447.875074Z-f2787765",
+  "observed_at": "2026-10-16T17:14:47.877073+00:00",
+  "agent": "claude-opus-5.5 AP-3 builder (wt-appux2)",
+  "task": "Pass 1016e app packet AP-3 (truth, touch, hierarchy) on ui/ux-social-1016",
+  "status": "paused",
+  "done": "Commit a18fdd30: AP3-01 recap card drag 1:1 with 30%/500 px/s commit, Springs.smooth throw seeded with velocity, next card enters from the opposite side, snappy return; AP3-04 Lab hero 56 sp count over 'marks missed, of N' counting up with the split, glide to tapped row; AP3-07 A20 plain timed leave sheet (no Mobi, real end time); A22 2 dp volt hand-off line under Open your sheet, touch cancels, reduced motion no auto-advance. Decisions note docs/design-decisions/pass-1016e/AP3-DECISIONS.md.",
+  "next": "Emulator walk of recap swipe, Lab head, timed leave sheet, submit hand-off (Night/Day/reduced). Not built: AP3-02 (needs server reason field), AP3-03 (waits WP-C copy), AP3-05 (evidence_link outside list; card 4 layout and LengthPill), AP3-06 (finish_stage outside list), A21/A23/A24, AP3-08 (composer files outside list).",
+  "blockers": [
+    "Shared worktree holds other builders' uncommitted edits; goldens sealed_unfold* and card4_first_* fail from those (light_sweep, celebration_slot), not AP-3 files"
+  ],
+  "evidence": [],
+  "touched_files": [
+    "flutter_app/lib/features/result/recap/card_drag.dart",
+    "flutter_app/lib/features/result/recap/recap_flow.dart",
+    "flutter_app/lib/features/result/full/lab_ledger_section.dart",
+    "flutter_app/lib/features/result/full/full_sections.dart",
+    "flutter_app/lib/features/runner/widgets/leave_sheet.dart",
+    "flutter_app/lib/features/runner/screens/submit_screen.dart",
+    "flutter_app/lib/features/runner/copy.dart"
+  ],
+  "verification": "flutter analyze clean on touched paths; unit tests pass: recap_reactions, recap_flow, full_result, lab_ledger_section, leave_sheet, runner_flow (incl. new hand-off test), sheet_cells, submit_page_trace, nta_flow. Goldens lab_ledger_ready 360+390 and leave_guard regenerated and opened (Night and Day).",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

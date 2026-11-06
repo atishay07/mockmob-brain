@@ -1,0 +1,40 @@
+{
+  "batch": "chem-03",
+  "subject": "chemistry",
+  "questions": [
+    {
+      "id": "9384516a-4e77-46e3-b697-665b53689eb2",
+      "subject": "chemistry",
+      "unit": "d and f Block Elements",
+      "chapter": "d- and f-Block Elements",
+      "type": "single_mcq",
+      "stem": "Which lanthanoid readily shows the +4 oxidation state in aqueous solution and acts as a strong oxidising agent?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Eu"
+        },
+        {
+          "key": "B",
+          "text": "Ce"
+        },
+        {
+          "key": "C",
+          "text": "Yb"
+        },
+        {
+          "key": "D",
+          "text": "Lu"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Cerium loses its 4f and 5d electrons to form Ce⁴⁺, which has the xenon noble-gas configuration, so Ce⁴⁺ is a strong oxidising agent. Eu and Yb prefer +2, and Lu is found only in +3.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Lanthanoids: oxidation states",
+      "source": "claude-authored-2026-10-17-w3",
+      "reason": "Explanation is factually wrong: it says Ce loses its 4f and 5d electrons to form Ce4+, but Ce4+ ([Xe]) requires losing four electrons (4f1, 5d1 and both 6s2). Key B itself is correct; the explanation needs rewriting before reuse."
+    }
+  ]
+}

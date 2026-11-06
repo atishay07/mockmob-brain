@@ -1,0 +1,22 @@
+{
+  "id": "20261016T083619.212187Z-53fe0c2d",
+  "observed_at": "2026-10-16T08:36:19.213187+00:00",
+  "agent": "claude-sonnet-5-5 subagent (repair4 precheck)",
+  "task": "Mistake Repair v4 production pre-check (read-only prod, staging write path)",
+  "status": "complete",
+  "done": "Verified Repair v4 (repair, check, receipts, offered, Ask, Lab reads, batch 2 migrations) against production schema and real rows; ran the write path on staging over real PostgREST. No defect found, nothing committed. Production untouched (counts unchanged). Branch fix/repair4-verify-1016 at 4db57fc5 = live deployment.",
+  "next": "Owner does one repair tonight: pick an unrepaired, repairable mistake (computer_science 5 Oct Q1/Q4/Q5/Q7/Q8; accountancy 3 Oct Q2/Q10); expect 1 credit (42 left). Unverified: Anthropic key for Haiku 5.5 fallback in Vercel env. Follow-ups: key changes not bumping questions.updated_at; prod missing submit_rival_battle, nta_* tables, archive_answer_change, attempt_* tables (not on repair path).",
+  "blockers": [],
+  "evidence": [
+    "Scripts in C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\tmp\\repair4-precheck (prod_*.mjs read-only, staging_*.mjs)",
+    "71-row real sweep: 45 check ready+answered, 26 correct refusals, 0 errors",
+    "test:recovery 306/306; test:learning 300/302 (PGlite timeout under load, passes alone)",
+    "REPORT.md not written: Write tool refused for subagents; report returned in final output"
+  ],
+  "touched_files": [
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\tmp\\repair4-precheck\\*.mjs (scratch scripts only)"
+  ],
+  "verification": "Prod read-only guard on fetch; before/after prod counts equal; staging cleaned (0 reservations, ledger, wallets, revise, atlas, guard rows).",
+  "cost_and_pending_requests": "No paid model calls. Staging DB writes only (cleaned).",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "20261015T123232.089597Z-974a72a4",
+  "observed_at": "2026-10-15T12:32:32.089597+00:00",
+  "agent": "claude-opus-5.5 slice-2 adversarial reviewer",
+  "task": "Mistake Lab v4 slice 2 adversarial review (truthful, backward-compatible, NTA-faithful), web wt-web-refine web/alive-1015 and app wt-phase2 ui/phase2",
+  "status": "complete",
+  "done": "Committed 5a386558 on web/alive-1015 (not pushed). (1) paper_trace rule 1 now credits time to the question on screen (the one the last visit or answer named), so a mark or strike on a passage sub-question no longer moves time to a question shown as not opened. (2) Away spans that round to 0s get no line or Replay gap. (3) submitTest wraps the end-event capture in try/catch so a capture error can never leave the paper stuck as submitting. Two regression tests added. Verified: old payloads score identically (golden plus 4000-case fuzz against the eeeaca20 modules), the validator rejects garbage and oversize events, hand counts on replay_full and replay_time_up equal the contracts, and ledger, time and replay agree on all fixtures.",
+  "next": "Open findings for builders: HIGH, web passage sets (Business Studies and Economics Q41 to 50, English) record a visit only for the set's first question or an answered one, so displayed but unanswered sub-questions read \"Never opened\" in the ledger, Replay facts and Time. MEDIUM, the app practice result (session_analysis.dart) still uses its own 5-minute rule and ignores away and end. MEDIUM, time_up submits on server-held sessions often arrive after expires_at, so recovery.end is missing. LOW, row labels have no denominator, submit-sheet time is credited to the last question, the \"last X on return visits\" figure includes away time, web and app differ on restoring a crossed-out option when it is picked, and the 5000-event cap now also counts presence and strike events. Deploy gate: the server must reach production before the APK (kRichSessionEvents defaults true).",
+  "blockers": [
+    "Passage-set opened rule needs a product decision about how shared passage time is attributed"
+  ],
+  "evidence": [
+    "test:recovery 123/123, test:nta 155/155, test:learning 277/277 after the fix; eslint clean on touched files",
+    "build-replay-fixtures.mjs regenerated all 6 contracts byte-identical (clean git status); app contract copies cmp-identical",
+    "app flutter tests: capture_events, nta_flow, nta_logic, nta_no_mobi, nta_save_retry, engine_session, strike_undo 68/68 pass",
+    "fuzz: old-format payloads give identical scoreSession, Time and decisions, PrepOS dwell and lab output; the only changes are documented ones"
+  ],
+  "touched_files": [
+    "wt-web-refine/data/paper_trace.js",
+    "wt-web-refine/data/replay.js",
+    "wt-web-refine/data/tests/paper_trace.test.mjs",
+    "wt-web-refine/src/app/(app)/test/TestPageClient.jsx"
+  ],
+  "verification": "next build not run (could clobber .next of a running dev server); no production reads or writes; no paid calls",
+  "cost_and_pending_requests": "none",
+  "confidence": "agent-reported; verify evidence before acting"
+}

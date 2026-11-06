@@ -1,0 +1,471 @@
+{
+ "subject": "biology",
+ "examined": 354,
+ "counts": {
+  "ok": 268,
+  "move": 28,
+  "outside_syllabus": 39,
+  "outside_ncert": 17,
+  "flawed": 2
+ },
+ "items": {
+  "038e86f3-a23d-43a2-9421-09b4d6c4fb6f": {
+   "stored": "Biotechnology Principles & Processes",
+   "verdict": "outside_syllabus",
+   "why": "Sanger sequencing: Dideoxy chain-termination sequencing is not in the unit list"
+  },
+  "0db40c70-bb80-4d43-8818-c7b2fc94ce5b": {
+   "stored": "Biotechnology Principles & Processes",
+   "verdict": "outside_syllabus",
+   "why": "protoplast fusion: Somatic hybridisation by protoplast fusion is not in the unit list"
+  },
+  "0e1d92e8-d415-4004-8367-645af8476e85": {
+   "stored": "Biotechnology Principles & Processes",
+   "verdict": "outside_syllabus",
+   "why": "anther culture: Haploid production by anther culture is not in the unit list"
+  },
+  "0f879856-2bd2-4fde-b4a6-d3709732b1f7": {
+   "stored": "Organisms & Populations",
+   "verdict": "outside_syllabus",
+   "why": "introgression between crop and wild relative: Not in the unit list"
+  },
+  "109f83bf-b2cb-4032-8110-7c78252b5db3": {
+   "stored": "Human Health & Disease",
+   "verdict": "move",
+   "to": "Biodiversity & Conservation",
+   "why": "Asks for a conservation action after deforestation"
+  },
+  "11ad2b18-f330-4b11-8fa6-e2c2c581c302": {
+   "stored": "Molecular Basis of Inheritance",
+   "verdict": "move",
+   "to": "Principles of Inheritance & Variation",
+   "why": "Recombination in meiosis is under Principles of Inheritance (linkage and recombination)"
+  },
+  "12b1b3d4-cb3c-4628-b3cf-f860fb6294a1": {
+   "stored": "Reproductive Health",
+   "verdict": "outside_ncert",
+   "why": "HPV vaccination timing is not in NCERT"
+  },
+  "1c567387-707b-4963-8b6e-474d5ddd21e3": {
+   "stored": "Biotechnology Principles & Processes",
+   "verdict": "outside_syllabus",
+   "why": "marker-assisted selection: MAS in plant breeding is not in the unit list"
+  },
+  "22a45c3a-6c57-47b8-b481-ba0b6d26f68b": {
+   "stored": "Biotechnology Principles & Processes",
+   "verdict": "outside_syllabus",
+   "why": "somatic embryogenesis vs organogenesis: Tissue-culture pathways are beyond the unit list"
+  },
+  "29720e3f-a1a4-465a-88f8-e778f87c019c": {
+   "stored": "Human Health & Disease",
+   "verdict": "move",
+   "to": "Principles of Inheritance & Variation",
+   "why": "Aa x Aa autosomal recessive probability is a Mendelian cross"
+  },
+  "29da2a27-63a3-4dc4-b188-d3f0cc8a39bc": {
+   "stored": "Biotechnology Principles & Processes",
+   "verdict": "outside_syllabus",
+   "why": "embryo rescue: Embryo culture of aborted hybrid embryos is not in the unit list"
+  },
+  "2fa1db32-6452-43d9-9029-f38760ea1675": {
+   "stored": "Molecular Basis of Inheritance",
+   "verdict": "flawed",
+   "why": "Stem is vague: Mendelian dominance principle also explains parent-to-offspring traits, so options A and C both defensible"
+  },
+  "31132555-8e0e-42d9-99ad-7a41c74be11c": {
+   "stored": "Ecosystem",
+   "verdict": "move",
+   "to": "Microbes in Human Welfare",
+   "why": "Biogas digester feed is Microbes in Human Welfare"
+  },
+  "3571e2d7-70ff-406f-9b28-3a4bf169286b": {
+   "stored": "Human Health & Disease",
+   "verdict": "move",
+   "to": "Reproductive Health",
+   "why": "Contraceptive methods are listed under Reproductive Health"
+  },
+  "38274b9e-5110-4106-b96c-6cb9930cf75a": {
+   "stored": "Ecosystem",
+   "verdict": "outside_syllabus",
+   "why": "ecological succession: Succession is not in the Ecosystem unit list"
+  },
+  "3ae9055e-cea1-4dc5-a62c-a5f097261a5e": {
+   "stored": "Principles of Inheritance & Variation",
+   "verdict": "move",
+   "to": "Biotechnology Principles & Processes",
+   "why": "Matches PCR, DNA fingerprinting etc, which are biotechnology tools"
+  },
+  "3c007bde-0e4a-4df8-affd-441850000d43": {
+   "stored": "Human Health & Disease",
+   "verdict": "move",
+   "to": "Principles of Inheritance & Variation",
+   "why": "Genetic disorders (haemophilia, Down syndrome, thalassaemia) are listed under Principles of Inheritance"
+  },
+  "3cdc10b2-f3b0-49a1-9d17-5cdfc05dc24b": {
+   "stored": "Evolution",
+   "verdict": "outside_syllabus",
+   "why": "reproductive isolation / speciation: Isolating mechanisms are not in the unit list"
+  },
+  "3d1f0a10-39d1-43fd-a380-8f2860ed5716": {
+   "stored": "Microbes in Human Welfare",
+   "verdict": "outside_syllabus",
+   "why": "yeast vs E. coli glycosylation in expression systems: Not in the unit list"
+  },
+  "3d3b1a3a-31b2-490c-960a-3f9859855ad7": {
+   "stored": "Human Health & Disease",
+   "verdict": "move",
+   "to": "Reproductive Health",
+   "why": "Contraceptive methods are listed under Reproductive Health"
+  },
+  "3f4393ec-5825-45d4-99cd-40113485fb0a": {
+   "stored": "Biotechnology & its Applications",
+   "verdict": "move",
+   "to": "Molecular Basis of Inheritance",
+   "why": "DNA as genetic material is Molecular Basis of Inheritance"
+  },
+  "4030387e-69a8-453a-9672-4ae5c93c6ff4": {
+   "stored": "Reproductive Health",
+   "verdict": "outside_ncert",
+   "why": "Mother-to-child HIV prevention by ART is not in NCERT"
+  },
+  "403fcb70-fdf4-42ee-ac94-27575a0dac21": {
+   "stored": "Human Health & Disease",
+   "verdict": "outside_ncert",
+   "why": "Congenital rubella syndrome is not in NCERT"
+  },
+  "44cc7456-8fe2-4cfb-b11d-18b5b00ec2ba": {
+   "stored": "Biotechnology & its Applications",
+   "verdict": "outside_syllabus",
+   "why": "somaclonal variation in tissue culture: Not in the unit list"
+  },
+  "4606eea8-db7e-438a-9881-ff2251933bed": {
+   "stored": "Biotechnology Principles & Processes",
+   "verdict": "outside_ncert",
+   "why": "Choosing sandwich vs indirect vs competitive ELISA is not in NCERT; NCERT gives only the principle"
+  },
+  "48e169ce-dc70-42dd-bb7a-3b38432ecab4": {
+   "stored": "Biotechnology Principles & Processes",
+   "verdict": "move",
+   "to": "Molecular Basis of Inheritance",
+   "why": "DNA fingerprinting (VNTR) is listed under Molecular Basis of Inheritance"
+  },
+  "4a1180d2-92ae-4d55-a768-bf597f5e00c8": {
+   "stored": "Biotechnology Principles & Processes",
+   "verdict": "move",
+   "to": "Biodiversity & Conservation",
+   "why": "Cryopreservation as ex situ conservation is listed under Biodiversity and Conservation"
+  },
+  "510df661-c5c3-4d62-b41b-08f1112ef54b": {
+   "stored": "Biotechnology Principles & Processes",
+   "verdict": "move",
+   "to": "Biotechnology & its Applications",
+   "why": "Micropropagation is tissue culture, listed under Biotechnology and its Applications"
+  },
+  "565042d6-3ab9-45f2-b305-ec623eeb8440": {
+   "stored": "Evolution",
+   "verdict": "move",
+   "to": "Sexual Reproduction in Flowering Plants",
+   "why": "Double fertilisation"
+  },
+  "5971e580-c5b5-49b1-875c-e52aa0a2c9c5": {
+   "stored": "Reproductive Health",
+   "verdict": "outside_ncert",
+   "why": "Maternal mortality policy question is not in NCERT"
+  },
+  "5a16922a-641d-457e-ad79-51bd13c9766d": {
+   "stored": "Principles of Inheritance & Variation",
+   "verdict": "outside_syllabus",
+   "why": "maternal-effect genes: Not in the unit list"
+  },
+  "5ac8a35b-1547-4b39-8a26-8dede9a68c2e": {
+   "stored": "Evolution",
+   "verdict": "move",
+   "to": "Sexual Reproduction in Flowering Plants",
+   "why": "Angiosperm life cycle, sporophyte and reduced gametophyte"
+  },
+  "5dd59a29-1e53-4a3c-b0d6-66b5c7ebac53": {
+   "stored": "Sexual Reproduction in Flowering Plants",
+   "verdict": "outside_ncert",
+   "why": "PCR marker genotyping of a hybrid seedling is not in NCERT text"
+  },
+  "65c47420-4ad0-4f5a-8482-c2540e3aa173": {
+   "stored": "Biotechnology Principles & Processes",
+   "verdict": "outside_syllabus",
+   "why": "electroporation: NCERT names heat shock, microinjection and gene gun only"
+  },
+  "66b0d2c0-097b-47c9-8687-4d1234029b31": {
+   "stored": "Evolution",
+   "verdict": "move",
+   "to": "Sexual Reproduction in Flowering Plants",
+   "why": "Wind pollination floral features"
+  },
+  "67b895c3-8ab0-472e-ba17-b90ea62c6af6": {
+   "stored": "Reproductive Health",
+   "verdict": "outside_syllabus",
+   "why": "neonatal gut microbiota and caesarean birth: Not in the unit list"
+  },
+  "6ca1222e-158a-48ef-9e3a-1e7e0412e7fa": {
+   "stored": "Human Health & Disease",
+   "verdict": "move",
+   "to": "Principles of Inheritance & Variation",
+   "why": "X-linked recessive cross"
+  },
+  "6cc32703-0048-4f93-807d-0fdc9e3fe3d9": {
+   "stored": "Biotechnology Principles & Processes",
+   "verdict": "move",
+   "to": "Biotechnology & its Applications",
+   "why": "Tissue culture and totipotency are listed under Biotechnology and its Applications"
+  },
+  "6f57b2d3-f59a-42b7-92a9-59df7a04d5a0": {
+   "stored": "Reproductive Health",
+   "verdict": "outside_syllabus",
+   "why": "vaginal probiotics and bacterial vaginosis: Not in the unit list"
+  },
+  "700fe094-f112-4522-86cd-dff26fb71b46": {
+   "stored": "Reproductive Health",
+   "verdict": "outside_ncert",
+   "why": "Cumulative conception probability maths is not from NCERT"
+  },
+  "744923fb-f118-4d53-9e45-c71f0295f01a": {
+   "stored": "Evolution",
+   "verdict": "outside_syllabus",
+   "why": "punctuated equilibrium: Not in the unit list"
+  },
+  "77918d38-3c4c-4be6-b33e-8e79370a2a00": {
+   "stored": "Molecular Basis of Inheritance",
+   "verdict": "outside_ncert",
+   "why": "Wobble hypothesis is not in NCERT"
+  },
+  "7d4137f9-d779-4e05-ad1a-2f1bc7adbde0": {
+   "stored": "Human Health & Disease",
+   "verdict": "outside_ncert",
+   "why": "Antibiotic stewardship policy is not in NCERT"
+  },
+  "7dfe9cda-8567-4aab-a2a5-b944048f77c3": {
+   "stored": "Evolution",
+   "verdict": "move",
+   "to": "Sexual Reproduction in Flowering Plants",
+   "why": "Bird pollination flower features"
+  },
+  "7fcf78ec-0696-4eba-bfc4-29e533279351": {
+   "stored": "Ecosystem",
+   "verdict": "outside_syllabus",
+   "why": "invasive N-fixing plants and ecosystem productivity: Not in the unit list"
+  },
+  "83a7f64b-4e6c-4d49-881d-d56c522d69dd": {
+   "stored": "Evolution",
+   "verdict": "outside_syllabus",
+   "why": "reproductive isolation / speciation: Allopatric vs sympatric speciation is not in the unit list"
+  },
+  "8b7926fb-1e47-4406-aa51-3da5bfec15a2": {
+   "stored": "Organisms & Populations",
+   "verdict": "outside_syllabus",
+   "why": "pollinator limitation from pollen supplementation experiments: Not in the unit list"
+  },
+  "8cdfc6df-2d45-4130-bcea-794d5d89cb12": {
+   "stored": "Reproductive Health",
+   "verdict": "outside_syllabus",
+   "why": "sanitation and helminth infection in pregnancy: Not in the unit list"
+  },
+  "945dbe2c-e519-48c2-bf36-43c2f892a990": {
+   "stored": "Reproductive Health",
+   "verdict": "move",
+   "to": "Human Reproduction",
+   "why": "Breast milk antibodies are lactation, listed under Human Reproduction"
+  },
+  "9873e63b-2909-4bcd-8af7-35fca014548d": {
+   "stored": "Sexual Reproduction in Flowering Plants",
+   "verdict": "move",
+   "to": "Biodiversity & Conservation",
+   "why": "Restoration seed sourcing to keep genetic diversity is a conservation question"
+  },
+  "9c4504a1-f34c-4d3c-b0c3-9a40e14b8a51": {
+   "stored": "Sexual Reproduction in Flowering Plants",
+   "verdict": "outside_syllabus",
+   "why": "placentation types: Placentation is class 11 morphology, not in the unit list"
+  },
+  "9e6357fe-7ace-405a-b6fd-fae598603200": {
+   "stored": "Human Health & Disease",
+   "verdict": "outside_ncert",
+   "why": "Sandfly, tsetse and Ixodes vectors are not in NCERT; NCERT names Anopheles and Aedes"
+  },
+  "a4dd7346-a2e4-4288-a2e8-6620f53d4e91": {
+   "stored": "Biotechnology & its Applications",
+   "verdict": "outside_syllabus",
+   "why": "sterile insect technique: Not in the unit list"
+  },
+  "a6da3db8-9165-41be-bd70-fcfa5ff0e16b": {
+   "stored": "Sexual Reproduction in Flowering Plants",
+   "verdict": "outside_syllabus",
+   "why": "anther culture, embryo rescue, protoplast fusion, marker-assisted selection: Plant breeding techniques not in any CUET 2026 unit"
+  },
+  "a77e7205-395e-45e6-92e6-491bcd6a2db7": {
+   "stored": "Molecular Basis of Inheritance",
+   "verdict": "outside_ncert",
+   "why": "Proofreading exonuclease of DNA polymerase is not in NCERT"
+  },
+  "a88cf495-203f-4641-9c1b-1de126cd8a11": {
+   "stored": "Sexual Reproduction in Flowering Plants",
+   "verdict": "flawed",
+   "why": "Options A, C and D are identical text (1-B,2-C,3-A,4-D) so three options are correct; topic is also placentation"
+  },
+  "aba9e37b-ec5b-49ca-bf71-c3add22395c2": {
+   "stored": "Biotechnology Principles & Processes",
+   "verdict": "outside_syllabus",
+   "why": "somaclonal variation: Not in the unit list"
+  },
+  "abaa93ab-b066-4dbc-81e5-77fc305f8247": {
+   "stored": "Reproductive Health",
+   "verdict": "outside_syllabus",
+   "why": "air pollution and low birth weight: Not in the unit list"
+  },
+  "acbc147a-a147-475a-8cd6-11a3391efc4d": {
+   "stored": "Biotechnology Principles & Processes",
+   "verdict": "outside_syllabus",
+   "why": "anther culture: Anther culture and colchicine doubling are not in the unit list"
+  },
+  "b0a4bec8-2eab-4112-9ab8-98fae7f58379": {
+   "stored": "Human Health & Disease",
+   "verdict": "move",
+   "to": "Reproductive Health",
+   "why": "Sterilisation vs temporary contraception"
+  },
+  "b213459d-8216-44d2-9751-44700bf17496": {
+   "stored": "Sexual Reproduction in Flowering Plants",
+   "verdict": "outside_syllabus",
+   "why": "embryo rescue: Embryo culture of aborted hybrids is not in the unit list"
+  },
+  "bb771633-1205-47bf-8a83-26ada0b32f37": {
+   "stored": "Human Health & Disease",
+   "verdict": "outside_ncert",
+   "why": "Antigenic shift vs drift in influenza is not in NCERT"
+  },
+  "be964e18-e79a-4ed9-a9db-b5122d2805f1": {
+   "stored": "Reproductive Health",
+   "verdict": "outside_syllabus",
+   "why": "maternal and neonatal microbiome strains: Not in the unit list"
+  },
+  "c01329e3-1a2c-42a2-a6bc-2cef31a20e27": {
+   "stored": "Human Health & Disease",
+   "verdict": "move",
+   "to": "Principles of Inheritance & Variation",
+   "why": "Autosomal dominant disorder and mutation"
+  },
+  "c0acd8a3-4630-4231-a899-573790f1d095": {
+   "stored": "Molecular Basis of Inheritance",
+   "verdict": "outside_ncert",
+   "why": "Glucose catabolite repression of the lac operon is not in NCERT"
+  },
+  "c501e551-c250-401a-9593-4615050ca351": {
+   "stored": "Biotechnology & its Applications",
+   "verdict": "move",
+   "to": "Biotechnology Principles & Processes",
+   "why": "pBR322 insertional inactivation is cloning vectors"
+  },
+  "ca2543ea-bc75-4cc7-aa3e-af1fb6155269": {
+   "stored": "Reproductive Health",
+   "verdict": "outside_syllabus",
+   "why": "endocrine disruptors, non-monotonic dose response: Not in the unit list"
+  },
+  "cefe8f33-5810-439d-9292-5afcc37f917f": {
+   "stored": "Reproductive Health",
+   "verdict": "outside_syllabus",
+   "why": "endocrine-disrupting chemicals: Not in the unit list"
+  },
+  "cfe8a839-c75f-496b-9e73-7e67fd3675dc": {
+   "stored": "Human Health & Disease",
+   "verdict": "outside_ncert",
+   "why": "Biodiversity loss and disease risk (dilution effect) is not in NCERT"
+  },
+  "d689cf25-725b-4665-a3cf-7e6420be40af": {
+   "stored": "Biotechnology Principles & Processes",
+   "verdict": "outside_syllabus",
+   "why": "agarose concentration effect on resolution: Gel electrophoresis is in; agarose concentration optimisation is not"
+  },
+  "da48eaf9-b1fe-4f53-b3bd-b77bf2606245": {
+   "stored": "Biotechnology Principles & Processes",
+   "verdict": "outside_syllabus",
+   "why": "somatic cell nuclear transfer cloning for conservation: Not in the unit list"
+  },
+  "dcc5c6a3-e41e-47e7-94db-68f843f7ba6a": {
+   "stored": "Human Health & Disease",
+   "verdict": "move",
+   "to": "Principles of Inheritance & Variation",
+   "why": "X-linked recessive pedigree probability"
+  },
+  "e3f867b8-f70e-4dc7-90c9-06416f79ef5a": {
+   "stored": "Biotechnology Principles & Processes",
+   "verdict": "outside_ncert",
+   "why": "Lentiviral vs retroviral vector choice; NCERT says retroviral vector for ADA and options overlap"
+  },
+  "e4bc8e96-3f36-4acf-89c8-7183c8ed7e2a": {
+   "stored": "Sexual Reproduction in Flowering Plants",
+   "verdict": "outside_syllabus",
+   "why": "embryo rescue: Stage of embryo excision for rescue culture is not in the unit list"
+  },
+  "e7401bed-d3d2-4e01-8876-1be6f36d011f": {
+   "stored": "Ecosystem",
+   "verdict": "outside_syllabus",
+   "why": "ecological succession: Succession is not in the Ecosystem unit list"
+  },
+  "e8aac6ea-4834-4e24-abfa-c08c2a5e5feb": {
+   "stored": "Biodiversity & Conservation",
+   "verdict": "outside_syllabus",
+   "why": "effective population size and self-incompatibility: Not in the unit list"
+  },
+  "eb92017d-44d2-45af-bddf-c2c176e59b2b": {
+   "stored": "Reproductive Health",
+   "verdict": "outside_ncert",
+   "why": "Pre-insertion screening for IUD infection is not in NCERT"
+  },
+  "f07afee3-8c69-4dfc-8440-cd7c57e2ed60": {
+   "stored": "Evolution",
+   "verdict": "move",
+   "to": "Sexual Reproduction in Flowering Plants",
+   "why": "Anther, ovule, stigma and style roles"
+  },
+  "f49db6d5-97bd-4125-a061-cbb436e809fd": {
+   "stored": "Evolution",
+   "verdict": "outside_syllabus",
+   "why": "reproductive isolation / speciation: Isolating mechanisms are not in the unit list"
+  },
+  "f4a7c931-23a0-4f99-9751-1cef08a30296": {
+   "stored": "Evolution",
+   "verdict": "outside_ncert",
+   "why": "Balancing selection and heterozygote advantage terms are not in NCERT"
+  },
+  "f5ff8b9f-4905-4e91-93e0-6a3965cae386": {
+   "stored": "Human Health & Disease",
+   "verdict": "move",
+   "to": "Principles of Inheritance & Variation",
+   "why": "X-linked recessive cross"
+  },
+  "f74baeb9-81fa-4055-8939-3bd17df95104": {
+   "stored": "Evolution",
+   "verdict": "outside_syllabus",
+   "why": "asexual reproduction (budding in Hydra): Asexual reproduction chapter is retired; no evolution content"
+  },
+  "f77017db-9ff8-4ce7-8f3f-44fe96d7fb9f": {
+   "stored": "Principles of Inheritance & Variation",
+   "verdict": "outside_syllabus",
+   "why": "heterosis (hybrid vigour) genetics: Not in the unit list"
+  },
+  "fa7b8a1f-d772-41a3-a0a0-56042ad36d69": {
+   "stored": "Reproductive Health",
+   "verdict": "outside_syllabus",
+   "why": "environmental contributors to reproductive outcomes: Not in the unit list"
+  },
+  "ff0314ed-3468-45bd-9bfa-99dadef04ff2": {
+   "stored": "Evolution",
+   "verdict": "move",
+   "to": "Sexual Reproduction in Flowering Plants",
+   "why": "Double fertilisation"
+  },
+  "ffa26458-d89b-45c9-8be5-95fa5179d61f": {
+   "stored": "Human Reproduction",
+   "verdict": "move",
+   "to": "Reproductive Health",
+   "why": "Definition of reproductive health"
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "20261012T225248.643794Z-c55c42b1",
+  "observed_at": "2026-10-12T22:52:48.643794+00:00",
+  "agent": "claude-code opus-5.5 (workflow subagent, Night Sheet foundation)",
+  "task": "Night Sheet design foundation for the Flutter app (tokens, fonts, glass, bubbles, dock, splash, brand, art, lab, goldens)",
+  "status": "active",
+  "done": "Fonts cut (tool/cut_fonts.py, 4 Bricolage static cuts, tnum ok), Night/Daylight tokens, motion springs, haptics map, glass quality (Full/Lite/Off + raster auto-downgrade), materials (GlassSurface, FakeGlass, LitEdge, LightField, Grain), bubbles (Bubble, BubbleRow, BubbleGrid, WeekBubbles), MonumentalNumber, buttons/controls restyle, MmSheet glass, Mobi new poses, StateView art, split glass dock + Start morph quick-start sheet, router 3 branches (You/Learn pushed), splash + ColdOpen, Mark/Wordmark, launcher icons (tool/make_icons.py), art WebP (tool/convert_art.py), /lab route, core goldens 384x853 both themes. Core UI unit tests pass (110).",
+  "next": "Regenerate/review core goldens after latest fixes; run full test suite and fix mechanical breakage in feature tests/goldens; rerun convert_art.py at end; write report.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "flutter_app/lib/core/theme/**",
+    "flutter_app/lib/core/widgets/**",
+    "flutter_app/lib/core/motion/**",
+    "flutter_app/lib/core/haptics/haptics.dart",
+    "flutter_app/lib/core/router/{app_shell,router,routes,screens,splash_screen,quick_start}.dart",
+    "flutter_app/lib/app.dart",
+    "flutter_app/lib/core/storage/app_prefs.dart (glassQuality, coldOpenSeen, Night default)",
+    "flutter_app/lib/core/settings/appearance_settings.dart (Night default)",
+    "flutter_app/pubspec.yaml (fonts, assets/art)",
+    "flutter_app/assets/fonts/Bricolage*",
+    "flutter_app/assets/art/*.webp",
+    "flutter_app/android/app/src/main/res (icons, splash)",
+    "flutter_app/tool/{cut_fonts,convert_art,make_icons}.py",
+    "flutter_app/test/golden/core/**",
+    "flutter_app/test/unit/core_ui/**",
+    "flutter_app/test/helpers/fonts.dart"
+  ],
+  "verification": "flutter analyze lib test clean; test/unit/core_ui 110 pass; core goldens generated and viewed at 2x via MM_PREVIEW_DIR",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

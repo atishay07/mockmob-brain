@@ -1,0 +1,33 @@
+{
+  "id": "20261016T120115.093009Z-6295f791",
+  "observed_at": "2026-10-16T12:01:15.093009+00:00",
+  "agent": "claude-opus-subagent-wt-usp",
+  "task": "Web USP: unlimited fresh papers copy on Practice, result next step, pricing, onboarding",
+  "status": "complete",
+  "done": "Commit 409b88bd on web/usp-mocks-1016 (worktree wt-usp, from deploy/batch-1016c). Copy in src/lib/paperCopy.mjs held to code by data/tests/paper_copy.test.mjs (added to test:app). Practice bank line + Full/NTA specs, result 'Take another fresh paper' section, pricing sentence/Free+Pro lists/compare row/FAQ/How Free works, onboarding lead + per-tile question counts. Design note docs/design-decisions/web-usp-mocks-1016.md.",
+  "next": "Owner review, then merge into the next deploy batch. Not pushed or deployed.",
+  "blockers": [],
+  "evidence": [
+    "lint clean",
+    "test:app 352 pass",
+    "test:billing 87 pass",
+    "test:recovery 356 pass",
+    "next build --webpack ok",
+    "headless captures 390/1440 Night/Day of practice, result, onboarding, pricing"
+  ],
+  "touched_files": [
+    "src/lib/paperCopy.mjs",
+    "data/tests/paper_copy.test.mjs",
+    "package.json",
+    "src/app/(app)/dashboard/DashboardPageClient.jsx",
+    "src/app/(app)/dashboard/practice.css",
+    "src/app/(app)/result/[id]/ResultPageClient.jsx",
+    "src/components/recovery/result.css",
+    "src/app/pricing/page.js",
+    "src/app/onboarding/OnboardingPageClient.jsx",
+    "docs/design-decisions/web-usp-mocks-1016.md"
+  ],
+  "verification": "Claims checked against code: no paper cap (only 60/min rate guard), Pro no credit spend, Free 10/50 credits, unseen-first ranking, recency exclusion, NTA seen_first + previous-paper exclusion + repeat notice, NTA min score 8. Never claims 'never repeats' or Free unlimited.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

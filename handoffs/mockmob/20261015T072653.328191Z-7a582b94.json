@@ -1,0 +1,40 @@
+{
+  "id": "20261015T072653.328191Z-7a582b94",
+  "observed_at": "2026-10-15T07:26:53.328191+00:00",
+  "agent": "claude-opus-5.5 subagent (feature-wave K0 app builder)",
+  "task": "Feature wave 1015 packet K0, app half: routes, router, action_router, slots, lib/core/pattern, Dart tests (wt-phase2 ui/phase2, uncommitted for the checker)",
+  "status": "complete",
+  "done": "App contract built in wt-phase2/flutter_app. Routes /review/revise (root, container), /practice/chapters/:subject (root), /review/rules (in Review branch), /today/week-review (?week=YYYY-MM-DD, root, rise) with placeholder screens ReviseScreen, ChaptersScreen, RuleBookScreen, WeekReviewScreen and per-feature route builder files re-exported by screens.dart. ActionRouter maps /review/revise, /review/rules, /practice/chapters?subject=, /dashboard/chapters?subject=, /today?sheet=week-review(&week=), and passes format (PaperFormat ids match, sequence, statements, assertion_reason, numerical, plain) to the practice setup and start. Slots (SizedBox.shrink placeholders, const constructors): ChaptersRecordRow, FormatsCard, LeakCard in Your record; ReviseSection above Past results in Review; ChaptersLink(subjectId) under the subject tiles and FormatsRow(subjectId) after the modes deck in Practice. lib/core/pattern: PaperPattern model (schema 1) and PaperPatternRepository (GET /api/subjects/:id/pattern, in-memory per subject and variant, 404 cached as null, paperPatternProvider family). Six pattern fixtures generated from wt-web-ia data/nta_blueprints by the reference module in mockmob-next/tmp/feature-wave-1015/masters/K0/paper_pattern.reference.mjs (web builder copies it to data/paper_pattern.mjs).",
+  "next": "Checker: commit the K0 paths on ui/phase2. Web builder after IA9: copy masters/K0/paper_pattern.reference.mjs to data/paper_pattern.mjs, copy flutter_app/test/fixtures/paper_pattern/*.json to data/fixtures/paper_pattern/ (byte-identical), build the route, glossary, next.config, package.json script, navigation hrefs, slots, migrations as in PLAN 4 K0. F3 must make PracticeLink.of read format. F packets replace placeholders keeping class names and const constructors; each placeholder drops its 'K0 placeholder' line when replaced.",
+  "blockers": [],
+  "evidence": [
+    "flutter analyze on all K0 paths: No issues found",
+    "Clean copy (HEAD bd51ddce plus only K0 files): wave1015 + action_router_test + router_widget_test, 88 passed",
+    "Live worktree (with parallel builders): test/unit/wave1015, 29 passed",
+    "Fixtures are canonical JSON.stringify(x,null,2)+newline (Dart re-encode test)"
+  ],
+  "touched_files": [
+    "flutter_app/lib/core/pattern/paper_pattern.dart",
+    "flutter_app/lib/core/pattern/paper_pattern_repository.dart",
+    "flutter_app/lib/core/router/routes.dart",
+    "flutter_app/lib/core/router/router.dart",
+    "flutter_app/lib/core/router/screens.dart",
+    "flutter_app/lib/core/router/action_router.dart",
+    "flutter_app/lib/features/insights/screens/insights_screen.dart",
+    "flutter_app/lib/features/review/screens/review_screen.dart",
+    "flutter_app/lib/features/practice/practice_screen.dart",
+    "flutter_app/lib/features/revise/**",
+    "flutter_app/lib/features/chapters/**",
+    "flutter_app/lib/features/formats/widgets/**",
+    "flutter_app/lib/features/leaks/widgets/leak_card.dart",
+    "flutter_app/lib/features/rulebook/**",
+    "flutter_app/lib/features/rhythm/week_review/**",
+    "flutter_app/test/unit/wave1015/slots_test.dart",
+    "flutter_app/test/unit/wave1015/paper_pattern_test.dart",
+    "flutter_app/test/fixtures/paper_pattern/*.json",
+    "mockmob-next/tmp/feature-wave-1015/masters/K0/*.mjs"
+  ],
+  "verification": "Unit and widget tests and analyze only; no device, no goldens changed (slots draw nothing). No website repo edited.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

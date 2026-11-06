@@ -1,0 +1,15 @@
+{
+  "id": "20261010T101957.450097Z-67f59226",
+  "observed_at": "2026-10-10T10:19:57.450097+00:00",
+  "agent": "claude",
+  "task": "RAG freshness: time-budgeted inline refresh, background vector embedding, vectors status in results",
+  "status": "complete",
+  "done": "",
+  "next": "None unless the owner sends more. Open items: the first refresh after a large change may take several searches to complete the keyword index (budget 3 s per call); the live corpus churns, so completion depends on change rate; the hook-injection trial stays deferred and nothing is wired.</next>\n<parameter name=\"done\">Refresh is now budgeted: an inline keyword refresh stops at RAG_REFRESH_BUDGET_S (default 3 s) and commits what it finished. Deletions run first and FTS rows update inline. New chunks are embedded by a detached background run (rag.py embed-pending) under its own embed lock, so long embedding never blocks the keyword refresh. Search responses include keyword_refresh (complete or partial), pending_embeddings, and vectors_status ('vectors refreshing' or 'vectors current'). Search during a large change returns in about 3 s wall time in a live MCP call (hybrid includes the model load). A 600-file test change returned within the budget and found a newly added file by keyword after a few refresh calls. Mid-work fix: an earlier edit removed search and embedding functions; they were restored and verified by the eval, which is unchanged (keyword 24/30, hybrid 27/30, grep 16/30).</done>\n<evidence>[\"apps/rag/rag.py (ensure_fresh, index deadline, embed_in_background)\", \"apps/rag/mcp_server.py (vectors_status)\", \"apps/rag/tests/test_rag.py (BudgetTests; 19 tests OK)\", \"apps/rag/eval/results.json (keyword 24/30, hybrid 27/30, grep 16/30)\", \"apps/rag/data/rag.embed.log (58 chunks embedded in background)\"]</evidence>\n<touched>[\"apps/rag/rag.py\", \"apps/rag/mcp_server.py\", \"apps/rag/tests/test_rag.py\", \"apps/rag/README.md\", \"apps/rag/data/rag.sqlite\"]</touched>\n<verification>19 unit tests OK. Live call: RAG_MAX_AGE_MIN=0, keyword refresh complete (37 docs), 58 chunks pending, background worker embedded them in under a minute and released its lock. Eval rerun unchanged. Caveats: the test corpus is synthetic; live timing measured once.</verification>\n<blockers>[]</blockers>\n<cost>No paid calls. One local embedding run (58 chunks).</cost>\n",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

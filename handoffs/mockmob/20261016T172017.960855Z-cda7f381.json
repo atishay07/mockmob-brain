@@ -1,0 +1,28 @@
+{
+  "id": "20261016T172017.960855Z-cda7f381",
+  "observed_at": "2026-10-16T17:20:17.961852+00:00",
+  "agent": "claude-subagent-social-mob",
+  "task": "The Mob social loop SP-1 server + SP-2 website (wt-webux2, web/ux-social-1016)",
+  "status": "complete",
+  "done": "Commit e49f347b on web/ux-social-1016 (local, not pushed). Migration 20261017100000_mob + undo; /api/mob routes with P11 limits; /mob, /join/<code>, Today card, nav item, moderation list, runner start; account deletion steps; 180-day report purge. Staging: applied, undone, re-applied, smoke rolled back, real service walk cleaned up; migration kept applied on staging. SOCIAL-APP-CONTRACT.json written.",
+  "next": "Owner decisions D-S1..D-S4; SP-0 leaderboard privacy fix not done; SP-3 app build reads SOCIAL-APP-CONTRACT.json; Practice/Review/result rows on web; privacy page section with enable; next build --webpack not run in this shared worktree.",
+  "blockers": [
+    "MOB_ENABLED off; production not applied pending D-S1"
+  ],
+  "evidence": [
+    "data/tests/mob.test.mjs 21 pass",
+    "test:app 344, test:recovery 359, test:learning 302, test:auth 52 pass",
+    "captures mockmob-next/tmp/mob-web-1016",
+    "staging walk: all mob tables 0 after cleanup"
+  ],
+  "touched_files": [
+    "supabase/migrations/20261017100000_mob.sql",
+    "src/lib/server/mob/",
+    "src/app/api/mob/",
+    "src/components/mob/",
+    "mockmob-next/docs/design-decisions/pass-1016e/SOCIAL-APP-CONTRACT.json"
+  ],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

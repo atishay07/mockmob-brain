@@ -1,0 +1,28 @@
+{
+  "id": "20261020T134244.364593Z-fd29175f",
+  "observed_at": "2026-10-20T13:42:44.364593+00:00",
+  "agent": "claude-opus-5.5 session e5b2f75b (CEO/CTO)",
+  "task": "20 Oct eve: version 15 app to Play closed testing tonight; paused at 7:11 pm (usage 91%)",
+  "status": "paused",
+  "done": "ui/1020-v15 717aa3a89 (wt-1020-v15app): all Mob branches merged (mob-formats, v4-den, v4-sheets, v4-results) + integration (ResultsRun.showPending on den open, StitchHours from v3.hours, six V4 sheets wired, How the Mob works -> explainer replay, Your Mobs start -> MobV3Nav.startMob, den header chip fix that also fixed 26 den_screen_test failures the den branch shipped with, own game rows 'Your sprint', refused sit 'Nothing was charged'); explainer slide 3 'Ways to play' (K9); Sit the full mock sheet visual-first with Get Pro (D185, approved D186). analyze clean; Mob unit+widget 712/712. ui/1020-v15-invite 3e9eb69e6 (agent review commits, report lost). ui/1020-v15-calm STOP POINT 353a98fc9 (agent work unreviewed). Owner words D185-D187 recorded with real times (6:51, 6:57, 6:59 pm). Orphan test processes of the stopped agents killed by PID; flutter slot locks cleared.",
+  "next": "Fresh session: paste docs/brain/NEXT-PROMPT-1020-NIGHT.md. Review+finish calm, merge calm+invite into ui/1020-v15, full analyze/unit/widget, regenerate+open Mob goldens, demo emulator walk Night+Day 360 text 1.0/1.3 (watch for text bombardment D185), signed 1.0.17+15 to Desktop\\MockMob-build-15, then web release (mob_hours migration rename to 20261020151000).",
+  "blockers": [
+    "Account 5-hour usage 91% at 7:11 pm (resets about 11:30 pm IST); owner switches account",
+    "Known follow-ups: den join/reaction acts not wired; v3.fix server field missing (den Now card steps 2-3 never show)"
+  ],
+  "evidence": [
+    "mockmob-next 5f2156640 next prompt; 4a5a8ee03 NOW pause 7:11 pm",
+    "ui/1020-v15 717aa3a89",
+    "tmp/review-1020/sheets/sit-v2.png, ex3.png, run-night.png, stitch13.png"
+  ],
+  "touched_files": [
+    "wt-1020-v15app (ui/1020-v15 e3446d9e8..717aa3a89)",
+    "wt-1020-v15-calm 353a98fc9",
+    "mockmob-next docs/brain/NOW.md",
+    "mockmob-next docs/brain/NEXT-PROMPT-1020-NIGHT.md",
+    "mockmob-next docs/brain/OWNER-FEEDBACK-2026-10-19.md"
+  ],
+  "verification": "flutter analyze: No issues (merged tree). Mob unit+widget: 712 pass, 0 fail. Explainer widget 29/29. Sit sheet goldens re-rendered and viewed. Not done: whole-app unit suite, golden regeneration on merged tree, emulator walk, release build.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

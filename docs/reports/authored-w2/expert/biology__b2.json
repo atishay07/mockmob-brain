@@ -1,0 +1,30 @@
+{
+  "kind": "authored_w2_expert_pass",
+  "batch": "biology__b2",
+  "subject": "biology",
+  "source": "claude-authored-2026-10-14-w2",
+  "date": "2026-10-14",
+  "reviewer_model": "claude-haiku-5-5",
+  "scope": "accepted=true questions in docs/brain/reports/authored-w2/wave2-acceptance-2026-10-14.json (17 of 20 in tmp/authored-w2/biology/biology__b2.json). Not reviewed: 5772e883 (duplicate), 81eb2206 and ca5a525d (quality score 6) because accepted=false.",
+  "keys_changed": false,
+  "counts": { "reviewed": 17, "ready": 14, "repaired": 3, "practice": 0, "reject": 0 },
+  "verdicts": [
+    { "id": "5b628f6b-b0f6-40ff-b175-dcea08d69b3f", "verdict": "ready", "why": "Child ii forces IAi father and IBi mother; AB = 1/2 x 1/2 = 1/4, key D is correct and unique." },
+    { "id": "2148930a-60be-48b5-9e39-fec0472bdc02", "verdict": "ready", "why": "A (47,XXY Klinefelter) and B (45,XO sterile Turner female) are true; C (Klinefelter is male) and D (Turner is not trisomy 21) are false. Key B is the only match." },
+    { "id": "f07ed51f-52ae-4f26-b273-bb817d7bac4a", "verdict": "ready", "why": "Standard NCERT pairings: haemophilia with clotting factor gene, sickle cell with single base substitution, PKU with one enzyme defect, Down's with trisomy 21. Key C is correct." },
+    { "id": "a02266cf-b69a-442a-89ee-17a89e0d1bbf", "verdict": "ready", "why": "Chargaff's rule gives A = T = 30%, G = C = 20%; key D correct. Distractors map to the common errors (A, G+C, A+T)." },
+    { "id": "f3a654c3-f90e-4a22-9570-47145cf34c9e", "verdict": "repaired", "why": "Key A (50%) is correct under semiconservative replication: 2 hybrid of 4 duplexes after two divisions. Both quality judges rated the item medium, but the label said hard; label changed to medium. Stem, options and key unchanged.", "repair": "difficulty_label hard -> medium" },
+    { "id": "61feeb11-d524-44a7-bbe9-081427f24015", "verdict": "ready", "why": "Allolactose (inducer) binds the repressor, which leaves the operator; key C is unique and the distractors describe real but wrong mechanisms." },
+    { "id": "358b2f4a-72a0-431b-bcff-4d00270b7f0b", "verdict": "ready", "why": "Order lactose entry (C), allolactose binds repressor (B), repressor leaves operator (D), transcription (A) matches the standard lac induction sequence; key A correct." },
+    { "id": "21b5b630-a80d-402e-8130-bd87ffab33fa", "verdict": "repaired", "why": "q^2 = 0.09, q = 0.3, p = 0.7, 2pq = 0.42; key D correct and the 49% distractor (p^2) is sound. Both quality judges rated the item medium, but the label said hard; label changed to medium. Stem, options and key unchanged.", "repair": "difficulty_label hard -> medium" },
+    { "id": "a6e15328-3f33-4874-b956-dd25c0a63f39", "verdict": "ready", "why": "Australopithecus (about 4 mya), H. habilis (about 2.4 mya), H. erectus (about 1.9 mya), H. sapiens (about 300,000 years) is the uncontested order; key C correct." },
+    { "id": "609694b2-99ce-400a-80d2-856784c7b03d", "verdict": "ready", "why": "Butterfly and bird wings are analogous (same function, different origin); the other three pairs are homologous. Key C is unique." },
+    { "id": "8c58a925-190d-4a27-99a2-b451ec8b846f", "verdict": "ready", "why": "Liver stage (sporozoites enter liver cells, then merozoites released) precedes red-blood-cell stage (merozoites invade RBC, then gametocytes form). Key D = (B),(D),(A),(C) is correct." },
+    { "id": "2a816181-bf99-47b3-bd09-0829f8e83f80", "verdict": "ready", "why": "Filariasis-Wuchereria bancrofti, ringworm-Trichophyton, typhoid-Salmonella typhi, ascariasis-Ascaris lumbricoides; key A correct." },
+    { "id": "845b0fb6-5f1c-4d8f-bc4c-90069555d4da", "verdict": "repaired", "why": "Statements A and B are true, C and D false; key C is unique. Both quality judges rated the item medium (four recall statements), but the label said hard; label changed to medium. Stem, options and key unchanged.", "repair": "difficulty_label hard -> medium" },
+    { "id": "220dd370-a0d6-4a9f-a490-d2a9e6c23060", "verdict": "ready", "why": "Preformed antibodies injected as treatment give passive artificial immunity; key B correct and unique (vaccines are the active-immunity contrast)." },
+    { "id": "a077db3f-5b9f-41aa-89dc-1df13d6dbad8", "verdict": "ready", "why": "T-lymphocytes mature in the thymus and mediate cell-mediated immunity; key B correct. Macrophages and neutrophils are not lymphocytes, so the stem gives an easy-level cue; acceptable for an easy item." },
+    { "id": "5ec9f695-a4c9-4d11-824c-2d9a497ea923", "verdict": "ready", "why": "Cyclosporin A from Trichoderma polysporum is the immunosuppressant; lovastatin, streptokinase and penicillin have other uses. Key B unique." },
+    { "id": "7749b3b2-2816-4ef3-a495-c3f03df10fa1", "verdict": "ready", "why": "Mycorrhiza is the fungus-root association that aids phosphorus uptake; lichen, root nodule and Azolla-Anabaena are not fungus-root associations. Key B correct." }
+  ]
+}

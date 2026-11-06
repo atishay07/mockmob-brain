@@ -1,0 +1,36 @@
+{
+  "id": "20261101T065550.568373Z-5b77118d",
+  "observed_at": "2026-11-01T06:55:50.568373+00:00",
+  "agent": "claude-auto",
+  "task": "Auto-capture: claude session c4dbd3b5",
+  "status": "paused",
+  "done": "Auto-captured at Stop. Turns: 3. Last message: Five build agents are now running on `ui/1101-learn-app`:\n- **Data layer.** The models are finished; they are built from 65 responses recorded from the web preview.\n- **Study stage.** The text rules and the swipe model are finished. They match the web's own functions in all 87 checked cases.\n- **Chapter page**, **Explore covers** and **Learn home** have started.\n\nNext to start: Find with the Cards",
+  "next": "Unverified auto-capture. Read the session transcript and live repo state before continuing.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\c4dbd3b5-f204-4be3-b317-5f8ec24375d4.jsonl"
+  ],
+  "touched_files": [
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1101-learn-app\\docs\\brain\\learn-1031\\APP-1101.md",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1101-learn-app\\flutter_app\\lib\\features\\learn2\\learn2_links.dart",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1101-learn-app\\flutter_app\\tool\\walk_learn2.sh",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1101-learn-app\\flutter_app\\tool\\record_learn2_fixtures.sh",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1101-learn-app\\flutter_app\\lib\\core\\motion\\shake.dart",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1101-learn-app\\flutter_app\\lib\\features\\learn2\\stage\\stage_text.dart",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1101-learn-app\\flutter_app\\tool\\learn2_parity\\stage_text.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1101-learn-app\\flutter_app\\test\\unit\\learn2\\stage\\stage_text_parity_test.dart",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1101-learn-app\\flutter_app\\lib\\features\\learn2\\stage\\pager_model.dart",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1101-learn-app\\flutter_app\\test\\unit\\learn2\\stage\\pager_model_test.dart",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1101-learn-app\\flutter_app\\lib\\features\\learn2\\stage\\stage_motion.dart",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1101-learn-app\\flutter_app\\lib\\features\\learn2\\data\\learn_models.dart",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1101-learn-app\\flutter_app\\lib\\features\\learn2\\stage\\stage_keys.dart",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1101-learn-app\\flutter_app\\lib\\features\\learn2\\stage\\stage_ticks.dart",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1101-learn-app\\flutter_app\\lib\\features\\learn2\\stage\\stage_frame.dart",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1101-learn-app\\flutter_app\\lib\\features\\learn2\\data\\learn_prefs.dart",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1101-learn-app\\flutter_app\\lib\\features\\learn2\\stage\\stage_pager.dart",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1101-learn-app\\flutter_app\\lib\\features\\learn2\\data\\learn_api.dart"
+  ],
+  "verification": "auto-captured by hook; not agent-verified",
+  "cost_and_pending_requests": "unknown; hook does not see provider receipts",
+  "confidence": "agent-reported; verify evidence before acting"
+}

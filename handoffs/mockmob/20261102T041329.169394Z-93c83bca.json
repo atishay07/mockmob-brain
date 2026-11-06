@@ -1,0 +1,39 @@
+{
+  "id": "20261102T041329.169394Z-93c83bca",
+  "observed_at": "2026-11-02T04:13:29.169394+00:00",
+  "agent": "claude-opus-5.5 session ddd9a45c",
+  "task": "LK34 Key cards: +668 live (15,469, recovery round 2); Maths formula pipeline started on the owner's yes (code + pilot workflow running)",
+  "status": "active",
+  "done": "LIVE main a16fbd62e (dpl_8XasSMKTRgwwiwN6CXtVc5UtuvkW, first build passed, ~9:45 am IST): recovery round 2 (wf_f4816146-081, 112 Sonnet agents, 0 errors) fixed/re-reviewed 1,003 held cards; +668 published: CS 1,544, History 1,587, Geography 1,345, Sociology 1,190, Chemistry 1,411, Physics 1,090, Psychology 826, Maths 310, Accountancy 920. Guard check-drafts-r2 OK; merge-reviews4 run; lebs108 fixer edits never landed (2 cards stay held). Owner said verbatim \"Yes, start it\" to the Maths formula pipeline, and asked for a 24-hour status update (answered in session: 58 open ledger rows untouched; waiting on him: AAB upload, phone look, LK26 app nav decision, stop-sheet vs end count; Geist Mono self-host goes in next release unless he says no). Maths pipeline: map workflow wf_efe434ea-4ac (4 readers); spec handoff-1102/MATHTEX-SPEC.md; author brief handoff-1102/MATHTEX-AUTHOR-BRIEF.md; page images ncert-books/pages (13 lemh PDFs, 43 MB) via handoff-1102/render-pages.mjs; guard handoff-1102/check-drafts-mtex-1102.mjs; merge handoff-1102/merge-mtex-reviews-1102.mjs; backups drafts-bak-mtex-1102, reviews-bak-mtex-1102; launch config mathtex-look (port 3493, wt-1101-r2-home). Workflow wf_2b3b745c-da9 running: Opus implementer on web/1102-mathtex (wt-1101-r2-home, from a16fbd62e), then Opus adversarial code review + pilot lemh102 (Sonnet author, Opus formula reviewer vs page image, Sonnet content reviewer). NOW/ledger updated (mockmob-next feat/app-and-web ef60839e0). LK25: app session finished 1.0.19+17 at MockMob-build-17 for the owner's upload.",
+  "next": "1. When wf_2b3b745c-da9 finishes: read the code diff and the adversarial review; fix blockers; check pilot: node handoff-1102/check-drafts-mtex-1102.mjs lemh102 (OK), node handoff-1102/merge-mtex-reviews-1102.mjs lemh102; in wt-1101-r2-home run review-merge + validate --subject=mathematics with KEYCARDS_OUT_DIR scratch or the worktree data, preview_start mathtex-look, look at Inverse Trig cards 390/1440 Night/Day. 2. If good: wave over the other 12 lemh PDFs (same prompts; check get_usage first; window resets 1:20 pm IST). 3. Self-host Geist Mono (geist package / next/font/local) on the mathtex branch. 4. Merge web/1102-mathtex into web/1101-content, publish maths, suites, eslint, build, look, STATUS, push, deploy check, NOW/ledger. 5. Delete ncert-books/pages after the wave.",
+  "blockers": [
+    "5-hour window ~55% at 9:50 am IST, resets 1:20 pm IST",
+    "Owner steps: upload AAB, look on phone, two small decisions"
+  ],
+  "evidence": [
+    "git log origin/main: a16fbd62e, c3356040f",
+    "list_deployments: dpl_8XasSMKTRgwwiwN6CXtVc5UtuvkW READY",
+    "get_runtime_errors 30m: none",
+    "scratchpad/suites-r2-1102.txt",
+    "check-drafts-r2-1102.mjs: OK"
+  ],
+  "touched_files": [
+    "wt-1101-content/data/keycards/*",
+    "wt-1101-content/data/tests/learn_preview.test.mjs",
+    "wt-1101-content/docs/brain/STATUS.md",
+    "mockmob-next/docs/brain/NOW.md",
+    "mockmob-next/docs/brain/OWNER-MASTER-LEDGER.md",
+    "handoff-1102/MATHTEX-SPEC.md",
+    "handoff-1102/MATHTEX-AUTHOR-BRIEF.md",
+    "handoff-1102/render-pages.mjs",
+    "handoff-1102/check-drafts-mtex-1102.mjs",
+    "handoff-1102/merge-mtex-reviews-1102.mjs",
+    ".claude/launch.json",
+    ".claude/mathtex-look-dev.cjs",
+    "ncert-books/drafts/* (round 2)",
+    "ncert-books/reviews/* (round 2)"
+  ],
+  "verification": "Suites all pass except the known failures also on main (authored-publish 13, factory 5, mob 7, study 1); learn 381/0 after the Accountancy pins (920, 236); eslint clean; next build --webpack exit 0; looked at 390 Night and 1440 Day feed cards and the CS card list; production routes 200; no runtime errors.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

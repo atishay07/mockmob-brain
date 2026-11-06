@@ -1,0 +1,25 @@
+{
+  "id": "20261015T061800.711600Z-d70b110e",
+  "observed_at": "2026-10-15T06:18:00.712605+00:00",
+  "agent": "claude-opus-5.5 (session cc0bf1af)",
+  "task": "15 Oct 11:55 IST: resumed after the owner said the 95% was another account; restructure IA5-IA8 + Gate A and recording fixes 3-8 running",
+  "status": "active",
+  "done": "APK v5 sent (34046de9, sha1 de4020df). Vercel 11e30ec3 READY with 0 errors. Workflow wf_e3d9b9c8-5f6 launched (script copy mockmob-next/tmp/workflows/ia-finish-and-v3-fixes-1015.js). Web chain: IA5-IA8 (Sonnet) in wt-web-ia on cdddb6c8, then Gate A (Opus): suites, commit per packet, build, headless captures, mockmob-next/tmp/web-ia/gate-a/gate-a.html. App chain: fix:counts-labels-inset (items 3, 4, 8, Opus), fix:repair-run (items 5, 6 app+web, Opus), fix:runner-swap (item 7 app+web, Sonnet), then check:app-web (commit ui/phase2, merge into mockmob-next feat/app-and-web, commit web/alive-1015 in wt-web-refine, no push). Stopped the leftover Kotlin daemon; free RAM is about 1.3 GB. Memory quality-bar-and-stop-rule updated: the hook usage figure can be the old account's after a switch.",
+  "next": "When wf_e3d9b9c8-5f6 finishes: send gate-a.html and the overview PNG to the owner for Gate B. Then a second workflow: IA9 in wt-web-ia (merge web/alive-1015 including the new recording-fix commit, route_moves redirects, Pip renamed to Mobi, glossary count 0, result page items from plan 5.1), web parity for items 3, 4, 8 in the new structure (from check webParity notes), suites and build, refresh the captures. App: build APK v6 from feat/app-and-web, then an emulator recording (profile demo, AVD mockmob_budget -memory 2048, when RAM allows). Verify the v3 repair cost after the owner runs one. Push the restructure only after the owner OKs.",
+  "blockers": [
+    "Owner: one live repair on the site to verify v3 cost",
+    "Owner: OK on the Gate A previews before the restructure is pushed",
+    "RAM about 1.3 GB free: the emulator recording waits for the build and dev-server steps to finish"
+  ],
+  "evidence": [
+    "Workflow run wf_e3d9b9c8-5f6, journal under the session subagents/workflows/wf_e3d9b9c8-5f6",
+    "Earlier run wf_91b1d417-363 journal: IA0-IA4 results, IA5-IA8 started and cut"
+  ],
+  "touched_files": [
+    "mockmob-next/tmp/workflows/ia-finish-and-v3-fixes-1015.js",
+    "memory/quality-bar-and-stop-rule.md"
+  ],
+  "verification": "Workflow launched; no results yet.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

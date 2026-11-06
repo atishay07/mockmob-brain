@@ -1,0 +1,29 @@
+{
+  "id": "20261018T171530.071071Z-ee96ba6f",
+  "observed_at": "2026-10-18T17:15:30.072071+00:00",
+  "agent": "claude-opus-5.5 (session 604ced81, main, resumed 10:35 pm)",
+  "task": "18 Oct ~10:55 pm: final app v15.2 fix pass + release 10 (D98)",
+  "status": "active",
+  "done": "Owner prompt recorded verbatim (D98, mockmob-next b43382ee). wt-v15-2 merged ui/v15-taste (dec4e083, c2e950ba) -> cb878c82. Found walk H13 (per-question spend not shown) is a staging artifact: staging runs one_credits_balance (spend_credits uses mm_wallet_take, md5 a2d71600) while production spend_credits is 911105fd (credit_balance only). Launched workflow wf_b3d37151-59a (5 app fix agents in worktrees wt-v152-numbers/today/mob/credits/onboard, branches ui/v152-*) and workflow wf_2fa20c92-c41 (release 10: attempts ?view=summary in wt-r10-attempts, credits core finish in wt-credits-core, integrate into wt-rel10 deploy/web-1018-r10 from 9b3661e8, Opus verifier max 2 rounds). Production pre-check for play_purchases deps OK (mm_ai_grant_bonus_credits, columns, ledger checks).",
+  "next": "When the fix workflow returns: merge ui/v152-* into ui/v15.2-1018 (wt-v15-2), flutter analyze + unit tests of changed areas, release APK (prod.json arm64 obfuscated) to mockmob-next/tmp/apk/mockmob-v15.2-<sha>.apk + zip, tell the owner, install on 10BF370PA6002XR when he connects, send the file. When release 10 returns: production migrations play_purchases + one_credits_balance (pre/post md5, rolled-back dry run, undo), push FF from 9b3661e8, Vercel check, smoke, STATUS. Then ONE message; NOW.md overwrite; ledger; checkpoint.",
+  "blockers": [
+    "Owner: phone connect for the v15.2 install",
+    "Owner: Razorpay wiring, Play Console steps, PERSISTENT_LIMITS_ENABLED, W-044"
+  ],
+  "evidence": [
+    "mockmob-next b43382ee",
+    "wt-v15-2 cb878c82",
+    "staging spend_credits md5 a2d71600 uses mm_wallet_take; production 911105fd"
+  ],
+  "touched_files": [
+    "mockmob-next/docs/brain/OWNER-FEEDBACK-2026-10-18-DAWN.md",
+    "mockmob-next/docs/brain/OWNER-MASTER-LEDGER.md",
+    "wt-v15-2 (merge cb878c82)",
+    "wt-v152-* worktrees",
+    "wt-r10-attempts",
+    "wt-rel10"
+  ],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

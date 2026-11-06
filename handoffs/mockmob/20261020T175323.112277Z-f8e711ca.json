@@ -1,0 +1,21 @@
+{
+  "id": "20261020T175323.112277Z-f8e711ca",
+  "observed_at": "2026-10-20T17:53:23.112277+00:00",
+  "agent": "claude-opus-5.5 session 604ced81 (CEO/CTO, night)",
+  "task": "20 Oct night: hand off to version 16",
+  "status": "paused",
+  "done": "11:20 pm owner feedback on installed v15 and the v16 vision recorded verbatim (D191). v15 verification closed; verify prompt deleted. Version 16 prompt written: docs/brain/NEXT-PROMPT-1020-V16.md (Desktop copy NEXT-PROMPT-V16.md). NOW.md handoff appended.",
+  "next": "Fresh session pastes NEXT-PROMPT-V16.md: app 1.0.18+16 (welcome credits + invite pop-up, invite card correctness, Mob first-visit welcome animation, smart nudges, live mode with owner's Realtime switch, own improvements) and the phone-first website pass (pricing, Get access, hero, subjects first, scroll story, Mistake Lab timer, bot screens, Razorpay monthly guidance); signed build to Desktop\\MockMob-build-16.",
+  "blockers": [
+    "Account usage ~91% (resets 12:10 am)"
+  ],
+  "evidence": [
+    "docs/brain/NEXT-PROMPT-1020-V16.md",
+    "docs/brain/OWNER-FEEDBACK-2026-10-19.md (11:20 pm, D191)",
+    "docs/brain/NOW.md HANDOFF 20 Oct 11:25 pm"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

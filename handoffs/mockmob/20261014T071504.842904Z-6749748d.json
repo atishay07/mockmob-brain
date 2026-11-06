@@ -1,0 +1,36 @@
+{
+  "id": "20261014T071504.842904Z-6749748d",
+  "observed_at": "2026-10-14T07:15:04.842904+00:00",
+  "agent": "claude-opus-5.5 subagent (cuet-fit integration)",
+  "task": "Merge wip/cuet-fit into fix/nta-mode, merge authored wave-1 entries into agent and fit tables (local only)",
+  "status": "complete",
+  "done": "mockmob-hotfix fix/nta-mode: merge 47e0880 (--no-ff wip/cuet-fit 3892b22 into 0710876, engine r5), tables d593e84 (475 authored entries into 6 agent + 6 fit tables, admit), docs c81656f (runbook section 3/4/5/10, STATUS). Semantic fixes: authored check passes merged fitScores to ntaEligibility and impact; engineTypeOf uses heuristicNtaType (merge reproducible byte for byte); e2e time-up sessions use fresh student 'late', leak regex no longer matches chapter 'Stack'. Check --impact: 475/475 eligible (quality+fit), 11/12 English sets servable.",
+  "next": "Owner decisions: publish wave 1 (runbook section 10), deploy engine r5 (changes NTA for all subjects: GT 46, Maths refused, Biology served), authored share ~90% of first papers under newest-first rule, english__p1__set3 (3 children), Globalisation gap, Explore rows. Push of fix/nta-mode not done.",
+  "blockers": [
+    "Owner approval to publish and to deploy r5"
+  ],
+  "evidence": [
+    "test:nta 134/134",
+    "test:recovery 40/40",
+    "test:question-reorder 26/26",
+    "test:authored-publish 55/55",
+    "test:nta-e2e 418/418 (local fixtures)",
+    "offline dry-run planHash 39a4b051...b3fca2 unchanged, agent+fit bound 475/475"
+  ],
+  "touched_files": [
+    "scripts/authored-scores-merge.mjs",
+    "scripts/lib/authored-scores.mjs",
+    "scripts/question-reorder.mjs",
+    "data/tests/authored_publish.test.mjs",
+    "data/tests/nta_e2e_session.test.mjs",
+    "docs/brain/NTA-ENGINE-POLICIES.md",
+    "docs/brain/RUNBOOK-PUBLISH-AUTHORED-2026-10-14.md",
+    "docs/brain/STATUS.md",
+    "data/nta_agent_scores/{chemistry,english,history,political_science,psychology,sociology}.json",
+    "data/nta_fit_scores/{same six}.json",
+    "docs/brain/reports/authored/wave1-score-check-final-2026-10-14.json"
+  ],
+  "verification": "All suites run on final HEAD c81656f; no database, network, model, push or deploy.",
+  "cost_and_pending_requests": "none (no paid model calls)",
+  "confidence": "agent-reported; verify evidence before acting"
+}

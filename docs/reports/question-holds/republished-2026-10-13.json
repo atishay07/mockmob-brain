@@ -1,0 +1,1826 @@
+[
+ {
+  "id": "01dbaa4a-b7f1-4e25-b7e9-94f89a1406b5",
+  "stem": "Read the statements and choose the correct option. Statement I: Sacrificing ratio is calculated by comparing the old share with the new share of a partner whose share decreases. Statement II: Gaining ratio is calculated by comparing the new share with the old share of a partner whose share increases. Statement III: Goodwill adjustment is necessary mainly when there is a change in the profit-sharing ratio among existing partners.",
+  "options": [
+   {
+    "key": "A",
+    "text": "I and II only"
+   },
+   {
+    "key": "B",
+    "text": "II and III only"
+   },
+   {
+    "key": "C",
+    "text": "I and III only"
+   },
+   {
+    "key": "D",
+    "text": "I, II and III"
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "Sacrificing ratio is the old share minus the new share of the partner whose share falls, and gaining ratio is the new share minus the old share of the partner whose share rises, so Statements I and II are correct. Goodwill adjustment is needed mainly when the profit-sharing ratio changes among existing partners, so Statement III is also correct."
+ },
+ {
+  "id": "13586296-0b2d-4f6c-becb-fb9c11309fb8",
+  "stem": "A company issued 1,000 equity shares of Rs 10 each at par. A shareholder holding all these shares paid Rs 6 per share and did not pay the balance, so the company forfeited all 1,000 shares. The forfeited shares were later reissued as fully paid at Rs 8 per share. What is the amount of gain on reissue, to be transferred to capital reserve?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Rs 1,000"
+   },
+   {
+    "key": "B",
+    "text": "Rs 2,000"
+   },
+   {
+    "key": "C",
+    "text": "Rs 3,000"
+   },
+   {
+    "key": "D",
+    "text": "Rs 4,000"
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "The amount forfeited is Rs 6 x 1,000 = Rs 6,000. On reissue at Rs 8, the discount allowed is Rs 2 x 1,000 = Rs 2,000, which is set off against the forfeited amount. The balance of Rs 4,000 is the gain transferred to capital reserve."
+ },
+ {
+  "id": "404761d3-32d9-418a-934d-a97dcec09cb8",
+  "stem": "Partners A and B share profits in the ratio 3:2. They agree to change the ratio to 2:3. What is A's gain or sacrifice, as a fraction of total profits?",
+  "options": [
+   {
+    "key": "A",
+    "text": "A sacrifices 1/10 of profits"
+   },
+   {
+    "key": "B",
+    "text": "A gains 1/5 of profits"
+   },
+   {
+    "key": "C",
+    "text": "A sacrifices 1/5 of profits"
+   },
+   {
+    "key": "D",
+    "text": "A gains 1/10 of profits"
+   }
+  ],
+  "correct_key": "C",
+  "explanation": "A's old share is 3/5 and A's new share is 2/5, so A's share falls by 3/5 - 2/5 = 1/5 of total profits. This is a sacrifice of 1/5 of profits."
+ },
+ {
+  "id": "49e933d5-900f-46bd-9cec-5d577c1234a7",
+  "stem": "Partners A, B and C share profits in the ratio 3:2:1. C retires, and A and B agree to share future profits in the ratio 5:3. What is the gaining ratio of A and B?",
+  "options": [
+   {
+    "key": "A",
+    "text": "3:1"
+   },
+   {
+    "key": "B",
+    "text": "1:3"
+   },
+   {
+    "key": "C",
+    "text": "5:3"
+   },
+   {
+    "key": "D",
+    "text": "1:1"
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "Old shares are A = 3/6 and B = 2/6, and new shares are A = 5/8 and B = 3/8. A gains 5/8 - 3/6 = 1/8 and B gains 3/8 - 2/6 = 1/24, so the gaining ratio is 1/8 : 1/24 = 3:1."
+ },
+ {
+  "id": "4a513330-fb77-41b4-a505-7eba280c2091",
+  "stem": "Assertion: Realisation of trade receivables during the dissolution of a firm increases quick assets. Reason: Quick assets are current assets other than inventory and prepaid expenses, and trade receivables are included among them.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Assertion and Reason are true and Reason correctly explains Assertion"
+   },
+   {
+    "key": "B",
+    "text": "Both Assertion and Reason are true but Reason does not correctly explain Assertion"
+   },
+   {
+    "key": "C",
+    "text": "Assertion is true but Reason is false"
+   },
+   {
+    "key": "D",
+    "text": "Assertion is false but Reason is true"
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "Trade receivables are already quick assets, so collecting them converts one quick asset into another and total quick assets stay unchanged, making the Assertion false. The Reason is true because quick assets exclude inventory and prepaid expenses, and receivables are included."
+ },
+ {
+  "id": "5a7dcaf8-564f-42eb-b303-6142ed9ced41",
+  "stem": "A firm had net profit Rs 500,000. It proposed to transfer Rs 50,000 to general reserve and pay dividend Rs 100,000. In a comparative common-size presentation of appropriation, what percentage of net profit is shown as retained (available for carried forward)?",
+  "options": [
+   {
+    "key": "A",
+    "text": "70%"
+   },
+   {
+    "key": "B",
+    "text": "60%"
+   },
+   {
+    "key": "C",
+    "text": "50%"
+   },
+   {
+    "key": "D",
+    "text": "80%"
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "Net profit of Rs 500,000 less Rs 50,000 transferred to general reserve and Rs 100,000 dividend leaves Rs 350,000 to carry forward. Rs 350,000 is 70% of Rs 500,000, so option A is correct."
+ },
+ {
+  "id": "5d140c14-fd1d-4308-abb9-4cc5a07fafdc",
+  "stem": "Two years' balance sheets show inventories of Rs 50,000 in Year 1 and Rs 65,000 in Year 2 while total assets were Rs 200,000 and Rs 260,000 respectively. In a comparative common-size presentation, the inventory percentage change is best described as:",
+  "options": [
+   {
+    "key": "A",
+    "text": "Inventory percentage remained at 25% of total assets (no change)"
+   },
+   {
+    "key": "B",
+    "text": "Inventory percentage increased from 25% to 28% of total assets"
+   },
+   {
+    "key": "C",
+    "text": "Inventory percentage decreased because absolute inventory rose less than assets"
+   },
+   {
+    "key": "D",
+    "text": "Inventory percentage increased from 20% to 25% of total assets"
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "Inventory is Rs 50,000 out of Rs 200,000, which is 25%, and Rs 65,000 out of Rs 260,000, which is also 25%, so the common-size share is unchanged. Inventory and total assets both grew by the same proportion, so the percentage stays the same. The 28% and 20% figures in the other options do not match either year."
+ },
+ {
+  "id": "6367f1d5-1276-4ebb-827b-29e117f28611",
+  "stem": "A firm's assets (excluding cash), with a book value of 80,000, are transferred to Realisation Account and sold for 70,000. External liabilities of 15,000, carried at their book value, are paid in full. What is the loss on realisation to be shared by the partners?",
+  "options": [
+   {
+    "key": "A",
+    "text": "25,000"
+   },
+   {
+    "key": "B",
+    "text": "10,000"
+   },
+   {
+    "key": "C",
+    "text": "5,000"
+   },
+   {
+    "key": "D",
+    "text": "15,000"
+   }
+  ],
+  "correct_key": "B",
+  "explanation": "The loss on realisation is the book value of the assets realised less the sale proceeds: 80,000 minus 70,000 equals 10,000. Liabilities paid at their book value of 15,000 cause no gain or loss, because the amount credited to Realisation Account on transfer equals the amount debited on payment."
+ },
+ {
+  "id": "64642596-81a2-4ec7-aee8-51135d69d76a",
+  "stem": "A company issued 1,000 equity shares of ₹10 each at a premium of ₹2 per share, payable as ₹3 on application and ₹4 on allotment (including premium), with the balance on first and final call. How much is payable on the first and final call per share?",
+  "options": [
+   {
+    "key": "A",
+    "text": "₹7"
+   },
+   {
+    "key": "B",
+    "text": "₹5"
+   },
+   {
+    "key": "C",
+    "text": "₹4"
+   },
+   {
+    "key": "D",
+    "text": "₹9"
+   }
+  ],
+  "correct_key": "B",
+  "explanation": "The issue price is ₹12 per share, being ₹10 face value plus ₹2 premium. Subtracting the application ₹3 and allotment ₹4 leaves ₹12 minus ₹3 minus ₹4, which is ₹5 for the first and final call."
+ },
+ {
+  "id": "6896ee1a-eac5-4fa0-a5fe-4f68e9587709",
+  "stem": "Assertion: Bonus shares can be issued out of free reserves and securities premium account. Reason: Only reserves representing realised profits can be capitalised for issue of bonus shares.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion."
+   },
+   {
+    "key": "B",
+    "text": "Assertion is true but Reason is false."
+   },
+   {
+    "key": "C",
+    "text": "Assertion is false but Reason is true."
+   },
+   {
+    "key": "D",
+    "text": "Both Assertion and Reason are false."
+   }
+  ],
+  "correct_key": "B",
+  "explanation": "Under Section 63 of the Companies Act, 2013, bonus shares may be issued out of free reserves, securities premium account or capital redemption reserve, so the assertion is true. Securities premium is a capital reserve, not a realised profit, so the reason is false."
+ },
+ {
+  "id": "76760959-d603-443c-aec0-d39c8c5bf67a",
+  "stem": "When the partners' capital accounts are fixed, on which side of which account are the drawings recorded?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Debit side of Capital A/c"
+   },
+   {
+    "key": "B",
+    "text": "Credit side of Capital A/c"
+   },
+   {
+    "key": "C",
+    "text": "Debit side of Current A/c"
+   },
+   {
+    "key": "D",
+    "text": "Credit side of Current A/c"
+   }
+  ],
+  "correct_key": "C",
+  "explanation": "When capital accounts are fixed, the capital accounts do not record drawings. Drawings are debited to the partner's Current Account, so the entry falls on the debit side of the Current A/c."
+ },
+ {
+  "id": "792b8471-25b7-49f0-9842-362a9ee2a808",
+  "stem": "In a cash flow statement prepared as per the Class XII Accountancy syllabus, interest paid on debentures is classified under:",
+  "options": [
+   {
+    "key": "A",
+    "text": "Operating activities"
+   },
+   {
+    "key": "B",
+    "text": "Investing activities"
+   },
+   {
+    "key": "C",
+    "text": "Financing activities"
+   },
+   {
+    "key": "D",
+    "text": "Non-cash adjustment only"
+   }
+  ],
+  "correct_key": "C",
+  "explanation": "Interest paid on debentures is the cost of borrowed funds, so the cash outflow is reported under financing activities in the Class XII cash flow statement. Anchoring the stem to the syllabus makes the classification unambiguous, since Ind AS 7 allows some choice of presentation."
+ },
+ {
+  "id": "7f24b118-945d-4f68-a127-fab1c5358e43",
+  "stem": "A and B share profits equally. The net profit as per the Profit and Loss Account is Rs 2,50,000. A is entitled to a salary of Rs 30,000 and interest on capital of Rs 10,000, and B is entitled to interest on capital of Rs 5,000. After these appropriations, the remaining profit is shared equally. What is B's total share of profit?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Rs 1,07,500"
+   },
+   {
+    "key": "B",
+    "text": "Rs 1,12,500"
+   },
+   {
+    "key": "C",
+    "text": "Rs 1,12,000"
+   },
+   {
+    "key": "D",
+    "text": "Rs 1,10,000"
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "Profit after appropriations is 2,50,000 - 30,000 - 10,000 - 5,000 = Rs 2,05,000. B's half share of this is Rs 1,02,500, and adding B's interest on capital of Rs 5,000 gives Rs 1,07,500."
+ },
+ {
+  "id": "80a94a54-7c0f-43fc-8059-be8e0db47a42",
+  "stem": "A firm has capital employed of Rs 2,00,000, a normal rate of return of 10% and an actual profit of Rs 30,000. If goodwill is valued at 3 years' purchase of super profit, what is the value of goodwill?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Rs 10,000"
+   },
+   {
+    "key": "B",
+    "text": "Rs 30,000"
+   },
+   {
+    "key": "C",
+    "text": "Rs 60,000"
+   },
+   {
+    "key": "D",
+    "text": "Rs 90,000"
+   }
+  ],
+  "correct_key": "B",
+  "explanation": "Normal profit is 10% of Rs 2,00,000, which is Rs 20,000, so super profit is Rs 30,000 - Rs 20,000 = Rs 10,000. Goodwill at 3 years' purchase is 3 x Rs 10,000 = Rs 30,000."
+ },
+ {
+  "id": "87ae7e88-60ab-4f3e-97f9-7340dfed518c",
+  "stem": "Read the following statements: Statement I: Sacrificing ratio is computed when existing partners change their profit-sharing ratio. Statement II: Gaining ratio is the ratio in which continuing partners acquire the share of a retiring partner. Statement III: When most partners change their shares, both sacrificing and gaining ratios are determined. Which of the above statements are correct?",
+  "options": [
+   {
+    "key": "A",
+    "text": "I and III only"
+   },
+   {
+    "key": "B",
+    "text": "I and II only"
+   },
+   {
+    "key": "C",
+    "text": "II and III only"
+   },
+   {
+    "key": "D",
+    "text": "I, II and III"
+   }
+  ],
+  "correct_key": "B",
+  "explanation": "The sacrificing ratio arises when existing partners change their profit-sharing ratio, and the gaining ratio is the share a continuing partner acquires from a retiring partner, so Statements I and II are correct. Statement III is false because the sacrificing and gaining ratios are determined by the change itself, not by how many partners change their shares."
+ },
+ {
+  "id": "894fc3d5-f5e7-400e-aab7-ee1a36bbb621",
+  "stem": "Assertion: Debenture Redemption Reserve (DRR) must be created out of distributable profits and therefore reduces the amount available for declaration of dividends. Reason: DRR is classified as a capital reserve and thus cannot be used for dividend distribution. Choose the correct option.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."
+   },
+   {
+    "key": "B",
+    "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."
+   },
+   {
+    "key": "C",
+    "text": "Assertion is true but Reason is false."
+   },
+   {
+    "key": "D",
+    "text": "Assertion is false but Reason is true."
+   }
+  ],
+  "correct_key": "C",
+  "explanation": "DRR is created out of distributable profits, so it reduces the amount available for dividends and the Assertion is true. The Reason is false because DRR is a reserve created from profits, not a capital reserve, even though it is restricted from dividend use."
+ },
+ {
+  "id": "b29a66fb56b078260537399fe3a3fcf1",
+  "stem": "A company validly forfeits shares that were issued at a premium after a shareholder fails to pay a call. The full share premium had already been received and recorded before forfeiture. What is the treatment of the share premium recorded on the forfeited shares?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Reverse the share-premium entry along with the other entries for the forfeited shares."
+   },
+   {
+    "key": "B",
+    "text": "Transfer the share premium received to Share Forfeiture A/c."
+   },
+   {
+    "key": "C",
+    "text": "Leave the recorded share-premium entry unchanged."
+   },
+   {
+    "key": "D",
+    "text": "Credit the share premium received to the unpaid call account."
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "On forfeiture, the premium received on shares issued at a premium is reversed with the other entries for the forfeited shares, so Securities Premium A/c is debited to the extent of the premium received. Leaving the entry unchanged would keep a premium on shares that have been cancelled."
+ },
+ {
+  "id": "b4fa3cd9-a46e-46ae-b6cd-d7bfc197693e",
+  "stem": "A company issues 10,000 equity shares of Rs 10 each. Rs 2 per share is received on application. Rs 4 per share is called on allotment and is still due. Rs 4 per share is called as the first call and is received in full. What are the called-up capital and the paid-up capital after allotment and first call?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Called-up Rs 80,000; Paid-up Rs 60,000"
+   },
+   {
+    "key": "B",
+    "text": "Called-up Rs 80,000; Paid-up Rs 80,000"
+   },
+   {
+    "key": "C",
+    "text": "Called-up Rs 60,000; Paid-up Rs 60,000"
+   },
+   {
+    "key": "D",
+    "text": "Called-up Rs 100,000; Paid-up Rs 60,000"
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "Called-up capital is everything called: application Rs 2, allotment Rs 4 and first call Rs 4, which is Rs 10 per share or Rs 1,00,000. Paid-up capital is only what has been received: application Rs 2 and first call Rs 4, which is Rs 6 per share or Rs 60,000, because the allotment money is still due."
+ },
+ {
+  "id": "bd992e8f-057d-4e1c-be92-67236f1edb2d",
+  "stem": "A firm reports net profit of Rs 200,000. It transfers 10% of net profit to reserve and declares 20% of net profit as dividend. What percentage of net profit remains as retained earnings (to be shown in a common-size appropriation column)?",
+  "options": [
+   {
+    "key": "A",
+    "text": "70%"
+   },
+   {
+    "key": "B",
+    "text": "60%"
+   },
+   {
+    "key": "C",
+    "text": "80%"
+   },
+   {
+    "key": "D",
+    "text": "90%"
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "The reserve takes 10% (Rs 20,000) and the dividend takes 20% (Rs 40,000) of net profit, leaving Rs 1,40,000, which is 70% of net profit retained."
+ },
+ {
+  "id": "0d2407b3-642d-465e-bb10-e79b8036a5bd",
+  "stem": "Assertion: In transcription, mainly one strand of DNA is used as a template for RNA synthesis. Reason: The RNA transcript is complementary to the template strand and identical to the coding strand, except that uracil replaces thymine. Choose the correct option.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Assertion and Reason are true, but the Reason does not explain the Assertion."
+   },
+   {
+    "key": "B",
+    "text": "Both Assertion and Reason are true, and the Reason explains the Assertion."
+   },
+   {
+    "key": "C",
+    "text": "Assertion is true, but Reason is false."
+   },
+   {
+    "key": "D",
+    "text": "Assertion is false, but Reason is true."
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "Both statements are true: transcription copies only one DNA strand, the template, into RNA. The reason correctly describes the base pairing of the RNA with the template strand and its identity with the coding strand, but it does not explain why only one strand is used."
+ },
+ {
+  "id": "4b7a2c4d-1736-4c23-958f-0ff22597ef18",
+  "stem": "In a lake ecosystem, the population of a fish species grows rapidly at first and then stabilises at a fixed size. This pattern is best described by:",
+  "options": [
+   {
+    "key": "A",
+    "text": "Exponential growth followed by logistic growth"
+   },
+   {
+    "key": "B",
+    "text": "Logistic growth with a constant intrinsic growth rate"
+   },
+   {
+    "key": "C",
+    "text": "Exponential growth with a constant carrying capacity"
+   },
+   {
+    "key": "D",
+    "text": "Logistic growth with a declining carrying capacity"
+   }
+  ],
+  "correct_key": "B",
+  "explanation": "The S-shaped logistic curve rises rapidly while resources are plentiful, then slows and levels off at the carrying capacity. Logistic growth is a single model with a constant intrinsic growth rate, not two successive phases."
+ },
+ {
+  "id": "88799954-04f0-40b9-a0e0-a0349c167083",
+  "stem": "Statement I: Financial management is concerned with the procurement of funds and their effective utilisation. Statement II: Financial management is solely concerned with the utilisation of funds after they have been procured. Which statements are correct?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Statement I and Statement II are correct."
+   },
+   {
+    "key": "B",
+    "text": "Neither Statement I nor Statement II is correct."
+   },
+   {
+    "key": "C",
+    "text": "Only Statement I is correct."
+   },
+   {
+    "key": "D",
+    "text": "Only Statement II is correct."
+   }
+  ],
+  "correct_key": "C",
+  "explanation": "Financial management covers both the procurement of funds and their effective utilisation, so Statement I is correct. Statement II is wrong because it limits financial management to utilisation after procurement, which leaves out procurement itself."
+ },
+ {
+  "id": "88cf3609-c412-471e-aea0-82e0368502a9",
+  "stem": "Assertion: Fayol's principle of 'Authority' implies that managers must have the right to give orders and the power to exact obedience. Reason: Without the right balance between authority and responsibility, effective management is not possible. Choose the correct option.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."
+   },
+   {
+    "key": "B",
+    "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."
+   },
+   {
+    "key": "C",
+    "text": "Assertion is true but Reason is false."
+   },
+   {
+    "key": "D",
+    "text": "Both Assertion and Reason are false."
+   }
+  ],
+  "correct_key": "B",
+  "explanation": "Authority is the right to give orders together with the power to exact obedience, which is what the Assertion states. The Reason is also true, since Fayol stressed balancing authority with responsibility, but it describes a condition for effective management rather than what authority means. Both statements are true, and the Reason does not explain the Assertion."
+ },
+ {
+  "id": "ddb7471c-1ed5-4962-8cd0-4a7be5e78914",
+  "stem": "Assertion: A certificate mark (e.g., quality mark) on packaging guarantees absolute immunity for seller against any consumer complaint. Reason: Certification removes the seller's liability for defective goods. Choose the correct option.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Assertion and Reason are true and Reason correctly explains Assertion."
+   },
+   {
+    "key": "B",
+    "text": "Both are true but Reason is not the correct explanation of Assertion."
+   },
+   {
+    "key": "C",
+    "text": "Assertion is false but Reason is true."
+   },
+   {
+    "key": "D",
+    "text": "Both Assertion and Reason are false."
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "A certification mark shows that a product meets specified standards, but it does not grant absolute immunity from complaints, so the Assertion is false. Certification also does not remove the seller's liability for defective or unsafe goods, so the Reason is false too."
+ },
+ {
+  "id": "073ad1ca-e46a-4454-8219-0fd97c6bdaf7",
+  "stem": "Read the three statements about nucleophilic addition to carbonyl compounds. Statement I: Aldehydes are more reactive than ketones due to less steric hindrance and greater electrophilicity. Statement II: Formaldehyde is the most reactive aldehyde. Statement III: Acetaldehyde is more reactive than benzaldehyde because the carbonyl group in benzaldehyde is conjugated with the benzene ring. Choose the correct option.",
+  "options": [
+   {
+    "key": "A",
+    "text": "I and II only"
+   },
+   {
+    "key": "B",
+    "text": "II and III only"
+   },
+   {
+    "key": "C",
+    "text": "I and III only"
+   },
+   {
+    "key": "D",
+    "text": "I, II and III"
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "Aldehydes are more reactive than ketones because they have less steric hindrance and a more electrophilic carbonyl carbon, so Statement I is correct. Formaldehyde has no alkyl group, which makes it the most reactive aldehyde, so Statement II is correct. Benzaldehyde is less reactive than acetaldehyde because its carbonyl group is conjugated with the benzene ring, so Statement III is also correct."
+ },
+ {
+  "id": "3162f8b3-d5db-4a15-a960-d45c0e41ab58",
+  "stem": "Assertion: Aryl diazonium salts (ArN2+) are stable at 0–5 °C in aqueous HCl. Reason: The positive charge of the diazonium group is delocalised into the benzene ring by resonance. Choose the correct option.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Assertion and Reason are true and Reason correctly explains Assertion."
+   },
+   {
+    "key": "B",
+    "text": "Both Assertion and Reason are true but Reason does not explain Assertion."
+   },
+   {
+    "key": "C",
+    "text": "Assertion is true but Reason is false."
+   },
+   {
+    "key": "D",
+    "text": "Assertion is false, as aryl diazonium salts decompose even at 0–5 °C."
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "Aryl diazonium salts are stable at 0–5 °C, and resonance delocalises the positive charge of the diazonium group into the benzene ring, which stabilises the ion. This resonance stabilisation is the reason for their stability at low temperature, so the Reason correctly explains the Assertion."
+ },
+ {
+  "id": "42ae03af-cba2-4394-8d09-ae60dcc82d8e",
+  "stem": "Consider the following statements about carbonyl compounds: Statement I: Formaldehyde is more reactive than acetaldehyde towards nucleophilic addition. Statement II: Acetophenone gives a positive iodoform test. Statement III: Benzaldehyde undergoes Cannizzaro reaction with concentrated NaOH. Which of the statements is/are correct?",
+  "options": [
+   {
+    "key": "A",
+    "text": "I and II only"
+   },
+   {
+    "key": "B",
+    "text": "II and III only"
+   },
+   {
+    "key": "C",
+    "text": "I and III only"
+   },
+   {
+    "key": "D",
+    "text": "I, II and III"
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "Formaldehyde is more reactive than acetaldehyde because the methyl group of acetaldehyde donates electron density to the carbonyl carbon, so Statement I is correct. Acetophenone is a methyl ketone and gives a positive iodoform test, and benzaldehyde has no alpha-hydrogen and undergoes the Cannizzaro reaction with concentrated NaOH, so Statements II and III are also correct."
+ },
+ {
+  "id": "49fdd1ce-ebbb-4458-b0c3-c60eba14b263",
+  "stem": "Consider the following statements regarding the extraction of copper from copper pyrites: Statement I: The ore is concentrated by froth flotation process. Statement II: Roasting of the concentrated ore produces Cu2S and FeO. Statement III: The reduction of Cu2S is carried out by self-reduction in a Bessemer converter. Which of the statements are correct?",
+  "options": [
+   {
+    "key": "A",
+    "text": "I and II only"
+   },
+   {
+    "key": "B",
+    "text": "II and III only"
+   },
+   {
+    "key": "C",
+    "text": "I and III only"
+   },
+   {
+    "key": "D",
+    "text": "I, II and III"
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "Copper pyrites is concentrated by froth flotation, so Statement I is correct. Roasting gives Cu2S together with FeO, which is removed as slag, and Cu2S is then reduced by self-reduction in a Bessemer converter, so Statements II and III are also correct."
+ },
+ {
+  "id": "790e5cfc-a5b0-48de-9a93-98d820b19ecf",
+  "stem": "Read the following statements about reactions of carbonyl compounds. Statement I: Aldol condensation requires at least one alpha hydrogen. Statement II: The Cannizzaro reaction is shown by aldehydes that lack an alpha hydrogen. Statement III: Ketones containing an alpha hydrogen undergo aldol condensation in the presence of a base. Which of the following options is correct?",
+  "options": [
+   {
+    "key": "A",
+    "text": "II and III only"
+   },
+   {
+    "key": "B",
+    "text": "I and II only"
+   },
+   {
+    "key": "C",
+    "text": "I and III only"
+   },
+   {
+    "key": "D",
+    "text": "I, II and III"
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "All three statements are true. Aldol condensation needs an alpha hydrogen to form the enolate ion, the Cannizzaro reaction is characteristic of aldehydes with no alpha hydrogen, and ketones with an alpha hydrogen undergo aldol condensation in base."
+ },
+ {
+  "id": "983777eb-78a1-49b2-9898-62d51974ef44",
+  "stem": "Assertion: Aniline reacts slower than benzene in electrophilic aromatic substitution. Reason: The -NH2 group on aniline is strongly electron-withdrawing due to resonance, deactivating the ring. Which option is correct?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Assertion and Reason are true, and Reason correctly explains Assertion."
+   },
+   {
+    "key": "B",
+    "text": "Assertion is true, but Reason is false."
+   },
+   {
+    "key": "C",
+    "text": "Assertion is false, but Reason is true."
+   },
+   {
+    "key": "D",
+    "text": "Both Assertion and Reason are false."
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "The -NH2 group donates electron density to the ring by resonance, so aniline is more reactive than benzene in electrophilic aromatic substitution and the Assertion is false. The Reason is also false because -NH2 activates the ring rather than deactivating it."
+ },
+ {
+  "id": "af52e8e0-8685-4069-93e1-3fcdd27b65f4",
+  "stem": "Consider the following statements about halogens: Statement I: Fluorine shows mainly -1 oxidation state in its compounds. Statement II: Chlorine exhibits -1, +1, +3, +5, +7 oxidation states. Statement III: most halogens show variable oxidation states. Which of the following options is correct?",
+  "options": [
+   {
+    "key": "A",
+    "text": "I and II only"
+   },
+   {
+    "key": "B",
+    "text": "I and III only"
+   },
+   {
+    "key": "C",
+    "text": "II and III only"
+   },
+   {
+    "key": "D",
+    "text": "I, II and III"
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "Fluorine shows mainly the -1 state, and chlorine shows -1, +1, +3, +5 and +7. Most halogens, such as chlorine, bromine and iodine, show variable oxidation states, so all three statements are correct."
+ },
+ {
+  "id": "c2eb01dd-dc58-4015-a147-03956a77a639",
+  "stem": "Statement I: In group 14 elements, the stability of the +2 oxidation state increases down the group. Statement II: This is due to increased shielding of the valence s-electrons by inner d- and f-electrons, which makes them less available for bonding. Which option is correct?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both statements are correct, but Statement II is not the correct explanation of Statement I."
+   },
+   {
+    "key": "B",
+    "text": "Statement I is correct, but Statement II is incorrect."
+   },
+   {
+    "key": "C",
+    "text": "Both statements are correct, and Statement II is the correct explanation of Statement I."
+   },
+   {
+    "key": "D",
+    "text": "Statement I is incorrect, but Statement II is correct."
+   }
+  ],
+  "correct_key": "B",
+  "explanation": "The +2 state becomes more stable down group 14 because the ns2 electrons are held more tightly, which is the inert pair effect. Statement II is incorrect because d- and f-electrons shield the valence electrons poorly, so the valence s-electrons feel a stronger effective nuclear charge."
+ },
+ {
+  "id": "cfbc2ab2-01a1-40dd-b140-322830bcd36e",
+  "stem": "Assertion: Aldehydes are more easily oxidized than ketones. Reason: Aldehydes have a hydrogen atom directly bonded to the carbonyl carbon, which facilitates oxidation. Choose the best answer.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Assertion and Reason are true, and Reason correctly explains Assertion."
+   },
+   {
+    "key": "B",
+    "text": "Both Assertion and Reason are true, but Reason does not correctly explain Assertion."
+   },
+   {
+    "key": "C",
+    "text": "Assertion is true, but Reason is false because ease of oxidation depends solely on steric factors."
+   },
+   {
+    "key": "D",
+    "text": "Assertion is false, because ketones oxidize more readily than aldehydes."
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "Aldehydes carry a hydrogen directly on the carbonyl carbon, which ketones lack, and this aldehydic C-H is the feature that makes oxidation easier. The reason therefore correctly explains the assertion."
+ },
+ {
+  "id": "ec523bbe-9c5f-44b7-ae95-83ffed6a598e",
+  "stem": "Consider the following statements about oxides of group 15 elements. Statement I: N2O3 is more acidic than P2O3. Statement II: As2O3 is amphoteric. Statement III: Bi2O3 is basic. Which of the following is correct?",
+  "options": [
+   {
+    "key": "A",
+    "text": "I and II only"
+   },
+   {
+    "key": "B",
+    "text": "II and III only"
+   },
+   {
+    "key": "C",
+    "text": "I and III only"
+   },
+   {
+    "key": "D",
+    "text": "I, II and III"
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "The acidic character of group 15 oxides decreases down the group, so N2O3 is more acidic than P2O3 and Statement I is true. As2O3 is amphoteric, and Bi2O3 is basic because basic character increases down the group, so Statements II and III are also true. Hence all three statements are correct."
+ },
+ {
+  "id": "41ad5e91-5569-4c20-a91e-3a046671ff87",
+  "stem": "Assertion: (A AND B) OR (A AND C) = A AND (B OR C). Reason: This factoring reduces the number of logical checks and can decrease the hardware gates required for a condition.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Assertion and Reason are true and Reason correctly explains Assertion"
+   },
+   {
+    "key": "B",
+    "text": "Both Assertion and Reason are true but Reason does not correctly explain Assertion"
+   },
+   {
+    "key": "C",
+    "text": "Assertion is true but Reason is false"
+   },
+   {
+    "key": "D",
+    "text": "Assertion is false and Reason is false"
+   }
+  ],
+  "correct_key": "B",
+  "explanation": "The equality is an instance of the distributive law of Boolean algebra, which is why it holds. Fewer checks and gates are a consequence of simplifying the expression, not the reason the identity is true, so the Reason is true but does not explain the Assertion."
+ },
+ {
+  "id": "5f6ff7be-85ae-402a-b7d6-163e4aeb6897",
+  "stem": "A 1.2 GB data file must be transferred over a 100 Mbps network link. Ignoring protocol overheads, what is the approximate raw transfer time in minutes?",
+  "options": [
+   {
+    "key": "A",
+    "text": "1.6 minutes"
+   },
+   {
+    "key": "B",
+    "text": "96 minutes"
+   },
+   {
+    "key": "C",
+    "text": "16 minutes"
+   },
+   {
+    "key": "D",
+    "text": "160 minutes"
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "One byte is 8 bits, so 1.2 GB is 9.6 gigabits, or 9,600 megabits. At 100 Mbps this takes 96 seconds, which is about 1.6 minutes, so option A is correct. The other options come from slips in the bit-to-byte and seconds-to-minutes conversions."
+ },
+ {
+  "id": "b1391ceb-9fa7-4f18-be40-32c6c5ccd70c",
+  "stem": "Consider the following statements about loops in Python: Statement I: The else block in a for loop executes mainly if the loop completes most iterations without a break. Statement II: The range(5) function generates numbers from 0 to 4. Statement III: A while loop can be used when the number of iterations is unknown.",
+  "options": [
+   {
+    "key": "A",
+    "text": "I and II only"
+   },
+   {
+    "key": "B",
+    "text": "I, II and III"
+   },
+   {
+    "key": "C",
+    "text": "I and III only"
+   },
+   {
+    "key": "D",
+    "text": "II and III only"
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "The else clause of a for or while loop runs when the loop finishes without a break, not when most iterations complete, so Statement I is false. Statements II and III are true: range(5) yields 0 to 4, and a while loop suits an unknown number of iterations."
+ },
+ {
+  "id": "c5c01808-206d-4b87-ba10-3e0a18ec45d1",
+  "stem": "Read the statements about the GROUP BY and HAVING clauses in MySQL. Statement I: HAVING filters groups after grouping, while WHERE filters rows before grouping. Statement II: HAVING can be used without GROUP BY. Statement III: HAVING can contain aggregate functions, but WHERE cannot. Which option is correct?",
+  "options": [
+   {
+    "key": "A",
+    "text": "I and II only"
+   },
+   {
+    "key": "B",
+    "text": "II and III only"
+   },
+   {
+    "key": "C",
+    "text": "I, II and III"
+   },
+   {
+    "key": "D",
+    "text": "I and III only"
+   }
+  ],
+  "correct_key": "C",
+  "explanation": "Statement I is true because HAVING acts on groups after grouping, while WHERE acts on rows before grouping. Statement II is true because MySQL accepts HAVING without GROUP BY and treats the whole result as one group. Statement III is true because HAVING can test aggregates such as COUNT() and SUM(), which WHERE cannot."
+ },
+ {
+  "id": "d87d3973-bb8d-40a5-974e-fc9e288760e7",
+  "stem": "Assertion (A): Strings in Python are immutable, so concatenation creates a new string object. Reason (R): The id() function returns the identity (memory address) of an object in CPython.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Assertion and Reason are true, but the Reason is not the correct explanation of the Assertion."
+   },
+   {
+    "key": "B",
+    "text": "Both Assertion and Reason are true, and the Reason is the correct explanation of the Assertion."
+   },
+   {
+    "key": "C",
+    "text": "Assertion is true, but Reason is false."
+   },
+   {
+    "key": "D",
+    "text": "Assertion is false, but Reason is true."
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "Both statements are true: strings cannot be changed in place, so concatenation builds a new object. The Reason is a true fact about id(), but it does not explain why immutability forces a new object to be created, so it is not the explanation of the Assertion."
+ },
+ {
+  "id": "0f46c0d5-785e-4072-a891-4cf99b2a924b",
+  "stem": "Assertion: Repo rate is the rate at which the central bank lends short-term funds to commercial banks. Reason: A decrease in repo rate encourages banks to borrow more from the central bank, leading to an increase in money supply. Choose the correct option.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."
+   },
+   {
+    "key": "B",
+    "text": "Assertion is true but Reason is false."
+   },
+   {
+    "key": "C",
+    "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."
+   },
+   {
+    "key": "D",
+    "text": "Assertion is false but Reason is true."
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "The repo rate is the rate at which the central bank lends short-term funds to banks, so the assertion is true. The reason is also true, since a lower repo rate makes borrowing cheaper and raises the money supply, but it describes an effect of changing the rate rather than the definition in the assertion, so it does not explain the assertion."
+ },
+ {
+  "id": "12b99a89-2bd2-423e-80bd-f04d81cbc83a",
+  "stem": "Read the statements and choose the correct option. Statement I: The colonial government built railways primarily to mobilise army and administrative control. Statement II: Railways facilitated commercialisation of agriculture but did not integrate the Indian economy significantly. Statement III: Railways linked the interior regions to ports, which increased the export of raw materials.",
+  "options": [
+   {
+    "key": "A",
+    "text": "I and II only"
+   },
+   {
+    "key": "B",
+    "text": "II and III only"
+   },
+   {
+    "key": "C",
+    "text": "I and III only"
+   },
+   {
+    "key": "D",
+    "text": "I, II and III"
+   }
+  ],
+  "correct_key": "C",
+  "explanation": "Railways were built largely for military mobility and administrative control, so Statement I is correct. They linked the hinterland to ports and integrated the national market, which makes Statement II false. Statement III is correct because the rail network increased the export of raw materials."
+ },
+ {
+  "id": "2629e6c6-c1ef-40ff-b420-79de61e4f7da",
+  "stem": "Assertion: Fiscal deficit is always equal to the revenue deficit. Reason: Fiscal deficit equals the revenue deficit plus capital expenditure minus non-debt capital receipts. Choose the correct option.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Assertion and Reason are true, and Reason explains Assertion."
+   },
+   {
+    "key": "B",
+    "text": "Both Assertion and Reason are true, but Reason does not explain Assertion."
+   },
+   {
+    "key": "C",
+    "text": "Assertion is true, but Reason is false."
+   },
+   {
+    "key": "D",
+    "text": "Assertion is false, but Reason is true."
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "Fiscal deficit equals revenue deficit plus capital expenditure minus non-debt capital receipts, so it equals the revenue deficit only when that net capital component is zero. The assertion claims equality in all cases and is therefore false, while the reason states the correct identity."
+ },
+ {
+  "id": "4a68cdd8-6f7c-443a-aabf-e797fd0357e2",
+  "stem": "Assertion: Bank nationalisation in 1969 helped expand branch networks into rural areas. Reason: Nationalisation removed the need for banks to pursue profits. Choose the correct option.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Assertion and Reason are true and Reason correctly explains Assertion"
+   },
+   {
+    "key": "B",
+    "text": "Both Assertion and Reason are true but Reason does not correctly explain Assertion"
+   },
+   {
+    "key": "C",
+    "text": "Assertion is true but Reason is false"
+   },
+   {
+    "key": "D",
+    "text": "Assertion is false but Reason is true"
+   }
+  ],
+  "correct_key": "C",
+  "explanation": "Branch expansion into rural areas followed the 1969 nationalisation, so the Assertion is true. The Reason is false because nationalised banks remained expected to be financially viable while also pursuing social objectives such as priority-sector lending."
+ },
+ {
+  "id": "5e6c616f-bec7-4ce5-bd7f-3c01c9a44db8",
+  "stem": "Assertion: The land revenue systems established during colonial rule were designed to maximize revenue for the British. Reason: This led to widespread indebtedness among farmers, impacting agricultural productivity negatively.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Assertion and Reason are true, but the Reason does not explain the Assertion."
+   },
+   {
+    "key": "B",
+    "text": "Assertion is true, but Reason is false."
+   },
+   {
+    "key": "C",
+    "text": "Assertion is false, but Reason is true."
+   },
+   {
+    "key": "D",
+    "text": "Both Assertion and Reason are true, and the Reason explains the Assertion."
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "Both statements are true: colonial land revenue systems were designed to extract maximum revenue, and the heavy demands left many farmers in debt. However, indebtedness was a consequence of the revenue demand, not the reason the systems were designed that way, so the Reason does not explain the Assertion."
+ },
+ {
+  "id": "bce0793e-faaf-41d8-b420-2d90607d6a55",
+  "stem": "A rural producer hires successive workers; each worker increases output by 5, 4, 2 and 1 units respectively. If wage per worker is Rs. 200, what is the marginal cost (MC) per additional unit produced by the third worker?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Rs. 40"
+   },
+   {
+    "key": "B",
+    "text": "Rs. 100"
+   },
+   {
+    "key": "C",
+    "text": "Rs. 50"
+   },
+   {
+    "key": "D",
+    "text": "Rs. 200"
+   }
+  ],
+  "correct_key": "B",
+  "explanation": "The third worker adds 2 units of output, so the marginal cost per unit is the wage divided by the marginal product: 200 / 2 = Rs. 100."
+ },
+ {
+  "id": "c0707438-50ef-4836-93a1-046ced797ab8",
+  "stem": "Match List I (cost concepts) with List II (rural examples). List I: (A) Fixed cost, (B) Variable cost, (C) Average fixed cost, (D) Marginal cost. List II: (1) Daily wages of harvest labour, (2) Purchase of a village loom, (3) Change in total cost when output increases by one unit, (4) Fixed cost of machinery spread over each unit of output. Choose the correct matching.",
+  "options": [
+   {
+    "key": "A",
+    "text": "A-2, B-1, C-4, D-3"
+   },
+   {
+    "key": "B",
+    "text": "A-1, B-2, C-3, D-4"
+   },
+   {
+    "key": "C",
+    "text": "A-2, B-1, C-3, D-4"
+   },
+   {
+    "key": "D",
+    "text": "A-3, B-4, C-1, D-2"
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "The purchase of a village loom is a fixed cost (2), and daily harvest wages are a variable cost (1). Average fixed cost is fixed cost spread over each unit of output (4), and marginal cost is the change in total cost when output rises by one unit (3)."
+ },
+ {
+  "id": "5ff5d221-553c-48ba-9e84-a54edceb92ec",
+  "stem": "Rearrange the following sentences to form a coherent paragraph: A. However, this ease of access has led to a decline in deep reading habits. B. Consequently, educators emphasise the need for digital literacy skills. C. Digital platforms have made vast amounts of information available instantly. D. Without such skills, students may struggle to evaluate sources critically.",
+  "options": [
+   {
+    "key": "A",
+    "text": "CADB"
+   },
+   {
+    "key": "B",
+    "text": "CABD"
+   },
+   {
+    "key": "C",
+    "text": "ACBD"
+   },
+   {
+    "key": "D",
+    "text": "CBAD"
+   }
+  ],
+  "correct_key": "B",
+  "explanation": "Sentence C introduces the instant availability of information, which opens the paragraph. Sentence A, linked by 'However', contrasts this ease of access with the decline in deep reading, and B follows as the consequence that educators stress digital literacy. D, beginning 'Without such skills', closes by naming the risk of lacking them."
+ },
+ {
+  "id": "1af5925d-da65-4ab8-b48e-92c48b9c13b5",
+  "stem": "In a village of 200 households, 120 households are engaged in agriculture, 25 in fishing, and 10 in forestry, and the rest are in non-primary occupations. What percentage of households are engaged in primary activities?",
+  "options": [
+   {
+    "key": "A",
+    "text": "77.5%"
+   },
+   {
+    "key": "B",
+    "text": "82.5%"
+   },
+   {
+    "key": "C",
+    "text": "85%"
+   },
+   {
+    "key": "D",
+    "text": "90%"
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "Households in primary activities are 120 + 25 + 10 = 155. Their share is 155 / 200 x 100 = 77.5%."
+ },
+ {
+  "id": "28450fa9-265a-4b80-8a97-0130aedfdaad",
+  "stem": "A non-renewable mineral deposit has proven reserves of 60 million tonnes. Annual extraction is 2.5 million tonnes. How many years will the reserves last at this rate?",
+  "options": [
+   {
+    "key": "A",
+    "text": "24 years"
+   },
+   {
+    "key": "B",
+    "text": "30 years"
+   },
+   {
+    "key": "C",
+    "text": "36 years"
+   },
+   {
+    "key": "D",
+    "text": "48 years"
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "Reserve life is proven reserves divided by annual extraction: 60 million tonnes / 2.5 million tonnes per year = 24 years."
+ },
+ {
+  "id": "afb85e59-65b1-4f6e-b23a-5ff696b6045d",
+  "stem": "Consider the following statements regarding the 'Agglomeration Economies' in industrial geography: 1. They refer to the benefits derived from the link between industries and their markets. 2. They lead to cost reduction due to shared infrastructure and services. Which of the above is/are correct?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Only 1"
+   },
+   {
+    "key": "B",
+    "text": "Only 2"
+   },
+   {
+    "key": "C",
+    "text": "Both 1 and 2"
+   },
+   {
+    "key": "D",
+    "text": "Neither 1 nor 2"
+   }
+  ],
+  "correct_key": "B",
+  "explanation": "Agglomeration economies are cost savings that firms gain by clustering, such as shared labour pools, transport and ancillary services. Statement 1 misdescribes them as market linkages, so only statement 2 is correct."
+ },
+ {
+  "id": "c463b369-4756-4132-957a-2239e32e4c20",
+  "stem": "Assertion: Manufacturing industries contribute significantly to GDP. Reason: Manufacturing industries create job opportunities in urban areas. Choose the best answer.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both assertion and reason are true, but the reason does not explain the assertion."
+   },
+   {
+    "key": "B",
+    "text": "The assertion is true, but the reason is false."
+   },
+   {
+    "key": "C",
+    "text": "Both assertion and reason are true, and the reason explains the assertion."
+   },
+   {
+    "key": "D",
+    "text": "The assertion is false, but the reason is true."
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "Manufacturing contributes to GDP through the value of the goods it produces. Job creation in urban areas is a true effect, but it does not explain that contribution, so the reason does not explain the assertion."
+ },
+ {
+  "id": "d9a5b65b-a8f2-40c5-b929-579c2c648bd9",
+  "stem": "Assertion: Cultural landscape is a central object of study in human geography because it records human activities and reflects human-environment interaction. Reason: Cultural landscapes are dynamic and continuously shaped by present human actions and past influences. Choose the correct option.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Assertion is true and Reason is true and Reason explains Assertion"
+   },
+   {
+    "key": "B",
+    "text": "Assertion is true and Reason is true but Reason does not explain Assertion"
+   },
+   {
+    "key": "C",
+    "text": "Assertion is true but Reason is false"
+   },
+   {
+    "key": "D",
+    "text": "Assertion is false but Reason is true"
+   }
+  ],
+  "correct_key": "B",
+  "explanation": "Both statements are true: cultural landscapes record human activity and human-environment interaction, which is why they are central to human geography. The Reason correctly describes landscapes as dynamic, but this does not explain why they are a central object of study, so it is not the explanation."
+ },
+ {
+  "id": "f2bd23fd-431e-46e3-9554-c38389a605c4",
+  "stem": "Which of the following correctly defines the work participation rate (WPR)?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Workers as a percentage of the total population"
+   },
+   {
+    "key": "B",
+    "text": "Workers as a percentage of the total number of non-workers"
+   },
+   {
+    "key": "C",
+    "text": "Non-workers as a percentage of the total population"
+   },
+   {
+    "key": "D",
+    "text": "Workers as a percentage of the total labour force"
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "The work participation rate is calculated as the number of workers divided by the total population, multiplied by 100. The other options reverse the base or use a different denominator, so they do not match the definition."
+ },
+ {
+  "id": "811bbba4-8fd3-4a45-ad40-a53d8fc22869",
+  "stem": "Assertion: The Champaran Satyagraha (1917) primarily targeted the exploitative indigo planting system imposed by European planters. Reason: Gandhi combined non-violent protest with creation of local investigative committees and legal petitions to secure relief for tenants. Choose the correct option.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Assertion and Reason are true and Reason explains the Assertion"
+   },
+   {
+    "key": "B",
+    "text": "Both Assertion and Reason are true but Reason does not explain the Assertion"
+   },
+   {
+    "key": "C",
+    "text": "Assertion is true but Reason is false"
+   },
+   {
+    "key": "D",
+    "text": "Assertion is false but Reason is true"
+   }
+  ],
+  "correct_key": "B",
+  "explanation": "Champaran tenants were forced to grow indigo on a fixed share of their land under the tinkathia system, which is why the Assertion is true. Gandhi's inquiry committee and legal petitions secured relief for tenants, so the Reason is true. The Reason describes how the grievance was pursued, not why indigo was the target, so it does not explain the Assertion."
+ },
+ {
+  "id": "f2914274-c255-4a52-8001-3bda4e8c2d75",
+  "stem": "Assertion: Stupas were built to house the bodily relics of the Buddha or other revered teachers. Reason: The presence of relics transformed stupas into focal points for pilgrimage and communal worship.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both assertion and reason are true, and the reason correctly explains the assertion"
+   },
+   {
+    "key": "B",
+    "text": "Both assertion and reason are true, but the reason does not explain the assertion"
+   },
+   {
+    "key": "C",
+    "text": "Assertion is true but the reason is false"
+   },
+   {
+    "key": "D",
+    "text": "Both assertion and reason are false"
+   }
+  ],
+  "correct_key": "B",
+  "explanation": "Stupas were built to enshrine relics of the Buddha and other revered teachers, so the assertion is true. The reason is also true, since relics later made stupas centres of pilgrimage and worship, but this describes a later role rather than why stupas were built."
+ },
+ {
+  "id": "4e7ac489-32b2-47f3-a0d3-7c363c2449c9",
+  "stem": "Assertion: The general solution of a first-order linear differential equation is unique. Reason: A first-order linear differential equation can be written in standard form. Choose the correct option.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Assertion is true but Reason is false; Reason does not support Assertion"
+   },
+   {
+    "key": "B",
+    "text": "Both Assertion and Reason are true; Reason supports Assertion"
+   },
+   {
+    "key": "C",
+    "text": "Assertion is false but Reason is true; Reason does not support Assertion"
+   },
+   {
+    "key": "D",
+    "text": "Both Assertion and Reason are false; neither supports the other"
+   }
+  ],
+  "correct_key": "C",
+  "explanation": "The general solution contains an arbitrary constant, so it is not unique and the Assertion is false. Writing the equation in standard form is a true statement, but it says nothing about uniqueness, so the Reason is true and does not support the Assertion."
+ },
+ {
+  "id": "508b460b-ae4e-40cc-b8c6-dcda27fcc9b4",
+  "stem": "Let A = {1, 2, 3} and let R be a relation on A defined by R = {(1,1), (2,2), (3,3), (1,2), (2,1)}. Which of the following describes R correctly?",
+  "options": [
+   {
+    "key": "A",
+    "text": "R is an equivalence relation whose classes are {1,2} and {3}"
+   },
+   {
+    "key": "B",
+    "text": "R is reflexive and symmetric but not transitive, hence not an equivalence relation"
+   },
+   {
+    "key": "C",
+    "text": "R is an equivalence relation only if we add (1,3) and (2,3)"
+   },
+   {
+    "key": "D",
+    "text": "R is transitive and symmetric but not reflexive"
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "R contains (1,1), (2,2) and (3,3), so it is reflexive, and it contains both (1,2) and (2,1), so it is symmetric. Checking transitivity, every chain of two pairs such as (1,2) and (2,1) gives (1,1), and every other chain also lands in R, so R is transitive. R is therefore an equivalence relation whose classes are {1,2} and {3}."
+ },
+ {
+  "id": "029cbe99-88bc-4458-b427-a325f94a5cb3",
+  "stem": "Assertion: The magnetic field inside a long solenoid is uniform. Reason: The strength of the magnetic field depends on both current and number of turns per unit length.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Assertion and Reason are true, but the Reason does not explain the Assertion."
+   },
+   {
+    "key": "B",
+    "text": "Assertion is true, but Reason is false."
+   },
+   {
+    "key": "C",
+    "text": "Assertion is false, but Reason correctly states conditions for uniformity."
+   },
+   {
+    "key": "D",
+    "text": "Both Assertion and Reason are true, and the Reason explains the Assertion."
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "The field inside a long solenoid is uniform because the turns are evenly spaced and the solenoid is long, so end effects are negligible. The reason is true because B = mu0 n I depends on current and turns per unit length, but it gives only the magnitude of the field and does not account for its uniformity."
+ },
+ {
+  "id": "0eaa849e-27f0-4679-b00b-ac91900a4650",
+  "stem": "A coil with 100 turns experiences a change in magnetic flux through each turn of 5.0 x 10^-5 Wb in 2.0 x 10^-3 s. The magnitude of the average induced emf is:",
+  "options": [
+   {
+    "key": "A",
+    "text": "2.5 V"
+   },
+   {
+    "key": "B",
+    "text": "0.25 V"
+   },
+   {
+    "key": "C",
+    "text": "25 V"
+   },
+   {
+    "key": "D",
+    "text": "0.025 V"
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "The average induced emf is N x (change in flux) / (time) = 100 x (5.0 x 10^-5 Wb) / (2.0 x 10^-3 s) = 100 x 0.025 V = 2.5 V."
+ },
+ {
+  "id": "132779bf-5a91-49c8-a320-5df173fd57e4",
+  "stem": "Consider the following statements about equipotential surfaces. Statement I: Equipotential surfaces can cross each other. Statement II: Electric field lines are always perpendicular to equipotential surfaces. Statement III: The potential difference between any two points on an equipotential surface is zero. Which of the following is correct?",
+  "options": [
+   {
+    "key": "A",
+    "text": "I and II only"
+   },
+   {
+    "key": "B",
+    "text": "II and III only"
+   },
+   {
+    "key": "C",
+    "text": "I, II and III"
+   },
+   {
+    "key": "D",
+    "text": "I and III only"
+   }
+  ],
+  "correct_key": "B",
+  "explanation": "Two equipotential surfaces cannot intersect, because a common point would have two different potentials, so Statement I is false. Electric field lines are always perpendicular to equipotential surfaces, and no work is needed to move a charge along one, so Statements II and III are correct."
+ },
+ {
+  "id": "3ca388a2-e0f5-4d73-8690-6e347ed9c763",
+  "stem": "Read the statements and select the correct option. Statement I: The magnetic dipole moment of a current loop is given by m = NIA. Statement II: The net magnetic force on a current loop in a uniform magnetic field is zero. Statement III: The torque on a current loop in a uniform magnetic field is independent of the shape of the loop.",
+  "options": [
+   {
+    "key": "A",
+    "text": "I and II only"
+   },
+   {
+    "key": "B",
+    "text": "II and III only"
+   },
+   {
+    "key": "C",
+    "text": "I and III only"
+   },
+   {
+    "key": "D",
+    "text": "I, II and III"
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "All three statements are correct. The dipole moment of a planar current loop is m = NIA, the net force on a loop in a uniform magnetic field is zero, and the torque NIAB sin θ depends only on the area of the loop, not on its shape."
+ },
+ {
+  "id": "4649f077-3127-4e6d-9ab4-92f0c918c171",
+  "stem": "Two capacitors C1 = 2.0 μF and C2 = 3.0 μF are connected in series across a 12 V battery. The total energy stored in the combination is:",
+  "options": [
+   {
+    "key": "A",
+    "text": "4.32 × 10⁻⁵ J"
+   },
+   {
+    "key": "B",
+    "text": "2.16 × 10⁻⁵ J"
+   },
+   {
+    "key": "C",
+    "text": "6.48 × 10⁻⁵ J"
+   },
+   {
+    "key": "D",
+    "text": "8.64 × 10⁻⁵ J"
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "The equivalent capacitance of two capacitors in series is (2.0 × 3.0)/(2.0 + 3.0) = 1.2 μF. The energy stored is U = ½CV² = ½ × 1.2 × 10⁻⁶ × 12² = 8.64 × 10⁻⁵ J."
+ },
+ {
+  "id": "4f8e8173-d8e2-43df-ac2e-f69cabce2da7",
+  "stem": "Assertion: The nuclear force is stronger than the electrostatic repulsive force between protons inside a stable nucleus. Reason: The nuclear force is charge-independent and acts between nucleons.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Assertion and Reason are true, but the Reason does not explain the Assertion."
+   },
+   {
+    "key": "B",
+    "text": "Both Assertion and Reason are true, and the Reason explains the Assertion."
+   },
+   {
+    "key": "C",
+    "text": "Assertion is true, but Reason is false."
+   },
+   {
+    "key": "D",
+    "text": "Assertion is false, but Reason is true."
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "Inside a stable nucleus the attractive nuclear force between nucleons is far stronger than the Coulomb repulsion between protons, which is why the nucleus stays bound. The Reason is also true, because the nuclear force does not depend on charge and acts in the same way between protons and neutrons. Charge independence, however, does not explain why the nuclear force overcomes electrostatic repulsion, so the Reason is not the explanation."
+ },
+ {
+  "id": "6912d7ee-4a25-4b30-9a7b-85d4f507c10e",
+  "stem": "A small charged insulating sphere is placed outside, near but not touching, a large uncharged isolated conducting hollow sphere. Immediately after it is brought near, which statement is true about the charge distribution on the conductor's outer surface?",
+  "options": [
+   {
+    "key": "A",
+    "text": "The outer surface acquires a nonuniform induced charge whose total equals +q."
+   },
+   {
+    "key": "B",
+    "text": "The outer surface remains uncharged because induced charges appear only on the inner cavity surface."
+   },
+   {
+    "key": "C",
+    "text": "The outer surface acquires a charge of −q to balance the −q induced on the side nearest the point charge."
+   },
+   {
+    "key": "D",
+    "text": "The outer surface acquires a nonuniform charge, but its net charge remains zero."
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "The external charge induces opposite charge on the near side of the outer surface and like charge on the far side, so the induced distribution is nonuniform. The conductor is isolated and initially neutral, so its total charge stays zero, and the cavity contains no charge, so the net outer charge is zero."
+ },
+ {
+  "id": "692a124b-64c3-4355-84f2-eca56177d6dc",
+  "stem": "Assertion: Isotopes have identical chemical properties due to the same electron configuration. Reason: Isotopes differ in their physical properties because of different masses. Choose the correct option.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Assertion and Reason are correct, but Reason does not explain Assertion."
+   },
+   {
+    "key": "B",
+    "text": "Both Assertion and Reason are correct, and Reason explains Assertion."
+   },
+   {
+    "key": "C",
+    "text": "Assertion is correct, but Reason is incorrect because isotopes have different electron configurations."
+   },
+   {
+    "key": "D",
+    "text": "Assertion is incorrect, but Reason is correct regarding isotopes."
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "Isotopes have the same number of electrons, so their chemical properties are identical, which is the assertion. Their different masses explain differences in physical properties such as density, which does not explain why the chemical properties match, so the reason is not the explanation."
+ },
+ {
+  "id": "73a88abb-e91f-4ffa-bb4b-a1f74b551904",
+  "stem": "Consider the following statements and choose the correct option. Statement I: The self-inductance of a solenoid depends on the number of turns per unit length. Statement II: Eddy currents are often undesirable in electrical devices. Statement III: The mutual inductance between two coils depends on their geometry and orientation.",
+  "options": [
+   {
+    "key": "A",
+    "text": "II and III only"
+   },
+   {
+    "key": "B",
+    "text": "I and II only"
+   },
+   {
+    "key": "C",
+    "text": "I, II and III"
+   },
+   {
+    "key": "D",
+    "text": "I and III only"
+   }
+  ],
+  "correct_key": "C",
+  "explanation": "All three statements are true. The self-inductance of a solenoid, L = mu0 n^2 A l, depends on the turns per unit length n, eddy currents cause heating and energy loss so they are undesirable in devices, and mutual inductance depends on the geometry and relative orientation of the coils."
+ },
+ {
+  "id": "7d091ab9-e731-4a86-b002-22aeb4365114",
+  "stem": "Consider the following statements about electromagnetic induction: Statement I: Self-inductance of a coil depends on the core material. Statement II: Mutual inductance between two coils is maximum when they are placed coaxially. Statement III: Eddy currents are often undesirable in electrical devices.",
+  "options": [
+   {
+    "key": "A",
+    "text": "II and III only"
+   },
+   {
+    "key": "B",
+    "text": "I and III only"
+   },
+   {
+    "key": "C",
+    "text": "I and II only"
+   },
+   {
+    "key": "D",
+    "text": "I, II and III"
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "All three statements are true. Self-inductance depends on the core material because the core permeability sets the inductance, mutual inductance is maximum when the coils are coaxial, and eddy currents are generally undesirable because they cause heating and energy loss."
+ },
+ {
+  "id": "9574b9cd-e755-41b8-8e86-c0c1014ba9d1",
+  "stem": "Assertion: When a glass rod is rubbed with silk, the glass rod acquires positive charge and silk acquires negative charge. Reason: Charge is conserved in an isolated system, meaning the total charge before and after rubbing remains the same.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both A and R are true and R is the correct explanation of A."
+   },
+   {
+    "key": "B",
+    "text": "Both A and R are true but R is not the correct explanation of A."
+   },
+   {
+    "key": "C",
+    "text": "A is true but R is false."
+   },
+   {
+    "key": "D",
+    "text": "A is false but R is true."
+   }
+  ],
+  "correct_key": "B",
+  "explanation": "Rubbing transfers electrons from the glass to the silk, which leaves the glass positive and the silk negative, so the Assertion is true. The Reason is also true, but conservation of charge only shows that the gained and lost charges are equal and opposite. It does not explain which body becomes positive."
+ },
+ {
+  "id": "9b7feb10-da63-445f-9fee-70aee05dbd71",
+  "stem": "A plane electromagnetic wave in vacuum has peak electric field amplitude E0 = 50 V m^-1. What is the average energy density (time-averaged) of the wave? (ε0 = 8.85*10^-12 F m^-1.)",
+  "options": [
+   {
+    "key": "A",
+    "text": "2.21 × 10^-8 J m^-3"
+   },
+   {
+    "key": "B",
+    "text": "1.11 × 10^-8 J m^-3"
+   },
+   {
+    "key": "C",
+    "text": "8.85 × 10^-12 J m^-3"
+   },
+   {
+    "key": "D",
+    "text": "2.21 × 10^-6 J m^-3"
+   }
+  ],
+  "correct_key": "B",
+  "explanation": "The time-averaged total energy density of a plane wave is u_avg = (1/2) eps0 E0^2, because the electric and magnetic parts each average to (1/4) eps0 E0^2. With E0 = 50 V m^-1 this gives (1/2) x 8.85 x 10^-12 x 2500 = 1.11 x 10^-8 J m^-3."
+ },
+ {
+  "id": "9d09992f-47bc-419f-926f-3d5fcfe1aa81",
+  "stem": "Assertion: In nuclear fusion, light nuclei combine to form a heavier nucleus. Reason: Fusion reactions are the source of energy in stars.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both Assertion and Reason are correct but the Reason does not explain the Assertion"
+   },
+   {
+    "key": "B",
+    "text": "Assertion is correct but Reason is incorrect"
+   },
+   {
+    "key": "C",
+    "text": "Assertion is incorrect but Reason is correct"
+   },
+   {
+    "key": "D",
+    "text": "Both Assertion and Reason are correct and the Reason explains the Assertion"
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "Light nuclei combining into a heavier nucleus is the process of nuclear fusion, so the Assertion is true. The Reason is also true, since fusion powers stars, but it describes an application and does not explain why light nuclei combine."
+ },
+ {
+  "id": "a6d8c965-1d2f-4a3c-8597-67b03554b574",
+  "stem": "Assertion: The dual nature of matter implies that particles exhibit both wave-like and particle-like properties. Reason: Wave-like behaviour is observed only for electrons, while other matter behaves purely as particles. Which of the following is true?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both assertion and reason are true, and the reason explains the assertion."
+   },
+   {
+    "key": "B",
+    "text": "The assertion is true, but the reason is false."
+   },
+   {
+    "key": "C",
+    "text": "The assertion is false, but the reason is true."
+   },
+   {
+    "key": "D",
+    "text": "Both assertion and reason are false."
+   }
+  ],
+  "correct_key": "B",
+  "explanation": "De Broglie's relation lambda = h/mv assigns a wave to every moving particle, so the dual nature is a property of all matter, including bodies too heavy to show measurable wave effects. The assertion is therefore true, while the reason wrongly restricts wave behaviour to electrons and is false."
+ },
+ {
+  "id": "b92d8722-c0d3-4004-b74f-c994381b98f4",
+  "stem": "Statement I: The magnitude of induced emf in a coil is directly proportional to the rate of change of magnetic flux linked with the coil. Statement II: Lenz's law determines the direction of induced current and is consistent with the law of conservation of energy. Statement III: Eddy currents are often undesirable as they cause unnecessary heating of metallic cores.",
+  "options": [
+   {
+    "key": "A",
+    "text": "I and II only"
+   },
+   {
+    "key": "B",
+    "text": "II and III only"
+   },
+   {
+    "key": "C",
+    "text": "I and III only"
+   },
+   {
+    "key": "D",
+    "text": "I, II and III"
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "Statement I is Faraday's law, Statement II describes Lenz's law, which is consistent with energy conservation, and Statement III is true because eddy currents cause unwanted heating in metallic cores. All three statements are correct."
+ },
+ {
+  "id": "e5824db6-ba11-49a9-b3fb-b0b213ba3c0b",
+  "stem": "Match List I (optical component) with List II (primary purpose). List I: (1) Achromatic doublet, (2) Diaphragm (aperture stop), (3) Convex mirror, (4) Concave lens. List II: (A) Produce virtual reduced image for correcting field-of-view, (B) Reduce off-axis aberrations and control brightness, (C) Correct chromatic aberration, (D) Diverge rays to form virtual image. Choose the correct matching.",
+  "options": [
+   {
+    "key": "A",
+    "text": "1–C, 2–B, 3–A, 4–D"
+   },
+   {
+    "key": "B",
+    "text": "1–B, 2–C, 3–D, 4–A"
+   },
+   {
+    "key": "C",
+    "text": "1–C, 2–B, 3–D, 4–A"
+   },
+   {
+    "key": "D",
+    "text": "1–A, 2–D, 3–C, 4–B"
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "An achromatic doublet corrects chromatic aberration (1–C). A diaphragm acting as an aperture stop controls brightness and reduces off-axis aberrations (2–B). A convex mirror forms a virtual, reduced image over a wide field of view (3–A). A concave lens diverges incident rays to form a virtual image (4–D)."
+ },
+ {
+  "id": "f22c84ec-861a-49ec-94cd-c6de06bedd57",
+  "stem": "A rectangular loop of dimensions 6 cm by 4 cm carries a current of 0.5 A. Its plane is held perpendicular to a uniform magnetic field of 0.2 T. What is the magnitude of the torque on the loop about an axis through its centre and lying in the plane of the loop?",
+  "options": [
+   {
+    "key": "A",
+    "text": "0.024 N·m"
+   },
+   {
+    "key": "B",
+    "text": "0.006 N·m"
+   },
+   {
+    "key": "C",
+    "text": "0.48 N·m"
+   },
+   {
+    "key": "D",
+    "text": "Zero"
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "When the plane of the loop is perpendicular to the field, its area vector and hence its magnetic moment m = IA point along B. The torque is m × B = mB sin 0° = 0 for any axis, so the magnitude is zero."
+ },
+ {
+  "id": "fba5293b-9b56-4441-a816-093c2d81d9d7",
+  "stem": "Two identical capacitors, each of capacitance C, are charged to the same voltage V. They are then disconnected from the source and connected in parallel, with their positive terminals joined together and their negative terminals joined together. Immediately after connection, the total stored energy in the combination is:",
+  "options": [
+   {
+    "key": "A",
+    "text": "Equal to the initial total energy"
+   },
+   {
+    "key": "B",
+    "text": "Greater than the initial total energy"
+   },
+   {
+    "key": "C",
+    "text": "Less than the initial total energy, as some energy is dissipated"
+   },
+   {
+    "key": "D",
+    "text": "Zero"
+   }
+  ],
+  "correct_key": "A",
+  "explanation": "Each capacitor stores CV^2/2, so the initial total energy is CV^2. Both capacitors already sit at the same potential V, so joining like terminals creates no potential difference and no charge flows. Each capacitor keeps its charge CV, so the total energy remains CV^2 and is unchanged."
+ },
+ {
+  "id": "9c95fa34-538e-4cf2-ab14-589f5f48068c",
+  "stem": "Assertion: Cognitive Behavioral Therapy (CBT) focuses on changing negative thought patterns. Reason: CBT is primarily concerned with unconscious processes.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both the assertion and reason are true, but the reason does not explain the assertion."
+   },
+   {
+    "key": "B",
+    "text": "The assertion is false, but the reason is true."
+   },
+   {
+    "key": "C",
+    "text": "Both the assertion and reason are true, and the reason correctly explains the assertion."
+   },
+   {
+    "key": "D",
+    "text": "The assertion is true, but the reason is false."
+   }
+  ],
+  "correct_key": "D",
+  "explanation": "CBT targets conscious, negative thought patterns and the behaviours they drive, so the Assertion is true. The Reason is false because CBT works mainly on conscious thinking, not on unconscious processes."
+ }
+]

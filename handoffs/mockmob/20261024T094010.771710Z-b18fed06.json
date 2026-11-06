@@ -1,0 +1,28 @@
+{
+  "id": "20261024T094010.771710Z-b18fed06",
+  "observed_at": "2026-10-24T09:40:10.771710+00:00",
+  "agent": "claude-opus-5.5 session 792c2e1f (Reel orchestrator)",
+  "task": "MockMob 9:16 Reel v2: owner notes on cand 4 (thumps, exam-day palette, middle sound design) -> sound1025 -> cand 5 -> final; cuts refresh after",
+  "status": "active",
+  "done": "Owner 2:35-2:50 pm notes in ledger (thump out of place; exam-day = the NTA interface / question palette, not MCQs; first 20-25 s + last 4-5 s sound design perfect, the middle lacking; don't worry about usage, he says at 95 %). sound1025.js (mk_sound1025.py) running as wf_a8600d35-f01: Build (bed rework Opus, tactile answer+askmobi / unlimited+mob / colleges+close Sonnet, examday palette + sound Opus, answer Mobi Sonnet) -> Integrate (Opus) -> Check (sound Opus, examday, answer). Done so far: answer Mobi (ball clears key), tactile unlimited+mob (4.1->4.7 and 2.4->3.0 cues/s; the tactile policy caps 4 cues per 1.02 s, so the opening's density comes from chapter .tsx cues()).",
+  "next": "When the Build phase ends: likely stop before/at the integration and run a second design pass on the chapter .tsx cues() (answer, askmobi, unlimited, mob, colleges, close callback) to reach the opening's density (4-7/s on busy moves), then integrate + check. Then render candidate 5 myself (bash scripts/render.sh Reel916 out/reel916/cand/cand5.mp4), look, send the phone copy; launch the final (last1025.js with args.last {} or a final-only script); then cuts.js stage 'refresh' with args.carry.",
+  "blockers": [
+    "5-hour usage at about 89 % (owner will say at 95 %; window resets 5:00 pm IST)"
+  ],
+  "evidence": [
+    "docs/OWNER-LEDGER.md 24 Oct 2:35-2:50 pm",
+    "docs/NOTES.md DIRECTOR SOUND DESIGN 2:45 PM",
+    "tools/reel916-orch/mk_sound1025.py",
+    "tools/reel916-orch/sound1025.js",
+    "out/timeline-reel.json cue density per chapter"
+  ],
+  "touched_files": [
+    "docs/OWNER-LEDGER.md",
+    "docs/NOTES.md",
+    "tools/reel916-orch/mk_sound1025.py",
+    "tools/reel916-orch/sound1025.js"
+  ],
+  "verification": "sound1025.js parse-checked; cue density measured from out/timeline-reel.json (open 7.6, reveal 7.1 vs middle 1.3-2.4 cues/s).",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

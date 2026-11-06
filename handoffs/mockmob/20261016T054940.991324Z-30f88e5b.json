@@ -1,0 +1,17 @@
+{
+  "id": "20261016T054940.991324Z-30f88e5b",
+  "observed_at": "2026-10-16T05:49:40.991324+00:00",
+  "agent": "claude-ia-lead-1016",
+  "task": "App IA decisions (bar, Colleges tab, You vs account sheet, onboarding, ownership map)",
+  "status": "complete",
+  "done": "Wrote docs/design-decisions/app-ia-1016.md: 6-slot bar (Today, Practice, Start, Review, Colleges, You), Start as a tab-shaped volt slot with exact geometry, new /colleges tab, You = study, avatar sheet = account, onboarding Aim on shared My colleges list, route map, ownership map.",
+  "next": "Owner sign-off on 6 slots and the Colleges name; Shell area builds bar + /colleges branch first, then areas in parallel.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "mockmob-next/docs/design-decisions/app-ia-1016.md"
+  ],
+  "verification": "Design only; nothing verified on a device. No code changed, no commit.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

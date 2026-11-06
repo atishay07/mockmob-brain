@@ -1,0 +1,585 @@
+{
+ "subject": "accountancy",
+ "examined": 451,
+ "counts": {
+  "ok": 342,
+  "move": 27,
+  "outside_syllabus": 63,
+  "outside_ncert": 1,
+  "flawed": 18
+ },
+ "items": {
+  "01dc09dc-7b8d-49f7-80ca-9619ee54aae2": {
+   "stored": "Share Capital",
+   "verdict": "flawed",
+   "why": "Forfeited shares amount is shown under share capital, not Reserves and Surplus, so key A is wrong"
+  },
+  "02948971-9988-4fe4-b995-56abfb3a02a5": {
+   "stored": "Share Capital",
+   "verdict": "flawed",
+   "why": "No called-up amount given; effect on paid-up capital is not the nominal value, so key A is unsupported"
+  },
+  "02a42575-14df-4f3e-8f18-7e34624cf899": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Conversion of debentures into shares"
+  },
+  "03b29bc0-556c-4c10-a183-301db9639240": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Capital redemption reserve"
+  },
+  "04219368-5f33-4615-b0ca-1d588afb5187": {
+   "stored": "Share Capital",
+   "verdict": "flawed",
+   "why": "Premium per share exceeds the allotment amount said to include it, so the whole premium cannot fall due on allotment; keyed answer assumes it does"
+  },
+  "05584693-769c-44d7-80d0-efabdbb0a922": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Conversion of a partnership firm into a company"
+  },
+  "057d7158-e1f5-409c-bd0e-ac342837c1b0": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Sweat equity shares"
+  },
+  "069340e6-f050-4079-978e-44aadbcbf8ce": {
+   "stored": "Share Capital",
+   "verdict": "move",
+   "why": "Common-size / comparative statement",
+   "to": "Comparative & Common Size Statements"
+  },
+  "06f35e09-4f48-4d0c-937a-e27b5d280f33": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Bonus shares"
+  },
+  "0a24d822-ab21-4ff3-9c17-72495d48dcfb": {
+   "stored": "Share Capital",
+   "verdict": "move",
+   "why": "Debenture interest / debenture-holder rights",
+   "to": "Debentures"
+  },
+  "0b2f66a0-7182-4b42-a31a-541380c32f0e": {
+   "stored": "Share Capital",
+   "verdict": "flawed",
+   "why": "Premium per share exceeds the allotment amount said to include it, so the whole premium cannot fall due on allotment; keyed answer assumes it does"
+  },
+  "10936431-67d7-44c2-b2a2-17fd141ab6d5": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Debenture redemption reserve (redemption of debentures is not in the unit list)"
+  },
+  "10a25849-4e4e-4f76-9866-974cc6075971": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Conversion of a firm into a company / purchase consideration (sale to a company is excluded)"
+  },
+  "1270e44e-8f36-4084-8e8b-584729d8cb16": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Bonus shares"
+  },
+  "128bc1a6-4498-45c6-bd07-d64cb27d741b": {
+   "stored": "Share Capital",
+   "verdict": "move",
+   "why": "Debenture interest / debenture-holder rights",
+   "to": "Debentures"
+  },
+  "134fa1ea-f301-4205-95e4-a9beb1cf817e": {
+   "stored": "Share Capital",
+   "verdict": "move",
+   "why": "Cash flow classification",
+   "to": "Cash Flow Statement"
+  },
+  "1b09a38c-495b-434e-8749-ea5005ad3563": {
+   "stored": "Share Capital",
+   "verdict": "flawed",
+   "why": "Premium per share exceeds the allotment amount said to include it, so the whole premium cannot fall due on allotment; keyed answer assumes it does"
+  },
+  "1b34def2-c06f-4add-856e-b00ca54bb2a3": {
+   "stored": "Debentures",
+   "verdict": "move",
+   "why": "Debt-equity ratio computation",
+   "to": "Accounting Ratios"
+  },
+  "1f2ad2da-f854-4acf-b425-7721acd0d202": {
+   "stored": "Financial Statements of Company",
+   "verdict": "outside_syllabus",
+   "why": "Conversion of a partnership firm into a company"
+  },
+  "1f76b636-7022-4077-8b08-09cf66c300de": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Redemption of debentures (methods, draw of lots, partial redemption)"
+  },
+  "1fd90da1-a455-4e63-81c7-836a3c94bc83": {
+   "stored": "Share Capital",
+   "verdict": "move",
+   "why": "Common-size / comparative statement",
+   "to": "Comparative & Common Size Statements"
+  },
+  "21b76b2e-2d0c-483e-ae64-8bb429863bf5": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Debenture redemption reserve (redemption of debentures is not in the unit list)"
+  },
+  "248464f4-8466-4be8-97a0-5c37e439a756": {
+   "stored": "Share Capital",
+   "verdict": "flawed",
+   "why": "Premium per share exceeds the allotment amount said to include it, so the whole premium cannot fall due on allotment; keyed answer assumes it does"
+  },
+  "275e50d5-f899-4ae8-b2f7-dea6319ba5c5": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Sinking fund for debenture redemption"
+  },
+  "2dc8afab-2eee-4003-9d50-7fcd2696cf45": {
+   "stored": "Financial Statements of Company",
+   "verdict": "outside_syllabus",
+   "why": "Conversion of a partnership firm into a company"
+  },
+  "2ecce589-7127-4e99-a1e8-7d0871067d69": {
+   "stored": "Financial Statements of Company",
+   "verdict": "outside_syllabus",
+   "why": "Debenture redemption reserve / sinking fund"
+  },
+  "32e215f5-7b47-4427-b608-f02d78487796": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Buy-back and capital redemption reserve"
+  },
+  "33040ab4-2942-4445-8d94-18b940ba0784": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Redemption of debentures (methods, draw of lots, partial redemption)"
+  },
+  "3337e24e-e404-4dba-a5b1-ebfcda116db7": {
+   "stored": "Debentures",
+   "verdict": "move",
+   "why": "Reads or builds comparative / common-size statements",
+   "to": "Comparative & Common Size Statements"
+  },
+  "339dd6ec-ccd7-4521-a4ef-21ef8b25a589": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Redemption of preference shares and capital redemption reserve"
+  },
+  "33c7e05b-b9ff-4b8e-8634-51c0c1e826cd": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Buy-back of shares"
+  },
+  "33c88991-106b-43a1-9ac4-91bb47213407": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Bonus shares"
+  },
+  "358ea76c-a623-4286-9752-9b2c40873c16": {
+   "stored": "Share Capital",
+   "verdict": "move",
+   "why": "Debenture interest / debenture-holder rights",
+   "to": "Debentures"
+  },
+  "35e7e9ea-5305-44f5-bb6f-4ee678da9d85": {
+   "stored": "Debentures",
+   "verdict": "move",
+   "why": "Reads or builds comparative / common-size statements",
+   "to": "Comparative & Common Size Statements"
+  },
+  "38443fbf-b79d-432e-bd77-32735d5a2ee3": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Sinking fund for debenture redemption"
+  },
+  "38b53a16-2d2b-4a8b-aad6-5ad70aae3b07": {
+   "stored": "Debentures",
+   "verdict": "move",
+   "why": "Reads or builds comparative / common-size statements",
+   "to": "Comparative & Common Size Statements"
+  },
+  "399b6f2e-3b1d-4874-be76-646931f9b625": {
+   "stored": "Debentures",
+   "verdict": "move",
+   "why": "Computerised accounting posting control",
+   "to": "Computerized Accounting System"
+  },
+  "408f4bc2-9e1e-4cbd-afac-f3c9adf841d0": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Conversion of debentures into shares"
+  },
+  "415ad1c8-47dc-4a52-94cc-c4762014d4a9": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Rights issue vs bonus issue"
+  },
+  "4312f08e-e3dc-46f6-961c-ce7d93b853cf": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Debenture redemption reserve (redemption of debentures is not in the unit list)"
+  },
+  "4c33ccd2-9412-4b77-b5ad-7d6038277fd5": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Buy-back of shares"
+  },
+  "4fa93ef1-4121-432d-9546-407f7aae62a5": {
+   "stored": "Share Capital",
+   "verdict": "outside_ncert",
+   "why": "Share transfer and certificate rules are not in the NCERT text"
+  },
+  "53d7a79e-e1ec-4ede-874b-0f8eb87256c8": {
+   "stored": "Debentures",
+   "verdict": "move",
+   "why": "Reads or builds comparative / common-size statements",
+   "to": "Comparative & Common Size Statements"
+  },
+  "577f9005-e078-45e5-ae63-cbd4eb8108c9": {
+   "stored": "Debentures",
+   "verdict": "flawed",
+   "why": "Key credits premium on issue to Premium on Redemption; NCERT credits it to Securities Premium"
+  },
+  "58aa9d49-26b4-411e-90d3-3faa05a22284": {
+   "stored": "Share Capital",
+   "verdict": "move",
+   "why": "Computerised accounting control",
+   "to": "Computerized Accounting System"
+  },
+  "5950462e-191f-460f-a0f7-13a63934aca2": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Rights issue vs bonus issue"
+  },
+  "5d86be1a-bf9f-422e-98af-78ef535debaa": {
+   "stored": "Financial Statements of Company",
+   "verdict": "outside_syllabus",
+   "why": "Debenture redemption reserve / sinking fund"
+  },
+  "61599eaa-b423-41f8-8c71-a5c9b9c3179a": {
+   "stored": "Share Capital",
+   "verdict": "move",
+   "why": "Cash flow classification",
+   "to": "Cash Flow Statement"
+  },
+  "6284dd58-5423-4cd0-a8fa-751b1749eadb": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Conversion of debentures into shares"
+  },
+  "63b4ad47-2fa5-4312-9e0a-48943a95502f": {
+   "stored": "Share Capital",
+   "verdict": "flawed",
+   "why": "Stem says final call pending yet key treats first call as made; explanation contradicts the stem"
+  },
+  "6896ee1a-eac5-4fa0-a5fe-4f68e9587709": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Bonus shares"
+  },
+  "698e750b-6e57-4b81-9854-1350544f1d28": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Debenture redemption reserve (redemption of debentures is not in the unit list)"
+  },
+  "6a88d8a9-f4ed-441a-a2ae-817abfb71b14": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Bonus shares"
+  },
+  "6a98bfd3-c5bf-4805-9ca9-87151cc380ca": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Purchase of own debentures in the market and redemption gain"
+  },
+  "6bd4c357-6693-4406-b23c-e8a3e47d2299": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Rights issue vs bonus issue"
+  },
+  "6d0045ac-ca21-443a-92c1-c231d76cac36": {
+   "stored": "Share Capital",
+   "verdict": "move",
+   "why": "Cash flow classification",
+   "to": "Cash Flow Statement"
+  },
+  "6eb8e624-fa2c-4b78-8d75-f4f0bfbdaaf6": {
+   "stored": "Share Capital",
+   "verdict": "move",
+   "why": "Common-size / comparative statement",
+   "to": "Comparative & Common Size Statements"
+  },
+  "70cf7dba-62ff-4e00-bf70-3c317e8380fe": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Debenture redemption reserve (redemption of debentures is not in the unit list)"
+  },
+  "72adc20a-a695-455c-a3a0-80c5577b0d71": {
+   "stored": "Share Capital",
+   "verdict": "flawed",
+   "why": "Premium per share exceeds the allotment amount said to include it, so the whole premium cannot fall due on allotment; keyed answer assumes it does"
+  },
+  "7759c37d-06a5-407a-b4df-64c0fd3a77d1": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Conversion of debentures into shares"
+  },
+  "788a636d-64ff-468e-9615-417637064fd5": {
+   "stored": "Debentures",
+   "verdict": "flawed",
+   "why": "NCERT shows discount on issue under Other Current/Non-Current Assets, not as a deduction from debentures"
+  },
+  "792b8471-25b7-49f0-9842-362a9ee2a808": {
+   "stored": "Debentures",
+   "verdict": "move",
+   "why": "Cash flow classification of debenture items",
+   "to": "Cash Flow Statement"
+  },
+  "7db2fa46-7c25-4fa8-829b-bc3ad9509ca8": {
+   "stored": "Debentures",
+   "verdict": "move",
+   "why": "Debt-equity ratio computation",
+   "to": "Accounting Ratios"
+  },
+  "7e98182d-b2f0-4a68-b3c0-b09743ac2022": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Conversion of a partnership firm into a company"
+  },
+  "86a2aa10-b88d-4660-8354-9ca7e9597a1f": {
+   "stored": "Share Capital",
+   "verdict": "flawed",
+   "why": "Premium per share exceeds the allotment amount said to include it, so the whole premium cannot fall due on allotment; keyed answer assumes it does"
+  },
+  "89477cf0-378e-4d32-9e20-45b52f98697a": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Buy-back of shares"
+  },
+  "894fc3d5-f5e7-400e-aab7-ee1a36bbb621": {
+   "stored": "Financial Statements of Company",
+   "verdict": "outside_syllabus",
+   "why": "Debenture redemption reserve / sinking fund"
+  },
+  "8f098250-d426-4fd6-9d23-7849a2bad1c6": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Bonus shares and EPS"
+  },
+  "90b859b7-8a3b-4674-8e5f-5116e017125a": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Bonus shares"
+  },
+  "9257d7c6-7f77-4731-aaf8-f2120e035102": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Bonus shares"
+  },
+  "979dd417-b7e5-4bf8-a999-2f543f629da8": {
+   "stored": "Financial Statements of Company",
+   "verdict": "outside_syllabus",
+   "why": "Conversion of a partnership firm into a company"
+  },
+  "998bed3b-67ec-4696-af9f-b8978939216a": {
+   "stored": "Debentures",
+   "verdict": "move",
+   "why": "Cash flow classification of debenture items",
+   "to": "Cash Flow Statement"
+  },
+  "9eeefee3-3f03-435f-a995-551358384259": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Redemption of debentures (methods, draw of lots, partial redemption)"
+  },
+  "9f6e8b7f-a957-4d60-bd04-f83c90989a4a": {
+   "stored": "Share Capital",
+   "verdict": "move",
+   "why": "Cash flow classification",
+   "to": "Cash Flow Statement"
+  },
+  "af77305f-7dda-4b49-9173-0033a5412d38": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Buy-back of shares"
+  },
+  "b272416e-146e-4a16-a891-9a4a0894ac53": {
+   "stored": "Financial Statements of Company",
+   "verdict": "outside_syllabus",
+   "why": "Debentures with warrants and EPS"
+  },
+  "b29a66fb56b078260537399fe3a3fcf1": {
+   "stored": "Share Capital",
+   "verdict": "flawed",
+   "why": "If premium was fully received it stays; key reverses it while the leave-unchanged option is the correct treatment"
+  },
+  "b6403a74-36f1-4c93-a3c7-ad36625f7a18": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Purchase of own debentures in the market and redemption gain"
+  },
+  "b7adc2b4-0d45-4367-beb2-578857b65b0d": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Conversion of a partnership firm into a company"
+  },
+  "bc634291-6be7-404a-904c-d6f05c26d2b4": {
+   "stored": "Financial Statements of Company",
+   "verdict": "outside_syllabus",
+   "why": "Debenture redemption reserve / sinking fund"
+  },
+  "bcf41ca2-2ba6-462b-9308-9157c16af701": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Debenture redemption reserve (redemption of debentures is not in the unit list)"
+  },
+  "bd6df01d-8ac2-45ee-916b-d290325701f7": {
+   "stored": "Share Capital",
+   "verdict": "flawed",
+   "why": "Premium per share exceeds the allotment amount said to include it, so the whole premium cannot fall due on allotment; keyed answer assumes it does"
+  },
+  "c5090b40-1e83-4623-b2c0-b6d711eadbb6": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Rights issue vs bonus issue"
+  },
+  "c59c317d-02fd-48fb-a8f3-39a52626276b": {
+   "stored": "Share Capital",
+   "verdict": "move",
+   "why": "Computerised accounting control",
+   "to": "Computerized Accounting System"
+  },
+  "c5ae8747-49d2-46e7-9e6e-3dea15ed0309": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Purchase of own debentures in the market and redemption gain"
+  },
+  "c766b18f-e796-4f3c-b6df-d3ba7ff03e24": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Debenture redemption reserve (redemption of debentures is not in the unit list)"
+  },
+  "ce315af4-2ee6-4890-87cc-23ad16fa208c": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Redemption of debentures (methods, draw of lots, partial redemption)"
+  },
+  "d009851c-ecf5-405a-b1c5-43fe8dec91bb": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Redemption of debentures (methods, draw of lots, partial redemption)"
+  },
+  "d0e86513-a195-4418-9c73-ca0c1176e4e7": {
+   "stored": "Debentures",
+   "verdict": "flawed",
+   "why": "Hinges on discount write-off timing; NCERT says life time (p.81) and year of issue (p.106)"
+  },
+  "d35f1caa-c10c-4710-bc20-4a6cde219e4a": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Redemption of debentures (methods, draw of lots, partial redemption)"
+  },
+  "d669451a-70db-4cb3-8379-c5ce5911c478": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Earnings per share"
+  },
+  "d8495016-e787-4441-b75f-3977e87908d0": {
+   "stored": "Debentures",
+   "verdict": "move",
+   "why": "Reads or builds comparative / common-size statements",
+   "to": "Comparative & Common Size Statements"
+  },
+  "e05ecfbb-6294-4dbf-88d3-4bcaef7ad9a3": {
+   "stored": "Debentures",
+   "verdict": "flawed",
+   "why": "Hinges on discount write-off timing; NCERT says life time (p.81) and year of issue (p.106)"
+  },
+  "e0b1af32-fde9-483d-8fbd-2f48fb2b6216": {
+   "stored": "Share Capital",
+   "verdict": "move",
+   "why": "Common-size / comparative statement",
+   "to": "Comparative & Common Size Statements"
+  },
+  "e1ca6d44-8e8b-4f90-a0a9-e41a21635e17": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Bonus shares"
+  },
+  "e3d7e70e-ed1a-4c46-b367-acc0e3aa825f": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Redemption of debentures (methods, draw of lots, partial redemption)"
+  },
+  "e4ea3760-5317-4ae8-9ac7-98bc2ff1be70": {
+   "stored": "Share Capital",
+   "verdict": "flawed",
+   "why": "Premium per share exceeds the allotment amount said to include it, so the whole premium cannot fall due on allotment; keyed answer assumes it does"
+  },
+  "e70911b8-00cc-4305-b938-c0145d04f352": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Conversion of a partnership firm into a company"
+  },
+  "f288d7f5-f384-4b03-b336-1a96ccfbb7c5": {
+   "stored": "Share Capital",
+   "verdict": "flawed",
+   "why": "Premium per share exceeds the allotment amount said to include it, so the whole premium cannot fall due on allotment; keyed answer assumes it does"
+  },
+  "f3447334-544f-4044-96fb-162a0a4a41ef": {
+   "stored": "Share Capital",
+   "verdict": "move",
+   "why": "Debt-equity ratio computation",
+   "to": "Accounting Ratios"
+  },
+  "f5a03be3-1a2f-4932-8451-90aebb3c69e5": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Conversion of debentures into shares"
+  },
+  "f5d403e8-f6b2-4444-83db-5433daa82124": {
+   "stored": "Share Capital",
+   "verdict": "move",
+   "why": "Common-size / comparative statement",
+   "to": "Comparative & Common Size Statements"
+  },
+  "f66962f6-abbd-43e7-a361-5d83b8847f01": {
+   "stored": "Share Capital",
+   "verdict": "move",
+   "why": "Debt-equity ratio computation",
+   "to": "Accounting Ratios"
+  },
+  "f73cc179-11ba-43fb-bbdc-c06cb3231f74": {
+   "stored": "Share Capital",
+   "verdict": "outside_syllabus",
+   "why": "Redemption of preference shares and capital redemption reserve"
+  },
+  "f7fc7dc6-439b-4513-a064-f781492c227e": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Conversion of debentures into shares"
+  },
+  "f8bbad73-5373-49c6-b074-b1b3c06bae8c": {
+   "stored": "Debentures",
+   "verdict": "outside_syllabus",
+   "why": "Purchase of own debentures in the market and redemption gain"
+  },
+  "f9a72c4b-7794-4e12-b98d-69690b2e999c": {
+   "stored": "Share Capital",
+   "verdict": "flawed",
+   "why": "Premium per share exceeds the allotment amount said to include it, so the whole premium cannot fall due on allotment; keyed answer assumes it does"
+  },
+  "f9afc74d-4f58-45dc-9cf3-dc841860578d": {
+   "stored": "Share Capital",
+   "verdict": "move",
+   "why": "Debt-equity ratio computation",
+   "to": "Accounting Ratios"
+  },
+  "fdb17916-9ad2-4738-886b-822069389e50": {
+   "stored": "Financial Statements of Company",
+   "verdict": "outside_syllabus",
+   "why": "Conversion of a partnership firm into a company"
+  }
+ }
+}

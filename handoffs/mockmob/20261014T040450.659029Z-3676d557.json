@@ -1,0 +1,31 @@
+{
+  "id": "20261014T040450.659029Z-3676d557",
+  "observed_at": "2026-10-14T04:04:50.659029+00:00",
+  "agent": "claude-opus-5.5 subagent (web redesign W1.1)",
+  "task": "Web redesign W1.1: shell and navigation, auth gate from hint, D1/D3/D10/D11/D12",
+  "status": "complete",
+  "done": "Commit 6591394 on branch web/W1.1 (from feat/web-redesign 902025c) in worktree mockmob copy/.claude/worktrees/wf_f8a19a10-56e-3. New src/lib/navigation.js (replaces arenaNavigation.js), components/shell/* (AppNav, AccountMenu, StartSheet, GuideTour, ShellStates, NavIcon, useDismiss, shell.css), components/nav/public-nav.css; rewrote NavBar, MobileDock, MemberDockAction, MarketingFooter, AppLayoutClient; visitor.css adds vs-first-only/vs-started-only/vs-pro-only. Not pushed, not deployed.",
+  "next": "Merge step: browser check (next dev) at 360/375/1024/1366x650/1920x1080 in Light and Night for S1,S2,S4,S5,S6 and pending/unavailable gates; add navigation.test.mjs to an npm test script; W1.2 must set html data-visitor-stage='first' and remove Arena copy in visitor_state/VisitorHero/LandingActions; profile needs id=plan and id=start-on anchors.",
+  "blockers": [],
+  "evidence": [
+    "node --test data/tests/navigation.test.mjs: 20/20 pass",
+    "test:recovery 39/39, test:visitor 22/22, test:auth 50/50, test:learning 91/91, ui_ux_state+pip_journey 7/7",
+    "npx eslint on changed JS files: exit 0"
+  ],
+  "touched_files": [
+    "src/lib/navigation.js",
+    "src/lib/arenaNavigation.js (deleted)",
+    "src/components/shell/*",
+    "src/components/nav/public-nav.css",
+    "src/components/NavBar.jsx",
+    "src/components/MobileDock.jsx",
+    "src/components/MemberDockAction.jsx",
+    "src/components/MarketingFooter.jsx",
+    "src/app/(app)/AppLayoutClient.jsx",
+    "src/app/visitor.css",
+    "data/tests/navigation.test.mjs"
+  ],
+  "verification": "Unit tests and lint only. No next build/dev and no browser check (per instructions; RAM).",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "20261014T190832.429079Z-b8b0892b",
+  "observed_at": "2026-10-14T19:08:32.430079+00:00",
+  "agent": "claude-sonnet-5.5 (repair client fixer)",
+  "task": "Mistake Repair clients catch up with the server failure codes (website + Flutter app)",
+  "status": "complete",
+  "done": "Website: MistakeRepair.jsx now sends through data/repair_client.mjs (95 s abort, fresh requestId after any charged:0 body, server message shown for every code, budget_reached/paused have no retry button). Committed 3354c561 on fix/repair-reliability in wt-repair, not pushed. App (wt-phase2/flutter_app, ui/phase2, uncommitted): ApiError keeps charged and the student sentence for repair codes; HttpRepairApi receive timeout 45 to 95 s; run controller maps provider_timeout and client timeout to \"This took too long. You were not charged.\" (no longer offline), provider_unavailable/wallet_unavailable/budget_reached/unusable_output to the server message, releases the stored requestId after a charged:0 failure (not for reopens), only paused (and 402) turn the run key-only.",
+  "next": "Orchestrator: push and deploy the website branch, commit the app files in wt-phase2. Open decisions: website shows the server's \"This one took too long.\" for provider_timeout while the app shows the fixed \"This took too long.\" (one word differs); budget_reached keeps the run going and each later mistake re-asks the server; website MistakeRepair.jsx has pre-existing mojibake \"Â·\" in two student-facing strings.",
+  "blockers": [],
+  "evidence": [
+    "wt-repair commit 3354c561",
+    "flutter review test log: scratchpad/flutter_review_tests.log"
+  ],
+  "touched_files": [
+    "wt-repair: data/repair_client.mjs (new)",
+    "wt-repair: data/repair_presentation.mjs",
+    "wt-repair: data/tests/repair_client.test.mjs (new, added to test:learning)",
+    "wt-repair: package.json",
+    "wt-repair: src/components/recovery/MistakeRepair.jsx",
+    "wt-repair: docs/brain/STATUS.md",
+    "wt-phase2/flutter_app: lib/core/api/api_error.dart",
+    "lib/features/review/data/repair_api.dart",
+    "lib/features/review/data/repair_run.dart",
+    "lib/features/review/data/repair_state.dart",
+    "lib/features/review/copy.dart",
+    "lib/features/review/widgets/mistake_view.dart",
+    "test/unit/review/repair_run_test.dart",
+    "test/unit/review/repair_error_codes_test.dart (new)"
+  ],
+  "verification": "Website: test:recovery 40/40, test:learning 171/171 (includes 10 new), test:app 108/108, eslint clean on the changed files. App: flutter analyze (lib/core/api/api_error.dart, lib/features/review, test/unit/review) No issues found; flutter test -j 1 test/unit/review: +156 All tests passed (20 new: 11 in repair_run_test failure group, 9 in repair_error_codes_test).",
+  "cost_and_pending_requests": "none",
+  "confidence": "agent-reported; verify evidence before acting"
+}

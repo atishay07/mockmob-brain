@@ -1,0 +1,32 @@
+{
+  "id": "20261031T061353.545645Z-26e0a5c2",
+  "observed_at": "2026-10-31T06:13:53.545645+00:00",
+  "agent": "claude subagent (wt-1031-kc-realdeck)",
+  "task": "Key cards web screens checked and polished against the REAL decks via a dev-only preview source",
+  "status": "complete",
+  "done": "Branch web/1031-kc-realdeck (from web/1031-keycards 90fddb40d), commits 9278abb6c, e010dea76, 9042f302e. Added &decks=real preview source (real createKeycards + decksOnce + syllabus v2, in-memory Free/Pro student: commerce, science, new). Fixed what real content broke: Accountancy book-name spellings, journal entries, double list markers, formula wrap, multi-line backs, English ellipsis/source/In short, kind said twice, Study in rounds of 20, unit heading duplicates, option picker default, subject tab out of view, line block nested dividers, empty copy for no-NCERT chapters.",
+  "next": "Orchestrator: review screenshots in tmp/walk-1031/realdeck, merge web/1031-kc-realdeck into web/1031-keycards. Day theme was captured as a subset (54 shots), night in full.",
+  "blockers": [],
+  "evidence": [
+    "tmp/walk-1031/realdeck/*.png (216 shots)",
+    "tmp/walk-1031/realdeck/perf.json"
+  ],
+  "touched_files": [
+    "src/lib/server/keycardsPreview.js",
+    "src/app/preview/arena/realdeck/route.js",
+    "src/app/preview/arena/previewRealDecks.js",
+    "src/app/preview/arena/ArenaPreviewClient.jsx",
+    "src/components/keycards/kinds.js",
+    "src/components/keycards/KeyCard.jsx",
+    "src/components/keycards/ChapterDeck.jsx",
+    "src/components/keycards/KeycardsHome.jsx",
+    "src/components/keycards/keycards.css",
+    "src/components/keycards/links.js",
+    "data/tests/keycards_preview.test.mjs",
+    "scripts/design-audit/keycards-1031-realdeck-capture.mjs",
+    "package.json"
+  ],
+  "verification": "test:keycards 42/42, test:keycards-ui 18/18, npm run lint clean, next build --webpack passes; .next/static has no real card ids, preview module absent from .next/server and static, production realdeck route returns 404. Real-pointer click walk passed (no covered controls). Scroll perf on 165-255 card decks: 0 frames over 50 ms (dev, unthrottled).",
+  "cost_and_pending_requests": "none (no paid calls)",
+  "confidence": "agent-reported; verify evidence before acting"
+}

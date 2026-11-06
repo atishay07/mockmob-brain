@@ -1,0 +1,568 @@
+{
+ "subject": "economics",
+ "examined": 454,
+ "counts": {
+  "ok": 350,
+  "move": 35,
+  "outside_syllabus": 53,
+  "outside_ncert": 11,
+  "flawed": 5
+ },
+ "items": {
+  "00321823-e24f-413c-950d-8cd6feb66290": {
+   "stored": "Market Equilibrium & Simple Applications",
+   "verdict": "move",
+   "to": "Theory of Firms under Perfect Competition",
+   "why": "long-run free entry and zero economic profit"
+  },
+  "00da6eac-29d9-4a64-b288-56049d43aabe": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "outside_syllabus",
+   "why": "deposit insurance and household cash holding; not in any unit"
+  },
+  "0240adb7-90fc-4fee-812e-2fb25c33791a": {
+   "stored": "Market Equilibrium & Simple Applications",
+   "verdict": "outside_syllabus",
+   "why": "market segmentation and law of one price"
+  },
+  "02ffc58b-7ac4-41f7-8664-045d11c943fd": {
+   "stored": "Development Experiences of India",
+   "verdict": "move",
+   "to": "Money & Banking",
+   "why": "simple money multiplier"
+  },
+  "0541d3a0-8cf8-464f-ad7b-81147603b60e": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "move",
+   "to": "Market Equilibrium & Simple Applications",
+   "why": "supply shift effect on equilibrium"
+  },
+  "06b04272-2c11-4e0e-b0d7-b8f071d3b65d": {
+   "stored": "Production & Costs",
+   "verdict": "outside_ncert",
+   "why": "three stages of production are not named in NCERT or the unit list"
+  },
+  "07cbb2d7-2de3-4574-96cb-9f1e609e6b70": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "outside_syllabus",
+   "why": "time preference and preference axioms (completeness, transitivity); not in unit list"
+  },
+  "0aac31f5-c01a-4d4d-9ba6-0a7bd5f3089c": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "move",
+   "to": "Rural Development",
+   "why": "rural education and healthcare investment"
+  },
+  "1010b50e-8eb0-4604-80db-6123be33e55f": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "move",
+   "to": "Market Equilibrium & Simple Applications",
+   "why": "demand fall effect on equilibrium"
+  },
+  "102a2236-fbf2-4af3-a71b-9d4e4472cf9a": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "move",
+   "to": "Market Equilibrium & Simple Applications",
+   "why": "simultaneous demand and supply shift"
+  },
+  "11e4721b-c9af-49ef-8c7c-f5b37d39b2c5": {
+   "stored": "Development Experiences of India",
+   "verdict": "move",
+   "to": "Rural Development",
+   "why": "regional rural bank credit to women entrepreneurs"
+  },
+  "13e0dfa7-a797-437b-9d05-fa3004910c08": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "outside_syllabus",
+   "why": "stability of money demand and financial innovation"
+  },
+  "14bc4d2d-e83b-4be3-aa56-966fe4073ca7": {
+   "stored": "Development Experiences of India",
+   "verdict": "move",
+   "to": "Introduction & Theory of Consumer Behaviour",
+   "why": "budget set affordability"
+  },
+  "15927ee9-2a9f-496e-929b-29ed2bce0b41": {
+   "stored": "Environment & Sustainable Development",
+   "verdict": "outside_syllabus",
+   "why": "precautionary principle and polluter pays principle"
+  },
+  "1df755826f9078ec6ff1992c51d38b83": {
+   "stored": "National Income & Related Aggregates",
+   "verdict": "outside_syllabus",
+   "why": "price index with fixed basket (CPI)"
+  },
+  "24ecaf31-dd67-417a-b97d-109ed3447362": {
+   "stored": "Indian Economy on the Eve of Independence",
+   "verdict": "outside_ncert",
+   "why": "GNP per head versus real wages in a province is not in NCERT text"
+  },
+  "25fc5353-75cb-4e8f-856d-884ef5e025e4": {
+   "stored": "Indian Economy on the Eve of Independence",
+   "verdict": "flawed",
+   "why": "ambiguous stem ('trickiest elimination') and no NCERT basis for forced-transfer claims"
+  },
+  "273e14ab-3769-4cf4-9443-2ff943b1a656": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "outside_syllabus",
+   "why": "velocity of money, financial innovation, consumption smoothing"
+  },
+  "27ff8c3d-84d0-490f-b9cd-876c0db7cd75": {
+   "stored": "Market Equilibrium & Simple Applications",
+   "verdict": "outside_syllabus",
+   "why": "per-unit subsidy and price paid by consumers"
+  },
+  "2899e808-740e-4c7d-9b45-ea6264f54951": {
+   "stored": "Production & Costs",
+   "verdict": "move",
+   "to": "Employment",
+   "why": "types of unemployment (match to firm costs)"
+  },
+  "28e9e78c-adba-4ebb-a72f-f1793e1f80ea": {
+   "stored": "Environment & Sustainable Development",
+   "verdict": "outside_syllabus",
+   "why": "tradable emission permits"
+  },
+  "2e419fc2-0921-4afa-b495-39a55fb8cc2c": {
+   "stored": "Environment & Sustainable Development",
+   "verdict": "outside_syllabus",
+   "why": "carbon tax"
+  },
+  "2f8564e0-39d6-4395-ac52-8fd768965976": {
+   "stored": "Economic Reforms Since 1991",
+   "verdict": "outside_syllabus",
+   "why": "crowding-in of private investment"
+  },
+  "310234cc-95ca-499c-8fda-376064477cf5": {
+   "stored": "Theory of Firms under Perfect Competition",
+   "verdict": "outside_syllabus",
+   "why": "negative externality and corrective tax"
+  },
+  "37b98d1f-88b8-4e04-bac2-f48c1e27885c": {
+   "stored": "Production & Costs",
+   "verdict": "flawed",
+   "why": "key A says small firms face diseconomies of scale; small firms lack economies of scale, concept misused"
+  },
+  "3a0f9799-436f-4b57-912d-da61206c8ab7": {
+   "stored": "Production & Costs",
+   "verdict": "outside_ncert",
+   "why": "sunk cost and shutdown rule not in NCERT text"
+  },
+  "3a4e3b0e-7f2e-4ca9-9fe4-a9829f8d3c52": {
+   "stored": "Environment & Sustainable Development",
+   "verdict": "outside_syllabus",
+   "why": "tragedy of the commons"
+  },
+  "3a9c4acc-e151-4114-abcb-47b088016a54": {
+   "stored": "Development Experiences of India",
+   "verdict": "move",
+   "to": "Introduction & Theory of Consumer Behaviour",
+   "why": "budget line when price falls"
+  },
+  "3ab5bdd5-5762-4601-b19e-d94541e7439f": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "move",
+   "to": "Theory of Firms under Perfect Competition",
+   "why": "firm supply curve under perfect competition"
+  },
+  "3eeaabe2-774d-4343-8bbb-16670a5ac5f1": {
+   "stored": "Money & Banking",
+   "verdict": "outside_syllabus",
+   "why": "deposit guarantees and moral hazard"
+  },
+  "44de535d-da3a-4631-bc30-e03ffbe97583": {
+   "stored": "Income Determination",
+   "verdict": "flawed",
+   "why": "options A and B both true: quadratic C makes APC and MPC both fall below zero at high Y"
+  },
+  "457b7185-1a96-4b87-a57e-253bc504af67": {
+   "stored": "Rural Development",
+   "verdict": "move",
+   "to": "Employment",
+   "why": "seasonal unemployment"
+  },
+  "49df1c2d-1444-4a3d-9a9d-457f0dea794b": {
+   "stored": "Rural Development",
+   "verdict": "outside_syllabus",
+   "why": "Panchayati Raj institutions"
+  },
+  "4a68cdd8-6f7c-443a-aabf-e797fd0357e2": {
+   "stored": "Development Experiences of India",
+   "verdict": "move",
+   "to": "Indian Economic Development 1950–1990",
+   "why": "1969 bank nationalisation"
+  },
+  "4cbbf678-6afe-4787-a96f-7d00e2368fd8": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "outside_syllabus",
+   "why": "money-demand motives and financial innovation"
+  },
+  "4cf742d6-71ea-4aa9-a44f-62a84a5fd9a4": {
+   "stored": "Rural Development",
+   "verdict": "outside_ncert",
+   "why": "wage and employment mismatch explanation has no NCERT basis"
+  },
+  "4d683aa2-80a0-46d9-8d84-0bd6a9835877": {
+   "stored": "Employment",
+   "verdict": "move",
+   "to": "Production & Costs",
+   "why": "marginal product of a worker"
+  },
+  "5a15ffdf-3a8a-43b5-acd3-1bfe003feddd": {
+   "stored": "Production & Costs",
+   "verdict": "move",
+   "to": "National Income & Related Aggregates",
+   "why": "value added, GDP at factor cost, NDP"
+  },
+  "5b9c3923-cf28-498c-8bcf-6d6ff2c967bf": {
+   "stored": "Money & Banking",
+   "verdict": "outside_syllabus",
+   "why": "inflation and purchasing power"
+  },
+  "5d96dbf9-730e-46ff-8a09-5d1e15db9c6b": {
+   "stored": "Production & Costs",
+   "verdict": "outside_syllabus",
+   "why": "payroll tax and labour demand"
+  },
+  "61ff1c2f-b474-43fd-9673-7b1c69140120": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "move",
+   "to": "Market Equilibrium & Simple Applications",
+   "why": "market equilibrium concept"
+  },
+  "625c263b-7db8-4fca-9cca-98d8fcbea882": {
+   "stored": "Environment & Sustainable Development",
+   "verdict": "outside_syllabus",
+   "why": "environmental public good"
+  },
+  "633074cc-972a-4034-b477-1f43f41e6864": {
+   "stored": "Production & Costs",
+   "verdict": "move",
+   "to": "National Income & Related Aggregates",
+   "why": "NDP vs GDP"
+  },
+  "6aa9c6ab-95f1-455e-80e9-26d15944015d": {
+   "stored": "Indian Economic Development 1950–1990",
+   "verdict": "flawed",
+   "why": "stem asks for the span of 'the given concept' but names no concept"
+  },
+  "6f8eca69-200d-4b92-8a1f-9301caa6770e": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "outside_syllabus",
+   "why": "labour-leisure choice with payroll tax (log utility)"
+  },
+  "704135de-fa7d-453e-bf57-062380283ff9": {
+   "stored": "Market Equilibrium & Simple Applications",
+   "verdict": "move",
+   "to": "Theory of Firms under Perfect Competition",
+   "why": "long-run equilibrium of a competitive firm"
+  },
+  "70f2790b-1fde-4026-bcb1-a82874d1646a": {
+   "stored": "Theory of Firms under Perfect Competition",
+   "verdict": "outside_syllabus",
+   "why": "tax incidence by elasticity"
+  },
+  "72cee0436dddd6f3eb028de629edfcd6": {
+   "stored": "Production & Costs",
+   "verdict": "outside_syllabus",
+   "why": "equal-output input combinations (isoquant idea)"
+  },
+  "73fea32a-38c4-4583-81ee-08a4d1496b23": {
+   "stored": "Employment",
+   "verdict": "outside_ncert",
+   "why": "employment elasticity of output is not in NCERT text"
+  },
+  "764a115b-934d-4003-b5bc-e9cec43decf9": {
+   "stored": "Income Determination",
+   "verdict": "outside_syllabus",
+   "why": "automatic stabilizers"
+  },
+  "765c28539460d21e44556e18f6ea5dc3": {
+   "stored": "Indian Economy on the Eve of Independence",
+   "verdict": "outside_syllabus",
+   "why": "provenance of a muslin textile label (history, not economics)"
+  },
+  "77691aae-ed23-437e-9e39-c45b02182fd6": {
+   "stored": "Rural Development",
+   "verdict": "outside_ncert",
+   "why": "time-horizon effects of public works, training and irrigation are not in NCERT text"
+  },
+  "7b9feb76-62df-4214-8c9f-e0454686b21b": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "move",
+   "to": "Rural Development",
+   "why": "rural irrigation investment"
+  },
+  "7c870041-f762-4125-880c-024536c6415b": {
+   "stored": "Economic Reforms Since 1991",
+   "verdict": "outside_syllabus",
+   "why": "current-account convertibility"
+  },
+  "7d20a282-957e-4336-807a-3ba85b6e7311": {
+   "stored": "Environment & Sustainable Development",
+   "verdict": "outside_ncert",
+   "why": "reforms speeding cleaner technology is not in NCERT text"
+  },
+  "89f4ea3f-f60a-40b6-a6a0-6216c54f7ccb": {
+   "stored": "Rural Development",
+   "verdict": "outside_syllabus",
+   "why": "public goods"
+  },
+  "8a05e4f3-7aee-4c71-869e-6d98fb81fc61": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "move",
+   "to": "Theory of Firms under Perfect Competition",
+   "why": "price-taking firm in perfect competition"
+  },
+  "8a403a93-9ce4-4bdb-84b6-0ee58c43fb8c": {
+   "stored": "Production & Costs",
+   "verdict": "outside_syllabus",
+   "why": "marginal productivity theory of wages"
+  },
+  "8c1cc9b05e28b915f65be085a1f701f1": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "move",
+   "to": "National Income & Related Aggregates",
+   "why": "what is macroeconomics"
+  },
+  "8d4f5621-994d-4f2a-ac24-35acb8a2d05a": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "move",
+   "to": "Market Equilibrium & Simple Applications",
+   "why": "supply shock and price outcome"
+  },
+  "8e5e71d2-efae-4f75-96f5-bfbe87e90c62": {
+   "stored": "Environment & Sustainable Development",
+   "verdict": "outside_syllabus",
+   "why": "polluter pays principle"
+  },
+  "8f4ca865-553f-4b5c-ac18-ff185c74de4a": {
+   "stored": "Environment & Sustainable Development",
+   "verdict": "outside_syllabus",
+   "why": "Green GDP"
+  },
+  "904dc089-bd21-4b3f-872b-b076fc09d416": {
+   "stored": "Income Determination",
+   "verdict": "outside_ncert",
+   "why": "redistribution raising aggregate MPC is not in NCERT text"
+  },
+  "90a6c50f-06bc-432e-8eb1-45460eb512d0": {
+   "stored": "Income Determination",
+   "verdict": "move",
+   "to": "Government Budget & the Economy",
+   "why": "budget deficit indicators"
+  },
+  "973da3c4-f0ca-4fc2-9ca0-b8019a2b8e97": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "outside_syllabus",
+   "why": "intertemporal consumption smoothing, saving and credit"
+  },
+  "9911dcc8-452b-4334-8625-a0add642918e": {
+   "stored": "Human Capital Formation",
+   "verdict": "outside_ncert",
+   "why": "weighted human capital index is not in NCERT text"
+  },
+  "9b31e083-1bc1-4fdc-8399-d10c9ab92327": {
+   "stored": "Market Equilibrium & Simple Applications",
+   "verdict": "move",
+   "to": "Theory of Firms under Perfect Competition",
+   "why": "firm produces where P = MC"
+  },
+  "9cbb9214-99e7-4b50-8c4d-4c84a6473b3f": {
+   "stored": "Production & Costs",
+   "verdict": "outside_syllabus",
+   "why": "private vs social cost, externality"
+  },
+  "9d04f5e7-5030-4267-a191-0f30687d2971": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "outside_syllabus",
+   "why": "revealed preference and WARP"
+  },
+  "9d6ce17c-d799-42fb-a6df-783d28733bd9": {
+   "stored": "Development Experiences of India",
+   "verdict": "outside_syllabus",
+   "why": "poverty line measurement"
+  },
+  "9efa7594-b0b0-41b6-8345-315c7855d37a": {
+   "stored": "Development Experiences of India",
+   "verdict": "outside_ncert",
+   "why": "priority sector lending is not in NCERT text"
+  },
+  "9ff853d3-e5e8-46da-b676-82174bc9f0c2": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "outside_syllabus",
+   "why": "preference for variety"
+  },
+  "a2593810-ac26-48ed-83aa-73261c883939": {
+   "stored": "Income Determination",
+   "verdict": "outside_syllabus",
+   "why": "tariff, imports and open-economy multiplier"
+  },
+  "a2c794ec-a6e9-458f-9de8-f3a75d435bd6": {
+   "stored": "Income Determination",
+   "verdict": "outside_syllabus",
+   "why": "open-economy multiplier with marginal propensity to import"
+  },
+  "a4a09347-e3b1-49cc-94a1-3e3b6f828afa": {
+   "stored": "Market Equilibrium & Simple Applications",
+   "verdict": "outside_syllabus",
+   "why": "consumer and producer surplus, deadweight loss, tax incidence"
+  },
+  "a610eab4-e946-4203-90a2-812cac0e7e87": {
+   "stored": "Indian Economy on the Eve of Independence",
+   "verdict": "move",
+   "to": "Human Capital Formation",
+   "why": "poverty, schooling and returns to education"
+  },
+  "a789950f-bcb9-476f-b073-b6898f7fcacf": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "outside_syllabus",
+   "why": "habit formation and expected utility"
+  },
+  "aa0262d9-3e98-4bfa-8bc4-8a73da8ece9a": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "outside_syllabus",
+   "why": "expected inflation and real return on deposits"
+  },
+  "b0690712-1b7d-42a1-aca6-6647ead8ca9c": {
+   "stored": "Income Determination",
+   "verdict": "outside_syllabus",
+   "why": "crowding out of private investment"
+  },
+  "b06a4bbc-fa73-4ba3-9297-3b2ce1739533": {
+   "stored": "Money & Banking",
+   "verdict": "outside_syllabus",
+   "why": "seigniorage and inflation tax"
+  },
+  "b159455a-58c2-4135-9657-e5c5e0e697b2": {
+   "stored": "Production & Costs",
+   "verdict": "outside_syllabus",
+   "why": "production subsidy effects"
+  },
+  "b345a8e7-382b-4583-bcc9-b3f23002c96c": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "outside_syllabus",
+   "why": "money-demand motives"
+  },
+  "b5a9f4fa9f7213517ae3d372e11c0035": {
+   "stored": "Theory of Firms under Perfect Competition",
+   "verdict": "move",
+   "to": "Production & Costs",
+   "why": "total variable cost calculation"
+  },
+  "b9385bf5-46e9-42a9-a3d5-3a2a9f6f9317": {
+   "stored": "Employment",
+   "verdict": "move",
+   "to": "Production & Costs",
+   "why": "average cost and marginal cost relation"
+  },
+  "c1096c85-68d5-445b-a2cb-d496106e9f15": {
+   "stored": "Balance of Payments",
+   "verdict": "outside_syllabus",
+   "why": "marginal propensity to import and open-economy multiplier"
+  },
+  "c1a7bdce-ca23-4d1e-b8cb-2a48c71f677c": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "move",
+   "to": "Market Equilibrium & Simple Applications",
+   "why": "demand surge with fixed supply"
+  },
+  "c8bc69b2f74ad69e04c7281c8711350c": {
+   "stored": "Government Budget & the Economy",
+   "verdict": "move",
+   "to": "Income Determination",
+   "why": "excess demand measurement"
+  },
+  "caa684b8-7da4-45fd-bc28-583d858bc9f7": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "move",
+   "to": "Market Equilibrium & Simple Applications",
+   "why": "demand shift effect on equilibrium"
+  },
+  "cbc78364-43d2-438c-94b8-0716e71c5128": {
+   "stored": "Environment & Sustainable Development",
+   "verdict": "outside_syllabus",
+   "why": "Environmental Kuznets Curve"
+  },
+  "cfeb6145-8365-49ca-af25-be49c9840b7e": {
+   "stored": "Market Equilibrium & Simple Applications",
+   "verdict": "move",
+   "to": "Theory of Firms under Perfect Competition",
+   "why": "price taker firm"
+  },
+  "d028195e75345ff11f26261a650ac444": {
+   "stored": "Government Budget & the Economy",
+   "verdict": "move",
+   "to": "Income Determination",
+   "why": "deficient and excess demand measures"
+  },
+  "d03862b65899f0dcdae662824a18069e": {
+   "stored": "Income Determination",
+   "verdict": "outside_syllabus",
+   "why": "paradox of thrift"
+  },
+  "d0f56ac0-d14b-4df2-bd45-7a804726e357": {
+   "stored": "Environment & Sustainable Development",
+   "verdict": "outside_syllabus",
+   "why": "negative externality and social optimum"
+  },
+  "d1052d12-c1de-4226-91e7-797bd312e092": {
+   "stored": "Environment & Sustainable Development",
+   "verdict": "outside_syllabus",
+   "why": "carbon tax, tradable permits and emission standards"
+  },
+  "d3075648-5b1d-4b3b-9507-a5a96081a6d5": {
+   "stored": "Income Determination",
+   "verdict": "outside_syllabus",
+   "why": "marginal propensity to import and fiscal multiplier"
+  },
+  "d333e3cd-0e2c-4685-a398-4f4a097e6fad": {
+   "stored": "Environment & Sustainable Development",
+   "verdict": "outside_ncert",
+   "why": "competition pushing cleaner technology is not in NCERT text"
+  },
+  "d5119268-36bb-4441-9a74-9ff1294a7cc9": {
+   "stored": "Balance of Payments",
+   "verdict": "outside_syllabus",
+   "why": "port infrastructure and competitiveness (infrastructure not in CUET 2026)"
+  },
+  "dac3b3ed-9fb6-411a-b92b-9138d8c2b4d8": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "outside_syllabus",
+   "why": "two-period liquidity-constrained consumer"
+  },
+  "e209f891-fdc3-4fe9-a60c-3e43208e1710": {
+   "stored": "Indian Economy on the Eve of Independence",
+   "verdict": "move",
+   "to": "Human Capital Formation",
+   "why": "public education spending and human capital growth"
+  },
+  "e572cffd-ab6b-430b-9ae0-daa3facdfef1": {
+   "stored": "Theory of Firms under Perfect Competition",
+   "verdict": "outside_syllabus",
+   "why": "allocative efficiency (P = MC)"
+  },
+  "ebdc364c-b92e-41e7-a5f3-269d4196c197": {
+   "stored": "Indian Economy on the Eve of Independence",
+   "verdict": "flawed",
+   "why": "'national income' not specified as GDP or GNP, so option A can also be right"
+  },
+  "ed249f37-6fc6-4845-9d2a-506e8cc57bfc": {
+   "stored": "Production & Costs",
+   "verdict": "outside_syllabus",
+   "why": "wage subsidy and employment"
+  },
+  "f1304c27-fd4f-464d-8c96-a7a57ba96c8a": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "move",
+   "to": "Economic Reforms Since 1991",
+   "why": "1991 reforms and competition"
+  },
+  "fefce20b-f428-431b-ace4-767bbb6793a1": {
+   "stored": "Introduction & Theory of Consumer Behaviour",
+   "verdict": "move",
+   "to": "Theory of Firms under Perfect Competition",
+   "why": "price-taker selling above market price"
+  }
+ }
+}

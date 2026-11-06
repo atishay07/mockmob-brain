@@ -1,0 +1,29 @@
+{
+  "id": "20261010T054710.116955Z-6e72fc68",
+  "observed_at": "2026-10-10T05:47:10.116955+00:00",
+  "agent": "/root",
+  "task": "Owner-authorized focused V7.17 final pass with exactly one USD1 qualification, conditional pilot",
+  "status": "active",
+  "done": "Fresh32 independent custody complete:20valid/12defects,5+3eachsubject,validproposedkeys5eachletter/defects3each. Originalblind solutions frozen before key/explanation disclosure. Preserved two invalid positive drafts and one accidentallysound negative draft, allseven affected source/explanation construction corrections made pre-registration with separate historical files; no outcome-driven labels/replacements. All32 academic labels now independently supported. Root caught passage routing metadata error and preserved originalbytes before correcting only5routes to passage, no stems/options/keys/labels changes. Independent owner verified all32 custodyIDs/sources,105runtimefreeze preserved. Offlineprepare complete:192 actualbodybase/retryrows,max27074/33024;standard fullbound5.425536 vs cap1.",
+  "next": "final_verification_recovery owns actualnativeledger/providerprocess refresh then exactly one --approved V717 qualification ifbindingsgreen. Root awaitterminal result, collectreceipts evenfailure; conditionalpilot40 onlyactualpass. Exporter implemented with all20criteria/per-itemcost/requestattribution and eligibility-vs-publication limits, Luna reviewing.",
+  "blockers": [
+    "Qualification is unexecuted pending freshactualstate check; no premium/costtarget proof.",
+    "No real staging configured;65historic uncertainholds preserved."
+  ],
+  "evidence": [
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/qualification-fresh32/sealed/CONSTRUCTION-APPROVAL.json",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/qualification-fresh32/sealed/UNREGISTERED-PASSAGE-ROUTE-CORRECTION.json",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/qualification-fresh32/registration.json",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/qualification-fresh32/preflight.json"
+  ],
+  "touched_files": [
+    "docs/brain/STATUS.md",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/tools/assemble_custody_approval.mjs",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/tools/seal_fresh32.mjs",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/tools/correct_unregistered_passage_routes.mjs",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/tools/export_results_v717.mjs"
+  ],
+  "verification": "CasesfinalSHAf4aac376d54746c07d95e4ff484307125c798384fe31cc5b9959358e0382dc4b;custodySHAa0eff58747d3df0231c4248e03533a45eb6f949d2f95a172fc0da1dff3bf12e9; approvalSHA5f7915660c7844efb4298b25eb9dbea620a2538691cd51e44116eb870b37e298. Factory1061/recovery40/questionpayment62/focused11/build67pagespassed; V71699unchanged. No currentqualification/pilot/release/publication result yet.",
+  "cost_and_pending_requests": "No new native calls yet. Priorbaseline39.078107settled+.821324held65unknown=39.899431committed. Qualification1stopcap/lifetime50unchanged;standardfullbound5.425536 meansbudgetstoppossible. PricevalidtoOct12. Agent refreshbeforeexecution.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,10506 @@
+{
+ "kind": "authored_w4_final_acceptance",
+ "source": "claude-authored-2026-10-17-w4",
+ "date": "2026-10-17",
+ "built_at": "2026-10-17T04:37:36.544Z",
+ "models": {
+  "quality": "claude-subagent-unrecorded",
+  "fit": "claude-subagent-unrecorded",
+  "solver": "claude-subagent-unrecorded"
+ },
+ "rule": {
+  "solversMatchingKeyAtLeast": 4,
+  "solversRequired": 5,
+  "qualityScoreAtLeast": 7,
+  "qualityFlagsAllowed": 0,
+  "qualityBlindAnswerMustEqualKey": true,
+  "fitMedianAtLeast": 8,
+  "fitFlaggedByFewerThan": 2,
+  "source": "docs/brain/AUTHORED-QUESTIONS-WAVE1-2026-10-14.md (acceptance rule), docs/brain/RUNBOOK-PUBLISH-AUTHORED-2026-10-14.md section 0"
+ },
+ "publish_rule": {
+  "qualityMeanAtLeast": 8,
+  "fitMedianAtLeast": 8
+ },
+ "inputs": {
+  "expert": "docs/brain/reports/authored-w4/expert",
+  "resolve": "tmp/authored-w4s/resolve",
+  "fresh": [
+   "tmp/authored-w4s/reword"
+  ],
+  "raw": "tmp/authored-w4s",
+  "first_pass_acceptance": "docs/brain/reports/authored-w4/wave4-acceptance-2026-10-17.json",
+  "expert_files": [
+   {
+    "file": "biology.json",
+    "verdicts": 55
+   },
+   {
+    "file": "chemistry.json",
+    "verdicts": 57
+   },
+   {
+    "file": "general_test.json",
+    "verdicts": 51
+   },
+   {
+    "file": "mathematics.json",
+    "verdicts": 58
+   },
+   {
+    "file": "physics.json",
+    "verdicts": 38
+   }
+  ],
+  "expert_conflicts": [],
+  "blind_resolve_files_present": 3,
+  "fresh_pass_ids": 0,
+  "fresh_pass_partial": []
+ },
+ "note": "Wave-4 final acceptance, built by scripts/authored-w2-accept.mjs --wave=w4 --mode=final. Hindi is not in any file (no fluent reviewer). Repairs are applied from the expert verdicts (scripts/lib/authored-w3-repair.mjs); the batch files are unchanged.",
+ "total": {
+  "written": 279,
+  "acceptedByJudgesAndSolvers": 259,
+  "accepted": 259,
+  "rejected": 20,
+  "rejectedByReason": {
+   "solvers": 2,
+   "quality_score": 9,
+   "quality_flag": 5,
+   "judge_blind_answer": 1,
+   "fit_median": 8,
+   "fit_flags": 0,
+   "verification_incomplete": 0,
+   "structural": 0,
+   "blind_text": 0,
+   "duplicate": 0,
+   "repaired_without_resolve": 0,
+   "resolve": 0,
+   "expert_verdict": 0,
+   "other": 0
+  }
+ },
+ "final": {
+  "note": "Publication set under the owner rule of 17 Oct 2026: accepted by the first-pass rule (or the fresh pass for reworded rows), expert verdict ready or repaired, repair applied, blind re-solve where the text a solver sees changed, quality mean of the two judges 8 or more and fit median 8 or more. Rows that pass everything but score a quality mean of 7 to 7.9 are held for a later decision.",
+  "publish_rule": {
+   "qualityMeanAtLeast": 8,
+   "fitMedianAtLeast": 8
+  },
+  "publish": 200,
+  "held_7_to_7_9": 57,
+  "dropped": 22,
+  "droppedByCategory": {
+   "not_accepted_by_the_rule": 20,
+   "set_left_with_fewer_than_2_children": 2
+  },
+  "byVerdict": {
+   "ready": 159,
+   "repaired": 41
+  },
+  "reworded_with_fresh_pass": 0,
+  "blindResolveOnFinalText": 1,
+  "judgeBlindAnswerCarriedOver": [],
+  "bySubject": {
+   "biology": {
+    "drafted": 59,
+    "scored": 59,
+    "accepted_first_pass": 55,
+    "accepted_after_expert_and_resolve": 55,
+    "expert": {
+     "ready": 32,
+     "repaired": 23,
+     "drop": 0,
+     "none": 4
+    },
+    "resolve_or_fresh_pass_held": 0,
+    "publish_8_plus": 35,
+    "held_7_to_7_9": 18,
+    "dropped_or_not_accepted": 6
+   },
+   "chemistry": {
+    "drafted": 60,
+    "scored": 60,
+    "accepted_first_pass": 57,
+    "accepted_after_expert_and_resolve": 57,
+    "expert": {
+     "ready": 43,
+     "repaired": 14,
+     "drop": 0,
+     "none": 3
+    },
+    "resolve_or_fresh_pass_held": 0,
+    "publish_8_plus": 42,
+    "held_7_to_7_9": 15,
+    "dropped_or_not_accepted": 3
+   },
+   "general_test": {
+    "drafted": 60,
+    "scored": 60,
+    "accepted_first_pass": 51,
+    "accepted_after_expert_and_resolve": 51,
+    "expert": {
+     "ready": 39,
+     "repaired": 12,
+     "drop": 0,
+     "none": 9
+    },
+    "resolve_or_fresh_pass_held": 0,
+    "publish_8_plus": 39,
+    "held_7_to_7_9": 12,
+    "dropped_or_not_accepted": 9
+   },
+   "mathematics": {
+    "drafted": 60,
+    "scored": 60,
+    "accepted_first_pass": 58,
+    "accepted_after_expert_and_resolve": 58,
+    "expert": {
+     "ready": 52,
+     "repaired": 6,
+     "drop": 0,
+     "none": 2
+    },
+    "resolve_or_fresh_pass_held": 0,
+    "publish_8_plus": 51,
+    "held_7_to_7_9": 7,
+    "dropped_or_not_accepted": 2
+   },
+   "physics": {
+    "drafted": 40,
+    "scored": 40,
+    "accepted_first_pass": 38,
+    "accepted_after_expert_and_resolve": 38,
+    "expert": {
+     "ready": 31,
+     "repaired": 7,
+     "drop": 0,
+     "none": 2
+    },
+    "resolve_or_fresh_pass_held": 0,
+    "publish_8_plus": 33,
+    "held_7_to_7_9": 5,
+    "dropped_or_not_accepted": 2
+   }
+  },
+  "problems": []
+ },
+ "files": {
+  "batches": 14,
+  "expectedResultFiles": 140,
+  "presentResultFiles": 140,
+  "missing": [],
+  "malformed": [],
+  "recordIssues": [],
+  "batchLevelProblems": [],
+  "unexpectedFiles": [],
+  "fitFlagsOutsideRubricList": {},
+  "sourceCandidates": {
+   "candidatesFile": "docs/brain/reports/authored-w4/wave4-candidates-2026-10-17.json",
+   "candidatesSha256": "b7a8beba2551614f62c1cf58830abf70e30537256864d1197ccd2530473ff82e",
+   "candidatesInFile": 279,
+   "manifestState": "ok",
+   "problems": [],
+   "candidatesNotLaidOut": {},
+   "excludedSubjects": [
+    "hindi"
+   ]
+  }
+ },
+ "questions": [
+  {
+   "id": "2fe86fe0-ba8b-492b-942d-876c45bf78ea",
+   "subject": "biology",
+   "batch": "biology__w4b1",
+   "chapter": "Sexual Reproduction in Flowering Plants",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    7,
+    8
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "3920888b-72d1-4cfd-ad56-301ef2e89c5f",
+   "subject": "biology",
+   "batch": "biology__w4b1",
+   "chapter": "Sexual Reproduction in Flowering Plants",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    9,
+    8
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "dd66dcf5-ca4a-4e15-9722-6292d102a490",
+   "subject": "biology",
+   "batch": "biology__w4b1",
+   "chapter": "Sexual Reproduction in Flowering Plants",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "1382b67c-0605-4d03-81fc-9fff6a87148a",
+   "subject": "biology",
+   "batch": "biology__w4b1",
+   "chapter": "Human Reproduction",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 4,
+    "answers": [
+     "B",
+     "B",
+     "C",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    7,
+    8
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "302af2c0-97c5-4b82-beff-ecf2d2d061bc",
+   "subject": "biology",
+   "batch": "biology__w4b1",
+   "chapter": "Human Reproduction",
+   "type": "statement_based",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    7
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "f9edc91a-cf7d-4bc9-afe7-7fc485d72a76",
+   "subject": "biology",
+   "batch": "biology__w4b1",
+   "chapter": "Human Reproduction",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    9,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "84a951f7-b80d-4981-b476-3e4be990ce39",
+   "subject": "biology",
+   "batch": "biology__w4b1",
+   "chapter": "Human Reproduction",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "c2cf8f95-1fd1-4ac7-b523-52ed7d95dee3",
+   "subject": "biology",
+   "batch": "biology__w4b1",
+   "chapter": "Human Reproduction",
+   "type": "single_mcq",
+   "accepted": false,
+   "final": "not_accepted_by_the_rule",
+   "reasons": [
+    "j2_quality_4",
+    "j2_flags_doubtful_key"
+   ],
+   "expert": null,
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    7,
+    4
+   ],
+   "quality_mean": 5.5,
+   "fit_scores": [
+    8,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "4e623f32-98a2-4674-ae0b-c6fbac945b8c",
+   "subject": "biology",
+   "batch": "biology__w4b1",
+   "chapter": "Reproductive Health",
+   "type": "match_the_following",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "b9de7d62-9120-43a8-9742-13d19f226543",
+   "subject": "biology",
+   "batch": "biology__w4b1",
+   "chapter": "Reproductive Health",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    7
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    8,
+    9,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "dccaf7b2-9f8f-4112-88c7-f7850938c25a",
+   "subject": "biology",
+   "batch": "biology__w4b1",
+   "chapter": "Principles of Inheritance & Variation",
+   "type": "statement_based",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "d5ba952f-51c4-4b06-91b5-52233df6cd8b",
+   "subject": "biology",
+   "batch": "biology__w4b1",
+   "chapter": "Principles of Inheritance & Variation",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    9,
+    10,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "a1762cac-8859-4104-b5b8-440a33eacf15",
+   "subject": "biology",
+   "batch": "biology__w4b1",
+   "chapter": "Principles of Inheritance & Variation",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "a790d203-801b-4206-abd4-812c7135eb6a",
+   "subject": "biology",
+   "batch": "biology__w4b1",
+   "chapter": "Molecular Basis of Inheritance",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "d157c263-e53d-43ab-8a75-2f725d2f815f",
+   "subject": "biology",
+   "batch": "biology__w4b1",
+   "chapter": "Molecular Basis of Inheritance",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "explanation"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    8,
+    10,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "787ef85b-5eb6-43a2-8f91-d91230268051",
+   "subject": "biology",
+   "batch": "biology__w4b1",
+   "chapter": "Molecular Basis of Inheritance",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "83d1ddf7-0c21-44f5-9572-f9d1822321bc",
+   "subject": "biology",
+   "batch": "biology__w4b1",
+   "chapter": "Molecular Basis of Inheritance",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "027483a8-5cf3-4a67-a868-8ab4fc6ccbe9",
+   "subject": "biology",
+   "batch": "biology__w4b1",
+   "chapter": "Evolution",
+   "type": "sequence_ordering",
+   "accepted": false,
+   "final": "not_accepted_by_the_rule",
+   "reasons": [
+    "j2_quality_3",
+    "j2_flags_factual_error"
+   ],
+   "expert": null,
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    7,
+    3
+   ],
+   "quality_mean": 5,
+   "fit_scores": [
+    8,
+    9,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "43c048d0-4697-411f-9819-a9a56b1c234c",
+   "subject": "biology",
+   "batch": "biology__w4b1",
+   "chapter": "Evolution",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    10,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "97c20f8d-1a42-4f39-aa50-3303ce3135e7",
+   "subject": "biology",
+   "batch": "biology__w4b1",
+   "chapter": "Evolution",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    9,
+    8,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "1ed56924-fcf9-4015-8327-e71c2be3dbe5",
+   "subject": "biology",
+   "batch": "biology__w4b2",
+   "chapter": "Human Health & Disease",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    10,
+    9,
+    8
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "3434a96f-2ebc-45ae-932b-f5729c83538b",
+   "subject": "biology",
+   "batch": "biology__w4b2",
+   "chapter": "Human Health & Disease",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    10,
+    8,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "93f0a684-7f2b-4742-81bd-b68eef0a280e",
+   "subject": "biology",
+   "batch": "biology__w4b2",
+   "chapter": "Human Health & Disease",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "09a87281-edba-4507-85d1-c3e313dd7071",
+   "subject": "biology",
+   "batch": "biology__w4b2",
+   "chapter": "Human Health & Disease",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "80acdc79-32e8-47ce-893b-76579df268fc",
+   "subject": "biology",
+   "batch": "biology__w4b2",
+   "chapter": "Human Health & Disease",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    8,
+    9,
+    10
+   ],
+   "fit_median": 9,
+   "warnings": [
+    "case_set_item_typed_as_single_mcq_not_passage_set_item"
+   ]
+  },
+  {
+   "id": "7d4b6c6f-9f8e-4e6f-a243-bdcda52cb355",
+   "subject": "biology",
+   "batch": "biology__w4b2",
+   "chapter": "Human Health & Disease",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    7
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    8,
+    10,
+    10
+   ],
+   "fit_median": 10,
+   "warnings": [
+    "case_set_item_typed_as_single_mcq_not_passage_set_item"
+   ]
+  },
+  {
+   "id": "89ff99c8-222d-48d8-8071-e65f3656d7cd",
+   "subject": "biology",
+   "batch": "biology__w4b2",
+   "chapter": "Human Health & Disease",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "set_left_with_fewer_than_2_children",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8,
+   "warnings": [
+    "case_set_item_typed_as_single_mcq_not_passage_set_item"
+   ]
+  },
+  {
+   "id": "f6b8e854-fac9-4ea3-8f17-24481236c2ea",
+   "subject": "biology",
+   "batch": "biology__w4b2",
+   "chapter": "Human Health & Disease",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    8,
+    10,
+    8
+   ],
+   "fit_median": 8,
+   "warnings": [
+    "case_set_item_typed_as_single_mcq_not_passage_set_item"
+   ]
+  },
+  {
+   "id": "3fd2baf1-f46d-4695-90b7-8e40c62975f2",
+   "subject": "biology",
+   "batch": "biology__w4b2",
+   "chapter": "Human Health & Disease",
+   "type": "statement_based",
+   "accepted": false,
+   "final": "not_accepted_by_the_rule",
+   "reasons": [
+    "j1_quality_4",
+    "j1_flags_doubtful_key"
+   ],
+   "expert": null,
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    4,
+    7
+   ],
+   "quality_mean": 5.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8,
+   "warnings": [
+    "case_set_item_typed_as_statement_based_not_passage_set_item"
+   ]
+  },
+  {
+   "id": "b833fc48-2bbc-4a6c-93b6-862a27d26db6",
+   "subject": "biology",
+   "batch": "biology__w4b2",
+   "chapter": "Microbes in Human Welfare",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "d97512d6-e8e1-4f10-bf26-da7b7f30b701",
+   "subject": "biology",
+   "batch": "biology__w4b2",
+   "chapter": "Microbes in Human Welfare",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "9cb149e1-92bd-451d-8cd8-f092d0d7e74a",
+   "subject": "biology",
+   "batch": "biology__w4b2",
+   "chapter": "Microbes in Human Welfare",
+   "type": "match_the_following",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    9,
+    9,
+    10
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "d8c5c153-958e-43f3-83f9-1af6b137e1ce",
+   "subject": "biology",
+   "batch": "biology__w4b2",
+   "chapter": "Microbes in Human Welfare",
+   "type": "statement_based",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    8,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "914f319b-fe73-4d95-ac69-112442cffdd4",
+   "subject": "biology",
+   "batch": "biology__w4b2",
+   "chapter": "Microbes in Human Welfare",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "ccbe9308-e3df-46c1-a7ec-6d9c25cf9073",
+   "subject": "biology",
+   "batch": "biology__w4b2",
+   "chapter": "Microbes in Human Welfare",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    10,
+    8
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "569476e7-3a80-40fd-bb83-996b09c75b2c",
+   "subject": "biology",
+   "batch": "biology__w4b2",
+   "chapter": "Microbes in Human Welfare",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    7
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "b52d4156-825a-4124-86e1-a4eba1f28fb5",
+   "subject": "biology",
+   "batch": "biology__w4b2",
+   "chapter": "Biotechnology Principles & Processes",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    10,
+    8,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "66a5caed-b85f-4f55-b455-26ff8f422d8c",
+   "subject": "biology",
+   "batch": "biology__w4b2",
+   "chapter": "Biotechnology Principles & Processes",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "c4e0c49c-4d53-4ce3-a21f-e5a5d39da739",
+   "subject": "biology",
+   "batch": "biology__w4b2",
+   "chapter": "Biotechnology Principles & Processes",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    9,
+    8
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "b8374232-3875-4669-a6aa-d2a27190437b",
+   "subject": "biology",
+   "batch": "biology__w4b3",
+   "chapter": "Biotechnology Principles & Processes",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    10,
+    9,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "2174cc38-ef8a-41be-9d52-6db3b89bf9a8",
+   "subject": "biology",
+   "batch": "biology__w4b3",
+   "chapter": "Biotechnology & its Applications",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    8,
+    10
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "df20c45d-ee4a-4663-bf36-621580f47bca",
+   "subject": "biology",
+   "batch": "biology__w4b3",
+   "chapter": "Biotechnology & its Applications",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    10,
+    10,
+    8
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "58f32816-a7bf-41db-9e06-3b4add80291a",
+   "subject": "biology",
+   "batch": "biology__w4b3",
+   "chapter": "Biotechnology & its Applications",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    10,
+    10,
+    8
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "d37125e8-0209-40a9-aa19-4be3804a1682",
+   "subject": "biology",
+   "batch": "biology__w4b3",
+   "chapter": "Biotechnology & its Applications",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    7,
+    8
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    9,
+    9,
+    8
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "53f7ec15-6f15-490b-bc13-2454749bf0a1",
+   "subject": "biology",
+   "batch": "biology__w4b3",
+   "chapter": "Biotechnology & its Applications",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    7
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8,
+   "warnings": [
+    "case_set_item_typed_as_single_mcq_not_passage_set_item"
+   ]
+  },
+  {
+   "id": "65134122-0ff0-4601-b4e4-1dc76ae6bf66",
+   "subject": "biology",
+   "batch": "biology__w4b3",
+   "chapter": "Biotechnology & its Applications",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8,
+   "warnings": [
+    "case_set_item_typed_as_single_mcq_not_passage_set_item"
+   ]
+  },
+  {
+   "id": "ad0c0f11-adaa-4a9b-aae2-95288ca2e8e5",
+   "subject": "biology",
+   "batch": "biology__w4b3",
+   "chapter": "Biotechnology & its Applications",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "set_left_with_fewer_than_2_children",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label",
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8,
+   "warnings": [
+    "case_set_item_typed_as_single_mcq_not_passage_set_item"
+   ]
+  },
+  {
+   "id": "f6532e00-b9e0-4b76-82a0-296ef910b429",
+   "subject": "biology",
+   "batch": "biology__w4b3",
+   "chapter": "Biotechnology & its Applications",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    7
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8,
+   "warnings": [
+    "case_set_item_typed_as_single_mcq_not_passage_set_item"
+   ]
+  },
+  {
+   "id": "c2cb9280-2619-4f53-91d3-a150d13d433a",
+   "subject": "biology",
+   "batch": "biology__w4b3",
+   "chapter": "Biotechnology & its Applications",
+   "type": "statement_based",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref",
+    "explanation"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    7
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8,
+   "warnings": [
+    "case_set_item_typed_as_statement_based_not_passage_set_item"
+   ]
+  },
+  {
+   "id": "7139c5fb-2849-4497-a671-21a9c5bf2e81",
+   "subject": "biology",
+   "batch": "biology__w4b3",
+   "chapter": "Organisms & Populations",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    7,
+    8
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    9,
+    9,
+    8
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "03f95952-f882-4150-acef-2ef0449a2aca",
+   "subject": "biology",
+   "batch": "biology__w4b3",
+   "chapter": "Organisms & Populations",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "b00e6e59-df3f-43dc-80d5-338ccfb71dfa",
+   "subject": "biology",
+   "batch": "biology__w4b3",
+   "chapter": "Organisms & Populations",
+   "type": "match_the_following",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    8,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "dc0f5ddb-206b-4a54-acf9-c705ed8b971d",
+   "subject": "biology",
+   "batch": "biology__w4b3",
+   "chapter": "Ecosystem",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref",
+    "explanation"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    8,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "9b3560f6-3b1c-4865-ac59-98027ad40a31",
+   "subject": "biology",
+   "batch": "biology__w4b3",
+   "chapter": "Ecosystem",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "47f1daf6-2e46-4659-80ba-53388a92114f",
+   "subject": "biology",
+   "batch": "biology__w4b3",
+   "chapter": "Ecosystem",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    9,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "cf3ce18f-6c8c-4264-8cf8-b8ebc95aee46",
+   "subject": "biology",
+   "batch": "biology__w4b3",
+   "chapter": "Ecosystem",
+   "type": "statement_based",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label",
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    10,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "0269f538-ba1b-41ce-a80c-1748b986ea88",
+   "subject": "biology",
+   "batch": "biology__w4b3",
+   "chapter": "Biodiversity & Conservation",
+   "type": "single_mcq",
+   "accepted": false,
+   "final": "not_accepted_by_the_rule",
+   "reasons": [
+    "j1_blind_answer_D"
+   ],
+   "expert": null,
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 4,
+    "answers": [
+     "A",
+     "D",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "61165895-71ee-4a42-accb-05ee502b7960",
+   "subject": "biology",
+   "batch": "biology__w4b3",
+   "chapter": "Biodiversity & Conservation",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    10,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "c4a7ad38-8758-41ef-9095-d08d22ef8c74",
+   "subject": "biology",
+   "batch": "biology__w4b3",
+   "chapter": "Biodiversity & Conservation",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label",
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "8ee1facc-2274-4141-bba7-1389a5caee34",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b1",
+   "chapter": "Haloalkanes & Haloarenes",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "440d1252-fc4c-4fb5-8c77-d6ffbdd335f4",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b1",
+   "chapter": "Haloalkanes & Haloarenes",
+   "type": "statement_based",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    8,
+    8,
+    9
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "77382746-bcfe-4dc8-a4f6-f5bc5d2e75d0",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b1",
+   "chapter": "Haloalkanes & Haloarenes",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    7
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "ce3ca84d-bf8b-44e6-a55b-d5c42ba29c2b",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b1",
+   "chapter": "Haloalkanes & Haloarenes",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "83bcb2bd-fdce-4196-bbcc-daa578f27ba4",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b1",
+   "chapter": "Haloalkanes & Haloarenes",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    7,
+    8
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "2e4f3189-8abb-4e28-8c5b-13da81ddcbed",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b1",
+   "chapter": "Alcohols, Phenols & Ethers",
+   "type": "match_the_following",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 4,
+    "answers": [
+     "B",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "be5f0133-bd71-4e1d-97ad-742ee67fe221",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b1",
+   "chapter": "Alcohols, Phenols & Ethers",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    7
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    10,
+    9,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "35246480-bd79-48c2-b3f9-8d6128c2a14e",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b1",
+   "chapter": "Alcohols, Phenols & Ethers",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "8e181c77-95ef-4e7c-8bf5-857cbba9f869",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b1",
+   "chapter": "Alcohols, Phenols & Ethers",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "0192976d-ce4d-4ed3-9672-8b0d1578ab19",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b1",
+   "chapter": "Alcohols, Phenols & Ethers",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "5afc1dc3-d029-4d47-ab5c-9c7043cbd7a4",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b1",
+   "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "a04434ca-9aad-472b-bbab-a3f1772efcdf",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b1",
+   "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+   "type": "single_mcq",
+   "accepted": false,
+   "final": "not_accepted_by_the_rule",
+   "reasons": [
+    "j2_quality_6"
+   ],
+   "expert": null,
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    6
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    9,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "47b26e05-f8b5-44e7-a499-1078b4ff6bdd",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b1",
+   "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "9f114e98-a8ab-4a14-a9e6-2ddf5d0a2729",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b1",
+   "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    10,
+    10,
+    9
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "6fa18b54-8d1a-48ce-b3cb-8c451d1e3287",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b1",
+   "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "eb20eba0-98e1-4090-8320-cab801471c74",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b1",
+   "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    9,
+    8,
+    6
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "359c50ec-370a-4277-a1e1-26ff626c290f",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b1",
+   "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+   "type": "statement_based",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "b19fa8e5-08f3-47e4-8450-b40bc6631f53",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b1",
+   "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "5069f737-db90-4b0d-83ff-4c19643ca9a1",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b1",
+   "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    10,
+    10,
+    9
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "efce0722-5459-4073-8962-fe465fb5fa07",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b1",
+   "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "6998f236-be20-4857-8d0b-2a448825755c",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b2",
+   "chapter": "Amines",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "c6a775ab-00e8-4a2d-bde7-7c5e34dac7be",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b2",
+   "chapter": "Amines",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    7
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    8,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "a123ad3b-9488-4b25-b787-98cf51e60a84",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b2",
+   "chapter": "Amines",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "696bfe65-83b2-493a-a030-aba88d361ae5",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b2",
+   "chapter": "Amines",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    7
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    9,
+    9,
+    8
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "b01a98fe-7046-417d-b53a-52562cf973e6",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b2",
+   "chapter": "Amines",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    7,
+    9
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    6,
+    8,
+    8
+   ],
+   "fit_median": 8,
+   "warnings": [
+    "case_set_item_typed_as_single_mcq_not_passage_set_item"
+   ]
+  },
+  {
+   "id": "1b3b17be-c28e-4dbd-b120-3d1416eeb97f",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b2",
+   "chapter": "Amines",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    6,
+    8,
+    8
+   ],
+   "fit_median": 8,
+   "warnings": [
+    "case_set_item_typed_as_single_mcq_not_passage_set_item"
+   ]
+  },
+  {
+   "id": "aefd3af3-ae37-410a-b5a1-aa5da54926d3",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b2",
+   "chapter": "Amines",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    6,
+    8,
+    8
+   ],
+   "fit_median": 8,
+   "warnings": [
+    "case_set_item_typed_as_single_mcq_not_passage_set_item"
+   ]
+  },
+  {
+   "id": "eb154c9d-5bdc-4c88-a6a0-349b209958ef",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b2",
+   "chapter": "Amines",
+   "type": "single_mcq",
+   "accepted": false,
+   "final": "not_accepted_by_the_rule",
+   "reasons": [
+    "solvers_2_of_5"
+   ],
+   "expert": null,
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 2,
+    "answers": [
+     "D",
+     "D",
+     "B",
+     "D",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    6,
+    8,
+    8
+   ],
+   "fit_median": 8,
+   "warnings": [
+    "case_set_item_typed_as_single_mcq_not_passage_set_item"
+   ]
+  },
+  {
+   "id": "a9b977b3-1415-4db5-8488-268a83327316",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b2",
+   "chapter": "Amines",
+   "type": "statement_based",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    6,
+    8,
+    8
+   ],
+   "fit_median": 8,
+   "warnings": [
+    "case_set_item_typed_as_statement_based_not_passage_set_item"
+   ]
+  },
+  {
+   "id": "cded2e6e-6e9e-45b1-a65b-3575d15e57ea",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b2",
+   "chapter": "Biomolecules",
+   "type": "match_the_following",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "10cccaa9-4448-4fa8-8b00-e6f1b38082fc",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b2",
+   "chapter": "Biomolecules",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "01d16929-b579-401b-9a88-81ff84f82232",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b2",
+   "chapter": "Biomolecules",
+   "type": "statement_based",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref",
+    "stem"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": {
+    "blind_text_changed": [
+     "stem"
+    ],
+    "blind_resolve": {
+     "n": 3,
+     "matched_key": 3,
+     "answers": [
+      "D",
+      "D",
+      "D"
+     ]
+    }
+   },
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    9,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "254a9fb5-145a-423d-906e-a4c19bc5ed30",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b2",
+   "chapter": "Biomolecules",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    10,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "1a14c1f3-5a24-4f5b-87cf-4ca79535162e",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b2",
+   "chapter": "Biomolecules",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    7,
+    8
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "8ad575c4-7e7d-49e7-8364-51e79dd36658",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b2",
+   "chapter": "Biomolecules",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "ncert_ref"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "010e16c1-2fa7-45d3-9044-5ab7bbe31d75",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b2",
+   "chapter": "Solutions",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    9,
+    10
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "c7147e61-c020-4ce4-9ca5-a48265b17d6e",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b2",
+   "chapter": "Solutions",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    8,
+    10,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "2c7eb3a9-5d8d-4c73-b5cf-89a0466e0d3f",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b2",
+   "chapter": "Solutions",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    8,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "0e4e6d2a-0b5f-45a4-8cdb-27515531620c",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b2",
+   "chapter": "Solutions",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "ef0f30c8-bde7-4adc-ab4a-0934d0197b63",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b2",
+   "chapter": "Solutions",
+   "type": "statement_based",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "969ec6f8-7e52-48ce-9832-299e478417ce",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b3",
+   "chapter": "Electrochemistry",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "a7758e68-699c-48a6-bc75-d2a972b4ad92",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b3",
+   "chapter": "Electrochemistry",
+   "type": "single_mcq",
+   "accepted": false,
+   "final": "not_accepted_by_the_rule",
+   "reasons": [
+    "solvers_3_of_5"
+   ],
+   "expert": null,
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 3,
+    "answers": [
+     "B",
+     "D",
+     "B",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "5c0ee5c8-3f94-4d63-b0a2-b4d994547c7e",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b3",
+   "chapter": "Electrochemistry",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    7,
+    8
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "e6056587-a51f-421d-a7eb-904e696e12af",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b3",
+   "chapter": "Electrochemistry",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    10,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "4fced3ab-5807-43b8-8025-82d9859180a1",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b3",
+   "chapter": "Electrochemistry",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "7e7b5652-225b-40a3-859f-5f1d822bfe17",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b3",
+   "chapter": "Chemical Kinetics",
+   "type": "statement_based",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "973877a8-423b-40dd-847e-6e0491b45a02",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b3",
+   "chapter": "Chemical Kinetics",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    7,
+    9
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "a08beb87-d194-457a-81c5-2bf8b78436fe",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b3",
+   "chapter": "Chemical Kinetics",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    8,
+    9,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "bc99a237-d954-40cc-a95a-0320cf346f7f",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b3",
+   "chapter": "Chemical Kinetics",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    10,
+    9,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "38dd3ed0-f042-4470-b5b8-90886167286c",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b3",
+   "chapter": "Chemical Kinetics",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "0dfb5b38-ed97-4c20-8199-41135c08395b",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b3",
+   "chapter": "d- and f-Block Elements",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "8199b343-e47e-40e5-acdd-8e458592a4d0",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b3",
+   "chapter": "d- and f-Block Elements",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "9796cd95-e541-4ba5-85eb-7f4b7cab45ad",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b3",
+   "chapter": "d- and f-Block Elements",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    9,
+    10,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "c459a1d2-65e0-4cd0-b071-3ec287fe0efc",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b3",
+   "chapter": "d- and f-Block Elements",
+   "type": "match_the_following",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    9,
+    8
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "34a6cabf-0b12-4321-b746-76378dd8d946",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b3",
+   "chapter": "d- and f-Block Elements",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "a58d364f-574c-424c-9ed2-0f6e4fdb5c3e",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b3",
+   "chapter": "Coordination Compounds",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "bdc87aa5-3aa5-4786-9440-5aa51f0bb35d",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b3",
+   "chapter": "Coordination Compounds",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "5423cc50-4ae2-487d-94b9-6da3cf15a6dd",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b3",
+   "chapter": "Coordination Compounds",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "03468e44-24ac-4016-a28b-cdc361d9e934",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b3",
+   "chapter": "Coordination Compounds",
+   "type": "match_the_following",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    9,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "c448902e-cfe8-4f58-afca-25e26e7a5cc9",
+   "subject": "chemistry",
+   "batch": "chemistry__w4b3",
+   "chapter": "Coordination Compounds",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "b5b28434-a2ac-4345-8c7c-d9030b0a747c",
+   "subject": "general_test",
+   "batch": "general_test__w4b1",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    7
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "1e33bc13-6ec6-4b68-99d1-f906be55b319",
+   "subject": "general_test",
+   "batch": "general_test__w4b1",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    9,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "8eafb85b-a7b8-4a32-b9e1-6b8df01d35a5",
+   "subject": "general_test",
+   "batch": "general_test__w4b1",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    10,
+    8
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "d027bc08-53d8-4205-a32b-58abd2110ed5",
+   "subject": "general_test",
+   "batch": "general_test__w4b1",
+   "chapter": "General Knowledge",
+   "type": "match_the_following",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "explanation"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "95d55b69-54f8-42c8-bf57-51841b333358",
+   "subject": "general_test",
+   "batch": "general_test__w4b1",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    7,
+    8
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    8,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "34d1af78-a46f-4ece-af95-77767c117d69",
+   "subject": "general_test",
+   "batch": "general_test__w4b1",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "22d432e5-7aae-49c8-81aa-836232860258",
+   "subject": "general_test",
+   "batch": "general_test__w4b1",
+   "chapter": "General Knowledge",
+   "type": "statement_based",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    7
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "a84dd64b-cdcf-4aa5-9fce-284f3872474e",
+   "subject": "general_test",
+   "batch": "general_test__w4b1",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "ceb2f733-638d-4ca9-9e67-7cacc1c1cbf4",
+   "subject": "general_test",
+   "batch": "general_test__w4b1",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "b4607a32-bd4a-49c6-8c8f-18241ba6a26d",
+   "subject": "general_test",
+   "batch": "general_test__w4b1",
+   "chapter": "General Knowledge",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "da5af9e8-7676-41eb-9941-e2ef773bdf65",
+   "subject": "general_test",
+   "batch": "general_test__w4b1",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "65824eee-c3c0-48cf-a105-ecaefb1188cd",
+   "subject": "general_test",
+   "batch": "general_test__w4b1",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    7,
+    9
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "62c71845-ce4a-4284-8d4a-7a7e867a549a",
+   "subject": "general_test",
+   "batch": "general_test__w4b1",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "d8b5523a-c238-437e-9304-f14c999ef06f",
+   "subject": "general_test",
+   "batch": "general_test__w4b1",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    10,
+    10,
+    9
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "27227f87-6ced-4f0c-ba60-30484c8328e4",
+   "subject": "general_test",
+   "batch": "general_test__w4b1",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "12158eee-8b40-46e8-a7c1-f41854ac32e2",
+   "subject": "general_test",
+   "batch": "general_test__w4b1",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    6,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "c0bb6d07-1e8f-43fc-8b57-b69826bad86c",
+   "subject": "general_test",
+   "batch": "general_test__w4b1",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "9e401dbb-3c92-489e-a692-289d4c858c38",
+   "subject": "general_test",
+   "batch": "general_test__w4b1",
+   "chapter": "General Science and Environment Literacy",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "74583f6d-5b1e-4ab4-9c9c-7e816edd8f14",
+   "subject": "general_test",
+   "batch": "general_test__w4b1",
+   "chapter": "General Science and Environment Literacy",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    10,
+    10,
+    8
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "fd963a54-4700-44b6-b8b5-07b491494bf2",
+   "subject": "general_test",
+   "batch": "general_test__w4b1",
+   "chapter": "General Science and Environment Literacy",
+   "type": "assertion_reason",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    10,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "01cb34e5-45c5-4924-af40-a6030c2225e6",
+   "subject": "general_test",
+   "batch": "general_test__w4b2",
+   "chapter": "Current Affairs",
+   "type": "single_mcq",
+   "accepted": false,
+   "final": "not_accepted_by_the_rule",
+   "reasons": [
+    "fit_median_6"
+   ],
+   "expert": null,
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    7,
+    8
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    6,
+    6,
+    6
+   ],
+   "fit_median": 6
+  },
+  {
+   "id": "07b12999-6fa2-45e5-8de5-06234037091e",
+   "subject": "general_test",
+   "batch": "general_test__w4b2",
+   "chapter": "Current Affairs",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    7
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "5d47dd9f-4620-4675-b779-b149852f8210",
+   "subject": "general_test",
+   "batch": "general_test__w4b2",
+   "chapter": "Current Affairs",
+   "type": "single_mcq",
+   "accepted": false,
+   "final": "not_accepted_by_the_rule",
+   "reasons": [
+    "fit_median_6"
+   ],
+   "expert": null,
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    6,
+    6,
+    6
+   ],
+   "fit_median": 6
+  },
+  {
+   "id": "8626d182-95fe-44ca-a70a-2a8203b4e55e",
+   "subject": "general_test",
+   "batch": "general_test__w4b2",
+   "chapter": "Current Affairs",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "b1366004-d26e-490a-9191-a5fa84f02537",
+   "subject": "general_test",
+   "batch": "general_test__w4b2",
+   "chapter": "Current Affairs",
+   "type": "statement_based",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "bfdecf7f-b1ea-4b31-8af7-2b20d1ada913",
+   "subject": "general_test",
+   "batch": "general_test__w4b2",
+   "chapter": "Current Affairs",
+   "type": "single_mcq",
+   "accepted": false,
+   "final": "not_accepted_by_the_rule",
+   "reasons": [
+    "fit_median_6"
+   ],
+   "expert": null,
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    6,
+    6,
+    6
+   ],
+   "fit_median": 6
+  },
+  {
+   "id": "c059fbf2-49ab-43db-9643-b930923dcd06",
+   "subject": "general_test",
+   "batch": "general_test__w4b2",
+   "chapter": "Current Affairs",
+   "type": "single_mcq",
+   "accepted": false,
+   "final": "not_accepted_by_the_rule",
+   "reasons": [
+    "fit_median_6"
+   ],
+   "expert": null,
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    6,
+    6,
+    6
+   ],
+   "fit_median": 6
+  },
+  {
+   "id": "73597eea-a31f-4635-b7c7-fefec7cb8271",
+   "subject": "general_test",
+   "batch": "general_test__w4b2",
+   "chapter": "Current Affairs",
+   "type": "match_the_following",
+   "accepted": false,
+   "final": "not_accepted_by_the_rule",
+   "reasons": [
+    "fit_median_6"
+   ],
+   "expert": null,
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    6,
+    6,
+    6
+   ],
+   "fit_median": 6
+  },
+  {
+   "id": "29021b9a-f0fc-4108-81fb-32e7a8034824",
+   "subject": "general_test",
+   "batch": "general_test__w4b2",
+   "chapter": "Current Affairs",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    8,
+    8,
+    9
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "047ae2ba-36e7-4a08-bac8-797885b16045",
+   "subject": "general_test",
+   "batch": "general_test__w4b2",
+   "chapter": "Current Affairs",
+   "type": "single_mcq",
+   "accepted": false,
+   "final": "not_accepted_by_the_rule",
+   "reasons": [
+    "fit_median_6"
+   ],
+   "expert": null,
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    6,
+    6,
+    6
+   ],
+   "fit_median": 6
+  },
+  {
+   "id": "a1455457-1272-4121-9faa-6777605864c9",
+   "subject": "general_test",
+   "batch": "general_test__w4b2",
+   "chapter": "Current Affairs",
+   "type": "single_mcq",
+   "accepted": false,
+   "final": "not_accepted_by_the_rule",
+   "reasons": [
+    "fit_median_6"
+   ],
+   "expert": null,
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    7
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    6,
+    6,
+    6
+   ],
+   "fit_median": 6
+  },
+  {
+   "id": "9f9fb100-d89c-49fd-8f19-2bf893c1aaea",
+   "subject": "general_test",
+   "batch": "general_test__w4b2",
+   "chapter": "Current Affairs",
+   "type": "single_mcq",
+   "accepted": false,
+   "final": "not_accepted_by_the_rule",
+   "reasons": [
+    "fit_median_6"
+   ],
+   "expert": null,
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    6,
+    6,
+    6
+   ],
+   "fit_median": 6
+  },
+  {
+   "id": "7057b6a7-b107-49d6-99aa-297fe4687e3c",
+   "subject": "general_test",
+   "batch": "general_test__w4b2",
+   "chapter": "General Mental Ability",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "1d3bd0b5-6b6e-4fd0-bd61-290ebfaf79ed",
+   "subject": "general_test",
+   "batch": "general_test__w4b2",
+   "chapter": "General Mental Ability",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    8,
+    10
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "8b76423d-f6c6-47ee-8c20-69a4cdf9adab",
+   "subject": "general_test",
+   "batch": "general_test__w4b2",
+   "chapter": "General Mental Ability",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    10,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "a5193f36-d325-4778-a34d-d84c80c9df12",
+   "subject": "general_test",
+   "batch": "general_test__w4b2",
+   "chapter": "General Mental Ability",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    10,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "4d5c33d3-dfc1-4b51-9295-fcce20d6674c",
+   "subject": "general_test",
+   "batch": "general_test__w4b2",
+   "chapter": "General Mental Ability",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "0a76e5e8-c80c-42fe-8e89-05028b07cada",
+   "subject": "general_test",
+   "batch": "general_test__w4b2",
+   "chapter": "Basic Mathematical Concepts",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    9,
+    10,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "52f17738-6e30-4fb6-9a77-21dbf32faded",
+   "subject": "general_test",
+   "batch": "general_test__w4b2",
+   "chapter": "Basic Mathematical Concepts",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    4,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "f7f57f20-8388-4720-a1c1-f41ca3da3e22",
+   "subject": "general_test",
+   "batch": "general_test__w4b2",
+   "chapter": "Basic Mathematical Concepts",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    8,
+    4,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "299f290b-fb8a-4698-9c32-75261ecc9305",
+   "subject": "general_test",
+   "batch": "general_test__w4b3",
+   "chapter": "Logical & Analytical Reasoning",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "5a9bd18f-202f-4dec-a54e-b925fc90cc8a",
+   "subject": "general_test",
+   "batch": "general_test__w4b3",
+   "chapter": "Logical & Analytical Reasoning",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "f57d3a91-3ff8-4608-9ccf-8568eed19651",
+   "subject": "general_test",
+   "batch": "general_test__w4b3",
+   "chapter": "Logical & Analytical Reasoning",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "df5ce74e-79ae-4a89-adf9-2b39c6e49a1b",
+   "subject": "general_test",
+   "batch": "general_test__w4b3",
+   "chapter": "Logical & Analytical Reasoning",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    10,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "904c750d-2575-4647-aefa-1e2f01c77bbc",
+   "subject": "general_test",
+   "batch": "general_test__w4b3",
+   "chapter": "Logical & Analytical Reasoning",
+   "type": "statement_based",
+   "accepted": false,
+   "final": "not_accepted_by_the_rule",
+   "reasons": [
+    "j1_quality_6"
+   ],
+   "expert": null,
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    6,
+    8
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    8,
+    9,
+    10
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "f27d1fb8-9357-4012-859e-240380f07967",
+   "subject": "general_test",
+   "batch": "general_test__w4b3",
+   "chapter": "Logical & Analytical Reasoning",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "978b5a0b-af20-4e18-a7cd-081298cce2a4",
+   "subject": "general_test",
+   "batch": "general_test__w4b3",
+   "chapter": "Logical & Analytical Reasoning",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "explanation",
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "97bd26d3-c7f6-45e4-ae85-715b3aeed22b",
+   "subject": "general_test",
+   "batch": "general_test__w4b3",
+   "chapter": "Numerical Ability",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    7
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8,
+   "warnings": [
+    "case_set_item_typed_as_single_mcq_not_passage_set_item"
+   ]
+  },
+  {
+   "id": "a832f03c-904d-4957-827c-062a393b86d9",
+   "subject": "general_test",
+   "batch": "general_test__w4b3",
+   "chapter": "Numerical Ability",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8,
+   "warnings": [
+    "case_set_item_typed_as_single_mcq_not_passage_set_item"
+   ]
+  },
+  {
+   "id": "eb8cf251-1014-400f-bbbd-4c32aeca9482",
+   "subject": "general_test",
+   "batch": "general_test__w4b3",
+   "chapter": "Numerical Ability",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8,
+   "warnings": [
+    "case_set_item_typed_as_single_mcq_not_passage_set_item"
+   ]
+  },
+  {
+   "id": "ea0c3adb-a6ff-4438-a863-7f937512c34b",
+   "subject": "general_test",
+   "batch": "general_test__w4b3",
+   "chapter": "Numerical Ability",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    9,
+    7
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8,
+   "warnings": [
+    "case_set_item_typed_as_single_mcq_not_passage_set_item"
+   ]
+  },
+  {
+   "id": "dca1d6ab-a689-4b0d-aa17-43b888be3348",
+   "subject": "general_test",
+   "batch": "general_test__w4b3",
+   "chapter": "Numerical Ability",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8,
+   "warnings": [
+    "case_set_item_typed_as_single_mcq_not_passage_set_item"
+   ]
+  },
+  {
+   "id": "b8c38f43-06fc-4321-9e75-a99d5f40ac70",
+   "subject": "general_test",
+   "batch": "general_test__w4b3",
+   "chapter": "Quantitative Reasoning",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    10,
+    9,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "5153b673-ed1c-49d8-b75c-9f0d16943838",
+   "subject": "general_test",
+   "batch": "general_test__w4b3",
+   "chapter": "Quantitative Reasoning",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    10,
+    9,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "9284a09e-a75f-4a93-89b2-7e5980be0446",
+   "subject": "general_test",
+   "batch": "general_test__w4b3",
+   "chapter": "Quantitative Reasoning",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "b0914cae-cd5b-4bc1-bd14-d56ad9b7ff6d",
+   "subject": "general_test",
+   "batch": "general_test__w4b3",
+   "chapter": "Quantitative Reasoning",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    9,
+    8,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "df0be1fe-22a9-4421-b4b8-db273379d6b7",
+   "subject": "general_test",
+   "batch": "general_test__w4b3",
+   "chapter": "Quantitative Reasoning",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    7,
+    8
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    10,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "a33daca3-5daa-41d3-9ff8-1bfbcd64f9bc",
+   "subject": "general_test",
+   "batch": "general_test__w4b3",
+   "chapter": "Statistical Data Analysis",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    7,
+    8
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    8,
+    8,
+    10
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "beabf729-d7d5-45c9-abe1-4716d75a9f4d",
+   "subject": "general_test",
+   "batch": "general_test__w4b3",
+   "chapter": "Statistical Data Analysis",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "7128b424-83df-4243-b086-2d2e0c327928",
+   "subject": "general_test",
+   "batch": "general_test__w4b3",
+   "chapter": "Statistical Data Analysis",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "1413fb21-57bd-4f2a-a970-c87ad9f10e22",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b1",
+   "chapter": "Numbers, Quantification and Numerical Applications",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    9,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "df8f1dc2-817f-4beb-94d7-79fa21ae35e5",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b1",
+   "chapter": "Numbers, Quantification and Numerical Applications",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "0588bad0-9280-44b9-bc61-2dc16a9f8eb1",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b1",
+   "chapter": "Numbers, Quantification and Numerical Applications",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    10,
+    10,
+    8
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "c6aed432-8bcf-47f4-838d-0fcf91e6b87f",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b1",
+   "chapter": "Numbers, Quantification and Numerical Applications",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    10,
+    10,
+    8
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "61688b26-9f1d-4fe8-af95-fcb90ccff688",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b1",
+   "chapter": "Numbers, Quantification and Numerical Applications",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    10,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "80d1f709-f1db-4e6a-86d3-426cef7fa59c",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b1",
+   "chapter": "Numbers, Quantification and Numerical Applications",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "0e1790f3-7da1-462b-9088-8fd54ec251fd",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b1",
+   "chapter": "Numbers, Quantification and Numerical Applications",
+   "type": "statement_based",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    7,
+    9
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    6
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "05715cc3-5ce9-4a38-b4c3-18ce7e19913f",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b1",
+   "chapter": "Numbers, Quantification and Numerical Applications",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    10,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "692b21ba-8a97-4c40-a18b-7e596ef70759",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b1",
+   "chapter": "Financial Mathematics",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    9,
+    10
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "73fd584b-e7ae-410e-9954-92afabb63682",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b1",
+   "chapter": "Financial Mathematics",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "89e2254f-528c-499b-99db-452c534573b0",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b1",
+   "chapter": "Financial Mathematics",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    7,
+    9
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    9
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "fe53af95-1c40-4ab0-ac4a-33300a6485f5",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b1",
+   "chapter": "Financial Mathematics",
+   "type": "match_the_following",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    8,
+    9
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "4413281e-b267-4c9e-b508-d943bdc632b7",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b1",
+   "chapter": "Financial Mathematics",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "8a51bea6-7f2e-45de-acf0-4dbd4ab9d672",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b1",
+   "chapter": "Financial Mathematics",
+   "type": "single_mcq",
+   "accepted": false,
+   "final": "not_accepted_by_the_rule",
+   "reasons": [
+    "j2_quality_3",
+    "j2_flags_factual_error"
+   ],
+   "expert": null,
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    3
+   ],
+   "quality_mean": 5.5,
+   "fit_scores": [
+    8,
+    6,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "23fda7f6-04bb-43cf-8611-002db1847e7c",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b1",
+   "chapter": "Financial Mathematics",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    9,
+    9,
+    10
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "d1c6ce3a-f7fe-480a-b211-4b242271ae06",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b1",
+   "chapter": "Probability Distributions",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    9,
+    9,
+    10
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "c4f775b9-10e7-422b-a200-45fbcdaa9efc",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b1",
+   "chapter": "Probability Distributions",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    8,
+    8,
+    9
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "7da4d02e-7b39-468a-8c49-74a862dd16b8",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b1",
+   "chapter": "Probability Distributions",
+   "type": "match_the_following",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    9,
+    8,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "b0e6bcaf-f295-4a35-b480-e6dd158bc133",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b1",
+   "chapter": "Probability Distributions",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "68fa91db-5fc7-494a-848d-e39d802d467d",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b1",
+   "chapter": "Probability Distributions",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    10,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "875af04a-7a23-45c0-b4d5-361e69891b04",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b2",
+   "chapter": "Time Based Data",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    10,
+    10,
+    8
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "c88a4ac5-7a46-41a8-98f4-ee80e8c09247",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b2",
+   "chapter": "Time Based Data",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "d5032300-ad44-4c93-a73b-a025bf921683",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b2",
+   "chapter": "Time Based Data",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "a925a1b9-ee41-494d-b328-df3810fbd5a8",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b2",
+   "chapter": "Inferential Statistics",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    8,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "11d82cd8-6286-4725-b3bf-73accec44fda",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b2",
+   "chapter": "Inferential Statistics",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    7,
+    8
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "23a5438b-200a-465f-b39e-aed23d8c2dae",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b2",
+   "chapter": "Inferential Statistics",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "b5078728-0359-48b0-9ec0-947cc05d2988",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b2",
+   "chapter": "Matrices",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "300047ea-3dc7-4cf4-bc6f-abcb00cd5b7f",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b2",
+   "chapter": "Matrices",
+   "type": "match_the_following",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    9,
+    10,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "045b9853-199e-4a62-9fd7-fc740a9daf0b",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b2",
+   "chapter": "Matrices",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    9,
+    10
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "2e6341d0-3c9d-4b33-9d5f-44c898973dbe",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b2",
+   "chapter": "Matrices",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    9,
+    10
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "3ad2e2ed-633e-48a0-bb67-00dda43613f7",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b2",
+   "chapter": "Matrices",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "8653f8fb-63aa-4521-9771-c25fd61bb3ac",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b2",
+   "chapter": "Determinants",
+   "type": "statement_based",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "a9fcf18d-71e5-4e22-8a28-2668842a5f62",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b2",
+   "chapter": "Determinants",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "a901a9e5-50a3-43d6-9540-1e10fbe1e36f",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b2",
+   "chapter": "Determinants",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "f80e1ebf-e7d6-422c-b65c-8f5df6ba0725",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b2",
+   "chapter": "Linear Programming",
+   "type": "match_the_following",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "9879a378-c4e8-4fc9-adb2-8bf56840dc45",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b2",
+   "chapter": "Linear Programming",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    7,
+    9
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "19373bf0-535e-40e8-b7a0-41756d8d2981",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b2",
+   "chapter": "Linear Programming",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    10,
+    9,
+    8
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "de6a00a2-8803-4417-a2b5-061d58f92d92",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b2",
+   "chapter": "Linear Programming",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "57d63f4c-db78-4fe2-9139-842ea2014063",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b2",
+   "chapter": "Linear Programming",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "9d7ba844-d9df-49d4-9bf5-1464df25413a",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b2",
+   "chapter": "Relations & Functions",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    9,
+    10
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "9afe3afa-ab58-487c-8b4a-7b04ef37c60a",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b3",
+   "chapter": "Continuity & Differentiability",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    10,
+    9,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "c0d61bdc-7072-4121-a1b0-be91ad4757b6",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b3",
+   "chapter": "Continuity & Differentiability",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    10,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "9567d87f-af20-4df4-afd1-8656a2b1edcd",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b3",
+   "chapter": "Continuity & Differentiability",
+   "type": "match_the_following",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    7,
+    9
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "6e6c3c28-a723-4c1f-9359-8fbe3c7473b2",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b3",
+   "chapter": "Application of Derivatives",
+   "type": "single_mcq",
+   "accepted": false,
+   "final": "not_accepted_by_the_rule",
+   "reasons": [
+    "j1_quality_3",
+    "j1_flags_factual_error",
+    "j2_quality_3",
+    "j2_flags_factual_error"
+   ],
+   "expert": null,
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    3,
+    3
+   ],
+   "quality_mean": 3,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "93acdf0c-24cc-46b2-864e-99207aceac5b",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b3",
+   "chapter": "Application of Derivatives",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    8,
+    9
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "09ff07f0-c60c-46c9-bc65-88f4e0bc323e",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b3",
+   "chapter": "Application of Derivatives",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    7,
+    8
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    8,
+    9,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "4e3389a9-e5f6-464e-94da-097ecfa1b56a",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b3",
+   "chapter": "Integrals",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    9,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "f1fce836-0049-44b7-95a1-a2399fc7c66f",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b3",
+   "chapter": "Integrals",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    9,
+    10,
+    8
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "a2b66f59-7b62-4b7c-9a2b-6e36fc09b9f7",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b3",
+   "chapter": "Application of Integrals",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    9,
+    10
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "e3728829-e160-4205-abb4-b411b380a303",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b3",
+   "chapter": "Application of Integrals",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "d724586b-c52b-43c1-b3b1-ea045c7d032f",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b3",
+   "chapter": "Application of Integrals",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    10,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "4d8fefa8-332e-4969-a17b-0cf0f8215738",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b3",
+   "chapter": "Differential Equations",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "7ded8cb6-0906-4e49-84fa-82130df4cf14",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b3",
+   "chapter": "Differential Equations",
+   "type": "statement_based",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "7b509c66-2951-4c21-b23f-a1c74e1aafa9",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b3",
+   "chapter": "Differential Equations",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    7,
+    7
+   ],
+   "quality_mean": 7,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "6cdff47f-24b5-4a1a-9db2-057d41f22bd0",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b3",
+   "chapter": "Vector Algebra",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    10,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "c8af2dc3-ec6e-43a1-b174-88e3969c1037",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b3",
+   "chapter": "Vector Algebra",
+   "type": "match_the_following",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    9,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "c7a6e607-a11b-4015-981a-dd1b3e7188c9",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b3",
+   "chapter": "Three Dimensional Geometry",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    9,
+    10,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "a525b67f-b222-4d47-b6dd-3f40ee01659a",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b3",
+   "chapter": "Three Dimensional Geometry",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "8506b7fc-87af-46b8-ad02-5766ad045a34",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b3",
+   "chapter": "Inverse Trigonometric Functions",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    7,
+    8
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    8,
+    10,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "fe67257f-25f9-46f8-911c-63ce57d6ed0c",
+   "subject": "mathematics",
+   "batch": "mathematics__w4b3",
+   "chapter": "Probability",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "9a1edcea-056d-4e0a-9d68-a89e8a6061da",
+   "subject": "physics",
+   "batch": "physics__w4b1",
+   "chapter": "Moving Charges & Magnetism",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "9e03f84e-da69-4b2c-b83f-12f0d834e6b9",
+   "subject": "physics",
+   "batch": "physics__w4b1",
+   "chapter": "Moving Charges & Magnetism",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "823433eb-4072-4493-833d-f53ea7ff8cf3",
+   "subject": "physics",
+   "batch": "physics__w4b1",
+   "chapter": "Moving Charges & Magnetism",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 4,
+    "answers": [
+     "A",
+     "A",
+     "B",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "e9f682c4-7b40-4470-a4ac-cca20e95419e",
+   "subject": "physics",
+   "batch": "physics__w4b1",
+   "chapter": "Moving Charges & Magnetism",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "449e1c7b-0d6d-4ea4-a7c2-85e2aa906779",
+   "subject": "physics",
+   "batch": "physics__w4b1",
+   "chapter": "Electromagnetic Induction",
+   "type": "statement_based",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    9,
+    10
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "d927294f-a4a8-4886-b658-6ae4abbb96cc",
+   "subject": "physics",
+   "batch": "physics__w4b1",
+   "chapter": "Electromagnetic Induction",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    10,
+    9,
+    8
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "9c904745-0e4f-4aaf-b0ec-680a81b419ab",
+   "subject": "physics",
+   "batch": "physics__w4b1",
+   "chapter": "Electromagnetic Induction",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    7,
+    8
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    9,
+    10,
+    8
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "e6aaca54-9f5b-4217-86d5-a72ec3df7ec1",
+   "subject": "physics",
+   "batch": "physics__w4b1",
+   "chapter": "Electromagnetic Induction",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "03e23eee-ba91-4f2c-9307-a711a8aaf231",
+   "subject": "physics",
+   "batch": "physics__w4b1",
+   "chapter": "Alternating Current",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    6,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "d01eb790-0cf8-49f7-9eaa-eae3faeea1d5",
+   "subject": "physics",
+   "batch": "physics__w4b1",
+   "chapter": "Alternating Current",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "47a09bf1-99f6-4a0d-bb3d-cd9177a65ba2",
+   "subject": "physics",
+   "batch": "physics__w4b1",
+   "chapter": "Alternating Current",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    10,
+    9,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "73198264-8b92-4c57-a361-7cfdeef58e51",
+   "subject": "physics",
+   "batch": "physics__w4b1",
+   "chapter": "Electromagnetic Waves",
+   "type": "match_the_following",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    10,
+    8
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "7af4ea50-c28d-445c-b9da-6c586230ae81",
+   "subject": "physics",
+   "batch": "physics__w4b1",
+   "chapter": "Electromagnetic Waves",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    7
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "011459c4-767b-4d22-a553-e53947ca2243",
+   "subject": "physics",
+   "batch": "physics__w4b1",
+   "chapter": "Electromagnetic Waves",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    10,
+    10,
+    9
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "75bc29fb-5f94-405b-b6a4-9d121f46ff9e",
+   "subject": "physics",
+   "batch": "physics__w4b1",
+   "chapter": "Semiconductor Electronics",
+   "type": "match_the_following",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    9,
+    9,
+    8
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "9cc7e8e6-4b0e-4cf4-b003-20402d104f39",
+   "subject": "physics",
+   "batch": "physics__w4b1",
+   "chapter": "Semiconductor Electronics",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    7,
+    8
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    8,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "fabdd431-d76a-40f3-b6c3-1718f5b4a141",
+   "subject": "physics",
+   "batch": "physics__w4b1",
+   "chapter": "Semiconductor Electronics",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    9,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "4d2b0fe2-fffd-4d86-91be-ad6c8f61317a",
+   "subject": "physics",
+   "batch": "physics__w4b1",
+   "chapter": "Semiconductor Electronics",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    7
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    8,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "b178248c-b160-48d6-a199-390201b13144",
+   "subject": "physics",
+   "batch": "physics__w4b1",
+   "chapter": "Semiconductor Electronics",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    9,
+    8
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "9a2b3ade-77eb-4ee8-8cd3-f9dbbca861ba",
+   "subject": "physics",
+   "batch": "physics__w4b1",
+   "chapter": "Semiconductor Electronics",
+   "type": "single_mcq",
+   "accepted": false,
+   "final": "not_accepted_by_the_rule",
+   "reasons": [
+    "j2_quality_6"
+   ],
+   "expert": null,
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    7,
+    6
+   ],
+   "quality_mean": 6.5,
+   "fit_scores": [
+    8,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "49cdcfd3-2f1c-4d94-8905-0f9afc4ef316",
+   "subject": "physics",
+   "batch": "physics__w4b2",
+   "chapter": "Ray Optics & Optical Instruments",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "012b12f8-f665-4fac-87c8-1c3bbc85d59e",
+   "subject": "physics",
+   "batch": "physics__w4b2",
+   "chapter": "Ray Optics & Optical Instruments",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "bf760cfb-3f89-4233-8ec2-7d0588f8a8f1",
+   "subject": "physics",
+   "batch": "physics__w4b2",
+   "chapter": "Ray Optics & Optical Instruments",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    9
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    10,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "c83bfc1b-51a8-4c9c-ba3a-4b1b3b077998",
+   "subject": "physics",
+   "batch": "physics__w4b2",
+   "chapter": "Ray Optics & Optical Instruments",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "a5527d87-72c4-45bc-876b-a80050540ae1",
+   "subject": "physics",
+   "batch": "physics__w4b2",
+   "chapter": "Ray Optics & Optical Instruments",
+   "type": "match_the_following",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "46dec6bb-4af6-40da-8a22-825f75dc52ce",
+   "subject": "physics",
+   "batch": "physics__w4b2",
+   "chapter": "Wave Optics",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "c88795fc-93b2-4e55-979a-126712390857",
+   "subject": "physics",
+   "batch": "physics__w4b2",
+   "chapter": "Wave Optics",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    8,
+    9
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "4bb38a72-4019-47e5-bdc9-26fe5bcad9a5",
+   "subject": "physics",
+   "batch": "physics__w4b2",
+   "chapter": "Wave Optics",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    10,
+    10,
+    9
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "a2a668aa-c16b-40c2-81b8-3d810f79d7e2",
+   "subject": "physics",
+   "batch": "physics__w4b2",
+   "chapter": "Wave Optics",
+   "type": "sequence_ordering",
+   "accepted": true,
+   "final": "held_7_to_7_9",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    7,
+    8
+   ],
+   "quality_mean": 7.5,
+   "fit_scores": [
+    9,
+    9,
+    8
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "3b05fd92-2355-4441-968e-ae9c92367483",
+   "subject": "physics",
+   "batch": "physics__w4b2",
+   "chapter": "Dual Nature of Radiation & Matter",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    10,
+    10,
+    10
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "a8245687-1132-49a7-8ec4-306abf2aba8b",
+   "subject": "physics",
+   "batch": "physics__w4b2",
+   "chapter": "Dual Nature of Radiation & Matter",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    8,
+    8,
+    9
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "ff03fa32-f2de-4166-b312-bff3de154777",
+   "subject": "physics",
+   "batch": "physics__w4b2",
+   "chapter": "Dual Nature of Radiation & Matter",
+   "type": "statement_based",
+   "accepted": false,
+   "final": "not_accepted_by_the_rule",
+   "reasons": [
+    "j1_quality_6"
+   ],
+   "expert": null,
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    6,
+    7
+   ],
+   "quality_mean": 6.5,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "664b7a77-53bc-4c82-889a-5731832693ac",
+   "subject": "physics",
+   "batch": "physics__w4b2",
+   "chapter": "Dual Nature of Radiation & Matter",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "59c65a4c-9cea-4a76-bbe3-dde064917db4",
+   "subject": "physics",
+   "batch": "physics__w4b2",
+   "chapter": "Atoms",
+   "type": "match_the_following",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    9,
+    10,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "eab7b9e0-c086-4422-8820-f49e7701fe40",
+   "subject": "physics",
+   "batch": "physics__w4b2",
+   "chapter": "Atoms",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    9,
+    9,
+    9
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "48be5953-0f97-438b-930b-ecac7c558cf2",
+   "subject": "physics",
+   "batch": "physics__w4b2",
+   "chapter": "Atoms",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    9,
+    9,
+    10
+   ],
+   "fit_median": 9
+  },
+  {
+   "id": "0140bbdf-feae-48b9-a3bd-5c6e16f61c30",
+   "subject": "physics",
+   "batch": "physics__w4b2",
+   "chapter": "Atoms",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "explanation"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "quality_scores": [
+    9,
+    9
+   ],
+   "quality_mean": 9,
+   "fit_scores": [
+    8,
+    6,
+    8
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "46ac000e-cb0b-4df5-8edf-c811757f79cf",
+   "subject": "physics",
+   "batch": "physics__w4b2",
+   "chapter": "Nuclei",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "D",
+     "D",
+     "D",
+     "D",
+     "D"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    10,
+    10,
+    9
+   ],
+   "fit_median": 10
+  },
+  {
+   "id": "97690044-9d76-4aff-a84b-f9787fd3c100",
+   "subject": "physics",
+   "batch": "physics__w4b2",
+   "chapter": "Nuclei",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "ready",
+   "expert_repaired_fields": null,
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "quality_scores": [
+    9,
+    8
+   ],
+   "quality_mean": 8.5,
+   "fit_scores": [
+    8,
+    8,
+    9
+   ],
+   "fit_median": 8
+  },
+  {
+   "id": "c28582fc-eedd-4ea9-a907-b938f29248ab",
+   "subject": "physics",
+   "batch": "physics__w4b2",
+   "chapter": "Nuclei",
+   "type": "single_mcq",
+   "accepted": true,
+   "final": "publish",
+   "reasons": [],
+   "expert": "repaired",
+   "expert_repaired_fields": [
+    "difficulty_label"
+   ],
+   "fresh_pass": null,
+   "repaired_after_solve": null,
+   "solvers": {
+    "n": 5,
+    "matched_key": 5,
+    "answers": [
+     "A",
+     "A",
+     "A",
+     "A",
+     "A"
+    ]
+   },
+   "quality_scores": [
+    8,
+    8
+   ],
+   "quality_mean": 8,
+   "fit_scores": [
+    8,
+    8,
+    8
+   ],
+   "fit_median": 8
+  }
+ ]
+}

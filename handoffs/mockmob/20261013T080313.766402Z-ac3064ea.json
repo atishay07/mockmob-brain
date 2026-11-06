@@ -1,0 +1,40 @@
+{
+  "id": "20261013T080313.766402Z-ac3064ea",
+  "observed_at": "2026-10-13T08:03:13.766402+00:00",
+  "agent": "practice-builder (Claude Code subagent)",
+  "task": "Flutter practice area pass after owner feedback 1110: subject/length correctness, setup parity, animated finish, result parity, sheet bleed, subject art",
+  "status": "complete",
+  "done": "Fixed the subject-reset bug: a credit refresh rebuilt PracticeSubject and reset it to the first saved subject (Accountancy). The pick now lives in pickedPracticeSubjectProvider and the default reads a joined subjects key. ActionRouter._setup now carries chapters (web comma list, sent on as a repeated param) and difficulty. Edit subjects is linked from Practice and the stale banner to /you/subjects. Ported the web's analyseSession (observations, dwell, answer changes). Added the result's What this set shows panel, time and change per row, Report a problem (POST interact, then 'Reported. Thank you.'), and the Prove step (GET recovery/replay, then 5 fresh questions with recoveryFrom and experience recovery, no quote). The finish moment now puts Mobi under the inking sheet with a side bubble, and the MarksBar zero-height segment bug is fixed. Sheet tint raised from 0.95 to 0.985 (DEVICE-FINDINGS 1). The demo has real question pools for all 15 subjects and offers Prove. All 15 subject objects are mapped and shown in a golden.",
+  "next": "Orchestrator: register /you/subjects in the router (openYouPage falls back to a pushed page). Server: one-line chapters array fix in practiceSessions.js. P1: filter chips, Today/onboarding Accountancy fallbacks owned by those areas, the learn chapter summary (B2).",
+  "blockers": [
+    "continuum_start failed (brain.py error), so the brain was not read at the start",
+    "/you/subjects route registration belongs to the integrator"
+  ],
+  "evidence": [],
+  "touched_files": [
+    "flutter_app/lib/features/practice/data/practice_catalog.dart",
+    "flutter_app/lib/features/practice/data/result_actions.dart (new)",
+    "flutter_app/lib/features/practice/data/launch_flow.dart",
+    "flutter_app/lib/features/practice/data/practice_starter.dart",
+    "flutter_app/lib/features/practice/model/session_analysis.dart (new)",
+    "flutter_app/lib/features/practice/model/practice_selection.dart",
+    "flutter_app/lib/features/practice/model/practice_link.dart",
+    "flutter_app/lib/features/practice/result_copy.dart (new)",
+    "flutter_app/lib/features/practice/practice_result_screen.dart",
+    "flutter_app/lib/features/practice/practice_screen.dart",
+    "flutter_app/lib/features/practice/practice_start_screen.dart",
+    "flutter_app/lib/features/practice/widgets/{finish_stage,marks_bar,observations_panel(new),prove_card(new),report_key(new),result_list,result_question_card,stale_subjects_banner}.dart",
+    "flutter_app/lib/core/router/action_router.dart",
+    "flutter_app/lib/core/widgets/materials/glass_surface.dart",
+    "flutter_app/lib/features/insights/data/stream_catalog.dart",
+    "flutter_app/lib/features/today/logic/move_builder.dart",
+    "flutter_app/test/unit/practice/*",
+    "flutter_app/test/golden/practice/*",
+    "flutter_app/test/golden/core/goldens/sheet_*,quick_start_*",
+    "flutter_app/test/device_demo/*",
+    "flutter_app/test/unit/core_ui/action_router_test.dart"
+  ],
+  "verification": "flutter analyze lib (whole) plus the practice tests, demo and core_ui: no issues. Unit tests: practice 130, plus today, insights, learn, demo and action_router, all pass. Goldens: practice (both files), core sheets and insights all pass. I viewed the finish frames at 0, 400, 900 and 2400 ms, the result analysis, the open answer, setup with chapters and Hard, the 15-subject art sheet and the confirm sheets. Ghost text behind the sheets is now at most 2 grey levels.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

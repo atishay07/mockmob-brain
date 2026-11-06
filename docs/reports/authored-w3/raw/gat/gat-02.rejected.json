@@ -1,0 +1,7 @@
+{
+ "batch": "gat-02",
+ "subject": "general_test",
+ "source_batch": "gat-02.json",
+ "rejected_count": 0,
+ "questions": []
+}

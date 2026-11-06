@@ -1,0 +1,25 @@
+{
+  "id": "20261013T062540.016096Z-961e2c13",
+  "observed_at": "2026-10-13T06:25:40.017095+00:00",
+  "agent": "claude-code mobi-rig subagent",
+  "task": "Living animated Mobi: code-rigged vector character in Flutter (owner feedback 11-10, Duolingo-style)",
+  "status": "complete",
+  "done": "Built lib/core/mascot/** (rig, geometry, palette, cached picture parts, painter, deterministic sim with idle beats and antenna/eye springs, acts choreography, controller, typing bubble, MobiStage, MobiFigure). Mobi(pose,size,motion) now renders the living character, with raster renders behind --dart-define=MOBI_RASTER=true. Lab Mobi section is interactive (lab_mobi.dart). Goldens of every state and frame sequences in test/golden/mascot.",
+  "next": "Feature owners: regenerate goldens that contain Mobi (rhythm returning_cards and celebration_moments, onboarding, review, repair, and any today or recap goldens). Welcome screen should swap the hero photo for MobiStage(say: ...). Screens can call MobiController.play or say on events.",
+  "blockers": [],
+  "evidence": [
+    "test/golden/mascot/goldens/mobi_states_*.png",
+    "test/golden/mascot/goldens/mobi_frames_*.png"
+  ],
+  "touched_files": [
+    "flutter_app/lib/core/mascot/*",
+    "flutter_app/lib/core/widgets/mobi.dart",
+    "flutter_app/lib/core/widgets/lab/lab_mobi.dart",
+    "flutter_app/lib/core/widgets/lab/lab_materials.dart",
+    "flutter_app/test/golden/mascot/*",
+    "flutter_app/test/golden/core/goldens (mobi, state_* regenerated)"
+  ],
+  "verification": "analyze clean on lib/core/mascot, lib/core/widgets, test/golden/mascot. 40 mascot and core-mobi tests pass. widgets_test and review_widgets_test pass. Goldens viewed in both themes. The rhythm goldens fail only on pixel diffs from the new Mobi, as expected.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

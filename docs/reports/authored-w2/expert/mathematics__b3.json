@@ -1,0 +1,29 @@
+{
+  "batch": "mathematics__b3",
+  "subject": "mathematics",
+  "pass": "wave2 expert pass (Haiku 5.5 CUET expert review, same procedure as wave 1 step 5)",
+  "date": "2026-10-14",
+  "scope": "accepted=true questions in wave2-acceptance-2026-10-14.json for mathematics__b3 (17 of 20). Not reviewed: 21a6a718 (duplicate), ea6b9647 (duplicate), ecca3885 (duplicate), because accepted=false.",
+  "source_file": "tmp/authored-w2/mathematics/mathematics__b3.json",
+  "keys_changed": false,
+  "counts": {"reviewed": 17, "ready": 15, "repaired": 2, "practice": 0, "reject": 0},
+  "verdicts": [
+    {"id": "0e85c537-eb47-4495-823b-57d58db8baa6", "verdict": "ready", "why": "Corners of |x-2|+|x+1| occur only at x=2 and x=-1, so exactly two non-differentiable points; key D is unique."},
+    {"id": "e02b71b5-7edf-4e03-8823-b802f699a479", "verdict": "ready", "why": "Log-differentiation gives dy/dx = x^(sin x)(cos x ln x + sin x / x); at pi/2 this is (pi/2)(2/pi) = 1, key A is correct and the distractors are plausible."},
+    {"id": "74d997e2-c8b5-465b-b005-9bb9a556b395", "verdict": "ready", "why": "f(1)=f(3)=0 and f'(x)=2x-4 vanishes at x=2, which is inside (1,3); key C is unique and the endpoint 1 is a fair distractor."},
+    {"id": "1f21bc96-047d-452e-8b89-5739a31be9eb", "verdict": "repaired", "why": "Key 8 is correct: 1-cos4x = 2sin^2(2x) gives limit 8. The explanation said the distractor 16 came from using 1-cos(theta) ~ theta^2 and omitting a factor 1/2, which was unclear.", "repair": "Explanation reworded: the option 16 results from using 1 - cos theta ~ theta^2 instead of the correct theta^2/2 with theta = 4x. Key, options and stem unchanged."},
+    {"id": "d2e35cc4-095c-4645-b925-826c87165dd1", "verdict": "ready", "why": "f'(x)=3(x-1)(x-3) is positive exactly on (-inf,1) and (3,inf); key C is unique and (1,3) is a sound distractor."},
+    {"id": "24da61f4-332d-4048-b169-1a2088c0f0e9", "verdict": "ready", "why": "Local max at x=-1 (value 10), local min at x=3 (value -22); key D maps A-III, B-IV, C-I, D-II and no other option matches."},
+    {"id": "7f690315-3567-47f5-967b-4af3aa94e2e0", "verdict": "ready", "why": "dA/dt = 2 pi r dr/dt = 2 pi (10)(0.5) = 10 pi; key A is correct and 5 pi is the standard missed-factor-2 distractor."},
+    {"id": "8ee1a4be-30ab-4a3b-a98d-87294334ec60", "verdict": "ready", "why": "Substitution t = x^2 gives (1/2)(e-1) = (e-1)/2; key D is unique and e-1 is the missed-1/2 distractor."},
+    {"id": "12d9762a-a577-4a40-b87a-993cd32ca010", "verdict": "repaired", "why": "Key 1 is correct: [-x cos x + sin x] from 0 to pi/2 = 1. The explanation claimed a sign slip in the parts formula gives pi/2 - 1, which is not supported by the working.", "repair": "Explanation sentence changed to: the option pi/2 - 1 does not follow from the parts formula and is a distractor. Key, options and stem unchanged."},
+    {"id": "51b25b8f-f807-450a-b34f-2238e0442610", "verdict": "ready", "why": "x^2+4x+13 = (x+2)^2+9 gives (1/3) arctan((x+2)/3); the definite value is pi/12, key B is unique and pi/4 is the missed-1/3 distractor."},
+    {"id": "be0982b3-5c82-413c-9f67-22716abfaf71", "verdict": "ready", "why": "The x -> pi/2 - x symmetry gives 2I = pi/2, so I = pi/4; key A is unique and pi/2 is the un-halved sum."},
+    {"id": "7b40c16c-1693-4ada-8edc-f1cabaa60426", "verdict": "ready", "why": "Values are 1/2 (A-III), 1 (B-II), ln 2 (C-I) and e-1 (D-IV); key C is the only option with all four pairs correct."},
+    {"id": "26feae72-7872-4455-a814-5dd06c84457a", "verdict": "ready", "why": "Intersections at x = -2 and 2 give area 32/3 by integrating 4 - x^2 over [-2,2]; key B is correct and 16/3 is the half-interval distractor."},
+    {"id": "650e43dc-3d1c-450d-a5af-397791d0e931", "verdict": "ready", "why": "Area between y=x and y=x^2 on [0,1] is 1/2 - 1/3 = 1/6; key D is unique and 1/2 is the missed-subtraction distractor."},
+    {"id": "215748b5-9d88-4c10-bd1d-4f119054a928", "verdict": "ready", "why": "Order is 2 and degree is undefined because sin(dy/dx) is not polynomial in the derivatives; key B matches the standard NCERT convention and is unique."},
+    {"id": "b0307bb2-96a1-4232-ae87-58d0742d49f2", "verdict": "ready", "why": "y'' = 4y for y = Ae^(2x) + Be^(-2x), so y'' - 4y = 0 eliminates both constants; key D is unique."},
+    {"id": "ceb71d00-66ab-4ee7-9cad-74250d408a2f", "verdict": "ready", "why": "IF = x^2; (A) true, (B) general solution true, (D) particular solution true (C=0), and degree 1 makes (C) false, so key A is correct and unique."}
+  ]
+}

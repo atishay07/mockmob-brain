@@ -1,0 +1,523 @@
+{
+ "kind": "authored_scores_check",
+ "version": "authored-scores-1",
+ "source": "claude-authored-2026-10-14",
+ "repairedTextPolicy": "admit",
+ "at": "2026-10-14T06:23:00.642Z",
+ "planned": 479,
+ "agentEntries": 479,
+ "hashChangedByRepair": 60,
+ "heldForFreshPass": 0,
+ "engineEligible": 460,
+ "engineIneligible": 19,
+ "engineIneligibleReasons": {
+  "answer_guard_options_invalid": 3,
+  "answer_guard_near_duplicate_options": 3,
+  "options_invalid": 3,
+  "wording_corrupted_connective": 1,
+  "orphan_passage_question": 15
+ },
+ "fitGate": {
+  "mirror": "data/nta_fit_scores.js on wip/cuet-fit (ntaFitGateReasons + the content-hash check)",
+  "minFit": 8,
+  "pass": 479,
+  "reasons": {},
+  "baseTablesMissing": [
+   "chemistry",
+   "english",
+   "history",
+   "political_science",
+   "psychology",
+   "sociology"
+  ]
+ },
+ "qualityAndFitBoth": 460,
+ "passageSets": {
+  "servable": 12,
+  "of": 12,
+  "blueprint": {
+   "passageWords": {
+    "min": 200,
+    "target": 280,
+    "max": 300
+   },
+   "minChildren": 4
+  },
+  "sets": [
+   {
+    "groupId": "pg_a55d6933b991898f4e4b700b046bf2de",
+    "chapter": "Factual Passage",
+    "words": 299,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_20aabfc462664e85ddcb5cf1aef5d7d6",
+    "chapter": "Narrative Passage",
+    "words": 292,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_b1c0212d23fa9117786356ede1fc95f7",
+    "chapter": "Literary Passage",
+    "words": 277,
+    "children": 4,
+    "eligibleChildren": 4,
+    "servable": true
+   },
+   {
+    "groupId": "pg_c9a1c2e7267af4c9bf4748cd080c7976",
+    "chapter": "Factual Passage",
+    "words": 249,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_4be65e802682a481da1537a400827fdb",
+    "chapter": "Narrative Passage",
+    "words": 282,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_a19306ccfb79082951e15b7c418f6d6a",
+    "chapter": "Literary Passage",
+    "words": 266,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_a026673c3e0f23beb17064ea26702f62",
+    "chapter": "Factual Passage",
+    "words": 270,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_58c5acf369b459ca6924912852791ac3",
+    "chapter": "Narrative Passage",
+    "words": 296,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_580969bc3f0e14374cfe92cbd2bca6f5",
+    "chapter": "Literary Passage",
+    "words": 293,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_b7f3e595617ca904b33d5982c889fc7f",
+    "chapter": "Factual Passage",
+    "words": 261,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_e4b30a4c8346748791f06d5efdc63f6b",
+    "chapter": "Narrative Passage",
+    "words": 276,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_27dbca206f074f871d6b636f24b4bbfe",
+    "chapter": "Literary Passage",
+    "words": 254,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   }
+  ]
+ },
+ "impact": {
+  "export": "tmp/nta-fixtures",
+  "subjects": {
+   "chemistry": {
+    "exportRows": 300,
+    "exportRowsWithEvidence": 0,
+    "faithful": true,
+    "eligibleWithout": 107,
+    "eligibleWith": 198,
+    "papersWithout": [
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     }
+    ],
+    "papersWith": [
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     }
+    ]
+   },
+   "history": {
+    "exportRows": 197,
+    "exportRowsWithEvidence": 0,
+    "faithful": true,
+    "eligibleWithout": 34,
+    "eligibleWith": 115,
+    "papersWithout": [
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     }
+    ],
+    "papersWith": [
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 45
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     }
+    ]
+   },
+   "political_science": {
+    "exportRows": 198,
+    "exportRowsWithEvidence": 0,
+    "faithful": true,
+    "eligibleWithout": 42,
+    "eligibleWith": 124,
+    "papersWithout": [
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     }
+    ],
+    "papersWith": [
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 47
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     }
+    ]
+   },
+   "psychology": {
+    "exportRows": 87,
+    "exportRowsWithEvidence": 0,
+    "faithful": true,
+    "eligibleWithout": 41,
+    "eligibleWith": 108,
+    "papersWithout": [
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     }
+    ],
+    "papersWith": [
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     }
+    ]
+   },
+   "sociology": {
+    "exportRows": 212,
+    "exportRowsWithEvidence": 0,
+    "faithful": true,
+    "eligibleWithout": 63,
+    "eligibleWith": 143,
+    "papersWithout": [
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     }
+    ],
+    "papersWith": [
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     }
+    ]
+   }
+  }
+ },
+ "bySubject": {
+  "chemistry": {
+   "planned": 95,
+   "eligible": 91,
+   "fitPass": 95,
+   "both": 91
+  },
+  "english": {
+   "planned": 59,
+   "eligible": 59,
+   "fitPass": 59,
+   "both": 59
+  },
+  "history": {
+   "planned": 82,
+   "eligible": 81,
+   "fitPass": 82,
+   "both": 81
+  },
+  "political_science": {
+   "planned": 83,
+   "eligible": 82,
+   "fitPass": 83,
+   "both": 82
+  },
+  "psychology": {
+   "planned": 79,
+   "eligible": 67,
+   "fitPass": 79,
+   "both": 67
+  },
+  "sociology": {
+   "planned": 81,
+   "eligible": 80,
+   "fitPass": 81,
+   "both": 80
+  }
+ },
+ "ineligible": [
+  {
+   "id": "35087f71-5855-47b3-bd54-d5f26054f8bf",
+   "subject": "chemistry",
+   "chapter": "Electrochemistry",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ]
+  },
+  {
+   "id": "6f5a70c3-9d94-4bf6-912d-6c171d1d92e9",
+   "subject": "chemistry",
+   "chapter": "Electrochemistry",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ]
+  },
+  {
+   "id": "0575b5e7-b2ea-4e69-9831-6dad960632ab",
+   "subject": "chemistry",
+   "chapter": "Chemical Kinetics",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ]
+  },
+  {
+   "id": "cf0089e7-356e-4131-b9de-ef4a94447c62",
+   "subject": "chemistry",
+   "chapter": "Haloalkanes & Haloarenes",
+   "reasons": [
+    "wording_corrupted_connective"
+   ]
+  },
+  {
+   "id": "e58cdd9f-dc2f-4dba-b5e0-798058c6a2a3",
+   "subject": "history",
+   "chapter": "Bhakti-Sufi Traditions",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "47736958-cb1f-4b0d-856d-61d715a61b76",
+   "subject": "political_science",
+   "chapter": "Challenges of Nation Building",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "b956b2d0-3469-48c4-9946-dea9d5d1bf48",
+   "subject": "psychology",
+   "chapter": "Variations in Psychological Attributes",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "7fbbdf38-f2f6-4c7a-8277-1003d6dd8e8f",
+   "subject": "psychology",
+   "chapter": "Variations in Psychological Attributes",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "1ba0f260-1afb-4325-897d-1a1822873983",
+   "subject": "psychology",
+   "chapter": "Variations in Psychological Attributes",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "3a87c16d-9491-4bae-a677-36a9f2550856",
+   "subject": "psychology",
+   "chapter": "Self & Personality",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "418ddeef-3a09-4960-9d47-13756c978a82",
+   "subject": "psychology",
+   "chapter": "Self & Personality",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "6c7d53f9-814f-4252-b120-da2469629d80",
+   "subject": "psychology",
+   "chapter": "Meeting Life Challenges",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "5598d26a-aff7-4fdf-b3e3-de91de05a055",
+   "subject": "psychology",
+   "chapter": "Meeting Life Challenges",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "608f1640-b710-4c21-b5a4-360353f65f95",
+   "subject": "psychology",
+   "chapter": "Therapeutic Approaches",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "ddfcb147-ba95-48de-9cd4-488256fc83b5",
+   "subject": "psychology",
+   "chapter": "Therapeutic Approaches",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "fc5deffb-c7d6-4bc4-b228-d30d19867c97",
+   "subject": "psychology",
+   "chapter": "Therapeutic Approaches",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "596483d2-d834-437d-b197-93cdd37db9d5",
+   "subject": "psychology",
+   "chapter": "Attitude & Social Cognition",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "50878637-d492-46ae-9cbe-75b3b2283971",
+   "subject": "psychology",
+   "chapter": "Attitude & Social Cognition",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "51f152fd-81d3-4634-ba2c-c50efb903927",
+   "subject": "sociology",
+   "chapter": "Demographic Structure",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  }
+ ]
+}

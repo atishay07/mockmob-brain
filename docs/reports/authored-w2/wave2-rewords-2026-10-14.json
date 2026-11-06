@@ -1,0 +1,297 @@
+{
+  "kind": "authored_w2_rewords",
+  "date": "2026-10-14",
+  "source": "claude-authored-2026-10-14-w2",
+  "engine_check_before": {
+    "label": "working-r5.2",
+    "refused": 10,
+    "file": "docs/brain/reports/authored-w2/wave2-engine-check-working-r5.2-2026-10-14.json"
+  },
+  "scope": "only the 10 refused questions were edited in tmp/authored-w2 batch files; no other question, blind file or report was changed",
+  "reworded_ids": [
+    "dbbeb54a-2a90-448d-bc03-d52a07078ded",
+    "4b3919e1-b58b-44eb-a11c-42cca7d43ca7",
+    "a6e15328-3f33-4874-b956-dd25c0a63f39",
+    "5efc8343-0618-4451-9700-e8858f0599b6",
+    "a3eb6b10-fe92-4abc-a2d0-8dacc0900a72",
+    "2bcb43e0-f75e-40d3-b4ff-725752064937",
+    "cb4f1503-5165-4373-a4d4-037a199e073a",
+    "1bfb4dd7-d130-4baa-97eb-22b59d735a9a",
+    "87c9264b-613d-4c51-bb97-9de06bbe6fe8",
+    "d66d55ac-929f-4786-8a67-59576d0aa5c7"
+  ],
+  "rewords_file": "tmp/authored-w2/reword/rw-w2.json",
+  "blind_file": "tmp/authored-w2/reword/rw-w2-blind.json",
+  "changes": [
+    {
+      "id": "dbbeb54a-2a90-448d-bc03-d52a07078ded",
+      "subject": "biology",
+      "batch_file": "tmp/authored-w2/biology/biology__b1.json",
+      "field": "stem",
+      "before": "(III) Natural method based on breastfeeding",
+      "after": "(III) Natural method that relies on breastfeeding",
+      "why": "'based on' made the engine treat the item as passage-linked with no passage (orphan_passage_question); same meaning"
+    },
+    {
+      "id": "dbbeb54a-2a90-448d-bc03-d52a07078ded",
+      "subject": "biology",
+      "batch_file": "tmp/authored-w2/biology/biology__b1.json",
+      "field": "explanation",
+      "before": "is a natural method based on breastfeeding",
+      "after": "is a natural method that relies on breastfeeding",
+      "why": "keeps the explanation in line with the reworded stem"
+    },
+    {
+      "id": "4b3919e1-b58b-44eb-a11c-42cca7d43ca7",
+      "subject": "biology",
+      "batch_file": "tmp/authored-w2/biology/biology__b1.json",
+      "field": "options.D.text",
+      "before": "P–Q–R",
+      "after": "R–Q–P",
+      "why": "the engine flagged a key whose labels run in consecutive order (P, Q, R) as listed order (sequence_key_is_listed_order); the key now reads R–Q–P, the same line of genes read from the other end, which has no consecutive run; the order of the genes is unchanged"
+    },
+    {
+      "id": "4b3919e1-b58b-44eb-a11c-42cca7d43ca7",
+      "subject": "biology",
+      "batch_file": "tmp/authored-w2/biology/biology__b1.json",
+      "field": "explanation",
+      "before": "giving the order P–Q–R.",
+      "after": "giving the order R–Q–P.",
+      "why": "keeps the explanation in line with the key"
+    },
+    {
+      "id": "a6e15328-3f33-4874-b956-dd25c0a63f39",
+      "subject": "biology",
+      "batch_file": "tmp/authored-w2/biology/biology__b2.json",
+      "field": "stem",
+      "before": "Arrange the following hominids in the order of their first appearance in the fossil record, earliest first:",
+      "after": "Arrange the following hominids by the age of their earliest known fossil remains, from the oldest to the most recent:",
+      "why": "the preamble had two ordering cues ('first' twice: 'first appearance' and 'earliest first'), which narrates the order (sequence_order_narrated_in_stem); same task and key"
+    },
+    {
+      "id": "5efc8343-0618-4451-9700-e8858f0599b6",
+      "subject": "computer_science",
+      "batch_file": "tmp/authored-w2/computer_science/computer_science__b2.json",
+      "field": "options.A.text",
+      "before": "A",
+      "after": "Prints A",
+      "why": "a single letter option reads as a placeholder (options_invalid); options now state the printed output"
+    },
+    {
+      "id": "5efc8343-0618-4451-9700-e8858f0599b6",
+      "subject": "computer_science",
+      "batch_file": "tmp/authored-w2/computer_science/computer_science__b2.json",
+      "field": "options.B.text",
+      "before": "B",
+      "after": "Prints B",
+      "why": "a single letter option reads as a placeholder; key is still the printed B"
+    },
+    {
+      "id": "5efc8343-0618-4451-9700-e8858f0599b6",
+      "subject": "computer_science",
+      "batch_file": "tmp/authored-w2/computer_science/computer_science__b2.json",
+      "field": "options.C.text",
+      "before": "C",
+      "after": "Prints C",
+      "why": "a single letter option reads as a placeholder"
+    },
+    {
+      "id": "5efc8343-0618-4451-9700-e8858f0599b6",
+      "subject": "computer_science",
+      "batch_file": "tmp/authored-w2/computer_science/computer_science__b2.json",
+      "field": "options.D.text",
+      "before": "['B', 'C']",
+      "after": "Prints ['B', 'C']",
+      "why": "parallel wording with the other options; same distractor"
+    },
+    {
+      "id": "a3eb6b10-fe92-4abc-a2d0-8dacc0900a72",
+      "subject": "english",
+      "batch_file": "tmp/authored-w2/english/english__v2.json",
+      "field": "options.A.text",
+      "before": "a",
+      "after": "a (before a consonant sound)",
+      "why": "a single letter option reads as a placeholder (options_invalid); the option still names the article a, and it stays wrong for 'honest'"
+    },
+    {
+      "id": "2bcb43e0-f75e-40d3-b4ff-725752064937",
+      "subject": "mathematics",
+      "batch_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+      "field": "stem",
+      "before": "If A = [[1, 2], [3, 4]] and B = [[0, 1], [1, 0]], then AB is equal to",
+      "after": "If A has rows (1, 2) and (3, 4), and B has rows (0, 1) and (1, 0), then AB has rows",
+      "why": "nested double brackets in the stem (malformed_question_text); matrices written as rows in parentheses; same matrices"
+    },
+    {
+      "id": "2bcb43e0-f75e-40d3-b4ff-725752064937",
+      "subject": "mathematics",
+      "batch_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+      "field": "options.A.text",
+      "before": "[[1, 3], [2, 4]]",
+      "after": "(1, 3) and (2, 4)",
+      "why": "matches the reworded stem format; same matrix"
+    },
+    {
+      "id": "2bcb43e0-f75e-40d3-b4ff-725752064937",
+      "subject": "mathematics",
+      "batch_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+      "field": "options.B.text",
+      "before": "[[3, 4], [1, 2]]",
+      "after": "(3, 4) and (1, 2)",
+      "why": "matches the reworded stem format; same matrix"
+    },
+    {
+      "id": "2bcb43e0-f75e-40d3-b4ff-725752064937",
+      "subject": "mathematics",
+      "batch_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+      "field": "options.C.text",
+      "before": "[[2, 1], [4, 3]]",
+      "after": "(2, 1) and (4, 3)",
+      "why": "matches the reworded stem format; same matrix (the key)"
+    },
+    {
+      "id": "2bcb43e0-f75e-40d3-b4ff-725752064937",
+      "subject": "mathematics",
+      "batch_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+      "field": "options.D.text",
+      "before": "[[1, 2], [3, 4]]",
+      "after": "(1, 2) and (3, 4)",
+      "why": "matches the reworded stem format; same matrix"
+    },
+    {
+      "id": "2bcb43e0-f75e-40d3-b4ff-725752064937",
+      "subject": "mathematics",
+      "batch_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+      "field": "explanation",
+      "before": "so BA = [[3, 4], [1, 2]] is a different matrix.",
+      "after": "so BA has rows (3, 4) and (1, 2), which is a different matrix.",
+      "why": "explanation used nested brackets; same content"
+    },
+    {
+      "id": "cb4f1503-5165-4373-a4d4-037a199e073a",
+      "subject": "mathematics",
+      "batch_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+      "field": "options.B.text",
+      "before": "A",
+      "after": "the matrix A",
+      "why": "a single letter option reads as a placeholder (options_invalid); the matrix A is the same option"
+    },
+    {
+      "id": "1bfb4dd7-d130-4baa-97eb-22b59d735a9a",
+      "subject": "mathematics",
+      "batch_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+      "field": "stem",
+      "before": "If A = [[1, 2], [3, 4]], then the value of det(2A) is",
+      "after": "If A is the matrix with rows (1, 2) and (3, 4), then the value of det(2A) is",
+      "why": "nested double brackets in the stem (malformed_question_text); same matrix and options"
+    },
+    {
+      "id": "87c9264b-613d-4c51-bb97-9de06bbe6fe8",
+      "subject": "mathematics",
+      "batch_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+      "field": "stem",
+      "before": "If A = [[1, 2], [0, 1]], then A³ is equal to",
+      "after": "If A is the matrix with rows (1, 2) and (0, 1), then A³ has rows",
+      "why": "nested double brackets in the stem (malformed_question_text); same matrix"
+    },
+    {
+      "id": "87c9264b-613d-4c51-bb97-9de06bbe6fe8",
+      "subject": "mathematics",
+      "batch_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+      "field": "options.A.text",
+      "before": "[[1, 3], [0, 1]]",
+      "after": "(1, 3) and (0, 1)",
+      "why": "matches the reworded stem format; same matrix"
+    },
+    {
+      "id": "87c9264b-613d-4c51-bb97-9de06bbe6fe8",
+      "subject": "mathematics",
+      "batch_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+      "field": "options.B.text",
+      "before": "[[3, 6], [0, 3]]",
+      "after": "(3, 6) and (0, 3)",
+      "why": "matches the reworded stem format; same matrix"
+    },
+    {
+      "id": "87c9264b-613d-4c51-bb97-9de06bbe6fe8",
+      "subject": "mathematics",
+      "batch_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+      "field": "options.C.text",
+      "before": "[[1, 8], [0, 1]]",
+      "after": "(1, 8) and (0, 1)",
+      "why": "matches the reworded stem format; same matrix"
+    },
+    {
+      "id": "87c9264b-613d-4c51-bb97-9de06bbe6fe8",
+      "subject": "mathematics",
+      "batch_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+      "field": "options.D.text",
+      "before": "[[1, 6], [0, 1]]",
+      "after": "(1, 6) and (0, 1)",
+      "why": "matches the reworded stem format; same matrix (the key)"
+    },
+    {
+      "id": "87c9264b-613d-4c51-bb97-9de06bbe6fe8",
+      "subject": "mathematics",
+      "batch_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+      "field": "explanation",
+      "before": "A² = [[1, 4], [0, 1]] and A³ = A² × A = [[1, 6], [0, 1]]. The option [[1, 8], [0, 1]] comes from cubing the entry 2, and [[3, 6], [0, 3]] comes from multiplying A by 3.",
+      "after": "A² has rows (1, 4) and (0, 1), and A³ = A² × A has rows (1, 6) and (0, 1). The option with rows (1, 8) and (0, 1) comes from cubing the entry 2, and the option with rows (3, 6) and (0, 3) comes from multiplying A by 3.",
+      "why": "explanation used nested brackets; same content"
+    },
+    {
+      "id": "d66d55ac-929f-4786-8a67-59576d0aa5c7",
+      "subject": "mathematics",
+      "batch_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+      "field": "stem",
+      "before": "If A = [[1, 4], [2, 3]], then the matrix P = (A + Aᵀ)/2 is",
+      "after": "If A is the matrix with rows (1, 4) and (2, 3), then P = (A + Aᵀ)/2 has rows",
+      "why": "nested double brackets in the stem (malformed_question_text); same matrix"
+    },
+    {
+      "id": "d66d55ac-929f-4786-8a67-59576d0aa5c7",
+      "subject": "mathematics",
+      "batch_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+      "field": "options.A.text",
+      "before": "[[1, 2], [4, 3]]",
+      "after": "(1, 2) and (4, 3)",
+      "why": "matches the reworded stem format; same matrix"
+    },
+    {
+      "id": "d66d55ac-929f-4786-8a67-59576d0aa5c7",
+      "subject": "mathematics",
+      "batch_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+      "field": "options.B.text",
+      "before": "[[0, 1], [−1, 0]]",
+      "after": "(0, 1) and (−1, 0)",
+      "why": "matches the reworded stem format; same matrix"
+    },
+    {
+      "id": "d66d55ac-929f-4786-8a67-59576d0aa5c7",
+      "subject": "mathematics",
+      "batch_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+      "field": "options.C.text",
+      "before": "[[1, 3], [3, 3]]",
+      "after": "(1, 3) and (3, 3)",
+      "why": "matches the reworded stem format; same matrix (the key)"
+    },
+    {
+      "id": "d66d55ac-929f-4786-8a67-59576d0aa5c7",
+      "subject": "mathematics",
+      "batch_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+      "field": "options.D.text",
+      "before": "[[2, 6], [6, 6]]",
+      "after": "(2, 6) and (6, 6)",
+      "why": "matches the reworded stem format; same matrix"
+    },
+    {
+      "id": "d66d55ac-929f-4786-8a67-59576d0aa5c7",
+      "subject": "mathematics",
+      "batch_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+      "field": "explanation",
+      "before": "The transpose is Aᵀ = [[1, 2], [4, 3]], so A + Aᵀ = [[2, 6], [6, 6]] and P = [[1, 3], [3, 3]], which is symmetric. The transpose itself is not the answer, the skew-symmetric part (A − Aᵀ)/2 = [[0, 1], [−1, 0]] is not symmetric, and omitting the division by 2 gives [[2, 6], [6, 6]].",
+      "after": "The transpose is Aᵀ, with rows (1, 2) and (4, 3), so A + Aᵀ has rows (2, 6) and (6, 6), and P has rows (1, 3) and (3, 3), which is symmetric. The transpose itself is not the answer, the skew-symmetric part (A − Aᵀ)/2, with rows (0, 1) and (−1, 0), is not symmetric, and omitting the division by 2 gives rows (2, 6) and (6, 6).",
+      "why": "explanation used nested brackets; same content"
+    }
+  ]
+}

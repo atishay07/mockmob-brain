@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>One gesture, one step (LK69 prototype v2)</title>
+<!-- ?commit=move fires during the move (v2 first run); default commit=release decides at touchend from the net travel, so a drag that reverses cancels itself.
+     A test bench, not product code. The landing's ScrollStory geometry (scroll-story.css: a sticky 100svh stage in a
+     track of 100svh + steps x beat, invisible beats read by an IntersectionObserver at the window's middle) plus the
+     proposed mechanism, switchable by query so each part can be measured alone:
+       ?ctrl=0     no touch / wheel / key controller (today's free scroll)
+       ?entry=clamp (default) a fling or drag that carries the page across a story's first or last resting place is held there
+       ?entry=snap  CSS only: html scroll-snap-type y mandatory, sections and the story's rests as snap areas, stop: always
+       ?entry=none  no entry control
+       ?settle=0   no settle-to-rest after a native scroll ends inside a story
+     v2 over v1: the controller also covers wheel bursts and keys; a native scroll that ends inside a story settles on the
+     nearest rest; entry clamp replaces the scroll-snap "latch" (v1's latch did nothing: proximity snapping never reaches a stop
+     that is far away); touch delivery is logged (window.__ev) so a probe can prove its events reached the page. -->
+<style>
+  :root { color-scheme: dark; --nav: 61px; }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: #0e120c; color: #eef0ea; font: 16px/1.4 system-ui, sans-serif; }
+  nav { position: fixed; inset: 0 0 auto; height: var(--nav); background: #0e120cee; border-bottom: 1px solid #2a3326; z-index: 5; display: flex; align-items: center; padding: 0 16px; font-weight: 800; }
+  .filler { padding: 90px 16px; min-height: 1400px; border-top: 1px solid #2a3326; }
+  .filler p { max-width: 30ch; color: #aab4a2; }
+  .ss { --ss-beat: 72svh; --ss-gap: calc(var(--ss-steps) * var(--ss-beat) / max(1, var(--ss-steps) - 1)); position: relative; }
+  .ss__track { position: relative; height: calc(100svh + var(--ss-steps) * var(--ss-beat)); }
+  .ss__stage { position: sticky; top: 0; height: 100svh; padding: calc(var(--nav) + 12px) 16px 16px; display: grid; grid-template-rows: auto auto 1fr; gap: 14px; }
+  .ss__beat { position: absolute; left: 0; width: 1px; top: calc(50svh + (var(--i) - 0.5) * var(--ss-gap)); height: var(--ss-gap); pointer-events: none; }
+  .ss__beat[data-edge='first'] { top: 0; height: calc(50svh + 0.5 * var(--ss-gap)); }
+  .ss__beat[data-edge='last'] { height: calc(50svh + 0.5 * var(--ss-gap)); }
+  .protoA { --ss-beat: 76svh; }
+  .protoB { --ss-beat: 58svh; }
+  /* Step-driven (never scroll-driven) progress: each fill animates in time when its step comes on. */
+  .bar { display: grid; grid-auto-flow: column; gap: 6px; }
+  .bar i { display: block; height: 4px; background: #2a3326; border-radius: 2px; overflow: hidden; }
+  .bar i b { display: block; height: 100%; background: #c6f432; transform: scaleX(0); transform-origin: left; transition: transform 420ms cubic-bezier(.2,.8,.2,1); }
+  .bar i[data-state='on'] b, .bar i[data-state='done'] b { transform: scaleX(1); }
+  .slides { position: relative; display: grid; }
+  .slide { grid-area: 1 / 1; display: grid; place-items: center; border: 1px solid #2a3326; border-radius: 22px; background: #151b12; font: 800 64px/1 system-ui; opacity: 0; transform: translate3d(0, 1rem, 0); transition: opacity 240ms ease, transform 420ms cubic-bezier(.2,.8,.2,1); }
+  .slides { transform: translate3d(0, var(--drag, 0px), 0); transition: transform 240ms cubic-bezier(.2,.8,.2,1); }
+  .slides[data-dragging='true'] { transition: none; }
+  .slide[data-on='true'] { opacity: 1; transform: none; }
+  .slide[data-past='true'] { transform: translate3d(0, -1rem, 0); }
+  @media (prefers-reduced-motion: reduce) { .slide, .bar i b { transition-duration: 1ms; transform: none !important; } }
+  /* entry=snap: every section is a snap area (tall ones scroll freely inside), each rest is a 1 px stop. */
+  .ss__rest { position: absolute; left: 0; width: 1px; height: 1px; pointer-events: none; top: calc(var(--k) * var(--ss-gap)); }
+  html.entry-snap { scroll-snap-type: y mandatory; }
+  html.entry-snap .filler { scroll-snap-align: start; }
+  html.entry-snap .ss__rest { scroll-snap-align: start; scroll-snap-stop: always; }
+</style>
+</head>
+<body>
+<nav>prototype v2 · one gesture, one step</nav>
+<section class="filler"><h1>Hero (free scroll)</h1><p>Normal page scroll above the held stories.</p></section>
+<div class="ss protoA" data-steps="4" style="--ss-steps:4"><div class="ss__track"></div></div>
+<section class="filler"><h2>Between (free scroll)</h2><p>Normal page scroll between the stories.</p></section>
+<div class="ss protoB" data-steps="10" style="--ss-steps:10"><div class="ss__track"></div></div>
+<section class="filler"><h2>After (free scroll)</h2><p>Normal page scroll after the stories.</p></section>
+<section class="filler"><h2>Footer</h2></section>
+<script>
+const q = new URLSearchParams(location.search);
+const CTRL = q.get('ctrl') !== '0';
+const ENTRY = q.get('entry') || 'clamp';
+const SETTLE = q.get('settle') !== '0';
+const COMMIT = q.get('commit') === 'move' ? 'move' : 'release'; // release (default): the step is decided by the touch's net travel at touchend; move: fires the moment 32 px is passed
+if (ENTRY === 'snap') document.documentElement.classList.add('entry-snap');
+const reduced = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+// Delivery log: every touch / pointer / wheel / scroll event the page receives (proof that a probe's input reached the page).
+window.__ev = []; window.__counts = {};
+for (const type of ['touchstart', 'touchmove', 'touchend', 'touchcancel', 'pointerdown', 'pointerup', 'pointercancel', 'wheel', 'scroll', 'scrollend', 'keydown']) {
+  addEventListener(type, (e) => { window.__counts[type] = (window.__counts[type] || 0) + 1; if (window.__ev.length < 4000 && type !== 'scroll') window.__ev.push([Math.round(performance.now()), type, Math.round(scrollY), e.cancelable ? 1 : 0]); }, { passive: true, capture: true });
+}
+
+const stories = [...document.querySelectorAll('.ss')].map((root) => {
+  const steps = Number(root.dataset.steps);
+  const track = root.querySelector('.ss__track');
+  track.innerHTML = `<div class="ss__stage"><div class="bar">${'<i><b></b></i>'.repeat(steps)}</div><p class="cap"></p><div class="slides">${Array.from({ length: steps }, (_, i) => `<div class="slide" data-on="${i === 0}">${i + 1}</div>`).join('')}</div></div>`
+    + Array.from({ length: steps }, (_, i) => `<span class="ss__beat" data-beat="${i}" ${i === 0 ? 'data-edge="first"' : i === steps - 1 ? 'data-edge="last"' : ''} style="--i:${i}"></span>`).join('')
+    + Array.from({ length: steps }, (_, i) => `<i class="ss__rest" style="--k:${i}"></i>`).join('');
+  return { root, track, stage: track.querySelector('.ss__stage'), steps, step: 0, top: 0, hold: 0 };
+});
+function show(s, n) {
+  s.step = n; s.root.dataset.step = n;
+  s.track.querySelectorAll('.slide').forEach((el, i) => { el.dataset.on = String(i === n); el.dataset.past = String(i < n); });
+  s.track.querySelectorAll('.bar i').forEach((el, i) => { el.dataset.state = i < n ? 'done' : i === n ? 'on' : 'off'; });
+  s.track.querySelector('.cap').textContent = `${s.root.className.split(' ')[1]}: step ${n + 1} of ${s.steps}`;
+}
+stories.forEach((s) => show(s, 0));
+
+// Geometry cached once per resize: the hot path reads only scrollY.
+function measure() { for (const s of stories) { const r = s.track.getBoundingClientRect(); s.top = Math.round(r.top + scrollY); s.hold = s.track.offsetHeight - s.stage.offsetHeight; } }
+measure();
+new ResizeObserver(measure).observe(document.body);
+const rest = (s, k) => Math.round(s.top + (s.hold * k) / (s.steps - 1));
+const nearest = (s, y) => Math.max(0, Math.min(s.steps - 1, Math.round(((y - s.top) * (s.steps - 1)) / s.hold)));
+const holding = (y = scrollY) => stories.find((s) => y >= s.top - 2 && y <= s.top + s.hold + 2) || null;
+const put = (y) => scrollTo({ top: y, behavior: 'instant' });
+
+// The beats, as ScrollStory today: a native scroll still sets the step (nearest rest to the window's middle).
+const io = new IntersectionObserver((entries) => {
+  for (const e of entries) if (e.isIntersecting) { const s = stories.find((x) => x.track.contains(e.target)); const i = Number(e.target.dataset.beat); if (s.step !== i) show(s, i); }
+}, { rootMargin: '-50% 0px -50% 0px', threshold: 0 });
+document.querySelectorAll('.ss__beat').forEach((b) => io.observe(b));
+
+if (CTRL) {
+  const SLOP = 6;        // px of finger travel before a direction is chosen (under it the page waits, held)
+  const TRIGGER = 32;    // px of finger travel that fires the step during the move
+  const FLICK_PX = 12;   // a shorter flick still fires at release ...
+  const FLICK_V = 0.3;   // ... when it leaves the glass at 0.3 px/ms or faster (last 80 ms)
+  const LOCK_MS = reduced() ? 120 : 420; // the swap's own duration: a gesture begun inside it is swallowed (never a queued second step)
+  const QUIET_MS = 160;  // a wheel burst ends when the wheel has been quiet this long (or turns the other way)
+  let busyUntil = 0; let touches = 0; let keepY = null; let keepStory = null; let lastY = scrollY; let lastScrollAt = 0;
+
+  const canStep = (s, dir) => (dir > 0 ? s.step < s.steps - 1 : s.step > 0);
+  function fire(s, dir) {
+    const next = Math.max(0, Math.min(s.steps - 1, s.step + dir));
+    if (next === s.step) return false;
+    show(s, next);
+    keepY = null;
+    put(rest(s, next)); // invisible: the stage is sticky, only its content swaps
+    busyUntil = performance.now() + LOCK_MS;
+    return true;
+  }
+
+  // ---- touch: one touch sequence (touchstart..touchend) = at most one step, whatever its speed
+  let g = null;
+  const velocity = (samples) => { const last = samples[samples.length - 1]; const from = samples.find((p) => last.t - p.t <= 80) || samples[0]; const dt = last.t - from.t; return dt > 0 ? (last.y - from.y) / dt : 0; };
+  addEventListener('touchstart', (e) => {
+    touches = e.touches.length; keepY = null; // a finger on the glass hands the page back
+    if (touches !== 1) { g = null; return; }
+    const p = e.touches[0];
+    g = { x: p.clientX, y: p.clientY, story: holding(), claim: undefined, fired: false, dir: 0, samples: [{ t: e.timeStamp, y: p.clientY }] };
+  }, { passive: true });
+  addEventListener('touchmove', (e) => {
+    if (!g) return;
+    if (e.touches.length !== 1) { g = null; return; }
+    const p = e.touches[0]; const dx = p.clientX - g.x; const dy = p.clientY - g.y;
+    g.samples.push({ t: e.timeStamp, y: p.clientY }); if (g.samples.length > 10) g.samples.shift();
+    if (g.claim === undefined) {
+      if (!g.story) { g.claim = false; return; }
+      if (Math.max(Math.abs(dx), Math.abs(dy)) < SLOP) { if (e.cancelable) e.preventDefault(); return; }
+      const dir = dy < 0 ? 1 : -1;
+      if (Math.abs(dx) > Math.abs(dy)) g.claim = false;                       // sideways: chips, reels
+      else if (performance.now() < busyUntil) g.claim = 'spent';              // inside the lock: swallowed
+      else if (!canStep(g.story, dir)) g.claim = false;                       // the way out: native
+      else { g.claim = true; g.dir = dir; }
+    }
+    if (!g.claim) return;
+    if (e.cancelable) e.preventDefault();
+    if (g.claim === true && COMMIT === 'move' && !g.fired && -dy * g.dir >= TRIGGER) { g.fired = true; fire(g.story, g.dir); }
+    else if (g.claim === true && COMMIT === 'release') drag(g.story, dy);
+  }, { passive: false });
+  // Finger follow (transform only, one write per frame): the content leans 25% of the finger's travel, at most 28 px.
+  let dragFrame = 0; let dragTo = null;
+  function drag(s, dy) {
+    dragTo = [s, Math.max(-28, Math.min(28, dy * 0.25))];
+    if (!dragFrame) dragFrame = requestAnimationFrame(() => { dragFrame = 0; const [st, v] = dragTo; const el = st.track.querySelector('.slides'); el.dataset.dragging = 'true'; el.style.setProperty('--drag', v + 'px'); });
+  }
+  function undrag(s) { cancelAnimationFrame(dragFrame); dragFrame = 0; const el = s.track.querySelector('.slides'); el.dataset.dragging = 'false'; el.style.setProperty('--drag', '0px'); }
+  const end = (e) => {
+    touches = e.touches ? e.touches.length : 0;
+    if (!g) { afterNativeTouch(); return; }
+    const s = g; g = null;
+    if (s.claim === true && COMMIT === 'move' && !s.fired) {
+      const dy = s.samples[s.samples.length - 1].y - s.y; const v = velocity(s.samples);
+      if (-dy * s.dir >= FLICK_PX && -v * s.dir >= FLICK_V) fire(s.story, s.dir);
+    }
+    if (s.claim === true && COMMIT === 'release') {
+      undrag(s.story);
+      const dy = s.samples[s.samples.length - 1].y - s.y; const v = velocity(s.samples); const dir = dy < 0 ? 1 : -1;
+      // The net travel decides, in its own direction: 40 px, or a short flick (>= 12 px at >= 0.3 px/ms in the same direction).
+      if ((Math.abs(dy) >= 40 || (Math.abs(dy) >= FLICK_PX && -v * dir >= FLICK_V)) && canStep(s.story, dir)) fire(s.story, dir);
+    }
+    if (!s.claim) afterNativeTouch();
+  };
+  addEventListener('touchend', end, { passive: true });
+  addEventListener('touchcancel', () => { g = null; touches = 0; }, { passive: true });
+
+  // A native touch ended with the page inside a story: its momentum may not run through the steps. Hold it on the nearest rest.
+  function afterNativeTouch() {
+    if (ENTRY !== 'clamp') return;
+    const s = holding();
+    if (s) { keepStory = s; keepY = rest(s, nearest(s, scrollY)); }
+  }
+
+  // ---- wheel: one burst (notches, or a trackpad swipe with its inertia tail) = at most one step
+  let wb = null;
+  addEventListener('wheel', (e) => {
+    if (e.ctrlKey || !e.deltaY || Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;
+    keepY = null;
+    const t = e.timeStamp > 0 ? e.timeStamp : performance.now();
+    const dir = e.deltaY > 0 ? 1 : -1;
+    if (!wb || t - wb.last > QUIET_MS || dir !== wb.dir) {
+      const s = holding();
+      wb = { dir, last: t, sum: 0, story: s, own: !!s && (performance.now() < busyUntil || canStep(s, dir)), done: false };
+    }
+    wb.last = t;
+    if (!wb.own) return;
+    if (e.cancelable) e.preventDefault();
+    wb.sum += Math.abs(e.deltaY) * (e.deltaMode ? 40 : 1);
+    if (!wb.done && performance.now() >= busyUntil && wb.sum >= 12) { wb.done = true; fire(wb.story, wb.dir); }
+  }, { passive: false });
+
+  // ---- keys
+  addEventListener('keydown', (e) => {
+    const dir = { ArrowDown: 1, PageDown: 1, ' ': 1, ArrowUp: -1, PageUp: -1 }[e.key];
+    if (!dir || e.target.closest?.('input, textarea, select, [contenteditable]')) return;
+    const s = holding();
+    if (!s || (performance.now() >= busyUntil && !canStep(s, dir))) return;
+    e.preventDefault();
+    if (!e.repeat && performance.now() >= busyUntil) fire(s, dir);
+  });
+
+  // ---- entry control and settle, from the scroll position (passive, one rAF read of scrollY)
+  let frame = 0; let settleTimer = 0;
+  const onScroll = () => {
+    lastScrollAt = performance.now();
+    if (!frame) frame = requestAnimationFrame(() => {
+      frame = 0;
+      const y = scrollY;
+      if (ENTRY === 'clamp' && touches === 0 && keepY === null) {
+        for (const s of stories) {
+          const end = s.top + s.hold;
+          if (lastY < s.top - 1 && y >= s.top) { keepStory = s; keepY = rest(s, 0); }
+          else if (lastY > end + 1 && y <= end) { keepStory = s; keepY = rest(s, s.steps - 1); }
+        }
+      }
+      if (keepY !== null && touches === 0 && Math.abs(y - keepY) > 1) { put(keepY); if (keepStory) show(keepStory, nearest(keepStory, keepY)); }
+      lastY = scrollY;
+    });
+    clearTimeout(settleTimer);
+    settleTimer = setTimeout(() => {
+      keepY = null;
+      if (!SETTLE || touches > 0 || (wb && performance.now() - wb.last < QUIET_MS)) return;
+      const s = holding();
+      if (!s) return;
+      const k = nearest(s, scrollY);
+      if (Math.abs(scrollY - rest(s, k)) > 1) put(rest(s, k));
+      if (s.step !== k) show(s, k);
+    }, 150);
+  };
+  addEventListener('scroll', onScroll, { passive: true });
+}
+</script>
+</body>
+</html>

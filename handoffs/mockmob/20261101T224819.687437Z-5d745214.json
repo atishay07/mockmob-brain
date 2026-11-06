@@ -1,0 +1,28 @@
+{
+  "id": "20261101T224819.687437Z-5d745214",
+  "observed_at": "2026-11-01T22:48:19.687437+00:00",
+  "agent": "claude-opus-5.5 session ddd9a45c",
+  "task": "LK34 Key cards: Computer Science live; recovery round (778 wording-held cards), English top-up (~300) and Accountancy thin chapters in review",
+  "status": "active",
+  "done": "LIVE: main feb30935e, dpl_9D1LG3MWRpJ6qB6DCWpBic8a4NLQ (redeploy; the first build dpl_3mveaRtz... failed on the next/font Google Fonts fetch). No runtime errors; /, /learn, /explore, /today, /pricing, /api/stats and /learn/c/computer_science.stack answer 200. Computer Science: 1,350 cards (18 chapters; CS XII 1-12 + IP XII 1-7), 567 held back; Project Based Learning (lecs113) has no B1 content. Fix: blankRuns/gapClass in kinds.js keep punctuation touching a blank on its line (4 render sites). Every subject now has cards: 13,890. NOW + ledger updated (mockmob-next dba3082db).",
+  "next": "1. When workflow wf_db17deef-a28 (recovery-topup-1102.js) finishes: run node handoff-1102/check-drafts-1102.mjs (must say OK), then node handoff-1102/merge-reviews3-1102.mjs (drops verdicts of edited cards with no fresh verdict). 2. In wt-1101-content: review-merge (all reviews now), validate --subject for chemistry, geography, history, mathematics, physics, psychology, sociology, english, accountancy; tier; suites; look at a few recovered + English cards (content-look via preview_start content-look, look2.mjs in scratchpad for 390/1440 Night/Day); build; STATUS; push main; check deploy + runtime errors; NOW/ledger. 3. Owner decision pending: the Maths formula pipeline (handoff section 5). 4. LK25: the app port session local_3c5cb01e stopped 1 Nov ~3 pm at the usage limit before its emulator walk; resume or restart it.",
+  "blockers": [
+    "none; the recovery workflow is still running (5-hour window about 55% used, resets 8:20 am IST)"
+  ],
+  "evidence": [
+    "get_runtime_errors 15m after dpl_9D1LG3MWRpJ6qB6DCWpBic8a4NLQ: none",
+    "suites-cs-1102.txt: 16 suites, 0 failures",
+    "build-cs-1102.txt: next build --webpack exit 0",
+    "eslint . exit 0",
+    "check-drafts-1102.mjs mid-run: OK, no card outside the fix lists changed"
+  ],
+  "touched_files": [
+    "wt-1101-content: data/keycards/*, src/components/keycards/{kinds.js,KeyCard.jsx,keycards.css}, src/components/learn2/stage/{CardFace.jsx,Sci.jsx}, src/components/learn2/cards/CardList.jsx, data/tests/keycards_ui.test.mjs, docs/brain/STATUS.md",
+    "mockmob-next docs/brain/NOW.md, OWNER-MASTER-LEDGER.md",
+    "ncert-books: drafts lecs/leip, engl101-103, fixlists3/, reviews3/, drafts-bak-1102/, reviews-bak-1102/",
+    "handoff-1102: recovery-topup-1102.js, check-drafts-1102.mjs, merge-reviews3-1102.mjs, cs-args-1102.json, recovery-args-1102.json, fix3-codes.json"
+  ],
+  "verification": "Production checked through the Vercel API and curl. Cards looked at on screen: SQL (390/1440, Night/Day), Stack, Pandas, Chemistry Solutions. Not checked: a real phone.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

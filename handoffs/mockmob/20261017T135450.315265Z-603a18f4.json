@@ -1,0 +1,22 @@
+{
+  "id": "20261017T135450.315265Z-603a18f4",
+  "observed_at": "2026-10-17T13:54:50.316265+00:00",
+  "agent": "claude-opus-5.5 (session 604ced81, main)",
+  "task": "17 Oct ~7:25 pm IST: owner-requested safe stop at 95%; full evening handoff and next-session prompt",
+  "status": "paused",
+  "done": "Handoff mockmob-next/docs/brain/HANDOFF-2026-10-17-EVENING.md + NEXT-SESSION-PROMPT-2026-10-17-EVENING.md (committed on feat/app-and-web), scripts docs/brain/workflows-1017b, results tmp/resume-1017d (web-ledger-verify-results.json: 100 web items, 37 pass/49 partial/11 fail/3 nt on live f725a422). Live: f725a422. Stop heads: wt-fx-start df7cf860 (done), wt-fx-pricing 2ee6deea (done), wt-fx-result cc2de720, wt-fx-today 2345ee9e, wt-fx-nav fb73dccd, wt-land2 9e3ceab7 (r14 unscored), wt-v13 42510757 (repair, unverified), wt-mobfix 1f5d2f4a, wt-lr17 5d1969c7. All processes reaped.",
+  "next": "Next session: follow NEXT-SESSION-PROMPT-2026-10-17-EVENING.md; section 5 of the evening handoff. Web release 2 first (W-098 AI cap on rival first), landing panel r14, v13 verify repair then walk 2, Mob go/no-go, F15.",
+  "blockers": [
+    "Usage at 95% (resets about 9:50 pm IST)",
+    "Owner: Anthropic key, Avast exception, held 7-7.9 questions, Hindi reviewer, free first Repair, physics syllabus call"
+  ],
+  "evidence": [
+    "Vercel dpl_4rRdQev4JoQkzyBrH9tZqaVmSdUU READY f725a422, 0 runtime errors",
+    "web ledger verify: 37/49/11/3 of 100",
+    "landing r13: 80 and 83 (B rerun 79)"
+  ],
+  "touched_files": [],
+  "verification": "Heads verified by git; nothing new live since f725a422.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

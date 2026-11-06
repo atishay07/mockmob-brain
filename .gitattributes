@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+# Prose that several people append to: keep both sides' lines instead of stopping on a clash.
+docs/** merge=union
+context/** merge=union
+playbook/** merge=union
+TEAM.md merge=union
+
+# JSON must stay valid: never union-merge it. A real clash stops the rebase and the sync
+# saves a conflict copy instead.
+*.json merge=text

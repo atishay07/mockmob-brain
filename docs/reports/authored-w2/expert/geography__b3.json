@@ -1,0 +1,17 @@
+{
+  "batch": "geography__b3",
+  "subject": "geography",
+  "date": "2026-10-14",
+  "reviewer_model": "claude-haiku-5-5",
+  "method": "Expert pass per AUTHORED-QUESTIONS-WAVE1-2026-10-14.md step 5. Checked docs/brain/reports/authored-w2/wave2-acceptance-2026-10-14.json for geography__b3: all 20 questions have accepted=false, reason incomplete_missing_h2 (one fit record is null, so the fit median is missing and the rule cannot be applied). Per the brief, only accepted=true items are judged, so no verdicts are issued. The batch file tmp/authored-w2/geography/geography__b3.json was not edited and no key was changed.",
+  "counts": {
+    "accepted_in_batch": 0,
+    "ready": 0,
+    "repaired": 0,
+    "practice": 0,
+    "reject": 0,
+    "not_accepted_in_batch": 20
+  },
+  "not_accepted_note": "The 20 questions would pass on the records that exist (provisional.would_pass_on_available_records is true for all 20), so they are blocked only by the missing fit record. Run the fit judges for geography__b3 and re-run the acceptance rule. Once accepted, this batch needs its own expert verdicts. An informal read of the stated keys and explanations found no key errors. That read is not a verdict and is not recorded as one.",
+  "verdicts": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "20261021T191741.670438Z-7216fda5",
+  "observed_at": "2026-10-21T19:17:41.670438+00:00",
+  "agent": "claude-opus-5.5 session 70e212e3 (promo film orchestrator)",
+  "task": "MockMob teaser v6 sent; v6.1 critics; 3D Mobi acting/face/speaking tests",
+  "status": "active",
+  "done": "v6 sent to owner at about 12:55 am 22 Oct: out/teaser-v6-master.mp4 (63.35 s, -13.9 LUFS, -1.72 dBTP) + out/teaser-v6-phone.mp4 (25.5 MB). In v6: opening v4 (Option 1 + Option 2 stamping wall), owner's NTA mark inline in the headline, name-led content-hugging college cards (DU, SRCC, Hindu, Miranda House, Hansraj; owner-supplied files in logos-from-owner/), talk-light mouth line removed, integrator part 1 fixes (unpitched sonic sting, single-hit stamps +6 ms, density fills) verified, part 2 integration (open ends frame 418, every chapter +1 beat, opening music from frame 0), the tactile layer (77 cues, kit public/sfx-el/tactile, src/teaser/tactile/*.ts) after two fix rounds. check_av +1 ms all lines; seam clean; audit 78 NOISE + 1 sub boom.",
+  "next": "Six critics running (wf_eeb496ba-a60) on the v6 master -> director writes fix specs -> parallel fix lanes -> v6.1 only if clearly better. 3D Mobi: wf_b7da6624-0f9 (TD r7 + acting test on frozen r6, Opus max) and wf_f458e238-364 (display face + expression sheet + speaking test of the opening shot, Opus max) running; show the owner the acting test, expression sheet and speaking test as tests; then the walk test and the 3D host integration per docs/MOBI-3D-PLAN.md (opening first). v6.1 to-do already known: antialias the rotated opening card edges; reveal timer mid-roll 03:00 near frame 423; stamp_sync.py outdated; Mock 3 slam raw peak -0.02 dBTP.",
+  "blockers": [
+    "Owner session-only rule: Opus only medium/high/xhigh, Sonnet for most work, more parallel agents (not standing)",
+    "Remotion licence headcount before publishing"
+  ],
+  "evidence": [
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\NOTES.md (DIRECTOR v6.3 + addenda 1-7, 5b; INTEGRATOR v6 final)",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\OWNER-LEDGER.md (entries 10:50 pm 21 Oct to 12:35 am 22 Oct)",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\out\\teaser-v6-master.mp4",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\out\\teaser-v6-phone.mp4"
+  ],
+  "touched_files": [
+    "src/preview/open/Option1/**",
+    "src/teaser/plan.ts",
+    "src/teaser/sound.ts",
+    "src/teaser/soundPolicyV2.ts",
+    "src/teaser/chapters/Open.tsx",
+    "src/teaser/chapters/End.tsx",
+    "src/teaser/chapters/Problem.tsx (cues only)",
+    "src/teaser/tactile/*",
+    "public/sfx-el/**",
+    "public/vo/el_himanshu/L01-hold.wav",
+    "public/music-el/*",
+    "tools/music-el/*",
+    "tools/sfx-tactile/*",
+    "scripts/master.sh",
+    "scripts/audit_pitched.py",
+    "blender/mobi/**"
+  ],
+  "verification": "Final integrator measured on the master: check_av L01-L10 +1 ms; whips within 7 ms of beats; no black frames; seam 417->418 diff 0.05; music -15.2 dBFS in the first 0.3 s; stamps +5.7..+6.4 ms; tactile 65/66 present; loudness -13.9 LUFS / -1.72 dBTP. Opening judged by an internal owner-lens judge 8.8/10; cards margins measured within 2 px.",
+  "cost_and_pending_requests": "0 ElevenLabs credits tonight (DSP on existing EL foley); no Higgsfield spend.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

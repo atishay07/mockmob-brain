@@ -1,0 +1,2413 @@
+{
+ "tag": "m390rm",
+ "cfg": {
+  "vw": 390,
+  "vh": 844,
+  "dsf": 3,
+  "mobile": true,
+  "castMs": 6000,
+  "reduced": true
+ },
+ "startedAt": "2026-11-03T20:54:53.748Z",
+ "frames": [
+  {
+   "rel": 929,
+   "name": "m390rm-f00929.jpg"
+  },
+  {
+   "rel": 945,
+   "name": "m390rm-f00945.jpg"
+  },
+  {
+   "rel": 962,
+   "name": "m390rm-f00962.jpg"
+  },
+  {
+   "rel": 1012,
+   "name": "m390rm-f01012.jpg"
+  },
+  {
+   "rel": 1029,
+   "name": "m390rm-f01029.jpg"
+  },
+  {
+   "rel": 1062,
+   "name": "m390rm-f01062.jpg"
+  },
+  {
+   "rel": 1095,
+   "name": "m390rm-f01095.jpg"
+  },
+  {
+   "rel": 1129,
+   "name": "m390rm-f01129.jpg"
+  },
+  {
+   "rel": 1179,
+   "name": "m390rm-f01179.jpg"
+  },
+  {
+   "rel": 1229,
+   "name": "m390rm-f01229.jpg"
+  },
+  {
+   "rel": 1245,
+   "name": "m390rm-f01245.jpg"
+  },
+  {
+   "rel": 1262,
+   "name": "m390rm-f01262.jpg"
+  },
+  {
+   "rel": 1312,
+   "name": "m390rm-f01312.jpg"
+  },
+  {
+   "rel": 1345,
+   "name": "m390rm-f01345.jpg"
+  },
+  {
+   "rel": 1362,
+   "name": "m390rm-f01362.jpg"
+  },
+  {
+   "rel": 1395,
+   "name": "m390rm-f01395.jpg"
+  },
+  {
+   "rel": 1429,
+   "name": "m390rm-f01429.jpg"
+  },
+  {
+   "rel": 1462,
+   "name": "m390rm-f01462.jpg"
+  },
+  {
+   "rel": 1479,
+   "name": "m390rm-f01479.jpg"
+  },
+  {
+   "rel": 1512,
+   "name": "m390rm-f01512.jpg"
+  },
+  {
+   "rel": 1545,
+   "name": "m390rm-f01545.jpg"
+  },
+  {
+   "rel": 1562,
+   "name": "m390rm-f01562.jpg"
+  },
+  {
+   "rel": 1612,
+   "name": "m390rm-f01612.jpg"
+  },
+  {
+   "rel": 1645,
+   "name": "m390rm-f01645.jpg"
+  },
+  {
+   "rel": 1662,
+   "name": "m390rm-f01662.jpg"
+  },
+  {
+   "rel": 1695,
+   "name": "m390rm-f01695.jpg"
+  },
+  {
+   "rel": 1729,
+   "name": "m390rm-f01729.jpg"
+  },
+  {
+   "rel": 1745,
+   "name": "m390rm-f01745.jpg"
+  },
+  {
+   "rel": 1779,
+   "name": "m390rm-f01779.jpg"
+  },
+  {
+   "rel": 1812,
+   "name": "m390rm-f01812.jpg"
+  },
+  {
+   "rel": 1829,
+   "name": "m390rm-f01829.jpg"
+  },
+  {
+   "rel": 1862,
+   "name": "m390rm-f01862.jpg"
+  },
+  {
+   "rel": 1879,
+   "name": "m390rm-f01879.jpg"
+  },
+  {
+   "rel": 1929,
+   "name": "m390rm-f01929.jpg"
+  },
+  {
+   "rel": 1962,
+   "name": "m390rm-f01962.jpg"
+  },
+  {
+   "rel": 2029,
+   "name": "m390rm-f02029.jpg"
+  },
+  {
+   "rel": 2045,
+   "name": "m390rm-f02045.jpg"
+  },
+  {
+   "rel": 2095,
+   "name": "m390rm-f02095.jpg"
+  },
+  {
+   "rel": 2312,
+   "name": "m390rm-f02312.jpg"
+  },
+  {
+   "rel": 2479,
+   "name": "m390rm-f02479.jpg"
+  },
+  {
+   "rel": 2495,
+   "name": "m390rm-f02495.jpg"
+  },
+  {
+   "rel": 2512,
+   "name": "m390rm-f02512.jpg"
+  },
+  {
+   "rel": 2579,
+   "name": "m390rm-f02579.jpg"
+  },
+  {
+   "rel": 2595,
+   "name": "m390rm-f02595.jpg"
+  },
+  {
+   "rel": 2612,
+   "name": "m390rm-f02612.jpg"
+  },
+  {
+   "rel": 2662,
+   "name": "m390rm-f02662.jpg"
+  },
+  {
+   "rel": 2679,
+   "name": "m390rm-f02679.jpg"
+  },
+  {
+   "rel": 2695,
+   "name": "m390rm-f02695.jpg"
+  },
+  {
+   "rel": 2745,
+   "name": "m390rm-f02745.jpg"
+  },
+  {
+   "rel": 2762,
+   "name": "m390rm-f02762.jpg"
+  },
+  {
+   "rel": 2779,
+   "name": "m390rm-f02779.jpg"
+  },
+  {
+   "rel": 2829,
+   "name": "m390rm-f02829.jpg"
+  },
+  {
+   "rel": 2862,
+   "name": "m390rm-f02862.jpg"
+  },
+  {
+   "rel": 2879,
+   "name": "m390rm-f02879.jpg"
+  },
+  {
+   "rel": 2895,
+   "name": "m390rm-f02895.jpg"
+  },
+  {
+   "rel": 2945,
+   "name": "m390rm-f02945.jpg"
+  },
+  {
+   "rel": 3129,
+   "name": "m390rm-f03129.jpg"
+  },
+  {
+   "rel": 3279,
+   "name": "m390rm-f03279.jpg"
+  },
+  {
+   "rel": 3595,
+   "name": "m390rm-f03595.jpg"
+  },
+  {
+   "rel": 3695,
+   "name": "m390rm-f03695.jpg"
+  },
+  {
+   "rel": 3751,
+   "name": "m390rm-f03751.jpg"
+  },
+  {
+   "rel": 3779,
+   "name": "m390rm-f03779.jpg"
+  },
+  {
+   "rel": 3795,
+   "name": "m390rm-f03795.jpg"
+  },
+  {
+   "rel": 3895,
+   "name": "m390rm-f03895.jpg"
+  },
+  {
+   "rel": 3912,
+   "name": "m390rm-f03912.jpg"
+  },
+  {
+   "rel": 3929,
+   "name": "m390rm-f03929.jpg"
+  },
+  {
+   "rel": 3995,
+   "name": "m390rm-f03995.jpg"
+  },
+  {
+   "rel": 4012,
+   "name": "m390rm-f04012.jpg"
+  },
+  {
+   "rel": 4029,
+   "name": "m390rm-f04029.jpg"
+  },
+  {
+   "rel": 4079,
+   "name": "m390rm-f04079.jpg"
+  },
+  {
+   "rel": 4095,
+   "name": "m390rm-f04095.jpg"
+  },
+  {
+   "rel": 4112,
+   "name": "m390rm-f04112.jpg"
+  },
+  {
+   "rel": 4162,
+   "name": "m390rm-f04162.jpg"
+  },
+  {
+   "rel": 4179,
+   "name": "m390rm-f04179.jpg"
+  },
+  {
+   "rel": 4195,
+   "name": "m390rm-f04195.jpg"
+  },
+  {
+   "rel": 4245,
+   "name": "m390rm-f04245.jpg"
+  },
+  {
+   "rel": 4262,
+   "name": "m390rm-f04262.jpg"
+  },
+  {
+   "rel": 4279,
+   "name": "m390rm-f04279.jpg"
+  },
+  {
+   "rel": 4329,
+   "name": "m390rm-f04329.jpg"
+  },
+  {
+   "rel": 4345,
+   "name": "m390rm-f04345.jpg"
+  },
+  {
+   "rel": 4362,
+   "name": "m390rm-f04362.jpg"
+  },
+  {
+   "rel": 4412,
+   "name": "m390rm-f04412.jpg"
+  },
+  {
+   "rel": 4429,
+   "name": "m390rm-f04429.jpg"
+  },
+  {
+   "rel": 4445,
+   "name": "m390rm-f04445.jpg"
+  },
+  {
+   "rel": 4495,
+   "name": "m390rm-f04495.jpg"
+  },
+  {
+   "rel": 4512,
+   "name": "m390rm-f04512.jpg"
+  },
+  {
+   "rel": 4545,
+   "name": "m390rm-f04545.jpg"
+  },
+  {
+   "rel": 4579,
+   "name": "m390rm-f04579.jpg"
+  },
+  {
+   "rel": 4595,
+   "name": "m390rm-f04595.jpg"
+  },
+  {
+   "rel": 4629,
+   "name": "m390rm-f04629.jpg"
+  },
+  {
+   "rel": 4662,
+   "name": "m390rm-f04662.jpg"
+  },
+  {
+   "rel": 4679,
+   "name": "m390rm-f04679.jpg"
+  },
+  {
+   "rel": 4712,
+   "name": "m390rm-f04712.jpg"
+  },
+  {
+   "rel": 4745,
+   "name": "m390rm-f04745.jpg"
+  },
+  {
+   "rel": 4762,
+   "name": "m390rm-f04762.jpg"
+  },
+  {
+   "rel": 4795,
+   "name": "m390rm-f04795.jpg"
+  },
+  {
+   "rel": 4828,
+   "name": "m390rm-f04828.jpg"
+  },
+  {
+   "rel": 4845,
+   "name": "m390rm-f04845.jpg"
+  },
+  {
+   "rel": 4895,
+   "name": "m390rm-f04895.jpg"
+  },
+  {
+   "rel": 4912,
+   "name": "m390rm-f04912.jpg"
+  },
+  {
+   "rel": 4928,
+   "name": "m390rm-f04928.jpg"
+  },
+  {
+   "rel": 4995,
+   "name": "m390rm-f04995.jpg"
+  },
+  {
+   "rel": 5012,
+   "name": "m390rm-f05012.jpg"
+  },
+  {
+   "rel": 5028,
+   "name": "m390rm-f05028.jpg"
+  },
+  {
+   "rel": 5078,
+   "name": "m390rm-f05078.jpg"
+  },
+  {
+   "rel": 5095,
+   "name": "m390rm-f05095.jpg"
+  },
+  {
+   "rel": 5112,
+   "name": "m390rm-f05112.jpg"
+  },
+  {
+   "rel": 5162,
+   "name": "m390rm-f05162.jpg"
+  },
+  {
+   "rel": 5178,
+   "name": "m390rm-f05178.jpg"
+  },
+  {
+   "rel": 5195,
+   "name": "m390rm-f05195.jpg"
+  },
+  {
+   "rel": 5245,
+   "name": "m390rm-f05245.jpg"
+  },
+  {
+   "rel": 5262,
+   "name": "m390rm-f05262.jpg"
+  },
+  {
+   "rel": 5278,
+   "name": "m390rm-f05278.jpg"
+  },
+  {
+   "rel": 5462,
+   "name": "m390rm-f05462.jpg"
+  },
+  {
+   "rel": 5478,
+   "name": "m390rm-f05478.jpg"
+  },
+  {
+   "rel": 5678,
+   "name": "m390rm-f05678.jpg"
+  },
+  {
+   "rel": 5695,
+   "name": "m390rm-f05695.jpg"
+  },
+  {
+   "rel": 5712,
+   "name": "m390rm-f05712.jpg"
+  },
+  {
+   "rel": 5795,
+   "name": "m390rm-f05795.jpg"
+  },
+  {
+   "rel": 5812,
+   "name": "m390rm-f05812.jpg"
+  },
+  {
+   "rel": 5978,
+   "name": "m390rm-f05978.jpg"
+  },
+  {
+   "rel": 6145,
+   "name": "m390rm-f06145.jpg"
+  },
+  {
+   "rel": 6395,
+   "name": "m390rm-f06395.jpg"
+  },
+  {
+   "rel": 6412,
+   "name": "m390rm-f06412.jpg"
+  },
+  {
+   "rel": 6562,
+   "name": "m390rm-f06562.jpg"
+  },
+  {
+   "rel": 6578,
+   "name": "m390rm-f06578.jpg"
+  },
+  {
+   "rel": 6612,
+   "name": "m390rm-f06612.jpg"
+  },
+  {
+   "rel": 6645,
+   "name": "m390rm-f06645.jpg"
+  },
+  {
+   "rel": 6662,
+   "name": "m390rm-f06662.jpg"
+  },
+  {
+   "rel": 6695,
+   "name": "m390rm-f06695.jpg"
+  }
+ ],
+ "nav": {
+  "responseStart": 288,
+  "responseEnd": 294,
+  "domInteractive": 1161,
+  "dcl": 1165,
+  "load": 2010,
+  "transfer": 144153,
+  "decoded": 1111207
+ },
+ "resources": [
+  {
+   "n": "preparoo.ef0833b7b.css",
+   "start": 332,
+   "end": 852,
+   "size": 29577
+  },
+  {
+   "n": "preparoo-logo-white.png",
+   "start": 332,
+   "end": 545,
+   "size": 2255
+  },
+  {
+   "n": "bdogrotesk-vf.ttf",
+   "start": 332,
+   "end": 562,
+   "size": 164840
+  },
+  {
+   "n": "preparoo-logo-white-hd.png",
+   "start": 332,
+   "end": 559,
+   "size": 4223
+  },
+  {
+   "n": "v2_dark_bg_mobile.webp",
+   "start": 332,
+   "end": 557,
+   "size": 428026
+  },
+  {
+   "n": "jquery.js?site=6840876d4d1ed0e8e2a330b9",
+   "start": 336,
+   "end": 943,
+   "size": 31270
+  },
+  {
+   "n": "webflow.schunk.36b8fb49256177c8.js",
+   "start": 336,
+   "end": 968,
+   "size": 13452
+  },
+  {
+   "n": "gsap.min.js",
+   "start": 336,
+   "end": 1053,
+   "size": 28659
+  },
+  {
+   "n": "webflow-script.js",
+   "start": 336,
+   "end": 1058,
+   "size": 4609
+  },
+  {
+   "n": "webflow.schunk.d61b41edd968cc6d.js",
+   "start": 336,
+   "end": 1055,
+   "size": 57327
+  },
+  {
+   "n": "webflow.schunk.9dfb96661114d3db.js",
+   "start": 336,
+   "end": 1067,
+   "size": 1598
+  },
+  {
+   "n": "mask-p-1600.png",
+   "start": 894,
+   "end": 1088,
+   "size": 1253
+  }
+ ],
+ "metrics": {
+  "vw": 390,
+  "vh": 844,
+  "dpr": 3,
+  "bodyBg": "rgb(245, 246, 248)",
+  "nav": {
+   "text": "Preparoo Pricing",
+   "x": 0,
+   "y": 0,
+   "w": 390,
+   "h": 57,
+   "fs": "16px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "-0.32px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgb(255, 255, 255)",
+   "radius": "0px",
+   "display": "block",
+   "bf": "none"
+  },
+  "navLogo": {
+   "text": "Preparoo",
+   "x": 24,
+   "y": 14,
+   "w": 123,
+   "h": 28,
+   "fs": "16px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "-0.32px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "display": "flex",
+   "bf": "none"
+  },
+  "navCta": [
+   {
+    "text": "Preparoo",
+    "x": 24,
+    "y": 14,
+    "w": 123,
+    "h": 28,
+    "fs": "16px",
+    "fw": "400",
+    "lh": "22.4px",
+    "ls": "-0.32px",
+    "ff": "\"Inter VF\", Arial, sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "display": "flex",
+    "bf": "none"
+   },
+   {
+    "text": "Pricing",
+    "x": 241,
+    "y": 15,
+    "w": 69,
+    "h": 27,
+    "fs": "12.16px",
+    "fw": "600",
+    "lh": "17.024px",
+    "ls": "-0.1216px",
+    "ff": "\"Inter VF\", Arial, sans-serif",
+    "color": "rgb(13, 36, 66)",
+    "bg": "rgb(195, 209, 227)",
+    "radius": "100px",
+    "display": "flex",
+    "bf": "none"
+   }
+  ],
+  "heading1": {
+   "text": "Ace",
+   "x": 24,
+   "y": 80,
+   "w": 73,
+   "h": 35,
+   "fs": "39px",
+   "fw": "600",
+   "lh": "35.1px",
+   "ls": "-1.17px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "display": "block",
+   "bf": "none"
+  },
+  "heading2": {
+   "text": "the IPMAT",
+   "x": 97,
+   "y": 80,
+   "w": 181,
+   "h": 35,
+   "fs": "39px",
+   "fw": "600",
+   "lh": "35.1px",
+   "ls": "-1.17px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "display": "block",
+   "bf": "none"
+  },
+  "headings": {
+   "text": "Ace the IPMAT",
+   "x": 24,
+   "y": 80,
+   "w": 342,
+   "h": 35,
+   "fs": "16px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "-0.32px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "display": "flex",
+   "bf": "none"
+  },
+  "rotating": {
+   "text": "IPMAT",
+   "x": 159,
+   "y": 80,
+   "w": 120,
+   "h": 35,
+   "fs": "39px",
+   "fw": "600",
+   "lh": "35.1px",
+   "ls": "-1.17px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "display": "inline-block",
+   "bf": "none"
+  },
+  "caret": {
+   "content": "\"|\"",
+   "animation": "0.7s infinite rex-blink",
+   "fw": "100",
+   "transform": "matrix(0.3, 0, 0, 1, 0, 0)",
+   "color": "rgb(0, 0, 0)",
+   "marginLeft": "2.34px"
+  },
+  "image": {
+   "text": "",
+   "x": 12,
+   "y": 131,
+   "w": 366,
+   "h": 620,
+   "fs": "16px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "-0.32px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgb(10, 22, 40)",
+   "radius": "0px",
+   "display": "flex",
+   "bf": "none"
+  },
+  "imgSrc": "https://ug.preparoo.app/images/v2_dark_bg_mobile.webp",
+  "imgNatural": [
+   1536,
+   2752
+  ],
+  "services": [
+   {
+    "text": "Mocks",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "fs": "16px",
+    "fw": "400",
+    "lh": "22.4px",
+    "ls": "-0.32px",
+    "ff": "\"Inter VF\", Arial, sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "display": "flex",
+    "bf": "none"
+   },
+   {
+    "text": "PYQs",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "fs": "16px",
+    "fw": "400",
+    "lh": "22.4px",
+    "ls": "-0.32px",
+    "ff": "\"Inter VF\", Arial, sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "display": "flex",
+    "bf": "none"
+   },
+   {
+    "text": "Sectionals",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "fs": "16px",
+    "fw": "400",
+    "lh": "22.4px",
+    "ls": "-0.32px",
+    "ff": "\"Inter VF\", Arial, sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "display": "flex",
+    "bf": "none"
+   },
+   {
+    "text": "Topic Tests",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "fs": "16px",
+    "fw": "400",
+    "lh": "22.4px",
+    "ls": "-0.32px",
+    "ff": "\"Inter VF\", Arial, sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "display": "flex",
+    "bf": "none"
+   },
+   {
+    "text": "Notes",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "fs": "16px",
+    "fw": "400",
+    "lh": "22.4px",
+    "ls": "-0.32px",
+    "ff": "\"Inter VF\", Arial, sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "display": "flex",
+    "bf": "none"
+   },
+   {
+    "text": "Flashcards",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "fs": "16px",
+    "fw": "400",
+    "lh": "22.4px",
+    "ls": "-0.32px",
+    "ff": "\"Inter VF\", Arial, sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "display": "flex",
+    "bf": "none"
+   }
+  ],
+  "label": {
+   "text": "ACE THE EXAM",
+   "x": 36,
+   "y": 163,
+   "w": 109,
+   "h": 20,
+   "fs": "14px",
+   "fw": "400",
+   "lh": "19.6px",
+   "ls": "0.7px",
+   "ff": "\"Roboto Mono VF\", Arial, sans-serif",
+   "color": "rgba(255, 255, 255, 0.7)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "display": "block",
+   "bf": "none"
+  },
+  "wordsWrap": {
+   "text": "Mocks that represent past year patterns Simple solutions which make sense Topic tests for targeted practice Flashcards with spaced repetitio",
+   "x": 36,
+   "y": 191,
+   "w": 318,
+   "h": 152,
+   "fs": "16px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "-0.32px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgb(255, 255, 255)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "display": "block",
+   "bf": "none"
+  },
+  "wordItem": {
+   "text": "Mocks that represent past year patterns",
+   "x": 36,
+   "y": 39,
+   "w": 318,
+   "h": 64,
+   "fs": "28px",
+   "fw": "500",
+   "lh": "32.2px",
+   "ls": "-0.56px",
+   "ff": "\"BDO Grotesk VF\", Arial, sans-serif",
+   "color": "rgb(255, 255, 255)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "display": "block",
+   "bf": "none"
+  },
+  "cta": {
+   "text": "Ready to hop in? Get started today!",
+   "x": 74,
+   "y": 669,
+   "w": 288,
+   "h": 66,
+   "fs": "16px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "-0.32px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(255, 255, 255, 0.08)",
+   "radius": "12px",
+   "display": "flex",
+   "bf": "blur(12px)"
+  },
+  "ctaTitle": {
+   "text": "Ready to hop in?",
+   "x": 90,
+   "y": 685,
+   "w": 109,
+   "h": 20,
+   "fs": "14px",
+   "fw": "600",
+   "lh": "19.6px",
+   "ls": "-0.32px",
+   "ff": "\"BDO Grotesk VF\", Arial, sans-serif",
+   "color": "rgb(255, 255, 255)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "display": "block",
+   "bf": "none"
+  },
+  "ctaSub": {
+   "text": "Get started today!",
+   "x": 90,
+   "y": 705,
+   "w": 83,
+   "h": 15,
+   "fs": "10.4px",
+   "fw": "500",
+   "lh": "14.56px",
+   "ls": "-0.32px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgba(255, 255, 255, 0.5)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "display": "block",
+   "bf": "none"
+  },
+  "ctaDot": {
+   "text": "",
+   "x": 340,
+   "y": 667,
+   "w": 6,
+   "h": 6,
+   "fs": "16px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "-0.32px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(255, 255, 255, 0.9)",
+   "radius": "50%",
+   "display": "block",
+   "bf": "none"
+  },
+  "coverage": {
+   "viewport": 329160,
+   "image": 226920,
+   "textBlocks": [
+    12002.0625,
+    0,
+    57046.21875,
+    19053
+   ]
+  },
+  "visibleText": [
+   {
+    "t": "Preparoo",
+    "y": 22,
+    "fs": "20px",
+    "fw": "700"
+   },
+   {
+    "t": "Pricing",
+    "y": 20,
+    "fs": "12.16px",
+    "fw": "600"
+   },
+   {
+    "t": "Ace",
+    "y": 74,
+    "fs": "39px",
+    "fw": "600"
+   },
+   {
+    "t": "the",
+    "y": 74,
+    "fs": "39px",
+    "fw": "600"
+   },
+   {
+    "t": "IPMAT",
+    "y": 74,
+    "fs": "39px",
+    "fw": "600"
+   },
+   {
+    "t": "Ace the Exam",
+    "y": 163,
+    "fs": "14px",
+    "fw": "400"
+   },
+   {
+    "t": "Simple solutions which make sense",
+    "y": 192,
+    "fs": "28px",
+    "fw": "500"
+   },
+   {
+    "t": "Ready to hop in?",
+    "y": 688,
+    "fs": "14px",
+    "fw": "600"
+   },
+   {
+    "t": "Get started today!",
+    "y": 705,
+    "fs": "10.4px",
+    "fw": "500"
+   },
+   {
+    "t": "Make the",
+    "y": 836,
+    "fs": "48px",
+    "fw": "600"
+   },
+   {
+    "t": "CUET",
+    "y": 836,
+    "fs": "48px",
+    "fw": "600"
+   }
+  ],
+  "docH": 9817,
+  "scroll": {
+   "snapHtml": "none",
+   "snapBody": "none",
+   "behavior": "auto",
+   "overscroll": "none",
+   "lenis": "undefined",
+   "lenisClass": false,
+   "restoration": "manual"
+  },
+  "headingsAll": [
+   {
+    "tag": "H1",
+    "text": "Ace",
+    "y": 80,
+    "fs": "39px"
+   },
+   {
+    "tag": "H2",
+    "text": "the IPMAT",
+    "y": 80,
+    "fs": "39px"
+   },
+   {
+    "tag": "H2",
+    "text": "Make the CUET feel simple",
+    "y": 843,
+    "fs": "48px"
+   },
+   {
+    "tag": "H2",
+    "text": "cerebral",
+    "y": 1303,
+    "fs": "28.8px"
+   },
+   {
+    "tag": "H2",
+    "text": "Ask Preparoo",
+    "y": 2008,
+    "fs": "48px"
+   },
+   {
+    "tag": "H2",
+    "text": "How much of CUET 2026 did Preparoo cover?",
+    "y": 3278,
+    "fs": "24px"
+   },
+   {
+    "tag": "H2",
+    "text": "Pricing",
+    "y": 4732,
+    "fs": "78px"
+   },
+   {
+    "tag": "H2",
+    "text": "CUET All Access",
+    "y": 4842,
+    "fs": "28px"
+   },
+   {
+    "tag": "H2",
+    "text": "CUET + IPMAT All Access",
+    "y": 5788,
+    "fs": "28px"
+   },
+   {
+    "tag": "H2",
+    "text": "FAQ",
+    "y": 7024,
+    "fs": "12px"
+   },
+   {
+    "tag": "H2",
+    "text": "Answered questions.",
+    "y": 7051,
+    "fs": "48px"
+   },
+   {
+    "tag": "H2",
+    "text": "Join our newsletter",
+    "y": 7670,
+    "fs": "28px"
+   },
+   {
+    "tag": "H2",
+    "text": "Hear from us",
+    "y": 8007,
+    "fs": "36px"
+   },
+   {
+    "tag": "H3",
+    "text": "CUET English PYQ Analysis 2026",
+    "y": 8369,
+    "fs": "17.6px"
+   },
+   {
+    "tag": "H3",
+    "text": "CUET Economics PYQ Analysis 2026",
+    "y": 8684,
+    "fs": "17.6px"
+   },
+   {
+    "tag": "H3",
+    "text": "CUET Business Studies PYQ Analysis 2026",
+    "y": 9000,
+    "fs": "17.6px"
+   },
+   {
+    "tag": "H2",
+    "text": "Ace the CUET & IPMAT with Preparoo",
+    "y": 9296,
+    "fs": "48px"
+   }
+  ],
+  "sections": [
+   {
+    "cls": "section_home-header",
+    "y": 0,
+    "h": 763
+   },
+   {
+    "cls": "section_try-features",
+    "y": 763,
+    "h": 1245
+   },
+   {
+    "cls": "section_ask-preparoo",
+    "y": 2008,
+    "h": 1190
+   },
+   {
+    "cls": "section_overlap",
+    "y": 3198,
+    "h": 1296
+   },
+   {
+    "cls": "section_pricing",
+    "y": 4494,
+    "h": 2449
+   },
+   {
+    "cls": "section_faq",
+    "y": 6944,
+    "h": 671
+   },
+   {
+    "cls": "section_newsletter",
+    "y": 7614,
+    "h": 328
+   },
+   {
+    "cls": "section_blog-list",
+    "y": 7943,
+    "h": 1225
+   },
+   {
+    "cls": "section_cta",
+    "y": 9216,
+    "h": 311
+   }
+  ]
+ },
+ "shots": [
+  {
+   "file": "m390rm-hero-at03919ms.png",
+   "wallMs": 4002,
+   "pageMs": 3919,
+   "requestedFile": "m390rm-hero-2500ms.png"
+  },
+  {
+   "file": "m390rm-hero-at06640ms.png",
+   "wallMs": 6724,
+   "pageMs": 6640,
+   "requestedFile": "m390rm-hero-5500ms.png"
+  }
+ ],
+ "prp": {
+  "samples": [
+   {
+    "t": 874,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": false,
+    "io": 0,
+    "isc": 0.85,
+    "inl": "",
+    "lt": 857,
+    "lh": 143,
+    "pf": true,
+    "ix": false,
+    "fonts": "loading",
+    "rs": "loading",
+    "sy": 0
+   },
+   {
+    "t": 1112,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": false,
+    "io": 0,
+    "isc": 0.85,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 857,
+    "lh": 143,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "loading",
+    "sy": 0
+   },
+   {
+    "t": 1176,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0,
+    "isc": 0.85,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 857,
+    "lh": 143,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1231,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.13,
+    "isc": 0.869,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 855,
+    "lh": 147,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1250,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.34,
+    "isc": 0.901,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 852,
+    "lh": 152,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1293,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.43,
+    "isc": 0.915,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 851,
+    "lh": 154,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1343,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.64,
+    "isc": 0.945,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 849,
+    "lh": 160,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1346,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.77,
+    "isc": 0.965,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 847,
+    "lh": 163,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1422,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.8,
+    "isc": 0.97,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 847,
+    "lh": 164,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1466,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.87,
+    "isc": 0.98,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 846,
+    "lh": 165,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1497,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.93,
+    "isc": 0.989,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 845,
+    "lh": 167,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1504,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.94,
+    "isc": 0.991,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 845,
+    "lh": 167,
+    "pf": true,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1536,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.95,
+    "isc": 0.992,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 845,
+    "lh": 167,
+    "pf": true,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1547,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.95,
+    "isc": 0.993,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 845,
+    "lh": 168,
+    "pf": true,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1580,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.96,
+    "isc": 0.994,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 844,
+    "lh": 168,
+    "pf": true,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1590,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.97,
+    "isc": 0.996,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 844,
+    "lh": 168,
+    "pf": true,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1599,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.98,
+    "isc": 0.996,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 844,
+    "lh": 168,
+    "pf": true,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1612,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.98,
+    "isc": 0.997,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 844,
+    "lh": 168,
+    "pf": true,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1647,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.99,
+    "isc": 0.998,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 844,
+    "lh": 168,
+    "pf": true,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1662,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.99,
+    "isc": 0.998,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 844,
+    "lh": 169,
+    "pf": true,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1679,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.99,
+    "isc": 0.999,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 844,
+    "lh": 169,
+    "pf": true,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1730,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 1,
+    "isc": 0.999,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 844,
+    "lh": 169,
+    "pf": true,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1763,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 844,
+    "lh": 169,
+    "pf": true,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1780,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 844,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1800,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 99.965vh; transform: translate3d(0px, -0.007vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 844,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1813,
+    "d": "flex",
+    "h": 843,
+    "ty": 0,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 99.881vh; transform: translate3d(0px, -0.0238vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 843,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1869,
+    "d": "flex",
+    "h": 842,
+    "ty": 0,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 99.72vh; transform: translate3d(0px, -0.056vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 841,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 1969,
+    "d": "flex",
+    "h": 839,
+    "ty": -1,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 99.452vh; transform: translate3d(0px, -0.1096vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 838,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 2006,
+    "d": "flex",
+    "h": 807,
+    "ty": -7,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 95.616vh; transform: translate3d(0px, -0.8768vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 800,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 2021,
+    "d": "flex",
+    "h": 719,
+    "ty": -25,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 85.186vh; transform: translate3d(0px, -2.9628vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 694,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2029,
+    "d": "flex",
+    "h": 692,
+    "ty": -30,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 82.033vh; transform: translate3d(0px, -3.5934vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 662,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2047,
+    "d": "flex",
+    "h": 662,
+    "ty": -36,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 78.442vh; transform: translate3d(0px, -4.3116vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 626,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2063,
+    "d": "flex",
+    "h": 628,
+    "ty": -43,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 74.4vh; transform: translate3d(0px, -5.12vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 585,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2080,
+    "d": "flex",
+    "h": 590,
+    "ty": -51,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 69.912vh; transform: translate3d(0px, -6.0176vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 539,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2096,
+    "d": "flex",
+    "h": 548,
+    "ty": -59,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 64.925vh; transform: translate3d(0px, -7.015vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 489,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2112,
+    "d": "flex",
+    "h": 501,
+    "ty": -69,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 59.384vh; transform: translate3d(0px, -8.1232vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 433,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2129,
+    "d": "flex",
+    "h": 450,
+    "ty": -79,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 53.285vh; transform: translate3d(0px, -9.343vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 371,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2146,
+    "d": "flex",
+    "h": 395,
+    "ty": -90,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 46.752vh; transform: translate3d(0px, -10.6496vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 305,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2163,
+    "d": "flex",
+    "h": 343,
+    "ty": -100,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 40.687vh; transform: translate3d(0px, -11.8626vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 243,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2179,
+    "d": "flex",
+    "h": 297,
+    "ty": -109,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 35.137vh; transform: translate3d(0px, -12.9726vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 187,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2196,
+    "d": "flex",
+    "h": 254,
+    "ty": -118,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 30.118vh; transform: translate3d(0px, -13.9764vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 136,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2213,
+    "d": "flex",
+    "h": 216,
+    "ty": -126,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 25.6vh; transform: translate3d(0px, -14.88vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 90,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2229,
+    "d": "flex",
+    "h": 182,
+    "ty": -132,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 21.582vh; transform: translate3d(0px, -15.6836vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 50,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2246,
+    "d": "flex",
+    "h": 152,
+    "ty": -138,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 17.986vh; transform: translate3d(0px, -16.4028vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 13,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2263,
+    "d": "flex",
+    "h": 125,
+    "ty": -144,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 14.814vh; transform: translate3d(0px, -17.0372vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -19,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2279,
+    "d": "flex",
+    "h": 102,
+    "ty": -148,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 12.055vh; transform: translate3d(0px, -17.589vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -47,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2296,
+    "d": "flex",
+    "h": 82,
+    "ty": -152,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 9.662vh; transform: translate3d(0px, -18.0676vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -71,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2313,
+    "d": "flex",
+    "h": 64,
+    "ty": -156,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 7.597vh; transform: translate3d(0px, -18.4806vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -92,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2330,
+    "d": "flex",
+    "h": 49,
+    "ty": -159,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 5.849vh; transform: translate3d(0px, -18.8302vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -110,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2346,
+    "d": "flex",
+    "h": 37,
+    "ty": -161,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 4.392vh; transform: translate3d(0px, -19.1216vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -124,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2363,
+    "d": "flex",
+    "h": 27,
+    "ty": -163,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 3.206vh; transform: translate3d(0px, -19.3588vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -136,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2379,
+    "d": "flex",
+    "h": 19,
+    "ty": -165,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 2.251vh; transform: translate3d(0px, -19.5498vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -146,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2396,
+    "d": "flex",
+    "h": 13,
+    "ty": -166,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 1.507vh; transform: translate3d(0px, -19.6986vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -154,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2413,
+    "d": "flex",
+    "h": 8,
+    "ty": -167,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 0.951vh; transform: translate3d(0px, -19.8098vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -159,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2429,
+    "d": "flex",
+    "h": 5,
+    "ty": -168,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 0.55vh; transform: translate3d(0px, -19.89vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -163,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2446,
+    "d": "flex",
+    "h": 2,
+    "ty": -168,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 0.281vh; transform: translate3d(0px, -19.9438vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -166,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2463,
+    "d": "flex",
+    "h": 1,
+    "ty": -169,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 0.119vh; transform: translate3d(0px, -19.9762vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -168,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2479,
+    "d": "flex",
+    "h": 0,
+    "ty": -169,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 0.035vh; transform: translate3d(0px, -19.993vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -168,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2496,
+    "d": "flex",
+    "h": 0,
+    "ty": -169,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 0.004vh; transform: translate3d(0px, -19.9992vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -169,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2513,
+    "d": "flex",
+    "h": 0,
+    "ty": -169,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 0vh; transform: translate3d(0px, -20vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -169,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2529,
+    "d": "flex",
+    "h": 0,
+    "ty": -169,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 0vh; transform: translate3d(0px, -20vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": -169,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   },
+   {
+    "t": 2546,
+    "d": "none",
+    "h": 0,
+    "ty": 0,
+    "ready": true,
+    "io": 0,
+    "isc": 1,
+    "inl": "display: none; width: 100%; height: 0vh; transform: translate3d(0px, -20vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 0,
+    "lh": 0,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   }
+  ],
+  "typing": [
+   {
+    "t": 874,
+    "text": "CUET"
+   },
+   {
+    "t": 3679,
+    "text": "CUE"
+   },
+   {
+    "t": 3779,
+    "text": "CU"
+   },
+   {
+    "t": 3879,
+    "text": "C"
+   },
+   {
+    "t": 3979,
+    "text": ""
+   },
+   {
+    "t": 4629,
+    "text": "I"
+   },
+   {
+    "t": 4779,
+    "text": "IP"
+   },
+   {
+    "t": 4929,
+    "text": "IPM"
+   },
+   {
+    "t": 5079,
+    "text": "IPMA"
+   },
+   {
+    "t": 5229,
+    "text": "IPMAT"
+   }
+  ],
+  "words": [
+   {
+    "t": 874,
+    "tr": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
+    "tn": ""
+   },
+   {
+    "t": 1647,
+    "tr": "translate3d(0px, 0px, 0px)",
+    "tn": "none"
+   },
+   {
+    "t": 4646,
+    "tr": "translate3d(0px, -152px, 0px)",
+    "tn": "transform 0.6s cubic-bezier(0.25, 0.1, 0.25, 1)"
+   }
+  ],
+  "events": [
+   {
+    "e": "first-paint",
+    "t": 916
+   },
+   {
+    "e": "first-contentful-paint",
+    "t": 916
+   },
+   {
+    "e": "DOMContentLoaded",
+    "t": 1165
+   },
+   {
+    "e": "longtask",
+    "t": 1348,
+    "d": 72
+   },
+   {
+    "e": "longtask",
+    "t": 1898,
+    "d": 57
+   },
+   {
+    "e": "load",
+    "t": 2011
+   }
+  ]
+ },
+ "errors": []
+}

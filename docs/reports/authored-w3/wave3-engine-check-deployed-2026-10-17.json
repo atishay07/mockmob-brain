@@ -1,0 +1,24 @@
+{
+ "kind": "authored_w3_engine_check_deployed",
+ "at": "2026-10-16T23:02:43.285Z",
+ "note": "The 153 publication rows (plan of scripts/question-publish-authored.mjs) judged by the engine file of the deployed checkout (mockmob-hotfix, data/nta_engine.js) with this branch merged agent and fit tables. Ad hoc, nothing written to data/ or any database. The same check on this checkout engine is wave3-engine-check-final-2026-10-17.json.",
+ "engine": "nta-engine-2026.10.14-r5.2",
+ "engineRoot": "mockmob-hotfix",
+ "planned": 153,
+ "eligible": 153,
+ "ineligible": 0,
+ "bySubject": {
+  "chemistry": {
+   "planned": 48,
+   "eligible": 48
+  },
+  "general_test": {
+   "planned": 56,
+   "eligible": 56
+  },
+  "physics": {
+   "planned": 49,
+   "eligible": 49
+  }
+ }
+}

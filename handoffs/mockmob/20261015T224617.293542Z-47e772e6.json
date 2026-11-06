@@ -1,0 +1,27 @@
+{
+  "id": "20261015T224617.293542Z-47e772e6",
+  "observed_at": "2026-10-15T22:46:17.293542+00:00",
+  "agent": "landing-fixer-r1 (Opus subagent)",
+  "task": "Landing fixer round 1 in wt-land2 (web/land2-1015): fix critic high/medium defects",
+  "status": "complete",
+  "done": "Commit 32e496f6 on web/land2-1015 (not pushed). Fixed every high and medium defect: Instagram becomes a hairline list (no volt figures, no date-as-headline, embed opens in the row); Mobi limited to the desktop sample card, the phone dock, the sample reactions and the close (the desktop flyer shows only at the hero card and the close; idle loops pause off screen); TypeLine is a per-word roll with no caret or selection and is never empty (min visible opacity 0.75, rests on 'the reason.'); the phone dock retires at the close keys and through the footer, and new visitors get no 'Free to start' label; the Lab device tab row is a still caption; the Time claim is true; hero facts cut to 2; the stats band shows marking only; tour proof lines are new facts; DU shows no 73 figure and no sticky bar before a tick; the type scale snapped (390 sizes: 13,14,16,18,22,32,40.42). Lows also done: pricing copy, 'Another subject', nav 92%, the Compass tab row scrolls, the grid is fainter, the exam row, Score Recovery notes anchored.",
+  "next": "Critic round 2 with a score on port 3122 (dev server started 02:06 by another agent, still running). Not done: the fling-release in ScrollStory (low). Pre-existing failure: scrollMotion.test.mjs 'a reveal reached at speed' (not in test:app; not touched).",
+  "blockers": [],
+  "evidence": [
+    "captures: mockmob-next/tmp/1016-am/landing/fix-r1/{night,day}-{390,1440}/ and sweep/ with contact sheets",
+    "npm run test:app 256/256 pass; dockState+labStory 20/20; eslint --max-warnings 0 clean on touched JS",
+    "CDP pointer: Watch opens and closes the embed, Post 2 opens its embed, DU tick shows the count and the sticky bar"
+  ],
+  "touched_files": [
+    "src/app/page.js",
+    "src/components/landing/{CreatorReels,TypeLine,LabCinema,HeroDockGate,CloseActions,ExamComparator,MistakeLab,LiveStatsBand,HeroKeys}.jsx",
+    "src/components/brand/PipGuide.jsx",
+    "src/components/du/EligibilityTeaser.jsx",
+    "src/components/du/du.css",
+    "src/app/{brand-pip,compass-ladder,feature-tour,hero-depth,hero-v3,home-refinements,lab-cinema,landing-close,mistake-lab,social-proof}.css",
+    "src/components/landing/dockState.test.mjs"
+  ],
+  "verification": "Headless Chrome via CDP at 390x844 and 1440x900, Night and Day, full sweeps looked at; type sizes measured at 390.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

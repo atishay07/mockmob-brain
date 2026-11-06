@@ -1,0 +1,15 @@
+{
+  "id": "20261010T095448.475181Z-70d8a98c",
+  "observed_at": "2026-10-10T09:54:48.475181+00:00",
+  "agent": "claude",
+  "task": "RAG prototype: cross-encoder rerank experiment (abstention, q18, latency, split check)",
+  "status": "active",
+  "done": "",
+  "next": "Keep hybrid (27/30) as the default. Rerank is not adopted. Owner decides whether to accept the rerank as an opt-in abstention mode (held-out 3/6 abstained at a cost of about one answerable hit). Config registration still waits for Atishay's explicit go-ahead in chat.</next>\n<parameter name=\"done\">Local cross-encoder Xenova/ms-marco-MiniLM-L-6-v2 (fastembed, free) reranked the hybrid top 20. Results over 30 answerable questions: hybrid 27/30, reranked 27/30 (no net gain; q18 gained, q02 gained, q15, q19, q22 lost). q18 now hits (ARCHITECTURE.md in top 5). Abstention on 6 not-in-sources questions by threshold on top rerank score: full-set t=0 abstains 5/6 and keeps 26/30 answerable; threshold 2 abstains 6/6 but keeps 22/30. Split check: threshold fit on one half and applied to the other gave t=-1.5 (test: 13/15 kept, 1/3 abstained) and t=-0.5 (13/15 kept, 2/3 abstained), so held-out abstention is 3/6 with one lost hit. Latency: p50 787 ms per query for hybrid plus rerank (rerank alone p50 565 ms, 20 candidates with 900-char excerpts), against 87 ms for 20 short pairs in a micro-benchmark.</done>\n<evidence>[\"apps/rag/eval/rerank_experiment.py output (per-question top CE scores)\", \"apps/rag/eval/abstain_sweep.py output (bi-encoder abstention, not usable)\"]</evidence>\n<touched>[\"apps/rag/eval/rerank_experiment.py\"]</touched>\n<verification>Single run of rerank_experiment.py. Threshold fitting used the same 30 questions, so the full-set t=0 numbers are optimistic. The split check uses two halves of 15 answerable and 3 unanswerable questions, too small to be firm. Score overlap: q14 (answerable, -4.22) ties q35 (not in sources, -4.22).</verification>\n<blockers>[\"Persistent config registration still waits for Atishay's explicit go-ahead in chat\"]</blockers>\n<cost>No paid calls. One public model download (Xenova/ms-marco-MiniLM-L-6-v2, about 0.08 GB). Nothing deployed or wired into hooks.</cost>\n",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "20261017T075524.870648Z-b72dfd38",
+  "observed_at": "2026-10-17T07:55:24.871649+00:00",
+  "agent": "sonnet-5.5 mob go/no-go checker",
+  "task": "17 Oct ~1:25 pm IST: GO/NO-GO check of the Mob on staging (3101) before switch-on",
+  "status": "complete",
+  "done": "VERDICT NO-GO, execution 6/10 (server 8.5, web polish ~6, entry points ~5, app unverified). Server and migration are solid: staging function bodies equal the repo migration (22/22 md5), RLS on, no anon or authenticated grant, PostgREST direct 403, undo covers all tables, PGlite suite 22/22 incl undo+reapply+deletion. End to end on staging with 17 test members: create, invite, join, sit as several members (no credits spent), ring, results, teaser, sample side-by-side, Pro full side-by-side, history, extras, 3-Mob limit, block, leave, owner handover, 4-of-6 concurrent joins exactly 4 admitted, free weekly claim across Mobs, crafted requests all refused. Blockers: app Mob never walked on emulator (walk-1 has no Mob check, head 792fc271 mixed WIP, fallback 29abcf75); privacy page has no Mob section; entry points thinner than spec (no Today/Practice/Review card on web, Mob only in sidebar, Progress card, result row); no-Mob and join page plain. High/Med: create rate limit counts failed validations (3 typos = 7 day lockout, Retry-After 604800); Pro side-by-side and free teaser empty unless friends opt in to share (2-sitter free teaser needs both sharing); free tier is 1 Mob total vs owner words 'start one and join any'; full Mob join shows INVITE_EXPIRED copy; production Vercel has no PERSISTENT_LIMITS_ENABLED, MOB_ENABLED, MOB_ID_SECRET; no MOB_INVITES_ENABLED kill switch; chapter extras failed PAPER_UNAVAILABLE on staging bank; runner timer 10:00 vs 'about 12 min'; member menu button 52x32.",
+  "next": "Fix blockers (privacy section, entry points, app emulator walk with two members, no-Mob and join page polish, failed-validation rate-limit counting, sharing defaults decision, free-tier decision with owner), then re-run this check; production switch-on steps: apply 20261017100000_mob.sql to production (verify no mob tables first, dry-run report), deploy deploy/web-1017, set MOB_ENABLED=true plus PERSISTENT_LIMITS_ENABLED=true and MOB_ID_SECRET on Vercel production then redeploy, ship the verified app build, assign a moderator. Rollback: unset MOB_ENABLED and redeploy.",
+  "blockers": [
+    "App Mob unverified on device",
+    "Privacy page lacks Mob section",
+    "Owner decision needed: free tier 1 Mob total vs start one and join any; sharing defaults"
+  ],
+  "evidence": [
+    "captures and texts: C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\tmp\\mob-gate-1017 (170 files, metrics-*.json)",
+    "scripts: scratchpad\\mobgate (flow1-9, capture.mjs, inter.mjs, cmp.mjs)",
+    "staging test members mobtest-{a..h,pro,u1..u6}@example.com, Mobs on onwkqxmjqjrhfbjjdydu, fake history rows for Pro Mob 648771ca-2820-45e4-9b5e-e2ae9dafecc2 (staging only)"
+  ],
+  "touched_files": [],
+  "verification": "Live API on localhost:3101 with bearer tokens, SQL read-only on staging, node --test data/tests/mob.test.mjs 22/22, headless Chrome via data/tests/cdp_chrome.mjs (temp profiles deleted), all captures opened for main states. Nothing applied to production; nothing in wt-ship17 or wt-v13 edited.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "20261015T063815.884216Z-fe8b8972",
+  "observed_at": "2026-10-15T06:38:15.884216+00:00",
+  "agent": "claude-opus-5.5 subagent (session cc0bf1af, FINDINGS-v3 items 5 and 6)",
+  "task": "15 Oct: FINDINGS-v3 items 5 (Mobi alone above the steps on the repair run) and 6 (step words read as jargon), app and web",
+  "status": "complete",
+  "done": "Step words are now Found, Repaired, Retested, Still right, with one line used everywhere: \"The last two steps test you with new questions on the same idea. They are not ready yet.\" App: ReviewCopy.found/repaired/retested/stillRight/lifeCaption/lifeSpoken in lib/features/review/copy.dart (checkedLater and checksGate now point to lifeCaption). Web: RUN_COPY.stages/stagesLabel/laterSteps in src/components/recovery/repairRun.js, used by RepairEnding.jsx. App run screen: RepairMobi takes a required `beside` line, so Mobi shares a row with the wait line, the four steps of a landed repair, or a failure's notice. A key review and a set-aside question have no Mobi, which matches the web. A reopened stored repair now shows Repaired at rest; before, it said \"not repaired yet\". The web already placed Mobi beside the wait line, the note or the heading. Nothing committed: the checker commits.",
+  "next": "Checker commits wt-phase2 (5 lib files, 3 test files, 42 review goldens) and wt-web-refine (repairRun.js, RepairEnding.jsx, repair-run.css, repair_run.test.mjs). Outside needs: the web per-mistake panel (MistakeRepair.jsx) has no step row, while the app shows the steps beside Mobi. The wt-web-ia D9 thread and the result page's Find/Repair/Prove must take RUN_COPY.stages and laterSteps.",
+  "blockers": [
+    "None for these items"
+  ],
+  "evidence": [
+    "flutter analyze on the changed files: no issues",
+    "new repair_steps_words_test 9/9 pass; review unit tests (phase2, blitz, motion, honesty, rest, v3, widgets, mistake_index, share_card) all pass",
+    "goldens regenerated and looked at: repair_golden 32, review_golden record 2, review_motion ending 10; moment_voids 4 pass",
+    "web: eslint clean; node test repair_run+parity 19/19; npm run test:learning 274/274; npm run test:recovery 40/40"
+  ],
+  "touched_files": [
+    "wt-phase2/flutter_app/lib/features/review/copy.dart",
+    "wt-phase2/flutter_app/lib/features/review/widgets/life_row.dart",
+    "wt-phase2/flutter_app/lib/features/review/widgets/repair_mobi.dart",
+    "wt-phase2/flutter_app/lib/features/review/widgets/mistake_view.dart",
+    "wt-phase2/flutter_app/lib/features/review/data/mistake_index.dart (comment)",
+    "wt-phase2/flutter_app/test/unit/review/repair_steps_words_test.dart (new)",
+    "wt-phase2/flutter_app/test/unit/review/review_phase2_test.dart",
+    "wt-phase2/flutter_app/test/unit/review/review_blitz_test.dart",
+    "wt-phase2/flutter_app/test/golden/review/goldens (42 png)",
+    "wt-web-refine/src/components/recovery/repairRun.js",
+    "wt-web-refine/src/components/recovery/RepairEnding.jsx",
+    "wt-web-refine/src/components/recovery/repair-run.css",
+    "wt-web-refine/data/tests/repair_run.test.mjs"
+  ],
+  "verification": "Fixture renders (goldens) in Night and Day and unit tests only. No device, emulator or browser run (emulator not allowed; the web needs sign-in).",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "20261022T184135.693701Z-f73575a6",
+  "observed_at": "2026-10-22T18:41:35.693701+00:00",
+  "agent": "claude-auto",
+  "task": "Auto-capture: claude session b448f889",
+  "status": "paused",
+  "done": "Auto-captured at Stop. Turns: 12. Last message: It takes about 12–16 hours of non-stop work, and it is not just rearranging. Ten agents went through every chapter, the shared parts and the platform rules before I came to that.\n\n**What carries over from v8 (almost everything):**\n- **Sound:** your approved mix, used bit for bit, with the same timing and length (77.8 s).\n- **3D Mobi:** all eight takes are reused, never scaled above their real size",
+  "next": "Unverified auto-capture. Read the session transcript and live repo state before continuing.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\b448f889-ae88-4a58-b8a4-87f72631156e.jsonl"
+  ],
+  "touched_files": [
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\src\\teaser\\hosts\\logo.ts",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\src\\teaser\\hosts\\open.ts",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\mobi3d\\perf\\dropout_scan.py",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\mobi3d\\perf\\dropout_sheet.py",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\mobi3d\\perf\\dropout_legcheck.py",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\mobi3d\\perf\\dropout_fix_gpu.sh",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\mobi3d\\perf\\dropout_publish.py",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\mobi3d\\perf\\dropout_check.py",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\mobi3d\\perf\\dropout_rescan.sh",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\src\\teaser\\hosts\\unlimited.ts",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\src\\teaser\\hosts\\findfix.ts",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\src\\teaser\\hosts\\examday.ts",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\src\\teaser\\hosts\\mob.ts",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\src\\teaser\\hosts\\everything.ts",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\HANDOFF-2026-10-22-2330.md",
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\memory\\usp-unlimited-mocks.md",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\out\\v916-analysis\\askmobi-mob\\mock.py"
+  ],
+  "verification": "auto-captured by hook; not agent-verified",
+  "cost_and_pending_requests": "unknown; hook does not see provider receipts",
+  "confidence": "agent-reported; verify evidence before acting"
+}

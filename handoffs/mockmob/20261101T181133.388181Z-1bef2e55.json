@@ -1,0 +1,29 @@
+{
+  "id": "20261101T181133.388181Z-1bef2e55",
+  "observed_at": "2026-11-01T18:11:33.389181+00:00",
+  "agent": "claude-opus-5.5 session 3b7877eb",
+  "task": "Learn v2 rounds 2-4 LIVE; subscription card waves (LK34) paused at 90% usage until the 01:50 IST reset",
+  "status": "paused",
+  "done": "LIVE: main 668341aea, deployment dpl_kmM3Rym59riGDcmQ1MVgRzs9RbGa. Production checks:\n- runtime errors since deploy: none\n- /, /learn, /explore, /today and /pricing return 200\n- /api/stats: MISS then HIT\n- the static H1 is live\nRollback: dpl_DoGHp6AAWaCKngaFxKAckyhq7vAy.\n\nRound 4 merged (5 packets). R4-server was rescued: its agent stalled on its own Monitor, so I ran its suites and committed it as 7655e6dda. Follow-ups:\n- Free end progress.open\n- cover hooks: top-level too, and the client reads them per length (fix 689617ed8, verified by recapture)\n- playable() drops retired chapters\n- the Rival preview sample's chapter\n- Explore tests in test:learn\n\nVerified: 23/23 suites, lint 0, build 0, a local capture of 180 shots with 0 failures, and the key shots looked at (390 and 1440, Night and Day). STATUS entry 668341aea. In mockmob-next, NOW and the ledger are updated (a0965ea54).\n\nMemory: updated subagent-wave-pacing and added workflow-agent-stalls.\n\nContent branch web/1101-content (wt-1101-content, 84ff8fc56):\n- Chemistry 1,257 cards and History 1,418, plus the Section 4 partnership swap.\n- Geography: drafts and reviews for 15 of 17 PDFs; legy207 and legy209 are drafted but not reviewed.\n- content-wave2.js now has the NOTATION rule for physics and maths.\n- Live chapters table: accountancy has 15 active chapters, including CAS, so Practice says 15 where Learn says 14 (minor, open).",
+  "next": "After the 01:50 IST reset:\n1. Resume Geography: content-wave2.js with args {subjects: [geography], k: 4, chapters from chapters-9.json}. Read the names from the file and verify them; never retype. The authors skip existing drafts; reviews are still needed for legy207 and legy209.\n2. Launch Physics plus Mathematics (K=4 each), then Psychology, Sociology and Computer Science (CS needs computer_science_B1/B2 from chapters-9.json). About 71 PDFs, roughly 85% of one window.\n3. For each finished subject, in wt-1101-content: node scripts/keycards/review-merge.mjs, validate.mjs --subject=X, tier.mjs, then test:keycards and test:learn. Commit only data/keycards, then `git checkout -- logs/`.\n4. Merge main (668341aea, which has sciText) into web/1101-content, look at the chemistry cards with sciText in the preview, then fast-forward main and deploy content.\n5. English top-up and Accountancy's thin chapters come later; GAT has no NCERT book.\n6. LK25: the Play release waits on the app port session.\n7. Update NOW and the ledger again after the content deploy.",
+  "blockers": [
+    "5-hour usage at 90% until 01:50 IST: no new agents before then"
+  ],
+  "evidence": [
+    "deploy READY dpl_kmM3Rym59riGDcmQ1MVgRzs9RbGa (668341aea)",
+    "get_runtime_errors 15m: none",
+    "/api/stats X-Vercel-Cache MISS then HIT",
+    "suites-r4.txt: 23 suites 0 fail; lint exit 0; build exit 0",
+    "capture r4-merged: 180 PNG, 0 failures"
+  ],
+  "touched_files": [
+    "wt-1031-learn-v2 (web/1031-learn-v2 = main 668341aea)",
+    "mockmob-next docs/brain NOW.md, OWNER-MASTER-LEDGER.md (a0965ea54)",
+    "wt-1101-content web/1101-content 84ff8fc56",
+    ".claude/launch.json (learn-r4-look), .claude/r4-look-dev.cjs",
+    "memory: subagent-wave-pacing.md, workflow-agent-stalls.md"
+  ],
+  "verification": "Production was smoke-checked and shows no runtime errors. Not checked: a real phone, a trackpad, or a screen reader. Content has not been deployed.",
+  "cost_and_pending_requests": "Subscription only. No API spend.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

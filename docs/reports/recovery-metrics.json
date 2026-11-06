@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-10-03T18:25:16.621Z",
+  "readOnly": true,
+  "source": "configured_database",
+  "database": {
+    "configured": true,
+    "readable": false,
+    "errorCode": "PGRST205",
+    "rows": 0
+  },
+  "ledger": "absent: no paid content calls recorded from this checkout",
+  "metrics": {
+    "generatedAt": "2026-10-03T18:25:16.619Z",
+    "minimumReportable": 5,
+    "minimumDecisionSample": 30,
+    "pathways": {},
+    "cost": {
+      "paidModelCallsInCoreFlow": 0,
+      "providerUsd": null,
+      "contentUsd": null,
+      "contentLimitUsd": null,
+      "perStartedEpisodeUsd": null
+    },
+    "caveats": [
+      "Descriptive cohort figures. Passing fresh checks is evidence about these checks, not a causal score gain.",
+      "Learners chose to start and return; completers are not a random sample.",
+      "Groups under 5 are suppressed; no keep/kill decision below 30 episodes."
+    ]
+  }
+}

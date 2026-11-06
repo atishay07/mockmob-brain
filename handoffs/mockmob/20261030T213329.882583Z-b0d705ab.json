@@ -1,0 +1,28 @@
+{
+  "id": "20261030T213329.882583Z-b0d705ab",
+  "observed_at": "2026-10-30T21:33:29.882583+00:00",
+  "agent": "claude-opus-5.5 session 3b7877eb",
+  "task": "Intelligence layer + Key cards (NCERT exact-quote flashcards), syllabus v2 (CUET-referenced), chapter state, Free taste vs Pro",
+  "status": "active",
+  "done": "Plan written and verified. Owner's 31 Oct decisions are logged as D200-D206 (OWNER-MASTER-LEDGER on feat/app-and-web 027da90c1): CUET as the single reference, no old-syllabus shelf, exact NCERT text on cards, pilot of 5-6 subjects, USD 50 ceiling removed, Free is a taste and Pro holds the value.\n\nThe USD 50 ceiling is removed in code: web/1031-keycards 528fe5e18, covering budgetLedger, AGENTS.md and COST-POLICY; ledger tests pass.\n\nSyllabus audit plus a two-sided check (wf_c1916fd5-105) produced the rulings in docs/brain/intel-1031/syllabus-verified.md. Specs: KEYCARDS-BUILD-SPEC.md and KEYCARDS-CONTENT-SPEC.md. 39 local NCERT PDFs were collected to ncert-books/pdf. Build wave 1 (wf_80b94c0f-4c0) launched with 4 code owners (worktrees wt-1031-syllabus, wt-1031-kc-server, wt-1031-kc-ui, wt-1031-keycards-app) and author+review for 39 Accountancy/Business Studies/Economics PDFs plus English.",
+  "next": "1. When wave 1 finishes: run scripts/keycards/validate.mjs and review-merge.mjs, then merge syllabus, server, ui and content into web/1031-keycards.\n2. Run all suites and next build, then a visual pass.\n3. Wave 2: question-to-card links per pilot chapter (agents query the Supabase MCP); re-tag pass for retired and split chapters; Biology and Political Science once their PDFs arrive.\n4. Production: syllabus v2 and key_cards migrations (dry-run, then the owner's standing DB authority), KEY_CARDS_ENABLED after the owner sees the screens.\n5. App v17 after an emulator walk.",
+  "blockers": [
+    "Biology (lebo101-113) and Political Science (leps1xx/2xx) NCERT PDFs are missing; ncert.nic.in resets plain curl, and a user-agent spoof was denied as bot-check circumvention. The owner must download them or approve a browser download.",
+    "Also missing: lebs204 (Consumer Protection), leec101, leec206"
+  ],
+  "evidence": [
+    "Production read-only counts 31 Oct: 8,549 live questions; 97 of 221 core chapters have fewer than 20 live questions; 12 active students in 30 days",
+    "verify.json in docs/brain/intel-1031",
+    "ledger tests: budgetContinuation 11/11, questionFactory 65/65"
+  ],
+  "touched_files": [
+    "mockmob-next docs/brain/INTELLIGENCE-LAYER-PLAN-2026-10-31.md",
+    "mockmob-next docs/brain/intel-1031/*",
+    "mockmob-next docs/brain/OWNER-MASTER-LEDGER.md",
+    "wt-1031-keycards-web scripts/pipeline/lib/budgetLedger.mjs, AGENTS.md, docs/brain/COST-POLICY.md, two pipeline tests",
+    "ncert-books/pdf (39 PDFs, local, not in git)"
+  ],
+  "verification": "Ledger tests pass. Wave 1 not yet finished. Nothing deployed and no production writes.",
+  "cost_and_pending_requests": "Subscription only, no API spend. 5-hour window at 20% before wave 1.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,23 @@
+{
+  "batch": "english__set3fix",
+  "subject": "english",
+  "date": "2026-10-14",
+  "reviewer_model": "claude-haiku-5-5",
+  "method": "Expert pass per AUTHORED-QUESTIONS-WAVE1-2026-10-14.md step 5. Checked the key, the stem cue, option balance, quoted phrases in the explanation against the passage, passage length (277 words, within 220-300), and whether each distractor is clearly wrong. Only accepted=true items were judged (wave2-acceptance-2026-10-14.json).",
+  "counts": {
+    "accepted_in_batch": 1,
+    "ready": 1,
+    "repaired": 0,
+    "practice": 0,
+    "reject": 0
+  },
+  "verdicts": [
+    {
+      "id": "0c88b567-b3c7-4e1d-b3ea-3af167f40eac",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Key B is the only option that gives both the appreciation (the messages have conquered distance and no sensible person would give them up) and the regret (something has been quietly lost in the bargain). A drops the praise, D drops the regret, and C is contradicted by the passage's tone. Options are balanced in length (75, 84, 85, 88 characters). The two explanation quotes match the passage text exactly. The passage is 277 words, unseen, and of CUET tone-and-attitude difficulty. Caveat for the parent: the answer is partly guessable by elimination (the key is the only 'both sides' option), which is common in this item type and acceptable at medium difficulty.",
+      "repair": null
+    }
+  ]
+}

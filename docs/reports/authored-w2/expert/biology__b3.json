@@ -1,0 +1,31 @@
+{
+  "batch": "biology__b3",
+  "subject": "biology",
+  "pass": "wave2 expert pass (Haiku 5.5 CUET expert review, same procedure as wave 1 step 5)",
+  "date": "2026-10-14",
+  "scope": "accepted=true questions in wave2-acceptance-2026-10-14.json for biology__b3 (20 of 20). All 20 were accepted.",
+  "source_file": "tmp/authored-w2/biology/biology__b3.json",
+  "counts": {"ready": 16, "repaired": 4, "practice": 0, "reject": 0},
+  "verdicts": [
+    {"id": "94f34183-1aaf-4320-b4e2-a1441bdae882", "verdict": "ready", "why": "Key D is the only correct statement: restriction enzymes recognise palindromic sites and cut within them. A (random cuts), B (eukaryotic origin) and C (ligase's job) are clearly wrong."},
+    {"id": "549c9514-8150-4877-8d55-a9dada6465ba", "verdict": "ready", "why": "BamHI lies inside the tet gene of pBR322, so insertion inactivates tetracycline resistance and leaves ampicillin resistance intact. Key C follows directly."},
+    {"id": "aa6df757-ab12-4163-8708-d1c4951d26d7", "verdict": "ready", "why": "Two cuts open a circular molecule into two fragments regardless of size. Distractors 3 (linear count), 4 (strand count) and 1 are each explained."},
+    {"id": "2886c110-f067-4b1c-b08d-c106f8bc63ab", "verdict": "ready", "why": "Matching is unambiguous: restriction endonuclease-III, ligase-I, Taq-II, lysozyme-IV. Key B is the only option with all four pairs correct."},
+    {"id": "32ef64af-b81c-45e7-99e2-0be2ae7bcbcb", "verdict": "ready", "why": "Isolation, then ligation into vector, transformation and selection is the standard cloning order. Only key C preserves it."},
+    {"id": "234b88ee-c820-4a1a-ae2f-87ae4f382003", "verdict": "repaired", "why": "Correct key D was markedly longer and more detailed than the three distractors, which is a length cue. Repair: shortened D to 'The alkaline midgut dissolves the crystals and gut proteases cleave the protoxin' (same meaning, key unchanged). Protoxin activation in the alkaline midgut is the NCERT point."},
+    {"id": "fdb74c4a-b4a0-43c3-8d43-b4bc4912788a", "verdict": "repaired", "why": "Key A was the longest option (19 words against 15 to 17). Repair: removed 'own' from A so its length is closer to the others. Key A (siRNA-mediated silencing of the nematode's own genes after dsRNA uptake) is unchanged and still uniquely correct."},
+    {"id": "996138c8-cf93-4929-8e1e-701248bd2274", "verdict": "ready", "why": "Golden rice (beta-carotene), Flavr Savr (delayed ripening), Rosie (human alpha-lactalbumin milk) and Bt cotton (Cry protein) each map to exactly one List II item. Key B is the only correct combination."},
+    {"id": "a54d6b59-dc2d-4b86-9bcb-d05bf77d7f1d", "verdict": "ready", "why": "Ex vivo ADA therapy runs isolate, culture, transduce with retroviral vector, then infuse. Only key B gives that order."},
+    {"id": "496e0c54-8187-4126-9a7e-b76be9ef66e1", "verdict": "ready", "why": "A (insulin chains combined) and C (ex vivo gene therapy) are true. B (Cry protoxins) and D (Golden rice is beta-carotene, not iron) are false. Key C is the only option matching exactly A and C."},
+    {"id": "1ce9f2a4-74b3-4486-b47e-fefded601961", "verdict": "ready", "why": "Gause's Paramecium competition experiment with a shared limited food supply is the classic competitive exclusion case. The other three options are unrelated rules."},
+    {"id": "b4a09c0e-f636-4717-b187-b5aba191f03a", "verdict": "repaired", "why": "Key D was the longest option, and the 'lion and a deer' distractor was very short. Repair: C changed to 'A lion and the deer it hunts' and D shortened to 'A lichen fungus and the alga in its thallus'. Lichen remains the only mutualism pair and key D is unchanged."},
+    {"id": "f1e3b5d2-8c81-481e-a2c5-df9ea70e2d83", "verdict": "repaired", "why": "The explanation accounted for 100, 120 and the correct 80 but not 20, which is what results from using N/K in place of (1 - N/K). Repair: added that explanation. The key 80 is verified: 0.5 x 200 x 0.8."},
+    {"id": "55087228-c5f4-4a0b-ba5b-1f10882d6432", "verdict": "ready", "why": "Exponential per capita rate is constant (A true). Logistic per capita rate falls with N (B false). dN/dt is zero at K (C true). Growth rate peaks at K/2, not K (D false). Key C is correct."},
+    {"id": "72cd38ff-19a4-4e61-a284-03b2649744be", "verdict": "ready", "why": "NPP = GPP minus producer respiration gives 800 - 300 = 500. The distractors 300, 800 and 1100 each reflect a specific wrong operation and are explained."},
+    {"id": "92aa818c-6734-4557-89a1-3e698b742171", "verdict": "ready", "why": "Ten percent transfer applied three times from 10,000 kJ gives 10 kJ at the tertiary level. The distractors 100, 1000 and 1 correspond to stopping early or adding one transfer too many."},
+    {"id": "38274b9e-5110-4106-b96c-6cb9930cf75a", "verdict": "ready", "why": "Xerarch succession on bare rock runs lichen, moss, herb, shrub, which is the NCERT order. Key C is the only option with this order."},
+    {"id": "6940674a-cac3-4d4d-a75f-55ef2de06788", "verdict": "ready", "why": "The evil quartet is habitat loss, overexploitation, alien species and co-extinction. Sacred groves are a conservation measure, so B is the correct NOT option."},
+    {"id": "e9b1c5c4-0a96-47f5-895c-992128492fe6", "verdict": "ready", "why": "Seed bank is the only ex situ option. Biosphere reserve, national park and wildlife sanctuary are all in situ. The four options are balanced in length."},
+    {"id": "7a55c471-fbca-4b97-9b05-83d8a240d319", "verdict": "ready", "why": "Water hyacinth forms floating mats (III), Lantana is an invasive shrub (IV), Parthenium causes allergy and dermatitis (II), and the African catfish threatens native fish (I). Key D is the only correct set."}
+  ]
+}

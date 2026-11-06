@@ -1,0 +1,101 @@
+{
+  "batch": "geography__b4",
+  "subject": "geography",
+  "stage": "wave2-expert-pass",
+  "date": "2026-10-14",
+  "reviewed": 16,
+  "not_reviewed_not_accepted": [
+    "f6785e5a-9a6d-427a-abc7-cd1fae2fb5b0",
+    "1a357441-012b-4f3d-9f91-98911fc8ee79",
+    "b72da40f-34ff-4a37-886f-755d4a255a18",
+    "c35c7b15-f76c-431c-836b-726191ff4737"
+  ],
+  "verdicts": [
+    {
+      "id": "0933e59e-79fe-434d-bfc0-6cb4eabc3dac",
+      "verdict": "ready",
+      "why": "Key A (speed) is the only defensible answer; distractors B, C and D are clearly false for air freight. Stem and explanation are sound."
+    },
+    {
+      "id": "86fa69db-a3ae-4c63-bf05-296eb028c420",
+      "verdict": "repaired",
+      "why": "Matching is correct (A-II, B-III, C-IV, D-I) and the other options are wrong; the label was hard but both judges rated it medium.",
+      "repair": "Changed difficulty_label from hard to medium. Key unchanged."
+    },
+    {
+      "id": "5abfe535-4bcd-4f97-a362-f478075ecd10",
+      "verdict": "ready",
+      "why": "Statements A and C are true, B and D are false; key D (A and C only) is unique."
+    },
+    {
+      "id": "0457ce26-b351-4e93-ad4d-61fbf40dc66c",
+      "verdict": "ready",
+      "why": "Chronology 1950 (B), 1951 (D), 1956 (C), 2015 (A) is correct and only option C matches it."
+    },
+    {
+      "id": "dac8b08f-9e49-42c9-b3ba-794274425e94",
+      "verdict": "ready",
+      "why": "Mega city is the standard term for over 10 million; the distractors are standard but distinct terms."
+    },
+    {
+      "id": "92993213-94db-42fb-a275-0f58404e0ef1",
+      "verdict": "ready",
+      "why": "Statements A, C and D are true and B is false; key A is unique."
+    },
+    {
+      "id": "8c3a70dc-ec40-4a53-9c71-eec4dba19e09",
+      "verdict": "ready",
+      "why": "62 minus 79 gives a US$ 17 billion deficit; distractors cover the sign and total-trade traps."
+    },
+    {
+      "id": "51db2fdf-48fb-4653-9369-e8b891a12f18",
+      "verdict": "repaired",
+      "why": "CFCs are the correct ozone-depleting group. The key was the longest option (26 chars) against 7 to 15 chars for the other options, which is a length cue. Rewrote the other options to 25-33 chars.",
+      "repair": "Rewrote options A, C and D to 25-33 chars so the key is not the only long option. Key B unchanged."
+    },
+    {
+      "id": "f3b33c2c-c926-45bf-bcfa-11697113066c",
+      "verdict": "ready",
+      "why": "Panama (II), Suez (III), Kiel (I) and Malacca (IV) are correctly matched; key D is the only option set that matches."
+    },
+    {
+      "id": "7ca304d9-3b20-41d1-a8fa-53b62e046556",
+      "verdict": "ready",
+      "why": "Clustered (II), linear (I), dispersed (IV) and hamleted (III) are correct; key A is unique."
+    },
+    {
+      "id": "c2a88140-3a27-4266-8266-f57e7e1345e7",
+      "verdict": "repaired",
+      "why": "Brundtland definition is correct, but key B was the only long option (109 chars against 63 to 67 for the others), which is a length cue.",
+      "repair": "Lengthened options A, C and D to about 105-117 chars. Key B unchanged."
+    },
+    {
+      "id": "bcfc7ea5-b87e-4e75-b267-5ab7587e6f63",
+      "verdict": "ready",
+      "why": "Statements A, B and D are true and C is false; key B is unique."
+    },
+    {
+      "id": "e4a0e47c-96a8-49ec-9a9c-e9c849e698b9",
+      "verdict": "repaired",
+      "why": "Urban sprawl is the correct term and the distractors are distinct; both judges rated it easy, not medium.",
+      "repair": "Changed difficulty_label from medium to easy. Key unchanged."
+    },
+    {
+      "id": "8fa17c21-03d2-4d1f-aa65-7e1d619c5380",
+      "verdict": "repaired",
+      "why": "Calculation is correct (GCA 150, intensity 125 percent) and the 25 percent trap is explained; the label was hard but both judges rated it medium.",
+      "repair": "Changed difficulty_label from hard to medium. Key unchanged."
+    },
+    {
+      "id": "1445658c-c847-43d9-a6f3-474f23ee0894",
+      "verdict": "ready",
+      "why": "Montreal 1987 (B), Rio 1992 (D), Kyoto 1997 (A), Paris 2015 (C) is the only option matching the chronology."
+    },
+    {
+      "id": "d437d53e-569f-4309-973e-b170d69d5f02",
+      "verdict": "repaired",
+      "why": "Agenda 21 definition is correct, but key D was far longer than the rest (86 chars against 39 to 51 for the others), which is a length cue.",
+      "repair": "Lengthened options A, B and C to about 89-101 chars. Key D unchanged."
+    }
+  ]
+}

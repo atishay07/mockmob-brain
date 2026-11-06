@@ -1,0 +1,24 @@
+{
+  "id": "20261015T041116.170372Z-c6210ffe",
+  "observed_at": "2026-10-15T04:11:16.170372+00:00",
+  "agent": "claude-opus-5.5 subagent (web IA designer, workflow under session 604ced81)",
+  "task": "Read-only design: website structure with app parity (nav Today/Practice/Start/Review/You, route map, first-run, landing, naming, Repair v3 + SWOT placement, build packets P0-P9 + app AB-N, preview plan, risks)",
+  "status": "complete",
+  "done": "Returned the IA design markdown to the orchestrating workflow (not saved as a repo file). Key findings: the app's ActionRouter (wt-phase2 flutter_app/lib/core/router/action_router.dart _mapToNative) already maps every web path to an app place: /analytics -> /review/insights, /saved -> /review/saved, /explore -> /practice/stream, /mentor -> insights or /ask, /recovery and /progress -> /review, /admission-compass and /cuet-cutoff-calculator -> /tools/compass, /profile -> /you, and /dashboard with no mode -> Today. The web never calls /api/me/sample-import, /api/me/goal or /api/me/bests, although all three exist (built for the app). The web uses Gabarito, while the app uses Bricolage (D5 accepted Bricolage). The web has no obj-*.webp subject art. Credits: the practice credit default is 100 (migration 0011), and vote and daily-login grants exist in 0025. These must be verified live before any copy states numbers. The newer owner direction (15 Oct, app parity) reverses D2 and D3 (Practice first). This is flagged for an owner OK. The unreleased redesign is on branch feat/web-redesign-p2 (86 commits, same repo): mine its shell files and do not merge it whole.",
+  "next": "Orchestrator: get the owner's OK on decisions N1-N8 in the design (Today first, retiring the PrepOS/Radar/Compass/Score Recovery names, the SWOT label, Benchmarks retired, credits wording). Then run P0 (navigation.js plus glossary plus credit facts plus redirects) before the parallel packets P1-P8. Preview through /preview/arena fixtures at 1440, 1366x650 and 375 in both themes. No sign-in or demo email is needed.",
+  "blockers": [],
+  "evidence": [
+    "wt-web-refine/src/lib/arenaNavigation.js (14 destinations)",
+    "wt-phase2/flutter_app/lib/core/widgets/bar/bar_tabs.dart (Today, Practice, Start, Review, You)",
+    "wt-phase2/flutter_app/lib/core/router/action_router.dart:162-206 (web path -> native map)",
+    "wt-phase2/flutter_app/android/app/src/main/AndroidManifest.xml:52-71 (App Links prefixes)",
+    "wt-web-refine/src/app/api/me/{sample-import,goal,bests} unused by web UI",
+    "wt-web-refine/src/lib/auth-redirect.js:77 (post sign-in -> /dashboard)",
+    "wt-web-refine/src/app/layout.js (Gabarito)",
+    "mockmob-next/docs/brain/WEB-REDESIGN-PLAN-2026-10-14.md section 12 (D1-D19)"
+  ],
+  "touched_files": [],
+  "verification": "Read-only. No code changed, no browser opened, no database queried.",
+  "cost_and_pending_requests": "none",
+  "confidence": "agent-reported; verify evidence before acting"
+}

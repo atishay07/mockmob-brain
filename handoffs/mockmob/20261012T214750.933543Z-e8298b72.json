@@ -1,0 +1,23 @@
+{
+  "id": "20261012T214750.933543Z-e8298b72",
+  "observed_at": "2026-10-12T21:47:50.933543+00:00",
+  "agent": "claude-code opus-5.5 (workflow subagent, design director)",
+  "task": "Three brand+app design directions for the MockMob Flutter redesign after owner rejected current UI (13 Oct 2026)",
+  "status": "complete",
+  "done": "Wrote docs/brain/design-2026-10-13/directions.md (901 lines): shared brief (integrity rules, removals, overrides table, data-driven 14-step onboarding deck, account after plan with Google first); Direction A \"Bubble\" (OMR bubble toy, Unbounded/Figtree, vinyl props, 4-tab bubble dock), B \"Afterhours\" (cinematic night room, one light per screen, lit edge + fold, Bricolage Grotesque/Hanken, split glass dock 3 tabs + Start morph, pass onboarding, fold result reveal), C \"Margin Notes\" (senior's notebook, marker circle, Instrument Serif/Gabarito/Caveat, acetate index tabs, chat onboarding). Each has brand, palette hexes, type, Mobi, materials, signature, nav, 14 onboarding screens with copy, Today/result/celebrations, motion+haptics tables, gpt-image asset prompts, 4 concept render prompts, M06 performance plan. Recommendation: B base + A bubble progress grammar/dock spring + C voice/earned tokens, HIGH two-layer rule.",
+  "next": "Owner picks direction and answers F.1 decisions (direction, Night default, nav 3+Start vs 4, Mobi restyle/speech, Bricolage type, brand scope, onboarding length, celebrations, renders, video). Then render concept images with gpt-image (owner tools), reconnect M06 and run benchmarks B1/B2/B6/B7, then write the replacement design spec.",
+  "blockers": [
+    "M06 offline in adb at last handover; benchmarks need it",
+    "Owner decisions F.1 pending"
+  ],
+  "evidence": [
+    "Read in full: owner-materials.md, ref-high.md, ref-revolut.md, ref-fampay.md, onboarding-research.md, flutter-feasibility.md, AI OS ui-ux-standards.md; DESIGN.md tokens; APP-DESIGN-SPEC A1/5.6 sealed sheet",
+    "Viewed M06 shots 01, 03, 12, 20, 28, 31"
+  ],
+  "touched_files": [
+    "mockmob-next/docs/brain/design-2026-10-13/directions.md"
+  ],
+  "verification": "Document-only; no code changed, nothing built, no images generated, no paid calls. Font tnum for Unbounded/Bricolage not verified (fallback Gabarito). All frame budgets are targets.",
+  "cost_and_pending_requests": "none",
+  "confidence": "agent-reported; verify evidence before acting"
+}

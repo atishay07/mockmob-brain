@@ -1,0 +1,22 @@
+{
+  "id": "20261018T212850.371696Z-e4bd2640",
+  "observed_at": "2026-10-18T21:28:50.371696+00:00",
+  "agent": "claude-opus-5.5 (session 25ef3d95, main)",
+  "task": "19 Oct, about 3:05 am IST: owner-requested safe stop at 90% usage; PLAN-1019 Wave A/B/C in progress, handoff",
+  "status": "paused",
+  "done": "The owner's picks are recorded: nav A, Ask Mobi B, hero C judged live (D114). D115: push release 11 when the verifier passes, with the hero OFF behind its flag. C-dec 1: the first full mock per subject is free. A4a web polish is DONE (25821e85). A4b has all 4 items in code (0b395873). A5 range is mostly done (1d99057c). C1, C2, C3 and W5 are WIP commits. A1, A2a, A2b and A3 are STOP POINTs. ACCEPTANCE-1019.md is written. The G16 baseline is partial, with 23 NEW findings. All agents are stopped; nothing is merged into wt-v15-3 or wt-rel11.",
+  "next": "Paste docs/brain/NEXT-PROMPT-1019.md. Merge A4a first, relaunch the unfinished owners from briefs-1019 with RESUMED lines (NOW.md section 4b gives where each stopped), merge early, run the copy pass, do the walks per ACCEPTANCE-1019.md, then one Opus verifier per platform. Push release 11 (hero off), build the v15.3 APK and install it when the owner connects. Then ONE message.",
+  "blockers": [
+    "Staging OTP sign-in is broken (RESEND_API_KEY blank on staging): walkers need a proxy or a key",
+    "Owner: G26 screen, G3 on his phone, the hero resting line, Razorpay, Play Console, PERSISTENT_LIMITS_ENABLED, W-044"
+  ],
+  "evidence": [
+    "mockmob-next NOW.md (sections 4 and 4b), NEXT-PROMPT-1019.md, OWNER-FEEDBACK-2026-10-19.md D111-D115, ACCEPTANCE-1019.md",
+    "worktree heads listed in NOW.md section 4b",
+    "tmp/walk-1019/BASELINE-FINDINGS.md"
+  ],
+  "touched_files": [],
+  "verification": "Heads were checked with git after the STOP POINT commits at about 3:05 am. A4a's suites passed per its report (lint, app 756, today 120, recovery 604, build).",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

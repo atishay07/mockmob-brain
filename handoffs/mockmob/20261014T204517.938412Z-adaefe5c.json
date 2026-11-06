@@ -1,0 +1,19 @@
+{
+  "id": "20261014T204517.938412Z-adaefe5c",
+  "observed_at": "2026-10-14T20:45:17.938412+00:00",
+  "agent": "claude-opus-5.5 (session cc0bf1af, account support@mockmob.in)",
+  "task": "15 Oct 02:15 IST: session wind-down at 85% usage; alive-and-refined build and round 3 still running",
+  "status": "active",
+  "done": "**Delivered:**\n- APKs v1 and v2 (zips) and the v2 recording.\n- Subject art: Accountancy and Computer Science regenerated at the old quality and in the app.\n\n**Live:** repair fixes (main e1773d6a), OPENAI key redeploy, wave 2, Haiku price row.\n\n**Web:** branch web/alive-1015 (wt-web-refine) has 11 commits, not pushed: Repair v2 on web, MobiReact kit, runner and result, review, Saved, Progress, Learn, nav motion, Compass.\n\n**App:** 8 alive builders, plus round 3 cold-start and goldens fixers, are running in wt-phase2.\n\n**Docs:** handover mockmob-next/docs/brain/HANDOVER-2026-10-15-NIGHT.md and next-session prompt docs/brain/NEXT-SESSION-PROMPT-2026-10-15.md (b5c8a149).",
+  "next": "Follow docs/brain/NEXT-SESSION-PROMPT-2026-10-15.md.\n- Finish or resume wf_ede58103-677 and wf_1fb2ccb3-a45.\n- App: commit, check, regenerate goldens, merge, build APK v3, record.\n- Web: run the suites, push web/alive-1015 to main, verify.\n- Verify a Luna repair in runtime_ai_requests.\n- Ask the owner about the duplicate Vercel projects and MOCK_AI.",
+  "blockers": [],
+  "evidence": [
+    "mockmob-next b5c8a149",
+    "wt-web-refine web/alive-1015 41f6d53e",
+    "tmp/subject-art-v2/final-2.png"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

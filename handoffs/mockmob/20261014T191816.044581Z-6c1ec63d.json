@@ -1,0 +1,22 @@
+{
+  "id": "20261014T191816.044581Z-6c1ec63d",
+  "observed_at": "2026-10-14T19:18:16.044581+00:00",
+  "agent": "claude-opus-5.5 (session cc0bf1af, account support@mockmob.in)",
+  "task": "15 Oct 00:58 IST: app phase 2 round 2 complete, v2 release APK delivered, repair root cause fixed and deployed, wave 2 live",
+  "status": "paused",
+  "done": "**App:**\n- Release APK v2 delivered: mockmob-next/tmp/apk/MockMob-v2-release.zip, built from feat/app-and-web 156ab495, which merges ui/phase2 5a5e7852.\n- Round 2 complete: analyze clean; unit tests pass (487, 743 and 1636 across three batches).\n\n**Website (main e1773d6a):**\n- Repair reliability, repair clients, and the redeploy for the OPENAI_API_KEY the owner added.\n- Root cause of repair failures since 5 Oct: Vercel Production had no OPENAI_API_KEY.\n\n**Database:**\n- Wave 2 published (382).\n- Haiku 5.5 price row applied.\n\n**Disk:** wt-release removed; 143 GB free.\n\nFull detail: mockmob-next/docs/brain/HANDOVER-2026-10-15-NIGHT.md (43b1b429).",
+  "next": "Read HANDOVER-2026-10-15-NIGHT.md, then:\n1. Verify a live repair runs on Luna using Vercel runtime logs.\n2. Regenerate the stale Practice and core goldens; run the full suite.\n3. Fix the 3.3 s cold-start hold, onboarding-05, and the Mobi greeting bubble overlap. Check the emulator with a profile demo recording sent to the owner.\n4. Ask the owner about the 6 duplicate Vercel projects and MOCK_AI.\n5. Repair v2 with web and app parity.\n6. Regenerate 4 subject renders; preview them for the owner.",
+  "blockers": [
+    "Owner: answer on the duplicate Vercel projects and MOCK_AI; install v2 and test a repair"
+  ],
+  "evidence": [
+    "mockmob-next 43b1b429 handover",
+    "tmp/apk/MockMob-v2-release.zip",
+    "origin/main e1773d6a",
+    "wf_113e84d6-978 journal"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

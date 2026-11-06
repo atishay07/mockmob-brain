@@ -1,0 +1,740 @@
+[
+ {
+  "id": "d10-landing-top-1440-day",
+  "sameSize": true,
+  "beforeH": 900,
+  "afterH": 900,
+  "changedPct": 2.7,
+  "voltBeforePct": 1.08,
+  "voltAfterPct": 1.11
+ },
+ {
+  "id": "d10-landing-top-1440-night",
+  "sameSize": true,
+  "beforeH": 900,
+  "afterH": 900,
+  "changedPct": 2.6,
+  "voltBeforePct": 1.15,
+  "voltAfterPct": 1.16
+ },
+ {
+  "id": "d10-landing-top-390-day",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 0.9,
+  "voltBeforePct": 2.7,
+  "voltAfterPct": 2.8
+ },
+ {
+  "id": "d10-landing-top-390-night",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 1.8,
+  "voltBeforePct": 2.7,
+  "voltAfterPct": 2.71
+ },
+ {
+  "id": "d10-switch-app-1440-day",
+  "sameSize": true,
+  "beforeH": 132,
+  "afterH": 132,
+  "changedPct": 33.6,
+  "voltBeforePct": 0,
+  "voltAfterPct": 12.56
+ },
+ {
+  "id": "d10-switch-app-1440-night",
+  "sameSize": true,
+  "beforeH": 132,
+  "afterH": 132,
+  "changedPct": 29,
+  "voltBeforePct": 0,
+  "voltAfterPct": 0
+ },
+ {
+  "id": "d10-switch-landing-1440-day",
+  "sameSize": true,
+  "beforeH": 132,
+  "afterH": 132,
+  "changedPct": 33.6,
+  "voltBeforePct": 0,
+  "voltAfterPct": 12.57
+ },
+ {
+  "id": "d10-switch-landing-1440-night",
+  "sameSize": true,
+  "beforeH": 132,
+  "afterH": 132,
+  "changedPct": 29,
+  "voltBeforePct": 0,
+  "voltAfterPct": 0
+ },
+ {
+  "id": "d11-help-page-1440-day",
+  "sameSize": true,
+  "beforeH": 900,
+  "afterH": 900,
+  "changedPct": 2.2,
+  "voltBeforePct": 0.7,
+  "voltAfterPct": 0.72
+ },
+ {
+  "id": "d11-help-page-1440-night",
+  "sameSize": true,
+  "beforeH": 900,
+  "afterH": 900,
+  "changedPct": 3,
+  "voltBeforePct": 0.74,
+  "voltAfterPct": 0.74
+ },
+ {
+  "id": "d11-help-page-390-day",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 1.2,
+  "voltBeforePct": 1.03,
+  "voltAfterPct": 1.03
+ },
+ {
+  "id": "d11-help-page-390-night",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 1.6,
+  "voltBeforePct": 1.04,
+  "voltAfterPct": 1.04
+ },
+ {
+  "id": "d11-more-sheet-390-day",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 14.3,
+  "voltBeforePct": 0.96,
+  "voltAfterPct": 0.96
+ },
+ {
+  "id": "d11-more-sheet-390-night",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 7,
+  "voltBeforePct": 0.97,
+  "voltAfterPct": 0.97
+ },
+ {
+  "id": "d11-sidebar-1440-day",
+  "sameSize": true,
+  "beforeH": 900,
+  "afterH": 900,
+  "changedPct": 11.6,
+  "voltBeforePct": 0.07,
+  "voltAfterPct": 0.07
+ },
+ {
+  "id": "d11-sidebar-1440-night",
+  "sameSize": true,
+  "beforeH": 900,
+  "afterH": 900,
+  "changedPct": 13,
+  "voltBeforePct": 0.12,
+  "voltAfterPct": 0.11
+ },
+ {
+  "id": "d13-nav-practice-390-day",
+  "sameSize": true,
+  "beforeH": 300,
+  "afterH": 300,
+  "changedPct": 9.3,
+  "voltBeforePct": 4.84,
+  "voltAfterPct": 4.84
+ },
+ {
+  "id": "d13-nav-practice-390-night",
+  "sameSize": true,
+  "beforeH": 300,
+  "afterH": 300,
+  "changedPct": 23,
+  "voltBeforePct": 5.71,
+  "voltAfterPct": 4.94
+ },
+ {
+  "id": "d13-nav-practice-screen-390-day",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 2.3,
+  "voltBeforePct": 1.03,
+  "voltAfterPct": 1.03
+ },
+ {
+  "id": "d13-nav-practice-screen-390-night",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 4.6,
+  "voltBeforePct": 1.22,
+  "voltAfterPct": 1.12
+ },
+ {
+  "id": "d13-nav-today-390-day",
+  "sameSize": true,
+  "beforeH": 300,
+  "afterH": 300,
+  "changedPct": 2,
+  "voltBeforePct": 4.84,
+  "voltAfterPct": 4.84
+ },
+ {
+  "id": "d13-nav-today-390-night",
+  "sameSize": true,
+  "beforeH": 300,
+  "afterH": 300,
+  "changedPct": 2.2,
+  "voltBeforePct": 4.85,
+  "voltAfterPct": 4.85
+ },
+ {
+  "id": "d15-do-this-next-1440-day",
+  "sameSize": true,
+  "beforeH": 177,
+  "afterH": 177,
+  "changedPct": 0,
+  "voltBeforePct": 5.62,
+  "voltAfterPct": 5.62
+ },
+ {
+  "id": "d15-do-this-next-1440-night",
+  "sameSize": true,
+  "beforeH": 177,
+  "afterH": 177,
+  "changedPct": 0,
+  "voltBeforePct": 5.91,
+  "voltAfterPct": 5.91
+ },
+ {
+  "id": "d15-do-this-next-390-day",
+  "sameSize": true,
+  "beforeH": 330,
+  "afterH": 330,
+  "changedPct": 0,
+  "voltBeforePct": 12.73,
+  "voltAfterPct": 12.73
+ },
+ {
+  "id": "d15-do-this-next-390-night",
+  "sameSize": true,
+  "beforeH": 330,
+  "afterH": 330,
+  "changedPct": 0,
+  "voltBeforePct": 13.29,
+  "voltAfterPct": 13.29
+ },
+ {
+  "id": "d15-next-and-mistakes-1440-day",
+  "sameSize": false,
+  "beforeH": 472,
+  "afterH": 547,
+  "changedPct": 11.2,
+  "voltBeforePct": 0,
+  "voltAfterPct": 0
+ },
+ {
+  "id": "d15-next-and-mistakes-1440-night",
+  "sameSize": false,
+  "beforeH": 472,
+  "afterH": 547,
+  "changedPct": 12.2,
+  "voltBeforePct": 0.03,
+  "voltAfterPct": 0.02
+ },
+ {
+  "id": "d15-next-and-mistakes-390-day",
+  "sameSize": false,
+  "beforeH": 614,
+  "afterH": 685,
+  "changedPct": 4.8,
+  "voltBeforePct": 0,
+  "voltAfterPct": 0.08
+ },
+ {
+  "id": "d15-next-and-mistakes-390-night",
+  "sameSize": false,
+  "beforeH": 614,
+  "afterH": 685,
+  "changedPct": 3.7,
+  "voltBeforePct": 0.07,
+  "voltAfterPct": 0.13
+ },
+ {
+  "id": "d17-bar-top-1440-day",
+  "sameSize": true,
+  "beforeH": 900,
+  "afterH": 900,
+  "changedPct": 4.3,
+  "voltBeforePct": 0.81,
+  "voltAfterPct": 0.83
+ },
+ {
+  "id": "d17-bar-top-1440-night",
+  "sameSize": true,
+  "beforeH": 900,
+  "afterH": 900,
+  "changedPct": 4.4,
+  "voltBeforePct": 0.85,
+  "voltAfterPct": 0.85
+ },
+ {
+  "id": "d17-bar-top-390-day",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 1.7,
+  "voltBeforePct": 5.42,
+  "voltAfterPct": 5.42
+ },
+ {
+  "id": "d17-bar-top-390-night",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 1.5,
+  "voltBeforePct": 5.62,
+  "voltAfterPct": 5.62
+ },
+ {
+  "id": "d17-replay-open-1440-day",
+  "sameSize": false,
+  "beforeH": 514,
+  "afterH": 544,
+  "changedPct": 26.6,
+  "voltBeforePct": 0,
+  "voltAfterPct": 0
+ },
+ {
+  "id": "d17-replay-open-1440-night",
+  "sameSize": false,
+  "beforeH": 514,
+  "afterH": 544,
+  "changedPct": 21.3,
+  "voltBeforePct": 0.77,
+  "voltAfterPct": 0.77
+ },
+ {
+  "id": "d17-replay-open-390-day",
+  "sameSize": false,
+  "beforeH": 595,
+  "afterH": 643,
+  "changedPct": 28.2,
+  "voltBeforePct": 0,
+  "voltAfterPct": 0.01
+ },
+ {
+  "id": "d17-replay-open-390-night",
+  "sameSize": false,
+  "beforeH": 595,
+  "afterH": 643,
+  "changedPct": 22.4,
+  "voltBeforePct": 0.68,
+  "voltAfterPct": 0.68
+ },
+ {
+  "id": "d17-replay-playing-1440-day",
+  "sameSize": false,
+  "beforeH": 514,
+  "afterH": 544,
+  "changedPct": 24.4,
+  "voltBeforePct": 0,
+  "voltAfterPct": 0
+ },
+ {
+  "id": "d17-replay-playing-1440-night",
+  "sameSize": false,
+  "beforeH": 514,
+  "afterH": 544,
+  "changedPct": 19.7,
+  "voltBeforePct": 0.32,
+  "voltAfterPct": 0.46
+ },
+ {
+  "id": "d17-replay-playing-390-day",
+  "sameSize": false,
+  "beforeH": 595,
+  "afterH": 695,
+  "changedPct": 34.1,
+  "voltBeforePct": 0,
+  "voltAfterPct": 0
+ },
+ {
+  "id": "d17-replay-playing-390-night",
+  "sameSize": false,
+  "beforeH": 595,
+  "afterH": 695,
+  "changedPct": 23,
+  "voltBeforePct": 0.49,
+  "voltAfterPct": 0.58
+ },
+ {
+  "id": "d5-practice-1440-day",
+  "sameSize": true,
+  "beforeH": 900,
+  "afterH": 900,
+  "changedPct": 6.1,
+  "voltBeforePct": 1.19,
+  "voltAfterPct": 1.21
+ },
+ {
+  "id": "d5-practice-1440-night",
+  "sameSize": true,
+  "beforeH": 900,
+  "afterH": 900,
+  "changedPct": 12.4,
+  "voltBeforePct": 1.42,
+  "voltAfterPct": 1.33
+ },
+ {
+  "id": "d5-practice-390-day",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 2.3,
+  "voltBeforePct": 1.03,
+  "voltAfterPct": 1.03
+ },
+ {
+  "id": "d5-practice-390-night",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 4.6,
+  "voltBeforePct": 1.22,
+  "voltAfterPct": 1.12
+ },
+ {
+  "id": "d5-practice-full-390-day",
+  "sameSize": false,
+  "beforeH": 3430,
+  "afterH": 3605,
+  "changedPct": 18.5,
+  "voltBeforePct": 0.74,
+  "voltAfterPct": 0.74
+ },
+ {
+  "id": "d5-practice-full-390-night",
+  "sameSize": false,
+  "beforeH": 3430,
+  "afterH": 3605,
+  "changedPct": 25.1,
+  "voltBeforePct": 0.97,
+  "voltAfterPct": 1
+ },
+ {
+  "id": "d7-ask-mobi-1440-day",
+  "sameSize": true,
+  "beforeH": 900,
+  "afterH": 900,
+  "changedPct": 2,
+  "voltBeforePct": 2.69,
+  "voltAfterPct": 2.72
+ },
+ {
+  "id": "d7-ask-mobi-1440-night",
+  "sameSize": true,
+  "beforeH": 900,
+  "afterH": 900,
+  "changedPct": 6.6,
+  "voltBeforePct": 2.83,
+  "voltAfterPct": 0.07
+ },
+ {
+  "id": "d7-ask-mobi-390-day",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 0.8,
+  "voltBeforePct": 1.03,
+  "voltAfterPct": 1.03
+ },
+ {
+  "id": "d7-ask-mobi-390-night",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 0.9,
+  "voltBeforePct": 1.06,
+  "voltAfterPct": 1.06
+ },
+ {
+  "id": "d7-ask-mobi-full-1440-day",
+  "sameSize": true,
+  "beforeH": 1188,
+  "afterH": 1188,
+  "changedPct": 0.3,
+  "voltBeforePct": 2.03,
+  "voltAfterPct": 2.05
+ },
+ {
+  "id": "d7-ask-mobi-full-1440-night",
+  "sameSize": false,
+  "beforeH": 1188,
+  "afterH": 969,
+  "changedPct": 7.6,
+  "voltBeforePct": 2.63,
+  "voltAfterPct": 0.72
+ },
+ {
+  "id": "d7-ask-mobi-full-390-day",
+  "sameSize": true,
+  "beforeH": 1476,
+  "afterH": 1476,
+  "changedPct": 0.5,
+  "voltBeforePct": 2.87,
+  "voltAfterPct": 2.87
+ },
+ {
+  "id": "d7-ask-mobi-full-390-night",
+  "sameSize": false,
+  "beforeH": 1476,
+  "afterH": 1478,
+  "changedPct": 6.2,
+  "voltBeforePct": 3.14,
+  "voltAfterPct": 0.75
+ },
+ {
+  "id": "f15-learn-1440-day",
+  "sameSize": true,
+  "beforeH": 900,
+  "afterH": 900,
+  "changedPct": 15.9,
+  "voltBeforePct": 1.11,
+  "voltAfterPct": 2.14
+ },
+ {
+  "id": "f15-learn-1440-night",
+  "sameSize": true,
+  "beforeH": 900,
+  "afterH": 900,
+  "changedPct": 13.5,
+  "voltBeforePct": 1.2,
+  "voltAfterPct": 2.22
+ },
+ {
+  "id": "f15-learn-390-day",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 34.8,
+  "voltBeforePct": 4.87,
+  "voltAfterPct": 4.78
+ },
+ {
+  "id": "f15-learn-390-night",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 25.6,
+  "voltBeforePct": 5.08,
+  "voltAfterPct": 4.97
+ },
+ {
+  "id": "f15-review-1440-day",
+  "sameSize": true,
+  "beforeH": 900,
+  "afterH": 900,
+  "changedPct": 16.6,
+  "voltBeforePct": 0.76,
+  "voltAfterPct": 2.09
+ },
+ {
+  "id": "f15-review-1440-night",
+  "sameSize": true,
+  "beforeH": 900,
+  "afterH": 900,
+  "changedPct": 14.7,
+  "voltBeforePct": 0.93,
+  "voltAfterPct": 2.15
+ },
+ {
+  "id": "f15-review-390-day",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 25,
+  "voltBeforePct": 5.7,
+  "voltAfterPct": 5.75
+ },
+ {
+  "id": "f15-review-390-night",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 22.4,
+  "voltBeforePct": 5.93,
+  "voltAfterPct": 5.95
+ },
+ {
+  "id": "f15-revise-1440-day",
+  "sameSize": true,
+  "beforeH": 900,
+  "afterH": 900,
+  "changedPct": 7,
+  "voltBeforePct": 0.7,
+  "voltAfterPct": 0.72
+ },
+ {
+  "id": "f15-revise-1440-night",
+  "sameSize": true,
+  "beforeH": 900,
+  "afterH": 900,
+  "changedPct": 7.2,
+  "voltBeforePct": 0.74,
+  "voltAfterPct": 0.74
+ },
+ {
+  "id": "f15-revise-390-day",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 13.1,
+  "voltBeforePct": 1.03,
+  "voltAfterPct": 0.17
+ },
+ {
+  "id": "f15-revise-390-night",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 13.8,
+  "voltBeforePct": 1.03,
+  "voltAfterPct": 0.17
+ },
+ {
+  "id": "x-d15-mistakes-one-repaired-1440-day",
+  "sameSize": false,
+  "beforeH": 472,
+  "afterH": 547,
+  "changedPct": 11.4,
+  "voltBeforePct": 0,
+  "voltAfterPct": 0
+ },
+ {
+  "id": "x-d15-mistakes-one-repaired-1440-night",
+  "sameSize": false,
+  "beforeH": 472,
+  "afterH": 547,
+  "changedPct": 12.5,
+  "voltBeforePct": 0.03,
+  "voltAfterPct": 0.02
+ },
+ {
+  "id": "x-d15-mistakes-one-repaired-390-day",
+  "sameSize": false,
+  "beforeH": 656,
+  "afterH": 727,
+  "changedPct": 4.7,
+  "voltBeforePct": 0,
+  "voltAfterPct": 0.15
+ },
+ {
+  "id": "x-d15-mistakes-one-repaired-390-night",
+  "sameSize": false,
+  "beforeH": 656,
+  "afterH": 727,
+  "changedPct": 3.5,
+  "voltBeforePct": 0.05,
+  "voltAfterPct": 0.18
+ },
+ {
+  "id": "x-d17-bar-10q-1440-day",
+  "sameSize": true,
+  "beforeH": 45,
+  "afterH": 45,
+  "changedPct": 77.8,
+  "voltBeforePct": 0,
+  "voltAfterPct": 0
+ },
+ {
+  "id": "x-d17-bar-10q-1440-night",
+  "sameSize": true,
+  "beforeH": 45,
+  "afterH": 45,
+  "changedPct": 73.3,
+  "voltBeforePct": 0,
+  "voltAfterPct": 0
+ },
+ {
+  "id": "x-d17-bar-10q-390-day",
+  "sameSize": false,
+  "beforeH": 112,
+  "afterH": 114,
+  "changedPct": 56.9,
+  "voltBeforePct": 0,
+  "voltAfterPct": 0
+ },
+ {
+  "id": "x-d17-bar-10q-390-night",
+  "sameSize": false,
+  "beforeH": 112,
+  "afterH": 114,
+  "changedPct": 53.2,
+  "voltBeforePct": 0,
+  "voltAfterPct": 0
+ },
+ {
+  "id": "x-d17-bar-50q-1440-day",
+  "sameSize": true,
+  "beforeH": 145,
+  "afterH": 145,
+  "changedPct": 0,
+  "voltBeforePct": 0,
+  "voltAfterPct": 0
+ },
+ {
+  "id": "x-d17-bar-50q-1440-night",
+  "sameSize": true,
+  "beforeH": 145,
+  "afterH": 145,
+  "changedPct": 0,
+  "voltBeforePct": 0,
+  "voltAfterPct": 0
+ },
+ {
+  "id": "x-d17-bar-50q-390-day",
+  "sameSize": true,
+  "beforeH": 462,
+  "afterH": 462,
+  "changedPct": 0,
+  "voltBeforePct": 0,
+  "voltAfterPct": 0
+ },
+ {
+  "id": "x-d17-bar-50q-390-night",
+  "sameSize": true,
+  "beforeH": 462,
+  "afterH": 462,
+  "changedPct": 0,
+  "voltBeforePct": 0,
+  "voltAfterPct": 0
+ },
+ {
+  "id": "x-d5-practice-nobanner-390-day",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 10,
+  "voltBeforePct": 1.03,
+  "voltAfterPct": 1.03
+ },
+ {
+  "id": "x-d5-practice-nobanner-390-night",
+  "sameSize": true,
+  "beforeH": 844,
+  "afterH": 844,
+  "changedPct": 17,
+  "voltBeforePct": 1.29,
+  "voltAfterPct": 1.12
+ }
+]

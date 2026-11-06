@@ -1,0 +1,967 @@
+{
+ "name": "390-night",
+ "cfg": {
+  "w": 390,
+  "h": 844,
+  "dsf": 2,
+  "mobile": true,
+  "theme": "dark"
+ },
+ "errors": [],
+ "shots": [
+  "shots/390-night/00-first-screen.png"
+ ],
+ "sections": [
+  {
+   "nn": "01",
+   "key": "hero",
+   "sel": "main#main-content > section:nth-of-type(1)",
+   "nth": 1,
+   "tag": "section",
+   "id": null,
+   "cls": "lp-hero",
+   "label": null,
+   "heading": "CUET 2027. One mock. Know what to fix.",
+   "top": 61,
+   "height": 1491,
+   "story": null,
+   "sticky": [],
+   "timelines": [
+    "lp-bg__grid: scroll(root)",
+    "lp-bg__dots: scroll(root)",
+    "lp-stage__card: scroll(root)"
+   ],
+   "shots": [
+    "shots/390-night/01-hero-1.png",
+    "shots/390-night/01-hero-2.png"
+   ]
+  },
+  {
+   "nn": "02",
+   "key": "statement",
+   "sel": "main#main-content > section:nth-of-type(2)",
+   "nth": 2,
+   "tag": "section",
+   "id": null,
+   "cls": "lp-statement",
+   "label": "What MockMob does",
+   "heading": "",
+   "top": 1552,
+   "height": 1519,
+   "story": null,
+   "sticky": [
+    "mm-wrap"
+   ],
+   "timelines": [
+    "lp-statement__w: --lp-statement",
+    "subj-obj__occl: --lp-statement, --lp-statement",
+    "subj-obj__contact: --lp-statement, --lp-statement",
+    "subj-obj__float: auto, --lp-statement, --lp-statement",
+    "lp-shelf__name: --lp-statement",
+    "subj-obj__light: --lp-statement",
+    "(section): view-timeline --lp-statement"
+   ],
+   "shots": [
+    "shots/390-night/02-statement-1.png",
+    "shots/390-night/02-statement-2.png",
+    "shots/390-night/02-statement-3.png"
+   ]
+  },
+  {
+   "nn": "03",
+   "key": "inside-the-lab",
+   "sel": "main#main-content > section:nth-of-type(3)",
+   "nth": 3,
+   "tag": "section",
+   "id": "inside-the-lab",
+   "cls": "lp-sec lp-sec--cinema lp-pos-host",
+   "label": null,
+   "heading": "Every mark, traced back to a moment.",
+   "top": 3072,
+   "height": 3704,
+   "story": {
+    "pinned": "true",
+    "cls": "ss lc",
+    "steps": 4,
+    "trackTop": 3326,
+    "trackH": 3410,
+    "stageH": 844,
+    "hold": 2566,
+    "gap": 855,
+    "beatCss": "76svh",
+    "stageCs": "sticky"
+   },
+   "sticky": [
+    "ss__stage"
+   ],
+   "timelines": [
+    "ss__track: view-timeline --ss-track",
+    "ss-fill: --ss-track",
+    "subj-obj: --ss-track"
+   ],
+   "shots": [
+    "shots/390-night/03-inside-the-lab-0-head.png",
+    "shots/390-night/03-inside-the-lab-step1.png",
+    "shots/390-night/03-inside-the-lab-step2.png",
+    "shots/390-night/03-inside-the-lab-step3.png",
+    "shots/390-night/03-inside-the-lab-step4.png"
+   ],
+   "textSteps": []
+  },
+  {
+   "nn": "04",
+   "key": "your-prep",
+   "sel": "main#main-content > section:nth-of-type(4)",
+   "nth": 4,
+   "tag": "section",
+   "id": "your-prep",
+   "cls": "lp-sec lp-sec--tour lp-pos-host",
+   "label": null,
+   "heading": "What’s inside MockMob.",
+   "top": 6776,
+   "height": 5977,
+   "story": {
+    "pinned": "true",
+    "cls": "ss ft-story ss--centre",
+    "steps": 10,
+    "trackTop": 6957,
+    "trackH": 5739,
+    "stageH": 844,
+    "hold": 4895,
+    "gap": 544,
+    "beatCss": "58svh",
+    "stageCs": "sticky"
+   },
+   "sticky": [
+    "ss__stage"
+   ],
+   "timelines": [
+    "ss__track: view-timeline --ss-track",
+    "ss-fill: --ss-track"
+   ],
+   "shots": [
+    "shots/390-night/04-your-prep-0-head.png",
+    "shots/390-night/04-your-prep-step1.png",
+    "shots/390-night/04-your-prep-step2.png",
+    "shots/390-night/04-your-prep-step3.png",
+    "shots/390-night/04-your-prep-step4.png",
+    "shots/390-night/04-your-prep-step5.png",
+    "shots/390-night/04-your-prep-step6.png",
+    "shots/390-night/04-your-prep-step7.png",
+    "shots/390-night/04-your-prep-step8.png",
+    "shots/390-night/04-your-prep-step9.png",
+    "shots/390-night/04-your-prep-step10.png"
+   ],
+   "textSteps": []
+  },
+  {
+   "nn": "05",
+   "key": "score-recovery-lab",
+   "sel": "main#main-content > section:nth-of-type(5)",
+   "nth": 5,
+   "tag": "section",
+   "id": "score-recovery-lab",
+   "cls": "lp-sec lp-pos-host",
+   "label": null,
+   "heading": "Fix it once. Check it holds.",
+   "top": 12752,
+   "height": 3396,
+   "story": {
+    "pinned": "true",
+    "cls": "ss ml-story ss--centre",
+    "steps": 4,
+    "trackTop": 12928,
+    "trackH": 3207,
+    "stageH": 844,
+    "hold": 2363,
+    "gap": 788,
+    "beatCss": "70svh",
+    "stageCs": "sticky"
+   },
+   "sticky": [
+    "ss__stage"
+   ],
+   "timelines": [
+    "ss__track: view-timeline --ss-track",
+    "ss-fill: --ss-track"
+   ],
+   "shots": [
+    "shots/390-night/05-score-recovery-lab-0-head.png",
+    "shots/390-night/05-score-recovery-lab-step1.png",
+    "shots/390-night/05-score-recovery-lab-step2.png",
+    "shots/390-night/05-score-recovery-lab-step3.png",
+    "shots/390-night/05-score-recovery-lab-step4.png"
+   ],
+   "textSteps": []
+  },
+  {
+   "nn": "06",
+   "key": "compass",
+   "sel": "main#main-content > section:nth-of-type(6)",
+   "nth": 6,
+   "tag": "section",
+   "id": "compass",
+   "cls": "lp-sec",
+   "label": null,
+   "heading": "Hold your shortlist up to real cutoffs.",
+   "top": 16148,
+   "height": 2263,
+   "story": null,
+   "sticky": [],
+   "timelines": [],
+   "shots": [
+    "shots/390-night/06-compass-1.png",
+    "shots/390-night/06-compass-2.png",
+    "shots/390-night/06-compass-3.png",
+    "shots/390-night/06-compass-4.png"
+   ]
+  },
+  {
+   "nn": "07",
+   "key": "du-eligibility",
+   "sel": "main#main-content > section:nth-of-type(7)",
+   "nth": 7,
+   "tag": "section",
+   "id": "du-eligibility",
+   "cls": "lp-sec",
+   "label": null,
+   "heading": "Which DU courses are open to you?",
+   "top": 18411,
+   "height": 2472,
+   "story": null,
+   "sticky": [],
+   "timelines": [],
+   "shots": [
+    "shots/390-night/07-du-eligibility-1.png",
+    "shots/390-night/07-du-eligibility-2.png",
+    "shots/390-night/07-du-eligibility-3.png",
+    "shots/390-night/07-du-eligibility-4.png"
+   ]
+  },
+  {
+   "nn": "08",
+   "key": "exam-experience",
+   "sel": "main#main-content > section:nth-of-type(8)",
+   "nth": 8,
+   "tag": "section",
+   "id": "exam-experience",
+   "cls": "lp-sec lp-exam-section",
+   "label": null,
+   "heading": "Practise calm.Rehearse exam day.",
+   "top": 20883,
+   "height": 1644,
+   "story": null,
+   "sticky": [],
+   "timelines": [],
+   "shots": [
+    "shots/390-night/08-exam-experience-1.png",
+    "shots/390-night/08-exam-experience-2.png",
+    "shots/390-night/08-exam-experience-3.png",
+    "shots/390-night/08-exam-console-mockmob.png",
+    "shots/390-night/08-exam-console-nta.png"
+   ],
+   "examParts": {
+    "section": {
+     "w": 390,
+     "h": 1644
+    },
+    "intro": {
+     "w": 350,
+     "h": 245
+    },
+    "console": {
+     "w": 350,
+     "h": 1005
+    },
+    "paper": {
+     "w": 348,
+     "h": 540
+    },
+    "palette": {
+     "w": 348,
+     "h": 304
+    },
+    "legend": {
+     "w": 316,
+     "h": 76
+    },
+    "foot": {
+     "w": 348,
+     "h": 111
+    },
+    "bottom": {
+     "w": 350,
+     "h": 224
+    },
+    "buttons": [
+     "MockMob",
+     "NTA stylePro",
+     "Mark for Review & Next",
+     "Clear response",
+     "Save & Next",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "Reset preview"
+    ],
+    "legendItems": [
+     "Not visited",
+     "Not answered",
+     "Answered",
+     "Marked for review",
+     "Answered & marked for review"
+    ]
+   },
+   "examPartsNta": {
+    "console": {
+     "w": 350,
+     "h": 1004
+    },
+    "iface": "nta"
+   }
+  },
+  {
+   "nn": "09",
+   "key": "proof-band",
+   "sel": "main#main-content > section:nth-of-type(9)",
+   "nth": 9,
+   "tag": "section",
+   "id": null,
+   "cls": "lp-sec lp-sec--tight",
+   "label": null,
+   "heading": "",
+   "top": 22527,
+   "height": 455,
+   "story": null,
+   "sticky": [],
+   "timelines": [],
+   "shots": [
+    "shots/390-night/09-proof-band-1.png"
+   ]
+  },
+  {
+   "nn": "10",
+   "key": "on-instagram",
+   "sel": "main#main-content > section:nth-of-type(10)",
+   "nth": 10,
+   "tag": "section",
+   "id": "on-instagram",
+   "cls": "lp-sec",
+   "label": null,
+   "heading": "Featured by CUET creators.",
+   "top": 22982,
+   "height": 1009,
+   "story": null,
+   "sticky": [],
+   "timelines": [],
+   "shots": [
+    "shots/390-night/10-on-instagram-1.png",
+    "shots/390-night/10-on-instagram-2.png"
+   ]
+  },
+  {
+   "nn": "11",
+   "key": "pricing",
+   "sel": "main#main-content > section:nth-of-type(11)",
+   "nth": 11,
+   "tag": "section",
+   "id": "pricing",
+   "cls": "lp-sec",
+   "label": null,
+   "heading": "Start free. Go Pro for unlimited mocks.",
+   "top": 23992,
+   "height": 1229,
+   "story": null,
+   "sticky": [],
+   "timelines": [],
+   "shots": [
+    "shots/390-night/11-pricing-1.png",
+    "shots/390-night/11-pricing-2.png"
+   ]
+  },
+  {
+   "nn": "12",
+   "key": "faq",
+   "sel": "main#main-content > section:nth-of-type(12)",
+   "nth": 12,
+   "tag": "section",
+   "id": "faq",
+   "cls": "lp-sec lp-sec--band",
+   "label": null,
+   "heading": "Before your first mock.",
+   "top": 25220,
+   "height": 485,
+   "story": null,
+   "sticky": [],
+   "timelines": [],
+   "shots": [
+    "shots/390-night/12-faq-1.png"
+   ]
+  },
+  {
+   "nn": "13",
+   "key": "close",
+   "sel": "main#main-content > section:nth-of-type(13)",
+   "nth": 13,
+   "tag": "section",
+   "id": null,
+   "cls": "lp-close",
+   "label": null,
+   "heading": "Five questions. Your move.",
+   "top": 25705,
+   "height": 630,
+   "story": null,
+   "sticky": [],
+   "timelines": [],
+   "shots": [
+    "shots/390-night/13-close-1.png"
+   ]
+  },
+  {
+   "nn": "14",
+   "key": "footer",
+   "sel": "footer.mm-foot",
+   "nth": 0,
+   "tag": "footer",
+   "id": null,
+   "cls": "mm-foot",
+   "label": null,
+   "heading": null,
+   "top": 26335,
+   "height": 1493,
+   "story": null,
+   "sticky": [],
+   "timelines": [],
+   "shots": [
+    "shots/390-night/14-footer-1.png",
+    "shots/390-night/14-footer-2.png"
+   ]
+  }
+ ],
+ "theme": {
+  "dataTheme": "dark",
+  "stored": "dark",
+  "prefersDark": true,
+  "url": "https://www.mockmob.in/",
+  "title": "CUET Mock Tests & Practice Questions | MockMob"
+ },
+ "hero": {
+  "W": 390,
+  "H": 844,
+  "scrollY": 0,
+  "boxes": [
+   {
+    "sel": "nav.mm-nav",
+    "top": 0,
+    "left": 0,
+    "w": 390,
+    "h": 61,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 7.2,
+    "text": ""
+   },
+   {
+    "sel": ".lp-hero",
+    "top": 61,
+    "left": 0,
+    "w": 390,
+    "h": 1491,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 92.8,
+    "text": "Hi, I’m Mobi. Tap me. CUET 2027. One mock. Know what to fix. Take a timed mock. See exactly where every mark went. Fix the right chapter tonight. Try five quest"
+   },
+   {
+    "sel": ".lp-hero__copy",
+    "top": 61,
+    "left": 20,
+    "w": 350,
+    "h": 678,
+    "display": "grid",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 72.1,
+    "text": "Hi, I’m Mobi. Tap me. CUET 2027. One mock. Know what to fix. Take a timed mock. See exactly where every mark went. Fix the right chapter tonight. Try five quest"
+   },
+   {
+    "sel": ".lp-hero__greeting",
+    "top": 61,
+    "left": 0,
+    "w": 390,
+    "h": 320,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 37.9,
+    "text": "Hi, I’m Mobi. Tap me."
+   },
+   {
+    "sel": ".lp-room",
+    "top": 61,
+    "left": 0,
+    "w": 390,
+    "h": 320,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 37.9,
+    "text": ""
+   },
+   {
+    "sel": ".lp-mobi--room",
+    "top": 61,
+    "left": 0,
+    "w": 390,
+    "h": 320,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 37.9,
+    "text": "Hi, I’m Mobi. Tap me."
+   },
+   {
+    "sel": ".lp-mobi--room .lp-mobi__figure",
+    "top": 182,
+    "left": 122,
+    "w": 149,
+    "h": 179,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 8.1,
+    "text": ""
+   },
+   {
+    "sel": ".lp-mobi--room .lp-mobi__bubble",
+    "top": 77,
+    "left": 20,
+    "w": 147,
+    "h": 39,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 1.8,
+    "text": "Hi, I’m Mobi. Tap me."
+   },
+   {
+    "sel": "h1.lp-title",
+    "top": 393,
+    "left": 20,
+    "w": 304,
+    "h": 114,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 10.6,
+    "text": "CUET 2027. One mock. Know what to fix."
+   },
+   {
+    "sel": ".lp-lead",
+    "top": 519,
+    "left": 20,
+    "w": 350,
+    "h": 46,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 4.9,
+    "text": "Take a timed mock. See exactly where every mark went. Fix the right chapter tonight."
+   },
+   {
+    "sel": ".lp-cta",
+    "top": 586,
+    "left": 20,
+    "w": 350,
+    "h": 102,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 10.8,
+    "text": "Try five questions Start free practice"
+   },
+   {
+    "sel": ".lp-hero__facts",
+    "top": 700,
+    "left": 20,
+    "w": 280,
+    "h": 39,
+    "display": "grid",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 3.3,
+    "text": "Free to start · Pro ₹99 a month · Cancel anytime One bank of 5,765 questions. No cap on Pro."
+   },
+   {
+    "sel": ".lp-hero__links",
+    "top": 0,
+    "left": 0,
+    "w": 0,
+    "h": 0,
+    "display": "none",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 0,
+    "text": "Free DU eligibility and cutoff calculatorTry the exam-day screen"
+   },
+   {
+    "sel": ".lp-stage",
+    "top": 759,
+    "left": 20,
+    "w": 350,
+    "h": 518,
+    "display": "grid",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 9.1,
+    "text": "Your first question. Go. No signup English Choose the option nearest in meaning to CANDID: A Hidden B Frank C Careful D Sweet Five CUET-style questions, each wi"
+   },
+   {
+    "sel": ".lp-stage__card",
+    "top": 792,
+    "left": 20,
+    "w": 350,
+    "h": 417,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 5.6,
+    "text": "English Choose the option nearest in meaning to CANDID: A Hidden B Frank C Careful D Sweet"
+   },
+   {
+    "sel": ".lp-mobi--host",
+    "top": 0,
+    "left": 0,
+    "w": 0,
+    "h": 0,
+    "display": "none",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 0,
+    "text": "Hi, I’m Mobi. Tap me."
+   },
+   {
+    "sel": ".lp-mobi--host .lp-mobi__figure",
+    "top": 0,
+    "left": 0,
+    "w": 0,
+    "h": 0,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 0,
+    "text": ""
+   },
+   {
+    "sel": ".lp-mobi--host .lp-mobi__bubble",
+    "top": 0,
+    "left": 0,
+    "w": 0,
+    "h": 0,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 0,
+    "text": "Hi, I’m Mobi. Tap me."
+   },
+   {
+    "sel": ".lp-proof",
+    "top": 1313,
+    "left": 20,
+    "w": 350,
+    "h": 207,
+    "display": "grid",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 0,
+    "text": "5 questions Free to try, no signup 73 DU programmes, matched to your subjects 2 screens Practise calm. Rehearse NTA style. 60 min 50 questions on the full CUET "
+   },
+   {
+    "sel": ".mm-dock",
+    "top": 867,
+    "left": 11,
+    "w": 368,
+    "h": 66,
+    "display": "flex",
+    "visibility": "visible",
+    "opacity": "0",
+    "pctOfFirstScreen": 0,
+    "text": "Free to start. Sign up Try a CUET question"
+   },
+   {
+    "sel": ".mm-theme-hint",
+    "missing": true
+   },
+   {
+    "sel": ".pip-guide-flyer",
+    "missing": true
+   },
+   {
+    "sel": ".lp-bg",
+    "top": 61,
+    "left": 0,
+    "w": 390,
+    "h": 1491,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 92.8,
+    "text": ""
+   }
+  ],
+  "textLines": [
+   {
+    "t": "Hi, I’m Mobi. Tap me.",
+    "top": 88,
+    "bottom": 105,
+    "fs": "13px",
+    "tag": "span",
+    "cls": "lp-mobi__line"
+   },
+   {
+    "t": "CUET 2027.",
+    "top": 389,
+    "bottom": 435,
+    "fs": "38.5px",
+    "tag": "span",
+    "cls": "lp-title__line lp-title__line--run lp-title__brand"
+   },
+   {
+    "t": "One mock.",
+    "top": 427,
+    "bottom": 473,
+    "fs": "38.5px",
+    "tag": "span",
+    "cls": "lp-title__line lp-title__line--run"
+   },
+   {
+    "t": "Know what to fix.",
+    "top": 465,
+    "bottom": 511,
+    "fs": "38.5px",
+    "tag": "span",
+    "cls": "lp-title__line lp-title__line--run"
+   },
+   {
+    "t": "Take a timed mock. See exactly where every mark went. Fix the right chapter tonight.",
+    "top": 520,
+    "bottom": 565,
+    "fs": "16px",
+    "tag": "p",
+    "cls": "lp-lead"
+   },
+   {
+    "t": "Try five questions",
+    "top": 598,
+    "bottom": 617,
+    "fs": "16px",
+    "tag": "a",
+    "cls": "mm-btn mm-btn--primary"
+   },
+   {
+    "t": "Start free practice",
+    "top": 655,
+    "bottom": 675,
+    "fs": "15px",
+    "tag": "a",
+    "cls": "mm-btn mm-btn--secondary"
+   },
+   {
+    "t": "Free to start",
+    "top": 700,
+    "bottom": 717,
+    "fs": "13px",
+    "tag": "span",
+    "cls": "lp-trust-line__seg"
+   },
+   {
+    "t": "·",
+    "top": 700,
+    "bottom": 717,
+    "fs": "13px",
+    "tag": "span",
+    "cls": "lp-trust-line__seg"
+   },
+   {
+    "t": "Pro ₹99 a month",
+    "top": 700,
+    "bottom": 717,
+    "fs": "13px",
+    "tag": "span",
+    "cls": "lp-trust-line__seg"
+   },
+   {
+    "t": "·",
+    "top": 700,
+    "bottom": 717,
+    "fs": "13px",
+    "tag": "span",
+    "cls": "lp-trust-line__seg"
+   },
+   {
+    "t": "Cancel anytime",
+    "top": 700,
+    "bottom": 717,
+    "fs": "13px",
+    "tag": "span",
+    "cls": "lp-trust-line__seg"
+   },
+   {
+    "t": "One bank of 5,765 questions. No cap on Pro.",
+    "top": 721,
+    "bottom": 738,
+    "fs": "13px",
+    "tag": "p",
+    "cls": "lp-bank lp-bank--short"
+   },
+   {
+    "t": "Your first question. Go.",
+    "top": 760,
+    "bottom": 776,
+    "fs": "12px",
+    "tag": "span",
+    "cls": ""
+   },
+   {
+    "t": "No signup",
+    "top": 760,
+    "bottom": 776,
+    "fs": "12px",
+    "tag": "span",
+    "cls": ""
+   },
+   {
+    "t": "English",
+    "top": 806,
+    "bottom": 822,
+    "fs": "13px",
+    "tag": "div",
+    "cls": "mm-screen__bar"
+   }
+  ],
+  "textAreaPct": 19.4,
+  "mentions": {
+   "cuet": true,
+   "exam": false,
+   "mock": true
+  },
+  "text": "Hi, I’m Mobi. Tap me. | CUET 2027. | One mock. | Know what to fix. | Take a timed mock. See exactly where every mark went. Fix the right chapter tonight. | Try five questions | Start free practice | Free to start | · | Pro ₹99 a month | · | Cancel anytime | One bank of 5,765 questions. No cap on Pro. | Your first question. Go. | No signup | English"
+ },
+ "navH": 61,
+ "neonCount": 95,
+ "mobi": {
+  "taps": [
+   {
+    "tap": 1,
+    "mid": "shots/390-night/M1a-tap1-mid-act-greeting.png",
+    "settled": "shots/390-night/M1b-tap1-settled.png",
+    "rig": "on",
+    "step": "1",
+    "bubble": "I find where your marks slip.",
+    "act": "hello",
+    "dotsFilled": 1
+   },
+   {
+    "tap": 2,
+    "mid": "shots/390-night/M2a-tap2-mid-act-greeting.png",
+    "settled": "shots/390-night/M2b-tap2-settled.png",
+    "rig": "on",
+    "step": "2",
+    "bubble": "One timed mock shows me the chapter.",
+    "act": "idle",
+    "dotsFilled": 2
+   },
+   {
+    "tap": 3,
+    "mid": "shots/390-night/M3a-tap3-mid-act-greeting.png",
+    "settled": "shots/390-night/M3b-tap3-settled.png",
+    "rig": "on",
+    "step": "3",
+    "bubble": "5,765 questions. A fresh mock every time.",
+    "act": "idle",
+    "dotsFilled": 3
+   },
+   {
+    "tap": 4,
+    "mid": "shots/390-night/M4a-tap4-mid-act-greeting.png",
+    "settled": "shots/390-night/M4b-tap4-settled.png",
+    "rig": "on",
+    "step": "4",
+    "bubble": "Okay, okay. Try five questions?",
+    "act": "idle",
+    "dotsFilled": 4
+   }
+  ],
+  "before": {
+   "rig": "on",
+   "step": "0",
+   "bubble": "Hi, I’m Mobi. Tap me.",
+   "act": "curious"
+  }
+ },
+ "heightsForced": {
+  "sections": [
+   {
+    "id": "lp-hero",
+    "h": 1491
+   },
+   {
+    "id": "lp-statement",
+    "h": 1519
+   },
+   {
+    "id": "inside-the-lab",
+    "h": 3704
+   },
+   {
+    "id": "your-prep",
+    "h": 5977
+   },
+   {
+    "id": "score-recovery-lab",
+    "h": 3483
+   },
+   {
+    "id": "compass",
+    "h": 2263
+   },
+   {
+    "id": "du-eligibility",
+    "h": 2472
+   },
+   {
+    "id": "exam-experience",
+    "h": 1644
+   },
+   {
+    "id": "lp-sec.lp-sec--tight",
+    "h": 455
+   },
+   {
+    "id": "on-instagram",
+    "h": 1009
+   },
+   {
+    "id": "pricing",
+    "h": 1229
+   },
+   {
+    "id": "faq",
+    "h": 485
+   },
+   {
+    "id": "lp-close",
+    "h": 630
+   },
+   {
+    "id": "mm-foot",
+    "h": 1493
+   }
+  ],
+  "docHeight": 27993
+ }
+}

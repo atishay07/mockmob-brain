@@ -1,0 +1,831 @@
+{
+  "batch": "phys-01",
+  "subject": "physics",
+  "questions": [
+    {
+      "id": "8e7aff9c-f05f-4057-9522-f15da970e0d7",
+      "subject": "physics",
+      "unit": "Current Electricity",
+      "chapter": "Current Electricity",
+      "type": "single_mcq",
+      "stem": "Which of the following is a non-ohmic device, meaning its current is not proportional to the voltage applied across it at constant temperature?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Copper wire at constant temperature"
+        },
+        {
+          "key": "B",
+          "text": "Manganin resistance coil at constant temperature"
+        },
+        {
+          "key": "C",
+          "text": "Nichrome heater element at constant temperature"
+        },
+        {
+          "key": "D",
+          "text": "p-n junction diode"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "An ohmic conductor obeys V = IR, so its V-I graph is a straight line through the origin at constant temperature. A p-n junction diode conducts very differently in forward and reverse bias, so its current is not proportional to voltage. Copper, manganin and nichrome are ohmic at constant temperature.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.6 Limitations of Ohm's law",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "9891beba-0610-4b37-9d91-7185798e2470",
+      "subject": "physics",
+      "unit": "Current Electricity",
+      "chapter": "Current Electricity",
+      "type": "single_mcq",
+      "stem": "A fuse wire should have which combination of properties?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Low resistivity and high melting point"
+        },
+        {
+          "key": "B",
+          "text": "High resistivity and low melting point"
+        },
+        {
+          "key": "C",
+          "text": "High resistivity and high melting point"
+        },
+        {
+          "key": "D",
+          "text": "Low resistivity and low melting point"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "A fuse must heat up quickly when the current rises, so it needs high resistivity for a large I^2 R heating effect. It must also melt at a low temperature so that it breaks the circuit when the current exceeds a safe value. Low resistivity or a high melting point would fail to protect the circuit.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.9 Electrical energy, power",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "8047d343-60de-4479-a898-a502de89b2e4",
+      "subject": "physics",
+      "unit": "Current Electricity",
+      "chapter": "Current Electricity",
+      "type": "single_mcq",
+      "stem": "At a junction in a circuit in steady state, Kirchhoff's junction rule states that the sum of currents entering the junction equals the sum of currents leaving it. This rule is a statement of conservation of which quantity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Electric charge"
+        },
+        {
+          "key": "B",
+          "text": "Energy"
+        },
+        {
+          "key": "C",
+          "text": "Linear momentum"
+        },
+        {
+          "key": "D",
+          "text": "Electric potential"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Kirchhoff's junction rule follows from conservation of electric charge, since charge cannot accumulate at a junction in steady state. The loop rule, by contrast, follows from conservation of energy. Keep the two rules tied to their physical origins.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.13 Kirchhoff's rules",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "17dddc0d-85f8-4438-aba7-5c65c48991b0",
+      "subject": "physics",
+      "unit": "Current Electricity",
+      "chapter": "Current Electricity",
+      "type": "single_mcq",
+      "stem": "Why is a potentiometer preferred over a voltmeter for measuring the emf of a cell?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It can measure larger currents than a voltmeter"
+        },
+        {
+          "key": "B",
+          "text": "It works only with alternating current"
+        },
+        {
+          "key": "C",
+          "text": "At the balance point no current is drawn from the cell, so the balancing length gives the true emf"
+        },
+        {
+          "key": "D",
+          "text": "It measures the internal resistance of the cell directly"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "A voltmeter draws some current, so it reads the terminal voltage, which is less than the emf while the cell supplies current. At the null point of a potentiometer no current is drawn from the cell, so the measured value equals the emf. This is the reason for the null method.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.16 Potentiometer",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "c1e3486d-b7db-4a63-aaf1-597489351bfb",
+      "subject": "physics",
+      "unit": "Current Electricity",
+      "chapter": "Current Electricity",
+      "type": "single_mcq",
+      "stem": "The galvanometer in a balanced Wheatstone bridge shows zero deflection. Which statement explains this?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The current through the galvanometer is maximum"
+        },
+        {
+          "key": "B",
+          "text": "The potential difference across the galvanometer is zero, so no current flows through it"
+        },
+        {
+          "key": "C",
+          "text": "The current drawn from the battery is zero"
+        },
+        {
+          "key": "D",
+          "text": "The galvanometer has infinite resistance"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "When the bridge is balanced, the two junctions connected to the galvanometer are at the same potential. With no potential difference across the galvanometer, no current flows through it. This zero-deflection condition is the basis of the null method.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.14 Wheatstone bridge",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "aea26296-5917-40a2-9a7c-d9cf913a5363",
+      "subject": "physics",
+      "unit": "Current Electricity",
+      "chapter": "Current Electricity",
+      "type": "single_mcq",
+      "stem": "A heater rated 220 V, 1100 W is operated at 220 V for 10 minutes. The energy it consumes is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "1.1 × 10^5 J"
+        },
+        {
+          "key": "B",
+          "text": "6.6 × 10^5 J"
+        },
+        {
+          "key": "C",
+          "text": "1.32 × 10^6 J"
+        },
+        {
+          "key": "D",
+          "text": "6.6 × 10^4 J"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Electrical energy consumed is E = P × t. Convert the time to seconds: 10 minutes = 600 s. Then E = 1100 W × 600 s = 6.6 × 10^5 J.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.9 Electrical energy, power",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "d06e022d-f926-4494-9d39-1a979e20b2e5",
+      "subject": "physics",
+      "unit": "Current Electricity",
+      "chapter": "Current Electricity",
+      "type": "single_mcq",
+      "stem": "Two resistors of 3 Ω and 6 Ω are connected in parallel, and this combination is connected in series with a 4 Ω resistor. The equivalent resistance of the whole network is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "2 Ω"
+        },
+        {
+          "key": "B",
+          "text": "9 Ω"
+        },
+        {
+          "key": "C",
+          "text": "6 Ω"
+        },
+        {
+          "key": "D",
+          "text": "13 Ω"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "The parallel pair gives R_p = (3 × 6)/(3 + 6) = 2 Ω. Resistors in series add directly, so the total is 2 Ω + 4 Ω = 6 Ω. Parallel resistors combine as reciprocals, and series resistors simply add.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.10 Combination of resistors: series and parallel",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "22940911-16a7-4f7e-be0f-515fa516f89f",
+      "subject": "physics",
+      "unit": "Current Electricity",
+      "chapter": "Current Electricity",
+      "type": "single_mcq",
+      "stem": "In a meter bridge with a uniform wire, an unknown resistance X is in the left gap and a standard resistance of 12 Ω is in the right gap. The null point is found at 25 cm from the left end of the 100 cm wire. The value of X is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "4 Ω"
+        },
+        {
+          "key": "B",
+          "text": "3 Ω"
+        },
+        {
+          "key": "C",
+          "text": "12 Ω"
+        },
+        {
+          "key": "D",
+          "text": "36 Ω"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "For a uniform wire, the resistances in the two gaps are proportional to the lengths on each side of the null point. So X / 12 Ω = 25 / 75, which gives X = 12 Ω × 25/75 = 4 Ω. Inverting the ratio gives the wrong answer of 36 Ω.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.15 Meter bridge",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "91ad1938-d1fc-4ea4-a0d3-95d96326e2ef",
+      "subject": "physics",
+      "unit": "Current Electricity",
+      "chapter": "Current Electricity",
+      "type": "single_mcq",
+      "stem": "A cell of emf 2.0 V and internal resistance 0.5 Ω is connected to an external resistor of 3.5 Ω. The terminal voltage of the cell is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "2.00 V"
+        },
+        {
+          "key": "B",
+          "text": "1.50 V"
+        },
+        {
+          "key": "C",
+          "text": "0.50 V"
+        },
+        {
+          "key": "D",
+          "text": "1.75 V"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "The current is I = E/(R + r) = 2.0 V / (3.5 Ω + 0.5 Ω) = 0.5 A. The terminal voltage is V = IR = 0.5 A × 3.5 Ω = 1.75 V, which equals E − Ir. The internal resistance drop makes the terminal voltage smaller than the emf.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.11 Cells, emf, internal resistance",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "255e305e-85cc-4d30-a824-239c53989517",
+      "subject": "physics",
+      "unit": "Current Electricity",
+      "chapter": "Current Electricity",
+      "type": "single_mcq",
+      "stem": "A copper conductor of cross-sectional area 2 mm^2 carries a steady current of 4 A. Take the free electron density as 5 × 10^28 m^-3 and e = 1.6 × 10^-19 C. The drift speed of the electrons is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "1.25 × 10^-4 m/s"
+        },
+        {
+          "key": "B",
+          "text": "2.5 × 10^-2 m/s"
+        },
+        {
+          "key": "C",
+          "text": "2.5 × 10^-4 m/s"
+        },
+        {
+          "key": "D",
+          "text": "8.0 × 10^-4 m/s"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "The drift speed follows from I = n e A v_d, so v_d = I/(n e A). Convert the area to 2 × 10^-6 m^2. Then n e A = 5 × 10^28 × 1.6 × 10^-19 × 2 × 10^-6 = 1.6 × 10^4, and v_d = 4 / (1.6 × 10^4) = 2.5 × 10^-4 m/s.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.5 Drift of electrons and origin of resistivity",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "06fb3fe8-7f7f-463d-a602-1a5953423084",
+      "subject": "physics",
+      "unit": "Current Electricity",
+      "chapter": "Current Electricity",
+      "type": "statement_based",
+      "stem": "Consider these changes to a potentiometer circuit. (I) Using a longer uniform wire. (II) Reducing the potential gradient along the wire by lowering the current from the driver cell. (III) Increasing the potential gradient along the wire. (IV) Using a shorter uniform wire. Which of the changes increase the sensitivity of the potentiometer?",
+      "options": [
+        {
+          "key": "A",
+          "text": "II and IV only"
+        },
+        {
+          "key": "B",
+          "text": "I and II only"
+        },
+        {
+          "key": "C",
+          "text": "III and IV only"
+        },
+        {
+          "key": "D",
+          "text": "I and III only"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Sensitivity is the change in balancing length per unit change in emf, which is inversely proportional to the potential gradient. A longer wire or a smaller potential gradient gives a larger length change for a small emf difference, so I and II increase sensitivity. III and IV reduce it.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.16 Potentiometer",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "22bb7974-074f-4e40-a1b4-5d3b55052192",
+      "subject": "physics",
+      "unit": "Current Electricity",
+      "chapter": "Current Electricity",
+      "type": "statement_based",
+      "stem": "Which statements about the temperature dependence of resistivity are correct? (I) The resistivity of a metal increases with temperature. (II) The resistivity of a pure semiconductor decreases with temperature over the normal range. (III) The resistivity of a metal decreases with temperature. (IV) The resistivity of a semiconductor increases with temperature.",
+      "options": [
+        {
+          "key": "A",
+          "text": "I and II only"
+        },
+        {
+          "key": "B",
+          "text": "III and IV only"
+        },
+        {
+          "key": "C",
+          "text": "I and IV only"
+        },
+        {
+          "key": "D",
+          "text": "II and III only"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "In metals, lattice vibrations scatter the free electrons more strongly as temperature rises, so resistivity increases. In semiconductors, more charge carriers are thermally excited as temperature rises, so resistivity falls. Hence I and II are correct.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.8 Temperature dependence of resistivity",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "62c2ce5f-251f-4b6b-a2c2-be45de07dfc3",
+      "subject": "physics",
+      "unit": "Current Electricity",
+      "chapter": "Current Electricity",
+      "type": "assertion_reason",
+      "stem": "Assertion (A): Manganin is preferred for making standard resistance coils. Reason (R): The resistivity of manganin is almost independent of temperature. Choose the correct option.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Both A and R are true, and R is the correct explanation of A"
+        },
+        {
+          "key": "B",
+          "text": "Both A and R are true, but R is not the correct explanation of A"
+        },
+        {
+          "key": "C",
+          "text": "A is true but R is false"
+        },
+        {
+          "key": "D",
+          "text": "A is false but R is true"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Manganin has a very low temperature coefficient of resistance, so its resistance hardly changes as the coil warms during use. That stability is exactly why it is used for standard resistors. The reason therefore explains the assertion.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.7 Resistivity of various materials",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "0f01b716-922a-4b3f-9b32-ed8ab40dc7e8",
+      "subject": "physics",
+      "unit": "Current Electricity",
+      "chapter": "Current Electricity",
+      "type": "single_mcq",
+      "stem": "Two cells of emf 10 V and 4 V, each with negligible internal resistance, are connected in series opposing each other. The external resistors 2 Ω and 1 Ω are connected in series with them. The power dissipated in the external resistors is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "6 W"
+        },
+        {
+          "key": "B",
+          "text": "12 W"
+        },
+        {
+          "key": "C",
+          "text": "18 W"
+        },
+        {
+          "key": "D",
+          "text": "24 W"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "The emfs oppose each other, so the net emf is 10 V − 4 V = 6 V. The total resistance is 2 Ω + 1 Ω = 3 Ω, so the current is I = 6 V / 3 Ω = 2 A. The power dissipated in the external resistors is P = I^2 R = (2 A)^2 × 3 Ω = 12 W.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.12 Cells in series and in parallel, and section 3.9 Electrical energy, power",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "a04b8ad0-2dee-416b-9e0d-631bd2f3f25b",
+      "subject": "physics",
+      "unit": "Current Electricity",
+      "chapter": "Current Electricity",
+      "type": "single_mcq",
+      "stem": "A cell of emf 2.0 V and internal resistance 0.5 Ω is connected in parallel with a cell of emf 1.0 V and internal resistance 0.25 Ω, with their positive terminals joined. The equivalent emf of the combination is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "1.00 V"
+        },
+        {
+          "key": "B",
+          "text": "1.33 V"
+        },
+        {
+          "key": "C",
+          "text": "1.50 V"
+        },
+        {
+          "key": "D",
+          "text": "0.75 V"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "For two cells in parallel, E_eq = (E1 r2 + E2 r1)/(r1 + r2) = (2.0 × 0.25 + 1.0 × 0.5)/(0.5 + 0.25) = 1.0/0.75 = 1.33 V. The cell with the lower internal resistance carries the larger weight in the equivalent emf.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.12 Cells in series and in parallel",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "c62678e0-eb15-4186-811e-45a6452e528e",
+      "subject": "physics",
+      "unit": "Magnetic Effects of Current and Magnetism",
+      "chapter": "Moving Charges & Magnetism",
+      "type": "single_mcq",
+      "stem": "A positive charge moves with a velocity parallel to a uniform magnetic field. The magnetic force on the charge is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Zero"
+        },
+        {
+          "key": "B",
+          "text": "Maximum and perpendicular to the field"
+        },
+        {
+          "key": "C",
+          "text": "Perpendicular to both the velocity and the field"
+        },
+        {
+          "key": "D",
+          "text": "Parallel to the field"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "The magnetic force is F = q v × B. When v is parallel to B, the angle between them is 0° and sin 0° = 0, so the force is zero. The charge keeps moving undeflected along the field.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 4 Moving Charges and Magnetism, section 4.2 Magnetic force",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "b1dbbe04-24d4-49ee-83b0-ef74ef7d95f4",
+      "subject": "physics",
+      "unit": "Magnetic Effects of Current and Magnetism",
+      "chapter": "Moving Charges & Magnetism",
+      "type": "single_mcq",
+      "stem": "For an ideal long solenoid carrying a steady current, the magnetic field outside the solenoid is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Equal to the field inside"
+        },
+        {
+          "key": "B",
+          "text": "Approximately zero"
+        },
+        {
+          "key": "C",
+          "text": "Radial and uniform"
+        },
+        {
+          "key": "D",
+          "text": "Equal to the field inside but reversed in direction"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "An ideal long solenoid has a uniform field inside, B = μ0 n I, and the field outside is approximately zero. Applying Ampere's law to a loop outside the solenoid, the net current it encloses is zero, so the line integral of B is zero.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 4 Moving Charges and Magnetism, section 4.8 The solenoid and the toroid",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "4e338fa8-83d5-427e-83be-2c4b18735148",
+      "subject": "physics",
+      "unit": "Magnetic Effects of Current and Magnetism",
+      "chapter": "Moving Charges & Magnetism",
+      "type": "single_mcq",
+      "stem": "A circular coil of radius 0.1 m has a single turn and carries a steady current of 2 A. Take μ0 = 4π × 10^-7 T m A^-1. The magnitude of the magnetic field at the centre of the coil is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "1.26 × 10^-5 T"
+        },
+        {
+          "key": "B",
+          "text": "2.51 × 10^-5 T"
+        },
+        {
+          "key": "C",
+          "text": "6.28 × 10^-6 T"
+        },
+        {
+          "key": "D",
+          "text": "1.26 × 10^-3 T"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "By the Biot-Savart law, the field at the centre of a circular loop is B = μ0 I/(2R). Substituting: B = (4π × 10^-7 × 2)/(2 × 0.1) = 1.26 × 10^-5 T. Leaving out the factor 2 in 2R gives 2.51 × 10^-5 T, which is wrong.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 4 Moving Charges and Magnetism, section 4.6 Biot-Savart law",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "39a9f1f5-675b-4aa4-961e-56b0b6be1145",
+      "subject": "physics",
+      "unit": "Magnetic Effects of Current and Magnetism",
+      "chapter": "Moving Charges & Magnetism",
+      "type": "statement_based",
+      "stem": "Two long straight parallel wires, separated by a distance d, carry steady currents I1 and I2 in the same direction. Which statements are correct? (I) The wires attract each other. (II) The force per unit length on each wire is μ0 I1 I2/(2π d). (III) The wires repel each other. (IV) The force per unit length is independent of d.",
+      "options": [
+        {
+          "key": "A",
+          "text": "I and II only"
+        },
+        {
+          "key": "B",
+          "text": "III and IV only"
+        },
+        {
+          "key": "C",
+          "text": "I and IV only"
+        },
+        {
+          "key": "D",
+          "text": "II and III only"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Parallel currents in the same direction attract, and the force per unit length is μ0 I1 I2/(2π d), which falls as the separation increases. Currents in opposite directions repel. Statements III and IV are therefore incorrect.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 4 Moving Charges and Magnetism, section 4.9 Force between two parallel currents",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "9ef7bafe-2ca1-4e14-a12a-08890c27374c",
+      "subject": "physics",
+      "unit": "Magnetic Effects of Current and Magnetism",
+      "chapter": "Moving Charges & Magnetism",
+      "type": "single_mcq",
+      "stem": "A galvanometer of resistance G is to be converted into a voltmeter of range V. Which resistance must be connected, and how?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A very small resistance in parallel with the galvanometer"
+        },
+        {
+          "key": "B",
+          "text": "A very large resistance in series with the galvanometer"
+        },
+        {
+          "key": "C",
+          "text": "A very large resistance in parallel with the galvanometer"
+        },
+        {
+          "key": "D",
+          "text": "A very small resistance in series with the galvanometer"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "A voltmeter needs a high resistance in series with the galvanometer so that only a small current flows at full-scale deflection. The series resistance is R = V/I_g − G, which is large because I_g is small. A shunt in parallel is used for an ammeter, not a voltmeter.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 4 Moving Charges and Magnetism, section 4.11 Moving coil galvanometer (conversion into ammeter and voltmeter)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "118b1495-3889-49b3-8002-f805c6ca1e57",
+      "subject": "physics",
+      "unit": "Magnetic Effects of Current and Magnetism",
+      "chapter": "Moving Charges & Magnetism",
+      "type": "single_mcq",
+      "stem": "A rectangular current-carrying loop is placed in a uniform magnetic field. The torque on the loop is maximum when:",
+      "options": [
+        {
+          "key": "A",
+          "text": "The normal to the plane of the loop is parallel to the field"
+        },
+        {
+          "key": "B",
+          "text": "The plane of the loop is parallel to the field"
+        },
+        {
+          "key": "C",
+          "text": "The normal to the plane of the loop makes an angle of 45° with the field"
+        },
+        {
+          "key": "D",
+          "text": "The normal to the plane of the loop is antiparallel to the field"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "The torque on a loop is τ = N I A B sinθ, where θ is the angle between the normal to the loop and the field. The torque is maximum when sinθ = 1, which means the normal is perpendicular to B and the plane of the loop is parallel to B. Torque is zero when the normal is parallel or antiparallel to B.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 4 Moving Charges and Magnetism, section 4.10 Torque on a current loop, magnetic dipole",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "340a6c47-3d6f-42c8-a1a5-af3a9bb0830f",
+      "subject": "physics",
+      "unit": "Magnetic Effects of Current and Magnetism",
+      "chapter": "Moving Charges & Magnetism",
+      "type": "single_mcq",
+      "stem": "A proton of mass 1.6 × 10^-27 kg and charge 1.6 × 10^-19 C moves with a speed of 1.0 × 10^6 m/s perpendicular to a uniform magnetic field of 0.1 T. The radius of its circular path is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.01 m"
+        },
+        {
+          "key": "B",
+          "text": "0.1 m"
+        },
+        {
+          "key": "C",
+          "text": "1.0 m"
+        },
+        {
+          "key": "D",
+          "text": "0.2 m"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "A charge moving perpendicular to a uniform field follows a circle of radius r = m v/(q B). Substituting: r = (1.6 × 10^-27 × 1.0 × 10^6)/(1.6 × 10^-19 × 0.1) = 1.6 × 10^-21/1.6 × 10^-20 = 0.1 m.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 4 Moving Charges and Magnetism, section 4.5 Cyclotron",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "8172d9b4-c41c-413a-a5c2-70ea7df2adf0",
+      "subject": "physics",
+      "unit": "Magnetic Effects of Current and Magnetism",
+      "chapter": "Moving Charges & Magnetism",
+      "type": "single_mcq",
+      "stem": "A closed amperian loop encloses two long straight conductors. One carries 5 A out of the plane of the page and the other carries 3 A into the plane of the page. A third conductor carrying 4 A out of the plane lies outside the loop. The value of the line integral of B around the loop, ∮B · dl, is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Zero"
+        },
+        {
+          "key": "B",
+          "text": "2μ0 T m"
+        },
+        {
+          "key": "C",
+          "text": "4μ0 T m"
+        },
+        {
+          "key": "D",
+          "text": "8μ0 T m"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Ampere's circuital law states ∮B · dl = μ0 I_enclosed. Only the currents passing through the loop count, so the 4 A conductor outside contributes nothing. Opposite-direction currents subtract, so the net enclosed current is 5 A − 3 A = 2 A, giving ∮B · dl = 2μ0 T m.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 4 Moving Charges and Magnetism, section 4.7 Ampere's circuital law",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "704cf988-599d-49f6-a9cf-c15e4dfdda8f",
+      "subject": "physics",
+      "unit": "Magnetic Effects of Current and Magnetism",
+      "chapter": "Moving Charges & Magnetism",
+      "type": "single_mcq",
+      "stem": "Consider a straight wire of finite length carrying a steady current I. Compared with an infinitely long straight wire carrying the same current, the magnitude of the magnetic field at a perpendicular distance d from the midpoint of the finite wire is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "The same as for the infinite wire"
+        },
+        {
+          "key": "B",
+          "text": "Greater than for the infinite wire"
+        },
+        {
+          "key": "C",
+          "text": "Less than for the infinite wire"
+        },
+        {
+          "key": "D",
+          "text": "Zero"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "The field at a perpendicular distance d from the midpoint of a finite wire is B = (μ0 I)/(4π d) × (sinθ1 + sinθ2), where θ1 = θ2 is less than 90°. For an infinite wire both angles are 90°, giving μ0 I/(2π d). The finite wire therefore produces a smaller field.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 4 Moving Charges and Magnetism, section 4.6 Biot-Savart law",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "80ca588c-3c3a-415f-ab76-b6b5a5cd4ec8",
+      "subject": "physics",
+      "unit": "Magnetic Effects of Current and Magnetism",
+      "chapter": "Moving Charges & Magnetism",
+      "type": "single_mcq",
+      "stem": "A magnetic dipole of moment M is held in a uniform magnetic field B with its moment initially along the field. The work done by an external agent in slowly rotating the dipole until its moment points antiparallel to the field is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Zero"
+        },
+        {
+          "key": "B",
+          "text": "MB"
+        },
+        {
+          "key": "C",
+          "text": "2MB"
+        },
+        {
+          "key": "D",
+          "text": "−2MB"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "The potential energy of a dipole in a field is U = −M B cosθ. At θ = 0 the energy is −MB, and at θ = 180° it is +MB. The work done by the external agent equals the change in potential energy, U(180°) − U(0) = MB − (−MB) = 2MB.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 4 Moving Charges and Magnetism, section 4.10 Torque on a current loop, magnetic dipole",
+      "source": "claude-authored-2026-10-17-w3"
+    }
+  ]
+}

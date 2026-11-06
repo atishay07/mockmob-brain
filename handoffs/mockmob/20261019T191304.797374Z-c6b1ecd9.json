@@ -1,0 +1,25 @@
+{
+  "id": "20261019T191304.797374Z-c6b1ecd9",
+  "observed_at": "2026-10-19T19:13:04.797374+00:00",
+  "agent": "claude-opus-5.5 mob-v3-device-walker",
+  "task": "Mob v3 device-truth walk (merge v15.4 into ui/1019pm-mob-v3, profile APKs, emulator walk)",
+  "status": "complete",
+  "done": "Merged ui/v15.4-1019pm into ui/1019pm-mob-v3 (9d831b4f, clean, analyze clean, 6991 unit tests pass). The staging sign-in was blocked: the profile app dials www.mockmob.in (216.198.79.1) instead of localhost:3101, so email-login for chai-fresh@example.com may have hit production (about 8 calls). The main session ordered a hard stop. The walk then ran on the device demo entry (test/device_demo/demo_main.dart, in.mockmob.app.demo) as a profile build with the Mob v3 fixtures (fresh, questdone). Findings: 1 CRITICAL, 6 HIGH, 12 MEDIUM, 9 LOW. Contact sheets and frame sheets were made. The emulator and the lock were released.",
+  "next": "Main session: run a SELECT-only check of production auth users for chai-fresh@example.com. Find why a staging profile build routes the API to production; no agent signs in from a staging build until that is fixed. Then walk on staging: heavy in Day, C2, SET, P1, J1, R9, M3 live, M13. Fix H1 to H6.",
+  "blockers": [
+    "Staging profile build sends API calls to production www.mockmob.in; root cause not found"
+  ],
+  "evidence": [
+    "mockmob-next/tmp/walk-1019/mob-v3/WALK-1019-NIGHT.md",
+    "mockmob-next/tmp/walk-1019/mob-v3/CONTACT-fresh-walk.png",
+    "mockmob-next/tmp/walk-1019/mob-v3/CONTACT-heavy-walk.png",
+    "mockmob-next/tmp/walk-1019/mob-v3/night/motion/"
+  ],
+  "touched_files": [
+    "wt-1019pm-mobapp ui/1019pm-mob-v3 merge commit 9d831b4f",
+    "mockmob-next/tmp/walk-1019/mob-v3/"
+  ],
+  "verification": "flutter analyze clean; test/unit -j 3 with 6991 passed and 0 failed; emulator screenshots and frame sheets opened and judged by eye",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

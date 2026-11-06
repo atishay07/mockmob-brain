@@ -1,0 +1,21 @@
+{
+  "id": "20261021T091613.168036Z-6d662a17",
+  "observed_at": "2026-10-21T09:16:13.168036+00:00",
+  "agent": "claude-opus-5.5 session 7a597d08 (promo film)",
+  "task": "MockMob teaser story cut v5 (script v4, ElevenLabs Himanshu, Pocketsflow look, 3D devices, 3D Mobi)",
+  "status": "paused",
+  "done": "Script v4 locked; Himanshu VO lines; ElevenLabs SFX kit + Music v2.5 bed; plan restructured; style v5; DeskShot opening/reveal preview (owner: a lot better); DeviceMock shells; chapter v6 rebuild partly done; Browserbase set up; disk cleaned to 89 GB free; render concurrency 8.",
+  "next": "Read C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\HANDOFF-2026-10-21-1430.md, then restart: reveal v2 + devices v2 (owner notes 2 pm), finish chapter v6 rebuild + integrate + render v5 + critics, 3D Mobi fix + acting test.",
+  "blockers": [
+    "Claude usage at 99% (stopped 2:30 pm)"
+  ],
+  "evidence": [
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\HANDOFF-2026-10-21-1430.md",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\OWNER-LEDGER.md",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\out\\v5\\preview-open-reveal.mp4"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

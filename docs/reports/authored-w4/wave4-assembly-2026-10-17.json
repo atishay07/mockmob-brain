@@ -1,0 +1,329 @@
+{
+ "kind": "authored_w4_assembly",
+ "source": "claude-authored-2026-10-17-w4",
+ "candidatesFile": "docs/brain/reports/authored-w4/wave4-candidates-2026-10-17.json",
+ "questions": 279,
+ "bySubject": {
+  "biology": 59,
+  "chemistry": 60,
+  "general_test": 60,
+  "mathematics": 60,
+  "physics": 40
+ },
+ "byVerdict": {
+  "claude_audited": 279
+ },
+ "repairedRows": 27,
+ "droppedByAudit": 1,
+ "batches": [
+  "w4-bio-01:20",
+  "w4-bio-02:20",
+  "w4-bio-03:19",
+  "w4-chem-01:20",
+  "w4-chem-02:20",
+  "w4-chem-03:20",
+  "w4-gat-01:20",
+  "w4-gat-02:20",
+  "w4-gat-03:20",
+  "w4-math-01:20",
+  "w4-math-02:20",
+  "w4-math-03:20",
+  "w4-phys-02:20",
+  "w4-phys-03:20"
+ ],
+ "unaudited": [
+  {
+   "file": "physics/w4-phys-01.json",
+   "batch": "w4-phys-01",
+   "rows": 20
+  }
+ ],
+ "repairs": [
+  {
+   "id": "dd66dcf5-ca4a-4e15-9722-6292d102a490",
+   "batch": "w4-bio-01",
+   "repairs": [
+    {
+     "what": "difficulty_label hard -> medium (two-part recall of maternal against fertilisation tissues is a medium item)",
+     "changes_what_a_solver_sees": false
+    }
+   ]
+  },
+  {
+   "id": "a1762cac-8859-4104-b5b8-440a33eacf15",
+   "batch": "w4-bio-01",
+   "repairs": [
+    {
+     "what": "difficulty_label hard -> medium (haplodiploidy recall: drone 16, sperms by mitosis)",
+     "changes_what_a_solver_sees": false
+    }
+   ]
+  },
+  {
+   "id": "f6b8e854-fac9-4ea3-8f17-24481236c2ea",
+   "batch": "w4-bio-02",
+   "repairs": [
+    {
+     "what": "option A \"Chemotherapy is the only form of treatment that never damages normal body cells\" replaced: it carried the absolute words only/never (a tell) and repeated the false idea of statement (C) in the next item; new text is a misconception about immune activation",
+     "changes_what_a_solver_sees": true
+    }
+   ]
+  },
+  {
+   "id": "b8374232-3875-4669-a6aa-d2a27190437b",
+   "batch": "w4-bio-02",
+   "repairs": [
+    {
+     "what": "difficulty_label hard -> medium (cellulase for plant wall, RNase for RNA, protease for protein is one NCERT line)",
+     "changes_what_a_solver_sees": false
+    }
+   ]
+  },
+  {
+   "id": "d37125e8-0209-40a9-aa19-4be3804a1682",
+   "batch": "w4-bio-03",
+   "repairs": [
+    {
+     "what": "stem and options rewritten: the old stem (\"engineered to respond more strongly to harmful substances\") gave away the key (\"assessing the safety of chemicals\"); it now asks why transgenic animals are preferred for toxicity testing, key stays B",
+     "changes_what_a_solver_sees": true
+    }
+   ]
+  },
+  {
+   "id": "47f1daf6-2e46-4659-80ba-53388a92114f",
+   "batch": "w4-bio-03",
+   "repairs": [
+    {
+     "what": "difficulty_label hard -> medium (ordering of incident radiation, PAR, GPP, NPP is a standard NCERT cascade)",
+     "changes_what_a_solver_sees": false
+    }
+   ]
+  },
+  {
+   "id": "440d1252-fc4c-4fb5-8c77-d6ffbdd335f4",
+   "batch": "w4-chem-01",
+   "repairs": [
+    {
+     "what": "Rewrote the four statements to a different sub-topic (C-X bond length, dipole moment of chlorobenzene, density of monochloroalkanes, melting point of para-dichlorobenzene); key set (A),(B),(D) stays at option A, same type and level",
+     "changes_what_a_solver_sees": true
+    }
+   ]
+  },
+  {
+   "id": "2e4f3189-8abb-4e28-8c5b-13da81ddcbed",
+   "batch": "w4-chem-01",
+   "repairs": [
+    {
+     "what": "Replaced those two pairs by phenol with Br2 in CS2 at low temperature (o- and p-bromophenols) and phenol with dilute HNO3 at low temperature (o- and p-nitrophenols); mapping and option set rebuilt, key stays at option D",
+     "changes_what_a_solver_sees": true
+    }
+   ]
+  },
+  {
+   "id": "8e181c77-95ef-4e7c-8bf5-857cbba9f869",
+   "batch": "w4-chem-01",
+   "repairs": [
+    {
+     "what": "Two throwaway distractors (methane and carbon dioxide; carbon monoxide and hydrogen) replaced by mixed methanal/ethanal and methanoic/ethanoic pairs; key unchanged, explanation extended",
+     "changes_what_a_solver_sees": true
+    }
+   ]
+  },
+  {
+   "id": "359c50ec-370a-4277-a1e1-26ff626c290f",
+   "batch": "w4-chem-01",
+   "repairs": [
+    {
+     "what": "Statement (C) replaced by \"boiling points of aldehydes and ketones are lower than those of alcohols of comparable molar mass\" (true); key set (A),(B),(C) at option C unchanged",
+     "changes_what_a_solver_sees": true
+    }
+   ]
+  },
+  {
+   "id": "1b3b17be-c28e-4dbd-b120-3d1416eeb97f",
+   "batch": "w4-chem-02",
+   "repairs": [
+    {
+     "what": "Stem reworded from \"The main organic product that gives the orange-red solid from portion P is:\" to \"The orange-red solid obtained from portion P is:\"",
+     "changes_what_a_solver_sees": false
+    }
+   ]
+  },
+  {
+   "id": "a9b977b3-1415-4db5-8488-268a83327316",
+   "batch": "w4-chem-02",
+   "repairs": [
+    {
+     "what": "Mixed pair and triple options (key was the pair \"Only (A) and (C)\") rebuilt as four three-statement options; statement (D) changed from the false \"portion R is a Gattermann reaction\" to the true \"the diazonium group is replaced by CN with the help of a copper(I) salt\"; key set is now (A),(C),(D) at option D",
+     "changes_what_a_solver_sees": true
+    }
+   ]
+  },
+  {
+   "id": "01d16929-b579-401b-9a88-81ff84f82232",
+   "batch": "w4-chem-02",
+   "repairs": [
+    {
+     "what": "The key \"Only (A) and (D)\" was the only two-statement option among three-statement options (format tell). Statement (C) changed from the false \"D means the sugar rotates light to the right\" to the true \"D refers to the configuration at the carbon farthest from the carbonyl group, as in D-glyceraldehyde\"; all four options are now three-statement; key set (A),(C),(D) stays at option D",
+     "changes_what_a_solver_sees": true
+    }
+   ]
+  },
+  {
+   "id": "ef0f30c8-bde7-4adc-ab4a-0934d0197b63",
+   "batch": "w4-chem-02",
+   "repairs": [
+    {
+     "what": "Option \"Only (B) and (C)\" (a pair among triples) replaced by the triple \"(A), (B) and (D) only\" so all four options are three-statement combinations; key unchanged",
+     "changes_what_a_solver_sees": false
+    }
+   ]
+  },
+  {
+   "id": "c0bb6d07-1e8f-43fc-8b57-b69826bad86c",
+   "batch": "w4-gat-01",
+   "repairs": [
+    "explanation: removed an unverifiable anecdote ('often photographed from the Kenyan side'); the key and every fact a solver sees are unchanged"
+   ]
+  },
+  {
+   "id": "74583f6d-5b1e-4ab4-9c9c-7e816edd8f14",
+   "batch": "w4-gat-01",
+   "repairs": [
+    "explanation: 'each wrong option' reworded to 'each wrong answer' (rubric bans the word option in explanations)"
+   ]
+  },
+  {
+   "id": "07b12999-6fa2-45e5-8de5-06234037091e",
+   "batch": "w4-gat-02",
+   "repairs": [
+    "explanation: dropped the claim that ASEAN is a regular G20 invitee (not certain); now says ASEAN, Arab League and Commonwealth are not members"
+   ]
+  },
+  {
+   "id": "df8f1dc2-817f-4beb-94d7-79fa21ae35e5",
+   "batch": "w4-math-01",
+   "repairs": [
+    {
+     "field": "stem, options, explanation, ncert_ref",
+     "what": "Replaced the linear congruence 5x ≡ 3 (mod 7) with a count of integers in a residue class, because a live question already asks to solve a linear congruence (7x ≡ 3 mod 11).",
+     "changed_solver_view": true,
+     "old_stem": "The least positive integer x satisfying the congruence 5x ≡ 3 (mod 7) is:"
+    }
+   ]
+  },
+  {
+   "id": "0588bad0-9280-44b9-bc61-2dc16a9f8eb1",
+   "batch": "w4-math-01",
+   "repairs": [
+    {
+     "field": "options, explanation",
+     "what": "Two throwaway options (6 : 5, 10 : 9) replaced by 1 : 1 (midpoint slip) and 2 : 1 (percentage-difference slip).",
+     "changed_solver_view": true
+    }
+   ]
+  },
+  {
+   "id": "23fda7f6-04bb-43cf-8611-002db1847e7c",
+   "batch": "w4-math-01",
+   "repairs": [
+    {
+     "field": "stem, options, explanation",
+     "what": "At 3 years the key (₹ 90,000) equalled the accumulated depreciation, so a student who confused book value with depreciation charged still hit the key. Changed to 2 years: key ₹ 1,20,000, accumulated depreciation ₹ 60,000 is now a distractor.",
+     "changed_solver_view": true
+    }
+   ]
+  },
+  {
+   "id": "d1c6ce3a-f7fe-480a-b211-4b242271ae06",
+   "batch": "w4-math-01",
+   "repairs": [
+    {
+     "field": "stem, options, explanation, ncert_ref",
+     "what": "Near-copy of a live Probability question (probabilities k, 2k, 3k, 4k with key 0.7 and distractors 0.3 and 0.4). Replaced by the variance of a discrete distribution from a table.",
+     "changed_solver_view": true,
+     "old_stem": "A discrete random variable X takes the values 0, 1, 2 and 3 with probabilities k, 2k, 3k and 4k respectively. Then P(X ≥ 2) equals:"
+    }
+   ]
+  },
+  {
+   "id": "b0e6bcaf-f295-4a35-b480-e6dd158bc133",
+   "batch": "w4-math-01",
+   "repairs": [
+    {
+     "field": "stem, options, explanation, ncert_ref",
+     "what": "Same idea as a live question (Poisson with P(X = 2) = P(X = 3), find the variance), with the key also equal to an index in the stem. Replaced by E(X²) = 12 for a Poisson variate.",
+     "changed_solver_view": true,
+     "old_stem": "A Poisson variate X satisfies P(X = 1) = P(X = 2). The variance of X is:"
+    }
+   ]
+  },
+  {
+   "id": "11d82cd8-6286-4725-b3bf-73accec44fda",
+   "batch": "w4-math-02",
+   "repairs": [
+    {
+     "field": "stem, options, explanation, ncert_ref",
+     "what": "Standard error of the sample mean (σ/√n) is already in the bank four times (avoid list: standard-error-of-sample-mean, variance-of-sample-mean). Replaced by counting simple random samples.",
+     "changed_solver_view": true,
+     "old_stem": "A population has mean 80 and standard deviation 12. Many random samples of size 36 are drawn and the mean of each sample is recorded. By the central limit theorem, the distribution of these sample means has:"
+    }
+   ]
+  },
+  {
+   "id": "57d63f4c-db78-4fe2-9139-842ea2014063",
+   "batch": "w4-math-02",
+   "repairs": [
+    {
+     "field": "stem, options, explanation, difficulty_label",
+     "what": "Multiple optimal solutions (objective parallel to a constraint) is tagged three times in the live bank and the avoid list. Replaced by counting the corner points of a feasible region that carries one redundant constraint. Label moved from hard to medium: two steps, so the file now has 4 hard, 11 medium.",
+     "changed_solver_view": true,
+     "old_stem": "Maximise Z = 2x + 4y subject to x + 2y ≤ 10, x ≤ 8, y ≤ 4, x ≥ 0 and y ≥ 0. The number of points at which Z attains its maximum value is:",
+     "old_label": "hard"
+    }
+   ]
+  },
+  {
+   "id": "fe67257f-25f9-46f8-911c-63ce57d6ed0c",
+   "batch": "w4-math-03",
+   "repairs": [
+    {
+     "field": "options (texts of A and B exchanged)",
+     "what": "WRONG KEY. The explanation (and the computation 0.015 / 0.045) gives 1/3, which sat at option A while the key said B (3/10, the share of output of machine B). Option texts A and B exchanged so that the key B is now 1/3. Explanation unchanged.",
+     "changed_solver_view": true
+    }
+   ]
+  },
+  {
+   "id": "449e1c7b-0d6d-4ea4-a7c2-85e2aa906779",
+   "batch": "w4-phys-02",
+   "repairs": [
+    {
+     "field": "explanation",
+     "change": "\"so the first statement fails\" -> \"so statement (A) fails\" (names the statement by its own label)",
+     "changed_solver_view": false
+    }
+   ]
+  },
+  {
+   "id": "0140bbdf-feae-48b9-a3bd-5c6e16f61c30",
+   "batch": "w4-phys-03",
+   "repairs": [
+    {
+     "field": "explanation",
+     "change": "Rewritten on Bohr energy levels (E_n = -13.6/n^2 eV, wavelength inversely proportional to photon energy) instead of the Rydberg formula; same key and numbers",
+     "changed_solver_view": false
+    }
+   ]
+  }
+ ],
+ "dropped": [
+  {
+   "id": "cf65736c-6cff-44a9-b21d-d02389e8014f",
+   "batch": "w4-bio-03",
+   "subject": "biology",
+   "chapter": "Organisms & Populations",
+   "reason": "out of syllabus: diapause is a response to abiotic factors (NCERT Ch 13 section 13.1); the 2026 Organisms and Populations syllabus line reads \"Population attributes - birth and death rate, age pyramids; Population growth - exponential and logistic growth; Life history variation; Population interactions - predation, competition, parasitism, commensalism, mutualism and amensalism\" and lists no responses to abiotic factors or adaptations"
+  }
+ ]
+}

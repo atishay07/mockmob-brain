@@ -1,0 +1,28 @@
+{
+  "id": "20261015T214146.542900Z-5e71e89d",
+  "observed_at": "2026-10-15T21:41:46.542900+00:00",
+  "agent": "claude-sonnet-server-packet",
+  "task": "repair4 server packet: repair check (fresh question), Ask question hand-off",
+  "status": "complete",
+  "done": "Built GET/POST /api/recovery/check, check field on the repair response, Ask hand-off (questionRef in chat route, /api/recovery/ask-context, Ask screen reads ?q). No new table, no model call, no extra credit. Commits e44f4970, 15aa802d, cf7e1fa0 on web/repair4-1016 (not pushed).",
+  "next": "repair-ui packet builds the Check it held UI against data/tests/fixtures/repair4/contract_check_v1.json; apply revise_cards migration (20261015210100) before slice 4 deploys; truth review of never-seen paths.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "data/repair_check.js",
+    "data/ask_context.js",
+    "src/services/recovery/repairCheck.js",
+    "src/services/recovery/repairCheckStore.js",
+    "src/services/recovery/repairCheckDeps.js",
+    "src/services/recovery/askContext.js",
+    "src/app/api/recovery/check/route.js",
+    "src/app/api/recovery/ask-context/route.js",
+    "src/app/api/ai/mentor/chat/route.js",
+    "src/components/ai/MockMobAIHub.jsx",
+    "data/tests/repair_check*.test.mjs",
+    "data/tests/fixtures/repair4/"
+  ],
+  "verification": "test:recovery 239/239, test:learning 277/277, test:app 268/268, test:nta 169/169, eslint clean; dev server 3141 compiles all four routes (401 unauthenticated). No authenticated end-to-end run (no hosted sign-in by agents).",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "20261016T074020.167432Z-414780d0",
+  "observed_at": "2026-10-16T07:40:20.168443+00:00",
+  "agent": "landing fixer round 7 (Claude Opus 5.5)",
+  "task": "Landing round-7 fixes for critic-6 in wt-land2 (web/land2-1015), from WIP a7a63e8d",
+  "status": "complete",
+  "done": "Commit a492e7f4 on web/land2-1015 (not pushed, not merged, not deployed). Fixed: dead \"Also on this page\" links on phones (.ss pinned root pointer-events none); one next move \"Practise 10 on Partnership\" in Lab SWOT, tour Ask Mobi and Recovery Plan; removed the \"same one Today shows\" claim; tour weak chapters match the Lab counts (3/10, 9/14, 14/15); Recovery Find closing line is new (18 of 28 marks on Partnership); type scale H1 72/42, H2 48/32, close 64/36, statement stepped, step titles 32/22; pricing \"Start free with 100 practice credits\"; AI credits naming; tour tabs 44 px; phone tour device top fixed; Recovery phone bands reduced; verdict bands; hero second key steps aside on wide screens after the sample; two shelf webps re-encoded.",
+  "next": "Critic round 7 on :3122 (HEAD a492e7f4). Open items: 11 page CSS files plus 3 layout CSS files in the production build (about 46 KB + 38 KB gzip), not merged; Lighthouse LCP not re-run; desktop Recovery Plan still has about 113 px between its note and the strip; one flaky Mistake Repair glide was seen once (landed on the Lab's first scene during an HMR recompile) and did not happen again in 4 reruns.",
+  "blockers": [],
+  "evidence": [
+    "mockmob-next/tmp/landing-1016/fix-r7/before (baseline probes)",
+    "mockmob-next/tmp/landing-1016/fix-r7/after4 (390/1440 Night and Day probes, JSON and frames, sheets)",
+    "mockmob-next/tmp/landing-1016/fix-r7/drill (sample runs and full repair)"
+  ],
+  "touched_files": [
+    "wt-land2/src/app/scroll-story.css",
+    "wt-land2/src/app/feature-tour.css",
+    "wt-land2/src/app/mistake-lab.css",
+    "wt-land2/src/app/landing.css",
+    "wt-land2/src/app/hero-v3.css",
+    "wt-land2/src/app/hero-depth.css",
+    "wt-land2/src/app/page.js",
+    "wt-land2/src/components/landing/MistakeLab.jsx",
+    "wt-land2/src/components/landing/FeatureTour.jsx",
+    "wt-land2/src/components/landing/HeroKeys.jsx",
+    "wt-land2/src/components/landing/DemoDrill.jsx",
+    "wt-land2/src/components/landing/labStory.test.mjs",
+    "wt-land2/public/art/subjects/obj-business.v2-256.webp",
+    "wt-land2/public/art/subjects/obj-economics.v2-256.webp"
+  ],
+  "verification": "eslint clean on changed files; node --test labStory.test.mjs 15/15; npx next build --webpack exit 0; headless Chrome 151 probes at 390x844 and 1440x900 in Night and Day: no horizontal overflow, no console errors, links hit-tested and clicked with a real pointer, sample run with real clicks at both widths.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

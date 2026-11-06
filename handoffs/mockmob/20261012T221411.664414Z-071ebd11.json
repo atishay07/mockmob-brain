@@ -1,0 +1,27 @@
+{
+  "id": "20261012T221411.664414Z-071ebd11",
+  "observed_at": "2026-10-12T22:14:11.664414+00:00",
+  "agent": "claude-code opus-5.5 (workflow subagent)",
+  "task": "Apply critique to design directions; write directions-final.md with owner questions (13 Oct 2026)",
+  "status": "complete",
+  "done": "Wrote docs/brain/design-2026-10-13/directions-final.md (1617 lines, ASCII). Kept directions.md. Three directions that differ in flow, IA and look: A \"Your Sheet\" (goal-first, the student's own OMR sheet, 4-tab dock with liquid bubble lens, Night graphite, Archivo + Hanken, overhead lamp-lit still life), B \"Cold Read\" (evidence first: paper, then real 10-question check, then goal; desk bar with Start pill; Show me evidence tags; cinematic season desk photography; Mona Sans), C \"Threads\" (Mobi conversation, inbox of mistake threads that close when Checked, contextual liquid-glass action shelf, light-first, 3D Mobi, trap cards to friends; Gabarito). Section 0 now has: onboarding contract (time estimate, ends on the real reveal, reminders after reveal, cold open first launch only, one hold ritual), payoff ledger and worry mapping, screen contract (day-one home, runner, before-mock sheet, Finish for now, repair/fresh check, You identity, widget), connections (web hand-off, Compass sync, NTA date, widget, share cards), vocabulary Found/Repaired/Checked/Holds, CSAS Round 1 terms with scale and category chip, copied HIGH/Revolut tokens removed, engineering gates, prototype-not-render rule, production image prompts. Recommendation E: A plus B's Show me tags plus C's threads and trap cards. Section G: 8 owner questions.",
+  "next": "Owner answers G1-G8. Then benchmarks B1/B2/B6/B7/B12 on M06, fonttools tnum check for Archivo and Mona Sans, art plates via owner's ChatGPT/Codex, HTML concept prototypes (A.10 + E.6) reviewed on M06, then design spec and build in order.",
+  "blockers": [
+    "Owner answers to G1-G8",
+    "M06 benchmarks pending",
+    "Guest check needs an API decision (G2)"
+  ],
+  "evidence": [
+    "DU figures verified from public/du/2026/offerings/b-com-hons.json: 55 colleges; Round 1 UR SRCC 924.3009, Hindu 919.8738, LSR 912.5385, Hansraj 907.5044, KMC 903.7315, Ramjas 895.5999, SVC 891.5004; SRCC OBC 849.1369, EWS 887.9131, SC 796.3987, ST 723.6367",
+    "Course counts verified: B.Com 44, BA Eco 40, BA Bus Eco 10, BMS 9, BBA FIA 2",
+    "rules.json B.Com (Hons): Language from List A + Maths or Accountancy + two from List B",
+    "data/cuet_chapter_priorities.json is an ordered list without frequency data",
+    "Weeks 13 Oct 2026 to 15 May 2027 = 30.6"
+  ],
+  "touched_files": [
+    "mockmob-next/docs/brain/design-2026-10-13/directions-final.md"
+  ],
+  "verification": "Document only. Headings checked for identical 11-subsection structure across A/B/C; file is pure ASCII; no Fixed/first list usage outside removal notes. Not verified: tnum in Archivo or Mona Sans (fonttools not installed, download not authorised); no images generated; M06 benchmarks not run.",
+  "cost_and_pending_requests": "None spent.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

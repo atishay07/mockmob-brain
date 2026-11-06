@@ -1,0 +1,20 @@
+{
+  "id": "20261015T181326.322424Z-d66ed2f1",
+  "observed_at": "2026-10-15T18:13:26.322424+00:00",
+  "agent": "scenes-agent",
+  "task": "Landing scenes: realistic times, readable Repair and SWOT on phones (wt-land2)",
+  "status": "paused",
+  "done": "Session times now realistic (bars 0:35 to 2:10, one 3:20 bar, change gaps at most 3:05, nothing near 10 min); Repair and SWOT have a short phone form at 390 px (trap headline, crossed D to checked B pair, three one-liners, tap for full text; four SWOT quadrants each with one line and a count). Desktop screens unchanged. Not committed, not visually captured.",
+  "next": "Checker captures 390x844 and 1440x900 of scenes Time, Changes, Repair (closed and open) and SWOT; tune spacing if the phone screens overflow (fit min 0.9 then inner scroll); commit per area.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "src/components/landing/labStory.mjs",
+    "src/components/landing/labStory.test.mjs",
+    "src/components/landing/LabCinema.jsx",
+    "src/app/lab-cinema.css"
+  ],
+  "verification": "node --test labStory.test.mjs 14 pass; eslint --max-warnings 0 clean on LabCinema.jsx, labStory.mjs, labStory.test.mjs; CSS brace check ok. No browser run (by rule).",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "20261031T072738.699270Z-01443bdf",
+  "observed_at": "2026-10-31T07:27:38.699270+00:00",
+  "agent": "claude-opus-5.5 session 16f96fa8",
+  "task": "Key cards: hardened, content grown, question pools audited; owner production steps ready",
+  "status": "paused",
+  "done": "web/1031-keycards 5c1d03a37 (wt-1031-keycards-web), 36 commits since 90fddb40d:\n- Code review: 4H/6M/12L all fixed. Transactional key_card_review RPC, paged reads, late replays, Free taste-only queues, validate sameContent.\n- Real-deck dev preview and screens polished against the real decks.\n- Printed quotes restored on 36 cards.\n- Mock picker caps a template stem at 2 per paper.\n- Content: 5,800 cards, 2,144 linked questions.\n  - Gap pass: about 60 new reviewed cards; English links 155.\n  - Conflict sweep: 18 held back.\n  - Fix round 2: 88 recovered.\n  - Duplicate sweep: 49 held back.\n- Pool audit of 2,875 live questions:\n  - 476 verified live re-tags in data/syllabus/retag-live-2026-10-31.json, with SQL and undo.\n  - 59 flawed-question fix/undo SQLs in docs/brain/intel-1031/answer-keys-2026-10-31.\n- App ui/1031-keycards 98c41a73e: emulator walk plus fixes, web display parity (383 real cards), L10/L7.\n- Handoff docs: mockmob-next 140038e48.",
+  "next": "Owner, in order:\n1. Look at the web shots (wt-1031-kc-realdeck/tmp/walk-1031/realdeck) and the app shots (wt-1031-keycards-app/tmp/walk-1031/app, app-parity).\n2. Production, each with a dry-run and its undo:\n   - syllabus_v2 migration (85 re-tags, pool shrink)\n   - key_cards migration\n   - live re-tag (476)\n   - flawed-question batches (59)\n   - a decision on the 218 outside-syllabus questions\n3. Merge web/1031-keycards to main (a fast-forward) and deploy with KEY_CARDS_ENABLED off, then turn it on.\n4. App v17 build.\n\nOptional later: distinct Accountancy questions (only on ask), and the 16 re-flagged cards.",
+  "blockers": [
+    "Production writes via execute_sql are denied by the session permission classifier; owner must apply SQL",
+    "Owner must see screens before KEY_CARDS_ENABLED goes on"
+  ],
+  "evidence": [
+    "docs/brain/HANDOFF-2026-10-31-KEYCARDS-3.md",
+    "docs/brain/intel-1031/CODE-REVIEW-2026-10-31.md",
+    "docs/brain/intel-1031/POOL-AUDIT-2026-10-31.md",
+    "docs/brain/intel-1031/answer-keys-2026-10-31/README.md"
+  ],
+  "touched_files": [
+    "wt-1031-keycards-web (web/1031-keycards)",
+    "wt-1031-keycards-app (ui/1031-keycards)",
+    "ncert-books/drafts, reviews, links, sweep, audit, fixlists2",
+    "mockmob-next docs/brain (NOW, ledger, prompt, handoff 3)"
+  ],
+  "verification": "Integration suites:\n- keycards 67, keycards-ui 23, syllabus 24, nta 229, subjects 61, learning 357, today 120, egress 101, recovery 637, health-egress 56, mock selector 5, parity 8.\n- study 61/62: the WordNet test also fails on base.\n- test:app 985/987: CRLF landing regex in this checkout only.\n- next build --webpack and lint pass at cc3e9d6f0.\n\nApp: analyze clean, 779 keycards, learn and review tests pass.\n\nProduction: read only.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

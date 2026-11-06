@@ -1,0 +1,220 @@
+   1  #### About
+   2  Source: https://ug.preparoo.app/ (index.html 1,111,207 bytes decoded; fetched 3 Nov 2026 20:42 UTC). Excerpts reformatted for reading (one statement per line); code otherwise unchanged. Analysis only, not for reuse.
+   3  
+   4  #### A. Hero heading, caret CSS and typewriter script (index.html char 81524)
+   5  <section class="section_home-header"><div class="padding-section-small is-mobile-medium"></div><div class="padding-global"><div class="home-header_headings"><h1 class="home-header_heading">Ace&nbsp;
+   6  </h1><h2 class="home-header_heading">the <span id="rotating-exam">CUET</span></h2><style>#rotating-exam{
+   7  display:inline-block;
+   8  }
+   9  /* Typewriter cursor (from the legacy UG hero) */#rotating-exam::after{
+  10  content:'|';
+  11  display:inline-block;
+  12  margin-left:0.06em;
+  13  animation:rex-blink 0.7s infinite;
+  14  font-weight:100;
+  15  transform:scaleX(0.3);
+  16  }
+  17  @keyframes rex-blink{
+  18  0%,49%{
+  19  opacity:1;
+  20  }
+  21  50%,100%{
+  22  opacity:0;
+  23  }
+  24  }
+  25  </style><script>// The rotating-exam span is pre-rendered with examNames[0] in HTML so LCP is not gated on JS.
+  26  // The loop starts in "word complete, about to delete" state to preserve the visual.
+  27  (function(){
+  28  const examNames=['CUET','IPMAT'];
+  29  let currentIndex=0;
+  30  let charIndex=examNames[0].length;
+  31  let isDeleting=false;
+  32  const rotatingElement=document.getElementById('rotating-exam');
+  33  if(!rotatingElement)return;
+  34  const typingSpeed=150;
+  35  const deletingSpeed=100;
+  36  const pauseAfterWord=2000;
+  37  const pauseAfterDelete=500;
+  38  function typeWriter(){
+  39  const currentWord=examNames[currentIndex];
+  40  if(!isDeleting&&charIndex<=currentWord.length){
+  41  rotatingElement.textContent=currentWord.substring(0,charIndex);
+  42  charIndex++;
+  43  if(charIndex>currentWord.length){
+  44  setTimeout(function(){
+  45  isDeleting=true;
+  46  typeWriter();
+  47  }
+  48  ,pauseAfterWord);
+  49  return;
+  50  }
+  51  setTimeout(typeWriter,typingSpeed);
+  52  }
+  53  else if(isDeleting&&charIndex>=0){
+  54  rotatingElement.textContent=currentWord.substring(0,charIndex);
+  55  charIndex--;
+  56  if(charIndex<0){
+  57  isDeleting=false;
+  58  currentIndex=(currentIndex+1)%examNames.length;
+  59  charIndex=0;
+  60  setTimeout(typeWriter,pauseAfterDelete);
+  61  return;
+  62  }
+  63  setTimeout(typeWriter,deletingSpeed);
+  64  }
+  65  }
+  66  setTimeout(typeWriter,500);
+  67  }
+  68  )();
+  69  </script></div></div>
+  70  
+  71  #### B. Headline size overrides (phone, desktop)
+  72  .home-header_heading{
+  73      font-size:10vw!important;
+  74    }
+  75  .home-header_heading{font-size:clamp(4rem,11vw,14rem)!important;}
+  76  
+  77  #### C. Value-line markup (five lines)
+  78  <div class="home-header_words-wrap" id="prep-words-wrap"><div style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+  79  -moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+  80  -ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+  81  transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="home-header_words" id="prep-words"><div class="home-header_word"><div class="home-header_subhead">Mocks that represent past year patterns</div></div><div class="home-header_word _2"><div class="home-header_subhead">Simple solutions which make sense</div></div><div class="home-header_word _3"><div class="home-header_subhead">Topic tests for targeted practice</div></div><div class="home-header_word _4"><div class="home-header_subhead">Flashcards with spaced repetition for retention</div></div><div class="home-header_word _5"><div class="home-header_subhead">Analytics which help you prioritize</div></div></div></div>
+  82  
+  83  #### D. Value-line CSS (char 1087914)
+  84  /* Rotating words - 3-line height override */
+  85  #prep-words-wrap{
+  86    height:calc(2.75rem * 1.15 * 3)!important;
+  87    overflow:clip;
+  88  }
+  89  #prep-words .home-header_word,
+  90  #prep-words .home-header_word._2,
+  91  #prep-words .home-header_word._3,
+  92  #prep-words .home-header_word._4,
+  93  #prep-words .home-header_word._5{
+  94    min-height:calc(2.75rem * 1.15 * 3);
+  95    align-items:flex-start;
+  96  }
+  97  #prep-words .home-header_word._2{
+  98  top:100%}
+  99  #prep-words .home-header_word._3{
+ 100  top:200%}
+ 101  #prep-words .home-header_word._4{
+ 102  top:300%}
+ 103  #prep-words .home-header_word._5{
+ 104  top:400%}
+ 105  .home-header_subheading h3.home-header_subhead{
+ 106  
+ 107  #### E. Value-line rotation script (char 1094606)
+ 108  var el=document.getElementById('prep-words');
+ 109    if(!el)return;
+ 110    var total=el.querySelectorAll('.home-header_word').length;
+ 111    if(!total)return;
+ 112    var current=0;
+ 113    // Clone first word and append so last→first transition is seamless
+ 114    var firstWord=el.querySelector('.home-header_word');
+ 115    if(firstWord){
+ 116      var clone=firstWord.cloneNode(true);
+ 117      clone.className='home-header_word _clone';
+ 118      clone.style.position='absolute';
+ 119      clone.style.top=(total*100)+'%';
+ 120      clone.style.left='0';
+ 121      clone.style.width='100%';
+ 122      el.appendChild(clone);
+ 123    }
+ 124    function getBlockHeight(){
+ 125      return firstWord?firstWord.offsetHeight:0;
+ 126    }
+ 127    var animating=false;
+ 128    function animate(){
+ 129      if(animating)return;
+ 130      current++;
+ 131      var h=getBlockHeight();
+ 132      el.style.transition='transform 0.6s cubic-bezier(0.25,0.1,0.25,1)';
+ 133      el.style.transform='translate3d(0,-'+(current*h)+'px,0)';
+ 134      if(current>=total){
+ 135        animating=true;
+ 136        setTimeout(function(){
+ 137          el.style.transition='none';
+ 138          el.style.transform='translate3d(0,0,0)';
+ 139          current=0;
+ 140          animating=false;
+ 141        }
+ 142  ,650);
+ 143      }
+ 144    }
+ 145    setTimeout(function(){
+ 146      el.style.transition='none';
+ 147      el.style.transform='translate3d(0,0,0)';
+ 148      setInterval(animate,3000);
+ 149    }
+ 150  ,500);
+ 151  }
+ 152  )();
+ 153  
+ 154  
+ 155  #### F. IX2 e-29 + a-21 "HOME - Contact Mark dot" (CTA dot pulse, looping)
+ 156  "e-29":{
+ 157  id:"e-29",name:"",animationType:"custom",eventTypeId:"PAGE_START",action:{
+ 158  id:"",actionTypeId:"GENERAL_START_ACTION",config:{
+ 159  delay:0,easing:"",duration:0,actionListId:"a-21",affectedElements:{
+ 160  }
+ 161  ,playInReverse:!1,autoStopEventId:"e-30"}
+ 162  }
+ 163  ,mediaQueries:["main","medium","small","tiny"],target:{
+ 164  id:"6840876d4d1ed0e8e2a330fc",appliesTo:"PAGE",styleBlockIds:[]}
+ 165  ,targets:[{
+ 166  id:"6840876d4d1ed0e8e2a330fc",appliesTo:"PAGE",styleBlockIds:[]}
+ 167  ],config:{
+ 168  loop:!0,playInReverse:!1,scrollOffsetValue:null,scrollOffsetUnit:null,delay:null,direction:null,effectIn:null}
+ 169  ,createdOn:0x19756f108ac}
+ 170  "a-21":{
+ 171  id:"a-21",title:"HOME - Contact Mark dot",actionItemGroups:[{
+ 172  actionItems:[{
+ 173  id:"a-21-n",actionTypeId:"TRANSFORM_SCALE",config:{
+ 174  delay:0,easing:"",duration:500,target:{
+ 175  selector:".home-header_contact-dot-scale",selectorGuids:["30d18561-21a0-174b-ef3a-91553be2f769"]}
+ 176  ,xValue:0,yValue:0,locked:!0}
+ 177  }
+ 178  ,{
+ 179  id:"a-21-n-5",actionTypeId:"STYLE_OPACITY",config:{
+ 180  delay:0,easing:"",duration:500,target:{
+ 181  selector:".home-header_contact-dot-scale",selectorGuids:["30d18561-21a0-174b-ef3a-91553be2f769"]}
+ 182  ,value:1,unit:""}
+ 183  }
+ 184  ,{
+ 185  id:"a-21-n-3",actionTypeId:"GENERAL_DISPLAY",config:{
+ 186  delay:0,easing:"",duration:0,target:{
+ 187  selector:".home-header_contact-dot-scale",selectorGuids:["30d18561-21a0-174b-ef3a-91553be2f769"]}
+ 188  ,value:"block"}
+ 189  }
+ 190  ]}
+ 191  ,{
+ 192  actionItems:[{
+ 193  id:"a-21-n-2",actionTypeId:"TRANSFORM_SCALE",config:{
+ 194  delay:750,easing:"outCubic",duration:1e3,target:{
+ 195  selector:".home-header_contact-dot-scale",selectorGuids:["30d18561-21a0-174b-ef3a-91553be2f769"]}
+ 196  ,xValue:1,yValue:1,locked:!0}
+ 197  }
+ 198  ,{
+ 199  id:"a-21-n-6",actionTypeId:"STYLE_OPACITY",config:{
+ 200  delay:750,easing:"outCubic",duration:1e3,target:{
+ 201  selector:".home-header_contact-dot-scale",selectorGuids:["30d18561-21a0-174b-ef3a-91553be2f769"]}
+ 202  ,value:0,unit:""}
+ 203  }
+ 204  ]}
+ 205  ,{
+ 206  actionItems:[{
+ 207  id:"a-21-n-4",actionTypeId:"TRANSFORM_SCALE",config:{
+ 208  delay:0,easing:"",duration:0,target:{
+ 209  selector:".home-header_contact-dot-scale",selectorGuids:["30d18561-21a0-174b-ef3a-91553be2f769"]}
+ 210  ,xValue:0,yValue:0,locked:!0}
+ 211  }
+ 212  ,{
+ 213  id:"a-21-n-7",actionTypeId:"STYLE_OPACITY",config:{
+ 214  delay:0,easing:"",duration:0,target:{
+ 215  selector:".home-header_contact-dot-scale",selectorGuids:["30d18561-21a0-174b-ef3a-91553be2f769"]}
+ 216  ,value:1,unit:""}
+ 217  }
+ 218  ]}
+ 219  ],useFirstGroupAsInitialState:!0,createdOn:0x19756f720a4}
+ 220  

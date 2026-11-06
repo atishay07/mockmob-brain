@@ -1,0 +1,22 @@
+{
+  "id": "20261018T142324.535437Z-0a230c77",
+  "observed_at": "2026-10-18T14:23:24.536436+00:00",
+  "agent": "claude-opus-subagent track H (app Pro nudges)",
+  "task": "Track H: app Pro nudges in wt-pro-nudge-app (ui/pro-nudge-1018), finish after STOP POINT a00ddfe1",
+  "status": "active",
+  "done": "Reviewed a00ddfe1. First-session rules now match the web proNudge.mjs: the first session is the run in which onboarding was sealed (new onboardedThisRunProvider, set in AnswersController.seal), at most 6 h after it, and only an action taken after onboarding counts; shown once (marked before it opens, re-checked against the clock when shown); there is a 1.8 s beat on a calm tab root; never on onboarding, never for Pro, never with PLAY_BILLING off. Students who signed straight in, or accounts set up before this build, never see it (same as web). Copy is in the web voice: a headline and lede for each reason, four benefit lines (a personal line replaces its plain one), and inline row actions Go unlimited / See Pro. The owner's D79/D80 wording is used. No price appears in the copy; the sheet shows Google Play's price string only. Caps: 7 days quiet per surface, one row per screen (test). Fixed the sheet's key row overflowing at 1.3x text and 360 px wide (now a Wrap). Commits: 9f4ef89c, 35fe7aff, ef0af57e, plus the final commit.",
+  "next": "The main session merges ui/pro-nudge-1018 after the independent check. Emulator walk with PLAY_BILLING on. Note: the Get Pro sheet (billing) may have the same Not now/Restore Row overflow at 1.3x text and 360 px.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "flutter_app/lib/features/pro_nudge/**",
+    "flutter_app/lib/core/repositories/student_actions.dart",
+    "flutter_app/lib/features/onboarding/state/answers_controller.dart",
+    "flutter_app/lib/core/router/app_shell.dart",
+    "flutter_app/test/unit/pro_nudge/**",
+    "flutter_app/test/golden/pro_nudge/**"
+  ],
+  "verification": "flutter analyze clean (whole app). The pro_nudge unit and widget tests pass (58). 24 new goldens pass and were opened. Full unit suite run: result pending at checkpoint time.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

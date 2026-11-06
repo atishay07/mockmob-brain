@@ -1,0 +1,29 @@
+{
+  "id": "20261009T205106.185638Z-5a0059a5",
+  "observed_at": "2026-10-09T20:51:06.185638+00:00",
+  "agent": "Codex root",
+  "task": "Final focused CUET V713 pass: sealed final study execution",
+  "status": "active",
+  "done": "Prepared and independently audited 37-case mixed study (31 fresh, 6 regression), frozen unchanged academic and R3 execution contracts. Final recovery owner GET-only reconciled old accepted Gemini batch: terminal batch_failed_usage_missing on exactly four unresolved keys, holds retained, no POST. Conditional single paid GO already given; no R3 inference yet at checkpoint.",
+  "next": "Execution owner final_verification_recovery verifies bindings/process/ledger/TLS, launches exactly once R3 approved with --use-system-ca under $1 cap. Monitor existing session and account every accepted request; no unknown repost/replacement/auto-restart. Collect exact decisions/receipts before release/pilot/staging claims.",
+  "blockers": [
+    "No genuine V713 qualification, premium quality/yield or cost per10k evidence yet.",
+    "19 original/R2 diagnostic unknowns and old missing-usage holds must not be resubmitted.",
+    "R3 full bound exceeds study STOP cap; budget stop stays incomplete."
+  ],
+  "evidence": [
+    "execution/final-pass-v713/CONTRACT-FREEZE.json SHA82de56e6299d312cbbee86a636f7ddff41daf8ca4a626204ca714541935481f4",
+    "EXECUTION-CORRECTION-R3.json SHA9af13e0e9d3c99646a454b45fa60ca7fd03a09159f4fba11f5d10239e37be4e1",
+    "qualification-fresh31-regression6/registration.json SHA45ddc15b8e4f668ba1151c2e2e513b92a2f55dfec3d1e2925a930b2112018fff"
+  ],
+  "touched_files": [
+    "docs/brain/STATUS.md",
+    "scripts/pipeline/lib/trustedNetworkV713R3.mjs",
+    "scripts/pipeline/lib/mixedCustodyV713R3.mjs",
+    "scripts/pipeline/tools/runQualificationV713R3.mjs",
+    "scripts/pipeline/tools/collectMixedQualificationV713R3.mjs"
+  ],
+  "verification": "Luna independent audit 222 request bodies max23695 bytes, no blind label/key leaks, exact disjoint scope and hashes; 25 focused checks pass. 0/37 empty collector incomplete, not pass or academic failure.",
+  "cost_and_pending_requests": "USD38.542448 settled +0.821324 held =39.363772 committed, 65 unresolved, zero dispatching. Old four Gemini holds USD0.079152 included. R3 USD1 STOP cap versus USD6.273276 full request bound; completion not guaranteed; lifetime USD50 unchanged.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

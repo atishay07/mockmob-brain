@@ -1,0 +1,24 @@
+{
+  "id": "20261009T214734.350058Z-559c8684",
+  "observed_at": "2026-10-09T21:47:34.350058+00:00",
+  "agent": "/root/final_verification_recovery",
+  "task": "R3 CUET qualification final verification handoff",
+  "status": "complete",
+  "done": "Receipt-only reconciliation confirmed the older accepted Gemini batch terminal at provider level but four item rows lacked usage; those $0.019788 holds remain unresolved. The single authorized R3 qualification runner finished and its collector evidence was exported. Final R3: 37 denominator; 36 source_support gate quarantines (fresh 17 expected-valid +13 expected-defect; regression 2 expected-valid +4 expected-defect), one fresh expected-valid provider_output_incomplete error, no eligible item, formal collector paused and runner incomplete. All 77 provider receipts settled with usage; R3 actual $0.263696, held $0. Global ledger now $38.806144 settled plus $0.821324 held across 65 unresolved requests, no dispatching or active batch. No publication or release manifest.",
+  "next": "Root owns additive V715 matcher/schema correction; difficulty_selection_final owns its targeted test and body-sizing review. This agent performed no V715 rerun per root instruction. Do not rerun qualification or replay the 65 old unresolved holds.",
+  "blockers": [],
+  "evidence": [
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v713/qualification-fresh31-regression6/qualification-evidence-1791582257260.json SHA-256 9e8a75a0ee143a5c3947e14085bb501fe0f3b5cc069791bfe54a2512e15bd991",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v713/qualification-fresh31-regression6/summary.json SHA-256 f492966acf6ae8790e9a9fbc9fd1c2910ee14db12400458fddd4411f68899741",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v713/qualification-fresh31-regression6/cost-preregistration.json SHA-256 62b3d818f6a47bc43ed97596cec0e4746f2c1dffd597df62aed147e5848a7952",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v713/qualification-fresh31-regression6/state.json SHA-256 b4dd7867349f534da817cfc3fdc14e192064e739e8e2b3a9e86ee553a271212f",
+    "academic freeze 82de56e6299d312cbbee86a636f7ddff41daf8ca4a626204ca714541935481f4; R3 delta 9af13e0e9d3c99646a454b45fa60ca7fd03a09159f4fba11f5d10239e37be4e1; seal 1942b5d45fcb5ee81f1757fdc68a8e274b3262d39154f802270d78ad6a24265d"
+  ],
+  "touched_files": [
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v713/qualification-fresh31-regression6/qualification-evidence-1791582257260.json",
+    "scripts/pipeline/tests/mixedQualificationCollectorV713R3.integration.test.mjs"
+  ],
+  "verification": "Focused tests had passed 25/25 before the paid run; prior broad factory/recovery/app-build checks were already green and were not repeated. All 118 academic freeze hashes and all 8 R3 delta hashes matched; registration, exact 222-body preflight, seal and pricing bindings verified. Final process check found no runner or active provider batch.",
+  "cost_and_pending_requests": "R3 settled $0.263696 with zero hold. Older outstanding holds remain $0.821324 across 65 unresolved ledger rows, including four Gemini accepted rows without usage.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

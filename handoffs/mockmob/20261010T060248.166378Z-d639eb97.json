@@ -1,0 +1,24 @@
+{
+  "id": "20261010T060248.166378Z-d639eb97",
+  "observed_at": "2026-10-10T06:02:48.166378+00:00",
+  "agent": "fresh_blind_custody",
+  "task": "Bounded V717 stopped single-case academic diagnosis q717-24a5b6b47bfb7b7caa018bf3",
+  "status": "complete",
+  "done": "Independent local diagnosis supports candidate unique answer D and actual authored two-sentence explanation. Both frozen blind reports agree D. Explanation audit mixed four negative claim statuses from wrong options and Gemini blind reasoning while marking overall explanation/options supported, producing recorded audit_claim_status_contradiction/review_incomplete. No candidate academic defect established.",
+  "next": "Root owns stopped-run handoff and any separately authorized future policy work. Preserve frozen outcome and do not resume dispatch from this diagnosis.",
+  "blockers": [
+    "Frozen qualification remains stopped review_incomplete; this diagnosis is not result recoding or qualification/release evidence."
+  ],
+  "evidence": [
+    "Diagnosis JSON SHA256 efa3bd9b8a41a0b1d6a9b9544bd7283b8ddf4a6be9d3d00e6f7711c948b1afff",
+    "Diagnosis MD SHA256 f466aa7e9b193f36879670bb4edfe24406a8384d6e074e08dc345fd43256602b",
+    "Decisive ncertcol-lebs201-v1 p8-c0-g1-s0 exact quote and hashJSON support verified 74af232451e2c37ca2fb539f56650adb5db2c00a0609339641859ef35ad8f40d"
+  ],
+  "touched_files": [
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/diagnosis/q717-24a5b6b47bfb7b7caa018bf3-academic-diagnosis.json",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/diagnosis/q717-24a5b6b47bfb7b7caa018bf3-academic-diagnosis.md"
+  ],
+  "verification": "Only scoped candidate, decisive registry source, packet syllabus and frozen state reports reviewed. All input bytes unchanged. Claim-by-claim exact origin quotes recorded. No ledger/runtime/case/label/outcome changes or native calls. Created read-only create-only JSON/MD/hash receipts.",
+  "cost_and_pending_requests": "No provider calls by this diagnosis. Root owns prior paid qualification receipts and frozen stop; no further dispatch authorized here.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

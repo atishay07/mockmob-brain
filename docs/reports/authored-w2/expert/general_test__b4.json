@@ -1,0 +1,26 @@
+{
+  "batch": "general_test__b4",
+  "subject": "general_test",
+  "pass": "wave 2 expert pass (14 Oct 2026), per AUTHORED-QUESTIONS-WAVE1-2026-10-14.md step 5",
+  "source_file": "tmp/authored-w2/general_test/general_test__b4.json",
+  "reviewed": "accepted=true questions only (wave2-acceptance-2026-10-14.json)",
+  "counts": {"ready": 12, "repaired": 3, "practice": 0, "reject": 0},
+  "verdicts": [
+    {"id": "93c5836f-3a88-4e09-a9c5-f6ca68310aac", "verdict": "ready", "why": "Sum 56, difference 12 gives larger number 34 (key C). Distractors 22, 28 and 44 are each traceable errors. Explanation checks out."},
+    {"id": "8765d713-d191-4102-9adf-5902017d9eec", "verdict": "ready", "why": "d = (46-31)/5 = 3, a = 31 - 6x3 = 13 (key A). Verified: 12th term = 13 + 33 = 46. Distractors are plausible slips."},
+    {"id": "d4924246-f8a5-425b-981e-49f853ec2fb9", "verdict": "repaired", "why": "Key D (144) is correct: (sum)^3 - 3*product*sum = 216 - 72. Both quality judges rated the item medium, not hard, so the label was changed to medium. Key and options are unchanged.", "repair": "difficulty_label hard -> medium"},
+    {"id": "d7b0ee45-766d-46b3-8d8f-7372385c2d4f", "verdict": "repaired", "why": "Key B (1/221) is correct: (4/52)(3/51) = 12/2652 = 1/221. The 1/169 distractor is the independent-draw trap and is handled in the explanation. Both quality judges rated the item medium, so the label was changed to medium.", "repair": "difficulty_label hard -> medium"},
+    {"id": "025f4012-5ca9-4595-a4b7-852759a2d1c8", "verdict": "ready", "why": "A: roots 2 and 7, sum 9 (III). B: product 12/2 = 6 (II). C: common difference 5 (I). D: mean 40/4 = 10 (IV). Key D matches. Each option is a distinct permutation, so the item is balanced."},
+    {"id": "19c92a58-54bb-42f4-8b98-6e3c53f50b81", "verdict": "ready", "why": "8 m N, 6 m E, 8 m S gives net displacement 6 m east (key D). Turn directions are correct. Distractor 8 m south is the 'last leg only' error."},
+    {"id": "d2fbadc9-04de-40a4-b445-0e97210ccfbe", "verdict": "ready", "why": "MOUSE to NPVTF is a +1 shift. HORSE to IPSTF (key C) applies the same shift. IPTSF is a transposition distractor and is clearly wrong."},
+    {"id": "78983612-08d4-45d9-8caa-c4251f864ad5", "verdict": "ready", "why": "A is B's brother and B is E's father, so A is E's uncle (key B). The distractors (brother, cousin, nephew) are each wrong for this chain."},
+    {"id": "ceb5b49c-70f4-4470-968b-469c49e4293f", "verdict": "ready", "why": "Priya 17th, Ankit 23rd, Ravi 19th from left. From right: 40 - 19 + 1 = 22 (key D). Distractor 18 is Ankit's position from the right, a valid wrong-student trap."},
+    {"id": "002eea42-1b69-4f2c-8df4-a0f7645ef8c2", "verdict": "ready", "why": "Some pencils are erasers, and no pen is a pencil, so some erasers are not pens: Conclusion I follows (key A). Conclusion II does not follow because erasers outside pencils may still be pens."},
+    {"id": "93e3dc53-a562-4eb4-b4b3-d30d272cbb9d", "verdict": "repaired", "why": "Key C (65) is correct: differences 1, 2, 4, 8, 16 double, so the next term is 33 + 32 = 65. Equivalently, each term is 2x previous - 1. Both quality judges rated the item medium, so the label was changed to medium.", "repair": "difficulty_label hard -> medium"},
+    {"id": "3caf144d-4989-42ab-ab0a-0d8c0b2bec7b", "verdict": "ready", "why": "At 3:20 the hour hand is at 100 degrees and the minute hand at 120 degrees, so the smaller angle is 20 degrees (key B). Distractor 30 is the stationary-hour-hand error."},
+    {"id": "505a5821-7f27-45da-bb31-1edb9fa1ee24", "verdict": "ready", "why": "Jan 1 to Dec 1 in a non-leap year is 334 days. 334 mod 7 = 5, and Monday + 5 = Saturday (key D). Hard label is consistent with both judges."},
+    {"id": "e5e8ea06-259a-416e-b150-12380a8a5e5f", "verdict": "ready", "why": "Unit-to-quantity analogy: litre measures volume, metre measures length (key A). Area is the square-metre trap. The item is easy but correct and unambiguous."},
+    {"id": "60bb3178-ce88-454c-877e-a94f60778bcb", "verdict": "ready", "why": "Both A and R are true. Earth's west-to-east rotation causes the Sun's apparent east-to-west motion, so R explains A (key C). NCERT Class 6 Geography ch. 3 reference is consistent."}
+  ],
+  "not_reviewed": "The 5 questions with accepted=false (e252a37c, 7449b255, 0a7c932c, dd881d0d, 6ad20aac) are outside the acceptance set. They fail the fit record rule (invalid h1 unit record, provisional only) and were not expert-reviewed."
+}

@@ -1,0 +1,1067 @@
+{
+ "subject": "accountancy",
+ "examined": 460,
+ "counts": {
+  "ok": 282,
+  "move": 161,
+  "outside_syllabus": 2,
+  "outside_ncert": 1,
+  "flawed": 14
+ },
+ "templateNearDuplicates": 138,
+ "templateNearDuplicateExampleId": "00e30f6f-9ed7-43d5-a9f3-f7ba4a84781e",
+ "admissionRatioChangeTemplateCount": 114,
+ "items": {
+  "02ad0c82-eb2d-44aa-b1b1-1dc6917c1b12": {
+   "stored": "Profit & Loss Appropriation Account",
+   "verdict": "flawed",
+   "why": "common-size statements use net sales as base; keyed B (net profit) is wrong, D is the standard base"
+  },
+  "038abe6f-5f64-4a32-b7a6-d85581eebdaf": {
+   "stored": "Goodwill Valuation",
+   "verdict": "move",
+   "to": "accountancy.retirement-and-death-of-partner",
+   "why": "retiring partner goodwill entries"
+  },
+  "05bd57e2-e4e6-4f23-ab88-14989056e8df": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "05d4a2df-da6b-4e1e-91b2-4413795bc2df": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "06dfac31-ad9b-475e-b9d2-201c12720b70": {
+   "stored": "Change in Profit Sharing Ratio",
+   "verdict": "flawed",
+   "why": "statement III (premium on change among existing partners) and I are muddled; key C ambiguous"
+  },
+  "06ed6057-32f3-4867-8c7b-d1927bbe9c87": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "07a9bed4-9d81-4322-9b6b-f397b8b51d1e": {
+   "stored": "Dissolution of Partnership",
+   "verdict": "move",
+   "to": "accountancy.accounting-ratios",
+   "why": "tests current, debt-equity and cash ratios"
+  },
+  "085c0215-9114-485d-bc6e-632f6072a7f6": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "09167df4-64d3-4872-ba38-8a940604516c": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "0a7b3745-61a6-459d-bdf6-d834af81ff86": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "0ab795b0-5ea8-46d7-bc87-93ad0e376cc1": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "0adac5f5-373b-4031-be9e-010a4fb4858b": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "0b82891f-abd9-4fc0-90fd-c1bf982154fd": {
+   "stored": "Goodwill Valuation",
+   "verdict": "move",
+   "to": "accountancy.retirement-and-death-of-partner",
+   "why": "goodwill on death, executors"
+  },
+  "0d1cf98b-1832-4a33-a476-87ffbbcd3842": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "0dcd572e-280f-474d-9d68-5405683dc2bc": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "0eda308a-26f0-4a08-8d82-fd2e15a2837e": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "11804d52-3836-4898-a249-9c4cb9e54c4e": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "157db1fb-523a-4481-881f-20707f2ec185": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "16298ac4-3a87-4d2b-a9d0-ba080d989284": {
+   "stored": "Dissolution of Partnership Firm",
+   "verdict": "move",
+   "to": "accountancy.comparative-and-common-size-statements",
+   "why": "comparative vs common-size statements"
+  },
+  "17683b59-e967-4559-99bb-aeba60574316": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "193466d1-4a6f-4523-89d0-358f408b008a": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "19bdd1d2-6e66-4860-b4fb-e29caf5c9e2b": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "1ac5d4b8-ae6f-4052-bff2-c43f5d7098a7": {
+   "stored": "Dissolution of Partnership",
+   "verdict": "move",
+   "to": "accountancy.accounting-ratios",
+   "why": "goodwill sale vs current ratio"
+  },
+  "1b1b7a4b-355f-48e5-861c-d7b546975896": {
+   "stored": "Profit & Loss Appropriation Account",
+   "verdict": "move",
+   "to": "accountancy.admission-of-partner",
+   "why": "premium from new partner on admission"
+  },
+  "1b713283-f423-4bcd-8acf-49538c9f5ff9": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "1cde9291-2fd4-4387-8e48-689e6ce6635d": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "1ec54639-51b4-4aa0-adb3-6a894e39ccf6": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "1f2c1ce8-347e-4017-93e5-c3c49dd3a129": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "1f8c7292-58b6-4886-a276-ae51504acbcd": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "212dadfc-fc2b-4bab-ada7-c83b36b7b717": {
+   "stored": "Retirement & Death of Partner",
+   "verdict": "flawed",
+   "why": "options A and C identical and both correct"
+  },
+  "262ac325-d43d-4f63-a37c-3ac5eaabfc00": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "26e013938707cad0ddca6fab9c51ebce": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.goodwill-valuation",
+   "why": "method of valuing goodwill"
+  },
+  "26fba28a-3d30-49ef-bfb0-bde97d7b1229": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "2991c27f-bec6-4f08-8af5-dc06bd9ae41a": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.cash-flow-statement",
+   "why": "investing cash flow computation"
+  },
+  "2aefb336-fada-4b6d-baf2-1c37df1b1899": {
+   "stored": "Dissolution of Partnership Firm",
+   "verdict": "move",
+   "to": "accountancy.computerized-accounting-system",
+   "why": "audit trail in computerised package"
+  },
+  "2bf85d2b-1c06-4648-a534-522e7f47325f": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "2cb64d6f-e3e7-40df-ba24-6041d0bb5347": {
+   "stored": "Dissolution of Partnership Firm",
+   "verdict": "flawed",
+   "why": "options A and D are the same entry (Dr Cash Cr Realisation)"
+  },
+  "2dcc0b3f-1a22-4c4c-a218-68402fba4a83": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "2e218bda-0d34-4483-8f83-c0bb07c271ef": {
+   "stored": "Change in Profit Sharing Ratio",
+   "verdict": "move",
+   "to": "accountancy.admission-of-partner",
+   "why": "admission of Z, reserves before admission"
+  },
+  "2e8b6e53-8179-48c6-baac-8194962ef908": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "2f0000c0-609e-4418-a55f-7ab7c6e0cf6b": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "3380bc91-a8bd-4368-ab65-af95955d5724": {
+   "stored": "Goodwill Valuation",
+   "verdict": "move",
+   "to": "accountancy.retirement-and-death-of-partner",
+   "why": "retiring partner goodwill settlement"
+  },
+  "34119e0e-8242-4a0e-a2f5-2d351c17e882": {
+   "stored": "Dissolution of Partnership Firm",
+   "verdict": "move",
+   "to": "accountancy.comparative-and-common-size-statements",
+   "why": "common-size balance sheet"
+  },
+  "3452e48e-430c-4700-b342-1e448ffafc36": {
+   "stored": "Retirement & Death of Partner",
+   "verdict": "flawed",
+   "why": "entry direction wrong: keyed B debits retiring C; correct is Dr A,B capital Cr C capital (option C)"
+  },
+  "36bb3166-be87-4249-9f06-dc594741af39": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.accounting-ratios",
+   "why": "cost of goods sold from net sales and gross profit"
+  },
+  "36c7cc14-e0a6-4513-9861-61a07634ad05": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "3774e34e-2b82-44ec-8b76-5d1f9c3ba06c": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "3ab58e08-6039-4be3-a633-e2147f54e39d": {
+   "stored": "Profit & Loss Appropriation Account",
+   "verdict": "flawed",
+   "why": "interest on capital and salary (items 1 and 2) fit both A and D; keyed matching ambiguous"
+  },
+  "3db595a5-fe7e-4268-bab0-3ac5f23040f3": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "439f887c-76ed-445e-9c35-455453533803": {
+   "stored": "Goodwill Valuation",
+   "verdict": "move",
+   "to": "accountancy.accounting-ratios",
+   "why": "effect on debt-equity ratio"
+  },
+  "45e5ee65-7379-4bef-b36e-9c86ad4b9bc1": {
+   "stored": "Goodwill Valuation",
+   "verdict": "move",
+   "to": "accountancy.retirement-and-death-of-partner",
+   "why": "retiring partner goodwill settled by debentures"
+  },
+  "47c5b80b-7830-4803-9d7d-932054e0b230": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.cash-flow-statement",
+   "why": "investing cash flow computation"
+  },
+  "484261b7-015d-40eb-88c0-46f17e68029a": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "49e933d5-900f-46bd-9cec-5d577c1234a7": {
+   "stored": "Goodwill Valuation",
+   "verdict": "move",
+   "to": "accountancy.retirement-and-death-of-partner",
+   "why": "gaining ratio on retirement of C"
+  },
+  "4b0337c7-6924-4185-808a-bab287d9ecb3": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "506d032e-46bc-4285-b0b5-848105051663": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "521f4b6c-e678-4485-a59d-5f6e86e7c808": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "538c5fc4-37e3-4cf9-9790-7a7fbf129014": {
+   "stored": "Goodwill Valuation",
+   "verdict": "move",
+   "to": "accountancy.retirement-and-death-of-partner",
+   "why": "retiring partner goodwill entry"
+  },
+  "5416570a-6367-4f4f-901e-cc73a42e1bb2": {
+   "stored": "Goodwill Valuation",
+   "verdict": "move",
+   "to": "accountancy.retirement-and-death-of-partner",
+   "why": "retiring partner goodwill via gaining ratio"
+  },
+  "541791ba-cea2-4679-a599-fbe554237e6c": {
+   "stored": "Admission of Partner",
+   "verdict": "outside_syllabus",
+   "why": "accounting equation, shareholders' equity from assets and liabilities (basic accounting)"
+  },
+  "56c9e3ec-93d1-40cd-bf11-6a69e82f741c": {
+   "stored": "Goodwill Valuation",
+   "verdict": "move",
+   "to": "accountancy.retirement-and-death-of-partner",
+   "why": "debentures to retiring partner"
+  },
+  "57e238cb-aa19-46e3-ba9d-23dfa0df6aea": {
+   "stored": "Partnership Fundamentals",
+   "verdict": "outside_syllabus",
+   "why": "test junk question \"what is 1+1\", not accountancy"
+  },
+  "59025cc1-1ff3-4e2e-8aa2-29db643cca21": {
+   "stored": "Retirement & Death of Partner",
+   "verdict": "flawed",
+   "why": "revaluation profit is shared in old ratio, not sacrificing ratio; keyed correction is wrong accounting"
+  },
+  "59a65a8a-25be-43b8-a306-43cdffc54b04": {
+   "stored": "Profit & Loss Appropriation Account",
+   "verdict": "move",
+   "to": "accountancy.admission-of-partner",
+   "why": "profit sharing in year of admission"
+  },
+  "5bd8da21-877b-4f11-816f-df5f4c943f6e": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "5d5cee0f-71cb-477e-9871-61902d7c8bad": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "5d96f689-b372-40d7-982c-cfd55a0bce26": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "5efc4df8-96f5-4ca9-9969-7919284081c5": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "5f955895-0004-48ee-95da-ade483bbe8ff": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "5fa5701f-f0a4-437f-af5a-ac60480ab65c": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "629f1238-1e9b-4426-bf50-70823c8ff19d": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "6824c20c-e299-46d8-898a-bad4d62877f9": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "6866f88c-7520-4364-ac9a-69489939ad3a": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "6946ddbb-fae4-494f-9025-e4d44bfcaa50": {
+   "stored": "Change in Profit Sharing Ratio",
+   "verdict": "move",
+   "to": "accountancy.admission-of-partner",
+   "why": "premium and capital brought by incoming O"
+  },
+  "6b196b96-bcef-4a79-b206-cc47551b93ec": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "6b4b70b5-9d92-44eb-a085-0f6bd420f0c5": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "6bfb8cc6-6fbf-4e8b-8bb9-858d6849932f": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "6c35620f-2fd4-4004-9258-90ec847b1c38": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "6cd40b31-569b-4dd4-97cf-78510eb40f67": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "6edd5024-7b2a-48c9-b8ff-a1433db05f83": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "6f1bb751-441b-4363-bb78-ad294a1bfc63": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "704ae886-958c-461c-b713-60fcae83a02b": {
+   "stored": "Dissolution of Partnership Firm",
+   "verdict": "flawed",
+   "why": "interest on loan reduces capitals; keyed A says capitals unchanged, C/B also arguable"
+  },
+  "7573839f-326d-4df5-ab93-c98eca9b3311": {
+   "stored": "Change in Profit Sharing Ratio",
+   "verdict": "move",
+   "to": "accountancy.admission-of-partner",
+   "why": "revaluation gain on admission of Z"
+  },
+  "759fa42a-1f0b-420c-8008-dbd5f57a9214": {
+   "stored": "Dissolution of Partnership Firm",
+   "verdict": "move",
+   "to": "accountancy.cash-flow-statement",
+   "why": "cash flow classification"
+  },
+  "76bb4c77-7c91-44ef-a46b-5461d1237376": {
+   "stored": "Dissolution of Partnership Firm",
+   "verdict": "move",
+   "to": "accountancy.cash-flow-statement",
+   "why": "cash flow classification"
+  },
+  "7c534b6f-fd3b-4d44-a0c5-e371630d8294": {
+   "stored": "Dissolution of Partnership",
+   "verdict": "move",
+   "to": "accountancy.cash-flow-statement",
+   "why": "operating cash flow"
+  },
+  "7c954301-5871-4bde-b919-20bae023f566": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.cash-flow-statement",
+   "why": "purpose of cash flow statement"
+  },
+  "7d2705a9-9525-46b4-ae17-9bd2c78ff678": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "7ebfc0c1-cec1-4392-b0f3-44072d9afec6": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "80eaec11-97b7-4822-b174-326940508500": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "82853286-fed1-471a-8f65-c9e91ab63f48": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "82a2fd16-f4f0-4440-9b4c-1bf584f34bc6": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "852d48af-d257-4889-adc0-9c5099ffa619": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "8669fb3f-60e1-49b1-b6be-60616b4aa323": {
+   "stored": "Change in Profit Sharing Ratio",
+   "verdict": "outside_ncert",
+   "why": "bank covenant debt-to-capital monitoring; deciding fact not in NCERT"
+  },
+  "88e05571-a67d-4513-a3a4-37ef5250bb5e": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "8c54dc57-4d20-44e3-8a0a-81aecb98df18": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "8c6fffe1-5e67-4781-b7d8-e8bc1091895c": {
+   "stored": "Dissolution of Partnership",
+   "verdict": "move",
+   "to": "accountancy.cash-flow-statement",
+   "why": "cash flow classification"
+  },
+  "8e561da8-ee58-432b-8498-88988d95b92b": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "8faed846-b4c1-4214-b91d-e87437588a9e": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "9129514e-9350-41eb-814a-8bad59cc06da": {
+   "stored": "Goodwill Valuation",
+   "verdict": "move",
+   "to": "accountancy.retirement-and-death-of-partner",
+   "why": "gaining share on retirement of C"
+  },
+  "91e7ddac-0cb5-4830-984f-e62be0b0a055": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "93e4c51c-04c9-4a18-ac3e-0847f9bf0785": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "941f38c8-7d4b-43b2-af75-9c595286d7fd": {
+   "stored": "Change in Profit Sharing Ratio",
+   "verdict": "flawed",
+   "why": "revaluation surplus shared by old partners P,Q,R in 2:1:1, keyed A says 2:1"
+  },
+  "9a387de1-8a1c-4e30-a76e-fffb0dc1213d": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "9a6d3245-b8a4-48cf-938e-d7dc49d10811": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.accounting-ratios",
+   "why": "operating profit from sales, COGS and expenses"
+  },
+  "9ac6531f-f2a8-4f1d-9bf1-42612a181966": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "9b2de113-a5b2-4b90-a44e-41b7c1fe7cc7": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "9f956458-b896-4b68-9641-2bd192c98e00": {
+   "stored": "Goodwill Valuation",
+   "verdict": "move",
+   "to": "accountancy.retirement-and-death-of-partner",
+   "why": "retiring partner goodwill"
+  },
+  "a0721f45-c9b6-4946-a408-73b9bc2ec3be": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "a21cb74e-68e3-41aa-bc93-6c0a0f1a029e": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "a29d2b33-618a-49aa-88f5-81e402313215": {
+   "stored": "Change in Profit Sharing Ratio",
+   "verdict": "flawed",
+   "why": "Z buys from X yet also brings capital; stem contradictory, retained earnings claim unsupported"
+  },
+  "a67418d1-7951-4e54-821e-3d3991a3f60f": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "a6af5d6b-7971-4a53-863d-610a6c10f65d": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "a8104949-b9aa-41c9-8bc7-155c2de725f5": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "a99457d2-ed7f-4aa2-b66f-55ed7a229e3b": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "ab2df8ae-fb0e-4286-86b4-de66c064054a": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "ad121c59-d0ee-44d4-abfd-3395b2681978": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "ad2d5048-17a6-4e76-bc76-9f7a87f055c5": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "aecc3131-c087-4a57-9076-4cbe463b0774": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "af579ee5-80a7-42d6-9370-29140fb130a8": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "b14bf2b4-1016-4736-8f21-4c46f8f9b776": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "b1657621-de25-4ceb-b1b6-a5f08cf474d5": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "b2a99305-4abd-44f9-9b95-0c7d27ed5827": {
+   "stored": "Goodwill Valuation",
+   "verdict": "move",
+   "to": "accountancy.retirement-and-death-of-partner",
+   "why": "retiring partner goodwill credit"
+  },
+  "b3d27f8f-aea8-47c7-8b03-698fd2fb03a0": {
+   "stored": "Goodwill Valuation",
+   "verdict": "move",
+   "to": "accountancy.admission-of-partner",
+   "why": "existing goodwill at admission"
+  },
+  "b5298bc6-1606-4c27-b025-16c8558bf59f": {
+   "stored": "Dissolution of Partnership Firm",
+   "verdict": "flawed",
+   "why": "options A and D both state an accepted settlement order; ambiguous"
+  },
+  "b53ebeb2-0569-4bf5-b533-45e99a2c3b4d": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "b5c8d48a-a641-4b70-9452-1e7cbd2f2fc9": {
+   "stored": "Dissolution of Partnership Firm",
+   "verdict": "move",
+   "to": "accountancy.computerized-accounting-system",
+   "why": "journal voucher in computerised system"
+  },
+  "b5f619ef-0a0f-4d26-87e7-05143936ff9a": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "b8b4b5a4-1470-4299-aac6-2ed3e8b17dfd": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "b94cd68b-43eb-4624-a9d9-add730d19239": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "bad0ead2-b71f-4baa-a594-92a282bd99ea": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "bb78c6bf-fdab-4bb8-92fc-0251a010a40c": {
+   "stored": "Goodwill Valuation",
+   "verdict": "move",
+   "to": "accountancy.retirement-and-death-of-partner",
+   "why": "deceased partner goodwill"
+  },
+  "bbbbf1b1-3ac0-4053-960c-88d27d9d5ee6": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "bc213482-693b-40d4-b083-69e187d50da8": {
+   "stored": "Dissolution of Partnership",
+   "verdict": "move",
+   "to": "accountancy.accounting-ratios",
+   "why": "solvency and cash flow analysis of goodwill write-off"
+  },
+  "bdc3e37f-6531-46fd-9b85-55692163ef7b": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "c08f6f32-ca8d-46d5-b07e-2f8f114369e9": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "c1a889fe-c230-4662-95cc-9f3dc46c3617": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "c21284bb-c1c7-46de-ae57-60870511b540": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "c46e0f38-0d27-47c5-96bf-46ab9d9fd0a4": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "c674cdb3-a530-4cea-8e15-fe8d5643d245": {
+   "stored": "Change in Profit Sharing Ratio",
+   "verdict": "flawed",
+   "why": "reason explains assertion; keyed B (does not explain) contradicts twin ea840ec7"
+  },
+  "cbc645b6-cd80-47ce-90cb-010339412497": {
+   "stored": "Goodwill Valuation",
+   "verdict": "move",
+   "to": "accountancy.retirement-and-death-of-partner",
+   "why": "retirement goodwill write-back"
+  },
+  "cc60f0fc-32b9-46b0-9b7e-645b57149a63": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.partnership-fundamentals",
+   "why": "partnership deed is not mandatory"
+  },
+  "cdc8dc77-091f-4d48-bd2e-292a31b6496f": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "cfab4918-b523-4fc9-9115-5b7d744131b1": {
+   "stored": "Dissolution of Partnership Firm",
+   "verdict": "flawed",
+   "why": "standard order is Realisation, Capital, Bank; keyed A puts Bank before Capital"
+  },
+  "d6c74669-39fe-401a-ab43-33a9a63e8f8f": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "d81539d3-4837-4c1a-af46-7e9103174090": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "da0347ec-ee6b-4660-91e4-27e67a6d9857": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "db68bb15-09ee-4052-a198-75b30b863dc5": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "de400752-db1e-4c16-884c-1f5c815439d1": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "de5b67e0-4a86-4df6-a7c8-6727c9a61bca": {
+   "stored": "Goodwill Valuation",
+   "verdict": "move",
+   "to": "accountancy.admission-of-partner",
+   "why": "hidden goodwill on admission"
+  },
+  "dea7c53c-96cf-4efa-b418-fe0f252ce1d0": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "e13e52c7-4319-4831-8648-fe9f79ca2fce": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "e6865aee-39dd-4c0d-8103-24b0fe575393": {
+   "stored": "Dissolution of Partnership",
+   "verdict": "move",
+   "to": "accountancy.accounting-ratios",
+   "why": "debt-equity and current ratio effect"
+  },
+  "e7dc78cc-778b-4039-b167-176df52d7320": {
+   "stored": "Goodwill Valuation",
+   "verdict": "move",
+   "to": "accountancy.retirement-and-death-of-partner",
+   "why": "retiring partner goodwill share"
+  },
+  "e8e2a74a-bf08-41fe-a013-9e14f285d840": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "e8fe2ec5-52c4-4f33-8cdf-1a446ea57fca": {
+   "stored": "Goodwill Valuation",
+   "verdict": "move",
+   "to": "accountancy.retirement-and-death-of-partner",
+   "why": "retiring partner goodwill entries"
+  },
+  "eb2edb2c-3e5b-492c-a6f2-e52c813effe1": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "eb934493-d6d5-4721-a378-e76eb93a800d": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "edc39fbd-a2b7-4c33-9829-61c5282c7de8": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "ef7775c7-0307-4cda-b396-39d55bb1cf8d": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.cash-flow-statement",
+   "why": "operating cash flow, indirect method"
+  },
+  "f1cb8449-1a30-4f59-a3fd-89373f11ca5a": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "f1cf4c84-4f70-466b-b0e7-dfecd56cbcc0": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "f2e2c85c-0b44-49ef-8cd2-a7bc48c3d1ec": {
+   "stored": "Retirement & Death of Partner",
+   "verdict": "flawed",
+   "why": "accumulated profits go to old ratio; keyed re-post in sacrificing ratio is wrong"
+  },
+  "f4f3c4a4-404d-44bb-8a75-5e8fdc958cfb": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "f5af93d3-acf9-4579-8835-a7a03d463e2f": {
+   "stored": "Dissolution of Partnership Firm",
+   "verdict": "move",
+   "to": "accountancy.cash-flow-statement",
+   "why": "cash flow classification"
+  },
+  "f5b8f31e-6065-4b2b-9a6c-a85997744dd7": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "f67213cc-b0f7-408e-bc2c-3262933c6386": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "f7847efa-2ef7-4809-873c-8e14c8a51673": {
+   "stored": "Goodwill Valuation",
+   "verdict": "move",
+   "to": "accountancy.retirement-and-death-of-partner",
+   "why": "goodwill on death"
+  },
+  "f9415604-ca60-4675-a463-a8b709b2cbfb": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "fad3987b-d624-4ef9-bcd7-2971c991c0ba": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "fade9897-dc98-4aeb-a4fc-8b61ec322d9e": {
+   "stored": "Goodwill Valuation",
+   "verdict": "move",
+   "to": "accountancy.retirement-and-death-of-partner",
+   "why": "retiring partner goodwill credit"
+  },
+  "fb579cac-6372-4f78-b402-976a37c693dd": {
+   "stored": "Dissolution of Partnership Firm",
+   "verdict": "move",
+   "to": "accountancy.cash-flow-statement",
+   "why": "cash flow classification"
+  },
+  "fcfe6648-3231-43b7-a3ff-5b2591f1a27e": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "fd281066-5786-44af-9243-03fd734ee340": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "fd31cdc4-71f6-4804-8317-d1f26bf5b8c7": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "fdc02a93-1341-44c4-89b1-9d0ea6ff63c4": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "fe34dc4d-34f4-4f1b-975e-508520b13bae": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  },
+  "ff815ed0-de8a-40fb-9fae-19281e69e5e3": {
+   "stored": "Admission of Partner",
+   "verdict": "move",
+   "to": "accountancy.change-in-profit-sharing-ratio",
+   "why": "change of ratio between existing partners to equal, goodwill sacrifice; no partner admitted"
+  }
+ }
+}

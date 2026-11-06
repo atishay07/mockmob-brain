@@ -1,0 +1,42 @@
+{
+  "id": "20261013T102112.736673Z-3025b2b2",
+  "observed_at": "2026-10-13T10:21:12.737674+00:00",
+  "agent": "claude-integrator-pass2 (Opus subagent)",
+  "task": "Flutter app pass 2 integration after owner feedback 1110: routes, entry points, demo as separate app, full suite, emulator end to end",
+  "status": "complete",
+  "done": "Registered every new route in lib/core/router (routes.dart AppRoutes + templates, router.dart, screens.dart): /exam/nta (NTA instructions, outside shell), /review/insights, /review/saved, /practice/stream, /ask, /you/subjects, /you/sheet, /tools, /tools/compass(/:groupId), /tools/combo, /tools/guide-2027. ActionRouter maps /explore,/saved,/analytics,/mentor(?tab=ask),/admission-compass,/cuet-cutoff-calculator,/cuet-subject-combination,/cuet-2027,/profile,/onboarding?edit=true, and mode=nta or interface=nta to the NTA instructions (tests added). Entry points: Today gets InsightsCard under the hero and ToolsQuietLink under the road (TodayScreen.roadFooter); Review gets ReviewInsightsRows (record + saved) above the repair record (Review heading renamed 'Repair record' to match You); Practice NTA row opens the instructions page, new 'Explore and plan' rows (Question stream, CUET tools); You hub uses ToolsShelf; Start sheet adds NTA mode (from Practice quote via practiceQuickNtaProvider override in main.dart) and Ask Mobi (new SheetGlyph.ask), never more than five rows. Demo is a separate app: build.gradle.kts switches to applicationIdSuffix .demo and label 'MockMob demo' automatically when the target is test/device_demo (or -PmockmobDemo=true); manifest label is a placeholder; docs/DEMO-BUILD.md. Device fixes: onboarding warm-up timing was always 'about a second' (lazy late final read at tap) fixed + regression test; status-bar scrim in AppShell (content no longer reads through the clock); runner practice note no longer repeats 'Open until'; Ask suggestions are pills (no selection bubble) and MmChip ellipsizes long labels (router test overflow); ShowMePill draws no decorative dots unless real marks are passed; Review past results use the paper glyph instead of a wrong bubble on every mock; You > Rhythm uses the planned-week strip; HandshakeException now maps to a network error; debug-only log line for unknown API failures; demo fixtures made consistent (study-day plan, first scored set milestone, receivedAt, NTA session with mode nta, insights and saved fixtures).",
+  "next": "Owner device check on the Vivo: NTA warnings with real lifecycle, Mobi motion feel, timed warm-up. Open items: Compass Pro, weeklyPlan per weekday, repairs progress count, screenshot blocking (native), the 50-question rejection, chapters comma bug in practiceSessions.js (server), demo fixtures still repeat questions in short subject pools and the demo repair API returns one fixed explanation. The emulator on this PC fails TLS to www.mockmob.in (CERTIFICATE_VERIFY_FAILED from the PC's interception), so device tools tests need the staging base URL (demo built with --dart-define=API_BASE_URL=http://localhost:3101 + adb reverse).",
+  "blockers": [
+    "Nothing needs the owner. No commit was made (not asked).",
+    "Killed a stale 13:18 'flutter test test/unit/you' process that held a Flutter slot for 70+ minutes, and idle Gradle/Kotlin daemons after builds; emulator and staging are shut down."
+  ],
+  "evidence": [
+    "flutter_locked analyze (whole project): No issues found",
+    "flutter_locked test -j 1 whole suite: +2007 -4 (only review_tab_full and runner practice-start goldens, expected from this pass's changes), then those two files regenerated and viewed: 52 passed",
+    "test/unit/onboarding/warmup_timing_test.dart passes",
+    "aapt: real in.mockmob.app.debug label MockMob; demo in.mockmob.app.demo.debug label MockMob demo",
+    "Emulator screenshots tmp/app-shots/pass2/01..114 (432 px), all opened"
+  ],
+  "touched_files": [
+    "flutter_app/lib/core/router/{routes,router,screens,action_router,quick_start,app_shell}.dart",
+    "flutter_app/lib/core/widgets/{show_me_pill,controls/chip,bubbles/sheet_glyph}.dart",
+    "flutter_app/lib/core/api/{api_client,api_error}.dart",
+    "flutter_app/lib/features/practice/{practice_screen,copy}.dart, widgets/more_rows.dart (new), data/start_entries.dart (new)",
+    "flutter_app/lib/features/review/{copy,screens/review_screen,widgets/review_rows}.dart",
+    "flutter_app/lib/features/today/{today_routes,screens/today_screen,screens/today_body}.dart",
+    "flutter_app/lib/features/you/{you_routes,you_hub_screen}.dart",
+    "flutter_app/lib/features/rhythm/{widgets/rhythm_body,screens/rhythm_screen}.dart",
+    "flutter_app/lib/features/insights/{insights_routes,screens/ask_screen,widgets/entry_points}.dart",
+    "flutter_app/lib/features/runner/{runner_routes,copy}.dart",
+    "flutter_app/lib/features/onboarding/steps/question_step.dart",
+    "flutter_app/lib/features/tools/data/du_repository.dart",
+    "flutter_app/lib/main.dart",
+    "flutter_app/android/app/build.gradle.kts, src/main/AndroidManifest.xml",
+    "flutter_app/docs/DEMO-BUILD.md (new)",
+    "flutter_app/test/device_demo/{demo_main,demo_record}.dart",
+    "flutter_app/test/unit/core_ui/action_router_test.dart, test/unit/runner/runner_flow_test.dart, test/unit/onboarding/warmup_timing_test.dart (new), test/golden/{review/review_golden_support,practice/practice_golden_test,onboarding/support}.dart, regenerated goldens"
+  ],
+  "verification": "Whole-suite analyze clean; whole suite run twice (first run surfaced the /ask overflow and the You fallback panel; fixed); goldens regenerated for changed screens and the key ones opened in both themes; real app fresh onboarding and demo signed-in flows driven on emulator-5554 with adb and uiautomator.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

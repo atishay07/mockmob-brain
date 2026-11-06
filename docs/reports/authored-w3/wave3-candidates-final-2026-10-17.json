@@ -1,0 +1,5366 @@
+[
+  {
+    "id": "b4b8360e-d316-4b1a-b9b1-183816cbecc8",
+    "subject": "chemistry",
+    "unit": "Alcohols, Phenols and Ethers",
+    "chapter": "Alcohols, Phenols & Ethers",
+    "type": "single_mcq",
+    "stem": "The IUPAC name of (CH3)2CH-CH(OH)-CH3 is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "3-Methylbutan-2-ol"
+      },
+      {
+        "key": "B",
+        "text": "2-Methylbutan-3-ol"
+      },
+      {
+        "key": "C",
+        "text": "2-Methylpentan-2-ol"
+      },
+      {
+        "key": "D",
+        "text": "3-Methylbutan-1-ol"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "The longest carbon chain carrying the OH group has four carbons, so the parent is butane. Numbering starts from the end that gives the OH group the lowest locant, which is 2, and the methyl branch then sits on carbon 3. The name is therefore 3-methylbutan-2-ol.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 7 Alcohols, Phenols and Ethers: IUPAC nomenclature of alcohols",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "ef23884f-5078-44c2-9b85-99f1e94374d7",
+    "subject": "chemistry",
+    "unit": "Alcohols, Phenols and Ethers",
+    "chapter": "Alcohols, Phenols & Ethers",
+    "type": "single_mcq",
+    "stem": "Which alcohol gives an immediate turbidity when shaken with Lucas reagent (concentrated HCl with anhydrous ZnCl2) at room temperature?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Butan-1-ol"
+      },
+      {
+        "key": "B",
+        "text": "Butan-2-ol"
+      },
+      {
+        "key": "C",
+        "text": "2-Methylpropan-1-ol"
+      },
+      {
+        "key": "D",
+        "text": "2-Methylpropan-2-ol"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "Lucas reagent converts an alcohol into an alkyl chloride, which separates as a cloudy layer. Tertiary alcohols react through a stable carbocation and turn turbid at once. Secondary alcohols take several minutes, and primary alcohols show no turbidity at room temperature.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 7 Alcohols, Phenols and Ethers: Chemical reactions of alcohols (classification by Lucas test)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "d862ff6c-f6be-4dfd-8dc3-ff22bb40da51",
+    "subject": "chemistry",
+    "unit": "Alcohols, Phenols and Ethers",
+    "chapter": "Alcohols, Phenols & Ethers",
+    "type": "single_mcq",
+    "stem": "Propene is treated with diborane (B2H6) in tetrahydrofuran, and the intermediate is then oxidised with alkaline hydrogen peroxide. The major organic product is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Propan-2-ol"
+      },
+      {
+        "key": "B",
+        "text": "Propane"
+      },
+      {
+        "key": "C",
+        "text": "Propan-1-ol"
+      },
+      {
+        "key": "D",
+        "text": "Propanal"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "Hydroboration places boron on the less hindered terminal carbon and hydrogen on the internal carbon, an anti-Markovnikov addition. Alkaline hydrogen peroxide then replaces boron with OH, giving the primary alcohol propan-1-ol. Acid-catalysed hydration of propene gives the Markovnikov product propan-2-ol instead.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 7 Alcohols, Phenols and Ethers: Preparation of alcohols from alkenes (hydroboration-oxidation)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "97fb26ff-9b4f-4e06-9282-e26477186a35",
+    "subject": "chemistry",
+    "unit": "Alcohols, Phenols and Ethers",
+    "chapter": "Alcohols, Phenols & Ethers",
+    "type": "single_mcq",
+    "stem": "Which of the following is the most acidic compound?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ethanol"
+      },
+      {
+        "key": "B",
+        "text": "Water"
+      },
+      {
+        "key": "C",
+        "text": "Phenol"
+      },
+      {
+        "key": "D",
+        "text": "Cyclohexanol"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "Phenol loses a proton to form the phenoxide ion, whose negative charge is delocalised into the benzene ring by resonance. Alkoxide ions from ethanol and cyclohexanol have no such stabilisation, and water is itself more acidic than alcohols. The phenoxide route makes phenol the most acidic of these four.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 7 Alcohols, Phenols and Ethers: Acidic nature of phenol",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "e4daafaf-3af8-4cad-a9d2-a1f41b1826ea",
+    "subject": "chemistry",
+    "unit": "Alcohols, Phenols and Ethers",
+    "chapter": "Alcohols, Phenols & Ethers",
+    "type": "single_mcq",
+    "stem": "Ethylmagnesium bromide reacts with methanal (formaldehyde), and the product is hydrolysed with dilute acid. The alcohol formed is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ethanol"
+      },
+      {
+        "key": "B",
+        "text": "Propan-2-ol"
+      },
+      {
+        "key": "C",
+        "text": "Butan-2-ol"
+      },
+      {
+        "key": "D",
+        "text": "Propan-1-ol"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "The ethyl group adds to the carbonyl carbon of methanal, and hydrolysis gives a primary alcohol. Two carbons from the ethyl group and one from formaldehyde give three carbons in total, so the product is CH3CH2CH2OH, propan-1-ol. Propan-2-ol would instead come from methylmagnesium bromide and ethanal.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 7 Alcohols, Phenols and Ethers: Preparation of alcohols using Grignard reagents",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "1d013847-e124-44e4-b400-a5a55ad558cb",
+    "subject": "chemistry",
+    "unit": "Alcohols, Phenols and Ethers",
+    "chapter": "Alcohols, Phenols & Ethers",
+    "type": "sequence_ordering",
+    "stem": "Arrange the following in order of increasing acidity: (A) p-Nitrophenol (B) Ethanol (C) Phenol (D) Water.",
+    "options": [
+      {
+        "key": "A",
+        "text": "(A), (C), (D), (B)"
+      },
+      {
+        "key": "B",
+        "text": "(B), (D), (C), (A)"
+      },
+      {
+        "key": "C",
+        "text": "(D), (B), (C), (A)"
+      },
+      {
+        "key": "D",
+        "text": "(B), (C), (D), (A)"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "Ethanol is the weakest acid of the four, and water is a stronger acid than ethanol because ethoxide is a stronger base than hydroxide. Phenol is far more acidic than water because its phenoxide is resonance stabilised. A para-nitro group withdraws electron density and stabilises the phenoxide further, so p-nitrophenol is the most acidic.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 7 Alcohols, Phenols and Ethers: Acidic nature of phenol and effect of substituents",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "89809a17-0fba-4ab6-8195-07e43d6a51f8",
+    "subject": "chemistry",
+    "unit": "Alcohols, Phenols and Ethers",
+    "chapter": "Alcohols, Phenols & Ethers",
+    "type": "statement_based",
+    "stem": "Consider the following statements about the dehydration of ethanol with concentrated sulphuric acid. I. At about 443 K, ethene is the major product. II. At about 413 K, diethyl ether is the major product. III. At 443 K, diethyl ether is the major product. Which statements are correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "I and III only"
+      },
+      {
+        "key": "B",
+        "text": "II and III only"
+      },
+      {
+        "key": "C",
+        "text": "I, II and III"
+      },
+      {
+        "key": "D",
+        "text": "I and II only"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "Ethanol forms an alkyl hydrogen sulphate, which then reacts with a second alcohol molecule at lower temperature to give diethyl ether. At about 443 K, intramolecular dehydration takes over and ethene is the product. Statement III reverses the two temperature outcomes, so it is false.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 7 Alcohols, Phenols and Ethers: Dehydration of ethanol to ethene and to diethyl ether",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "ec1be2ad-e341-40cf-a70c-d057c972d3d5",
+    "subject": "chemistry",
+    "unit": "Alcohols, Phenols and Ethers",
+    "chapter": "Alcohols, Phenols & Ethers",
+    "type": "single_mcq",
+    "stem": "Phenol is treated with bromine water at room temperature without any catalyst. The major organic product is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "4-Bromophenol"
+      },
+      {
+        "key": "B",
+        "text": "2-Bromophenol"
+      },
+      {
+        "key": "C",
+        "text": "2,4,6-Tribromophenol"
+      },
+      {
+        "key": "D",
+        "text": "Bromobenzene"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "The OH group strongly activates the ring for electrophilic substitution, so bromine enters at both ortho positions and the para position without a Lewis acid catalyst. The product is 2,4,6-tribromophenol, which separates as a white precipitate and is the classic test for phenol. Bromobenzene would need a catalyst and is not formed here.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 7 Alcohols, Phenols and Ethers: Electrophilic substitution reactions of phenol",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "f526f37e-b6e4-4ffb-afeb-da6369a0a985",
+    "subject": "chemistry",
+    "unit": "Alcohols, Phenols and Ethers",
+    "chapter": "Alcohols, Phenols & Ethers",
+    "type": "single_mcq",
+    "stem": "2-Methoxy-2-methylpropane, (CH3)3C-O-CH3, is treated with one equivalent of cold concentrated HI. Which pair of products is formed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(CH3)3C-OH and CH3I"
+      },
+      {
+        "key": "B",
+        "text": "(CH3)3C-OH and CH3OH"
+      },
+      {
+        "key": "C",
+        "text": "(CH3)3C-I and CH3I"
+      },
+      {
+        "key": "D",
+        "text": "(CH3)3C-I and CH3OH"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "Ether cleavage begins with protonation of the ether oxygen. Because one side is tertiary, the C-O bond to the tert-butyl group breaks by an SN1 route, giving the stable tert-butyl cation, which iodide captures. The methyl side remains as methanol, since SN2 attack at a tertiary carbon is not possible.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "hard",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 7 Alcohols, Phenols and Ethers: Reactions of ethers: cleavage by HI",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "3e145f1e-c334-4a36-9480-c00b019ed495",
+    "subject": "chemistry",
+    "unit": "Alcohols, Phenols and Ethers",
+    "chapter": "Alcohols, Phenols & Ethers",
+    "type": "statement_based",
+    "stem": "Consider the following statements about alcohols, phenols and ethers. I. Ethanol boils at a higher temperature than methoxymethane, although both have molecular mass 46. II. Phenol is a stronger acid than ethanol. III. Phenol liberates carbon dioxide from sodium bicarbonate solution. Which statements are correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "II and III only"
+      },
+      {
+        "key": "B",
+        "text": "I and III only"
+      },
+      {
+        "key": "C",
+        "text": "I and II only"
+      },
+      {
+        "key": "D",
+        "text": "I, II and III"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "Ethanol forms intermolecular hydrogen bonds, which raise its boiling point to about 78 C, while methoxymethane has no O-H group and boils at about -24 C. Phenol is more acidic than ethanol because its phenoxide ion is resonance stabilised. Phenol is too weak an acid to release CO2 from sodium bicarbonate, so statement III is false.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 7 Alcohols, Phenols and Ethers: Physical properties of alcohols and phenols; acidic nature of phenol",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "6a4e7b4f-47b5-425d-8887-7778fc06e6ee",
+    "subject": "chemistry",
+    "unit": "Alcohols, Phenols and Ethers",
+    "chapter": "Alcohols, Phenols & Ethers",
+    "type": "assertion_reason",
+    "stem": "Assertion (A): 2-Methylpropan-2-ol is dehydrated more readily than ethanol under the same acidic conditions. Reason (R): The tertiary carbocation formed from 2-methylpropan-2-ol is stabilised by hyperconjugation and by the electron-releasing inductive effect of three alkyl groups.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Both A and R are true, and R is the correct explanation of A"
+      },
+      {
+        "key": "B",
+        "text": "Both A and R are true, but R is not the correct explanation of A"
+      },
+      {
+        "key": "C",
+        "text": "A is true, but R is false"
+      },
+      {
+        "key": "D",
+        "text": "A is false, but R is true"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "Tertiary alcohols lose water through a carbocation that is stabilised by hyperconjugation and by the inductive effect of three alkyl groups, so milder conditions are enough. Primary alcohols such as ethanol do not pass through a comparably stable cation, which is why they need higher temperatures. The stability of the tertiary cation therefore explains why the tertiary alcohol dehydrates more readily.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 7 Alcohols, Phenols and Ethers: Dehydration of alcohols and carbocation stability",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "c53fecad-2f57-4258-be11-13c1ba1da7bb",
+    "subject": "chemistry",
+    "unit": "Alcohols, Phenols and Ethers",
+    "chapter": "Alcohols, Phenols & Ethers",
+    "type": "match_the_following",
+    "stem": "Match List-I with List-II. List-I: (A) Propan-1-ol with pyridinium chlorochromate (PCC) (B) Propan-1-ol with acidified potassium dichromate (C) Propan-2-ol with acidified potassium dichromate (D) Ethanol heated with excess concentrated H2SO4 at about 443 K. List-II: (I) Propanone (II) Propanoic acid (III) Propanal (IV) Ethene. Choose the correct answer from the options given below.",
+    "options": [
+      {
+        "key": "A",
+        "text": "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+      },
+      {
+        "key": "B",
+        "text": "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)"
+      },
+      {
+        "key": "C",
+        "text": "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)"
+      },
+      {
+        "key": "D",
+        "text": "(A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "PCC stops the oxidation of a primary alcohol at the aldehyde, giving propanal. Acidified dichromate carries a primary alcohol on to the carboxylic acid, propanoic acid. Oxidation of a secondary alcohol gives a ketone, propanone, and hot concentrated acid dehydrates ethanol to ethene.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 7 Alcohols, Phenols and Ethers: Oxidation of alcohols (primary, secondary)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "48c754fd-ca11-4ac5-befa-c26c2d651416",
+    "subject": "chemistry",
+    "unit": "Alcohols, Phenols and Ethers",
+    "chapter": "Alcohols, Phenols & Ethers",
+    "type": "single_mcq",
+    "stem": "1-Methylcyclohexene is treated with diborane in tetrahydrofuran, and the intermediate is oxidised with alkaline hydrogen peroxide. Which is the major product?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2-Methylcyclohexan-1-ol"
+      },
+      {
+        "key": "B",
+        "text": "1-Methylcyclohexan-1-ol"
+      },
+      {
+        "key": "C",
+        "text": "Cyclohexylmethanol"
+      },
+      {
+        "key": "D",
+        "text": "2-Methylcyclohexanone"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "Boron adds to the less substituted alkene carbon, which is the CH carbon, and hydrogen goes to the methyl-bearing carbon, an anti-Markovnikov hydroboration. Oxidation then replaces boron with OH on the same carbon. The product is therefore 2-methylcyclohexan-1-ol, with the OH on the former CH carbon next to the methyl group.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "hard",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 7 Alcohols, Phenols and Ethers: Preparation of alcohols from alkenes (hydroboration-oxidation)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "a4538d76-6c2a-4f95-82b7-eb792559e888",
+    "subject": "chemistry",
+    "unit": "Alcohols, Phenols and Ethers",
+    "chapter": "Alcohols, Phenols & Ethers",
+    "type": "single_mcq",
+    "stem": "Methyl tert-butyl ether, (CH3)3C-O-CH3, is to be made by the Williamson synthesis. Which pair of reagents gives the best yield?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sodium methoxide and 2-chloro-2-methylpropane"
+      },
+      {
+        "key": "B",
+        "text": "Sodium methoxide and iodomethane"
+      },
+      {
+        "key": "C",
+        "text": "Sodium 2-methylpropan-2-olate and iodomethane"
+      },
+      {
+        "key": "D",
+        "text": "Sodium 2-methylpropan-2-olate and 2-chloro-2-methylpropane"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "The Williamson synthesis is an SN2 reaction, so the alkyl halide should be methyl or primary. A tertiary alkyl halide undergoes mainly elimination when attacked by a strong base such as an alkoxide. Using tert-butoxide as the nucleophile and iodomethane as the electrophile keeps the bulky group on the alkoxide side and gives the ether.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "hard",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 7 Alcohols, Phenols and Ethers: Preparation of ethers by Williamson synthesis",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "a81ff47e-8241-4c92-9afe-2ac6106b901f",
+    "subject": "chemistry",
+    "unit": "Haloalkanes and Haloarenes",
+    "chapter": "Haloalkanes & Haloarenes",
+    "type": "single_mcq",
+    "stem": "Which of the following compounds is optically active?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2-Chlorobutane"
+      },
+      {
+        "key": "B",
+        "text": "2-Chloropropane"
+      },
+      {
+        "key": "C",
+        "text": "2-Chloro-2-methylpropane"
+      },
+      {
+        "key": "D",
+        "text": "1-Chlorobutane"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "A carbon bonded to four different groups is a chiral centre. In 2-chlorobutane, carbon 2 carries H, Cl, CH3 and CH2CH3, so the molecule is chiral and optically active. The other three compounds have no stereocentre.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 6 Haloalkanes and Haloarenes: Stereochemistry of haloalkanes (chirality)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "d1014b9a-bb78-438f-ae1c-c711299f60ca",
+    "subject": "chemistry",
+    "unit": "Haloalkanes and Haloarenes",
+    "chapter": "Haloalkanes & Haloarenes",
+    "type": "sequence_ordering",
+    "stem": "Arrange the following alkyl bromides in decreasing order of their rate of SN2 reaction with iodide ion in acetone: (A) 2-Bromo-2-methylpropane (B) Bromomethane (C) 2-Bromopropane (D) Bromoethane.",
+    "options": [
+      {
+        "key": "A",
+        "text": "(A), (B), (C), (D)"
+      },
+      {
+        "key": "B",
+        "text": "(B), (D), (C), (A)"
+      },
+      {
+        "key": "C",
+        "text": "(B), (C), (D), (A)"
+      },
+      {
+        "key": "D",
+        "text": "(D), (B), (C), (A)"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "In SN2 the nucleophile attacks from the back of the carbon, so crowding at that carbon slows the reaction. The reactivity order is methyl greater than primary, greater than secondary, greater than tertiary. Bromomethane reacts fastest, then bromoethane, then 2-bromopropane, and 2-bromo-2-methylpropane barely reacts by SN2.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 6 Haloalkanes and Haloarenes: Nucleophilic substitution (SN2) and steric effects",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "15079cee-dbc7-4b31-9fc5-782e04f607ec",
+    "subject": "chemistry",
+    "unit": "Haloalkanes and Haloarenes",
+    "chapter": "Haloalkanes & Haloarenes",
+    "type": "statement_based",
+    "stem": "Consider the following statements about nucleophilic substitution of haloalkanes. I. An SN2 reaction of a chiral haloalkane proceeds with inversion of configuration. II. An SN1 reaction of a chiral haloalkane gives a nearly racemic product. III. Tertiary haloalkanes react mainly by SN2 with strong nucleophiles such as hydroxide ion. Which statements are correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "I and III only"
+      },
+      {
+        "key": "B",
+        "text": "II and III only"
+      },
+      {
+        "key": "C",
+        "text": "I and II only"
+      },
+      {
+        "key": "D",
+        "text": "I, II and III"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "SN2 is a single concerted step with backside attack, which inverts the configuration at the carbon. SN1 proceeds through a planar carbocation that the nucleophile can attack from either face, giving near racemisation. Tertiary carbons are too crowded for SN2, so they react by SN1 or by elimination with strong bases.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "hard",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 6 Haloalkanes and Haloarenes: Mechanisms of SN1 and SN2 reactions",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "cc5ce6c8-e0fe-4cc4-afbd-1c9d4b8ee681",
+    "subject": "chemistry",
+    "unit": "Haloalkanes and Haloarenes",
+    "chapter": "Haloalkanes & Haloarenes",
+    "type": "match_the_following",
+    "stem": "Match List-I with List-II. List-I: (A) Finkelstein reaction (B) Swarts reaction (C) Wurtz reaction (D) Dow process. List-II: (I) Sodium metal in dry ether (II) Sodium iodide in dry acetone (III) Silver fluoride or mercurous fluoride (IV) Sodium hydroxide at about 623 K and high pressure, followed by acidification. Choose the correct answer from the options given below.",
+    "options": [
+      {
+        "key": "A",
+        "text": "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+      },
+      {
+        "key": "B",
+        "text": "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)"
+      },
+      {
+        "key": "C",
+        "text": "(A)-(III), (B)-(I), (C)-(IV), (D)-(II)"
+      },
+      {
+        "key": "D",
+        "text": "(A)-(IV), (B)-(II), (C)-(I), (D)-(III)"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "The Finkelstein reaction exchanges chlorine or bromine for iodine using NaI in acetone, and the insoluble NaCl drives the change. The Swarts reaction uses AgF or Hg2F2 to introduce fluorine. Wurtz coupling joins two alkyl halides with sodium in dry ether, and the Dow process converts chlorobenzene to phenol with NaOH at high temperature and pressure.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 6 Haloalkanes and Haloarenes: Methods of preparation; conversion of chlorobenzene to phenol",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "8b780340-7494-4816-b7a4-370acc255ad6",
+    "subject": "chemistry",
+    "unit": "Haloalkanes and Haloarenes",
+    "chapter": "Haloalkanes & Haloarenes",
+    "type": "statement_based",
+    "stem": "Consider the following statements about polyhalogen compounds. I. DDT is persistent in the environment and accumulates in the fatty tissues of organisms. II. Chlorofluorocarbons (freons) release chlorine free radicals in the stratosphere that catalyse the breakdown of ozone. III. Freons are chemically reactive in the lower atmosphere, which is why they are used as refrigerants. Which statements are correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "I and III only"
+      },
+      {
+        "key": "B",
+        "text": "I and II only"
+      },
+      {
+        "key": "C",
+        "text": "II and III only"
+      },
+      {
+        "key": "D",
+        "text": "I, II and III"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "DDT is a persistent organochlorine pesticide that is stored in fatty tissue, which is why its use was restricted. Freons are chemically inert in the lower atmosphere, so they reach the stratosphere, where UV light releases chlorine radicals that destroy ozone. Their inertness, not reactivity, is the reason they serve as refrigerants, so statement III is false.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 6 Haloalkanes and Haloarenes: Polyhalogen compounds (DDT and freons)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "e993c092-300c-4155-8a22-2b5228c43b87",
+    "subject": "chemistry",
+    "unit": "Biomolecules",
+    "chapter": "Biomolecules",
+    "type": "single_mcq",
+    "stem": "Which of the following monosaccharides is a ketose?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fructose"
+      },
+      {
+        "key": "B",
+        "text": "Glucose"
+      },
+      {
+        "key": "C",
+        "text": "Galactose"
+      },
+      {
+        "key": "D",
+        "text": "Mannose"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "Fructose has a ketone group (C=O) at C-2, so it is a ketohexose. Glucose, galactose and mannose each have an aldehyde group at C-1 and are aldohexoses.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: Carbohydrates",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "repaired"
+  },
+  {
+    "id": "310ed34a-d49c-40d1-8e25-31332657a600",
+    "subject": "chemistry",
+    "unit": "Biomolecules",
+    "chapter": "Biomolecules",
+    "type": "single_mcq",
+    "stem": "On hydrolysis, sucrose gives which pair of monosaccharides?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Two glucose molecules"
+      },
+      {
+        "key": "B",
+        "text": "One glucose and one fructose"
+      },
+      {
+        "key": "C",
+        "text": "One glucose and one galactose"
+      },
+      {
+        "key": "D",
+        "text": "Two fructose molecules"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "Sucrose is a disaccharide of alpha-D-glucose and beta-D-fructose joined by a glycosidic bond. Hydrolysis breaks this bond and releases one glucose and one fructose, which is why the mixture is called invert sugar.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: Carbohydrates",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "60786e7a-49b8-49ee-91fc-afd1448ed480",
+    "subject": "chemistry",
+    "unit": "Biomolecules",
+    "chapter": "Biomolecules",
+    "type": "single_mcq",
+    "stem": "How does amylopectin differ structurally from amylose?",
+    "options": [
+      {
+        "key": "A",
+        "text": "It is made of beta-D-glucose units joined by beta-1,4 linkages"
+      },
+      {
+        "key": "B",
+        "text": "It is made of fructose units joined by alpha-1,2 linkages"
+      },
+      {
+        "key": "C",
+        "text": "It is an unbranched chain of alpha-1,4 linkages"
+      },
+      {
+        "key": "D",
+        "text": "It has alpha-1,6 glycosidic branch points in addition to alpha-1,4 linkages"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "Both are polymers of alpha-D-glucose. Amylose is essentially a linear chain of alpha-1,4 linkages, while amylopectin is branched at alpha-1,6 linkages.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: Carbohydrates",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "4ac72883-303e-4876-81ab-9e68dadf5eee",
+    "subject": "chemistry",
+    "unit": "Biomolecules",
+    "chapter": "Biomolecules",
+    "type": "single_mcq",
+    "stem": "Glycogen is the storage polysaccharide of animals. It is structurally most similar to which polysaccharide?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cellulose"
+      },
+      {
+        "key": "B",
+        "text": "Amylopectin"
+      },
+      {
+        "key": "C",
+        "text": "Amylose"
+      },
+      {
+        "key": "D",
+        "text": "Inulin"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "Glycogen is a highly branched polymer of alpha-D-glucose, like amylopectin, but it branches more often, roughly every 8 to 12 residues. Cellulose is linear and beta-linked, and amylose is essentially unbranched.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: Carbohydrates",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "63dbe2f6-beff-4336-a8e9-435a3e28fe04",
+    "subject": "chemistry",
+    "unit": "Biomolecules",
+    "chapter": "Biomolecules",
+    "type": "single_mcq",
+    "stem": "In aqueous solution at its isoelectric point, glycine exists mainly as which species?",
+    "options": [
+      {
+        "key": "A",
+        "text": "H2N-CH2-COOH"
+      },
+      {
+        "key": "B",
+        "text": "H2N-CH2-COO-"
+      },
+      {
+        "key": "C",
+        "text": "H3N+-CH2-COO-"
+      },
+      {
+        "key": "D",
+        "text": "H3N+-CH2-COOH"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "An amino acid exists as a zwitterion, carrying a protonated amino group and a deprotonated carboxylate group. At the isoelectric point the net charge is zero, and the dominant form of glycine is the zwitterion H3N+-CH2-COO-.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: Proteins",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "d8db492b-6214-4323-88f7-e2a41b266896",
+    "subject": "chemistry",
+    "unit": "Biomolecules",
+    "chapter": "Biomolecules",
+    "type": "single_mcq",
+    "stem": "In the alpha-helix, the secondary structure of a protein is stabilised mainly by which interaction?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Disulfide bonds between the side chains of cysteine residues"
+      },
+      {
+        "key": "B",
+        "text": "Ionic bonds between side chains such as arginine and aspartate"
+      },
+      {
+        "key": "C",
+        "text": "Van der Waals forces between side chains of neighbouring helices"
+      },
+      {
+        "key": "D",
+        "text": "Hydrogen bonds between backbone C=O and N-H groups within the same chain"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "In an alpha-helix, each backbone C=O group hydrogen-bonds with the N-H group of the amino acid four residues ahead, which holds the coil together. Disulfide bonds and salt bridges between side chains stabilise tertiary structure, not secondary structure.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: Proteins",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "5202c447-997b-416b-9bee-314fa03afe31",
+    "subject": "chemistry",
+    "unit": "Biomolecules",
+    "chapter": "Biomolecules",
+    "type": "match_the_following",
+    "stem": "Match List-I (vitamin) with List-II (deficiency disease). List-I: (A) Vitamin B1 (B) Vitamin C (C) Vitamin D (D) Vitamin K. List-II: (I) Rickets (II) Scurvy (III) Beriberi (IV) Delayed blood clotting. Choose the correct answer from the options given below.",
+    "options": [
+      {
+        "key": "A",
+        "text": "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+      },
+      {
+        "key": "B",
+        "text": "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)"
+      },
+      {
+        "key": "C",
+        "text": "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)"
+      },
+      {
+        "key": "D",
+        "text": "(A)-(IV), (B)-(I), (C)-(II), (D)-(III)"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "Vitamin B1 deficiency causes beriberi (III). Vitamin C deficiency causes scurvy (II). Vitamin D deficiency causes rickets in children (I). Vitamin K deficiency delays blood clotting (IV), so the correct pairing is (A)-(III), (B)-(II), (C)-(I), (D)-(IV).",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: Vitamins",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "c7164d89-271f-4f8d-8340-124aa636b7a2",
+    "subject": "chemistry",
+    "unit": "Biomolecules",
+    "chapter": "Biomolecules",
+    "type": "single_mcq",
+    "stem": "Which pair correctly gives the sugar and a nitrogenous base found in RNA?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ribose and uracil"
+      },
+      {
+        "key": "B",
+        "text": "Deoxyribose and thymine"
+      },
+      {
+        "key": "C",
+        "text": "Ribose and thymine"
+      },
+      {
+        "key": "D",
+        "text": "Deoxyribose and uracil"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "RNA nucleotides contain ribose and the bases adenine, guanine, cytosine and uracil. DNA contains deoxyribose and thymine in place of uracil, so the thymine options describe DNA, not RNA.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: Nucleic Acids",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "repaired"
+  },
+  {
+    "id": "839dd482-8e96-4b1e-8db6-c26e551ba4bb",
+    "subject": "chemistry",
+    "unit": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+    "type": "single_mcq",
+    "stem": "Which reagents are used in the Hell-Volhard-Zelinsky reaction to convert a carboxylic acid into an alpha-bromo acid?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Br2 with FeBr3 catalyst"
+      },
+      {
+        "key": "B",
+        "text": "Br2 with aqueous NaOH"
+      },
+      {
+        "key": "C",
+        "text": "Br2 with a little red phosphorus"
+      },
+      {
+        "key": "D",
+        "text": "NaBr with concentrated H2SO4"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "Red phosphorus converts a small amount of the acid into an acyl bromide, which enolises readily, and bromine then substitutes at the alpha-carbon. Br2 with FeBr3 is used for ring bromination of arenes, not for this reaction.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 8 Aldehydes, Ketones and Carboxylic Acids: Carboxylic acids, alpha-halogenation (HVZ)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "2b8ad4d9-5b84-4089-ba12-bb46cb8fe0d9",
+    "subject": "chemistry",
+    "unit": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+    "type": "single_mcq",
+    "stem": "Which reagents are used for the Wolff-Kishner reduction of a carbonyl compound to a methylene group?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hydrazine, then KOH heated in ethylene glycol"
+      },
+      {
+        "key": "B",
+        "text": "Amalgamated zinc (Zn-Hg) with concentrated HCl"
+      },
+      {
+        "key": "C",
+        "text": "LiAlH4 in dry ether, then aqueous work-up"
+      },
+      {
+        "key": "D",
+        "text": "H2 over Pd on BaSO4 with partial poisoning"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "Hydrazine forms a hydrazone with the carbonyl group. Heating this with KOH in a high-boiling solvent such as ethylene glycol releases nitrogen and gives the CH2 group. Zn-Hg with HCl is the Clemmensen reduction, which uses strong acid instead of base.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 8 Aldehydes, Ketones and Carboxylic Acids: Reduction reactions",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "9bc6d44a-b09b-4b8c-8e22-919b7fe6928b",
+    "subject": "chemistry",
+    "unit": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+    "type": "single_mcq",
+    "stem": "Which carbonyl compound is most reactive towards nucleophilic addition, for example with HCN?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Acetaldehyde"
+      },
+      {
+        "key": "B",
+        "text": "Formaldehyde"
+      },
+      {
+        "key": "C",
+        "text": "Acetone"
+      },
+      {
+        "key": "D",
+        "text": "Benzophenone"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "Electron-donating alkyl or aryl groups reduce the electrophilicity of the carbonyl carbon, and bulky groups add steric hindrance. Formaldehyde has no alkyl group and is the most reactive; acetaldehyde is next, then acetone, and benzophenone is the least reactive.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 8 Aldehydes, Ketones and Carboxylic Acids: Nucleophilic addition reactions",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "53f31015-3913-4213-a0b1-fad4126639d6",
+    "subject": "chemistry",
+    "unit": "Alcohols, Phenols and Ethers",
+    "chapter": "Alcohols, Phenols & Ethers",
+    "type": "single_mcq",
+    "stem": "Methylmagnesium iodide, prepared from CH3I and magnesium in dry ether, is treated with ethanal. The product after dilute acid hydrolysis is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ethanol"
+      },
+      {
+        "key": "B",
+        "text": "Propan-2-ol"
+      },
+      {
+        "key": "C",
+        "text": "Propan-1-ol"
+      },
+      {
+        "key": "D",
+        "text": "Butan-2-ol"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "CH3MgI adds to the carbonyl carbon of ethanal (CH3CHO), giving a magnesium alkoxide. Acid hydrolysis gives CH3CH(OH)CH3, which is propan-2-ol, a secondary alcohol.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 7 Alcohols, Phenols and Ethers: Preparation of alcohols using Grignard reagents",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "59a100d2-d92b-48ae-8b1c-773b76b35021",
+    "subject": "chemistry",
+    "unit": "Amines",
+    "chapter": "Amines",
+    "type": "single_mcq",
+    "stem": "Benzenediazonium chloride is warmed with cuprous chloride dissolved in hydrochloric acid. The major organic product is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Benzene"
+      },
+      {
+        "key": "B",
+        "text": "Phenol"
+      },
+      {
+        "key": "C",
+        "text": "Chlorobenzene"
+      },
+      {
+        "key": "D",
+        "text": "Benzonitrile"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "This is the Sandmeyer reaction. Copper(I) chloride catalyses replacement of the diazonium group by chlorine, with N2 gas released, giving chlorobenzene. Benzonitrile needs CuCN, and benzene is obtained with hypophosphorous acid.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 9 Amines: Chemical reactions of diazonium salts (Sandmeyer reaction)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "6c9e8e40-c2e3-4240-946d-3e669d70a831",
+    "subject": "chemistry",
+    "unit": "Amines",
+    "chapter": "Amines",
+    "type": "single_mcq",
+    "stem": "Which amine gives a yellow, oily N-nitrosoamine when treated with sodium nitrite and hydrochloric acid at low temperature?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(CH3)2NH"
+      },
+      {
+        "key": "B",
+        "text": "CH3NH2"
+      },
+      {
+        "key": "C",
+        "text": "(CH3)3N"
+      },
+      {
+        "key": "D",
+        "text": "C6H5NH2"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "Secondary amines react with nitrous acid to give N-nitrosamines, which are yellow oily liquids insoluble in water. Methylamine gives methanol and N2, tertiary amines do not form a nitrosamine, and aniline forms a diazonium salt.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "hard",
+    "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 9 Amines: Reaction with nitrous acid",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "repaired"
+  },
+  {
+    "id": "a405bec0-826f-44c5-9f84-2e908a39344b",
+    "subject": "chemistry",
+    "unit": "d and f Block Elements",
+    "chapter": "d- and f-Block Elements",
+    "type": "single_mcq",
+    "stem": "The spin-only magnetic moment of the Ti³⁺ ion (atomic number 22), in Bohr magnetons, is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.73"
+      },
+      {
+        "key": "B",
+        "text": "0 (diamagnetic)"
+      },
+      {
+        "key": "C",
+        "text": "2.83"
+      },
+      {
+        "key": "D",
+        "text": "3.87"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "Ti³⁺ is 3d¹ with one unpaired electron. Spin-only moment is √(n(n+2)) with n = 1 unpaired electron, which gives √3 ≈ 1.73 BM.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 4 d- and f-Block Elements, Magnetic properties of transition elements",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "89b11133-4e7e-4f99-8cb2-d2d84288ccc6",
+    "subject": "chemistry",
+    "unit": "d and f Block Elements",
+    "chapter": "d- and f-Block Elements",
+    "type": "single_mcq",
+    "stem": "The spin-only magnetic moment of the free Fe²⁺ ion (atomic number 26), in Bohr magnetons, is closest to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "2.83"
+      },
+      {
+        "key": "B",
+        "text": "3.87"
+      },
+      {
+        "key": "C",
+        "text": "5.92"
+      },
+      {
+        "key": "D",
+        "text": "4.90"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "Fe²⁺ is 3d⁶, which has four unpaired electrons in the free ion. Spin-only moment √(4×6) = √24 ≈ 4.90 BM.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 4 d- and f-Block Elements, Magnetic properties of transition elements",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "c59ca92c-e396-4036-822d-1ef3fecdeda2",
+    "subject": "chemistry",
+    "unit": "d and f Block Elements",
+    "chapter": "d- and f-Block Elements",
+    "type": "single_mcq",
+    "stem": "Which of the following aqueous ions is colourless?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ti³⁺"
+      },
+      {
+        "key": "B",
+        "text": "V³⁺"
+      },
+      {
+        "key": "C",
+        "text": "Sc³⁺"
+      },
+      {
+        "key": "D",
+        "text": "Fe²⁺"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "Colour in transition metal ions comes from d-d transitions, which need electrons in d orbitals. Sc³⁺ is 3d⁰, so it has no d-d transition and is colourless, while Ti³⁺, V³⁺ and Fe²⁺ are coloured.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 4 d- and f-Block Elements, Colour of transition metal ions",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "repaired"
+  },
+  {
+    "id": "50a574d4-8098-483b-bac5-a7d1b5bd6741",
+    "subject": "chemistry",
+    "unit": "d and f Block Elements",
+    "chapter": "d- and f-Block Elements",
+    "type": "single_mcq",
+    "stem": "When potassium permanganate is reduced in a neutral aqueous solution, the manganese product is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mn²⁺"
+      },
+      {
+        "key": "B",
+        "text": "MnO₂"
+      },
+      {
+        "key": "C",
+        "text": "MnO₄²⁻"
+      },
+      {
+        "key": "D",
+        "text": "Mn³⁺"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "The reduction product depends on the medium: Mn²⁺ in acid (five electrons gained), MnO₂ in neutral solution (three electrons gained, Mn in +4), and manganate MnO₄²⁻ in strongly alkaline solution (one electron gained). In neutral solution the brown precipitate is MnO₂.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 4 d- and f-Block Elements, Potassium permanganate",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "dc8c1ef9-3c6c-4ae0-ba28-3caf30b0c5fe",
+    "subject": "chemistry",
+    "unit": "d and f Block Elements",
+    "chapter": "d- and f-Block Elements",
+    "type": "single_mcq",
+    "stem": "In acidic medium, one mole of dichromate ion (Cr₂O₇²⁻) oxidises how many moles of Fe²⁺ to Fe³⁺?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "Each Cr₂O₇²⁻ is reduced to 2Cr³⁺, which gains 6 electrons. Each Fe²⁺ loses one electron on oxidation to Fe³⁺, so 6 moles of Fe²⁺ are oxidised per mole of dichromate.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 4 d- and f-Block Elements, Potassium dichromate",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "repaired"
+  },
+  {
+    "id": "1f660152-f757-4ce1-8e8b-08e78037c1ef",
+    "subject": "chemistry",
+    "unit": "d and f Block Elements",
+    "chapter": "d- and f-Block Elements",
+    "type": "single_mcq",
+    "stem": "Which catalyst is used in the Contact process for manufacturing sulphuric acid?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fe₂O₃"
+      },
+      {
+        "key": "B",
+        "text": "TiCl₄"
+      },
+      {
+        "key": "C",
+        "text": "MnO₂"
+      },
+      {
+        "key": "D",
+        "text": "V₂O₅"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "In the Contact process, sulphur dioxide is oxidised to sulphur trioxide over vanadium(V) oxide. V₂O₅ works because vanadium switches between +5 and +4 oxidation states, which is typical of d-block catalysts. TiCl₄ belongs to Ziegler–Natta catalysis.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 4 d- and f-Block Elements, Catalytic properties of transition elements",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "8ead33c1-64fa-464c-a683-af9dafe41340",
+    "subject": "chemistry",
+    "unit": "d and f Block Elements",
+    "chapter": "d- and f-Block Elements",
+    "type": "single_mcq",
+    "stem": "In aqueous solution Cu⁺ disproportionates, while Cu²⁺ is stable. The main reason is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The very high hydration enthalpy of Cu²⁺ outweighs the second ionisation enthalpy of Cu"
+      },
+      {
+        "key": "B",
+        "text": "The hydration enthalpy of Cu⁺ is larger than that of Cu²⁺ in aqueous solution"
+      },
+      {
+        "key": "C",
+        "text": "Cu⁺ has a half-filled d subshell, which makes it unstable in water"
+      },
+      {
+        "key": "D",
+        "text": "The second ionisation enthalpy of copper is lower than its first ionisation enthalpy"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "Cu⁺ is 3d¹⁰ and disproportionates as 2Cu⁺ → Cu + Cu²⁺. The Cu²⁺ ion has a very large hydration enthalpy, which offsets the energy needed to remove the second electron from copper, so Cu²⁺ is more stable in water.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "hard",
+    "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 4 d- and f-Block Elements, Stability of copper oxidation states",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "bbb5fa0d-3c8b-4595-81bd-15d88f61ff99",
+    "subject": "chemistry",
+    "unit": "d and f Block Elements",
+    "chapter": "d- and f-Block Elements",
+    "type": "single_mcq",
+    "stem": "Actinoids show a wider range of oxidation states than lanthanoids. The main reason is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "5f electrons are more effectively shielded than 4f electrons"
+      },
+      {
+        "key": "B",
+        "text": "Actinoid ions have lower ionisation enthalpies than lanthanoid ions"
+      },
+      {
+        "key": "C",
+        "text": "Actinoids have no electrons in 6d orbitals"
+      },
+      {
+        "key": "D",
+        "text": "The 5f, 6d and 7s energy levels are close, so more electrons take part in bonding"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "The 5f, 6d and 7s orbitals have similar energies, so several electrons can be used in bonding. The 5f electrons are less effectively shielded than 4f electrons, and this allows a wider spread of oxidation states than in the lanthanoids.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "hard",
+    "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 4 d- and f-Block Elements, Actinoids",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "12f5a5e7-81db-4ac3-97f7-3132d0850f9d",
+    "subject": "chemistry",
+    "unit": "d and f Block Elements",
+    "chapter": "d- and f-Block Elements",
+    "type": "single_mcq",
+    "stem": "In an acidic medium, MnO₄⁻ is reduced to Mn²⁺. How many moles of MnO₄⁻ are needed to oxidise 2.5 mol of Fe²⁺ to Fe³⁺?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.1"
+      },
+      {
+        "key": "B",
+        "text": "1.0"
+      },
+      {
+        "key": "C",
+        "text": "0.5"
+      },
+      {
+        "key": "D",
+        "text": "2.5"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "Each MnO₄⁻ gains five electrons to become Mn²⁺, and each Fe²⁺ gives one electron. So 2.5 mol of Fe²⁺ supplies 2.5 mol of electrons, and 2.5 ÷ 5 = 0.5 mol of MnO₄⁻ is required.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 4 d- and f-Block Elements, Potassium permanganate",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "a8352fba-9650-44d2-b07b-c049b1d5a9f1",
+    "subject": "chemistry",
+    "unit": "Electrochemistry",
+    "chapter": "Electrochemistry",
+    "type": "single_mcq",
+    "stem": "Concentrated aqueous sodium chloride is electrolysed with inert electrodes. The products formed are:",
+    "options": [
+      {
+        "key": "A",
+        "text": "H₂ at the anode and Na at the cathode"
+      },
+      {
+        "key": "B",
+        "text": "Cl₂ at the anode and H₂ at the cathode"
+      },
+      {
+        "key": "C",
+        "text": "O₂ at the anode and Na at the cathode"
+      },
+      {
+        "key": "D",
+        "text": "Cl₂ at the cathode and H₂ at the anode"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "At the cathode, water is reduced to H₂ and OH⁻, which is easier than reducing Na⁺. At the anode, chloride ions are oxidised to Cl₂ in concentrated solution, which is preferred over oxidising water to O₂.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 2 Electrochemistry, Electrolytic cells and Faraday laws",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "95b3813f-8e6c-46a2-9d87-159dae9088db",
+    "subject": "chemistry",
+    "unit": "Electrochemistry",
+    "chapter": "Electrochemistry",
+    "type": "single_mcq",
+    "stem": "The standard electrode potential of Zn²⁺/Zn is −0.76 V. At 298 K, the potential of the Zn²⁺/Zn electrode in 0.1 M Zn²⁺ solution is closest to (take 2.303RT/F = 0.059 V):",
+    "options": [
+      {
+        "key": "A",
+        "text": "−0.73 V"
+      },
+      {
+        "key": "B",
+        "text": "−0.82 V"
+      },
+      {
+        "key": "C",
+        "text": "−0.70 V"
+      },
+      {
+        "key": "D",
+        "text": "−0.79 V"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "By the Nernst equation, E = E° − (0.059/n) log(1/[Zn²⁺]) with n = 2. So E = −0.76 − (0.059/2) × log 10 = −0.76 − 0.03 = −0.79 V.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 2 Electrochemistry, Nernst equation",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "8ed9bbe9-5c6f-4785-84d1-6d8d6625e7c6",
+    "subject": "chemistry",
+    "unit": "Electrochemistry",
+    "chapter": "Electrochemistry",
+    "type": "single_mcq",
+    "stem": "For a cell reaction with n = 2, the standard EMF is 0.59 V at 298 K. Taking 2.303RT/F = 0.059 V, the equilibrium constant K is approximately:",
+    "options": [
+      {
+        "key": "A",
+        "text": "10⁵"
+      },
+      {
+        "key": "B",
+        "text": "10¹⁰"
+      },
+      {
+        "key": "C",
+        "text": "10²⁰"
+      },
+      {
+        "key": "D",
+        "text": "10³⁰"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "At equilibrium E = 0, so the Nernst equation gives log K = nE°/0.059. Here log K = (2 × 0.59)/0.059 = 20, so K ≈ 10²⁰.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 2 Electrochemistry, Relation between EMF and equilibrium constant",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "repaired"
+  },
+  {
+    "id": "f36e1b45-5688-42fc-9a5a-9b5f39be20a2",
+    "subject": "chemistry",
+    "unit": "Electrochemistry",
+    "chapter": "Electrochemistry",
+    "type": "single_mcq",
+    "stem": "The conductivity of a 0.02 M solution of an electrolyte is 0.0024 S cm⁻¹ at 298 K. Its molar conductivity, in S cm² mol⁻¹, is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.2 × 10²"
+      },
+      {
+        "key": "B",
+        "text": "0.12"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "1.2 × 10³"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "Molar conductivity is Λm = κ × 1000 / c, where c is in mol L⁻¹. So Λm = 0.0024 × 1000 / 0.02 = 120 S cm² mol⁻¹, which is 1.2 × 10².",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 2 Electrochemistry, Molar conductivity",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "1de140e3-81b2-467b-af74-6705474ba41f",
+    "subject": "chemistry",
+    "unit": "Electrochemistry",
+    "chapter": "Electrochemistry",
+    "type": "single_mcq",
+    "stem": "The quantity of electricity needed to deposit 21.6 g of silver (molar mass 108 g mol⁻¹) from a solution of Ag⁺ is closest to (F = 96500 C mol⁻¹):",
+    "options": [
+      {
+        "key": "A",
+        "text": "9.7 × 10³ C"
+      },
+      {
+        "key": "B",
+        "text": "3.9 × 10⁴ C"
+      },
+      {
+        "key": "C",
+        "text": "4.8 × 10³ C"
+      },
+      {
+        "key": "D",
+        "text": "1.9 × 10⁴ C"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "Moles of Ag = 21.6 / 108 = 0.2 mol, and each Ag⁺ needs one electron. So Q = 0.2 × 96500 = 19 300 C, which is 1.9 × 10⁴ C, as given by Faraday first law.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 2 Electrochemistry, Faraday laws of electrolysis",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "3031f426-b0a1-41c2-95d3-bd80f195ae2f",
+    "subject": "chemistry",
+    "unit": "Coordination Compounds",
+    "chapter": "Coordination Compounds",
+    "type": "single_mcq",
+    "stem": "The crystal field stabilisation energy of the high-spin octahedral [Cr(H₂O)₆]²⁺ ion (a d⁴ ion) is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "−0.4 Δo"
+      },
+      {
+        "key": "B",
+        "text": "−0.6 Δo"
+      },
+      {
+        "key": "C",
+        "text": "−1.2 Δo"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "Water is a weak-field ligand, so the complex is high spin: t₂g³ e_g¹. CFSE = 3(−0.4 Δo) + 1(+0.6 Δo) = −0.6 Δo. The eg electron adds +0.6 Δo, which is why the answer is not −1.2 Δo.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "hard",
+    "ncert_ref": "NCERT Class 12 Chemistry Part I, Ch 5 Coordination Compounds, Crystal field theory",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "e0c08075-b58b-4d3f-af73-dd797c293080",
+    "subject": "general_test",
+    "unit": "Logical and Analytical Reasoning",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "single_mcq",
+    "stem": "If TABLE is coded as UBCMF, how is CHAIR coded?",
+    "options": [
+      {
+        "key": "A",
+        "text": "DIBJS"
+      },
+      {
+        "key": "B",
+        "text": "DJBIS"
+      },
+      {
+        "key": "C",
+        "text": "CIBJS"
+      },
+      {
+        "key": "D",
+        "text": "DIBJR"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "Each letter of TABLE is moved one place forward in the alphabet to give UBCMF. Applying the same shift to CHAIR gives C to D, H to I, A to B, I to J and R to S, so the code is DIBJS.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Coding-decoding (letter shifts)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "6bbde2ac-85d2-4b61-a2e7-25ad64d121d3",
+    "subject": "general_test",
+    "unit": "Logical and Analytical Reasoning",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "sequence_ordering",
+    "stem": "Arrange the following words in the order they would appear in a dictionary, from first to last: (A) Tiger (B) Tablet (C) Table (D) Tail (E) Tab. Choose the correct sequence from the options given below.",
+    "options": [
+      {
+        "key": "A",
+        "text": "(E), (C), (B), (D), (A)"
+      },
+      {
+        "key": "B",
+        "text": "(E), (D), (C), (B), (A)"
+      },
+      {
+        "key": "C",
+        "text": "(C), (E), (B), (D), (A)"
+      },
+      {
+        "key": "D",
+        "text": "(E), (C), (D), (B), (A)"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "Dictionary order compares letters from left to right. Tab comes before Table because it is a prefix of it, and Table comes before Tablet for the same reason. Tablet comes before Tail because b precedes i at the third letter, and Tail comes before Tiger because a precedes i at the second letter. The order is Tab, Table, Tablet, Tail, Tiger, which is (E), (C), (B), (D), (A).",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Ranking and order (alphabetical ordering)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired",
+    "_reworded": true
+  },
+  {
+    "id": "e09818d8-3a95-4c58-bddd-a28479403f5d",
+    "subject": "general_test",
+    "unit": "Logical and Analytical Reasoning",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "match_the_following",
+    "stem": "Match List-I with List-II. List-I: (A) 2, 4, 8, 16 (B) 1, 4, 9, 16 (C) 1, 1, 2, 3 (D) 5, 10, 15, 20. List-II: (I) Squares of natural numbers (II) Constant ratio of 2 (III) Fibonacci sequence (IV) Constant difference of 5. Choose the correct answer from the options given below.",
+    "options": [
+      {
+        "key": "A",
+        "text": "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+      },
+      {
+        "key": "B",
+        "text": "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)"
+      },
+      {
+        "key": "C",
+        "text": "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)"
+      },
+      {
+        "key": "D",
+        "text": "(A)-(IV), (B)-(III), (C)-(II), (D)-(I)"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "2, 4, 8, 16 doubles each time, so it has a constant ratio of 2 (A-II). 1, 4, 9, 16 are squares of 1 to 4 (B-I). 1, 1, 2, 3 is the Fibonacci sequence, where each term is the sum of the two before it (C-III). 5, 10, 15, 20 rises by a constant difference of 5 (D-IV).",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Number series and patterns (match)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "e8db991e-fd05-4e8d-9157-36a719ad405d",
+    "subject": "general_test",
+    "unit": "Logical and Analytical Reasoning",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "match_the_following",
+    "stem": "Match List-I with List-II. List-I: (A) All A are B (B) No A is B (C) Some A are B (D) All B are A. List-II: (I) A and B overlap partially (II) A and B are disjoint (III) A lies entirely within B (IV) B lies entirely within A. Choose the correct answer from the options given below.",
+    "options": [
+      {
+        "key": "A",
+        "text": "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+      },
+      {
+        "key": "B",
+        "text": "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)"
+      },
+      {
+        "key": "C",
+        "text": "(A)-(IV), (B)-(I), (C)-(II), (D)-(III)"
+      },
+      {
+        "key": "D",
+        "text": "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "All A are B means circle A lies inside circle B (A-III). No A is B means the two circles are disjoint (B-II). Some A are B means the circles overlap partially (C-I). All B are A means circle B lies inside circle A (D-IV).",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Syllogisms (Venn logic of All, No, Some)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "19c49938-f37a-419f-975a-03e609b82cdc",
+    "subject": "general_test",
+    "unit": "Logical and Analytical Reasoning",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "single_mcq",
+    "stem": "Five persons P, Q, R, S and T sit around a circular table, equidistant from each other and all facing the centre. P sits immediately to the right of Q. S sits second to the left of P. R does not sit next to S. Which person sits next to both Q and R?",
+    "options": [
+      {
+        "key": "A",
+        "text": "S"
+      },
+      {
+        "key": "B",
+        "text": "T"
+      },
+      {
+        "key": "C",
+        "text": "P"
+      },
+      {
+        "key": "D",
+        "text": "Q"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "Place Q, then P immediately after Q, so S sits two places before P on Q's other side. R cannot sit next to S, so R sits beside P and T sits between R and S. P is the only person adjacent to both Q and R.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Seating arrangement (circular)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "c2041ae3-9c59-4149-bdbc-3b863ca761f5",
+    "subject": "general_test",
+    "unit": "Logical and Analytical Reasoning",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "single_mcq",
+    "stem": "Five persons P, Q, R, S and T sit in a single row facing north. Left and right are taken as seen by an observer facing the row. T sits at one of the two ends. P sits second to the right of T. Q sits immediately to the right of R. Who sits second to the left of Q?",
+    "options": [
+      {
+        "key": "A",
+        "text": "R"
+      },
+      {
+        "key": "B",
+        "text": "S"
+      },
+      {
+        "key": "C",
+        "text": "P"
+      },
+      {
+        "key": "D",
+        "text": "T"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "T must be at an end, and P two places to its right forces T to the left end with P in the middle. Q sits immediately right of R, which leaves only the fourth and fifth places for them, so S is in the second place. Second to the left of Q is therefore P.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Seating arrangement (linear)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "bd7ed369-d22b-4366-a731-45bd7dce9242",
+    "subject": "general_test",
+    "unit": "Logical and Analytical Reasoning",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "single_mcq",
+    "stem": "In a class of 40 students, Neha ranks 12th from the top. Rohit ranks 5 places below Neha. What is Rohit's rank from the bottom?",
+    "options": [
+      {
+        "key": "A",
+        "text": "22nd"
+      },
+      {
+        "key": "B",
+        "text": "23rd"
+      },
+      {
+        "key": "C",
+        "text": "24th"
+      },
+      {
+        "key": "D",
+        "text": "25th"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "Rohit's rank from the top is 12 + 5 = 17. His rank from the bottom is 40 - 17 + 1 = 24, because a rank from one end plus the rank from the other end minus one equals the total number of students.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Ranking and order (rank from both ends)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "7edd9bb1-56a1-431d-b322-59c335b4c8a0",
+    "subject": "general_test",
+    "unit": "Logical and Analytical Reasoning",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "single_mcq",
+    "stem": "If 15 March 2026 falls on a Sunday, what day of the week will 15 April 2026 be?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tuesday"
+      },
+      {
+        "key": "B",
+        "text": "Wednesday"
+      },
+      {
+        "key": "C",
+        "text": "Thursday"
+      },
+      {
+        "key": "D",
+        "text": "Friday"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "From 15 March to 15 April is 31 days: 16 days remain in March (16 to 31) and 15 days run into April (1 to 15). Since 31 leaves a remainder of 3 when divided by 7, the weekday moves forward by 3 days, so Sunday becomes Wednesday.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Calendars (odd days)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "6e38970a-7eca-45b6-80f6-ebf5c9125a91",
+    "subject": "general_test",
+    "unit": "Logical and Analytical Reasoning",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "statement_based",
+    "stem": "Statement: The school has announced that all classes will be held online from tomorrow. Assumptions: I. Students have access to devices and a working internet connection. II. The school will reopen for physical classes next month. Which assumption is implicit in the statement?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only assumption I is implicit"
+      },
+      {
+        "key": "B",
+        "text": "Only assumption II is implicit"
+      },
+      {
+        "key": "C",
+        "text": "Both assumptions I and II are implicit"
+      },
+      {
+        "key": "D",
+        "text": "Neither assumption is implicit"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "An announcement of online classes only works if students can reach the lessons, so assumption I is taken for granted. Assumption II concerns a future decision that the announcement does not depend on, so it is not implicit. An implicit assumption is a condition the speaker must believe for the statement to make sense.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Statement and assumption",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "9bf44c6e-60a3-4d29-90b1-afcdbf800ab4",
+    "subject": "general_test",
+    "unit": "Logical and Analytical Reasoning",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "statement_based",
+    "stem": "Statement: Only those students who score above 90 per cent are selected for the advanced programme. Ravi was selected for the advanced programme. Conclusions: I. Ravi scored above 90 per cent. II. All students who score above 90 per cent are selected for the advanced programme.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "key": "B",
+        "text": "Only conclusion II follows"
+      },
+      {
+        "key": "C",
+        "text": "Both conclusions I and II follow"
+      },
+      {
+        "key": "D",
+        "text": "Neither conclusion I nor II follows"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "'Only those who score above 90 per cent are selected' means selection implies a score above 90 per cent, so Ravi's score is above 90 (I). Conclusion II reverses the condition, and 'only' does not say that everyone above 90 per cent is selected. Read 'only those who' as a one-way condition.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Statement and conclusion (the word 'only')",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "f05bce07-08b2-491b-937f-d70bca9926c5",
+    "subject": "general_test",
+    "unit": "Logical and Analytical Reasoning",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "sequence_ordering",
+    "stem": "Lata is taller than Mohan. Kiran is taller than Lata. Neha is shorter than Mohan but taller than Om. Arrange the following five persons from the tallest to the shortest: (A) Neha (B) Lata (C) Om (D) Kiran (E) Mohan. Choose the correct sequence from the options given below.",
+    "options": [
+      {
+        "key": "A",
+        "text": "(D), (B), (A), (E), (C)"
+      },
+      {
+        "key": "B",
+        "text": "(B), (D), (E), (A), (C)"
+      },
+      {
+        "key": "C",
+        "text": "(D), (B), (E), (A), (C)"
+      },
+      {
+        "key": "D",
+        "text": "(D), (E), (B), (A), (C)"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "Chain the comparisons: Kiran > Lata > Mohan from the first two clues, and Mohan > Neha > Om from the third. Combining the chains gives the full order Kiran, Lata, Mohan, Neha, Om, which is (D), (B), (E), (A), (C). Check a sequence against every clue, since one wrong adjacent pair rules it out.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Ranking and order (height comparisons)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired",
+    "_reworded": true
+  },
+  {
+    "id": "72c5b422-6100-4243-87c5-e6da84a6f8c7",
+    "subject": "general_test",
+    "unit": "Logical and Analytical Reasoning",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "single_mcq",
+    "stem": "Statements: Some pens are inks. All inks are liquids. No liquid is a solid. Conclusions: I. Some pens are not solids. II. No pen is a solid. III. Some liquids are pens. Which conclusions follow?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "key": "B",
+        "text": "Only conclusion III follows"
+      },
+      {
+        "key": "C",
+        "text": "Conclusions I and III follow"
+      },
+      {
+        "key": "D",
+        "text": "Conclusions I, II and III follow"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "Some pens are inks, and every ink is a liquid, so those pens are liquids. Since no liquid is a solid, those pens are not solids (I), and the same pens show that some liquids are pens (III). Pens outside the ink group may still be solids, so II does not follow.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "hard",
+    "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Syllogisms (three statements, Venn logic)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "4650a47a-f12a-4916-975a-1e2bbd999de5",
+    "subject": "general_test",
+    "unit": "Logical and Analytical Reasoning",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "sequence_ordering",
+    "stem": "Five books (P), (Q), (R), (S) and (T) are placed on a shelf from left to right. S is at the left end. P is immediately to the right of R. Q is to the right of P but not next to P. Which arrangement from left to right is correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "S, R, P, Q, T"
+      },
+      {
+        "key": "B",
+        "text": "S, R, P, T, Q"
+      },
+      {
+        "key": "C",
+        "text": "S, P, R, T, Q"
+      },
+      {
+        "key": "D",
+        "text": "R, S, P, T, Q"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "S fixes the first place. R and P must then take two consecutive places among the second to the fifth, with P right after R. If P were in the fourth place, the only place to its right is the fifth, which is next to P, and if P were in the fifth place Q would have no place to its right. So R is in the second place and P in the third. Q must then be in the fifth place, to the right of P without touching it, which leaves T in the fourth place: S, R, P, T, Q.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Seating and arrangement (linear, ordering by clues)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "repaired",
+    "_reworded": true
+  },
+  {
+    "id": "c6f4c6ab-0a24-49a8-ba45-23a3104b8826",
+    "subject": "general_test",
+    "unit": "Logical and Analytical Reasoning",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "single_mcq",
+    "stem": "Ravi starts from point O and walks 4 m north. He turns left and walks 3 m. He turns left again and walks 4 m. He then turns right and walks 6 m. In which direction, and how far, is Ravi from O?",
+    "options": [
+      {
+        "key": "A",
+        "text": "9 m west"
+      },
+      {
+        "key": "B",
+        "text": "13 m west"
+      },
+      {
+        "key": "C",
+        "text": "9 m east"
+      },
+      {
+        "key": "D",
+        "text": "3 m west"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "Ravi walks north, turns left to face west, turns left again to face south, and then turns right to face west. The 4 m north and 4 m south moves cancel, while the westward moves total 3 + 6 = 9 m. Track the facing direction after each turn and net the north-south and east-west moves separately.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Direction sense (multi-turn trace)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "repaired"
+  },
+  {
+    "id": "f6ac091e-cd92-418c-99f8-bf273c9fec50",
+    "subject": "general_test",
+    "unit": "Logical and Analytical Reasoning",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "single_mcq",
+    "stem": "After 4 o'clock, at what time do the hour hand and the minute hand of a clock first coincide?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4 : 20"
+      },
+      {
+        "key": "B",
+        "text": "4 : 21 9/11"
+      },
+      {
+        "key": "C",
+        "text": "4 : 22 6/11"
+      },
+      {
+        "key": "D",
+        "text": "4 : 24"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "At 4 : m, the hour hand is 120 + m/2 degrees from the twelve and the minute hand is 6m degrees, so they coincide when 6m = 120 + m/2. This gives 5.5m = 120, so m = 240/11 = 21 9/11 minutes. The minute hand gains 5.5 degrees per minute on the hour hand, starting from a 120-degree gap.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "hard",
+    "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Clocks (hour and minute hand coincidence)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "5d4111c6-388a-4181-9870-48f2433614c7",
+    "subject": "general_test",
+    "unit": "General Knowledge and Current Affairs",
+    "chapter": "General Knowledge",
+    "type": "single_mcq",
+    "stem": "Which Schedule of the Constitution of India lists the languages recognised by the Constitution?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fifth Schedule"
+      },
+      {
+        "key": "B",
+        "text": "Seventh Schedule"
+      },
+      {
+        "key": "C",
+        "text": "Eighth Schedule"
+      },
+      {
+        "key": "D",
+        "text": "Tenth Schedule"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "The Eighth Schedule of the Constitution lists the languages recognised by it, and it is the list used for official recognition of languages. The Fifth Schedule concerns administration of Scheduled Areas, the Seventh Schedule divides legislative subjects between the Union and the States, and the Tenth Schedule contains the anti-defection provisions.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "CUET GAT syllabus, General Knowledge: Indian Constitution, Schedules",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "78eb3759-1464-4e8b-bc15-a4c44426e185",
+    "subject": "general_test",
+    "unit": "General Science and Environment Literacy",
+    "chapter": "General Science and Environment Literacy",
+    "type": "single_mcq",
+    "stem": "The SI unit of electrical resistance is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Farad"
+      },
+      {
+        "key": "B",
+        "text": "Henry"
+      },
+      {
+        "key": "C",
+        "text": "Tesla"
+      },
+      {
+        "key": "D",
+        "text": "Ohm"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "Electrical resistance is measured in ohms, given by the ratio of voltage to current according to Ohm's law. The farad is the unit of capacitance, the henry is the unit of inductance and the tesla is the unit of magnetic flux density. Knowing which quantity each SI unit measures helps in elimination.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "CUET GAT syllabus, General Science and Environment Literacy: Physics basics, SI units",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "repaired"
+  },
+  {
+    "id": "e4bffc63-34a2-454c-a824-04a67523ea3c",
+    "subject": "general_test",
+    "unit": "General Knowledge and Current Affairs",
+    "chapter": "General Knowledge",
+    "type": "single_mcq",
+    "stem": "The words 'socialist' and 'secular' were added to the Preamble of the Constitution of India by which amendment?",
+    "options": [
+      {
+        "key": "A",
+        "text": "24th Amendment"
+      },
+      {
+        "key": "B",
+        "text": "44th Amendment"
+      },
+      {
+        "key": "C",
+        "text": "73rd Amendment"
+      },
+      {
+        "key": "D",
+        "text": "42nd Amendment"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "The 42nd Amendment of 1976 inserted 'socialist', 'secular' and 'integrity' into the Preamble, describing India as a sovereign socialist secular democratic republic. The 44th Amendment of 1978 is known for removing the right to property from the Fundamental Rights. The 73rd Amendment dealt with Panchayati Raj.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, General Knowledge: Indian Constitution, amendments",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "27a22460-7b41-4d9e-bfa1-d1423c8ddeb4",
+    "subject": "general_test",
+    "unit": "General Knowledge and Current Affairs",
+    "chapter": "General Knowledge",
+    "type": "single_mcq",
+    "stem": "Under which Article of the Constitution of India can the President proclaim a National Emergency?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Article 352"
+      },
+      {
+        "key": "B",
+        "text": "Article 356"
+      },
+      {
+        "key": "C",
+        "text": "Article 360"
+      },
+      {
+        "key": "D",
+        "text": "Article 370"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "Article 352 empowers the President to proclaim a National Emergency on grounds of war, external aggression or armed rebellion. Article 356 provides for President's Rule in a State, Article 360 for a Financial Emergency, and Article 370 gave special status to Jammu and Kashmir, which was later modified. Each emergency provision addresses a different situation.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, General Knowledge: Emergency provisions of the Constitution",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "29d9c92f-3fce-40f7-b1ea-c4c56f07ab15",
+    "subject": "general_test",
+    "unit": "General Knowledge and Current Affairs",
+    "chapter": "General Knowledge",
+    "type": "statement_based",
+    "stem": "Consider the following statements about the Constitution of India.\n(A) The right to property was removed from Part III (Fundamental Rights) by the 44th Amendment.\n(B) Directive Principles of State Policy are enforceable by courts.\n(C) Dr. B. R. Ambedkar described Article 32 as the heart and soul of the Constitution.\n(D) Fundamental Duties are listed in Part IVA of the Constitution.\nWhich of the statements given above are correct? Choose the correct answer from the options given below.",
+    "options": [
+      {
+        "key": "A",
+        "text": "(A) and (C) only"
+      },
+      {
+        "key": "B",
+        "text": "(A), (C) and (D)"
+      },
+      {
+        "key": "C",
+        "text": "(B) and (D) only"
+      },
+      {
+        "key": "D",
+        "text": "(A), (B) and (C)"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "The 44th Amendment removed the right to property from Part III and made it a legal right under Article 300A. Directive Principles are not enforceable in courts, which is why statement (B) is false, while Article 32 is the remedy Ambedkar called the heart and soul of the Constitution. Fundamental Duties appear in Part IVA under Article 51A.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, General Knowledge: Fundamental Rights, DPSP and Fundamental Duties",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "7fc9c9ea-2cc0-43af-91bf-099821f07bff",
+    "subject": "general_test",
+    "unit": "General Knowledge and Current Affairs",
+    "chapter": "General Knowledge",
+    "type": "single_mcq",
+    "stem": "The headquarters of the International Atomic Energy Agency (IAEA) are located in:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Geneva"
+      },
+      {
+        "key": "B",
+        "text": "Vienna"
+      },
+      {
+        "key": "C",
+        "text": "Paris"
+      },
+      {
+        "key": "D",
+        "text": "The Hague"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "The IAEA, the United Nations body that promotes peaceful use of nuclear energy and safeguards against its military use, has its headquarters in Vienna, Austria. Geneva hosts the WHO and ILO, Paris hosts UNESCO and The Hague hosts the International Court of Justice. Headquarters locations of UN agencies are a frequent CUET question.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, General Knowledge: International organisations and their headquarters",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "8d00f227-84a2-4ed5-8e30-a13421089559",
+    "subject": "general_test",
+    "unit": "General Knowledge and Current Affairs",
+    "chapter": "General Knowledge",
+    "type": "single_mcq",
+    "stem": "The headquarters of the United Nations Environment Programme (UNEP) is located in:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nairobi"
+      },
+      {
+        "key": "B",
+        "text": "New York"
+      },
+      {
+        "key": "C",
+        "text": "Rome"
+      },
+      {
+        "key": "D",
+        "text": "Bonn"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "UNEP, which coordinates environmental activities within the United Nations system, has its headquarters in Nairobi, Kenya. New York hosts the UN Secretariat and UNDP, Rome hosts FAO, and Bonn hosts the secretariat of the UN Framework Convention on Climate Change. Remember the headquarters of each UN agency along with its mandate.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, General Knowledge: International organisations and their headquarters",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "58e99246-9e9e-45b8-a31c-31662eb1f502",
+    "subject": "general_test",
+    "unit": "General Knowledge and Current Affairs",
+    "chapter": "General Knowledge",
+    "type": "single_mcq",
+    "stem": "The Great Stupa at Sanchi, a UNESCO World Heritage Site, is located in which state?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bihar"
+      },
+      {
+        "key": "B",
+        "text": "Gujarat"
+      },
+      {
+        "key": "C",
+        "text": "Madhya Pradesh"
+      },
+      {
+        "key": "D",
+        "text": "Uttar Pradesh"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "The Great Stupa at Sanchi, built under the Mauryan and later Shunga rule, is a Buddhist monument in Madhya Pradesh. It is known for its carved gateways and is a UNESCO World Heritage Site. Bodh Gaya, where the Buddha attained enlightenment, is in Bihar.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "CUET GAT syllabus, General Knowledge: Indian architecture and UNESCO heritage sites",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "repaired"
+  },
+  {
+    "id": "d9f17d54-ca5e-4301-88f7-9ea53cbbf264",
+    "subject": "general_test",
+    "unit": "General Knowledge and Current Affairs",
+    "chapter": "General Knowledge",
+    "type": "single_mcq",
+    "stem": "The book 'The Discovery of India' was written by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mahatma Gandhi"
+      },
+      {
+        "key": "B",
+        "text": "Sardar Vallabhbhai Patel"
+      },
+      {
+        "key": "C",
+        "text": "Maulana Abul Kalam Azad"
+      },
+      {
+        "key": "D",
+        "text": "Jawaharlal Nehru"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "Jawaharlal Nehru wrote 'The Discovery of India' during his imprisonment in the Ahmednagar Fort in 1944, tracing the history and culture of the country. Gandhi wrote 'Hind Swaraj' and his autobiography, while Patel and Azad were leaders of the freedom movement who did not write this book. Keep famous books paired with their authors.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "CUET GAT syllabus, General Knowledge: Books and authors",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "repaired"
+  },
+  {
+    "id": "4d609f5a-fe44-4fbc-b574-688115b283c0",
+    "subject": "general_test",
+    "unit": "General Knowledge and Current Affairs",
+    "chapter": "General Knowledge",
+    "type": "match_the_following",
+    "stem": "Match List-I with List-II.\nList-I: (A) Sabarmati (B) Brahmaputra (C) Yamuna (D) Mahanadi.\nList-II: (I) Guwahati (II) Cuttack (III) Ahmedabad (IV) Delhi.\nChoose the correct answer from the options given below.",
+    "options": [
+      {
+        "key": "A",
+        "text": "(A)-(I), (B)-(III), (C)-(IV), (D)-(II)"
+      },
+      {
+        "key": "B",
+        "text": "(A)-(III), (B)-(I), (C)-(IV), (D)-(II)"
+      },
+      {
+        "key": "C",
+        "text": "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)"
+      },
+      {
+        "key": "D",
+        "text": "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "The Sabarmati flows past Ahmedabad in Gujarat, the Brahmaputra past Guwahati in Assam, the Yamuna past Delhi and the Mahanadi past Cuttack in Odisha, which gives (A)-(III), (B)-(I), (C)-(IV) and (D)-(II). Wrong pairings swap rivers and cities, for example by putting the Sabarmati at Guwahati and the Brahmaputra at Ahmedabad. Learn each major river with one or two cities on its banks.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, General Knowledge: Indian rivers and the cities on them",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "repaired",
+    "_reworded": true
+  },
+  {
+    "id": "13acff28-0d34-4e66-9f98-c2db0415b060",
+    "subject": "general_test",
+    "unit": "General Knowledge and Current Affairs",
+    "chapter": "General Knowledge",
+    "type": "sequence_ordering",
+    "stem": "Arrange the following constitutional amendments of India in the chronological order of their enactment.\n(A) 73rd Amendment\n(B) 1st Amendment\n(C) 42nd Amendment\n(D) 86th Amendment\nChoose the correct answer from the options given below.",
+    "options": [
+      {
+        "key": "A",
+        "text": "(C), (B), (A), (D)"
+      },
+      {
+        "key": "B",
+        "text": "(B), (A), (C), (D)"
+      },
+      {
+        "key": "C",
+        "text": "(B), (C), (D), (A)"
+      },
+      {
+        "key": "D",
+        "text": "(B), (C), (A), (D)"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "The 1st Amendment was enacted in 1951, the 42nd in 1976, the 73rd in 1992 and the 86th in 2002. The chronological order is therefore B, C, A, D. Remembering the decade of major amendments helps in answering ordering questions.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, General Knowledge: Indian Constitution, amendments in order",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "repaired",
+    "_reworded": true
+  },
+  {
+    "id": "3f9a2c17-8b4e-4d61-9a2f-5c7e1b0d4a63",
+    "subject": "general_test",
+    "unit": "Quantitative Reasoning",
+    "chapter": "Quantitative Reasoning",
+    "type": "single_mcq",
+    "stem": "The population of a town is 40,000. It increases by 15% in the first year and then decreases by 10% in the second year. What is the population at the end of the second year?",
+    "options": [
+      {
+        "key": "A",
+        "text": "46,000"
+      },
+      {
+        "key": "B",
+        "text": "42,000"
+      },
+      {
+        "key": "C",
+        "text": "41,400"
+      },
+      {
+        "key": "D",
+        "text": "40,000"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "A 15% increase takes 40,000 to 46,000. A 10% decrease of 46,000 removes 4,600, leaving 41,400. Successive percentage changes apply to the new value each time, so the two percentages cannot simply be added to give 42,000.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "CUET GAT section, Quantitative Reasoning: Percentages and successive change",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "d4c71a9e-3f25-4b8d-a6e0-1e8b5c2f9d47",
+    "subject": "general_test",
+    "unit": "Quantitative Reasoning",
+    "chapter": "Quantitative Reasoning",
+    "type": "single_mcq",
+    "stem": "What is the difference between the compound interest and the simple interest on Rs 8,000 for 2 years at 5% per annum, compounded annually?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Rs 820"
+      },
+      {
+        "key": "B",
+        "text": "Rs 20"
+      },
+      {
+        "key": "C",
+        "text": "Rs 40"
+      },
+      {
+        "key": "D",
+        "text": "Rs 800"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "Simple interest = 8,000 x 5% x 2 = Rs 800. Compound interest also earns interest on the first year's interest, so CI = 8,000 x 1.05 x 1.05 - 8,000 = Rs 820. The difference of Rs 20 is 5% of the Rs 400 first-year interest, which is the interest on interest.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT section, Quantitative Reasoning: Simple and compound interest",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "27e0b6f4-9a1c-4e3d-8f72-6b4d0a9c1e58",
+    "subject": "general_test",
+    "unit": "Quantitative Reasoning",
+    "chapter": "Quantitative Reasoning",
+    "type": "single_mcq",
+    "stem": "Pipe P can fill a tank alone in 20 hours and pipe Q can fill it alone in 30 hours. Both pipes are opened together, but pipe P is closed after 6 hours. How many more hours will pipe Q take to fill the remaining tank?",
+    "options": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "15"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "18"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "Together the pipes fill 1/20 + 1/30 = 1/12 of the tank each hour. In 6 hours they fill 6/12 = 1/2 of the tank. Pipe Q fills 1/30 per hour, so the remaining 1/2 takes (1/2) / (1/30) = 15 hours.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT section, Quantitative Reasoning: Time and work",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "1c8f4b7d-2e90-4a5f-b1c6-7d3e9a0f2b84",
+    "subject": "general_test",
+    "unit": "Quantitative Reasoning",
+    "chapter": "Quantitative Reasoning",
+    "type": "single_mcq",
+    "stem": "The average marks of 12 students in section A are 40, and the average marks of 18 students in section B are 55. What is the average marks of all 30 students taken together?",
+    "options": [
+      {
+        "key": "A",
+        "text": "50"
+      },
+      {
+        "key": "B",
+        "text": "47.5"
+      },
+      {
+        "key": "C",
+        "text": "48"
+      },
+      {
+        "key": "D",
+        "text": "49"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "The total for section A is 12 x 40 = 480, and the total for section B is 18 x 55 = 990. The combined total is 1,470 over 30 students, so the average is 1,470 / 30 = 49. The simple average of 40 and 55 (47.5) ignores the different group sizes.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT section, Quantitative Reasoning: Averages",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "c3f08d6a-1e4b-4927-b5a8-0f9e2d7c6a31",
+    "subject": "general_test",
+    "unit": "Quantitative Reasoning",
+    "chapter": "Quantitative Reasoning",
+    "type": "single_mcq",
+    "stem": "Vessel A contains 40 litres of a milk-and-water mixture in the ratio 3 : 1. Vessel B contains 60 litres of a mixture in the ratio 1 : 2. Both are poured into an empty third vessel. What is the ratio of milk to water in the third vessel?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3 : 2"
+      },
+      {
+        "key": "B",
+        "text": "1 : 1"
+      },
+      {
+        "key": "C",
+        "text": "5 : 4"
+      },
+      {
+        "key": "D",
+        "text": "2 : 3"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "Vessel A holds 30 litres of milk and 10 litres of water. Vessel B holds 20 litres of milk and 40 litres of water. The third vessel therefore has 50 litres of milk and 50 litres of water, a ratio of 1 : 1, which is found by adding quantities rather than averaging the two ratios.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "hard",
+    "ncert_ref": "CUET GAT section, Quantitative Reasoning: Mixtures and alligation",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "4e6a1b9c-8f2d-4c03-9e7b-a5d1f3c8e620",
+    "subject": "general_test",
+    "unit": "Quantitative Reasoning",
+    "chapter": "Quantitative Reasoning",
+    "type": "single_mcq",
+    "stem": "A rectangular park is 120 m long and 80 m wide. A path of uniform width 5 m is built inside the park along its entire boundary. What is the area of the path?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1,700 m²"
+      },
+      {
+        "key": "B",
+        "text": "2,000 m²"
+      },
+      {
+        "key": "C",
+        "text": "9,600 m²"
+      },
+      {
+        "key": "D",
+        "text": "1,900 m²"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "The inner rectangle (the area left after the path) is (120 - 10) x (80 - 10) = 110 x 70 = 7,700 m². The path is the full area minus this inner area: 120 x 80 - 7,700 = 9,600 - 7,700 = 1,900 m².",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT section, Quantitative Reasoning: Mensuration (area and perimeter)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "0a5e8c3d-6f14-4b72-8d9a-e3b7c1f06a48",
+    "subject": "general_test",
+    "unit": "Quantitative Reasoning",
+    "chapter": "Quantitative Reasoning",
+    "type": "single_mcq",
+    "stem": "A boat takes 5 hours to travel 30 km upstream and 3 hours to return 30 km downstream to the starting point. What is the speed of the boat in still water?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4 km/h"
+      },
+      {
+        "key": "B",
+        "text": "16 km/h"
+      },
+      {
+        "key": "C",
+        "text": "2 km/h"
+      },
+      {
+        "key": "D",
+        "text": "8 km/h"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "Upstream speed = 30 / 5 = 6 km/h and downstream speed = 30 / 3 = 10 km/h. The speed in still water is the average of the two, (6 + 10) / 2 = 8 km/h. The stream speed is (10 - 6) / 2 = 2 km/h, which is a different quantity.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT section, Quantitative Reasoning: Time, speed and distance (boats and streams)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "6d3c9a1f-7e28-4b06-a1d5-9f4c0e8b2a73",
+    "subject": "general_test",
+    "unit": "Numerical Ability",
+    "chapter": "Numerical Ability",
+    "type": "single_mcq",
+    "stem": "What is the HCF of 84 and 126?",
+    "options": [
+      {
+        "key": "A",
+        "text": "14"
+      },
+      {
+        "key": "B",
+        "text": "84"
+      },
+      {
+        "key": "C",
+        "text": "21"
+      },
+      {
+        "key": "D",
+        "text": "42"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "84 = 2^2 x 3 x 7 and 126 = 2 x 3^2 x 7. The HCF takes the lowest power of each common prime, giving 2 x 3 x 7 = 42. The LCM would use the highest powers instead.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "CUET GAT section, Numerical Ability: HCF and LCM",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "58f0d4c2-a9e6-4b17-8c3f-1e5a7d2b9c40",
+    "subject": "general_test",
+    "unit": "Numerical Ability",
+    "chapter": "Numerical Ability",
+    "type": "single_mcq",
+    "stem": "What is the value of 0.6 x 0.05 + 0.3 ÷ 0.1?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.33"
+      },
+      {
+        "key": "B",
+        "text": "3.3"
+      },
+      {
+        "key": "C",
+        "text": "3.03"
+      },
+      {
+        "key": "D",
+        "text": "0.303"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "0.6 x 0.05 = 0.03, because 6 x 5 = 30 and the two decimal places give 0.030. Also 0.3 ÷ 0.1 = 3, since 0.1 fits into 0.3 three times. The sum is 0.03 + 3 = 3.03.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "CUET GAT section, Numerical Ability: Fractions and decimals",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "ad4b7e13-2c60-4f9a-9e85-6c1b3f0d8a72",
+    "subject": "general_test",
+    "unit": "Numerical Ability",
+    "chapter": "Numerical Ability",
+    "type": "single_mcq",
+    "stem": "What is the value of √1.44 + √0.0225?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.05"
+      },
+      {
+        "key": "B",
+        "text": "1.5"
+      },
+      {
+        "key": "C",
+        "text": "1.35"
+      },
+      {
+        "key": "D",
+        "text": "1.2"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "√1.44 = 1.2 because 1.2 x 1.2 = 1.44. √0.0225 = 0.15 because 0.15 x 0.15 = 0.0225. The sum is 1.2 + 0.15 = 1.35.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT section, Numerical Ability: Squares and square roots",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "2f6e9c85-b1d4-4a37-8f0e-d5a2c7b1e963",
+    "subject": "general_test",
+    "unit": "Numerical Ability",
+    "chapter": "Numerical Ability",
+    "type": "single_mcq",
+    "stem": "If x + 1/x = 5, what is the value of x² + 1/x²?",
+    "options": [
+      {
+        "key": "A",
+        "text": "25"
+      },
+      {
+        "key": "B",
+        "text": "21"
+      },
+      {
+        "key": "C",
+        "text": "27"
+      },
+      {
+        "key": "D",
+        "text": "23"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "Square both sides: (x + 1/x)² = x² + 2 + 1/x². So x² + 1/x² = 5² - 2 = 25 - 2 = 23. Forgetting the middle term 2 gives 25.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT section, Numerical Ability: Squares and square roots (algebraic identities)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "c8b13a7f-4e92-4d10-a6c5-0f8e2b9d7a14",
+    "subject": "general_test",
+    "unit": "Numerical Ability",
+    "chapter": "Numerical Ability",
+    "type": "single_mcq",
+    "stem": "Which of the following numbers is divisible by 9?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4,614"
+      },
+      {
+        "key": "B",
+        "text": "4,619"
+      },
+      {
+        "key": "C",
+        "text": "4,617"
+      },
+      {
+        "key": "D",
+        "text": "4,620"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "A number is divisible by 9 if the sum of its digits is divisible by 9. For 4,617 the digit sum is 4 + 6 + 1 + 7 = 18, which is divisible by 9. The other options have digit sums 15, 20 and 12, so none of them pass the test.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "CUET GAT section, Numerical Ability: Divisibility rules",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "e0d5a92c-18b7-4f3e-9c64-3a8f1d7e2b05",
+    "subject": "general_test",
+    "unit": "Numerical Ability",
+    "chapter": "Numerical Ability",
+    "type": "single_mcq",
+    "stem": "A rectangular field is 250 m long and 200 m wide. What is its area in hectares? (1 hectare = 10,000 m²)",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.5 hectare"
+      },
+      {
+        "key": "B",
+        "text": "50 hectares"
+      },
+      {
+        "key": "C",
+        "text": "5 hectares"
+      },
+      {
+        "key": "D",
+        "text": "0.05 hectare"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "Area = 250 x 200 = 50,000 m². Dividing by 10,000 m² per hectare gives 5 hectares. Treating 1 hectare as 1,000 m² gives 50 hectares, which is a unit slip.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT section, Numerical Ability: Unit conversion",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "b62f8e0d-7c4a-4e95-a3d1-9e5b2f6c0d81",
+    "subject": "general_test",
+    "unit": "Numerical Ability",
+    "chapter": "Numerical Ability",
+    "type": "single_mcq",
+    "stem": "Evaluate: (-2)³ x (-3)² - 4² ÷ (-8)",
+    "options": [
+      {
+        "key": "A",
+        "text": "-74"
+      },
+      {
+        "key": "B",
+        "text": "70"
+      },
+      {
+        "key": "C",
+        "text": "-66"
+      },
+      {
+        "key": "D",
+        "text": "-70"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "(-2)³ = -8 and (-3)² = 9, so the product is -72. Next, 4² ÷ (-8) = 16 ÷ (-8) = -2. Subtracting -2 gives -72 - (-2) = -70. Powers come first, then division, then subtraction.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT section, Numerical Ability: Simplification (BODMAS and integers)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "cc704589-53b7-4f63-8da8-e2a3d2d05712",
+    "subject": "general_test",
+    "unit": "General Mental Ability",
+    "chapter": "General Mental Ability",
+    "type": "single_mcq",
+    "stem": "Find the letter that replaces the question mark in the series: A, C, F, J, O, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "S"
+      },
+      {
+        "key": "B",
+        "text": "T"
+      },
+      {
+        "key": "C",
+        "text": "U"
+      },
+      {
+        "key": "D",
+        "text": "V"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "The gaps between the letters' positions in the alphabet increase by one each time: A(1), C(3), F(6), J(10), O(15). The next gap is 6, so the next position is 15 + 6 = 21, which is U.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "CUET GAT syllabus, General Mental Ability: Number and letter series",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "12fbdaab-5d8a-4b16-978b-55747e7b0529",
+    "subject": "general_test",
+    "unit": "General Mental Ability",
+    "chapter": "General Mental Ability",
+    "type": "single_mcq",
+    "stem": "Compass : Direction :: Barometer : ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Temperature"
+      },
+      {
+        "key": "B",
+        "text": "Pressure"
+      },
+      {
+        "key": "C",
+        "text": "Humidity"
+      },
+      {
+        "key": "D",
+        "text": "Rainfall"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "A compass is the instrument used to measure direction. A barometer is the instrument used to measure atmospheric pressure, so the analogy is Pressure.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "CUET GAT syllabus, General Mental Ability: Analogies (instrument and quantity measured)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "645bed97-917e-45b9-a975-d2fa08619ddd",
+    "subject": "general_test",
+    "unit": "General Mental Ability",
+    "chapter": "General Mental Ability",
+    "type": "single_mcq",
+    "stem": "In a certain code, '+' means '×', '×' means '÷', '÷' means '−' and '−' means '+'. Using this code, what is the value of 18 + 6 × 3 ÷ 2 − 1? Solve from left to right.",
+    "options": [
+      {
+        "key": "A",
+        "text": "33"
+      },
+      {
+        "key": "B",
+        "text": "34"
+      },
+      {
+        "key": "C",
+        "text": "35"
+      },
+      {
+        "key": "D",
+        "text": "36"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "Replace each symbol: 18 + 6 becomes 18 × 6 = 108. Then × 3 becomes ÷ 3, giving 36. Then ÷ 2 becomes − 2, giving 34. Finally − 1 becomes + 1, giving 35.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, General Mental Ability: Mathematical operations (symbol substitution)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "fb045322-08ef-4936-ba8a-3be3190bc89e",
+    "subject": "general_test",
+    "unit": "General Mental Ability",
+    "chapter": "General Mental Ability",
+    "type": "single_mcq",
+    "stem": "In a class, Meera is 15th from the top and 18th from the bottom when the students are ranked by height with no ties. How many students are in the class?",
+    "options": [
+      {
+        "key": "A",
+        "text": "30"
+      },
+      {
+        "key": "B",
+        "text": "32"
+      },
+      {
+        "key": "C",
+        "text": "33"
+      },
+      {
+        "key": "D",
+        "text": "34"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "Counting Meera twice, the class has 15 + 18 − 1 = 32 students. The ranks from the top and from the bottom both include her position.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, General Mental Ability: Ranking and order",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "76a4ec3a-0bfe-43ae-8afb-855d89439611",
+    "subject": "general_test",
+    "unit": "General Mental Ability",
+    "chapter": "General Mental Ability",
+    "type": "single_mcq",
+    "stem": "Find the next term in the series: 3, 4, 7, 11, 18, 29, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "40"
+      },
+      {
+        "key": "B",
+        "text": "45"
+      },
+      {
+        "key": "C",
+        "text": "47"
+      },
+      {
+        "key": "D",
+        "text": "52"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "Each term is the sum of the two terms before it: 3 + 4 = 7, 4 + 7 = 11, 7 + 11 = 18 and 11 + 18 = 29. So the next term is 18 + 29 = 47.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, General Mental Ability: Number series (recurrence pattern)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "307b8146-2141-49c9-abb2-cdc2e2c42bb9",
+    "subject": "general_test",
+    "unit": "General Mental Ability",
+    "chapter": "General Mental Ability",
+    "type": "single_mcq",
+    "stem": "Consider the letter pairs: AB, CD, FG, JK, ?. Which pair comes next in the series?",
+    "options": [
+      {
+        "key": "A",
+        "text": "NO"
+      },
+      {
+        "key": "B",
+        "text": "OP"
+      },
+      {
+        "key": "C",
+        "text": "OQ"
+      },
+      {
+        "key": "D",
+        "text": "PQ"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "The first letters sit at alphabet positions 1, 3, 6, 10, and the gaps increase by 2, 3, 4. The next gap is 5, so the first letter is at position 15, which is O. The second letter is always one place after the first, so the pair is OP.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, General Mental Ability: Letter series (position gaps)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "52a1adba-4ac2-48f0-9803-5f519207dc97",
+    "subject": "general_test",
+    "unit": "General Mental Ability",
+    "chapter": "General Mental Ability",
+    "type": "single_mcq",
+    "stem": "Which pair does not follow the same relationship as the other three pairs?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 : 8"
+      },
+      {
+        "key": "B",
+        "text": "3 : 27"
+      },
+      {
+        "key": "C",
+        "text": "4 : 16"
+      },
+      {
+        "key": "D",
+        "text": "5 : 125"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "In 2 : 8, 3 : 27 and 5 : 125 the second number is the cube of the first (2³, 3³, 5³). In 4 : 16 the second number is the square of the first (4²), so this pair is the odd one out.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, General Mental Ability: Number relationships (powers)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "e1479500-60ec-4884-ae31-679f70d3eb8b",
+    "subject": "general_test",
+    "unit": "Logical and Analytical Reasoning",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "single_mcq",
+    "stem": "Five people P, Q, R, S and T sit in a single row, all facing north. P sits at one end. Q sits immediately to the right of P. R sits at the other end. S sits between Q and R. T sits immediately to the left of R. Who sits in the middle?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P"
+      },
+      {
+        "key": "B",
+        "text": "Q"
+      },
+      {
+        "key": "C",
+        "text": "S"
+      },
+      {
+        "key": "D",
+        "text": "T"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "Because Q is to the right of P, P must be at the left end (position 1). R is at the right end (position 5), so T is at position 4 and S is at position 3. Q is at position 2, which puts S in the middle.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Linear seating arrangement",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "c397d567-7836-4f84-a2ff-2e3913967ac9",
+    "subject": "general_test",
+    "unit": "Logical and Analytical Reasoning",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "statement_based",
+    "stem": "Statements: P > Q ≥ R; S < R; T ≥ P. Conclusions: (I) T > S. (II) S > Q. (III) P > R. Which conclusions follow?",
+    "options": [
+      {
+        "key": "A",
+        "text": "I only"
+      },
+      {
+        "key": "B",
+        "text": "I and III only"
+      },
+      {
+        "key": "C",
+        "text": "II and III only"
+      },
+      {
+        "key": "D",
+        "text": "I, II and III"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "From T ≥ P > Q ≥ R > S, we get T > S (I follows) and P > R (III follows). From S < R ≤ Q we get S < Q, so S > Q does not follow (II).",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Inequality reasoning",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "repaired",
+    "_reworded": true
+  },
+  {
+    "id": "70fa0d92-2494-40f8-83af-cb4649685922",
+    "subject": "general_test",
+    "unit": "Logical and Analytical Reasoning",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "single_mcq",
+    "stem": "If 1 January 2025 was a Wednesday, what day of the week was 1 March 2025?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Thursday"
+      },
+      {
+        "key": "B",
+        "text": "Friday"
+      },
+      {
+        "key": "C",
+        "text": "Saturday"
+      },
+      {
+        "key": "D",
+        "text": "Sunday"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "From 1 January to 1 March 2025 there are 31 days in January and 28 in February, which is 59 days. 59 leaves a remainder of 3 when divided by 7, so Wednesday moves forward 3 days to Saturday.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Calendar problems",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "9c407b8f-146d-407d-8f8c-7d09d4ce18c9",
+    "subject": "general_test",
+    "unit": "Logical and Analytical Reasoning",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "statement_based",
+    "stem": "Statements: All engineers are readers. Some readers are writers. No writer is a painter. Conclusions: I. Some engineers are writers. II. No engineer is a painter. Which of the following is correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only I follows"
+      },
+      {
+        "key": "B",
+        "text": "Only II follows"
+      },
+      {
+        "key": "C",
+        "text": "Either I or II follows"
+      },
+      {
+        "key": "D",
+        "text": "Neither I nor II follows"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "The statements do not say whether any engineer is a writer, so I does not follow. Engineers are readers, but nothing links engineers to painters, so II does not follow either. Neither conclusion is forced.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Syllogisms (statement and conclusion)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "0f2b8121-9083-4961-a25f-ac0878f9a15a",
+    "subject": "general_test",
+    "unit": "Logical and Analytical Reasoning",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "single_mcq",
+    "stem": "Six people P, Q, R, S, T and U sit around a circular table, all facing the centre. P sits opposite S. Q sits immediately clockwise of P. R sits immediately counter-clockwise of S. U sits immediately clockwise of T. Who sits opposite Q?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P"
+      },
+      {
+        "key": "B",
+        "text": "R"
+      },
+      {
+        "key": "C",
+        "text": "T"
+      },
+      {
+        "key": "D",
+        "text": "U"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "Number the seats clockwise from P as seat 1. S is opposite P, so S is at seat 4. Q is at seat 2, and R, immediately counter-clockwise of S, is at seat 3. T and U fill seats 5 and 6 with U clockwise of T, so T is at seat 5. Seat 5 is opposite seat 2, which is Q, so T sits opposite Q.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "hard",
+    "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Circular seating arrangement",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "aed34b71-fcf1-4bb3-bd90-b76d3b0ce52a",
+    "subject": "general_test",
+    "unit": "Quantitative Reasoning",
+    "chapter": "Basic Mathematical Concepts",
+    "type": "single_mcq",
+    "stem": "α and β are the roots of x² − 7x + 12 = 0. What is the value of α² + β²?",
+    "options": [
+      {
+        "key": "A",
+        "text": "13"
+      },
+      {
+        "key": "B",
+        "text": "19"
+      },
+      {
+        "key": "C",
+        "text": "25"
+      },
+      {
+        "key": "D",
+        "text": "49"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "For x² − 7x + 12 = 0, the sum of the roots is α + β = 7 and the product is αβ = 12. Then α² + β² = (α + β)² − 2αβ = 49 − 24 = 25.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 10 Mathematics: Chapter 2 Polynomials (relation between zeroes and coefficients of a quadratic) and Chapter 4 Quadratic Equations",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "352e7338-650c-45f2-a195-74266a9fa337",
+    "subject": "general_test",
+    "unit": "Quantitative Reasoning",
+    "chapter": "Basic Mathematical Concepts",
+    "type": "single_mcq",
+    "stem": "The first term of an arithmetic progression is 3 and its common difference is 4. What is the sum of its first 20 terms?",
+    "options": [
+      {
+        "key": "A",
+        "text": "780"
+      },
+      {
+        "key": "B",
+        "text": "800"
+      },
+      {
+        "key": "C",
+        "text": "820"
+      },
+      {
+        "key": "D",
+        "text": "840"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "The sum of the first n terms is S_n = n/2 × [2a + (n − 1)d]. With n = 20, a = 3 and d = 4, S_20 = 10 × [6 + 76] = 820.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 10 Mathematics: Chapter 5 Arithmetic Progressions, section 5.4 (sum of the first n terms)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "4c4837c1-e4d1-4788-af4a-ba9ddac78419",
+    "subject": "general_test",
+    "unit": "Quantitative Reasoning",
+    "chapter": "Basic Mathematical Concepts",
+    "type": "single_mcq",
+    "stem": "What is the value of sin 30° cos 60° + cos 30° sin 60°?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1/2"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "√3/2"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "Using sin 30° = 1/2, cos 60° = 1/2, cos 30° = √3/2 and sin 60° = √3/2, the expression gives 1/4 + 3/4 = 1. This is the sine addition identity with the two angles adding to 90°.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 10 Mathematics: Chapter 8 Introduction to Trigonometry (trigonometric ratios of specific angles)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "f19a4dec-edf5-46f4-ba35-f0f0e4485de9",
+    "subject": "general_test",
+    "unit": "Quantitative Reasoning",
+    "chapter": "Basic Mathematical Concepts",
+    "type": "single_mcq",
+    "stem": "Two fair six-faced dice are rolled once. What is the probability that the sum of the numbers shown is 7?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1/6"
+      },
+      {
+        "key": "B",
+        "text": "1/12"
+      },
+      {
+        "key": "C",
+        "text": "5/36"
+      },
+      {
+        "key": "D",
+        "text": "1/4"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "The favourable outcomes are (1,6), (2,5), (3,4), (4,3), (5,2) and (6,1), which is 6 outcomes. There are 36 equally likely outcomes in total, so the probability is 6/36 = 1/6.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 10 Mathematics: Probability (theoretical probability of an event)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "9891beba-0610-4b37-9d91-7185798e2470",
+    "subject": "physics",
+    "unit": "Current Electricity",
+    "chapter": "Current Electricity",
+    "type": "single_mcq",
+    "stem": "A fuse wire should have which combination of properties?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Low resistivity and high melting point"
+      },
+      {
+        "key": "B",
+        "text": "High resistivity and low melting point"
+      },
+      {
+        "key": "C",
+        "text": "High resistivity and high melting point"
+      },
+      {
+        "key": "D",
+        "text": "Low resistivity and low melting point"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "A fuse must heat up quickly when the current rises, so it needs high resistivity for a large I^2 R heating effect. It must also melt at a low temperature so that it breaks the circuit when the current exceeds a safe value. Low resistivity or a high melting point would fail to protect the circuit.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.9 Electrical energy, power",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "aea26296-5917-40a2-9a7c-d9cf913a5363",
+    "subject": "physics",
+    "unit": "Current Electricity",
+    "chapter": "Current Electricity",
+    "type": "single_mcq",
+    "stem": "A heater rated 220 V, 1100 W is operated at 220 V for 10 minutes. The energy it consumes is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.1 × 10^5 J"
+      },
+      {
+        "key": "B",
+        "text": "6.6 × 10^5 J"
+      },
+      {
+        "key": "C",
+        "text": "1.32 × 10^6 J"
+      },
+      {
+        "key": "D",
+        "text": "6.6 × 10^4 J"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "Electrical energy consumed is E = P × t. Convert the time to seconds: 10 minutes = 600 s. Then E = 1100 W × 600 s = 6.6 × 10^5 J.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.9 Electrical energy, power",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "d06e022d-f926-4494-9d39-1a979e20b2e5",
+    "subject": "physics",
+    "unit": "Current Electricity",
+    "chapter": "Current Electricity",
+    "type": "single_mcq",
+    "stem": "Two resistors of 3 Ω and 6 Ω are connected in parallel, and this combination is connected in series with a 4 Ω resistor. The equivalent resistance of the whole network is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 Ω"
+      },
+      {
+        "key": "B",
+        "text": "9 Ω"
+      },
+      {
+        "key": "C",
+        "text": "6 Ω"
+      },
+      {
+        "key": "D",
+        "text": "13 Ω"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "The parallel pair gives R_p = (3 × 6)/(3 + 6) = 2 Ω. Resistors in series add directly, so the total is 2 Ω + 4 Ω = 6 Ω. Parallel resistors combine as reciprocals, and series resistors simply add.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.10 Combination of resistors: series and parallel",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "22940911-16a7-4f7e-be0f-515fa516f89f",
+    "subject": "physics",
+    "unit": "Current Electricity",
+    "chapter": "Current Electricity",
+    "type": "single_mcq",
+    "stem": "In a meter bridge with a uniform wire, an unknown resistance X is in the left gap and a standard resistance of 12 Ω is in the right gap. The null point is found at 25 cm from the left end of the 100 cm wire. The value of X is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "4 Ω"
+      },
+      {
+        "key": "B",
+        "text": "3 Ω"
+      },
+      {
+        "key": "C",
+        "text": "12 Ω"
+      },
+      {
+        "key": "D",
+        "text": "36 Ω"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "For a uniform wire, the resistances in the two gaps are proportional to the lengths on each side of the null point. So X / 12 Ω = 25 / 75, which gives X = 12 Ω × 25/75 = 4 Ω. Inverting the ratio gives the wrong answer of 36 Ω.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.15 Meter bridge",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "91ad1938-d1fc-4ea4-a0d3-95d96326e2ef",
+    "subject": "physics",
+    "unit": "Current Electricity",
+    "chapter": "Current Electricity",
+    "type": "single_mcq",
+    "stem": "A cell of emf 2.0 V and internal resistance 0.5 Ω is connected to an external resistor of 3.5 Ω. The terminal voltage of the cell is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "2.00 V"
+      },
+      {
+        "key": "B",
+        "text": "1.50 V"
+      },
+      {
+        "key": "C",
+        "text": "0.50 V"
+      },
+      {
+        "key": "D",
+        "text": "1.75 V"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "The current is I = E/(R + r) = 2.0 V / (3.5 Ω + 0.5 Ω) = 0.5 A. The terminal voltage is V = IR = 0.5 A × 3.5 Ω = 1.75 V, which equals E − Ir. The internal resistance drop makes the terminal voltage smaller than the emf.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.11 Cells, emf, internal resistance",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "255e305e-85cc-4d30-a824-239c53989517",
+    "subject": "physics",
+    "unit": "Current Electricity",
+    "chapter": "Current Electricity",
+    "type": "single_mcq",
+    "stem": "A copper conductor of cross-sectional area 2 mm^2 carries a steady current of 4 A. Take the free electron density as 5 × 10^28 m^-3 and e = 1.6 × 10^-19 C. The drift speed of the electrons is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.25 × 10^-4 m/s"
+      },
+      {
+        "key": "B",
+        "text": "2.5 × 10^-2 m/s"
+      },
+      {
+        "key": "C",
+        "text": "2.5 × 10^-4 m/s"
+      },
+      {
+        "key": "D",
+        "text": "8.0 × 10^-4 m/s"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "The drift speed follows from I = n e A v_d, so v_d = I/(n e A). Convert the area to 2 × 10^-6 m^2. Then n e A = 5 × 10^28 × 1.6 × 10^-19 × 2 × 10^-6 = 1.6 × 10^4, and v_d = 4 / (1.6 × 10^4) = 2.5 × 10^-4 m/s.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.5 Drift of electrons and origin of resistivity",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "06fb3fe8-7f7f-463d-a602-1a5953423084",
+    "subject": "physics",
+    "unit": "Current Electricity",
+    "chapter": "Current Electricity",
+    "type": "statement_based",
+    "stem": "Consider these changes to a potentiometer circuit. (I) Using a longer uniform wire. (II) Reducing the potential gradient along the wire by lowering the current from the driver cell. (III) Increasing the potential gradient along the wire. (IV) Using a shorter uniform wire. Which of the changes increase the sensitivity of the potentiometer?",
+    "options": [
+      {
+        "key": "A",
+        "text": "II and IV only"
+      },
+      {
+        "key": "B",
+        "text": "I and II only"
+      },
+      {
+        "key": "C",
+        "text": "III and IV only"
+      },
+      {
+        "key": "D",
+        "text": "I and III only"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "Sensitivity is the change in balancing length per unit change in emf, which is inversely proportional to the potential gradient. A longer wire or a smaller potential gradient gives a larger length change for a small emf difference, so I and II increase sensitivity. III and IV reduce it.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.16 Potentiometer",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "22bb7974-074f-4e40-a1b4-5d3b55052192",
+    "subject": "physics",
+    "unit": "Current Electricity",
+    "chapter": "Current Electricity",
+    "type": "statement_based",
+    "stem": "Which statements about the temperature dependence of resistivity are correct? (I) The resistivity of a metal increases with temperature. (II) The resistivity of a pure semiconductor decreases with temperature over the normal range. (III) The resistivity of a metal decreases with temperature. (IV) The resistivity of a semiconductor increases with temperature.",
+    "options": [
+      {
+        "key": "A",
+        "text": "I and II only"
+      },
+      {
+        "key": "B",
+        "text": "III and IV only"
+      },
+      {
+        "key": "C",
+        "text": "I and IV only"
+      },
+      {
+        "key": "D",
+        "text": "II and III only"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "In metals, lattice vibrations scatter the free electrons more strongly as temperature rises, so resistivity increases. In semiconductors, more charge carriers are thermally excited as temperature rises, so resistivity falls. Hence I and II are correct.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.8 Temperature dependence of resistivity",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "62c2ce5f-251f-4b6b-a2c2-be45de07dfc3",
+    "subject": "physics",
+    "unit": "Current Electricity",
+    "chapter": "Current Electricity",
+    "type": "assertion_reason",
+    "stem": "Assertion (A): Manganin is preferred for making standard resistance coils. Reason (R): The resistivity of manganin is almost independent of temperature. Choose the correct option.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Both A and R are true, and R is the correct explanation of A"
+      },
+      {
+        "key": "B",
+        "text": "Both A and R are true, but R is not the correct explanation of A"
+      },
+      {
+        "key": "C",
+        "text": "A is true but R is false"
+      },
+      {
+        "key": "D",
+        "text": "A is false but R is true"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "Manganin has a very low temperature coefficient of resistance, so its resistance hardly changes as the coil warms during use. That stability is exactly why it is used for standard resistors. The reason therefore explains the assertion.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.7 Resistivity of various materials",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "0f01b716-922a-4b3f-9b32-ed8ab40dc7e8",
+    "subject": "physics",
+    "unit": "Current Electricity",
+    "chapter": "Current Electricity",
+    "type": "single_mcq",
+    "stem": "Two cells of emf 10 V and 4 V, each with negligible internal resistance, are connected in series opposing each other. The external resistors 2 Ω and 1 Ω are connected in series with them. The power dissipated in the external resistors is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "6 W"
+      },
+      {
+        "key": "B",
+        "text": "12 W"
+      },
+      {
+        "key": "C",
+        "text": "18 W"
+      },
+      {
+        "key": "D",
+        "text": "24 W"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "The emfs oppose each other, so the net emf is 10 V − 4 V = 6 V. The total resistance is 2 Ω + 1 Ω = 3 Ω, so the current is I = 6 V / 3 Ω = 2 A. The power dissipated in the external resistors is P = I^2 R = (2 A)^2 × 3 Ω = 12 W.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 3 Current Electricity, section 3.12 Cells in series and in parallel, and section 3.9 Electrical energy, power",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "c62678e0-eb15-4186-811e-45a6452e528e",
+    "subject": "physics",
+    "unit": "Magnetic Effects of Current and Magnetism",
+    "chapter": "Moving Charges & Magnetism",
+    "type": "single_mcq",
+    "stem": "A positive charge moves with a velocity parallel to a uniform magnetic field. The magnetic force on the charge is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Zero"
+      },
+      {
+        "key": "B",
+        "text": "Maximum and perpendicular to the field"
+      },
+      {
+        "key": "C",
+        "text": "Perpendicular to both the velocity and the field"
+      },
+      {
+        "key": "D",
+        "text": "Parallel to the field"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "The magnetic force is F = q v × B. When v is parallel to B, the angle between them is 0° and sin 0° = 0, so the force is zero. The charge keeps moving undeflected along the field.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 4 Moving Charges and Magnetism, section 4.2 Magnetic force",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "4e338fa8-83d5-427e-83be-2c4b18735148",
+    "subject": "physics",
+    "unit": "Magnetic Effects of Current and Magnetism",
+    "chapter": "Moving Charges & Magnetism",
+    "type": "single_mcq",
+    "stem": "A circular coil of radius 0.1 m has a single turn and carries a steady current of 2 A. Take μ0 = 4π × 10^-7 T m A^-1. The magnitude of the magnetic field at the centre of the coil is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.26 × 10^-5 T"
+      },
+      {
+        "key": "B",
+        "text": "2.51 × 10^-5 T"
+      },
+      {
+        "key": "C",
+        "text": "6.28 × 10^-6 T"
+      },
+      {
+        "key": "D",
+        "text": "1.26 × 10^-3 T"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "By the Biot-Savart law, the field at the centre of a circular loop is B = μ0 I/(2R). Substituting: B = (4π × 10^-7 × 2)/(2 × 0.1) = 1.26 × 10^-5 T. Leaving out the factor 2 in 2R gives 2.51 × 10^-5 T, which is wrong.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 4 Moving Charges and Magnetism, sections 4.5 Biot-Savart law and 4.6 Magnetic field on the axis of a circular current loop",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "39a9f1f5-675b-4aa4-961e-56b0b6be1145",
+    "subject": "physics",
+    "unit": "Magnetic Effects of Current and Magnetism",
+    "chapter": "Moving Charges & Magnetism",
+    "type": "statement_based",
+    "stem": "Two long straight parallel wires, separated by a distance d, carry steady currents I1 and I2 in the same direction. Which statements are correct? (I) The wires attract each other. (II) The force per unit length on each wire is μ0 I1 I2/(2π d). (III) The wires repel each other. (IV) The force per unit length is independent of d.",
+    "options": [
+      {
+        "key": "A",
+        "text": "I and II only"
+      },
+      {
+        "key": "B",
+        "text": "III and IV only"
+      },
+      {
+        "key": "C",
+        "text": "I and IV only"
+      },
+      {
+        "key": "D",
+        "text": "II and III only"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "Parallel currents in the same direction attract, and the force per unit length is μ0 I1 I2/(2π d), which falls as the separation increases. Currents in opposite directions repel. Statements III and IV are therefore incorrect.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 4 Moving Charges and Magnetism, section 4.9 Force between two parallel currents",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "9ef7bafe-2ca1-4e14-a12a-08890c27374c",
+    "subject": "physics",
+    "unit": "Magnetic Effects of Current and Magnetism",
+    "chapter": "Moving Charges & Magnetism",
+    "type": "single_mcq",
+    "stem": "A galvanometer of resistance G is to be converted into a voltmeter of range V. Which resistance must be connected, and how?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A very small resistance in parallel with the galvanometer"
+      },
+      {
+        "key": "B",
+        "text": "A very large resistance in series with the galvanometer"
+      },
+      {
+        "key": "C",
+        "text": "A very large resistance in parallel with the galvanometer"
+      },
+      {
+        "key": "D",
+        "text": "A very small resistance in series with the galvanometer"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "A voltmeter needs a high resistance in series with the galvanometer so that only a small current flows at full-scale deflection. The series resistance is R = V/I_g − G, which is large because I_g is small. A shunt in parallel is used for an ammeter, not a voltmeter.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 4 Moving Charges and Magnetism, section 4.11 Moving coil galvanometer (conversion into ammeter and voltmeter)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "118b1495-3889-49b3-8002-f805c6ca1e57",
+    "subject": "physics",
+    "unit": "Magnetic Effects of Current and Magnetism",
+    "chapter": "Moving Charges & Magnetism",
+    "type": "single_mcq",
+    "stem": "A rectangular current-carrying loop is placed in a uniform magnetic field. The torque on the loop is maximum when:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The normal to the plane of the loop is parallel to the field"
+      },
+      {
+        "key": "B",
+        "text": "The plane of the loop is parallel to the field"
+      },
+      {
+        "key": "C",
+        "text": "The normal to the plane of the loop makes an angle of 45° with the field"
+      },
+      {
+        "key": "D",
+        "text": "The normal to the plane of the loop is antiparallel to the field"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "The torque on a loop is τ = N I A B sinθ, where θ is the angle between the normal to the loop and the field. The torque is maximum when sinθ = 1, which means the normal is perpendicular to B and the plane of the loop is parallel to B. Torque is zero when the normal is parallel or antiparallel to B.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 4 Moving Charges and Magnetism, section 4.10 Torque on a current loop, magnetic dipole",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "340a6c47-3d6f-42c8-a1a5-af3a9bb0830f",
+    "subject": "physics",
+    "unit": "Magnetic Effects of Current and Magnetism",
+    "chapter": "Moving Charges & Magnetism",
+    "type": "single_mcq",
+    "stem": "A proton of mass 1.6 × 10^-27 kg and charge 1.6 × 10^-19 C moves with a speed of 1.0 × 10^6 m/s perpendicular to a uniform magnetic field of 0.1 T. The radius of its circular path is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.01 m"
+      },
+      {
+        "key": "B",
+        "text": "0.1 m"
+      },
+      {
+        "key": "C",
+        "text": "1.0 m"
+      },
+      {
+        "key": "D",
+        "text": "0.2 m"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "A charge moving perpendicular to a uniform field follows a circle of radius r = m v/(q B). Substituting: r = (1.6 × 10^-27 × 1.0 × 10^6)/(1.6 × 10^-19 × 0.1) = 1.6 × 10^-21/1.6 × 10^-20 = 0.1 m.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 4 Moving Charges and Magnetism, section 4.3 Motion in a magnetic field",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "8172d9b4-c41c-413a-a5c2-70ea7df2adf0",
+    "subject": "physics",
+    "unit": "Magnetic Effects of Current and Magnetism",
+    "chapter": "Moving Charges & Magnetism",
+    "type": "single_mcq",
+    "stem": "A closed amperian loop encloses two long straight conductors. One carries 5 A out of the plane of the page and the other carries 3 A into the plane of the page. A third conductor carrying 4 A out of the plane lies outside the loop. The value of the line integral of B around the loop, ∮B · dl, is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Zero"
+      },
+      {
+        "key": "B",
+        "text": "2μ0 T m"
+      },
+      {
+        "key": "C",
+        "text": "4μ0 T m"
+      },
+      {
+        "key": "D",
+        "text": "8μ0 T m"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "Ampere's circuital law states ∮B · dl = μ0 I_enclosed. Only the currents passing through the loop count, so the 4 A conductor outside contributes nothing. Opposite-direction currents subtract, so the net enclosed current is 5 A − 3 A = 2 A, giving ∮B · dl = 2μ0 T m.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 4 Moving Charges and Magnetism, section 4.7 Ampere's circuital law",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "80ca588c-3c3a-415f-ab76-b6b5a5cd4ec8",
+    "subject": "physics",
+    "unit": "Magnetic Effects of Current and Magnetism",
+    "chapter": "Magnetism & Matter",
+    "type": "single_mcq",
+    "stem": "A magnetic dipole of moment M is held in a uniform magnetic field B with its moment initially along the field. The work done by an external agent in slowly rotating the dipole until its moment points antiparallel to the field is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Zero"
+      },
+      {
+        "key": "B",
+        "text": "MB"
+      },
+      {
+        "key": "C",
+        "text": "2MB"
+      },
+      {
+        "key": "D",
+        "text": "−2MB"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "The potential energy of a dipole in a field is U = −M B cosθ. At θ = 0 the energy is −MB, and at θ = 180° it is +MB. The work done by the external agent equals the change in potential energy, U(180°) − U(0) = MB − (−MB) = 2MB.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "hard",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 5 Magnetism and Matter, section 5.2 The bar magnet: dipole in a uniform magnetic field",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "4b294509-bfcb-4828-a8cd-d2513aa29da3",
+    "subject": "physics",
+    "unit": "Electronic Devices",
+    "chapter": "Semiconductor Electronics",
+    "type": "single_mcq",
+    "stem": "A half-wave rectifier is fed from a 60 Hz mains supply. The frequency of the output pulses is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "30 Hz"
+      },
+      {
+        "key": "B",
+        "text": "60 Hz"
+      },
+      {
+        "key": "C",
+        "text": "120 Hz"
+      },
+      {
+        "key": "D",
+        "text": "0 Hz, since the output is pure DC"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "A half-wave rectifier conducts only during the positive half of each cycle, so it produces one output pulse per input cycle. The output pulse frequency therefore equals the input frequency, 60 Hz. A full-wave rectifier would instead give 120 Hz.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 14 Semiconductor Electronics: Materials, Devices and Simple Circuits, Section 14.7 Application of Junction Diode as a Rectifier",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "48b434ae-1e86-41b4-aae0-aae582c8a520",
+    "subject": "physics",
+    "unit": "Electronic Devices",
+    "chapter": "Semiconductor Electronics",
+    "type": "single_mcq",
+    "stem": "A sinusoidal AC voltage with peak value 10 V is applied to an ideal half-wave rectifier with a resistive load. The average (DC) output voltage is approximately:",
+    "options": [
+      {
+        "key": "A",
+        "text": "3.18 V"
+      },
+      {
+        "key": "B",
+        "text": "6.37 V"
+      },
+      {
+        "key": "C",
+        "text": "5.00 V"
+      },
+      {
+        "key": "D",
+        "text": "10.0 V"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "For a half-wave rectifier the output over one full cycle is zero for half the time, so the average value is V_m divided by pi. Here 10/pi is about 3.18 V. The value 6.37 V would be the average for a full-wave rectifier, which is 2V_m/pi.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 14 Semiconductor Electronics: Materials, Devices and Simple Circuits, Section 14.7 Application of Junction Diode as a Rectifier",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "14640fcc-4496-4528-84bb-930a5d17bbae",
+    "subject": "physics",
+    "unit": "Dual Nature of Matter and Radiation",
+    "chapter": "Dual Nature of Radiation & Matter",
+    "type": "single_mcq",
+    "stem": "A metal has work function 2.0 eV. Using h = 4.14 x 10^-15 eV s, the threshold frequency of the metal is approximately:",
+    "options": [
+      {
+        "key": "A",
+        "text": "4.83 x 10^14 Hz"
+      },
+      {
+        "key": "B",
+        "text": "2.07 x 10^14 Hz"
+      },
+      {
+        "key": "C",
+        "text": "8.28 x 10^14 Hz"
+      },
+      {
+        "key": "D",
+        "text": "3.0 x 10^8 Hz"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "The threshold frequency is f0 = phi / h. Substituting gives f0 = 2.0 / (4.14 x 10^-15) = 4.83 x 10^14 Hz. The last option is the speed of light, which is a common unit mix-up and not a frequency.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 11 Dual Nature of Radiation and Matter, Section 11.6 Einstein's Photoelectric Equation",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "b99f8b77-0523-4011-8194-f9f00c0c1ecb",
+    "subject": "physics",
+    "unit": "Dual Nature of Matter and Radiation",
+    "chapter": "Dual Nature of Radiation & Matter",
+    "type": "single_mcq",
+    "stem": "In a graph of stopping potential V0 against frequency f of the incident light in the photoelectric effect, the slope of the straight line is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "h/e"
+      },
+      {
+        "key": "B",
+        "text": "e/h"
+      },
+      {
+        "key": "C",
+        "text": "h/(2e)"
+      },
+      {
+        "key": "D",
+        "text": "phi/e"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "Einstein's equation gives e V0 = h f - phi, so V0 = (h/e) f - phi/e. The slope is h/e, which is the same for all metals, while the intercept on the frequency axis gives the threshold frequency.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 11 Dual Nature of Radiation and Matter, Section 11.6 Einstein's Photoelectric Equation",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "3238f380-53b1-4775-b76b-5576a417e983",
+    "subject": "physics",
+    "unit": "Dual Nature of Matter and Radiation",
+    "chapter": "Dual Nature of Radiation & Matter",
+    "type": "single_mcq",
+    "stem": "Light of photon energy 4.0 eV falls on a metal surface, and the stopping potential for the emitted electrons is 1.5 V. The work function of the metal is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "2.5 eV"
+      },
+      {
+        "key": "B",
+        "text": "5.5 eV"
+      },
+      {
+        "key": "C",
+        "text": "1.5 eV"
+      },
+      {
+        "key": "D",
+        "text": "4.0 eV"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "The maximum kinetic energy equals the stopping potential in electron-volts, so K_max = 1.5 eV. From Einstein's equation, phi = hf - K_max = 4.0 - 1.5 = 2.5 eV. The value 1.5 eV confuses the stopping potential with the work function.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 11 Dual Nature of Radiation and Matter, Section 11.6 Einstein's Photoelectric Equation",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "ff1c150d-b69e-4daf-8ea1-753dcc7ca034",
+    "subject": "physics",
+    "unit": "Dual Nature of Matter and Radiation",
+    "chapter": "Dual Nature of Radiation & Matter",
+    "type": "statement_based",
+    "stem": "Light of frequency above the threshold falls on a photosensitive metal. Statement I: Increasing the intensity of the light increases the saturation photocurrent. Statement II: Increasing the intensity of the light increases the maximum kinetic energy of the emitted photoelectrons.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Both I and II are true, and II is the correct explanation of I"
+      },
+      {
+        "key": "B",
+        "text": "Both I and II are true, but II is not the correct explanation of I"
+      },
+      {
+        "key": "C",
+        "text": "I is true, but II is false"
+      },
+      {
+        "key": "D",
+        "text": "I is false, but II is true"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "Intensity sets the number of photons per second, and so the number of photoelectrons emitted per second, which is the saturation photocurrent. The maximum kinetic energy depends only on the frequency of the light, so statement II is false.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 11 Dual Nature of Radiation and Matter, Section 11.5 Photoelectric Effect and Wave Theory of Light",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "2c39441e-d740-4186-869a-98f8013dca61",
+    "subject": "physics",
+    "unit": "Dual Nature of Matter and Radiation",
+    "chapter": "Dual Nature of Radiation & Matter",
+    "type": "single_mcq",
+    "stem": "A proton and an alpha particle are accelerated from rest through the same potential difference. The ratio of the de Broglie wavelength of the proton to that of the alpha particle is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 root 2"
+      },
+      {
+        "key": "B",
+        "text": "1/(2 root 2)"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "1/2"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "The de Broglie wavelength is lambda = h / root(2 m q V), so lambda is proportional to 1 / root(m q). The alpha particle has mass 4u and charge 2e, so m q is 8 times that of the proton. The ratio lambda_p / lambda_alpha is root(8) = 2 root 2.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 11 Dual Nature of Radiation and Matter, Section 11.8 Wave Nature of Matter",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "3840357a-d19c-49f6-aa10-173701a99c42",
+    "subject": "physics",
+    "unit": "Dual Nature of Matter and Radiation",
+    "chapter": "Dual Nature of Radiation & Matter",
+    "type": "single_mcq",
+    "stem": "An electron and a proton have the same kinetic energy. The ratio of the de Broglie wavelength of the electron to that of the proton is closest to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "42.9"
+      },
+      {
+        "key": "B",
+        "text": "1/42.9"
+      },
+      {
+        "key": "C",
+        "text": "1836"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "The de Broglie wavelength for a given kinetic energy is lambda = h / root(2 m K), so lambda is proportional to 1 / root(m). The ratio is root(m_p / m_e) = root(1836), which is about 42.9. The electron therefore has the longer wavelength.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 11 Dual Nature of Radiation and Matter, Section 11.8 Wave Nature of Matter",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "c1e4cf45-80e1-46e1-93d0-c86e37752d8b",
+    "subject": "physics",
+    "unit": "Atoms and Nuclei",
+    "chapter": "Atoms",
+    "type": "single_mcq",
+    "stem": "In the Bohr model of the hydrogen atom, the ratio of the total energy E2 of the electron in the n = 2 orbit to its total energy E1 in the n = 1 orbit is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "1/4"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "1/2"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "The energy of the nth orbit is E_n = -13.6 / n^2 eV. Therefore E2 = -3.4 eV and E1 = -13.6 eV, and the ratio E2 / E1 = 1/4.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 12 Atoms, Section 12.4 Bohr Model of the Hydrogen Atom",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "3d3a5b97-0249-4275-9f58-5fd7ab90a3d3",
+    "subject": "physics",
+    "unit": "Atoms and Nuclei",
+    "chapter": "Atoms",
+    "type": "match_the_following",
+    "stem": "Match List-I with List-II. List-I: (A) Lyman series (B) Balmer series (C) Paschen series (D) Brackett series. List-II: (I) Lower level n = 4 (II) Lower level n = 3 (III) Lower level n = 1 (IV) Lower level n = 2. Choose the correct answer from the options given below.",
+    "options": [
+      {
+        "key": "A",
+        "text": "(A)-(IV), (B)-(III), (C)-(II), (D)-(I)"
+      },
+      {
+        "key": "B",
+        "text": "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)"
+      },
+      {
+        "key": "C",
+        "text": "(A)-(III), (B)-(II), (C)-(IV), (D)-(I)"
+      },
+      {
+        "key": "D",
+        "text": "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "The spectral series of hydrogen are named by the lower energy level the electron falls to. Lyman ends at n = 1, Balmer at n = 2, Paschen at n = 3 and Brackett at n = 4. The Lyman series is in the ultraviolet and the Balmer series is in the visible region.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 12 Atoms, Section 12.3 Atomic Spectra",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready",
+    "_reworded": true
+  },
+  {
+    "id": "0ac2e9bd-113f-4e47-bbb4-becf5cfbd80d",
+    "subject": "physics",
+    "unit": "Atoms and Nuclei",
+    "chapter": "Atoms",
+    "type": "single_mcq",
+    "stem": "Using the Rydberg constant R = 1.1 x 10^7 m^-1, the wavelength of the photon emitted when a hydrogen electron falls from n = 3 to n = 2 is approximately:",
+    "options": [
+      {
+        "key": "A",
+        "text": "655 nm"
+      },
+      {
+        "key": "B",
+        "text": "486 nm"
+      },
+      {
+        "key": "C",
+        "text": "122 nm"
+      },
+      {
+        "key": "D",
+        "text": "365 nm"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "The Rydberg formula gives 1/lambda = R (1/2^2 - 1/3^2) = 5R/36. So lambda = 36 / (5 x 1.1 x 10^7) m, which is about 6.55 x 10^-7 m or 655 nm. This is the red Balmer-alpha line. The 486 nm line is the n = 4 to n = 2 transition.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 12 Atoms, Section 12.5 The Line Spectra of the Hydrogen Atom",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "c37ac200-ac31-42a5-b383-c0a8150a1771",
+    "subject": "physics",
+    "unit": "Optics",
+    "chapter": "Wave Optics",
+    "type": "single_mcq",
+    "stem": "In Young's double-slit experiment, λ = 600 nm, the screen distance D = 1.0 m and the slit separation d = 0.5 mm. What is the fringe width?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.6 mm"
+      },
+      {
+        "key": "B",
+        "text": "1.2 mm"
+      },
+      {
+        "key": "C",
+        "text": "2.4 mm"
+      },
+      {
+        "key": "D",
+        "text": "1.8 mm"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "Fringe width is β = λD/d. Substituting gives β = (600 × 10⁻⁹ × 1.0)/(0.5 × 10⁻³) = 1.2 × 10⁻³ m = 1.2 mm. Doubling the slit separation would halve the fringe width.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 10 Wave Optics, Sec 10.5 (Young's double-slit experiment)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "0e2ae512-b283-4e41-80ef-31ef6ac18fd1",
+    "subject": "physics",
+    "unit": "Optics",
+    "chapter": "Wave Optics",
+    "type": "single_mcq",
+    "stem": "Two coherent light sources produce an interference pattern. Their individual intensities are in the ratio 4 : 1. What is the ratio of the maximum to the minimum intensity in the pattern?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3 : 1"
+      },
+      {
+        "key": "B",
+        "text": "9 : 1"
+      },
+      {
+        "key": "C",
+        "text": "4 : 1"
+      },
+      {
+        "key": "D",
+        "text": "5 : 1"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "Intensity is proportional to amplitude squared, so the amplitudes are in the ratio 2 : 1. Taking a1 = 2 and a2 = 1, the maximum intensity is proportional to (a1 + a2)² = 9 and the minimum to (a1 − a2)² = 1. The ratio is therefore 9 : 1.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 10 Wave Optics, Sec 10.4 to 10.5 (coherent sources and interference intensity)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "ac790a10-fd25-4723-8101-0ef4ac18fde3",
+    "subject": "physics",
+    "unit": "Optics",
+    "chapter": "Wave Optics",
+    "type": "single_mcq",
+    "stem": "In a single-slit diffraction experiment, the slit width is 0.3 mm, the wavelength is 600 nm and the screen is 1.5 m away. What is the distance of the first dark fringe from the centre of the central maximum?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.5 mm"
+      },
+      {
+        "key": "B",
+        "text": "6 mm"
+      },
+      {
+        "key": "C",
+        "text": "0.3 mm"
+      },
+      {
+        "key": "D",
+        "text": "3 mm"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "For single-slit diffraction the first minimum satisfies a sinθ = λ, and for small angles the fringe position is y = Dθ = λD/a. Here y = (600 × 10⁻⁹ × 1.5)/(0.3 × 10⁻³) = 3 × 10⁻³ m = 3 mm. The full width of the central maximum is twice this value.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 10 Wave Optics, Sec 10.6 (Diffraction due to a single slit)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "5c5ecfa2-89c2-4360-ae66-4d20bc0a5239",
+    "subject": "physics",
+    "unit": "Optics",
+    "chapter": "Wave Optics",
+    "type": "single_mcq",
+    "stem": "Unpolarised light of intensity I₀ passes through a polaroid (polariser) and then through a second polaroid (analyser) whose axis is at 60° to the first. What is the transmitted intensity?",
+    "options": [
+      {
+        "key": "A",
+        "text": "I₀/2"
+      },
+      {
+        "key": "B",
+        "text": "I₀/4"
+      },
+      {
+        "key": "C",
+        "text": "I₀/8"
+      },
+      {
+        "key": "D",
+        "text": "I₀/16"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "The first polaroid transmits half of the unpolarised intensity, giving I₀/2 of plane-polarised light. Malus’s law I = I₁cos²θ then gives (I₀/2)cos²60° = (I₀/2)(1/4) = I₀/8. Omitting the halving at the first polaroid gives the trap answer I₀/4.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 10 Wave Optics, Sec 10.7 (Polarisation and Malus's law)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "75299146-fa6b-4a36-a45e-8d012723a4ec",
+    "subject": "physics",
+    "unit": "Optics",
+    "chapter": "Wave Optics",
+    "type": "single_mcq",
+    "stem": "Two coherent sources each produce an intensity I₀ at a point on a screen. At a point where the path difference is λ/3, what is the resultant intensity?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "I₀"
+      },
+      {
+        "key": "C",
+        "text": "2I₀"
+      },
+      {
+        "key": "D",
+        "text": "4I₀"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "The resultant intensity is I = 4I₀cos²(φ/2), where φ = 2π × (path difference)/λ. For a path difference of λ/3, φ = 2π/3 and cos²(π/3) = 1/4, so I = 4I₀ × 1/4 = I₀. The maximum possible value is 4I₀, reached at zero path difference.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 10 Wave Optics, Sec 10.5 (Interference of light waves and Young’s experiment)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "0731d7d3-671e-4714-8b36-65d0a388117c",
+    "subject": "physics",
+    "unit": "Optics",
+    "chapter": "Wave Optics",
+    "type": "single_mcq",
+    "stem": "In a Young's double-slit experiment with λ = 500 nm, D = 1 m and d = 1 mm, a thin transparent sheet of thickness 10 μm and refractive index 1.5 is placed in front of one slit. By how many fringes does the pattern shift?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "The shift of the pattern is x = (μ − 1)tD/d = 0.5 × 10 μm × 1 m / 1 mm = 5 mm. The fringe width is β = λD/d = 0.5 mm, so the number of fringes shifted is x/β = (μ − 1)t/λ = 10.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "hard",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 10 Wave Optics, Sec 10.5 (Young's double-slit experiment)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "ready"
+  },
+  {
+    "id": "4b97458d-a381-4f1a-a2b7-fcceb8a3cd94",
+    "subject": "physics",
+    "unit": "Electromagnetic Waves",
+    "chapter": "Electromagnetic Waves",
+    "type": "single_mcq",
+    "stem": "Maxwell introduced displacement current to make Ampère’s law consistent for a capacitor being charged. Displacement current is associated with which quantity?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The rate of change of electric flux, ε₀ dΦE/dt"
+      },
+      {
+        "key": "B",
+        "text": "The flow of free electrons in the connecting wire"
+      },
+      {
+        "key": "C",
+        "text": "The steady magnetic field produced by a constant current"
+      },
+      {
+        "key": "D",
+        "text": "The rate of change of magnetic monopole density"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "Displacement current I_d = ε₀ dΦE/dt is not a flow of charge. It is the changing electric field between capacitor plates, and it produces a magnetic field just as a conduction current does. This correction keeps Ampère’s law consistent with charge conservation.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 8 Electromagnetic Waves, Sec 8.2 (Displacement current)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "68e3c2d7-242d-4736-b989-93d19ef92835",
+    "subject": "physics",
+    "unit": "Electromagnetic Waves",
+    "chapter": "Electromagnetic Waves",
+    "type": "single_mcq",
+    "stem": "Given μ₀ = 4π × 10⁻⁷ T·m/A and ε₀ = 8.85 × 10⁻¹² C²/(N·m²), what is the speed of electromagnetic waves in vacuum, from c = 1/√(μ₀ε₀)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3.0 × 10⁶ m/s"
+      },
+      {
+        "key": "B",
+        "text": "1.5 × 10⁸ m/s"
+      },
+      {
+        "key": "C",
+        "text": "3.0 × 10⁸ m/s"
+      },
+      {
+        "key": "D",
+        "text": "9.0 × 10¹⁶ m/s"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "μ₀ε₀ = 4π × 10⁻⁷ × 8.85 × 10⁻¹² ≈ 1.11 × 10⁻¹⁷ s²/m². Taking the reciprocal square root gives c ≈ 3.0 × 10⁸ m/s. The speed of light is therefore fixed by the electric and magnetic properties of vacuum.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 8 Electromagnetic Waves, Sec 8.2 to 8.3 (Electromagnetic waves and their speed)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "fc6098bd-ef63-4d76-8a35-0568d11957ae",
+    "subject": "physics",
+    "unit": "Electromagnetic Waves",
+    "chapter": "Electromagnetic Waves",
+    "type": "sequence_ordering",
+    "stem": "Arrange the following electromagnetic waves in order of increasing wavelength, shortest wavelength first.\n(A) Radio waves\n(B) Visible light\n(C) Gamma rays\n(D) Microwaves\nChoose the correct answer from the options given below:",
+    "options": [
+      {
+        "key": "A",
+        "text": "(A), (B), (C), (D)"
+      },
+      {
+        "key": "B",
+        "text": "(A), (D), (B), (C)"
+      },
+      {
+        "key": "C",
+        "text": "(C), (D), (B), (A)"
+      },
+      {
+        "key": "D",
+        "text": "(C), (B), (D), (A)"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "Wavelength decreases as frequency increases across the spectrum. Radio waves are the longest, then microwaves, infrared, visible light, ultraviolet, X-rays and gamma rays are the shortest. So increasing wavelength runs gamma rays, visible light, microwaves, radio waves.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 8 Electromagnetic Waves, Sec 8.4 (Electromagnetic spectrum)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired",
+    "_reworded": true
+  },
+  {
+    "id": "d72339f5-bbbc-48ea-9e57-12b89e48e029",
+    "subject": "physics",
+    "unit": "Electromagnetic Waves",
+    "chapter": "Electromagnetic Waves",
+    "type": "match_the_following",
+    "stem": "Match List-I (electromagnetic wave) with List-II (use).\nList-I: (A) Infrared, (B) Ultraviolet, (C) X-rays, (D) Microwaves\nList-II: (I) Sterilising water and killing bacteria, (II) Radiographs of bones, (III) Thermal imaging and TV remote controls, (IV) Radar and satellite communication\nChoose the correct answer from the options given below:",
+    "options": [
+      {
+        "key": "A",
+        "text": "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+      },
+      {
+        "key": "B",
+        "text": "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)"
+      },
+      {
+        "key": "C",
+        "text": "(A)-(IV), (B)-(III), (C)-(II), (D)-(I)"
+      },
+      {
+        "key": "D",
+        "text": "(A)-(III), (B)-(I), (C)-(II), (D)-(IV)"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "Infrared is used in thermal imaging and remote controls (III), ultraviolet sterilises water and kills bacteria (I), X-rays produce radiographs of bones (II), and microwaves are used in radar and satellite communication (IV). The correct pairing is (A)-(III), (B)-(I), (C)-(II), (D)-(IV).",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 8 Electromagnetic Waves, Sec 8.4 (Electromagnetic spectrum and uses)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired",
+    "_reworded": true
+  },
+  {
+    "id": "90eccf23-4148-4c31-b430-b3d4ab676ad3",
+    "subject": "physics",
+    "unit": "Electromagnetic Waves",
+    "chapter": "Electromagnetic Waves",
+    "type": "single_mcq",
+    "stem": "An electromagnetic wave travels in the −z direction in vacuum. At an instant, its magnetic field points along +x. Along which direction does its electric field point at that instant?",
+    "options": [
+      {
+        "key": "A",
+        "text": "+x"
+      },
+      {
+        "key": "B",
+        "text": "+y"
+      },
+      {
+        "key": "C",
+        "text": "−z"
+      },
+      {
+        "key": "D",
+        "text": "+z"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "In an electromagnetic wave E, B and the direction of propagation are mutually perpendicular, with propagation along E × B. With B along +x and propagation along −z, E must be along +y, since ŷ × x̂ = −ẑ. So the electric field points along +y at that instant.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 8 Electromagnetic Waves, Sec 8.3 (Electromagnetic waves: transverse nature and E, B directions)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "3a02b025-c5f6-4fce-b1ea-065b95c32dbd",
+    "subject": "physics",
+    "unit": "Electromagnetic Waves",
+    "chapter": "Electromagnetic Waves",
+    "type": "single_mcq",
+    "stem": "A microwave of frequency 1.5 GHz travels in vacuum. What is its wavelength? (Take c = 3 × 10⁸ m/s.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.02 m"
+      },
+      {
+        "key": "B",
+        "text": "0.5 m"
+      },
+      {
+        "key": "C",
+        "text": "2 m"
+      },
+      {
+        "key": "D",
+        "text": "0.2 m"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "The wavelength in vacuum is λ = c/f = (3 × 10⁸)/(1.5 × 10⁹) = 0.2 m. All electromagnetic waves travel at c in vacuum, so wavelength and frequency are inversely related.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 8 Electromagnetic Waves, Sec 8.4 (Electromagnetic spectrum)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "4e2730f5-b6b5-4784-8ad4-fb9b909398de",
+    "subject": "physics",
+    "unit": "Optics",
+    "chapter": "Ray Optics & Optical Instruments",
+    "type": "single_mcq",
+    "stem": "An equilateral prism of refracting angle A = 60° is set at minimum deviation, where the angle of minimum deviation is δm = 30°. What is the refractive index of the prism material?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.33"
+      },
+      {
+        "key": "B",
+        "text": "1.73"
+      },
+      {
+        "key": "C",
+        "text": "1.41"
+      },
+      {
+        "key": "D",
+        "text": "1.50"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "At minimum deviation the refractive index is μ = sin((A + δm)/2) / sin(A/2) = sin 45° / sin 30° = 0.707 / 0.5 ≈ 1.41. The prism angle and the minimum deviation together fix the index, so the formula is applied directly.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 9 Ray Optics, Sec 9.6 (Refraction through a prism)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "abb95356-5484-457f-87c3-9668cd683b07",
+    "subject": "physics",
+    "unit": "Optics",
+    "chapter": "Ray Optics & Optical Instruments",
+    "type": "single_mcq",
+    "stem": "What is the approximate critical angle for light travelling from glass (μ = 1.5) to air?",
+    "options": [
+      {
+        "key": "A",
+        "text": "30°"
+      },
+      {
+        "key": "B",
+        "text": "42°"
+      },
+      {
+        "key": "C",
+        "text": "48°"
+      },
+      {
+        "key": "D",
+        "text": "60°"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "The critical angle C satisfies sin C = μ_air/μ_glass = 1/1.5 = 2/3. Since sin 42° ≈ 0.67, C ≈ 42°. Light striking the interface at angles larger than C undergoes total internal reflection.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 9 Ray Optics, Sec 9.4 (Total internal reflection)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "ab6c6117-e474-4b8c-907a-59951e5ceb37",
+    "subject": "physics",
+    "unit": "Optics",
+    "chapter": "Ray Optics & Optical Instruments",
+    "type": "single_mcq",
+    "stem": "An astronomical telescope in normal adjustment has an objective of focal length 120 cm and an eyepiece of focal length 4 cm. What is its magnifying power?",
+    "options": [
+      {
+        "key": "A",
+        "text": "30"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "116"
+      },
+      {
+        "key": "D",
+        "text": "480"
+      }
+    ],
+    "correct_key": "A",
+    "explanation": "In normal adjustment the magnifying power of an astronomical telescope is M = f_o/f_e = 120/4 = 30. The final image is at infinity, and the length of the telescope is then f_o + f_e.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "easy",
+    "ncert_ref": "NCERT Class 12 Physics Part II, Ch 9 Ray Optics, Sec 9.7 (Optical instruments: telescope)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  },
+  {
+    "id": "405b35f7-e06b-4e4f-a3c7-fd61928658d4",
+    "subject": "physics",
+    "unit": "Electromagnetic Induction and Alternating Currents",
+    "chapter": "Alternating Current",
+    "type": "single_mcq",
+    "stem": "A sinusoidal alternating current i = I₀ sin ωt flows in a circuit. What is the average value of the current over one half cycle, from t = 0 to t = T/2?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "I₀/√2"
+      },
+      {
+        "key": "C",
+        "text": "2I₀/π"
+      },
+      {
+        "key": "D",
+        "text": "I₀"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "Over a complete cycle the average of a sine function is zero, but over a half cycle it is not. The half-cycle average is (2/T) ∫₀^(T/2) I₀ sin ωt dt = 2I₀/π ≈ 0.637 I₀. I₀/√2 is the rms value, which is a different quantity.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 7 Alternating Current, Sec 7.2 (AC voltage applied to a resistor)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "2be3fcb0-30ce-427f-ae83-14e5d868f7d0",
+    "subject": "physics",
+    "unit": "Electromagnetic Induction and Alternating Currents",
+    "chapter": "Alternating Current",
+    "type": "single_mcq",
+    "stem": "A 100 μF capacitor is connected to a 50 Hz AC supply. What is its capacitive reactance?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3.2 Ω"
+      },
+      {
+        "key": "B",
+        "text": "31.8 Ω"
+      },
+      {
+        "key": "C",
+        "text": "318 Ω"
+      },
+      {
+        "key": "D",
+        "text": "0.0032 Ω"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "Capacitive reactance is X_C = 1/(ωC), where ω = 2πf ≈ 314 rad/s. So X_C = 1/(314 × 100 × 10⁻⁶) ≈ 31.8 Ω. Reactance falls as frequency or capacitance increases, and an ideal capacitor dissipates no average power.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 7 Alternating Current, Sec 7.5 (AC voltage applied to a capacitor)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "f3677c62-dac9-4fbd-9c40-f3874e49b06c",
+    "subject": "physics",
+    "unit": "Electromagnetic Induction and Alternating Currents",
+    "chapter": "Alternating Current",
+    "type": "single_mcq",
+    "stem": "A series LCR circuit has R = 3 Ω, X_L = 8 Ω and X_C = 4 Ω. An rms current of 10 A flows in the circuit. What is the average power dissipated?",
+    "options": [
+      {
+        "key": "A",
+        "text": "150 W"
+      },
+      {
+        "key": "B",
+        "text": "500 W"
+      },
+      {
+        "key": "C",
+        "text": "400 W"
+      },
+      {
+        "key": "D",
+        "text": "300 W"
+      }
+    ],
+    "correct_key": "D",
+    "explanation": "The impedance is Z = √(R² + (X_L − X_C)²) = √(9 + 16) = 5 Ω, so cos φ = R/Z = 0.6. The average power is P = I_rms²R = 100 × 3 = 300 W, which equals V_rms I_rms cos φ = 50 × 10 × 0.6. Reactive components do not dissipate average power.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 7 Alternating Current, Sec 7.6 and 7.7 (series LCR circuit and power in AC circuits)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "repaired"
+  },
+  {
+    "id": "7156b397-65f5-4272-aad7-2444451f0d72",
+    "subject": "physics",
+    "unit": "Electromagnetic Induction and Alternating Currents",
+    "chapter": "Alternating Current",
+    "type": "single_mcq",
+    "stem": "A series LCR circuit has L = 2 mH and C = 50 μF. What is its resonant frequency?",
+    "options": [
+      {
+        "key": "A",
+        "text": "50 Hz"
+      },
+      {
+        "key": "B",
+        "text": "503 Hz"
+      },
+      {
+        "key": "C",
+        "text": "5.03 kHz"
+      },
+      {
+        "key": "D",
+        "text": "159 Hz"
+      }
+    ],
+    "correct_key": "B",
+    "explanation": "Resonance occurs when X_L = X_C, at f₀ = 1/(2π√(LC)). Here LC = 1.0 × 10⁻⁷ s², so √(LC) = 3.16 × 10⁻⁴ s and f₀ ≈ 503 Hz. At resonance the impedance is minimum and the power factor is unity.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 7 Alternating Current, Sec 7.6 (LCR series circuit and resonance)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "opus_audited",
+    "_expert": "repaired"
+  },
+  {
+    "id": "8e7f15cc-e80f-455f-81f0-fbbd13ee56b3",
+    "subject": "physics",
+    "unit": "Electromagnetic Induction and Alternating Currents",
+    "chapter": "Alternating Current",
+    "type": "single_mcq",
+    "stem": "An ideal step-up transformer has turns ratio N_p : N_s = 1 : 20 and is connected to a 230 V supply. If the secondary delivers 0.5 A to its load, what is the current in the primary coil?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.025 A"
+      },
+      {
+        "key": "B",
+        "text": "0.5 A"
+      },
+      {
+        "key": "C",
+        "text": "10 A"
+      },
+      {
+        "key": "D",
+        "text": "11.5 A"
+      }
+    ],
+    "correct_key": "C",
+    "explanation": "For an ideal transformer, V_p I_p = V_s I_s. The secondary voltage is 4600 V, so 230 × I_p = 4600 × 0.5 and I_p = 10 A. A step-up transformer raises voltage and reduces current on the secondary side in the same proportion.",
+    "passage_text": null,
+    "set_id": null,
+    "difficulty_label": "medium",
+    "ncert_ref": "NCERT Class 12 Physics Part I, Ch 7 Alternating Current, Sec 7.9 (Transformers)",
+    "source": "claude-authored-2026-10-17-w3",
+    "_verdict": "haiku_blind_verified",
+    "_expert": "ready"
+  }
+]

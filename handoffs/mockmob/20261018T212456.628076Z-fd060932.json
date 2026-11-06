@@ -1,0 +1,28 @@
+{
+  "id": "20261018T212456.628076Z-fd060932",
+  "observed_at": "2026-10-18T21:24:56.629075+00:00",
+  "agent": "claude-opus-5.5 subagent A4a (web polish restore)",
+  "task": "19 Oct A4a: G28 restore lost polish (keycap, edge lights, washes, NTA button-card) and G31 motion tokens on web/1019-a4a-polish",
+  "status": "complete",
+  "done": "Branch web/1019-a4a-polish head 25821e85 (from 23a7c090), wt-1019-a4a. G31: shared/motion-tokens.json synced to the app copy (countUp 720), emphasized count-up, per-child mk-stagger, --mk-spring = app dock spring. G28: btn-volt keycap, .glass edge lights, volt washes, sheet edge light, na__cta lean-in, NTA tile gradient + kicker 'The closest thing to exam day', NTA panel gradient card, tile rim draw, sidebar Start key light/disc, Start sheet hero lamp, Account lamp/glass/keycap, Today tm__key keycap.",
+  "next": "Main session merges web/1019-a4a-polish into deploy/web-1019-r11. Not restored on purpose: arena page glow, landing aurora and lp-proof light (L-019, test-locked), PrepOS orb (D6/D12), features icon grids and caps tags (W-076), nav-motion glow (L-019).",
+  "blockers": [],
+  "evidence": [
+    "lint clean; test:app 756/0; test:today 120/0; test:recovery 604 pass 0 fail; motion tests 27/0; next build --webpack exit 0",
+    "R4 side-by-sides: scratchpad/a4a/r4/sbs/*.png (24); R5: scratchpad/a4a/r5/{press,countup,rim}-strip.png and report.json"
+  ],
+  "touched_files": [
+    "shared/motion-tokens.json",
+    "src/app/motion-kit.css",
+    "src/lib/motion/*",
+    "src/app/(app)/arena.css",
+    "src/app/(app)/dashboard/practice.css",
+    "src/app/(app)/dashboard/DashboardPageClient.jsx",
+    "src/components/start/start.css",
+    "src/components/profile/account.css",
+    "src/components/today/today.css"
+  ],
+  "verification": "Headless captures at 360/390/1440 Night and Day against 77713336; count-up roll 467 ms before vs 473 ms after; keycap press frames identical; rim draws 0 to 360 deg in about 846 ms.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

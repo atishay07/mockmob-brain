@@ -1,0 +1,42 @@
+{
+  "id": "20261024T082546.924519Z-612193d4",
+  "observed_at": "2026-10-24T08:25:46.925517+00:00",
+  "agent": "claude-sonnet-5.5 subagent (cuts sound lane, wf_bf95bf61-85a)",
+  "task": "MockMob Reel916 cutdowns: THE CUT SOUND (30 s and 15 s beds, voice, tactile) on plan 1025",
+  "status": "complete",
+  "done": "Built and measured the cut sound on plan 1025: beds public/music/reel-cut30-k33g.wav and reel-cut15-k33g.wav cut from the final bed reel-b33gs.wav (CUT_BED points at them), all 3 bed seams < 1 dB re the source's own step (onset guard + auto ease added to build_reel_cut.py), per-edit modes join/bars in tactileCuts.ts, CutSoundRoot resolved-frames bug fixed, dump stale-bed check made loud (words + fix1025 timelines), chain script log-truncation bug fixed, new verify script (delivery composition audio sample-identical to the audio-only render). Real renders: 30 s -13.96 LUFS / -1.30 dBTP / 0 clips / words 57 of 57 >= +6.5 dB; 15 s -14.14 LUFS / -1.29 dBTP / 0 clips / words 33 of 33 >= +6.5 dB; master.sh MEASURE_ONLY linear on both (-13.76 / -2.17, -13.62 / -2.06). Doc docs/CUTDOWNS-916.md section 9 and the NOTES done line written.",
+  "next": "After the Reel's final (REEL_MUSIC may change): bash tools/music-el/build_reel_cut_all.sh <new tag k<N>> both && bash tools/music-el/build_reel_cut_verify.sh <new tag> both, then the independent cut checkers. Owner's ear on: the 30 s join (3-beat bar), frameOStack on cut frame 0, the 15 s 30 -> 45 chord jump.",
+  "blockers": [
+    "none; if REEL_MUSIC or any word/cue moves after the final, re-run the chain (dump prints STALE BED CHECK)"
+  ],
+  "evidence": [
+    "out/reel916/cuts-sound/logs/chain_k33.log",
+    "out/reel916/cuts-sound/logs/verify_k33.log",
+    "out/reel916/cuts-sound/realcheck_cut30_k33g.txt",
+    "out/reel916/cuts-sound/realcheck_cut15_k33g.txt",
+    "out/reel916/cuts-sound/mix_cut30_k33g.json",
+    "out/reel916/cuts-sound/mix_cut15_k33g.json",
+    "docs/CUTDOWNS-916.md section 9",
+    "docs/NOTES.md 'done reel916 cuts sound'"
+  ],
+  "touched_files": [
+    "src/reel/cuts/tactileCuts.ts",
+    "src/reel/cuts/CutSoundRoot.tsx",
+    "src/reel/cuts/CutSound.tsx",
+    "tools/music-el/build_reel_cut.py",
+    "tools/music-el/build_reel_cut_dump.mjs",
+    "tools/music-el/build_reel_cut_all.sh",
+    "tools/music-el/build_reel_cut_realcheck.py",
+    "tools/music-el/build_reel_cut_verify.sh",
+    "tools/music-el/build_reel_cut_compare.py",
+    "public/music/reel-cut30-k33.wav",
+    "public/music/reel-cut30-k33g.wav",
+    "public/music/reel-cut15-k33.wav",
+    "public/music/reel-cut15-k33g.wav",
+    "docs/CUTDOWNS-916.md",
+    "docs/NOTES.md"
+  ],
+  "verification": "npx tsc --noEmit exit 0; node scripts/timeline.mjs and --plan reel 0 warnings; dump warnings none; real audio renders of Reel916Cut30Sound/Reel916Cut15Sound and of the real delivery compositions Reel916Cut30/Reel916Cut15 (sample-identical); realcheck + master.sh MEASURE_ONLY numbers in doc section 9. No full picture render of mine (picture lane renders/checks its own); no picture or Reel file touched.",
+  "cost_and_pending_requests": "0 (no paid calls; render lock shared)",
+  "confidence": "agent-reported; verify evidence before acting"
+}

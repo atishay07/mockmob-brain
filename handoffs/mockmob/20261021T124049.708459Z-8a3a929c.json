@@ -1,0 +1,31 @@
+{
+  "id": "20261021T124049.708459Z-8a3a929c",
+  "observed_at": "2026-10-21T12:40:49.709456+00:00",
+  "agent": "claude-opus-5.5 session 3bddaf01 (promo film orchestrator)",
+  "task": "MockMob teaser: v6.1 round + owner 5:50 pm notes -> v6.2 (two opening options, reveal retime, problem stamps, unlimited bank, real NTA, end without desk), 3D Mobi",
+  "status": "paused",
+  "done": "v6.1 round done (all lanes built and verified/fixed; integrator v5; 5:35 pm cut sent: out/teaser-v5-wip-0535pm.mp4); four critics (owner 74, craft 71, truth 77, sound 64) saved to docs/CRITIQUE-v5-raw.md; owner 5:50 pm notes in the ledger; DIRECTOR v6.2 in NOTES; v6.2 F (end without the desk) done and passed; DV shells cleaned; Mobi v3 IoU targets met, AD 5.5/10.",
+  "next": "Read docs/HANDOFF-2026-10-21-1815.md and paste docs/NEXT-SESSION-PROMPT-2026-10-21-1815.md into the new session: check which v6.2 lanes finished (R, O1, O2, B, D, Mobi TD fix r2), send the two opening previews for the owner to pick, verify lanes, integrate the pick, integrator v6 (remove toy synth cues, impact slap, whips, blur, truth mismatch), render/master/critics, 3D Mobi AD loop + acting test + plan.",
+  "blockers": [
+    "Claude 5-hour window at 93 % (resets 8:00 pm IST)",
+    "Owner must pick an opening option before it enters the film",
+    "Remotion licence headcount before publishing"
+  ],
+  "evidence": [
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\HANDOFF-2026-10-21-1815.md",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\NEXT-SESSION-PROMPT-2026-10-21-1815.md",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\CRITIQUE-v5-raw.md",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\out\\teaser-v5-wip-0535pm.mp4"
+  ],
+  "touched_files": [
+    "docs/OWNER-LEDGER.md",
+    "docs/NOTES.md",
+    "docs/HANDOFF-2026-10-21-1530.md",
+    "docs/HANDOFF-2026-10-21-1815.md",
+    "docs/NEXT-SESSION-PROMPT-2026-10-21-1815.md",
+    "docs/CRITIQUE-v5-raw.md"
+  ],
+  "verification": "Master measured -14.0 LUFS / -1.5 dBTP, 64.0 s, decodes clean; lane states from workflow journals; critic scores from journal results.",
+  "cost_and_pending_requests": "ElevenLabs free account about 4,500 credits before this round; lane R may have spent up to about 100 on stamp SFX",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "20261020T140854.632577Z-5c141b30",
+  "observed_at": "2026-10-20T14:08:54.633575+00:00",
+  "agent": "claude-opus-5.5 session 604ced81 (CEO/CTO, night)",
+  "task": "20 Oct night: version 15 finish",
+  "status": "active",
+  "done": "7:45 pm. ui/1020-v15 0d5bb7fdd = 717aa3a89 + merge ui/1020-v15-invite (clean). Calm and invite test failures (39 onboarding + 10 credits goldens) proven pre-existing: the same 49 fail on 717aa3a89 (tmp/v15-night/base-drift.txt). Owner 7:29 pm status question, 7:31 pm \"what is calm\", 7:34 pm D188 (pick models per task for speed: Sonnet for basic review/verify/capture, Opus only for taste/motion/tricky logic; usage not a constraint) recorded in OWNER-FEEDBACK.",
+  "next": "Running now: (1) calm review wf_43458930-313 -> fix -> merge calm into ui/1020-v15 -> full suite; (2) D183 website wf_651f25fc-647 (wt-1020-consent, web/1020-consent-d183) must deploy before testers install; (3) emulator walk wf_39b6c79e-62f (wt-1020-v15walk detached 0d5bb7fdd; builds A formats/free, B heavy/pro, C fresh/free, D mockdone/free + signed-out real app with API_BASE_URL=127.0.0.1:9; Sonnet walker + Opus judge; shots tmp/walk-1020/app-v15); (4) Mob goldens --update-goldens on wt-1020-v15app test/golden/social (log tmp/v15-night/mob-golden-update.log, changed list mob-golden-changed.txt) -> open vs mock-ups; (5) wf_468d01b1-d5f: web release integration wt-1020-webrel web/1020-v15-release (fulltogether, referral-any, mob-hours renamed 20261020151000, egress reviewed, consent-d183 if done) + v3.fix server from real data; and den join/reaction acts wiring wt-1020-denacts ui/1020-den-acts (Opus). Then: merge den-acts into v15, re-walk den, signed 1.0.17+15, web deploy + migrations.",
+  "blockers": [
+    "D183 server change must be live before testers install v15"
+  ],
+  "evidence": [
+    "tmp/v15-night/base-drift.txt",
+    "tmp/v15-night/calm-fail.txt",
+    "tmp/v15-night/invite-fail.txt",
+    "ui/1020-v15 0d5bb7fdd"
+  ],
+  "touched_files": [
+    "wt-1020-v15app (merge invite)",
+    "new worktrees wt-1020-v15walk, wt-1020-webrel, wt-1020-denacts, wt-1020-consent",
+    "mockmob-next docs/brain/OWNER-FEEDBACK-2026-10-19.md"
+  ],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

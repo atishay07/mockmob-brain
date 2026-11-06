@@ -1,0 +1,18 @@
+{
+  "id": "20261017T210345.413873Z-7ce03ba9",
+  "observed_at": "2026-10-17T21:03:45.413873+00:00",
+  "agent": "claude-opus-5.5 (session 25ef3d95, main)",
+  "task": "18 Oct ~3:40 am IST: mock-ups approved; Today build (web + app for v15) launched; R5, v15 packets, landing check running",
+  "status": "active",
+  "done": "Mock-ups done (pass-1018: TODAY-1018 86378dad, ASK-MOBI-1018 3d4b1ca6, REVIEW-RESULT-1018 9a2984d6, COMMUNITY-1018 d76baed4; captures tmp/design-1018). Owner answers recorded 905881bf: Today proceeds into v15 with Road to CUET = due today / due this week / overall goal, must feel unique (D25-D27); Ask Mobi, Review/result and hiding contributions (CONTRIBUTE_ENABLED off) approved. Launched today-build-1018 wf_9cc3c041-f9e (web wt-today18 web/today-1018 from origin/main; app wt-v15-today2 ui/v15-today2 from ui/v15-1018 76ee2e90; Opus critic + fixes). Still running: web-r5-1018 wf_97151ad7-fae, v15-landing-1018 wf_8daf97a8-ba3.",
+  "next": "Push R5 after its verifier (STATUS R3-R5). Then R6 web packets on new main: Ask Mobi (ASK-MOBI-1018), Review/result (REVIEW-RESULT-1018), community hide (COMMUNITY-1018), Today web (wt-today18). v15: integrate ui/v15-today2 + v15-result + v15-polish into ui/v15-1018, walk, Opus critic, fix, walk 2, release 1.0.15 APK+AAB. Landing push if SHIP. Session end: overwrite NOW.md, update OWNER-MASTER-LEDGER.md.",
+  "blockers": [],
+  "evidence": [
+    "commits 55f9c116, 905881bf on feat/app-and-web",
+    "get_usage 21% at ~2:47 am"
+  ],
+  "touched_files": [],
+  "verification": "Mock-up captures opened by main session (Today 390 full, Change plan step 2).",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

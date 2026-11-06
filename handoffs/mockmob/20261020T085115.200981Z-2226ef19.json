@@ -1,0 +1,40 @@
+{
+  "id": "20261020T085115.200981Z-2226ef19",
+  "observed_at": "2026-10-20T08:51:15.200981+00:00",
+  "agent": "v14-polish subagent (session 604ced81)",
+  "task": "App v14 polish: K1 Day mode, K3 You plan strip, K4 Pro table, K6 Wallet craft, D165 copy (ui/1020-v14-polish)",
+  "status": "complete",
+  "done": "ui/1020-v14-polish head 44073e9f (13 commits on fe076156; not merged or pushed).\n- K1 Day: Practice objects (ChoiceGlyph) are now porcelain with a keyline and a deeper shade; Day sheet tiles are raised with a hairline; the Mob quest bar is kraft. Night is unchanged.\n- K3/K6: YouPlanStrip under the name shows credits (opens the Wallet) and \"Free plan / Upgrade to Pro\" (opens the Pro page); Pro students see their plan. The bottom row was removed. Free students also get a credit line on Practice.\n- K4: Pro table rows grow with their text; Full mocks now reads \"Your first in each subject is free\" / \"Then 50 credits\"; one-word cells scale to fit at 1.3x text. The first-free rule now shows next to credit-priced full mocks.\n- K6: Wallet has brass CreditCoins, a price list, and a line on why the first mock is free.\n- D165: copy is ready behind referralOfferLiveProvider, which is false.\n- 112 goldens regenerated (92 updated, 20 new), all intended changes.",
+  "next": "The main session should merge ui/1020-v14-polish into the v14 integration branch.\n- D165: flip referralOfferLiveProvider to the server's field once web/1020-referrals ships one.\n- Optional: finish_reveal and finish_moment goldens are flaky under load; this is pre-existing and was seen on base too.",
+  "blockers": [
+    "D165: no server live field exists yet (TODO in wallet_data.dart)"
+  ],
+  "evidence": [
+    "mockmob-next/tmp/walk-1020/v14-polish/{before,after}/sheet_*.png and compare_*.png (demo, 360 dp, Night and Day)",
+    "full golden run vs fe076156: 125 base-drift failures identical to base; mine = den Day (regenerated) + flaky finish_reveal frames"
+  ],
+  "touched_files": [
+    "flutter_app/lib/features/practice/widgets/choice_glyphs.dart",
+    "flutter_app/lib/features/practice/widgets/choice_deck.dart",
+    "flutter_app/lib/features/practice/widgets/practice_credit_line.dart",
+    "flutter_app/lib/features/practice/widgets/get_panel.dart",
+    "flutter_app/lib/features/practice/copy.dart",
+    "flutter_app/lib/features/you/hub/plan_strip.dart",
+    "flutter_app/lib/features/you/you_hub_screen.dart",
+    "flutter_app/lib/features/you/copy.dart",
+    "flutter_app/lib/features/billing/widgets/pro_showcase.dart",
+    "flutter_app/lib/features/billing/billing_copy.dart",
+    "flutter_app/lib/features/billing/widgets/top_ups.dart",
+    "flutter_app/lib/features/wallet/wallet_screen.dart",
+    "flutter_app/lib/features/wallet/wallet_copy.dart",
+    "flutter_app/lib/features/wallet/widgets/credit_coins.dart",
+    "flutter_app/lib/features/wallet/data/wallet_data.dart",
+    "flutter_app/lib/features/social/v3/widgets/quest_bar.dart",
+    "flutter_app/test/unit/release/v14_polish_test.dart",
+    "flutter_app/test/unit/practice/support/harness.dart",
+    "docs/design-decisions/pass-1020/V14-POLISH-1020.md"
+  ],
+  "verification": "- flutter analyze is clean.\n- Full test/unit: 7149 passed. The 10 failures it found were fixed and their files rerun green: v14_polish 21/21; practice and you copy rules; hub; account.\n- test/widget: 199 passed.\n- The full golden suite matches base except the intended changes and the flaky finish frames.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "20261013T151510.711117Z-6775d566",
+  "observed_at": "2026-10-13T15:15:10.713117+00:00",
+  "agent": "claude-opus-5.5 (workflow subagent, logo-B motion/brand review)",
+  "task": "Review logo B app opening, splash hand-off, launcher icon, in-app logo call sites (review only, no code edits)",
+  "status": "complete",
+  "done": "Reviewed device frames in tmp/logo/final-B/device (final-profile-open6, after-profile-open2/3, contact sheet, handoff compare, icons) plus goldens. Verdict: FIX. Top issues: (1) letter unfold shows wrong letterforms (lmo, dkmoh, rcckmob, nockmob) and is baked into goldens opening_unfold_*; (2) b still shows as underscore/period then 'h' (open6 f029_005040, f030_005087, f031-f033); (3) hold beat cut to 190-250 ms and blink lost in 2 of 3 runs because _markSeen clamps _seenAt to 400 ms (_seenCap) when first raster comes later; (4) splash->Flutter not identical: Mobi ~1.5 px offset/1-2% larger, and the splash frame reappears for one frame after Flutter shows (open6 f023_004871, open3 f031_004195); (5) hand-off fade ~100 ms visible and janky because the first screen first paints at onReveal, plus double/triple Mobi overlap; (6) day mode charcoal->paper hand-off untested (likely flash); (7) 39-58 ms frame gaps during pull-back in open6; smaller: detail switch pop at c=0.5, ink grows as a sliver, mo tile + wordmark lockups on auth/help (two Mobis), hub footer ink3 letters.",
+  "next": "App engineer fixes P0/P1 list, then re-record on emulator in dark AND light mode with a lossless/high-bitrate capture; test themed icon and reduced motion on device; regenerate goldens after the unfold change.",
+  "blockers": [],
+  "evidence": [
+    "tmp/logo/final-B/device/final-profile-open6/f028_005001ms.png..f036_005305ms.png",
+    "tmp/logo/final-B/device/after-profile-open3/f029_004151ms.png..f032_004208ms.png",
+    "tmp/logo/final-B/device/final-b-rise-zoom.png",
+    "tmp/logo/final-B/device/handoff-profile-compare.png",
+    "flutter_app/test/golden/core/goldens/opening_unfold_day.png"
+  ],
+  "touched_files": [],
+  "verification": "Frame measurements with PIL (volt/white centroids, bbox, Mobi width per frame); no device recording made (existing frames sufficient for night mode; emulator not started).",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

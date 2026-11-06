@@ -1,0 +1,27 @@
+{
+  "batch": "geography__b2",
+  "subject": "geography",
+  "pass": "wave2 expert pass (CUET expert review, same procedure as wave 1 step 5). Run by claude-haiku-5-5, not Sonnet as wave 1 used; treat as a second-opinion pass and not a substitute for a Sonnet pass if one is required.",
+  "date": "2026-10-14",
+  "scope": "accepted=true questions in wave2-acceptance-2026-10-14.json for geography__b2 (16 of 20). Rejected items 79edb77b-9e0a-479a-aaad-52e6f22d64ac, 66f791a5-a4e6-4377-afbe-4eef78e000c5, faad2c47-560d-4799-aaa0-66453fba92ae and 7fba5914-ff2b-4217-a729-d6ecce374f57 were not reviewed.",
+  "source_file": "tmp/authored-w2/geography/geography__b2.json",
+  "counts": {"ready": 15, "repaired": 1, "practice": 0, "reject": 0},
+  "verdicts": [
+    {"id": "73f0c5d7-60b9-4e3d-91c8-bfc5770473fd", "verdict": "ready", "why": "Shifting cultivation is abandoned because soil fertility falls once burning's nutrients are used up. The other options describe events unrelated to abandonment. Key A is unique."},
+    {"id": "af5f416f-6027-4ad9-9926-30b0629fc49f", "verdict": "ready", "why": "Commercial ranching on fenced pastures is classic in the Pampas of Argentina and in Australia. The distractors are dairy (Netherlands, Denmark) and rice (Bangladesh, Myanmar, Japan, South Korea) regions."},
+    {"id": "3e691ac4-d185-4804-9811-030009eb78f3", "verdict": "ready", "why": "Plantation to III, shifting cultivation to II, Mediterranean to IV and commercial grain farming to I. Each of the other three options mismatches at least two pairs."},
+    {"id": "42295a2f-5388-48dd-8f5c-021b3fd9a57f", "verdict": "ready", "why": "Statements A, B and D are true (nomads have no permanent settlement, transhumance is seasonal highland-lowland movement, nomadism suits arid lands). C is false because commercial ranching is not nomadic. Key D is unique."},
+    {"id": "396aace4-efaf-4bd0-bea5-cd7a814634e1", "verdict": "ready", "why": "TISCO at Jamshedpur (1907) is the first integrated iron and steel plant in India. Bhilai, Rourkela and Durgapur are later public-sector plants."},
+    {"id": "b3691bf1-f128-42f6-a100-e00a44b796be", "verdict": "repaired", "why": "Key A (cotton textiles and sugar) is correct and unique. The explanation sentence grouped fertilisers with iron ore, which read as an error; the sentence was rewritten so each industry's raw material is stated correctly.", "repair": "Explanation only: rewrote the last two sentences so aluminium (bauxite) and cement (limestone) are stated as mineral-based, iron and steel (iron ore) as mineral-based, and fertilisers and petrochemicals as chemical-based. Stem, options and correct_key A unchanged."},
+    {"id": "272e3a2a-57d3-4ae9-9ec4-34f90cb334fe", "verdict": "ready", "why": "Ginning, spinning, weaving, then bleaching, dyeing and finishing is the correct order. Key D (B, C, A, D) is unique and each distractor misplaces the first or third stage."},
+    {"id": "241343c1-ee49-4bd0-92bd-693af46a9ab7", "verdict": "ready", "why": "Retail trade is a tertiary service. Biotechnology research, software development and data analysis are knowledge-based quaternary activities. Key B is unique."},
+    {"id": "5edcbcb0-9417-49a4-a222-39db65f2421b", "verdict": "ready", "why": "The Suez Canal links the Mediterranean and the Red Sea. The Panama Canal joins the Atlantic and Pacific, and the other pairs are not canal links that shorten Europe-South Asia routes."},
+    {"id": "902b410c-4028-44d3-a635-65cac919f7a4", "verdict": "ready", "why": "The Golden Quadrilateral links Delhi, Mumbai, Chennai and Kolkata. Hyderabad is not on it and is the only NOT-linked option. Key A is unique."},
+    {"id": "6a0c3146-b6d0-45b3-a9eb-f5dfaed0c1ec", "verdict": "ready", "why": "Latitudes run Kandla (about 23N), Mumbai (about 19N), Mangaluru (about 13N), Kochi (about 10N). Key A (B, D, A, C) is the only option in that order."},
+    {"id": "47f514b2-0bd9-4024-a9fb-f1b84d8e74ea", "verdict": "ready", "why": "Submarine cables lie on the ocean floor (II), satellite relays from geostationary orbit (III), optical fibre carries light pulses (I), and the telegraph uses dots and dashes (IV). Key D is the only full match."},
+    {"id": "3fcbe4d0-8a61-48c8-9492-803679c7555d", "verdict": "ready", "why": "Balance of trade is visible exports minus visible imports. The other options describe total trade, the balance of payments or capital flows."},
+    {"id": "f6ef948f-4bf0-44a6-9042-60af8da64835", "verdict": "ready", "why": "A (BoP covers all transactions with the rest of the world) and C (remittances are current-account transfers) are true. B is false because BoT is goods only, and D is false because BoT and BoP differ. Key C is unique."},
+    {"id": "e4fff894-037f-4700-934f-07d0f1fea52a", "verdict": "ready", "why": "A conurbation is a merged urban area formed by neighbouring towns and cities. Hamlet, dispersed and linear settlements are rural forms."},
+    {"id": "f0f4eef4-1dc0-4bb8-b718-7884b9f078cd", "verdict": "ready", "why": "A megalopolis is a chain of merged metropolitan regions, and the Boston to Washington corridor is the classic example. The conurbation option is a single merged area, not a chain."}
+  ]
+}

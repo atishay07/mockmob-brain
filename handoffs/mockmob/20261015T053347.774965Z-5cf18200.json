@@ -1,0 +1,37 @@
+{
+  "id": "20261015T053347.774965Z-5cf18200",
+  "observed_at": "2026-10-15T05:33:47.774965+00:00",
+  "agent": "IA3 builder (Opus, web IA workflow)",
+  "task": "Web IA packet IA3: first run (signup, login, 2-step onboarding, sample import, returning hint, postSignInPath to /today) in wt-web-ia",
+  "status": "complete",
+  "done": "postSignInPath lands on Today (or Start on place via mm:start-on:v1), keeps ?next through onboarding; loginPathFor omits next only for /today and /dashboard. New src/app/onboarding/firstRun.js (steps, days, returning hint writers, silent once-only sample import). Onboarding rebuilt as 2 steps (subjects, days 1-7 default 4, PUT /api/me/goal), ?step=days survives reload, ?edit=true still works, brand-flag 3D subject objects. Signup \"Create your free account.\" with plan_facts facts line, sample hand-off line; login says Welcome back only for a known device; SignupCard one primary per state (Google, email, 6-digit code). Preview views onboarding/signup/login + fixture handlers. Not committed (integrator commits).",
+  "next": "Integrator: change data/tests/auth_reliability.test.mjs:241 expected '/dashboard' to '/today' (the plan's intended landing change); add data/tests/first_run.test.mjs to a package.json test script (test:ia). IA2: Mobi intro line on Today rule 'first'. Optional: callback or shell runs runSampleImport for existing Google users. Gate A captures: /preview/arena?view=onboarding&step=subjects|days, &brand=art, view=signup&stage=code, view=login&visitor=returning.",
+  "blockers": [
+    "test:auth fails 1 assertion (line 241 pins the old /dashboard landing) until the integrator updates it",
+    "Supabase email OTP length is a dashboard setting; field shows 6 digits and accepts 6-10"
+  ],
+  "evidence": [
+    "node --test data/tests/first_run.test.mjs 11/11",
+    "test:ia 62/62, test:app 147/147, test:auth 49/50 (only line 241, intended)",
+    "npx eslint on all IA3 files: clean"
+  ],
+  "touched_files": [
+    "src/lib/auth-redirect.js",
+    "src/app/onboarding/OnboardingPageClient.jsx",
+    "src/app/onboarding/page.js",
+    "src/app/onboarding/onboarding.css",
+    "src/app/onboarding/firstRun.js",
+    "src/app/signup/page.js",
+    "src/app/signup/SignupPageClient.jsx",
+    "src/app/login/page.js",
+    "src/app/login/LoginPageClient.jsx",
+    "src/components/ui/SignupCard.jsx",
+    "src/components/auth/AuthShell.jsx",
+    "src/app/auth.css",
+    "src/app/preview/arena/views/onboarding.jsx",
+    "data/tests/first_run.test.mjs"
+  ],
+  "verification": "Unit tests, eslint and code reading only; no dev server or browser per orchestrator. Rendering, motion and layout at sizes not exercised; Gate A capture must confirm.",
+  "cost_and_pending_requests": "None",
+  "confidence": "agent-reported; verify evidence before acting"
+}

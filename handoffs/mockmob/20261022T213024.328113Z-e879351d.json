@@ -1,0 +1,27 @@
+{
+  "id": "20261022T213024.328113Z-e879351d",
+  "observed_at": "2026-10-22T21:30:24.328113+00:00",
+  "agent": "claude-opus-5.5 session 792c2e1f (promo film orchestrator)",
+  "task": "MockMob 9:16 Reel: research-backed Reels plan, then build (owner 2:20 am: best-performing Instagram Reel, full creative freedom)",
+  "status": "active",
+  "done": "Owner 2:20 am direction recorded verbatim in docs/OWNER-LEDGER.md (best-performing Reel; full freedom over script/VO/animation; continuous hook + value, not too fast/slow; full-bleed 9:16; main info a bit above centre; add research). Preview workflow wf_4fbee8ed-d27 stopped (open builder had only measured; reveal check r1 FAILED 4 points; reveal fix 1 partially applied: column x 94..928, push zoom <= 1.045; backups out/_bak-v916-reveal/fix1-0213/). Plumb rest wf_bb724457-224 PASS (font race fixed; mux_v8_audio.sh, captions_export.mjs, sheet916, deliver916). Research/plan workflow wf_08614eb4-f52: 4 web lanes + v8 retention audit + plans A (69.8 s, keep audio), B (53.57 s, 108 question first), C (53.57 s, reel-native) + 3 judges (growth/owner: B, but C was truncated from their brief; production: C + B grafts). PC crashed ~2:55 am during the synthesis; resumed 3:00 am with all three plans in full + DIRECTOR CALLS (B/C structure, Mobi small lower-left from frame 0, count-up ~1.0-1.2 s with silence before the punch, the approved callback line, one paid re-voice session same voice, bed re-cut by bars, licence question to the owner, zone_check, new Reel916 architecture so Teaser16 stays frozen).",
+  "next": "Review docs/REELS-PLAN-916.md when the synthesis lands; write the binding DIRECTOR line; launch the build wave (architecture/plan + VO re-voice + hook/reveal lane first), cut the first ~12-13 s as a REAL render (temp v8 takes allowed), check it, send it to the owner.",
+  "blockers": [
+    "Licence: v8 bed base + SFX base from the FREE ElevenLabs account; owner decision before ads/commercial posting"
+  ],
+  "evidence": [
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\OWNER-LEDGER.md (23 Oct 2:20 am entry)",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\NOTES.md (DIRECTOR v916 REEL REDIRECT; plumb rest accepted)",
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\792c2e1f-d07d-4588-b135-53d46c5e4f59\\subagents\\workflows\\wf_08614eb4-f52\\journal.jsonl"
+  ],
+  "touched_files": [
+    "docs/OWNER-LEDGER.md",
+    "docs/NOTES.md",
+    "src/components/KaraokeHeadline.tsx + src/brand/fonts.ts (plumb rest)",
+    "scripts/mux_v8_audio.sh, captions_export.mjs, sheet916.sh/.py, deliver916.sh (new)",
+    "src/screen/Phone916.tsx, src/components/DeskShot.tsx (reveal fix 1 partial)"
+  ],
+  "verification": "3:00 am after the crash: no locks or render processes, C: 66 GB free, npx tsc --noEmit clean.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

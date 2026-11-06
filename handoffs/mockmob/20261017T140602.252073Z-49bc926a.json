@@ -1,0 +1,23 @@
+{
+  "id": "20261017T140602.252073Z-49bc926a",
+  "observed_at": "2026-10-17T14:06:02.253081+00:00",
+  "agent": "claude-opus-5.5 (session 25ef3d95, main)",
+  "task": "17 Oct ~7:45 pm IST: resumed from HANDOFF-2026-10-17-EVENING section 5; five workflows launched (usage 7%, reset 8:00 pm)",
+  "status": "active",
+  "done": "Committed the repair agent's 329 uncommitted regenerated goldens in wt-v13 as STOP POINT e92266bd (on 42510757). Launched: web-r2-1017d wf_85a1c33a-7e5 (W-098 aicap in wt-fx-aicap web/fix-aicap-1017; resume fix-result cc2de720, fix-today 2345ee9e, fix-nav fb73dccd; integrate into deploy/web-1017b in wt-ship17 with start df7cf860, pricing 2ee6deea, mob-fix 1f5d2f4a behind flag; shared dev 3280; 5 area re-verifiers of all 100 items; fix2 per area in wt-f2-*; final verifier; MAIN PUSHES), landing-r15-1017d wf_5825e357-24b (panel r15 on 9e3ceab7 with L-001..L-045, loop to 88+, ship verifier; main pushes), app-v13-r2-1017d wf_85b58fda-9cc (build-verify on e92266bd, 9 Opus golden judges, mob-app-2 in wt-v13-mob2, 6 area fixers in wt-v13-fx-*, integrate, Opus polish, walk 2 with Mob two members on rig 3101 wt-mobfix, Opus critic), mob-gate-1017d wf_b4f34611-69f (go/no-go on staging port 3264, fixer rounds to 10/10), f15-web-1017d wf_f340756c-972 (P-LR1 in wt-lr17, P-LR2 wt-lr2, P-LR3 wt-lr3, integrate, critic, fixer).",
+  "next": "Watch; push deploy/web-1017b when its final verifier passes (main session; Vercel check; STATUS); push landing when its ship verifier passes; after v13 walk 2 + critic: final fixes, walk 3, release APK; Mob switch-on only at 10/10 (production migrations 20261017100000 + sharing default, Vercel MOB_ENABLED, PERSISTENT_LIMITS_ENABLED after checking take_rate_limit, MOB_ID_SECRET); app F15 packets after v13.",
+  "blockers": [
+    "Owner items unchanged (Anthropic key, Avast, held questions, Hindi, free first Repair, physics syllabus call)"
+  ],
+  "evidence": [
+    "get_usage 7% at 7:31 pm, resets 8:00 pm IST",
+    "wt-v13 e92266bd clean tree",
+    "RAM 32 GB, 18 GB available at launch"
+  ],
+  "touched_files": [
+    "wt-v13 e92266bd"
+  ],
+  "verification": "Heads verified by git before launch.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

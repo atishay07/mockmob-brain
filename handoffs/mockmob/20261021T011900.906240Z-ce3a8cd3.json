@@ -1,0 +1,29 @@
+{
+  "id": "20261021T011900.906240Z-ce3a8cd3",
+  "observed_at": "2026-10-21T01:19:00.907239+00:00",
+  "agent": "claude-opus-5.5 session 7a597d08 (promo film)",
+  "task": "D196 round 2: MockMob teaser film (16:9 first) at TixFox/Pocketsflow level, rendered MP4 with voice, music, SFX — polish round 2",
+  "status": "active",
+  "done": "v2 rendered and mastered (out/teaser-v2-master.mp4, 53.2 s, -14.0 LUFS, peak -1.0). Critique panel on v2 saved to docs/CRITIQUE-v2.md (36 findings: 60 fps, headline double exposure, short holds, end-card price tag beside Play pill, find/fix paper thread, exam console state, duplicate Mobis). Voice choice by objective scores: Veena vinaya (Apache-2.0) as film voice, kavya alt, agastya male alt. Hop ledge pose generated on the second Codex account (Luna high) and registered (public/art/gen/fold-hop-ledge.png, scripts/rig_gen.py FIX). docs/DIRECTOR-NOTES-v2.md written: decisions per chapter for agents A-F.",
+  "next": "Running workflow w3nqjz5rr: voice lock (Veena production VO + timing + out/voice-pack + docs/VOICE-SCORES.md) and integrator r2 (60 fps, headline exit rule, holds, chrome band, decor guard, rig cut mode). Then: set VOICE='veena_vinaya' in src/teaser/plan.ts, node scripts/timeline.mjs, launch 6 chapter agents per DIRECTOR-NOTES-v2, rescore music, render v3 at 60 fps, master, critique (incl. audio), iterate; morning notes for owner.",
+  "blockers": [
+    "Remotion licence: free only up to 3 people at MockMob; owner must confirm headcount before publishing",
+    "Batch-2 art (Fold ledge/run poses, new Mobi poses, Hop ledge) needs owner approval"
+  ],
+  "evidence": [
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\CRITIQUE-v2.md",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\DIRECTOR-NOTES-v2.md",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\out\\teaser-v2-master.mp4",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\vo-scores"
+  ],
+  "touched_files": [
+    "scripts/rig_gen.py",
+    "src/data/rig-gen.json",
+    "public/art/gen/fold-hop-ledge.png",
+    "docs/CRITIQUE-v2.md",
+    "docs/DIRECTOR-NOTES-v2.md"
+  ],
+  "verification": "Hop ledge checked by eye (on-model, transparent, flat cut). Voice scores from tools/vo-scores JSON (SpeechBrain accent, UTMOS, PESQ, WER). No human listening yet.",
+  "cost_and_pending_requests": "Claude 5-hour window 6% at 06:50 IST; Codex alt account ~24k tokens for one image.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

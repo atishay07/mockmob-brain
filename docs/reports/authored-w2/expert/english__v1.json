@@ -1,0 +1,32 @@
+{
+  "batch": "english__v1",
+  "subject": "english",
+  "pass": "wave2 expert pass (CUET expert review, same procedure as wave 1 step 5)",
+  "date": "2026-10-14",
+  "scope": "accepted=true questions in wave2-acceptance-2026-10-14.json for english__v1 (20 of 20). No English v1 question was rejected by the acceptance rule.",
+  "source_file": "tmp/authored-w2/english/english__v1.json",
+  "counts": {"ready": 17, "repaired": 3, "practice": 0, "reject": 0},
+  "repairs_applied_to_source": "Same ids, correct_key unchanged. 8ea3affd: distractor 'from' changed to 'by' (option C) so the only defensible distractor is clearly wrong, and explanation reworded; the key 'since' is still uniquely correct. 5921f24b: explanation grammar fix ('follows' to 'follow'). 45e42f52: explanation corrected; the 'than' clause of 'No sooner had ... than' takes the simple past, not the past perfect. Each repaired item still has key and option set checked by hand.",
+  "verdicts": [
+    {"id": "c33dc1da-a905-43cb-a708-11b3e8d20f7d", "verdict": "ready", "why": "Ephemeral means lasting a very short time; Transient is the unique synonym. Permanent is the antonym; Abundant and Gloomy are unrelated."},
+    {"id": "65ff8aba-21d3-4b4b-afca-55f2d49213fd", "verdict": "ready", "why": "'So absorbed in her work' needs the past participle after 'was'. Absorbing, absorption and absorbent do not fit the frame."},
+    {"id": "3fdfdac9-0078-4180-8170-3bd9b38a1caa", "verdict": "ready", "why": "Malevolent is the direct antonym of benevolent. Generous, charitable and indulgent are near-synonymous or unrelated and do not work as opposites."},
+    {"id": "8b451c97-5b15-46d6-ba2e-8db7e45ce9bd", "verdict": "ready", "why": "Passive sentence 'The new library building was inaugurated by the chief minister last Sunday' gives B-C-A-D; the other orders are ungrammatical."},
+    {"id": "0f98cc9e-5f03-4c8d-8fa5-12bdbe24c55b", "verdict": "ready", "why": "'To hit the nail on the head' means to be exactly right. The other options describe unrelated actions."},
+    {"id": "70762ae4-42a0-4c50-9977-2cdf2e545c56", "verdict": "ready", "why": "Alacrity means brisk readiness; Eagerness is the closest synonym. Reluctance is an opposite; Lethargy and Solemnity are unrelated."},
+    {"id": "8ea3affd-ebb6-42c3-a5cc-aa0a8788e76d", "verdict": "repaired", "why": "Key 'since' is correct for a starting point with the present perfect continuous. The distractor 'from' was arguably acceptable in ordinary speech, so it was replaced with 'by' (clearly wrong here) and the explanation was reworded. Key unchanged.", "repair": "Option C 'from' changed to 'by'; explanation reworded to explain since (starting point), for (duration), during (event period) and by (no later than a point), without the inaccurate claim that 'from' is impossible."},
+    {"id": "19453319-eb6d-49c8-b282-86d1e025724b", "verdict": "ready", "why": "A polyglot knows and speaks several languages fluently. Monolingual and bilingual are narrower counts; Linguistic is a related but different meaning."},
+    {"id": "16986c98-200e-4c90-99d8-10ce90fb318f", "verdict": "ready", "why": "Call off = cancel (III), look after = take care of (II), come across = find by chance (IV), put up with = tolerate (I). Only option C matches all four."},
+    {"id": "552b0503-b9d7-4048-acd2-4cf3694353ce", "verdict": "ready", "why": "Obsolete means no longer in use; Modern is the opposite. Outdated, Archaic and Antiquated are synonyms and cannot be the answer."},
+    {"id": "5921f24b-9629-42a0-b42d-2cb9e111a773", "verdict": "repaired", "why": "Key D (C-A-B-D) gives 'The construction of the bridge, which had been planned for the monsoon season, was postponed'. Only option D forms this. Explanation had a grammar slip ('follows' with a plural subject).", "repair": "Explanation: 'the relative clause (A) and (B) follows' changed to 'follow'."},
+    {"id": "5885c899-63ff-4dc3-a8bf-024ffb0622e3", "verdict": "ready", "why": "'Since' is wrong with the duration 'the last three months'; 'for' is required. Parts A, B and D are correct."},
+    {"id": "a297b39e-ee50-442e-82f8-12eb0d520230", "verdict": "ready", "why": "Garrulous means excessively talkative; Loquacious is the synonym. Taciturn is an antonym; Gracious and Morose are unrelated. Hard label is fair for vocabulary at CUET level."},
+    {"id": "0c1483a0-0646-49db-b638-d2837fe3dbb3", "verdict": "ready", "why": "Present simple 'am' backshifts to past simple 'was' after 'said'. Had been and has been are perfect forms; 'is' is not backshifted."},
+    {"id": "faf811b5-a8cd-40a2-8a3b-c154ea3bfa5f", "verdict": "ready", "why": "Candour means openness and honesty; Deceit is the opposite. Frankness, Sincerity and Openness are synonyms."},
+    {"id": "74a97623-2ae0-4740-b593-ac4de25f4512", "verdict": "ready", "why": "'To bite the bullet' means to face a painful situation with courage. The other options describe different idioms or actions."},
+    {"id": "352852b5-f16e-4b3f-a9c3-461ee46473b7", "verdict": "ready", "why": "Archaeology is the study of past societies through material remains. Anthropology is general; Palaeontology studies fossils; Genealogy traces descent."},
+    {"id": "12388f21-ca56-428f-8f16-565dd23d8dd5", "verdict": "ready", "why": "Frugal = II, Lethargic = IV, Pragmatic = III, Meticulous = I. Only option B matches all four pairs."},
+    {"id": "45e42f52-94f3-44c5-9063-735bd4aaa9cb", "verdict": "repaired", "why": "'No sooner had the exam started than' is an inverted past perfect with 'had' as the only correct auxiliary. The original explanation wrongly called the 'than' clause past perfect; it is simple past.", "repair": "Explanation corrected: the 'than' clause takes the simple past ('the power went off'). Key 'had' unchanged."},
+    {"id": "1181c7a2-584e-49f2-a34f-0b83dbdbc068", "verdict": "ready", "why": "'The teacher asked the students to close their books immediately' gives A-C-B-D; only option C forms this sentence."}
+  ]
+}

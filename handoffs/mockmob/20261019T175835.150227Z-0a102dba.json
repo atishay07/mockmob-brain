@@ -1,0 +1,31 @@
+{
+  "id": "20261019T175835.150227Z-0a102dba",
+  "observed_at": "2026-10-19T17:58:35.150227+00:00",
+  "agent": "claude-opus-5.5 session 801f0d1a (CEO/CTO, night)",
+  "task": "19 Oct night: Play billing live, version 11, store listing, Mob v3 merge and walk",
+  "status": "active",
+  "done": "Web play-subs reviewed (3 Opus lenses, 4 confirmed fixed) and DEPLOYED: production migration 20261019210000 applied 9:51 pm (post-check ok), owner set PLAY_BILLING_ENABLED=true, main pushed 58793f9c (dpl_F8qxHxpnXyZPqjCEAFrPrBbSnE9L), routes live 9:54 pm, owner's test RTDN logged. App play-subs finished, merged into ui/v15.4-1019pm, reviewed (stale renewal line, grace as warning, etc. fixed), head afd14f97 + c2aac238 (1.0.16+11). Version 11 signed AAB+APK in Desktop\\MockMob-build-11 (upload key, matches build 10), emulator launch clean. Owner uploaded v11 to internal testing (released 23:05) and closed testing Alpha; internal link shows Item not found (Google propagation or tester list); trying internal app sharing / APK. Store listing v11b (option A, unlimited mocks headline) pasted; graphics FG A + set 2 uploaded from MockMob-store-listing\\UPLOAD-THIS. Mob v3: five helpers merged into ui/1019pm-mob-v3 5e1a4e8f (unit 6894, widget 175, goldens 133 green); staging rig 3105 (+shim 3115) with seed script (chai-* accounts). Folds: 12 idles + 7 cheers + sealed parcel + seal generated, Codex limit until 2:58 am. Owner feedback times corrected; D140-D147 recorded.",
+  "next": "Owner installs v11 (internal app sharing or APK, or USB via adb -s 10BF370PA6002XR) and buys pro_monthly then credits_10_50 as licence tester; verify play_purchases rows read-only; refund test. Guide content rating (users interact yes, purchases yes) and data safety (Purchase history). Mob v3 emulator walk running (WALK-1019-NIGHT.md), then fixes, Folds resume after 2:58 am (FINAL-ART.md section 6), live rooms Phase B, weekly paper hold. Follow-ups: privacy page mentions Google Play, AI repair Report key, welcome 'checks the fix holds', web Set a password.",
+  "blockers": [
+    "Play internal test link Item not found (Google side or tester list)",
+    "Service account API access unproven until first purchase",
+    "Codex image limit until 2:58 am"
+  ],
+  "evidence": [
+    "prod post-check: 8 cols, kind check incl pro_sub, sync fn service_role only, RLS on, 0 rows",
+    "Vercel log 16:24:33Z [play] test notification received",
+    "test:billing 387/387 recovery 610 auth 110 app 841; app unit 6858 (v15.4) / 6894 (mob)"
+  ],
+  "touched_files": [
+    "wt-1019pm-playsubs web/1019pm-play-subs 58793f9c (= main)",
+    "wt-v15-3 ui/v15.4-1019pm c2aac238",
+    "wt-1019pm-mobapp ui/1019pm-mob-v3 5e1a4e8f",
+    "wt-1019pm-mobsrv scripts/mob/seed-v3-staging.mjs",
+    "mockmob-next docs/brain/OWNER-FEEDBACK-2026-10-19.md",
+    "Desktop/MockMob-store-listing (LISTING-v11b.txt, v11-design, UPLOAD-THIS)",
+    "Desktop/MockMob-build-11"
+  ],
+  "verification": "Production reads and one migration under owner yes D141; deploy smoke: /, /pricing, /profile, /account-deletion 200; verify 401 unauthenticated; rtdn 401 bad token.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

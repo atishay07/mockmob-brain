@@ -1,0 +1,25 @@
+{
+  "id": "20261015T145053.699730Z-6acfbc64",
+  "observed_at": "2026-10-15T14:50:53.699730+00:00",
+  "agent": "claude-opus-5.5 usage-diagnosis subagent (session 604ced81)",
+  "task": "Read-only diagnosis of Vercel Hobby and Supabase Free limit overages",
+  "status": "complete",
+  "done": "Report written: mockmob-next/docs/brain/USAGE-LIMITS-DIAGNOSIS-2026-10-15.md.\n\nSupabase: egress (5 GB, org-wide) is the meter over the limit. The database is 157/500 MB, there is no storage, and only 9 users signed in during the last 30 days. Main cause is src/lib/server/inventory.js: select('*') of all 9,697 questions (about 41 MB, 55% of it the evidence column). It ran 26 times in the last 24 h (about 1.1 GB). Of those, 14 came from the owner's PC and local dev servers (8 worktree .env.local files point at production) and 12 from Vercel iad1.\n\nVercel: the meter is almost certainly Active CPU (4 h). There were 59 requests killed at the 300 s timeout on /api/stats and /api/practice/quote between 7 and 13 Oct (26 users), up to about 4.9 CPU-hours. The cause is publicationEligibility re-parsing 4.9 MB of JSON per question. This was fixed for inventory on 13 Oct (52de7fe5) but is still present in answerReviews.js:16, mistakeRepair.js:48, learning.js:43, sessions/[id]/check:39 and db.js:1539.\n\nOther causes: functions run in iad1 while the database is in Singapore; getQuestions reads the whole subject pool (6-8 MB per Commerce session); nta_question_index is missing in production; the 5 duplicate Vercel projects built every push on 13-14 Oct (now paused).",
+  "next": "Owner:\n- Confirm the meters on both Usage pages and the Supabase reset date.\n- Approve moving local and agent testing to staging.\n- Delete the 5 paused duplicate Vercel projects.\n- OK deploys of A1-A4.\n\nAgent (after the OK):\n- A1: inventory refreshes from the daily cron only, never on traffic or outside VERCEL_ENV=production.\n- A2: cache the evidence registry per process for the 5 remaining callers.\n- A3: set vercel.json regions to [\"sin1\"].\n- A4: guard against non-production full-bank reads.\n- Then A5 (slim getQuestions) and A6 (apply the nta_question_index migration).",
+  "blockers": [],
+  "evidence": [
+    "Vercel get_runtime_errors 7d: 'Task timed out after 300 seconds' count=59 users=26, 2026-10-07T05:36Z to 2026-10-13T04:50Z",
+    "Vercel deployment dpl_D2rXNuzQP8wRvMJD5br5Kp6kATwF regions [iad1]",
+    "Supabase edge_logs 24h: 26 offset=0 full-bank pages; about 3,000 of 3,700 requests from BHARTI TELENET",
+    "SQL: questions JSON 42.85 MB over 9,697 rows; evidence 23.5 MB; Commerce pools 6-8 MB",
+    "pg_stat_statements since 21 Apr: 7,297 whole-table page reads",
+    "7 Oct dashboard capture: Egress 2.28/5 GB, DB 120/500 MB",
+    "Vercel observability and billing API: 402 Observability Plus / 404 costs on Hobby"
+  ],
+  "touched_files": [
+    "mockmob-next/docs/brain/USAGE-LIMITS-DIAGNOSIS-2026-10-15.md (new)"
+  ],
+  "verification": "Read only: no settings, env, data, projects or deploys were changed. Exact usage-page numbers are not verified, because the tools cannot read Hobby usage.",
+  "cost_and_pending_requests": "USD 0 (no paid calls)",
+  "confidence": "agent-reported; verify evidence before acting"
+}

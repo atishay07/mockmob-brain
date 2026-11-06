@@ -1,0 +1,354 @@
+{
+  "batch": "physics",
+  "subject": "physics",
+  "wave": 4,
+  "pass": "wave4 expert pass (Sonnet-equivalent CUET expert review, same procedure as waves 2 and 3)",
+  "date": "2026-10-17",
+  "reviewer_model": "Claude Sonnet 5.5 (single reviewer, no other model run)",
+  "method": "Every accepted physics question was solved by the reviewer, then the key, explanation, options (longest-option giveaway, odd-one-out cues, listed-order sequence keys, grammatical cues), chapter and unit against data/nta_blueprints/physics.json, the syllabus line against the official CUET (UG) 2026 Physics PDF (data/CUET 2026/physics.pdf, read with pdftotext), the NCERT reference, the CUET level and time (72 s per question, no calculator) and the engine content gates were checked. The authoring judges' difficulty_check values were used as a second opinion on the difficulty labels.",
+  "scope": "the 38 physics rows of docs/brain/reports/authored-w4/wave4-candidates-scored-2026-10-17.json (accepted by the rule). The 2 rejected physics rows (9a2b3ade, ff03fa32) and the unaudited draft w4-phys-01 are not in scope.",
+  "source_file": "docs/brain/reports/authored-w4/wave4-candidates-scored-2026-10-17.json",
+  "counts": {
+    "reviewed": 38,
+    "ready": 31,
+    "repaired": 7,
+    "drop": 0
+  },
+  "solver_visible_text_changed": [],
+  "notes": [
+    "No drops: all 38 keys re-derived and match; no syllabus drop. The five Electronic Devices items (75bc29fb, 9cc7e8e6, fabdd431, 4d2b0fe2, b178248c) all sit inside the official Unit 9 lines: energy bands (qualitative), intrinsic and extrinsic semiconductors, p-type and n-type, p-n junction, diode I-V in forward and reverse bias. None uses Zener, LED, solar cell, logic gates or capacitor filters, which wave 3 dropped as unlisted.",
+    "7 repairs, none changes solver-visible text (stem, options, key): six difficulty labels hard -> medium (9a1edcea, e6aaca54, 012b12f8, c83bfc1b, 664b7a77, c28582fc; both authoring judges had said medium for each, and the reviewer agrees: direct formulas, at most one trap), and one explanation-only notation fix (0140bbdf: plain-text dE, x and ^ changed to the symbols the other explanations use). So no blind re-solve is needed for wave-4 physics.",
+    "Hard labels left: e9f682c4 (null point of two opposite currents), 03e23eee (lamp with series choke), d01eb790 (LCR component voltage), 0140bbdf (Balmer and Paschen ratio). After the relabel the pool is 10 easy, 24 medium, 4 hard.",
+    "Coverage gap, not a defect: the 38 accepted physics rows cover Moving Charges (4), Electromagnetic Induction (4), Alternating Current (3), Electromagnetic Waves (3), Ray Optics (5), Wave Optics (4), Dual Nature (3), Atoms (4), Nuclei (3), Semiconductor Electronics (5). There is nothing from Electric Charges and Fields, Electrostatic Potential and Capacitance, Current Electricity or Magnetism and Matter in wave 4 (the draft w4-phys-01 was never laid out); those chapters rely on waves 1 to 3.",
+    "Syllabus watch: 0140bbdf is a numerical on hydrogen series wavelengths while the official line reads 'hydrogen line spectra (qualitative treatment only)'. It is kept because the same bullet names the energy of the electron in an orbit and the item uses only E_n and hc/lambda (earlier waves kept the same kind of item). Drop it if the owner wants the line read strictly.",
+    "Weak but not giveaway: 9cc7e8e6 option D is the odd one out in structure (the key is the shortest option, so there is no length cue); left as is rather than forcing a solver-visible rewrite.",
+    "NCERT reference note, not changed: the refs name Part I for Ch 7 and Ch 8 and Part II from Ch 9, which matches the book where Part I ends at Ch 8 Electromagnetic Waves (reviewer's recollection, not checked offline). The wave-3 expert file writes Part II for Ch 8 (3a02b025); that looks like the odd one and is worth checking against the book. The refs carry no section numbers, so there was nothing to correct at section level."
+  ],
+  "verdicts": [
+    {
+      "id": "9a1edcea-056d-4e0a-9d68-a89e8a6061da",
+      "verdict": "repaired",
+      "key": "D",
+      "why": "Galvanometer 99 ohm, Ig 10 mA: shunt = 0.99/0.99 = 1.0 ohm, ammeter resistance = 99 x 1.0/100 = 0.99 ohm (also Ig G / I), key D; 1.0 ohm is the shunt alone, 100 ohm the series sum, 99 ohm ignores the shunt. Correct and unique. The moving coil galvanometer and its conversion to an ammeter is a Unit 3 syllabus line. Two direct formulas and no hidden trap: medium, not hard.",
+      "repair": "difficulty_label hard -> medium (both judges medium). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium"
+      }
+    },
+    {
+      "id": "9e03f84e-da69-4b2c-b83f-12f0d834e6b9",
+      "verdict": "ready",
+      "key": "B",
+      "why": "v = E/B = 3.0e4/0.10 = 3.0e5 m/s, key B. A is E x B (wrong dimensions), C is B/E. Velocity selector is the 'force on a moving charge in uniform magnetic and electric fields' line of Unit 3. One step, easy is right. Key is not the longest option.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "823433eb-4072-4493-833d-f53ea7ff8cf3",
+      "verdict": "ready",
+      "key": "A",
+      "why": "m = I A = (e v / 2 pi r) pi r^2 = e v r / 2 = 1.2e-23 A m^2, key A; 2.4e-23 is the missing-half slip, 4.8e-23 the doubling. Current loop as a magnetic dipole is in the Unit 3 syllabus. Medium is right.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "e9f682c4-7b40-4470-a4ac-cca20e95419e",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Opposite currents: fields add between the wires, so the null lies outside, beyond the weaker wire. 3(x + 0.40) = 5x gives x = 0.60 m, key C; 0.15 m is the same-direction null, 1.0 m the distance from the 5 A wire. Needs a physical argument plus algebra, so hard stands (judges split hard/medium).",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "449e1c7b-0d6d-4ea4-a7c2-85e2aa906779",
+      "verdict": "ready",
+      "key": "D",
+      "why": "(A) false (emf does not depend on resistance), (B) true (area change changes flux), (C) true (1 H = 1 Wb/A), (D) false (v = 0 gives zero motional emf). Key D = (B) and (C) only, unique. Longest option is B, not the key. Faraday's laws and self-inductance are in Unit 4.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "d927294f-a4a8-4886-b658-6ae4abbb96cc",
+      "verdict": "ready",
+      "key": "C",
+      "why": "q = N dPhi / R = 100 x 3.0e-3 / 20 = 1.5e-2 C, key C; 3.0e-2 is the current in A. Time cancels, a fair CUET trap. Medium is right.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "9c904745-0e4f-4aaf-b0ec-680a81b419ab",
+      "verdict": "ready",
+      "key": "B",
+      "why": "L = 2U/I^2 = 2 x 8/4 = 4 H, key B; 2 H (forgot the half) and 8 H (2U/I) are the slips. Energy stored in an inductor is NCERT Ch 6 and the syllabus line on self and mutual induction. Easy is right.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "e6aaca54-9f5b-4217-86d5-a72ec3df7ec1",
+      "verdict": "repaired",
+      "key": "D",
+      "why": "Angle with the plane is 30 degrees so flux per turn is BA sin 30 = 1.0e-3 Wb; emf = 100 x 1.0e-3 / 0.010 = 10 V, key D; 20 V (field taken perpendicular) and 10 root 3 V (cos 30) are the angle traps. Correct and unique. Three short steps with one angle trap: medium, not hard.",
+      "repair": "difficulty_label hard -> medium (both judges medium). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium"
+      }
+    },
+    {
+      "id": "03e23eee-ba91-4f2c-9307-a711a8aaf231",
+      "verdict": "ready",
+      "key": "A",
+      "why": "R = V^2/P = 100 ohm, I = 1 A, Z = 125 ohm, X_L = sqrt(125^2 - 100^2) = 75 ohm, key A; 25 ohm (subtracting) and 160 ohm (adding squares) are the slips. Choke-coil style item from the LCR line of Unit 4. Four steps and a phasor idea: hard stands (both judges hard). The fit score of 6 from one judge reflects length, not an error.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "d01eb790-0cf8-49f7-9eaa-eae3faeea1d5",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Z = 50 ohm, I = 2 A, V_L = 160 V, key B; 100 V assumes no part can exceed the source. Correct, unique, and the phasor check in the explanation holds (V_R 60 V, V_C 80 V, sqrt(60^2 + 80^2) = 100 V). Both judges say hard, label kept.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "47a09bf1-99f6-4a0d-bb3d-cd9177a65ba2",
+      "verdict": "ready",
+      "key": "C",
+      "why": "sin wt = 1/2, wt = pi/6, w = 100 pi so t = 1/600 s, key C; 1/300 s is pi/3, 1/200 s the quarter period, 1/100 s the half period. Correct, medium is right. AC generator and instantaneous value are in Unit 4.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "73198264-8b92-4c57-a361-7cfdeef58e51",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Radio: electrons accelerated in an aerial (III); infrared: vibrating atoms and molecules in hot bodies (IV); X-rays: fast electrons stopped by a metal target (I); gamma rays: nuclear transitions (II). Key D, unique pairing; NCERT Ch 8 sources of the spectrum. Distractors are single and double swaps.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "7af4ea50-c28d-445c-b9da-6c586230ae81",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Decreasing frequency is gamma, ultraviolet, infrared, microwaves = (B), (D), (A), (C), key C. Key is not the listed order (A, B, C, D) and option A is the exact reverse (the intended slip). Easy is right. Spectrum order is the Unit 5 syllabus line.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "011459c4-767b-4d22-a553-e53947ca2243",
+      "verdict": "ready",
+      "key": "A",
+      "why": "E0 = c B0 = 3.0e8 x 2.0e-7 = 60 V/m, key A; 6.7e-16 is B0/c, 1.8e10 is c^2 B0. One step, easy is right. Key is the shortest option, no giveaway.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "75bc29fb-5f94-405b-b6a4-9d121f46ff9e",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Arsenic (five valence electrons) gives n-type, electrons majority (III); indium gives p-type, holes majority (I); forward bias gives a narrow layer and large current (II); reverse bias a wide layer and very small current (IV). Key B, unique. Inside the Unit 9 syllabus line (p-type and n-type, diode I-V in forward and reverse bias).",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "9cc7e8e6-4b0e-4cf4-b003-20402d104f39",
+      "verdict": "ready",
+      "key": "D",
+      "why": "A metal has a partly filled or overlapping conduction band, key D; A is an insulator and B an intrinsic semiconductor, C is not a real case. Qualitative energy bands are in the Unit 9 syllabus line. Weak point: D is the odd one out in structure (A to C all read 'a full ... band and an empty ... band'), but the key is the shortest option and the cue is slight, so left as is rather than forcing a solver-visible rewrite.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "fabdd431-d76a-40f3-b6c3-1718f5b4a141",
+      "verdict": "ready",
+      "key": "C",
+      "why": "n_e n_h = n_i^2, so n_h = (2.0e16)^2 / 4.0e22 = 1.0e10 m^-3, key C; keeping n_i, n_e x n_i = 8.0e38 and n_i/n_e = 5.0e-7 are the slips. The law is NCERT Ch 14 (intrinsic and extrinsic semiconductors). One step with powers of ten, medium is fair.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "4d2b0fe2-fffd-4d86-91be-ad6c8f61317a",
+      "verdict": "ready",
+      "key": "A",
+      "why": "At equilibrium the diffusion current of majority carriers is balanced by the drift current of minority carriers, key A; the other three are false (the barrier does not vanish, carriers do cross, concentrations differ). Key is 96 characters against 100, 82 and 73, so not the longest. The p-n junction is in the Unit 9 syllabus. Medium is right.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "b178248c-b160-48d6-a199-390201b13144",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Voltage across the resistor 5.7 - 0.7 = 5.0 V, I = 5.0 mA, key D; 5.7 mA ignores the drop, 4.3 mA subtracts twice, 6.4 mA adds it. Diode I-V (forward bias) is in the Unit 9 syllabus. Medium kept (both judges medium).",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "49cdcfd3-2f1c-4d94-8905-0f9afc4ef316",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Apparent depth = 2.4/(4/3) = 1.8 m, so the pebble is raised by 0.6 m, key C; 1.8 m is the apparent depth itself, 0.8 m is d(mu - 1), 3.2 m is d x mu. Refraction at a plane surface (apparent depth) is in the Unit 6 syllabus. Medium is right.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "012b12f8-f665-4fac-87c8-1c3bbc85d59e",
+      "verdict": "repaired",
+      "key": "A",
+      "why": "One use of the single-surface formula mu2/v - mu1/u = (mu2 - mu1)/R: 1.5/v + 1/60 = 1/30 so v = +90 cm, key A; 60 cm (1/v for 1.5/v) is the lens-formula slip. Refraction at spherical surfaces is a Unit 6 syllabus line. Correct and unique. A single formula with careful signs: medium, not hard.",
+      "repair": "difficulty_label hard -> medium (both judges medium). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium"
+      }
+    },
+    {
+      "id": "bf760cfb-3f89-4233-8ec2-7d0588f8a8f1",
+      "verdict": "ready",
+      "key": "D",
+      "why": "M = (L/fo)(D/fe) = 20 x 5 = 100, key D; 120 is the near-point formula, 130 uses the 26 cm separation as the tube length. The stem defines the tube length as the distance between the inner focal points, as NCERT does, so the key is unambiguous. Medium is right.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "c83bfc1b-51a8-4c9c-ba3a-4b1b3b077998",
+      "verdict": "repaired",
+      "key": "B",
+      "why": "delta = (mu - 1)A gives 3.0 and 2.4 degrees; the edges are opposed, so they subtract: 0.6 degrees, key B; 5.4 adds them, 2.6 uses mu A. Correct and unique. Thin prism deviation is in the Unit 6 prism line; the opposed-prism combination is a direct use of it. Two direct evaluations and a subtraction: medium, not hard.",
+      "repair": "difficulty_label hard -> medium (both judges medium). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium"
+      }
+    },
+    {
+      "id": "a5527d87-72c4-45bc-876b-a80050540ae1",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Optical fibre: total internal reflection; convex lens image: refraction; plane mirror image: reflection; prism splitting: dispersion. Key C, unique (each List-II item is used once). Easy is right.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "46dec6bb-4af6-40da-8a22-825f75dc52ce",
+      "verdict": "ready",
+      "key": "D",
+      "why": "A source at the principal focus gives a plane wavefront after the lens, key D (NCERT Ch 10, wavefront after a lens). Key is the shortest option, no giveaway. Easy is right.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "c88795fc-93b2-4e55-979a-126712390857",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Huygens construction: sin i / sin r = v1/v2 = sqrt3, so sin r = 1/2 and r = 30 degrees, key A; 60/sqrt3 = 35 degrees is the proportional-angle slip. Reflection and refraction of plane waves with Huygens' principle is in the Unit 6 syllabus. Medium is right.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "4bb38a72-4019-47e5-bdc9-26fe5bcad9a5",
+      "verdict": "ready",
+      "key": "C",
+      "why": "beta = lambda D / d = 1.0 mm; dark fringes at (n - 1/2) beta, so the third is at 2.5 mm, key C; 3.0 mm is the third bright fringe, 3.5 mm the fourth dark fringe. Correct, unique, medium is right.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "a2a668aa-c16b-40c2-81b8-3d810f79d7e2",
+      "verdict": "ready",
+      "key": "B",
+      "why": "beta is proportional to lambda; violet < green < yellow < red gives (C), (A), (D), (B), key B; option C is the reverse order, option A swaps green and yellow. Key is not the listed order. Medium is right (judge 2 said easy).",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "3b05fd92-2355-4441-968e-ae9c92367483",
+      "verdict": "ready",
+      "key": "B",
+      "why": "p = 1.65e-27 x 4.0e3 = 6.6e-24, lambda = h/p = 1.0e-10 m, key B; 2.5e-14 m uses mv^2. One step, easy is right.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "a8245687-1132-49a7-8ec4-306abf2aba8b",
+      "verdict": "ready",
+      "key": "D",
+      "why": "E = hc/lambda = 3.3e-19 J, N = P/E = 1.0e19 per second, key D; 1.0e20 is the 6e-6 m slip. Photon energy is in the Unit 7 syllabus (particle nature of light). Medium is right.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "664b7a77-53bc-4c82-889a-5731832693ac",
+      "verdict": "repaired",
+      "key": "C",
+      "why": "e V0 = hc/lambda - phi and 3 e V0 = 2hc/lambda - phi give hc/lambda = 2 e V0, phi = e V0 = hc/(2 lambda), threshold wavelength 2 lambda, key C. Check: a photon of lambda/2 carries 4 e V0, minus phi = e V0 leaves 3 e V0. Correct and unique; 3 lambda is the ratio slip. Einstein's equation is a Unit 7 syllabus line. Two linear equations from one law: medium, not hard.",
+      "repair": "difficulty_label hard -> medium (both judges medium). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium"
+      }
+    },
+    {
+      "id": "59c65a4c-9cea-4a76-bbe3-dde064917db4",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Bohr model: r proportional to n^2, v to 1/n, |E| to 1/n^2, L to n, so (A)-(IV), (B)-(III), (C)-(I), (D)-(II), key C. Unique pairing; the Bohr-orbit expressions are named in the Unit 8 syllabus line. Medium is right.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "eab7b9e0-c086-4422-8820-f49e7701fe40",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Closest approach r0 = 2Z (1.44 MeV fm)/K = 2 x 50 x 1.44/7.2 = 20 fm, key A; 10 fm drops the alpha charge. Alpha scattering and the Rutherford model are in the Unit 8 syllabus (NCERT Ch 12 works the same distance). Medium is right.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "48be5953-0f97-438b-930b-ecac7c558cf2",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Four levels give 4 x 3/2 = 6 lines, key D; 3 counts only the drops from n = 4, 10 is the n = 5 count. Qualitative line spectra, within the syllabus line. Easy is right.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "0140bbdf-feae-48b9-a3bd-5c6e16f61c30",
+      "verdict": "repaired",
+      "key": "B",
+      "why": "E_n = -13.6/n^2 eV; longest Balmer is 3 to 2 (13.6 x 5/36 eV), shortest Paschen is infinity to 3 (13.6/9 eV); the wavelength ratio is (1/9)/(5/36) = 4/5, key B (4 : 5); 4 : 9 compares the series limits, 5 : 4 is the inverse. Correct and unique (656 nm against 820 nm). Syllabus note: the line says 'hydrogen line spectra (qualitative treatment only)', but the energy of an electron in an orbit is named in the same bullet and this item uses only E_n and hc/lambda, which is how the earlier waves treated such items, so it stays. Hard stands (both judges hard).",
+      "repair": "explanation only: plain-text dE, x and ^ changed to the notation used by the other explanations; label hard kept. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "explanation": "With E_n = −13.6/n² eV and wavelength inversely proportional to the photon energy, the longest Balmer wavelength comes from n = 3 to n = 2: ΔE = 13.6 (1/4 − 1/9) = 13.6 × 5/36 eV, and the shortest Paschen wavelength from n = ∞ to n = 3: ΔE = 13.6/9 eV. The wavelength ratio is (1/9)/(5/36) = 4/5, so 4 : 5. Comparing the two series limits (ΔE = 13.6/4 against 13.6/9) instead gives 4 : 9."
+      }
+    },
+    {
+      "id": "46ac000e-cb0b-4df5-8edf-c811757f79cf",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Isotones share N = A - Z: C-13 (7 neutrons) and N-14 (7), key D; H-3/He-3 are isobars, C-12/C-14 isotopes, N-14/O-16 have 7 and 8 neutrons. 'Isotopes, isobars and isotones' is a Unit 8 syllabus line. Easy is right.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "97690044-9d76-4aff-a84b-f9787fd3c100",
+      "verdict": "ready",
+      "key": "C",
+      "why": "E per fission = 200 x 1.6e-13 = 3.2e-11 J, rate = 3.2e6/3.2e-11 = 1.0e17 per second, key C; 1.0e23 is the MeV-for-eV slip. Nuclear fission and mass-energy are Unit 8 syllabus lines. Medium is right.",
+      "repair": null,
+      "solver_visible_changed": false
+    },
+    {
+      "id": "c28582fc-eedd-4ea9-a907-b938f29248ab",
+      "verdict": "repaired",
+      "key": "A",
+      "why": "Q = B(He-4) - 2 B(H-2) = 4 x 7.1 - 2 x 2 x 1.1 = 28.4 - 4.4 = 24.0 MeV, key A; 6.0 MeV subtracts the per-nucleon values, 28.4 MeV forgets the deuterons were bound, 32.8 MeV adds. Correct and unique. Binding energy and fusion are Unit 8 syllabus lines. Two multiplications and a subtraction: medium, not hard.",
+      "repair": "difficulty_label hard -> medium (both judges medium). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium"
+      }
+    }
+  ]
+}

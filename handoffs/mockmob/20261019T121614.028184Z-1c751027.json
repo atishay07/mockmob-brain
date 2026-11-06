@@ -1,0 +1,25 @@
+{
+  "id": "20261019T121614.028184Z-1c751027",
+  "observed_at": "2026-10-19T12:16:14.028184+00:00",
+  "agent": "mob-v3 design-arena (Opus subagent)",
+  "task": "Mob v3 Den Arena: screens, clickable motion prototype, recordings, spec",
+  "status": "complete",
+  "done": "Built prototype.html: 24 screens and 12 seekable, skippable moments with reduced motion, using the generated style-C cast loaded from assets/chars. Rendered 48 PNGs (360x780 at 2x, Night and Day) plus contact sheets. For every moment, made a real-time webm, a 20fps animated WebP and Night/Day frame strips, plus reduced-motion strips. Wrote MOB-V3-ARENA.md. Redid the weakest screen (S8 ready) and the weakest motion (streak extend, now S19 with a sewing needle). Fixed a false order on the podium.",
+  "next": "Owner reviews the contact sheet and motion. He needs to answer the 10 yes/no items in MOB-V3-ARENA.md section 10 (billing-off start rule, Free study room, Pass the mic, own feedback rule, sound, T4, The Fold story). Then a Flutter build plan: first build is the async loop; live (Realtime) is L. Emulator R5 walk still to do.",
+  "blockers": [
+    "playwright recordVideo needs Playwright's ffmpeg build (download needs owner permission)"
+  ],
+  "evidence": [
+    "docs/design-decisions/pass-1019pm/mob-v3/design-arena/MOB-V3-ARENA.md",
+    "docs/design-decisions/pass-1019pm/mob-v3/design-arena/prototype.html",
+    "tmp/design-1019pm/mob-v3/design-arena/CONTACT-SHEET.png",
+    "tmp/design-1019pm/mob-v3/design-arena/motion/MOTION-SHEET-night.png"
+  ],
+  "touched_files": [
+    "docs/design-decisions/pass-1019pm/mob-v3/design-arena/",
+    "tmp/design-1019pm/mob-v3/design-arena/"
+  ],
+  "verification": "Headless Chrome via playwright-core 1.62.1 from .cache/codex-runtimes; zero page errors across 48 renders. Real-time playback matched spec within 10ms. The webm files decode (360x780). Every PNG and strip was viewed. No ffmpeg: playwright recordVideo is unavailable, so the webm files come from a CDP screencast re-encoded by MediaRecorder. Browsers closed and temp profiles cleaned. Nothing committed or deployed, no paid calls.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,8 @@
+.brain/cache/
+__pycache__/
+*.pyc
+*.lock
+*.tmp-*
+.DS_Store
+Thumbs.db
+desktop.ini

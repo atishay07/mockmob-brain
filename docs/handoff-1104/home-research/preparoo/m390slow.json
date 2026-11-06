@@ -1,0 +1,2733 @@
+{
+ "tag": "m390slow",
+ "cfg": {
+  "vw": 390,
+  "vh": 844,
+  "dsf": 3,
+  "mobile": true,
+  "castMs": 16000,
+  "throttle": true
+ },
+ "startedAt": "2026-11-03T20:54:32.078Z",
+ "frames": [
+  {
+   "rel": 1787,
+   "name": "m390slow-f01787.jpg"
+  },
+  {
+   "rel": 1820,
+   "name": "m390slow-f01820.jpg"
+  },
+  {
+   "rel": 1887,
+   "name": "m390slow-f01887.jpg"
+  },
+  {
+   "rel": 1904,
+   "name": "m390slow-f01904.jpg"
+  },
+  {
+   "rel": 1920,
+   "name": "m390slow-f01920.jpg"
+  },
+  {
+   "rel": 1970,
+   "name": "m390slow-f01970.jpg"
+  },
+  {
+   "rel": 2004,
+   "name": "m390slow-f02004.jpg"
+  },
+  {
+   "rel": 2054,
+   "name": "m390slow-f02054.jpg"
+  },
+  {
+   "rel": 2104,
+   "name": "m390slow-f02104.jpg"
+  },
+  {
+   "rel": 2120,
+   "name": "m390slow-f02120.jpg"
+  },
+  {
+   "rel": 2154,
+   "name": "m390slow-f02154.jpg"
+  },
+  {
+   "rel": 2187,
+   "name": "m390slow-f02187.jpg"
+  },
+  {
+   "rel": 2204,
+   "name": "m390slow-f02204.jpg"
+  },
+  {
+   "rel": 2237,
+   "name": "m390slow-f02237.jpg"
+  },
+  {
+   "rel": 2270,
+   "name": "m390slow-f02270.jpg"
+  },
+  {
+   "rel": 2287,
+   "name": "m390slow-f02287.jpg"
+  },
+  {
+   "rel": 2320,
+   "name": "m390slow-f02320.jpg"
+  },
+  {
+   "rel": 2354,
+   "name": "m390slow-f02354.jpg"
+  },
+  {
+   "rel": 2370,
+   "name": "m390slow-f02370.jpg"
+  },
+  {
+   "rel": 2404,
+   "name": "m390slow-f02404.jpg"
+  },
+  {
+   "rel": 2440,
+   "name": "m390slow-f02440.jpg"
+  },
+  {
+   "rel": 2504,
+   "name": "m390slow-f02504.jpg"
+  },
+  {
+   "rel": 2637,
+   "name": "m390slow-f02637.jpg"
+  },
+  {
+   "rel": 2837,
+   "name": "m390slow-f02837.jpg"
+  },
+  {
+   "rel": 2854,
+   "name": "m390slow-f02854.jpg"
+  },
+  {
+   "rel": 2987,
+   "name": "m390slow-f02987.jpg"
+  },
+  {
+   "rel": 3037,
+   "name": "m390slow-f03037.jpg"
+  },
+  {
+   "rel": 3120,
+   "name": "m390slow-f03120.jpg"
+  },
+  {
+   "rel": 3204,
+   "name": "m390slow-f03204.jpg"
+  },
+  {
+   "rel": 3220,
+   "name": "m390slow-f03220.jpg"
+  },
+  {
+   "rel": 3320,
+   "name": "m390slow-f03320.jpg"
+  },
+  {
+   "rel": 3537,
+   "name": "m390slow-f03537.jpg"
+  },
+  {
+   "rel": 3554,
+   "name": "m390slow-f03554.jpg"
+  },
+  {
+   "rel": 3887,
+   "name": "m390slow-f03887.jpg"
+  },
+  {
+   "rel": 3904,
+   "name": "m390slow-f03904.jpg"
+  },
+  {
+   "rel": 3987,
+   "name": "m390slow-f03987.jpg"
+  },
+  {
+   "rel": 4154,
+   "name": "m390slow-f04154.jpg"
+  },
+  {
+   "rel": 4237,
+   "name": "m390slow-f04237.jpg"
+  },
+  {
+   "rel": 4254,
+   "name": "m390slow-f04254.jpg"
+  },
+  {
+   "rel": 4387,
+   "name": "m390slow-f04387.jpg"
+  },
+  {
+   "rel": 4470,
+   "name": "m390slow-f04470.jpg"
+  },
+  {
+   "rel": 4570,
+   "name": "m390slow-f04570.jpg"
+  },
+  {
+   "rel": 4604,
+   "name": "m390slow-f04604.jpg"
+  },
+  {
+   "rel": 4670,
+   "name": "m390slow-f04670.jpg"
+  },
+  {
+   "rel": 4737,
+   "name": "m390slow-f04737.jpg"
+  },
+  {
+   "rel": 4937,
+   "name": "m390slow-f04937.jpg"
+  },
+  {
+   "rel": 4954,
+   "name": "m390slow-f04954.jpg"
+  },
+  {
+   "rel": 5004,
+   "name": "m390slow-f05004.jpg"
+  },
+  {
+   "rel": 5304,
+   "name": "m390slow-f05304.jpg"
+  },
+  {
+   "rel": 5320,
+   "name": "m390slow-f05320.jpg"
+  },
+  {
+   "rel": 5470,
+   "name": "m390slow-f05470.jpg"
+  },
+  {
+   "rel": 5620,
+   "name": "m390slow-f05620.jpg"
+  },
+  {
+   "rel": 5637,
+   "name": "m390slow-f05637.jpg"
+  },
+  {
+   "rel": 5654,
+   "name": "m390slow-f05654.jpg"
+  },
+  {
+   "rel": 5804,
+   "name": "m390slow-f05804.jpg"
+  },
+  {
+   "rel": 5954,
+   "name": "m390slow-f05954.jpg"
+  },
+  {
+   "rel": 6004,
+   "name": "m390slow-f06004.jpg"
+  },
+  {
+   "rel": 6037,
+   "name": "m390slow-f06037.jpg"
+  },
+  {
+   "rel": 6337,
+   "name": "m390slow-f06337.jpg"
+  },
+  {
+   "rel": 6353,
+   "name": "m390slow-f06353.jpg"
+  },
+  {
+   "rel": 6703,
+   "name": "m390slow-f06703.jpg"
+  },
+  {
+   "rel": 6970,
+   "name": "m390slow-f06970.jpg"
+  },
+  {
+   "rel": 7037,
+   "name": "m390slow-f07037.jpg"
+  },
+  {
+   "rel": 7053,
+   "name": "m390slow-f07053.jpg"
+  },
+  {
+   "rel": 7420,
+   "name": "m390slow-f07420.jpg"
+  },
+  {
+   "rel": 7520,
+   "name": "m390slow-f07520.jpg"
+  },
+  {
+   "rel": 7587,
+   "name": "m390slow-f07587.jpg"
+  },
+  {
+   "rel": 7720,
+   "name": "m390slow-f07720.jpg"
+  },
+  {
+   "rel": 7753,
+   "name": "m390slow-f07753.jpg"
+  },
+  {
+   "rel": 7770,
+   "name": "m390slow-f07770.jpg"
+  },
+  {
+   "rel": 7870,
+   "name": "m390slow-f07870.jpg"
+  },
+  {
+   "rel": 7903,
+   "name": "m390slow-f07903.jpg"
+  },
+  {
+   "rel": 7920,
+   "name": "m390slow-f07920.jpg"
+  },
+  {
+   "rel": 7970,
+   "name": "m390slow-f07970.jpg"
+  },
+  {
+   "rel": 7987,
+   "name": "m390slow-f07987.jpg"
+  },
+  {
+   "rel": 8003,
+   "name": "m390slow-f08003.jpg"
+  },
+  {
+   "rel": 8053,
+   "name": "m390slow-f08053.jpg"
+  },
+  {
+   "rel": 8070,
+   "name": "m390slow-f08070.jpg"
+  },
+  {
+   "rel": 8103,
+   "name": "m390slow-f08103.jpg"
+  },
+  {
+   "rel": 8153,
+   "name": "m390slow-f08153.jpg"
+  },
+  {
+   "rel": 8170,
+   "name": "m390slow-f08170.jpg"
+  },
+  {
+   "rel": 8187,
+   "name": "m390slow-f08187.jpg"
+  },
+  {
+   "rel": 8237,
+   "name": "m390slow-f08237.jpg"
+  },
+  {
+   "rel": 8270,
+   "name": "m390slow-f08270.jpg"
+  },
+  {
+   "rel": 8287,
+   "name": "m390slow-f08287.jpg"
+  },
+  {
+   "rel": 8320,
+   "name": "m390slow-f08320.jpg"
+  },
+  {
+   "rel": 8353,
+   "name": "m390slow-f08353.jpg"
+  },
+  {
+   "rel": 8370,
+   "name": "m390slow-f08370.jpg"
+  },
+  {
+   "rel": 8403,
+   "name": "m390slow-f08403.jpg"
+  },
+  {
+   "rel": 8420,
+   "name": "m390slow-f08420.jpg"
+  },
+  {
+   "rel": 8453,
+   "name": "m390slow-f08453.jpg"
+  },
+  {
+   "rel": 8487,
+   "name": "m390slow-f08487.jpg"
+  },
+  {
+   "rel": 8537,
+   "name": "m390slow-f08537.jpg"
+  },
+  {
+   "rel": 8553,
+   "name": "m390slow-f08553.jpg"
+  },
+  {
+   "rel": 8570,
+   "name": "m390slow-f08570.jpg"
+  },
+  {
+   "rel": 8637,
+   "name": "m390slow-f08637.jpg"
+  },
+  {
+   "rel": 8653,
+   "name": "m390slow-f08653.jpg"
+  },
+  {
+   "rel": 8670,
+   "name": "m390slow-f08670.jpg"
+  },
+  {
+   "rel": 8720,
+   "name": "m390slow-f08720.jpg"
+  },
+  {
+   "rel": 8753,
+   "name": "m390slow-f08753.jpg"
+  },
+  {
+   "rel": 8770,
+   "name": "m390slow-f08770.jpg"
+  },
+  {
+   "rel": 8803,
+   "name": "m390slow-f08803.jpg"
+  },
+  {
+   "rel": 8832,
+   "name": "m390slow-f08832.jpg"
+  },
+  {
+   "rel": 8903,
+   "name": "m390slow-f08903.jpg"
+  },
+  {
+   "rel": 8920,
+   "name": "m390slow-f08920.jpg"
+  },
+  {
+   "rel": 8937,
+   "name": "m390slow-f08937.jpg"
+  },
+  {
+   "rel": 8987,
+   "name": "m390slow-f08987.jpg"
+  },
+  {
+   "rel": 9003,
+   "name": "m390slow-f09003.jpg"
+  },
+  {
+   "rel": 9053,
+   "name": "m390slow-f09053.jpg"
+  },
+  {
+   "rel": 9070,
+   "name": "m390slow-f09070.jpg"
+  },
+  {
+   "rel": 9120,
+   "name": "m390slow-f09120.jpg"
+  },
+  {
+   "rel": 9153,
+   "name": "m390slow-f09153.jpg"
+  },
+  {
+   "rel": 9187,
+   "name": "m390slow-f09187.jpg"
+  },
+  {
+   "rel": 9220,
+   "name": "m390slow-f09220.jpg"
+  },
+  {
+   "rel": 9237,
+   "name": "m390slow-f09237.jpg"
+  },
+  {
+   "rel": 9270,
+   "name": "m390slow-f09270.jpg"
+  },
+  {
+   "rel": 9303,
+   "name": "m390slow-f09303.jpg"
+  },
+  {
+   "rel": 9320,
+   "name": "m390slow-f09320.jpg"
+  },
+  {
+   "rel": 9347,
+   "name": "m390slow-f09347.jpg"
+  },
+  {
+   "rel": 9381,
+   "name": "m390slow-f09381.jpg"
+  },
+  {
+   "rel": 9503,
+   "name": "m390slow-f09503.jpg"
+  },
+  {
+   "rel": 9570,
+   "name": "m390slow-f09570.jpg"
+  },
+  {
+   "rel": 9720,
+   "name": "m390slow-f09720.jpg"
+  },
+  {
+   "rel": 9837,
+   "name": "m390slow-f09837.jpg"
+  },
+  {
+   "rel": 9853,
+   "name": "m390slow-f09853.jpg"
+  },
+  {
+   "rel": 9870,
+   "name": "m390slow-f09870.jpg"
+  },
+  {
+   "rel": 10053,
+   "name": "m390slow-f10053.jpg"
+  },
+  {
+   "rel": 10070,
+   "name": "m390slow-f10070.jpg"
+  },
+  {
+   "rel": 10153,
+   "name": "m390slow-f10153.jpg"
+  },
+  {
+   "rel": 10220,
+   "name": "m390slow-f10220.jpg"
+  },
+  {
+   "rel": 10337,
+   "name": "m390slow-f10337.jpg"
+  },
+  {
+   "rel": 10503,
+   "name": "m390slow-f10503.jpg"
+  },
+  {
+   "rel": 10520,
+   "name": "m390slow-f10520.jpg"
+  },
+  {
+   "rel": 10537,
+   "name": "m390slow-f10537.jpg"
+  },
+  {
+   "rel": 10603,
+   "name": "m390slow-f10603.jpg"
+  },
+  {
+   "rel": 10620,
+   "name": "m390slow-f10620.jpg"
+  },
+  {
+   "rel": 10637,
+   "name": "m390slow-f10637.jpg"
+  },
+  {
+   "rel": 10687,
+   "name": "m390slow-f10687.jpg"
+  },
+  {
+   "rel": 10703,
+   "name": "m390slow-f10703.jpg"
+  },
+  {
+   "rel": 10720,
+   "name": "m390slow-f10720.jpg"
+  },
+  {
+   "rel": 10787,
+   "name": "m390slow-f10787.jpg"
+  },
+  {
+   "rel": 10803,
+   "name": "m390slow-f10803.jpg"
+  },
+  {
+   "rel": 10820,
+   "name": "m390slow-f10820.jpg"
+  },
+  {
+   "rel": 10870,
+   "name": "m390slow-f10870.jpg"
+  },
+  {
+   "rel": 10903,
+   "name": "m390slow-f10903.jpg"
+  },
+  {
+   "rel": 10920,
+   "name": "m390slow-f10920.jpg"
+  },
+  {
+   "rel": 10953,
+   "name": "m390slow-f10953.jpg"
+  },
+  {
+   "rel": 10987,
+   "name": "m390slow-f10987.jpg"
+  },
+  {
+   "rel": 10995,
+   "name": "m390slow-f10995.jpg"
+  },
+  {
+   "rel": 11053,
+   "name": "m390slow-f11053.jpg"
+  },
+  {
+   "rel": 11070,
+   "name": "m390slow-f11070.jpg"
+  },
+  {
+   "rel": 11120,
+   "name": "m390slow-f11120.jpg"
+  },
+  {
+   "rel": 11153,
+   "name": "m390slow-f11153.jpg"
+  },
+  {
+   "rel": 11170,
+   "name": "m390slow-f11170.jpg"
+  },
+  {
+   "rel": 11203,
+   "name": "m390slow-f11203.jpg"
+  },
+  {
+   "rel": 11237,
+   "name": "m390slow-f11237.jpg"
+  },
+  {
+   "rel": 11253,
+   "name": "m390slow-f11253.jpg"
+  },
+  {
+   "rel": 11303,
+   "name": "m390slow-f11303.jpg"
+  },
+  {
+   "rel": 11337,
+   "name": "m390slow-f11337.jpg"
+  },
+  {
+   "rel": 11353,
+   "name": "m390slow-f11353.jpg"
+  },
+  {
+   "rel": 11387,
+   "name": "m390slow-f11387.jpg"
+  },
+  {
+   "rel": 11420,
+   "name": "m390slow-f11420.jpg"
+  },
+  {
+   "rel": 11437,
+   "name": "m390slow-f11437.jpg"
+  },
+  {
+   "rel": 11470,
+   "name": "m390slow-f11470.jpg"
+  },
+  {
+   "rel": 11503,
+   "name": "m390slow-f11503.jpg"
+  },
+  {
+   "rel": 11520,
+   "name": "m390slow-f11520.jpg"
+  },
+  {
+   "rel": 11553,
+   "name": "m390slow-f11553.jpg"
+  },
+  {
+   "rel": 11587,
+   "name": "m390slow-f11587.jpg"
+  },
+  {
+   "rel": 11603,
+   "name": "m390slow-f11603.jpg"
+  },
+  {
+   "rel": 11653,
+   "name": "m390slow-f11653.jpg"
+  },
+  {
+   "rel": 11670,
+   "name": "m390slow-f11670.jpg"
+  },
+  {
+   "rel": 11687,
+   "name": "m390slow-f11687.jpg"
+  },
+  {
+   "rel": 11903,
+   "name": "m390slow-f11903.jpg"
+  },
+  {
+   "rel": 11920,
+   "name": "m390slow-f11920.jpg"
+  },
+  {
+   "rel": 11937,
+   "name": "m390slow-f11937.jpg"
+  },
+  {
+   "rel": 11987,
+   "name": "m390slow-f11987.jpg"
+  },
+  {
+   "rel": 12053,
+   "name": "m390slow-f12053.jpg"
+  },
+  {
+   "rel": 12070,
+   "name": "m390slow-f12070.jpg"
+  },
+  {
+   "rel": 12087,
+   "name": "m390slow-f12087.jpg"
+  },
+  {
+   "rel": 12153,
+   "name": "m390slow-f12153.jpg"
+  },
+  {
+   "rel": 12170,
+   "name": "m390slow-f12170.jpg"
+  },
+  {
+   "rel": 12203,
+   "name": "m390slow-f12203.jpg"
+  },
+  {
+   "rel": 12237,
+   "name": "m390slow-f12237.jpg"
+  },
+  {
+   "rel": 12270,
+   "name": "m390slow-f12270.jpg"
+  },
+  {
+   "rel": 12287,
+   "name": "m390slow-f12287.jpg"
+  },
+  {
+   "rel": 12320,
+   "name": "m390slow-f12320.jpg"
+  },
+  {
+   "rel": 12353,
+   "name": "m390slow-f12353.jpg"
+  },
+  {
+   "rel": 12370,
+   "name": "m390slow-f12370.jpg"
+  },
+  {
+   "rel": 12403,
+   "name": "m390slow-f12403.jpg"
+  },
+  {
+   "rel": 12453,
+   "name": "m390slow-f12453.jpg"
+  },
+  {
+   "rel": 12470,
+   "name": "m390slow-f12470.jpg"
+  },
+  {
+   "rel": 12487,
+   "name": "m390slow-f12487.jpg"
+  },
+  {
+   "rel": 12553,
+   "name": "m390slow-f12553.jpg"
+  },
+  {
+   "rel": 12570,
+   "name": "m390slow-f12570.jpg"
+  },
+  {
+   "rel": 12587,
+   "name": "m390slow-f12587.jpg"
+  },
+  {
+   "rel": 12637,
+   "name": "m390slow-f12637.jpg"
+  },
+  {
+   "rel": 12653,
+   "name": "m390slow-f12653.jpg"
+  },
+  {
+   "rel": 12670,
+   "name": "m390slow-f12670.jpg"
+  },
+  {
+   "rel": 12720,
+   "name": "m390slow-f12720.jpg"
+  },
+  {
+   "rel": 12737,
+   "name": "m390slow-f12737.jpg"
+  },
+  {
+   "rel": 12753,
+   "name": "m390slow-f12753.jpg"
+  },
+  {
+   "rel": 12803,
+   "name": "m390slow-f12803.jpg"
+  },
+  {
+   "rel": 12820,
+   "name": "m390slow-f12820.jpg"
+  },
+  {
+   "rel": 12837,
+   "name": "m390slow-f12837.jpg"
+  },
+  {
+   "rel": 12887,
+   "name": "m390slow-f12887.jpg"
+  },
+  {
+   "rel": 13003,
+   "name": "m390slow-f13003.jpg"
+  },
+  {
+   "rel": 13187,
+   "name": "m390slow-f13187.jpg"
+  },
+  {
+   "rel": 13353,
+   "name": "m390slow-f13353.jpg"
+  },
+  {
+   "rel": 13370,
+   "name": "m390slow-f13370.jpg"
+  },
+  {
+   "rel": 13387,
+   "name": "m390slow-f13387.jpg"
+  },
+  {
+   "rel": 13670,
+   "name": "m390slow-f13670.jpg"
+  },
+  {
+   "rel": 13703,
+   "name": "m390slow-f13703.jpg"
+  },
+  {
+   "rel": 13737,
+   "name": "m390slow-f13737.jpg"
+  },
+  {
+   "rel": 13787,
+   "name": "m390slow-f13787.jpg"
+  },
+  {
+   "rel": 13803,
+   "name": "m390slow-f13803.jpg"
+  },
+  {
+   "rel": 13837,
+   "name": "m390slow-f13837.jpg"
+  },
+  {
+   "rel": 13920,
+   "name": "m390slow-f13920.jpg"
+  },
+  {
+   "rel": 13937,
+   "name": "m390slow-f13937.jpg"
+  },
+  {
+   "rel": 14053,
+   "name": "m390slow-f14053.jpg"
+  },
+  {
+   "rel": 14070,
+   "name": "m390slow-f14070.jpg"
+  },
+  {
+   "rel": 14120,
+   "name": "m390slow-f14120.jpg"
+  },
+  {
+   "rel": 14520,
+   "name": "m390slow-f14520.jpg"
+  },
+  {
+   "rel": 14770,
+   "name": "m390slow-f14770.jpg"
+  },
+  {
+   "rel": 14953,
+   "name": "m390slow-f14953.jpg"
+  },
+  {
+   "rel": 15410,
+   "name": "m390slow-f15410.jpg"
+  },
+  {
+   "rel": 15586,
+   "name": "m390slow-f15586.jpg"
+  },
+  {
+   "rel": 15636,
+   "name": "m390slow-f15636.jpg"
+  },
+  {
+   "rel": 15703,
+   "name": "m390slow-f15703.jpg"
+  },
+  {
+   "rel": 15720,
+   "name": "m390slow-f15720.jpg"
+  },
+  {
+   "rel": 15736,
+   "name": "m390slow-f15736.jpg"
+  },
+  {
+   "rel": 15786,
+   "name": "m390slow-f15786.jpg"
+  },
+  {
+   "rel": 15803,
+   "name": "m390slow-f15803.jpg"
+  },
+  {
+   "rel": 15820,
+   "name": "m390slow-f15820.jpg"
+  },
+  {
+   "rel": 15870,
+   "name": "m390slow-f15870.jpg"
+  },
+  {
+   "rel": 15903,
+   "name": "m390slow-f15903.jpg"
+  },
+  {
+   "rel": 15920,
+   "name": "m390slow-f15920.jpg"
+  },
+  {
+   "rel": 15970,
+   "name": "m390slow-f15970.jpg"
+  },
+  {
+   "rel": 15986,
+   "name": "m390slow-f15986.jpg"
+  },
+  {
+   "rel": 16003,
+   "name": "m390slow-f16003.jpg"
+  },
+  {
+   "rel": 16053,
+   "name": "m390slow-f16053.jpg"
+  },
+  {
+   "rel": 16070,
+   "name": "m390slow-f16070.jpg"
+  },
+  {
+   "rel": 16086,
+   "name": "m390slow-f16086.jpg"
+  },
+  {
+   "rel": 16170,
+   "name": "m390slow-f16170.jpg"
+  },
+  {
+   "rel": 16186,
+   "name": "m390slow-f16186.jpg"
+  },
+  {
+   "rel": 16236,
+   "name": "m390slow-f16236.jpg"
+  },
+  {
+   "rel": 16420,
+   "name": "m390slow-f16420.jpg"
+  },
+  {
+   "rel": 16770,
+   "name": "m390slow-f16770.jpg"
+  },
+  {
+   "rel": 17008,
+   "name": "m390slow-f17008.jpg"
+  },
+  {
+   "rel": 17186,
+   "name": "m390slow-f17186.jpg"
+  },
+  {
+   "rel": 17203,
+   "name": "m390slow-f17203.jpg"
+  },
+  {
+   "rel": 17270,
+   "name": "m390slow-f17270.jpg"
+  },
+  {
+   "rel": 17286,
+   "name": "m390slow-f17286.jpg"
+  },
+  {
+   "rel": 17303,
+   "name": "m390slow-f17303.jpg"
+  },
+  {
+   "rel": 17353,
+   "name": "m390slow-f17353.jpg"
+  },
+  {
+   "rel": 17370,
+   "name": "m390slow-f17370.jpg"
+  },
+  {
+   "rel": 17386,
+   "name": "m390slow-f17386.jpg"
+  },
+  {
+   "rel": 17436,
+   "name": "m390slow-f17436.jpg"
+  },
+  {
+   "rel": 17453,
+   "name": "m390slow-f17453.jpg"
+  },
+  {
+   "rel": 17470,
+   "name": "m390slow-f17470.jpg"
+  },
+  {
+   "rel": 17520,
+   "name": "m390slow-f17520.jpg"
+  },
+  {
+   "rel": 17536,
+   "name": "m390slow-f17536.jpg"
+  },
+  {
+   "rel": 17570,
+   "name": "m390slow-f17570.jpg"
+  },
+  {
+   "rel": 17620,
+   "name": "m390slow-f17620.jpg"
+  },
+  {
+   "rel": 17636,
+   "name": "m390slow-f17636.jpg"
+  },
+  {
+   "rel": 17836,
+   "name": "m390slow-f17836.jpg"
+  },
+  {
+   "rel": 18053,
+   "name": "m390slow-f18053.jpg"
+  },
+  {
+   "rel": 18416,
+   "name": "m390slow-f18416.jpg"
+  },
+  {
+   "rel": 18586,
+   "name": "m390slow-f18586.jpg"
+  },
+  {
+   "rel": 18603,
+   "name": "m390slow-f18603.jpg"
+  },
+  {
+   "rel": 19786,
+   "name": "m390slow-f19786.jpg"
+  },
+  {
+   "rel": 19803,
+   "name": "m390slow-f19803.jpg"
+  },
+  {
+   "rel": 19820,
+   "name": "m390slow-f19820.jpg"
+  },
+  {
+   "rel": 19870,
+   "name": "m390slow-f19870.jpg"
+  },
+  {
+   "rel": 19903,
+   "name": "m390slow-f19903.jpg"
+  },
+  {
+   "rel": 19920,
+   "name": "m390slow-f19920.jpg"
+  }
+ ],
+ "nav": {
+  "responseStart": 333,
+  "responseEnd": 3782,
+  "domInteractive": 7605,
+  "dcl": 7651,
+  "load": 15360,
+  "transfer": 144155,
+  "decoded": 1111207
+ },
+ "resources": [
+  {
+   "n": "preparoo.ef0833b7b.css",
+   "start": 464,
+   "end": 1593,
+   "size": 29577
+  },
+  {
+   "n": "preparoo-logo-white.png",
+   "start": 466,
+   "end": 900,
+   "size": 2255
+  },
+  {
+   "n": "bdogrotesk-vf.ttf",
+   "start": 466,
+   "end": 8166,
+   "size": 164840
+  },
+  {
+   "n": "preparoo-logo-white-hd.png",
+   "start": 467,
+   "end": 893,
+   "size": 4223
+  },
+  {
+   "n": "v2_dark_bg_mobile.webp",
+   "start": 467,
+   "end": 15226,
+   "size": 428026
+  },
+  {
+   "n": "mask-p-1600.png",
+   "start": 1735,
+   "end": 1995,
+   "size": 1253
+  },
+  {
+   "n": "jquery.js?site=6840876d4d1ed0e8e2a330b9",
+   "start": 3869,
+   "end": 6178,
+   "size": 31270
+  },
+  {
+   "n": "webflow.schunk.36b8fb49256177c8.js",
+   "start": 3869,
+   "end": 5184,
+   "size": 13452
+  },
+  {
+   "n": "webflow.schunk.d61b41edd968cc6d.js",
+   "start": 3869,
+   "end": 7322,
+   "size": 57327
+  },
+  {
+   "n": "webflow.schunk.9dfb96661114d3db.js",
+   "start": 3869,
+   "end": 4340,
+   "size": 1598
+  },
+  {
+   "n": "webflow-script.js",
+   "start": 3869,
+   "end": 4548,
+   "size": 4609
+  },
+  {
+   "n": "gsap.min.js",
+   "start": 3869,
+   "end": 6071,
+   "size": 28659
+  }
+ ],
+ "metrics": {
+  "vw": 390,
+  "vh": 844,
+  "dpr": 3,
+  "bodyBg": "rgb(245, 246, 248)",
+  "nav": {
+   "text": "Preparoo Pricing",
+   "x": 0,
+   "y": 0,
+   "w": 390,
+   "h": 57,
+   "fs": "16px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "-0.32px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgb(255, 255, 255)",
+   "radius": "0px",
+   "display": "block",
+   "bf": "none"
+  },
+  "navLogo": {
+   "text": "Preparoo",
+   "x": 24,
+   "y": 14,
+   "w": 123,
+   "h": 28,
+   "fs": "16px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "-0.32px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "display": "flex",
+   "bf": "none"
+  },
+  "navCta": [
+   {
+    "text": "Preparoo",
+    "x": 24,
+    "y": 14,
+    "w": 123,
+    "h": 28,
+    "fs": "16px",
+    "fw": "400",
+    "lh": "22.4px",
+    "ls": "-0.32px",
+    "ff": "\"Inter VF\", Arial, sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "display": "flex",
+    "bf": "none"
+   },
+   {
+    "text": "Pricing",
+    "x": 241,
+    "y": 15,
+    "w": 69,
+    "h": 27,
+    "fs": "12.16px",
+    "fw": "600",
+    "lh": "17.024px",
+    "ls": "-0.1216px",
+    "ff": "\"Inter VF\", Arial, sans-serif",
+    "color": "rgb(13, 36, 66)",
+    "bg": "rgb(195, 209, 227)",
+    "radius": "100px",
+    "display": "flex",
+    "bf": "none"
+   }
+  ],
+  "heading1": {
+   "text": "Ace",
+   "x": 24,
+   "y": 80,
+   "w": 73,
+   "h": 35,
+   "fs": "39px",
+   "fw": "600",
+   "lh": "35.1px",
+   "ls": "-1.17px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "display": "block",
+   "bf": "none"
+  },
+  "heading2": {
+   "text": "the C",
+   "x": 97,
+   "y": 80,
+   "w": 98,
+   "h": 35,
+   "fs": "39px",
+   "fw": "600",
+   "lh": "35.1px",
+   "ls": "-1.17px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "display": "block",
+   "bf": "none"
+  },
+  "headings": {
+   "text": "Ace the C",
+   "x": 24,
+   "y": 80,
+   "w": 342,
+   "h": 35,
+   "fs": "16px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "-0.32px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "display": "flex",
+   "bf": "none"
+  },
+  "rotating": {
+   "text": "C",
+   "x": 159,
+   "y": 80,
+   "w": 36,
+   "h": 35,
+   "fs": "39px",
+   "fw": "600",
+   "lh": "35.1px",
+   "ls": "-1.17px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "display": "inline-block",
+   "bf": "none"
+  },
+  "caret": {
+   "content": "\"|\"",
+   "animation": "0.7s infinite rex-blink",
+   "fw": "100",
+   "transform": "matrix(0.3, 0, 0, 1, 0, 0)",
+   "color": "rgb(0, 0, 0)",
+   "marginLeft": "2.34px"
+  },
+  "image": {
+   "text": "",
+   "x": 12,
+   "y": 131,
+   "w": 366,
+   "h": 620,
+   "fs": "16px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "-0.32px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgb(10, 22, 40)",
+   "radius": "0px",
+   "display": "flex",
+   "bf": "none"
+  },
+  "imgSrc": "https://ug.preparoo.app/images/v2_dark_bg_mobile.webp",
+  "imgNatural": [
+   1536,
+   2752
+  ],
+  "services": [
+   {
+    "text": "Mocks",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "fs": "16px",
+    "fw": "400",
+    "lh": "22.4px",
+    "ls": "-0.32px",
+    "ff": "\"Inter VF\", Arial, sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "display": "flex",
+    "bf": "none"
+   },
+   {
+    "text": "PYQs",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "fs": "16px",
+    "fw": "400",
+    "lh": "22.4px",
+    "ls": "-0.32px",
+    "ff": "\"Inter VF\", Arial, sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "display": "flex",
+    "bf": "none"
+   },
+   {
+    "text": "Sectionals",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "fs": "16px",
+    "fw": "400",
+    "lh": "22.4px",
+    "ls": "-0.32px",
+    "ff": "\"Inter VF\", Arial, sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "display": "flex",
+    "bf": "none"
+   },
+   {
+    "text": "Topic Tests",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "fs": "16px",
+    "fw": "400",
+    "lh": "22.4px",
+    "ls": "-0.32px",
+    "ff": "\"Inter VF\", Arial, sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "display": "flex",
+    "bf": "none"
+   },
+   {
+    "text": "Notes",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "fs": "16px",
+    "fw": "400",
+    "lh": "22.4px",
+    "ls": "-0.32px",
+    "ff": "\"Inter VF\", Arial, sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "display": "flex",
+    "bf": "none"
+   },
+   {
+    "text": "Flashcards",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "fs": "16px",
+    "fw": "400",
+    "lh": "22.4px",
+    "ls": "-0.32px",
+    "ff": "\"Inter VF\", Arial, sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "display": "flex",
+    "bf": "none"
+   }
+  ],
+  "label": {
+   "text": "ACE THE EXAM",
+   "x": 36,
+   "y": 163,
+   "w": 109,
+   "h": 20,
+   "fs": "14px",
+   "fw": "400",
+   "lh": "19.6px",
+   "ls": "0.7px",
+   "ff": "\"Roboto Mono VF\", Arial, sans-serif",
+   "color": "rgba(255, 255, 255, 0.7)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "display": "block",
+   "bf": "none"
+  },
+  "wordsWrap": {
+   "text": "Mocks that represent past year patterns Simple solutions which make sense Topic tests for targeted practice Flashcards with spaced repetitio",
+   "x": 36,
+   "y": 191,
+   "w": 318,
+   "h": 152,
+   "fs": "16px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "-0.32px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgb(255, 255, 255)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "display": "block",
+   "bf": "none"
+  },
+  "wordItem": {
+   "text": "Mocks that represent past year patterns",
+   "x": 36,
+   "y": -406,
+   "w": 318,
+   "h": 64,
+   "fs": "28px",
+   "fw": "500",
+   "lh": "32.2px",
+   "ls": "-0.56px",
+   "ff": "\"BDO Grotesk VF\", Arial, sans-serif",
+   "color": "rgb(255, 255, 255)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "display": "block",
+   "bf": "none"
+  },
+  "cta": {
+   "text": "Ready to hop in? Get started today!",
+   "x": 74,
+   "y": 669,
+   "w": 288,
+   "h": 66,
+   "fs": "16px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "-0.32px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(255, 255, 255, 0.08)",
+   "radius": "12px",
+   "display": "flex",
+   "bf": "blur(12px)"
+  },
+  "ctaTitle": {
+   "text": "Ready to hop in?",
+   "x": 90,
+   "y": 685,
+   "w": 109,
+   "h": 20,
+   "fs": "14px",
+   "fw": "600",
+   "lh": "19.6px",
+   "ls": "-0.32px",
+   "ff": "\"BDO Grotesk VF\", Arial, sans-serif",
+   "color": "rgb(255, 255, 255)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "display": "block",
+   "bf": "none"
+  },
+  "ctaSub": {
+   "text": "Get started today!",
+   "x": 90,
+   "y": 705,
+   "w": 83,
+   "h": 15,
+   "fs": "10.4px",
+   "fw": "500",
+   "lh": "14.56px",
+   "ls": "-0.32px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgba(255, 255, 255, 0.5)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "display": "block",
+   "bf": "none"
+  },
+  "ctaDot": {
+   "text": "",
+   "x": 340,
+   "y": 667,
+   "w": 6,
+   "h": 6,
+   "fs": "16px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "-0.32px",
+   "ff": "\"Inter VF\", Arial, sans-serif",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(255, 255, 255, 0.9)",
+   "radius": "50%",
+   "display": "block",
+   "bf": "none"
+  },
+  "coverage": {
+   "viewport": 329160,
+   "image": 226920,
+   "textBlocks": [
+    12002.0625,
+    0,
+    57046.21875,
+    19053
+   ]
+  },
+  "visibleText": [
+   {
+    "t": "Preparoo",
+    "y": 22,
+    "fs": "20px",
+    "fw": "700"
+   },
+   {
+    "t": "Pricing",
+    "y": 20,
+    "fs": "12.16px",
+    "fw": "600"
+   },
+   {
+    "t": "Ace",
+    "y": 74,
+    "fs": "39px",
+    "fw": "600"
+   },
+   {
+    "t": "the",
+    "y": 74,
+    "fs": "39px",
+    "fw": "600"
+   },
+   {
+    "t": "C",
+    "y": 74,
+    "fs": "39px",
+    "fw": "600"
+   },
+   {
+    "t": "Ace the Exam",
+    "y": 163,
+    "fs": "14px",
+    "fw": "400"
+   },
+   {
+    "t": "Analytics which help you prioritize",
+    "y": 203,
+    "fs": "28px",
+    "fw": "500"
+   },
+   {
+    "t": "Ready to hop in?",
+    "y": 688,
+    "fs": "14px",
+    "fw": "600"
+   },
+   {
+    "t": "Get started today!",
+    "y": 705,
+    "fs": "10.4px",
+    "fw": "500"
+   },
+   {
+    "t": "Make the",
+    "y": 836,
+    "fs": "48px",
+    "fw": "600"
+   },
+   {
+    "t": "CUET",
+    "y": 836,
+    "fs": "48px",
+    "fw": "600"
+   }
+  ],
+  "docH": 9817,
+  "scroll": {
+   "snapHtml": "none",
+   "snapBody": "none",
+   "behavior": "auto",
+   "overscroll": "none",
+   "lenis": "undefined",
+   "lenisClass": false,
+   "restoration": "manual"
+  },
+  "headingsAll": [
+   {
+    "tag": "H1",
+    "text": "Ace",
+    "y": 80,
+    "fs": "39px"
+   },
+   {
+    "tag": "H2",
+    "text": "the C",
+    "y": 80,
+    "fs": "39px"
+   },
+   {
+    "tag": "H2",
+    "text": "Make the CUET feel simple",
+    "y": 843,
+    "fs": "48px"
+   },
+   {
+    "tag": "H2",
+    "text": "cerebral",
+    "y": 1303,
+    "fs": "28.8px"
+   },
+   {
+    "tag": "H2",
+    "text": "Ask Preparoo",
+    "y": 2008,
+    "fs": "48px"
+   },
+   {
+    "tag": "H2",
+    "text": "How much of CUET 2026 did Preparoo cover?",
+    "y": 3278,
+    "fs": "24px"
+   },
+   {
+    "tag": "H2",
+    "text": "Pricing",
+    "y": 4732,
+    "fs": "78px"
+   },
+   {
+    "tag": "H2",
+    "text": "CUET All Access",
+    "y": 4842,
+    "fs": "28px"
+   },
+   {
+    "tag": "H2",
+    "text": "CUET + IPMAT All Access",
+    "y": 5788,
+    "fs": "28px"
+   },
+   {
+    "tag": "H2",
+    "text": "FAQ",
+    "y": 7024,
+    "fs": "12px"
+   },
+   {
+    "tag": "H2",
+    "text": "Answered questions.",
+    "y": 7051,
+    "fs": "48px"
+   },
+   {
+    "tag": "H2",
+    "text": "Join our newsletter",
+    "y": 7670,
+    "fs": "28px"
+   },
+   {
+    "tag": "H2",
+    "text": "Hear from us",
+    "y": 8007,
+    "fs": "36px"
+   },
+   {
+    "tag": "H3",
+    "text": "CUET English PYQ Analysis 2026",
+    "y": 8369,
+    "fs": "17.6px"
+   },
+   {
+    "tag": "H3",
+    "text": "CUET Economics PYQ Analysis 2026",
+    "y": 8684,
+    "fs": "17.6px"
+   },
+   {
+    "tag": "H3",
+    "text": "CUET Business Studies PYQ Analysis 2026",
+    "y": 9000,
+    "fs": "17.6px"
+   },
+   {
+    "tag": "H2",
+    "text": "Ace the CUET & IPMAT with Preparoo",
+    "y": 9296,
+    "fs": "48px"
+   }
+  ],
+  "sections": [
+   {
+    "cls": "section_home-header",
+    "y": 0,
+    "h": 763
+   },
+   {
+    "cls": "section_try-features",
+    "y": 763,
+    "h": 1245
+   },
+   {
+    "cls": "section_ask-preparoo",
+    "y": 2008,
+    "h": 1190
+   },
+   {
+    "cls": "section_overlap",
+    "y": 3198,
+    "h": 1296
+   },
+   {
+    "cls": "section_pricing",
+    "y": 4494,
+    "h": 2449
+   },
+   {
+    "cls": "section_faq",
+    "y": 6944,
+    "h": 671
+   },
+   {
+    "cls": "section_newsletter",
+    "y": 7614,
+    "h": 328
+   },
+   {
+    "cls": "section_blog-list",
+    "y": 7943,
+    "h": 1225
+   },
+   {
+    "cls": "section_cta",
+    "y": 9216,
+    "h": 311
+   }
+  ]
+ },
+ "shots": [
+  {
+   "file": "m390slow-hero-at15785ms.png",
+   "wallMs": 15869,
+   "pageMs": 15785,
+   "requestedFile": "m390slow-hero-3000ms.png"
+  },
+  {
+   "file": "m390slow-hero-at17132ms.png",
+   "wallMs": 17215,
+   "pageMs": 17132,
+   "requestedFile": "m390slow-hero-6000ms.png"
+  },
+  {
+   "file": "m390slow-hero-at19864ms.png",
+   "wallMs": 19946,
+   "pageMs": 19864,
+   "requestedFile": "m390slow-hero-8800ms.png"
+  }
+ ],
+ "prp": {
+  "samples": [
+   {
+    "t": 1652,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": false,
+    "io": 0,
+    "isc": 0.85,
+    "inl": "",
+    "lt": 857,
+    "lh": 143,
+    "pf": true,
+    "ix": false,
+    "fonts": "loading",
+    "rs": "loading",
+    "sy": 0
+   },
+   {
+    "t": 7507,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": false,
+    "io": 0,
+    "isc": 0.85,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 857,
+    "lh": 143,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "loading",
+    "sy": 0
+   },
+   {
+    "t": 7685,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": false,
+    "io": 0,
+    "isc": 0.85,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 857,
+    "lh": 143,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 7854,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.13,
+    "isc": 0.869,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 855,
+    "lh": 147,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 7878,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.24,
+    "isc": 0.886,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 854,
+    "lh": 150,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 7888,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.34,
+    "isc": 0.901,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 852,
+    "lh": 152,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 7905,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.43,
+    "isc": 0.915,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 851,
+    "lh": 154,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 7923,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.51,
+    "isc": 0.926,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 850,
+    "lh": 156,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 7939,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.58,
+    "isc": 0.937,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 849,
+    "lh": 158,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 7954,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.64,
+    "isc": 0.945,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 849,
+    "lh": 160,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 7974,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.69,
+    "isc": 0.953,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 848,
+    "lh": 161,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8043,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.83,
+    "isc": 0.974,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 846,
+    "lh": 164,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8061,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.85,
+    "isc": 0.977,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 846,
+    "lh": 165,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8073,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.87,
+    "isc": 0.98,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 846,
+    "lh": 165,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8088,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.89,
+    "isc": 0.983,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 845,
+    "lh": 166,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8105,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.9,
+    "isc": 0.985,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 845,
+    "lh": 166,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8121,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.92,
+    "isc": 0.987,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 845,
+    "lh": 167,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8142,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.93,
+    "isc": 0.989,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 845,
+    "lh": 167,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8439,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 0.94,
+    "isc": 0.991,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 845,
+    "lh": 167,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8551,
+    "d": "flex",
+    "h": 844,
+    "ty": 0,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 100vh; transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 844,
+    "lh": 169,
+    "pf": true,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8686,
+    "d": "flex",
+    "h": 548,
+    "ty": -59,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 64.894vh; transform: translate3d(0px, -7.0212vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 488,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8698,
+    "d": "flex",
+    "h": 395,
+    "ty": -90,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 46.752vh; transform: translate3d(0px, -10.6496vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": 305,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8717,
+    "d": "flex",
+    "h": 102,
+    "ty": -148,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 12.055vh; transform: translate3d(0px, -17.589vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -47,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8724,
+    "d": "flex",
+    "h": 82,
+    "ty": -152,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 9.662vh; transform: translate3d(0px, -18.0676vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -71,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8739,
+    "d": "flex",
+    "h": 64,
+    "ty": -156,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 7.597vh; transform: translate3d(0px, -18.4806vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -92,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8754,
+    "d": "flex",
+    "h": 49,
+    "ty": -159,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 5.849vh; transform: translate3d(0px, -18.8302vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -110,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8771,
+    "d": "flex",
+    "h": 37,
+    "ty": -161,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 4.4vh; transform: translate3d(0px, -19.12vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -124,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8787,
+    "d": "flex",
+    "h": 27,
+    "ty": -163,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 3.206vh; transform: translate3d(0px, -19.3588vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -136,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8840,
+    "d": "flex",
+    "h": 19,
+    "ty": -165,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 2.251vh; transform: translate3d(0px, -19.5498vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -146,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8883,
+    "d": "flex",
+    "h": 13,
+    "ty": -166,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 1.511vh; transform: translate3d(0px, -19.6978vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -153,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8888,
+    "d": "flex",
+    "h": 1,
+    "ty": -169,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 0.119vh; transform: translate3d(0px, -19.9762vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -168,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8904,
+    "d": "flex",
+    "h": 0,
+    "ty": -169,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 0.036vh; transform: translate3d(0px, -19.9928vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -168,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8921,
+    "d": "flex",
+    "h": 0,
+    "ty": -169,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 0.004vh; transform: translate3d(0px, -19.9992vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform, width, height;",
+    "lt": -169,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8939,
+    "d": "flex",
+    "h": 0,
+    "ty": -169,
+    "ready": true,
+    "io": 1,
+    "isc": 1,
+    "inl": "display: flex; width: 100%; height: 0vh; transform: translate3d(0px, -20vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": -169,
+    "lh": 169,
+    "pf": false,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 8955,
+    "d": "none",
+    "h": 0,
+    "ty": 0,
+    "ready": true,
+    "io": 0,
+    "isc": 1,
+    "inl": "display: none; width: 100%; height: 0vh; transform: translate3d(0px, -20vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 0,
+    "lh": 0,
+    "pf": false,
+    "ix": true,
+    "fonts": "loading",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 13715,
+    "d": "none",
+    "h": 0,
+    "ty": 0,
+    "ready": true,
+    "io": 0,
+    "isc": 1,
+    "inl": "display: none; width: 100%; height: 0vh; transform: translate3d(0px, -20vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 0,
+    "lh": 0,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "interactive",
+    "sy": 0
+   },
+   {
+    "t": 15413,
+    "d": "none",
+    "h": 0,
+    "ty": 0,
+    "ready": true,
+    "io": 0,
+    "isc": 1,
+    "inl": "display: none; width: 100%; height: 0vh; transform: translate3d(0px, -20vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;",
+    "lt": 0,
+    "lh": 0,
+    "pf": false,
+    "ix": true,
+    "fonts": "loaded",
+    "rs": "complete",
+    "sy": 0
+   }
+  ],
+  "typing": [
+   {
+    "t": 1652,
+    "text": "CUET"
+   },
+   {
+    "t": 4354,
+    "text": "CUE"
+   },
+   {
+    "t": 4454,
+    "text": "CU"
+   },
+   {
+    "t": 4554,
+    "text": "C"
+   },
+   {
+    "t": 4654,
+    "text": ""
+   },
+   {
+    "t": 5304,
+    "text": "I"
+   },
+   {
+    "t": 5454,
+    "text": "IP"
+   },
+   {
+    "t": 5604,
+    "text": "IPM"
+   },
+   {
+    "t": 5772,
+    "text": "IPMA"
+   },
+   {
+    "t": 5937,
+    "text": "IPMAT"
+   },
+   {
+    "t": 8142,
+    "text": "IPMA"
+   },
+   {
+    "t": 8551,
+    "text": "IPM"
+   },
+   {
+    "t": 8698,
+    "text": "IP"
+   },
+   {
+    "t": 8840,
+    "text": "I"
+   },
+   {
+    "t": 8904,
+    "text": ""
+   },
+   {
+    "t": 9554,
+    "text": "C"
+   },
+   {
+    "t": 9704,
+    "text": "CU"
+   },
+   {
+    "t": 9854,
+    "text": "CUE"
+   },
+   {
+    "t": 10048,
+    "text": "CUET"
+   },
+   {
+    "t": 12204,
+    "text": "CUE"
+   },
+   {
+    "t": 12304,
+    "text": "CU"
+   },
+   {
+    "t": 12405,
+    "text": "C"
+   },
+   {
+    "t": 12520,
+    "text": ""
+   },
+   {
+    "t": 13677,
+    "text": "I"
+   },
+   {
+    "t": 13878,
+    "text": "IP"
+   },
+   {
+    "t": 14122,
+    "text": "IPM"
+   },
+   {
+    "t": 14506,
+    "text": "IPMAT"
+   },
+   {
+    "t": 16582,
+    "text": "IPMA"
+   },
+   {
+    "t": 16765,
+    "text": "IP"
+   },
+   {
+    "t": 17011,
+    "text": ""
+   },
+   {
+    "t": 17605,
+    "text": "C"
+   },
+   {
+    "t": 17824,
+    "text": "CU"
+   },
+   {
+    "t": 18041,
+    "text": "CUET"
+   },
+   {
+    "t": 20237,
+    "text": "CUE"
+   },
+   {
+    "t": 20336,
+    "text": "CU"
+   },
+   {
+    "t": 20437,
+    "text": "C"
+   },
+   {
+    "t": 20558,
+    "text": ""
+   }
+  ],
+  "words": [
+   {
+    "t": 1652,
+    "tr": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
+    "tn": ""
+   },
+   {
+    "t": 8043,
+    "tr": "translate3d(0px, 0px, 0px)",
+    "tn": "none"
+   },
+   {
+    "t": 11050,
+    "tr": "translate3d(0px, -152px, 0px)",
+    "tn": "transform 0.6s cubic-bezier(0.25, 0.1, 0.25, 1)"
+   },
+   {
+    "t": 14122,
+    "tr": "translate3d(0px, -304px, 0px)",
+    "tn": "transform 0.6s cubic-bezier(0.25, 0.1, 0.25, 1)"
+   },
+   {
+    "t": 17184,
+    "tr": "translate3d(0px, -456px, 0px)",
+    "tn": "transform 0.6s cubic-bezier(0.25, 0.1, 0.25, 1)"
+   },
+   {
+    "t": 20036,
+    "tr": "translate3d(0px, -608px, 0px)",
+    "tn": "transform 0.6s cubic-bezier(0.25, 0.1, 0.25, 1)"
+   }
+  ],
+  "events": [
+   {
+    "e": "first-paint",
+    "t": 1776
+   },
+   {
+    "e": "first-contentful-paint",
+    "t": 1776
+   },
+   {
+    "e": "lcp",
+    "t": 1776,
+    "el": "SPAN",
+    "size": 8845
+   },
+   {
+    "e": "longtask",
+    "t": 6462,
+    "d": 120
+   },
+   {
+    "e": "longtask",
+    "t": 7327,
+    "d": 178
+   },
+   {
+    "e": "DOMContentLoaded",
+    "t": 7653
+   },
+   {
+    "e": "longtask",
+    "t": 8166,
+    "d": 217
+   },
+   {
+    "e": "longtask",
+    "t": 8564,
+    "d": 104
+   },
+   {
+    "e": "longtask",
+    "t": 10135,
+    "d": 182
+   },
+   {
+    "e": "longtask",
+    "t": 10320,
+    "d": 175
+   },
+   {
+    "e": "longtask",
+    "t": 12900,
+    "d": 264
+   },
+   {
+    "e": "longtask",
+    "t": 13225,
+    "d": 184
+   },
+   {
+    "e": "load",
+    "t": 15362
+   }
+  ]
+ },
+ "errors": []
+}

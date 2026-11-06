@@ -1,0 +1,26 @@
+{
+  "id": "20261009T214036.309162Z-4e06af71",
+  "observed_at": "2026-10-09T21:40:36.309162+00:00",
+  "agent": "/root/difficulty_selection_final",
+  "task": "Read-only native R3 diagnosis of terminal designated-valid failures outside first ten",
+  "status": "complete",
+  "done": "Saved an immutable state snapshot and two create-only diagnosis JSON artifacts covering all 12 terminal frozen-positive fixtures beyond positions 1–10. Both actual native blind judgments, full option matrices, exact registry excerpts/support hashes, and explanation audit presence are recorded. Corrected an initial summary overstatement additively; prior artifacts remain preserved.",
+  "next": "Root may incorporate the corrected per-case findings. Keep all frozen labels, outcomes, denominator, and source evidence unchanged. Await native terminal outcomes for the valid error/pending cases and the v75 regression before diagnosing them.",
+  "blockers": [],
+  "evidence": [
+    "Snapshot SHA256 890416e8aef473add2ba1bd1b868e051b2095d143cfbe76b2f99a02c35906e5d, copied 2026-10-09T21:36:07Z; state.updated_at 2026-10-09T21:34:33.574Z.",
+    "frozen.json SHA256 21d81b6a6011136d54cb20e03aef130cb08c62ec059d772b7383ef74aab9fb37; registry.json SHA256 0cd90b86dab2816c1e276f6a8bc23d340e608c1f2274f45685c7f17cd68b3730.",
+    "Main diagnosis SHA256 6c1a4ca75810532d301f31224d41d7e73d279bb86f6ec74fa65da3131dad668f; additive correction SHA256 a9ca0abe9d218a5f9060588c850582447b3bf328154fd5c4a9f766b2b52411b8.",
+    "12 terminal designated-valid cases selected; 11 academically supported controls exhibit Luna challenge-array shape issue; 10 also have below-gate Luna fit ratings; two additional Gemini matrix representation rejections are documented; one English fixture has a construction ambiguity.",
+    "No selected case executed explanation_support. One frozen-valid case is provider-output-incomplete, one is pending; V75 regression is validating. These remain unknown/nonacademic.",
+    "No provider calls, tests, code edits, outcome or label changes."
+  ],
+  "touched_files": [
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v713/qualification-fresh31-regression6/diagnosis/NATIVE-R3-STATE-SNAPSHOT-20261009T213607Z.json",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v713/diagnosis/NATIVE-VALID-FAILURE-DIAGNOSIS-20261010T030607+0530.json",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v713/diagnosis/NATIVE-VALID-FAILURE-DIAGNOSIS-CORRECTION-20261010T0309+0530.json"
+  ],
+  "verification": "All 12 cases have both provider judgments and source references whose active registry version/support hashes match. The exact Gemini quote in f-3e5f9ea9839935c1 is a raw substring of the registered excerpt but fails containsAnchoredV712 due the line-end-hyphen fold. f-07957bcf309f84ab uses premise_source=arithmetic with a source evidence ID, rejected by the stem branch. f-958b02eadb40ed70 has an answer-changing omitted care/quality condition; sparse and meticulous can both apply.",
+  "cost_and_pending_requests": "No provider calls and no new provider cost.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

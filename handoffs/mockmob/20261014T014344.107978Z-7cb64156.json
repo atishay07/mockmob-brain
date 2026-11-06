@@ -1,0 +1,18 @@
+{
+  "id": "20261014T014344.107978Z-7cb64156",
+  "observed_at": "2026-10-14T01:43:44.107978+00:00",
+  "agent": "claude-opus-5.5 session cc0bf1af",
+  "task": "Overnight autonomous app completion",
+  "status": "active",
+  "done": "Real release APK built: mockmob-next/tmp/apk/mockmob-real-release-arm64.apk (30.6 MB, in.mockmob.app, target 36, prod.json, debug-signed, Google sign-in via browser). Demo at tmp/apk/demo-debug.apk. Device re-check round 4 (tmp/app-shots/r4): opening unfolds with no ghost, Today start bar above dock, Today/Review agree, opaque start rows, recap card 3/4 fixes, Review collapse, Ask chapter link, real app opening and welcome all pass. The arm64-only APK crashes on the x86_64 emulator unless installed with --abi arm64-v8a (fine on the owner's arm64 phones; Play uses the AAB). Play doc commit 949cd2b lists the 9 merged permissions (VIBRATE, FGS and FGS short service from workmanager, USE_BIOMETRIC from androidx.biometric).",
+  "next": "Running wf_a9d409f5-5c6: re-check P3 fixes (late-night boundary, quick-start title band, recap card 4 key), safe APK size cuts, Play store screenshots from the demo on the emulator into tmp/play/screens/final, second bug hunt over tonight's new code with 2 Haiku skeptics. Then fix confirmed bugs, rerun suite, rebuild APK. Owner: connect phone to install the real APK and sign in; decisions listed in the 07:05 update.",
+  "blockers": [],
+  "evidence": [
+    "mockmob-next a817371, 949cd2b",
+    "tmp/app-shots/r4"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "20261021T212128.531067Z-771c6b7f",
+  "observed_at": "2026-10-21T21:21:28.531067+00:00",
+  "agent": "claude-opus-5.5 acting-test animator (lane M, workflow subagent)",
+  "task": "Promo film: 3D Mobi 6 s Cycles acting test beside a laptop (DIRECTOR v6.3 D)",
+  "status": "complete",
+  "done": "Froze the r6 model (build_mobi_r6_frozen.py -> mobi_r6_frozen.blend). Built the night desk scene with a 3D laptop showing the real loader and result frames, warm practical key, cool rim and a screen-glow proxy. Animated the beats: watch, held breath, take, double take, look into the lens, slow blink, nod. Fixed two problems found in the study: leg tops poking out of the body, and the eyes sinking into the visor. Rendered the final in Cycles OptiX with motion blur and DOF, then encoded the master, phone copy and sheet.",
+  "next": "The owner or orchestrator judges out/mobi3d/acting-test.mp4. The TD could fix the hip hinge and the eye depth driver in the r7 model. Re-point: run blender -b <r7 blend> -P blender/mobi/acting/acting_scene.py, then acting_render.py and finish.py.",
+  "blockers": [],
+  "evidence": [
+    "acting-test.mp4: 360 frames, 6.00 s, 60 fps, 1920x1080, 11.2 Mbps, yuv420p bt709",
+    "phone copy: 180 frames, 30 fps, 2.3 MB",
+    "render: median 7.7 s per frame, p95 9.1 s (out/mobi3d/acting/final_times.txt)",
+    "encode PSNR 43.2 dB against the source frame at 4.25 s"
+  ],
+  "touched_files": [
+    "blender/mobi/acting/**",
+    "out/mobi3d/acting/screen/s0191.png",
+    "out/mobi3d/acting/screen/s0192.png",
+    "out/mobi3d/acting-test.mp4",
+    "out/mobi3d/acting-test-phone.mp4",
+    "out/mobi3d/acting-test-sheet.png",
+    "docs/NOTES.md (appended done mobi acting test)"
+  ],
+  "verification": "Studied the Workbench playblasts and the half-size Cycles preview frame by frame. Checked the eyes per frame with a visor-occlusion ray test, and the legs with an object-colour diagnostic. Verified the final frames 1-60, 92-148, 186-209, 189-194 and 350-360 for inter-frame continuity. Probed both mp4 files.",
+  "cost_and_pending_requests": "GPU about 55 min (final plus fill-ins), no paid services",
+  "confidence": "agent-reported; verify evidence before acting"
+}

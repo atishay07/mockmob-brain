@@ -1,0 +1,39 @@
+{
+  "id": "20261013T105544.696335Z-9f1d308c",
+  "observed_at": "2026-10-13T10:55:44.697344+00:00",
+  "agent": "claude-opus-5.5 (workflow subagent, NTA review fixes)",
+  "task": "Apply NTA engine review of 053d2a0 on fix/nta-mode: gates, conflicts, type counter, English, numerical, fail-closed scores, slim index read; rerun tests and read-only production assembly; one build; commit",
+  "status": "complete",
+  "done": "Commit 333e797 on fix/nta-mode (not pushed). New data/nta_item_checks.js (structural gate, wording gate, numerical detection, headwords, same-question conflictReason, objective tags), data/nta_quarantine.json (Acc 40d8ffd9 wrong key, BST 24ff7d61 broken), data/nta_objectives.json (38 review-cluster questions tagged only). Engine: fail-closed scores (both judges + both solvers; quality_score never admits), new type counter, passage 200-300 words + distinct children >=4, numerical overlay quota, objective caps, duplicates incl. passage children in checkNtaPaper, General Test label. Pool: signed nta_question_index path (migration 20261013190000 saved, not applied) + scripts/nta-index-build.mjs (dry-run default, refuses prod --write without --allow-production) + 5-min per-subject cache + time-budget student message + one shortfall insert per process. Production read-only run: Acc/BST/Econ closest 50; English refused (no 200-300 word passages); 11 subjects refused (no scores). Review gates kept out En 11/149, Acc 20/127, BST 26/145, Econ 20/130.",
+  "next": "Owner decisions: (1) who assigns learning-objective tags for all eligible questions and how they are signed (only 38 review-cluster ids tagged; concept repeats like primary/secondary market still occur in BST papers); (2) signed per-item review record for hedges/trivial arithmetic/difficulty; (3) apply migrations 20261013170000 (shortfalls) and 20261013190000 (index) then run scripts/nta-index-build.mjs --write; (4) fund/author English 200-300 word passages, sentence-part rearrangement and idiom items, commerce case sets; (5) score the 4,677 unscored questions; (6) dashboard variant picker and up-front availability (UI, not done).",
+  "blockers": [
+    "Migrations need owner/DB credentials to apply",
+    "Full concept tagging and per-item review records need owner sign-off"
+  ],
+  "evidence": [
+    "git 333e797 on fix/nta-mode",
+    "docs/brain/NTA-ENGINE-RUN.md + docs/brain/reports/NTA-ENGINE-RUN.json (prod isrxrxzjocewrdureyhp, select only)",
+    "npm run test:nta 87/87; test:recovery 39/39; answer-integrity 11/11; auth 33/33; learning 91/91; mock selector+session recovery 9/9",
+    "next build --webpack exit 0 (log in session scratchpad ntafix/build.log)",
+    "index dry run: full 5.30-6.62 MB vs slim 0.33-0.44 MB per subject"
+  ],
+  "touched_files": [
+    "data/nta_engine.js",
+    "data/nta_pool.js",
+    "data/nta_item_checks.js",
+    "data/nta_quarantine.json",
+    "data/nta_objectives.json",
+    "data/tests/ntaEngineFixtures.mjs",
+    "data/tests/nta_engine.test.mjs",
+    "data/tests/nta_review_fixes.test.mjs",
+    "scripts/nta-engine-run.mjs",
+    "scripts/nta-index-build.mjs",
+    "supabase/migrations/20261013190000_nta_question_index.sql",
+    "docs/brain/NTA-ENGINE-RUN.md",
+    "docs/brain/STATUS.md",
+    "package.json"
+  ],
+  "verification": "Production: select queries only (no writes, sessions or model calls). No staging writes (no DB credentials to apply migrations there). One next build. Pre-existing modified logs/ files left uncommitted.",
+  "cost_and_pending_requests": "USD 0 (no paid model calls)",
+  "confidence": "agent-reported; verify evidence before acting"
+}

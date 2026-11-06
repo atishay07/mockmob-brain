@@ -1,0 +1,20 @@
+{
+  "id": "20261014T230508.792651Z-7cdc980f",
+  "observed_at": "2026-10-14T23:05:08.792651+00:00",
+  "agent": "claude-opus-5.5 (session 604ced81)",
+  "task": "15 Oct ~04:40 IST: Phase A shipped; Phase B running",
+  "status": "active",
+  "done": "Phase A (workflow wf_de372008-977): 10 app builders, 97/102 items done. Integrator: analyze clean, unit +733/+903/+2065 green. 362 goldens regenerated and about 150 opened. wt-phase2 commit 66048737 merged into feat/app-and-web as 97a7694c. APK v3 built (32.4 MB) and sent: mockmob-next/tmp/apk/MockMob-v3-release.zip. Website web/alive-1015 with web check c47a94cd (all suites green except the known CRLF study test; build ok) pushed to main; Vercel dpl_DJFkjE5QMy8KZ1FphZzj4hL9SJrR READY on www.mockmob.in. Removed Mobi from NtaWarningOverlay and added test/unit/runner/nta_no_mobi_test.dart. Hybrid art previews in tmp/art-hybrid (owner saw them and said \"looks good\"). Owner-word archive: tmp/resume-1015/OWNER-WORDS-1014.md. Mobi parity audit: tmp/resume-1015/MOBI-PARITY.md. Luna repair is unverified: the owner's Chrome extension is not connected, and agents must not sign in.",
+  "next": "Phase B workflow wf_7f05400e-3b9 (script copy tmp/workflows/phase-b-1015.js) is running: app-hybrid-art (compass, metronome, stopwatch, desk bell), app-mobi-parity (plus docs/brain/MOBI-CHOREOGRAPHY.json), app-polish, web-mobi-parity, web-repair-parity, then check:app (goldens) and check:web (no push). After that: commit wt-phase2, merge, build APK v4, push web, verify. Phase C: the profile demo x64 build is running for the emulator recording of v3.",
+  "blockers": [],
+  "evidence": [
+    "mockmob-next feat/app-and-web 97a7694c",
+    "wt-phase2 66048737",
+    "origin/main c47a94cd READY",
+    "tmp/apk/MockMob-v3-97a7694c.apk"
+  ],
+  "touched_files": [],
+  "verification": "Phase A integrator unit batches green; web suites green; Vercel READY; homepage loads with no console errors",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "20261013T150555.276777Z-f919741a",
+  "observed_at": "2026-10-13T15:05:55.276777+00:00",
+  "agent": "claude-opus-5.5 logo-B app integration subagent",
+  "task": "Logo B in the Flutter app: brand logo widget, launcher icon, system splash, opening animation, tests, emulator check",
+  "status": "complete",
+  "done": "Steps 1-5 were in 49f4100. Resumed: device check on mockmob_budget found 3 issues and fixed them: (1) Android 12+ splash default exit dipped to black and slid 6 dp -> MainActivity removes splash view instantly; (2) opening clock started at build, so blink/ink played before the first frame was visible -> timeline starts at first-frame-rasterized (capped 400 ms); (3) camera curve Motion.emphasized read as a cut -> OpeningTimeline.pullBack Cubic(0.5,0,0.15,1). Also: b rise clipped at its own bottom (no stray bar), app under the opening is Offstage + TickerMode off until hand-off.",
+  "next": "Orchestrator commits uncommitted edits. Not yet checked: themed (monochrome) icon on device, pre-Android-12 launch_background on a real old device, reduced motion on device, a real tap after hand-off on device.",
+  "blockers": [],
+  "evidence": [
+    "tmp/logo/final-B/device/contact-sheet.png",
+    "tmp/logo/final-B/device/final-profile-open6-sequence.png",
+    "tmp/logo/final-B/device/handoff-profile-compare.png"
+  ],
+  "touched_files": [
+    "flutter_app/android/app/src/main/kotlin/in/mockmob/app/MainActivity.kt",
+    "flutter_app/lib/core/widgets/brand/brand_opening.dart",
+    "flutter_app/test/unit/brand/brand_opening_test.dart",
+    "flutter_app/test/golden/core/goldens/{opening_unfold,cold_open_draw,cold_open_end}_{day,night}.png"
+  ],
+  "verification": "flutter analyze: no issues. Tests: test/unit/brand + widget_test + golden/core 77 passed; earlier subset (brand, golden core/onboarding/auth/you, unit you/onboarding) 371 passed.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

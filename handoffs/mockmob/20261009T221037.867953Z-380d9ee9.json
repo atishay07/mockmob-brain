@@ -1,0 +1,36 @@
+{
+  "id": "20261009T221037.867953Z-380d9ee9",
+  "observed_at": "2026-10-09T22:10:37.867953+00:00",
+  "agent": "/root/final_verification_recovery",
+  "task": "Read-only V716 runtime and publication integration review",
+  "status": "complete",
+  "done": "Reviewed the seven additive V716 modules, R3 qualification guard/native output path, V7 evidence registry and publication path, and existing NTA/practice selectors. Sent the parent concrete integration gaps: deterministic composite currently includes judge overall and difficulty calibration; publication/runtime path is not wired; passage filtering needs atomic groups; legacy quality_score scale mismatch; mode/release validation fail-closed issues; campaign-wide novelty state must be shared; reviewed guarded entrypoint expectations.",
+  "next": "Root may correct V716 policy and build the guarded versioned entrypoint/runtime bridge. Keep use of the R3 persistent ledger/cap/native transport and exact body preflight. Add targeted verification later only under root ownership; no more native calls in this pass.",
+  "blockers": [
+    "V716 is not connected to the authoritative publication eligibility path/runtime release binding; practice-only student visibility is therefore not implemented yet and must remain unavailable until a separately versioned fail-closed integration is qualified.",
+    "Passage groups are filtered per child in the new selector and need complete-group atomic eligibility/selection.",
+    "Current composite uses judge overall criterion 1 and difficulty calibration criterion 5, contrary to deterministic separate quality composite and separate difficulty direction."
+  ],
+  "evidence": [
+    "scripts/pipeline/lib/scorecardReviewV716.mjs",
+    "scripts/pipeline/lib/scorecardPolicyV716.mjs",
+    "scripts/pipeline/lib/practiceSelectionV716.mjs",
+    "scripts/pipeline/lib/verifyV716.mjs",
+    "scripts/pipeline/lib/contractV716.mjs",
+    "scripts/pipeline/lib/scorecardPromptV716.mjs",
+    "scripts/pipeline/lib/generationPromptV716.mjs",
+    "scripts/pipeline/tools/runQualificationV713R3.mjs",
+    "scripts/pipeline/lib/campaignGuardV713.mjs",
+    "scripts/pipeline/lib/factoryTransportV713.mjs",
+    "data/cuet_fit_evidence.mjs",
+    "data/evidence_registry.js",
+    "scripts/pipeline/lib/publish.mjs",
+    "scripts/pipeline/tools/publishCuetFitCampaignV713.mjs",
+    "data/nta_question_selector.js",
+    "data/mock_question_selector.js"
+  ],
+  "touched_files": [],
+  "verification": "Read-only source inspection only. No tests executed, no source edits, no provider calls.",
+  "cost_and_pending_requests": "No provider calls; no costs incurred.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

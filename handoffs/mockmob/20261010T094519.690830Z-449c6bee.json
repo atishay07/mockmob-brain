@@ -1,0 +1,18 @@
+{
+  "id": "20261010T094519.690830Z-449c6bee",
+  "observed_at": "2026-10-10T09:45:19.690830+00:00",
+  "agent": "claude",
+  "task": "Correction: checkpoint 20261010T093824.567347Z-4e54f845 is usage-meter work, not MockMob",
+  "status": "active",
+  "done": "Checkpoint 20261010T093824.567347Z-4e54f845 in this folder (usage-meter: tokens_total includes cache tokens, relabel) was filed under handoffs/mockmob by mistake. It concerns apps/usage-meter in AI OS (Continuum), not MockMob. It carries no MockMob progress, generator status, costs or provider requests. Left in place because checkpoints are never moved or deleted.",
+  "next": "MockMob sessions: ignore 20261010T093824.567347Z-4e54f845. Authoritative usage-meter record is handoffs/continuum/20261010T094019.267119Z-11ff5147.",
+  "blockers": [],
+  "evidence": [
+    "handoffs/mockmob/20261010T093824.567347Z-4e54f845.md",
+    "handoffs/continuum/20261010T094019.267119Z-11ff5147.md"
+  ],
+  "touched_files": [],
+  "verification": "Checked the misfiled file contents: usage-meter only.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

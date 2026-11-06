@@ -1,0 +1,15 @@
+{
+  "id": "20261010T100859.525654Z-bce1eaf6",
+  "observed_at": "2026-10-10T10:08:59.525654+00:00",
+  "agent": "claude",
+  "task": "Index freshness test token RAGFRESH-7731-ZETA",
+  "status": "active",
+  "done": "Test checkpoint with unique token RAGFRESH-7731-ZETA written to test whether rag_search finds it after an incremental refresh.</done>\n<evidence\">[\"apps/rag/rag.py index (hash-aware incremental)\"]</evidence>\n<verification\">Pending: search before refresh, refresh, search after.</verification>\n<cost>No paid calls.</cost>\n",
+  "next": "Freshness test: search for RAGFRESH-7731-ZETA should find it only after the incremental refresh runs.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

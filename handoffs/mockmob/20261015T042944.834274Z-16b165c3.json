@@ -1,0 +1,34 @@
+{
+  "id": "20261015T042944.834274Z-16b165c3",
+  "observed_at": "2026-10-15T04:29:44.834274+00:00",
+  "agent": "claude-opus-5.5 subagent (P2 builder, session 604ced81)",
+  "task": "P2: web SWOT and record lines, server and UI (spec tmp/repair-v3/SPEC.md C.3 P2)",
+  "status": "complete",
+  "done": "Built in W (wt-web-refine, uncommitted, integrator commits): data/attempt_ledger.js (ledger P/L/E, comparableMocks, shared timing/date/format helpers), data/mistake_insights.js (A.6 record lines), data/mock_swot.js (B.1-B.4 SWOT + plan + later, SWOT_RULES, resultHistory route helper), attempts route uses resultHistory (recap, missedBefore, mistakeInsights, swot; SWOT_ENABLED=off omits swot), SwotPanel.jsx + swot.css, ResultPageClient mounts panel + passes insights + hideFind, ScoreRecoveryLab hideFind + new repair line, package.json test:learning wires 4 tests. Fixtures data/tests/fixtures/swot/*.json (10 scenarios + contract_v1.json).",
+  "next": "Integrator: commit P2 files; copy data/tests/fixtures/swot/contract_v1.json to A/test/fixtures/swot_contract_v1.json; optionally add swot+mistakeInsights from contract_v1.json to src/app/preview/arena/ArenaPreviewClient.jsx /api/attempts fixture to see the panel in dev preview; run npm run build; record in STATUS.",
+  "blockers": [],
+  "evidence": [
+    "node --test attempt_ledger, mistake_insights, mock_swot, recap: 39/39 pass",
+    "npm run test:learning: 263/263 pass",
+    "eslint on all P2 files clean",
+    "Standalone harness (real SwotPanel + swot.css + arena tokens, React 19.2.4) in headless Chrome: 1366 dark/light 2x2, 375 single column no horizontal scroll, CDP click on Q15 jumps, Set up link href correct, reduced motion none, first view stagger 60ms/220ms"
+  ],
+  "touched_files": [
+    "data/attempt_ledger.js",
+    "data/mistake_insights.js",
+    "data/mock_swot.js",
+    "src/app/api/attempts/[id]/route.js",
+    "src/components/result/SwotPanel.jsx",
+    "src/components/result/swot.css",
+    "src/app/(app)/result/[id]/ResultPageClient.jsx",
+    "src/components/ScoreRecoveryLab.jsx",
+    "package.json",
+    "data/tests/attempt_ledger.test.mjs",
+    "data/tests/mistake_insights.test.mjs",
+    "data/tests/mock_swot.test.mjs",
+    "data/tests/fixtures/swot/*.json"
+  ],
+  "verification": "Unit tests and lint run; UI exercised in a standalone harness, not inside the Next page; next build not run; no live model, no DB writes.",
+  "cost_and_pending_requests": "none (no model calls)",
+  "confidence": "agent-reported; verify evidence before acting"
+}

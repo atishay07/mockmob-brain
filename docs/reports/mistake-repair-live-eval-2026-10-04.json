@@ -1,0 +1,173 @@
+{
+  "ranAt": "2026-10-03T19:11:34.012Z",
+  "model": "gpt-4.1-mini",
+  "summary": {
+    "n": 10,
+    "explained": 10,
+    "disputed": 0,
+    "unusable": 0,
+    "totalUsd": 0.0037984
+  },
+  "results": [
+    {
+      "id": "00668b15-bfad-42ea-ae84-ae6a715d80c2",
+      "subject": "accountancy",
+      "chapter": "Debentures",
+      "keyIndex": 0,
+      "solved": 0,
+      "verdict": "explained",
+      "costUsd": 0.00038040000000000003,
+      "repair": {
+        "why_tempting": "Option 1 seems right because some debentures can convert into equity, so it's easy to confuse this feature with mortgage debentures.",
+        "why_wrong": "Mortgage debentures are secured by assets, not about conversion to equity; conversion is a feature of convertible debentures, not mortgage debentures.",
+        "key_idea": "Mortgage debentures are defined by security over assets, providing a charge for repayment, unlike unsecured debentures which lack such security.",
+        "next_step": "Review the definitions and features of secured vs unsecured debentures, focusing on what security means in finance."
+      },
+      "fail": null
+    },
+    {
+      "id": "193a14bc-c6be-4f4e-87dc-8a99478e688c",
+      "subject": "accountancy",
+      "chapter": "Partnership Fundamentals",
+      "keyIndex": 0,
+      "solved": 0,
+      "verdict": "explained",
+      "costUsd": 0.0003948,
+      "repair": {
+        "why_tempting": "Option 1 looks close because 7% of ₹3,00,000 might be mistakenly calculated as ₹22,000 due to a simple multiplication or rounding error.",
+        "why_wrong": "The exact calculation is 7% of ₹3,00,000 = ₹21,000, not ₹22,000, so option 1 is slightly off due to incorrect arithmetic.",
+        "key_idea": "Interest on capital is calculated by multiplying the capital amount by the interest rate directly, regardless of profits, unless the deed states otherwise.",
+        "next_step": "Practice calculating interest on capital for different amounts and rates to avoid simple calculation errors."
+      },
+      "fail": null
+    },
+    {
+      "id": "3727e5b4-3db1-4b97-8b57-17e98bebaea3",
+      "subject": "accountancy",
+      "chapter": "Share Capital",
+      "keyIndex": 2,
+      "solved": 2,
+      "verdict": "explained",
+      "costUsd": 0.00034320000000000005,
+      "repair": {
+        "why_tempting": "'Calls in Advance' sounds similar because it involves payments related to calls, making it easy to confuse with unpaid amounts.",
+        "why_wrong": "Calls in Advance refers to money paid by shareholders before the company actually calls for it, not unpaid amounts.",
+        "key_idea": "Calls in Arrears are specifically the called-up capital that shareholders have not yet paid, distinguishing it from calls in advance or other types of capital.",
+        "next_step": "Review definitions of different types of share capital and payment statuses to solidify understanding."
+      },
+      "fail": null
+    },
+    {
+      "id": "4e663c58-9068-4c14-bd3d-7cec63785af4",
+      "subject": "accountancy",
+      "chapter": "Partnership Fundamentals",
+      "keyIndex": 0,
+      "solved": 0,
+      "verdict": "explained",
+      "costUsd": 0.00039,
+      "repair": {
+        "why_tempting": "Option 1 looks close because it uses the correct interest rate but miscalculates the interest amount, leading to a slightly higher figure than correct.",
+        "why_wrong": "The option incorrectly calculates interest by possibly using wrong multiplication or addition, resulting in ₹27,400 instead of the correct ₹26,400.",
+        "key_idea": "Interest on capital = Capital × Interest rate. Here, ₹2,40,000 × 11% = ₹26,400, regardless of profit sharing or actual profit.",
+        "next_step": "Practice calculating interest on capital for different amounts and rates to reinforce the formula and avoid calculation errors."
+      },
+      "fail": null
+    },
+    {
+      "id": "63f76b8e-67b9-4444-ac5b-74104de2fb29",
+      "subject": "accountancy",
+      "chapter": "Partnership Fundamentals",
+      "keyIndex": 0,
+      "solved": 0,
+      "verdict": "explained",
+      "costUsd": 0.0003956,
+      "repair": {
+        "why_tempting": "Option 1 looks right because it assumes interest on capital is calculated correctly but miscalculates the amount, leading to a close but incorrect figure.",
+        "why_wrong": "The interest on capital is calculated as 8% of ₹4,40,000, which is ₹35,200, not ₹36,200; the student's option overestimates the interest.",
+        "key_idea": "Interest on capital is calculated by multiplying the capital amount by the interest rate: 4,40,000 × 8% = 35,200.",
+        "next_step": "Practice calculating interest on capital for different amounts and rates to strengthen understanding."
+      },
+      "fail": null
+    },
+    {
+      "id": "7953d892-75c6-422c-a130-8eb13212a7e6",
+      "subject": "accountancy",
+      "chapter": "Partnership Fundamentals",
+      "keyIndex": 0,
+      "solved": 0,
+      "verdict": "explained",
+      "costUsd": 0.00036239999999999997,
+      "repair": {
+        "why_tempting": "Option 1 looks right because it’s close to the correct calculation, so it seems like a simple rounding or calculation error trap.",
+        "why_wrong": "The interest on capital is exactly 10% of ₹4,60,000, which is ₹46,000, not ₹47,000.",
+        "key_idea": "Interest on capital is calculated as a fixed percentage of the capital amount, regardless of profit, unless the deed states otherwise.",
+        "next_step": "Practice calculating interest on capital for different amounts and rates to strengthen understanding."
+      },
+      "fail": null
+    },
+    {
+      "id": "902062a9-a3db-4d1c-8843-6870315c770b",
+      "subject": "accountancy",
+      "chapter": "Share Capital",
+      "keyIndex": 2,
+      "solved": 2,
+      "verdict": "explained",
+      "costUsd": 0.00036120000000000005,
+      "repair": {
+        "why_tempting": "Option 3 looks right because redeemable preference shares are common, so one might think preference shares are always redeemable.",
+        "why_wrong": "Preference shares having preferential dividend rights is true regardless of redeemability. Redeemability is unrelated to dividend preference.",
+        "key_idea": "Preference shareholders get dividends before equity shareholders by definition; redeemability is a separate feature and not always true for preference shares.",
+        "next_step": "Review the definitions of preference shares and redeemable shares to clearly separate dividend rights from redeemability."
+      },
+      "fail": null
+    },
+    {
+      "id": "af77305f-7dda-4b49-9173-0033a5412d38",
+      "subject": "accountancy",
+      "chapter": "Share Capital",
+      "keyIndex": 0,
+      "solved": 0,
+      "verdict": "explained",
+      "costUsd": 0.00038960000000000004,
+      "repair": {
+        "why_tempting": "Option 1 looks correct because the repurchase price is Rs 15 per share, so it seems the paid-up capital should decrease by that amount.",
+        "why_wrong": "Paid-up capital is based on the nominal value of shares, not the repurchase price. Only the nominal value of Rs 10 per share is deducted from paid-up capital.",
+        "key_idea": "Paid-up capital reduces by the nominal value of shares cancelled, not the repurchase price paid by the company.",
+        "next_step": "Review the definition of paid-up capital and how share repurchases affect it, focusing on nominal vs. repurchase value."
+      },
+      "fail": null
+    },
+    {
+      "id": "c674cdb3-a530-4cea-8e15-fe8d5643d245",
+      "subject": "accountancy",
+      "chapter": "Change in Profit Sharing Ratio",
+      "keyIndex": 1,
+      "solved": 1,
+      "verdict": "explained",
+      "costUsd": 0.00037360000000000003,
+      "repair": {
+        "why_tempting": "Option 2 looks right because the assertion seems true, but the reason given might seem incorrect if one misunderstands goodwill adjustments as optional.",
+        "why_wrong": "The reason is actually true: gaining partners get a larger share previously belonging to sacrificing partners, necessitating compensation via goodwill.",
+        "key_idea": "When profit-sharing ratios change, gaining partners must compensate sacrificing partners for the transferred profit share, which is the basis for goodwill adjustment.",
+        "next_step": "Review examples of profit-sharing changes and goodwill adjustments to see how compensation is calculated and recorded."
+      },
+      "fail": null
+    },
+    {
+      "id": "e9c1bb78-0891-43c6-aaee-875999f8a455",
+      "subject": "accountancy",
+      "chapter": "Partnership Fundamentals",
+      "keyIndex": 0,
+      "solved": 0,
+      "verdict": "explained",
+      "costUsd": 0.00040760000000000004,
+      "repair": {
+        "why_tempting": "Option 1 looks right because it’s close to the correct calculation and might come from a small calculation slip, making it seem plausible.",
+        "why_wrong": "₹42,800 is incorrect because 11% of ₹3,80,000 is ₹41,800, not ₹42,800; the extra ₹1,000 is a miscalculation.",
+        "key_idea": "Interest on capital is calculated as (Capital × Rate × Time), here ₹3,80,000 × 11% = ₹41,800, regardless of profit unless the deed states otherwise.",
+        "next_step": "Practice calculating interest on capital with different amounts and rates to avoid calculation errors."
+      },
+      "fail": null
+    }
+  ]
+}

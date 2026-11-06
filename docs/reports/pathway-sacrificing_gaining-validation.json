@@ -1,0 +1,943 @@
+{
+  "generatedAt": "2026-10-03T18:29:56.700Z",
+  "mode": "local_read_only",
+  "databaseApplied": false,
+  "paidCalls": 0,
+  "pathway": {
+    "id": "sacrificing_gaining",
+    "version": 1,
+    "sourceVersion": "cuet-ug-2026-301@2025-12-27",
+    "ruleVersion": 1,
+    "digest": "9e18c2a4a7613f553236c731c43fe1bb759f173419a990803c1803a904cd2bf2",
+    "state": "candidate"
+  },
+  "levels": {
+    "researchHypothesis": "recorded",
+    "sourceImplementation": "passed_software_consistency",
+    "academicValidation": "pending: needs an independent Accountancy reviewer sign-off on explanations, mappings and exam fit, then cohort probe concordance",
+    "stagingVerification": "not_started: items are not seeded; signed evidence records come only from the backend verification job",
+    "liveAvailability": "not_available: recovery release gates are false"
+  },
+  "software": {
+    "pathwayId": "sacrificing_gaining",
+    "version": 1,
+    "passed": true,
+    "total": 97,
+    "failed": 0,
+    "results": [
+      {
+        "id": "engine_contract",
+        "passed": true,
+        "detail": "Engine validation passed with released-state solver checks."
+      },
+      {
+        "id": "distinct_options",
+        "passed": true,
+        "item": "acc_sg_probe_admission_mixed",
+        "detail": "option texts are distinct"
+      },
+      {
+        "id": "unique_key",
+        "passed": true,
+        "item": "acc_sg_probe_admission_mixed",
+        "detail": "options equal to the correct working: [0] key 0"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_probe_admission_mixed",
+        "detail": "option 0"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_probe_admission_mixed",
+        "detail": "option 1"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_probe_admission_mixed",
+        "detail": "option 2"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_probe_admission_mixed",
+        "detail": "option 3"
+      },
+      {
+        "id": "matrix_cell",
+        "passed": true,
+        "item": "acc_sg_probe_admission_mixed",
+        "detail": "secure: computed [0] authored [0]"
+      },
+      {
+        "id": "matrix_cell",
+        "passed": true,
+        "item": "acc_sg_probe_admission_mixed",
+        "detail": "direction_reversed: computed [3] authored [3]"
+      },
+      {
+        "id": "matrix_cell",
+        "passed": true,
+        "item": "acc_sg_probe_admission_mixed",
+        "detail": "old_ratio_default: computed [1] authored [1]"
+      },
+      {
+        "id": "matrix_cell",
+        "passed": true,
+        "item": "acc_sg_probe_admission_mixed",
+        "detail": "new_ratio_used: computed [2] authored [2]"
+      },
+      {
+        "id": "every_option_diagnostic",
+        "passed": true,
+        "item": "acc_sg_probe_admission_mixed",
+        "detail": "4/4 options map to a hypothesis"
+      },
+      {
+        "id": "probe_separates_all",
+        "passed": true,
+        "item": "acc_sg_probe_admission_mixed",
+        "detail": "each hypothesis predicts a different option"
+      },
+      {
+        "id": "distinct_options",
+        "passed": true,
+        "item": "acc_sg_probe_change_three",
+        "detail": "option texts are distinct"
+      },
+      {
+        "id": "unique_key",
+        "passed": true,
+        "item": "acc_sg_probe_change_three",
+        "detail": "options equal to the correct working: [2] key 2"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_probe_change_three",
+        "detail": "option 0"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_probe_change_three",
+        "detail": "option 1"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_probe_change_three",
+        "detail": "option 2"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_probe_change_three",
+        "detail": "option 3"
+      },
+      {
+        "id": "matrix_cell",
+        "passed": true,
+        "item": "acc_sg_probe_change_three",
+        "detail": "secure: computed [2] authored [2]"
+      },
+      {
+        "id": "matrix_cell",
+        "passed": true,
+        "item": "acc_sg_probe_change_three",
+        "detail": "direction_reversed: computed [1] authored [1]"
+      },
+      {
+        "id": "matrix_cell",
+        "passed": true,
+        "item": "acc_sg_probe_change_three",
+        "detail": "old_ratio_default: computed [0] authored [0]"
+      },
+      {
+        "id": "matrix_cell",
+        "passed": true,
+        "item": "acc_sg_probe_change_three",
+        "detail": "new_ratio_used: computed [3] authored [3]"
+      },
+      {
+        "id": "every_option_diagnostic",
+        "passed": true,
+        "item": "acc_sg_probe_change_three",
+        "detail": "4/4 options map to a hypothesis"
+      },
+      {
+        "id": "probe_separates_all",
+        "passed": true,
+        "item": "acc_sg_probe_change_three",
+        "detail": "each hypothesis predicts a different option"
+      },
+      {
+        "id": "distinct_options",
+        "passed": true,
+        "item": "acc_sg_probe_retirement",
+        "detail": "option texts are distinct"
+      },
+      {
+        "id": "unique_key",
+        "passed": true,
+        "item": "acc_sg_probe_retirement",
+        "detail": "options equal to the correct working: [1] key 1"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_probe_retirement",
+        "detail": "option 0"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_probe_retirement",
+        "detail": "option 1"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_probe_retirement",
+        "detail": "option 2"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_probe_retirement",
+        "detail": "option 3"
+      },
+      {
+        "id": "matrix_cell",
+        "passed": true,
+        "item": "acc_sg_probe_retirement",
+        "detail": "secure: computed [1] authored [1]"
+      },
+      {
+        "id": "matrix_cell",
+        "passed": true,
+        "item": "acc_sg_probe_retirement",
+        "detail": "direction_reversed: computed [0] authored [0]"
+      },
+      {
+        "id": "matrix_cell",
+        "passed": true,
+        "item": "acc_sg_probe_retirement",
+        "detail": "old_ratio_default: computed [2] authored [2]"
+      },
+      {
+        "id": "matrix_cell",
+        "passed": true,
+        "item": "acc_sg_probe_retirement",
+        "detail": "new_ratio_used: computed [3] authored [3]"
+      },
+      {
+        "id": "every_option_diagnostic",
+        "passed": true,
+        "item": "acc_sg_probe_retirement",
+        "detail": "4/4 options map to a hypothesis"
+      },
+      {
+        "id": "probe_separates_all",
+        "passed": true,
+        "item": "acc_sg_probe_retirement",
+        "detail": "each hypothesis predicts a different option"
+      },
+      {
+        "id": "share_check",
+        "passed": true,
+        "item": "acc_sg_repair_direction",
+        "detail": "old − new = 1/5"
+      },
+      {
+        "id": "distinct_options",
+        "passed": true,
+        "item": "acc_sg_repair_direction",
+        "detail": "option texts are distinct"
+      },
+      {
+        "id": "definition_item_needs_review",
+        "passed": true,
+        "item": "acc_sg_repair_direction",
+        "detail": "No scenario: keyed by authored definition; listed for academic review."
+      },
+      {
+        "id": "solver_key",
+        "passed": true,
+        "item": "acc_sg_repair_sacrifice_value",
+        "detail": "solver 0.14999999999999997 vs key 0.15"
+      },
+      {
+        "id": "solver_key",
+        "passed": true,
+        "item": "acc_sg_repair_gain_value",
+        "detail": "solver 0.15000000000000002 vs key 0.15"
+      },
+      {
+        "id": "solver_key",
+        "passed": true,
+        "item": "acc_sg_repair_unaffected",
+        "detail": "solver 0 vs key 0"
+      },
+      {
+        "id": "scenario_key",
+        "passed": true,
+        "item": "acc_sg_repair_unaffected",
+        "detail": "ratio scenario gives 0 for Z"
+      },
+      {
+        "id": "solver_inputs_match_scenario",
+        "passed": true,
+        "item": "acc_sg_repair_unaffected",
+        "detail": "solver inputs equal scenario shares"
+      },
+      {
+        "id": "solver_key",
+        "passed": true,
+        "item": "acc_sg_repair_new_ratio",
+        "detail": "solver 0.3 vs key 0.3"
+      },
+      {
+        "id": "scenario_key",
+        "passed": true,
+        "item": "acc_sg_repair_new_ratio",
+        "detail": "ratio scenario gives 0.3 for T"
+      },
+      {
+        "id": "solver_inputs_match_scenario",
+        "passed": true,
+        "item": "acc_sg_repair_new_ratio",
+        "detail": "solver inputs equal scenario shares"
+      },
+      {
+        "id": "distinct_options",
+        "passed": true,
+        "item": "acc_sg_check_admission_unequal",
+        "detail": "option texts are distinct"
+      },
+      {
+        "id": "unique_key",
+        "passed": true,
+        "item": "acc_sg_check_admission_unequal",
+        "detail": "options equal to the correct working: [2] key 2"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_admission_unequal",
+        "detail": "option 0"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_admission_unequal",
+        "detail": "option 1"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_admission_unequal",
+        "detail": "option 2"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_admission_unequal",
+        "detail": "option 3"
+      },
+      {
+        "id": "distinct_options",
+        "passed": true,
+        "item": "acc_sg_check_retirement_equal",
+        "detail": "option texts are distinct"
+      },
+      {
+        "id": "unique_key",
+        "passed": true,
+        "item": "acc_sg_check_retirement_equal",
+        "detail": "options equal to the correct working: [1] key 1"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_retirement_equal",
+        "detail": "option 0"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_retirement_equal",
+        "detail": "option 1"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_retirement_equal",
+        "detail": "option 2"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_retirement_equal",
+        "detail": "option 3"
+      },
+      {
+        "id": "distinct_options",
+        "passed": true,
+        "item": "acc_sg_check_change_unaffected",
+        "detail": "option texts are distinct"
+      },
+      {
+        "id": "unique_key",
+        "passed": true,
+        "item": "acc_sg_check_change_unaffected",
+        "detail": "options equal to the correct working: [3] key 3"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_change_unaffected",
+        "detail": "option 0"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_change_unaffected",
+        "detail": "option 1"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_change_unaffected",
+        "detail": "option 2"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_change_unaffected",
+        "detail": "option 3"
+      },
+      {
+        "id": "distinct_options",
+        "passed": true,
+        "item": "acc_sg_check_old_ratio_valid",
+        "detail": "option texts are distinct"
+      },
+      {
+        "id": "derived_ratio",
+        "passed": true,
+        "item": "acc_sg_check_old_ratio_valid",
+        "detail": "stated new ratio follows from the described admission"
+      },
+      {
+        "id": "unique_key",
+        "passed": true,
+        "item": "acc_sg_check_old_ratio_valid",
+        "detail": "options equal to the correct working: [1] key 1"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_old_ratio_valid",
+        "detail": "option 0"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_old_ratio_valid",
+        "detail": "option 1"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_old_ratio_valid",
+        "detail": "option 2"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_old_ratio_valid",
+        "detail": "option 3"
+      },
+      {
+        "id": "distinct_options",
+        "passed": true,
+        "item": "acc_sg_check_single_sacrifice",
+        "detail": "option texts are distinct"
+      },
+      {
+        "id": "derived_ratio",
+        "passed": true,
+        "item": "acc_sg_check_single_sacrifice",
+        "detail": "stated new ratio follows from the described admission"
+      },
+      {
+        "id": "unique_key",
+        "passed": true,
+        "item": "acc_sg_check_single_sacrifice",
+        "detail": "options equal to the correct working: [2] key 2"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_single_sacrifice",
+        "detail": "option 0"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_single_sacrifice",
+        "detail": "option 1"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_single_sacrifice",
+        "detail": "option 2"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_single_sacrifice",
+        "detail": "option 3"
+      },
+      {
+        "id": "distinct_options",
+        "passed": true,
+        "item": "acc_sg_check_death_gain",
+        "detail": "option texts are distinct"
+      },
+      {
+        "id": "unique_key",
+        "passed": true,
+        "item": "acc_sg_check_death_gain",
+        "detail": "options equal to the correct working: [0] key 0"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_death_gain",
+        "detail": "option 0"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_death_gain",
+        "detail": "option 1"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_death_gain",
+        "detail": "option 2"
+      },
+      {
+        "id": "text_carries_claim",
+        "passed": true,
+        "item": "acc_sg_check_death_gain",
+        "detail": "option 3"
+      },
+      {
+        "id": "family_count",
+        "passed": true,
+        "detail": "14 distinct families (minimum 6)"
+      },
+      {
+        "id": "check_families_unique",
+        "passed": true,
+        "detail": "checks use unique families disjoint from probes and repair"
+      },
+      {
+        "id": "check_reserve",
+        "passed": true,
+        "detail": "6 checks: immediate, two delayed, maintenance and failure reserves"
+      },
+      {
+        "id": "no_isomorphic_scenarios",
+        "passed": true,
+        "detail": "11 scenarios, 11 distinct"
+      },
+      {
+        "id": "boundary_old_ratio_valid",
+        "passed": true,
+        "detail": "a check guards against overcorrecting into \"never the old ratio\""
+      },
+      {
+        "id": "boundary_unaffected_partner",
+        "passed": true,
+        "detail": "a check includes a partner whose share does not change"
+      },
+      {
+        "id": "key_positions_vary",
+        "passed": true,
+        "detail": "check keys at positions 2,1,3,1,2,0"
+      },
+      {
+        "id": "repair_paths_complete",
+        "passed": true,
+        "detail": "a repair path for every hypothesis and the general fallback"
+      },
+      {
+        "id": "explanations_complete",
+        "passed": true,
+        "detail": "an explanation and worked contrast for every hypothesis"
+      },
+      {
+        "id": "source_refs",
+        "passed": true,
+        "detail": "versioned, hashed syllabus locator"
+      },
+      {
+        "id": "permission",
+        "passed": true,
+        "detail": "original wording owned by MockMob; no third-party text reproduced"
+      }
+    ],
+    "reviewItems": [
+      "acc_sg_repair_direction"
+    ]
+  },
+  "questionRowsDryRun": [
+    {
+      "id": "rcv-acc-sg-p1",
+      "subject": "accountancy",
+      "concept_id": "sacrificing_gaining",
+      "body": "A and B share profits equally. C is admitted, and the new ratio of A, B and C is 1:3:1. Which statement about A and B is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A sacrifices 3/10 and B gains 1/10"
+        },
+        {
+          "key": "B",
+          "text": "A and B sacrifice in their old ratio, 1:1"
+        },
+        {
+          "key": "C",
+          "text": "A and B sacrifice in the ratio 1:3"
+        },
+        {
+          "key": "D",
+          "text": "B sacrifices 1/10 and A gains 3/10"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "family_id": "acc_sg_f_admission_mixed",
+      "content_hash": "4411f61845082d218ec29e33bc36dd907503127ddc9736875febef8e53caac28",
+      "status": "not_seeded"
+    },
+    {
+      "id": "rcv-acc-sg-p2",
+      "subject": "accountancy",
+      "concept_id": "sacrificing_gaining",
+      "body": "P, Q and R share profits 5:3:2. They agree to share profits 2:3:5 from now on. Which statement is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "P, Q and R sacrifice in their old ratio, 5:3:2"
+        },
+        {
+          "key": "B",
+          "text": "R sacrifices 3/10 and P gains 3/10; Q is unaffected"
+        },
+        {
+          "key": "C",
+          "text": "P sacrifices 3/10 and R gains 3/10; Q is unaffected"
+        },
+        {
+          "key": "D",
+          "text": "P, Q and R sacrifice in the new ratio, 2:3:5"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "family_id": "acc_sg_f_change_three",
+      "content_hash": "64e67a282b85380097f4ddaab7d7efa41efb30740d72d875e8643523e575f8ed",
+      "status": "not_seeded"
+    },
+    {
+      "id": "rcv-acc-sg-p3",
+      "subject": "accountancy",
+      "concept_id": "sacrificing_gaining",
+      "body": "X, Y and Z share profits 4:3:2. Y retires, and X and Z will share future profits 5:4. Which statement is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "X and Z sacrifice in the ratio 1:2"
+        },
+        {
+          "key": "B",
+          "text": "X and Z gain in the ratio 1:2"
+        },
+        {
+          "key": "C",
+          "text": "X and Z gain in their old ratio, 2:1"
+        },
+        {
+          "key": "D",
+          "text": "X and Z gain in their new ratio, 5:4"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "family_id": "acc_sg_f_retirement",
+      "content_hash": "11ad2baa9e25bd8fb6f1049668cc403ef8d15beaae4bdf00e90515b7a94c0187",
+      "status": "not_seeded"
+    },
+    {
+      "id": "rcv-acc-sg-r1",
+      "subject": "accountancy",
+      "concept_id": "sacrificing_gaining",
+      "body": "After a change in the profit sharing ratio, a partner's share falls from 1/2 to 3/10. What has happened to this partner?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The partner has sacrificed 1/5 (old share − new share)"
+        },
+        {
+          "key": "B",
+          "text": "The partner has gained 1/5 (new share − old share)"
+        },
+        {
+          "key": "C",
+          "text": "The partner has sacrificed 3/10, the new share"
+        },
+        {
+          "key": "D",
+          "text": "Nothing has changed, because sacrifice is always measured in the old ratio"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "family_id": "acc_sg_f_rep_direction",
+      "content_hash": "d637bf2f79197ec0997ed86092fcb3872562fe1f68a4e0df446af0b94542c086",
+      "status": "not_seeded"
+    },
+    {
+      "id": "rcv-acc-sg-r2",
+      "subject": "accountancy",
+      "concept_id": "sacrificing_gaining",
+      "body": "M's share falls from 0.6 to 0.45. Enter M's sacrifice (old share − new share) as a decimal.",
+      "options": [],
+      "correct_answer": "0.15",
+      "explanation": "",
+      "family_id": "acc_sg_f_rep_sacrifice",
+      "content_hash": "be7a68d66960754bf900750bdd1a068b79409b55d4e15f1c2fbf061dbd030e4f",
+      "status": "not_seeded"
+    },
+    {
+      "id": "rcv-acc-sg-r3",
+      "subject": "accountancy",
+      "concept_id": "sacrificing_gaining",
+      "body": "N's share rises from 0.25 to 0.4. Enter N's gain (new share − old share) as a decimal.",
+      "options": [],
+      "correct_answer": "0.15",
+      "explanation": "",
+      "family_id": "acc_sg_f_rep_gain",
+      "content_hash": "fa0fa16c4eac6d75446d883ceebd5079d2a37236d9d7e2560b4794578f96606a",
+      "status": "not_seeded"
+    },
+    {
+      "id": "rcv-acc-sg-r4",
+      "subject": "accountancy",
+      "concept_id": "sacrificing_gaining",
+      "body": "Y and Z share profits 3:2. W is admitted, and the new ratio of Y, Z and W is 2:2:1. Enter Z's sacrifice as a decimal.",
+      "options": [],
+      "correct_answer": "0",
+      "explanation": "",
+      "family_id": "acc_sg_f_rep_unaffected",
+      "content_hash": "cf8c7bac2c43fb8dc5e3c9f91850f818da83d0405b93827742e90e8c153aaca1",
+      "status": "not_seeded"
+    },
+    {
+      "id": "rcv-acc-sg-r5",
+      "subject": "accountancy",
+      "concept_id": "sacrificing_gaining",
+      "body": "S and T share profits equally. U is admitted, and the new ratio of S, T and U is 3:1:1. Enter T's sacrifice as a decimal.",
+      "options": [],
+      "correct_answer": "0.3",
+      "explanation": "",
+      "family_id": "acc_sg_f_rep_new_ratio",
+      "content_hash": "0ebf71ffe5998770f4c7a51fae481716b927b6cb71cbcffd8286cd363505be8f",
+      "status": "not_seeded"
+    },
+    {
+      "id": "rcv-acc-sg-c1",
+      "subject": "accountancy",
+      "concept_id": "sacrificing_gaining",
+      "body": "P and Q share profits 2:1. R is admitted, and the new ratio of P, Q and R is 3:1:1. In what ratio do P and Q sacrifice?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2:1"
+        },
+        {
+          "key": "B",
+          "text": "3:1"
+        },
+        {
+          "key": "C",
+          "text": "1:2"
+        },
+        {
+          "key": "D",
+          "text": "1:1"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "family_id": "acc_sg_f_chk_admission_unequal",
+      "content_hash": "1ad4224436ad0b0abcb441c02839a46fa06e52424a1c26e4202ec4e132001a05",
+      "status": "not_seeded"
+    },
+    {
+      "id": "rcv-acc-sg-c2",
+      "subject": "accountancy",
+      "concept_id": "sacrificing_gaining",
+      "body": "X, Y and Z share profits 3:2:1. Y retires, and X and Z will share future profits 2:1. In what ratio do X and Z gain?",
+      "options": [
+        {
+          "key": "A",
+          "text": "3:1"
+        },
+        {
+          "key": "B",
+          "text": "1:1"
+        },
+        {
+          "key": "C",
+          "text": "2:1"
+        },
+        {
+          "key": "D",
+          "text": "1:3"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "family_id": "acc_sg_f_chk_retirement_equal",
+      "content_hash": "d970a740a80c4c6ea96d42266b2d19530331f8e40e25e02f8d7b289dab739425",
+      "status": "not_seeded"
+    },
+    {
+      "id": "rcv-acc-sg-c3",
+      "subject": "accountancy",
+      "concept_id": "sacrificing_gaining",
+      "body": "L, M and N share profits 2:2:1. They agree to share profits 1:2:2 from now on. Which statement is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "L, M and N sacrifice in their old ratio, 2:2:1"
+        },
+        {
+          "key": "B",
+          "text": "N sacrifices 1/5 and L gains 1/5; M is unaffected"
+        },
+        {
+          "key": "C",
+          "text": "L, M and N sacrifice in the new ratio, 1:2:2"
+        },
+        {
+          "key": "D",
+          "text": "L sacrifices 1/5 and N gains 1/5; M is unaffected"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "",
+      "family_id": "acc_sg_f_chk_change_unaffected",
+      "content_hash": "19bb997567a77e1a300f84b92ab85f442c44d12fd70713455e067e3f5306bbd6",
+      "status": "not_seeded"
+    },
+    {
+      "id": "rcv-acc-sg-c4",
+      "subject": "accountancy",
+      "concept_id": "sacrificing_gaining",
+      "body": "A and B share profits 3:1. C is admitted for a 1/5 share, which C takes from A and B in their old ratio. In what ratio do A and B sacrifice?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1:1"
+        },
+        {
+          "key": "B",
+          "text": "3:1"
+        },
+        {
+          "key": "C",
+          "text": "1:3"
+        },
+        {
+          "key": "D",
+          "text": "4:1"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "",
+      "family_id": "acc_sg_f_chk_old_ratio_valid",
+      "content_hash": "07ac9db2c048807088d3c092b20f28a75228d7e0c3b470428b64d210759a1a83",
+      "status": "not_seeded"
+    },
+    {
+      "id": "rcv-acc-sg-c5",
+      "subject": "accountancy",
+      "concept_id": "sacrificing_gaining",
+      "body": "D and E share profits equally. F is admitted for a 1/4 share, all of which D gives up. Which statement is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "D and E sacrifice in their old ratio, 1:1"
+        },
+        {
+          "key": "B",
+          "text": "D and E sacrifice in the ratio 1:2"
+        },
+        {
+          "key": "C",
+          "text": "D sacrifices 1/4; E is unaffected"
+        },
+        {
+          "key": "D",
+          "text": "D gains 1/4; E is unaffected"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "",
+      "family_id": "acc_sg_f_chk_single_sacrifice",
+      "content_hash": "e316896d62a127e15e3c5b0344bff16317761fdb064a27fae436d4f4ed6b1113",
+      "status": "not_seeded"
+    },
+    {
+      "id": "rcv-acc-sg-c6",
+      "subject": "accountancy",
+      "concept_id": "sacrificing_gaining",
+      "body": "G, H and I share profits 5:3:2. I dies, and G and H will share future profits equally. Which statement is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "H gains 1/5; G's share is unchanged"
+        },
+        {
+          "key": "B",
+          "text": "G and H gain in their old ratio, 5:3"
+        },
+        {
+          "key": "C",
+          "text": "G and H gain in their new ratio, 1:1"
+        },
+        {
+          "key": "D",
+          "text": "H sacrifices 1/5; G's share is unchanged"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "family_id": "acc_sg_f_chk_death_gain",
+      "content_hash": "ba02e901d2c225fd22bd73418e914b4da5412c6c6cbd7bc4bc438cc3ca1c574d",
+      "status": "not_seeded"
+    }
+  ]
+}

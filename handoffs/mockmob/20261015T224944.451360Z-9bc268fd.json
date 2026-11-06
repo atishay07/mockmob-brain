@@ -1,0 +1,24 @@
+{
+  "id": "20261015T224944.451360Z-9bc268fd",
+  "observed_at": "2026-10-15T22:49:44.451360+00:00",
+  "agent": "claude-opus-5.5 (session 604ced81, main)",
+  "task": "16 Oct 04:20 IST: batch migrations to production, batch gate, Repair v4 fix round",
+  "status": "active",
+  "done": "Applied 5 migrations to production isrxrxzjocewrdureyhp (trap_atlas, revise_cards, my_colleges, app_errors, funnel_daily) under the standing DB grant; verified RLS on, no policies, grants only postgres and service_role, 7 functions service_role-only; logged in docs/brain/STATUS.md on deploy/batch-1016 (commit 2a20d407) with undo paths. Started merging web/arena-ds-1016 into deploy/batch-1016: 11 files conflicted (18 hunks), resolution handed to workflow wf_59177b1b-ca6 (task ws6k09ze6). Repair v4 workflow wf_78a0923e-908 finished: server (check routes, Ask hand-off), repair-ui (Check it held), lab-older (older-paper line, marked-for-review in SWOT), truth fixed 5 problems (option order, never-seen sources, older-paper lines...), gate deployReady false with 2 blockers (Ask Mobi dead end when wallet paused; Ask link ambiguous: under the check question but hands over the original mistake). Launched fix workflow wf_303cb600-2ff (task wr1058s8x).",
+  "next": "1) Wait for ws6k09ze6 (batch gate: merge, build, 4 critics on port 3150 with the research rubric, Opus fixer, verifier). If pass: push deploy/batch-1016 to main, verify Vercel build and runtime errors. 2) wr1058s8x Repair v4 fix and regate, then merge web/repair4-1016 onto the deployed batch, add the Revise link, re-check, deploy. 3) Next batch: web/ntaidx-1016 (safe without the key; fixes the practice history silently ignored above ~700 ids) and web/pay-monthly-1016 (needs a visual gate and a build). 4) Landing wf_e3e2a26d-023 critic-2, then the owner's look on a local server before launch. 5) App packets, then APK v10. 6) Open vision gaps: slice 5 (question_option_stats plus cohort time, gated at 30/20 students), Mobi at real moments everywhere, Q13 landing calm-down.",
+  "blockers": [
+    "The 5-hour usage window was at 87% at 04:20 (reset 04:30 IST)"
+  ],
+  "evidence": [
+    "STATUS.md 2a20d407 on deploy/batch-1016",
+    "post-apply SQL check: 5 tables relrowsecurity true, grantees postgres,service_role, 0 policies",
+    "repair4 output C:/Users/atish/AppData/Local/Temp/claude/C--Users-atish-Desktop-mockmob-copy/604ced81-3aa7-4deb-b42c-f324ca5f51e2/tasks/w01xky2j2.output"
+  ],
+  "touched_files": [
+    "wt-batch/docs/brain/STATUS.md",
+    "production DB: 5 new tables plus 7 functions"
+  ],
+  "verification": "Migrations verified by SQL after apply. Batch and repair4 are not yet verified.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

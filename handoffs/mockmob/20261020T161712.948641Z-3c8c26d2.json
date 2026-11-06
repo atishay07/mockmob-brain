@@ -1,0 +1,29 @@
+{
+  "id": "20261020T161712.948641Z-3c8c26d2",
+  "observed_at": "2026-10-20T16:17:12.948641+00:00",
+  "agent": "claude-opus-5.5 session 604ced81 (CEO/CTO, night)",
+  "task": "20 Oct night: version 15 finish (app signed + website live)",
+  "status": "complete",
+  "done": "Version 15 DONE at ~9:55 pm. App ui/1020-v15 9e6ad500f (+ goldens d71078fe6), 1.0.17+15: merged invite, calm (reviewed by 20 agents, 14 confirmed defects fixed: consent never promotes age band, D181 first result per attempt + returns to Today via router), calm-ui (Pro sheet visual first, renewal stated), den acts, Mob polish (chain chip, B1 title, pennant, sit sheet, Free start row, copy), copy fixes (Get Pro, Rather not say), motion guard. Signed AAB + arm64 APK in C:\\Users\\atish\\Desktop\\MockMob-build-15 (AAB 4bca8f3c..., APK 8aea3717..., upload key 62:AC:58...EC:47, 16 KB OK) with README.txt, OWNER-STEPS.md, symbols. Website LIVE main 7f7e3f19f: full mock price enforced, referral any practice, Mob hours, egress cuts, v3.fix, D183 consent+privacy; 7 migrations applied on production with pre/post checks; MOB_FORMATS_ENABLED=true; smoke 200/401 OK, no runtime errors.",
+  "next": "Owner: upload the AAB to closed testing per OWNER-STEPS.md. Next session (other work): copy sweep of \"lost\"/\"last\" outside the Mob; den studying chip timing (den_stage StudyDesk); web Mob V4 W1-W7 + web den fix card; MOB_LIVE_ENABLED after Supabase Realtime public access off; staging to its own org 22 Oct; ~117 old golden drift (tmp/v15-night/known-drift.txt) to regenerate after a look.",
+  "blockers": [],
+  "evidence": [
+    "Desktop/MockMob-build-15/README.txt",
+    "tmp/v15-night/v15-full-final.log (10491 pass, 117 fail = drift + 2 flaky)",
+    "tmp/walk-1020/app-v15/final/contact-final.png",
+    "tmp/walk-1020/app-v15/final/release-launch.png",
+    "STATUS.md on main 7f7e3f19f",
+    "docs/brain/NOW.md fdda26d50"
+  ],
+  "touched_files": [
+    "wt-1020-v15app ui/1020-v15",
+    "wt-1020-webrel -> origin/main",
+    "production Supabase isrxrxzjocewrdureyhp (7 migrations)",
+    "Vercel env MOB_FORMATS_ENABLED",
+    "Desktop/MockMob-build-15",
+    "mockmob-next docs/brain NOW.md, OWNER-FEEDBACK"
+  ],
+  "verification": "flutter analyze clean; full suite 10,491 pass, 117 fail (111 proven pre-existing drift on 0d5bb7fdd/717aa3a89, 2 flaky R5/R6, 4 den acts strip regenerated after curve swap); x64 release APK launches to welcome with no errors; final demo walk Night+Day of den, Start a game, sit sheet, You, Wallet; apksigner/keytool show upload key on AAB and APK; production migrations verified by SQL; website smoke and runtime errors checked.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "20261013T102506.696322Z-a1926a8a",
+  "observed_at": "2026-10-13T10:25:06.697319+00:00",
+  "agent": "claude-opus-5.5 (workflow subagent, NTA paper-setter review)",
+  "task": "Review NTA engine 053d2a0 on fix/nta-mode as a CUET paper setter (read-only, no code edits)",
+  "status": "complete",
+  "done": "Ran the read-only production assembly for all 15 subjects (3 papers each). Result: Accountancy exact on paper 1; Business Studies and Economics closest, with Q41-50 standalone; English refused (1 complete passage set); 11 subjects refused (0 scored). End to end 0.1-2.7 s. Read Accountancy papers 1-2, BST papers 1-2, Economics papers 1-2 and an English paper at 7.5 in full. No paper is handmade-equivalent. Within-paper concept duplicates: BST paper 2 has all 5 Financial Markets questions on primary vs secondary market; BST Taylor technique/principle pair; Accountancy paper 2 has Q12=Q36 and 5 calls-in-advance items; Economics Q3/Q17 use the same numbers; English 7.5 has Q1=Q2, Q3=Q4 and Q29=Q33. One broken item (BST 24ff7d61: a sequence question with match options). One likely wrong key (Accountancy 40d8ffd9: dissolution split rateably instead of by profit ratio). Stems carry hedges and give answers away. Explanations cite 'the excerpt'. The type classifier miscounts statement items. Difficulty labels are unreliable. Evidence JSON is about 38 KB per row, so the pool read will not scale to 1,490 Accountancy rows. Concept_id is unique per row, so it cannot be used for dedup. Judge scores cluster at L8/G9 and L7/G9, so the bar barely discriminates.",
+  "next": "Owner decisions and fixes: semantic dedup and caps per learning objective; a paper-level review gate; quarantine the two defective items; a structural item gate (options in stem, sequence/match option validity); fail closed on missing solver keys; a slim precomputed eligibility index in place of the full evidence read; case sets and passages of 200-300 words; English vocab headword dedup; sentence-part rearrangement items; a numerical-share quota.",
+  "blockers": [],
+  "evidence": [
+    "Scratch scripts in session scratchpad: nta_review_dump.mjs, nta_review_checks.mjs, nta_review_evidence.mjs, size.mjs, stress.mjs (select-only)",
+    "test:nta 76/76, test:recovery 39/39 re-run",
+    "stress: 1,200-3,200-row synthetic banks assemble in 130-314 ms"
+  ],
+  "touched_files": [],
+  "verification": "Production select queries only; no writes, sessions or model calls; no code edited.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

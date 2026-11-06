@@ -1,0 +1,21 @@
+{
+  "id": "20261024T003420.556628Z-dc10ce4c",
+  "observed_at": "2026-10-24T00:34:20.556628+00:00",
+  "agent": "claude-opus-5.5 session b448f889 (Reel orchestrator)",
+  "task": "MockMob 9:16 Reel v2 overnight finish (owner asleep since about 3:40 am 24 Oct)",
+  "status": "active",
+  "done": "Owner 3:30 am notes (move up ~10%, smaller, Mobi above the IG UI, spacing logos / CUET UG 2027 chip, louder leading haptics) and the 3:35 am model-routing rule recorded verbatim (docs/OWNER-LEDGER.md, NOTES DIRECTOR lines, memory subagent-model-choice.md). Resume run wf_bb2765aa-968 paused at 72% usage 4:39 am; fresh run tools/reel916-orch/resume3.js (wf_f1b330c9-444, max 3 agents; Sonnet builds/fixes/checks, Haiku render, Opus judge) running. DONE: open lane with the owner's layout points (Mobi eyes y 1343-1474 behind a desk plate edge at 1608, marks 0.9x with 34-50 px air, CUET chip 44 px clear, type and wall up; check PASS); close PASS; unlimited done; sound build (bed public/music/reel-b21g.wav, opening haptic lift, p8 master gain, v8 end sound); first fix rounds answer/reveal/question/askmobi/colleges/mob. New memory workflow-resume-prefix-cache.md (resumeFromRunId = ordered prefix cache).",
+  "next": "At about 92% usage: TaskStop the resume3 workflow task wl7a4qgrg. At the 8:04 am in-session cron wake (d55c87d4): python tools/reel916-orch/mk_resume4.py (reads both journals), launch resume4.js FRESH with args maxc 4. Then my own look at out/reel916/owner/reel-v2-preview.mp4 and out/reel916/cand/cand3.mp4 (full res, 390 px, ebur128), one routed fix round (carry: reveal 142 punch sound body; the open desk edge line read), the final (wave3b.js final step: CRF 10 slow, gate, deliver_reel.sh), send the owner; then the 30 s and 15 s cutdowns.",
+  "blockers": [
+    "5-hour usage window (88% at 6:03 am, resets 8:00 am IST); Autopilot account switch is the owner's switch and is off"
+  ],
+  "evidence": [
+    "docs/NOTES.md (done reel916 resume open, done reel916 resume sound, ORCHESTRATOR PAUSE 4:39 AM, ORCHESTRATOR CARRY 5:17 am); journals wf_bb2765aa-968, wf_f1b330c9-444; out/reel916/resume/open/o5.mp4"
+  ],
+  "touched_files": [
+    "docs/OWNER-LEDGER.md; docs/NOTES.md; tools/reel916-orch/mk_resume2.py, resume2.js, mk_resume3.py, resume3.js, mk_resume4.py, resume4.js, resume2_keep.json"
+  ],
+  "verification": "My own look at 7 frames of the new open (o5.mp4) confirms the 3:30 am layout points; disk 46 GB free",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

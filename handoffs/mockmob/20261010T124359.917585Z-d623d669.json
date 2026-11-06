@@ -1,0 +1,20 @@
+{
+  "id": "20261010T124359.917585Z-d623d669",
+  "observed_at": "2026-10-10T12:43:59.917585+00:00",
+  "agent": "claude",
+  "task": "Package 3 MockMob read-only panel: verification of the existing build (no files changed)",
+  "status": "active",
+  "done": "A subagent checked the existing package 3 work in apps/mockmob-panel/ (build.py, drift.py, panel.js, tests) and wired by an earlier session (checkpoints 20261010T122522 and 20261010T124020). It changed no files and made no paid call. Its independent read-only recompute matched .state/mockmob.json on 16 checks, with 0 mismatches. Reported values (from its recompute, not reproduced by me): STATUS.md 2898 lines, latest heading line 2885 V7.17 stopped unqualified; settled 39.139769, holds 0.821324, committed 39.961093, remaining 10.038907 of a $50 ceiling; ledger 65 unresolved holds; git HEAD 6c5e05b, origin/main 4476a5a, 80 modified and 771 untracked files; 5 blockers and 5 drift rows matched.</done>\n<parameter name=\"evidence\">[\"apps/mockmob-panel/build.py\", \"apps/mockmob-panel/drift.py\", \"apps/mockmob-panel/panel.js\", \"C:/Users/atish/Desktop/mockmob copy/mockmob copy/docs/brain/STATUS.md lines 2885-2898\", \"C:/Users/atish/Desktop/mockmob copy/mockmob copy/docs/brain/COST-POLICY.md lines 3-7\", \"handoffs/mockmob (checkpoint 20261010T061304.294725Z-9f2e4417 blockers)\"]",
+  "next": "Owner decision needed before any paid MockMob work: docs/brain/COST-POLICY.md line 7 says the hard lifetime ceiling is $10, while the owner update at lines 3-5 (4 Oct) and STATUS line 2891 and the ledger all say $50. Reconcile the policy text first. Also decide whether .state/mockmob.json is enough or a separate status.json is wanted, and whether the earlier build should stop writing to the AI OS root .state folder.",
+  "blockers": [
+    "COST-POLICY.md line 7 ($10) conflicts with the owner update, STATUS line 2891 and the ledger ($50). Paid MockMob work should wait for reconciliation.",
+    "The RAG index does not include the mockmob-* pages (RAG owner)."
+  ],
+  "evidence": [],
+  "touched_files": [
+    "none by this check"
+  ],
+  "verification": "Subagent-reported: independent read-only script in the scratchpad, 16 checks, 0 mismatches. Not run: test_panel.py and test_drift.py (they rewrite .state). Not run: verify-all. I have not reproduced these figures myself.",
+  "cost_and_pending_requests": "No paid calls. Read-only verification.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

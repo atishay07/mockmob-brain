@@ -1,0 +1,2536 @@
+{
+ "name": "390-day",
+ "cfg": {
+  "w": 390,
+  "h": 844,
+  "dsf": 2,
+  "mobile": true,
+  "theme": "light"
+ },
+ "errors": [],
+ "shots": [
+  "shots/390-day/00-first-screen.png"
+ ],
+ "sections": [
+  {
+   "nn": "01",
+   "key": "hero",
+   "sel": "main#main-content > section:nth-of-type(1)",
+   "nth": 1,
+   "tag": "section",
+   "id": null,
+   "cls": "lp-hero",
+   "label": null,
+   "heading": "CUET 2027. One mock. Know what to fix.",
+   "top": 61,
+   "height": 1491,
+   "story": null,
+   "sticky": [],
+   "timelines": [
+    "lp-bg__grid: scroll(root)",
+    "lp-bg__dots: scroll(root)",
+    "lp-stage__card: scroll(root)"
+   ],
+   "shots": [
+    "shots/390-day/01-hero-1.png",
+    "shots/390-day/01-hero-2.png"
+   ],
+   "text": {
+    "total": 121,
+    "heading": 8,
+    "body": 56,
+    "control": 50,
+    "other": 7,
+    "otherBits": [
+     "Your first question. Go.",
+     "No signup",
+     "English"
+    ],
+    "bodyBlocks": 7,
+    "longest": [
+     {
+      "tag": "P",
+      "cls": "lp-lead",
+      "words": 15,
+      "lines": 2,
+      "kind": "body",
+      "text": "Take a timed mock. See exactly where every mark went. Fix the right chapter tonight."
+     },
+     {
+      "tag": "P",
+      "cls": "lp-trust-line",
+      "words": 9,
+      "lines": 1,
+      "kind": "body",
+      "text": "Free to startPro ₹99 a monthCancel anytime"
+     },
+     {
+      "tag": "P",
+      "cls": "lp-bank.lp-bank--short",
+      "words": 9,
+      "lines": 1,
+      "kind": "body",
+      "text": "One bank of 5,765 questions. No cap on Pro."
+     },
+     {
+      "tag": "P",
+      "cls": "mm-drill__q",
+      "words": 8,
+      "lines": 2,
+      "kind": "body",
+      "text": "Choose the option nearest in meaning to CANDID:"
+     }
+    ],
+    "headings": [
+     "CUET 2027.One mock.Know what to fix."
+    ]
+   }
+  },
+  {
+   "nn": "02",
+   "key": "statement",
+   "sel": "main#main-content > section:nth-of-type(2)",
+   "nth": 2,
+   "tag": "section",
+   "id": null,
+   "cls": "lp-statement",
+   "label": "What MockMob does",
+   "heading": "",
+   "top": 1552,
+   "height": 1519,
+   "story": null,
+   "sticky": [
+    "mm-wrap"
+   ],
+   "timelines": [
+    "lp-statement__w: --lp-statement",
+    "subj-obj__occl: --lp-statement, --lp-statement",
+    "subj-obj__contact: --lp-statement, --lp-statement",
+    "subj-obj__float: auto, --lp-statement, --lp-statement",
+    "lp-shelf__name: --lp-statement",
+    "subj-obj__light: --lp-statement",
+    "(section): view-timeline --lp-statement"
+   ],
+   "shots": [
+    "shots/390-day/02-statement-1.png",
+    "shots/390-day/02-statement-2.png",
+    "shots/390-day/02-statement-3.png"
+   ],
+   "text": {
+    "total": 39,
+    "heading": 0,
+    "body": 34,
+    "control": 5,
+    "other": 0,
+    "otherBits": [],
+    "bodyBlocks": 2,
+    "longest": [
+     {
+      "tag": "P",
+      "cls": "lp-statement__text",
+      "words": 20,
+      "lines": 7,
+      "kind": "body",
+      "text": "Yourmarksslippedsomewhere.MockMobshowsyouwhere,picksthechapterfortonight,andkeepsyourDUshortlistinsight."
+     },
+     {
+      "tag": "P",
+      "cls": "lp-shelf__note",
+      "words": 14,
+      "lines": 2,
+      "kind": "body",
+      "text": "Full NTA-pattern mocks for the 15 subjects behind 19 of every 20 CUET papers"
+     }
+    ],
+    "headings": []
+   }
+  },
+  {
+   "nn": "03",
+   "key": "inside-the-lab",
+   "sel": "main#main-content > section:nth-of-type(3)",
+   "nth": 3,
+   "tag": "section",
+   "id": "inside-the-lab",
+   "cls": "lp-sec lp-sec--cinema lp-pos-host",
+   "label": null,
+   "heading": "Every mark, traced back to a moment.",
+   "top": 3072,
+   "height": 3704,
+   "story": {
+    "pinned": "true",
+    "cls": "ss lc",
+    "steps": 4,
+    "trackTop": 3326,
+    "trackH": 3410,
+    "stageH": 844,
+    "hold": 2566,
+    "gap": 855,
+    "beatCss": "76svh",
+    "stageCs": "sticky"
+   },
+   "sticky": [
+    "ss__stage"
+   ],
+   "timelines": [
+    "ss__track: view-timeline --ss-track",
+    "ss-fill: --ss-track",
+    "subj-obj: --ss-track"
+   ],
+   "shots": [
+    "shots/390-day/03-inside-the-lab-0-head.png",
+    "shots/390-day/03-inside-the-lab-step1.png",
+    "shots/390-day/03-inside-the-lab-step2.png",
+    "shots/390-day/03-inside-the-lab-step3.png",
+    "shots/390-day/03-inside-the-lab-step4.png"
+   ],
+   "textHead": {
+    "total": 36,
+    "heading": 7,
+    "body": 29,
+    "control": 0,
+    "other": 0,
+    "otherBits": [],
+    "bodyBlocks": 2,
+    "longest": [
+     {
+      "tag": "P",
+      "cls": "lp-sub",
+      "words": 27,
+      "lines": 4,
+      "kind": "body",
+      "text": "Your score says how it went. The Lab says why: every minute, every second thought, the reason behind each miss, and the plan for your next mock."
+     },
+     {
+      "tag": "P",
+      "cls": "lp-kicker",
+      "words": 2,
+      "lines": 1,
+      "kind": "body",
+      "text": "Mistake Lab"
+     }
+    ],
+    "headings": [
+     "Every mark, traced back to a moment."
+    ]
+   },
+   "textSteps": [
+    {
+     "step": 1,
+     "onStage": 1,
+     "total": 125,
+     "heading": 6,
+     "body": 108,
+     "control": 4,
+     "other": 7,
+     "otherBits": [
+      "Accountancy",
+      "Sample mock",
+      "22",
+      "50",
+      "Pace",
+      "1:12"
+     ],
+     "bodyBlocks": 18,
+     "longest": [
+      {
+       "tag": "P",
+       "cls": "lc-scene__body",
+       "words": 19,
+       "lines": 3,
+       "kind": "body",
+       "text": "Every question runs against CUET’s pace of 1:12. The overruns light up, and so does what they bought you."
+      },
+      {
+       "tag": "P",
+       "cls": "lcp__foot.lct__sum",
+       "words": 18,
+       "lines": 2,
+       "kind": "body",
+       "text": "All 3 wrong answers ran over pace, 3:43 past it between them. Every answer under pace was right"
+      },
+      {
+       "tag": "P",
+       "cls": "lcp__lead",
+       "words": 10,
+       "lines": 1,
+       "kind": "body",
+       "text": "CUET gives you 1:12 a question. Your median was 1:11"
+      },
+      {
+       "tag": "LI",
+       "cls": "lct__row",
+       "words": 5,
+       "lines": 1,
+       "kind": "body",
+       "text": "Q10:480:24 under"
+      }
+     ],
+     "headings": [
+      "Find the minutes that cost you."
+     ]
+    },
+    {
+     "step": 2,
+     "onStage": 2,
+     "total": 85,
+     "heading": 6,
+     "body": 70,
+     "control": 4,
+     "other": 5,
+     "otherBits": [
+      "Accountancy",
+      "Sample mock",
+      "22",
+      "50"
+     ],
+     "bodyBlocks": 7,
+     "longest": [
+      {
+       "tag": "P",
+       "cls": "lc-scene__body",
+       "words": 17,
+       "lines": 2,
+       "kind": "body",
+       "text": "Your first pick, what you switched to and when, and the marks every switch won or cost."
+      },
+      {
+       "tag": "P",
+       "cls": "lcp__lead",
+       "words": 14,
+       "lines": 2,
+       "kind": "body",
+       "text": "You changed answers 3 times across 3 questions. Net effect on your marks: −6"
+      },
+      {
+       "tag": "LI",
+       "cls": "lcc__row",
+       "words": 9,
+       "lines": 2,
+       "kind": "body",
+       "text": "Q4B5:080:52 laterD6:00−6"
+      },
+      {
+       "tag": "LI",
+       "cls": "lcc__row",
+       "words": 9,
+       "lines": 2,
+       "kind": "body",
+       "text": "Q8A12:120:46 laterC12:58−6"
+      }
+     ],
+     "headings": [
+      "Every second thought, on the clock."
+     ]
+    },
+    {
+     "step": 3,
+     "onStage": 3,
+     "total": 174,
+     "heading": 7,
+     "body": 158,
+     "control": 4,
+     "other": 5,
+     "otherBits": [
+      "Accountancy",
+      "Sample mock",
+      "22",
+      "50"
+     ],
+     "bodyBlocks": 18,
+     "longest": [
+      {
+       "tag": "P",
+       "cls": "lc-scene__body",
+       "words": 23,
+       "lines": 3,
+       "kind": "body",
+       "text": "Why your pick was tempting, where it breaks, and the rule to keep. Written from the official key, or not written at all."
+      },
+      {
+       "tag": "P",
+       "cls": "",
+       "words": 17,
+       "lines": 2,
+       "kind": "body",
+       "text": "With no deed, capital earns no interest, and a loan from a partner feels like more capital."
+      },
+      {
+       "tag": "P",
+       "cls": "lcp-q__stem",
+       "words": 16,
+       "lines": 2,
+       "kind": "body",
+       "text": "With no partnership deed, a partner lends the firm ₹50,000. What interest does the loan earn?"
+      },
+      {
+       "tag": "P",
+       "cls": "",
+       "words": 16,
+       "lines": 2,
+       "kind": "body",
+       "text": "Section 13(d): with no deed, a partner’s loan earns 6% a year, whatever the profit."
+      }
+     ],
+     "headings": [
+      "Repair the reason, not just the answer."
+     ]
+    },
+    {
+     "step": 4,
+     "onStage": 4,
+     "total": 169,
+     "heading": 6,
+     "body": 154,
+     "control": 4,
+     "other": 5,
+     "otherBits": [
+      "Accountancy",
+      "Sample mock",
+      "22",
+      "50"
+     ],
+     "bodyBlocks": 24,
+     "longest": [
+      {
+       "tag": "P",
+       "cls": "lc-scene__body",
+       "words": 25,
+       "lines": 3,
+       "kind": "body",
+       "text": "A SWOT after every mock, built from your answers, your times and your earlier mocks, with the exact sets to do next. Free. No credits."
+      },
+      {
+       "tag": "P",
+       "cls": "lcp-swot__detail",
+       "words": 14,
+       "lines": 2,
+       "kind": "body",
+       "text": "9 right of 14 across 3 papers. 10 marks slipped here in this paper."
+      },
+      {
+       "tag": "P",
+       "cls": "lcp-plan__why",
+       "words": 13,
+       "lines": 2,
+       "kind": "body",
+       "text": "9 right of 14 so far. 10 marks slipped here in this paper."
+      },
+      {
+       "tag": "P",
+       "cls": "lcp-swot__detail",
+       "words": 13,
+       "lines": 2,
+       "kind": "body",
+       "text": "14 right of 15 across 3 papers, 3 of 3 in this one."
+      }
+     ],
+     "headings": [
+      "Leave every mock with a plan."
+     ]
+    }
+   ]
+  },
+  {
+   "nn": "04",
+   "key": "your-prep",
+   "sel": "main#main-content > section:nth-of-type(4)",
+   "nth": 4,
+   "tag": "section",
+   "id": "your-prep",
+   "cls": "lp-sec lp-sec--tour lp-pos-host",
+   "label": null,
+   "heading": "What’s inside MockMob.",
+   "top": 6776,
+   "height": 5977,
+   "story": {
+    "pinned": "true",
+    "cls": "ss ft-story ss--centre",
+    "steps": 10,
+    "trackTop": 6957,
+    "trackH": 5739,
+    "stageH": 844,
+    "hold": 4895,
+    "gap": 544,
+    "beatCss": "58svh",
+    "stageCs": "sticky"
+   },
+   "sticky": [
+    "ss__stage"
+   ],
+   "timelines": [
+    "ss__track: view-timeline --ss-track",
+    "ss-fill: --ss-track"
+   ],
+   "shots": [
+    "shots/390-day/04-your-prep-0-head.png",
+    "shots/390-day/04-your-prep-step1.png",
+    "shots/390-day/04-your-prep-step2.png",
+    "shots/390-day/04-your-prep-step3.png",
+    "shots/390-day/04-your-prep-step4.png",
+    "shots/390-day/04-your-prep-step5.png",
+    "shots/390-day/04-your-prep-step6.png",
+    "shots/390-day/04-your-prep-step7.png",
+    "shots/390-day/04-your-prep-step8.png",
+    "shots/390-day/04-your-prep-step9.png",
+    "shots/390-day/04-your-prep-step10.png"
+   ],
+   "textHead": {
+    "total": 14,
+    "heading": 3,
+    "body": 11,
+    "control": 0,
+    "other": 0,
+    "otherBits": [],
+    "bodyBlocks": 1,
+    "longest": [
+     {
+      "tag": "P",
+      "cls": "lp-sub",
+      "words": 11,
+      "lines": 2,
+      "kind": "body",
+      "text": "Practise. Replay. Repair. Then one plan that ties it all together."
+     }
+    ],
+    "headings": [
+     "What’s inside MockMob."
+    ]
+   },
+   "textSteps": [
+    {
+     "step": 1,
+     "onStage": 1,
+     "total": 100,
+     "heading": 6,
+     "body": 65,
+     "control": 22,
+     "other": 7,
+     "otherBits": [
+      "01",
+      "10",
+      "Practice",
+      "Accountancy full mock",
+      "38:09"
+     ],
+     "bodyBlocks": 9,
+     "longest": [
+      {
+       "tag": "P",
+       "cls": "ft__lede",
+       "words": 17,
+       "lines": 2,
+       "kind": "body",
+       "text": "A quick drill on a free evening, or a full 50-question, 60-minute mock on the real clock."
+      },
+      {
+       "tag": "P",
+       "cls": "ts__q",
+       "words": 16,
+       "lines": 3,
+       "kind": "body",
+       "text": "A partner’s capital account shows a debit balance. Where does it go in the balance sheet?"
+      },
+      {
+       "tag": "P",
+       "cls": "ft__summary",
+       "words": 8,
+       "lines": 1,
+       "kind": "body",
+       "text": "Marked +5 / −1, the way CUET marks it."
+      },
+      {
+       "tag": "LI",
+       "cls": "",
+       "words": 5,
+       "lines": 1,
+       "kind": "body",
+       "text": "DNot shown at all"
+      }
+     ],
+     "headings": [
+      "Train on the exam’s own clock."
+     ]
+    },
+    {
+     "step": 2,
+     "onStage": 2,
+     "total": 124,
+     "heading": 9,
+     "body": 86,
+     "control": 22,
+     "other": 7,
+     "otherBits": [
+      "02",
+      "10",
+      "Mistake Repair",
+      "Mistake Repair",
+      "Q22"
+     ],
+     "bodyBlocks": 11,
+     "longest": [
+      {
+       "tag": "P",
+       "cls": "ft__lede",
+       "words": 21,
+       "lines": 3,
+       "kind": "body",
+       "text": "Why your pick was tempting, where it breaks, and the rule to keep. From the official key, or not at all."
+      },
+      {
+       "tag": "P",
+       "cls": "",
+       "words": 12,
+       "lines": 2,
+       "kind": "body",
+       "text": "Where it breaksA debit balance means the partner owes the firm."
+      },
+      {
+       "tag": "P",
+       "cls": "",
+       "words": 12,
+       "lines": 2,
+       "kind": "body",
+       "text": "Why B is rightMoney owed to the firm is an asset."
+      },
+      {
+       "tag": "P",
+       "cls": "",
+       "words": 11,
+       "lines": 2,
+       "kind": "body",
+       "text": "Why A looked rightCapital usually sits on the liabilities side."
+      }
+     ],
+     "headings": [
+      "Fix why you missed it. Not just the answer."
+     ]
+    },
+    {
+     "step": 3,
+     "onStage": 3,
+     "total": 107,
+     "heading": 9,
+     "body": 68,
+     "control": 21,
+     "other": 9,
+     "otherBits": [
+      "03",
+      "10",
+      "Learn",
+      "Vocabulary recall",
+      "Card 1 of 5"
+     ],
+     "bodyBlocks": 9,
+     "longest": [
+      {
+       "tag": "P",
+       "cls": "ft__lede",
+       "words": 14,
+       "lines": 2,
+       "kind": "body",
+       "text": "Short lessons with worked examples, then recall cards that come back before you forget."
+      },
+      {
+       "tag": "LI",
+       "cls": "",
+       "words": 12,
+       "lines": 3,
+       "kind": "body",
+       "text": "Bcharacterized by directness in manner or speech; without subtlety or evasion"
+      },
+      {
+       "tag": "P",
+       "cls": "ts__q",
+       "words": 11,
+       "lines": 2,
+       "kind": "body",
+       "text": "“I gave them my candid opinion.” What does candid mean here?"
+      },
+      {
+       "tag": "LI",
+       "cls": "",
+       "words": 8,
+       "lines": 1,
+       "kind": "body",
+       "text": "Ceasily tricked because of being too trusting"
+      }
+     ],
+     "headings": [
+      "Learn the idea behind the mark, then keep it."
+     ]
+    },
+    {
+     "step": 4,
+     "onStage": 4,
+     "total": 101,
+     "heading": 6,
+     "body": 56,
+     "control": 23,
+     "other": 16,
+     "otherBits": [
+      "04",
+      "10",
+      "Replay",
+      "Replay, question 4",
+      "5:08",
+      "Picked",
+      "B",
+      "6:00",
+      "Changed to",
+      "D",
+      "D",
+      "−1"
+     ],
+     "bodyBlocks": 6,
+     "longest": [
+      {
+       "tag": "P",
+       "cls": "ft__lede",
+       "words": 14,
+       "lines": 2,
+       "kind": "body",
+       "text": "Every changed answer, every slow question and every skip, in the order it happened."
+      },
+      {
+       "tag": "P",
+       "cls": "ft__summary",
+       "words": 11,
+       "lines": 1,
+       "kind": "body",
+       "text": "The whole mock in order, so you pick what to fix."
+      },
+      {
+       "tag": "P",
+       "cls": "ts__note",
+       "words": 9,
+       "lines": 1,
+       "kind": "body",
+       "text": "Changed 0:52 later. That change cost you 6 marks"
+      },
+      {
+       "tag": "LI",
+       "cls": "",
+       "words": 9,
+       "lines": 1,
+       "kind": "body",
+       "text": "Q8A at 12:12, then C at 12:58−6"
+      }
+     ],
+     "headings": [
+      "Replay your mock, move by move."
+     ]
+    },
+    {
+     "step": 5,
+     "onStage": 5,
+     "total": 93,
+     "heading": 6,
+     "body": 55,
+     "control": 23,
+     "other": 9,
+     "otherBits": [
+      "05",
+      "10",
+      "Chapter review",
+      "Chapter review after one mock"
+     ],
+     "bodyBlocks": 9,
+     "longest": [
+      {
+       "tag": "P",
+       "cls": "ft__lede",
+       "words": 13,
+       "lines": 2,
+       "kind": "body",
+       "text": "Every miss traced back to its chapter, so tonight has one clear target."
+      },
+      {
+       "tag": "P",
+       "cls": "ts__note",
+       "words": 9,
+       "lines": 2,
+       "kind": "body",
+       "text": "Partner retirement cost the most marks. Tonight starts there."
+      },
+      {
+       "tag": "LI",
+       "cls": "",
+       "words": 6,
+       "lines": 3,
+       "kind": "body",
+       "text": "Partner retirementAccountancyFix first38"
+      },
+      {
+       "tag": "LI",
+       "cls": "",
+       "words": 5,
+       "lines": 3,
+       "kind": "body",
+       "text": "Money and bankingEconomics52"
+      }
+     ],
+     "headings": [
+      "Know the chapter to fix first."
+     ]
+    },
+    {
+     "step": 6,
+     "onStage": 6,
+     "total": 111,
+     "heading": 9,
+     "body": 72,
+     "control": 22,
+     "other": 8,
+     "otherBits": [
+      "06",
+      "10",
+      "Ask Mobi",
+      "Ask Mobi",
+      "Your record"
+     ],
+     "bodyBlocks": 9,
+     "longest": [
+      {
+       "tag": "P",
+       "cls": "ft__lede",
+       "words": 16,
+       "lines": 2,
+       "kind": "body",
+       "text": "Ask about your own record and get one next step, the same one Today shows you."
+      },
+      {
+       "tag": "P",
+       "cls": "ft__summary",
+       "words": 12,
+       "lines": 2,
+       "kind": "body",
+       "text": "One step for tonight, the same on Today and in chapter review."
+      },
+      {
+       "tag": "P",
+       "cls": "",
+       "words": 10,
+       "lines": 2,
+       "kind": "body",
+       "text": "Retirement in Accountancy cost you the most this week. Tonight:"
+      },
+      {
+       "tag": "LI",
+       "cls": "",
+       "words": 7,
+       "lines": 1,
+       "kind": "body",
+       "text": "10 minRe-read the two you changed"
+      }
+     ],
+     "headings": [
+      "Ask what to do tonight. Get one clear step."
+     ]
+    },
+    {
+     "step": 7,
+     "onStage": 7,
+     "total": 99,
+     "heading": 7,
+     "body": 63,
+     "control": 22,
+     "other": 7,
+     "otherBits": [
+      "07",
+      "10",
+      "DU Compass",
+      "Your Compass shortlist"
+     ],
+     "bodyBlocks": 9,
+     "longest": [
+      {
+       "tag": "P",
+       "cls": "ft__lede",
+       "words": 13,
+       "lines": 2,
+       "kind": "body",
+       "text": "Your score against the published 2026 DU cutoffs, by college, category and round."
+      },
+      {
+       "tag": "P",
+       "cls": "ts__note",
+       "words": 10,
+       "lines": 2,
+       "kind": "body",
+       "text": "Two clear today. Accountancy is the paper that moves Hindu."
+      },
+      {
+       "tag": "P",
+       "cls": "ts__meta",
+       "words": 8,
+       "lines": 1,
+       "kind": "body",
+       "text": "Your practice range against 2026 Round 1 cutoffs"
+      },
+      {
+       "tag": "LI",
+       "cls": "",
+       "words": 7,
+       "lines": 1,
+       "kind": "body",
+       "text": "Kirori Mal CollegeB.Com (Hons)Clears it"
+      }
+     ],
+     "headings": [
+      "Test your DU shortlist against real cutoffs."
+     ]
+    },
+    {
+     "step": 8,
+     "onStage": 8,
+     "total": 89,
+     "heading": 7,
+     "body": 52,
+     "control": 22,
+     "other": 8,
+     "otherBits": [
+      "08",
+      "10",
+      "Combo Planner",
+      "Combo Planner",
+      "2/2",
+      "open"
+     ],
+     "bodyBlocks": 11,
+     "longest": [
+      {
+       "tag": "P",
+       "cls": "ft__lede",
+       "words": 14,
+       "lines": 2,
+       "kind": "body",
+       "text": "Pick your DU goals and see which five-paper combinations the 2026 rules keep open."
+      },
+      {
+       "tag": "P",
+       "cls": "",
+       "words": 11,
+       "lines": 3,
+       "kind": "body",
+       "text": "Both goals stay openChecked against the published 2026 DU rules"
+      },
+      {
+       "tag": "P",
+       "cls": "ts__meta.ts__meta--row",
+       "words": 6,
+       "lines": 1,
+       "kind": "body",
+       "text": "Your five papers5 of 5"
+      },
+      {
+       "tag": "P",
+       "cls": "ft__summary",
+       "words": 6,
+       "lines": 1,
+       "kind": "body",
+       "text": "Tested against DU’s published 2026 rules."
+      }
+     ],
+     "headings": [
+      "Picking five papers? Test the combination first."
+     ]
+    },
+    {
+     "step": 9,
+     "onStage": 9,
+     "total": 90,
+     "heading": 6,
+     "body": 50,
+     "control": 23,
+     "other": 11,
+     "otherBits": [
+      "09",
+      "10",
+      "Benchmarks",
+      "Daily benchmark",
+      "04:29",
+      "Your run",
+      "72%",
+      "Target",
+      "78%"
+     ],
+     "bodyBlocks": 9,
+     "longest": [
+      {
+       "tag": "P",
+       "cls": "ft__lede",
+       "words": 12,
+       "lines": 2,
+       "kind": "body",
+       "text": "A short timed run against a fixed target for accuracy and pace."
+      },
+      {
+       "tag": "P",
+       "cls": "ts__meta",
+       "words": 10,
+       "lines": 1,
+       "kind": "body",
+       "text": "25 questions. Hold 78% accuracy at 55 seconds a question."
+      },
+      {
+       "tag": "P",
+       "cls": "ft__summary",
+       "words": 8,
+       "lines": 1,
+       "kind": "body",
+       "text": "Race a set target score against the clock."
+      },
+      {
+       "tag": "P",
+       "cls": "",
+       "words": 4,
+       "lines": 2,
+       "kind": "body",
+       "text": "6 ptsshort today"
+      }
+     ],
+     "headings": [
+      "Beat the score you’re aiming for."
+     ]
+    },
+    {
+     "step": 10,
+     "onStage": 10,
+     "total": 108,
+     "heading": 7,
+     "body": 62,
+     "control": 22,
+     "other": 17,
+     "otherBits": [
+      "10",
+      "10",
+      "The Mob",
+      "Economics sprint",
+      "5 questions",
+      "Dart, you",
+      "19",
+      "Hexa, Riya",
+      "15",
+      "Kandil, Aman",
+      "14"
+     ],
+     "bodyBlocks": 6,
+     "longest": [
+      {
+       "tag": "P",
+       "cls": "ft__lede",
+       "words": 17,
+       "lines": 2,
+       "kind": "body",
+       "text": "Your friends get the same five questions for 24 hours, then you fix what caught you, together."
+      },
+      {
+       "tag": "LI",
+       "cls": "",
+       "words": 12,
+       "lines": 1,
+       "kind": "body",
+       "text": "Fix it together: Q3 caught you. Try a fresh one like it."
+      },
+      {
+       "tag": "P",
+       "cls": "ft__summary",
+       "words": 11,
+       "lines": 2,
+       "kind": "body",
+       "text": "Playing every game your Mob starts is free on every plan."
+      },
+      {
+       "tag": "P",
+       "cls": "ts__meta",
+       "words": 8,
+       "lines": 1,
+       "kind": "body",
+       "text": "Everyone gets the same questions for 24 hours."
+      }
+     ],
+     "headings": [
+      "Bring your friends. Race the same questions."
+     ]
+    }
+   ]
+  },
+  {
+   "nn": "05",
+   "key": "score-recovery-lab",
+   "sel": "main#main-content > section:nth-of-type(5)",
+   "nth": 5,
+   "tag": "section",
+   "id": "score-recovery-lab",
+   "cls": "lp-sec lp-pos-host",
+   "label": null,
+   "heading": "Fix it once. Check it holds.",
+   "top": 12752,
+   "height": 3396,
+   "story": {
+    "pinned": "true",
+    "cls": "ss ml-story ss--centre",
+    "steps": 4,
+    "trackTop": 12928,
+    "trackH": 3207,
+    "stageH": 844,
+    "hold": 2363,
+    "gap": 788,
+    "beatCss": "70svh",
+    "stageCs": "sticky"
+   },
+   "sticky": [
+    "ss__stage"
+   ],
+   "timelines": [
+    "ss__track: view-timeline --ss-track",
+    "ss-fill: --ss-track"
+   ],
+   "shots": [
+    "shots/390-day/05-score-recovery-lab-0-head.png",
+    "shots/390-day/05-score-recovery-lab-step1.png",
+    "shots/390-day/05-score-recovery-lab-step2.png",
+    "shots/390-day/05-score-recovery-lab-step3.png",
+    "shots/390-day/05-score-recovery-lab-step4.png"
+   ],
+   "textHead": {
+    "total": 23,
+    "heading": 6,
+    "body": 17,
+    "control": 0,
+    "other": 0,
+    "otherBits": [],
+    "bodyBlocks": 2,
+    "longest": [
+     {
+      "tag": "P",
+      "cls": "lp-sub",
+      "words": 14,
+      "lines": 2,
+      "kind": "body",
+      "text": "Replay the session, repair the leak, then prove it on fresh questions days later."
+     },
+     {
+      "tag": "P",
+      "cls": "lp-kicker",
+      "words": 3,
+      "lines": 1,
+      "kind": "body",
+      "text": "Score Recovery Lab"
+     }
+    ],
+    "headings": [
+     "Fix it once. Check it holds."
+    ]
+   },
+   "textSteps": [
+    {
+     "step": 1,
+     "onStage": 1,
+     "total": 66,
+     "heading": 0,
+     "body": 28,
+     "control": 24,
+     "other": 14,
+     "otherBits": [
+      "Sample Accountancy session, 10 questions",
+      "22",
+      "/ 50 marks",
+      "5",
+      "right",
+      "3",
+      "wrong",
+      "2",
+      "blank"
+     ],
+     "bodyBlocks": 2,
+     "longest": [
+      {
+       "tag": "P",
+       "cls": "ml__inspect",
+       "words": 17,
+       "lines": 2,
+       "kind": "body",
+       "text": "Q4: Picked B at 5:08. Changed to D at 6:00, 0:52 later. That change cost 6 marks."
+      },
+      {
+       "tag": "P",
+       "cls": "",
+       "words": 11,
+       "lines": 2,
+       "kind": "body",
+       "text": "Every answer and every minute, with the marks each one cost."
+      }
+     ],
+     "headings": []
+    },
+    {
+     "step": 2,
+     "onStage": 2,
+     "total": 101,
+     "heading": 0,
+     "body": 88,
+     "control": 8,
+     "other": 5,
+     "otherBits": [
+      "Sample Accountancy session, 10 questions"
+     ],
+     "bodyBlocks": 9,
+     "longest": [
+      {
+       "tag": "P",
+       "cls": "ml__headline",
+       "words": 17,
+       "lines": 2,
+       "kind": "body",
+       "text": "2 answers were right until you changed them. That cost 12 of the 28 marks you missed."
+      },
+      {
+       "tag": "P",
+       "cls": "",
+       "words": 15,
+       "lines": 2,
+       "kind": "body",
+       "text": "Every mark you missed, sorted by how it went: changed answers, wrong picks and blanks."
+      },
+      {
+       "tag": "P",
+       "cls": "",
+       "words": 9,
+       "lines": 1,
+       "kind": "body",
+       "text": "Q4 and Q8 were right until you changed them."
+      },
+      {
+       "tag": "P",
+       "cls": "ml__ledger-h",
+       "words": 8,
+       "lines": 2,
+       "kind": "body",
+       "text": "You missed 28 marks. Here’s where they went."
+      }
+     ],
+     "headings": []
+    },
+    {
+     "step": 3,
+     "onStage": 3,
+     "total": 77,
+     "heading": 18,
+     "body": 40,
+     "control": 8,
+     "other": 11,
+     "otherBits": [
+      "Sample Accountancy session, 10 questions",
+      "Today",
+      "Your papers",
+      "Ask Mobi",
+      "Results"
+     ],
+     "bodyBlocks": 4,
+     "longest": [
+      {
+       "tag": "P",
+       "cls": "ml__why",
+       "words": 19,
+       "lines": 3,
+       "kind": "body",
+       "text": "Why this: 2 answers were right until you changed them. That cost 12 of the 28 marks you missed."
+      },
+      {
+       "tag": "P",
+       "cls": "",
+       "words": 9,
+       "lines": 1,
+       "kind": "body",
+       "text": "One next step, the same one Today shows you."
+      },
+      {
+       "tag": "P",
+       "cls": "ml__note",
+       "words": 9,
+       "lines": 1,
+       "kind": "body",
+       "text": "Each mock you finish makes the next move sharper."
+      },
+      {
+       "tag": "P",
+       "cls": "ml__eyebrow",
+       "words": 3,
+       "lines": 1,
+       "kind": "body",
+       "text": "Your next move"
+      }
+     ],
+     "headings": [
+      "Try 10 questions. Change an answer only when you can point to the line that proves it wron"
+     ]
+    },
+    {
+     "step": 4,
+     "onStage": 4,
+     "total": 44,
+     "heading": 0,
+     "body": 31,
+     "control": 8,
+     "other": 5,
+     "otherBits": [
+      "Sample Accountancy session, 10 questions"
+     ],
+     "bodyBlocks": 6,
+     "longest": [
+      {
+       "tag": "P",
+       "cls": "",
+       "words": 9,
+       "lines": 2,
+       "kind": "body",
+       "text": "New questions, days apart, show whether the fix held."
+      },
+      {
+       "tag": "LI",
+       "cls": "",
+       "words": 6,
+       "lines": 2,
+       "kind": "body",
+       "text": "In a weekDoes it hold?"
+      },
+      {
+       "tag": "LI",
+       "cls": "",
+       "words": 5,
+       "lines": 2,
+       "kind": "body",
+       "text": "In 3 daysSecond check"
+      },
+      {
+       "tag": "P",
+       "cls": "ml__eyebrow",
+       "words": 4,
+       "lines": 1,
+       "kind": "body",
+       "text": "Fresh questions, days apart"
+      }
+     ],
+     "headings": []
+    }
+   ]
+  },
+  {
+   "nn": "06",
+   "key": "compass",
+   "sel": "main#main-content > section:nth-of-type(6)",
+   "nth": 6,
+   "tag": "section",
+   "id": "compass",
+   "cls": "lp-sec",
+   "label": null,
+   "heading": "Hold your shortlist up to real cutoffs.",
+   "top": 16148,
+   "height": 2263,
+   "story": null,
+   "sticky": [],
+   "timelines": [],
+   "shots": [
+    "shots/390-day/06-compass-1.png",
+    "shots/390-day/06-compass-2.png",
+    "shots/390-day/06-compass-3.png",
+    "shots/390-day/06-compass-4.png"
+   ],
+   "text": {
+    "total": 209,
+    "heading": 15,
+    "body": 140,
+    "control": 36,
+    "other": 18,
+    "otherBits": [
+     "790",
+     "/ 1000",
+     "Drag the slider, or use the arrow keys.",
+     "B.Com. (Hons.)",
+     "CSAS UG 2026-27",
+     "Round 1",
+     "UR"
+    ],
+    "bodyBlocks": 18,
+    "longest": [
+     {
+      "tag": "P",
+      "cls": "",
+      "words": 22,
+      "lines": 3,
+      "kind": "body",
+      "text": "Turn your practice into a paper-by-paper range. Set it against your DU shortlist and see which paper has the most marks open."
+     },
+     {
+      "tag": "P",
+      "cls": "lp-sub",
+      "words": 16,
+      "lines": 3,
+      "kind": "body",
+      "text": "Slide a score. See which colleges it would have cleared in 2026, by category and round."
+     },
+     {
+      "tag": "P",
+      "cls": "cl__summary",
+      "words": 12,
+      "lines": 2,
+      "kind": "body",
+      "text": "790 clears 0 of these 10Round 1URcutoffsCSAS 2026-27"
+     },
+     {
+      "tag": "FIGCAPTION",
+      "cls": "",
+      "words": 12,
+      "lines": 2,
+      "kind": "body",
+      "text": "Closing scores from DU’s published round lists. (W) marks a women’s college."
+     }
+    ],
+    "headings": [
+     "Hold your shortlist up to real cutoffs.",
+     "Your practice, mapped to the colleges you want."
+    ]
+   }
+  },
+  {
+   "nn": "07",
+   "key": "du-eligibility",
+   "sel": "main#main-content > section:nth-of-type(7)",
+   "nth": 7,
+   "tag": "section",
+   "id": "du-eligibility",
+   "cls": "lp-sec",
+   "label": null,
+   "heading": "Which DU courses are open to you?",
+   "top": 18411,
+   "height": 2472,
+   "story": null,
+   "sticky": [],
+   "timelines": [],
+   "shots": [
+    "shots/390-day/07-du-eligibility-1.png",
+    "shots/390-day/07-du-eligibility-2.png",
+    "shots/390-day/07-du-eligibility-3.png",
+    "shots/390-day/07-du-eligibility-4.png"
+   ],
+   "text": {
+    "total": 186,
+    "heading": 17,
+    "body": 92,
+    "control": 75,
+    "other": 2,
+    "otherBits": [
+     "Quick start"
+    ],
+    "bodyBlocks": 10,
+    "longest": [
+     {
+      "tag": "P",
+      "cls": "",
+      "words": 24,
+      "lines": 4,
+      "kind": "body",
+      "text": "Set your DU goals and the subjects you can take. Compare five-paper combinations against the published 2026 rules before you fill the CUET form."
+     },
+     {
+      "tag": "P",
+      "cls": "lp-sub",
+      "words": 23,
+      "lines": 3,
+      "kind": "body",
+      "text": "Tick your subjects. See every DU programme they open under the 2026 rules, then compare college cutoffs in your category. Free, no signup."
+     },
+     {
+      "tag": "P",
+      "cls": "",
+      "words": 12,
+      "lines": 2,
+      "kind": "body",
+      "text": "Open a college to see its 2026 cutoffs by round and category."
+     },
+     {
+      "tag": "P",
+      "cls": "du-teaser__lead",
+      "words": 11,
+      "lines": 2,
+      "kind": "body",
+      "text": "Tick your domain subjects to see which are open to you."
+     }
+    ],
+    "headings": [
+     "Which DU courses are open to you?",
+     "Five CUET subjects. Pick them right.",
+     "Know where you’re headed."
+    ]
+   }
+  },
+  {
+   "nn": "08",
+   "key": "exam-experience",
+   "sel": "main#main-content > section:nth-of-type(8)",
+   "nth": 8,
+   "tag": "section",
+   "id": "exam-experience",
+   "cls": "lp-sec lp-exam-section",
+   "label": null,
+   "heading": "Practise calm.Rehearse exam day.",
+   "top": 20883,
+   "height": 1644,
+   "story": null,
+   "sticky": [],
+   "timelines": [],
+   "shots": [
+    "shots/390-day/08-exam-experience-1.png",
+    "shots/390-day/08-exam-experience-2.png",
+    "shots/390-day/08-exam-experience-3.png",
+    "shots/390-day/08-exam-console-mockmob.png",
+    "shots/390-day/08-exam-console-nta.png"
+   ],
+   "text": {
+    "total": 122,
+    "heading": 15,
+    "body": 66,
+    "control": 29,
+    "other": 12,
+    "otherBits": [
+     "MockMob Practice, English",
+     "60:00",
+     "English",
+     "+5 correct",
+     "−1 incorrect",
+     "0",
+     "/5 answered"
+    ],
+    "bodyBlocks": 12,
+    "longest": [
+     {
+      "tag": "P",
+      "cls": "lp-sub",
+      "words": 20,
+      "lines": 3,
+      "kind": "body",
+      "text": "Build speed in MockMob. As exam day gets close, flip to the NTA-style screen and rehearse. Same questions, either way."
+     },
+     {
+      "tag": "P",
+      "cls": "lp-exam__palette-note",
+      "words": 11,
+      "lines": 1,
+      "kind": "body",
+      "text": "Tap 1 to 5 here. A full mock uses all 50."
+     },
+     {
+      "tag": "P",
+      "cls": "",
+      "words": 10,
+      "lines": 2,
+      "kind": "body",
+      "text": "Pick an answer, then switch screens. Your answers stay put."
+     },
+     {
+      "tag": "P",
+      "cls": "",
+      "words": 5,
+      "lines": 1,
+      "kind": "body",
+      "text": "Review marks carry over too."
+     }
+    ],
+    "headings": [
+     "Practise calm.Rehearse exam day.",
+     "Choose the option nearest in meaning to CANDID:",
+     "Question Palette"
+    ]
+   },
+   "examParts": {
+    "section": {
+     "w": 390,
+     "h": 1644
+    },
+    "intro": {
+     "w": 350,
+     "h": 245
+    },
+    "console": {
+     "w": 350,
+     "h": 1005
+    },
+    "paper": {
+     "w": 348,
+     "h": 540
+    },
+    "palette": {
+     "w": 348,
+     "h": 304
+    },
+    "legend": {
+     "w": 316,
+     "h": 76
+    },
+    "foot": {
+     "w": 348,
+     "h": 111
+    },
+    "bottom": {
+     "w": 350,
+     "h": 224
+    },
+    "buttons": [
+     "MockMob",
+     "NTA stylePro",
+     "Mark for Review & Next",
+     "Clear response",
+     "Save & Next",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "Reset preview"
+    ],
+    "legendItems": [
+     "Not visited",
+     "Not answered",
+     "Answered",
+     "Marked for review",
+     "Answered & marked for review"
+    ]
+   },
+   "examPartsNta": {
+    "console": {
+     "w": 350,
+     "h": 1004
+    },
+    "iface": "nta"
+   }
+  },
+  {
+   "nn": "09",
+   "key": "proof-band",
+   "sel": "main#main-content > section:nth-of-type(9)",
+   "nth": 9,
+   "tag": "section",
+   "id": null,
+   "cls": "lp-sec lp-sec--tight",
+   "label": null,
+   "heading": "",
+   "top": 22527,
+   "height": 455,
+   "story": null,
+   "sticky": [],
+   "timelines": [],
+   "shots": [
+    "shots/390-day/09-proof-band-1.png"
+   ],
+   "text": {
+    "total": 48,
+    "heading": 0,
+    "body": 35,
+    "control": 0,
+    "other": 13,
+    "otherBits": [
+     "5,765",
+     "questions in one bank",
+     "15",
+     "CUET subjects",
+     "₹99",
+     "a month for Pro"
+    ],
+    "bodyBlocks": 3,
+    "longest": [
+     {
+      "tag": "P",
+      "cls": "mm-figure__note",
+      "words": 19,
+      "lines": 2,
+      "kind": "body",
+      "text": "Every mock is built from this bank: no set number, no cap on Pro. Marked +5 right, −1 wrong."
+     },
+     {
+      "tag": "P",
+      "cls": "mm-figure__note",
+      "words": 10,
+      "lines": 1,
+      "kind": "body",
+      "text": "Pick one for a quick set or a full mock."
+     },
+     {
+      "tag": "P",
+      "cls": "mm-figure__note",
+      "words": 6,
+      "lines": 1,
+      "kind": "body",
+      "text": "Renews monthly. Cancel anytime in Account."
+     }
+    ],
+    "headings": []
+   }
+  },
+  {
+   "nn": "10",
+   "key": "on-instagram",
+   "sel": "main#main-content > section:nth-of-type(10)",
+   "nth": 10,
+   "tag": "section",
+   "id": "on-instagram",
+   "cls": "lp-sec",
+   "label": null,
+   "heading": "Featured by CUET creators.",
+   "top": 22982,
+   "height": 1009,
+   "story": null,
+   "sticky": [],
+   "timelines": [],
+   "shots": [
+    "shots/390-day/10-on-instagram-1.png",
+    "shots/390-day/10-on-instagram-2.png"
+   ],
+   "text": {
+    "total": 145,
+    "heading": 4,
+    "body": 41,
+    "control": 100,
+    "other": 0,
+    "otherBits": [],
+    "bodyBlocks": 9,
+    "longest": [
+     {
+      "tag": "P",
+      "cls": "lp-sub",
+      "words": 21,
+      "lines": 3,
+      "kind": "body",
+      "text": "DU seniors and admissions creators have put MockMob in front of their followers. Tap a reel and watch it right here."
+     },
+     {
+      "tag": "P",
+      "cls": "rl__note",
+      "words": 7,
+      "lines": 1,
+      "kind": "body",
+      "text": "Counts as of 3–5 October 2026"
+     },
+     {
+      "tag": "P",
+      "cls": "lp-kicker",
+      "words": 3,
+      "lines": 1,
+      "kind": "body",
+      "text": "MockMob on Instagram"
+     },
+     {
+      "tag": "DT",
+      "cls": "",
+      "words": 3,
+      "lines": 2,
+      "kind": "body",
+      "text": "Likes and comments"
+     }
+    ],
+    "headings": [
+     "Featured by CUET creators."
+    ]
+   }
+  },
+  {
+   "nn": "11",
+   "key": "pricing",
+   "sel": "main#main-content > section:nth-of-type(11)",
+   "nth": 11,
+   "tag": "section",
+   "id": "pricing",
+   "cls": "lp-sec",
+   "label": null,
+   "heading": "Start free. Go Pro for unlimited mocks.",
+   "top": 23992,
+   "height": 1229,
+   "story": null,
+   "sticky": [],
+   "timelines": [],
+   "shots": [
+    "shots/390-day/11-pricing-1.png",
+    "shots/390-day/11-pricing-2.png"
+   ],
+   "text": {
+    "total": 94,
+    "heading": 9,
+    "body": 81,
+    "control": 4,
+    "other": 0,
+    "otherBits": [],
+    "bodyBlocks": 15,
+    "longest": [
+     {
+      "tag": "P",
+      "cls": "lp-sub",
+      "words": 14,
+      "lines": 2,
+      "kind": "body",
+      "text": "Pro is ₹99 a month. Cancel any month and keep what you paid for."
+     },
+     {
+      "tag": "LI",
+      "cls": "",
+      "words": 10,
+      "lines": 2,
+      "kind": "body",
+      "text": "Full chapter review: every ranked chapter, pace and changed answers"
+     },
+     {
+      "tag": "LI",
+      "cls": "",
+      "words": 9,
+      "lines": 2,
+      "kind": "body",
+      "text": "Compass Pro: your practice mapped to your DU shortlist"
+     },
+     {
+      "tag": "LI",
+      "cls": "",
+      "words": 7,
+      "lines": 1,
+      "kind": "body",
+      "text": "Quick practice and Full mock on credits"
+     }
+    ],
+    "headings": [
+     "Start free. Go Pro for unlimited mocks.",
+     "Free",
+     "Pro"
+    ]
+   }
+  },
+  {
+   "nn": "12",
+   "key": "faq",
+   "sel": "main#main-content > section:nth-of-type(12)",
+   "nth": 12,
+   "tag": "section",
+   "id": "faq",
+   "cls": "lp-sec lp-sec--band",
+   "label": null,
+   "heading": "Before your first mock.",
+   "top": 25220,
+   "height": 485,
+   "story": null,
+   "sticky": [],
+   "timelines": [],
+   "shots": [
+    "shots/390-day/12-faq-1.png"
+   ],
+   "text": {
+    "total": 29,
+    "heading": 4,
+    "body": 25,
+    "control": 0,
+    "other": 0,
+    "otherBits": [],
+    "bodyBlocks": 5,
+    "longest": [
+     {
+      "tag": "SUMMARY",
+      "cls": "",
+      "words": 7,
+      "lines": 1,
+      "kind": "body",
+      "text": "Can I try it before signing up?"
+     },
+     {
+      "tag": "SUMMARY",
+      "cls": "",
+      "words": 5,
+      "lines": 1,
+      "kind": "body",
+      "text": "What is MockMob built for?"
+     },
+     {
+      "tag": "SUMMARY",
+      "cls": "",
+      "words": 5,
+      "lines": 1,
+      "kind": "body",
+      "text": "What is the Mistake Lab?"
+     },
+     {
+      "tag": "SUMMARY",
+      "cls": "",
+      "words": 4,
+      "lines": 1,
+      "kind": "body",
+      "text": "What is the Mob?"
+     }
+    ],
+    "headings": [
+     "Before your first mock."
+    ]
+   }
+  },
+  {
+   "nn": "13",
+   "key": "close",
+   "sel": "main#main-content > section:nth-of-type(13)",
+   "nth": 13,
+   "tag": "section",
+   "id": null,
+   "cls": "lp-close",
+   "label": null,
+   "heading": "Five questions. Your move.",
+   "top": 25705,
+   "height": 630,
+   "story": null,
+   "sticky": [],
+   "timelines": [],
+   "shots": [
+    "shots/390-day/13-close-1.png"
+   ],
+   "text": {
+    "total": 34,
+    "heading": 4,
+    "body": 23,
+    "control": 7,
+    "other": 0,
+    "otherBits": [],
+    "bodyBlocks": 3,
+    "longest": [
+     {
+      "tag": "P",
+      "cls": "lp-sub",
+      "words": 11,
+      "lines": 2,
+      "kind": "body",
+      "text": "Answer five now. Sign up when you’re ready to keep score."
+     },
+     {
+      "tag": "FIGCAPTION",
+      "cls": "",
+      "words": 6,
+      "lines": 1,
+      "kind": "body",
+      "text": "See you at your first mock."
+     },
+     {
+      "tag": "P",
+      "cls": "lp-close__free",
+      "words": 6,
+      "lines": 1,
+      "kind": "body",
+      "text": "Free to start. No card needed."
+     }
+    ],
+    "headings": [
+     "Five questions. Your move."
+    ]
+   }
+  },
+  {
+   "nn": "14",
+   "key": "footer",
+   "sel": "footer.mm-foot",
+   "nth": 0,
+   "tag": "footer",
+   "id": null,
+   "cls": "mm-foot",
+   "label": null,
+   "heading": null,
+   "top": 26335,
+   "height": 1493,
+   "story": null,
+   "sticky": [],
+   "timelines": [],
+   "shots": [
+    "shots/390-day/14-footer-1.png",
+    "shots/390-day/14-footer-2.png"
+   ],
+   "text": {
+    "total": 84,
+    "heading": 3,
+    "body": 33,
+    "control": 48,
+    "other": 0,
+    "otherBits": [],
+    "bodyBlocks": 3,
+    "longest": [
+     {
+      "tag": "P",
+      "cls": "mm-foot__blurb",
+      "words": 25,
+      "lines": 3,
+      "kind": "body",
+      "text": "Timed CUET practice, a clear read of every mistake, and one next step for tonight.The 15 subjects behind 19 of every 20 CUET papers"
+     },
+     {
+      "tag": "P",
+      "cls": "mm-foot__free",
+      "words": 6,
+      "lines": 1,
+      "kind": "body",
+      "text": "Free to start. No card needed."
+     },
+     {
+      "tag": "P",
+      "cls": "",
+      "words": 2,
+      "lines": 1,
+      "kind": "body",
+      "text": "2026 MockMob"
+     }
+    ],
+    "headings": [
+     "Product",
+     "Subjects",
+     "Company"
+    ]
+   }
+  }
+ ],
+ "theme": {
+  "dataTheme": "light",
+  "stored": null,
+  "prefersDark": false,
+  "url": "https://www.mockmob.in/",
+  "title": "CUET Mock Tests & Practice Questions | MockMob"
+ },
+ "hero": {
+  "W": 390,
+  "H": 844,
+  "scrollY": 0,
+  "boxes": [
+   {
+    "sel": "nav.mm-nav",
+    "top": 0,
+    "left": 0,
+    "w": 390,
+    "h": 61,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 7.2,
+    "text": "Light or dark? Your call"
+   },
+   {
+    "sel": ".lp-hero",
+    "top": 61,
+    "left": 0,
+    "w": 390,
+    "h": 1491,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 92.8,
+    "text": "Hi, I’m Mobi. Tap me. CUET 2027. One mock. Know what to fix. Take a timed mock. See exactly where every mark went. Fix the right chapter tonight. Try five quest"
+   },
+   {
+    "sel": ".lp-hero__copy",
+    "top": 61,
+    "left": 20,
+    "w": 350,
+    "h": 678,
+    "display": "grid",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 72.1,
+    "text": "Hi, I’m Mobi. Tap me. CUET 2027. One mock. Know what to fix. Take a timed mock. See exactly where every mark went. Fix the right chapter tonight. Try five quest"
+   },
+   {
+    "sel": ".lp-hero__greeting",
+    "top": 61,
+    "left": 0,
+    "w": 390,
+    "h": 320,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 37.9,
+    "text": "Hi, I’m Mobi. Tap me."
+   },
+   {
+    "sel": ".lp-room",
+    "top": 61,
+    "left": 0,
+    "w": 390,
+    "h": 320,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 37.9,
+    "text": ""
+   },
+   {
+    "sel": ".lp-mobi--room",
+    "top": 61,
+    "left": 0,
+    "w": 390,
+    "h": 320,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 37.9,
+    "text": "Hi, I’m Mobi. Tap me."
+   },
+   {
+    "sel": ".lp-mobi--room .lp-mobi__figure",
+    "top": 192,
+    "left": 132,
+    "w": 143,
+    "h": 172,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 7.5,
+    "text": ""
+   },
+   {
+    "sel": ".lp-mobi--room .lp-mobi__bubble",
+    "top": 77,
+    "left": 20,
+    "w": 147,
+    "h": 39,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 1.8,
+    "text": "Hi, I’m Mobi. Tap me."
+   },
+   {
+    "sel": "h1.lp-title",
+    "top": 393,
+    "left": 20,
+    "w": 304,
+    "h": 114,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 10.6,
+    "text": "CUET 2027. One mock. Know what to fix."
+   },
+   {
+    "sel": ".lp-lead",
+    "top": 519,
+    "left": 20,
+    "w": 350,
+    "h": 46,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 4.9,
+    "text": "Take a timed mock. See exactly where every mark went. Fix the right chapter tonight."
+   },
+   {
+    "sel": ".lp-cta",
+    "top": 586,
+    "left": 20,
+    "w": 350,
+    "h": 102,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 10.8,
+    "text": "Try five questions Start free practice"
+   },
+   {
+    "sel": ".lp-hero__facts",
+    "top": 700,
+    "left": 20,
+    "w": 280,
+    "h": 39,
+    "display": "grid",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 3.3,
+    "text": "Free to start · Pro ₹99 a month · Cancel anytime One bank of 5,765 questions. No cap on Pro."
+   },
+   {
+    "sel": ".lp-hero__links",
+    "top": 0,
+    "left": 0,
+    "w": 0,
+    "h": 0,
+    "display": "none",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 0,
+    "text": "Free DU eligibility and cutoff calculatorTry the exam-day screen"
+   },
+   {
+    "sel": ".lp-stage",
+    "top": 759,
+    "left": 20,
+    "w": 350,
+    "h": 518,
+    "display": "grid",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 9.1,
+    "text": "Your first question. Go. No signup English Choose the option nearest in meaning to CANDID: A Hidden B Frank C Careful D Sweet Five CUET-style questions, each wi"
+   },
+   {
+    "sel": ".lp-stage__card",
+    "top": 792,
+    "left": 20,
+    "w": 350,
+    "h": 417,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 5.6,
+    "text": "English Choose the option nearest in meaning to CANDID: A Hidden B Frank C Careful D Sweet"
+   },
+   {
+    "sel": ".lp-mobi--host",
+    "top": 0,
+    "left": 0,
+    "w": 0,
+    "h": 0,
+    "display": "none",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 0,
+    "text": "Hi, I’m Mobi. Tap me."
+   },
+   {
+    "sel": ".lp-mobi--host .lp-mobi__figure",
+    "top": 0,
+    "left": 0,
+    "w": 0,
+    "h": 0,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 0,
+    "text": ""
+   },
+   {
+    "sel": ".lp-mobi--host .lp-mobi__bubble",
+    "top": 0,
+    "left": 0,
+    "w": 0,
+    "h": 0,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 0,
+    "text": "Hi, I’m Mobi. Tap me."
+   },
+   {
+    "sel": ".lp-proof",
+    "top": 1313,
+    "left": 20,
+    "w": 350,
+    "h": 207,
+    "display": "grid",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 0,
+    "text": "5 questions Free to try, no signup 73 DU programmes, matched to your subjects 2 screens Practise calm. Rehearse NTA style. 60 min 50 questions on the full CUET "
+   },
+   {
+    "sel": ".mm-dock",
+    "top": 867,
+    "left": 11,
+    "w": 368,
+    "h": 66,
+    "display": "flex",
+    "visibility": "visible",
+    "opacity": "0",
+    "pctOfFirstScreen": 0,
+    "text": "Free to start. Sign up Try a CUET question"
+   },
+   {
+    "sel": ".mm-theme-hint",
+    "top": 62,
+    "left": 222,
+    "w": 104,
+    "h": 51,
+    "display": "grid",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 1.6,
+    "text": "Light or dark? Your call"
+   },
+   {
+    "sel": ".pip-guide-flyer",
+    "missing": true
+   },
+   {
+    "sel": ".lp-bg",
+    "top": 61,
+    "left": 0,
+    "w": 390,
+    "h": 1491,
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "1",
+    "pctOfFirstScreen": 92.8,
+    "text": ""
+   }
+  ],
+  "textLines": [
+   {
+    "t": "Light or dark?",
+    "top": 71,
+    "bottom": 87,
+    "fs": "12.48px",
+    "tag": "span",
+    "cls": "mm-theme-hint"
+   },
+   {
+    "t": "Your call",
+    "top": 88,
+    "bottom": 104,
+    "fs": "12.48px",
+    "tag": "b",
+    "cls": ""
+   },
+   {
+    "t": "Hi, I’m Mobi. Tap me.",
+    "top": 88,
+    "bottom": 105,
+    "fs": "13px",
+    "tag": "span",
+    "cls": "lp-mobi__line"
+   },
+   {
+    "t": "CUET 2027.",
+    "top": 389,
+    "bottom": 435,
+    "fs": "38.5px",
+    "tag": "span",
+    "cls": "lp-title__line lp-title__line--run lp-title__brand"
+   },
+   {
+    "t": "One mock.",
+    "top": 427,
+    "bottom": 473,
+    "fs": "38.5px",
+    "tag": "span",
+    "cls": "lp-title__line lp-title__line--run"
+   },
+   {
+    "t": "Know what to fix.",
+    "top": 465,
+    "bottom": 511,
+    "fs": "38.5px",
+    "tag": "span",
+    "cls": "lp-title__line lp-title__line--run"
+   },
+   {
+    "t": "Take a timed mock. See exactly where every mark went. Fix the right chapter tonight.",
+    "top": 520,
+    "bottom": 565,
+    "fs": "16px",
+    "tag": "p",
+    "cls": "lp-lead"
+   },
+   {
+    "t": "Try five questions",
+    "top": 598,
+    "bottom": 617,
+    "fs": "16px",
+    "tag": "a",
+    "cls": "mm-btn mm-btn--primary"
+   },
+   {
+    "t": "Start free practice",
+    "top": 655,
+    "bottom": 675,
+    "fs": "15px",
+    "tag": "a",
+    "cls": "mm-btn mm-btn--secondary"
+   },
+   {
+    "t": "Free to start",
+    "top": 700,
+    "bottom": 717,
+    "fs": "13px",
+    "tag": "span",
+    "cls": "lp-trust-line__seg"
+   },
+   {
+    "t": "·",
+    "top": 700,
+    "bottom": 717,
+    "fs": "13px",
+    "tag": "span",
+    "cls": "lp-trust-line__seg"
+   },
+   {
+    "t": "Pro ₹99 a month",
+    "top": 700,
+    "bottom": 717,
+    "fs": "13px",
+    "tag": "span",
+    "cls": "lp-trust-line__seg"
+   },
+   {
+    "t": "·",
+    "top": 700,
+    "bottom": 717,
+    "fs": "13px",
+    "tag": "span",
+    "cls": "lp-trust-line__seg"
+   },
+   {
+    "t": "Cancel anytime",
+    "top": 700,
+    "bottom": 717,
+    "fs": "13px",
+    "tag": "span",
+    "cls": "lp-trust-line__seg"
+   },
+   {
+    "t": "One bank of 5,765 questions. No cap on Pro.",
+    "top": 721,
+    "bottom": 738,
+    "fs": "13px",
+    "tag": "p",
+    "cls": "lp-bank lp-bank--short"
+   },
+   {
+    "t": "Your first question. Go.",
+    "top": 760,
+    "bottom": 776,
+    "fs": "12px",
+    "tag": "span",
+    "cls": ""
+   },
+   {
+    "t": "No signup",
+    "top": 760,
+    "bottom": 776,
+    "fs": "12px",
+    "tag": "span",
+    "cls": ""
+   },
+   {
+    "t": "English",
+    "top": 806,
+    "bottom": 822,
+    "fs": "13px",
+    "tag": "div",
+    "cls": "mm-screen__bar"
+   }
+  ],
+  "textAreaPct": 20,
+  "mentions": {
+   "cuet": true,
+   "exam": false,
+   "mock": true
+  },
+  "text": "Light or dark? | Your call | Hi, I’m Mobi. Tap me. | CUET 2027. | One mock. | Know what to fix. | Take a timed mock. See exactly where every mark went. Fix the right chapter tonight. | Try five questions | Start free practice | Free to start | · | Pro ₹99 a month | · | Cancel anytime | One bank of 5,765 questions. No cap on Pro. | Your first question. Go. | No signup | English"
+ },
+ "navH": 61,
+ "neonCount": 65,
+ "mobi": {
+  "taps": [
+   {
+    "tap": 1,
+    "mid": "shots/390-day/M1a-tap1-mid-act-greeting.png",
+    "settled": "shots/390-day/M1b-tap1-settled.png",
+    "rig": "on",
+    "step": "1",
+    "bubble": "I find where your marks slip.",
+    "act": "hello",
+    "dotsFilled": 1
+   },
+   {
+    "tap": 2,
+    "mid": "shots/390-day/M2a-tap2-mid-act-greeting.png",
+    "settled": "shots/390-day/M2b-tap2-settled.png",
+    "rig": "on",
+    "step": "2",
+    "bubble": "One timed mock shows me the chapter.",
+    "act": "idle",
+    "dotsFilled": 2
+   },
+   {
+    "tap": 3,
+    "mid": "shots/390-day/M3a-tap3-mid-act-greeting.png",
+    "settled": "shots/390-day/M3b-tap3-settled.png",
+    "rig": "on",
+    "step": "3",
+    "bubble": "5,765 questions. A fresh mock every time.",
+    "act": "idle",
+    "dotsFilled": 3
+   },
+   {
+    "tap": 4,
+    "mid": "shots/390-day/M4a-tap4-mid-act-greeting.png",
+    "settled": "shots/390-day/M4b-tap4-settled.png",
+    "rig": "on",
+    "step": "4",
+    "bubble": "Okay, okay. Try five questions?",
+    "act": "idle",
+    "dotsFilled": 4
+   }
+  ],
+  "before": {
+   "rig": "on",
+   "step": "0",
+   "bubble": "Hi, I’m Mobi. Tap me.",
+   "act": "curious"
+  }
+ },
+ "heightsForced": {
+  "sections": [
+   {
+    "id": "lp-hero",
+    "h": 1491
+   },
+   {
+    "id": "lp-statement",
+    "h": 1519
+   },
+   {
+    "id": "inside-the-lab",
+    "h": 3704
+   },
+   {
+    "id": "your-prep",
+    "h": 5977
+   },
+   {
+    "id": "score-recovery-lab",
+    "h": 3483
+   },
+   {
+    "id": "compass",
+    "h": 2263
+   },
+   {
+    "id": "du-eligibility",
+    "h": 2472
+   },
+   {
+    "id": "exam-experience",
+    "h": 1644
+   },
+   {
+    "id": "lp-sec.lp-sec--tight",
+    "h": 455
+   },
+   {
+    "id": "on-instagram",
+    "h": 1009
+   },
+   {
+    "id": "pricing",
+    "h": 1229
+   },
+   {
+    "id": "faq",
+    "h": 485
+   },
+   {
+    "id": "lp-close",
+    "h": 630
+   },
+   {
+    "id": "mm-foot",
+    "h": 1493
+   }
+  ],
+  "docHeight": 27993
+ }
+}

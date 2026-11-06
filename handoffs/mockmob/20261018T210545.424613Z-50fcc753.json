@@ -1,0 +1,28 @@
+{
+  "id": "20261018T210545.424613Z-50fcc753",
+  "observed_at": "2026-10-18T21:05:45.424613+00:00",
+  "agent": "claude-opus-5.5 subagent, design lead B2 (Ask Mobi mock-ups)",
+  "task": "19 Oct G21 + D110: Ask Mobi mock-ups, \"Ask now\" and \"Ask your record\" made big, 3 layout options",
+  "status": "complete",
+  "done": "Three options built as HTML with real app tokens (MmColors/MmType at ab04b067) and Mobi cut from the app's golden renders: A big sheet, B Mobi's own screen (/ask, two stacked doors; recommended), C a tab inside You. Each has 6 frames (entry, fresh, heavy, answering, credit sheet, offline) at 360x800 and 412x915 in Night and Day, plus web 1440 Night/Day for B and one comparison board per theme. All 16 PNGs were rendered headless with playwright-core (own temp profile, deleted) and opened. Decision doc written with R2 lines, pros and cons, exact copy, motion, evidence IDs, anti-slop test and recommendation.",
+  "next": "Main session: send board-night.png and board-day.png (plus web-1440-*.png) to the owner. Ask him to pick A, B or C, whether written replies should stream (a server change), and whether the Practice card replaces the \"Ask Mobi what to practise\" row. After the pick, build it: app /ask becomes the two doors; a new free intent \"Why did I lose marks in my last paper?\" from the latest attempt lines; a labelled Ask Mobi capsule on Today, Practice and Mob headers; web /mentor becomes the two-door page with recent questions; the contextual 1018 sheet stays.",
+  "blockers": [
+    "Owner: pick option A, B or C",
+    "Owner: stream written replies (server change)?",
+    "Owner: Practice card in place of the small Ask Mobi row?"
+  ],
+  "evidence": [
+    "tmp/design-1019/ask-mobi/board-night.png",
+    "tmp/design-1019/ask-mobi/board-day.png",
+    "tmp/design-1019/ask-mobi/web-1440-night.png",
+    "tmp/design-1019/ask-mobi/opt-B-360-night.png",
+    "capture.mjs last run: no problems (fonts loaded, no broken images, no clipped text)"
+  ],
+  "touched_files": [
+    "mockmob-next/docs/design-decisions/pass-1019/ASK-MOBI-1019.md",
+    "mockmob-next/tmp/design-1019/ask-mobi/ (src/index.html, src/mock.js, src/mock.css, src/assets/*, capture.mjs, 16 PNGs)"
+  ],
+  "verification": "Every image was opened and looked at. The capture script checks fonts, broken images and clipped text. Not verified: device or emulator, keyboard-open frame, motion frames, real reply lengths. Streaming replies are not built (the server returns whole replies), and the doc flags this.",
+  "cost_and_pending_requests": "none (no paid calls)",
+  "confidence": "agent-reported; verify evidence before acting"
+}

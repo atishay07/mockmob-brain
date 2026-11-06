@@ -1,0 +1,765 @@
+{
+  "batch": "gat-01",
+  "subject": "general_test",
+  "questions": [
+    {
+      "id": "5e3b444f-ec85-4577-a7c0-33efbda8bdb0",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "Statements: All doctors are graduates. Some graduates are teachers. Conclusions: I. Some doctors are teachers. II. Some teachers are doctors. Which conclusion(s) follow?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only conclusion I follows"
+        },
+        {
+          "key": "B",
+          "text": "Only conclusion II follows"
+        },
+        {
+          "key": "C",
+          "text": "Both conclusions I and II follow"
+        },
+        {
+          "key": "D",
+          "text": "Neither conclusion I nor II follows"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "All doctors lie inside the set of graduates, but the graduates who are teachers may lie entirely outside the doctor set, so neither conclusion is forced. In a Venn diagram the teacher circle overlaps the graduate circle, while the doctor circle sits inside the graduate circle without touching the teacher circle.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Syllogisms (two statements, Venn logic)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "9bebf5e8-f031-4b06-9d58-f8367fd84a68",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "Brush : Painter :: Pen : ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Paper"
+        },
+        {
+          "key": "B",
+          "text": "Writer"
+        },
+        {
+          "key": "C",
+          "text": "Ink"
+        },
+        {
+          "key": "D",
+          "text": "Notebook"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "A brush is the tool a painter uses, so the pair links a tool with the person who works with it. A pen is the tool a writer uses, so the answer is writer. Paper, ink and notebook are things used with a pen but do not name the person who uses it.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Analogy (word relationships)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "0d4b69da-b95d-4c26-a1bc-264acb7c6188",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "Which one of the following does not belong to the group?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sparrow"
+        },
+        {
+          "key": "B",
+          "text": "Crow"
+        },
+        {
+          "key": "C",
+          "text": "Crocodile"
+        },
+        {
+          "key": "D",
+          "text": "Pigeon"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Sparrow, crow and pigeon are birds, which share feathers, wings and beaks. A crocodile is a reptile with scaly skin, so it is the odd one out. In classification, the answer is the member that differs from the others in the property they share.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Classification (odd one out)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "e0c08075-b58b-4d3f-af73-dd797c293080",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "If TABLE is coded as UBCMF, how is CHAIR coded?",
+      "options": [
+        {
+          "key": "A",
+          "text": "DIBJS"
+        },
+        {
+          "key": "B",
+          "text": "DJBIS"
+        },
+        {
+          "key": "C",
+          "text": "CIBJS"
+        },
+        {
+          "key": "D",
+          "text": "DIBJR"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Each letter of TABLE is moved one place forward in the alphabet to give UBCMF. Applying the same shift to CHAIR gives C to D, H to I, A to B, I to J and R to S, so the code is DIBJS.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Coding-decoding (letter shifts)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "e70bd8ee-73e0-4803-8b89-733d48f131aa",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "Ramesh has a son, Vikas, and a daughter, Gita. Vikas is married to Neha. How is Neha related to Gita?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sister-in-law"
+        },
+        {
+          "key": "B",
+          "text": "Aunt"
+        },
+        {
+          "key": "C",
+          "text": "Cousin"
+        },
+        {
+          "key": "D",
+          "text": "Niece"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Gita and Vikas are siblings, so Neha, who is married to Vikas, is the wife of Gita's brother. That relation is sister-in-law. Trace each marriage back to the sibling group before naming the relation.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Blood relations",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "456934c8-38ec-409e-bbc0-48a263b34226",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "Find the next term in the series: 2, 6, 12, 20, 30, ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "38"
+        },
+        {
+          "key": "B",
+          "text": "40"
+        },
+        {
+          "key": "C",
+          "text": "42"
+        },
+        {
+          "key": "D",
+          "text": "44"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "The differences between consecutive terms are 4, 6, 8 and 10, rising by 2 each time, so the next difference is 12. The next term is 30 + 12 = 42. Each term is also n(n+1) for n = 1 to 5, and 6 x 7 = 42.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Number series (differences and patterns)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "75349543-7db7-44e5-b720-222dc0f55ff2",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "Riya is facing north. She turns right twice, turning 90 degrees each time. Which direction is she facing now?",
+      "options": [
+        {
+          "key": "A",
+          "text": "North"
+        },
+        {
+          "key": "B",
+          "text": "East"
+        },
+        {
+          "key": "C",
+          "text": "South"
+        },
+        {
+          "key": "D",
+          "text": "West"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "One right turn from north faces her east, and a second right turn from east faces her south. Two right turns make a half-turn, so she faces the opposite of her starting direction. Count right turns clockwise from the direction she is facing.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Direction sense",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "6bbde2ac-85d2-4b61-a2e7-25ad64d121d3",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "sequence_ordering",
+      "stem": "Arrange the following words in the order they would appear in a dictionary, from first to last: Tiger, Tablet, Table, Tail, Tab.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tab, Table, Tablet, Tail, Tiger"
+        },
+        {
+          "key": "B",
+          "text": "Tab, Tail, Table, Tablet, Tiger"
+        },
+        {
+          "key": "C",
+          "text": "Table, Tab, Tablet, Tail, Tiger"
+        },
+        {
+          "key": "D",
+          "text": "Tab, Table, Tail, Tablet, Tiger"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Dictionary order compares letters from left to right. Tab comes before Table because it is a prefix of it, and Table comes before Tablet for the same reason. Tablet comes before Tail because b precedes i at the third letter, and Tail comes before Tiger because a precedes i at the second letter.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Ranking and order (alphabetical ordering)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "e09818d8-3a95-4c58-bddd-a28479403f5d",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "match_the_following",
+      "stem": "Match List-I with List-II. List-I: (A) 2, 4, 8, 16 (B) 1, 4, 9, 16 (C) 1, 1, 2, 3 (D) 5, 10, 15, 20. List-II: (I) Squares of natural numbers (II) Constant ratio of 2 (III) Fibonacci sequence (IV) Constant difference of 5. Choose the correct answer from the options given below.",
+      "options": [
+        {
+          "key": "A",
+          "text": "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+        },
+        {
+          "key": "B",
+          "text": "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)"
+        },
+        {
+          "key": "C",
+          "text": "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)"
+        },
+        {
+          "key": "D",
+          "text": "(A)-(IV), (B)-(III), (C)-(II), (D)-(I)"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "2, 4, 8, 16 doubles each time, so it has a constant ratio of 2 (A-II). 1, 4, 9, 16 are squares of 1 to 4 (B-I). 1, 1, 2, 3 is the Fibonacci sequence, where each term is the sum of the two before it (C-III). 5, 10, 15, 20 rises by a constant difference of 5 (D-IV).",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Number series and patterns (match)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "e8db991e-fd05-4e8d-9157-36a719ad405d",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "match_the_following",
+      "stem": "Match List-I with List-II. List-I: (A) All A are B (B) No A is B (C) Some A are B (D) All B are A. List-II: (I) A and B overlap partially (II) A and B are disjoint (III) A lies entirely within B (IV) B lies entirely within A. Choose the correct answer from the options given below.",
+      "options": [
+        {
+          "key": "A",
+          "text": "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+        },
+        {
+          "key": "B",
+          "text": "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)"
+        },
+        {
+          "key": "C",
+          "text": "(A)-(IV), (B)-(I), (C)-(II), (D)-(III)"
+        },
+        {
+          "key": "D",
+          "text": "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "All A are B means circle A lies inside circle B (A-III). No A is B means the two circles are disjoint (B-II). Some A are B means the circles overlap partially (C-I). All B are A means circle B lies inside circle A (D-IV).",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Syllogisms (Venn logic of All, No, Some)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "19c49938-f37a-419f-975a-03e609b82cdc",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "Five persons P, Q, R, S and T sit around a circular table, equidistant from each other and all facing the centre. P sits immediately to the right of Q. S sits second to the left of P. R does not sit next to S. Which person sits next to both Q and R?",
+      "options": [
+        {
+          "key": "A",
+          "text": "S"
+        },
+        {
+          "key": "B",
+          "text": "T"
+        },
+        {
+          "key": "C",
+          "text": "P"
+        },
+        {
+          "key": "D",
+          "text": "Q"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Place Q, then P immediately after Q, so S sits two places before P on Q's other side. R cannot sit next to S, so R sits beside P and T sits between R and S. P is the only person adjacent to both Q and R.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Seating arrangement (circular)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "c2041ae3-9c59-4149-bdbc-3b863ca761f5",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "Five persons P, Q, R, S and T sit in a single row facing north. Left and right are taken as seen by an observer facing the row. T sits at one of the two ends. P sits second to the right of T. Q sits immediately to the right of R. Who sits second to the left of Q?",
+      "options": [
+        {
+          "key": "A",
+          "text": "R"
+        },
+        {
+          "key": "B",
+          "text": "S"
+        },
+        {
+          "key": "C",
+          "text": "P"
+        },
+        {
+          "key": "D",
+          "text": "T"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "T must be at an end, and P two places to its right forces T to the left end with P in the middle. Q sits immediately right of R, which leaves only the fourth and fifth places for them, so S is in the second place. Second to the left of Q is therefore P.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Seating arrangement (linear)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "bd7ed369-d22b-4366-a731-45bd7dce9242",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "In a class of 40 students, Neha ranks 12th from the top. Rohit ranks 5 places below Neha. What is Rohit's rank from the bottom?",
+      "options": [
+        {
+          "key": "A",
+          "text": "22nd"
+        },
+        {
+          "key": "B",
+          "text": "23rd"
+        },
+        {
+          "key": "C",
+          "text": "24th"
+        },
+        {
+          "key": "D",
+          "text": "25th"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Rohit's rank from the top is 12 + 5 = 17. His rank from the bottom is 40 - 17 + 1 = 24, because a rank from one end plus the rank from the other end minus one equals the total number of students.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Ranking and order (rank from both ends)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "7edd9bb1-56a1-431d-b322-59c335b4c8a0",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "If 15 March 2026 falls on a Sunday, what day of the week will 15 April 2026 be?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tuesday"
+        },
+        {
+          "key": "B",
+          "text": "Wednesday"
+        },
+        {
+          "key": "C",
+          "text": "Thursday"
+        },
+        {
+          "key": "D",
+          "text": "Friday"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "From 15 March to 15 April is 31 days: 16 days remain in March (16 to 31) and 15 days run into April (1 to 15). Since 31 leaves a remainder of 3 when divided by 7, the weekday moves forward by 3 days, so Sunday becomes Wednesday.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Calendars (odd days)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "6e38970a-7eca-45b6-80f6-ebf5c9125a91",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "statement_based",
+      "stem": "Statement: The school has announced that all classes will be held online from tomorrow. Assumptions: I. Students have access to devices and a working internet connection. II. The school will reopen for physical classes next month. Which assumption is implicit in the statement?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only assumption I is implicit"
+        },
+        {
+          "key": "B",
+          "text": "Only assumption II is implicit"
+        },
+        {
+          "key": "C",
+          "text": "Both assumptions I and II are implicit"
+        },
+        {
+          "key": "D",
+          "text": "Neither assumption is implicit"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "An announcement of online classes only works if students can reach the lessons, so assumption I is taken for granted. Assumption II concerns a future decision that the announcement does not depend on, so it is not implicit. An implicit assumption is a condition the speaker must believe for the statement to make sense.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Statement and assumption",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "3d61c8af-814f-4665-a3d5-f8d26a01e25a",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "statement_based",
+      "stem": "Statement: Several guests at a wedding feast fell ill after eating food from the same caterer. Courses of action: I. The health department should inspect the caterer's kitchen and food storage. II. All wedding feasts in the city should be banned for a year. III. The guests should be asked to avoid weddings. Which course(s) of action follow?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only I follows"
+        },
+        {
+          "key": "B",
+          "text": "Only II follows"
+        },
+        {
+          "key": "C",
+          "text": "Only I and III follow"
+        },
+        {
+          "key": "D",
+          "text": "I, II and III follow"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "A course of action should address the stated problem in proportion to it, and inspecting the source of contamination does that directly. Banning all weddings, or asking guests to avoid them, punishes many people for one caterer's failure. A course is rejected when it is disproportionate or aimed at the wrong people.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Course of action",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "9bf44c6e-60a3-4d29-90b1-afcdbf800ab4",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "statement_based",
+      "stem": "Statement: Only those students who score above 90 per cent are selected for the advanced programme. Ravi was selected for the advanced programme. Conclusions: I. Ravi scored above 90 per cent. II. All students who score above 90 per cent are selected for the advanced programme.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only conclusion I follows"
+        },
+        {
+          "key": "B",
+          "text": "Only conclusion II follows"
+        },
+        {
+          "key": "C",
+          "text": "Both conclusions I and II follow"
+        },
+        {
+          "key": "D",
+          "text": "Neither conclusion I nor II follows"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "'Only those who score above 90 per cent are selected' means selection implies a score above 90 per cent, so Ravi's score is above 90 (I). Conclusion II reverses the condition, and 'only' does not say that everyone above 90 per cent is selected. Read 'only those who' as a one-way condition.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Statement and conclusion (the word 'only')",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "f05bce07-08b2-491b-937f-d70bca9926c5",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "sequence_ordering",
+      "stem": "Ajay is taller than Bina. Bina is taller than Chirag. Divya is shorter than Chirag but taller than Esha. Arrange the five persons from the tallest to the shortest.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ajay, Chirag, Bina, Divya, Esha"
+        },
+        {
+          "key": "B",
+          "text": "Bina, Ajay, Chirag, Divya, Esha"
+        },
+        {
+          "key": "C",
+          "text": "Ajay, Bina, Chirag, Divya, Esha"
+        },
+        {
+          "key": "D",
+          "text": "Ajay, Bina, Divya, Chirag, Esha"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Chain the comparisons: Ajay > Bina > Chirag from the first two clues, and Chirag > Divya > Esha from the third. Combining the chains gives one full order. Check each option against every clue, since one wrong adjacent pair rules it out.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Ranking and order (height comparisons)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "72c5b422-6100-4243-87c5-e6da84a6f8c7",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "Statements: Some pens are inks. All inks are liquids. No liquid is a solid. Conclusions: I. Some pens are not solids. II. No pen is a solid. III. Some liquids are pens. Which conclusions follow?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only conclusion I follows"
+        },
+        {
+          "key": "B",
+          "text": "Only conclusion III follows"
+        },
+        {
+          "key": "C",
+          "text": "Conclusions I and III follow"
+        },
+        {
+          "key": "D",
+          "text": "Conclusions I, II and III follow"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Some pens are inks, and every ink is a liquid, so those pens are liquids. Since no liquid is a solid, those pens are not solids (I), and the same pens show that some liquids are pens (III). Pens outside the ink group may still be solids, so II does not follow.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Syllogisms (three statements, Venn logic)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "4650a47a-f12a-4916-975a-1e2bbd999de5",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "sequence_ordering",
+      "stem": "Five books, P, Q, R, S and T, are placed on a shelf from left to right. S is at the left end. P is immediately to the right of R. Q is to the right of P but not next to P. Which arrangement from left to right is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "S, R, P, Q, T"
+        },
+        {
+          "key": "B",
+          "text": "S, R, P, T, Q"
+        },
+        {
+          "key": "C",
+          "text": "S, P, R, T, Q"
+        },
+        {
+          "key": "D",
+          "text": "R, S, P, T, Q"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "S fixes the first place. P must sit immediately after R, and P in the fourth place would push Q beyond the fifth place, so R is in the second place and P in the third. Q must be in the fifth place to be right of P without touching it, which leaves T in the fourth place: S, R, P, T, Q.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Seating and arrangement (linear, ordering by clues)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "0468e07c-fb05-430c-850b-73aa1a93e4c9",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "What is the total number of students in a class? Statement I: The ratio of boys to girls is 3 : 2. Statement II: There are 18 boys in the class. Which option is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Statement I alone is sufficient"
+        },
+        {
+          "key": "B",
+          "text": "Statement II alone is sufficient, but statement I alone is not"
+        },
+        {
+          "key": "C",
+          "text": "Both statements together are sufficient, but neither statement alone is sufficient"
+        },
+        {
+          "key": "D",
+          "text": "Either statement alone is sufficient"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "The ratio alone gives no actual head count, and 18 boys alone does not give the number of girls. Together, 3 parts equal 18 boys, so one part is 6, girls are 2 x 6 = 12, and the total is 30. Data sufficiency asks whether the data fixes the answer, not whether you can compute it.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Data sufficiency",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "c6f4c6ab-0a24-49a8-ba45-23a3104b8826",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "Ravi starts from point O and walks 4 m north. He turns left and walks 3 m. He turns left again and walks 4 m. He then turns right and walks 6 m. In which direction, and how far, is Ravi from O?",
+      "options": [
+        {
+          "key": "A",
+          "text": "9 m west"
+        },
+        {
+          "key": "B",
+          "text": "13 m west"
+        },
+        {
+          "key": "C",
+          "text": "9 m east"
+        },
+        {
+          "key": "D",
+          "text": "3 m west"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Walking north, turning left to face west, turning left again to face south, and then turning right to face west. The 4 m north and 4 m south moves cancel, while the westward moves total 3 + 6 = 9 m. Track the facing direction after each turn and net the north-south and east-west moves separately.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Direction sense (multi-turn trace)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "f6ac091e-cd92-418c-99f8-bf273c9fec50",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "After 4 o'clock, at what time do the hour hand and the minute hand of a clock first coincide?",
+      "options": [
+        {
+          "key": "A",
+          "text": "4 : 20"
+        },
+        {
+          "key": "B",
+          "text": "4 : 21 9/11"
+        },
+        {
+          "key": "C",
+          "text": "4 : 22 6/11"
+        },
+        {
+          "key": "D",
+          "text": "4 : 24"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "At 4 : m, the hour hand is 120 + m/2 degrees from the twelve and the minute hand is 6m degrees, so they coincide when 6m = 120 + m/2. This gives 5.5m = 120, so m = 240/11 = 21 9/11 minutes. The minute hand gains 5.5 degrees per minute on the hour hand, starting from a 120-degree gap.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Clocks (hour and minute hand coincidence)",
+      "source": "claude-authored-2026-10-17-w3"
+    }
+  ]
+}

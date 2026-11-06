@@ -1,0 +1,226 @@
+[
+ {
+  "size": "390",
+  "key": "default",
+  "theme": "light",
+  "url": "http://localhost:3452/preview/arena?view=test&plan=pro&data=ready",
+  "shot": "shots/runner/390-default-day.png",
+  "full": "shots/runner/390-default-day-full.png",
+  "summary": {
+   "docH": 844,
+   "h1": [],
+   "buttons": [
+    "Back to dashboard"
+   ],
+   "legend": [],
+   "classes": []
+  }
+ },
+ {
+  "size": "390",
+  "key": "default",
+  "theme": "dark",
+  "url": "http://localhost:3452/preview/arena?view=test&plan=pro&data=ready",
+  "shot": "shots/runner/390-default-night.png",
+  "full": "shots/runner/390-default-night-full.png",
+  "summary": {
+   "docH": 844,
+   "h1": [],
+   "buttons": [
+    "Back to dashboard"
+   ],
+   "legend": [],
+   "classes": []
+  }
+ },
+ {
+  "size": "390",
+  "key": "full-english",
+  "theme": "light",
+  "url": "http://localhost:3452/preview/arena?view=test&plan=pro&data=ready&mode=full&subject=english",
+  "shot": "shots/runner/390-full-english-day.png",
+  "full": "shots/runner/390-full-english-day-full.png",
+  "summary": {
+   "docH": 844,
+   "h1": [],
+   "buttons": [
+    "Try again",
+    "Back to dashboard"
+   ],
+   "legend": [],
+   "classes": []
+  }
+ },
+ {
+  "size": "390",
+  "key": "nta-mockmob",
+  "theme": "light",
+  "url": "http://localhost:3452/preview/arena?view=test&plan=pro&data=ready&mode=nta&subject=english&interface=mockmob",
+  "shot": "shots/runner/390-nta-mockmob-day.png",
+  "full": "shots/runner/390-nta-mockmob-day-full.png",
+  "summary": {
+   "docH": 844,
+   "h1": [],
+   "buttons": [
+    "Try again",
+    "Back to dashboard"
+   ],
+   "legend": [],
+   "classes": []
+  }
+ },
+ {
+  "size": "390",
+  "key": "nta-classic",
+  "theme": "light",
+  "url": "http://localhost:3452/preview/arena?view=test&plan=pro&data=ready&mode=nta&subject=english&interface=nta",
+  "shot": "shots/runner/390-nta-classic-day.png",
+  "full": "shots/runner/390-nta-classic-day-full.png",
+  "summary": {
+   "docH": 844,
+   "h1": [],
+   "buttons": [
+    "Try again",
+    "Back to dashboard"
+   ],
+   "legend": [],
+   "classes": []
+  }
+ },
+ {
+  "size": "390",
+  "key": "nta-classic",
+  "theme": "dark",
+  "url": "http://localhost:3452/preview/arena?view=test&plan=pro&data=ready&mode=nta&subject=english&interface=nta",
+  "shot": "shots/runner/390-nta-classic-night.png",
+  "full": "shots/runner/390-nta-classic-night-full.png",
+  "summary": {
+   "docH": 844,
+   "h1": [],
+   "buttons": [
+    "Try again",
+    "Back to dashboard"
+   ],
+   "legend": [],
+   "classes": []
+  }
+ },
+ {
+  "size": "1440",
+  "key": "default",
+  "theme": "light",
+  "url": "http://localhost:3452/preview/arena?view=test&plan=pro&data=ready",
+  "shot": "shots/runner/1440-default-day.png",
+  "summary": {
+   "docH": 900,
+   "h1": [],
+   "buttons": [
+    "Night",
+    "Daylight",
+    "Match device",
+    "Back to dashboard"
+   ],
+   "legend": [],
+   "classes": []
+  }
+ },
+ {
+  "size": "1440",
+  "key": "default",
+  "theme": "dark",
+  "url": "http://localhost:3452/preview/arena?view=test&plan=pro&data=ready",
+  "shot": "shots/runner/1440-default-night.png",
+  "summary": {
+   "docH": 900,
+   "h1": [],
+   "buttons": [
+    "Night",
+    "Daylight",
+    "Match device",
+    "Back to dashboard"
+   ],
+   "legend": [],
+   "classes": []
+  }
+ },
+ {
+  "size": "1440",
+  "key": "full-english",
+  "theme": "light",
+  "url": "http://localhost:3452/preview/arena?view=test&plan=pro&data=ready&mode=full&subject=english",
+  "shot": "shots/runner/1440-full-english-day.png",
+  "summary": {
+   "docH": 900,
+   "h1": [],
+   "buttons": [
+    "Night",
+    "Daylight",
+    "Match device",
+    "Try again",
+    "Back to dashboard"
+   ],
+   "legend": [],
+   "classes": []
+  }
+ },
+ {
+  "size": "1440",
+  "key": "nta-mockmob",
+  "theme": "light",
+  "url": "http://localhost:3452/preview/arena?view=test&plan=pro&data=ready&mode=nta&subject=english&interface=mockmob",
+  "shot": "shots/runner/1440-nta-mockmob-day.png",
+  "summary": {
+   "docH": 900,
+   "h1": [],
+   "buttons": [
+    "Night",
+    "Daylight",
+    "Match device",
+    "Try again",
+    "Back to dashboard"
+   ],
+   "legend": [],
+   "classes": []
+  }
+ },
+ {
+  "size": "1440",
+  "key": "nta-classic",
+  "theme": "light",
+  "url": "http://localhost:3452/preview/arena?view=test&plan=pro&data=ready&mode=nta&subject=english&interface=nta",
+  "shot": "shots/runner/1440-nta-classic-day.png",
+  "summary": {
+   "docH": 900,
+   "h1": [],
+   "buttons": [
+    "Night",
+    "Daylight",
+    "Match device",
+    "Try again",
+    "Back to dashboard"
+   ],
+   "legend": [],
+   "classes": []
+  }
+ },
+ {
+  "size": "1440",
+  "key": "nta-classic",
+  "theme": "dark",
+  "url": "http://localhost:3452/preview/arena?view=test&plan=pro&data=ready&mode=nta&subject=english&interface=nta",
+  "shot": "shots/runner/1440-nta-classic-night.png",
+  "summary": {
+   "docH": 900,
+   "h1": [],
+   "buttons": [
+    "Night",
+    "Daylight",
+    "Match device",
+    "Try again",
+    "Back to dashboard"
+   ],
+   "legend": [],
+   "classes": []
+  }
+ }
+]

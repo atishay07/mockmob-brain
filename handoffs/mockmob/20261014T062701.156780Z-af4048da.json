@@ -1,0 +1,30 @@
+{
+  "id": "20261014T062701.156780Z-af4048da",
+  "observed_at": "2026-10-14T06:27:01.159781+00:00",
+  "agent": "claude-opus-5.5 subagent (authored publish tooling)",
+  "task": "Prepare dry-run-first tooling to publish the 479 authored CUET questions and make them NTA-eligible (no production access)",
+  "status": "complete",
+  "done": "Commit 5b352ac on fix/nta-mode (mockmob-hotfix, not pushed): scripts/question-publish-authored.mjs (dry-run|apply|restore), scripts/authored-scores-merge.mjs (entries|check|merge|rejudge-list), libs scripts/lib/authored-wave.mjs and authored-scores.mjs, 42 offline tests, runbook docs/brain/RUNBOOK-PUBLISH-AUTHORED-2026-10-14.md, committed entries file and two offline check reports. Nothing run against any database. Offline engine check on the exact rows: 460 of 479 admitted (admit policy), 402 under hold; 19 refused by content gates (15 orphan_passage_question from 'according to' stems, 3 sign-only option sets, 1 'mainly').",
+  "next": "Owner decides: publish now; admit vs hold for the 60 repaired-text questions (recommend admit); confirm judge model (assumed claude-haiku-5-5, not recorded in raw files); reword the 19 refused questions or relax the engine gates; merge wip/cuet-fit before fit entries are merged. Then: merge scores (--mode=merge), commit tables, dry-run against production (select-only), owner approval, apply.",
+  "blockers": [
+    "Publication needs owner approval",
+    "Judge model unconfirmed",
+    "wip/cuet-fit not merged into fix/nta-mode, so fit tables cannot be merged here yet"
+  ],
+  "evidence": [],
+  "touched_files": [
+    "scripts/question-publish-authored.mjs",
+    "scripts/authored-scores-merge.mjs",
+    "scripts/lib/authored-wave.mjs",
+    "scripts/lib/authored-scores.mjs",
+    "data/tests/authored_publish.test.mjs",
+    "docs/brain/RUNBOOK-PUBLISH-AUTHORED-2026-10-14.md",
+    "docs/brain/reports/authored/wave1-score-entries-2026-10-14.json",
+    "docs/brain/reports/authored/wave1-score-check-admit-2026-10-14.json",
+    "docs/brain/reports/authored/wave1-score-check-hold-2026-10-14.json",
+    "package.json"
+  ],
+  "verification": "npm run test:authored-publish 42/42; npm run test:nta 123/123; npm run test:question-reorder 26/26; eslint clean on the new files. Real wip/cuet-fit engine (mockmob-fit) run offline on merged tables: 460 eligible, same 19 content refusals, no fit refusal.",
+  "cost_and_pending_requests": "none (no paid calls, no network)",
+  "confidence": "agent-reported; verify evidence before acting"
+}

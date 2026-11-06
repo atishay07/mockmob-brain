@@ -1,0 +1,31 @@
+{
+  "id": "20261013T074528.862245Z-670784c8",
+  "observed_at": "2026-10-13T07:45:28.863246+00:00",
+  "agent": "onboarding-builder (Opus, workflow subagent)",
+  "task": "Flutter onboarding 60->90% after owner feedback 1110: animated Mobi welcome, Mobi reactions per step, all-subject picker, spacing, no pasted AI pictures",
+  "status": "complete",
+  "done": "The pre-restart pass already had: the welcome as a lamp-lit desk drawn in code with MobiStage waving and speaking, MobiController cues in onboarding_flow and state/mobi_cues.dart, the guide-bar Mobi, the 15-subject registry from /api/subjects, and the save-step gap fix. This pass added: welcome_view laid out so the room fills the space above the words (no empty floor band at 360x640 to 430x950); FoilSeal redrawn in code, replacing the AI render; unoffered CUET papers in the picker shown as two quiet chip blocks ('Other papers', 'Language papers', grouped by official code 1xx); StepLayout head 16 dp tighter on phones under 720 dp tall; physics, chemistry and biology chapter order matched to data/cuet_chapter_priorities.json; stale tests fixed (Maths now syncs, since applied_mathematics is merged into mathematics in 2026); new tests mobi_cues_test and subject_picker_test; new goldens picker_open, picker_not_offered, picker_search, tiny_* (360x640) and tall_* (430x950).",
+  "next": "Owner device pass on the onboarding: Mobi motion feel and the 2-minute flow. Core: the glass sheet (GlassSurface role sheet) shows the step's text through it in goldens, which hurts the subject picker's legibility; a core owner should check this on a device or make list sheets more opaque. The tiny 360x640 subjects step shows only one row above the key (it scrolls).",
+  "blockers": [],
+  "evidence": [
+    "analyze clean on onboarding, auth, their tests and rhythm_page.dart",
+    "test/unit/onboarding + test/unit/auth: 54 passed",
+    "test/golden/onboarding: 74 passed (regenerated, viewed)",
+    "test/golden/auth: 26 passed"
+  ],
+  "touched_files": [
+    "flutter_app/lib/features/onboarding/screens/welcome_view.dart",
+    "flutter_app/lib/features/onboarding/widgets/foil_seal.dart",
+    "flutter_app/lib/features/onboarding/widgets/subject_picker.dart",
+    "flutter_app/lib/features/onboarding/widgets/step_layout.dart",
+    "flutter_app/lib/features/onboarding/data/subject_registry.dart",
+    "flutter_app/lib/features/onboarding/data/chapter_order.dart",
+    "flutter_app/lib/features/onboarding/copy.dart",
+    "flutter_app/lib/features/rhythm/widgets/rhythm_page.dart (GroupHeading trailing param, unblocked compile)",
+    "flutter_app/test/golden/onboarding/*",
+    "flutter_app/test/unit/onboarding/*"
+  ],
+  "verification": "Ran via tool/flutter_locked.sh, retrying while other agents' edits in today/rhythm broke compilation. Goldens opened and checked in both themes.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

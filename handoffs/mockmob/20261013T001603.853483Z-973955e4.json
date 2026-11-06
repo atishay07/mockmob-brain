@@ -1,0 +1,23 @@
+{
+  "id": "20261013T001603.853483Z-973955e4",
+  "observed_at": "2026-10-13T00:16:03.853483+00:00",
+  "agent": "claude-code opus-5.5 (workflow subagent, today builder)",
+  "task": "Night Sheet Today screen (lib/features/today)",
+  "status": "complete",
+  "done": "Built Today: pure builder (TodayInputs -> TodayView) over core nextMoveState; hero precedence resume > ended > sealed > move with compact slots; move hero (subject light, object/Mobi art, monumental number, Show me, duration chips, volt pill, lit edge); sealed folded sheet; resume/ended; header with greeting + week bubbles; Your sheet bubble rows; road to May with ladder; skeleton, offline, error; why/alternatives sheets; weekly ending page; todayProfileProvider bound to onboarding studentSheetProvider.",
+  "next": "Integrator: check on device (blur, art arrival, number roll on chip change); review route accepts ?count; router_widget_test failures are /practice overflow (practice builder).",
+  "blockers": [],
+  "evidence": [
+    "flutter analyze lib/features/today test/unit/today test/golden/today: No issues",
+    "flutter test -j 1 test/unit/today test/golden/today: 70 passed",
+    "32 goldens at 384x853 DPR2 viewed via MM_PREVIEW_DIR contact sheets"
+  ],
+  "touched_files": [
+    "flutter_app/lib/features/today/**",
+    "flutter_app/test/unit/today/**",
+    "flutter_app/test/golden/today/**"
+  ],
+  "verification": "Analyze clean; unit+widget+golden tests pass; goldens opened. Not run on a device.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

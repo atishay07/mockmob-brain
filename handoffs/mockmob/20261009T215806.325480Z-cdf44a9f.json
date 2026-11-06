@@ -1,0 +1,30 @@
+{
+  "id": "20261009T215806.325480Z-cdf44a9f",
+  "observed_at": "2026-10-09T21:58:06.325480+00:00",
+  "agent": "/root/difficulty_selection_final",
+  "task": "Offline V715 source-binding review, body sizing, and final two native case diagnoses",
+  "status": "complete",
+  "done": "Reviewed the five additive V715 files without editing frozen runtime sources. Added focused line-hyphen, word/numeric-boundary, arithmetic-ID, full-matrix, current/stale-profile, and missing-audit tests (8/8 pass). Added a create-only local sizing helper using the real V715 adapter flow with synthetic responses and memory cache: all 222 base/retry request bodies were captured, max 32,811/33,024 bytes (213 bytes headroom), no paid calls or academic evidence. Verified V714 5/5, V713 118/118, R3 8/8 frozen dependencies and V715’s five-file freeze. Diagnosed the final two native cases and saved a create-only report; no outcomes or labels changed.",
+  "next": "Root may incorporate the V715 local/unqualified evidence and final-case findings into its user-facing comparison. Do not claim qualification, explanation audit, runtime wiring, publication, or release from these checks.",
+  "blockers": [
+    "V715 remains local, unqualified, and runtime-unwired. Native R3 qualification failed and explanation audits were not reached in either inspected case.",
+    "The first V715 review JSON had a literal trailing backslash-n and is malformed; preserved with a valid V2 copy (SHA 34e4d144d93f41e682e9f16bd3d270ad1832e45dd88c1f5f5504fac99c7934c8)."
+  ],
+  "evidence": [
+    "V715 local freeze SHA d52ef7e40a1cfdc8d7e1d03d40a4ae89edef565e65d163c8fbe534844390bb7a; contract e44f34f94187283d851db1d6b46d95615e02de089bcbc783d7a312344f77de9d; prompt d900a166e86cf3607cc823f9fc664a04901a721deb222711df2a4105a38e3521.",
+    "Sizing artifact hash 939baf6e64acfd5dd0b73863dbf978666ff819b51c1bc02f1e53a0763b2b6023; 37 fixtures/222 request variants, 32,811 max bytes, 0 over limit; synthetic only.",
+    "Native diagnosis hash 5c19bdb6c2a2ab260211d079fd2e62aad578d85aa733ab409905411269a3e578, bound to state SHA b4dd7867349f534da817cfc3fdc14e192064e739e8e2b3a9e86ee553a271212f, frozen SHA 21d81b6a6011136d54cb20e03aef130cb08c62ec059d772b7383ef74aab9fb37, registry SHA 0cd90b86dab2816c1e276f6a8bc23d340e608c1f2274f45685c7f17cd68b3730.",
+    "V714 manifest 095b049fc43bf20f014c09b0f4dad4bb6d1870cfcc6421aca88aedd985d98092 checked 5/5; V713 82de56e6299d312cbbee86a636f7ddff41daf8ca4a626204ca714541935481f4 checked 118/118; R3 9af13e0e9d3c99646a454b45fa60ca7fd03a09159f4fba11f5d10239e37be4e1 checked 8/8."
+  ],
+  "touched_files": [
+    "scripts/pipeline/tests/v715OptionResolution.test.mjs",
+    "scripts/pipeline/tools/v715BodySizeDiagnostic.mjs",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v713/qualification-fresh31-regression6/v715-body-size-diagnostic.json",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v713/diagnosis/V715-LOCAL-REVIEW-20261010.json",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v713/diagnosis/V715-LOCAL-REVIEW-20261010-V2.json",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v713/qualification-fresh31-regression6/diagnosis/NATIVE-FINAL-CASES-20261010.json"
+  ],
+  "verification": "node --test scripts/pipeline/tests/v715OptionResolution.test.mjs: 8 passed, 0 failed. V715 adapter sizing diagnostic reconstructed and captured 222 requests with no adapter errors/overflow. V715 five source hashes and parent frozen dependency hashes match. Both final case native summaries recorded; explanation audits absent for both.",
+  "cost_and_pending_requests": "No provider calls in this subtask; native historical R3 outcomes and settled/held cost remain as previously recorded by the owner; no new requests are pending from this subtask.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

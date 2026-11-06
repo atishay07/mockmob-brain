@@ -1,0 +1,85 @@
+{
+ "kind": "authored_publish_plan",
+ "version": "authored-publish-1",
+ "mode": "dry-run",
+ "source": "claude-authored-2026-10-17-w3",
+ "at": "2026-10-16T20:01:58.117Z",
+ "candidatesFile": "docs/brain/reports/authored-w3/wave3-candidates-2026-10-17.json",
+ "candidatesSha256": "e7402e21c6693d493141cf82d0056a298adc8fe758a0e1bea15899d9eb5f2f01",
+ "planHash": "67f0743817af221acdc6d3cd627f1054f8294449c2f6c6ba4d5526cf3fd5db52",
+ "summary": {
+  "questions": 294,
+  "passageGroups": 5,
+  "bySubject": {
+   "chemistry": 74,
+   "gat": 97,
+   "hindi": 49,
+   "physics": 74
+  },
+  "byType": {
+   "conceptual_mcq": 217,
+   "match_the_following": 14,
+   "sequence_ordering": 10,
+   "statement_based": 20,
+   "assertion_reason": 9,
+   "reading_comprehension": 24
+  },
+  "byDifficulty": {
+   "medium": 141,
+   "easy": 97,
+   "hard": 56
+  },
+  "byExpertReview": {
+   "haiku_blind_verified": 187,
+   "opus_audited": 107
+  },
+  "passageChildrenBySet": {
+   "pg_7a28d456f6d3b8aef22bdacb4475afe0": 5,
+   "pg_c66068d4652471addcad71bc21e60eb6": 5,
+   "pg_688066b3aba7e384fe774332e4756c4b": 5,
+   "pg_06228de6fc631c7a5fe1572c5aa32cc8": 5,
+   "pg_cb5e4a07eeda2f7bbc18eaecdf05a9f6": 4
+  },
+  "passageSetsBelowNtaMinimum": [],
+  "chapters": 26
+ },
+ "blockers": [
+  "rows without an agent score entry (and a fit entry, where the fit tables exist) bound to their content hash: merge the scores first (scripts/authored-scores-merge.mjs)"
+ ],
+ "warnings": [],
+ "checks": {
+  "target": "isrxrxzjocewrdureyhp.supabase.co",
+  "questionColumnsMissing": 0,
+  "passageGroupColumnsMissing": 0,
+  "existingQuestionIds": 0,
+  "existingGroupIds": 0,
+  "liveBefore": {
+   "chemistry": 376,
+   "gat": 227,
+   "hindi": 10,
+   "physics": 301
+  },
+  "agentScores": {
+   "bound": 0,
+   "missing": 294,
+   "hashMismatch": 0
+  },
+  "fitScores": {
+   "bound": 0,
+   "missing": 294,
+   "hashMismatch": 0
+  },
+  "bankLookalikes": {
+   "exact": 0,
+   "nearStem": 0
+  }
+ },
+ "note": "Dry run against production (project isrxrxzjocewrdureyhp), select-only reads, 17 Oct 2026. Nothing was written to any database. The full plan (rows and groups) is not kept: re-run the dry run to regenerate it.",
+ "rowsPlanned": 294,
+ "groupsPlanned": 5,
+ "bankLookalikes": {
+  "exact": 0,
+  "near": 0,
+  "against": "13 Oct 2026 local export (mockmob-hotfix/tmp/nta-fixtures); wave 1 and 2 rows are not in it, see the audit file for the cross-wave check"
+ }
+}

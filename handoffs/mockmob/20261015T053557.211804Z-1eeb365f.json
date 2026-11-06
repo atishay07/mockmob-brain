@@ -1,0 +1,33 @@
+{
+  "id": "20261015T053557.211804Z-1eeb365f",
+  "observed_at": "2026-10-15T05:35:57.211804+00:00",
+  "agent": "claude-ia1-shell",
+  "task": "Web IA packet IA1: signed-in shell (sidebar, rail, phone bar, Start sheet, credits, guide) in wt-web-ia",
+  "status": "complete",
+  "done": "Rebuilt src/app/(app)/AppLayoutClient.jsx on navigation.js: 232px sidebar (>=1024), 76px rail (768-1023), 5-slot phone bar with lens and raised volt Start key (<768), phone/tablet header with one labelled credits chip and popover, desktop labelled credit lines + theme switch. Start sheet = native modal dialog morphing from the key (280ms ease-out, reduced motion = fade), hero from published Tonight's move (shellSignals) or a fallback nextMove from /api/attempts/summary, chips steer Quick 10/Full mock, nothing spent. Review badge from published tonight repair count only. Guide: 4 stops, opens once via /today?guide=first or openGuide({mode:'first'}), replay via openGuide(). Focus mode on /test (no chrome). Pending session paints shell + static skeleton (no 'Loading your session'), unavailable shows Can't reach MockMob with retry, signed out -> loginPathFor. Root layout: first-paint script (Night default on signed-in paths, device preference on public, saved choice wins, data-visitor/plan/started from mm:visitor:v1), launcher mount removed and AssistantLauncher files deleted, Bricolage behind brand_flags (preload false), themeColor per scheme. Old nav CSS removed from arena.css. AuthSessionScreen decorative gradients removed. Preview views shell/start-sheet/guide. data/tests/shell.test.mjs (12 tests).",
+  "next": "Integrator: add data/tests/shell.test.mjs to test:ia; Gate A headless captures of ?view=shell|start-sheet|guide at 360/375/768/1024/1366x650/1920 Night+Day+reduced motion; elementFromPoint hit test; IA2 publishNextMove/publishTonightRepair; IA6 publishTonightRepair; IA7 sign-out in You (calls rememberSignedOut) and openGuide replay; Repair v3 ending links /today?guide=first; IA3 update auth test expecting /dashboard.",
+  "blockers": [
+    "test:auth 1 fail from IA3 postSignInPath=/today (test expects /dashboard)",
+    "test:study 1 fail wordnet LICENSE_UNAVAILABLE (environmental, unrelated)",
+    "Sign out not reachable on web until IA7 ships You > Settings"
+  ],
+  "evidence": [
+    "node --test data/tests/shell.test.mjs data/tests/navigation.test.mjs: 27 pass",
+    "npm run test:ia 62 pass; test:app 147; test:learning 192; test:nta 150; test:du 19",
+    "npx eslint on all IA1 files: clean"
+  ],
+  "touched_files": [
+    "src/app/(app)/AppLayoutClient.jsx",
+    "src/app/(app)/arena.css",
+    "src/app/layout.js",
+    "src/components/shell/*",
+    "src/components/auth/AuthSessionScreen.jsx",
+    "src/components/ai/AssistantLauncher.jsx (deleted)",
+    "src/components/ai/AssistantLauncherGate.jsx (deleted)",
+    "src/app/preview/arena/views/shell.jsx",
+    "data/tests/shell.test.mjs"
+  ],
+  "verification": "Unit tests, eslint and code reading only; no dev server or browser per orchestrator override. Not visually verified.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

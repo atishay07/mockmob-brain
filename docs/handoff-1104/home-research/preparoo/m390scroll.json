@@ -1,0 +1,123 @@
+{
+ "tag": "m390scroll",
+ "cfg": {
+  "vw": 390,
+  "vh": 844,
+  "dsf": 3,
+  "mobile": true,
+  "scrollOnly": true
+ },
+ "startedAt": "2026-11-03T20:53:31.758Z",
+ "tests": [
+  {
+   "name": "slow drag 300px over 1200ms, finger stops 300ms before lifting",
+   "dist": 300,
+   "dur": 1200,
+   "hold": 300,
+   "y0": 0,
+   "final": 285,
+   "moved": 285,
+   "ratio": 0.95,
+   "trail": [
+    285,
+    285,
+    285,
+    285,
+    285,
+    285,
+    285,
+    285,
+    285,
+    285
+   ]
+  },
+  {
+   "name": "slow drag 300px over 1200ms, lift while moving",
+   "dist": 300,
+   "dur": 1200,
+   "y0": 0,
+   "final": 285,
+   "moved": 285,
+   "ratio": 0.95,
+   "trail": [
+    285,
+    285,
+    285,
+    285,
+    285,
+    285,
+    285,
+    285,
+    285,
+    285
+   ]
+  },
+  {
+   "name": "normal swipe 300px over 250ms (burst)",
+   "dist": 300,
+   "dur": 250,
+   "burst": true,
+   "y0": 0,
+   "final": 464,
+   "moved": 464,
+   "ratio": 1.55,
+   "trail": [
+    417,
+    464,
+    464,
+    464,
+    464,
+    464,
+    464,
+    464,
+    464,
+    464
+   ]
+  },
+  {
+   "name": "fast flick 300px over 80ms (burst)",
+   "dist": 300,
+   "dur": 80,
+   "burst": true,
+   "y0": 0,
+   "final": 2817,
+   "moved": 2817,
+   "ratio": 9.39,
+   "trail": [
+    1424,
+    2174,
+    2635,
+    2813,
+    2817,
+    2817,
+    2817,
+    2817,
+    2817,
+    2817
+   ]
+  },
+  {
+   "name": "fast flick 150px over 50ms (burst)",
+   "dist": 150,
+   "dur": 50,
+   "burst": true,
+   "y0": 0,
+   "final": 1836,
+   "moved": 1836,
+   "ratio": 12.24,
+   "trail": [
+    1031,
+    1569,
+    1818,
+    1836,
+    1836,
+    1836,
+    1836,
+    1836,
+    1836,
+    1836
+   ]
+  }
+ ],
+ "docH": 9817
+}

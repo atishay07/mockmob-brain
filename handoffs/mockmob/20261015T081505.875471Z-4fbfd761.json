@@ -1,0 +1,33 @@
+{
+  "id": "20261015T081505.875471Z-4fbfd761",
+  "observed_at": "2026-10-15T08:15:05.875471+00:00",
+  "agent": "claude-opus-5.5 web-v2 packet YOU/ACCOUNT",
+  "task": "Web v2 (wt-web-v2, branch web/v2-1015): port the restructure's You page (sheet, plan and credits, settings with theme switch, help) into the live /profile Account page inside the live navigation",
+  "status": "complete",
+  "done": "Rebuilt src/app/(app)/profile/ProfilePageClient.jsx on the live page (ArenaHead, Mobi greeting, count-ups, glass cards kept): Your sheet hero (greeting, exam and plan tags, subjects as shared SubjectObject 3D objects with settle-in, add-a-subject tile, mocks strip), name and sign-in (with confirm-first sign out of this browser), plan card joined to a PrepOS wallet line, Appearance and feel (selected theme tile volt edge, no kicker), Weekly goal (ported GoalControl on /api/me/goal, keeps pauses), Community (Ranks to /leaderboard, Contribute, My uploads) and Help (replay guide, contact, privacy) rows, privacy, other devices, delete. Every live setting kept. Pure rules in src/components/profile/accountModel.mjs. Token-based CSS for Day parity.",
+  "next": "Checker: capture /preview/arena?view=profile (Night, Day, 375 and 1440). Outside needs: preview fixtures for /api/me/goal and /api/me/consent; brand.css must style .subj-obj (brand packet); RhythmCard footnote can link /profile#goal; shell may listen for mockmob:open-guide.",
+  "blockers": [
+    "brain.py start/search timed out at session start (continuum_start unavailable)",
+    "src/app/brand.css (imported by layout.js) not yet present; SubjectObject needs it"
+  ],
+  "evidence": [],
+  "touched_files": [
+    "src/app/(app)/profile/ProfilePageClient.jsx",
+    "src/app/(app)/profile/LookAndFeelCard.jsx",
+    "src/app/(app)/profile/look-and-feel.css",
+    "src/app/(app)/profile/profile-privacy.css",
+    "src/app/(app)/profile/page.js",
+    "src/components/profile/accountModel.mjs",
+    "src/components/profile/YourSheet.jsx",
+    "src/components/profile/PlanCredits.jsx",
+    "src/components/profile/GoalControl.jsx",
+    "src/components/profile/SignOutControl.jsx",
+    "src/components/profile/AccountLinks.jsx",
+    "src/components/profile/account.css",
+    "data/tests/you_account.test.mjs",
+    "data/tests/mobi_kit.test.mjs"
+  ],
+  "verification": "node --test data/tests/you_account.test.mjs data/tests/mobi_kit.test.mjs data/tests/auth_reliability.test.mjs: 49 pass. npx eslint on profile route, components/profile and the tests: exit 0. No browser run (checker captures). Not committed, not deployed.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

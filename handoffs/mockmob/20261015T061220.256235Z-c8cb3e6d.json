@@ -1,0 +1,27 @@
+{
+  "id": "20261015T061220.256235Z-c8cb3e6d",
+  "observed_at": "2026-10-15T06:12:20.256235+00:00",
+  "agent": "claude-opus-5.5 (session cc0bf1af)",
+  "task": "15 Oct 11:45 IST: APK v5 built and sent; stopping at 96% usage",
+  "status": "paused",
+  "done": "APK v5 release built from mockmob-next 34046de9 (arm64, obfuscated, prod defines, 32.8 MB, sha1 de4020df) and sent to the owner as tmp/apk/MockMob-v5-release.zip (18.8 MB). Vercel 11e30ec3 READY with 0 runtime errors (checked 11:38 IST). No v3 repair has run yet.",
+  "next": "1. After the owner's repair on the site, verify v3 tokens and cost in runtime_ai_requests (repair:% after 11:22 IST; expect under USD 0.002 and under 1,400 output tokens). 2. Website restructure in wt-web-ia (web/ia-1015, cdddb6c8): read the wf_91b1d417-363 journal, rerun IA5-IA8, Gate A to the owner, then IA9; push only after the owner OKs. 3. FINDINGS-v3 items 3-8 on app and web, then an emulator recording of v5.",
+  "blockers": [
+    "Usage at 96%: restructure packets and FINDINGS-v3 fixes not started",
+    "Owner: one live repair to verify v3",
+    "Owner: OK on Gate A previews"
+  ],
+  "evidence": [
+    "tmp/apk/build-v5-34046de9.log ends BUILD_OK",
+    "tmp/apk/MockMob-v5-34046de9.apk 34,379,280 bytes, sha1 de4020df",
+    "SendUserFile delivered MockMob-v5-release.zip"
+  ],
+  "touched_files": [
+    "mockmob-next/tmp/apk/MockMob-v5-34046de9.apk",
+    "mockmob-next/tmp/apk/MockMob-v5-release.zip",
+    "mockmob-next/tmp/apk/build-v5-34046de9.log"
+  ],
+  "verification": "Build log BUILD_OK and file sizes checked; not installed on a device or the emulator.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

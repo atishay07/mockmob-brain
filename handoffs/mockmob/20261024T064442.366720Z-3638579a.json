@@ -1,0 +1,30 @@
+{
+  "id": "20261024T064442.366720Z-3638579a",
+  "observed_at": "2026-10-24T06:44:42.366720+00:00",
+  "agent": "claude-opus-5.5 session 792c2e1f (Reel orchestrator)",
+  "task": "MockMob 9:16 Reel v2: finish (fix round 1025b -> candidate 4 -> final -> cutdowns)",
+  "status": "active",
+  "done": "Picked up the 24 Oct 12:00 handoff at 12:05 pm on a fresh 5-hour window (3 %). Disk 43 -> 46 GB (finished checker dumps + stale app worktree build output swept). fix1025.js tail edited (p9/plan 1025 in BASICS; Opus sound judge; new picture QA judge; last fix lanes independently checked with one retry); fix1025b.js regenerated from wf_97e6e76c-7a9 and launched as wf_ecdcf00a-a83 (answer r2, mob r1, sound r1 Opus BGM/beats rework, plumb check). mk_cuts.py rewritten (stage design/build); cuts design re-sync launched as wf_0186d906-d92 (docs only).",
+  "next": "Watch wf_ecdcf00a-a83 (watch.py monitor, re-arm every 30 min). When candidate 4 lands: look (2 fps sheet, 390 px overlay, ebur128), send the owner the phone copy. When the final lands: send phone copy + every path. Then run cuts.js with args {stage: 'build'} after \"done reel916 FINAL\". If interrupted: regenerate fix1025b.js with mk_fix1025b.py from wf_97e6e76c-7a9 journal THEN wf_ecdcf00a-a83 journal (this session's folder 792c2e1f-...).",
+  "blockers": [
+    "Disk near the floor: 46 GB free vs the 42 GB agent floor; the sound lane can grow 5 GB"
+  ],
+  "evidence": [
+    "docs/NOTES.md ORCHESTRATOR 12:25 PM",
+    "tools/reel916-orch/fix1025.js",
+    "tools/reel916-orch/fix1025b.js",
+    "tools/reel916-orch/mk_cuts.py",
+    "tools/reel916-orch/cuts.js",
+    "out/_bak-reel916/orch/20261024-1215/"
+  ],
+  "touched_files": [
+    "tools/reel916-orch/fix1025.js",
+    "tools/reel916-orch/fix1025b.js",
+    "tools/reel916-orch/mk_cuts.py",
+    "tools/reel916-orch/cuts.js",
+    "docs/NOTES.md"
+  ],
+  "verification": "Both generated scripts parse-checked with node --check (wrapped in an async function); C: 46 GB free at 12:20 pm; no render lock at launch.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

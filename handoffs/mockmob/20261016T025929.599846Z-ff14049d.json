@@ -1,0 +1,23 @@
+{
+  "id": "20261016T025929.599846Z-ff14049d",
+  "observed_at": "2026-10-16T02:59:29.599846+00:00",
+  "agent": "claude-sonnet-5.5 (subagent, wt-phase2 ui/phase2)",
+  "task": "Repair v4 in the Flutter app (Ask Mobi about Qn, Check it held, older-paper Lab line, marked SWOT)",
+  "status": "complete",
+  "done": "Commit a8252ca4 on ui/phase2: check models/API/controller/UI (review), Ask hand-off with ask-context card and questionRef, lab.older note, marked_review SWOT held by fixture tests, contract fixtures copied, 18 new goldens opened, DESIGN_DECISIONS at docs/design-decisions/ui-phase2-repair4.md.",
+  "next": "Owner/critic review of goldens in flutter_app/test/golden/{review,insights,result}/goldens; run against a live server once web/repair4-1016 is deployed; decide whether the server should drop the redundant fine line when lab.older is present; one term for Written replies vs AI replies.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "flutter_app/lib/features/review/widgets/repair_check_section.dart",
+    "flutter_app/lib/features/review/data/repair_check_*.dart",
+    "flutter_app/lib/core/models/repair_check.dart",
+    "flutter_app/lib/features/insights/data/ask_question.dart",
+    "flutter_app/lib/features/insights/screens/ask_screen.dart",
+    "flutter_app/lib/features/result/full/lab_older_note.dart",
+    "docs/design-decisions/ui-phase2-repair4.md"
+  ],
+  "verification": "flutter analyze clean; test/unit 4715 pass (one failure fixed and re-run); test/golden 1063 pass. No device, no live server.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,29 @@
+{
+  "batch": "mathematics__b1",
+  "subject": "mathematics",
+  "pass": "wave2 expert pass (Sonnet-equivalent CUET expert review, same procedure as wave 1 step 5)",
+  "date": "2026-10-14",
+  "scope": "accepted=true questions in wave2-acceptance-2026-10-14.json for mathematics__b1 (18 of 20). Questions 3dc623cc-4185-4477-b025-b76d7938e6f1 (accepted=false, incomplete_not_in_file_h1) and af425af9-e61f-40cd-ab20-09b124047d0d (accepted=false, quality judge factual_error flag) were not reviewed.",
+  "source_file": "tmp/authored-w2/mathematics/mathematics__b1.json",
+  "counts": {"ready": 16, "repaired": 2, "practice": 0, "reject": 0},
+  "verdicts": [
+    {"id": "2bcb43e0-f75e-40d3-b4ff-725752064937", "verdict": "ready", "why": "AB computed row by row gives (2, 1) and (4, 3); recomputed, the key is correct. BA = (3, 4), (1, 2) is a planted distractor that the explanation names."},
+    {"id": "cb4f1503-5165-4373-a4d4-037a199e073a", "verdict": "ready", "why": "With A^2 = A, (I + A)^3 = I + 7A, so (I + A)^3 - 7A = I. Key D is correct and unique; the I + 7A distractor is the forgotten-subtraction trap. The hard label is generous but the item is exam-appropriate."},
+    {"id": "1bfb4dd7-d130-4baa-97eb-22b59d735a9a", "verdict": "ready", "why": "det A = -2, so det(2A) = 4 x (-2) = -8. Key A is correct; -4 (scaling by 2 once) and 8 (sign slip) are plausible distractors."},
+    {"id": "594d2dea-02ed-4fe8-9ca6-684fab682261", "verdict": "ready", "why": "Shoelace sum is 4 and the area is 2, confirmed by the cross product of (2, 2) and (4, 6) = 4. Key B is correct; 4 is the item without the factor 1/2."},
+    {"id": "8e614805-3ebf-4171-896b-77e5df5bb96f", "verdict": "repaired", "why": "Key A (3) is correct: lim sin(3x)/x = 3. The stem read 'sin 3x / x', which a student could parse as sin(3x / x); the stem now writes sin(3x) / x.", "repair": "Stem changed from 'f(x) = sin 3x / x' to 'f(x) = sin(3x) / x'. Options, key and explanation unchanged."},
+    {"id": "ac6a6f98-94fa-4360-b0d4-66175ce8f866", "verdict": "ready", "why": "(A) and (C) are true (3x^2 >= 0 with a single zero; 2x > 0 on (0, inf)); (B) is false since 1/x is decreasing on each branch; (D) is false since cos x < 0 on (pi/2, pi). Key B is unique."},
+    {"id": "ed2b7448-3d0f-4e70-9e56-ba29ba3bc47a", "verdict": "ready", "why": "f(-2) = -2, f(-1) = 2, f(1) = -2, f(2) = 2, so the maximum on [-2, 2] is 2. Key C is correct; -2 is the trap for students who pick the minimum."},
+    {"id": "88f6b629-ab46-4461-8205-eab727097947", "verdict": "ready", "why": "Substituting u = x^2 gives (e - 1)/2. Key D is correct; e - 1 is the answer without the factor 1/2."},
+    {"id": "a443b790-5883-4a86-97ff-a79fb504593d", "verdict": "ready", "why": "dx/(x^2+4) gives (1/2) tan^-1(x/2) = IV; e^x(sin x + cos x) gives e^x sin x = III; dx/sqrt(1-x^2) gives sin^-1 x = I; sec^2 x gives tan x = II. Key A is the only option matching all four pairs."},
+    {"id": "a79fd3eb-ec26-4118-a8eb-fc63962fce53", "verdict": "ready", "why": "(A) order 2 degree 1 = II; (B) order 3 degree 2 = IV; (C) order 2 degree 3 = III; (D) order 1 degree 1 = I. Key C matches all four. The explanation says (D) 'contains only dy/dx' which is loose wording but does not affect the key."},
+    {"id": "cf6144bf-869b-479a-99de-b5a4fd2b9c0e", "verdict": "ready", "why": "Separating variables gives y = A e^(x^2) and y(0) = 3 gives A = 3. Key A is correct; the other options fail the ODE or the initial condition."},
+    {"id": "fb49ae9d-67bf-43c2-a22c-892e32b2e08d", "verdict": "ready", "why": "Feasible corners are (0,0), (4,0), (3,1), (0,2) with Z = 0, 12, 13, 8. Maximum is 13 at (3, 1). Key D is correct; 16 comes from (0, 4), which violates x + 3y <= 6."},
+    {"id": "bd55de62-78a4-4620-83b3-6693e810e3f5", "verdict": "ready", "why": "X ~ B(3, 1/2), mean 3/2. Key C is correct; 3 is the n-trials distractor and 3/4 and 3/8 are probability-type slips."},
+    {"id": "811b55a8-290b-430f-9063-d8f7d0685384", "verdict": "repaired", "why": "Key A is correct: R is reflexive, not symmetric since (1, 2) is in R without (2, 1), and transitive. The explanation said the only two-pair chain is (1, 2) then (2, 2), which omits the chain (1, 1) then (1, 2); the explanation now lists both chains.", "repair": "Explanation sentence 'The only chain of two pairs, (1, 2) and (2, 2), gives (1, 2)...' replaced with 'The chains (1, 1) then (1, 2), and (1, 2) then (2, 2), both give (1, 2), which is in R, so it is transitive.' Stem, options and key unchanged."},
+    {"id": "b3a90070-cdfe-433d-a41f-8b2b89957696", "verdict": "ready", "why": "(f o g)(2) = f(5) = 13. Key D is correct; 17 is (g o f)(2) and 26 is g(g(2)), both correctly identified in the explanation."},
+    {"id": "e8e39a8f-434c-40c0-9e8f-2efec7c08d76", "verdict": "ready", "why": "sin(3pi/4) = sqrt(2)/2 and pi/4 is in [-pi/2, pi/2], so the principal value is pi/4. Key B is correct; 3pi/4 is the out-of-range trap."},
+    {"id": "87c9264b-613d-4c51-bb97-9de06bbe6fe8", "verdict": "ready", "why": "A^n = [[1, 2n], [0, 1]], so A^3 has rows (1, 6) and (0, 1). Key D is correct; (1, 8) is the cubed-entry trap and (3, 6), (0, 3) is 3A. Solver agreement was 4 of 5, which meets the rule."},
+    {"id": "d66d55ac-929f-4786-8a67-59576d0aa5c7", "verdict": "ready", "why": "A + A^T = [[2, 6], [6, 6]], so P = [[1, 3], [3, 3]]. Key C is correct; the explanation correctly identifies the omitted division by 2 and the skew-symmetric part as distractors."}
+  ]
+}

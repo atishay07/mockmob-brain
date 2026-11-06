@@ -1,0 +1,75 @@
+{
+ "conflicts": [
+  {
+   "hold": [
+    "kc.business_studies.controlling.diff-planning-vs-controlling-time"
+   ],
+   "keep": [
+    "kc.business_studies.controlling.fact-planning-controlling-both-looking"
+   ],
+   "why": "Card says controlling is a backward-looking function (postmortem), planning forward-looking; the other says both are backward- and forward-looking. Same NCERT page 205, the book gives the plain contrast first then the fuller 'both' treatment; the held card has no such context and would contradict the kept one."
+  },
+  {
+   "hold": [
+    "kc.business_studies.staffing.list-three-aspects"
+   ],
+   "keep": [
+    "kc.business_studies.staffing.list-staffing-includes",
+    "kc.business_studies.staffing.steps-staffing-process-first-five",
+    "kc.business_studies.staffing.steps-staffing-process-last-three"
+   ],
+   "why": "'Three aspects of staffing: recruitment, selection, training' (p148, only the aspects the chapter then details) vs staffing including recruitment, selection, training, development, promotion, compensation and appraisal (p140) and the 8-step staffing process (pp147, 164). Different list for what staffing covers; the fuller list is kept."
+  }
+ ],
+ "duplicates": [
+  [
+   "kc.business_studies.business-environment.ex-legal-advertising-rules",
+   "kc.business_studies.business-environment.ex-legal-advertising-warnings"
+  ],
+  [
+   "kc.business_studies.consumer-protection.fact-state-jurisdiction",
+   "kc.business_studies.consumer-protection.fact-state-commission-appeal-route"
+  ],
+  [
+   "kc.business_studies.consumer-protection.kl-national-jurisdiction",
+   "kc.business_studies.consumer-protection.fact-national-commission-appeal-route"
+  ],
+  [
+   "kc.business_studies.controlling.def-controlling",
+   "kc.business_studies.controlling.def-controlling-summary"
+  ],
+  [
+   "kc.business_studies.marketing-management.def-non-durable",
+   "kc.business_studies.marketing-management.term-non-durable-term"
+  ],
+  [
+   "kc.business_studies.marketing-management.def-trade-mark",
+   "kc.business_studies.marketing-management.term-trademark-term"
+  ],
+  [
+   "kc.business_studies.marketing-management.def-packaging",
+   "kc.business_studies.marketing-management.term-packaging-term"
+  ],
+  [
+   "kc.business_studies.marketing-management.def-physical-distribution",
+   "kc.business_studies.marketing-management.def-physical-distribution-covers"
+  ],
+  [
+   "kc.business_studies.staffing.key-vestibule-away",
+   "kc.business_studies.staffing.def-vestibule-training"
+  ],
+  [
+   "kc.business_studies.staffing.term-recruitment-finding-candidates",
+   "kc.business_studies.staffing.def-recruitment-searching"
+  ],
+  [
+   "kc.business_studies.staffing.def-selection-pool",
+   "kc.business_studies.staffing.term-selection-identifying-best"
+  ],
+  [
+   "kc.business_studies.nature-and-significance-of-management.def-planning",
+   "kc.business_studies.planning.def-planning"
+  ]
+ ],
+ "pairsRead": 887
+}

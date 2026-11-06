@@ -1,0 +1,23 @@
+{
+  "id": "20261013T002850.223945Z-6c4317be",
+  "observed_at": "2026-10-13T00:28:50.223945+00:00",
+  "agent": "claude-code opus-5.5 (workflow subagent, review builder)",
+  "task": "Night Sheet review feature (Review tab, repair flow, ending, record)",
+  "status": "complete",
+  "done": "Built flutter_app/lib/features/review (routes, copy, data: mistake_index, review_providers, repair_api, repair_state, repair_run, retry, ending_model; screens: review, mistakes, record, repair, repair_ending; widgets). 42 goldens (21 states x 2 themes) at 384x853 in test/golden/review; unit tests in test/unit/review. No core changes.",
+  "next": "Integrator: phone check of the repair flow against staging /api/recovery/repair; wire GET /api/me/repair-record when it exists (record is local-only now); confirm the /result/:id/recap/1 index for Replay recap; fixtures say Mock 2 because only two mocks exist.",
+  "blockers": [],
+  "evidence": [
+    "flutter analyze lib test/unit/review test/golden/review: No issues found",
+    "flutter test test/unit/review test/golden/review: 75 passed",
+    "router tests in test/unit/core_ui pass"
+  ],
+  "touched_files": [
+    "flutter_app/lib/features/review/**",
+    "flutter_app/test/unit/review/**",
+    "flutter_app/test/golden/review/**"
+  ],
+  "verification": "Goldens opened in both themes; 200% text at 360x640 laid out without overflow. Not run on a device.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

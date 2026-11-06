@@ -1,0 +1,20 @@
+{
+ "what": "Preparoo (ug.preparoo.app) reference capture for LK67-LK75, 4 Nov 2026 (IST). Cloud browser: Browserbase ap-southeast-1, Chrome 156, session recording off; sessions 86d0123f-de10-4694-9ddf-86298aec0d28 and 38b07863-b9ea-4fb0-a8f8-055aa6335ffb. No local browser used. Observational only: no sign-in, no form input, no CTA clicks.",
+ "runs": {
+  "m390": "390x844 DPR3 touch, cold cache, unthrottled; 9 s screencast + per-frame sampler; hero metrics; 2nd visit in same context (repeat*)",
+  "d1280": "1280x800 DPR1, cold cache, unthrottled; 9 s screencast + sampler; hero metrics; wheel test",
+  "m390slow": "390x844, Slow 4G (150 ms RTT, 1.6 Mbps down, 750 kbps up) + 4x CPU, cold cache, 16 s screencast + sampler",
+  "m390rm": "390x844 with prefers-reduced-motion: reduce, 6 s screencast + sampler",
+  "m390scroll": "390x844 touch swipes via CDP Input.dispatchTouchEvent from scrollY 0 (five cases)"
+ },
+ "files": {
+  "filmstrip-m390.png": "phone entry, last frame at or before each 100 ms step, 0-3000 ms",
+  "filmstrip-d1280.png": "desktop entry, 100 ms steps, 0-2600 ms",
+  "filmstrip-m390slow.png": "phone entry on Slow 4G + 4x CPU, 250 ms steps, 0-9000 ms",
+  "frames/<run>/<run>-fNNNNN.jpg": "CDP screencast frames, NNNNN = ms since navigation start (performance.timeOrigin)",
+  "<run>.json": "prp.samples = splash state per changed frame (d display, h height px, ty translateY px, io inner opacity, isc inner scale, ix IX2 started, pf preloader-fix present); prp.typing = headline text changes; prp.words = value-line transform changes; metrics = hero measurements; nav/resources = timing",
+  "<run>-hero-atNNNNNms.png": "viewport screenshots; NNNNN = page time when taken (Playwright waited for fonts on the slow run)",
+  "source/*.txt": "line-numbered excerpts of the site source (splash, typing, scroll, demo typing) with index.html char offsets",
+  "prp-capture.mjs": "the capture script (node prp-capture.mjs <connectUrlFile|local> <outDir>)"
+ }
+}

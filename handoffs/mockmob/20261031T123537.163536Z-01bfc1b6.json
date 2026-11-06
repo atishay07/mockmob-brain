@@ -1,0 +1,19 @@
+{
+  "id": "20261031T123537.163536Z-01bfc1b6",
+  "observed_at": "2026-10-31T12:35:37.163536+00:00",
+  "agent": "claude-opus-5.5 session 16f96fa8",
+  "task": "Learn redesign around Key cards (owner feedback LK1-LK14, 31 Oct 5:20 pm)",
+  "status": "active",
+  "done": "Feedback verbatim in mockmob-next docs/brain/OWNER-FEEDBACK-2026-10-31-LEARN.md + ledger LK1-LK14 (d99dbd56a). 9 reader maps in docs/brain/learn-1031/understand/ (R1-R9). Design panel: concepts A/B/C + 2 judges in learn-1031/design/; both judges picked B (chapter is the home) with grafts. Final spec learn-1031/DESIGN-SPEC.md (B + amendments A1-A12: piles, one name Quick recap, retry-before-line, Revise pile flight, folded answers, feed tap+Keep, 3 distinct suggestions, nav without dock change, questions free in Learn) and API-CONTRACT.md. Worktrees from main 0149bf45b: wt-1031-lk-fixes (part picker LK2 + print watermark LK6), wt-1031-lk-mustknow (tiers.json overlay ~25%), wt-1031-lk-motion (Study motion LK5), wt-1031-learn-v2 (slice: scaffold ab3cad217, preview views learn2*, fixture data/fixtures/learn-preview-questions.json of 53 real linked questions).",
+  "next": "Wait for workflows: learn-fixes-1031 (w48oba93c) and learn-v2-slice (wp7qx8xjf: engine + home + chapter + run + cards builders, capture, Opus critique, fix). Then: merge fixes into a release branch, run suites + visual gate, deploy fixes (bug, watermark, motion, Must-know). Merge mustknow into learn-v2, recapture, review every capture myself, send the owner real renders + a run recording; ask: questions free in Learn (A9) and N1 sidebar place. App parity after his OK.",
+  "blockers": [],
+  "evidence": [
+    "mockmob-next docs/brain/learn-1031/DESIGN-SPEC.md; API-CONTRACT.md; design/judge-1.md, judge-2.md"
+  ],
+  "touched_files": [
+    "mockmob-next docs/brain/learn-1031/*, OWNER-FEEDBACK-2026-10-31-LEARN.md, OWNER-MASTER-LEDGER.md; wt-1031-learn-v2 src/components/learn2/*, src/app/preview/arena/*; .claude/launch.json learn-v2-dev (dev server 3451 via scratchpad learn-v2-dev.cjs wrapper, cwd = worktree)"
+  ],
+  "verification": "Readers and panel outputs read; preview /preview/arena?view=learn2 answers 200 after the cwd fix; nothing deployed; no production writes this phase except read-only question selects.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

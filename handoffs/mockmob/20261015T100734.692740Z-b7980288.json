@@ -1,0 +1,20 @@
+{
+  "id": "20261015T100734.692740Z-b7980288",
+  "observed_at": "2026-10-15T10:07:34.692740+00:00",
+  "agent": "claude-opus-integrator (session 604ced81, workflow integrate step)",
+  "task": "Integrate Mistake Lab v4 slice 1 (web + app) and website v2",
+  "status": "complete",
+  "done": "Lab web (wt-web-refine, web/alive-1015 eeeaca20): test:recovery 71/71, test:learning 277/277, test:app 147/147, eslint clean on 17 Lab files; no fixes needed. Lab app (wt-phase2, ui/phase2 42777ac3): flutter analyze no issues, test -j 1 test/unit/result 270 pass; contract fixtures byte-identical to the web's; no fixes needed. Merged ui/phase2 into feat/app-and-web (mockmob-next) as c1ea50eb, no conflicts, flutter_app tree identical to ui/phase2. Merged web/alive-1015 into web/v2-1015 (wt-web-v2) as 3663de7f: only package.json and ArenaPreviewClient.jsx overlapped, both auto-merged keeping both sides. On the merge: eslint clean, recovery 71/71, learning 277/277, app 212/212, nta 150/150, one next build exit 0 (turbopack root temporarily parent, edited back by hand, md5 matches, not committed; .next removed). No bolt logo in v2 (Logo.jsx is logo B with dot; remaining bolt matches are the unused Icons.jsx bolt glyph, the coin glyph comment and the coming-soon radar). Lab preview path read: /preview/arena?view=result&mock=full -> ResultPageClient -> attempt.lab -> ScoreRecoveryLab -> MarksLedger; fixture built in Node: ready, 7 groups sum 112 = gap 112, cohort line Q12, Q22, Q42.",
+  "next": "Main session: preview_start web-v2-local (webpack dev on http://localhost:3110, wt-web-v2) and give the owner the pages, including /preview/arena?view=result&mock=full for the Lab. Nothing pushed; push only after his OK. APK v6 not built (separate step).",
+  "blockers": [
+    "Server deploy order: once the route's lab step deploys, buildSwot hides the groups the ledger covers; an app build without the Lab (before APK v6) would lose those SWOT items. Ship APK v6 with or before the web deploy."
+  ],
+  "evidence": [],
+  "touched_files": [
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-web-v2 (merge commit 3663de7f on web/v2-1015)",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next (merge commit c1ea50eb on feat/app-and-web)"
+  ],
+  "verification": "Suites, eslint and next build as listed in done; no browser render by rule.",
+  "cost_and_pending_requests": "No paid calls.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

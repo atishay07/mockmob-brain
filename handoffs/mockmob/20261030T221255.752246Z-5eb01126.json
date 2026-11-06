@@ -1,0 +1,28 @@
+{
+  "id": "20261030T221255.752246Z-5eb01126",
+  "observed_at": "2026-10-30T22:12:55.752246+00:00",
+  "agent": "claude-opus-5.5 session 3b7877eb",
+  "task": "Key cards + intelligence layer: build paused at owner usage 93%",
+  "status": "paused",
+  "done": "Wave 1 (wf_80b94c0f-4c0) stopped and leftover flutter_tester/dart processes killed. Every worktree is committed:\n- web/1031-syllabus 129c3b5b0: 4 real commits plus a re-applied stash, with the stash dropped\n- web/1031-kc-server 95e23f26d: 5 commits, clean\n- web/1031-kc-ui d59a336ae: STOP POINT\n- ui/1031-keycards 9d6cc2f3d: STOP POINT, 66 files\n\nNCERT PDFs: 74 in ncert-books/pdf, now including Biology and Political Science, downloaded with plain node fetch. Card drafts in ncert-books/drafts: english 322, economics 1,502, accountancy 1,055, business_studies 1,043. Reviews: 35 files; 3,475 reviewed, 839 flagged. Handoff and next prompt committed on feat/app-and-web 66456e2c8.",
+  "next": "Follow docs/brain/PROMPT-NEXT-SESSION-2026-10-31.md, then HANDOFF-2026-10-31-KEYCARDS.md steps 1-10:\n1. Check usage.\n2. Run the 5 missing reviews (leec102, leec106, leec202, leec204, leec205).\n3. Run validate and review-merge, and look at the 24% flag rate.\n4. Review and finish each code part; syllabus migration in the syllabus agent's branch.\n5. Build the Biology and Political Science decks.\n6. Merge.\n7. Links and the re-tag pass.\n8. Production migrations, with dry-run and undo.\n9. Deploy behind KEY_CARDS_ENABLED; the flag goes on only after the owner sees the screens.\n10. App v17.",
+  "blockers": [
+    "Owner usage 93%; continue in a fresh window"
+  ],
+  "evidence": [
+    "git logs per branch as listed",
+    "card counts from ncert-books/drafts",
+    "review counts from ncert-books/reviews"
+  ],
+  "touched_files": [
+    "wt-1031-syllabus",
+    "wt-1031-kc-server",
+    "wt-1031-kc-ui",
+    "wt-1031-keycards-app",
+    "ncert-books/pdf, drafts, reviews",
+    "mockmob-next docs/brain/HANDOFF-2026-10-31-KEYCARDS.md, PROMPT-NEXT-SESSION-2026-10-31.md, NOW.md"
+  ],
+  "verification": "Ceiling-removal ledger tests passed earlier. The code STOP POINTs are unverified: the agents' final test runs never reported. No production writes and nothing pushed.",
+  "cost_and_pending_requests": "Subscription only; no API spend",
+  "confidence": "agent-reported; verify evidence before acting"
+}

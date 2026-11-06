@@ -1,0 +1,26 @@
+{
+  "id": "20261106T135433.541921Z-682dbf33",
+  "observed_at": "2026-11-06T13:54:33.541921+00:00",
+  "agent": "claude-opus-5.5 session 204dccba",
+  "task": "Proposal: shared brain and team workflow for remote team (owner Delhi, CTO Bangalore, CM Mumbai)",
+  "status": "paused",
+  "done": "Proposal given in chat, nothing built. Recommended: private git repo mockmob-brain as the single shared context; each person keeps a local clone and their own search index; pull at session start, commit and push at handover. No-clash rules: every write is a new file (handover, decision, feedback entry); NOW split into per-lane files with NOW generated; claims pushed at session start; code via own branch + PR + Vercel preview for everyone including the owner's agents; every entry carries an author with domain authority (product/design: owner, technical: CTO, marketing/community: CM). Privacy: folder allowlist plus secret scan before push; no raw transcripts; the owner's AI OS stays local and ingests the brain clone. Package as one Claude Code plugin (hooks + brain tools + skills) from a private marketplace; update ONBOARDING.md (section 6 describes a repo that does not exist) and add a CM guide. Builds on the 26-28 Oct onboarding talks (session 4ad9c384).",
+  "next": "Wait for the owner's go. If yes: owner creates an empty private GitHub repo mockmob-brain (gh CLI not installed here) and invites CTO and CM; then build in one session: extract MockMob context with a privacy pass, make tools portable, ship the plugin, switch the owner's hooks, run a two-clone concurrent-write dry run, update ONBOARDING.md, share it via the onboarding link. Owner decisions pending: move living docs/brain out of the public code repo (recommended yes); CM gets brain-only access (default); everyone merges through PRs (default).",
+  "blockers": [],
+  "evidence": [
+    "api.github.com/repos/atishay07/mockmob: private=false, visibility public (checked 6 Nov)",
+    "git ls-remote atishay07/mockmob-brain: repository not found",
+    "mockmob-next/docs/brain: 164 files, 7.4 MB, on branch feat/app-and-web",
+    "AI OS sizes: handoffs/mockmob 12 MB, decisions 48 KB, context 41 KB, .models 7.2 GB, .state 2.3 GB, apps 2.5 GB",
+    "~/.claude/settings.json: 8 Continuum hooks with absolute C:/Users/atish paths; 19 AI OS script files contain C:/Users/atish paths",
+    "git log --all --since 30 days in mockmob-next: 2950 commits, all author 'Atishay Jain <your-email@example.com>'",
+    "51 files in the owner's Claude auto-memory folder (per-machine, not shared)",
+    "ONBOARDING.md section 6 (lines 110-131) describes mockmob-brain as being set up"
+  ],
+  "touched_files": [
+    "C:/Users/atish/.claude/projects/C--Users-atish-Desktop-mockmob-copy/memory/team-shared-brain-plan.md"
+  ],
+  "verification": "Read-only checks only; no files changed except this checkpoint and a memory note. Claude Code plugin, marketplace and hook facts are from a research subagent reading official docs (Stop fires every reply; SessionEnd has a short budget; auto memory is per-machine).",
+  "cost_and_pending_requests": "No paid calls.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

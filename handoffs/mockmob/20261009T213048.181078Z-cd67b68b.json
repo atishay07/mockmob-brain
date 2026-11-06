@@ -1,0 +1,37 @@
+{
+  "id": "20261009T213048.181078Z-cd67b68b",
+  "observed_at": "2026-10-09T21:30:48.181078+00:00",
+  "agent": "Codex root",
+  "task": "Final generator pass: V714 tested local correction, failed V713 native study still draining",
+  "status": "active",
+  "done": "Frozen5additiveV714modules after17Lunafocusedchecks and222reconstructedbodybounds max32554<=33024. Restore proven omitted nonchosenthree challenge instructions/canonicalfitanchors; diagnostics exposeinheritedfailurecodeswithoutchangingpassed. LocalfreezeSHA095b049fc43bf20f014c09b0f4dad4bb6d1870cfcc6421aca88aedd985d98092, contracted0e4ae7fd56c045dd67c74e33686c2fcd1c0d25e640fc2e2f578fba4dfcf545, prompte3f74330022521221e0229b25b478b236a18dc37eb74330ac3498ab5658e7415. Independent118/118academic+8/8R3freezeunchanged. Firstwaveacademicdiagnosis saved; V714unqualified/runtime-unwired/noAPIcalls. SameR3session98363/PID24128 stillactive ownerfinal_verification_recovery;20source_support quarantines (10freshvalid5freshdefects5regression),1freshoutputincompleteerror,0eligible. Freshmax8/18<required16/18; qualifiercannotpass.",
+  "next": "Soleownerdrains allaccepted/preregisteredR3 requestsunder1capandexportsall37fixedoutcomeswithreceipts; no repeatedbenchmark,restart,replay,gaterelaxation. difficulty_selection_final independentlydiagnosescurrentterminalvalidsoutsidefirstwave (BS/Econ/English), makesunknown/missingaudits explicit, revisitsV75regressionactualoutcomewhenavailable. Finishexactledger/quality/costreport and checkpoints. No premium/cost/40pilot/stagingclaimuntilgenuinequal.",
+  "blockers": [
+    "NativeV713validsurvivalmathematicallyfailed; finalcoverage/receiptsstillrunning.",
+    "V714needsnewgenuinelyfreshqualification outsidealready-usedsinglefinalstudy, notauthorizedbylocalfreeze.",
+    "19diagnosticunknowns+oldGemmissingusageholdspreventfull40pilotclaim.",
+    "Under100per10k/premium/studentstaging notdemonstrated."
+  ],
+  "evidence": [
+    "LOCAL-CONTRACT-FREEZE-V714.json SHA095b049fc43bf20f014c09b0f4dad4bb6d1870cfcc6421aca88aedd985d98092",
+    "diagnosis/FIRST-WAVE-NATIVE-DIAGNOSIS-20261010.md",
+    "qualification-fresh31-regression6/diagnosis/V714-LOCAL-222-BODY-CAPTURE-20261010.json SHA313e1f9a6183f59befa017adde59277004765366b2e71bd4579cc7d4c3b8dbe7",
+    "scripts/pipeline/tests/factoryEvidenceV714.test.mjs",
+    "scripts/pipeline/tests/v714Integration.test.mjs",
+    "docs/brain/STATUS.md and QUALITY.md latest appendednativefailure/localfreeze milestones"
+  ],
+  "touched_files": [
+    "scripts/pipeline/lib/compactValidationV714.mjs",
+    "scripts/pipeline/lib/validatorDiagnosticsV714.mjs",
+    "scripts/pipeline/lib/contractV714.mjs",
+    "scripts/pipeline/lib/factoryEvidenceV714.mjs",
+    "scripts/pipeline/lib/verifyV714.mjs",
+    "scripts/pipeline/tests/factoryEvidenceV714.test.mjs",
+    "scripts/pipeline/tests/v714Integration.test.mjs",
+    "docs/brain/STATUS.md",
+    "docs/brain/QUALITY.md"
+  ],
+  "verification": "17newfocusedtests usingmocktransport,6prompt/cache/body+11end-to-endverifier. Realfirstwave20APIreceipts fullysettled. Model/nativequalificationdifferentfromsoftwareproof; no explanationauditsfirstwave. Allfrozenlabels/outcomesoldrecords unchanged.",
+  "cost_and_pending_requests": "Latestownerstudysettled.068763Luna34receipts +.093320Gem20=.162083USD. TenGemitemsacceptedintwobatchesheld.236340USD, additionalcurrentOpenAIreservationsneedrefresh. Original65holds.821324unchanged; prelaunch38.542448settled. $50lifetime/$1qualification/$3diagnosticSTOPcapsunchanged.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

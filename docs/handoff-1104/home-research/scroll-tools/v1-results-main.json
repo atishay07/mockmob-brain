@@ -1,0 +1,4565 @@
+{
+ "base": "https://www.mockmob.in/",
+ "mode": "main",
+ "theme": "dark",
+ "when": "2026-11-03T20:54:30.613Z",
+ "viewport": "390x844 touch",
+ "geo": {
+  "vh": 844,
+  "svh": 844,
+  "docH": 27000,
+  "stories": [
+   {
+    "index": 0,
+    "name": "lab",
+    "cls": "lc",
+    "top": 3326,
+    "trackH": 3410,
+    "stageH": 844,
+    "hold": 2566,
+    "steps": 4,
+    "gap": 855.3,
+    "beat": "76svh"
+   },
+   {
+    "index": 1,
+    "name": "tour",
+    "cls": "ft-story",
+    "top": 6978,
+    "trackH": 5739,
+    "stageH": 844,
+    "hold": 4895,
+    "steps": 10,
+    "gap": 543.9,
+    "beat": "58svh"
+   },
+   {
+    "index": 2,
+    "name": "recovery",
+    "cls": "ml-story",
+    "top": 12024,
+    "trackH": 3207,
+    "stageH": 844,
+    "hold": 2363,
+    "steps": 4,
+    "gap": 787.7,
+    "beat": "70svh"
+   }
+  ],
+  "statement": {
+   "top": 1552,
+   "h": 1519,
+   "gridPos": "sticky",
+   "gridStickyTop": "61px",
+   "gridH": 699
+  },
+  "sections": [
+   {
+    "name": "hero",
+    "top": 61,
+    "h": 1491
+   },
+   {
+    "name": "statement",
+    "top": 1552,
+    "h": 1519
+   },
+   {
+    "name": "lab-section",
+    "top": 3072,
+    "h": 3725
+   },
+   {
+    "name": "tour-section",
+    "top": 6797,
+    "h": 5007
+   },
+   {
+    "name": "recovery-section",
+    "top": 11804,
+    "h": 3361
+   },
+   {
+    "name": "compass",
+    "top": 15165,
+    "h": 2292
+   },
+   {
+    "name": "du",
+    "top": 17457,
+    "h": 2472
+   },
+   {
+    "name": "exam",
+    "top": 19929,
+    "h": 1704
+   },
+   {
+    "name": "pricing",
+    "top": 23099,
+    "h": 1277
+   }
+  ],
+  "htmlScrollBehavior": "smooth",
+  "ua": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+  "coarse": true,
+  "reduced": false
+ },
+ "results": [
+  {
+   "id": "lab-r1-flick-60-400",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 60,
+   "speed": 400,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 344,
+   "settleMs": 1287
+  },
+  {
+   "id": "lab-r1-flick-150-400",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 150,
+   "speed": 400,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 490,
+   "settleMs": 1289,
+   "shot": "lab-r1-flick-150-400.png"
+  },
+  {
+   "id": "lab-r1-flick-300-400",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 300,
+   "speed": 400,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 869,
+   "settleMs": 1302
+  },
+  {
+   "id": "lab-r1-flick-600-400",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 600,
+   "speed": 400,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 1577,
+   "settleMs": 1291
+  },
+  {
+   "id": "lab-r1-flick-60-1200",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 60,
+   "speed": 1200,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 109,
+   "settleMs": 1300
+  },
+  {
+   "id": "lab-r1-flick-150-1200",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 150,
+   "speed": 1200,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 182,
+   "settleMs": 1295
+  },
+  {
+   "id": "lab-r1-flick-300-1200",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 300,
+   "speed": 1200,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 319,
+   "settleMs": 1308
+  },
+  {
+   "id": "lab-r1-flick-600-1200",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 600,
+   "speed": 1200,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 554,
+   "settleMs": 1295
+  },
+  {
+   "id": "lab-r1-flick-60-3000",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 60,
+   "speed": 3000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 73,
+   "settleMs": 1284
+  },
+  {
+   "id": "lab-r1-flick-150-3000",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 150,
+   "speed": 3000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 92,
+   "settleMs": 1295
+  },
+  {
+   "id": "lab-r1-flick-300-3000",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 300,
+   "speed": 3000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 150,
+   "settleMs": 1301,
+   "shot": "lab-r1-flick-300-3000.png"
+  },
+  {
+   "id": "lab-r1-flick-600-3000",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 600,
+   "speed": 3000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 252,
+   "settleMs": 1293
+  },
+  {
+   "id": "lab-r1-flick-60-6000",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 60,
+   "speed": 6000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 67,
+   "settleMs": 1291
+  },
+  {
+   "id": "lab-r1-flick-150-6000",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 150,
+   "speed": 6000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 72,
+   "settleMs": 1289
+  },
+  {
+   "id": "lab-r1-flick-300-6000",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 300,
+   "speed": 6000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 94,
+   "settleMs": 1299
+  },
+  {
+   "id": "lab-r1-flick-600-6000",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 600,
+   "speed": 6000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 151,
+   "settleMs": 1315,
+   "shot": "lab-r1-flick-600-6000.png"
+  },
+  {
+   "id": "lab-r2-flickUp-300-3000",
+   "kind": "synth touch up, fling on",
+   "story": "lab",
+   "dist": -300,
+   "speed": 3000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 5037,
+    "step": 2,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 2,
+     "nearestRest": 2,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 5037,
+    "step": 2,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 2,
+     "nearestRest": 2,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    2
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 171,
+   "settleMs": 1291
+  },
+  {
+   "id": "tour-r1-flick-60-400",
+   "kind": "synth touch, fling on",
+   "story": "tour",
+   "dist": 60,
+   "speed": 400,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 274,
+   "settleMs": 1318
+  },
+  {
+   "id": "tour-r1-flick-150-400",
+   "kind": "synth touch, fling on",
+   "story": "tour",
+   "dist": 150,
+   "speed": 400,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 449,
+   "settleMs": 1292
+  },
+  {
+   "id": "tour-r1-flick-300-400",
+   "kind": "synth touch, fling on",
+   "story": "tour",
+   "dist": 300,
+   "speed": 400,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 842,
+   "settleMs": 1303
+  },
+  {
+   "id": "tour-r1-flick-600-400",
+   "kind": "synth touch, fling on",
+   "story": "tour",
+   "dist": 600,
+   "speed": 400,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 1589,
+   "settleMs": 1292
+  },
+  {
+   "id": "tour-r1-flick-60-1200",
+   "kind": "synth touch, fling on",
+   "story": "tour",
+   "dist": 60,
+   "speed": 1200,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 103,
+   "settleMs": 1296
+  },
+  {
+   "id": "tour-r1-flick-150-1200",
+   "kind": "synth touch, fling on",
+   "story": "tour",
+   "dist": 150,
+   "speed": 1200,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 185,
+   "settleMs": 1297
+  },
+  {
+   "id": "tour-r1-flick-300-1200",
+   "kind": "synth touch, fling on",
+   "story": "tour",
+   "dist": 300,
+   "speed": 1200,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 314,
+   "settleMs": 1300
+  },
+  {
+   "id": "tour-r1-flick-600-1200",
+   "kind": "synth touch, fling on",
+   "story": "tour",
+   "dist": 600,
+   "speed": 1200,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 565,
+   "settleMs": 1301
+  },
+  {
+   "id": "tour-r1-flick-60-3000",
+   "kind": "synth touch, fling on",
+   "story": "tour",
+   "dist": 60,
+   "speed": 3000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 83,
+   "settleMs": 1299
+  },
+  {
+   "id": "tour-r1-flick-150-3000",
+   "kind": "synth touch, fling on",
+   "story": "tour",
+   "dist": 150,
+   "speed": 3000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 104,
+   "settleMs": 1296
+  },
+  {
+   "id": "tour-r1-flick-300-3000",
+   "kind": "synth touch, fling on",
+   "story": "tour",
+   "dist": 300,
+   "speed": 3000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 148,
+   "settleMs": 1303,
+   "shot": "tour-r1-flick-300-3000.png"
+  },
+  {
+   "id": "tour-r1-flick-600-3000",
+   "kind": "synth touch, fling on",
+   "story": "tour",
+   "dist": 600,
+   "speed": 3000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 243,
+   "settleMs": 1300
+  },
+  {
+   "id": "tour-r1-flick-60-6000",
+   "kind": "synth touch, fling on",
+   "story": "tour",
+   "dist": 60,
+   "speed": 6000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 64,
+   "settleMs": 1299
+  },
+  {
+   "id": "tour-r1-flick-150-6000",
+   "kind": "synth touch, fling on",
+   "story": "tour",
+   "dist": 150,
+   "speed": 6000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 82,
+   "settleMs": 1289
+  },
+  {
+   "id": "tour-r1-flick-300-6000",
+   "kind": "synth touch, fling on",
+   "story": "tour",
+   "dist": 300,
+   "speed": 6000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 103,
+   "settleMs": 1296
+  },
+  {
+   "id": "tour-r1-flick-600-6000",
+   "kind": "synth touch, fling on",
+   "story": "tour",
+   "dist": 600,
+   "speed": 6000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 147,
+   "settleMs": 1284,
+   "shot": "tour-r1-flick-600-6000.png"
+  },
+  {
+   "id": "tour-r2-flickUp-300-3000",
+   "kind": "synth touch up, fling on",
+   "story": "tour",
+   "dist": -300,
+   "speed": 3000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 8066,
+    "step": 2,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 2,
+     "nearestRest": 2,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 8066,
+    "step": 2,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 2,
+     "nearestRest": 2,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    2
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 155,
+   "settleMs": 1292
+  },
+  {
+   "id": "recovery-r1-flick-60-400",
+   "kind": "synth touch, fling on",
+   "story": "recovery",
+   "dist": 60,
+   "speed": 400,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.852,
+    "y": 1
+   },
+   "stageTopAfter": 116,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 232,
+   "settleMs": 1300
+  },
+  {
+   "id": "recovery-r1-flick-150-400",
+   "kind": "synth touch, fling on",
+   "story": "recovery",
+   "dist": 150,
+   "speed": 400,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.852,
+    "y": 1
+   },
+   "stageTopAfter": 116,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 452,
+   "settleMs": 1298
+  },
+  {
+   "id": "recovery-r1-flick-300-400",
+   "kind": "synth touch, fling on",
+   "story": "recovery",
+   "dist": 300,
+   "speed": 400,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.852,
+    "y": 1
+   },
+   "stageTopAfter": 116,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 831,
+   "settleMs": 1305
+  },
+  {
+   "id": "recovery-r1-flick-600-400",
+   "kind": "synth touch, fling on",
+   "story": "recovery",
+   "dist": 600,
+   "speed": 400,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.852,
+    "y": 1
+   },
+   "stageTopAfter": 116,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 1575,
+   "settleMs": 1300
+  },
+  {
+   "id": "recovery-r1-flick-60-1200",
+   "kind": "synth touch, fling on",
+   "story": "recovery",
+   "dist": 60,
+   "speed": 1200,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.852,
+    "y": 1
+   },
+   "stageTopAfter": 116,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 109,
+   "settleMs": 1298
+  },
+  {
+   "id": "recovery-r1-flick-150-1200",
+   "kind": "synth touch, fling on",
+   "story": "recovery",
+   "dist": 150,
+   "speed": 1200,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.852,
+    "y": 1
+   },
+   "stageTopAfter": 116,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 174,
+   "settleMs": 1309
+  },
+  {
+   "id": "recovery-r1-flick-300-1200",
+   "kind": "synth touch, fling on",
+   "story": "recovery",
+   "dist": 300,
+   "speed": 1200,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.852,
+    "y": 1
+   },
+   "stageTopAfter": 116,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 315,
+   "settleMs": 1285
+  },
+  {
+   "id": "recovery-r1-flick-600-1200",
+   "kind": "synth touch, fling on",
+   "story": "recovery",
+   "dist": 600,
+   "speed": 1200,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.852,
+    "y": 1
+   },
+   "stageTopAfter": 116,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 563,
+   "settleMs": 1292
+  },
+  {
+   "id": "recovery-r1-flick-60-3000",
+   "kind": "synth touch, fling on",
+   "story": "recovery",
+   "dist": 60,
+   "speed": 3000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.852,
+    "y": 1
+   },
+   "stageTopAfter": 116,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 60,
+   "settleMs": 1315
+  },
+  {
+   "id": "recovery-r1-flick-150-3000",
+   "kind": "synth touch, fling on",
+   "story": "recovery",
+   "dist": 150,
+   "speed": 3000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.852,
+    "y": 1
+   },
+   "stageTopAfter": 116,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 105,
+   "settleMs": 1296
+  },
+  {
+   "id": "recovery-r1-flick-300-3000",
+   "kind": "synth touch, fling on",
+   "story": "recovery",
+   "dist": 300,
+   "speed": 3000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.852,
+    "y": 1
+   },
+   "stageTopAfter": 116,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 154,
+   "settleMs": 1295,
+   "shot": "recovery-r1-flick-300-3000.png"
+  },
+  {
+   "id": "recovery-r1-flick-600-3000",
+   "kind": "synth touch, fling on",
+   "story": "recovery",
+   "dist": 600,
+   "speed": 3000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.852,
+    "y": 1
+   },
+   "stageTopAfter": 116,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 257,
+   "settleMs": 1284
+  },
+  {
+   "id": "recovery-r1-flick-60-6000",
+   "kind": "synth touch, fling on",
+   "story": "recovery",
+   "dist": 60,
+   "speed": 6000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.852,
+    "y": 1
+   },
+   "stageTopAfter": 116,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 62,
+   "settleMs": 1292
+  },
+  {
+   "id": "recovery-r1-flick-150-6000",
+   "kind": "synth touch, fling on",
+   "story": "recovery",
+   "dist": 150,
+   "speed": 6000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.852,
+    "y": 1
+   },
+   "stageTopAfter": 116,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 82,
+   "settleMs": 1288
+  },
+  {
+   "id": "recovery-r1-flick-300-6000",
+   "kind": "synth touch, fling on",
+   "story": "recovery",
+   "dist": 300,
+   "speed": 6000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.852,
+    "y": 1
+   },
+   "stageTopAfter": 116,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 98,
+   "settleMs": 1294
+  },
+  {
+   "id": "recovery-r1-flick-600-6000",
+   "kind": "synth touch, fling on",
+   "story": "recovery",
+   "dist": 600,
+   "speed": 6000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.852,
+    "y": 1
+   },
+   "stageTopAfter": 116,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 155,
+   "settleMs": 1292
+  },
+  {
+   "id": "recovery-r2-flickUp-300-3000",
+   "kind": "synth touch up, fling on",
+   "story": "recovery",
+   "dist": -300,
+   "speed": 3000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 13599,
+    "step": 1,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 2,
+     "nearestRest": 2,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 13599,
+    "step": 1,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 2,
+     "nearestRest": 2,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.851,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 154,
+   "settleMs": 1307
+  },
+  {
+   "id": "statement-flick-60-400",
+   "kind": "synth touch, fling on",
+   "story": null,
+   "dist": 60,
+   "speed": 400,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "to": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": null,
+   "stepChanges": 0,
+   "stepsShown": [],
+   "otherStoryChanges": [],
+   "fillAfter": null,
+   "stageTopAfter": null,
+   "words": {
+    "before": "0+0p/20",
+    "after": "0+0p/20"
+   },
+   "gestureMs": 260,
+   "settleMs": 1306
+  },
+  {
+   "id": "statement-flick-150-400",
+   "kind": "synth touch, fling on",
+   "story": null,
+   "dist": 150,
+   "speed": 400,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "to": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": null,
+   "stepChanges": 0,
+   "stepsShown": [],
+   "otherStoryChanges": [],
+   "fillAfter": null,
+   "stageTopAfter": null,
+   "words": {
+    "before": "0+0p/20",
+    "after": "0+0p/20"
+   },
+   "gestureMs": 482,
+   "settleMs": 1292,
+   "shot": "statement-flick-150-400.png"
+  },
+  {
+   "id": "statement-flick-300-400",
+   "kind": "synth touch, fling on",
+   "story": null,
+   "dist": 300,
+   "speed": 400,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "to": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": null,
+   "stepChanges": 0,
+   "stepsShown": [],
+   "otherStoryChanges": [],
+   "fillAfter": null,
+   "stageTopAfter": null,
+   "words": {
+    "before": "0+0p/20",
+    "after": "0+0p/20"
+   },
+   "gestureMs": 828,
+   "settleMs": 1297
+  },
+  {
+   "id": "statement-flick-600-400",
+   "kind": "synth touch, fling on",
+   "story": null,
+   "dist": 600,
+   "speed": 400,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "to": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": null,
+   "stepChanges": 0,
+   "stepsShown": [],
+   "otherStoryChanges": [],
+   "fillAfter": null,
+   "stageTopAfter": null,
+   "words": {
+    "before": "0+0p/20",
+    "after": "0+0p/20"
+   },
+   "gestureMs": 1576,
+   "settleMs": 1289
+  },
+  {
+   "id": "statement-flick-60-1200",
+   "kind": "synth touch, fling on",
+   "story": null,
+   "dist": 60,
+   "speed": 1200,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "to": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": null,
+   "stepChanges": 0,
+   "stepsShown": [],
+   "otherStoryChanges": [],
+   "fillAfter": null,
+   "stageTopAfter": null,
+   "words": {
+    "before": "0+0p/20",
+    "after": "0+0p/20"
+   },
+   "gestureMs": 107,
+   "settleMs": 1303
+  },
+  {
+   "id": "statement-flick-150-1200",
+   "kind": "synth touch, fling on",
+   "story": null,
+   "dist": 150,
+   "speed": 1200,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "to": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": null,
+   "stepChanges": 0,
+   "stepsShown": [],
+   "otherStoryChanges": [],
+   "fillAfter": null,
+   "stageTopAfter": null,
+   "words": {
+    "before": "0+0p/20",
+    "after": "0+0p/20"
+   },
+   "gestureMs": 190,
+   "settleMs": 1299
+  },
+  {
+   "id": "statement-flick-300-1200",
+   "kind": "synth touch, fling on",
+   "story": null,
+   "dist": 300,
+   "speed": 1200,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "to": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": null,
+   "stepChanges": 0,
+   "stepsShown": [],
+   "otherStoryChanges": [],
+   "fillAfter": null,
+   "stageTopAfter": null,
+   "words": {
+    "before": "0+0p/20",
+    "after": "0+0p/20"
+   },
+   "gestureMs": 307,
+   "settleMs": 1286,
+   "shot": "statement-flick-300-1200.png"
+  },
+  {
+   "id": "statement-flick-600-1200",
+   "kind": "synth touch, fling on",
+   "story": null,
+   "dist": 600,
+   "speed": 1200,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "to": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": null,
+   "stepChanges": 0,
+   "stepsShown": [],
+   "otherStoryChanges": [],
+   "fillAfter": null,
+   "stageTopAfter": null,
+   "words": {
+    "before": "0+0p/20",
+    "after": "0+0p/20"
+   },
+   "gestureMs": 564,
+   "settleMs": 1288
+  },
+  {
+   "id": "statement-flick-60-3000",
+   "kind": "synth touch, fling on",
+   "story": null,
+   "dist": 60,
+   "speed": 3000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "to": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": null,
+   "stepChanges": 0,
+   "stepsShown": [],
+   "otherStoryChanges": [],
+   "fillAfter": null,
+   "stageTopAfter": null,
+   "words": {
+    "before": "0+0p/20",
+    "after": "0+0p/20"
+   },
+   "gestureMs": 67,
+   "settleMs": 1289
+  },
+  {
+   "id": "statement-flick-150-3000",
+   "kind": "synth touch, fling on",
+   "story": null,
+   "dist": 150,
+   "speed": 3000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "to": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": null,
+   "stepChanges": 0,
+   "stepsShown": [],
+   "otherStoryChanges": [],
+   "fillAfter": null,
+   "stageTopAfter": null,
+   "words": {
+    "before": "0+0p/20",
+    "after": "0+0p/20"
+   },
+   "gestureMs": 99,
+   "settleMs": 1287
+  },
+  {
+   "id": "statement-flick-300-3000",
+   "kind": "synth touch, fling on",
+   "story": null,
+   "dist": 300,
+   "speed": 3000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "to": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": null,
+   "stepChanges": 0,
+   "stepsShown": [],
+   "otherStoryChanges": [],
+   "fillAfter": null,
+   "stageTopAfter": null,
+   "words": {
+    "before": "0+0p/20",
+    "after": "0+0p/20"
+   },
+   "gestureMs": 142,
+   "settleMs": 1295
+  },
+  {
+   "id": "statement-flick-600-3000",
+   "kind": "synth touch, fling on",
+   "story": null,
+   "dist": 600,
+   "speed": 3000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "to": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": null,
+   "stepChanges": 0,
+   "stepsShown": [],
+   "otherStoryChanges": [],
+   "fillAfter": null,
+   "stageTopAfter": null,
+   "words": {
+    "before": "0+0p/20",
+    "after": "0+0p/20"
+   },
+   "gestureMs": 256,
+   "settleMs": 1289
+  },
+  {
+   "id": "statement-flick-60-6000",
+   "kind": "synth touch, fling on",
+   "story": null,
+   "dist": 60,
+   "speed": 6000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "to": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": null,
+   "stepChanges": 0,
+   "stepsShown": [],
+   "otherStoryChanges": [],
+   "fillAfter": null,
+   "stageTopAfter": null,
+   "words": {
+    "before": "0+0p/20",
+    "after": "0+0p/20"
+   },
+   "gestureMs": 58,
+   "settleMs": 1296
+  },
+  {
+   "id": "statement-flick-150-6000",
+   "kind": "synth touch, fling on",
+   "story": null,
+   "dist": 150,
+   "speed": 6000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "to": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": null,
+   "stepChanges": 0,
+   "stepsShown": [],
+   "otherStoryChanges": [],
+   "fillAfter": null,
+   "stageTopAfter": null,
+   "words": {
+    "before": "0+0p/20",
+    "after": "0+0p/20"
+   },
+   "gestureMs": 76,
+   "settleMs": 1298
+  },
+  {
+   "id": "statement-flick-300-6000",
+   "kind": "synth touch, fling on",
+   "story": null,
+   "dist": 300,
+   "speed": 6000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "to": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": null,
+   "stepChanges": 0,
+   "stepsShown": [],
+   "otherStoryChanges": [],
+   "fillAfter": null,
+   "stageTopAfter": null,
+   "words": {
+    "before": "0+0p/20",
+    "after": "0+0p/20"
+   },
+   "gestureMs": 107,
+   "settleMs": 1295
+  },
+  {
+   "id": "statement-flick-600-6000",
+   "kind": "synth touch, fling on",
+   "story": null,
+   "dist": 600,
+   "speed": 6000,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "to": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": null,
+   "stepChanges": 0,
+   "stepsShown": [],
+   "otherStoryChanges": [],
+   "fillAfter": null,
+   "stageTopAfter": null,
+   "words": {
+    "before": "0+0p/20",
+    "after": "0+0p/20"
+   },
+   "gestureMs": 143,
+   "settleMs": 1295
+  },
+  {
+   "id": "lab-r1-slowdrag-150",
+   "kind": "touch moves 2px/25ms, hold, lift",
+   "story": "lab",
+   "dist": 150,
+   "speed": null,
+   "ms": 1900,
+   "note": "",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4316,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1.16,
+     "nearestRest": 1,
+     "offPx": 135
+    }
+   },
+   "moved": 135,
+   "travel": 135,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 4685,
+   "settleMs": 1304,
+   "shot": "lab-r1-slowdrag-150.png"
+  },
+  {
+   "id": "lab-r1-slowdrag-300",
+   "kind": "touch moves 2px/25ms, hold, lift",
+   "story": "lab",
+   "dist": 300,
+   "speed": null,
+   "ms": 3750,
+   "note": "",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4466,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1.33,
+     "nearestRest": 1,
+     "offPx": 285
+    }
+   },
+   "moved": 285,
+   "travel": 285,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 8849,
+   "settleMs": 1294,
+   "shot": "lab-r1-slowdrag-300.png"
+  },
+  {
+   "id": "lab-r1-slowdrag-513",
+   "kind": "touch moves 2px/25ms, hold, lift",
+   "story": "lab",
+   "dist": 513,
+   "speed": null,
+   "ms": 6413,
+   "note": "0.6 of a step gap",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4679,
+    "step": 2,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1.58,
+     "nearestRest": 2,
+     "offPx": -358
+    }
+   },
+   "moved": 498,
+   "travel": 498,
+   "stepDelta": 1,
+   "stepChanges": 1,
+   "stepsShown": [
+    1,
+    2
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.582,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 14965,
+   "settleMs": 1287,
+   "shot": "lab-r1-slowdrag-513.png"
+  },
+  {
+   "id": "tour-r1-slowdrag-150",
+   "kind": "touch moves 2px/25ms, hold, lift",
+   "story": "tour",
+   "dist": 150,
+   "speed": null,
+   "ms": 1900,
+   "note": "",
+   "from": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 7657,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1.25,
+     "nearestRest": 1,
+     "offPx": 135
+    }
+   },
+   "moved": 135,
+   "travel": 135,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 4733,
+   "settleMs": 1299
+  },
+  {
+   "id": "tour-r1-slowdrag-300",
+   "kind": "touch moves 2px/25ms, hold, lift",
+   "story": "tour",
+   "dist": 300,
+   "speed": null,
+   "ms": 3750,
+   "note": "",
+   "from": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 7807,
+    "step": 2,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1.52,
+     "nearestRest": 2,
+     "offPx": -259
+    }
+   },
+   "moved": 285,
+   "travel": 285,
+   "stepDelta": 1,
+   "stepChanges": 1,
+   "stepsShown": [
+    1,
+    2
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.563,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 8829,
+   "settleMs": 1306,
+   "shot": "tour-r1-slowdrag-300.png"
+  },
+  {
+   "id": "tour-r1-slowdrag-326",
+   "kind": "touch moves 2px/25ms, hold, lift",
+   "story": "tour",
+   "dist": 326,
+   "speed": null,
+   "ms": 4075,
+   "note": "0.6 of a step gap",
+   "from": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 7833,
+    "step": 2,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1.57,
+     "nearestRest": 2,
+     "offPx": -233
+    }
+   },
+   "moved": 311,
+   "travel": 311,
+   "stepDelta": 1,
+   "stepChanges": 1,
+   "stepsShown": [
+    1,
+    2
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.611,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 9329,
+   "settleMs": 1293
+  },
+  {
+   "id": "recovery-r1-slowdrag-150",
+   "kind": "touch moves 2px/25ms, hold, lift",
+   "story": "recovery",
+   "dist": 150,
+   "speed": null,
+   "ms": 1900,
+   "note": "",
+   "from": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 12947,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1.17,
+     "nearestRest": 1,
+     "offPx": 135
+    }
+   },
+   "moved": 135,
+   "travel": 135,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 3804,
+   "settleMs": 1296
+  },
+  {
+   "id": "recovery-r1-slowdrag-300",
+   "kind": "touch moves 2px/25ms, hold, lift",
+   "story": "recovery",
+   "dist": 300,
+   "speed": null,
+   "ms": 3750,
+   "note": "",
+   "from": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 13097,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1.36,
+     "nearestRest": 1,
+     "offPx": 285
+    }
+   },
+   "moved": 285,
+   "travel": 285,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 7326,
+   "settleMs": 1303,
+   "shot": "recovery-r1-slowdrag-300.png"
+  },
+  {
+   "id": "recovery-r1-slowdrag-473",
+   "kind": "touch moves 2px/25ms, hold, lift",
+   "story": "recovery",
+   "dist": 473,
+   "speed": null,
+   "ms": 5913,
+   "note": "0.6 of a step gap",
+   "from": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 13270,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1.58,
+     "nearestRest": 2,
+     "offPx": -329
+    }
+   },
+   "moved": 458,
+   "travel": 458,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 11230,
+   "settleMs": 1289
+  },
+  {
+   "id": "statement-slowdrag-300",
+   "kind": "touch moves 2px/25ms, hold, lift",
+   "story": null,
+   "dist": 300,
+   "speed": null,
+   "ms": 3750,
+   "note": "",
+   "from": {
+    "y": 1552,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "to": {
+    "y": 1837,
+    "step": null,
+    "at": {
+     "section": "statement"
+    }
+   },
+   "moved": 285,
+   "travel": 285,
+   "stepDelta": null,
+   "stepChanges": 0,
+   "stepsShown": [],
+   "otherStoryChanges": [
+    "lab:0"
+   ],
+   "fillAfter": null,
+   "stageTopAfter": null,
+   "words": {
+    "before": "0+0p/20",
+    "after": "9+1p/20"
+   },
+   "gestureMs": 8907,
+   "settleMs": 1297,
+   "shot": "statement-slowdrag-300.png"
+  },
+  {
+   "id": "lab-r1-fingerflick-200-80ms",
+   "kind": "touch moves 200px in 80ms, lift moving",
+   "story": "lab",
+   "dist": 200,
+   "speed": null,
+   "ms": 80,
+   "note": "",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4366,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1.22,
+     "nearestRest": 1,
+     "offPx": 185
+    }
+   },
+   "moved": 185,
+   "travel": 185,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 323,
+   "settleMs": 1297
+  },
+  {
+   "id": "tour-r1-fingerflick-200-80ms",
+   "kind": "touch moves 200px in 80ms, lift moving",
+   "story": "tour",
+   "dist": 200,
+   "speed": null,
+   "ms": 80,
+   "note": "",
+   "from": {
+    "y": 7522,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 7707,
+    "step": 1,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 1.34,
+     "nearestRest": 1,
+     "offPx": 185
+    }
+   },
+   "moved": 185,
+   "travel": 185,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 401,
+   "settleMs": 1312,
+   "shot": "tour-r1-fingerflick-200-80ms.png"
+  },
+  {
+   "id": "recovery-r1-fingerflick-200-80ms",
+   "kind": "touch moves 200px in 80ms, lift moving",
+   "story": "recovery",
+   "dist": 200,
+   "speed": null,
+   "ms": 80,
+   "note": "",
+   "from": {
+    "y": 12812,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 12997,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "recovery",
+     "state": "held",
+     "phase": 1.24,
+     "nearestRest": 1,
+     "offPx": 185
+    }
+   },
+   "moved": 185,
+   "travel": 185,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 323,
+   "settleMs": 1295
+  },
+  {
+   "id": "lab-r1+0-flick-150-1200",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 150,
+   "speed": 1200,
+   "ms": null,
+   "note": "start 0px past rest 1",
+   "from": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "to": {
+    "y": 4181,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1,
+     "nearestRest": 1,
+     "offPx": 0
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 248,
+   "settleMs": 1300
+  },
+  {
+   "id": "lab-r1+200-flick-150-1200",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 150,
+   "speed": 1200,
+   "ms": null,
+   "note": "start 200px past rest 1",
+   "from": {
+    "y": 4381,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1.23,
+     "nearestRest": 1,
+     "offPx": 200
+    }
+   },
+   "to": {
+    "y": 4381,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1.23,
+     "nearestRest": 1,
+     "offPx": 200
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 252,
+   "settleMs": 1298
+  },
+  {
+   "id": "lab-r1+400-flick-150-1200",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 150,
+   "speed": 1200,
+   "ms": null,
+   "note": "start 400px past rest 1",
+   "from": {
+    "y": 4581,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1.47,
+     "nearestRest": 1,
+     "offPx": 400
+    }
+   },
+   "to": {
+    "y": 4581,
+    "step": 1,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1.47,
+     "nearestRest": 1,
+     "offPx": 400
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    1
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 1,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 196,
+   "settleMs": 1303
+  },
+  {
+   "id": "lab-r1+600-flick-150-1200",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 150,
+   "speed": 1200,
+   "ms": null,
+   "note": "start 600px past rest 1",
+   "from": {
+    "y": 4781,
+    "step": 2,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1.7,
+     "nearestRest": 2,
+     "offPx": -256
+    }
+   },
+   "to": {
+    "y": 4781,
+    "step": 2,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "held",
+     "phase": 1.7,
+     "nearestRest": 2,
+     "offPx": -256
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    2
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.701,
+    "y": 1
+   },
+   "stageTopAfter": 0,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 212,
+   "settleMs": 1300
+  },
+  {
+   "id": "lab-enter-300-1200",
+   "kind": "synth touch, fling on",
+   "story": "lab",
+   "dist": 300,
+   "speed": 1200,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 2826,
+    "step": 0,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "entering",
+     "stageShown": 344
+    }
+   },
+   "to": {
+    "y": 2826,
+    "step": 0,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "entering",
+     "stageShown": 344
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.416,
+    "y": 1
+   },
+   "stageTopAfter": 500,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 309,
+   "settleMs": 1287,
+   "shot": "lab-enter-300-1200.png"
+  },
+  {
+   "id": "lab-enter-slow-300",
+   "kind": "touch moves 2px/25ms, hold, lift",
+   "story": "lab",
+   "dist": 300,
+   "speed": null,
+   "ms": 3750,
+   "note": "",
+   "from": {
+    "y": 2826,
+    "step": 0,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "entering",
+     "stageShown": 344
+    }
+   },
+   "to": {
+    "y": 3111,
+    "step": 0,
+    "at": {
+     "section": "lab-section",
+     "story": "lab",
+     "state": "entering",
+     "stageShown": 629
+    }
+   },
+   "moved": 285,
+   "travel": 285,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.749,
+    "y": 1
+   },
+   "stageTopAfter": 215,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 9940,
+   "settleMs": 1304,
+   "shot": "lab-enter-slow-300.png"
+  },
+  {
+   "id": "tour-enter-300-1200",
+   "kind": "synth touch, fling on",
+   "story": "tour",
+   "dist": 300,
+   "speed": 1200,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 6478,
+    "step": 0,
+    "at": {
+     "section": "tour-section",
+     "story": "lab",
+     "state": "leaving",
+     "stageShown": 258
+    }
+   },
+   "to": {
+    "y": 6478,
+    "step": 0,
+    "at": {
+     "section": "tour-section",
+     "story": "lab",
+     "state": "leaving",
+     "stageShown": 258
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.119,
+    "y": 1
+   },
+   "stageTopAfter": 479,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 313,
+   "settleMs": 1294
+  },
+  {
+   "id": "tour-enter-slow-300",
+   "kind": "touch moves 2px/25ms, hold, lift",
+   "story": "tour",
+   "dist": 300,
+   "speed": null,
+   "ms": 3750,
+   "note": "",
+   "from": {
+    "y": 6478,
+    "step": 0,
+    "at": {
+     "section": "tour-section",
+     "story": "lab",
+     "state": "leaving",
+     "stageShown": 258
+    }
+   },
+   "to": {
+    "y": 6763,
+    "step": 0,
+    "at": {
+     "section": "tour-section",
+     "story": "tour",
+     "state": "entering",
+     "stageShown": 629
+    }
+   },
+   "moved": 285,
+   "travel": 285,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0.643,
+    "y": 1
+   },
+   "stageTopAfter": 194,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 9058,
+   "settleMs": 1313
+  },
+  {
+   "id": "recovery-enter-300-1200",
+   "kind": "synth touch, fling on",
+   "story": "recovery",
+   "dist": 300,
+   "speed": 1200,
+   "ms": null,
+   "note": "",
+   "from": {
+    "y": 11524,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 8.36,
+     "nearestRest": 8,
+     "offPx": 195
+    }
+   },
+   "to": {
+    "y": 11524,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 8.36,
+     "nearestRest": 8,
+     "offPx": 195
+    }
+   },
+   "moved": 0,
+   "travel": 0,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [],
+   "fillAfter": {
+    "x": 0,
+    "y": 1
+   },
+   "stageTopAfter": 1404,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 315,
+   "settleMs": 1303
+  },
+  {
+   "id": "recovery-enter-slow-300",
+   "kind": "touch moves 2px/25ms, hold, lift",
+   "story": "recovery",
+   "dist": 300,
+   "speed": null,
+   "ms": 3750,
+   "note": "",
+   "from": {
+    "y": 11524,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 8.36,
+     "nearestRest": 8,
+     "offPx": 195
+    }
+   },
+   "to": {
+    "y": 11809,
+    "step": 0,
+    "at": {
+     "section": "recovery-section",
+     "story": "tour",
+     "state": "held",
+     "phase": 8.88,
+     "nearestRest": 9,
+     "offPx": -64
+    }
+   },
+   "moved": 285,
+   "travel": 285,
+   "stepDelta": 0,
+   "stepChanges": 0,
+   "stepsShown": [
+    0
+   ],
+   "otherStoryChanges": [
+    "tour:9"
+   ],
+   "fillAfter": {
+    "x": 0,
+    "y": 1
+   },
+   "stageTopAfter": 1119,
+   "words": {
+    "before": "20+0p/20",
+    "after": "20+0p/20"
+   },
+   "gestureMs": 8071,
+   "settleMs": 1298,
+   "shot": "recovery-enter-slow-300.png"
+  }
+ ],
+ "shots": [
+  "lab-r1-flick-150-400.png",
+  "lab-r1-flick-300-3000.png",
+  "lab-r1-flick-600-6000.png",
+  "tour-r1-flick-300-3000.png",
+  "tour-r1-flick-600-6000.png",
+  "recovery-r1-flick-300-3000.png",
+  "statement-flick-150-400.png",
+  "statement-flick-300-1200.png",
+  "lab-r1-slowdrag-150.png",
+  "lab-r1-slowdrag-300.png",
+  "lab-r1-slowdrag-513.png",
+  "tour-r1-slowdrag-300.png",
+  "recovery-r1-slowdrag-300.png",
+  "statement-slowdrag-300.png",
+  "tour-r1-fingerflick-200-80ms.png",
+  "lab-enter-300-1200.png",
+  "lab-enter-slow-300.png",
+  "recovery-enter-slow-300.png"
+ ],
+ "errors": []
+}

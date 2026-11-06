@@ -1,0 +1,20 @@
+{
+  "id": "20261017T220141.314363Z-060fe91f",
+  "observed_at": "2026-10-17T22:01:41.314363+00:00",
+  "agent": "claude-opus-5.5 (session 25ef3d95, main)",
+  "task": "18 Oct ~4:05 am IST: owner-requested safe stop at 80% usage; NOW.md and master ledger written",
+  "status": "paused",
+  "done": "All workflows stopped; every worktree committed (STOP POINTs); dev servers, Chrome, Flutter, Gradle, emulator stopped (staging 3101, relay 3102, adb kept). Owner verdicts recorded (8c5b5252, aba7438a): landing branch wt-land2 48e7b057 rejected as a major regression (keep only the held-story position indicator and the top theme toggle, port into the live landing; D32); release 5 changes not visible to him (D33); he reviews big pages live (D30). NOW.md + ledger 2f8b44c6. Heads: R5 wt-ship17 deploy/web-1018-r5 9dce83f9; Today web wt-today18 fa55c354; review wt-r6-review b9a68e62; askmobi wt-r6-askmobi 8615756f; community wt-r6-community f05fdffc; mob wt-mobfix e89d4a35; v15 wt-v15 30a2b395 (polish + result merged); today app wt-v15-today2 c0558c6e; askmobi app wt-v15-askmobi d07d90bb; reel wt-v15-reel 61aa6d10 (done). Docs: MISSED-ASKS-2026-10-18.md (27 asks), BADGES-ICONS-1018.md, PLAY-READINESS-V15.md.",
+  "next": "Next session: paste NEXT-SESSION-PROMPT.md; read NOW.md, the master ledger, the dawn feedback end sections, MISSED-ASKS. Fold missed asks; R5 suites + verifier + show him live + push; landing: port the two kept pieces into the live landing, show him live; v15 test base, finish Today/Ask Mobi, wire reel, D28 bugs, walk, critique, release 1.0.15; R6 web.",
+  "blockers": [
+    "Owner: M-001, M-006, confirm D32 kept element, badges/icons, D22 names, Play Console + upload key, Anthropic key, Avast exception"
+  ],
+  "evidence": [
+    "get_usage 80% at ~4:00 am IST",
+    "git 2f8b44c6 on feat/app-and-web"
+  ],
+  "touched_files": [],
+  "verification": "Heads collected by git after STOP POINT commits.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

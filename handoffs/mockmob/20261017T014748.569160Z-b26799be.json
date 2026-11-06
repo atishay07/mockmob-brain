@@ -1,0 +1,24 @@
+{
+  "id": "20261017T014748.569160Z-b26799be",
+  "observed_at": "2026-10-17T01:47:48.569160+00:00",
+  "agent": "claude-opus-5.5 (session 25ef3d95, main)",
+  "task": "17 Oct ~7:15 am IST: usage 96% (owner: run freely, he switches accounts at the limit); five workflows running",
+  "status": "active",
+  "done": "Owner at ~6:55 am: \"don't worry about usage now I'll switch the account when usage is hit\". Launched: web-critic-1017c wf_67f332da-0db (Opus critic on wt-ship17 deploy/web-1017 97210ab0), app-v13-integrate-1017c wf_a9efbd63-ddd (wt-v13 ui/v13-1017: merged f5d848bf + nav/glass/result/today/start/review onto ux-social cd1c9651, bump 1.0.13+2 d0072852, running full suites), landing-1017c wf_d74a1849-81b (wt-land2 fixer r11 from STOP POINTs 94b4081e/d483939d, two-critic panel to 88+, verifier; main pushes), content-w4-1017c wf_405288e6-7a2 (wt-wave4 content/wave4-1017: plan 57b800f5 = 15 author jobs, 300 questions over gat/physics/chemistry/mathematics/biology; then audit, scoring, accept, expert, final dry runs), design-f15-1017c wf_ee812326-c95 (Opus Learn and Review design doc docs/design-decisions/pass-1017/LEARN-REVIEW-1017.md). STAGING Mob schema replaced: old v1 objects renamed to mob_v1_* (classifier denied drops), rewritten 20261017100000_mob.sql applied (13 tables, 22 functions, RLS, no anon). Staging has the Today road fields (exam_date, mock_target). Main session killed the F15 dev server (2.5 GB) at 294 MB free RAM.",
+  "next": "If agents die at the usage limit: after the account switch, resume each workflow with Workflow({scriptPath, resumeFromRunId}) using the run ids above (scripts under C:\\Users\\atish\\.claude\\projects\\...\\25ef3d95...\\workflows\\scripts\\). Then: web fixer + verifier on the critic's defects, main session applies 20261017150000_study_road_fields to production under the grant and pushes deploy/web-1017; v13 walk (rig: staging site 3101 on deploy/web-1017 code, relay 3102, emulator), Opus critic, area fixers, walk 2, release APK; landing push at 88+; apply wave 4 8+ set after review; F15 build packets; Higgsfield.",
+  "blockers": [
+    "RAM: 16 GB with owner apps (ChatGPT, AI OS services) leaves ~3 GB for agents; one dev server per heavy agent",
+    "Classifier denies subagent pushes and staging drops; main session pushes"
+  ],
+  "evidence": [
+    "get_usage 96% at 7:13 am IST, resets 9:00 am",
+    "staging mob schema check: v2_tables 13, v2_funcs 22, mob_state overloads 1, anon_exec false",
+    "wt-wave4 57b800f5 plan commit"
+  ],
+  "touched_files": [
+    "staging onwkqxmjqjrhfbjjdydu: migrations mob_v1_park_staging, mob_20261017100000_v2_staging"
+  ],
+  "verification": "State by git and SQL; workflows in flight.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

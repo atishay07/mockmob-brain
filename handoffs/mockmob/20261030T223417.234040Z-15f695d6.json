@@ -1,0 +1,27 @@
+{
+  "id": "20261030T223417.234040Z-15f695d6",
+  "observed_at": "2026-10-30T22:34:17.234040+00:00",
+  "agent": "claude-auto",
+  "task": "Auto-capture: claude session 16f96fa8",
+  "status": "paused",
+  "done": "Auto-captured at Stop. Turns: 3. Last message: All 20 slots are busy. leps104 is next in the queue.",
+  "next": "Unverified auto-capture. Read the session transcript and live repo state before continuing.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\16f96fa8-b613-46a8-9eb0-5f9361c78fcd.jsonl"
+  ],
+  "touched_files": [
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\C--Users-atish-Desktop-mockmob-copy\\16f96fa8-b613-46a8-9eb0-5f9361c78fcd\\scratchpad\\check.js",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\ncert-books\\AUTHOR-BRIEF-2026-10-31.md",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\ncert-books\\FIX-BRIEF-2026-10-31.md",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\kc108\\gen.js",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\C--Users-atish-Desktop-mockmob-copy\\16f96fa8-b613-46a8-9eb0-5f9361c78fcd\\scratchpad\\chk.js",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\kc108\\fix.js",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\C--Users-atish-Desktop-mockmob-copy\\16f96fa8-b613-46a8-9eb0-5f9361c78fcd\\scratchpad\\gen.js",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\ncert-books\\REVIEW-BRIEF-2026-10-31.md",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\C--Users-atish-Desktop-mockmob-copy\\16f96fa8-b613-46a8-9eb0-5f9361c78fcd\\scratchpad\\build.js"
+  ],
+  "verification": "auto-captured by hook; not agent-verified",
+  "cost_and_pending_requests": "unknown; hook does not see provider receipts",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,133 @@
+{
+ "kind": "authored_w2_engine_check",
+ "label": "final",
+ "source": "claude-authored-2026-10-14-w2",
+ "at": "2026-10-14T12:10:00.000Z",
+ "engine": {
+  "root": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-hotfix",
+  "file": "data/nta_engine.js",
+  "version": "nta-engine-2026.10.14-r5.2",
+  "sha256": "d51959c6e83a74edff7416044bc52ce1a0339b8bc3e991680d2b46087b790674",
+  "mtime": "2026-10-14T09:30:08.044Z",
+  "minScore": 8,
+  "minFit": 8
+ },
+ "method": "ntaEligibility (quality gate with the agent scores, content gates, CUET-fit gate) on every accepted wave-2 question with the committed agent and fit tables of the named checkout plus the wave-2 entries merged in memory (policy admit). Nothing in data/ is written. Rows are mapped like the wave-1 publisher (toQuestionRow); case-set items typed single_mcq are mapped as passage children.",
+ "candidatesSha256": "b0644cba44cd4de297c9ceeb562e757b92685fec60dab15870a4fed898071f4b",
+ "planned": 382,
+ "engineEligible": 382,
+ "engineIneligible": 0,
+ "engineIneligibleReasons": {},
+ "ineligibleByGate": {},
+ "bySubject": {
+  "biology": {
+   "planned": 56,
+   "eligible": 56,
+   "ineligible": 0,
+   "reasons": {}
+  },
+  "computer_science": {
+   "planned": 76,
+   "eligible": 76,
+   "ineligible": 0,
+   "reasons": {}
+  },
+  "english": {
+   "planned": 55,
+   "eligible": 55,
+   "ineligible": 0,
+   "reasons": {}
+  },
+  "general_test": {
+   "planned": 77,
+   "eligible": 77,
+   "ineligible": 0,
+   "reasons": {}
+  },
+  "geography": {
+   "planned": 44,
+   "eligible": 44,
+   "ineligible": 0,
+   "reasons": {}
+  },
+  "mathematics": {
+   "planned": 65,
+   "eligible": 65,
+   "ineligible": 0,
+   "reasons": {}
+  },
+  "political_science": {
+   "planned": 9,
+   "eligible": 9,
+   "ineligible": 0,
+   "reasons": {}
+  }
+ },
+ "passageSets": [
+  {
+   "set_id": "english__p1__set3",
+   "subject": "english",
+   "chapter": "Literary Passage",
+   "passage_words": 277,
+   "passage_words_range": {
+    "min": 200,
+    "target": 280,
+    "max": 300
+   },
+   "min_children": 4,
+   "wave1_children": 3,
+   "wave1_children_eligible": 3,
+   "wave2_children": 1,
+   "wave2_children_eligible": 1,
+   "distinct_eligible_children": 4,
+   "blueprint_serves_sets": true,
+   "servable": true
+  },
+  {
+   "set_id": "geo-b3-settlement-set-1",
+   "subject": "geography",
+   "chapter": "Human Settlements",
+   "passage_words": 139,
+   "passage_words_range": {
+    "min": 120,
+    "target": 200,
+    "max": 300
+   },
+   "min_children": 4,
+   "wave1_children": 0,
+   "wave1_children_eligible": 0,
+   "wave2_children": 4,
+   "wave2_children_eligible": 4,
+   "distinct_eligible_children": 4,
+   "blueprint_serves_sets": true,
+   "servable": true
+  }
+ ],
+ "placementProblems": [],
+ "informational": {
+  "authoredTypeVersusEngineType": [
+   {
+    "id": "0bc7e3fd-ca5f-4abb-8058-b2df046889e4",
+    "subject": "english",
+    "note": "fit judges majority chapter differs from the authored chapter",
+    "authored_chapter": "Correct Word Usage",
+    "fit_chapter": "Vocabulary"
+   },
+   {
+    "id": "1e2a6ba5-ebe1-43f1-b5ec-da78024a63c5",
+    "subject": "general_test",
+    "note": "fit judges majority chapter differs from the authored chapter",
+    "authored_chapter": "General Knowledge",
+    "fit_chapter": "General Science and Environment Literacy"
+   },
+   {
+    "id": "7d9c3a0b-c8d6-4c10-8aff-0abca88d519a",
+    "subject": "geography",
+    "note": "fit judges majority chapter differs from the authored chapter",
+    "authored_chapter": "Human Settlements",
+    "fit_chapter": "Tertiary & Quaternary Activities"
+   }
+  ]
+ },
+ "refused": []
+}

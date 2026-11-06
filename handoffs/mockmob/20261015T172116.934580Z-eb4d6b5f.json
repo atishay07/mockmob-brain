@@ -1,0 +1,21 @@
+{
+  "id": "20261015T172116.934580Z-eb4d6b5f",
+  "observed_at": "2026-10-15T17:21:16.934580+00:00",
+  "agent": "builder-credits-web",
+  "task": "Q2 credits server and website (audit 12-13)",
+  "status": "complete",
+  "done": "GET /api/me/credits built and committed (08dd50e8 on web/you-1015), Credits section on Account, two names and pool-and-total spend lines across the website, contract fixture copied byte for byte to wt-phase2 (5e95a34c on ui/phase2).",
+  "next": "Merge and deploy web/you-1015 (route is additive, no migration). App side: build the Credits page against flutter_app/test/fixtures/credits/contract_credits_v1.json and apply the two-name copy.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "src/lib/server/credits.js",
+    "src/app/api/me/credits/route.js",
+    "src/lib/creditCopy.mjs",
+    "src/components/profile/CreditsSection.jsx",
+    "data/tests/fixtures/credits/contract_credits_v1.json"
+  ],
+  "verification": "test:app 268, test:auth 51, test:learning 277, test:recovery 182 all pass; eslint clean; staging column check of both ledgers matched.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

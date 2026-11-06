@@ -1,0 +1,91 @@
+{
+ "conflicts": [
+  {
+   "hold": [
+    "kc.accountancy.debentures.fact-discount-balance-sheet-current",
+    "kc.accountancy.debentures.fact-discount-balance-sheet-non-current"
+   ],
+   "keep": [
+    "kc.accountancy.debentures.kl-discount-loss-capital-loss",
+    "kc.accountancy.debentures.fact-important-borrowing-cost-discount"
+   ],
+   "why": "p81 (with the already-held 'life time' card) splits the unwritten discount into current (within 12 months) and non-current (after 12 months) assets, which presumes write-off over the debentures' life; p106 and p154 say discount is written off in the year of issue, so no non-current balance arises. Keep the later p106/p154 rule (matches AS-16 borrowing-cost treatment cited at p154)."
+  },
+  {
+   "hold": [
+    "kc.accountancy.accounting-ratios.fml-shareholders-funds-equity-first-form"
+   ],
+   "keep": [
+    "kc.accountancy.financial-statements-of-company.list-sh-funds-subclassified"
+   ],
+   "why": "Ratios p205 formula adds 'Share application money pending allotment' into Shareholders' Funds; Financial Statements p149 (Schedule III) lists exactly three sub-classifications (share capital, reserves and surplus, share warrants) and shows share application money as a separate head. Keep the Schedule III balance-sheet card."
+  }
+ ],
+ "duplicates": [
+  [
+   "kc.accountancy.accounting-ratios.list-ratio-comparisons",
+   "kc.accountancy.accounting-ratios.types-ratios-help-comparison-in-which-three-ways"
+  ],
+  [
+   "kc.accountancy.accounting-ratios.def-ratio-analysis",
+   "kc.accountancy.accounting-ratios.def-ratio-analysis-ncert"
+  ],
+  [
+   "kc.accountancy.financial-statements-of-company.key-proposed-dividend-contingent",
+   "kc.accountancy.cash-flow-statement.fact-proposed-dividend-contingent"
+  ],
+  [
+   "kc.accountancy.financial-statements-of-company.fact-proposed-dividend-as4",
+   "kc.accountancy.cash-flow-statement.fact-proposed-dividend-as4"
+  ],
+  [
+   "kc.accountancy.financial-statements-of-company.fact-proposed-dividend-previous-year",
+   "kc.accountancy.cash-flow-statement.fact-proposed-dividend-previous-year"
+  ],
+  [
+   "kc.accountancy.cash-flow-statement.fact-indirect-starting-point",
+   "kc.accountancy.cash-flow-statement.fact-starting-point-before-tax"
+  ],
+  [
+   "kc.accountancy.debentures.fact-important-borrowing-cost-discount",
+   "kc.accountancy.debentures.kl-discount-loss-capital-loss"
+  ],
+  [
+   "kc.accountancy.debentures.kl-interest-charge-against-profit",
+   "kc.accountancy.debentures.diff-shares-vs-debentures-dividend-interest"
+  ],
+  [
+   "kc.accountancy.partnership-fundamentals.def-partnership",
+   "kc.accountancy.partnership-fundamentals.def-partnership-section-4"
+  ],
+  [
+   "kc.accountancy.partnership-fundamentals.def-deed-meaning",
+   "kc.accountancy.partnership-fundamentals.term-deed-term-summary"
+  ],
+  [
+   "kc.accountancy.profit-and-loss-appropriation-account.kl-ioc-only-profit",
+   "kc.accountancy.profit-and-loss-appropriation-account.fact-ioc-net-loss"
+  ],
+  [
+   "kc.accountancy.admission-of-partner.def-sacrificing-ratio",
+   "kc.accountancy.admission-of-partner.fact-sacrificing-ratio-name"
+  ],
+  [
+   "kc.accountancy.change-in-profit-sharing-ratio.def-gaining-ratio",
+   "kc.accountancy.change-in-profit-sharing-ratio.term-gaining-ratio-term"
+  ],
+  [
+   "kc.accountancy.change-in-profit-sharing-ratio.fact-ratio-change-goodwill-adjusted",
+   "kc.accountancy.change-in-profit-sharing-ratio.fact-credit-sacrificing-debit-gaining"
+  ],
+  [
+   "kc.accountancy.share-capital.def-premium-def-intro",
+   "kc.accountancy.share-capital.def-premium-def"
+  ],
+  [
+   "kc.accountancy.share-capital.fact-forfeit-when",
+   "kc.accountancy.share-capital.def-sum-forfeit-def"
+  ]
+ ],
+ "pairsRead": 140
+}

@@ -1,0 +1,27 @@
+{
+  "id": "20261013T063339.715163Z-eee00c5c",
+  "observed_at": "2026-10-13T06:33:39.715163+00:00",
+  "agent": "claude-code opus-5.5 workflow subagent (nta-mode)",
+  "task": "Flutter NTA mode exam skin (lib/features/runner/nta) per NTA-MODE-SPEC.md",
+  "status": "complete",
+  "done": "Built NTA mode skin for mode=='nta' over unchanged RunnerSession: blue bar + exam clock + progress, section strip with Warnings n/3 and save glyph, paper with tags/A-A+/passage/Mark-Unmark/radio options, two-row exam keys, right palette drawer (candidate card, legend with counts in exact NTA shapes, 5-col grid), question paper view, warning overlay with 3-strike integrity guard (persisted per session), submit summary table, instructions screen with real-phase preparing stages, 840dp two-pane. Shared RunnerHost mixin; solid sheets fix palette bleed-through.",
+  "next": "Integrator: register NtaRoutes.path (/exam/nta?subject=) with ntaInstructionsScreen outside the shell; point Practice NTA row and Start sheet NTA row at NtaRoutes.location(subject). FLAG_SECURE needs a native channel (not done). Device check of lifecycle strikes on the Vivo.",
+  "blockers": [],
+  "evidence": [
+    "flutter_app/test/golden/runner/goldens/nta_*.png"
+  ],
+  "touched_files": [
+    "flutter_app/lib/features/runner/nta/*",
+    "flutter_app/lib/features/runner/screens/runner_host.dart",
+    "flutter_app/lib/features/runner/screens/runner_screen.dart",
+    "flutter_app/lib/features/runner/screens/submit_screen.dart",
+    "flutter_app/lib/features/runner/widgets/solid_sheet.dart",
+    "flutter_app/lib/features/runner/widgets/submit_stage_view.dart",
+    "flutter_app/lib/features/runner/runner_routes.dart",
+    "flutter_app/test/unit/runner/*",
+    "flutter_app/test/golden/runner/*"
+  ],
+  "verification": "analyze clean on runner, runner tests, core/router, device_demo; test/unit/runner + test/golden/runner 112 passed; NTA goldens viewed both themes",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

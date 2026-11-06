@@ -1,0 +1,22 @@
+{
+  "id": "20261016T181445.030210Z-45e47c34",
+  "observed_at": "2026-10-16T18:14:45.030210+00:00",
+  "agent": "claude-opus-5.5 (session 604ced81, main)",
+  "task": "16 Oct 11:50 pm final handoff at 95% usage",
+  "status": "paused",
+  "done": "The final handoff is mockmob-next/docs/brain/HANDOFF-2026-10-16-NIGHT-FINAL.md (one goal, full context). Live main 8a0141ba (batches 1-3). DB hardening and the NTA index (653 rows, 0 signature failures) are live. APK v12 preview sent, not walked. Higgsfield research, plan and ideas written (landing + onboarding direction, Opal reference). Mobbin research done (recommendation: USD 20 student quarter, cancel renewal, blind A/B).",
+  "next": "Follow section 10 of HANDOFF-2026-10-16-NIGHT-FINAL.md: WIP-commit the worktrees, read the journals, then finish and ship batch 4, web UX + Mob, landing, app v12 walk and release, app UX + Mob; then Higgsfield round 1 idea agents.",
+  "blockers": [
+    "usage 95%",
+    "owner steps: Razorpay TEST, SUPABASE_DB_URL, Play account, fresh mock + repair"
+  ],
+  "evidence": [
+    "handoff committed in mockmob-next feat/app-and-web"
+  ],
+  "touched_files": [
+    "mockmob-next/docs/brain/HANDOFF-2026-10-16-NIGHT-FINAL.md"
+  ],
+  "verification": "This handoff is documentation only. The in-flight tracks are not verified.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

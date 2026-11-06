@@ -1,0 +1,15 @@
+{
+  "id": "20261010T100934.115576Z-63275819",
+  "observed_at": "2026-10-10T10:09:34.115576+00:00",
+  "agent": "claude",
+  "task": "RAG index freshness: incremental by mtime and hash, deletions, staleness-triggered refresh, index age in results",
+  "status": "complete",
+  "done": "",
+  "next": "Owner decides on automatic refresh cadence (currently on-demand and on search when older than 30 minutes). Next possible step: hook-injection trial, which needs Atishay's go-ahead.</next>\n<parameter name=\"done\">Index now hash-aware: unchanged size+mtime is skipped; a touched file is re-hashed and re-chunked only if bytes changed; removed files are deleted from all tables. Schema migrated (docs.sha, meta table). Search responses include an index object (refreshed, last_indexed_at, index_age_minutes, newest_indexed_file_modified). MCP refreshes before search when the index is older than RAG_MAX_AGE_MIN (30). Lock file prevents concurrent refreshes. Raw conversations stay keyword-only. Freshness test: token RAGFRESH-7731-ZETA from checkpoint bce1eaf6 returned [] before the refresh and found the checkpoint after it. Unit tests: 17/17 OK.</done>\n<evidence>[\"apps/rag/rag.py (index, freshness, ensure_fresh)\", \"apps/rag/mcp_server.py (index object)\", \"apps/rag/tests/test_rag.py (IncrementalTests)\", \"handoffs/mockmob/20261010T100859.525654Z-bce1eaf6.md\"]</evidence>\n<touched>[\"apps/rag/rag.py\", \"apps/rag/mcp_server.py\", \"apps/rag/tests/test_rag.py\", \"apps/rag/README.md\", \"apps/rag/data/rag.sqlite\"]</touched>\n<verification>17 unit tests OK. Live: before refresh [], after refresh found the new checkpoint. First migration run: 288 docs re-chunked and 590 chunks re-embedded (about 85 s). Limits: legacy rows (no hash yet) are not hashed until their mtime changes; refresh with vectors can take a minute or more when many docs change, which can slow the first search after the threshold; the existing ingest step was not used, rather the index runs on its own.</verification>\n<blockers>[]</blockers>\n<cost>No paid calls.</cost>\n",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

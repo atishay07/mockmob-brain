@@ -1,0 +1,316 @@
+{
+ "kind": "authored_scores_check",
+ "version": "authored-scores-1",
+ "source": "claude-authored-2026-10-14-w2",
+ "repairedTextPolicy": "admit",
+ "at": "2026-10-14T12:10:00.000Z",
+ "planned": 382,
+ "agentEntries": 382,
+ "hashChangedByRepair": 25,
+ "heldForFreshPass": 0,
+ "engineEligible": 382,
+ "engineIneligible": 0,
+ "engineIneligibleReasons": {},
+ "fitGate": {
+  "mirror": "scripts/lib/authored-scores.mjs fitGateReasons (mirror of data/nta_fit_scores.js ntaFitVerdict)",
+  "minFit": 8,
+  "pass": 382,
+  "reasons": {},
+  "baseTablesMissing": []
+ },
+ "qualityAndFitBoth": 382,
+ "passageSets": {
+  "servable": 2,
+  "of": 2,
+  "blueprint": {
+   "passageWords": {
+    "min": 200,
+    "target": 280,
+    "max": 300
+   },
+   "minChildren": 4
+  },
+  "sets": [
+   {
+    "groupId": "pg_b1c0212d23fa9117786356ede1fc95f7",
+    "subject": "english",
+    "chapter": "Literary Passage",
+    "words": 277,
+    "children": 4,
+    "earlierChildren": 3,
+    "earlierChildrenEligible": 3,
+    "eligibleChildren": 4,
+    "servable": true
+   },
+   {
+    "groupId": "pg_ae0718e18ae74fd3aa519865ee34a569",
+    "subject": "geography",
+    "chapter": "Human Settlements",
+    "words": 139,
+    "children": 4,
+    "eligibleChildren": 4,
+    "servable": true
+   }
+  ]
+ },
+ "impact": {
+  "export": "tmp/nta-fixtures",
+  "subjects": {
+   "political_science": {
+    "exportRows": 198,
+    "exportRowsWithEvidence": 0,
+    "faithful": true,
+    "eligibleWithout": 30,
+    "eligibleWith": 39,
+    "papersWithout": [
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     }
+    ],
+    "papersWith": [
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     }
+    ]
+   },
+   "biology": {
+    "exportRows": 379,
+    "exportRowsWithEvidence": 0,
+    "faithful": true,
+    "eligibleWithout": 125,
+    "eligibleWith": 181,
+    "papersWithout": [
+     {
+      "status": "closest",
+      "questions": 46
+     },
+     {
+      "status": "closest",
+      "questions": 45
+     },
+     {
+      "status": "closest",
+      "questions": 46
+     }
+    ],
+    "papersWith": [
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     }
+    ]
+   },
+   "computer_science": {
+    "exportRows": 331,
+    "exportRowsWithEvidence": 0,
+    "faithful": true,
+    "eligibleWithout": 74,
+    "eligibleWith": 150,
+    "papersWithout": [
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     }
+    ],
+    "papersWith": [
+     {
+      "status": "exact",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 48
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     }
+    ]
+   },
+   "general_test": {
+    "exportRows": 157,
+    "exportRowsWithEvidence": 0,
+    "faithful": true,
+    "eligibleWithout": 75,
+    "eligibleWith": 152,
+    "papersWithout": [
+     {
+      "status": "closest",
+      "questions": 45
+     },
+     {
+      "status": "closest",
+      "questions": 45
+     },
+     {
+      "status": "closest",
+      "questions": 46
+     }
+    ],
+    "papersWith": [
+     {
+      "status": "exact",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     }
+    ]
+   },
+   "geography": {
+    "exportRows": 182,
+    "exportRowsWithEvidence": 0,
+    "faithful": true,
+    "eligibleWithout": 67,
+    "eligibleWith": 111,
+    "papersWithout": [
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     }
+    ],
+    "papersWith": [
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     }
+    ]
+   },
+   "mathematics": {
+    "exportRows": 285,
+    "exportRowsWithEvidence": 0,
+    "faithful": true,
+    "eligibleWithout": 99,
+    "eligibleWith": 164,
+    "papersWithout": [
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     }
+    ],
+    "papersWith": [
+     {
+      "status": "closest",
+      "questions": 49
+     },
+     {
+      "status": "closest",
+      "questions": 47
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     }
+    ]
+   }
+  }
+ },
+ "bySubject": {
+  "biology": {
+   "planned": 56,
+   "eligible": 56,
+   "fitPass": 56,
+   "both": 56
+  },
+  "computer_science": {
+   "planned": 76,
+   "eligible": 76,
+   "fitPass": 76,
+   "both": 76
+  },
+  "english": {
+   "planned": 55,
+   "eligible": 55,
+   "fitPass": 55,
+   "both": 55
+  },
+  "general_test": {
+   "planned": 77,
+   "eligible": 77,
+   "fitPass": 77,
+   "both": 77
+  },
+  "geography": {
+   "planned": 44,
+   "eligible": 44,
+   "fitPass": 44,
+   "both": 44
+  },
+  "mathematics": {
+   "planned": 65,
+   "eligible": 65,
+   "fitPass": 65,
+   "both": 65
+  },
+  "political_science": {
+   "planned": 9,
+   "eligible": 9,
+   "fitPass": 9,
+   "both": 9
+  }
+ },
+ "ineligible": []
+}

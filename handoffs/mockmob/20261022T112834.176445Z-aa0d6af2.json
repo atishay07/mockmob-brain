@@ -1,0 +1,35 @@
+{
+  "id": "20261022T112834.176445Z-aa0d6af2",
+  "observed_at": "2026-10-22T11:28:34.176445+00:00",
+  "agent": "sound-lane-r2 (workflow subagent, Sonnet)",
+  "task": "MockMob launch film v7.1 chapter \"everything\": sound r2, remove the false ending after \"else.\" and measure on a one-piece full-film audio render",
+  "status": "complete",
+  "done": "Bed v7g built (v7f no stop-time/no resolve, lift into the Mock 8 callback, plus a full-band hush under the weak word \"An\"). Weak-word tactile rule added. All 174 words >= +6.5 dB, 0 clipped, master -13.9 LUFS / -2.1 dBTP. NOTES.md entry \"done v7.1 everything sound r2\" appended.",
+  "next": "Integrator: use public/music/teaser-v7g.wav (Teaser.tsx MUSIC_CANDIDATES[0]); listen by ear to 64.9-71.6 s and 60.3-60.7 s; render the final film at concurrency 2-3 while Blender runs; decide on the owner's \"0.2 s RMS within 3 dB\" test (bed spread is 8.4 dB, groove ripple, step at 70.0 s is +0.2 dB).",
+  "blockers": [
+    "No audio output here, so nothing was auditioned by ear.",
+    "Full-film renders at concurrency 8 thrash the PC (a Chrome tab hit 14-17 GB at frames 380-420 while Blender ran)."
+  ],
+  "evidence": [
+    "out/v71-everything-sound-r2/measure-final.txt",
+    "out/v71-everything-sound-r2/measure-v7f-before-hush.txt",
+    "out/v71-everything-sound-r2/word_margins.json",
+    "out/v71-everything-sound-r2/audit_played.json"
+  ],
+  "touched_files": [
+    "tools/music-el/build_v7.py",
+    "src/teaser/sound.ts",
+    "src/teaser/soundPolicyV2.ts",
+    "src/teaser/Teaser.tsx",
+    "public/music/teaser-v7f.wav",
+    "public/music/teaser-v7g.wav",
+    "public/music-el/bed-el-v7f.wav",
+    "public/music-el/bed-el-v7g.wav",
+    "public/music-el/report-v7g.json",
+    "docs/NOTES.md",
+    "out/v71-everything-sound-r2/"
+  ],
+  "verification": "One-piece Teaser16 audio render (4669 frames, concurrency 2 from a bundle): 174 words min +6.5 dB, 0 under +6, 0 clipped; master.sh I -13.9 LUFS, TP -2.1 dBTP; audit_pitched 80 NOISE + 1 SUB-TONE; tsc clean; timeline.mjs 0 warnings. Not auditioned by ear.",
+  "cost_and_pending_requests": "No paid credits used (no ElevenLabs calls).",
+  "confidence": "agent-reported; verify evidence before acting"
+}

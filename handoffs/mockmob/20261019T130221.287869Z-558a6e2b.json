@@ -1,0 +1,30 @@
+{
+  "id": "20261019T130221.287869Z-558a6e2b",
+  "observed_at": "2026-10-19T13:02:21.288872+00:00",
+  "agent": "R7-practice (Claude)",
+  "task": "D126 Practice C three doors + Colleges A/B + Untimed questions rename",
+  "status": "complete",
+  "done": "Branch ui/1019pm-practice head 74034b76 (wt-1019pm-practice, from 4472b373): Practice switch (Practise/Your papers/Learn, URL ?door=), Your papers and Learn embedded, /practice/papers and /learn redirect to doors; You colleges card; Today colleges strip; rename. 234 goldens updated. Emulator walk fresh + heavy done.",
+  "next": "Main session merges into ui/v15.3-1019; expect small conflict with Today deck branch in today_body.dart and today goldens. Learn door unverified on device (staging catalog disabled).",
+  "blockers": [
+    "Staging /api/study/catalog is disabled, so the Learn door shows only in widget tests"
+  ],
+  "evidence": [
+    "mockmob-next/tmp/walk-1019/practice-1019pm/PRACTICE-BUILD.md",
+    "mockmob-next/tmp/walk-1019/practice-1019pm/shots/",
+    "mockmob-next/tmp/walk-1019/practice-1019pm/r4/"
+  ],
+  "touched_files": [
+    "flutter_app/lib/features/practice/*",
+    "flutter_app/lib/features/review/screens/review_screen.dart",
+    "flutter_app/lib/features/learn/screens/learn_screen.dart",
+    "flutter_app/lib/core/router/{routes,router,app_shell}.dart",
+    "flutter_app/lib/features/tools/my_colleges/colleges_doors.dart",
+    "flutter_app/lib/features/today/screens/today_body.dart",
+    "flutter_app/lib/features/you/you_hub_screen.dart",
+    "flutter_app/lib/features/insights/copy.dart"
+  ],
+  "verification": "flutter analyze clean; unit suite 6690 pass + 1 motion-guard fail fixed then motion/practice/learn 715/715; new tests practice_doors_test (15), colleges_doors_test (11)",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

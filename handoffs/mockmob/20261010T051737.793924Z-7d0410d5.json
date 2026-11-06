@@ -1,0 +1,27 @@
+{
+  "id": "20261010T051737.793924Z-7d0410d5",
+  "observed_at": "2026-10-10T05:17:37.793924+00:00",
+  "agent": "/root/final_verification_recovery",
+  "task": "Independent V717 local verification, integration guards, and audit-body stress",
+  "status": "complete",
+  "done": "Added one additive focused test file at scripts/pipeline/tests/v717PolicyAndBodyBound.test.mjs. Tests cover NOT-stem self-contradiction as review_incomplete versus coherent academic quarantine, unsupported audit contradiction versus coherent failure, exact 6/7 routing, hidden key/explanation separation and audit-after-freeze, real V717 base/retry body sizing using the longest stored V716 blind report fields and V717 demand anchors, full registration/preflight/freeze/custody tamper checks, network-before-ledger and session active-flush close/recovery behavior, pilot proof gate, publication receipt-only replay, and the versioned controller report/no-approval path. No providers called.",
+  "next": "Root may create the V717 execution freeze and proceed to the single separately authorized qualification only after independent case/custody review. Keep V716 qualification failure as historical evidence; no release or student route is established by these local checks.",
+  "blockers": [],
+  "evidence": [
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/verification/VERIFICATION-SUMMARY.json",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/verification/v717-body-sizing.json",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/verification/test-v717-focused.log",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/verification/test-factory-final.log",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/verification/test-recovery.log",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/verification/test-question-payment.log",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/verification/app-build-verified.log",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/verification/eslint-v717.log"
+  ],
+  "touched_files": [
+    "scripts/pipeline/tests/v717PolicyAndBodyBound.test.mjs",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/verification/"
+  ],
+  "verification": "Focused V717 11/11; repository factory 1061/1061; recovery 40/40; question/payment/selection 62/62; scoped ESLint passed. Final Next.js build completed with exit code 0, compiled successfully, and generated 67 static pages. Current max measured full request body 17,180/33,024 bytes (15,844 bytes headroom) across six base/retry bodies. Final read-only V716 freeze check: 99/99 manifest hashes unchanged. Tests use synthetic/mock provider responses and temporary files only; no app route imports V717; no release, pilot, student publication, or native provider evidence.",
+  "cost_and_pending_requests": "No paid provider calls. No ledger or native provider state changed.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

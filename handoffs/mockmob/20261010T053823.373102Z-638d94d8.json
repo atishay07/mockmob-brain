@@ -1,0 +1,21 @@
+{
+  "id": "20261010T053823.373102Z-638d94d8",
+  "observed_at": "2026-10-10T05:38:23.373102+00:00",
+  "agent": "/root/difficulty_selection_final",
+  "task": "V717 revised Business Studies negative-control explanation audit",
+  "status": "complete",
+  "done": "Audited only the revised explanation for the previously identified Business Studies negative control. The registered NCERT excerpt directly contradicts the revised explanation; the keyed option remains uniquely supported by the independent frozen derivation. Verified all non-explanation candidate fields against the preserved original authored record and created a create-only reconciliation artifact.",
+  "next": "Parent may continue with its planned registration review, preserving original records and denominator; no native evaluation was performed.",
+  "blockers": [],
+  "evidence": [
+    "Reconciliation: artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/qualification-fresh32/blind/explanation-business-negative-r1.json SHA-256 9cf35a3d4d5a5cc86b28a61ca43e9449836c956fc16bee7435e3299f8d1fd66a",
+    "Decisive registered source: ncertcol-lebs201-v1, excerpt p10-c0-g1-s0, bound to source-registry SHA from artifact",
+    "Original English/Business audit preserved at blind/explanation-language-business.json"
+  ],
+  "touched_files": [
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/qualification-fresh32/blind/explanation-business-negative-r1.json"
+  ],
+  "verification": "Confirmed artifact parses as JSON; recomputed SHA-256 and byte size; checked all non-explanation candidate fields unchanged vs preserved sealed/authored.json. No provider calls, label edits, runtime changes, staging or release actions.",
+  "cost_and_pending_requests": "No provider calls or spend.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

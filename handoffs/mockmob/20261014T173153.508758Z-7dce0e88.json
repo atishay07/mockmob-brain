@@ -1,0 +1,25 @@
+{
+  "id": "20261014T173153.508758Z-7dce0e88",
+  "observed_at": "2026-10-14T17:31:53.508758+00:00",
+  "agent": "claude-opus-5.5 (session cc0bf1af, account support@mockmob.in)",
+  "task": "App phase 2 round 2 plus Mistake Repair reliability; usage 88% at 23:02 IST, reset 23:30",
+  "status": "active",
+  "done": "**App (wt-phase2, ui/phase2, 4ea55653 and befec774):**\n- Round 1 is done: 8 builders plus the art integration.\n- The 3D subject art is restored (a48b8171); the owner says it looks premium. He wants four objects regenerated later for meaning: Accountancy, Computer Science, Business Studies, Languages. Show them side by side; nothing ships without his pick.\n- Bar icons are now Material pairs (home, quiz, fact_check, avatar).\n- Profile demo recording sent (journey2-smooth-build.mp4). Findings 1 to 27 are in mockmob-next/tmp/rec-1014/FINDINGS.md.\n- The round-1 check (wf_33ffbbf9-8ed, step \"check\") is still running.\n\n**Round 2:**\n- Workflow wf_113e84d6-978 (script mockmob-next/tmp/workflows/app-phase-2-round2.js, args = round-1 leftovers) is running: 5 Sonnet fixers plus check-2.\n\n**Mistake Repair:**\n- Audit: mockmob-next/docs/brain/REPAIR-LAB-AUDIT-2026-10-14.md (2ad9f5c2).\n- Owner decisions:\n  - D1: Vercel Hobby with Fluid; Hobby allows up to 300 s, so maxDuration is 90.\n  - D2: fall back to claude-haiku-5-5 ($0.10/$0.50 per million tokens; no temperature).\n  - D8: the owner runs the credit release himself.\n- A Sonnet agent is building the fixes in worktree wt-repair (branch fix/repair-reliability from deploy/nta-r5): passage field, NTA shuffle compare, timeouts, the stuck-credit sweep in the cron, logging and error codes, the narrowed word filter, the Haiku fallback. No push.\n- The owner was sent C:\\Users\\atish\\Desktop\\mockmob copy\\PRODUCTION-repair-check-2026-10-14.sql: Part A read-only, Part B releases stuck credits.\n\n**Keys (local, free checks):**\n- OpenAI is valid and gpt-6-luna is available; the balance can't be checked for free.\n- Anthropic and Gemini are valid.\n- DeepSeek is at −$0.03 and unavailable.\n- The Kimi key is invalid (401).\n\n**Disk and packages:**\n- mockmob-hotfix/node_modules had been emptied at 21:25, when the disk was full. Restored with npm ci (406 packages).\n- Vercel Hobby pauses projects that exceed the free tier, which may be a root cause of the failures.",
+  "next": "If the session dies:\n1. Resume round 2 with Workflow({scriptPath: mockmob-next/tmp/workflows/app-phase-2-round2.js, resumeFromRunId: 'wf_113e84d6-978', args: the same leftovers}).\n2. Check wt-repair (git -C wt-repair log): its fixes may be partly committed. Finish them, run npm run test:recovery, and commit on fix/repair-reliability.\n3. After round 2: profile demo build (--profile --target-platform android-x64 -t test/device_demo/demo_main.dart), record, send.\n4. Merge ui/phase2 into feat/app-and-web, run the full suite, then build the release APK in mockmob-next.\n5. Repair v2 (product plan section 5) after the owner reviews it; the build must be the same on web and app.",
+  "blockers": [
+    "Owner: run the SQL Part A and send the results; check OpenAI billing for the production key; run Part B to release stuck credits",
+    "Owner: publish wave 2 and push deploy/nta-r5",
+    "Vercel Hobby limits (Fluid compute exhausted) may pause functions: upgrade to Pro"
+  ],
+  "evidence": [
+    "wt-phase2 4ea55653 / befec774",
+    "mockmob-next 2ad9f5c2",
+    "PRODUCTION-repair-check-2026-10-14.sql",
+    "wt-repair fix/repair-reliability",
+    "workflows wf_113e84d6-978, wf_33ffbbf9-8ed"
+  ],
+  "touched_files": [],
+  "verification": "Key checks used only free endpoints. Part A of the SQL was confirmed to contain no write statements.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

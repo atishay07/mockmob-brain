@@ -1,0 +1,15 @@
+{
+  "id": "20261022T120550.567977Z-ba624ab1",
+  "observed_at": "2026-10-22T12:05:50.567977+00:00",
+  "agent": "claude-opus-5.5 session 7a597d08 (promo film orchestrator)",
+  "task": "MockMob launch film v8 (owner 4:10 pm: one final build, $15k bar, all feedback) - stopped at 90 % usage, 5:35 pm",
+  "status": "active",
+  "done": "v7 sent 10:52 am; v7.1 items done (v6 end card + 3D->2D hand-off, opening sound, 6 skips, logo v4, whip seam, props, everything beat r2 with CUET as letters); TD r8c model approved+checked; v8 audit+planner; v8 lanes done: sound, problem, everything, 2nd-pass sound, 2nd-pass problem; host end/r8c, open/r8c, logo/r8c published.",
+  "next": "Follow docs/HANDOFF-2026-10-22-1735.md and paste docs/NEXT-SESSION-PROMPT-2026-10-22-1735.md: finish half-done v8 lanes, re-render feat-a/feat-b/everything hosts on r8c + QA, second-pass truth items, judge, final render teaser-v8, master, send in the owner's short format.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [],
+  "verification": "tsc clean at 5:35 pm; locks cleared; my Blender killed; 52 GB free; no v8 render exists yet (last full: out/v8cand/cand.mp4).",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

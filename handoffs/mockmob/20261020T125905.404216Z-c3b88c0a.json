@@ -1,0 +1,24 @@
+{
+  "id": "20261020T125905.404216Z-c3b88c0a",
+  "observed_at": "2026-10-20T12:59:05.404216+00:00",
+  "agent": "claude-opus-5.5 session b7e1b5da (CEO/CTO)",
+  "task": "20 Oct PM: version 15 (all modes, fixes, Mob V4) to Play review tonight; Supabase egress parked",
+  "status": "paused",
+  "done": "Supabase: cycle 21 Sep-21 Oct confirmed, staging rig killed, staging transfer blocked until grace ends 22 Oct, D177 plan. Live hotfix 85c715756 (pricing row no first-free). Server: fulltogether price 185eaaf2b, referral any practice dabbf31d6 (migration not applied), mob hours 25940b5f6. App: ui/1020-v15 18aa9341c base, ui/1020-mob-formats d97a2e167 done, Mob V4 den 70f9a64b0 and sheets 4e61e9209 reviewed+fixed; results/calm/invite/egress at STOP POINTs.",
+  "next": "After account switch: finish v4-results (8ac38ab9f), v15-calm (2b78a0576), v15-invite (d51a71625); integrate all into ui/1020-v15 + explainer slide 3; full tests; demo emulator walk Night+Day; signed 1.0.17+15 to Desktop\\MockMob-build-15; then web release with 3 migrations (rename mob_hours migration to 20261020151000). Exact list: docs/brain/NOW.md \"PAUSE 20 Oct 6:28 pm\".",
+  "blockers": [
+    "Account 5-hour usage at 91% (resets 7:50 pm IST): owner switching accounts",
+    "Supabase staging transfer blocked until 22 Oct grace end"
+  ],
+  "evidence": [
+    "mockmob-next 652b9049b NOW pause section",
+    "OWNER-FEEDBACK-2026-10-19.md D177-D184",
+    "docs/design-decisions/pass-1020/MOB-V4-BUILD.md",
+    "tmp/review-1020/V4-RESULTS-REVIEW.json",
+    "tmp/v4-coord.md"
+  ],
+  "touched_files": [],
+  "verification": "fulltogether: test:mob 308, billing 448, build ok. referral-any: billing 440, auth 125, app 962, build ok. mob-formats: v3 suites pass, 140 old golden drift outside Mob. Pricing hotfix verified live 5:17 pm.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

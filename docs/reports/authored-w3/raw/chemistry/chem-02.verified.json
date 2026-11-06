@@ -1,0 +1,831 @@
+{
+  "batch": "chem-02",
+  "subject": "chemistry",
+  "questions": [
+    {
+      "id": "e993c092-300c-4155-8a22-2b5228c43b87",
+      "subject": "chemistry",
+      "unit": "Biomolecules",
+      "chapter": "Biomolecules",
+      "type": "single_mcq",
+      "stem": "Which of the following monosaccharides is a ketose?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fructose"
+        },
+        {
+          "key": "B",
+          "text": "Glucose"
+        },
+        {
+          "key": "C",
+          "text": "Galactose"
+        },
+        {
+          "key": "D",
+          "text": "Mannose"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Fructose has a ketone group (C=O) at C-2, so it is a ketohexose. Glucose, galactose and mannose each have an aldehyde group at C-1 and are aldohexoses.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Carbohydrates",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "310ed34a-d49c-40d1-8e25-31332657a600",
+      "subject": "chemistry",
+      "unit": "Biomolecules",
+      "chapter": "Biomolecules",
+      "type": "single_mcq",
+      "stem": "On hydrolysis, sucrose gives which pair of monosaccharides?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Two glucose molecules"
+        },
+        {
+          "key": "B",
+          "text": "One glucose and one fructose"
+        },
+        {
+          "key": "C",
+          "text": "One glucose and one galactose"
+        },
+        {
+          "key": "D",
+          "text": "Two fructose molecules"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Sucrose is a disaccharide of alpha-D-glucose and beta-D-fructose joined by a glycosidic bond. Hydrolysis breaks this bond and releases one glucose and one fructose, which is why the mixture is called invert sugar.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Carbohydrates",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "7c42a42d-94d1-4237-b7bb-6ee28fc3beb0",
+      "subject": "chemistry",
+      "unit": "Biomolecules",
+      "chapter": "Biomolecules",
+      "type": "single_mcq",
+      "stem": "Sucrose is a non-reducing sugar. Which feature of its structure explains this?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It has a free aldehyde group at C-1 of its glucose unit"
+        },
+        {
+          "key": "B",
+          "text": "It exists only in the open-chain ketose form"
+        },
+        {
+          "key": "C",
+          "text": "The glycosidic bond joins the anomeric carbons of glucose and fructose, so no free aldehyde or ketone group can form"
+        },
+        {
+          "key": "D",
+          "text": "It contains no hydroxyl groups at all"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "In sucrose, C-1 of alpha-glucose is joined to C-2 of beta-fructose, so neither anomeric carbon is free to open into a carbonyl group. Reducing sugars need a free aldehyde or ketone, or a ring that can open to one, to reduce Fehling's or Tollens' reagent.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Carbohydrates",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "60786e7a-49b8-49ee-91fc-afd1448ed480",
+      "subject": "chemistry",
+      "unit": "Biomolecules",
+      "chapter": "Biomolecules",
+      "type": "single_mcq",
+      "stem": "How does amylopectin differ structurally from amylose?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is made of beta-D-glucose units joined by beta-1,4 linkages"
+        },
+        {
+          "key": "B",
+          "text": "It is made of fructose units joined by alpha-1,2 linkages"
+        },
+        {
+          "key": "C",
+          "text": "It is an unbranched chain of alpha-1,4 linkages"
+        },
+        {
+          "key": "D",
+          "text": "It has alpha-1,6 glycosidic branch points in addition to alpha-1,4 linkages"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "Both are polymers of alpha-D-glucose. Amylose is essentially a linear chain of alpha-1,4 linkages, while amylopectin is branched at alpha-1,6 linkages.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Carbohydrates",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "6cc86979-a621-452b-8fee-72c94cb600a8",
+      "subject": "chemistry",
+      "unit": "Biomolecules",
+      "chapter": "Biomolecules",
+      "type": "single_mcq",
+      "stem": "Cellulose is a polymer of which monosaccharide, and what linkage joins its units?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Beta-D-glucose units joined by beta-1,4 glycosidic linkages"
+        },
+        {
+          "key": "B",
+          "text": "Alpha-D-glucose units joined by alpha-1,4 glycosidic linkages"
+        },
+        {
+          "key": "C",
+          "text": "Beta-D-fructose units joined by beta-1,2 glycosidic linkages"
+        },
+        {
+          "key": "D",
+          "text": "Alpha-D-galactose units joined by alpha-1,6 glycosidic linkages"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Cellulose is an unbranched chain of beta-D-glucose units linked by beta-1,4 bonds. The beta linkage keeps the chains straight so they pack into strong fibres, and humans cannot digest it because they lack an enzyme that hydrolyses beta-glycosidic bonds.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Carbohydrates",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "4ac72883-303e-4876-81ab-9e68dadf5eee",
+      "subject": "chemistry",
+      "unit": "Biomolecules",
+      "chapter": "Biomolecules",
+      "type": "single_mcq",
+      "stem": "Glycogen is the storage polysaccharide of animals. It is structurally most similar to which polysaccharide?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cellulose"
+        },
+        {
+          "key": "B",
+          "text": "Amylopectin"
+        },
+        {
+          "key": "C",
+          "text": "Amylose"
+        },
+        {
+          "key": "D",
+          "text": "Inulin"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Glycogen is a highly branched polymer of alpha-D-glucose, like amylopectin, but it branches more often, roughly every 8 to 12 residues. Cellulose is linear and beta-linked, and amylose is essentially unbranched.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Carbohydrates",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "63dbe2f6-beff-4336-a8e9-435a3e28fe04",
+      "subject": "chemistry",
+      "unit": "Biomolecules",
+      "chapter": "Biomolecules",
+      "type": "single_mcq",
+      "stem": "In aqueous solution at its isoelectric point, glycine exists mainly as which species?",
+      "options": [
+        {
+          "key": "A",
+          "text": "H2N-CH2-COOH"
+        },
+        {
+          "key": "B",
+          "text": "H2N-CH2-COO-"
+        },
+        {
+          "key": "C",
+          "text": "H3N+-CH2-COO-"
+        },
+        {
+          "key": "D",
+          "text": "H3N+-CH2-COOH"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "An amino acid exists as a zwitterion, carrying a protonated amino group and a deprotonated carboxylate group. At the isoelectric point the net charge is zero, and the dominant form of glycine is the zwitterion H3N+-CH2-COO-.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Proteins",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "d8db492b-6214-4323-88f7-e2a41b266896",
+      "subject": "chemistry",
+      "unit": "Biomolecules",
+      "chapter": "Biomolecules",
+      "type": "single_mcq",
+      "stem": "In the alpha-helix, the secondary structure of a protein is stabilised mainly by which interaction?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Disulfide bonds between cysteine residues"
+        },
+        {
+          "key": "B",
+          "text": "Ionic bonds between arginine and aspartate side chains"
+        },
+        {
+          "key": "C",
+          "text": "Van der Waals forces between adjacent helices"
+        },
+        {
+          "key": "D",
+          "text": "Hydrogen bonds between the C=O of one residue and the N-H of the residue four positions along the chain"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "In an alpha-helix, each backbone C=O group hydrogen-bonds with the N-H group of the amino acid four residues ahead, which holds the coil together. Disulfide bonds and salt bridges between side chains stabilise tertiary structure, not secondary structure.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Proteins",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "fdcc5566-3c7d-47ca-94e3-9e157d3a3a25",
+      "subject": "chemistry",
+      "unit": "Biomolecules",
+      "chapter": "Biomolecules",
+      "type": "single_mcq",
+      "stem": "When a protein is denatured by heat or a change in pH, which structural levels are generally lost?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Secondary and tertiary structures"
+        },
+        {
+          "key": "B",
+          "text": "Primary structure"
+        },
+        {
+          "key": "C",
+          "text": "Peptide bonds"
+        },
+        {
+          "key": "D",
+          "text": "The N-terminal amino acid"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Denaturation disrupts the hydrogen bonds, salt bridges and disulfide bonds that maintain secondary and tertiary structure, so the chain unfolds. The sequence of amino acids (primary structure) and the peptide bonds linking them stay intact.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Proteins",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "2de1f429-c8fc-4cd4-9cef-cca018462809",
+      "subject": "chemistry",
+      "unit": "Biomolecules",
+      "chapter": "Biomolecules",
+      "type": "single_mcq",
+      "stem": "Which statement about enzymes is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Enzymes are consumed in the reaction they catalyse"
+        },
+        {
+          "key": "B",
+          "text": "Enzymes are highly specific for their substrates"
+        },
+        {
+          "key": "C",
+          "text": "Enzymes change the equilibrium constant of the reaction"
+        },
+        {
+          "key": "D",
+          "text": "Enzymes are most active at very high temperatures"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Enzymes are biological catalysts with high substrate specificity. They lower the activation energy, are not consumed, and do not change the equilibrium constant. Their activity falls at very high temperatures because the protein denatures.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Enzymes",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "5202c447-997b-416b-9bee-314fa03afe31",
+      "subject": "chemistry",
+      "unit": "Biomolecules",
+      "chapter": "Biomolecules",
+      "type": "match_the_following",
+      "stem": "Match List-I (vitamin) with List-II (deficiency disease). List-I: (A) Vitamin B1 (B) Vitamin C (C) Vitamin D (D) Vitamin K. List-II: (I) Rickets (II) Scurvy (III) Beriberi (IV) Delayed blood clotting. Choose the correct answer from the options given below.",
+      "options": [
+        {
+          "key": "A",
+          "text": "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+        },
+        {
+          "key": "B",
+          "text": "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)"
+        },
+        {
+          "key": "C",
+          "text": "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)"
+        },
+        {
+          "key": "D",
+          "text": "(A)-(IV), (B)-(I), (C)-(II), (D)-(III)"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Vitamin B1 deficiency causes beriberi (III). Vitamin C deficiency causes scurvy (II). Vitamin D deficiency causes rickets in children (I). Vitamin K deficiency delays blood clotting (IV), so the correct pairing is (A)-(III), (B)-(II), (C)-(I), (D)-(IV).",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Vitamins",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "487ce9df-afd7-4553-a1f2-bd61a468fe32",
+      "subject": "chemistry",
+      "unit": "Biomolecules",
+      "chapter": "Biomolecules",
+      "type": "single_mcq",
+      "stem": "Which vitamin is synthesised in the human skin when it is exposed to sunlight?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vitamin A"
+        },
+        {
+          "key": "B",
+          "text": "Vitamin C"
+        },
+        {
+          "key": "C",
+          "text": "Vitamin E"
+        },
+        {
+          "key": "D",
+          "text": "Vitamin D"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "A precursor (7-dehydrocholesterol) in the skin is converted to vitamin D3 by ultraviolet light from sunlight. Vitamin C is not synthesised by humans and must come from food such as citrus fruit.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Vitamins",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "c7164d89-271f-4f8d-8340-124aa636b7a2",
+      "subject": "chemistry",
+      "unit": "Biomolecules",
+      "chapter": "Biomolecules",
+      "type": "single_mcq",
+      "stem": "Which pair correctly gives the sugar and a nitrogenous base found in RNA?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ribose and uracil"
+        },
+        {
+          "key": "B",
+          "text": "Deoxyribose and thymine"
+        },
+        {
+          "key": "C",
+          "text": "Ribose and thymine"
+        },
+        {
+          "key": "D",
+          "text": "Deoxyribose and uracil"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "RNA nucleotides contain ribose and the bases adenine, guanine, cytosine and uracil. DNA contains deoxyribose and thymine in place of uracil, so the thymine options describe DNA, not RNA.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Nucleic Acids",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "4ea4ceb5-ceb7-42eb-98f1-e189af38ba84",
+      "subject": "chemistry",
+      "unit": "Biomolecules",
+      "chapter": "Biomolecules",
+      "type": "single_mcq",
+      "stem": "A DNA double helix has one strand written 5'-ATGC-3'. What is the sequence of the complementary strand, written 5' to 3'?",
+      "options": [
+        {
+          "key": "A",
+          "text": "5'-TACG-3'"
+        },
+        {
+          "key": "B",
+          "text": "5'-GCAT-3'"
+        },
+        {
+          "key": "C",
+          "text": "5'-CGTA-3'"
+        },
+        {
+          "key": "D",
+          "text": "5'-ATGC-3'"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "The strands run antiparallel, and A pairs with T while G pairs with C. The partner strand is 3'-TACG-5', which read 5' to 3' gives 5'-GCAT-3'. Writing TACG without reversing its direction is the common error.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Nucleic Acids",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "839dd482-8e96-4b1e-8db6-c26e551ba4bb",
+      "subject": "chemistry",
+      "unit": "Aldehydes, Ketones and Carboxylic Acids",
+      "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+      "type": "single_mcq",
+      "stem": "Which reagents are used in the Hell-Volhard-Zelinsky reaction to convert a carboxylic acid into an alpha-bromo acid?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Br2 with FeBr3 catalyst"
+        },
+        {
+          "key": "B",
+          "text": "Br2 with aqueous NaOH"
+        },
+        {
+          "key": "C",
+          "text": "Br2 with a little red phosphorus"
+        },
+        {
+          "key": "D",
+          "text": "NaBr with concentrated H2SO4"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Red phosphorus converts a small amount of the acid into an acyl bromide, which enolises readily, and bromine then substitutes at the alpha-carbon. Br2 with FeBr3 is used for ring bromination of arenes, not for this reaction.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 12 Aldehydes, Ketones and Carboxylic Acids: Carboxylic acids, alpha-halogenation (HVZ)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "82d50c33-6e77-4fdc-9955-8d6d3d80977a",
+      "subject": "chemistry",
+      "unit": "Aldehydes, Ketones and Carboxylic Acids",
+      "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+      "type": "single_mcq",
+      "stem": "Ethanal is treated with dilute aqueous NaOH at room temperature. Which product is formed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ethanol and sodium acetate"
+        },
+        {
+          "key": "B",
+          "text": "Butan-2-one"
+        },
+        {
+          "key": "C",
+          "text": "Propan-2-ol"
+        },
+        {
+          "key": "D",
+          "text": "3-Hydroxybutanal"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "Ethanal has alpha-hydrogens. Hydroxide removes one to form an enolate, which attacks the carbonyl carbon of a second ethanal molecule. The aldol product is 3-hydroxybutanal, which can later dehydrate to but-2-enal on heating.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 12 Aldehydes, Ketones and Carboxylic Acids: Aldol condensation",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "2b8ad4d9-5b84-4089-ba12-bb46cb8fe0d9",
+      "subject": "chemistry",
+      "unit": "Aldehydes, Ketones and Carboxylic Acids",
+      "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+      "type": "single_mcq",
+      "stem": "Which reagents are used for the Wolff-Kishner reduction of a carbonyl compound to a methylene group?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hydrazine followed by heating with KOH in ethylene glycol"
+        },
+        {
+          "key": "B",
+          "text": "Zn-Hg with concentrated HCl"
+        },
+        {
+          "key": "C",
+          "text": "LiAlH4 in dry ether"
+        },
+        {
+          "key": "D",
+          "text": "H2 with Pd/BaSO4"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Hydrazine forms a hydrazone with the carbonyl group. Heating this with KOH in a high-boiling solvent such as ethylene glycol releases nitrogen and gives the CH2 group. Zn-Hg with HCl is the Clemmensen reduction, which uses strong acid instead of base.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 12 Aldehydes, Ketones and Carboxylic Acids: Reduction reactions",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "9bc6d44a-b09b-4b8c-8e22-919b7fe6928b",
+      "subject": "chemistry",
+      "unit": "Aldehydes, Ketones and Carboxylic Acids",
+      "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+      "type": "single_mcq",
+      "stem": "Which carbonyl compound is most reactive towards nucleophilic addition, for example with HCN?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Acetaldehyde"
+        },
+        {
+          "key": "B",
+          "text": "Formaldehyde"
+        },
+        {
+          "key": "C",
+          "text": "Acetone"
+        },
+        {
+          "key": "D",
+          "text": "Benzophenone"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Electron-donating alkyl or aryl groups reduce the electrophilicity of the carbonyl carbon, and bulky groups add steric hindrance. Formaldehyde has no alkyl group and is the most reactive; acetaldehyde is next, then acetone, and benzophenone is the least reactive.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 12 Aldehydes, Ketones and Carboxylic Acids: Nucleophilic addition reactions",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "617d4704-0bf0-41bb-b895-e2a6504032ab",
+      "subject": "chemistry",
+      "unit": "Aldehydes, Ketones and Carboxylic Acids",
+      "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+      "type": "single_mcq",
+      "stem": "Ethanal is warmed with excess iodine in aqueous NaOH. Which yellow precipitate is formed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chloroform (CHCl3)"
+        },
+        {
+          "key": "B",
+          "text": "Diiodomethane (CH2I2)"
+        },
+        {
+          "key": "C",
+          "text": "Iodoform (CHI3)"
+        },
+        {
+          "key": "D",
+          "text": "Carbon tetrachloride (CCl4)"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Ethanal contains a CH3-CO- unit. The iodoform reaction cleaves this unit in excess iodine and alkali, producing the yellow crystalline precipitate CHI3 and a carboxylate salt.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 12 Aldehydes, Ketones and Carboxylic Acids: Haloform (iodoform) reaction",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "d90fb3b0-ebc2-4edf-a790-e8d6df73df18",
+      "subject": "chemistry",
+      "unit": "Haloalkanes and Haloarenes",
+      "chapter": "Haloalkanes & Haloarenes",
+      "type": "assertion_reason",
+      "stem": "Assertion: Chlorobenzene is far less reactive than ethyl chloride towards nucleophilic substitution. Reason: In chlorobenzene the C-Cl bond has partial double-bond character due to resonance, making it shorter and stronger. Choose the correct option.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Both Assertion and Reason are true but Reason does not explain Assertion"
+        },
+        {
+          "key": "B",
+          "text": "Assertion is true but Reason is false"
+        },
+        {
+          "key": "C",
+          "text": "Assertion is false but Reason is true"
+        },
+        {
+          "key": "D",
+          "text": "Both Assertion and Reason are true and Reason correctly explains Assertion"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "A lone pair on chlorine overlaps with the pi system of the ring, giving the C-Cl bond partial double-bond character. The bond is shorter and stronger and resists cleavage, which explains the lower reactivity. Aryl halides also resist SN1 because the phenyl cation is unstable.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 10 Haloalkanes and Haloarenes: Nature of C-X bond",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "cf7799f2-09c0-4d5e-9f13-b4cd060ef821",
+      "subject": "chemistry",
+      "unit": "Haloalkanes and Haloarenes",
+      "chapter": "Haloalkanes & Haloarenes",
+      "type": "single_mcq",
+      "stem": "Which order of reactivity of alkyl halides in an SN2 reaction is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "RI > RBr > RCl > RF"
+        },
+        {
+          "key": "B",
+          "text": "RF > RCl > RBr > RI"
+        },
+        {
+          "key": "C",
+          "text": "RCl > RBr > RI > RF"
+        },
+        {
+          "key": "D",
+          "text": "RBr > RI > RCl > RF"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "In SN2 reactions the leaving group must depart easily. Iodide is the largest and most polarisable halide ion and the weakest base, so it is the best leaving group. Fluoride is the poorest, giving the order RI > RBr > RCl > RF.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 10 Haloalkanes and Haloarenes: Nucleophilic substitution (SN1 and SN2)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "53f31015-3913-4213-a0b1-fad4126639d6",
+      "subject": "chemistry",
+      "unit": "Haloalkanes and Haloarenes",
+      "chapter": "Haloalkanes & Haloarenes",
+      "type": "single_mcq",
+      "stem": "Methylmagnesium iodide, prepared from CH3I and magnesium in dry ether, is treated with ethanal. The product after dilute acid hydrolysis is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ethanol"
+        },
+        {
+          "key": "B",
+          "text": "Propan-2-ol"
+        },
+        {
+          "key": "C",
+          "text": "Propan-1-ol"
+        },
+        {
+          "key": "D",
+          "text": "Butan-2-ol"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "CH3MgI adds to the carbonyl carbon of ethanal (CH3CHO), giving a magnesium alkoxide. Acid hydrolysis gives CH3CH(OH)CH3, which is propan-2-ol, a secondary alcohol.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 10 Haloalkanes and Haloarenes: Chemical reactions (reaction with magnesium)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "59a100d2-d92b-48ae-8b1c-773b76b35021",
+      "subject": "chemistry",
+      "unit": "Amines",
+      "chapter": "Amines",
+      "type": "single_mcq",
+      "stem": "Benzenediazonium chloride is warmed with cuprous chloride dissolved in hydrochloric acid. The major organic product is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Benzene"
+        },
+        {
+          "key": "B",
+          "text": "Phenol"
+        },
+        {
+          "key": "C",
+          "text": "Chlorobenzene"
+        },
+        {
+          "key": "D",
+          "text": "Benzonitrile"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "This is the Sandmeyer reaction. Copper(I) chloride catalyses replacement of the diazonium group by chlorine, with N2 gas released, giving chlorobenzene. Benzonitrile needs CuCN, and benzene is obtained with hypophosphorous acid.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 13 Amines: Chemical reactions of diazonium salts (Sandmeyer reaction)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "b0613d9b-0bdd-4048-b9ed-d22916eadcf8",
+      "subject": "chemistry",
+      "unit": "Amines",
+      "chapter": "Amines",
+      "type": "single_mcq",
+      "stem": "Benzenediazonium chloride is added to phenol in cold alkaline solution (pH about 9 to 10). The main product is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Aniline"
+        },
+        {
+          "key": "B",
+          "text": "Benzoic acid"
+        },
+        {
+          "key": "C",
+          "text": "Nitrobenzene"
+        },
+        {
+          "key": "D",
+          "text": "p-Hydroxyazobenzene"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "This is an azo coupling reaction. The diazonium ion is a weak electrophile and attacks the activated para position of the phenoxide ion, forming p-hydroxyazobenzene, which contains the -N=N- azo linkage. The alkaline medium is needed to generate the phenoxide ion.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 13 Amines: Coupling reactions of diazonium salts",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "6c9e8e40-c2e3-4240-946d-3e669d70a831",
+      "subject": "chemistry",
+      "unit": "Amines",
+      "chapter": "Amines",
+      "type": "single_mcq",
+      "stem": "Which amine gives a yellow, oily N-nitrosoamine when treated with sodium nitrite and hydrochloric acid at low temperature?",
+      "options": [
+        {
+          "key": "A",
+          "text": "(CH3)2NH"
+        },
+        {
+          "key": "B",
+          "text": "CH3NH2"
+        },
+        {
+          "key": "C",
+          "text": "(CH3)3N"
+        },
+        {
+          "key": "D",
+          "text": "C6H5NH2"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Secondary amines react with nitrous acid to give N-nitrosamines, which are yellow oily liquids insoluble in water. Methylamine gives methanol and N2, tertiary amines do not form a nitrosamine, and aniline forms a diazonium salt.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Chemistry Part II, Ch 13 Amines: Reaction with nitrous acid",
+      "source": "claude-authored-2026-10-17-w3"
+    }
+  ]
+}

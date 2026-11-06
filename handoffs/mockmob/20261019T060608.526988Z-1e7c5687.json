@@ -1,0 +1,17 @@
+{
+  "id": "20261019T060608.526988Z-1e7c5687",
+  "observed_at": "2026-10-19T06:06:08.526988+00:00",
+  "agent": "claude-auto",
+  "task": "Auto-capture: claude session a532e31c",
+  "status": "paused",
+  "done": "Auto-captured at Stop. Turns: 3. Last message: The rebuild script is queued behind the release 11 build. Four things are now in motion: the app walk (preparing), the app verifier, the web Ask Mobi build, and the final release 11 checks.\n\nAUTOPILOT-STATUS: CONTINUE - app walk, app verifier and web Ask Mobi build running; 3104 staging rebuild queued behind the release 11 build",
+  "next": "Unverified auto-capture. Read the session transcript and live repo state before continuing.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\a532e31c-bb2d-4cb6-87d8-39878e9adf01.jsonl"
+  ],
+  "touched_files": [],
+  "verification": "auto-captured by hook; not agent-verified",
+  "cost_and_pending_requests": "unknown; hook does not see provider receipts",
+  "confidence": "agent-reported; verify evidence before acting"
+}

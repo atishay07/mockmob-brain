@@ -1,0 +1,69 @@
+{
+ "kind": "authored_w3_engine_check",
+ "label": "final",
+ "source": "claude-authored-2026-10-17-w3",
+ "at": "2026-10-16T22:53:57.335Z",
+ "engine": {
+  "root": "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-wave3",
+  "file": "data/nta_engine.js",
+  "version": "nta-engine-2026.10.14-r5.2",
+  "sha256": "17f81f2365ff08cb82cad88dc94976d7e47c8fc65bcd57a633e9d315bad7b105",
+  "mtime": "2026-10-16T19:51:01.971Z",
+  "minScore": 8,
+  "minFit": 8
+ },
+ "method": "ntaEligibility (quality gate with the agent scores, content gates, CUET-fit gate) on every accepted wave-3 question with the committed agent and fit tables of the named checkout plus the wave-3 entries merged in memory (policy admit). Nothing in data/ is written. Rows are mapped like the wave-1 publisher (toQuestionRow); case-set items typed single_mcq are mapped as passage children.",
+ "candidatesSha256": "8fbbfda3a5ce0ce941652097273277f03cd2ecd4192d58664cc2c6a38fc35a92",
+ "planned": 153,
+ "engineEligible": 153,
+ "engineIneligible": 0,
+ "engineIneligibleReasons": {},
+ "ineligibleByGate": {},
+ "bySubject": {
+  "chemistry": {
+   "planned": 48,
+   "eligible": 48,
+   "ineligible": 0,
+   "reasons": {}
+  },
+  "general_test": {
+   "planned": 56,
+   "eligible": 56,
+   "ineligible": 0,
+   "reasons": {}
+  },
+  "physics": {
+   "planned": 49,
+   "eligible": 49,
+   "ineligible": 0,
+   "reasons": {}
+  }
+ },
+ "passageSets": [],
+ "placementProblems": [],
+ "informational": {
+  "authoredTypeVersusEngineType": [
+   {
+    "id": "53f31015-3913-4213-a0b1-fad4126639d6",
+    "subject": "chemistry",
+    "note": "fit judges majority chapter differs from the authored chapter",
+    "authored_chapter": "Alcohols, Phenols & Ethers",
+    "fit_chapter": "Haloalkanes & Haloarenes"
+   },
+   {
+    "id": "72c5b422-6100-4243-87c5-e6da84a6f8c7",
+    "subject": "general_test",
+    "authored_type": "single_mcq",
+    "engine_type": "statement_based"
+   },
+   {
+    "id": "80ca588c-3c3a-415f-ab76-b6b5a5cd4ec8",
+    "subject": "physics",
+    "note": "fit judges majority chapter differs from the authored chapter",
+    "authored_chapter": "Magnetism & Matter",
+    "fit_chapter": "Moving Charges & Magnetism"
+   }
+  ]
+ },
+ "refused": []
+}

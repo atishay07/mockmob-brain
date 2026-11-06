@@ -1,0 +1,56 @@
+{
+ "kind": "authored_scores_check",
+ "version": "authored-scores-1",
+ "source": "claude-authored-2026-10-17-w3",
+ "repairedTextPolicy": "admit",
+ "at": "2026-10-16T22:54:09.820Z",
+ "planned": 153,
+ "agentEntries": 153,
+ "hashChangedByRepair": 9,
+ "heldForFreshPass": 0,
+ "engineEligible": 153,
+ "engineIneligible": 0,
+ "engineIneligibleReasons": {},
+ "fitGate": {
+  "mirror": "scripts/lib/authored-scores.mjs fitGateReasons (mirror of data/nta_fit_scores.js ntaFitVerdict)",
+  "minFit": 8,
+  "pass": 153,
+  "reasons": {},
+  "baseTablesMissing": []
+ },
+ "qualityAndFitBoth": 153,
+ "passageSets": {
+  "servable": 0,
+  "of": 0,
+  "blueprint": {
+   "passageWords": {
+    "min": 200,
+    "target": 280,
+    "max": 300
+   },
+   "minChildren": 4
+  },
+  "sets": []
+ },
+ "bySubject": {
+  "chemistry": {
+   "planned": 48,
+   "eligible": 48,
+   "fitPass": 48,
+   "both": 48
+  },
+  "general_test": {
+   "planned": 56,
+   "eligible": 56,
+   "fitPass": 56,
+   "both": 56
+  },
+  "physics": {
+   "planned": 49,
+   "eligible": 49,
+   "fitPass": 49,
+   "both": 49
+  }
+ },
+ "ineligible": []
+}

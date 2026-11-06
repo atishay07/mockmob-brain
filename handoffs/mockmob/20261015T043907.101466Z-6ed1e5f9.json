@@ -1,0 +1,26 @@
+{
+  "id": "20261015T043907.101466Z-6ed1e5f9",
+  "observed_at": "2026-10-15T04:39:07.101466+00:00",
+  "agent": "claude-sonnet-5.5 subagent (P3 app Repair v3)",
+  "task": "P3 app Repair v3 (A = wt-phase2/flutter_app, branch ui/phase2): v3 parsing, WorkedExplanation v3 layout, From your record, fine print, loading lines, tests and goldens",
+  "status": "complete",
+  "done": "Built P3 and left it uncommitted for the integrator. repair.dart: RepairExplanation gains version, whyRight, others (RepairOtherOption, invalid entries ignored, served order), memoryHook, isV3 (needs why_right and rule); RepairResponse.pattern (RepairPattern). outcome_views.dart: WorkedExplanation is now stateful and follows A.1 blocks 2 to 8 and 9 for v3 (trap heading plus AnswerKeyChip, why looked right, where it breaks, why key is right with 2 px rail contrast, closed other-options disclosure 180 ms, rule card with settle and memory hook, Explain it another way reveal 200 ms with focus to heading and no call, From your record); v1 and v2 layouts kept, v2 gains the chip; arrival via MmStagger once per repair per app run. mistake_view.dart: record lines from detail.mistakeInsights[qid].lines then response.pattern.line, fine print (1 credit used. N left. / Saved repair. No credit used. / No credit used. / nothing when charge unknown), loading line Writing the repair for Q{n}. repair_mobi.dart: slow line Still writing. You are charged only if it arrives. at 8 s, Taking longer than usual. Still trying. at 45 s. copy.dart: new strings, removed working and stillWorkingSlow.",
+  "next": "Integrator: commit P3 with P4, run the D.2 app checks (flutter analyze, flutter test). Web P1 must keep the same strings (chip, loading lines, fine print). Optional later: app Q-number in the Next mistake key (web shows Next mistake: Q4).",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "flutter_app/lib/core/models/repair.dart",
+    "flutter_app/lib/features/review/widgets/outcome_views.dart",
+    "flutter_app/lib/features/review/widgets/mistake_view.dart",
+    "flutter_app/lib/features/review/widgets/repair_mobi.dart",
+    "flutter_app/lib/features/review/copy.dart",
+    "flutter_app/test/unit/review/repair_v3_test.dart (new)",
+    "flutter_app/test/unit/review/support/repair_v3_fixtures.dart (new)",
+    "flutter_app/test/unit/review/review_widgets_test.dart",
+    "flutter_app/test/golden/review/repair_golden_test.dart",
+    "goldens: repair_explained_full, repair_loading, repair_retry_short (day and night) regenerated; repair_v3_full and repair_v3_open (day and night) new"
+  ],
+  "verification": "flutter analyze: No issues found (whole project, 17.6 s). flutter test test/unit/review test/golden/review: 281 passed, 0 failed. Also test/unit/core_data and test/unit/domain: 722 passed. New repair_v3_test.dart: 34 tests. Goldens opened and read. No live model calls, no network, no commits, no deploy.",
+  "cost_and_pending_requests": "none",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "20261016T060254.067769Z-24cbb245",
+  "observed_at": "2026-10-16T06:02:54.067769+00:00",
+  "agent": "claude-opus-5.5 (session 604ced81, main)",
+  "task": "16 Oct 11:40 IST: app owner-ledger program; Today/Review/colleges root cause fixed; slice 5 live in DB",
+  "status": "active",
+  "done": "Owner tested APK v10 on his phone: Today \"Could not reach MockMob\" (all accounts), Review \"We could not load your mistakes\", My colleges search empty, plus many long-standing app UX items. Root cause found with a diagnostic build on his phone (adb logcat): dio returns decoded JSON even with ResponseType.plain, so ApiResponse.text was '' for plainBody calls (/api/attempts, /api/recovery, DU catalogue). Fixed centrally in core/api/api_client.dart with a reproducing test (fd3fca29 on feat/app-and-web; cherry-picked as 3887e786 on ui/phase2). v10.1 APK built (mockmob-next/tmp/apk/mockmob-v10.1-fd3fca29.apk) and sent; not device-verified after the fix (phone unplugged). Owner feedback ledger written: mockmob-next/docs/brain/APP-OWNER-LEDGER-2026-10-16.md (39 items; 19 repeated; 10 not built). Design briefs: mockmob-next/docs/design-decisions/app-ia-1016.md (6-slot bar Today, Practice, Start, Review, Colleges, You; Colleges tab; You = study; avatar sheet = account; ownership map section 10), app-today, app-practice-review, app-you, app-tools -1016.md. Slice 5: v1 refresh timed out on production; v2 (3ec4c4b9 on web/slice5-1016, merged into deploy/batch-1016c as e1c6ec1a) applied to production; refresh 13 s, 461 questions, 0 timed answers yet. STATUS entries in wt-polish (7a4fe44e, 9b52448d). Memory device-truth-testing.md saved.",
+  "next": "1) App build program wf_14d6c73f-9d4 (task wuxhh8h9h) in wt-owner (ui/owner-1016 from fd0da7d3): shell, then 7 areas, integrate, emulator walk of L01-L39 (RAM-gated at 4 GB, AVD at most 3 GB, local staging site from wt-batch, test account app-e2e-student via staging-otp), fix, re-walk, release v12 APK. Send v12 to the owner with the per-item pass list and screenshots. 2) Website: batch 2 gate wf_9bf4ba21-fa3 (push when the verifier passes); final-push wf_39d20212-193 (web gate for batch 1016c, then APK v11 by A4 on ui/phase2, an intermediate build); landing-finish wf_32b7c2bf-8c1 (needs the owner's look before deploy). 3) The owner sign-off questions in app-ia-1016.md section 12.",
+  "blockers": [],
+  "evidence": [
+    "owner phone logcat: GET /api/attempts status=200 type=List<dynamic>; attempts parse failed (0 chars)",
+    "api_plain_body_test fails before and passes after the fix; 1471 unit tests in the affected areas pass",
+    "production refresh_question_option_stats v2: 13 s, 461 questions, 13877 answers"
+  ],
+  "touched_files": [
+    "mockmob-next flutter_app/lib/core/api/api_client.dart",
+    "mockmob-next flutter_app/test/unit/core_data/api_plain_body_test.dart",
+    "production DB: question_option_stats v1 then refresh v2",
+    "wt-polish docs/brain/STATUS.md",
+    "memory/device-truth-testing.md"
+  ],
+  "verification": "The fix is test-verified and the root cause is device-proven. The fixed build has not been verified on a device.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

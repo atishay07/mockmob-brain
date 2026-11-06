@@ -1,0 +1,25 @@
+{
+  "id": "20261009T221609.716181Z-e0b8ac3a",
+  "observed_at": "2026-10-09T22:16:09.716181+00:00",
+  "agent": "/root/difficulty_selection_final",
+  "task": "V716 scorecard policy bounded review",
+  "status": "active",
+  "done": "Added focused offline V716 regression tests and a synthetic body-size diagnostic; identified that rankPracticeRowsV716 still calls undefined rankCandidatesForMock despite importing rankCandidates. Sent root the defect and the absence of selected easy/medium/hard mode matching in current wrapper.",
+  "next": "Root to correct selector call and decide difficulty-mode routing; rerun focused tests, then report final V716 hashes/body bounds and no paid qualification claim.",
+  "blockers": [
+    "Parent-owned practiceSelectionV716 call still references rankCandidatesForMock; reported to root."
+  ],
+  "evidence": [
+    "12/13 focused V716 tests pass; selector integration test fails with ReferenceError rankCandidatesForMock is not defined at practiceSelectionV716.mjs:36.",
+    "Offline synthetic request capture measured 222 V716 stage/retry bodies; maximum 26,692 bytes against 33,024-byte limit; zero provider calls and no academic evidence.",
+    "Prior captured bounds: V714 max 32,554 bytes; V715 max 32,811 bytes."
+  ],
+  "touched_files": [
+    "scripts/pipeline/tests/v716ScorecardPolicy.test.mjs",
+    "scripts/pipeline/tools/captureV716BodySizeDiagnostic.mjs",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v713/qualification-fresh31-regression6/v716-body-size-diagnostic.json"
+  ],
+  "verification": "Ran node --test scripts/pipeline/tests/v716ScorecardPolicy.test.mjs (12 pass, 1 fail, selector reference error). Ran scripts/pipeline/tools/captureV716BodySizeDiagnostic.mjs against registered 37 fixtures (222 requests, max 26,692 bytes, 0 paid calls).",
+  "cost_and_pending_requests": "No new provider calls. Existing R3 spend is outside this bounded review and was not changed.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

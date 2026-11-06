@@ -1,0 +1,30 @@
+{
+  "batch": "computer_science__b3",
+  "subject": "computer_science",
+  "pass": "wave2 expert pass (mirrors wave1 step 5)",
+  "date": "2026-10-14",
+  "reviewer_model": "claude-haiku-5-5",
+  "scope": "accepted=true items in wave2-acceptance-2026-10-14.json; 2 non-accepted items in this batch (810397d1-95c4-4d47-9ad0-a4708be0d1fa, 16954cbe-5f99-4d7b-98b5-6fdda3cf593e) are out of scope",
+  "repaired_file": "tmp/authored-w2/computer_science/computer_science__b3.json",
+  "counts": {"ready": 17, "repaired": 1, "practice": 0, "reject": 0, "total": 18},
+  "verdicts": [
+    {"id": "31478bd9-983a-4174-8188-2b6b23ce57cd", "verdict": "ready", "why": "FIFO is the correct key and is unique; distractors are clearly wrong for a queue; explanation is accurate."},
+    {"id": "61efe78b-86db-4817-b0b2-b518f19ff28e", "verdict": "ready", "why": "Pass trace 6,2,9,4 gives 2,6,4,9 after the first pass, so 9 is last; key C is correct and unique."},
+    {"id": "0231cf16-9245-40aa-a769-1357e8506a7a", "verdict": "ready", "why": "Enqueue-III, Dequeue-II, Front-IV, Rear-I is correct; each other option breaks at least one pair, so A is unique."},
+    {"id": "3860696b-f94c-42b9-a539-1b897716322e", "verdict": "ready", "why": "Fixed-column customer table is the only structured data option; the other three are unstructured."},
+    {"id": "380d26ba-c52d-482f-856d-4e146e76c103", "verdict": "ready", "why": "Trace gives [7, 9, 16]; B and D correspond to a wrong pop and an addition slip, as the explanation says. Basic list-as-queue code tracing is examinable."},
+    {"id": "af2c23fa-f633-4d70-bd17-a16dc06cb331", "verdict": "repaired", "why": "Key (D),(B),(C),(A) is correct and unique, but the explanation gave loose worst-case counts (about 3 and about 6) where the exact counts are 4 and 7. Ordering is unaffected.", "repair": "Explanation changed to the exact worst-case counts: binary search needs at most floor(log2 n)+1 comparisons, i.e. 4 for 8 elements and 7 for 64; linear search needs n, i.e. 8 and 64. Key unchanged."},
+    {"id": "0a894f70-48b8-44fc-a5df-49428a461ef5", "verdict": "ready", "why": "Cardinality is the number of rows and degree the number of columns; the explanation states both correctly."},
+    {"id": "62216744-045d-4e71-af88-8ff5328cedc4", "verdict": "ready", "why": "Trace gives 2 (12 then 5, break). Key D is correct and unique. One fit judge raised syllabus_not_entitled, reading the Python code as Python Revision (excluded in the CS blueprint). Searching is an allowed chapter and loop-with-break tracing is part of the examinable Searching content, so I judge it in scope; the other Python-trace items in this batch were not flagged. Watch this item if syllabus flags are reviewed later."},
+    {"id": "fd6698bb-201b-40f3-b95b-d3bc3f410cea", "verdict": "ready", "why": "Collect, clean and prepare, analyse, then visualise is the standard project sequence; key D is the only correct order."},
+    {"id": "c6cb7256-468a-4069-bd30-510ebe424962", "verdict": "ready", "why": "A column referencing another table's key is a foreign key; repeating values rule out primary and candidate keys."},
+    {"id": "d1d09460-4086-43a1-8c23-1e51d238541e", "verdict": "ready", "why": "Trace: mid 4 (25 < 52), low 5, mid 7 (L[7] = 52). Key A is correct; the other options are wrong midpoints."},
+    {"id": "425aec5f-a272-4c9d-9810-9b592f996a6c", "verdict": "ready", "why": "Linear queue with rear at index 4 rejects the sixth insertion even with two freed cells. Key D is correct. Option A describes a circular queue, a good distractor. Hard label is accurate."},
+    {"id": "06446446-570e-4393-a5a8-00170955ec4a", "verdict": "ready", "why": "Swaps equal inversions: (4,1),(4,3),(4,2),(3,2),(5,2) = 5. Hand trace confirms 5 swaps and 4 passes with no early exit beyond pass 4. Key B is correct; 10 is the comparison count."},
+    {"id": "08cfa673-e2f7-4d8c-a3dd-8da8f58623c3", "verdict": "ready", "why": "One pass over [5,3,8,1] gives [3,5,1,8]; key A is correct. Option B is the trace that stops before the last swap."},
+    {"id": "407375c4-7534-408b-8413-fd80381ccbbf", "verdict": "ready", "why": "Bubble-I, selection-IV, insertion-III, binary-II is correct and unique among the options."},
+    {"id": "b1bb034a-16fe-46be-9640-fc56466901c4", "verdict": "ready", "why": "Statements A, C and D are true; B is false because insertion sort does not need sorted input. Key D is the only matching combination."},
+    {"id": "25b5f483-60e5-4294-b9c3-ebe151a4111c", "verdict": "ready", "why": "Information is processed data with meaning and use; A describes data and D hardware. Key B is correct and unique."},
+    {"id": "a64a4068-f6bc-4ca7-8a44-8b5f724f7058", "verdict": "ready", "why": "Only B and C are true: enqueue adds at the rear, and front and rear indices track the ends. A and D are false (queue is FIFO). Key B is correct and unique."}
+  ]
+}

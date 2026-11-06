@@ -1,0 +1,30 @@
+{
+  "id": "20261013T120002.771278Z-57eae8ee",
+  "observed_at": "2026-10-13T12:00:02.771278+00:00",
+  "agent": "claude-sonnet-5.5 subagent (NTA e2e testing)",
+  "task": "NTA mode end-to-end testing for all 15 subjects (branch fix/nta-mode, commit 4ff05c8, not deployed)",
+  "status": "complete",
+  "done": "Ran every suite; wrote npm run test:nta-e2e (390 checks, real route handlers + engine over read-only prod fixtures, as-is and promoted modes); drove the real runner in the browser at 1366/768/375, both themes, both interfaces, via dev-only /preview/arena/nta + local backend. Fixed 3 runner bugs. No deploy, no DB writes.",
+  "next": "Owner decisions: enable LEARNING_SESSIONS_ENABLED for NTA (clock restarts in ticket mode), persist Mark for review server side, get new match/sequence/statement questions and 200-300 word passages for English, Chemistry, Biology, Geography, Psychology, CS (scoring alone will not unlock them), review 15 seed rows labelled PYQ before the agent pass. Then run the agent pass and re-run test:nta-e2e.",
+  "blockers": [],
+  "evidence": [
+    "tmp/nta-e2e-report.json",
+    "tmp/nta-fixtures/manifest.json"
+  ],
+  "touched_files": [
+    "data/tests/nta_e2e_session.test.mjs",
+    "data/tests/nta_e2e_harness.mjs",
+    "data/tests/nta_e2e_supabase.mjs",
+    "data/tests/nta_e2e_auth.mjs",
+    "data/tests/nta_e2e_server.mjs",
+    "data/tests/nta_e2e_driver.js",
+    "scripts/nta-fixture-export.mjs",
+    "src/app/preview/arena/nta/",
+    "src/app/(app)/test/TestPageClient.jsx",
+    "package.json",
+    "docs/brain/STATUS.md"
+  ],
+  "verification": "nta 93, recovery 39, answer-integrity 11, auth 33, du 19, learning 91, factory 332, nta-e2e 390 all pass; study 21/22 (WordNet licence file missing, pre-existing); eslint clean; next build passes.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

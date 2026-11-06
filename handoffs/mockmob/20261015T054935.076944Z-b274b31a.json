@@ -1,0 +1,24 @@
+{
+  "id": "20261015T054935.076944Z-b274b31a",
+  "observed_at": "2026-10-15T05:49:35.076944+00:00",
+  "agent": "claude-opus-5.5 (session 604ced81)",
+  "task": "15 Oct 11:25 IST: safe stop at 95% usage",
+  "status": "paused",
+  "done": "Repair v3 and the post-mock SWOT were built (web plus app), passed the truth review plus 8 fixes plus an independent verifier, and were pushed to production main 11e30ec3 at about 11:22 IST (the Vercel deploy was not checked). App: feat/app-and-web 34046de9 (Repair v3 and SWOT merged; APK v5 not built). Prod migration auth_unconfirmed_passwords applied. Repair verified live at 08:47. The website restructure plan is at tmp/web-ia/PLAN.md. wt-web-ia web/ia-1015 WIP cdddb6c8: IA0 plus 4 wave-1 packets done; IA5-IA8 and Gate A were cut when the workflow was stopped. Full detail: mockmob-next/docs/brain/HANDOFF-2026-10-15-MIDDAY.md.",
+  "next": "1. Check the Vercel deploy of 11e30ec3 and runtime errors. Ask the owner for one live repair, then verify v3 tokens and cost in runtime_ai_requests. 2. Build APK v5 from 34046de9 and send it. 3. Website restructure: rerun IA5-IA8 on cdddb6c8, then Gate A previews to the owner, then IA9 (merge web/alive-1015), push only after the owner's OK. 4. FINDINGS-v3 items 3-8. 5. Emulator recording.",
+  "blockers": [
+    "Owner: one live repair to verify v3",
+    "Owner: Supabase Confirm email ON",
+    "Owner: OK on website previews before the restructure ships"
+  ],
+  "evidence": [
+    "origin/main 11e30ec3",
+    "mockmob-next 34046de9 + handoff commit",
+    "wt-web-ia cdddb6c8",
+    "wt-phase2 4af0b391"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

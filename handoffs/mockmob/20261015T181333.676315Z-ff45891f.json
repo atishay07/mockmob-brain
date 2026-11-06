@@ -1,0 +1,15 @@
+{
+  "id": "20261015T181333.676315Z-ff45891f",
+  "observed_at": "2026-10-15T18:13:33.676315+00:00",
+  "agent": "builder-q10-funnel",
+  "task": "Q10 privacy-safe conversion funnel",
+  "status": "complete",
+  "done": "Commit d26ca7b5 on web/q11-1015 (not pushed, not deployed): funnel_daily migration 20261015233000 plus undo, POST /api/funnel, client helper, /admin/funnel summary, tests, integration note docs/brain/FUNNEL-INTEGRATION-2026-10-15.md. Staging dry run done; production not touched.",
+  "next": "Orchestrator: apply migration to production, verify, deploy, set FUNNEL_ENABLED=true. Landing agent: wire trackFunnel calls per the note.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

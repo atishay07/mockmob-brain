@@ -1,0 +1,39 @@
+{
+  "id": "20261016T075537.220399Z-e78f7759",
+  "observed_at": "2026-10-16T07:55:37.221399+00:00",
+  "agent": "claude-weekdays-1016",
+  "task": "Study weekdays on the account (ledger L06, L39), branch web/weekdays-1016",
+  "status": "complete",
+  "done": "Committed 2b79df03. The app expected no endpoint (StudyDaysRemote seam, PhoneOnlyStudyDays), so GET and PUT /api/me/goal now carry an optional weekdays array (0 = Monday), stored in study_goals.weekday_mask smallint. Plan is believed only while its count equals the goal; a goal-only PUT keeps a matching plan and drops a stale one. Account > Weekly goal is now seven weekday chips whose count is the goal. App contract and app-side steps are in docs/design-decisions/study-weekdays-api-1016.md.",
+  "next": "Main session: apply supabase/migrations/20261016110000_study_weekdays.sql to production under the owner's grant, then deploy. Run the visual gate on Account > Weekly goal at 390 and 1440, Night and Day. The app needs AccountStudyDays plus a weekdays field on the goal model (app tree not touched here).",
+  "blockers": [
+    "Visual check of the new chips not done",
+    "Production migration not applied (main session, owner grant)"
+  ],
+  "evidence": [
+    "Production study_goals read-only: 5 columns, 0 rows",
+    "Staging onwkqxmjqjrhfbjjdydu: migration applied, undone and re-applied, constraint present, existing row untouched",
+    "node --test data/tests/study_weekdays.test.mjs: 11 pass",
+    "npm run test:app: 346 pass, 0 fail",
+    "eslint on changed files clean"
+  ],
+  "touched_files": [
+    "src/lib/studyWeekdays.mjs",
+    "src/lib/server/appPrefs.js",
+    "src/app/api/me/goal/route.js",
+    "src/components/profile/GoalControl.jsx",
+    "src/components/profile/accountModel.mjs",
+    "src/components/profile/account.css",
+    "src/app/preview/arena/ArenaPreviewClient.jsx",
+    "supabase/migrations/20261016110000_study_weekdays.sql",
+    "supabase/undo/20261016110000_study_weekdays.undo.sql",
+    "data/tests/study_weekdays.test.mjs",
+    "data/tests/you_account.test.mjs",
+    "data/tests/onboarding_first_run.test.mjs",
+    "package.json",
+    "docs/design-decisions/study-weekdays-api-1016.md"
+  ],
+  "verification": "Unit and PGlite tests plus staging dry run. No dev server and no visual check were run (no playwright-core in node_modules).",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

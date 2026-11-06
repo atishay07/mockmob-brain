@@ -1,0 +1,20 @@
+{
+  "id": "20261013T162718.098207Z-11ed4c89",
+  "observed_at": "2026-10-13T16:27:18.098207+00:00",
+  "agent": "claude-opus-5.5 (main orchestrator, relay session 44f0f9d4 on personal)",
+  "task": "MockMob 13 Oct night: resumed 4 workflows after the default account hit its limit",
+  "status": "active",
+  "done": "After the relay to the personal account, the four stopped workflows were resumed:\n- App round 3, wf_09e4d5a9-88f (task w0op7zegd): 143 confirmed findings; 10 packages; 8 builds plus integration and review re-run.\n- Logo B fix, wf_9e3e4eb5-aa5 (task wyhh3t9zb).\n- NTA engine fix stage, wf_a9fd4cdc-f96 (task wde8kvmx2). The engine fixes are already committed as 2c6e5a1 and the session fixes as a404f09.\n- CUET-fit: the rest of the scoring plus the merge, as a new run wf_881d3ee1-6bc (task w6jv8k347). It judges only the 431 missing judge pairs; 451 of 879 were already done. The previous run hit the 1000-agent cap after usage-limit failures.\n\nHow the resume worked: the workflow journals were copied from the session 604ced81 folder into 44f0f9d4/subagents/workflows. Scripts are in mockmob-next/tmp/workflows (app-round-3.js, logo-b-into-app.js, nta-engine-fixes.js, nta-cuet-fit-rest.js).",
+  "next": "1) When the logo fix and app round 3 finish: commit mockmob-next, build the real app (not the demo), and tell the owner to connect the phone after deleting all 3 old MockMob apps. 2) After the CUET-fit merge: run node --use-system-ca scripts/nta-engine-run.mjs myself (subagent production reads are blocked) and commit it. 3) Hand the owner the 12 extra corrupted-connective ids and the 63 listed-order keys for a hold decision (list in mockmob-hotfix/tmp/nta-review-cleanup/CLEANUP-2026-10-13.md). 4) Next app round right after round 3.",
+  "blockers": [
+    "Subagent production reads blocked by the classifier; the orchestrator runs them"
+  ],
+  "evidence": [
+    "mockmob-hotfix 2c6e5a1, a404f09, c1fc654, 96ff500",
+    "mockmob-hotfix/tmp/nta-pass/fit/missing-pairs.json"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

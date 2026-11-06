@@ -1,0 +1,17 @@
+{
+  "id": "20261010T100711.232461Z-d1a407b7",
+  "observed_at": "2026-10-10T10:07:11.232461+00:00",
+  "agent": "claude-auto",
+  "task": "Auto-capture: claude session 482f69bc",
+  "status": "paused",
+  "done": "Auto-captured at SessionEnd. Turns: 1. Last message: - mockmob | 2026-10-10 15:24 IST | 20261010T095448.475181Z-70d8a98c | RAG prototype: cross-encoder rerank experiment (abstention, q18, latency, split check)\n- mockmob | 2026-10-10 15:26 IST | 20261010T095625.669935Z-fed18176 | RAG prototype: rag_search registered for Claude and Codex (AI OS)\n- mockmob | 2026-10-10 15:32 IST | 20261010T100225.137558Z-fdd91c6a | RAG: harness proof, idempotent regist",
+  "next": "Unverified auto-capture. Read the session transcript and live repo state before continuing.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\482f69bc-61a8-4b2c-ad34-933b881d3d88.jsonl"
+  ],
+  "touched_files": [],
+  "verification": "auto-captured by hook; not agent-verified",
+  "cost_and_pending_requests": "unknown; hook does not see provider receipts",
+  "confidence": "agent-reported; verify evidence before acting"
+}

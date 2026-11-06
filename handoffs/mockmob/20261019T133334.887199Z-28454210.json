@@ -1,0 +1,24 @@
+{
+  "id": "20261019T133334.887199Z-28454210",
+  "observed_at": "2026-10-19T13:33:34.887199+00:00",
+  "agent": "R7-mob-v3-app (Claude Opus 5.5 subagent)",
+  "task": "Mob v3 app Phase A (Flutter), branch ui/1019pm-mob-v3 in wt-1019pm-mobapp",
+  "status": "active",
+  "done": "Foundation committed 78983415: MOB_V3_ENABLED gate in MobScreen, contract models (spec 3), in-app fixture server (MOB_V3_FIXTURES, scenarios), FoldManifest + FoldPuppet + interim art (tool/fold_manifest.py), motion tokens (mobBeat, momentT4, squash), copy_v3, nav, paper particles, contract/lint/asset tests (29 pass), test kit. Six builder agents launched in worktrees wt-1019pm-mob-{den,social,sheets,run,results,moments} on branches ui/1019pm-mob-v3-<part>.",
+  "next": "Merge the six branches into ui/1019pm-mob-v3, full analyze + unit suite, emulator walk with fixtures (fresh + heavy), frame strips (R5), MOB-APP-A.md in mockmob-next/tmp/walk-1019/mob-v3; final art swap = python tool/fold_manifest.py final.",
+  "blockers": [
+    "contract/MOB-V3-CONTRACT.json not written by main; using spec section 3 as canonical (main confirmed)"
+  ],
+  "evidence": [
+    "mockmob-next/tmp/walk-1019/mob-v3/AGENT-BRIEF.md"
+  ],
+  "touched_files": [
+    "wt-1019pm-mobapp/flutter_app/lib/features/social/v3/**",
+    "flutter_app/lib/features/social/{data/mob_models.dart,data/mob_repository.dart,mob_routes.dart,screens/mob_screen.dart}",
+    "shared/motion-tokens.json",
+    "flutter_app/assets/folds/**"
+  ],
+  "verification": "flutter analyze clean; test/unit/social/v3 29/29 pass",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

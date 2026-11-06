@@ -1,0 +1,25 @@
+{
+  "id": "20261020T152207.931083Z-1dab3843",
+  "observed_at": "2026-10-20T15:22:07.931083+00:00",
+  "agent": "claude-opus-5.5 subagent (den acts)",
+  "task": "Wire Mob den friend-join and reaction acts (MOB-MINIMAL V4 4.2) into den_stage, branch ui/1020-den-acts",
+  "status": "complete",
+  "done": "Commit d58d15862 on ui/1020-den-acts (worktree wt-1020-denacts, from 0d5bb7fdd). Join = member not in this phone's per-Mob memory (prefs key mob.den.acts.<mobId>); first open plays nothing; reaction = friend's sticker newer than the newest seen, under 12 h, one cheer per batch led by newest sender. Once-only, max 3 queued, 400 ms beat, held under Enter, results run (ResultsRun.onScreen), sheets, hidden tab. Fixture: demo builds add Meher + Let's go sticker to heavy 3 s after first den read. Frame sheets in mockmob-next/tmp/v15-night/denacts/.",
+  "next": "Integrate into ui/1020-v15; regenerate the pre-existing drifted social goldens on the merged tree (128 fail identically on 0d5bb7fdd; den renders pixel-identical); consider moving sticker flights clear of the studying tag; emulator walk of the demo build (pull to refresh 3 s after first den read shows the join).",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "flutter_app/lib/features/social/v3/logic/den_acts.dart",
+    "flutter_app/lib/features/social/v3/widgets/den_stage.dart",
+    "flutter_app/lib/features/social/v3/screens/den_screen.dart",
+    "flutter_app/lib/features/social/v3/widgets/fold_acts.dart",
+    "flutter_app/lib/features/social/v3/widgets/fold_puppet.dart",
+    "flutter_app/lib/features/social/v3/screens/results_run.dart",
+    "flutter_app/lib/features/social/v3/data/mob_v3_fake_server.dart",
+    "flutter_app/lib/features/social/v3/data/mob_v3_api.dart",
+    "flutter_app/lib/features/social/v3/copy_v3.dart"
+  ],
+  "verification": "flutter analyze: no issues. test/unit/social + test/widget/social all pass (731). test/golden/social: 128 failures, same set as base 0d5bb7fdd (R6 run golden flakes day/night), failing images pixel-identical to base.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

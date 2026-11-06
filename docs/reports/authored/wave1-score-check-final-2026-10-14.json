@@ -1,0 +1,351 @@
+{
+ "kind": "authored_scores_check",
+ "version": "authored-scores-1",
+ "source": "claude-authored-2026-10-14",
+ "repairedTextPolicy": "admit",
+ "at": "2026-10-14T07:10:09.069Z",
+ "planned": 475,
+ "agentEntries": 475,
+ "hashChangedByRepair": 0,
+ "heldForFreshPass": 0,
+ "engineEligible": 475,
+ "engineIneligible": 0,
+ "engineIneligibleReasons": {},
+ "fitGate": {
+  "mirror": "scripts/lib/authored-scores.mjs fitGateReasons (mirror of data/nta_fit_scores.js ntaFitVerdict)",
+  "minFit": 8,
+  "pass": 475,
+  "reasons": {},
+  "baseTablesMissing": []
+ },
+ "qualityAndFitBoth": 475,
+ "passageSets": {
+  "servable": 11,
+  "of": 12,
+  "blueprint": {
+   "passageWords": {
+    "min": 200,
+    "target": 280,
+    "max": 300
+   },
+   "minChildren": 4
+  },
+  "sets": [
+   {
+    "groupId": "pg_a55d6933b991898f4e4b700b046bf2de",
+    "chapter": "Factual Passage",
+    "words": 299,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_20aabfc462664e85ddcb5cf1aef5d7d6",
+    "chapter": "Narrative Passage",
+    "words": 292,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_b1c0212d23fa9117786356ede1fc95f7",
+    "chapter": "Literary Passage",
+    "words": 277,
+    "children": 3,
+    "eligibleChildren": 3,
+    "servable": false
+   },
+   {
+    "groupId": "pg_c9a1c2e7267af4c9bf4748cd080c7976",
+    "chapter": "Factual Passage",
+    "words": 249,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_4be65e802682a481da1537a400827fdb",
+    "chapter": "Narrative Passage",
+    "words": 282,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_a19306ccfb79082951e15b7c418f6d6a",
+    "chapter": "Literary Passage",
+    "words": 266,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_a026673c3e0f23beb17064ea26702f62",
+    "chapter": "Factual Passage",
+    "words": 270,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_58c5acf369b459ca6924912852791ac3",
+    "chapter": "Narrative Passage",
+    "words": 296,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_580969bc3f0e14374cfe92cbd2bca6f5",
+    "chapter": "Literary Passage",
+    "words": 293,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_b7f3e595617ca904b33d5982c889fc7f",
+    "chapter": "Factual Passage",
+    "words": 261,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_e4b30a4c8346748791f06d5efdc63f6b",
+    "chapter": "Narrative Passage",
+    "words": 276,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_27dbca206f074f871d6b636f24b4bbfe",
+    "chapter": "Literary Passage",
+    "words": 254,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   }
+  ]
+ },
+ "impact": {
+  "export": "tmp/nta-fixtures",
+  "subjects": {
+   "chemistry": {
+    "exportRows": 300,
+    "exportRowsWithEvidence": 0,
+    "faithful": true,
+    "eligibleWithout": 57,
+    "eligibleWith": 152,
+    "papersWithout": [
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     }
+    ],
+    "papersWith": [
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     }
+    ]
+   },
+   "history": {
+    "exportRows": 197,
+    "exportRowsWithEvidence": 0,
+    "faithful": true,
+    "eligibleWithout": 23,
+    "eligibleWith": 104,
+    "papersWithout": [
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     }
+    ],
+    "papersWith": [
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     }
+    ]
+   },
+   "political_science": {
+    "exportRows": 198,
+    "exportRowsWithEvidence": 0,
+    "faithful": true,
+    "eligibleWithout": 30,
+    "eligibleWith": 111,
+    "papersWithout": [
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     }
+    ],
+    "papersWith": [
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     }
+    ]
+   },
+   "psychology": {
+    "exportRows": 87,
+    "exportRowsWithEvidence": 0,
+    "faithful": true,
+    "eligibleWithout": 36,
+    "eligibleWith": 115,
+    "papersWithout": [
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     }
+    ],
+    "papersWith": [
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 45
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     }
+    ]
+   },
+   "sociology": {
+    "exportRows": 212,
+    "exportRowsWithEvidence": 0,
+    "faithful": true,
+    "eligibleWithout": 53,
+    "eligibleWith": 134,
+    "papersWithout": [
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     },
+     {
+      "status": "refused",
+      "questions": 0
+     }
+    ],
+    "papersWith": [
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     },
+     {
+      "status": "closest",
+      "questions": 50
+     }
+    ]
+   }
+  }
+ },
+ "bySubject": {
+  "chemistry": {
+   "planned": 95,
+   "eligible": 95,
+   "fitPass": 95,
+   "both": 95
+  },
+  "english": {
+   "planned": 58,
+   "eligible": 58,
+   "fitPass": 58,
+   "both": 58
+  },
+  "history": {
+   "planned": 81,
+   "eligible": 81,
+   "fitPass": 81,
+   "both": 81
+  },
+  "political_science": {
+   "planned": 81,
+   "eligible": 81,
+   "fitPass": 81,
+   "both": 81
+  },
+  "psychology": {
+   "planned": 79,
+   "eligible": 79,
+   "fitPass": 79,
+   "both": 79
+  },
+  "sociology": {
+   "planned": 81,
+   "eligible": 81,
+   "fitPass": 81,
+   "both": 81
+  }
+ },
+ "ineligible": []
+}

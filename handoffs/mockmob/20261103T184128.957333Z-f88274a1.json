@@ -1,0 +1,27 @@
+{
+  "id": "20261103T184128.957333Z-f88274a1",
+  "observed_at": "2026-11-03T18:41:28.957333+00:00",
+  "agent": "claude-auto",
+  "task": "Auto-capture: claude session c5a8da45",
+  "status": "paused",
+  "done": "Auto-captured at Stop. Turns: 3. Last message: All the uncommitted work is now committed. Nothing has been pushed yet, and main was not touched.\n\n- **22 of the 26 old worktrees** got a snapshot commit on their own branch. The main checkout and the four detached ones each got a new `archive/uncommitted-1104-…` branch. The other 4 worktrees only showed line-ending noise, so there was nothing real to commit.\n- **A second pass recovered 258 more f",
+  "next": "Unverified auto-capture. Read the session transcript and live repo state before continuing.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\c5a8da45-5c74-46ba-abca-73f6160b75cd.jsonl"
+  ],
+  "touched_files": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\memory\\ship-final-not-prototypes.md",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\C--Users-atish-Desktop-mockmob-copy\\c5a8da45-5c74-46ba-abca-73f6160b75cd\\scratchpad\\snap.py",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1104-english-web\\src\\components\\learn2\\run\\RunPlayer.jsx",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\C--Users-atish-Desktop-mockmob-copy\\c5a8da45-5c74-46ba-abca-73f6160b75cd\\scratchpad\\commit.py",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\C--Users-atish-Desktop-mockmob-copy\\c5a8da45-5c74-46ba-abca-73f6160b75cd\\scratchpad\\patch.py",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\C--Users-atish-Desktop-mockmob-copy\\c5a8da45-5c74-46ba-abca-73f6160b75cd\\scratchpad\\p1.txt",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\C--Users-atish-Desktop-mockmob-copy\\c5a8da45-5c74-46ba-abca-73f6160b75cd\\scratchpad\\p2.txt",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1103-webfull\\src\\components\\learn2\\stage\\CardFace.jsx",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\C--Users-atish-Desktop-mockmob-copy\\c5a8da45-5c74-46ba-abca-73f6160b75cd\\scratchpad\\p3.txt"
+  ],
+  "verification": "auto-captured by hook; not agent-verified",
+  "cost_and_pending_requests": "unknown; hook does not see provider receipts",
+  "confidence": "agent-reported; verify evidence before acting"
+}

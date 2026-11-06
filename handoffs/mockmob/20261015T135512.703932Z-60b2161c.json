@@ -1,0 +1,31 @@
+{
+  "id": "20261015T135512.703932Z-60b2161c",
+  "observed_at": "2026-10-15T13:55:12.704935+00:00",
+  "agent": "fix:app (workflow wf_04d09cb4-720, Opus 5.5)",
+  "task": "Mistake Lab v4 slice 2 app truth fixes on ui/phase2 (wt-phase2/flutter_app)",
+  "status": "complete",
+  "done": "Commit 57aed8a9 on ui/phase2 (not pushed): OldServerFallbackApi (retry refused save/submit with older event sets, remembered per run), practice result on the one time rule (lab.time first, else Dart port of paper_trace.js rules 1-6), submit page records visit via sheet and a plain visit back (data only), replay clock line with denominators and replay.opened; 5 web contracts and inputs copied byte for byte from web dd7a45e9; 4 replay goldens regenerated and opened.",
+  "next": "Owner: deploy web/alive-1015 (dd7a45e9) before shipping an APK; a first ticket-mode practice on an older server still loses timing (no save before submit). Optional: emulator check of the submit page sheet visit.",
+  "blockers": [
+    "Another agent has uncommitted practice tab, today and review edits in the same worktree; with them, 20 practice tab/confirm goldens fail (not from this commit)"
+  ],
+  "evidence": [
+    "flutter analyze: No issues found",
+    "test -j 1 test/unit/result runner practice core core_data: +1443 all passed",
+    "goldens practice/result/runner: only the 4 replay goldens changed (row words), regenerated; NTA and runner goldens untouched",
+    "fixture blobs equal web dd7a45e9 blobs (git rev-parse)"
+  ],
+  "touched_files": [
+    "flutter_app/lib/core/sync/session/old_server_fallback.dart",
+    "flutter_app/lib/core/domain/paper_trace.dart",
+    "flutter_app/lib/features/practice/model/session_analysis.dart",
+    "flutter_app/lib/core/sync/session/session_engine.dart",
+    "flutter_app/lib/features/runner/screens/runner_host.dart",
+    "flutter_app/lib/features/result/copy.dart",
+    "flutter_app/lib/core/models/mistake_lab.dart",
+    "flutter_app/docs/RELEASE.md"
+  ],
+  "verification": "Unit and golden runs listed in evidence; no emulator run, no push, no production reads.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

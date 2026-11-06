@@ -1,0 +1,142 @@
+{
+  "batch": "english__v2",
+  "subject": "english",
+  "date": "2026-10-14",
+  "reviewer_model": "claude-haiku-5-5",
+  "method": "Expert pass per AUTHORED-QUESTIONS-WAVE1-2026-10-14.md step 5. Checked each key for uniqueness against all four options, the stem cue, option balance and length, whether each distractor is clearly wrong, and whether the explanation states the rule correctly. Only accepted=true items were judged (wave2-acceptance-2026-10-14.json). Two items (961e6ae7-edac-4097-ade6-3b667e54653d, 06298513-8dfe-4653-9454-4dbaac8ed520) are accepted=false (duplicate_probable) and were not judged. No correct_key was changed.",
+  "counts": {
+    "accepted_in_batch": 18,
+    "ready": 17,
+    "repaired": 1,
+    "practice": 0,
+    "reject": 0
+  },
+  "verdicts": [
+    {
+      "id": "5c265510-b0ba-4422-828f-8d95a00c6149",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Concise is the only synonym of laconic. Talkative and verbose are the opposite habit, and ambiguous is unrelated. Explanation is accurate.",
+      "repair": null
+    },
+    {
+      "id": "4891081e-8c50-4590-ba65-99b1892ab2be",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Rejected is the only option that takes demands as object in the sense of turning them down, and the clause 'could not afford them' cues refusal. Rejoined, recalled and reflected do not fit. Explanation is accurate.",
+      "repair": null
+    },
+    {
+      "id": "958b3846-9d9d-423a-9b6b-8356b921c740",
+      "verdict": "ready",
+      "key": "B",
+      "why": "(C)(B)(A)(D) yields 'Although the forecast had predicted heavy rain, the farmers decided to harvest the crop before the monsoon arrived.' The other three orders are ungrammatical. The key is unique.",
+      "repair": null
+    },
+    {
+      "id": "53fa0984-67e8-47c1-b6fa-a4af8e2f8c91",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Clear is the only antonym. Vague, doubtful and equivocal are near-synonyms of ambiguous and work as distractors. Explanation is accurate.",
+      "repair": null
+    },
+    {
+      "id": "36dc0b55-b44b-4555-8174-840fbc94ede1",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Break the ice = (II), a bolt from the blue = (IV), cut no ice = (III), spill the beans = (I). Only option B matches all four pairs. Explanation is accurate.",
+      "repair": null
+    },
+    {
+      "id": "c29d7e44-e26d-42a3-8b8b-c175b197a8bb",
+      "verdict": "ready",
+      "key": "B",
+      "why": "With 'neither ... nor' the verb agrees with the nearer subject 'the employees', so 'was aware' is the error and 'were aware' is correct. The other three segments are correct. Key is unique.",
+      "repair": null
+    },
+    {
+      "id": "bad78fb1-1b09-4123-bff4-df268cd73de7",
+      "verdict": "ready",
+      "key": "C",
+      "why": "(B)(A)(C)(D) yields 'The library will remain closed during the examination week so that students can concentrate on their revision.' The other options are ungrammatical or meaningless. Key is unique.",
+      "repair": null
+    },
+    {
+      "id": "9d2c1eb4-b3fc-48f0-a7d8-19e1b6b23a90",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Discerning is the synonym of perspicacious. Obtuse is its antonym, and eloquent and ambitious are unrelated. Hard label is fair for this vocabulary.",
+      "repair": null
+    },
+    {
+      "id": "0ee50582-ba14-4340-80ed-e200a89aeea3",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Atheist is the standard one-word substitute for one who denies God's existence. Agnostic is the chief trap and the explanation separates the two correctly. Theist and sceptic are clearly wrong.",
+      "repair": null
+    },
+    {
+      "id": "95deadea-8c72-4b9f-9065-b888c9f43782",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Call off = cancel (II), look into = investigate (I), put up with = tolerate (III), run out of = exhaust the supply (IV). Only option D matches all four.",
+      "repair": null
+    },
+    {
+      "id": "f29a214e-128e-4662-bf4f-747af22feecc",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Arrogant is the recognised antonym of obsequious (fawning). Servile is a synonym and dutiful and attentive are not opposites. Explanation is accurate.",
+      "repair": null
+    },
+    {
+      "id": "805db45b-9cbd-43d4-9b7c-b5cb2043838c",
+      "verdict": "ready",
+      "key": "B",
+      "why": "'Yesterday' requires simple past, and the letter receives the action, so the passive 'was typed' is the only fit. 'Typed' is not a finite verb, 'had typed' is active, and 'has been typed' conflicts with 'yesterday'.",
+      "repair": null
+    },
+    {
+      "id": "5c0c8364-d8a8-4b8e-9e93-a6a9406ead6a",
+      "verdict": "ready",
+      "key": "A",
+      "why": "(B)(C)(A)(D) yields 'The old bridge, which was built in 1890, has been closed for repairs since the flood.' The other orders are ungrammatical. Key is unique.",
+      "repair": null
+    },
+    {
+      "id": "d5979ca1-28cd-429d-b89c-9a7484ef3603",
+      "verdict": "ready",
+      "key": "C",
+      "why": "To pull someone's leg means to tease playfully. Options A and B are literal misreadings and D is a harsh-criticism distractor. Exam-acceptable for an idiom item at easy difficulty.",
+      "repair": null
+    },
+    {
+      "id": "a3eb6b10-fe92-4abc-a2d0-8dacc0900a72",
+      "verdict": "repaired",
+      "key": "C",
+      "why": "Key 'an' is correct because 'honest' has a silent h and begins with a vowel sound. Option A carried the parenthetical '(before a consonant sound)', which is a label, not an answer choice, and it reads as a hint to the rule. Replaced with plain 'a' so the four options are parallel. Explanation is accurate and still applies.",
+      "repair": "options[A].text changed from 'a (before a consonant sound)' to 'a'. Key C and all other text unchanged."
+    },
+    {
+      "id": "353f23ff-b472-42ea-8177-736360cdbefe",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Clemency = leniency (III), garrulous = talking excessively (I), pragmatic = sensible and practical (IV), lethargic = lacking energy (II). Only option C matches all four.",
+      "repair": null
+    },
+    {
+      "id": "6c570fed-0a98-484c-862e-addceb5286a0",
+      "verdict": "ready",
+      "key": "D",
+      "why": "After a past reporting verb, the present perfect of direct speech shifts to past perfect, so 'had finished' is correct. 'Has finished' keeps the original tense and 'would finish' is a wrong shift.",
+      "repair": null
+    },
+    {
+      "id": "d4d71dfd-548a-4889-8536-fe231cce2516",
+      "verdict": "ready",
+      "key": "D",
+      "why": "The flood damage precedes the rescue team's arrival, so past perfect 'had destroyed' is required. Simple past, present perfect and past continuous do not mark that sequence.",
+      "repair": null
+    }
+  ]
+}

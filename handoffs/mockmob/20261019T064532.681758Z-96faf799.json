@@ -1,0 +1,21 @@
+{
+  "id": "20261019T064532.681758Z-96faf799",
+  "observed_at": "2026-10-19T06:45:32.682760+00:00",
+  "agent": "claude-opus-5.5 session 3e452b10 (fresh, attended)",
+  "task": "19 Oct ~12:45 pm: finish release 11 + app v15.3 (fresh session per owner)",
+  "status": "active",
+  "done": "Read NEXT-PROMPT-1019, NOW (4e). Recovered stopped Autopilot agents' handbacks (app verifier r1 partial: M1-M4, L1-L6, no HIGH; web verifier r2 never started) into scratchpad handbacks.md. Launched wave 1: app-fix (Sonnet, wt-v153-fix: M1 race/firstFree, M2 gated free lines, M3 Compass safe/in reach, M4 sealed paper in Ask Mobi, L1-L6, flutter_locked.sh lock sweep); c2-web (Sonnet, wt-1019-c2web, /mentor two doors); app-walk (Sonnet, emulator, existing profile APK 125755f4, 3104 via shim 3114); web-verifier-r2 (Opus, part A on 3ae564a6, part B = C2-web delta by SendMessage). Release 11 is FF from origin/main 23a7c090 (50 commits); new env reads only FIRST_FULL_MOCK_ENABLED (on when unset) and HERO_MOTION_V2 (unset = preview mode) -> no Vercel env change needed.",
+  "next": "Merge app-fix into wt-v15-3, full unit run, rebuild profile APK, walker re-check of fixed surfaces; merge c2-web into wt-rel11, suites+build, verifier part B; fix findings; push r11 FF; Vercel check + smoke; bump build, release APK + zip; MESSAGE-1019; NOW/ledger.",
+  "blockers": [
+    "none"
+  ],
+  "evidence": [
+    "wt-rel11 3ae564a6 FF-OK vs origin/main 23a7c090",
+    "wt-v15-3 profile APK 11:54 at 125755f4",
+    "scratchpad/handbacks.md"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

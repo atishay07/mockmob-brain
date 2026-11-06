@@ -1,0 +1,124 @@
+{
+  "batch": "general_test__b3",
+  "subject": "general_test",
+  "date": "2026-10-14",
+  "reviewer_model": "claude-haiku-5-5",
+  "method": "Expert pass per AUTHORED-QUESTIONS-WAVE1-2026-10-14.md step 5. Re-solved each accepted item from the stem (key, distractor clarity, single correct option), checked the explanation arithmetic and the stated facts, checked option balance and stem cues, and checked the difficulty label. Only accepted=true items were judged (wave2-acceptance-2026-10-14.json). Items with accepted=false (4cf966e4 duplicate probable, d327d8c5 duplicate stem) were not judged. No key was changed and no file content was edited, so the batch file is unchanged.",
+  "counts": {
+    "accepted_in_batch": 18,
+    "ready": 18,
+    "repaired": 0,
+    "practice": 0,
+    "reject": 0
+  },
+  "verdicts": [
+    {
+      "id": "e44eac6c-5c17-4b64-adec-a28eaa876e8f",
+      "verdict": "ready",
+      "key": "B",
+      "why": "240/4 = 60 km/h; 330/60 = 5.5 h = 5 h 30 min. Key B is the only correct option, and the distractors match the known decimal-conversion slips."
+    },
+    {
+      "id": "285ebc0c-a1bf-455f-8876-2a51d4e308a9",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Profit 60 on cost 480 gives 12.5%. The 11.1% distractor is the profit-on-selling-price error, so the options are well separated and only A is correct."
+    },
+    {
+      "id": "0bd36613-12eb-4794-a6af-d807ea0b0552",
+      "verdict": "ready",
+      "key": "D",
+      "why": "5x+6 over 7x+6 = 3/4 gives x = 6, so the numbers are 30 and 42 and the larger is 42. Check: 36:48 = 3:4. The distractor 48 is the larger of the new numbers, a plausible trap."
+    },
+    {
+      "id": "3442328c-1154-46da-bace-590d3b9190c5",
+      "verdict": "ready",
+      "key": "B",
+      "why": "100 to 120 to 96 gives a net 4% decrease on the original. Only B is correct; the 2% option is the usual additive slip."
+    },
+    {
+      "id": "59bb112d-7af9-41a0-b562-086759a0a77e",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Doubling in 8 years at simple interest gives 12.5% p.a. Four times needs SI = 3P, so T = 3/0.125 = 24 years. The arithmetic and the key hold, and the hard label is fair."
+    },
+    {
+      "id": "14ecc293-0b90-4481-8dd0-6774b4e09420",
+      "verdict": "ready",
+      "key": "B",
+      "why": "SI 2000 at 5% for 3 years = 300 (IV); CI 1000 at 10% for 2 years = 210 (II); 72 km/h = 20 m/s (III); CP = 900/1.2 = 750 (I). Only option B pairs them all correctly."
+    },
+    {
+      "id": "4d78519e-9b3f-4ab5-97b8-3c67ee4525e2",
+      "verdict": "ready",
+      "key": "C",
+      "why": "84 = 2^2 x 3 x 7 and 126 = 2 x 3^2 x 7, so HCF = 42. The distractors 14, 21 and 84 each come from a common-factor slip and are clearly wrong."
+    },
+    {
+      "id": "4fdd8044-bccf-41cc-b8e7-8b50678470b9",
+      "verdict": "ready",
+      "key": "A",
+      "why": "sqrt(50) = 5 sqrt(2) and sqrt(18) = 3 sqrt(2), so (8 sqrt(2))/sqrt(2) = 8. Only A is correct. Plain-text sqrt notation is acceptable for this format."
+    },
+    {
+      "id": "89aa15c5-51ca-445f-ad46-238c7b76195b",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Decimals: 3/4 = 0.75, 5/7 = 0.714, 2/3 = 0.667, 7/10 = 0.70. Ascending order is C, D, B, A. Only option D gives that order."
+    },
+    {
+      "id": "657502e7-2772-41c9-9536-3ba5ba1be9cd",
+      "verdict": "ready",
+      "key": "B",
+      "why": "sqrt(2) x sqrt(8) = 4 is rational, so A is true. sqrt(2) x sqrt(2) = 2 is rational, so R is false. Only option B fits."
+    },
+    {
+      "id": "4338823b-f191-40eb-9edc-f142355e4a01",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Sorted 5, 7, 9, 11, 14, 18, 21 with n = 7 gives the median 11 (4th value). The mean 85/7 is about 12.1 and is correctly excluded."
+    },
+    {
+      "id": "6e2e7522-4c45-4dd8-9e2b-b8fd7941b161",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Combined total 920 + 1560 = 2480 over 50 students gives 49.6. The simple average 49 is the distractor, and the key is correct."
+    },
+    {
+      "id": "fe7d2c34-4fee-41d2-aae1-6ca94b5b52de",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Total frequency 30; cumulative 4, 11, 20, 26, 30. The 15th and 16th observations both fall in the class of marks 30 (positions 12 to 20), so the median is 30."
+    },
+    {
+      "id": "6bf15152-90be-42a2-bd37-9294ba9e8060",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Red flowers need not include any rose, so I does not follow. II reverses the premise, so it does not follow. Neither follows; A is correct."
+    },
+    {
+      "id": "f23ad1d3-882c-4dc2-8060-e13af4fe2b1a",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Q is second from left, so R is third. S is at the right end, so T is at the left end and P is fourth. The unique solution puts R in the middle; the key is correct."
+    },
+    {
+      "id": "0adc49a1-dc43-4e81-949c-f6d9e66fa5c4",
+      "verdict": "ready",
+      "key": "B",
+      "why": "S > R > Q is forced, and P > Q. So (B) S taller than Q and (C) Q shortest are definitely true. P vs R and R vs P are not fixed. Only option B is correct."
+    },
+    {
+      "id": "1f40bfd5-9108-4334-906d-079e1985c817",
+      "verdict": "ready",
+      "key": "D",
+      "why": "First letters advance A, B, C, D, E; second letters retreat Z, Y, X, W, V. The next term is EV, which is the only option matching both patterns."
+    },
+    {
+      "id": "6d6ae13a-417a-4307-ac41-dcbccb04a6ab",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Playing at least one game = 40 + 25 - 10 = 55. Neither = 60 - 55 = 5. The key is correct and the distractors are plain counting slips."
+    }
+  ]
+}

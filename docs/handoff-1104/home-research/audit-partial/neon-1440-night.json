@@ -1,0 +1,1767 @@
+[
+ {
+  "sig": "span.mm-theme-toggle__thumb",
+  "count": 1,
+  "section": "mm-nav",
+  "path": "div.mm-wrap > div.mm-nav__end > button.mm-theme-toggle > span.mm-theme-toggle__sky > span.mm-theme-toggle__thumb",
+  "size": "30x30",
+  "score": 7,
+  "feats": [
+   {
+    "k": "lit inset rim (light)",
+    "v": "rgba(237,241,223,1) -6/-2/0/0 inset",
+    "w": 2
+   },
+   {
+    "k": "VOLT GLOW (box-shadow)",
+    "v": "rgba(222,236,196,0.22) 0/0/10/1",
+    "w": 5
+   }
+  ]
+ },
+ {
+  "sig": "button.ft__row",
+  "count": 10,
+  "section": "your-prep",
+  "path": "div.ss__stage > div.ft > ul.ft__list > li > button.ft__row",
+  "size": "99x44",
+  "score": 7,
+  "feats": [
+   {
+    "k": "VOLT inset rim",
+    "v": "rgba(210,240,0,0.5) 0/0/0/1 inset",
+    "w": 4
+   },
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgba(210, 240, 0, 0.5) [TRBL]",
+    "w": 3
+   }
+  ]
+ },
+ {
+  "sig": "figure.ts",
+  "count": 1,
+  "section": "your-prep",
+  "path": "div.ft__slide > article.ft__card > div.ft__media > div.ft__shot > figure.ts",
+  "size": "416x305",
+  "score": 7,
+  "feats": [
+   {
+    "k": "lit inset rim (light)",
+    "v": "rgba(255,255,255,0.07) 0/1/0/0 inset",
+    "w": 2
+   },
+   {
+    "k": "VOLT GLOW (box-shadow)",
+    "v": "rgba(210,240,0,0.18) 0/18/40/-24",
+    "w": 5
+   }
+  ]
+ },
+ {
+  "sig": "div.cl__group button",
+  "count": 14,
+  "section": "compass",
+  "path": "div.rv > div.cl > div.cl__controls > div.cl__group > button",
+  "size": "122x44",
+  "score": 7,
+  "feats": [
+   {
+    "k": "VOLT inset rim",
+    "v": "rgba(210,240,0,0.5) 0/0/0/1 inset",
+    "w": 4
+   },
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgba(210, 240, 0, 0.5) [TRBL]",
+    "w": 3
+   }
+  ]
+ },
+ {
+  "sig": "aside.rv.lp-cpro",
+  "count": 1,
+  "section": "compass",
+  "path": "div.mm > main#main-content > section#compass > div.mm-wrap > aside.rv",
+  "size": "1120x333",
+  "score": 6,
+  "feats": [
+   {
+    "k": "lit inset rim (light)",
+    "v": "rgba(255,255,255,0.12) 0/1/0/0 inset",
+    "w": 2
+   },
+   {
+    "k": "glass (backdrop-filter)",
+    "v": "blur(22px) saturate(1.7)",
+    "w": 1
+   },
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgba(210, 240, 0, 0.5) [TRBL]",
+    "w": 3
+   }
+  ]
+ },
+ {
+  "sig": "aside.rv.lp-combo",
+  "count": 1,
+  "section": "du-eligibility",
+  "path": "div.mm > main#main-content > section#du-eligibility > div.mm-wrap > aside.rv",
+  "size": "1120x167",
+  "score": 6,
+  "feats": [
+   {
+    "k": "lit inset rim (light)",
+    "v": "rgba(255,255,255,0.12) 0/1/0/0 inset",
+    "w": 2
+   },
+   {
+    "k": "glass (backdrop-filter)",
+    "v": "blur(22px) saturate(1.7)",
+    "w": 1
+   },
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgba(210, 240, 0, 0.5) [TRBL]",
+    "w": 3
+   }
+  ]
+ },
+ {
+  "sig": "span.mm-new",
+  "count": 2,
+  "section": "mm-nav",
+  "path": "nav.mm-nav > div.mm-wrap > div.mm-nav__links > a.mm-nav__link > span.mm-new",
+  "size": "36x18",
+  "score": 5,
+  "feats": [
+   {
+    "k": "colour inset rim",
+    "v": "rgba(82,103,0,0.7) 0/0/0/1 inset",
+    "w": 2
+   },
+   {
+    "k": "colour inset rim",
+    "v": "rgba(82,103,0,0.35) 0/-2/0/0 inset",
+    "w": 2
+   },
+   {
+    "k": "volt fill",
+    "v": "rgba(210,240,0,1)",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "div.lcd__frame",
+  "count": 1,
+  "section": "inside-the-lab",
+  "path": "div.ss__track > div.ss__stage > div.mm-wrap > div.lcd > div.lcd__frame",
+  "size": "611x736",
+  "score": 5,
+  "feats": [
+   {
+    "k": "ring (box-shadow spread)",
+    "v": "rgba(244,245,240,0.08) 0/0/0/5",
+    "w": 2
+   },
+   {
+    "k": "lit inset rim (light)",
+    "v": "rgba(255,255,255,0.06) 0/1/0/0 inset",
+    "w": 2
+   },
+   {
+    "k": "bright hairline (border)",
+    "v": "rgba(244, 245, 240, 0.18) [TRBL]",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "ul.lct__key i",
+  "count": 3,
+  "section": "inside-the-lab",
+  "path": "div.lc-scene__fit > div.lcp > ul.lct__key > li > i",
+  "size": "13x8",
+  "score": 5,
+  "feats": [
+   {
+    "k": "colour gradient",
+    "v": "repeating-linear-gradient(135deg, rgb(232, 195, 90) 0px, rgb(232, 195, 90) 3px, color(srgb 0.909804 0.764706 0.352941 / 0.58) 3px, color(srgb 0.909804 0.764706 ",
+    "w": 2
+   },
+   {
+    "k": "colour gradient",
+    "v": "repeating-linear-gradient(135deg, rgb(255, 138, 125) 0px, rgb(255, 138, 125) 3px, color(srgb 1 0.541176 0.490196 / 0.58) 3px, color(srgb 1 0.541176 0.490196 / 0",
+    "w": 2
+   },
+   {
+    "k": "bright hairline (border)",
+    "v": "rgba(242, 244, 236, 0.45) [TRBL]",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "i.lcp-clock__dot",
+  "count": 6,
+  "section": "inside-the-lab",
+  "path": "div.lc-scene__fit > div.lcp > div.lcp-clock > span.lcp-clock__change > i.lcp-clock__dot",
+  "size": "12x12",
+  "score": 5,
+  "feats": [
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgb(166, 220, 74) [TRBL]",
+    "w": 3
+   },
+   {
+    "k": "colour edge (border)",
+    "v": "rgb(255, 138, 125) [TRBL]",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "span.lcc__chip",
+  "count": 6,
+  "section": "inside-the-lab",
+  "path": "div.lcp > ol.lcc > li.lcc__row > span.lcc__end > span.lcc__chip",
+  "size": "29x29",
+  "score": 5,
+  "feats": [
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgb(166, 220, 74) [TRBL]",
+    "w": 3
+   },
+   {
+    "k": "colour edge (border)",
+    "v": "rgb(255, 138, 125) [TRBL]",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "i.lcc__head",
+  "count": 3,
+  "section": "inside-the-lab",
+  "path": "div.lcp > ol.lcc > li.lcc__row > span.lcc__arrow > i.lcc__head",
+  "size": "10x10",
+  "score": 5,
+  "feats": [
+   {
+    "k": "colour edge (border)",
+    "v": "rgb(255, 138, 125) [TR]",
+    "w": 2
+   },
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgb(166, 220, 74) [TR]",
+    "w": 3
+   }
+  ]
+ },
+ {
+  "sig": "span.lcp-plan__n",
+  "count": 2,
+  "section": "inside-the-lab",
+  "path": "div.lcp > div.lcs-block > ol.lcs-plan > li.lcp-plan > span.lcp-plan__n",
+  "size": "27x27",
+  "score": 5,
+  "feats": [
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgb(210, 240, 0) [TRBL]",
+    "w": 3
+   },
+   {
+    "k": "volt fill",
+    "v": "rgba(210,240,0,1)",
+    "w": 1
+   },
+   {
+    "k": "bright hairline (border)",
+    "v": "rgba(244, 245, 240, 0.18) [TRBL]",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "span.lcp-plan__go",
+  "count": 2,
+  "section": "inside-the-lab",
+  "path": "div.lcp > div.lcs-block > ol.lcs-plan > li.lcp-plan > span.lcp-plan__go",
+  "size": "64x35",
+  "score": 5,
+  "feats": [
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgb(210, 240, 0) [TRBL]",
+    "w": 3
+   },
+   {
+    "k": "volt fill",
+    "v": "rgba(210,240,0,1)",
+    "w": 1
+   },
+   {
+    "k": "bright hairline (border)",
+    "v": "rgba(244, 245, 240, 0.18) [TRBL]",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "ol.ts__ladder li",
+  "count": 1,
+  "section": "your-prep",
+  "path": "div.ft__shot > figure.ts > div.ts__body > ol.ts__ladder > li",
+  "size": "370x28",
+  "score": 5,
+  "feats": [
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgba(210, 240, 0, 0.55) [TRBL]",
+    "w": 3
+   },
+   {
+    "k": "volt tint fill",
+    "v": "rgba(210,240,0,0.12)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "span.cl__tag",
+  "count": 1,
+  "section": "compass",
+  "path": "div.rv > div.cl > figure.cl__stage > div.cl__top > span.cl__tag",
+  "size": "183x22",
+  "score": 5,
+  "feats": [
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgba(210, 240, 0, 0.35) [TRBL]",
+    "w": 3
+   },
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "button.du-chip",
+  "count": 19,
+  "section": "du-eligibility",
+  "path": "div.du-teaser > div.du-teaser__pick > fieldset.du-group > div.du-chips > button.du-chip",
+  "size": "92x44",
+  "score": 5,
+  "feats": [
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgb(210, 240, 0) [TRBL]",
+    "w": 3
+   },
+   {
+    "k": "volt tint fill",
+    "v": "rgba(210,240,0,0.1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "span.rl__cover-mark",
+  "count": 6,
+  "section": "on-instagram",
+  "path": "div.rl > ul.rl__track > li.rl__item > button.rl__card > span.rl__cover-mark",
+  "size": "54x54",
+  "score": 5,
+  "feats": [
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgba(210, 240, 0, 0.45) [TRBL]",
+    "w": 3
+   },
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "span.rl__cover-orbit",
+  "count": 6,
+  "section": "on-instagram",
+  "path": "ul.rl__track > li.rl__item > button.rl__card > span.rl__cover-mark > span.rl__cover-orbit",
+  "size": "40x40",
+  "score": 5,
+  "feats": [
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgba(210, 240, 0, 0.35) [TRBL]",
+    "w": 3
+   },
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "div.lp-bg__spot",
+  "count": 1,
+  "section": "lp-hero",
+  "path": "div.mm > main#main-content > section.lp-hero > div.lp-bg > div.lp-bg__spot",
+  "size": "1440x869",
+  "score": 4,
+  "feats": [
+   {
+    "k": "VOLT radial glow (gradient)",
+    "v": "radial-gradient(circle at 1px 1px, rgb(210, 240, 0) 1.2px, rgba(0, 0, 0, 0) 1.9px)",
+    "w": 4
+   }
+  ]
+ },
+ {
+  "sig": "div.lp-stage::before",
+  "count": 1,
+  "section": "lp-hero",
+  "path": "div.mm > main#main-content > section.lp-hero > div.mm-wrap > div#try-practice",
+  "size": "453x548",
+  "score": 4,
+  "feats": [
+   {
+    "k": "lit inset rim (light)",
+    "v": "rgba(244,245,240,0.07) 0/1/0/0 inset",
+    "w": 2
+   },
+   {
+    "k": "light radial spot (gradient)",
+    "v": "radial-gradient(75% 42% at 50% 42%, rgba(210, 240, 0, 0.086), rgba(0, 0, 0, 0) 72%), linear-gradient(rgba(244, 245, 240, 0.06), rgba(244, 245, 240, 0.016) 55%, ",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "nav.lp-proof",
+  "count": 1,
+  "section": "lp-proof",
+  "path": "div.mm > main#main-content > section.lp-hero > div.mm-wrap > nav.lp-proof",
+  "size": "1120x102",
+  "score": 4,
+  "feats": [
+   {
+    "k": "lit inset rim (light)",
+    "v": "rgba(255,255,255,0.14) 0/1/0/0 inset",
+    "w": 2
+   },
+   {
+    "k": "glass (backdrop-filter)",
+    "v": "blur(24px) saturate(1.7)",
+    "w": 1
+   },
+   {
+    "k": "bright hairline (border)",
+    "v": "rgba(244, 245, 240, 0.16) [TRBL]",
+    "w": 1
+   },
+   {
+    "k": "animated",
+    "v": "lp-rise",
+    "w": 0
+   }
+  ]
+ },
+ {
+  "sig": "span.lc__rail-ico",
+  "count": 4,
+  "section": "inside-the-lab",
+  "path": "div.mm-wrap > ol.lc__rail > li > button > span.lc__rail-ico",
+  "size": "30x30",
+  "score": 4,
+  "feats": [
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgb(210, 240, 0) [TRBL]",
+    "w": 3
+   },
+   {
+    "k": "volt fill",
+    "v": "rgba(210,240,0,1)",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "figure.ml__stage",
+  "count": 1,
+  "section": "score-recovery-lab",
+  "path": "div.ss > div.ss__track > div.ss__stage > div.ml > figure.ml__stage",
+  "size": "623x515",
+  "score": 4,
+  "feats": [
+   {
+    "k": "ring (box-shadow spread)",
+    "v": "rgba(244,245,240,0.08) 0/0/0/5",
+    "w": 2
+   },
+   {
+    "k": "lit inset rim (light)",
+    "v": "rgba(244,245,240,0.08) 0/1/0/0 inset",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "aside.rv.lp-cpro::before",
+  "count": 1,
+  "section": "compass",
+  "path": "div.mm > main#main-content > section#compass > div.mm-wrap > aside.rv",
+  "size": "1120x333",
+  "score": 4,
+  "feats": [
+   {
+    "k": "VOLT radial glow (gradient)",
+    "v": "radial-gradient(closest-side, rgba(210, 240, 0, 0.16), rgba(0, 0, 0, 0))",
+    "w": 4
+   }
+  ]
+ },
+ {
+  "sig": "span.du-chip__tick",
+  "count": 19,
+  "section": "du-eligibility",
+  "path": "div.du-teaser__pick > fieldset.du-group > div.du-chips > button.du-chip > span.du-chip__tick",
+  "size": "18x18",
+  "score": 4,
+  "feats": [
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgb(210, 240, 0) [TRBL]",
+    "w": 3
+   },
+   {
+    "k": "volt fill",
+    "v": "rgba(210,240,0,1)",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "aside.rv.lp-combo::before",
+  "count": 1,
+  "section": "du-eligibility",
+  "path": "div.mm > main#main-content > section#du-eligibility > div.mm-wrap > aside.rv",
+  "size": "1120x167",
+  "score": 4,
+  "feats": [
+   {
+    "k": "VOLT radial glow (gradient)",
+    "v": "radial-gradient(closest-side, rgba(210, 240, 0, 0.14), rgba(0, 0, 0, 0))",
+    "w": 4
+   }
+  ]
+ },
+ {
+  "sig": "ul.lp-exam__legend span",
+  "count": 5,
+  "section": "exam-experience",
+  "path": "div.lp-exam__body > div.lp-exam__palette > ul.lp-exam__legend > li > span",
+  "size": "19x19",
+  "score": 4,
+  "feats": [
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgb(210, 240, 0) [TRBL]",
+    "w": 3
+   },
+   {
+    "k": "volt fill",
+    "v": "rgba(210,240,0,1)",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "dl.rl__summary",
+  "count": 1,
+  "section": "on-instagram",
+  "path": "section#on-instagram > div.mm-wrap > div.rv > div.rl > dl.rl__summary",
+  "size": "1120x81",
+  "score": 4,
+  "feats": [
+   {
+    "k": "lit inset rim (light)",
+    "v": "rgba(255,255,255,0.14) 0/1/0/0 inset",
+    "w": 2
+   },
+   {
+    "k": "glass (backdrop-filter)",
+    "v": "blur(22px) saturate(1.7)",
+    "w": 1
+   },
+   {
+    "k": "bright hairline (border)",
+    "v": "rgba(244, 245, 240, 0.16) [TRBL]",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "dl.rl__summary::before",
+  "count": 1,
+  "section": "on-instagram",
+  "path": "section#on-instagram > div.mm-wrap > div.rv > div.rl > dl.rl__summary",
+  "size": "1120x81",
+  "score": 4,
+  "feats": [
+   {
+    "k": "VOLT radial glow (gradient)",
+    "v": "radial-gradient(closest-side, rgba(210, 240, 0, 0.22), rgba(0, 0, 0, 0))",
+    "w": 4
+   }
+  ]
+ },
+ {
+  "sig": "span.mm-theme-toggle__sky",
+  "count": 1,
+  "section": "mm-nav",
+  "path": "nav.mm-nav > div.mm-wrap > div.mm-nav__end > button.mm-theme-toggle > span.mm-theme-toggle__sky",
+  "size": "58x30",
+  "score": 3,
+  "feats": [
+   {
+    "k": "VOLT gradient",
+    "v": "linear-gradient(rgb(241, 246, 217), rgb(220, 231, 173))",
+    "w": 3
+   }
+  ]
+ },
+ {
+  "sig": "div.mm-screen.mm-drill",
+  "count": 1,
+  "section": "lp-hero",
+  "path": "section.lp-hero > div.mm-wrap > div#try-practice > div.lp-stage__card > div.mm-screen",
+  "size": "453x449",
+  "score": 3,
+  "feats": [
+   {
+    "k": "lit inset rim (light)",
+    "v": "rgba(244,245,240,0.08) 0/1/0/0 inset",
+    "w": 2
+   },
+   {
+    "k": "bright hairline (border)",
+    "v": "rgba(244, 245, 240, 0.2) [TRBL]",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "div.mm-screen.mm-drill::before",
+  "count": 1,
+  "section": "lp-hero",
+  "path": "section.lp-hero > div.mm-wrap > div#try-practice > div.lp-stage__card > div.mm-screen",
+  "size": "453x449",
+  "score": 3,
+  "feats": [
+   {
+    "k": "VOLT gradient",
+    "v": "linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(210, 240, 0, 0.55), rgba(0, 0, 0, 0))",
+    "w": 3
+   }
+  ]
+ },
+ {
+  "sig": "span.lcp-clock__sweep i",
+  "count": 1,
+  "section": "inside-the-lab",
+  "path": "div.lc-scene__fit > div.lcp > div.lcp-clock > span.lcp-clock__sweep > i",
+  "size": "538x83",
+  "score": 3,
+  "feats": [
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgb(210, 240, 0) [R]",
+    "w": 3
+   }
+  ]
+ },
+ {
+  "sig": "div.lcp-block",
+  "count": 4,
+  "section": "inside-the-lab",
+  "path": "figure.lc-scene__screen > div.lc-scene__fit > div.lcp > div.lcp-blocks > div.lcp-block",
+  "size": "555x58",
+  "score": 3,
+  "feats": [
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "color(srgb 0.823529 0.941176 0 / 0.38) [TRBL]",
+    "w": 3
+   }
+  ]
+ },
+ {
+  "sig": "li.lcp-plan",
+  "count": 2,
+  "section": "inside-the-lab",
+  "path": "div.lc-scene__fit > div.lcp > div.lcs-block > ol.lcs-plan > li.lcp-plan",
+  "size": "563x61",
+  "score": 3,
+  "feats": [
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "color(srgb 0.823529 0.941176 0 / 0.4) [TRBL]",
+    "w": 3
+   }
+  ]
+ },
+ {
+  "sig": "button.du-preset",
+  "count": 4,
+  "section": "du-eligibility",
+  "path": "div.rv > div.du-teaser > div.du-teaser__pick > div.du-presets > button.du-preset",
+  "size": "94x44",
+  "score": 3,
+  "feats": [
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgba(210, 240, 0, 0.35) [TRBL]",
+    "w": 3
+   }
+  ]
+ },
+ {
+  "sig": "button.rl__card::before",
+  "count": 6,
+  "section": "on-instagram",
+  "path": "div.rv > div.rl > ul.rl__track > li.rl__item > button.rl__card",
+  "size": "248x441",
+  "score": 3,
+  "feats": [
+   {
+    "k": "VOLT gradient",
+    "v": "linear-gradient(90deg, rgba(0, 0, 0, 0) 49.75%, rgba(210, 240, 0, 0.12) 50%, rgba(0, 0, 0, 0) 50.25%), linear-gradient(rgba(0, 0, 0, 0) 49.75%, rgba(210, 240, 0",
+    "w": 3
+   }
+  ]
+ },
+ {
+  "sig": "button.rl__card::after",
+  "count": 6,
+  "section": "on-instagram",
+  "path": "div.rv > div.rl > ul.rl__track > li.rl__item > button.rl__card",
+  "size": "248x441",
+  "score": 3,
+  "feats": [
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgba(210, 240, 0, 0.28) [TRBL]",
+    "w": 3
+   }
+  ]
+ },
+ {
+  "sig": "div.lp-plan.lp-plan--pro",
+  "count": 1,
+  "section": "pricing",
+  "path": "main#main-content > section#pricing > div.mm-wrap > div.rv > div.lp-plan",
+  "size": "630x478",
+  "score": 3,
+  "feats": [
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgba(210, 240, 0, 0.5) [TRBL]",
+    "w": 3
+   }
+  ]
+ },
+ {
+  "sig": "a.mm-foot__key",
+  "count": 1,
+  "section": "mm-foot",
+  "path": "div.mm-wrap > div.mm-foot__cols > div > div.mm-foot__start > a.mm-foot__key",
+  "size": "126x44",
+  "score": 3,
+  "feats": [
+   {
+    "k": "VOLT EDGE (border)",
+    "v": "rgb(210, 240, 0) [TRBL]",
+    "w": 3
+   }
+  ]
+ },
+ {
+  "sig": "circle.dot.logo-b__dot",
+  "count": 2,
+  "section": "mm-nav",
+  "path": "nav.mm-nav > div.mm-wrap > a.logo > svg.logo-b > circle.dot",
+  "size": "7x7",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   },
+   {
+    "k": "animated",
+    "v": "logoDotWake",
+    "w": 0
+   }
+  ]
+ },
+ {
+  "sig": "span.mm-theme-toggle__sky::after",
+  "count": 1,
+  "section": "mm-nav",
+  "path": "nav.mm-nav > div.mm-wrap > div.mm-nav__end > button.mm-theme-toggle > span.mm-theme-toggle__sky",
+  "size": "58x30",
+  "score": 2,
+  "feats": [
+   {
+    "k": "ring (box-shadow spread)",
+    "v": "rgba(255,255,255,1) -5/-2/0/1",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "div.lp-bg__grid",
+  "count": 2,
+  "section": "lp-hero",
+  "path": "div.mm > main#main-content > section.lp-hero > div.lp-bg > div.lp-bg__grid",
+  "size": "1440x869",
+  "score": 2,
+  "feats": [
+   {
+    "k": "light sheen/gradient",
+    "v": "linear-gradient(90deg, rgba(244, 245, 240, 0.086) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(rgba(244, 245, 240, 0.086) 1px, rgba(0, 0, 0, 0) 1px)",
+    "w": 2
+   },
+   {
+    "k": "animated",
+    "v": "lp-depth-grid",
+    "w": 0
+   }
+  ]
+ },
+ {
+  "sig": "div.lp-bg__dots",
+  "count": 2,
+  "section": "lp-hero",
+  "path": "div.mm > main#main-content > section.lp-hero > div.lp-bg > div.lp-bg__dots",
+  "size": "1440x869",
+  "score": 2,
+  "feats": [
+   {
+    "k": "light radial spot (gradient)",
+    "v": "radial-gradient(circle at 1px 1px, rgba(244, 245, 240, 0.4) 1px, rgba(0, 0, 0, 0) 1.6px)",
+    "w": 2
+   },
+   {
+    "k": "animated",
+    "v": "lp-depth-mid",
+    "w": 0
+   }
+  ]
+ },
+ {
+  "sig": "span.lp-title__line.lp-title__line--run.lp-title__brand",
+  "count": 1,
+  "section": "lp-hero",
+  "path": "section.lp-hero > div.mm-wrap > div.lp-hero__copy > h1.lp-title > span.lp-title__line",
+  "size": "303x72",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "a.lp-link.lp-hero__tool",
+  "count": 1,
+  "section": "lp-hero",
+  "path": "section.lp-hero > div.mm-wrap > div.lp-hero__copy > div.lp-hero__links > a.lp-link",
+  "size": "282x44",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "p.lp-stage__other a",
+  "count": 1,
+  "section": "lp-hero",
+  "path": "section.lp-hero > div.mm-wrap > div#try-practice > p.lp-stage__other > a",
+  "size": "147x42",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "nav.lp-proof a",
+  "count": 3,
+  "section": "lp-proof",
+  "path": "main#main-content > section.lp-hero > div.mm-wrap > nav.lp-proof > a",
+  "size": "280x100",
+  "score": 2,
+  "feats": [
+   {
+    "k": "lit inset rim (light)",
+    "v": "rgba(244,245,240,0.09) -1/0/0/0 inset",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "span.lp-statement__w",
+  "count": 3,
+  "section": "lp-statement",
+  "path": "main#main-content > section.lp-statement > div.mm-wrap > p.lp-statement__text > span.lp-statement__w",
+  "size": "195x71",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   },
+   {
+    "k": "animated",
+    "v": "lp-word",
+    "w": 0
+   }
+  ]
+ },
+ {
+  "sig": "div.lp-shelf::before",
+  "count": 1,
+  "section": "lp-statement",
+  "path": "div.mm > main#main-content > section.lp-statement > div.mm-wrap > div.lp-shelf",
+  "size": "447x560",
+  "score": 2,
+  "feats": [
+   {
+    "k": "colour radial glow (gradient)",
+    "v": "radial-gradient(closest-side, rgba(255, 196, 120, 0.1), rgba(255, 186, 104, 0.035) 58%, rgba(0, 0, 0, 0) 76%)",
+    "w": 2
+   },
+   {
+    "k": "animated",
+    "v": "lp-shelf-lamp",
+    "w": 0
+   }
+  ]
+ },
+ {
+  "sig": "span.subj-obj__sheen",
+  "count": 5,
+  "section": "lp-statement",
+  "path": "span.subj-obj > span.subj-obj__float > span.subj-obj__tilt > span.subj-obj__react > span.subj-obj__sheen",
+  "size": "160x106",
+  "score": 2,
+  "feats": [
+   {
+    "k": "colour gradient",
+    "v": "linear-gradient(135deg, rgba(0, 0, 0, 0) 54.7%, rgb(255, 241, 214) 65.7%, rgba(0, 0, 0, 0) 76.7%)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "span.subj-obj__light",
+  "count": 2,
+  "section": "lp-statement",
+  "path": "li.lp-shelf__item > a.lp-shelf__link > span.lp-shelf__float > span.subj-obj > span.subj-obj__light",
+  "size": "169x166",
+  "score": 2,
+  "feats": [
+   {
+    "k": "colour radial glow (gradient)",
+    "v": "radial-gradient(closest-side, rgba(255, 212, 150, 0.24), rgba(255, 186, 104, 0.09) 55%, rgba(0, 0, 0, 0) 74%)",
+    "w": 2
+   },
+   {
+    "k": "animated",
+    "v": "lp-shelf-lamp",
+    "w": 0
+   }
+  ]
+ },
+ {
+  "sig": "p.lp-kicker",
+  "count": 4,
+  "section": "inside-the-lab",
+  "path": "main#main-content > section#inside-the-lab > div.mm-wrap > div.rv > p.lp-kicker",
+  "size": "76x17",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "b.lct__pace-label",
+  "count": 1,
+  "section": "inside-the-lab",
+  "path": "figure.lc-scene__screen > div.lc-scene__fit > div.lcp > div.lct > b.lct__pace-label",
+  "size": "58x16",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "span.ts__timer",
+  "count": 1,
+  "section": "your-prep",
+  "path": "div.ft__media > div.ft__shot > figure.ts > div.ts__bar > span.ts__timer",
+  "size": "68x17",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "span.ml__num",
+  "count": 1,
+  "section": "score-recovery-lab",
+  "path": "div.ml__rail > ol.ml__steps > li > button > span.ml__num",
+  "size": "13x16",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "span.ml__checkicon",
+  "count": 3,
+  "section": "score-recovery-lab",
+  "path": "div.ml__panels > section.ml__panel > ol.ml__checks > li > span.ml__checkicon",
+  "size": "20x20",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "svg.lucide.lucide-clock",
+  "count": 1,
+  "section": "score-recovery-lab",
+  "path": "section.ml__panel > ol.ml__checks > li > span.ml__checkicon > svg.lucide",
+  "size": "16x16",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "svg.lucide circle",
+  "count": 1,
+  "section": "score-recovery-lab",
+  "path": "ol.ml__checks > li > span.ml__checkicon > svg.lucide > circle",
+  "size": "13x13",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "svg.lucide path",
+  "count": 15,
+  "section": "score-recovery-lab",
+  "path": "ol.ml__checks > li > span.ml__checkicon > svg.lucide > path",
+  "size": "3x5",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "svg.lucide.lucide-lock",
+  "count": 2,
+  "section": "score-recovery-lab",
+  "path": "section.ml__panel > ol.ml__checks > li > span.ml__checkicon > svg.lucide",
+  "size": "16x16",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "svg.lucide rect",
+  "count": 2,
+  "section": "score-recovery-lab",
+  "path": "ol.ml__checks > li > span.ml__checkicon > svg.lucide > rect",
+  "size": "12x7",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "div.ml__strip li",
+  "count": 10,
+  "section": "score-recovery-lab",
+  "path": "div.ml__panels > section.ml__panel > div.ml__strip > ol > li",
+  "size": "53x42",
+  "score": 2,
+  "feats": [
+   {
+    "k": "colour edge (border)",
+    "v": "rgba(255, 157, 146, 0.5) [TRBL]",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "output.cl__big",
+  "count": 1,
+  "section": "compass",
+  "path": "div.rv > div.cl > div.cl__controls > div.cl__score > output.cl__big",
+  "size": "127x48",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "figure.cl__stage",
+  "count": 1,
+  "section": "compass",
+  "path": "section#compass > div.mm-wrap > div.rv > div.cl > figure.cl__stage",
+  "size": "607x550",
+  "score": 2,
+  "feats": [
+   {
+    "k": "lit inset rim (light)",
+    "v": "rgba(244,245,240,0.08) 0/1/0/0 inset",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "span.cl__gap",
+  "count": 3,
+  "section": "compass",
+  "path": "div.cl > figure.cl__stage > ul.cl__list > li > span.cl__gap",
+  "size": "122x16",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "p.lp-cpro__badge",
+  "count": 2,
+  "section": "compass",
+  "path": "section#compass > div.mm-wrap > aside.rv > div.lp-cpro__copy > p.lp-cpro__badge",
+  "size": "84x22",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "span.mm-measure",
+  "count": 1,
+  "section": "du-eligibility",
+  "path": "div.rv > div.du-teaser > div.du-teaser__out > p.du-teaser__big > span.mm-measure",
+  "size": "86x65",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "span.rl__cover-mark span",
+  "count": 6,
+  "section": "on-instagram",
+  "path": "ul.rl__track > li.rl__item > button.rl__card > span.rl__cover-mark > span",
+  "size": "17x18",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "b.mm-measure",
+  "count": 3,
+  "section": "on-instagram",
+  "path": "ul.rl__track > li.rl__item > button.rl__card > span.rl__reach > b.mm-measure",
+  "size": "156x40",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "svg.lucide.lucide-heart",
+  "count": 1,
+  "section": "on-instagram",
+  "path": "li.rl__item > button.rl__card > span.rl__engage > span > svg.lucide",
+  "size": "13x13",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "span.rl__load-label",
+  "count": 6,
+  "section": "on-instagram",
+  "path": "div.rl > ul.rl__track > li.rl__item > button.rl__card > span.rl__load-label",
+  "size": "214x17",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "svg.lucide.lucide-check",
+  "count": 11,
+  "section": "pricing",
+  "path": "div.rv > div.lp-plan > ul.lp-ticks > li > svg.lucide",
+  "size": "16x16",
+  "score": 2,
+  "feats": [
+   {
+    "k": "volt text colour",
+    "v": "rgba(210,240,0,1)",
+    "w": 2
+   }
+  ]
+ },
+ {
+  "sig": "b.pip-eye__ball",
+  "count": 2,
+  "section": "page",
+  "path": "span.pip-actor__float > span.pip-art-direction > span.pip-eyes > i.pip-eye > b.pip-eye__ball",
+  "size": "10x20",
+  "score": 2,
+  "feats": [
+   {
+    "k": "light radial spot (gradient)",
+    "v": "radial-gradient(120% 90% at 40% 30%, rgb(255, 253, 246), rgb(251, 243, 228) 70%)",
+    "w": 2
+   },
+   {
+    "k": "animated",
+    "v": "pip-eye-blink",
+    "w": 0
+   }
+  ]
+ },
+ {
+  "sig": "nav.mm-nav",
+  "count": 1,
+  "section": "mm-nav",
+  "path": "html.bricolage_38096d11-module__lYlsRG__variable > body.min-h-full > div.mm > nav.mm-nav",
+  "size": "1440x61",
+  "score": 1,
+  "feats": [
+   {
+    "k": "glass (backdrop-filter)",
+    "v": "blur(16px) saturate(1.2)",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "a.mm-btn.mm-btn--primary",
+  "count": 6,
+  "section": "lp-hero",
+  "path": "div.mm-wrap > div.lp-hero__copy > div.lp-cta > div.mm-actions > a.mm-btn",
+  "size": "179x54",
+  "score": 1,
+  "feats": [
+   {
+    "k": "volt fill",
+    "v": "rgba(210,240,0,1)",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "div.lp-stage__card::before",
+  "count": 1,
+  "section": "lp-hero",
+  "path": "main#main-content > section.lp-hero > div.mm-wrap > div#try-practice > div.lp-stage__card",
+  "size": "453x449",
+  "score": 1,
+  "feats": [
+   {
+    "k": "bright hairline (border)",
+    "v": "rgba(244, 245, 240, 0.2) [RBL]",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "span.mm-drill__pip",
+  "count": 1,
+  "section": "lp-hero",
+  "path": "div.lp-stage__card > div.mm-screen > div.mm-screen__bar > span.mm-drill__progress > span.mm-drill__pip",
+  "size": "18x4",
+  "score": 1,
+  "feats": [
+   {
+    "k": "volt fill",
+    "v": "rgba(210,240,0,1)",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "i.ss-fill",
+  "count": 14,
+  "section": "inside-the-lab",
+  "path": "ol.lc__rail > li > button > i.lc__rail-meter > i.ss-fill",
+  "size": "2x39",
+  "score": 1,
+  "feats": [
+   {
+    "k": "volt fill",
+    "v": "rgba(210,240,0,1)",
+    "w": 1
+   },
+   {
+    "k": "animated",
+    "v": "ss-fill-y",
+    "w": 0
+   },
+   {
+    "k": "animated",
+    "v": "ss-fill-x",
+    "w": 0
+   }
+  ]
+ },
+ {
+  "sig": "i.lcd__tab-ink",
+  "count": 1,
+  "section": "inside-the-lab",
+  "path": "div.mm-wrap > div.lcd > div.lcd__frame > div.lcd__tabs > i.lcd__tab-ink",
+  "size": "141x32",
+  "score": 1,
+  "feats": [
+   {
+    "k": "volt fill",
+    "v": "rgba(210,240,0,1)",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "p.lc-scene__take::before",
+  "count": 4,
+  "section": "inside-the-lab",
+  "path": "div.ss__stage > div.mm-wrap > article.lc-scene > div.lc-scene__copy > p.lc-scene__take",
+  "size": "437x66",
+  "score": 1,
+  "feats": [
+   {
+    "k": "volt fill",
+    "v": "rgba(210,240,0,1)",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "span.lct__mark",
+  "count": 2,
+  "section": "inside-the-lab",
+  "path": "div.lcp > div.lct > ol.lct__rows > li.lct__row > span.lct__mark",
+  "size": "15x15",
+  "score": 1,
+  "feats": [
+   {
+    "k": "bright hairline (border)",
+    "v": "rgba(242, 244, 236, 0.4) [TRBL]",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "i.lcc__badge",
+  "count": 6,
+  "section": "inside-the-lab",
+  "path": "ol.lcc > li.lcc__row > span.lcc__end > span.lcc__chip > i.lcc__badge",
+  "size": "9x9",
+  "score": 1,
+  "feats": [
+   {
+    "k": "volt fill",
+    "v": "rgba(166,220,74,1)",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "div.lcc-sum p",
+  "count": 3,
+  "section": "inside-the-lab",
+  "path": "figure.lc-scene__screen > div.lc-scene__fit > div.lcp > div.lcc-sum > p",
+  "size": "181x48",
+  "score": 1,
+  "feats": [
+   {
+    "k": "bright hairline (border)",
+    "v": "rgba(244, 245, 240, 0.18) [TRBL]",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "i.lcp-net__mark b",
+  "count": 2,
+  "section": "inside-the-lab",
+  "path": "div.lcp > div.lcp-net > div.lcp-net__track > i.lcp-net__mark > b",
+  "size": "27x18",
+  "score": 1,
+  "feats": [
+   {
+    "k": "bright hairline (border)",
+    "v": "rgba(244, 245, 240, 0.18) [TRBL]",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "i.lcp-q__badge",
+  "count": 2,
+  "section": "inside-the-lab",
+  "path": "div.lcp-q > ul.lcp-q__opts > li > b.lcp-q__letter > i.lcp-q__badge",
+  "size": "8x8",
+  "score": 1,
+  "feats": [
+   {
+    "k": "volt fill",
+    "v": "rgba(166,220,74,1)",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "p.lcp-block__label i",
+  "count": 1,
+  "section": "inside-the-lab",
+  "path": "div.lcp > div.lcp-blocks > div.lcp-block > p.lcp-block__label > i",
+  "size": "7x7",
+  "score": 1,
+  "feats": [
+   {
+    "k": "volt fill",
+    "v": "rgba(210,240,0,1)",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "p.lcp-swot__see b",
+  "count": 5,
+  "section": "inside-the-lab",
+  "path": "div.lcs-block > div.lcp-swot > div.lcp-swot__q > p.lcp-swot__see > b",
+  "size": "30x22",
+  "score": 1,
+  "feats": [
+   {
+    "k": "bright hairline (border)",
+    "v": "rgba(244, 245, 240, 0.18) [TRBL]",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "p.lcp-swot__label i",
+  "count": 1,
+  "section": "inside-the-lab",
+  "path": "div.lcs-block > div.lcp-swot > div.lcp-swot__q > p.lcp-swot__label > i",
+  "size": "8x8",
+  "score": 1,
+  "feats": [
+   {
+    "k": "volt fill",
+    "v": "rgba(210,240,0,1)",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "div.ts__lane b",
+  "count": 1,
+  "section": "your-prep",
+  "path": "div.ts__body > div.ts__lanes > div.ts__lane > i > b",
+  "size": "153x11",
+  "score": 1,
+  "feats": [
+   {
+    "k": "volt fill",
+    "v": "rgba(210,240,0,1)",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "ul.ft__points li::before",
+  "count": 3,
+  "section": "your-prep",
+  "path": "div.ft__slide > article.ft__card > div.ft__copy > ul.ft__points > li",
+  "size": "479x40",
+  "score": 1,
+  "feats": [
+   {
+    "k": "volt fill",
+    "v": "rgba(210,240,0,1)",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "b.ss-fill",
+  "count": 4,
+  "section": "score-recovery-lab",
+  "path": "ol.ml__steps > li > button > i.ml__bar > b.ss-fill",
+  "size": "433x2",
+  "score": 1,
+  "feats": [
+   {
+    "k": "volt fill",
+    "v": "rgba(210,240,0,1)",
+    "w": 1
+   },
+   {
+    "k": "animated",
+    "v": "ss-fill-x",
+    "w": 0
+   }
+  ]
+ },
+ {
+  "sig": "p.ml__status",
+  "count": 1,
+  "section": "score-recovery-lab",
+  "path": "div.ml > figure.ml__stage > div.ml__panels > section.ml__panel > p.ml__status",
+  "size": "585x46",
+  "score": 1,
+  "feats": [
+   {
+    "k": "bright hairline (border)",
+    "v": "rgba(244, 245, 240, 0.22) [TRBL]",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "span.cl__track u",
+  "count": 3,
+  "section": "compass",
+  "path": "figure.cl__stage > ul.cl__list > li > span.cl__track > u",
+  "size": "147x8",
+  "score": 1,
+  "feats": [
+   {
+    "k": "volt fill",
+    "v": "rgba(210,240,0,1)",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "span.lp-exam__live",
+  "count": 1,
+  "section": "exam-experience",
+  "path": "div.mm-wrap > div.lp-exam > div.lp-exam__bar > span > span.lp-exam__live",
+  "size": "6x6",
+  "score": 1,
+  "feats": [
+   {
+    "k": "volt fill",
+    "v": "rgba(210,240,0,1)",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "button.lp-exam__save",
+  "count": 1,
+  "section": "exam-experience",
+  "path": "div.lp-exam > div.lp-exam__body > div.lp-exam__paper > div.lp-exam__actions > button.lp-exam__save",
+  "size": "93x44",
+  "score": 1,
+  "feats": [
+   {
+    "k": "bright hairline (border)",
+    "v": "rgb(242, 244, 236) [TRBL]",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "button.rl__card",
+  "count": 6,
+  "section": "on-instagram",
+  "path": "div.rv > div.rl > ul.rl__track > li.rl__item > button.rl__card",
+  "size": "248x441",
+  "score": 1,
+  "feats": [
+   {
+    "k": "bright hairline (border)",
+    "v": "rgba(244, 245, 240, 0.16) [TRBL]",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "span.rl__identity",
+  "count": 6,
+  "section": "on-instagram",
+  "path": "div.rl > ul.rl__track > li.rl__item > button.rl__card > span.rl__identity",
+  "size": "214x64",
+  "score": 1,
+  "feats": [
+   {
+    "k": "bright hairline (border)",
+    "v": "rgba(244, 245, 240, 0.18) [T]",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "span.rl__play",
+  "count": 6,
+  "section": "on-instagram",
+  "path": "ul.rl__track > li.rl__item > button.rl__card > span.rl__identity > span.rl__play",
+  "size": "44x44",
+  "score": 1,
+  "feats": [
+   {
+    "k": "volt fill",
+    "v": "rgba(210,240,0,1)",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "span.rl__partner",
+  "count": 1,
+  "section": "on-instagram",
+  "path": "ul.rl__track > li.rl__item > button.rl__card > span.rl__top > span.rl__partner",
+  "size": "80x26",
+  "score": 1,
+  "feats": [
+   {
+    "k": "bright hairline (border)",
+    "v": "rgba(244, 245, 240, 0.2) [TRBL]",
+    "w": 1
+   }
+  ]
+ },
+ {
+  "sig": "a.mm-foot__social span",
+  "count": 1,
+  "section": "mm-foot",
+  "path": "div.mm-wrap > div.mm-foot__cols > div > a.mm-foot__social > span",
+  "size": "22x22",
+  "score": 1,
+  "feats": [
+   {
+    "k": "volt fill",
+    "v": "rgba(210,240,0,1)",
+    "w": 1
+   }
+  ]
+ }
+]

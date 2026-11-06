@@ -1,0 +1,27 @@
+{
+  "id": "20261015T183409.809109Z-93cd1f46",
+  "observed_at": "2026-10-15T18:34:09.809109+00:00",
+  "agent": "landing-copy",
+  "task": "English and hierarchy copy pass, landing (wt-land2)",
+  "status": "complete",
+  "done": "Strings only. Standardised the sign-up key to 'Start free' (dock, close band, footer, mobile menu, LandingActions, sample result), renamed the Arena kicker to Practice, rewrote the statement so it no longer repeats the hero, replaced the 'Built first for CUET Commerce and English' shelf label with 'Pick your paper' and removed the 'built first' lines from the FAQ and footer, tightened Repair/PrepOS/Benchmarks tour copy, the exam comparator heading, sample hint and verdict, sign-up spelling. No layout changes.",
+  "next": "Checker captures 390x844 and 1440x900 to confirm the shelf label, statement (5 sentences, 4 sentences) and exam heading line break fit. Owner to decide whether 'Score Recovery Lab' should be renamed to a Mistake Lab name.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "src/app/page.js",
+    "src/components/landing/CloseActions.jsx",
+    "src/components/FooterStart.jsx",
+    "src/components/LandingActions.jsx",
+    "src/components/landing/HeroDockGate.jsx",
+    "src/components/NavBar.jsx",
+    "src/components/landing/dockState.test.mjs",
+    "src/components/landing/DemoDrill.jsx",
+    "src/components/landing/ExamComparator.jsx",
+    "src/components/du/EligibilityTeaser.jsx",
+    "src/components/MarketingFooter.jsx"
+  ],
+  "verification": "node --test dockState, sampleBank, labStory, scrollMotion: 29/29 pass. eslint --max-warnings 0 on all touched files: exit 0.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

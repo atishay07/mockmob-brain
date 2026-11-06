@@ -1,0 +1,47 @@
+{
+ "conflicts": [
+  {
+   "hold": [
+    "kc.political_science.contemporary-south-asia.fact-tl-kargil"
+   ],
+   "keep": [
+    "kc.political_science.india-s-external-relations.fact-kargil-dates"
+   ],
+   "why": "Kargil conflict dated June-July on the timeline (Contemporary South Asia p.32) but May and June, with India recovering points by 26 July, in the detailed account (India's External Relations p.66). Keep the detailed account; the timeline card also repeats the Lahore card."
+  },
+  {
+   "hold": [
+    "kc.political_science.regional-aspirations.fact-reorg-1972"
+   ],
+   "keep": [
+    "kc.political_science.regional-aspirations.fact-ne-statehood",
+    "kc.political_science.challenges-of-nation-building.fact-northeast-1987",
+    "kc.political_science.challenges-of-nation-building.fact-northeast-1972"
+   ],
+   "why": "\"Reorganisation of the North-East was completed by 1972\" (Regional Aspirations p.127) is unqualified, but Mizoram and Arunachal Pradesh became States only in 1987 (Regional Aspirations p.126, Nation-Building p.23). Keep the dated statehood cards."
+  }
+ ],
+ "duplicates": [
+  [
+   "kc.political_science.contemporary-south-asia.fact-tl-lahore",
+   "kc.political_science.contemporary-south-asia.fact-tl-kargil"
+  ],
+  [
+   "kc.political_science.challenges-to-and-restoration-of-the-congress-system.fact-indira-assassination",
+   "kc.political_science.regional-aspirations.fact-indira-assassination"
+  ],
+  [
+   "kc.political_science.era-of-one-party-dominance.fact-cpi-16-seats",
+   "kc.political_science.era-of-one-party-dominance.fact-cpi-largest-opposition"
+  ],
+  [
+   "kc.political_science.challenges-of-nation-building.fact-potti-sriramulu-fast",
+   "kc.political_science.challenges-of-nation-building.fact-potti-sriramulu-dates"
+  ],
+  [
+   "kc.political_science.contemporary-south-asia.fact-tl-saarc-charter",
+   "kc.political_science.contemporary-south-asia.fact-saarc-1985"
+  ]
+ ],
+ "pairsRead": 70
+}

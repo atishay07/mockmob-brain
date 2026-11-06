@@ -1,0 +1,24 @@
+{
+  "id": "20261015T181759.067019Z-325ce973",
+  "observed_at": "2026-10-15T18:17:59.067019+00:00",
+  "agent": "builder-scroll (Opus, wt-land2)",
+  "task": "Landing fast-scroll glitches and weight (owner 15 Oct night notes), wt-land2 web/land2-1015",
+  "status": "complete",
+  "done": "Not committed (checker commits). ScrollStory: momentum hush (overflow hidden on root plus scrollbar-gutter stable while a held story must stop an uncancelable scroll: trackpad inertia, wheel glide, touch fling, drag; thaws after 200 ms quiet input, or at once on a new touch or an unclaimed gesture), keep stored relative to the track top (anchoring drift no longer snaps the page off its step), glide planned along the track (lands exactly even if a section above settles mid-glide). undrawn.js settleUndrawn: on first input (or load+6 s), draws each content-visibility section once off screen for 3 frames so its real height is remembered before a fast scroll arrives; re-runs on width change. Reveal: shared passive pace sampler; reveals reached at >2.5 px/ms or from above get data-snap (0.3 s, no stagger). landing.css data-snap rule. feature-tour.css phone .rv blur(6px) replaced by translate+scale (transform/opacity only). useReadableRegion rebuilds its IO only when the bar insets change (address-bar resizes no longer restart Lab playback). New guard test scrollMotion.test.mjs and CDP harness scripts/design-audit/fast-scroll-stress.mjs.",
+  "next": "Checker: run node scripts/design-audit/fast-scroll-stress.mjs --url http://localhost:PORT against a dev or prod build; expect heightDriftPx near 0 after the first flings, reversals near 0, oneStep true for every story, unsettledReveals 0. Not measured by me (no browser allowed in build packet).",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "src/components/landing/ScrollStory.jsx",
+    "src/components/landing/undrawn.js",
+    "src/components/landing/Reveal.jsx",
+    "src/components/landing/useReadableRegion.js",
+    "src/app/landing.css",
+    "src/app/feature-tour.css",
+    "src/components/landing/scrollMotion.test.mjs",
+    "scripts/design-audit/fast-scroll-stress.mjs"
+  ],
+  "verification": "eslint --max-warnings 0 clean on all touched JS; node --test scrollMotion.test.mjs + labStory.test.mjs 17 pass. No runtime measurement.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

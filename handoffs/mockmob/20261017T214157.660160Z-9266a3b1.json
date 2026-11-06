@@ -1,0 +1,17 @@
+{
+  "id": "20261017T214157.660160Z-9266a3b1",
+  "observed_at": "2026-10-17T21:41:57.660160+00:00",
+  "agent": "claude-owner-note",
+  "task": "Owner asked to remember for the next session",
+  "status": "active",
+  "done": "The owner typed this in a claude session (25ef3d95): many agents are stalled many have stopped working this is not going all in you have to continuously monitor everything and keep making further progress, and always remember you are the one doing the heavy lifting and guiding them completely in everything. Now, what I want to write now is: See the progress on the website and the new landing page immediately so that I can review it and tell you the changes here only before carrying forward to the next agent.",
+  "next": "Owner asked: many agents are stalled many have stopped working this is not going all in you have to continuously monitor everything and keep making further progress, and always remember you are the one doing the heavy lifting and guiding them completely in everything. Now, what I want to write now is: See the progress on the website and the new landing page immediately so that I can review it and tell you the changes here only before carrying forward to the next agent.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\25ef3d95-c0b1-44fb-8f79-bf211e56aae9.jsonl"
+  ],
+  "touched_files": [],
+  "verification": "captured from the owner's prompt by the UserPromptSubmit hook; these are the owner's words",
+  "cost_and_pending_requests": "none",
+  "confidence": "agent-reported; verify evidence before acting"
+}

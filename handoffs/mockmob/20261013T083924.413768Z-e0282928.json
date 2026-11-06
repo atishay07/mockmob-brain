@@ -1,0 +1,41 @@
+{
+  "id": "20261013T083924.413768Z-e0282928",
+  "observed_at": "2026-10-13T08:39:24.413768+00:00",
+  "agent": "claude-you-builder",
+  "task": "Flutter You area (WP7): edit everything onboarding captured, profile web parity, settings polish (owner feedback 1110)",
+  "status": "complete",
+  "done": "Hub now wires the existing (previously unreachable) editors: sheet card Edit opens the sheet editor (name, stage, course, colleges, category, subjects, confidence, worry, week), Subjects Edit opens the subjects editor (15 subjects, cap 5, PATCH /api/users/{id}, saved only after 200, then auth reload). Account rebuilt: PlanCard (Free/Pro tag, creditBalance or Unlimited, premiumUntil, manage text, no price), editable name (sheet, PATCH name), subjects row, email row. Usual length synced via GET/PUT /api/study/preferences with expectedRevision and one retry on 409 (notOpen when state disabled). YouHubScreen(tools:) slot for ToolsShelf. Mobi: sheet editor greets with intro line, subjects editor shrugs on 6th and cheers after acknowledged save, hub footer resting Mobi, help card waving Mobi, reminders prompt sheet greet/cheer/rest. Removed decorative bubbles in privacy event list. SheetEditor edits now wait for answers to load.",
+  "next": "Integrator: register /you/subjects and /you/sheet in router.dart (openYouPage falls back to direct push meanwhile); map /onboarding?edit=true and /profile in ActionRouter; switch youScreen to const YouHubScreen(tools: ToolsShelf()) once tools routes are registered. Device pass on Mobi timing. Core glass_surface.dart changed mid-pass by another agent; sheet goldens in you and notifications regenerated after it.",
+  "blockers": [
+    "No owner input needed. Router registration is the integrator's (lib/core/router not edited)."
+  ],
+  "evidence": [],
+  "touched_files": [
+    "flutter_app/lib/features/you/you_hub_screen.dart",
+    "flutter_app/lib/features/you/you_routes.dart",
+    "flutter_app/lib/features/you/hub/hub_sections.dart",
+    "flutter_app/lib/features/you/account/account_screen.dart",
+    "flutter_app/lib/features/you/account/plan_card.dart (new)",
+    "flutter_app/lib/features/you/data/study_length.dart (new)",
+    "flutter_app/lib/features/you/data/profile_editor.dart",
+    "flutter_app/lib/features/you/data/sheet_editor.dart",
+    "flutter_app/lib/features/you/sheet/sheet_editor_screen.dart",
+    "flutter_app/lib/features/you/sheet/week_editor.dart",
+    "flutter_app/lib/features/you/subjects/subjects_screen.dart",
+    "flutter_app/lib/features/you/help/help_screen.dart",
+    "flutter_app/lib/features/you/privacy/event_list_sheet.dart",
+    "flutter_app/lib/features/you/copy.dart",
+    "flutter_app/lib/features/you/edit_copy.dart",
+    "flutter_app/lib/features/notifications/screens/reminders_prompt_sheet.dart",
+    "flutter_app/test/unit/you/editors_test.dart (new)",
+    "flutter_app/test/unit/you/you_test_support.dart",
+    "flutter_app/test/unit/you/account_test.dart",
+    "flutter_app/test/unit/you/hub_test.dart",
+    "flutter_app/test/golden/you/you_editors_golden_test.dart (new)",
+    "flutter_app/test/golden/you/you_golden_test.dart",
+    "goldens in test/golden/you and test/golden/notifications"
+  ],
+  "verification": "flutter_locked analyze lib/features/you lib/features/notifications test/unit/you test/golden/you test/unit/notifications test/golden/notifications test/device_demo: no issues. Tests: test/unit/you + test/golden/you 54 goldens + editors 13 pass; test/unit/notifications 84 pass; test/golden/notifications 24 pass (each folder run alone after regenerating). Goldens viewed both themes: sheet_editor, subjects, subjects_cap, subjects_saved, account_free, name_sheet, hub_full_page, help, privacy_events, prompt_ask/granted/denied, settings_top/middle/error.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

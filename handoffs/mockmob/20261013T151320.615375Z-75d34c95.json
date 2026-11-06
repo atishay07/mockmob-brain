@@ -1,0 +1,21 @@
+{
+  "id": "20261013T151320.615375Z-75d34c95",
+  "observed_at": "2026-10-13T15:13:20.615375+00:00",
+  "agent": "claude-opus-5.5 (main orchestrator, session 604ced81)",
+  "task": "Owner-approved production hold of 325 bad questions; NTA, app and logo workflows running",
+  "status": "active",
+  "done": "The owner said \"Yes, hide them\" (13 Oct, about 20:42 IST). Applied with scripts/question-hold.mjs to production (mockmob-hotfix, fix/nta-mode, commit c1fc654).\n\nWhat was held:\n- 325 questions moved to the Mistake Repair hold (status pending / disputed / pending_review). Nothing deleted.\n- 279 come from the Haiku key recheck: 114 strong wrong keys, 21 weak, 94 ambiguous, 50 broken. 10 false alarms were kept.\n- 34 have the only-to-mainly text corruption.\n- 15 are demo seed rows (a1 to m3) labelled PYQ.\n\nChecks: dry run first, restore file docs/brain/reports/question-holds/restore-2026-10-13T15-12-52-067Z.json, after-check shows 0 still visible.\n\nNTA engine run committed as e1dbfe8: 6 of 15 subjects can start a paper.\n\nRunning workflows:\n- app round 3 (wf_09e4d5a9-88f): 23 Haiku audits, then Sonnet builders.\n- CUET-fit pass (wf_ca9ae40c-1f5): Haiku x3.\n- NTA engine fixes (wf_a9fd4cdc-f96).\n- logo B into app (wf_9e3e4eb5-aa5): reviews and fix, edits still uncommitted.\n\nOwner instructions this turn:\n- Use many Haiku agents at low or medium effort for checking and tagging, not Opus.\n- App UI/UX improvement and features must run continuously alongside everything else.\n- The owner's definition of a 10: PYQ with under 10% deviation and slightly harder; CBSE board questions; high-predictability CBT staples. Extremely hard questions are not 10s.\n- NTA must prefer the newest questions over older higher-scored ones.",
+  "next": "1) Repair pass for the 114 strong wrong-key questions: Haiku proposes the key, explanation and wording; five blind Haiku re-verify; then restore through a script. 2) Commit the logo work when its workflow finishes, and send the owner the animation frames. 3) Check the CUET-fit calibration and merge, and the NTA engine fixes. 4) Start the next app round as soon as round 3 ends; keep it continuous. 5) The homepage question counts update with the nightly inventory snapshot at 3:00 AM IST.",
+  "blockers": [],
+  "evidence": [
+    "mockmob-hotfix c1fc654 (scripts/question-hold.mjs, docs/brain/reports/question-holds/*)",
+    "mockmob-hotfix e1dbfe8 (NTA-ENGINE-RUN)"
+  ],
+  "touched_files": [
+    "mockmob-hotfix/scripts/question-hold.mjs",
+    "mockmob-hotfix/docs/brain/reports/question-holds/"
+  ],
+  "verification": "Production apply: held 325, stillVisible []. Restore path tested only by reading the code, not executed.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

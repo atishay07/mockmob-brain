@@ -1,0 +1,26 @@
+{
+  "id": "20261015T140758.984521Z-94d96119",
+  "observed_at": "2026-10-15T14:07:58.985538+00:00",
+  "agent": "practice-tab-scenes subagent (Opus 5.5)",
+  "task": "practice-tab-scenes: v3 item 8, Saved/stream empty scenes, EmblemFloat removal, Practice motion pass",
+  "status": "complete",
+  "done": "Commit 775bb896 on ui/phase2 (wt-phase2). Quick practice and By chapter moved directly under the suggestion card; Choose your own now opens tiles and longer sessions. Spring picks on tiles, dial, difficulty chips and subject chips (new widgets/spring_pick.dart). Tile objects alive at 84 dp with page-scroll lean. Saved empty uses the saved room scene; stream empty states use nothingYet, saved and noResults. EmblemFloat removed.",
+  "next": "Owner check of the new Practice tab order on the emulator when convenient. The new order runs: suggestion, quick pair, Choose your own, tiles, Smart, exam band. Picking a tile now changes the pair above it.",
+  "blockers": [],
+  "evidence": [
+    "flutter test test/unit/practice test/unit/insights: 424 passed",
+    "tab_dock_clearance_test first-view check at 360x780 passes",
+    "analyze of touched paths: no issues",
+    "goldens regenerated and opened: tab_*, confirm_*, chapter_picker_*, saved_empty_*, stream_empty_filters_*"
+  ],
+  "touched_files": [
+    "flutter_app/lib/features/practice/practice_screen.dart",
+    "flutter_app/lib/features/practice/widgets/{subject_tiles,length_dial,composer_parts,composer_ticket,card_motion,spring_pick}.dart",
+    "flutter_app/lib/features/insights/screens/{saved_screen,stream_screen}.dart",
+    "flutter_app/test/unit/practice/* (layout-dependent tests updated)",
+    "practice and insights goldens"
+  ],
+  "verification": "Unit tests for practice and insights, analyze, and goldens opened once. No emulator recording.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

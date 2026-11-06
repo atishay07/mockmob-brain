@@ -1,0 +1,798 @@
+{
+  "batch": "phys-03",
+  "subject": "physics",
+  "questions": [
+    {
+      "id": "c37ac200-ac31-42a5-b383-c0a8150a1771",
+      "subject": "physics",
+      "unit": "Optics",
+      "chapter": "Wave Optics",
+      "type": "single_mcq",
+      "stem": "In Young's double-slit experiment, λ = 600 nm, the screen distance D = 1.0 m and the slit separation d = 0.5 mm. What is the fringe width?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.6 mm"
+        },
+        {
+          "key": "B",
+          "text": "1.2 mm"
+        },
+        {
+          "key": "C",
+          "text": "2.4 mm"
+        },
+        {
+          "key": "D",
+          "text": "1.8 mm"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Fringe width is β = λD/d. Substituting gives β = (600 × 10⁻⁹ × 1.0)/(0.5 × 10⁻³) = 1.2 × 10⁻³ m = 1.2 mm. Doubling the slit separation would halve the fringe width.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 10 Wave Optics, Sec 10.5 (Young's double-slit experiment)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "fe0417ed-5791-41de-82df-dc27964ca5bb",
+      "subject": "physics",
+      "unit": "Optics",
+      "chapter": "Wave Optics",
+      "type": "single_mcq",
+      "stem": "According to Huygens' principle, how is the new position of a wavefront obtained from its previous position?",
+      "options": [
+        {
+          "key": "A",
+          "text": "By joining the source to the point of observation with a straight line"
+        },
+        {
+          "key": "B",
+          "text": "As the envelope of secondary wavelets drawn from every point of the previous wavefront"
+        },
+        {
+          "key": "C",
+          "text": "As the surface on which all rays meet at a single focus"
+        },
+        {
+          "key": "D",
+          "text": "As the locus of points where the path difference between two slits is zero"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Each point on a wavefront acts as a source of secondary wavelets that spread out with the speed of the wave in the medium. The new wavefront is the forward envelope (common tangent surface) of these wavelets after a time t. This construction explains reflection and refraction of plane wavefronts.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 10 Wave Optics, Sec 10.2 (Huygens' principle)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "dc2ce9a0-e395-4cd7-8eb0-65f3f42725fe",
+      "subject": "physics",
+      "unit": "Optics",
+      "chapter": "Wave Optics",
+      "type": "single_mcq",
+      "stem": "Sound from a room is heard clearly around a corner, but light from a lamp casts a sharp shadow behind the same corner. The best explanation is that:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Light is a transverse wave while sound is longitudinal, so light cannot bend around corners"
+        },
+        {
+          "key": "B",
+          "text": "Sound travels much faster than light in air"
+        },
+        {
+          "key": "C",
+          "text": "Sound wavelengths are comparable to the size of doorways and walls, whereas light wavelengths are far smaller"
+        },
+        {
+          "key": "D",
+          "text": "Light has a much higher frequency than sound, so it is absorbed at the corner"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Diffraction is significant when the size of an aperture or obstacle is comparable to the wavelength. Audible sound has wavelengths of roughly 1 cm to 20 m, comparable to doorways and walls, so it bends noticeably. Visible light, at about 400 to 700 nm, is far smaller, so its bending is usually too small to notice.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 10 Wave Optics, Sec 10.6 (Diffraction)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "0e2ae512-b283-4e41-80ef-31ef6ac18fd1",
+      "subject": "physics",
+      "unit": "Optics",
+      "chapter": "Wave Optics",
+      "type": "single_mcq",
+      "stem": "Two coherent light sources produce an interference pattern. Their individual intensities are in the ratio 4 : 1. What is the ratio of the maximum to the minimum intensity in the pattern?",
+      "options": [
+        {
+          "key": "A",
+          "text": "3 : 1"
+        },
+        {
+          "key": "B",
+          "text": "9 : 1"
+        },
+        {
+          "key": "C",
+          "text": "4 : 1"
+        },
+        {
+          "key": "D",
+          "text": "5 : 1"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Intensity is proportional to amplitude squared, so the amplitudes are in the ratio 2 : 1. Taking a1 = 2 and a2 = 1, the maximum intensity is proportional to (a1 + a2)² = 9 and the minimum to (a1 − a2)² = 1. The ratio is therefore 9 : 1.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 10 Wave Optics, Sec 10.4 to 10.5 (coherent sources and interference intensity)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "ac790a10-fd25-4723-8101-0ef4ac18fde3",
+      "subject": "physics",
+      "unit": "Optics",
+      "chapter": "Wave Optics",
+      "type": "single_mcq",
+      "stem": "In a single-slit diffraction experiment, the slit width is 0.3 mm, the wavelength is 600 nm and the screen is 1.5 m away. What is the distance of the first dark fringe from the centre of the central maximum?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1.5 mm"
+        },
+        {
+          "key": "B",
+          "text": "6 mm"
+        },
+        {
+          "key": "C",
+          "text": "0.3 mm"
+        },
+        {
+          "key": "D",
+          "text": "3 mm"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "For single-slit diffraction the first minimum satisfies a sinθ = λ, and for small angles the fringe position is y = Dθ = λD/a. Here y = (600 × 10⁻⁹ × 1.5)/(0.3 × 10⁻³) = 3 × 10⁻³ m = 3 mm. The full width of the central maximum is twice this value.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 10 Wave Optics, Sec 10.6 (Diffraction due to a single slit)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "0392836e-9179-49bd-b40b-efb9cd1dad4e",
+      "subject": "physics",
+      "unit": "Optics",
+      "chapter": "Wave Optics",
+      "type": "assertion_reason",
+      "stem": "Assertion: At the polarising angle, the reflected and refracted rays are perpendicular to each other.\nReason: At the polarising angle, tan i_p equals the refractive index of the medium.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Both A and R are true, and R correctly explains A"
+        },
+        {
+          "key": "B",
+          "text": "Both A and R are true, but R does not explain A"
+        },
+        {
+          "key": "C",
+          "text": "A is true, but R is false"
+        },
+        {
+          "key": "D",
+          "text": "A is false, but R is true"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "At the polarising angle i_p, Brewster’s law gives tan i_p = μ. Snell’s law then gives sin i_p / sin r = μ, so sin r = cos i_p and r = 90° − i_p. The reflected and refracted rays therefore make 90° with each other, so R explains A.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 10 Wave Optics, Sec 10.7 (Polarisation and Brewster's law)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "5c5ecfa2-89c2-4360-ae66-4d20bc0a5239",
+      "subject": "physics",
+      "unit": "Optics",
+      "chapter": "Wave Optics",
+      "type": "single_mcq",
+      "stem": "Unpolarised light of intensity I₀ passes through a polaroid (polariser) and then through a second polaroid (analyser) whose axis is at 60° to the first. What is the transmitted intensity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "I₀/2"
+        },
+        {
+          "key": "B",
+          "text": "I₀/4"
+        },
+        {
+          "key": "C",
+          "text": "I₀/8"
+        },
+        {
+          "key": "D",
+          "text": "I₀/16"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "The first polaroid transmits half of the unpolarised intensity, giving I₀/2 of plane-polarised light. Malus’s law I = I₁cos²θ then gives (I₀/2)cos²60° = (I₀/2)(1/4) = I₀/8. Omitting the halving at the first polaroid gives the trap answer I₀/4.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 10 Wave Optics, Sec 10.7 (Polarisation and Malus's law)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "75299146-fa6b-4a36-a45e-8d012723a4ec",
+      "subject": "physics",
+      "unit": "Optics",
+      "chapter": "Wave Optics",
+      "type": "single_mcq",
+      "stem": "Two coherent sources each produce an intensity I₀ at a point on a screen. At a point where the path difference is λ/3, what is the resultant intensity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "I₀"
+        },
+        {
+          "key": "C",
+          "text": "2I₀"
+        },
+        {
+          "key": "D",
+          "text": "4I₀"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "The resultant intensity is I = 4I₀cos²(φ/2), where φ = 2π × (path difference)/λ. For a path difference of λ/3, φ = 2π/3 and cos²(π/3) = 1/4, so I = 4I₀ × 1/4 = I₀. The maximum possible value is 4I₀, reached at zero path difference.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 10 Wave Optics, Sec 10.5 (Interference of light waves and Young’s experiment)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "0731d7d3-671e-4714-8b36-65d0a388117c",
+      "subject": "physics",
+      "unit": "Optics",
+      "chapter": "Wave Optics",
+      "type": "single_mcq",
+      "stem": "In a Young's double-slit experiment with λ = 500 nm, D = 1 m and d = 1 mm, a thin transparent sheet of thickness 10 μm and refractive index 1.5 is placed in front of one slit. By how many fringes does the pattern shift?",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "20"
+        },
+        {
+          "key": "C",
+          "text": "1"
+        },
+        {
+          "key": "D",
+          "text": "10"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "The shift of the pattern is x = (μ − 1)tD/d = 0.5 × 10 μm × 1 m / 1 mm = 5 mm. The fringe width is β = λD/d = 0.5 mm, so the number of fringes shifted is x/β = (μ − 1)t/λ = 10.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 10 Wave Optics, Sec 10.5 (Young's double-slit experiment)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "4b97458d-a381-4f1a-a2b7-fcceb8a3cd94",
+      "subject": "physics",
+      "unit": "Electromagnetic Waves",
+      "chapter": "Electromagnetic Waves",
+      "type": "single_mcq",
+      "stem": "Maxwell introduced displacement current to make Ampère’s law consistent for a capacitor being charged. Displacement current is associated with which quantity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The rate of change of electric flux, ε₀ dΦE/dt"
+        },
+        {
+          "key": "B",
+          "text": "The flow of free electrons in the connecting wire"
+        },
+        {
+          "key": "C",
+          "text": "The steady magnetic field produced by a constant current"
+        },
+        {
+          "key": "D",
+          "text": "The rate of change of magnetic monopole density"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Displacement current I_d = ε₀ dΦE/dt is not a flow of charge. It is the changing electric field between capacitor plates, and it produces a magnetic field just as a conduction current does. This correction keeps Ampère’s law consistent with charge conservation.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 8 Electromagnetic Waves, Sec 8.2 (Displacement current)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "68e3c2d7-242d-4736-b989-93d19ef92835",
+      "subject": "physics",
+      "unit": "Electromagnetic Waves",
+      "chapter": "Electromagnetic Waves",
+      "type": "single_mcq",
+      "stem": "Given μ₀ = 4π × 10⁻⁷ T·m/A and ε₀ = 8.85 × 10⁻¹² C²/(N·m²), what is the speed of electromagnetic waves in vacuum, from c = 1/√(μ₀ε₀)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "3.0 × 10⁶ m/s"
+        },
+        {
+          "key": "B",
+          "text": "1.5 × 10⁸ m/s"
+        },
+        {
+          "key": "C",
+          "text": "3.0 × 10⁸ m/s"
+        },
+        {
+          "key": "D",
+          "text": "9.0 × 10¹⁶ m/s"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "μ₀ε₀ = 4π × 10⁻⁷ × 8.85 × 10⁻¹² ≈ 1.11 × 10⁻¹⁷ s²/m². Taking the reciprocal square root gives c ≈ 3.0 × 10⁸ m/s. The speed of light is therefore fixed by the electric and magnetic properties of vacuum.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 8 Electromagnetic Waves, Sec 8.2 to 8.3 (Electromagnetic waves and their speed)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "fc6098bd-ef63-4d76-8a35-0568d11957ae",
+      "subject": "physics",
+      "unit": "Electromagnetic Waves",
+      "chapter": "Electromagnetic Waves",
+      "type": "sequence_ordering",
+      "stem": "Arrange the following electromagnetic waves in order of increasing wavelength, that is, shortest wavelength first: gamma rays, visible light, microwaves and radio waves.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gamma rays → visible light → microwaves → radio waves"
+        },
+        {
+          "key": "B",
+          "text": "Visible light → gamma rays → radio waves → microwaves"
+        },
+        {
+          "key": "C",
+          "text": "Radio waves → microwaves → visible light → gamma rays"
+        },
+        {
+          "key": "D",
+          "text": "Gamma rays → microwaves → visible light → radio waves"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Wavelength decreases as frequency increases across the spectrum. Radio waves are the longest, then microwaves, infrared, visible light, ultraviolet, X-rays and gamma rays are the shortest. So increasing wavelength runs gamma rays, visible light, microwaves, radio waves.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 8 Electromagnetic Waves, Sec 8.5 (Electromagnetic spectrum)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "d72339f5-bbbc-48ea-9e57-12b89e48e029",
+      "subject": "physics",
+      "unit": "Electromagnetic Waves",
+      "chapter": "Electromagnetic Waves",
+      "type": "match_the_following",
+      "stem": "Match List I (electromagnetic wave) with List II (use). List I: (a) Infrared (b) Ultraviolet (c) X-rays (d) Microwaves. List II: (P) Sterilising water and killing bacteria (Q) Radiographs of bones (R) Thermal imaging and TV remote controls (S) Radar and satellite communication. Choose the correct answer from the options given below.",
+      "options": [
+        {
+          "key": "A",
+          "text": "a–P, b–Q, c–R, d–S"
+        },
+        {
+          "key": "B",
+          "text": "a–R, b–P, c–Q, d–S"
+        },
+        {
+          "key": "C",
+          "text": "a–S, b–R, c–P, d–Q"
+        },
+        {
+          "key": "D",
+          "text": "a–Q, b–S, c–R, d–P"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Infrared is used in thermal imaging and remote controls (R), ultraviolet sterilises water and kills bacteria (P), X-rays produce radiographs of bones (Q), and microwaves are used in radar and satellite communication (S). The correct pairing is a–R, b–P, c–Q, d–S.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 8 Electromagnetic Waves, Sec 8.5 (Electromagnetic spectrum and uses)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "90eccf23-4148-4c31-b430-b3d4ab676ad3",
+      "subject": "physics",
+      "unit": "Electromagnetic Waves",
+      "chapter": "Electromagnetic Waves",
+      "type": "single_mcq",
+      "stem": "An electromagnetic wave travels in the −z direction in vacuum. At an instant, its magnetic field points along +x. Along which direction does its electric field point at that instant?",
+      "options": [
+        {
+          "key": "A",
+          "text": "+x"
+        },
+        {
+          "key": "B",
+          "text": "+y"
+        },
+        {
+          "key": "C",
+          "text": "−z"
+        },
+        {
+          "key": "D",
+          "text": "+z"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "In an electromagnetic wave E, B and the direction of propagation are mutually perpendicular, with propagation along E × B. With B along +x and propagation along −z, E must be along +y, since ŷ × x̂ = −ẑ. So the electric field points along +y at that instant.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 8 Electromagnetic Waves, Sec 8.3 (Electromagnetic waves: transverse nature and E, B directions)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "3a02b025-c5f6-4fce-b1ea-065b95c32dbd",
+      "subject": "physics",
+      "unit": "Electromagnetic Waves",
+      "chapter": "Electromagnetic Waves",
+      "type": "single_mcq",
+      "stem": "A microwave of frequency 1.5 GHz travels in vacuum. What is its wavelength? (Take c = 3 × 10⁸ m/s.)",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.02 m"
+        },
+        {
+          "key": "B",
+          "text": "0.5 m"
+        },
+        {
+          "key": "C",
+          "text": "2 m"
+        },
+        {
+          "key": "D",
+          "text": "0.2 m"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "The wavelength in vacuum is λ = c/f = (3 × 10⁸)/(1.5 × 10⁹) = 0.2 m. All electromagnetic waves travel at c in vacuum, so wavelength and frequency are inversely related.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 8 Electromagnetic Waves, Sec 8.5 (Electromagnetic spectrum)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "fb9cd358-0b96-4d88-948d-61c5f12549d6",
+      "subject": "physics",
+      "unit": "Optics",
+      "chapter": "Ray Optics & Optical Instruments",
+      "type": "single_mcq",
+      "stem": "Both surfaces of a biconvex lens of refractive index 1.5 have radii of curvature of magnitude 20 cm. What is the focal length of the lens in air?",
+      "options": [
+        {
+          "key": "A",
+          "text": "10 cm"
+        },
+        {
+          "key": "B",
+          "text": "20 cm"
+        },
+        {
+          "key": "C",
+          "text": "30 cm"
+        },
+        {
+          "key": "D",
+          "text": "40 cm"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "The lens maker's formula is 1/f = (μ − 1)(1/R₁ − 1/R₂). With R₁ = +20 cm and R₂ = −20 cm (Cartesian sign convention), 1/f = 0.5 × (1/20 + 1/20) = 1/20 cm⁻¹, so f = 20 cm. Taking R₂ as +20 cm gives an infinite focal length, a common sign slip.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 9 Ray Optics, Sec 9.5 (Refraction at spherical surfaces and by lenses)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "4e2730f5-b6b5-4784-8ad4-fb9b909398de",
+      "subject": "physics",
+      "unit": "Optics",
+      "chapter": "Ray Optics & Optical Instruments",
+      "type": "single_mcq",
+      "stem": "An equilateral prism of refracting angle A = 60° is set at minimum deviation, where the angle of minimum deviation is δm = 30°. What is the refractive index of the prism material?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1.33"
+        },
+        {
+          "key": "B",
+          "text": "1.73"
+        },
+        {
+          "key": "C",
+          "text": "1.41"
+        },
+        {
+          "key": "D",
+          "text": "1.50"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "At minimum deviation the refractive index is μ = sin((A + δm)/2) / sin(A/2) = sin 45° / sin 30° = 0.707 / 0.5 ≈ 1.41. The prism angle and the minimum deviation together fix the index, so the formula is applied directly.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 9 Ray Optics, Sec 9.6 (Refraction through a prism)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "abb95356-5484-457f-87c3-9668cd683b07",
+      "subject": "physics",
+      "unit": "Optics",
+      "chapter": "Ray Optics & Optical Instruments",
+      "type": "single_mcq",
+      "stem": "What is the approximate critical angle for light travelling from glass (μ = 1.5) to air?",
+      "options": [
+        {
+          "key": "A",
+          "text": "30°"
+        },
+        {
+          "key": "B",
+          "text": "42°"
+        },
+        {
+          "key": "C",
+          "text": "48°"
+        },
+        {
+          "key": "D",
+          "text": "60°"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "The critical angle C satisfies sin C = μ_air/μ_glass = 1/1.5 = 2/3. Since sin 42° ≈ 0.67, C ≈ 42°. Light striking the interface at angles larger than C undergoes total internal reflection.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 9 Ray Optics, Sec 9.4 (Total internal reflection)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "ab6c6117-e474-4b8c-907a-59951e5ceb37",
+      "subject": "physics",
+      "unit": "Optics",
+      "chapter": "Ray Optics & Optical Instruments",
+      "type": "single_mcq",
+      "stem": "An astronomical telescope in normal adjustment has an objective of focal length 120 cm and an eyepiece of focal length 4 cm. What is its magnifying power?",
+      "options": [
+        {
+          "key": "A",
+          "text": "30"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "116"
+        },
+        {
+          "key": "D",
+          "text": "480"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "In normal adjustment the magnifying power of an astronomical telescope is M = f_o/f_e = 120/4 = 30. The final image is at infinity, and the length of the telescope is then f_o + f_e.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 9 Ray Optics, Sec 9.7 (Optical instruments: telescope)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "405b35f7-e06b-4e4f-a3c7-fd61928658d4",
+      "subject": "physics",
+      "unit": "Electromagnetic Induction and Alternating Currents",
+      "chapter": "Alternating Current",
+      "type": "single_mcq",
+      "stem": "A sinusoidal alternating current i = I₀ sin ωt flows in a circuit. What is the average value of the current over one half cycle, from t = 0 to t = T/2?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "I₀/√2"
+        },
+        {
+          "key": "C",
+          "text": "2I₀/π"
+        },
+        {
+          "key": "D",
+          "text": "I₀"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Over a complete cycle the average of a sine function is zero, but over a half cycle it is not. The half-cycle average is (2/T) ∫₀^(T/2) I₀ sin ωt dt = 2I₀/π ≈ 0.637 I₀. I₀/√2 is the rms value, which is a different quantity.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 7 Alternating Current, Sec 7.2 (AC voltage applied to a resistor)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "2be3fcb0-30ce-427f-ae83-14e5d868f7d0",
+      "subject": "physics",
+      "unit": "Electromagnetic Induction and Alternating Currents",
+      "chapter": "Alternating Current",
+      "type": "single_mcq",
+      "stem": "A 100 μF capacitor is connected to a 50 Hz AC supply. What is its capacitive reactance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "3.2 Ω"
+        },
+        {
+          "key": "B",
+          "text": "31.8 Ω"
+        },
+        {
+          "key": "C",
+          "text": "318 Ω"
+        },
+        {
+          "key": "D",
+          "text": "0.0032 Ω"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Capacitive reactance is X_C = 1/(ωC), where ω = 2πf ≈ 314 rad/s. So X_C = 1/(314 × 100 × 10⁻⁶) ≈ 31.8 Ω. Reactance falls as frequency or capacitance increases, and an ideal capacitor dissipates no average power.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 7 Alternating Current, Sec 7.4 (AC voltage applied to a capacitor)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "f3677c62-dac9-4fbd-9c40-f3874e49b06c",
+      "subject": "physics",
+      "unit": "Electromagnetic Induction and Alternating Currents",
+      "chapter": "Alternating Current",
+      "type": "single_mcq",
+      "stem": "A series LCR circuit has R = 3 Ω, X_L = 8 Ω and X_C = 4 Ω. An rms current of 10 A flows in the circuit. What is the average power dissipated?",
+      "options": [
+        {
+          "key": "A",
+          "text": "150 W"
+        },
+        {
+          "key": "B",
+          "text": "500 W"
+        },
+        {
+          "key": "C",
+          "text": "400 W"
+        },
+        {
+          "key": "D",
+          "text": "300 W"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "The impedance is Z = √(R² + (X_L − X_C)²) = √(9 + 16) = 5 Ω, so cos φ = R/Z = 0.6. The average power is P = I_rms²R = 100 × 3 = 300 W, which equals V_rms I_rms cos φ = 50 × 10 × 0.6. Reactive components do not dissipate average power.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 7 Alternating Current, Sec 7.5 and 7.7 (LCR series circuit and power in AC circuits)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "7156b397-65f5-4272-aad7-2444451f0d72",
+      "subject": "physics",
+      "unit": "Electromagnetic Induction and Alternating Currents",
+      "chapter": "Alternating Current",
+      "type": "single_mcq",
+      "stem": "A series LCR circuit has L = 2 mH and C = 50 μF. What is its resonant frequency?",
+      "options": [
+        {
+          "key": "A",
+          "text": "50 Hz"
+        },
+        {
+          "key": "B",
+          "text": "503 Hz"
+        },
+        {
+          "key": "C",
+          "text": "5.03 kHz"
+        },
+        {
+          "key": "D",
+          "text": "159 Hz"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Resonance occurs when X_L = X_C, at f₀ = 1/(2π√(LC)). Here LC = 1.0 × 10⁻⁷ s², so √(LC) = 3.16 × 10⁻⁴ s and f₀ ≈ 503 Hz. At resonance the impedance is minimum and the power factor is unity.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 7 Alternating Current, Sec 7.5 (LCR series circuit and resonance)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "8e7f15cc-e80f-455f-81f0-fbbd13ee56b3",
+      "subject": "physics",
+      "unit": "Electromagnetic Induction and Alternating Currents",
+      "chapter": "Alternating Current",
+      "type": "single_mcq",
+      "stem": "An ideal step-up transformer has turns ratio N_p : N_s = 1 : 20 and is connected to a 230 V supply. If the secondary delivers 0.5 A to its load, what is the current in the primary coil?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.025 A"
+        },
+        {
+          "key": "B",
+          "text": "0.5 A"
+        },
+        {
+          "key": "C",
+          "text": "10 A"
+        },
+        {
+          "key": "D",
+          "text": "11.5 A"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "For an ideal transformer, V_p I_p = V_s I_s. The secondary voltage is 4600 V, so 230 × I_p = 4600 × 0.5 and I_p = 10 A. A step-up transformer raises voltage and reduces current on the secondary side in the same proportion.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part I, Ch 7 Alternating Current, Sec 7.9 (Transformers)",
+      "source": "claude-authored-2026-10-17-w3"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "20261018T204324.822506Z-db847f29",
+  "observed_at": "2026-10-18T20:43:24.822506+00:00",
+  "agent": "claude-opus-5.5 (session 25ef3d95, main, the ORIGINAL session)",
+  "task": "19 Oct, about 2:15 am: CORRECTION of the Autopilot fork's handover; PLAN-1019 is running in session 25ef3d95",
+  "status": "active",
+  "done": "The Autopilot fork 6f206609 wrongly reported the 10 agents dead, launched duplicates, and was stopped by the owner at 2:09 am. Its handover (fadb0096) saying \"relaunch all 10 agents\" is WRONG: the 10 original agents of session 25ef3d95 (A1, A2a, A2b, A3, A5, A4a, A4b, B1, B2, B3; briefs in docs/brain/briefs-1019) are ALIVE and working. NOW.md is corrected (6ed48597). The owner chose: no Autopilot tonight (D113).",
+  "next": "Do NOT relaunch agents while session 25ef3d95 is active. Session 25ef3d95 merges owners into wt-v15-3 and wt-rel11 as they finish, picks the mock-ups by recommendation (D112), builds Wave C, runs the walks and the verifier, builds the v15.3 APK and readies release 11 (follow AUTOPILOT-GOAL-1019.md steps 1-5). Only if this session is gone (no agent transcript written for 15+ minutes) should a new session relaunch from the briefs.",
+  "blockers": [],
+  "evidence": [
+    "mockmob-next 6ed48597 NOW.md correction",
+    "agent transcripts under ~/.claude/projects/C--Users-atish-Desktop-mockmob-copy/25ef3d95-*/subagents written at 2:11 am",
+    "fork transcript 6f206609 shows TaskStop of its duplicates at 2:09:48"
+  ],
+  "touched_files": [],
+  "verification": "Agent transcript mtimes checked at 2:11:50 am; worktree heads checked with git.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

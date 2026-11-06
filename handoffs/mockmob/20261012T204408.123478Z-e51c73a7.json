@@ -1,0 +1,38 @@
+{
+  "id": "20261012T204408.123478Z-e51c73a7",
+  "observed_at": "2026-10-12T20:44:08.123478+00:00",
+  "agent": "claude-code opus-5.5 (desktop session 604ced81)",
+  "task": "MockMob Android app: real-device test on owner's budget phone (Samsung Galaxy M06 SM-M066B, Android 16, 3.5 GB RAM, 720x1600, adb R9ZY9056DVF) and fixes; wave A workflow finishing",
+  "status": "active",
+  "done": "Phone test (profile APK, in.mockmob.app) against local staging site: Welcome, subject, 5 sample questions (right and wrong states), sample result, sign-in sheet, email code, code entry, signed in as app-e2e-student@example.com; You hub, Privacy usage data on/off verified on the staging DB (usage_consent analytics_allowed true then false with withdrawn_at), Notifications, Appearance dark mode, Learn (correctly disabled: STUDY_CONTENT_ENABLED off on staging), Practice tab, Quick practice setup, POST /api/sessions 200 then runner placeholder, Account. Cold start 1.07 s, warm 0.47 s. Fixed and committed on feat/app-and-web: cfae2b3 staging email-login skip (MOCKMOB_STAGING_APP=1 and not production), 6b6037b+354d734 scripts/dev/supabase-usb-relay.mjs (RELAY_LOCAL_ADDRESS) and stagingLocalApp STAGING_SUPABASE_RELAY, 43557d9 app fixes: local-first launch from cached profile (was ~3 s placeholder splash waiting on /api/auth/me), real splash (ground + wordmark), notification settings refresh on open/resume plus non-offline stale copy, usage data on shows saved line after server ack. 671 flutter tests pass; analyze clean. wave-bc.js updated with runner back finding and relay/profile-build device steps.",
+  "next": "1) Phone came back offline in adb (USB link restarted, PC Wi-Fi also dropped); when online, install mockmob-phone/flutter_app/build/app/outputs/flutter-apk/app-profile.apk (built with fixes) and verify cold start goes splash->Today quickly, notifications refresh, usage on line. 2) Wave A workflow wf_c3d72890-ffa is in its Fix stage (Sonnet); then verify, commit its uncommitted changes in mockmob-next/flutter_app. 3) Launch tmp/workflows/wave-bc.js (Today, runner, result fold, review/repair, widget) with device testing on the M06. 4) Owner push of mockmob-hotfix 52de7fe (eligibilitySnapshot) still pending; then verify prod /api/stats fast. Polish list: You hub row titles heavy, stepper minus glyph, sample q5 feedback card tight above CTA.",
+  "blockers": [
+    "PC preferred route is the phone's USB tethering (metric 25), which often cannot reach Supabase; asked owner to turn USB tethering off; relay workaround in place",
+    "adb shows R9ZY9056DVF offline at 02:15 IST",
+    "Owner push of 52de7fe pending",
+    "Google OAuth and Firebase IDs (owner) for Google sign-in and push"
+  ],
+  "evidence": [
+    "mockmob-next/tmp/app-shots/m06/01..37 screenshots",
+    "staging usage_consent row: analytics_allowed true at 20:26:13Z then false with withdrawn_at 20:29:05Z",
+    "flutter test -j 1 (core_ui, notifications, you, core_data, widget_test, notifications goldens): 671 passed",
+    "staging server log: POST /api/sessions 200 in 3.8s"
+  ],
+  "touched_files": [
+    "src/app/api/auth/email-login/route.js",
+    "scripts/dev/supabase-usb-relay.mjs",
+    "scripts/pipeline/tools/stagingLocalApp.mjs",
+    "flutter_app/lib/core/router/splash_screen.dart",
+    "flutter_app/lib/core/router/screens.dart",
+    "flutter_app/lib/core/auth/auth_controller.dart",
+    "flutter_app/lib/features/notifications/screens/notification_settings_screen.dart",
+    "flutter_app/lib/features/notifications/copy.dart",
+    "flutter_app/lib/features/you/privacy/usage_data_controller.dart",
+    "flutter_app/lib/features/you/privacy/usage_data_card.dart",
+    "flutter_app/lib/features/you/copy.dart",
+    "tmp/workflows/wave-bc.js"
+  ],
+  "verification": "Device: manual adb-driven pass with screenshots opened; server writes checked in staging DB. Code: flutter analyze on changed areas clean; 671 tests pass. Fixed APK built but not yet installed (device offline).",
+  "cost_and_pending_requests": "none (no paid model calls)",
+  "confidence": "agent-reported; verify evidence before acting"
+}

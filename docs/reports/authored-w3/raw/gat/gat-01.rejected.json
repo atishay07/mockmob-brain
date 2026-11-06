@@ -1,0 +1,74 @@
+{
+  "batch": "gat-01",
+  "subject": "general_test",
+  "questions": [
+    {
+      "id": "aa8a3c27-7c47-4174-adbe-3cbdd04973d0",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "In a code language, 'bright sun rises' is written as '47 12 83' and 'sun sets early' is written as '12 65 39'. What is the code for 'early'?",
+      "options": [
+        {
+          "key": "A",
+          "text": "47"
+        },
+        {
+          "key": "B",
+          "text": "65"
+        },
+        {
+          "key": "C",
+          "text": "39"
+        },
+        {
+          "key": "D",
+          "text": "83"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "The word 'sun' appears in both codes and is coded 12 in both, so each word keeps one number. The first code gives bright = 47 and rises = 83, and the second gives sets = 65. The remaining number, 39, must be the code for 'early'.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Coding-decoding (common word matching)",
+      "source": "claude-authored-2026-10-17-w3",
+      "reason": "Unresolvable: the two codes fix bright=47, rises=83 and sets/early get 65 and 39 with no rule to tell which is which. The key (39) and the explanation's claim 'sets = 65' are not supported by the stem, so options 65 and 39 are both defensible."
+    },
+    {
+      "id": "bf6bc3fe-cb8b-4fe7-8681-eb3dc78c4e0f",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "Statement I: Heavy rain flooded the low-lying roads of the town. Statement II: Several bus routes were suspended for the day. Which of the following is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "I is the cause and II is its effect"
+        },
+        {
+          "key": "B",
+          "text": "II is the cause and I is its effect"
+        },
+        {
+          "key": "C",
+          "text": "Both are effects of a third, unstated cause"
+        },
+        {
+          "key": "D",
+          "text": "Neither statement is related to the other"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "A cause comes before its effect and brings it about. Flooded roads (I) make it unsafe for buses to run, which leads to suspended routes (II). The reverse order makes no sense, and no unstated third cause is needed to explain the link.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Cause and effect",
+      "source": "claude-authored-2026-10-17-w3",
+      "reason": "multiple_defensible: Option C (both are effects of a common cause, heavy rain) is at least as defensible as the key. The key relies on an inferred link (flooded roads make bus routes suspended) that the statements do not state, and option C's wording is contestable. Not unambiguous for a CUET item."
+    }
+  ]
+}

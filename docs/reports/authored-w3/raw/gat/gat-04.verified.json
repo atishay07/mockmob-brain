@@ -1,0 +1,798 @@
+{
+  "batch": "gat-04",
+  "subject": "general_test",
+  "questions": [
+    {
+      "id": "cc704589-53b7-4f63-8da8-e2a3d2d05712",
+      "subject": "general_test",
+      "unit": "General Mental Ability",
+      "chapter": "General Mental Ability",
+      "type": "single_mcq",
+      "stem": "Find the letter that replaces the question mark in the series: A, C, F, J, O, ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "S"
+        },
+        {
+          "key": "B",
+          "text": "T"
+        },
+        {
+          "key": "C",
+          "text": "U"
+        },
+        {
+          "key": "D",
+          "text": "V"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "The gaps between the letters' positions in the alphabet increase by one each time: A(1), C(3), F(6), J(10), O(15). The next gap is 6, so the next position is 15 + 6 = 21, which is U.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "CUET GAT syllabus, General Mental Ability: Number and letter series",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "c7a53dc5-7fcd-4abe-b119-dcf3a7faeecc",
+      "subject": "general_test",
+      "unit": "General Mental Ability",
+      "chapter": "General Mental Ability",
+      "type": "single_mcq",
+      "stem": "Four of the following numbers belong to one group. Which number does not belong?",
+      "options": [
+        {
+          "key": "A",
+          "text": "9"
+        },
+        {
+          "key": "B",
+          "text": "16"
+        },
+        {
+          "key": "C",
+          "text": "24"
+        },
+        {
+          "key": "D",
+          "text": "49"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "9, 16 and 49 are perfect squares (3², 4², 7²). 24 is not a perfect square, so it is the odd one out.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "CUET GAT syllabus, General Mental Ability: Odd one out (number properties)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "12fbdaab-5d8a-4b16-978b-55747e7b0529",
+      "subject": "general_test",
+      "unit": "General Mental Ability",
+      "chapter": "General Mental Ability",
+      "type": "single_mcq",
+      "stem": "Compass : Direction :: Barometer : ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Temperature"
+        },
+        {
+          "key": "B",
+          "text": "Pressure"
+        },
+        {
+          "key": "C",
+          "text": "Humidity"
+        },
+        {
+          "key": "D",
+          "text": "Rainfall"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "A compass is the instrument used to measure direction. A barometer is the instrument used to measure atmospheric pressure, so the analogy is Pressure.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "CUET GAT syllabus, General Mental Ability: Analogies (instrument and quantity measured)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "645bed97-917e-45b9-a975-d2fa08619ddd",
+      "subject": "general_test",
+      "unit": "General Mental Ability",
+      "chapter": "General Mental Ability",
+      "type": "single_mcq",
+      "stem": "In a certain code, '+' means '×', '×' means '÷', '÷' means '−' and '−' means '+'. Using this code, what is the value of 18 + 6 × 3 ÷ 2 − 1? Solve from left to right.",
+      "options": [
+        {
+          "key": "A",
+          "text": "33"
+        },
+        {
+          "key": "B",
+          "text": "34"
+        },
+        {
+          "key": "C",
+          "text": "35"
+        },
+        {
+          "key": "D",
+          "text": "36"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Replace each symbol: 18 + 6 becomes 18 × 6 = 108. Then × 3 becomes ÷ 3, giving 36. Then ÷ 2 becomes − 2, giving 34. Finally − 1 becomes + 1, giving 35.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, General Mental Ability: Mathematical operations (symbol substitution)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "17afca30-b3fa-40a5-98be-b3189fbb00b4",
+      "subject": "general_test",
+      "unit": "General Mental Ability",
+      "chapter": "General Mental Ability",
+      "type": "single_mcq",
+      "stem": "If each letter of the word CHART is replaced by its position in the English alphabet (A = 1, B = 2 and so on) and the numbers are added, what is the total?",
+      "options": [
+        {
+          "key": "A",
+          "text": "48"
+        },
+        {
+          "key": "B",
+          "text": "50"
+        },
+        {
+          "key": "C",
+          "text": "52"
+        },
+        {
+          "key": "D",
+          "text": "55"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "C = 3, H = 8, A = 1, R = 18 and T = 20. Their sum is 3 + 8 + 1 + 18 + 20 = 50.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, General Mental Ability: Alphabet position and letter coding",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "fb045322-08ef-4936-ba8a-3be3190bc89e",
+      "subject": "general_test",
+      "unit": "General Mental Ability",
+      "chapter": "General Mental Ability",
+      "type": "single_mcq",
+      "stem": "In a class, Meera is 15th from the top and 18th from the bottom when the students are ranked by height with no ties. How many students are in the class?",
+      "options": [
+        {
+          "key": "A",
+          "text": "30"
+        },
+        {
+          "key": "B",
+          "text": "32"
+        },
+        {
+          "key": "C",
+          "text": "33"
+        },
+        {
+          "key": "D",
+          "text": "34"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Counting Meera twice, the class has 15 + 18 − 1 = 32 students. The ranks from the top and from the bottom both include her position.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, General Mental Ability: Ranking and order",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "76a4ec3a-0bfe-43ae-8afb-855d89439611",
+      "subject": "general_test",
+      "unit": "General Mental Ability",
+      "chapter": "General Mental Ability",
+      "type": "single_mcq",
+      "stem": "Find the next term in the series: 3, 4, 7, 11, 18, 29, ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "40"
+        },
+        {
+          "key": "B",
+          "text": "45"
+        },
+        {
+          "key": "C",
+          "text": "47"
+        },
+        {
+          "key": "D",
+          "text": "52"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Each term is the sum of the two terms before it: 3 + 4 = 7, 4 + 7 = 11, 7 + 11 = 18 and 11 + 18 = 29. So the next term is 18 + 29 = 47.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, General Mental Ability: Number series (recurrence pattern)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "afbe82bd-a14e-4f5d-bfd6-a25d30ed0864",
+      "subject": "general_test",
+      "unit": "General Mental Ability",
+      "chapter": "General Mental Ability",
+      "type": "single_mcq",
+      "stem": "Each row of the grid below follows the same rule. Row 1: 2, 3, 6. Row 2: 4, 5, 20. Row 3: 7, 2, ?. What number replaces the question mark?",
+      "options": [
+        {
+          "key": "A",
+          "text": "9"
+        },
+        {
+          "key": "B",
+          "text": "14"
+        },
+        {
+          "key": "C",
+          "text": "16"
+        },
+        {
+          "key": "D",
+          "text": "21"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "In every row, the third number equals the first number multiplied by the second. Row 1 gives 2 × 3 = 6 and Row 2 gives 4 × 5 = 20. For Row 3, 7 × 2 = 14.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "CUET GAT syllabus, General Mental Ability: Missing number in a grid (row rule)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "307b8146-2141-49c9-abb2-cdc2e2c42bb9",
+      "subject": "general_test",
+      "unit": "General Mental Ability",
+      "chapter": "General Mental Ability",
+      "type": "single_mcq",
+      "stem": "Consider the letter pairs: AB, CD, FG, JK, ?. Which pair comes next in the series?",
+      "options": [
+        {
+          "key": "A",
+          "text": "NO"
+        },
+        {
+          "key": "B",
+          "text": "OP"
+        },
+        {
+          "key": "C",
+          "text": "OQ"
+        },
+        {
+          "key": "D",
+          "text": "PQ"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "The first letters sit at alphabet positions 1, 3, 6, 10, and the gaps increase by 2, 3, 4. The next gap is 5, so the first letter is at position 15, which is O. The second letter is always one place after the first, so the pair is OP.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "CUET GAT syllabus, General Mental Ability: Letter series (position gaps)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "52a1adba-4ac2-48f0-9803-5f519207dc97",
+      "subject": "general_test",
+      "unit": "General Mental Ability",
+      "chapter": "General Mental Ability",
+      "type": "single_mcq",
+      "stem": "Which pair does not follow the same relationship as the other three pairs?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2 : 8"
+        },
+        {
+          "key": "B",
+          "text": "3 : 27"
+        },
+        {
+          "key": "C",
+          "text": "4 : 16"
+        },
+        {
+          "key": "D",
+          "text": "5 : 125"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "In 2 : 8, 3 : 27 and 5 : 125 the second number is the cube of the first (2³, 3³, 5³). In 4 : 16 the second number is the square of the first (4²), so this pair is the odd one out.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, General Mental Ability: Number relationships (powers)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "7367fbed-0bb2-40de-ad1a-bef8a0ebb962",
+      "subject": "general_test",
+      "unit": "General Mental Ability",
+      "chapter": "General Mental Ability",
+      "type": "single_mcq",
+      "stem": "Pick the pair that continues the pattern: AZ, BY, CX, DW, ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "EV"
+        },
+        {
+          "key": "B",
+          "text": "EW"
+        },
+        {
+          "key": "C",
+          "text": "FV"
+        },
+        {
+          "key": "D",
+          "text": "FU"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "The first letter moves one step forward in the alphabet, while the second letter moves one step backward. The next pair is E and V, since V is the letter before W in the reverse sequence.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "CUET GAT syllabus, General Mental Ability: Letter pattern completion",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "cf11e1b2-690f-4878-a6e7-c8925821c44c",
+      "subject": "general_test",
+      "unit": "General Mental Ability",
+      "chapter": "General Mental Ability",
+      "type": "single_mcq",
+      "stem": "Find the number that does not belong in the group: 121, 169, 225, 250.",
+      "options": [
+        {
+          "key": "A",
+          "text": "121"
+        },
+        {
+          "key": "B",
+          "text": "169"
+        },
+        {
+          "key": "C",
+          "text": "225"
+        },
+        {
+          "key": "D",
+          "text": "250"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "121 = 11², 169 = 13² and 225 = 15² are perfect squares. 250 is not a perfect square, so it does not belong.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "CUET GAT syllabus, General Mental Ability: Odd one out (number properties)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "e1479500-60ec-4884-ae31-679f70d3eb8b",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "Five people P, Q, R, S and T sit in a single row, all facing north. P sits at one end. Q sits immediately to the right of P. R sits at the other end. S sits between Q and R. T sits immediately to the left of R. Who sits in the middle?",
+      "options": [
+        {
+          "key": "A",
+          "text": "P"
+        },
+        {
+          "key": "B",
+          "text": "Q"
+        },
+        {
+          "key": "C",
+          "text": "S"
+        },
+        {
+          "key": "D",
+          "text": "T"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Because Q is to the right of P, P must be at the left end (position 1). R is at the right end (position 5), so T is at position 4 and S is at position 3. Q is at position 2, which puts S in the middle.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Linear seating arrangement",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "c397d567-7836-4f84-a2ff-2e3913967ac9",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "statement_based",
+      "stem": "Statements: P > Q ≥ R; S < R; T ≥ P. Conclusions: I. T > S. II. S > Q. III. P > R. Which conclusions follow?",
+      "options": [
+        {
+          "key": "A",
+          "text": "I only"
+        },
+        {
+          "key": "B",
+          "text": "I and III only"
+        },
+        {
+          "key": "C",
+          "text": "II and III only"
+        },
+        {
+          "key": "D",
+          "text": "I, II and III"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "From T ≥ P > Q ≥ R > S, we get T > S (I follows) and P > R (III follows). From S < R ≤ Q we get S < Q, so S > Q does not follow (II).",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Inequality reasoning",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "012e2c37-e60a-4306-bee3-7b8eafd080b4",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "A standard die has opposite faces that add up to 7. On one die, 5 is on top, 1 faces the viewer and 3 is on the right side. What number is on the face opposite the 3?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "6"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "On a standard die the opposite faces add up to 7, so the face opposite 3 shows 7 − 3 = 4. The 5 on top is not opposite the 3.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Cube and dice (opposite faces)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "6892ed66-c504-4d51-8d9e-bba0cb1c1166",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "Six students P, Q, R, S, T and U are ranked by marks, with no ties. U scores more than S. S scores more than R. R scores more than P. P scores more than Q. Q scores more than T. Who is fourth from the top?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Q"
+        },
+        {
+          "key": "B",
+          "text": "P"
+        },
+        {
+          "key": "C",
+          "text": "R"
+        },
+        {
+          "key": "D",
+          "text": "T"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "The statements give the full chain U > S > R > P > Q > T. The first four places are U, S, R and P, so P is fourth from the top.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Ranking and order",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "70fa0d92-2494-40f8-83af-cb4649685922",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "If 1 January 2025 was a Wednesday, what day of the week was 1 March 2025?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thursday"
+        },
+        {
+          "key": "B",
+          "text": "Friday"
+        },
+        {
+          "key": "C",
+          "text": "Saturday"
+        },
+        {
+          "key": "D",
+          "text": "Sunday"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "From 1 January to 1 March 2025 there are 31 days in January and 28 in February, which is 59 days. 59 leaves a remainder of 3 when divided by 7, so Wednesday moves forward 3 days to Saturday.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Calendar problems",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "9c407b8f-146d-407d-8f8c-7d09d4ce18c9",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "statement_based",
+      "stem": "Statements: All engineers are readers. Some readers are writers. No writer is a painter. Conclusions: I. Some engineers are writers. II. No engineer is a painter. Which of the following is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only I follows"
+        },
+        {
+          "key": "B",
+          "text": "Only II follows"
+        },
+        {
+          "key": "C",
+          "text": "Either I or II follows"
+        },
+        {
+          "key": "D",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "The statements do not say whether any engineer is a writer, so I does not follow. Engineers are readers, but nothing links engineers to painters, so II does not follow either. Neither conclusion is forced.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Syllogisms (statement and conclusion)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "0f2b8121-9083-4961-a25f-ac0878f9a15a",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "Six people P, Q, R, S, T and U sit around a circular table, all facing the centre. P sits opposite S. Q sits immediately clockwise of P. R sits immediately counter-clockwise of S. U sits immediately clockwise of T. Who sits opposite Q?",
+      "options": [
+        {
+          "key": "A",
+          "text": "P"
+        },
+        {
+          "key": "B",
+          "text": "R"
+        },
+        {
+          "key": "C",
+          "text": "T"
+        },
+        {
+          "key": "D",
+          "text": "U"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Number the seats clockwise from P as seat 1. S is opposite P, so S is at seat 4. Q is at seat 2, and R, immediately counter-clockwise of S, is at seat 3. T and U fill seats 5 and 6 with U clockwise of T, so T is at seat 5. Seat 5 is opposite seat 2, which is Q, so T sits opposite Q.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Circular seating arrangement",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "4c830508-835a-4040-8064-984024bf0778",
+      "subject": "general_test",
+      "unit": "Logical and Analytical Reasoning",
+      "chapter": "Logical & Analytical Reasoning",
+      "type": "single_mcq",
+      "stem": "A building has floors numbered 1 (ground floor) to 7. B lives on an even-numbered floor. C lives three floors above B and C lives on floor 5. A lives on the floor immediately above B. On which floor does A live?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "6"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "C is on floor 5 and lives three floors above B, so B is on floor 2, which is even as required. A lives immediately above B, so A is on floor 3.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "CUET GAT syllabus, Logical and Analytical Reasoning: Floor and height puzzles",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "aed34b71-fcf1-4bb3-bd90-b76d3b0ce52a",
+      "subject": "general_test",
+      "unit": "Quantitative Reasoning",
+      "chapter": "Basic Mathematical Concepts",
+      "type": "single_mcq",
+      "stem": "α and β are the roots of x² − 7x + 12 = 0. What is the value of α² + β²?",
+      "options": [
+        {
+          "key": "A",
+          "text": "13"
+        },
+        {
+          "key": "B",
+          "text": "19"
+        },
+        {
+          "key": "C",
+          "text": "25"
+        },
+        {
+          "key": "D",
+          "text": "49"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "For x² − 7x + 12 = 0, the sum of the roots is α + β = 7 and the product is αβ = 12. Then α² + β² = (α + β)² − 2αβ = 49 − 24 = 25.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 10 Mathematics: Chapter 4 Quadratic Equations (relation between roots and coefficients)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "352e7338-650c-45f2-a195-74266a9fa337",
+      "subject": "general_test",
+      "unit": "Quantitative Reasoning",
+      "chapter": "Basic Mathematical Concepts",
+      "type": "single_mcq",
+      "stem": "The first term of an arithmetic progression is 3 and its common difference is 4. What is the sum of its first 20 terms?",
+      "options": [
+        {
+          "key": "A",
+          "text": "780"
+        },
+        {
+          "key": "B",
+          "text": "800"
+        },
+        {
+          "key": "C",
+          "text": "820"
+        },
+        {
+          "key": "D",
+          "text": "840"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "The sum of the first n terms is S_n = n/2 × [2a + (n − 1)d]. With n = 20, a = 3 and d = 4, S_20 = 10 × [6 + 76] = 820.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 10 Mathematics: Chapter 5 Arithmetic Progressions, section 5.4 (sum of the first n terms)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "4c4837c1-e4d1-4788-af4a-ba9ddac78419",
+      "subject": "general_test",
+      "unit": "Quantitative Reasoning",
+      "chapter": "Basic Mathematical Concepts",
+      "type": "single_mcq",
+      "stem": "What is the value of sin 30° cos 60° + cos 30° sin 60°?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1/2"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "√3/2"
+        },
+        {
+          "key": "D",
+          "text": "0"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Using sin 30° = 1/2, cos 60° = 1/2, cos 30° = √3/2 and sin 60° = √3/2, the expression gives 1/4 + 3/4 = 1. This is the sine addition identity with the two angles adding to 90°.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 10 Mathematics: Chapter 8 Introduction to Trigonometry (trigonometric ratios of specific angles)",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "f19a4dec-edf5-46f4-ba35-f0f0e4485de9",
+      "subject": "general_test",
+      "unit": "Quantitative Reasoning",
+      "chapter": "Basic Mathematical Concepts",
+      "type": "single_mcq",
+      "stem": "Two fair six-faced dice are rolled once. What is the probability that the sum of the numbers shown is 7?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1/6"
+        },
+        {
+          "key": "B",
+          "text": "1/12"
+        },
+        {
+          "key": "C",
+          "text": "5/36"
+        },
+        {
+          "key": "D",
+          "text": "1/4"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "The favourable outcomes are (1,6), (2,5), (3,4), (4,3), (5,2) and (6,1), which is 6 outcomes. There are 36 equally likely outcomes in total, so the probability is 6/36 = 1/6.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 10 Mathematics: Chapter 15 Probability (theoretical probability)",
+      "source": "claude-authored-2026-10-17-w3"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "20261015T073347.895534Z-26522030",
+  "observed_at": "2026-10-15T07:33:47.895534+00:00",
+  "agent": "claude-opus-5.5 subagent (feature-wave M2 builder, app side)",
+  "task": "Feature wave 1015 packet M2 (living objects + object flight), app side in wt-phase2/flutter_app (ui/phase2), no commit",
+  "status": "complete",
+  "done": "Life on SubjectEmblem: photo-real objects >= 96 dp (or life: true) float (7.2 s), spring at 0.4 on tap with one tick and sparkle (sparkle muted by Celebrations Quiet/Off, also on the external-reaction path), and open objects lean to finger and scroll (Matrix4 perspective 0.0011, max 5 deg, back on Springs.smooth) with a srcATop light band on their own pixels only while leaning (new lib/core/art/object_life.dart, ObjectLife numbers table shared with web). Low glass tier = float only; reduced motion flat. MmParallax gains lean output (MmScrollLean, leanOf). Today hero: lamp pools parallax 0.12, object 0.05 with lean; hero tap reaction moved into the emblem. Object flight: new lib/core/motion/flight.dart (MmFlight registry/launch, MmFlightPoint, MmFlightTarget, overlay copy translate+scale, path on Motion.emphasized 420 ms, size on Springs.settle, arc <= 18 dp, copy lifts mid-air and lands on its shadow, both ends hidden, landing 0.4 spring + one tick, framed well fades in 140 ms, pop follows the route reverse, exam/run routes excluded, reduced = none, no target in 3 frames = none). MmLaunchRect.capturePair/peekPair/takePair. Launch wired: Today move hero key, Practice suggestion Start (lands on confirm-sheet ticket), Review tonight card (lands on repair entry), past result rows (land on result summary, which now has life: true). SubjectEmblem self-registers as a flight point, so setup/repair entry/summary need no edits.",
+  "next": "Checker: commit M2 files (see touched). Web builder (after IA9): build SubjectObject.jsx + subject-object.css from the handoff numbers (ObjectLife table in lib/core/art/object_life.dart). Optional follow-ups: I2 could add an ObjectEmblem picture-only hide so a framed landing keeps its well (removes the 140 ms well fade); delete now-unused EmblemFloat in practice/widgets/card_motion.dart (and its unit test lines); Learn due card/lesson rows flights not done (destinations show no same-subject object).",
+  "blockers": [],
+  "evidence": [
+    "flutter analyze on all 13 changed files: No issues found",
+    "flutter test flight_test + object_life_test + object_art_test + subject_emblem_test: +85 all passed (worktree, with I2's in-progress art)",
+    "today_golden, review_golden, practice_golden (non-offline), today_motion, today_phase2, app_practice_phase2: passed; review_blitz/motion/phase2, pick_and_start, tab_screen: +79 passed",
+    "object_art_* golden diffs and practice start/result_offline golden diffs come from I2/I1 asset re-exports: object_art golden test passes with HEAD obj assets + M2 code in a scratch copy"
+  ],
+  "touched_files": [
+    "flutter_app/lib/core/motion/flight.dart (new)",
+    "flutter_app/lib/core/art/object_life.dart (new)",
+    "flutter_app/lib/core/art/subject_emblem.dart",
+    "flutter_app/lib/core/motion/launch_rect.dart",
+    "flutter_app/lib/core/motion/scroll_effects.dart",
+    "flutter_app/lib/features/today/widgets/hero_stage.dart",
+    "flutter_app/lib/features/today/widgets/move_hero.dart",
+    "flutter_app/lib/features/practice/widgets/suggestion_card.dart",
+    "flutter_app/lib/features/review/widgets/tonight_card.dart",
+    "flutter_app/lib/features/review/widgets/review_rows.dart",
+    "flutter_app/lib/features/result/full/summary_section.dart",
+    "flutter_app/test/unit/core/motion/flight_test.dart (new)",
+    "flutter_app/test/unit/art/object_life_test.dart (new)"
+  ],
+  "verification": "Fixture and widget tests only (flight lands with no double-draw frame, hidden ends, one tick, pop flies home, /exam route falls back, no-target falls back, reduced none; life: tilt, light gating, glass tier, celebrations, tap reaches card, scroll lean settles flat). No device, emulator or recording run, so real-device feel and frame cost are unproven.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

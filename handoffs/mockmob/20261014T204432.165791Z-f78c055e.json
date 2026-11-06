@@ -1,0 +1,17 @@
+{
+  "id": "20261014T204432.165791Z-f78c055e",
+  "observed_at": "2026-10-14T20:44:32.165791+00:00",
+  "agent": "claude-owner-note",
+  "task": "Owner asked to remember for the next session",
+  "status": "active",
+  "done": "The owner typed this in a claude session (cc0bf1af): You have a 15% usage limit remaining right now. It's at 85% right now, so no need to immediately stop anything or do anything else. Just keep it running, but once things are starting to get done, once each task is done, start compiling everything: a proper handoff and a prompt from which the next agent can continue. Just don't start anything new, and keep in mind the usage limit, though you have some time.",
+  "next": "Owner asked: You have a 15% usage limit remaining right now. It's at 85% right now, so no need to immediately stop anything or do anything else. Just keep it running, but once things are starting to get done, once each task is done, start compiling everything: a proper handoff and a prompt from which the next agent can continue. Just don't start anything new, and keep in mind the usage limit, though you have some time.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\cc0bf1af-4c1f-4097-81a5-97ba84470f41.jsonl"
+  ],
+  "touched_files": [],
+  "verification": "captured from the owner's prompt by the UserPromptSubmit hook; these are the owner's words",
+  "cost_and_pending_requests": "none",
+  "confidence": "agent-reported; verify evidence before acting"
+}

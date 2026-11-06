@@ -1,0 +1,443 @@
+{
+ "batch": "chemistry",
+ "subject": "chemistry",
+ "pass": "wave3 expert pass (Sonnet-equivalent CUET expert review, same procedure as waves 1 and 2)",
+ "date": "2026-10-17",
+ "scope": "All 69 accepted chemistry questions of wave3-candidates-scored-2026-10-17.json (all 69 engine-eligible in wave3-engine-check-working-2026-10-17.json). Every question was solved independently first; then key, explanation, options (length and grammar giveaways, wrong-direction traps), unit and chapter against data/nta_blueprints/chemistry.json, ncert_ref, CUET level and time were checked. NCERT itself was not available (no network); the NCERT check is against the reviewer's knowledge of the current Class 12 Chemistry books (rationalised numbering: Part I Ch 1 to 5, Part II Ch 6 to 10). No model call, database or network was used.",
+ "source_file": "docs/brain/reports/authored-w3/wave3-candidates-scored-2026-10-17.json",
+ "counts": {
+  "ready": 24,
+  "repaired": 42,
+  "drop": 3,
+  "total": 69
+ },
+ "solver_visible_text_changed": [
+  "f526f37e-b6e4-4ffb-afeb-da6369a0a985",
+  "7c42a42d-94d1-4237-b7bb-6ee28fc3beb0",
+  "d8db492b-6214-4323-88f7-e2a41b266896",
+  "2b8ad4d9-5b84-4089-ba12-bb46cb8fe0d9",
+  "8ead33c1-64fa-464c-a683-af9dafe41340"
+ ],
+ "notes": [
+  "Verdict \"drop\" is the wave-3 equivalent of wave 2 practice or reject: not publishable.",
+  "Systemic: 36 refs only needed a text-only ncert_ref fix (plus the repaired items that also have one): the chapter number and Part matched no single NCERT edition (Electrochemistry as Part I Ch 3, d- and f-Block as Part II Ch 4, Aldehydes Ch 12, Amines Ch 13, Biomolecules Ch 14). None of them changes what a solver sees. ncert_ref is in the content hash, so these need the same admit-on-expert-verdict treatment as the wave 2 explanation-only repairs.",
+  "Five repairs change solver-visible text (ids in solver_visible_text_changed: one stem name, four option sets). Under the wave-1 rule they need a fresh blind re-solve; under the wave-2 rule for text-only repairs they do not. The reviewer re-solved each and the key is unchanged.",
+  "Key position of the 69 questions: A 16, B 17, C 18, D 18. The key was the unique longest option in 13 of 56 single-choice items before repair; the four large-margin cases (7c42a42d, d8db492b, 2b8ad4d9, 8ead33c1) are repaired."
+ ],
+ "verdicts": [
+  {
+   "id": "b4b8360e-d316-4b1a-b9b1-183816cbecc8",
+   "verdict": "ready",
+   "why": "Solved: the longest chain through C-OH has four carbons, OH gets locant 2, methyl on C-3, so 3-methylbutan-2-ol. Key A correct and unique; B and D are the wrong-numbering traps. Unit and chapter match the blueprint.",
+   "repair": null
+  },
+  {
+   "id": "ef23884f-5078-44c2-9b85-99f1e94374d7",
+   "verdict": "ready",
+   "why": "Tertiary alcohol (2-methylpropan-2-ol) gives immediate turbidity with Lucas reagent at room temperature; butan-2-ol is slow, the two primary alcohols give none. Key D correct and unique. Explanation sound.",
+   "repair": null
+  },
+  {
+   "id": "d862ff6c-f6be-4dfd-8dc3-ff22bb40da51",
+   "verdict": "ready",
+   "why": "Hydroboration-oxidation of propene is anti-Markovnikov and gives propan-1-ol. Key C correct; propan-2-ol is the acid-hydration trap that the explanation names. NCERT Ch 7 treats exactly this reaction.",
+   "repair": null
+  },
+  {
+   "id": "97fb26ff-9b4f-4e06-9282-e26477186a35",
+   "verdict": "ready",
+   "why": "Acidity order phenol (pKa about 10) > water > ethanol, cyclohexanol, so phenol. Key C correct and unique. Easy, one-step recall.",
+   "repair": null
+  },
+  {
+   "id": "b7040276-8080-4b60-b1d7-408c21275d48",
+   "verdict": "ready",
+   "why": "Reimer-Tiemann gives salicylaldehyde, Kolbe gives salicylic acid, Williamson (NaOMe + bromoethane) gives methoxyethane, hydroboration-oxidation of propene gives propan-1-ol: B is the only option with all four pairings. Options are true pairings; no position pattern.",
+   "repair": null
+  },
+  {
+   "id": "ca00177e-6d6f-442c-bf3c-c6cc46a80694",
+   "verdict": "ready",
+   "why": "Tertiary carbocation, Saytzeff product 2-methylbut-2-ene. Key D correct and unique. Option C (an alkane) is a weak distractor because the stem asks for an alkene, but it does not affect correctness.",
+   "repair": null
+  },
+  {
+   "id": "e4daafaf-3af8-4cad-a9d2-a1f41b1826ea",
+   "verdict": "ready",
+   "why": "EtMgBr + HCHO, then hydrolysis, gives CH3CH2CH2OH, propan-1-ol. Key D correct; propan-2-ol and butan-2-ol need ethanal or propanal. Matches NCERT Grignard route to primary alcohols.",
+   "repair": null
+  },
+  {
+   "id": "1d013847-e124-44e4-b400-a5a55ad558cb",
+   "verdict": "ready",
+   "why": "Increasing acidity: ethanol < water < phenol < p-nitrophenol, which is (B), (D), (C), (A). Key B correct. The key is not the listed order (A to D), and option A is the exact reverse, which is the intended trap.",
+   "repair": null
+  },
+  {
+   "id": "89809a17-0fba-4ab6-8195-07e43d6a51f8",
+   "verdict": "ready",
+   "why": "NCERT: 413 K gives diethyl ether and 443 K gives ethene, so I and II are true and III is false. Key D correct. Option text is consistent with the stem statements.",
+   "repair": null
+  },
+  {
+   "id": "ec1be2ad-e341-40cf-a70c-d057c972d3d5",
+   "verdict": "ready",
+   "why": "Phenol with bromine water gives 2,4,6-tribromophenol (white precipitate). Key C correct and unique. Option C is longest only because trisubstituted names are longer; the options are names of different compounds, not a prose giveaway.",
+   "repair": null
+  },
+  {
+   "id": "f526f37e-b6e4-4ffb-afeb-da6369a0a985",
+   "verdict": "repaired",
+   "why": "Chemistry is right: the tertiary side cleaves by SN1, so (CH3)3C-I and CH3OH; key D correct and unique. Defect: the stem name \"2-Methyl-2-methoxypropane\" is not in IUPAC order (substituents go alphabetically, methoxy before methyl) and this chapter teaches nomenclature.",
+   "repair": "Stem name \"2-Methyl-2-methoxypropane\" changed to \"2-Methoxy-2-methylpropane\" (the formula (CH3)3C-O-CH3 is unchanged). Options, key and explanation unchanged. Solver-visible text changed: yes (name only)."
+  },
+  {
+   "id": "3e145f1e-c334-4a36-9480-c00b019ed495",
+   "verdict": "ready",
+   "why": "I true (hydrogen bonding, bp 78 C against -24 C), II true, III false (phenol does not liberate CO2 from NaHCO3; NCERT uses this to separate phenols from carboxylic acids). Key C correct.",
+   "repair": null
+  },
+  {
+   "id": "6a4e7b4f-47b5-425d-8887-7778fc06e6ee",
+   "verdict": "ready",
+   "why": "Tertiary alcohol dehydrates more easily because of the more stable tertiary carbocation; R states that stability and correctly explains A. Key A correct. Option wording is the standard assertion-reason set.",
+   "repair": null
+  },
+  {
+   "id": "c53fecad-2f57-4258-be11-13c1ba1da7bb",
+   "verdict": "ready",
+   "why": "PCC stops at propanal, acidified dichromate takes propan-1-ol to propanoic acid, propan-2-ol gives propanone, hot concentrated H2SO4 turns ethanol to ethene: (A)-(III), (B)-(II), (C)-(I), (D)-(IV) = B. All four options are real pairings. Key correct and unique.",
+   "repair": null
+  },
+  {
+   "id": "48c754fd-ca11-4ac5-befa-c26c2d651416",
+   "verdict": "ready",
+   "why": "Boron goes to the less substituted alkene carbon (the CH carbon), OH ends up there: 2-methylcyclohexan-1-ol. Key A correct and unique. The cyclic substrate goes a step past NCERT (propene only) but applies the same anti-Markovnikov rule; hard label fair; answerable in 72 s.",
+   "repair": null
+  },
+  {
+   "id": "a4538d76-6c2a-4f95-82b7-eb792559e888",
+   "verdict": "ready",
+   "why": "Williamson is SN2, so the tertiary group must sit on the alkoxide and the halide must be methyl: sodium tert-butoxide + iodomethane, key C. Options A and D (tertiary halide) give elimination; B gives dimethyl ether. Key unique.",
+   "repair": null
+  },
+  {
+   "id": "705cf90e-079e-4dc2-99b2-3b305b1a4151",
+   "verdict": "ready",
+   "why": "Acid-catalysed hydration of 2-methylpropene follows Markovnikov via the tertiary cation: 2-methylpropan-2-ol. Key D correct and unique.",
+   "repair": null
+  },
+  {
+   "id": "a81ff47e-8241-4c92-9afe-2ac6106b901f",
+   "verdict": "ready",
+   "why": "2-Chlorobutane has a stereocentre (H, Cl, CH3, C2H5); the other three have none. Key A correct and unique.",
+   "repair": null
+  },
+  {
+   "id": "d1014b9a-bb78-438f-ae1c-c711299f60ca",
+   "verdict": "ready",
+   "why": "SN2 rate falls with crowding: CH3Br > C2H5Br > 2-bromopropane > 2-bromo-2-methylpropane = (B), (D), (C), (A). Key B correct. Not the listed order; option A (listed order) is the tertiary-first trap.",
+   "repair": null
+  },
+  {
+   "id": "15079cee-dbc7-4b31-9fc5-782e04f607ec",
+   "verdict": "ready",
+   "why": "I true (inversion), II true (planar cation, near racemisation), III false (tertiary halides go by SN1 or elimination). Key C correct. Hard label is generous but the item is exam-appropriate.",
+   "repair": null
+  },
+  {
+   "id": "6928e09c-a736-4373-857b-20d2758a68a8",
+   "verdict": "ready",
+   "why": "Alcoholic KOH, Saytzeff: but-2-ene is the major alkene from 2-bromobutane. Key C correct and unique; but-1-ene is the Hofmann minor product.",
+   "repair": null
+  },
+  {
+   "id": "cc5ce6c8-e0fe-4cc4-afbd-1c9d4b8ee681",
+   "verdict": "ready",
+   "why": "Finkelstein NaI/acetone, Swarts AgF or Hg2F2, Wurtz Na in dry ether, chlorobenzene + NaOH at about 623 K then acid (the industrial phenol route NCERT describes): (A)-(II), (B)-(III), (C)-(I), (D)-(IV) = B. Key correct and unique. The label \"Dow process\" is common in coaching books rather than NCERT wording, but the list-II description it is paired with is NCERT content, so left as is.",
+   "repair": null
+  },
+  {
+   "id": "3410ab43-0000-42de-9de9-ff459717856b",
+   "verdict": "ready",
+   "why": "Grignard reagent protonated by water gives the alkane ethane. Key D correct and unique.",
+   "repair": null
+  },
+  {
+   "id": "d35538dc-eb46-472f-a5b6-ab3d1b3ab56d",
+   "verdict": "ready",
+   "why": "Both true and R explains A (resonance gives partial double-bond character; the sp2 carbon is more electronegative); NCERT gives both reasons. Key A correct. Kept over the near-identical item d90fb3b0-ebc2-4edf-a790-e8d6df73df18 (see its drop).",
+   "repair": null
+  },
+  {
+   "id": "8b780340-7494-4816-b7a4-370acc255ad6",
+   "verdict": "ready",
+   "why": "I true (DDT persistent, stored in fat), II true (CFCs release Cl radicals in the stratosphere), III false (freons are inert, which is why they were used). Key B correct.",
+   "repair": null
+  },
+  {
+   "id": "e993c092-300c-4155-8a22-2b5228c43b87",
+   "verdict": "repaired",
+   "why": "Fructose is the ketohexose; glucose, galactose and mannose are aldohexoses. Key A correct and unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Carbohydrates\" -> \"NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: Carbohydrates\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "310ed34a-d49c-40d1-8e25-31332657a600",
+   "verdict": "repaired",
+   "why": "Sucrose hydrolyses to glucose plus fructose (invert sugar). Key B correct and unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Carbohydrates\" -> \"NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: Carbohydrates\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "7c42a42d-94d1-4237-b7bb-6ee28fc3beb0",
+   "verdict": "repaired",
+   "why": "Key C is chemically right (sucrose is non-reducing because the glycosidic bond uses both anomeric carbons). Defect: the key is the longest option by far (116 characters against 37 to 55), which gives it away to a test-wise student.",
+   "repair": "Options rewritten to similar lengths; key stays C. A: \"Its glucose unit keeps a free aldehyde group at C-1, but it is sterically hindered\" (false). B: \"It exists only as the open-chain form of fructose, which is a non-reducing ketose\" (false). C: \"The glycosidic bond ties up both anomeric carbons, so neither ring can open to a carbonyl\" (true). D: \"It has no hydroxyl groups, so it cannot reduce Fehling's or Tollens' reagent\" (false). Stem, key and explanation unchanged. Solver-visible text changed: yes (options). Lengths now 82, 79, 89 and 76 characters. ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Carbohydrates\" -> \"NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: Carbohydrates\"."
+  },
+  {
+   "id": "60786e7a-49b8-49ee-91fc-afd1448ed480",
+   "verdict": "repaired",
+   "why": "Amylopectin is branched with alpha-1,6 points beside alpha-1,4 chains; amylose is linear. Key D correct and unique. Key is longest by 21 percent only, acceptable. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Carbohydrates\" -> \"NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: Carbohydrates\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "6cc86979-a621-452b-8fee-72c94cb600a8",
+   "verdict": "repaired",
+   "why": "Cellulose: beta-D-glucose, beta-1,4 linkages. Key A correct and unique; the options are not length-skewed. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Carbohydrates\" -> \"NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: Carbohydrates\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "4ac72883-303e-4876-81ab-9e68dadf5eee",
+   "verdict": "repaired",
+   "why": "Glycogen is a branched alpha-glucose polymer like amylopectin (NCERT says it is similar to amylopectin, with more branching). Key B correct and unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Carbohydrates\" -> \"NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: Carbohydrates\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "63dbe2f6-beff-4336-a8e9-435a3e28fe04",
+   "verdict": "repaired",
+   "why": "Glycine at its isoelectric point is the zwitterion H3N+-CH2-COO-. Key C correct; A is the neutral non-ionised form, B the anion, D the cation. Unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Proteins\" -> \"NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: Proteins\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "d8db492b-6214-4323-88f7-e2a41b266896",
+   "verdict": "repaired",
+   "why": "Key D is correct: alpha-helix is held by backbone C=O...H-N hydrogen bonds. Defects: the key is nearly twice as long as the nearest option (103 against 41 to 54), and the \"hard\" label is wrong for a core NCERT fact.",
+   "repair": "Options rewritten to similar lengths; key stays D. A: \"Disulfide bonds between the side chains of cysteine residues\". B: \"Ionic bonds between side chains such as arginine and aspartate\". C: \"Van der Waals forces between side chains of neighbouring helices\". D: \"Hydrogen bonds between backbone C=O and N-H groups within the same chain\". difficulty_label changed from hard to medium. Stem, key and explanation unchanged. Solver-visible text changed: yes (options). ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Proteins\" -> \"NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: Proteins\"."
+  },
+  {
+   "id": "2de1f429-c8fc-4cd4-9cef-cca018462809",
+   "verdict": "repaired",
+   "why": "Enzymes are highly substrate-specific; they are not consumed, do not change the equilibrium constant and denature at high temperature. Key B correct and unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Enzymes\" -> \"NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: Enzymes\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "5202c447-997b-416b-9bee-314fa03afe31",
+   "verdict": "repaired",
+   "why": "B1 beriberi (III), C scurvy (II), D rickets (I), K delayed clotting (IV): (A)-(III), (B)-(II), (C)-(I), (D)-(IV) = C, matching the NCERT vitamin table. Key correct and unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Vitamins\" -> \"NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: Vitamins\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "487ce9df-afd7-4553-a1f2-bd61a468fe32",
+   "verdict": "repaired",
+   "why": "Vitamin D is made in the skin under sunlight. Key D correct and unique. Easy. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Vitamins\" -> \"NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: Vitamins\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "c7164d89-271f-4f8d-8340-124aa636b7a2",
+   "verdict": "repaired",
+   "why": "RNA has ribose and uracil. Key A correct; B and D name DNA components, C mixes ribose with thymine. Unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 14 Biomolecules: Nucleic Acids\" -> \"NCERT Class 12 Chemistry Part II, Ch 10 Biomolecules: Nucleic Acids\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "4ea4ceb5-ceb7-42eb-98f1-e189af38ba84",
+   "verdict": "drop",
+   "why": "Chemistry is correct (the complement of 5'-ATGC-3' is 5'-GCAT-3') but it is a direction-reversal trap that depends on antiparallel strand polarity, which is Class 12 Biology (Molecular Basis of Inheritance), not Class 12 Chemistry NCERT, whose Nucleic acids section names only complementary base pairing. Outside the CUET Chemistry syllabus depth.",
+   "repair": null
+  },
+  {
+   "id": "839dd482-8e96-4b1e-8db6-c26e551ba4bb",
+   "verdict": "repaired",
+   "why": "HVZ uses Br2 with a little red phosphorus. Key C correct; FeBr3 is ring bromination. Unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 12 Aldehydes, Ketones and Carboxylic Acids: Carboxylic acids, alpha-halogenation (HVZ)\" -> \"NCERT Class 12 Chemistry Part II, Ch 8 Aldehydes, Ketones and Carboxylic Acids: Carboxylic acids, alpha-halogenation (HVZ)\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "82d50c33-6e77-4fdc-9955-8d6d3d80977a",
+   "verdict": "repaired",
+   "why": "Ethanal with dilute NaOH gives the aldol 3-hydroxybutanal. Key D correct and unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 12 Aldehydes, Ketones and Carboxylic Acids: Aldol condensation\" -> \"NCERT Class 12 Chemistry Part II, Ch 8 Aldehydes, Ketones and Carboxylic Acids: Aldol condensation\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "2b8ad4d9-5b84-4089-ba12-bb46cb8fe0d9",
+   "verdict": "repaired",
+   "why": "Key A is correct (hydrazine then KOH in ethylene glycol on heating); B is Clemmensen, C and D are other reductions. Defect: the key is more than twice the length of every other option (57 against 16 to 27).",
+   "repair": "Options rewritten to similar lengths; key stays A. A: \"Hydrazine, then KOH heated in ethylene glycol\" (45). B: \"Amalgamated zinc (Zn-Hg) with concentrated HCl\" (46). C: \"LiAlH4 in dry ether, then aqueous work-up\" (41). D: \"H2 over Pd on BaSO4 with partial poisoning\" (41). Stem, key and explanation unchanged. Solver-visible text changed: yes (options). ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 12 Aldehydes, Ketones and Carboxylic Acids: Reduction reactions\" -> \"NCERT Class 12 Chemistry Part II, Ch 8 Aldehydes, Ketones and Carboxylic Acids: Reduction reactions\"."
+  },
+  {
+   "id": "9bc6d44a-b09b-4b8c-8e22-919b7fe6928b",
+   "verdict": "repaired",
+   "why": "Reactivity towards nucleophilic addition: HCHO > CH3CHO > acetone > benzophenone. Key B correct and unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 12 Aldehydes, Ketones and Carboxylic Acids: Nucleophilic addition reactions\" -> \"NCERT Class 12 Chemistry Part II, Ch 8 Aldehydes, Ketones and Carboxylic Acids: Nucleophilic addition reactions\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "617d4704-0bf0-41bb-b895-e2a6504032ab",
+   "verdict": "repaired",
+   "why": "Ethanal contains CH3-CO-, so it gives yellow CHI3 with I2/NaOH. Key C correct; the other options are not yellow precipitates formed from iodine. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 12 Aldehydes, Ketones and Carboxylic Acids: Haloform (iodoform) reaction\" -> \"NCERT Class 12 Chemistry Part II, Ch 8 Aldehydes, Ketones and Carboxylic Acids: Haloform (iodoform) reaction\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "d90fb3b0-ebc2-4edf-a790-e8d6df73df18",
+   "verdict": "drop",
+   "why": "Same fact as item d35538dc-eb46-472f-a5b6-ab3d1b3ab56d (chlorobenzene resists nucleophilic substitution, partial double-bond character from resonance): two near-identical assertion-reason items on one fact, which one paper could carry together. The harder two-reason version d35538dc is kept. This one also carries an old-edition NCERT chapter number.",
+   "repair": null
+  },
+  {
+   "id": "cf7799f2-09c0-4d5e-9f13-b4cd060ef821",
+   "verdict": "repaired",
+   "why": "SN2 reactivity of alkyl halides follows leaving-group ability, RI > RBr > RCl > RF. Key A correct; B is the exact reverse. Unique and NCERT-aligned. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 10 Haloalkanes and Haloarenes: Nucleophilic substitution (SN1 and SN2)\" -> \"NCERT Class 12 Chemistry Part II, Ch 6 Haloalkanes and Haloarenes: Nucleophilic substitution (SN1 and SN2)\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "53f31015-3913-4213-a0b1-fad4126639d6",
+   "verdict": "repaired",
+   "why": "Chemistry is right: CH3MgI + ethanal then H3O+ gives propan-2-ol, key B unique. Misfiled: the question tests Grignard addition to a carbonyl to make an alcohol (NCERT Ch 7, preparation of alcohols), the same concept as the Grignard item in the Alcohols group, not the haloalkane chapter.",
+   "repair": "unit changed from \"Haloalkanes and Haloarenes\" to \"Alcohols, Phenols and Ethers\", chapter from \"Haloalkanes & Haloarenes\" to \"Alcohols, Phenols & Ethers\"; ncert_ref set to \"NCERT Class 12 Chemistry Part II, Ch 7 Alcohols, Phenols and Ethers: Preparation of alcohols using Grignard reagents\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "59a100d2-d92b-48ae-8b1c-773b76b35021",
+   "verdict": "repaired",
+   "why": "Sandmeyer with CuCl/HCl gives chlorobenzene. Key C correct; benzonitrile needs CuCN, benzene needs H3PO2. Unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 13 Amines: Chemical reactions of diazonium salts (Sandmeyer reaction)\" -> \"NCERT Class 12 Chemistry Part II, Ch 9 Amines: Chemical reactions of diazonium salts (Sandmeyer reaction)\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "b0613d9b-0bdd-4048-b9ed-d22916eadcf8",
+   "verdict": "repaired",
+   "why": "Azo coupling with phenol in alkaline solution gives p-hydroxyazobenzene. Key D correct and unique; the options are compounds, so name length is not a prose giveaway. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 13 Amines: Coupling reactions of diazonium salts\" -> \"NCERT Class 12 Chemistry Part II, Ch 9 Amines: Coupling reactions of diazonium salts\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "6c9e8e40-c2e3-4240-946d-3e669d70a831",
+   "verdict": "repaired",
+   "why": "Secondary amine plus HNO2 gives a yellow oily N-nitrosamine: (CH3)2NH, key A. Methylamine gives methanol and N2, trimethylamine gives none, aniline a diazonium salt. Unique; NCERT states this reaction. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 13 Amines: Reaction with nitrous acid\" -> \"NCERT Class 12 Chemistry Part II, Ch 9 Amines: Reaction with nitrous acid\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "846628da-e0bf-4947-b26c-5566653aee0a",
+   "verdict": "repaired",
+   "why": "Chromium is [Ar] 3d5 4s1. Key B correct and unique. Option D (4s3) is an impossible configuration, a weak distractor, but harmless on an easy item. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Electronic configurations of d-block elements\" -> \"NCERT Class 12 Chemistry Part I, Ch 4 d- and f-Block Elements, Electronic configurations of d-block elements\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "a405bec0-826f-44c5-9f84-2e908a39344b",
+   "verdict": "repaired",
+   "why": "Ti3+ is d1, n = 1, mu = sqrt(3) = 1.73 BM. Key A correct; 2.83 and 3.87 are the n = 2 and n = 3 values. Unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Magnetic properties of transition elements\" -> \"NCERT Class 12 Chemistry Part I, Ch 4 d- and f-Block Elements, Magnetic properties of transition elements\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "89b11133-4e7e-4f99-8cb2-d2d84288ccc6",
+   "verdict": "repaired",
+   "why": "Fe2+ is d6 with 4 unpaired electrons, mu = sqrt(24) = 4.90 BM. Key D correct; 5.92 is Fe3+. Unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Magnetic properties of transition elements\" -> \"NCERT Class 12 Chemistry Part I, Ch 4 d- and f-Block Elements, Magnetic properties of transition elements\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "c59ca92c-e396-4036-822d-1ef3fecdeda2",
+   "verdict": "repaired",
+   "why": "Sc3+ is d0, colourless; Ti3+, V3+ and Fe2+ all have d electrons and are coloured. Key C correct and unique; NCERT says the same. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Colour of transition metal ions\" -> \"NCERT Class 12 Chemistry Part I, Ch 4 d- and f-Block Elements, Colour of transition metal ions\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "50a574d4-8098-483b-bac5-a7d1b5bd6741",
+   "verdict": "repaired",
+   "why": "KMnO4 in neutral solution gives MnO2 (brown). Key B correct and unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Potassium permanganate\" -> \"NCERT Class 12 Chemistry Part I, Ch 4 d- and f-Block Elements, Potassium permanganate\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "dc8c1ef9-3c6c-4ae0-ba28-3caf30b0c5fe",
+   "verdict": "repaired",
+   "why": "Cr2O7(2-) takes 6 electrons, so it oxidises 6 Fe2+. Key A correct and unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Potassium dichromate\" -> \"NCERT Class 12 Chemistry Part I, Ch 4 d- and f-Block Elements, Potassium dichromate\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "1f660152-f757-4ce1-8e8b-08e78037c1ef",
+   "verdict": "repaired",
+   "why": "V2O5 is the Contact-process catalyst; NCERT cites it under catalytic properties of d-block elements. Key D correct and unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Catalytic properties of transition elements\" -> \"NCERT Class 12 Chemistry Part I, Ch 4 d- and f-Block Elements, Catalytic properties of transition elements\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "8ead33c1-64fa-464c-a683-af9dafe41340",
+   "verdict": "repaired",
+   "why": "Key A is correct (large hydration enthalpy of Cu2+ outweighs the second ionisation enthalpy, the NCERT explanation). Defects: the key is more than twice as long as any other option (102 against 32 to 45), and option D (\"Cu+ is a stronger oxidising agent than Cu2+\") is arguably true (E0 Cu+/Cu is +0.52 V against +0.15 V for Cu2+/Cu+), so it is not a clean distractor.",
+   "repair": "Options rewritten; key stays A. A: \"The very high hydration enthalpy of Cu²⁺ outweighs the second ionisation enthalpy of Cu\" (80). B: \"The hydration enthalpy of Cu⁺ is larger than that of Cu²⁺ in aqueous solution\" (75, false). C: \"Cu⁺ has a half-filled d subshell, which makes it unstable in water\" (65, false: it is 3d¹⁰). D: \"The second ionisation enthalpy of copper is lower than its first ionisation enthalpy\" (82, false). Stem, key and explanation unchanged. Solver-visible text changed: yes (options). ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Stability of copper oxidation states\" -> \"NCERT Class 12 Chemistry Part I, Ch 4 d- and f-Block Elements, Stability of copper oxidation states\"."
+  },
+  {
+   "id": "bbb5fa0d-3c8b-4595-81bd-15d88f61ff99",
+   "verdict": "repaired",
+   "why": "Actinoids show wider oxidation states because 5f, 6d and 7s orbitals are close in energy (NCERT). Key D correct; A is reversed (5f is less effectively shielded). Unique. Key is the longest by 21 percent, acceptable. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Actinoids\" -> \"NCERT Class 12 Chemistry Part I, Ch 4 d- and f-Block Elements, Actinoids\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "12f5a5e7-81db-4ac3-97f7-3132d0850f9d",
+   "verdict": "repaired",
+   "why": "MnO4- takes 5 electrons, Fe2+ gives 1: 2.5/5 = 0.5 mol. Key C correct and unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 4 d- and f-Block Elements, Potassium permanganate\" -> \"NCERT Class 12 Chemistry Part I, Ch 4 d- and f-Block Elements, Potassium permanganate\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "a8352fba-9650-44d2-b07b-c049b1d5a9f1",
+   "verdict": "repaired",
+   "why": "Brine electrolysis gives Cl2 at the anode and H2 at the cathode (NCERT). Key B correct and unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part I, Ch 3 Electrochemistry, Electrolytic cells and Faraday laws\" -> \"NCERT Class 12 Chemistry Part I, Ch 2 Electrochemistry, Electrolytic cells and Faraday laws\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "65dc1291-1d76-460f-aa26-468908793116",
+   "verdict": "repaired",
+   "why": "Zinc is the galvanising metal and protects by sacrificial action. Key A correct and unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part I, Ch 3 Electrochemistry, Corrosion\" -> \"NCERT Class 12 Chemistry Part I, Ch 2 Electrochemistry, Corrosion\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "95b3813f-8e6c-46a2-9d87-159dae9088db",
+   "verdict": "repaired",
+   "why": "E = -0.76 - (0.059/2) log(1/0.1) = -0.76 - 0.0295 = -0.79 V (-0.7895 exactly); the key D is closest and the nearest distractor (-0.82) is 0.03 V away. Unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part I, Ch 3 Electrochemistry, Nernst equation\" -> \"NCERT Class 12 Chemistry Part I, Ch 2 Electrochemistry, Nernst equation\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "8ed9bbe9-5c6f-4785-84d1-6d8d6625e7c6",
+   "verdict": "repaired",
+   "why": "log K = nE0/0.059 = 2 x 0.59/0.059 = 20, K = 10^20. Key C correct and unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part I, Ch 3 Electrochemistry, Relation between EMF and equilibrium constant\" -> \"NCERT Class 12 Chemistry Part I, Ch 2 Electrochemistry, Relation between EMF and equilibrium constant\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "cb9ca16d-872d-484a-ab66-2a004c0f199e",
+   "verdict": "repaired",
+   "why": "Discharge consumes H2SO4 and makes water, so the density falls. Key B correct and unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part I, Ch 3 Electrochemistry, Batteries: lead storage battery\" -> \"NCERT Class 12 Chemistry Part I, Ch 2 Electrochemistry, Batteries: lead storage battery\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "f36e1b45-5688-42fc-9a5a-9b5f39be20a2",
+   "verdict": "repaired",
+   "why": "Lambda_m = 1000 x 0.0024 / 0.02 = 120 S cm2 mol-1 = 1.2 x 10^2. Key A correct; 0.12 is the unit-slip trap. Unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part I, Ch 3 Electrochemistry, Molar conductivity\" -> \"NCERT Class 12 Chemistry Part I, Ch 2 Electrochemistry, Molar conductivity\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "1de140e3-81b2-467b-af74-6705474ba41f",
+   "verdict": "repaired",
+   "why": "21.6/108 = 0.2 mol Ag, Q = 0.2 x 96500 = 19300 C = 1.9 x 10^4 C. Key D correct and unique. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part I, Ch 3 Electrochemistry, Faraday laws of electrolysis\" -> \"NCERT Class 12 Chemistry Part I, Ch 2 Electrochemistry, Faraday laws of electrolysis\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "9aa422d7-bff1-4412-8008-218b678d96aa",
+   "verdict": "repaired",
+   "why": "Li has the most negative E0 (-3.05 V), so it is the strongest reducing agent in water despite K being more reactive in air. Key C correct and unique; NCERT discusses this point. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part I, Ch 3 Electrochemistry, Standard electrode potential series\" -> \"NCERT Class 12 Chemistry Part I, Ch 2 Electrochemistry, Standard electrode potential series\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  },
+  {
+   "id": "699befa6-e1f7-4cc1-9b97-42421013c718",
+   "verdict": "drop",
+   "why": "The key (entropy gain from chelation) is the textbook answer but the entropy argument is beyond NCERT Class 12, which states only that chelates are more stable; and option A (en is a stronger-field ligand than NH3, larger delta-o) is a true fact that contributes to enthalpy, so the item is not cleanly single-correct at CUET depth.",
+   "repair": null
+  },
+  {
+   "id": "3031f426-b0a1-41c2-95d3-bd80f195ae2f",
+   "verdict": "repaired",
+   "why": "High-spin d4, t2g3 eg1: CFSE = 3(-0.4) + 0.6 = -0.6 delta-o. Key B correct and unique; -1.2 is the d3 value. NCERT gives -0.4 and +0.6 delta-o; hard label fair. Reference fix: the chapter number and part in ncert_ref are from the old edition or mixed with the new one; CUET UG 2026 uses the current books.",
+   "repair": "ncert_ref renumbered to the current (rationalised) NCERT edition: \"NCERT Class 12 Chemistry Part II, Ch 5 Coordination Compounds, Crystal field theory\" -> \"NCERT Class 12 Chemistry Part I, Ch 5 Coordination Compounds, Crystal field theory\". Stem, options, key and explanation unchanged. Solver-visible text unchanged."
+  }
+ ]
+}

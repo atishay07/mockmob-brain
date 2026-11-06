@@ -1,0 +1,23 @@
+{
+  "id": "20261018T212623.743720Z-66c59d1e",
+  "observed_at": "2026-10-18T21:26:23.743720+00:00",
+  "agent": "G16 walker (subagent of session 25ef3d95)",
+  "task": "G16 baseline fresh-account walk of app v15.2 against staging 3103",
+  "status": "paused",
+  "done": "The fresh-account Night walk at 360 dp is PARTIAL: onboarding, sign-in, Today, the deck, Practice, a quick paper, the result, Review, You and the Mob (created), and Ask Mobi (record question). Findings: 39 defects (9 HIGH, 18 MEDIUM, 12 LOW), 23 of them NEW.",
+  "next": "Resume with Ask now, Revise, Learn, the Start sheet, Credits/settings, the Day pass, offline and reconnect, then the heavy account app-e2e-student. The fresh account g16-fresh-1019a@example.com exists on staging. Sign-in needs a shim, because RESEND_API_KEY is blank on 3101 and 3103.",
+  "blockers": [
+    "Staging email-login fails (RESEND_API_KEY blank) on both rig sites; walkers need the shim or a staging Resend key"
+  ],
+  "evidence": [
+    "tmp/walk-1019/BASELINE-FINDINGS.md",
+    "tmp/walk-1019/baseline-v15.2/n00-n59 screenshots"
+  ],
+  "touched_files": [
+    "tmp/walk-1019/BASELINE-FINDINGS.md",
+    "tmp/walk-1019/baseline-v15.2/"
+  ],
+  "verification": "Profile APK ab04b067 with relay defines, sha1 48a00e6a. Emulator killed, lock released, reverse restored to 3101. wt-v15-2 still clean.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

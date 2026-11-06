@@ -1,0 +1,19 @@
+{
+  "id": "20261028T140425.905493Z-2acc4715",
+  "observed_at": "2026-10-28T14:04:25.905493+00:00",
+  "agent": "claude-auto",
+  "task": "Auto-capture: claude session 4ad9c384",
+  "status": "paused",
+  "done": "Auto-captured at Stop. Turns: 6. Last message: The push is running. `feat/app-and-web` is already on GitHub. The app branch `ui/1020-v16` is uploading about 1.9 GB, almost all of it the history of golden test screenshots under `flutter_app/test`, so it will take a while. I'll continue when it finishes.",
+  "next": "Unverified auto-capture. Read the session transcript and live repo state before continuing.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\4ad9c384-6e89-4119-a6b7-361efe97482f.jsonl"
+  ],
+  "touched_files": [
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\ONBOARDING.md"
+  ],
+  "verification": "auto-captured by hook; not agent-verified",
+  "cost_and_pending_requests": "unknown; hook does not see provider receipts",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "20261015T162616.081032Z-e5742925",
+  "observed_at": "2026-10-15T16:26:16.081032+00:00",
+  "agent": "today-road-colleges resume",
+  "task": "App Today: road board, Your colleges, Today review (resumed from WIP a04c0169)",
+  "status": "complete",
+  "done": "Finished the packet in commit e8f978e5 on ui/phase2. WIP already had the road board, per-account exam date and mock target saved on the phone, Colleges routed to /you/sheet, colleges-only ladder, error card not pinned as a bar capsule, stronger top veil. This run added: more-below cue as a 48 dp round chevron at the right edge (the pill covered the hero's secondary key); reduced-motion glide fix (animateTo asserts on zero duration, and the road was not built yet); Last week card opens into place (AnimatedSize); road_board_test fixed; all 48 today goldens regenerated and opened. Root cause of Could not load a suggestion: attempts read failed with nothing cached (Vercel front door blocked the app, ApiErrorKind.blocked), so the client-built card fell to historyUnavailable; not tied to the student's data. learning_episodes exists in prod, so server recordState is ready.",
+  "next": "Owner to try APK with the checkpoint off; deploy-time check that /api/attempts and /api/learning/plan answer JSON to the app. Optional: golden of the exam date and mock target sheets.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "flutter_app/lib/features/today/screens/today_body.dart",
+    "flutter_app/lib/features/today/screens/today_screen.dart",
+    "flutter_app/test/unit/today/road_board_test.dart",
+    "flutter_app/test/golden/today/goldens/*.png"
+  ],
+  "verification": "flutter analyze clean on today, rhythm, onboarding, test/unit/today, test/golden/today. Unit today and rhythm pass. Goldens regenerated, then pass; opened road day and night, error night, day one night.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

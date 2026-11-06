@@ -1,0 +1,78 @@
+   1  #### About
+   2  Source: https://ug.preparoo.app/ (index.html 1,111,207 bytes decoded; fetched 3 Nov 2026 20:42 UTC). Excerpts reformatted for reading (one statement per line); code otherwise unchanged. Analysis only, not for reuse.
+   3  
+   4  #### A. First script in <head> (index.html char 384): manual scroll restoration + guard
+   5  if('scrollRestoration' in history)history.scrollRestoration='manual';
+   6  window.scrollTo(0,0);
+   7  ['wheel','touchstart','keydown','mousedown','pointerdown'].forEach(function(e){window.addEventListener(e,function(){window.__prpScrollIntent=true;},{passive:true,capture:true,once:true});});
+   8  /* Even with manual restoration, some engines async-restore the previous
+   9     scroll offset while this large page is still parsing - it painted
+  10     scrolled-down and then visibly snapped to top when the `load` handler at
+  11     the end of the body ran. Until the user actually interacts (or the page
+  12     finishes loading), treat any scroll as browser-initiated and revert it in
+  13     the same frame, before it can paint. Skipped for #hash URLs so anchor
+  14     navigation still works. */
+  15  if(window.location.hash)return;
+  16  var userMoved=false,done=false;
+  17  function onScroll(){
+  18    if(!userMoved&&(window.pageYOffset||document.documentElement.scrollTop))window.scrollTo(0,0);
+  19  }
+  20  function markUser(){userMoved=true;cleanup();}
+  21  function cleanup(){
+  22    if(done)return;done=true;
+  23    window.removeEventListener('scroll',onScroll);
+  24    ['wheel','touchstart','pointerdown','keydown'].forEach(function(t){window.removeEventListener(t,markUser);});
+  25  }
+  26  window.addEventListener('scroll',onScroll,{passive:true});
+  27  ['wheel','touchstart','pointerdown','keydown'].forEach(function(t){window.addEventListener(t,markUser,{passive:true});});
+  28  window.addEventListener('load',function(){
+  29    /* keep guarding through the tail script's post-load snap, then let go */
+  30    requestAnimationFrame(function(){requestAnimationFrame(cleanup);});
+  31  });
+  32  setTimeout(cleanup,8000);
+  33  })();
+  34  
+  35  #### B. Overscroll rule
+  36  /* Prevent overscroll bounce jitter on mobile */
+  37  html,body{overscroll-behavior:none;}
+  38  
+  39  #### C. Phone feature accordion: tapped tab scrolled into view
+  40  /* ── Fix 3: snap selection into view past the fixed navbar ── */
+  41    .tf-tab,.ap-tab{scroll-margin-top:84px;}
+  42  // Fix 3: snap the tapped tab into view below the fixed navbar.
+  43  
+  44  #### D. Blog carousel: the only scroll-snap on the page (horizontal, proximity)
+  45  <div role="list" class="blog-list_list" style="display:flex;gap:1.5rem;overflow-x:auto;scroll-snap-type:x proximity;"
+  46  .blog-list_item{flex:0 0 calc((100% - 3rem)/3);min-width:0;scroll-snap-align:start;}
+  47  
+  48  #### E. Hero CTA panel: custom 850 ms ease-in-out-cubic scroll to #pricing
+  49  onclick="(function(){
+  50  var el=document.getElementById('pricing');
+  51  if(!el)return;
+  52  var doc=document.documentElement;
+  53  var prevSB=doc.style.scrollBehavior;
+  54  doc.style.scrollBehavior='auto';
+  55  var start=window.pageYOffset,t0=null,DUR=850;
+  56  function ease(t){
+  57  return t<0.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+  58  }
+  59  function step(now){
+  60  if(t0===null)t0=now;
+  61  var p=Math.min((now-t0)/DUR,1);
+  62  var target=el.getBoundingClientRect().top+window.pageYOffset;
+  63  window.scrollTo(0,start+(target-start)*ease(p));
+  64  if(p<1){
+  65  requestAnimationFrame(step);
+  66  }
+  67  else{
+  68  window.scrollTo(0,el.getBoundingClientRect().top+window.pageYOffset);
+  69  doc.style.scrollBehavior=prevSB;
+  70  }
+  71  }
+  72  requestAnimationFrame(step);
+  73  }
+  74  )()"
+  75  
+  76  #### F. Libraries
+  77  No Lenis / Locomotive / ScrollTrigger script is loaded; only leftover data-lenis-prevent attributes. gsap.min.js is loaded and used once: a desktop mouse-trail image effect (gsap.timeline in a mousemove handler).
+  78  

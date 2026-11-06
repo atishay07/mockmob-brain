@@ -1,0 +1,19 @@
+{
+  "id": "20261028T130321.783872Z-9029dd5a",
+  "observed_at": "2026-10-28T13:03:21.783872+00:00",
+  "agent": "claude-auto",
+  "task": "Auto-capture: claude session 4ad9c384",
+  "status": "paused",
+  "done": "Auto-captured at Stop. Turns: 4. Last message: The onboarding guide is ready: [ONBOARDING.md](../ONBOARDING.md). Send it to him; he pastes it into his Claude Code and his agent walks him through setup, checking each step. I scanned it and it contains no keys or passwords.\n\n## Sharing the brain: yes, you can both read and write the same one\n\nThe brain is 15 GB of markdown plus search tools, and it isn't in git. Sending him a copy of the files i",
+  "next": "Unverified auto-capture. Read the session transcript and live repo state before continuing.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\4ad9c384-6e89-4119-a6b7-361efe97482f.jsonl"
+  ],
+  "touched_files": [
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\ONBOARDING.md"
+  ],
+  "verification": "auto-captured by hook; not agent-verified",
+  "cost_and_pending_requests": "unknown; hook does not see provider receipts",
+  "confidence": "agent-reported; verify evidence before acting"
+}

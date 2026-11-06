@@ -1,0 +1,17 @@
+{
+  "id": "20261017T163044.805639Z-cbf6c13c",
+  "observed_at": "2026-10-17T16:30:44.806637+00:00",
+  "agent": "claude-opus-5.5 (session 604ced81, main)",
+  "task": "17 Oct ~10:15 pm IST: release train started per owner (ship a version every 1-2 h instead of perfecting one)",
+  "status": "active",
+  "done": "Resumed from HANDOFF-2026-10-17-LATE section 5. Launched: wf_352f5fbd-82a web-r2-train (deploy/web-1017b in wt-ship17 = f725a422 + security 1 f9ee389d + security 2 403419d8 + aicap 7c43876b + start df7cf860 + pricing 2ee6deea; staging dry-run of the 2 security migrations; verifier); wf_4bea9487-275 app-v13-ship (build check e92266bd + 17 wrong goldens + merge Mob app e703da4e, targeted emulator walk, release APK 1.0.13 with honest notes); wf_929f1cd6-254 web-r3-fixers (result bfc0f650, today d6f25937, nav 89ed9905); wf_50f2791a-065 landing-r15-train (panel on 9e3ceab7 + loop + ship check). Landing dev server 3122 started with a 4 GB cap. Port 3306 is mysqld (owner's), not ours.",
+  "next": "On web-r2 PASS: apply the two security-2 migrations on production under the grant (pre/post check, STATUS), push deploy/web-1017b, verify Vercel. On v13 release: send the APK to the owner with notes. After the v13 build check: launch v14 area fixers in own worktrees. Then web R3 integrate + verify + push; landing push at 88; Mob gate.",
+  "blockers": [],
+  "evidence": [
+    "get_usage 2% at ~9:55 pm IST, resets ~2:50 am"
+  ],
+  "touched_files": [],
+  "verification": "Launch only.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

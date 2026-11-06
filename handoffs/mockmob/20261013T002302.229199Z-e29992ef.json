@@ -1,0 +1,29 @@
+{
+  "id": "20261013T002302.229199Z-e29992ef",
+  "observed_at": "2026-10-13T00:23:02.229199+00:00",
+  "agent": "claude-code opus-5.5 (workflow subagent, practice builder)",
+  "task": "Night Sheet: rebuild Flutter Practice feature and restyle Learn (Concepts)",
+  "status": "complete",
+  "done": "Practice tab rebuilt: lit suggestion card (resume / chapter that cost most in latest paper / last paper subject / starting point from chosen subjects) with Show me evidence links, Choose your own (subject object tiles, mode rows as what you get, no costs), Concepts shelf only when study content is on. One composer used as confirm sheet and as /practice/setup/:mode page: length segmented, chapter field, What you get ticket with quote cost, credits low with free list, warm Pro gate with Take a Full mock instead, before-mock lines, failures. Result and auto-start restyled. Learn page renamed Concepts with glass back header, leaves quietly when disabled; due card uses monumental count.",
+  "next": "Device check on M06 (blur, art decode, hero layout at large text). Confirm attempt snapshot chapter names match /api/chapters names (chapter suggestion sends that name). Review builder can link mistakes to learn units.",
+  "blockers": [],
+  "evidence": [
+    "flutter test -j 1 test/unit/core_ui test/unit/practice test/unit/learn test/golden/learn: All tests passed (+299)",
+    "flutter test --update-goldens test/golden/practice: +42 passed"
+  ],
+  "touched_files": [
+    "flutter_app/lib/features/practice/**",
+    "flutter_app/lib/features/learn/copy.dart",
+    "flutter_app/lib/features/learn/screens/learn_screen.dart",
+    "flutter_app/lib/features/learn/widgets/due_card.dart",
+    "flutter_app/lib/features/learn/widgets/screen_bits.dart",
+    "flutter_app/test/unit/practice/**",
+    "flutter_app/test/golden/practice/**",
+    "flutter_app/test/unit/learn/learn_screen_test.dart",
+    "flutter_app/test/unit/learn/learn_models_test.dart",
+    "flutter_app/test/golden/learn/**"
+  ],
+  "verification": "analyze clean for practice/learn (whole-app analyze shows only other builders' in-progress errors in runner/you/onboarding tests); test/unit/core_ui + practice + learn + learn goldens: 299 passed; practice goldens 42 passed (21 states x 2 themes, 384x853), DPR2 previews viewed.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

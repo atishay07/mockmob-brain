@@ -1,0 +1,44 @@
+{
+  "id": "20261015T112438.943340Z-08c70378",
+  "observed_at": "2026-10-15T11:24:38.943340+00:00",
+  "agent": "claude-opus-5.5 subagent (server builder, Mistake Lab v4 slice 2)",
+  "task": "Mistake Lab v4 slice 2 server: capture acceptance, paper_trace.js one time calculator, Replay contract, fixtures and tests (wt-web-refine, web/alive-1015)",
+  "status": "complete",
+  "done": "Commits on web/alive-1015 (not pushed): 49760343 (contract + code), 5551d2e3 (wrappers + tests), acb7bb0b (break gaps in Replay). scoreSession accepts end/away/back/strike and via on visit, keeps recovery.marks/presence/strikes/end beside the unchanged timeline (only when present and consistent); strict shape/range/size checks; old payloads byte-identical vs golden frozen from eeeaca20. submitMeta stores selectionMeta.client and endedBy in finishSession, finishPractice and the deadline finaliser. data/paper_trace.js is the one time rule (away subtracted, last question to end event, 30-minute skip only without away data) and builds the 4.6 trace lines; time_decisions, mistake_lab, session_recovery.dwellByQuestion, prepos_insights.dwellByQuestion (and so attempt_ledger/SWOT) read it. data/replay.js builds lab.replay; lab.time carries the whole finished Time and decisions read for the app. New ledger group struck_key (Crossed out the key). Main contract: data/tests/fixtures/mistake_lab/contract_replay_v1.json (+ contract_replay_time_up_v1.json, contract_replay_nta_v1.json; inputs replay_full/time_up/nta_input.json). Slice 1 contracts unchanged byte for byte; full_mock_input.json only gains its kept Q28 mark. Legit change: session read now skips 30-minute breaks like every other screen.",
+  "next": "Web and app builders render lab.replay and lab.time from contract_replay_v1.json. Deploy order: server (these commits) to production BEFORE any app build that sends the new events; the web runner can send them in the same deploy. Integrator: next build, STATUS.md entry, optional read-only check of the real timed attempts.",
+  "blockers": [
+    "none"
+  ],
+  "evidence": [
+    "npm run test:recovery 107/107",
+    "npm run test:learning 277/277",
+    "npm run test:nta 150/150",
+    "npm run test:app 147/147",
+    "eslint clean on all touched files"
+  ],
+  "touched_files": [
+    "data/recovery.js",
+    "data/paper_trace.js",
+    "data/replay.js",
+    "data/time_decisions.js",
+    "data/mistake_lab.js",
+    "data/mistake_lab.copy.json",
+    "data/session_recovery.js",
+    "data/prepos_insights.js",
+    "src/lib/server/recoverySessions.js",
+    "src/lib/server/practiceSessions.js",
+    "src/lib/server/sessionFinaliser.js",
+    "scripts/mistake-lab/build-fixtures.mjs",
+    "scripts/mistake-lab/build-replay-fixtures.mjs",
+    "scripts/paper-trace/freeze-score-golden.mjs",
+    "data/tests/capture.test.mjs",
+    "data/tests/paper_trace.test.mjs",
+    "data/tests/replay.test.mjs",
+    "data/tests/fixtures/capture/score_session_golden_v1.json",
+    "data/tests/fixtures/mistake_lab/*replay*",
+    "package.json"
+  ],
+  "verification": "Suites and eslint as listed; next build not run; no browser, no dev server, no production reads or writes, no paid calls, no migration.",
+  "cost_and_pending_requests": "none",
+  "confidence": "agent-reported; verify evidence before acting"
+}

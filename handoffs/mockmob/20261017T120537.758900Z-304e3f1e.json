@@ -1,0 +1,33 @@
+{
+  "id": "20261017T120537.758900Z-304e3f1e",
+  "observed_at": "2026-10-17T12:05:37.758900+00:00",
+  "agent": "opus-5.5 Mob web/server fixer (resumed)",
+  "task": "17 Oct: finish Mob go/no-go fixes in wt-mobfix (web/mob-fix-1017)",
+  "status": "complete",
+  "done": "Reviewed 0c57718f and committed 1f5d2f4a on web/mob-fix-1017. Fixed: chapter extras chooser now uses the paper selector's own filters/constraints (staging accountancy: no chapter can build even 5, chooser says so and offers whole subject); NO_SUBJECTS 422 with way forward and onboarding back=/mob; Today Mob line after the move; /join words+key first on phone, facts by container width, seats copy; colour grid 4x2 on phone; See Pro 44px; privacy date conditional. Verified MOB_FULL, success-only create limit, staging fn md5 = repo (9/9). Contract addendum changes_1017 written into mockmob-next/docs/design-decisions/pass-1016e/SOCIAL-APP-CONTRACT.json.",
+  "next": "Re-run the Mob go/no-go on 3101 (left running, wt-mobfix build); app side must adopt changes_1017 (error codes, sharing default on, durationSec 600, invitesPaused, chapters endpoint, entry points); production switch-on still needs migrations 20261017100000 + 20261017190000, MOB_ENABLED, PERSISTENT_LIMITS_ENABLED, MOB_ID_SECRET (main session only).",
+  "blockers": [
+    "App Mob still unwalked on emulator",
+    "Staging bank cannot build any single-chapter extra (selector constraints), whole-subject only"
+  ],
+  "evidence": [
+    "captures C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\tmp\\mob-fix-1017 (21 scenarios x 390/1440 x Night/Day, metrics-all.json)",
+    "npm run lint clean; test:mob 59+, test:app 516/516, test:auth 109/109, test:billing 118/118; next build --webpack compiled (site-3101-mobfix.log)"
+  ],
+  "touched_files": [
+    "wt-mobfix/src/lib/server/mob/deps.js",
+    "wt-mobfix/src/lib/server/mob/service.js",
+    "wt-mobfix/src/lib/mob/model.mjs",
+    "wt-mobfix/src/components/mob/MobPage.jsx",
+    "wt-mobfix/src/components/mob/JoinMob.jsx",
+    "wt-mobfix/src/components/mob/MobExtras.jsx",
+    "wt-mobfix/src/components/mob/mob.css",
+    "wt-mobfix/src/app/onboarding/OnboardingPageClient.jsx",
+    "wt-mobfix/src/app/privacy/page.js",
+    "wt-mobfix/data/tests/mob_fix_1017.test.mjs",
+    "mockmob-next/docs/design-decisions/pass-1016e/SOCIAL-APP-CONTRACT.json"
+  ],
+  "verification": "Live staging API on 3101 with test members (mobtest-*), headless Chrome captures opened, SQL read-only checks on staging. Nothing applied to production.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

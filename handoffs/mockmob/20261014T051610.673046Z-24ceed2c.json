@@ -1,0 +1,22 @@
+{
+  "id": "20261014T051610.673046Z-24ceed2c",
+  "observed_at": "2026-10-14T05:16:10.674047+00:00",
+  "agent": "claude-opus-5.5 (main orchestrator, session 604ced81)",
+  "task": "14 Oct: recover from the 10:40 usage limit; continue the UI blitz, web Phase 1 merge, authored questions and the WIP finisher",
+  "status": "active",
+  "done": "The usage limit hit around 09:50 IST and reset at 10:40. Interrupted UI blitz work was saved as WIP commits on its branches:\n\n| Branch | WIP commit |\n|---|---|\n| ui/motion | 49749da |\n| ui/today | e030c38 |\n| ui/practice | 1d2fc46 |\n| ui/result | e1ebe25 |\n| ui/onboarding | 476e643 |\n| ui/art | da7b66f |\n| ui/mobi | e10a418 (includes a stray tmp/run1.log) |\n| ui/review | 71d5b7f |\n| ui/runner | c372c00 |\n| ui/ask-insights | 17ed8e9 |\n| ui/you-rhythm | 1df61f0 |\n\nAbout 25k lines in total, untested. Old worktrees were deregistered; two leftover folders (wf_a907662c-98e-4, wt-you-rhythm) could not be deleted because of locked files and are harmless. The blitz was relaunched as wf_d7b7bc99-ffb (script mockmob-next/tmp/workflows/premium-ui-blitz.js); builders continue from WIP.\n\nAlso running:\n- Web Phase 0+1 resumed (wtf0w762e, run wf_f8a19a10-56e). W0.1 feat/web-redesign is 902025c (origin/main merged; baseline 607/608). Packages web/W1.1 to W1.5 are built; the merge is pending.\n- Authored questions wave 1 resumed (wf_44ce85fc-892): 29 batches in mockmob-hotfix/tmp/authored. Verify files cover 5 blind solvers (s1-s5), quality judges (j1, j2) and fit judges (h1-h3). No publication.\n- WIP finisher agent resumed through SendMessage.\n\nThe paid factory is blocked: no qualified generator, four subjects only, no long passages, prices expired. Ledger USD 10.04 left. Details in mockmob-hotfix/docs/brain/FACTORY-RUN-2026-10-14.md (uncommitted).\n\nPhone test agent stopped at the owner's request; the phone is clean.",
+  "next": "1) Compute authored-question acceptance: all 5 solvers on the key (or 4 of 5), both quality judges at 7 or above with no flags, fit median at 8 or above with no flags. Report per-subject yield; plan wave 2.\n2) Web Phase 1 merge plus gate screenshots, then the owner gate.\n3) Blitz merge plus emulator walkthrough, then post-merge audit fixes R4, R5, R6, U1, U2, the 10-minute Start repair row and RELEASE.md.\n4) Rebuild the release APK.\n5) The owner runs the 59-row reorder command (blocked for me).",
+  "blockers": [
+    "59-row reorder apply blocked by auto mode",
+    "factory needs owner policy decisions (see FACTORY-RUN-2026-10-14.md)"
+  ],
+  "evidence": [
+    "git branches ui/* in mockmob-next repo",
+    "mockmob-web2 feat/web-redesign 902025c",
+    "mockmob-hotfix/tmp/authored/*"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

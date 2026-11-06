@@ -1,0 +1,103 @@
+{
+  "generatedAt": "2026-10-03T18:25:10.176Z",
+  "readOnly": true,
+  "source": "simulated_fixture_not_student_data",
+  "database": {},
+  "ledger": "absent: no paid content calls recorded from this checkout",
+  "metrics": {
+    "generatedAt": "2026-11-04T04:30:00.000Z",
+    "minimumReportable": 5,
+    "minimumDecisionSample": 30,
+    "pathways": {
+      "sacrificing_gaining@v1": {
+        "sample": {
+          "episodes": 12,
+          "learners": 12,
+          "decisionReady": false
+        },
+        "completion": {
+          "reachedRepair": 12,
+          "finishedRepair": 11,
+          "passedTwoFreshChecks": 4,
+          "maintained": 4,
+          "finishedRepairRate": {
+            "n": 12,
+            "k": 11,
+            "pct": 92,
+            "low": 65,
+            "high": 99
+          }
+        },
+        "freshChecks": {
+          "immediate": {
+            "n": 13,
+            "k": 12,
+            "pct": 92,
+            "low": 67,
+            "high": 99
+          },
+          "delayed1": {
+            "n": 9,
+            "k": 8,
+            "pct": 89,
+            "low": 56,
+            "high": 98
+          },
+          "delayed2": {
+            "n": 4,
+            "suppressed": true
+          },
+          "maintenance": {
+            "n": 1,
+            "suppressed": true
+          },
+          "incompleteOrExpired": 1
+        },
+        "attrition": {
+          "overdueDelayedChecks": 5,
+          "overdueMaintenanceChecks": 4,
+          "stalledRepairs": 1,
+          "overdueRate": {
+            "n": 11,
+            "k": 5,
+            "pct": 45,
+            "low": 21,
+            "high": 72
+          }
+        },
+        "diagnosis": {
+          "counts": {
+            "secure": 3,
+            "old_ratio_default": 3,
+            "new_ratio_used": 3,
+            "direction_reversed": 2,
+            "conflict": 1
+          },
+          "probeConcordance": {
+            "n": 12,
+            "k": 11,
+            "pct": 92,
+            "low": 65,
+            "high": 99
+          }
+        },
+        "contentDefects": {
+          "blockedContent": 0,
+          "invalidated": 1
+        }
+      }
+    },
+    "cost": {
+      "paidModelCallsInCoreFlow": 0,
+      "providerUsd": null,
+      "contentUsd": null,
+      "contentLimitUsd": null,
+      "perStartedEpisodeUsd": null
+    },
+    "caveats": [
+      "Descriptive cohort figures. Passing fresh checks is evidence about these checks, not a causal score gain.",
+      "Learners chose to start and return; completers are not a random sample.",
+      "Groups under 5 are suppressed; no keep/kill decision below 30 episodes."
+    ]
+  }
+}

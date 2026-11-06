@@ -1,0 +1,25 @@
+{
+  "id": "20261103T222001.112995Z-7eef084e",
+  "observed_at": "2026-11-03T22:20:01.112995+00:00",
+  "agent": "claude-auto",
+  "task": "Auto-capture: claude session 34abe724",
+  "status": "paused",
+  "done": "Auto-captured at Stop. Turns: 3. Last message: Usage is fine (14% of the 5-hour window). Waiting on the settle step, the audit and the scroll study.",
+  "next": "Unverified auto-capture. Read the session transcript and live repo state before continuing.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\34abe724-bccd-4ea2-badf-26b6f6615d8a.jsonl"
+  ],
+  "touched_files": [
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\C--Users-atish--claude-spares-spare-Mj7FSq\\34abe724-bccd-4ea2-badf-26b6f6615d8a\\scratchpad\\OWNER-STEPS-18-draft.md",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\C--Users-atish--claude-spares-spare-Mj7FSq\\34abe724-bccd-4ea2-badf-26b6f6615d8a\\scratchpad\\edit_test.py",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1103-app-rel\\flutter_app\\test\\unit\\learn2\\feed\\feed_screen_test.dart",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1104-web-polish\\tmp\\home-1104\\audit\\scripts\\home-audit2.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1104-web-polish\\tmp\\home-1104\\scroll\\prototype-one-gesture-v2.html",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1104-web-polish\\tmp\\home-1104\\scroll\\prove.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1104-web-polish\\tmp\\home-1104\\brand\\BRAND.md"
+  ],
+  "verification": "auto-captured by hook; not agent-verified",
+  "cost_and_pending_requests": "unknown; hook does not see provider receipts",
+  "confidence": "agent-reported; verify evidence before acting"
+}

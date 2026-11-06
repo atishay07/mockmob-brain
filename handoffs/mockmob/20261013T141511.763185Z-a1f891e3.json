@@ -1,0 +1,28 @@
+{
+  "id": "20261013T141511.763185Z-a1f891e3",
+  "observed_at": "2026-10-13T14:15:11.763185+00:00",
+  "agent": "claude-opus-5.5 (main orchestrator, session 604ced81)",
+  "task": "MockMob 13 Oct evening: logo B into the app, NTA scoring merge, app review round 2",
+  "status": "active",
+  "done": "The owner chose logo round 4 finalist B for now: Cabinet Black \"mockmob\" with Mobi as the SECOND o, and \"mo\" as the icon. A looked nicer, but B \"makes more sense\" (mock + mob). C is out. He is consulting people and may switch to A. His brief: \"the app should open up with the mo, then expand into the full text animation\". Memory updated (mockmob-design-direction.md).\n\nLogo B finalized in mockmob-next/tmp/logo/final-B:\n- Eye fix O6: smaller eyes spread further apart, ring stroke 0.24.\n- Kerning: m-Mobi -0.002 em, Mobi-b -0.002 em.\n- Exports: 40 SVGs, 45 PNGs, README, and the Play, web and social packs.\n- flutter_app/lib/core/widgets/brand/logo_geometry.g.dart, with the API documented in the workflow journal.\n\nNTA:\n- All 610 Haiku judge results are in mockmob-hotfix/tmp/nta-pass/results.\n- I wrote calibration.json (threshold 7 per judge, owner_bar 8) and judges.json (claude-haiku-5-5).\n- I appended an orchestrator-decision section to CALIBRATION.md. The calibration agent recommended a mean of 7.5 or more, but the engine checks each judge separately; \"each >= 7, clean\" gives 96% precision against the factory's 8 or more on the calibration set.\n\nWebsite: the fix/web-state-home review fixes are committed in mockmob-web2 (6e68228, 1dc44b9), not pushed.\n\nApp: pass-2 work is committed locally as 49f4100 on feat/app-and-web (975 files, app and docs only; tmp/ excluded). Not pushed.\n\nUsage limit hit around 18:40 IST and reset at 19:40. Resumed: wf_9e3e4eb5-aa5 (logo into app: build-app, reviews, fix) and wf_a94c0af9-31e (merge, e2e, expert). Scripts are copied to mockmob-next/tmp/workflows (logo-b-into-app.js, nta-scoring-run.js).",
+  "next": "1) After the logo build: review the device frames and send the owner the opening animation, then commit the logo work. 2) Then resume app pass 2 (wf_6de0e3bb-fdf, script mockmob-next/tmp/workflows/app-pass-2.js): review2 (4 reviewers) and fix2. They failed on the usage limit; run them after the logo build so they don't clash in the same checkout. 3) NTA: check the merge counts and per-subject yield at both rules, plus the e2e and expert verdicts. Do not deploy. 4) Play-policy fix pass and account_access widget placement. 5) Visual check of web fix/web-state-home at 375 and 1024 px. 6) Verify the nightly crons tomorrow morning.",
+  "blockers": [
+    "Owner actions: one-time emulator sign-in; dashboard steps (flutter_app/docs/AUTH.md); run make_upload_key.ps1; create the Play app and gather testers; remove the demo app from the Vivo",
+    "Emulator cannot reach www.mockmob.in over HTTPS: a certificate is intercepted on this PC (integration agent finding); use local staging"
+  ],
+  "evidence": [
+    "mockmob-next 49f4100",
+    "mockmob-web2 6e68228, 1dc44b9",
+    "mockmob-hotfix/tmp/nta-pass/{calibration.json,judges.json,CALIBRATION.md}",
+    "mockmob-next/tmp/logo/final-B/README.md"
+  ],
+  "touched_files": [
+    "mockmob-next (commit 49f4100)",
+    "mockmob-hotfix/tmp/nta-pass/calibration.json",
+    "mockmob-hotfix/tmp/nta-pass/judges.json",
+    "mockmob-hotfix/tmp/nta-pass/CALIBRATION.md"
+  ],
+  "verification": "Commit 49f4100 exists. The resume journals show the scoring run went straight to merge with judges cached, and the logo run started build-app.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

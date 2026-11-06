@@ -1,0 +1,28 @@
+{
+  "id": "20261023T002344.214252Z-25962c04",
+  "observed_at": "2026-10-23T00:23:44.215249+00:00",
+  "agent": "claude-opus-5.5 session 792c2e1f (promo film orchestrator)",
+  "task": "MockMob 9:16 Reel (Reel916): overnight autonomous build; usage stop at 5:52 am",
+  "status": "paused",
+  "done": "Owner asleep since 3:45 am with full autonomy + any tools/credits. Reels plan locked (docs/REELS-PLAN-916.md). Wave 1: plumb skeleton+core PASS, temp voice, 3D hook candidates, sound w1 PASS, aha built (1 item left), hook built + 2 fix rounds; the 0-803 preview cut + judges still running. Paid bed + SFX re-made (public/sfx-el-paid, tools/music-el/paid/el3p.wav; ~2,500 credits; final recheck running). Paid voice done (public/vo/el_himanshu_reel, 2,321 credits; voice finish with R01 \"marks\" running). Wave 2: askmobi, colleges, unlimited built; answer, examday, mob, close stopped mid-build at 5:52 am because the 5-hour window hit 79 % one hour after the reset (orphan renders killed, lock free). Decisions: Reel = 26 bars (27 if holds need it), applied in wave 3.",
+  "next": "After the ~10:20 am IST reset: check wave 1's preview (send it to the owner if good), resume wave 2 (scratchpad wave2.js, resumeFromRunId wf_d59bb419-1e5, at most 5-6 opus builders at once), wave 2b sound+plumb, wave 3 voice swap + 26 bars, candidate, judge panel, one fix round, final, delivery, cutdowns. Full steps in docs/HANDOFF-2026-10-23-0555.md.",
+  "blockers": [
+    "5-hour usage window: 80 % at 5:55 am, resets about 10:20 am IST"
+  ],
+  "evidence": [
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\HANDOFF-2026-10-23-0555.md",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\NEXT-SESSION-PROMPT-2026-10-23-0555.md",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\REELS-PLAN-916.md",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\NOTES.md (DIRECTOR USAGE STOP, WAVE 2)"
+  ],
+  "touched_files": [
+    "src/reel/** (new)",
+    "src/Root.tsx, src/teaser/plan.ts, sound.ts, KaraokeHeadline.tsx, Mobi3D host types (additive; Teaser16 byte-identical)",
+    "public/vo/el_himanshu_reel_temp/**, public/vo/el_himanshu_reel/**, public/sfx-el-paid/**, public/music/reel-v1*.wav (new)",
+    "docs/ELEVENLABS-CREDITS.md (append)",
+    "docs/OWNER-LEDGER.md, docs/NOTES.md (append)"
+  ],
+  "verification": "Plumb gates: tsc clean, both timelines 0 warnings, regress16 206 frames PASS, Teaser16 audio null test PASS. Lock free and no orphan renders after the wave-2 stop (5:53 am).",
+  "cost_and_pending_requests": "ElevenLabs (owner's paid Starter account): about 2,500 credits licence re-make + 2,321 voice + small re-takes, all logged in docs/ELEVENLABS-CREDITS.md; owner approved credits at 3:35 and 3:45 am.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

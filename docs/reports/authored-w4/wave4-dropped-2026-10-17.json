@@ -1,0 +1,251 @@
+[
+  {
+    "id": "c2cf8f95-1fd1-4ac7-b523-52ed7d95dee3",
+    "subject": "biology",
+    "batch": "biology__w4b1",
+    "chapter": "Human Reproduction",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j2_quality_4; j2_flags_doubtful_key"
+  },
+  {
+    "id": "027483a8-5cf3-4a67-a868-8ab4fc6ccbe9",
+    "subject": "biology",
+    "batch": "biology__w4b1",
+    "chapter": "Evolution",
+    "type": "sequence_ordering",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j2_quality_3; j2_flags_factual_error"
+  },
+  {
+    "id": "3fd2baf1-f46d-4695-90b7-8e40c62975f2",
+    "subject": "biology",
+    "batch": "biology__w4b2",
+    "chapter": "Human Health & Disease",
+    "type": "statement_based",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j1_quality_4; j1_flags_doubtful_key"
+  },
+  {
+    "id": "0269f538-ba1b-41ce-a80c-1748b986ea88",
+    "subject": "biology",
+    "batch": "biology__w4b3",
+    "chapter": "Biodiversity & Conservation",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j1_blind_answer_D"
+  },
+  {
+    "id": "a04434ca-9aad-472b-bbab-a3f1772efcdf",
+    "subject": "chemistry",
+    "batch": "chemistry__w4b1",
+    "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j2_quality_6"
+  },
+  {
+    "id": "eb154c9d-5bdc-4c88-a6a0-349b209958ef",
+    "subject": "chemistry",
+    "batch": "chemistry__w4b2",
+    "chapter": "Amines",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "solvers_2_of_5"
+  },
+  {
+    "id": "a7758e68-699c-48a6-bc75-d2a972b4ad92",
+    "subject": "chemistry",
+    "batch": "chemistry__w4b3",
+    "chapter": "Electrochemistry",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "solvers_3_of_5"
+  },
+  {
+    "id": "01cb34e5-45c5-4924-af40-a6030c2225e6",
+    "subject": "general_test",
+    "batch": "general_test__w4b2",
+    "chapter": "Current Affairs",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "fit_median_6"
+  },
+  {
+    "id": "5d47dd9f-4620-4675-b779-b149852f8210",
+    "subject": "general_test",
+    "batch": "general_test__w4b2",
+    "chapter": "Current Affairs",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "fit_median_6"
+  },
+  {
+    "id": "bfdecf7f-b1ea-4b31-8af7-2b20d1ada913",
+    "subject": "general_test",
+    "batch": "general_test__w4b2",
+    "chapter": "Current Affairs",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "fit_median_6"
+  },
+  {
+    "id": "c059fbf2-49ab-43db-9643-b930923dcd06",
+    "subject": "general_test",
+    "batch": "general_test__w4b2",
+    "chapter": "Current Affairs",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "fit_median_6"
+  },
+  {
+    "id": "73597eea-a31f-4635-b7c7-fefec7cb8271",
+    "subject": "general_test",
+    "batch": "general_test__w4b2",
+    "chapter": "Current Affairs",
+    "type": "match_the_following",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "fit_median_6"
+  },
+  {
+    "id": "047ae2ba-36e7-4a08-bac8-797885b16045",
+    "subject": "general_test",
+    "batch": "general_test__w4b2",
+    "chapter": "Current Affairs",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "fit_median_6"
+  },
+  {
+    "id": "a1455457-1272-4121-9faa-6777605864c9",
+    "subject": "general_test",
+    "batch": "general_test__w4b2",
+    "chapter": "Current Affairs",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "fit_median_6"
+  },
+  {
+    "id": "9f9fb100-d89c-49fd-8f19-2bf893c1aaea",
+    "subject": "general_test",
+    "batch": "general_test__w4b2",
+    "chapter": "Current Affairs",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "fit_median_6"
+  },
+  {
+    "id": "904c750d-2575-4647-aefa-1e2f01c77bbc",
+    "subject": "general_test",
+    "batch": "general_test__w4b3",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "statement_based",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j1_quality_6"
+  },
+  {
+    "id": "8a51bea6-7f2e-45de-acf0-4dbd4ab9d672",
+    "subject": "mathematics",
+    "batch": "mathematics__w4b1",
+    "chapter": "Financial Mathematics",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j2_quality_3; j2_flags_factual_error"
+  },
+  {
+    "id": "6e6c3c28-a723-4c1f-9359-8fbe3c7473b2",
+    "subject": "mathematics",
+    "batch": "mathematics__w4b3",
+    "chapter": "Application of Derivatives",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j1_quality_3; j1_flags_factual_error; j2_quality_3; j2_flags_factual_error"
+  },
+  {
+    "id": "9a2b3ade-77eb-4ee8-8cd3-f9dbbca861ba",
+    "subject": "physics",
+    "batch": "physics__w4b1",
+    "chapter": "Semiconductor Electronics",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j2_quality_6"
+  },
+  {
+    "id": "ff03fa32-f2de-4166-b312-bff3de154777",
+    "subject": "physics",
+    "batch": "physics__w4b2",
+    "chapter": "Dual Nature of Radiation & Matter",
+    "type": "statement_based",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j1_quality_6"
+  },
+  {
+    "id": "89ff99c8-222d-48d8-8071-e65f3656d7cd",
+    "subject": "biology",
+    "batch": "biology__w4b2",
+    "chapter": "Human Health & Disease",
+    "type": "single_mcq",
+    "first_pass": "accepted_in_the_first_pass",
+    "category": "set_left_with_fewer_than_2_children",
+    "reason": "the passage set w4-bio-02-set-1 has 1 question left after the drops",
+    "stranded_by_set": {
+      "set_id": "w4-bio-02-set-1",
+      "passes_publish_rule_alone": true,
+      "quality_scores": [
+        8,
+        8
+      ],
+      "fit_median": 8,
+      "held_7_to_7_9_siblings": [
+        "80acdc79-32e8-47ce-893b-76579df268fc",
+        "7d4b6c6f-9f8e-4e6f-a243-bdcda52cb355",
+        "f6b8e854-fac9-4ea3-8f17-24481236c2ea"
+      ]
+    }
+  },
+  {
+    "id": "ad0c0f11-adaa-4a9b-aae2-95288ca2e8e5",
+    "subject": "biology",
+    "batch": "biology__w4b3",
+    "chapter": "Biotechnology & its Applications",
+    "type": "single_mcq",
+    "first_pass": "accepted_in_the_first_pass",
+    "category": "set_left_with_fewer_than_2_children",
+    "reason": "the passage set w4-bio-03-set-1 has 1 question left after the drops",
+    "stranded_by_set": {
+      "set_id": "w4-bio-03-set-1",
+      "passes_publish_rule_alone": true,
+      "quality_scores": [
+        9,
+        8
+      ],
+      "fit_median": 8,
+      "held_7_to_7_9_siblings": [
+        "53f7ec15-6f15-490b-bc13-2454749bf0a1",
+        "65134122-0ff0-4601-b4e4-1dc76ae6bf66",
+        "f6532e00-b9e0-4b76-82a0-296ef910b429",
+        "c2cb9280-2619-4f53-91d3-a150d13d433a"
+      ]
+    }
+  }
+]

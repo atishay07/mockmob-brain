@@ -1,0 +1,607 @@
+{
+ "kind": "authored_w2_engine_check",
+ "label": "working-r5.1",
+ "source": "claude-authored-2026-10-14-w2",
+ "at": "2026-10-14T09:22:35.444Z",
+ "engine": {
+  "root": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-hotfix",
+  "file": "data/nta_engine.js",
+  "version": "nta-engine-2026.10.14-r5.1",
+  "sha256": "c4f5f0e35946a041d2de97b39ded1ff0b88f19af3420ff7305b2d47a9c060743",
+  "mtime": "2026-10-14T09:01:30.219Z",
+  "minScore": 8,
+  "minFit": 8
+ },
+ "method": "ntaEligibility (quality gate with the agent scores, content gates, CUET-fit gate) on every accepted wave-2 question with the committed agent and fit tables of the named checkout plus the wave-2 entries merged in memory (policy admit). Nothing in data/ is written. Rows are mapped like the wave-1 publisher (toQuestionRow); case-set items typed single_mcq are mapped as passage children.",
+ "candidatesSha256": "f9593e13ac206cee147fe2278a16cb37fe5e4b738f0b9564e4f98e88e76dfbf2",
+ "planned": 390,
+ "engineEligible": 361,
+ "engineIneligible": 29,
+ "engineIneligibleReasons": {
+  "options_invalid": 23,
+  "answer_guard_options_invalid": 19,
+  "answer_guard_near_duplicate_options": 16,
+  "malformed_question_text": 4,
+  "orphan_passage_question": 1,
+  "sequence_key_is_listed_order": 1,
+  "sequence_order_narrated_in_stem": 1
+ },
+ "ineligibleByGate": {
+  "veto": 29
+ },
+ "bySubject": {
+  "biology": {
+   "planned": 56,
+   "eligible": 53,
+   "ineligible": 3,
+   "reasons": {
+    "orphan_passage_question": 1,
+    "sequence_key_is_listed_order": 1,
+    "sequence_order_narrated_in_stem": 1
+   }
+  },
+  "computer_science": {
+   "planned": 78,
+   "eligible": 75,
+   "ineligible": 3,
+   "reasons": {
+    "answer_guard_options_invalid": 3,
+    "answer_guard_near_duplicate_options": 2,
+    "options_invalid": 3
+   }
+  },
+  "english": {
+   "planned": 55,
+   "eligible": 54,
+   "ineligible": 1,
+   "reasons": {
+    "answer_guard_options_invalid": 1,
+    "options_invalid": 1
+   }
+  },
+  "general_test": {
+   "planned": 72,
+   "eligible": 72,
+   "ineligible": 0,
+   "reasons": {}
+  },
+  "geography": {
+   "planned": 51,
+   "eligible": 51,
+   "ineligible": 0,
+   "reasons": {}
+  },
+  "mathematics": {
+   "planned": 69,
+   "eligible": 47,
+   "ineligible": 22,
+   "reasons": {
+    "malformed_question_text": 4,
+    "answer_guard_options_invalid": 15,
+    "options_invalid": 19,
+    "answer_guard_near_duplicate_options": 14
+   }
+  },
+  "political_science": {
+   "planned": 9,
+   "eligible": 9,
+   "ineligible": 0,
+   "reasons": {}
+  }
+ },
+ "passageSets": [
+  {
+   "set_id": "english__p1__set3",
+   "subject": "english",
+   "chapter": "Literary Passage",
+   "passage_words": 277,
+   "passage_words_range": {
+    "min": 200,
+    "target": 280,
+    "max": 300
+   },
+   "min_children": 4,
+   "wave1_children": 3,
+   "wave1_children_eligible": 3,
+   "wave2_children": 1,
+   "wave2_children_eligible": 1,
+   "distinct_eligible_children": 4,
+   "blueprint_serves_sets": true,
+   "servable": true
+  }
+ ],
+ "placementProblems": [],
+ "informational": {
+  "authoredTypeVersusEngineType": [
+   {
+    "id": "0bc7e3fd-ca5f-4abb-8058-b2df046889e4",
+    "subject": "english",
+    "note": "fit judges majority chapter differs from the authored chapter",
+    "authored_chapter": "Correct Word Usage",
+    "fit_chapter": "Vocabulary"
+   },
+   {
+    "id": "1e2a6ba5-ebe1-43f1-b5ec-da78024a63c5",
+    "subject": "general_test",
+    "note": "fit judges majority chapter differs from the authored chapter",
+    "authored_chapter": "General Knowledge",
+    "fit_chapter": "General Science and Environment Literacy"
+   }
+  ]
+ },
+ "refused": [
+  {
+   "id": "dbbeb54a-2a90-448d-bc03-d52a07078ded",
+   "subject": "biology",
+   "batch": "biology__b1",
+   "chapter": "Reproductive Health",
+   "authored_type": "match_the_following",
+   "engine_type": "match_the_following",
+   "reasons": [
+    "orphan_passage_question"
+   ],
+   "cause": [
+    "the stem reads as passage-linked because of \"based on\" but the row has no passage"
+   ],
+   "stem": "Match List-I with List-II.\nList-I: (A) Vasectomy, (B) Copper-T, (C) Lactational amenorrhoea, (D) Saheli\nList-II: (I) Intrauterine device, (I"
+  },
+  {
+   "id": "4b3919e1-b58b-44eb-a11c-42cca7d43ca7",
+   "subject": "biology",
+   "batch": "biology__b1",
+   "chapter": "Principles of Inheritance & Variation",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "sequence_key_is_listed_order"
+   ],
+   "cause": [
+    "the correct option lists the items in the same order as the stem prints them"
+   ],
+   "stem": "The recombination frequencies between three linked genes on the same chromosome of a plant are: gene P and gene Q, 12%; gene Q and gene R, 8"
+  },
+  {
+   "id": "a6e15328-3f33-4874-b956-dd25c0a63f39",
+   "subject": "biology",
+   "batch": "biology__b2",
+   "chapter": "Evolution",
+   "authored_type": "sequence_ordering",
+   "engine_type": "sequence_ordering",
+   "reasons": [
+    "sequence_order_narrated_in_stem"
+   ],
+   "cause": [
+    "the stem itself narrates the order (two or more ordering cues)"
+   ],
+   "stem": "Arrange the following hominids in the order of their first appearance in the fossil record, earliest first:\n(A) Homo sapiens\n(B) Homo erectu"
+  },
+  {
+   "id": "cc4ffd23-289c-4651-98ed-6a47619b6636",
+   "subject": "computer_science",
+   "batch": "computer_science__b1",
+   "chapter": "Structured Query Language",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ],
+   "cause": [
+    "options B, C, D are identical once everything except letters and digits is dropped (\"ename like s\"): they differ only by symbols, signs, superscripts or brackets"
+   ],
+   "stem": "Which WHERE condition selects the rows in which the column ENAME has a value that begins with the letter S?"
+  },
+  {
+   "id": "5efc8343-0618-4451-9700-e8858f0599b6",
+   "subject": "computer_science",
+   "batch": "computer_science__b2",
+   "chapter": "Queue",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "options_invalid"
+   ],
+   "cause": [
+    "option text is a single letter a-d (read as a placeholder): A, B, C"
+   ],
+   "stem": "The following Python code uses a list as a queue:\n\nq = []\nq.append('A')\nq.append('B')\nq.append('C')\nq.pop(0)\nprint(q[0])\n\nWhat is the output"
+  },
+  {
+   "id": "e056011f-1958-4eda-8fe0-0f40fe290aea",
+   "subject": "computer_science",
+   "batch": "computer_science__b4",
+   "chapter": "Structured Query Language",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ],
+   "cause": [
+    "options A, B, C are identical once everything except letters and digits is dropped (\"select ename from emp where ename like r\"): they differ only by symbols, signs, superscripts or brackets"
+   ],
+   "stem": "Which query displays the names of all employees whose name begins with the letter R, from the column Ename of table EMP?"
+  },
+  {
+   "id": "a3eb6b10-fe92-4abc-a2d0-8dacc0900a72",
+   "subject": "english",
+   "batch": "english__v2",
+   "chapter": "Correct Word Usage",
+   "authored_type": "fill_in_blank",
+   "engine_type": "fill_in_blank",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "options_invalid"
+   ],
+   "cause": [
+    "option text is a single letter a-d (read as a placeholder): A"
+   ],
+   "stem": "Choose the option that correctly fills the blank: He is ______ honest man whose word can always be trusted."
+  },
+  {
+   "id": "2bcb43e0-f75e-40d3-b4ff-725752064937",
+   "subject": "mathematics",
+   "batch": "mathematics__b1",
+   "chapter": "Matrices",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "malformed_question_text"
+   ],
+   "cause": [
+    "the stem or an option contains \"[[\" or \"]]\" (nested brackets, for example matrix notation): in the stem"
+   ],
+   "stem": "If A = [[1, 2], [3, 4]] and B = [[0, 1], [1, 0]], then AB is equal to"
+  },
+  {
+   "id": "cb4f1503-5165-4373-a4d4-037a199e073a",
+   "subject": "mathematics",
+   "batch": "mathematics__b1",
+   "chapter": "Matrices",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "options_invalid"
+   ],
+   "cause": [
+    "option text is a single letter a-d (read as a placeholder): B"
+   ],
+   "stem": "If A is a square matrix such that A² = A and I is the identity matrix of the same order, then (I + A)³ − 7A is equal to"
+  },
+  {
+   "id": "1bfb4dd7-d130-4baa-97eb-22b59d735a9a",
+   "subject": "mathematics",
+   "batch": "mathematics__b1",
+   "chapter": "Determinants",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "malformed_question_text",
+    "options_invalid"
+   ],
+   "cause": [
+    "options A, C are identical once everything except letters and digits is dropped (\"8\"): they differ only by symbols, signs, superscripts or brackets",
+    "the stem or an option contains \"[[\" or \"]]\" (nested brackets, for example matrix notation): in the stem"
+   ],
+   "stem": "If A = [[1, 2], [3, 4]], then the value of det(2A) is"
+  },
+  {
+   "id": "ed2b7448-3d0f-4e70-9e56-ba29ba3bc47a",
+   "subject": "mathematics",
+   "batch": "mathematics__b1",
+   "chapter": "Application of Derivatives",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "options_invalid"
+   ],
+   "cause": [
+    "options A, C are identical once everything except letters and digits is dropped (\"2\"): they differ only by symbols, signs, superscripts or brackets"
+   ],
+   "stem": "The maximum value of f(x) = x³ − 3x on the interval [−2, 2] is"
+  },
+  {
+   "id": "88f6b629-ab46-4461-8205-eab727097947",
+   "subject": "mathematics",
+   "batch": "mathematics__b1",
+   "chapter": "Integrals",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ],
+   "cause": [
+    "options A, D are identical once everything except letters and digits is dropped (\"e 1 2\"): they differ only by symbols, signs, superscripts or brackets"
+   ],
+   "stem": "The value of the definite integral ∫₀¹ x e^(x²) dx is"
+  },
+  {
+   "id": "cf6144bf-869b-479a-99de-b5a4fd2b9c0e",
+   "subject": "mathematics",
+   "batch": "mathematics__b1",
+   "chapter": "Differential Equations",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ],
+   "cause": [
+    "options A, D are identical once everything except letters and digits is dropped (\"y 3e x\"): they differ only by symbols, signs, superscripts or brackets"
+   ],
+   "stem": "The solution of the differential equation dy/dx = 2xy, given that y = 3 when x = 0, is"
+  },
+  {
+   "id": "e8e39a8f-434c-40c0-9e8f-2efec7c08d76",
+   "subject": "mathematics",
+   "batch": "mathematics__b1",
+   "chapter": "Inverse Trigonometric Functions",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ],
+   "cause": [
+    "options B, C are identical once everything except letters and digits is dropped (\"4\"): they differ only by symbols, signs, superscripts or brackets"
+   ],
+   "stem": "The principal value of sin⁻¹(sin(3π/4)) is"
+  },
+  {
+   "id": "87c9264b-613d-4c51-bb97-9de06bbe6fe8",
+   "subject": "mathematics",
+   "batch": "mathematics__b1",
+   "chapter": "Matrices",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "malformed_question_text"
+   ],
+   "cause": [
+    "the stem or an option contains \"[[\" or \"]]\" (nested brackets, for example matrix notation): in the stem"
+   ],
+   "stem": "If A = [[1, 2], [0, 1]], then A³ is equal to"
+  },
+  {
+   "id": "d66d55ac-929f-4786-8a67-59576d0aa5c7",
+   "subject": "mathematics",
+   "batch": "mathematics__b1",
+   "chapter": "Matrices",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "malformed_question_text"
+   ],
+   "cause": [
+    "the stem or an option contains \"[[\" or \"]]\" (nested brackets, for example matrix notation): in the stem"
+   ],
+   "stem": "If A = [[1, 4], [2, 3]], then the matrix P = (A + Aᵀ)/2 is"
+  },
+  {
+   "id": "83193176-5484-442e-921d-adc71ffa1dde",
+   "subject": "mathematics",
+   "batch": "mathematics__b2",
+   "chapter": "Application of Derivatives",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ],
+   "cause": [
+    "options A, B, C are identical once everything except letters and digits is dropped (\"1 3\"): they differ only by symbols, signs, superscripts or brackets"
+   ],
+   "stem": "The function f(x) = x³ − 6x² + 9x + 1 is strictly decreasing in the interval"
+  },
+  {
+   "id": "dcd0ea24-c4b2-455f-9e31-df781517974f",
+   "subject": "mathematics",
+   "batch": "mathematics__b2",
+   "chapter": "Application of Derivatives",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ],
+   "cause": [
+    "options B, C, D are identical once everything except letters and digits is dropped (\"2x y 2 0\"): they differ only by symbols, signs, superscripts or brackets"
+   ],
+   "stem": "The equation of the tangent to the curve y = x² − 4x + 3 at the point where x = 1 is"
+  },
+  {
+   "id": "7d497a12-099b-42ab-a058-a8738afbe148",
+   "subject": "mathematics",
+   "batch": "mathematics__b2",
+   "chapter": "Application of Derivatives",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "options_invalid"
+   ],
+   "cause": [
+    "options A, C are identical once everything except letters and digits is dropped (\"1\"): they differ only by symbols, signs, superscripts or brackets"
+   ],
+   "stem": "The maximum value of f(x) = x³ − 3x + 1 on the interval [−2, 0] is"
+  },
+  {
+   "id": "2b6807ae-c16c-4267-b420-5722c0ed952d",
+   "subject": "mathematics",
+   "batch": "mathematics__b2",
+   "chapter": "Integrals",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ],
+   "cause": [
+    "options A, B, C are identical once everything except letters and digits is dropped (\"e x c\"): they differ only by symbols, signs, superscripts or brackets"
+   ],
+   "stem": "∫ eˣ (1/x − 1/x²) dx is equal to (where C is the constant of integration)"
+  },
+  {
+   "id": "331c760a-015f-4cb8-9964-346d263143bf",
+   "subject": "mathematics",
+   "batch": "mathematics__b2",
+   "chapter": "Integrals",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ],
+   "cause": [
+    "options A, B are identical once everything except letters and digits is dropped (\"1 2 ln x 1 x 1 c\"): they differ only by symbols, signs, superscripts or brackets"
+   ],
+   "stem": "For |x| > 1, ∫ dx/(x² − 1) is equal to (where C is the constant of integration)"
+  },
+  {
+   "id": "e02b71b5-7edf-4e03-8823-b802f699a479",
+   "subject": "mathematics",
+   "batch": "mathematics__b3",
+   "chapter": "Continuity & Differentiability",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ],
+   "cause": [
+    "options B, C are identical once everything except letters and digits is dropped (\"2\"): they differ only by symbols, signs, superscripts or brackets"
+   ],
+   "stem": "If y = x^(sin x) for x > 0, then dy/dx at x = π/2 is:"
+  },
+  {
+   "id": "d2e35cc4-095c-4645-b925-826c87165dd1",
+   "subject": "mathematics",
+   "batch": "mathematics__b3",
+   "chapter": "Application of Derivatives",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ],
+   "cause": [
+    "options A, C are identical once everything except letters and digits is dropped (\"1 3\"): they differ only by symbols, signs, superscripts or brackets",
+    "options B, D are identical once everything except letters and digits is dropped (\"3\"): they differ only by symbols, signs, superscripts or brackets"
+   ],
+   "stem": "The function f(x) = x³ − 6x² + 9x + 1 is strictly increasing in the interval(s):"
+  },
+  {
+   "id": "8ee1a4be-30ab-4a3b-a98d-87294334ec60",
+   "subject": "mathematics",
+   "batch": "mathematics__b3",
+   "chapter": "Integrals",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ],
+   "cause": [
+    "options C, D are identical once everything except letters and digits is dropped (\"e 1 2\"): they differ only by symbols, signs, superscripts or brackets"
+   ],
+   "stem": "The value of ∫ from 0 to 1 of x e^(x²) dx is:"
+  },
+  {
+   "id": "12d9762a-a577-4a40-b87a-993cd32ca010",
+   "subject": "mathematics",
+   "batch": "mathematics__b3",
+   "chapter": "Integrals",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "options_invalid"
+   ],
+   "cause": [
+    "options C, D are identical once everything except letters and digits is dropped (\"1\"): they differ only by symbols, signs, superscripts or brackets"
+   ],
+   "stem": "The value of ∫ from 0 to π/2 of x sin x dx is:"
+  },
+  {
+   "id": "b0307bb2-96a1-4232-ae87-58d0742d49f2",
+   "subject": "mathematics",
+   "batch": "mathematics__b3",
+   "chapter": "Differential Equations",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ],
+   "cause": [
+    "options A, D are identical once everything except letters and digits is dropped (\"d y dx 4y 0\"): they differ only by symbols, signs, superscripts or brackets"
+   ],
+   "stem": "The differential equation representing the family of curves y = A e^(2x) + B e^(−2x), where A and B are arbitrary constants, is:"
+  },
+  {
+   "id": "2a6c8576-fcef-4d2f-aa94-89ed19ccc690",
+   "subject": "mathematics",
+   "batch": "mathematics__b4",
+   "chapter": "Differential Equations",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ],
+   "cause": [
+    "options B, C are identical once everything except letters and digits is dropped (\"e\"): they differ only by symbols, signs, superscripts or brackets"
+   ],
+   "stem": "Let y = y(x) satisfy dy/dx = 2xy with y(0) = 1. The value of y(1) is"
+  },
+  {
+   "id": "2ef9f058-fb7a-4751-9910-b01bc28f836f",
+   "subject": "mathematics",
+   "batch": "mathematics__b4",
+   "chapter": "Vector Algebra",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ],
+   "cause": [
+    "options B, C are identical once everything except letters and digits is dropped (\"83 2\"): they differ only by symbols, signs, superscripts or brackets"
+   ],
+   "stem": "The area of the triangle whose two adjacent sides are the vectors a = i − j + 2k and b = 2i + 3j + k is"
+  },
+  {
+   "id": "c262ba31-18ea-4444-82f6-a918bcec0984",
+   "subject": "mathematics",
+   "batch": "mathematics__b4",
+   "chapter": "Three Dimensional Geometry",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ],
+   "cause": [
+    "options A, B are identical once everything except letters and digits is dropped (\"1 3\"): they differ only by symbols, signs, superscripts or brackets"
+   ],
+   "stem": "The acute angle θ between the lines with direction ratios 1, 2, 2 and 3, −4, 0 satisfies cos θ ="
+  }
+ ]
+}

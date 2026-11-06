@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-10-02T08:12:50.368Z",
+  "base": "http://localhost:3100",
+  "mode": "local_production_build_unauthenticated_boundaries",
+  "cookiesOrCredentials": false,
+  "results": [
+    {
+      "method": "GET",
+      "path": "/api/learning/plan",
+      "expected": 401,
+      "status": 401,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/recovery/episodes",
+      "expected": 401,
+      "status": 401,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/recovery/episodes/nonexistent/responses",
+      "expected": 401,
+      "status": 401,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/sessions",
+      "expected": 401,
+      "status": 401,
+      "passed": true
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/sessions",
+      "expected": 401,
+      "status": 401,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/ai/mentor/chat",
+      "expected": 401,
+      "status": 401,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/send-email",
+      "expected": 404,
+      "status": 404,
+      "passed": true
+    },
+    {
+      "method": "GET",
+      "path": "/preview/recovery",
+      "expected": 404,
+      "status": 404,
+      "passed": true
+    },
+    {
+      "method": "GET",
+      "path": "/preview/arena",
+      "expected": 404,
+      "status": 404,
+      "passed": true
+    }
+  ]
+}

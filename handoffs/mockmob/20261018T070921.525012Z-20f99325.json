@@ -1,0 +1,18 @@
+{
+  "id": "20261018T070921.525012Z-20f99325",
+  "observed_at": "2026-10-18T07:09:21.525012+00:00",
+  "agent": "claude-opus subagent (design lead, D50-D52)",
+  "task": "D52 richer Today mock, D51 swipe suggestion stack mock, D50 5/10/20 finding",
+  "status": "complete",
+  "done": "Compared Today goldens v5-v15; mocked refined Today (Mobi header back, The weeks ahead vertical timeline, Your marks trend merged with Last paper, Weak chapters bars) and a Suggested card stack (right = make it the lead, not start). D50: only Today's length panel offers 5/10/20 (move_builder.dart:31, copy.dart:173). Doc + 17 captures committed 4beda6cc on feat/app-and-web (not pushed).",
+  "next": "Ask owner the 3 questions at the end of TODAY-SWIPE-1018.md; on yes, brief Flutter agents (D52 ~2h, D51 ~1.5h Opus).",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "mockmob-next/docs/design-decisions/pass-1018/TODAY-SWIPE-1018.md",
+    "mockmob-next/tmp/design-1018/v15-feedback/"
+  ],
+  "verification": "Headless playwright-core captures at 390x844 2x, Night and Day; every image opened. No lib/ changes.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

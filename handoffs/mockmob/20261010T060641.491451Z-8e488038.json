@@ -1,0 +1,21 @@
+{
+  "id": "20261010T060641.491451Z-8e488038",
+  "observed_at": "2026-10-10T06:06:41.491451+00:00",
+  "agent": "/root/final_verification_recovery",
+  "task": "Verify frozen execution-source preservation after V717 recovery artifacts",
+  "status": "complete",
+  "done": "Verified every file hash in saved V717 and V716 final freeze manifests; both closures remain unchanged. Saved the create-only preservation report.",
+  "next": "Parent may cite preservation result in final stopped-study report.",
+  "blockers": [],
+  "evidence": [
+    "V717 freeze SHA 0f578d06f5efc8e42c5a1db598ef6b09495b051addf271c517da486f030682bd: 105/105 files match",
+    "V716 final freeze SHA d807498d6452914b2d932d52f20493c48ff72622d9aa99e9ab8dcff849b5138e: 99/99 files match",
+    "Preservation JSON SHA 7a25ce01f1b2cd59c8a7e29f0ed470dfe99751fc5c8b949f2f641b58245d43dd"
+  ],
+  "touched_files": [
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/verification/final-freeze-preservation-20261010.json"
+  ],
+  "verification": "Read-only hash comparison of every manifest file; no tests, native/provider calls, or ledger mutations.",
+  "cost_and_pending_requests": "None.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

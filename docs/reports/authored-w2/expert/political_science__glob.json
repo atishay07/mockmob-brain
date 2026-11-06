@@ -1,0 +1,20 @@
+{
+  "batch": "political_science__glob",
+  "subject": "political_science",
+  "pass": "wave2 expert pass (CUET expert review, same procedure as wave 1 step 5)",
+  "date": "2026-10-14",
+  "scope": "accepted=true questions in wave2-acceptance-2026-10-14.json for political_science__glob (9 of 10). Question 68bc3caf-99f7-4dab-bbc8-3a52cd16e754 has accepted=false (quality score 6 from judge j1) and was not reviewed.",
+  "source_file": "tmp/authored-w2/political_science/political_science__glob.json",
+  "counts": {"ready": 6, "repaired": 3, "practice": 0, "reject": 0},
+  "verdicts": [
+    {"id": "ee4e7379-b61d-481c-95b8-bbc665cc9bf9", "verdict": "repaired", "why": "Key A is the correct definition of globalisation and the other options are clearly wrong. The option lengths were uneven (A about 105 characters against C about 82), which cues the key, so distractors B and D were lengthened to balance the set. Key unchanged."},
+    {"id": "8eedfa08-6c44-41d8-9c93-794135a8aa52", "verdict": "ready", "why": "The WTO came into existence on 1 January 1995 under the Marrakesh Agreement and succeeded GATT. Distractors 1944 (Bretton Woods), 1948 (GATT) and 2001 (China's accession) are each a real event; key D is unique."},
+    {"id": "ecbe90d6-f958-4d48-b8b7-bf594cb87170", "verdict": "ready", "why": "Liberalisation = (II), privatisation = (I), FDI = (III), outsourcing = (IV). Key B is the only option matching all four pairs; the other three options each contain at least two wrong pairs."},
+    {"id": "2958a4d3-f8b8-4ba1-b139-6e7618490a28", "verdict": "ready", "why": "Chronology is Bretton Woods 1944, India NEP 1991, WTO 1995, Seattle protests 1999, giving (C),(D),(A),(B). Key C is unique and the distractor orderings are each wrong at a distinct point."},
+    {"id": "673cda86-7ab4-40a6-8d5c-f38075d00c6c", "verdict": "ready", "why": "Statements B (MNCs operate across borders) and D (IMF and World Bank set up at Bretton Woods 1944) are correct; A and C are false. Key D is the only pair of correct statements."},
+    {"id": "7ed82615-4905-4767-a7e8-b4104ea206fd", "verdict": "repaired", "why": "Key A (balance of payments crisis) is correct. Distractor B (WTO expelling India in 1991) was absurd because the WTO did not exist until 1995, so it was replaced with a plausible but false RBI decision on foreign banks. Distractor C was reworded to a false 1991 nationalisation by the Government of India (the real nationalisations were 1969 and 1980) and the explanation was updated to match. Key unchanged."},
+    {"id": "2785926b-24a5-40f2-8c49-f9cf4ecf6a67", "verdict": "ready", "why": "Economic, cultural and technological dimensions (A, C, D) are standard dimensions of globalisation. Option B, which describes political decision-making confined to one nation-state, is the negation of the political dimension, so key B is unique for a NOT question."},
+    {"id": "93e3c2b8-1429-472e-9642-10c6bad8b7dc", "verdict": "ready", "why": "Both statements are true and the relaxation of capital controls is the cause of greater financial integration, so R explains A. Key C is correct; the standard A/R distractors are each wrong on a different point."},
+    {"id": "d679ea00-84ea-4739-b735-edcadb4726fc", "verdict": "repaired", "why": "Key A (IMF for short-term foreign exchange shortage, then World Bank for long-term dam finance) is correct and the WTO distractors are clearly wrong. The difficulty label was 'hard' for a single-step institution-matching item, so it was changed to 'medium'. Key unchanged."}
+  ]
+}

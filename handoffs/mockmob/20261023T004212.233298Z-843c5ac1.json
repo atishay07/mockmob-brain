@@ -1,0 +1,20 @@
+{
+  "id": "20261023T004212.233298Z-843c5ac1",
+  "observed_at": "2026-10-23T00:42:12.234305+00:00",
+  "agent": "claude-opus-5.5 session 792c2e1f (promo film orchestrator)",
+  "task": "MockMob 9:16 Reel (Reel916): overnight autonomous build; 85 % usage, waiting for the ~10:20 am reset",
+  "status": "paused",
+  "done": "Since 5:55 am: paid bed + SFX lane PASS (final check, 2,526 credits); voice finish PASS (614 credits) but DIRECTOR override: revert R01 to the no-marks take (the marks take is at 193 Hz vs 112-145 Hz) and type \"Where did the other / 108 go?\" (NOTES \"DIRECTOR R01\"); hook exhausted 3 checks with 1 item left (Mobi blink on \"108 marks go?\" f154-161, exact remap fix in the wave-1 journal \"check hook r3\"); aha exhausted with 1 item (\"6 skips, 30 more.\" on screen only ~3 frames). Wave 1 now cuts the 0-803 preview + 3 judges; the orchestrator stops wave 1 when the judges finish (before routed fixes) to stay under the limit.",
+  "next": "At the ~10:20 am reset: send the preview if acceptable; apply the hook/aha leftover fixes + the R01 revert; resume wave 2 (wave2.js, resumeFromRunId wf_d59bb419-1e5, <= 5-6 opus builders at once); wave 2b sound (paid swap via publish_paid.py stage_f2 + el3p conditioned) + plumb; wave 3 voice swap + 26 bars; candidate; judge panel; fix round; final; delivery; cutdowns. docs/HANDOFF-2026-10-23-0555.md has the commands.",
+  "blockers": [
+    "5-hour usage window at 85 %, resets about 10:20 am IST"
+  ],
+  "evidence": [
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\NOTES.md (DIRECTOR R01, DIRECTOR licence accepted)",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\HANDOFF-2026-10-23-0555.md"
+  ],
+  "touched_files": [],
+  "verification": "Licence final check r2 PASS (0 failures); voice finish check PASS; plumb core 3rd check PASS.",
+  "cost_and_pending_requests": "ElevenLabs paid account: licence 2,526 + voice 2,935 credits, logged in docs/ELEVENLABS-CREDITS.md (owner approved).",
+  "confidence": "agent-reported; verify evidence before acting"
+}

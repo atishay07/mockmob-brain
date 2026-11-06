@@ -1,0 +1,29 @@
+{
+  "id": "20261104T185004.477942Z-a5949d5f",
+  "observed_at": "2026-11-04T18:50:04.479449+00:00",
+  "agent": "claude-opus-5.5 session 34abe724 (single)",
+  "task": "4-5 Nov single session: app 1.0.20+18 Play build; Desk Light home page (LK67-LK75) to production; owner LK77-LK80",
+  "status": "complete",
+  "done": "APP: 1.0.20+18 built and signed (upload key SHA-256 62:AC:58:08...EC:47, 16 KB aligned) in Desktop/MockMob-build-18 (sells AAB, arm64 APK, symbols, OWNER-STEPS.md, README.txt); branch ui/1103-app-18 at c93a34c95 pushed. Contains LK50-53, LK42, LK60, LK61, card look, 10 review fixes, emulator-walk fixes (Papers 0 of 250, Revise line, feed counts, stamp, options cue, units, verdict). WEB: main 09a5bbe39 LIVE (dpl_4PEoVBRVjXEXg6kHvyMZi55K3fUF READY, no runtime errors, routes 200): Desk Light home page (words-first hero + typed line, Mobi hosting the first question at every width, mo opening 1.3-1.6 s skippable, warm Night without neon, one gesture = one step, real exam screen with NTA switch, copy cut, one Mobi finish, centred state-aware dock, signed-in hero key) + Learn walk fixes. Owner LK77-LK80 recorded verbatim.",
+  "next": "Owner uploads mockmob-1.0.20+18-sells.aab (OWNER-STEPS.md) and looks at the live home page on his phone Night/Day. Follow-ups: first-draw cost of #inside-the-lab and #your-prep at 4x CPU (10-11 frames over 100 ms, about 358 ms each; content-visibility per scene); TBT 0.9-2.7 s at 4x; real iPhone/Android check (emulator Chrome stopped at its first-run terms screen); Instagram 'MockMob post' cards have no captions; feed checkpoint '1 of 1 right' with repair questions (owner decision); explore-learn-calm-3 needs a server field; LK36 gaps, Saved on phones, app switch labels.",
+  "blockers": [
+    "Owner upload of the AAB",
+    "Real-phone check of the home page scroll not done"
+  ],
+  "evidence": [
+    "main 09a5bbe39 READY dpl_4PEoVBRVjXEXg6kHvyMZi55K3fUF; earlier ced6f747f READY",
+    "ui/1103-app-18 c93a34c95 on origin; AAB SHA-256 4095075ffa5959bab91af1d8382eda2c3d60468b66c69c7a2e203244214a6156",
+    "mockmob-next feat/app-and-web 43b1e59d8 pushed (NOW, ledger LK64/LK67-74/LK77-80, OWNER-FEEDBACK, home-spec)",
+    "STATUS entry on main 09a5bbe39"
+  ],
+  "touched_files": [
+    "wt-1103-app-rel (ui/1103-app-18)",
+    "wt-1104-web-polish (web/1104-polish = main)",
+    "mockmob-next docs/brain NOW.md, OWNER-MASTER-LEDGER.md, OWNER-FEEDBACK-2026-10-31-LEARN.md, handoff-1104/home-spec/",
+    "Desktop/MockMob-build-18",
+    "memory: release-build-own-worktree.md, agent-swarm-resource-hygiene.md"
+  ],
+  "verification": "App: analyze clean; full suite 12,438 pass / 114 known old golden drift; Learn+keycards+learn goldens 1,669 pass after last fix; emulator re-walk 9/10 then the 10th fixed and checked in goldens. Web: ~4,892 tests, only known failures; eslint clean; webpack + Turbopack builds pass; L-checklist 40 pass; one-gesture matrix all cells pass on a production build; LCP 0.9-1.2 s at 4x CPU; live site looked at 375 Day and Night (hero, desk, opening hidden, key clickable).",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

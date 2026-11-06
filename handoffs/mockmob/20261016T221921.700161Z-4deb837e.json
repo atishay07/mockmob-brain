@@ -1,0 +1,22 @@
+{
+  "id": "20261016T221921.700161Z-4deb837e",
+  "observed_at": "2026-10-16T22:19:21.701160+00:00",
+  "agent": "claude-opus-5.5 (session 604ced81, main)",
+  "task": "17 Oct ~3:50 am IST: usage safe stop at 87%; all workflows stopped, every worktree saved as STOP POINT; resume at the 6:50 am reset",
+  "status": "paused",
+  "done": "Stop note mockmob-next/docs/brain/STOP-POINT-2026-10-17-0350.md (committed on feat/app-and-web). Done this session: web live-fixes packet (web/live-fixes-1017 da626be6), web Review F17 (web/review-f17-1017 4298f1ff, self-verified), wave 3 scoring of 245 questions, acceptance 219 accepted (57bc1baa), expert passes for GAT/physics/chemistry (2babd2a2, 7b81787a, 602f5381). Partial STOP POINT commits: wt-ship17 7e26abc3, wt-p-result/start/today/dock/mob/copy41, wt-land2 94b4081e, wt-v13-{nav,glass,result,today,start,review}. v12 dropped after the owner called it very bad; v13 is the next APK. Emulator ADB warning fixed via its registry settings.",
+  "next": "At ~6:50 am reset: resume web-1017b-resume.js (wf_38d2793c-f36) with the RESUME note updated; relaunch app-v13 with per-packet resume notes plus the app subject claim; hand-author the content continuation from resolve-prep; resume the landing (94b4081e). Stage waves: check get_usage, keep dev servers at 4 or fewer.",
+  "blockers": [
+    "API TLS failures (likely Avast HTTPS scanning) killed every agent at about 3 am; owner may add an Avast exception",
+    "Owner: Anthropic API key, Hindi reviewer, free first Repair pricing"
+  ],
+  "evidence": [
+    "get_usage 87% at 3:48 am IST, resets 6:50 am",
+    "production main still e192c59e",
+    "git logs of each worktree listed in the stop note"
+  ],
+  "touched_files": [],
+  "verification": "State verified by git per worktree; nothing new verified or live.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

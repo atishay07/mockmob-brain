@@ -1,0 +1,18 @@
+{
+  "id": "20261014T092830.843770Z-081d27d2",
+  "observed_at": "2026-10-14T09:28:30.843770+00:00",
+  "agent": "claude-opus-5.5 session cc0bf1af",
+  "task": "App phase 1B design review and fixes; lessons",
+  "status": "active",
+  "done": "Phase 1B reviews (16 Sonnet design reviewers) verdicts vs owner bar: close in today, notifications, insights, tools; not yet in review, you, core quick-start sheet, onboarding (P1: one broken state), result (P1: clipping behind CTA at 1.3x), practice (2 P1: NTA instructions header renders as blocks, one more), art (night plates muddy, idle motion too subtle), auth (small right-pinned mascot, floating button), learn (placeholder-like states). Common levers named by reviewers: one hero object and one volt action per screen; remove box-in-box stacks; make secondary actions real buttons (48 dp). Final art set approved for integration: mockmob-next/tmp/art-explore/final (anchors.json gives Mobi and seal positions); feature-graphic-v3 in tmp/logo/final-B/play. LESSON: the Haiku golden-regen agent backgrounded a 15 min flutter run and returned early, so reviewers lacked the before/after list and the run held a Flutter slot while 14 fixers queued; I killed it at 14:58. Agents must never return while their own long command runs in the background; give long single-command steps to an agent with an explicit 'wait until it finishes' instruction or run them from the orchestrator.",
+  "next": "Phase 1B fixers (14) then Opus stabiliser to full green; then art integration lane (welcome hero layered with live Mobi, plan seal moment with code-drawn volt seal at the anchor, milestone backdrop night/day, empty states night/day), second design pass on the levers above, Phase 2 emulator walkthrough with motion frame captures (3 GB AVD), Phase 3 release APK. NTA: owner to push b216023 (+ wave 2 commits when ready).",
+  "blockers": [],
+  "evidence": [
+    "wf_eadb33e8-cff journal review verdicts",
+    "tmp/art-explore/final/final-sheet.png"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

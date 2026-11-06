@@ -1,0 +1,40 @@
+{
+  "batch": "hin-02",
+  "subject": "hindi",
+  "questions": [
+    {
+      "id": "c32a1aff-7c17-4c76-af38-cbf5356d6312",
+      "subject": "hindi",
+      "unit": "Apathit Padyansh",
+      "chapter": "Kavya Khand",
+      "type": "passage_set_item",
+      "stem": "'कुएँ ने भी शिकायत नहीं की, बस अंदर का तल... गुनगुनाने लगा' में कौन-सा अलंकार है?",
+      "options": [
+        {
+          "key": "A",
+          "text": "मानवीकरण"
+        },
+        {
+          "key": "B",
+          "text": "उपमा"
+        },
+        {
+          "key": "C",
+          "text": "यमक"
+        },
+        {
+          "key": "D",
+          "text": "श्लेष"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "कुएँ को शिकायत करने और गुनगुनाने जैसे मानवीय कार्य करते दिखाया गया है, यही मानवीकरण है। उपमा में दो वस्तुओं की तुलना वाचक शब्द से होती है। यमक और श्लेष शब्द-चमत्कार के अलंकार हैं।",
+      "passage_text": "गाँव के बीच वाला कुआँ अब चुप रहता है,\nजिसकी जगत पर कभी बाल्टी का गीत बजता था।\nरस्सी की रगड़ से घिसी हुई पत्थर की धार\nआज भी हर आने-जाने वाले से अपनी प्यास कहती है।\nपानी था तो मेलजोल था, मेलजोल से थीं कहानियाँ,\nकौन किसका बेटा है, किसकी बहू कहाँ ब्याही,\nसब बातें इसी जगत पर बैठकर पकी थीं।\nअब नल ने घर-घर पहुँचकर इसकी चौपाल छीन ली,\nऔर कुएँ ने शिकायत नहीं की, बस अंदर का तल\nधीरे-धीरे अपने सूखे गीत गुनगुनाने लगा।\nकोई दिन आएगा जब लोग पूछेंगे, यहाँ पानी कब था?\nतब बूढ़ा पीपल शायद अपनी जड़ों से इशारा करेगा।",
+      "set_id": "hindi__k1__set2",
+      "difficulty_label": "medium",
+      "ncert_ref": "CUET Hindi syllabus: Apathit Padyansh - भाव, रस, अलंकार, काव्य-शैली",
+      "source": "claude-authored-2026-10-17-w3",
+      "reason": "Stem quotes the poem wrongly: it reads \"कुएँ ने भी शिकायत नहीं की\" but the source line is \"और कुएँ ने शिकायत नहीं की\" (added \"भी\", dropped \"और\"). A student searching the quoted words would not find them. The figure (मानवीकरण) and key are otherwise correct; re-author the stem quote verbatim."
+    }
+  ]
+}

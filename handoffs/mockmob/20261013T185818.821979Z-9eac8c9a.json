@@ -1,0 +1,19 @@
+{
+  "id": "20261013T185818.821979Z-9eac8c9a",
+  "observed_at": "2026-10-13T18:58:18.821979+00:00",
+  "agent": "claude-opus-5.5 session cc0bf1af",
+  "task": "Finish app round 3, owner decisions of 14 Oct, real app build",
+  "status": "active",
+  "done": "mockmob-next WIP commits 53d676d and 2be7a88: all round-3 review fixes for packages 1-10, router (learn summary, /load-failed), Mobi reduced-motion aim, NTA ended card held until Continue, manifest pathPrefixes plus flutter_deeplinking_enabled=false. Owner decisions 14 Oct ~00:30 IST: NTA inactive grace 3 s for brief interruptions (shade, call overlay); switching to another app counts at once; three warnings stay. FLAG_SECURE in NTA mode only (as built). Remove 'Nothing goes to ad or analytics companies' and other useless lines. Notification pre-prompt may come back repeatedly with a different way of asking. Study days stored on phone is fine. Relay stays off. Owner asked why CSAS/road, registration window and recap back exist (research running).",
+  "next": "Running: workflow wf_bd13a55a-2bc (context research x4, copy sweep, NTA grace 3 s), notification re-ask agent, workflow wf_547f7cf8-b0c (383 CUET-fit Haiku judge files in mockmob-hotfix tmp/nta-pass/fit). Then: all goldens regenerate and view, full suite, commit, emulator walk-through, release APK with dart_defines/prod.json. CUET-fit merge must build on mockmob-hotfix wip/cuet-fit (7848577), not fix/nta-mode.",
+  "blockers": [],
+  "evidence": [
+    "mockmob-next 2be7a88",
+    "tmp/round3-review-findings.md",
+    "hotfix tmp/nta-pass/fit/missing-pairs-2026-10-14.json"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

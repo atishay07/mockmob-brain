@@ -1,0 +1,24 @@
+{
+  "id": "20261014T144911.833684Z-31e38848",
+  "observed_at": "2026-10-14T14:49:11.833684+00:00",
+  "agent": "claude-opus-5.5 (session cc0bf1af, account support@mockmob.in)",
+  "task": "App phase 2 (in-use feel): builders running, emulator walkthrough done on the pre-fix debug demo",
+  "status": "active",
+  "done": "- Workflow wf_33ffbbf9-8ed is running: bar, Today and 6 area groups, then art, then a check.\n- WIP snapshots committed on ui/phase2: 7cad481 and e7755fa.\n- Demo debug APK built and run on the AVD mockmob_budget (2 GB).\n- Recorded the owner's journeys and sent him two clips:\n  - bar1-debug.mp4: the new bar;\n  - journey1-before-fixes.mp4: practice, submit, result, repair, ending, Daylight.\n- Logged 17 in-use findings in mockmob-next/tmp/rec-1014/FINDINGS.md, for example:\n  - the Start sheet's red X glyph;\n  - chips that default to Practice's subject;\n  - a dropped Previous tap and a blank flash between questions;\n  - \"Repair these 5\" opening only 1;\n  - a wrong \"1 left\" count;\n  - hollow moments;\n  - a back arrow on the You tab root;\n  - the Glass setting showing Full while it says Lite;\n  - the demo cannot show the Resume capsule, because it writes no drafts.\n- Tools now work on this PC:\n  - ffmpeg through pip imageio-ffmpeg; pip needs --use-feature=truststore because antivirus TLS breaks its certificate check;\n  - adb needs MSYS_NO_PATHCONV=1 in Git Bash;\n  - uiautomator dump gives the Flutter semantics labels, so taps can target labels.\n  - These are saved as flutter_app/tool/emu_rec.sh and tool/frame_sheet.py.\n- The differentiator features already exist: home widget, quick_actions shortcuts, in_app_update, offline packs and notifications.",
+  "next": "1. When the builders finish: commit, build a profile demo APK (--profile --target-platform android-x64 -t test/device_demo/demo_main.dart), record the journeys and send them to the owner.\n2. Run round 2 (mockmob-next/tmp/workflows/app-phase-2-round2.js, args {left: round-1 leftovers}) for the in-use findings.\n3. Re-record.\n4. Merge ui/phase2 into feat/app-and-web.\n5. Run the full suite once.\n6. Build the release APK in mockmob-next, where prod.json exists.",
+  "blockers": [],
+  "evidence": [
+    "mockmob-next/tmp/rec-1014/FINDINGS.md",
+    "mockmob-next/tmp/rec-1014/*.mp4",
+    "wt-phase2 e7755fa",
+    "mockmob-next/tmp/workflows/app-phase-2-round2.js"
+  ],
+  "touched_files": [
+    "wt-phase2/flutter_app/tool/emu_rec.sh",
+    "wt-phase2/flutter_app/tool/frame_sheet.py",
+    "wt-phase2/flutter_app/test/device_demo/demo_repair.dart"
+  ],
+  "verification": "Recordings were watched frame by frame (contact sheets). Lens travel and ink timing look right in use. The bar collapses and expands, and Daylight renders on every tab.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,2630 @@
+{
+ "kind": "question_hold",
+ "mode": "apply",
+ "reason": "13 Oct 2026 owner-approved hold: suspect or wrong keys (Haiku recheck), only-to-mainly text corruption, demo seed rows labelled PYQ",
+ "at": "2026-10-13T15:12:52.065Z",
+ "requested": 325,
+ "found": 325,
+ "missing": [],
+ "alreadyHidden": 0,
+ "toHold": 325,
+ "toHoldBySubject": {
+  "business_studies": 16,
+  "biology": 20,
+  "accountancy": 104,
+  "physics": 36,
+  "chemistry": 29,
+  "economics": 24,
+  "computer_science": 24,
+  "geography": 9,
+  "political_science": 7,
+  "gat": 7,
+  "english": 8,
+  "mathematics": 20,
+  "history": 7,
+  "psychology": 5,
+  "sociology": 9
+ },
+ "rows": [
+  {
+   "id": "0107d317-73dd-4365-b41b-2b315ce01051",
+   "subject": "business_studies",
+   "chapter": "Staffing",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "01d03e22-f82c-423a-af3b-d7dfa91a95e0",
+   "subject": "biology",
+   "chapter": "Biotechnology Principles & Processes",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "01dbaa4a-b7f1-4e25-b7e9-94f89a1406b5",
+   "subject": "accountancy",
+   "chapter": "Change in Profit Sharing Ratio",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "029cbe99-88bc-4458-b427-a325f94a5cb3",
+   "subject": "physics",
+   "chapter": "Magnetism & Matter",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "05ab9ec2-2daa-4a62-a279-34125029b55b",
+   "subject": "accountancy",
+   "chapter": "Retirement & Death of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "073ad1ca-e46a-4454-8219-0fd97c6bdaf7",
+   "subject": "chemistry",
+   "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "07ee5ef3-bde3-4686-80d7-8593489a6769",
+   "subject": "economics",
+   "chapter": "Introduction & Theory of Consumer Behaviour",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "09b18f1f-cebf-4bd9-bd17-af6dc9a223f8",
+   "subject": "computer_science",
+   "chapter": "Plotting Data using Matplotlib",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "0d2407b3-642d-465e-bb10-e79b8036a5bd",
+   "subject": "biology",
+   "chapter": "Molecular Basis of Inheritance",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "0eaa849e-27f0-4679-b00b-ac91900a4650",
+   "subject": "physics",
+   "chapter": "Communication Systems",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "0f46c0d5-785e-4072-a891-4cf99b2a924b",
+   "subject": "economics",
+   "chapter": "Money & Banking",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "12b99a89-2bd2-423e-80bd-f04d81cbc83a",
+   "subject": "economics",
+   "chapter": "Indian Economy on the Eve of Independence",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "132779bf-5a91-49c8-a320-5df173fd57e4",
+   "subject": "physics",
+   "chapter": "Electrostatic Potential & Capacitance",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "13586296-0b2d-4f6c-becb-fb9c11309fb8",
+   "subject": "accountancy",
+   "chapter": "Share Capital",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "16af48da-c11a-409d-a3e6-cda38f20a3f4",
+   "subject": "chemistry",
+   "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "18058ff8-2a60-40a3-b3f4-ad7ef0d75776",
+   "subject": "biology",
+   "chapter": "Sexual Reproduction in Flowering Plants",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "1af5925d-da65-4ab8-b48e-92c48b9c13b5",
+   "subject": "geography",
+   "chapter": "Primary Activities",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "2629e6c6-c1ef-40ff-b420-79de61e4f7da",
+   "subject": "economics",
+   "chapter": "Government Budget & the Economy",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "271fefce-4321-4f9f-a148-415a2e165bd3",
+   "subject": "political_science",
+   "chapter": "Era of One-Party Dominance",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "28450fa9-265a-4b80-8a97-0130aedfdaad",
+   "subject": "geography",
+   "chapter": "Planning & Sustainable Development",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "2911703f-c8c8-4219-a7ef-85844abdf21d",
+   "subject": "physics",
+   "chapter": "Electromagnetic Induction",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "311fa4cc-03c4-43f9-ac40-5d78205699a3",
+   "subject": "gat",
+   "chapter": "Current Affairs",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "3137d051-f15e-4257-b2ed-36b35fff097d",
+   "subject": "english",
+   "chapter": "Correct Word Usage",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "3162f8b3-d5db-4a15-a960-d45c0e41ab58",
+   "subject": "chemistry",
+   "chapter": "Amines",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "3409ca71-8d92-426d-bd35-88c155f56ee9",
+   "subject": "accountancy",
+   "chapter": "Dissolution of Partnership Firm",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "3b7d5352-b775-469e-80e8-b7c62c0644f2",
+   "subject": "business_studies",
+   "chapter": "Entrepreneurship Development",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "3ca388a2-e0f5-4d73-8690-6e347ed9c763",
+   "subject": "physics",
+   "chapter": "Magnetism & Matter",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "404761d3-32d9-418a-934d-a97dcec09cb8",
+   "subject": "accountancy",
+   "chapter": "Accounting Ratios",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "41ad5e91-5569-4c20-a91e-3a046671ff87",
+   "subject": "computer_science",
+   "chapter": "Boolean Algebra",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "42ae03af-cba2-4394-8d09-ae60dcc82d8e",
+   "subject": "chemistry",
+   "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "4649f077-3127-4e6d-9ab4-92f0c918c171",
+   "subject": "physics",
+   "chapter": "Electrostatic Potential & Capacitance",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "49e933d5-900f-46bd-9cec-5d577c1234a7",
+   "subject": "accountancy",
+   "chapter": "Goodwill Valuation",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "49fdd1ce-ebbb-4458-b0c3-c60eba14b263",
+   "subject": "chemistry",
+   "chapter": "Isolation of Elements",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "4a513330-fb77-41b4-a505-7eba280c2091",
+   "subject": "accountancy",
+   "chapter": "Accounting Ratios",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "4a68cdd8-6f7c-443a-aabf-e797fd0357e2",
+   "subject": "economics",
+   "chapter": "Development Experiences of India",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "4b7a2c4d-1736-4c23-958f-0ff22597ef18",
+   "subject": "biology",
+   "chapter": "Organisms & Populations",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "4e7ac489-32b2-47f3-a0d3-7c363c2449c9",
+   "subject": "mathematics",
+   "chapter": "Differential Equations",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "4f8e8173-d8e2-43df-ac2e-f69cabce2da7",
+   "subject": "physics",
+   "chapter": "Nuclei",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "508b460b-ae4e-40cc-b8c6-dcda27fcc9b4",
+   "subject": "mathematics",
+   "chapter": "Relations & Functions",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "55b9ec4f-49b6-41d1-ad76-e1e56a5d1ffc",
+   "subject": "english",
+   "chapter": "Factual Passage",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "5a7dcaf8-564f-42eb-b303-6142ed9ced41",
+   "subject": "accountancy",
+   "chapter": "Comparative & Common Size Statements",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "5d140c14-fd1d-4308-abb9-4cc5a07fafdc",
+   "subject": "accountancy",
+   "chapter": "Comparative & Common Size Statements",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "5e6c616f-bec7-4ce5-bd7f-3c01c9a44db8",
+   "subject": "economics",
+   "chapter": "Indian Economy on the Eve of Independence",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "5f6ff7be-85ae-402a-b7d6-163e4aeb6897",
+   "subject": "computer_science",
+   "chapter": "Database Concepts",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "5ff5d221-553c-48ba-9e84-a54edceb92ec",
+   "subject": "english",
+   "chapter": "Para Jumbles",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "6367f1d5-1276-4ebb-827b-29e117f28611",
+   "subject": "accountancy",
+   "chapter": "Dissolution of Partnership Firm",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "64642596-81a2-4ec7-aee8-51135d69d76a",
+   "subject": "accountancy",
+   "chapter": "Share Capital",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "6896ee1a-eac5-4fa0-a5fe-4f68e9587709",
+   "subject": "accountancy",
+   "chapter": "Share Capital",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "6912d7ee-4a25-4b30-9a7b-85d4f507c10e",
+   "subject": "physics",
+   "chapter": "Electric Charges & Fields",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "692a124b-64c3-4355-84f2-eca56177d6dc",
+   "subject": "physics",
+   "chapter": "Nuclei",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "6adaacdb-356f-47f7-9908-e19c64bb94be",
+   "subject": "chemistry",
+   "chapter": "Isolation of Elements",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "6e5afc2e-49a9-499f-b5a2-8efb3f960f3a",
+   "subject": "economics",
+   "chapter": "Income Determination",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "72e09dfa-d12d-4cef-8cfd-97a68dc2fa6f",
+   "subject": "physics",
+   "chapter": "Moving Charges & Magnetism",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "73a88abb-e91f-4ffa-bb4b-a1f74b551904",
+   "subject": "physics",
+   "chapter": "Electromagnetic Induction",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "76760959-d603-443c-aec0-d39c8c5bf67a",
+   "subject": "accountancy",
+   "chapter": "Partnership Fundamentals",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "790e5cfc-a5b0-48de-9a93-98d820b19ecf",
+   "subject": "chemistry",
+   "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "792b8471-25b7-49f0-9842-362a9ee2a808",
+   "subject": "accountancy",
+   "chapter": "Debentures",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "7d091ab9-e731-4a86-b002-22aeb4365114",
+   "subject": "physics",
+   "chapter": "Electromagnetic Induction",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "7f24b118-945d-4f68-a127-fab1c5358e43",
+   "subject": "accountancy",
+   "chapter": "Profit & Loss Appropriation Account",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "80a94a54-7c0f-43fc-8059-be8e0db47a42",
+   "subject": "accountancy",
+   "chapter": "Goodwill Valuation",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "811bbba4-8fd3-4a45-ad40-a53d8fc22869",
+   "subject": "history",
+   "chapter": "Peasants, Zamindars & the State",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "8336c133-c485-495a-86f8-582dcf1dd99e",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "8693af30-7352-4fb1-a411-37d58b82b164",
+   "subject": "accountancy",
+   "chapter": "Dissolution of Partnership",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "87ae7e88-60ab-4f3e-97f9-7340dfed518c",
+   "subject": "accountancy",
+   "chapter": "Change in Profit Sharing Ratio",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "88799954-04f0-40b9-a0e0-a0349c167083",
+   "subject": "business_studies",
+   "chapter": "Financial Management",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "88cf3609-c412-471e-aea0-82e0368502a9",
+   "subject": "business_studies",
+   "chapter": "Principles of Management",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "894fc3d5-f5e7-400e-aab7-ee1a36bbb621",
+   "subject": "accountancy",
+   "chapter": "Financial Statements of Company",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "9574b9cd-e755-41b8-8e86-c0c1014ba9d1",
+   "subject": "physics",
+   "chapter": "Electric Charges & Fields",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "983777eb-78a1-49b2-9898-62d51974ef44",
+   "subject": "chemistry",
+   "chapter": "Chemistry in Everyday Life",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "9b5617ba-9e24-4284-92de-3e42f97ccda0",
+   "subject": "biology",
+   "chapter": "Reproduction in Organisms",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "9b7feb10-da63-445f-9fee-70aee05dbd71",
+   "subject": "physics",
+   "chapter": "Electromagnetic Waves",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "9c95fa34-538e-4cf2-ab14-589f5f48068c",
+   "subject": "psychology",
+   "chapter": "Therapeutic Approaches",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "9d09992f-47bc-419f-926f-3d5fcfe1aa81",
+   "subject": "physics",
+   "chapter": "Nuclei",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "a24516ae-5abf-4f81-9631-c4e239e4c04e",
+   "subject": "computer_science",
+   "chapter": "Data Communication",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "a64910be7fed2e5356a7e3d0838e875e",
+   "subject": "accountancy",
+   "chapter": "Partnership Fundamentals",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "a6d8c965-1d2f-4a3c-8597-67b03554b574",
+   "subject": "physics",
+   "chapter": "Dual Nature of Radiation & Matter",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "a8986130-4869-4526-9d31-a8c6d1704222",
+   "subject": "biology",
+   "chapter": "Reproductive Health",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "aa1d34c1-6278-4668-96e9-61a1a2881e21",
+   "subject": "sociology",
+   "chapter": "Patterns of Social Inequality",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "ab5145ec-cf38-4b08-8fe2-af5ddfb269e4",
+   "subject": "accountancy",
+   "chapter": "Share Capital",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "ad04b24a-ba54-46c7-a38f-070e1665a954",
+   "subject": "political_science",
+   "chapter": "Crisis of the Democratic Order",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "af52e8e0-8685-4069-93e1-3fcdd27b65f4",
+   "subject": "chemistry",
+   "chapter": "p-Block Elements",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "afb85e59-65b1-4f6e-b23a-5ff696b6045d",
+   "subject": "geography",
+   "chapter": "Manufacturing Industries",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "b1391ceb-9fa7-4f18-be40-32c6c5ccd70c",
+   "subject": "computer_science",
+   "chapter": "Python Revision",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "b18c1e86-41c3-4422-813f-1a801243510b",
+   "subject": "gat",
+   "chapter": "General Knowledge",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "b29a66fb56b078260537399fe3a3fcf1",
+   "subject": "accountancy",
+   "chapter": "Share Capital",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "b4fa3cd9-a46e-46ae-b6cd-d7bfc197693e",
+   "subject": "accountancy",
+   "chapter": "Share Capital",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "b66b1621-f1ef-439c-b9ef-0fac8e6aaa0b",
+   "subject": "accountancy",
+   "chapter": "Dissolution of Partnership",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "b91011b5-ca3d-495c-923c-8265027828d9",
+   "subject": "accountancy",
+   "chapter": "Debentures",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "b92d8722-c0d3-4004-b74f-c994381b98f4",
+   "subject": "physics",
+   "chapter": "Electromagnetic Induction",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "bce0793e-faaf-41d8-b420-2d90607d6a55",
+   "subject": "economics",
+   "chapter": "Production & Costs",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "bd992e8f-057d-4e1c-be92-67236f1edb2d",
+   "subject": "accountancy",
+   "chapter": "Comparative & Common Size Statements",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "bdaab4d57192e82d8905bcfedc1179ba",
+   "subject": "accountancy",
+   "chapter": "Share Capital",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "bf815e63-4b14-44a4-9f53-81cafc602a16",
+   "subject": "history",
+   "chapter": "Bricks, Beads & Bones",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "c0707438-50ef-4836-93a1-046ced797ab8",
+   "subject": "economics",
+   "chapter": "Production & Costs",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "c2eb01dd-dc58-4015-a147-03956a77a639",
+   "subject": "chemistry",
+   "chapter": "p-Block Elements",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "c463b369-4756-4132-957a-2239e32e4c20",
+   "subject": "geography",
+   "chapter": "Manufacturing Industries",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "c4cb489e-5339-4a73-8e0c-4773f58dab84",
+   "subject": "computer_science",
+   "chapter": "Exception and File Handling in Python",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "c5c01808-206d-4b87-ba10-3e0a18ec45d1",
+   "subject": "computer_science",
+   "chapter": "MySQL",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "c9334546-485f-4606-b283-c513e265d659",
+   "subject": "physics",
+   "chapter": "Electric Charges & Fields",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "cc6d0748-d196-4262-9f70-2fb47a670a25",
+   "subject": "english",
+   "chapter": "Factual Passage",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "01f3473d-971c-4020-bf97-8b99b28ed80a",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "06eac2eb-dc63-40c1-94e6-4a08cb72d292",
+   "subject": "computer_science",
+   "chapter": "Security Aspects",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "0b3b8ab0-61e9-4899-85fc-59a9a8157168",
+   "subject": "chemistry",
+   "chapter": "Chemical Kinetics",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "0bcde8d3-5f07-42e9-aa2a-58da1a67dfb2",
+   "subject": "economics",
+   "chapter": "Production & Costs",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "0cde91a7-9840-4eb9-95a1-5047348e1631",
+   "subject": "chemistry",
+   "chapter": "p-Block Elements",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "0f72e865-0198-495e-87dd-ca7628e52e6e",
+   "subject": "chemistry",
+   "chapter": "Solutions",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "0f938070-1ad9-4b25-aebc-83b6863ada0c",
+   "subject": "computer_science",
+   "chapter": "Stack",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "0f9dea2b-aea2-4e34-98de-fc8c830418d7",
+   "subject": "history",
+   "chapter": "Through the Eyes of Travellers",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "10b5fd8b-07d9-41dd-a469-342d151dddb8",
+   "subject": "accountancy",
+   "chapter": "Cash Flow Statement",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "171fe9d5-38e4-45ca-99db-8e4bd7a52fb5",
+   "subject": "mathematics",
+   "chapter": "Financial Mathematics",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "1811863f-f9ea-40c7-9161-bec2f9a5858f",
+   "subject": "geography",
+   "chapter": "India — People & Economy",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "1b49bcb1-ccd0-4b83-a8cf-7e001846de4a",
+   "subject": "economics",
+   "chapter": "Introduction & Theory of Consumer Behaviour",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "1e0a9aab-3188-4008-8e05-49320f0fa7b9",
+   "subject": "accountancy",
+   "chapter": "Comparative & Common Size Statements",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "1e39bb27-d65f-4483-9037-5fbf3f594508",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "262d7e3a-1bf2-4568-a503-f12ffb6eee35",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "29c9415b-8076-44fc-af9d-7de422cf51b7",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "2ac15d41-cb78-42e5-9ecb-08c1a9bfe502",
+   "subject": "chemistry",
+   "chapter": "Alcohols, Phenols & Ethers",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "2b691b6c-d7de-49c8-8c7f-d24208cf7836",
+   "subject": "accountancy",
+   "chapter": "Retirement & Death of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "2c1f366a-a4a1-4d6a-8298-3f531f8c500d",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "2c343eb3-986e-4f19-8fbf-a3d80f2473a1",
+   "subject": "physics",
+   "chapter": "Electric Charges & Fields",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "2d4605b2-6b59-4f1e-893d-b7b30e88b939",
+   "subject": "chemistry",
+   "chapter": "p-Block Elements",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "2f19d621-ed8d-4c84-87f5-a4178e802fc2",
+   "subject": "chemistry",
+   "chapter": "Chemistry in Everyday Life",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "3171aa3a-d81f-48cf-9cc5-5d8af839be1e",
+   "subject": "biology",
+   "chapter": "Reproduction in Organisms",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "35401548-a7d8-4982-abe1-24d561db4ae0",
+   "subject": "biology",
+   "chapter": "Biotechnology Principles & Processes",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "373041ca-b4ab-446c-b25d-e137d01a9d37",
+   "subject": "accountancy",
+   "chapter": "Change in Profit Sharing Ratio",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "37728343-f5e1-4aff-8b60-0f84cc574771",
+   "subject": "computer_science",
+   "chapter": "MySQL",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "379ff2e1-75fb-4be1-ab4d-3be58d48a5fe",
+   "subject": "accountancy",
+   "chapter": "Debentures",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "38baea68-5c87-49ea-8a40-627d77b32db5",
+   "subject": "accountancy",
+   "chapter": "Share Capital",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "3a031bfb-04ad-419a-9dc5-398c88f8d5d0",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "3be19722-c768-4180-8e32-d47a5937981d",
+   "subject": "economics",
+   "chapter": "Rural Development",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "3eb8f88d-2b0c-4043-9974-18bb417376dd",
+   "subject": "computer_science",
+   "chapter": "Boolean Algebra",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "40d8ffd980223cc65286a43053bf04de",
+   "subject": "accountancy",
+   "chapter": "Dissolution of Partnership Firm",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "4181c7a2-eb45-4224-8a0c-60a007791bc7",
+   "subject": "sociology",
+   "chapter": "Market as a Social Institution",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "43589251-2212-499b-acf0-fcd48b1bacf2",
+   "subject": "accountancy",
+   "chapter": "Retirement & Death of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "45ddbf7d-79ea-4b9c-b31d-15b6fbe7434f",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "4861274c-1c29-41df-a8d3-e03d3523ddef",
+   "subject": "accountancy",
+   "chapter": "Debentures",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "4a2e628e-6dab-482f-bc80-f5a09af7c7e1",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "4d4d3515-fb6f-40ad-a4fa-8e0299cd44dc",
+   "subject": "geography",
+   "chapter": "International Trade",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "4e3c92ab-1b8b-4a91-ad33-4b4de922e046",
+   "subject": "chemistry",
+   "chapter": "d- and f-Block Elements",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "4eb3fae9-240c-4522-9e34-ad53d3d86efc",
+   "subject": "sociology",
+   "chapter": "Introducing Indian Society",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "51c29649-7858-4427-a0ac-dd9c34c66b0a",
+   "subject": "biology",
+   "chapter": "Microbes in Human Welfare",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "52d6f7ca-ac3f-417f-bd64-99938a6c886b",
+   "subject": "accountancy",
+   "chapter": "Accounting Ratios",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "5539e317-f1b5-450b-8282-a1b00b8a4d63",
+   "subject": "accountancy",
+   "chapter": "Computerized Accounting System",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "5559f867-45a5-4ed5-a088-2f949058e780",
+   "subject": "accountancy",
+   "chapter": "Dissolution of Partnership",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "556852ed-b86d-44fc-a73b-7418a410ca9e",
+   "subject": "mathematics",
+   "chapter": "Relations & Functions",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "561352f4-18d0-4b97-bae0-7eda7491a236",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "57f36ebb-5748-4fa0-a6f1-e78817f7acb5",
+   "subject": "political_science",
+   "chapter": "End of Bipolarity",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "5986f7c8-e109-45fd-9ad5-d93415b63868",
+   "subject": "mathematics",
+   "chapter": "Financial Mathematics",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "59a78c69-d5bc-4d76-b0f9-619c70bc115a",
+   "subject": "mathematics",
+   "chapter": "Application of Derivatives",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "59f0cb3b-e703-4a02-9ca8-d5f532782aee",
+   "subject": "accountancy",
+   "chapter": "Analysis of Financial Statements",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "5b47ef06-a4a9-4c5a-8664-b9edeb544671",
+   "subject": "chemistry",
+   "chapter": "Coordination Compounds",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "5e1b371c-5c5f-4f71-b85f-553a9216e8f4",
+   "subject": "accountancy",
+   "chapter": "Share Capital",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "5fcbefd5-c6e4-4703-8c85-7b161fe2e499",
+   "subject": "accountancy",
+   "chapter": "Financial Statements of Company",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "605650e3-9eff-4c06-b131-9411bcd6f226",
+   "subject": "chemistry",
+   "chapter": "Surface Chemistry",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "606b2960-eee6-4205-8988-3ef8121b82be",
+   "subject": "accountancy",
+   "chapter": "Share Capital",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "6136c491-8f26-4f3b-a17d-f241f8e77ba6",
+   "subject": "english",
+   "chapter": "Para Jumbles",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "62549930-390a-4a63-957f-38227d6a534b",
+   "subject": "computer_science",
+   "chapter": "Database Concepts",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "63311b4c-33cd-4d8d-9d83-b8aa0d0ea5ac",
+   "subject": "accountancy",
+   "chapter": "Debentures",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "6940dd06-c3f6-47e9-9623-e9ecc635fcaf",
+   "subject": "accountancy",
+   "chapter": "Profit & Loss Appropriation Account",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "69a97c97-3048-4464-bfc6-e716bc48642c",
+   "subject": "accountancy",
+   "chapter": "Share Capital",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "69e4b915-74a2-407b-863b-e3d89012d0ad",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "6e2d0f6d-6240-4cf5-9983-e455f4dd7dee",
+   "subject": "physics",
+   "chapter": "Electric Charges & Fields",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "6e91f42e-a443-4093-8d3e-e5ccf0010593",
+   "subject": "mathematics",
+   "chapter": "Time Based Data",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "6f1d9bde-30f7-4ef3-8d1e-0ef4d491ad7a",
+   "subject": "computer_science",
+   "chapter": "File Handling",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "71a83f9d-fef2-4540-af54-089fc47c8446",
+   "subject": "biology",
+   "chapter": "Organisms & Populations",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "748047d9-3dd7-400f-b424-dd9d33a8eab8",
+   "subject": "history",
+   "chapter": "Colonialism & the Countryside",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "7726b96d-6c71-4ad7-8153-d71103699e3b",
+   "subject": "accountancy",
+   "chapter": "Share Capital",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "78839a5b-0b4c-410b-b7ee-8101cf0a155e",
+   "subject": "political_science",
+   "chapter": "International Organisations",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "7abcaae0-9e83-4190-a61b-cd4623372cd0",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "7d4878dd-4413-4900-be59-4b46c972827d",
+   "subject": "business_studies",
+   "chapter": "Financial Management",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "7e28ad4c-eb96-46c0-a0e1-1b4b4be75085",
+   "subject": "accountancy",
+   "chapter": "Dissolution of Partnership",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "7ed98b96-ec20-4b62-9380-2047b588b9f6",
+   "subject": "physics",
+   "chapter": "Electric Charges & Fields",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "8345650a-bdd4-4788-ac16-3f52e584dd8f",
+   "subject": "mathematics",
+   "chapter": "Relations & Functions",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "839a2d16-9dc6-4dd7-a877-1b6d775b9f7b",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "83a70ce6-fb83-43e7-b2fa-341e35c7867f",
+   "subject": "sociology",
+   "chapter": "Mass Media & Communications",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "8412e8a7-d641-4568-99a0-8ed403115d3a",
+   "subject": "biology",
+   "chapter": "Biodiversity & Conservation",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "846d4193-7dfe-45df-89d4-9807427ddbf0",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "868fe621-1e7e-4ce8-9e59-549107a80ad9",
+   "subject": "economics",
+   "chapter": "Infrastructure",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "873066cb-5002-4013-b210-1ac85800c027",
+   "subject": "computer_science",
+   "chapter": "Searching",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "885112d1-1893-46b4-8949-c5e5304d9faf",
+   "subject": "chemistry",
+   "chapter": "p-Block Elements",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "895d8756-ca8f-4b7e-b0b6-7fd8305283d9",
+   "subject": "history",
+   "chapter": "Bricks, Beads & Bones",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "8a15ad0c-f754-461b-bee6-a76aa32943d3",
+   "subject": "mathematics",
+   "chapter": "Relations & Functions",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "8b043d66-80ca-4830-9088-9f1996a3510f",
+   "subject": "accountancy",
+   "chapter": "Profit & Loss Appropriation Account",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "8bc2915e-9ebe-4bbe-99d4-76f3b40ec040",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "8d489811-c0ba-48f7-9783-df5819b611af",
+   "subject": "sociology",
+   "chapter": "Social Institutions",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "8ee6bd75-756e-482a-9872-3510b97e25bb",
+   "subject": "physics",
+   "chapter": "Electromagnetic Induction",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "cfb3fdeb-8650-4a8e-99e0-55fa8378fe3e",
+   "subject": "economics",
+   "chapter": "Human Capital Formation",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "cfbc2ab2-01a1-40dd-b140-322830bcd36e",
+   "subject": "chemistry",
+   "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "d698b6e3-e031-44ea-825f-e1e77b0697c9",
+   "subject": "biology",
+   "chapter": "Reproduction in Organisms",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "d87d3973-bb8d-40a5-974e-fc9e288760e7",
+   "subject": "computer_science",
+   "chapter": "Python Revision",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "d9a5b65b-a8f2-40c5-b929-579c2c648bd9",
+   "subject": "geography",
+   "chapter": "Human Geography — Nature & Scope",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "ddb7471c-1ed5-4962-8cd0-4a7be5e78914",
+   "subject": "business_studies",
+   "chapter": "Consumer Protection",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "e5824db6-ba11-49a9-b3fb-b0b213ba3c0b",
+   "subject": "physics",
+   "chapter": "Ray Optics & Optical Instruments",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "e68eca51-163a-4304-b04d-c71773c9dc23",
+   "subject": "mathematics",
+   "chapter": "Relations & Functions",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "ec523bbe-9c5f-44b7-ae95-83ffed6a598e",
+   "subject": "chemistry",
+   "chapter": "p-Block Elements",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "f22c84ec-861a-49ec-94cd-c6de06bedd57",
+   "subject": "physics",
+   "chapter": "Magnetism & Matter",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "f2914274-c255-4a52-8001-3bda4e8c2d75",
+   "subject": "history",
+   "chapter": "Thinkers, Beliefs & Buildings",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "f2bd23fd-431e-46e3-9554-c38389a605c4",
+   "subject": "geography",
+   "chapter": "India — People & Economy",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "fba5293b-9b56-4441-a816-093c2d81d9d7",
+   "subject": "physics",
+   "chapter": "Electrostatic Potential & Capacitance",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "fde1571a-6b6b-4468-b6e8-647b72ca845b",
+   "subject": "economics",
+   "chapter": "Introduction & Theory of Consumer Behaviour",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "0575dda0-2d3f-4511-93a4-a1c3aaa1f946",
+   "subject": "mathematics",
+   "chapter": "Matrices",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "13d8b72a-484f-49d3-8cbd-88825003e396",
+   "subject": "economics",
+   "chapter": "Indian Economy on the Eve of Independence",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "2312abf9-b827-45b4-9b2c-0d5165b07553",
+   "subject": "mathematics",
+   "chapter": "Differential Equations",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "2970a303-c5f9-4fb4-9d4f-a7bfd470a3d3",
+   "subject": "business_studies",
+   "chapter": "Staffing",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "3f9ac7f9-2e45-4432-9cae-7a403a514d9f",
+   "subject": "chemistry",
+   "chapter": "p-Block Elements",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "47069bca-a259-48cc-b127-762aa890c822",
+   "subject": "chemistry",
+   "chapter": "Isolation of Elements",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "4b21d318-fb5d-4781-a5d3-87619c111f4f",
+   "subject": "chemistry",
+   "chapter": "Coordination Compounds",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "4d24f42b-1300-42ef-ae96-d9796c98db1c",
+   "subject": "chemistry",
+   "chapter": "Isolation of Elements",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "5c20d146-427c-45fb-b929-8096853839b8",
+   "subject": "economics",
+   "chapter": "Indian Economy on the Eve of Independence",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "786c629e-0702-4f8a-9392-e6f9b6b11552",
+   "subject": "computer_science",
+   "chapter": "Computer Networks",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "805fdc96-cf49-4f05-933b-1c75232cd0a5",
+   "subject": "computer_science",
+   "chapter": "Computer Networks",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "850a83fa-f993-4eef-a84f-df3f18b0b13f",
+   "subject": "business_studies",
+   "chapter": "Staffing",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "8cd48731-827c-4528-95f5-3a5d383cb9df",
+   "subject": "business_studies",
+   "chapter": "Staffing",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "8d3a7da8-056e-4f8a-a2ad-c4266fb0022c",
+   "subject": "computer_science",
+   "chapter": "Boolean Algebra",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "8f6c74c8-a069-4850-b01d-31d7f8a32c05",
+   "subject": "biology",
+   "chapter": "Molecular Basis of Inheritance",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "902062a9-a3db-4d1c-8843-6870315c770b",
+   "subject": "accountancy",
+   "chapter": "Share Capital",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "9034ddc6-3be0-4fcb-ba7c-044b211f97e5",
+   "subject": "accountancy",
+   "chapter": "Change in Profit Sharing Ratio",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "911ef856-e4bd-42bd-a98e-29352f2ad459",
+   "subject": "biology",
+   "chapter": "Reproduction in Organisms",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "922aed94-ed1d-46b0-861d-4d2a10203140",
+   "subject": "mathematics",
+   "chapter": "Three Dimensional Geometry",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "93dfb1df-0e0e-46db-bcc6-eb19cc3f6637",
+   "subject": "mathematics",
+   "chapter": "Financial Mathematics",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "953b98e0-d42b-4f25-836e-4784f53b3216",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "97d3fb5a-b045-4529-a90e-954b2999c3e0",
+   "subject": "english",
+   "chapter": "Factual Passage",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "995a9453-9c6d-4bb2-88a5-0f4284becb48",
+   "subject": "accountancy",
+   "chapter": "Financial Statements of Company",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "995cddef-e167-4139-94f2-58201cbceb88",
+   "subject": "biology",
+   "chapter": "Principles of Inheritance & Variation",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "99eb3d3c-7864-42ee-bfef-fbd0a50fc9d9",
+   "subject": "chemistry",
+   "chapter": "Electrochemistry",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "9cef788a-ac1a-4852-b392-3ecd2f66645d",
+   "subject": "chemistry",
+   "chapter": "Alcohols, Phenols & Ethers",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "9cf6959f-3e53-475c-83c6-94de568c6354",
+   "subject": "accountancy",
+   "chapter": "Retirement & Death of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "9d845816-6d0b-43ef-9a5b-119f35850240",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "9db87cf0-2272-464d-b681-e59f93cc2ced",
+   "subject": "sociology",
+   "chapter": "Social Institutions",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "9e326928-96d2-4266-82ef-6ef0db15d925",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "9f62ced2-7a3f-4d32-b9e6-db1c46432da0",
+   "subject": "physics",
+   "chapter": "Wave Optics",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "a09dc9b7d73b7cd0831d1ff2586793c3",
+   "subject": "accountancy",
+   "chapter": "Share Capital",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "a26782dc-4ca9-46ee-aa34-1f7bd347547b",
+   "subject": "computer_science",
+   "chapter": "Computer Networks",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "a42fcb31-f6ef-4406-941b-420308d0b13e",
+   "subject": "accountancy",
+   "chapter": "Retirement & Death of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "a48d1db8-2cfe-4278-b47f-5729e9cbc72d",
+   "subject": "biology",
+   "chapter": "Biodiversity & Conservation",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "a531b5b7-1a35-462a-8def-be9377d87ddb",
+   "subject": "biology",
+   "chapter": "Human Reproduction",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "a80ff544-8d54-4639-b704-05923f2e1b1f",
+   "subject": "economics",
+   "chapter": "Environment & Sustainable Development",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "a8a616a3-8fc9-4ca4-aadd-e792c1dceb63",
+   "subject": "economics",
+   "chapter": "Introduction & Theory of Consumer Behaviour",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "a95fa838-2f43-44bc-9690-507735d6f48a",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "a9e316dc-bf1d-422a-afb8-d274942b77a2",
+   "subject": "geography",
+   "chapter": "Planning & Sustainable Development",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "a9e45abb-4d8c-4d14-b11f-ea2acfe2538d",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "abed1a98-0db3-4dd7-8eb8-679c1d73cea5",
+   "subject": "physics",
+   "chapter": "Electromagnetic Induction",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "ac76f1ab2669f4bcaaaea5de000b45ba",
+   "subject": "accountancy",
+   "chapter": "Goodwill Valuation",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "ae5e8c65-c806-4dd6-a572-d38c3a01e61d",
+   "subject": "accountancy",
+   "chapter": "Analysis of Financial Statements",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "ae75a2ed-82ec-4385-9e83-db68c4f9a25a",
+   "subject": "computer_science",
+   "chapter": "Data Handling using Pandas",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "aebfdd3b-1d0b-4fa9-a7b0-1e7844c428ad",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "b403d3ca-6fe2-4b22-a135-a7586d8361a4",
+   "subject": "biology",
+   "chapter": "Sexual Reproduction in Flowering Plants",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "b6c21e92-d7f3-4655-98e2-a7c258515030",
+   "subject": "gat",
+   "chapter": "Numerical Ability",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "b90b860b-24dc-48a3-9fdb-3160183978b3",
+   "subject": "accountancy",
+   "chapter": "Debentures",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "b9bd49f1-d00b-4267-b328-d6ca17da3aff",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "babcb9c0-cc4f-4dc7-b980-cce6b7d1e455",
+   "subject": "computer_science",
+   "chapter": "Computer Networks",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "bc360be2-7ec6-4673-88ff-7585d96396a3",
+   "subject": "economics",
+   "chapter": "Indian Economy on the Eve of Independence",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "bc588845-d39b-451d-8b97-97db7f42525f",
+   "subject": "accountancy",
+   "chapter": "Change in Profit Sharing Ratio",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "bed61915-c25b-4f88-ab06-e98ee68f8b5f",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "bfd70f17-d1ab-4677-8675-0e388fb0c89c",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "c03cd181-7649-4f66-b6f9-ca567944bfdd",
+   "subject": "political_science",
+   "chapter": "Challenges of Nation Building",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "c060d217-9a1b-4912-93a2-d0c639e17385",
+   "subject": "physics",
+   "chapter": "Wave Optics",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "c1e361d9-b93d-4da0-940f-d545d6b19a95",
+   "subject": "accountancy",
+   "chapter": "Debentures",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "c2a293c8-db2d-42e3-b3e1-60c0d0ad62bf",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "c391a855-3d37-40fb-a366-e6b628f63174",
+   "subject": "political_science",
+   "chapter": "Cold War Era",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "c3b083cb-261c-41de-955a-2eb7d293cb92",
+   "subject": "accountancy",
+   "chapter": "Financial Statements of Company",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "d0259f8f-464a-4d18-894b-a6bff95dfa0c",
+   "subject": "accountancy",
+   "chapter": "Dissolution of Partnership Firm",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "d18fad4d-8f6d-4743-a201-4fadbfa79121",
+   "subject": "physics",
+   "chapter": "Ray Optics & Optical Instruments",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "d19ae691-7711-4459-a734-cb706958b860",
+   "subject": "mathematics",
+   "chapter": "Continuity & Differentiability",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "d1d6935f-f653-419b-bee6-8458fa377fbd",
+   "subject": "accountancy",
+   "chapter": "Retirement & Death of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "d213acd9-5918-455f-be1a-8fb349fc0434",
+   "subject": "computer_science",
+   "chapter": "Functions",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "d266fe85-d675-46bb-8b5c-11bd1cf06dea",
+   "subject": "accountancy",
+   "chapter": "Retirement & Death of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "d301604a-c737-4a65-a1c0-01a0a9257874",
+   "subject": "physics",
+   "chapter": "Nuclei",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "d9d76866-00d5-4e97-b7c7-33d4d9d0745b",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "db3a9469-8019-4bb5-a280-2309c8333500",
+   "subject": "accountancy",
+   "chapter": "Goodwill Valuation",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "df57b826-e041-4241-bcc9-c9e3f9ec762f",
+   "subject": "english",
+   "chapter": "Factual Passage",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "dfaebd45-1d8d-405c-8a08-75e4fc03893f",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "e2ca8a35-f69e-4d72-9c3b-9e77c7f769e3",
+   "subject": "chemistry",
+   "chapter": "d- and f-Block Elements",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "e3aa9808-aaf0-498b-b255-b5e2f2941f22",
+   "subject": "physics",
+   "chapter": "Wave Optics",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "e44f44f3-46a4-4adc-943a-0bda92100227",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "e4797051-f7f0-433e-b930-e1afb8d6f877",
+   "subject": "accountancy",
+   "chapter": "Comparative & Common Size Statements",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "e852c8c4-214c-4f73-b2bc-6d7cd4c373d7",
+   "subject": "accountancy",
+   "chapter": "Retirement & Death of Partner",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "ea25f90f-7ed5-4712-9713-995dac3c4a73",
+   "subject": "physics",
+   "chapter": "Electrostatic Potential & Capacitance",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "eace92e5-5d43-4453-bf2a-58d3297b5b04",
+   "subject": "business_studies",
+   "chapter": "Principles of Management",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "ed08d4dc-ae45-4d54-bed3-780e9ad9f9af",
+   "subject": "biology",
+   "chapter": "Environmental Issues",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "ed5e03b3-433a-4a46-9a80-d73991539320",
+   "subject": "biology",
+   "chapter": "Molecular Basis of Inheritance",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "ef42ff37-729d-4a2f-96d8-9a42025b7f5c",
+   "subject": "english",
+   "chapter": "Factual Passage",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "efa9fcba-f99a-4d3d-936c-5d7bc339c6b2",
+   "subject": "accountancy",
+   "chapter": "Partnership Fundamentals",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "f08a41db-cbe2-4697-9b3d-49a134485879",
+   "subject": "sociology",
+   "chapter": "Introducing Indian Society",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "f0d2e3d5-d98e-4f0b-acfe-244669e980e9",
+   "subject": "psychology",
+   "chapter": "Psychology & Life",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "f0e98d54-6eac-477d-8d7f-f8c21fe0f7ab",
+   "subject": "accountancy",
+   "chapter": "Computerized Accounting System",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "f1266cbe-7f87-4115-b24b-c71bd45ae64a",
+   "subject": "accountancy",
+   "chapter": "Financial Statements of Company",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "f1f5d7c8-3c92-4615-abd3-f3e2656c2ae8",
+   "subject": "business_studies",
+   "chapter": "Planning",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "f23c87da-9302-4c7d-b782-68e79aadbfac",
+   "subject": "accountancy",
+   "chapter": "Change in Profit Sharing Ratio",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "f268929d-936e-4a46-bb42-abe0d3ee1d57",
+   "subject": "gat",
+   "chapter": "General Knowledge",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "f5290092-5753-4642-80ea-cd16bf99a9f7",
+   "subject": "history",
+   "chapter": "An Imperial Capital — Vijayanagara",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "f8d9f38b-e95a-4ae7-bde2-57199babdb1a",
+   "subject": "computer_science",
+   "chapter": "Python Revision",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "f9eae24c-398c-495b-96a8-3c2aaa8152f9",
+   "subject": "computer_science",
+   "chapter": "Security Aspects",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "fac45fbe-6762-4ac1-b4bc-112988f62b0a",
+   "subject": "business_studies",
+   "chapter": "Staffing",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "fba17f4c-7cfc-4d46-8f12-7858040eb951",
+   "subject": "business_studies",
+   "chapter": "Principles of Management",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "fc0193a8-f00f-45b4-8f27-2ff0ab529189",
+   "subject": "accountancy",
+   "chapter": "Dissolution of Partnership",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "fc30ec24-3234-4230-8936-e1c5140711b7",
+   "subject": "accountancy",
+   "chapter": "Goodwill Valuation",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "fd95b270-de9b-4d63-9568-44b654bb185a",
+   "subject": "economics",
+   "chapter": "Money & Banking",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "ff432d3b-95ee-4827-808f-7416cf82ffd2",
+   "subject": "mathematics",
+   "chapter": "Inverse Trigonometric Functions",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "ffcabb9d-f136-4b04-8f03-cc4881a5124d",
+   "subject": "mathematics",
+   "chapter": "Relations & Functions",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "23da6798-a31e-4aac-8c9c-af083722bab1",
+   "subject": "psychology",
+   "chapter": "Self & Personality",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "945d9bf0-9a96-4668-a339-726d29d7ff2b",
+   "subject": "psychology",
+   "chapter": "Psychological Disorders",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "a1",
+   "subject": "accountancy",
+   "chapter": "Partnership Fundamentals",
+   "status": "live",
+   "verification_state": "unverified",
+   "exploration_state": "pending"
+  },
+  {
+   "id": "a2",
+   "subject": "accountancy",
+   "chapter": "Partnership Fundamentals",
+   "status": "live",
+   "verification_state": "unverified",
+   "exploration_state": "pending"
+  },
+  {
+   "id": "a243574c-d164-45a1-96eb-31b0646d1cfb",
+   "subject": "physics",
+   "chapter": "Electromagnetic Induction",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "a3",
+   "subject": "accountancy",
+   "chapter": "Partnership Fundamentals",
+   "status": "live",
+   "verification_state": "unverified",
+   "exploration_state": "pending"
+  },
+  {
+   "id": "ae697fe9-1e61-47e6-bfe9-7071832b0391",
+   "subject": "sociology",
+   "chapter": "Introducing Indian Society",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "b1",
+   "subject": "business_studies",
+   "chapter": "Principles of Management",
+   "status": "live",
+   "verification_state": "unverified",
+   "exploration_state": "pending"
+  },
+  {
+   "id": "b2",
+   "subject": "business_studies",
+   "chapter": "Principles of Management",
+   "status": "live",
+   "verification_state": "unverified",
+   "exploration_state": "pending"
+  },
+  {
+   "id": "b3",
+   "subject": "business_studies",
+   "chapter": "Principles of Management",
+   "status": "live",
+   "verification_state": "unverified",
+   "exploration_state": "pending"
+  },
+  {
+   "id": "c30dc7b7-7dae-433b-9a08-251ca9a136b1",
+   "subject": "physics",
+   "chapter": "Ray Optics & Optical Instruments",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "c3a11666-835e-452c-9157-d30f40d3e19c",
+   "subject": "psychology",
+   "chapter": "Self & Personality",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "dfe55664-30ca-456b-a347-5698d098654b",
+   "subject": "physics",
+   "chapter": "Ray Optics & Optical Instruments",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "e1",
+   "subject": "economics",
+   "chapter": "National Income and Related Aggregates",
+   "status": "live",
+   "verification_state": "unverified",
+   "exploration_state": "pending"
+  },
+  {
+   "id": "e2",
+   "subject": "economics",
+   "chapter": "National Income and Related Aggregates",
+   "status": "live",
+   "verification_state": "unverified",
+   "exploration_state": "pending"
+  },
+  {
+   "id": "e3",
+   "subject": "economics",
+   "chapter": "National Income and Related Aggregates",
+   "status": "live",
+   "verification_state": "unverified",
+   "exploration_state": "pending"
+  },
+  {
+   "id": "f7ebf164-661a-4c01-b34e-076289b275b1",
+   "subject": "sociology",
+   "chapter": "Introducing Indian Society",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "f95d6daa-db2d-4f66-b9a2-a5f416b877a5",
+   "subject": "political_science",
+   "chapter": "India's External Relations",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "f9f60897-b7dc-4bec-8149-90bbfc5832f4",
+   "subject": "physics",
+   "chapter": "Magnetism & Matter",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "g1",
+   "subject": "gat",
+   "chapter": "General Knowledge",
+   "status": "live",
+   "verification_state": "unverified",
+   "exploration_state": "pending"
+  },
+  {
+   "id": "g2",
+   "subject": "gat",
+   "chapter": "General Knowledge",
+   "status": "live",
+   "verification_state": "unverified",
+   "exploration_state": "pending"
+  },
+  {
+   "id": "g3",
+   "subject": "gat",
+   "chapter": "General Knowledge",
+   "status": "live",
+   "verification_state": "unverified",
+   "exploration_state": "pending"
+  },
+  {
+   "id": "m1",
+   "subject": "mathematics",
+   "chapter": "Relations & Functions",
+   "status": "live",
+   "verification_state": "unverified",
+   "exploration_state": "pending"
+  },
+  {
+   "id": "m2",
+   "subject": "mathematics",
+   "chapter": "Relations & Functions",
+   "status": "live",
+   "verification_state": "unverified",
+   "exploration_state": "pending"
+  },
+  {
+   "id": "m3",
+   "subject": "mathematics",
+   "chapter": "Matrices",
+   "status": "live",
+   "verification_state": "unverified",
+   "exploration_state": "pending"
+  }
+ ]
+}

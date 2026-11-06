@@ -1,0 +1,1010 @@
+{
+ "subject": "accountancy",
+ "examined": 494,
+ "counts": {
+  "ok": 324,
+  "move": 147,
+  "outside_syllabus": 10,
+  "outside_ncert": 8,
+  "flawed": 5
+ },
+ "items": {
+  "04324d1a-5c5a-44ba-831a-fe751ab86574": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "05030c47-80ff-456f-ae39-20bfa069d5f3": {
+   "stored": "Accounting Ratios",
+   "verdict": "move",
+   "why": "Base of a common-size income statement",
+   "to": "Comparative & Common Size Statements"
+  },
+  "062e21f7-7a2d-45d2-b63c-d286f1283494": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "06f43404-9460-47f1-84dc-4b490d97c18a": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "070289a9-557f-438e-ad5e-e4ce4c1441f7": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "076388dd-e72f-46f9-85cb-70f5b9d2ba01": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "08ad2c26-6c99-4822-b69d-daff85e99628": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "1246f711-cb1a-4ed7-885f-980a8aed9d92": {
+   "stored": "Comparative & Common Size Statements",
+   "verdict": "outside_ncert",
+   "why": "Interpretive claims about partnership dissolution or retirement signals in common-size data; no NCERT line settles them"
+  },
+  "133ba4f1-6370-44f2-8e76-86383f6fb594": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "137de667-0745-45d0-a6f6-d7da17c92dfc": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "13afd624-0548-4713-b8ad-23e483e2534e": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "150c53a9-fcbd-43a9-b1ad-9ccbaa7891b1": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "1866b70f-fb28-423a-8241-97e8c06f5be3": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "18988153-d973-4613-b92d-6a69160c9aa0": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "1938139f-aaa5-4bec-8fa7-42855ae598e4": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "1b15b960-7051-46f1-9f4a-614a21f6fb8a": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "1c4932c7-94e8-4a9c-9b6c-88e2bc1fd6da": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Purpose of comparative statements",
+   "to": "Comparative & Common Size Statements"
+  },
+  "1d2f0705-a685-4dc8-9b89-ddb7ae2f238b": {
+   "stored": "Accounting Ratios",
+   "verdict": "outside_syllabus",
+   "why": "Company profit appropriation (dividend, reserve, retained earnings); the unit has only the partnership appropriation account"
+  },
+  "1dbfe7f7-74d1-4f0a-b667-77f4d0ad4ffd": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "202eb9c2-f168-429c-8512-fd5b1ffaaccb": {
+   "stored": "Computerized Accounting System",
+   "verdict": "outside_ncert",
+   "why": "Statutory limits on using securities premium for dividends; NCERT lists its permitted uses, not this CAS control"
+  },
+  "21cff9a5-7dfd-47fc-8ad0-47d17d86e148": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "2370d28b-6067-421e-b47b-f79562498f34": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "flawed",
+   "why": "Key A makes interest received operating; NCERT says investing for a non-financial enterprise and the stem names no enterprise type"
+  },
+  "26b6c7e8-1a5d-4a14-9947-5e0d4a35d37b": {
+   "stored": "Accounting Ratios",
+   "verdict": "move",
+   "why": "Characteristic of a computerised accounting system",
+   "to": "Computerized Accounting System"
+  },
+  "27fcdfc0-a503-49ad-ab52-449abc1166e2": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Base of a common-size balance sheet",
+   "to": "Comparative & Common Size Statements"
+  },
+  "29133d5d-ca21-4152-b618-04975480974d": {
+   "stored": "Comparative & Common Size Statements",
+   "verdict": "outside_ncert",
+   "why": "Interpretive claims about partnership dissolution or retirement signals in common-size data; no NCERT line settles them"
+  },
+  "29e93b0f-3e04-4e61-867d-cb3e5ef1d56f": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "2a2848cd-d6b9-4678-870c-ac7ea88caa76": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "2b191425-ff4d-487c-a16b-7a77b2769ae4": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "2ea9b114-73b6-4fde-a410-66ec2478dfef": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "305995b2-df14-4834-b259-7bc4feb84e35": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "30a313d1-2637-43c9-b2a0-c16633fadd7b": {
+   "stored": "Accounting Ratios",
+   "verdict": "outside_syllabus",
+   "why": "Company profit appropriation (dividend, reserve, retained earnings); the unit has only the partnership appropriation account"
+  },
+  "337f0175-b3dd-4034-b253-1ebe65947f43": {
+   "stored": "Accounting Ratios",
+   "verdict": "move",
+   "why": "Percentage change in a comparative statement",
+   "to": "Comparative & Common Size Statements"
+  },
+  "35a0389b-70b5-4569-94eb-ddf21416a6b4": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "39fbb06d-a61f-4f3b-b2d3-2b9af9170bd9": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "3a8518c8-a777-4792-8e0f-7909089ad38c": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "3b5eae3b-0484-415d-b76a-b52877406b61": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "outside_ncert",
+   "why": "Partner drawings in a cash flow statement and a statement of changes in partners capital; NCERT cash flow statement covers companies"
+  },
+  "3c883892-5f9f-48bc-b6b4-6d0d78795570": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "3d957d11-aa2d-45e9-b4d6-88e0214556ba": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "3da3889d-da2b-4e01-b81d-04b00a8f5dc9": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "3e04709d-85a9-4073-b1ed-fcaa5b7e2187": {
+   "stored": "Comparative & Common Size Statements",
+   "verdict": "move",
+   "why": "Goodwill valuation methods match (note: annuity method is not in the unit)",
+   "to": "Goodwill Valuation"
+  },
+  "3e8a0448-024d-4750-b704-da356bae1e61": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "3f396b01-fb99-4ba7-b065-663f14b69cc0": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "400c3856-046e-4ae6-a2d7-e0febe870088": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "404761d3-32d9-418a-934d-a97dcec09cb8": {
+   "stored": "Accounting Ratios",
+   "verdict": "move",
+   "why": "Gain or sacrifice on change of profit sharing ratio",
+   "to": "Change in Profit Sharing Ratio"
+  },
+  "40991fca-36cd-4355-87a1-558bf964e46a": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "417a25d6-8ef3-4405-82f9-c10d6584ace2": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "4256ee8c-ccf7-42ef-8c6a-bf4bdf6ca77c": {
+   "stored": "Accounting Ratios",
+   "verdict": "move",
+   "why": "Treatment of items in comparative income statements",
+   "to": "Comparative & Common Size Statements"
+  },
+  "43ecc11a-ad7a-41d0-99ed-8eb3231f45d5": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "44ca03c8-6ea1-48e6-ac80-37894e377be5": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "44fb8279-7bed-429d-9475-f70be33ee2a8": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "4529eeeb-c107-4ea9-baa2-18b228ea200f": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "45b6b4b2-5067-43fe-ab51-459ba7aefae2": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "465b3756-5136-45c1-9456-05fc1e82289e": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "46b9fcc3-4d19-4007-b782-998071ecd0ba": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "46ba875d-3216-4daf-90d6-2b49b60c247c": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "46f5feb5-1990-495d-a155-597069cb34ea": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "4758fddf-e094-4f70-aa8d-5afbfb770255": {
+   "stored": "Comparative & Common Size Statements",
+   "verdict": "flawed",
+   "why": "Stem says total assets definitely increase; if purchased goodwill is paid in cash total assets are unchanged, so key A is not definite"
+  },
+  "47ac4e9a-9170-4c5a-a029-5af48db46ac5": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "49d9f52a-a8f2-4883-be43-b400d04626b1": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "4ab8384f-9b72-4bf9-bec5-dc307e1b7dd3": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "4b0ff2a6-6a42-4843-8596-b7f6139b1b2b": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "52e0bf91-b85d-4116-a75e-03169c647e64": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "53572fc0-bc66-4380-932e-4a6b4c8878fa": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "557c847a-e5d0-43c4-aef3-2975d178239b": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "56221897-e9a3-46cc-9943-dc25f8ab6c02": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "56f78c1f-1f50-4555-b324-774fd1445eed": {
+   "stored": "Accounting Ratios",
+   "verdict": "move",
+   "why": "Base of a common-size balance sheet",
+   "to": "Comparative & Common Size Statements"
+  },
+  "59406091-bbb5-45c6-bbed-b0771e8469e8": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "5a782266-4115-46af-8d5b-ee90d39e4560": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "5a7dcaf8-564f-42eb-b303-6142ed9ced41": {
+   "stored": "Comparative & Common Size Statements",
+   "verdict": "outside_syllabus",
+   "why": "Appropriation of net profit (reserve, dividend) in a common-size column; not a comparative/common-size topic in the unit or NCERT"
+  },
+  "5ada445e-e203-4041-8c4a-2c220d56aaf8": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "5d7ee03a-a8d9-4883-80b1-94a8cdfca171": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "5f918c6a-0c99-43bd-b074-bdee414666f1": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "6183cac3-5f32-4e13-b415-456b26c0e596": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "61d5891a-3e7a-4467-ae59-c3e57936e225": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "6229bce6-388f-4dd1-b561-988b4f0b068c": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "6710f06a-2995-4b9e-aae8-d78d0e6f60c3": {
+   "stored": "Accounting Ratios",
+   "verdict": "move",
+   "why": "Base of a common-size income statement",
+   "to": "Comparative & Common Size Statements"
+  },
+  "67a1913b-4f66-413a-9fb1-122a83a3f2b1": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "67f685e0-273d-4941-a1e7-f55867c5e75d": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "6a9c7d0f-c655-4e51-850f-033cffc0980f": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Absolute and percentage change in a comparative statement",
+   "to": "Comparative & Common Size Statements"
+  },
+  "6c8bedd5-ff0d-41b4-8aa3-98c513efe2aa": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "6cdd67d8-7716-4ed0-b291-8f625db14a5d": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "6df6d974-8f5e-4c8d-9d75-092282c50b62": {
+   "stored": "Accounting Ratios",
+   "verdict": "move",
+   "why": "Change in profit sharing ratio and capital",
+   "to": "Change in Profit Sharing Ratio"
+  },
+  "6e5864db-0820-4446-9564-e1da9f29ebba": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "75846897-3b23-4aad-8372-7c45357b00d9": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "75e541b6-ab2f-4594-baf1-79efa10b78ab": {
+   "stored": "Computerized Accounting System",
+   "verdict": "outside_syllabus",
+   "why": "Invented CAS features mapped to dissolution tasks; not in the CAS unit"
+  },
+  "76b3f7c9-0c91-4b13-b1bf-b3888690d378": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "794dba5e-50be-41e6-8612-ef580c43382f": {
+   "stored": "Comparative & Common Size Statements",
+   "verdict": "move",
+   "why": "Realisation account profit transfer on dissolution",
+   "to": "Dissolution of Partnership Firm"
+  },
+  "7de3ba8b-7a54-4fa2-8c10-b5217ddb78aa": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "7ee2afb5-33a1-4325-820e-442a8e738f87": {
+   "stored": "Accounting Ratios",
+   "verdict": "move",
+   "why": "Effect of adopting a computerised accounting system",
+   "to": "Computerized Accounting System"
+  },
+  "82164ff9-f003-44d9-a1b4-d4f065d3c696": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "8631d70f-0cdc-49ac-b1d2-8579a9d79971": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "886bd2d0-3668-4674-ad3a-a236a0a6ce22": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "8a188437-a4ec-41d7-888d-0792b9e73ce3": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "8b1ddc2b-8e1e-47df-a7b0-21c4f0bd86b3": {
+   "stored": "Cash Flow Statement",
+   "verdict": "outside_ncert",
+   "why": "Payment to a deceased partner representative in a firm cash flow statement; NCERT cash flow statement covers companies"
+  },
+  "8b4fd5c2-862e-4220-af62-b56f57f33ac9": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "8d6d9c7a-3290-4657-8a4b-f3b4373a568d": {
+   "stored": "Accounting Ratios",
+   "verdict": "outside_syllabus",
+   "why": "Company profit appropriation (dividend, reserve, retained earnings); the unit has only the partnership appropriation account"
+  },
+  "90007615-cf22-4fca-9531-c2058d94fd95": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "90203855-ee02-4457-9eaf-99e50e6344b1": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "919e9a27-8501-423e-9411-7423ad06e4dc": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "94354f46-9c2f-479c-aea7-21fa9ad88d0f": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "986ffeed-9aeb-4ed1-9f19-9ce219211feb": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "9c555537-9d8f-4acb-9790-5582808c28e3": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "9c99076d-cc7a-41b4-a49a-6b5449138866": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "9ea40d25-9198-40d6-a046-0e846581979e": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "9ee24878-61d8-4f44-8f84-8f14e8653fdd": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "a03c12a3-ab9d-4613-9f31-049b844477f3": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "a11a6cf0-16d1-4bf5-92e9-0b206bd1dbc0": {
+   "stored": "Computerized Accounting System",
+   "verdict": "outside_syllabus",
+   "why": "Bonus issue by capitalising reserves and its common-size effect; not a CAS topic and bonus issue is not in Unit IV"
+  },
+  "a1f6fc1d-9c87-41e1-b4c9-af5fdfad5011": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "a25406ee-0d7f-46e7-a556-a2733e0aa8fb": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "a3229699-3800-46a2-ae7d-6b25eb92052c": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "a3a1bdf6-1814-4086-8d34-e7f46eb6941a": {
+   "stored": "Cash Flow Statement",
+   "verdict": "outside_syllabus",
+   "why": "Cash flow ratios (cash flow to sales/debt/share, operating cash flow ratio) are not in the unit"
+  },
+  "a60d487b-92cc-4c97-b8c5-ab4cd9ac57e8": {
+   "stored": "Cash Flow Statement",
+   "verdict": "outside_ncert",
+   "why": "Payment to a retiring partner in a firm cash flow statement; NCERT cash flow statement covers companies"
+  },
+  "a76e665a-cf3f-41f6-b89d-94b8741acae4": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "aa79ba76-63c0-4445-931b-936d6ca993a2": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "abcd9d13-871f-429b-8711-d6c82bdfc37c": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "ad5a1d3e-1447-4f83-8f9f-12d5132af221": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "af616593-8b50-437d-8c81-ae91f108ee34": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "afeafbbe-3fae-4d07-bd73-3bc5da57de90": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "b5b36eb4-de34-4514-b75f-a50ca598012f": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Classification of a cash flow (sale of machinery)",
+   "to": "Cash Flow Statement"
+  },
+  "ba0b60e4-4f72-445e-a84d-8e1465a6aad3": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "ba40a378-6620-4d18-b240-643b12edaa50": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "bd992e8f-057d-4e1c-be92-67236f1edb2d": {
+   "stored": "Comparative & Common Size Statements",
+   "verdict": "outside_syllabus",
+   "why": "Appropriation of net profit (reserve, dividend) in a common-size column; not a comparative/common-size topic in the unit or NCERT"
+  },
+  "bfc15d7d-a60f-45b1-a9f6-04618d44eb57": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "c0ea61dd-fc99-4915-b198-1fc1f53b0c5b": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "c1dc9780-48e8-4b33-82c3-ca3e15a48dd9": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "c272998d-8e48-423b-bdb4-1d710c038537": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "c2b4dbcb-db48-43d6-b756-ca5fa98f395c": {
+   "stored": "Computerized Accounting System",
+   "verdict": "flawed",
+   "why": "Ambiguous stem: realised goodwill is credited to realisation account and reaches capitals only via profit or loss, so key A is not settled"
+  },
+  "c42e65a3-4065-4cd8-98e0-03b89b41d649": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "c7f29d7e-0fd3-4a76-b373-14a39359704a": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "c9d937cf-11d7-4a77-87ea-1c49f1df28e4": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "ca035399-8cb7-4920-b2c0-e12b7f6f532d": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "cb59221f-86fa-4ecf-a632-86398153c7ac": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "ce56ee61-0502-47d1-b453-c469c557a110": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "cf38d551-cb3d-4bf2-b797-9124157136e2": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "d1538a23-ba66-44ac-8a54-ecea7f0f596d": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "d28010b2-ff54-4806-a0d0-67f6309453d8": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "d34a18bd-066c-4bb8-921b-e4d4abef64d9": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "d401d4f8-9608-4863-b6f5-c7ac03392149": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "d433d6d3-0f20-412e-b57a-e2a220e6d6d7": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "d771955d-3f74-4d37-b0b3-5be02366e5a3": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "d9795e91-0dce-4ca9-9888-0d6255115f2f": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "d993aede-fbf1-4100-b682-533dcf87b8de": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "d9c47b1c-338e-424a-af28-dfe37c5ca875": {
+   "stored": "Computerized Accounting System",
+   "verdict": "flawed",
+   "why": "Key A says transferring a reserve to capitals increases distributable cash; the transfer is within equity and changes no cash"
+  },
+  "dbaffe1c-a1ab-4318-9fdd-b51c65fb5881": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "dcce17b6-5216-4e5f-a859-78d5422f45ae": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "dd6db147-a358-4370-84c8-70672ce17529": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "dfdfaceb-30b0-4137-b3ed-27359d5cd45e": {
+   "stored": "Accounting Ratios",
+   "verdict": "move",
+   "why": "Match trend, comparative and common-size statements",
+   "to": "Comparative & Common Size Statements"
+  },
+  "e0b73c54-ff39-467d-acb6-0d020994fb24": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "e1324b8f-239e-4d71-ac30-05c7de50d015": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "e173d3cd-4768-46a4-83f1-43421b77e7ec": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "e1cba247-ac8c-4691-89bd-de60c19ac816": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "outside_ncert",
+   "why": "New partner capital as a financing inflow of a partnership; NCERT cash flow statement covers companies"
+  },
+  "e1cfe412-0ff8-4732-b475-3f020c12b2e6": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "e36eecbb-0a98-4478-bc04-0ff7cd33eaef": {
+   "stored": "Computerized Accounting System",
+   "verdict": "flawed",
+   "why": "Key C omits output; options A and B are the standard input-process-store-output cycle, so the key is arguable"
+  },
+  "e3c151be-41c1-42f5-ac0a-cc95e4cf591f": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "e50817fc-11c2-4667-b36f-2d09250d7ce0": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "e6c22297-c67a-4741-b4ff-ff349dd2ab6f": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "e7a3c4dd-e8df-499e-81cc-c22beda9a91b": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "e7ed678b-588e-43c5-b6e0-fd829711f266": {
+   "stored": "Comparative & Common Size Statements",
+   "verdict": "outside_ncert",
+   "why": "Interpretive claims about partnership dissolution or retirement signals in common-size data; no NCERT line settles them"
+  },
+  "e98b997c-b527-4262-b540-924e3e9a3540": {
+   "stored": "Accounting Ratios",
+   "verdict": "move",
+   "why": "Percentage change in a comparative statement",
+   "to": "Comparative & Common Size Statements"
+  },
+  "eca1ca39-40b4-41b5-b869-58d2d30ae5d1": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "ee4a6c35-35c5-42c6-9afc-c8d41419a796": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "f11a6e35-9525-452e-87dc-3ec70009f63e": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "f515fb88-a05a-4ea6-b232-d622ee7ddf04": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "f5dd4ded-f825-42ee-98cc-da1fc0862195": {
+   "stored": "Comparative & Common Size Statements",
+   "verdict": "outside_syllabus",
+   "why": "Appropriation of net profit (reserve, dividend) in a common-size column; not a comparative/common-size topic in the unit or NCERT"
+  },
+  "f8001e66-8d1b-4aa6-ae19-9dd6a7f25c68": {
+   "stored": "Cash Flow Statement",
+   "verdict": "outside_syllabus",
+   "why": "Cash flow ratios (cash flow to sales/debt/share, operating cash flow ratio) are not in the unit"
+  },
+  "f8603d0e-8d91-4ef0-86f0-128f76899934": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "f8655182-40d2-4433-906e-72b35e135765": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "f9ce92b3-d908-4a9a-84cd-d3d23f0945c2": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "fc2f6672-bf55-4839-9fd4-1408f4a35099": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  },
+  "fcc9d051-6239-40fd-aeec-433fd4f91656": {
+   "stored": "Analysis of Financial Statements",
+   "verdict": "move",
+   "why": "Quick Ratio computation from current assets, inventory and current liabilities is Accounting Ratios",
+   "to": "Accounting Ratios"
+  }
+ }
+}

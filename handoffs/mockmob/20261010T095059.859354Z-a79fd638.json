@@ -1,0 +1,26 @@
+{
+  "id": "20261010T095059.859354Z-a79fd638",
+  "observed_at": "2026-10-10T09:50:59.859354+00:00",
+  "agent": "claude",
+  "task": "RAG prototype (apps/rag): abstention, q18 diagnosis, fusion grid, frozen-corpus eval, registration snippets",
+  "status": "active",
+  "done": "Frozen-corpus eval (grep reads index text; corpus fingerprint 845e639c27513e01): keyword 24/30 (80%), hybrid 27/30 (90%), grep 16/30 (53%). Abstention: max-cosine threshold does not separate answerable from not-in-sources. Sweep: t=0.68 keeps 25/30 hits and abstains 1/6; t=0.74 keeps 16/30 and abstains 3/6; t=0.78 keeps 5/30 and abstains 6/6. Not usable. q18 diagnosis: indexed answer exists (mockmob/docs/brain/ARCHITECTURE.md line 1, 'Next.js 16.2.4 and Supabase remain the backend'), but query words do not match it (no 'supabase', 'database' absent from that chunk) and other docs outrank it. Vocabulary gap, not an index or chunking fault. Fusion knobs tried (kw weight 1 vs 2; raw-conversation prior 1.0/0.5/0.25) leave hybrid at 27/30; q02 and q22 remain lost. Registration snippets in apps/rag/registration/ tested against scratch copies: Claude stdio tool list and call OK (rag_search returns 5 sources); Codex scratch config parses and existing servers unchanged. Real server bug fixed: stdout encoding (cp1252) crashed on a non-ASCII title; replies are now ASCII-escaped.</done>\n<parameter name=\"evidence\">[\"apps/rag/eval/results.json (corpus_fingerprint 845e639c27513e01)\", \"apps/rag/eval/abstain_sweep.py output\", \"apps/rag/eval/grid.py output\", \"apps/rag/registration/test_registration.py: OK\", \"apps/rag/tests: 12 tests OK\"]",
+  "next": "Owner decides: (1) apply registration snippets to AI OS .mcp.json and ~/.codex/config.toml (not applied; no chat permission for persistent config edits); (2) whether to accept hybrid without abstention, or add a reranker for abstention and q18. Raw conversation embedding not started.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "apps/rag/rag.py",
+    "apps/rag/mcp_server.py",
+    "apps/rag/eval/run_eval.py",
+    "apps/rag/eval/score_probe.py",
+    "apps/rag/eval/abstain_sweep.py",
+    "apps/rag/eval/grid.py",
+    "apps/rag/registration/claude.mcp.json",
+    "apps/rag/registration/codex.config.toml.snippet",
+    "apps/rag/registration/test_registration.py",
+    "apps/rag/eval/results.json"
+  ],
+  "verification": "Eval rerun on frozen index; unit tests OK; registration test against scratch copies OK. Grid and sweep tune on the same 30 questions, so results are optimistic. Real ~/.codex/config.toml and AI OS .mcp.json were only read, not edited.</verification>\n<blockers>[\"Persistent config edits (AI OS .mcp.json, ~/.codex/config.toml) need the owner's explicit approval in chat. The coordinator relay reports a card answer but no user-cited message.\"]</blockers>\n<cost>No paid calls. No raw conversation embedding started. No MockMob files edited.</cost>\n",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

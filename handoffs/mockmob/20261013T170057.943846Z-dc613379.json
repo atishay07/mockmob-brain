@@ -1,0 +1,18 @@
+{
+  "id": "20261013T170057.943846Z-dc613379",
+  "observed_at": "2026-10-13T17:00:57.944846+00:00",
+  "agent": "continuum-relay",
+  "task": "Relay: session e149eef9 moved to account personal",
+  "status": "active",
+  "done": "Froze session e149eef9-8a04-4106-ab6c-88f7768335c1 (5-hour window at 100%, resets 00:39 IST 14 Oct) and continued it on personal with claude --resume --fork-session (same transcript).",
+  "next": "Continue in the relay window on personal. Live state at the switch: C:\\Users\\atish\\Desktop\\AI OS\\.state\\relay\\capsules\\e149eef9-8a04-4106-ab6c-88f7768335c1-20261013T170057Z.md",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\Desktop\\AI OS\\.state\\relay\\capsules\\e149eef9-8a04-4106-ab6c-88f7768335c1-20261013T170057Z.md",
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\e149eef9-8a04-4106-ab6c-88f7768335c1.jsonl"
+  ],
+  "touched_files": [],
+  "verification": "written by scripts/relay.py; the continuation is verified separately in .state/relay/log.jsonl",
+  "cost_and_pending_requests": "unknown; usage on the target account",
+  "confidence": "agent-reported; verify evidence before acting"
+}

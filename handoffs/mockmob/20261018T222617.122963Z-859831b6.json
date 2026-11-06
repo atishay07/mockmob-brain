@@ -1,0 +1,35 @@
+{
+  "id": "20261018T222617.122963Z-859831b6",
+  "observed_at": "2026-10-18T22:26:17.122963+00:00",
+  "agent": "W5 (Opus subagent, brief 18-W5)",
+  "task": "W5: first full mock in each subject is free (server rule, quote, start, web copy, tests), branch web/1019-w5-firstmock in wt-1019-w5",
+  "status": "complete",
+  "done": "Rule in data/first_full_mock.js (decides) + src/lib/server/firstFullMock.js (reads/writes): Free student, mode 'full', one free START per subject ever, held by a learning_allowances row first_full_mock:<subject>, period 'ever' (PK = lock); saved Full/NTA paper or a full_sample row means used; unknown is charged as before. Quote: creditCost 0, allowance {kind,state:'available'}, freeReason 'first_full_mock_free', reason 'No credits are charged for this one. Your next full mock in this subject costs 50 credits.', firstFullMock state on every Free quote. Start: device path claims the row before charging; durable path passes the quota to start_learning_session. Durable-only full_sample folded in (one free full mock per subject). Web: Practice Full tile 'Free', Cost row 'Free: your first full mock in this subject is on us.', phone bar 'Free'; pricing Free list and Account > Plan gain 'Your first full mock in every subject is free.' No migration.",
+  "next": "Main session: merge web/1019-w5-firstmock (head fa5e020a) into deploy/web-1019-r11 (merge-tree clean vs 889ccdf7). App owner: cost_line.dart line 41 shows 'Free today' for this quote; add a first_full_mock: branch (exact lines in the W5 report). Follow-ups not done (other owners): Start sheet Full row, Today mock price line, result next move and Ask Mobi knowledge still state a full mock as 50 credits.",
+  "blockers": [],
+  "evidence": [
+    "data/tests/first_full_mock_1019.test.mjs 18/18 (real quote and sessions routes over PGlite, spend_credits md5 = production a2d71600); mutation-checked",
+    "lint 0; test:billing 344/344; test:learning 357/357; test:app 756 pass 1 skipped; test:recovery 604 pass 3 todo; test:today 120/120; next build --webpack exit 0",
+    "Production read-only: spend_credits knows attempt_full; learning_allowances PK (user_id,kind,period), 0 rows, service_role insert; 11 May 2026 attempts with no selection_meta (9 students) not counted",
+    "Captures: scratchpad w5cap (390/1440, Night/Day): practice-full-free, -used, -quick-free, -full-default, practice-default, account-default, pricing"
+  ],
+  "touched_files": [
+    "data/first_full_mock.js",
+    "src/lib/server/firstFullMock.js",
+    "data/practice_charge.js",
+    "data/practice_quote.js",
+    "data/learning_engine.js",
+    "src/app/api/practice/quote/route.js",
+    "src/lib/server/practiceSessions.js",
+    "src/app/(app)/dashboard/DashboardPageClient.jsx",
+    "src/app/(app)/dashboard/practice.css",
+    "src/app/pricing/page.js",
+    "src/components/billing/PlanCard.jsx",
+    "src/app/preview/arena/ArenaPreviewClient.jsx",
+    "data/tests/first_full_mock_1019.test.mjs",
+    "package.json"
+  ],
+  "verification": "Headless Chrome via playwright-core, preview fixtures only, dev server 3657 with Supabase/payment env blanked (no production contact); dev server and .next removed after.",
+  "cost_and_pending_requests": "none (no paid model, no production write)",
+  "confidence": "agent-reported; verify evidence before acting"
+}

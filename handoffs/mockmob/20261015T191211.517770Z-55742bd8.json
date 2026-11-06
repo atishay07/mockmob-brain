@@ -1,0 +1,18 @@
+{
+  "id": "20261015T191211.517770Z-55742bd8",
+  "observed_at": "2026-10-15T19:12:11.517770+00:00",
+  "agent": "lab4-truth",
+  "task": "Q7 truth review of Mistake Lab slice 4 (web wt-lab4, app wt-phase2)",
+  "status": "complete",
+  "done": "Hand-counted the traps sheet, paper tags, later and revise fixtures with independent arithmetic (all match). Fixed: exact 30 point Falling gate, Revise seeding no longer drops shuffled-paper wrong answers, Same mistakes later follows what Revise will hold, Traps you meet skips doubted questions, key-quality --apply writes a restore file, summary says 1 card. App and web fixtures byte-identical.",
+  "next": "Owner: confirm retirement reading and key-quality reading (13 flagged vs 5 with a 20 gap); apply two migrations to production after a build; look at the new components in a browser at 375 and 1366.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "wt-lab4 f2d12263",
+    "wt-phase2 751d7310"
+  ],
+  "verification": "test:recovery 231, test:learning 277, test:app 235 pass; eslint clean; flutter lab_slice4_model_test and revise_test pass. No next build or browser run.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

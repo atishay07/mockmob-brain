@@ -1,0 +1,37 @@
+{
+  "id": "20261014T125530.241698Z-2b29251b",
+  "observed_at": "2026-10-14T12:55:30.242697+00:00",
+  "agent": "claude-opus-5.5 subagent (web Phase 2 finisher, session 604ced81)",
+  "task": "Finish web redesign Phase 2 on feat/web-redesign-p2 (mockmob-web2): uncommitted diffs, tests, local staging run, D7 before/after gate screenshots, commit",
+  "status": "complete",
+  "done": "Committed f689810 on feat/web-redesign-p2 (on c5ccfe9). Nothing pushed or deployed. Kept and finished the cut-off merge agent's two edits: /preview/arena now renders ReviewPageClient, ProgressPageClient and ExplorePageClient, plus the Ask page head via a new shared src/app/(app)/mentor/AskHead.jsx; the repair-record fixture now uses the real row shape (attemptId, questionId). Added npm run test:redesign (shared/tests plus the W2.3 and W2.4 model tests). Gate fixes: hero h1 fits at 1366 with Bricolage (11.6cqi), four home kickers removed, caps costume removed (footer h3, hero sample, tour screens, DU presets and tags, Ask labels), trailing arrows removed from the home buttons and links, \"Open the practice Arena\" changed to \"Start free practice\", the Progress tile no longer repeats \"Answered right\", and four home content panels lose blur and glow (D6). STATUS.md entry added.",
+  "next": "Owner gate (D7): review tmp/redesign-gate-p2/contact-sheet-375.png and contact-sheet-1366.png. Open items: the Ask hub body is still the legacy dark box; Quick Practice and Full Mock title case; a signed-out visitor on a product link sees the Night shell, then the Light log-in page; home middle-dot meta lines and the New · Combo Planner and Compass Pro badges (W4.1); RecoveryOverview.jsx and DiscoveryFeed.jsx are now orphaned (delete in W4.3); a real member session, 360/1024/1920 px, 200% zoom, reduced motion and the budget phone have not been exercised.",
+  "blockers": [
+    "Owner OK on the screenshots (D7) before Phase 2 replaces visible UI",
+    "Push and deploy need the owner"
+  ],
+  "evidence": [
+    "mockmob-web2 f689810 (feat/web-redesign-p2)",
+    "tmp/redesign-gate-p2: 76 before + 84 after PNG, after-report.json, flash-report.json, contact sheets",
+    "scratchpad 604ced81/p2final: capture.mjs, flash.mjs, sheet-sharp.mjs, serve.mjs, test logs"
+  ],
+  "touched_files": [
+    "package.json",
+    "docs/brain/STATUS.md",
+    "src/app/(app)/mentor/AskHead.jsx",
+    "src/app/(app)/mentor/page.js",
+    "src/app/preview/arena/ArenaPreviewClient.jsx",
+    "src/app/(app)/explore/ExplorePageClient.jsx",
+    "src/app/(app)/review/reviewModel.mjs",
+    "src/app/page.js",
+    "src/components/LandingActions.jsx",
+    "src/components/landing/*",
+    "src/app/{globals,landing,mistake-lab,tour-screens,social-proof,compass-ladder,hero-depth}.css",
+    "src/components/du/du.css",
+    "src/components/ai/prepos.css",
+    "C:/Users/atish/Desktop/mockmob copy/.claude/launch.json (added web2-p2-staging-webpack)"
+  ],
+  "verification": "Test results: visitor 111/111, public 13/13, redesign 47/47, nta 22/22, answer-integrity 11/11, recovery 39/39, auth 50/50, app 108/108 and learning 112/112 (both serial; running in parallel ran out of memory), du 19/19, factory 332/332 (logs restored); study 21/22 (known WordNet failure). ESLint is clean on 79 Phase 2 files plus this commit's files. The 84 after shots show no overflow, no console errors and no overlay. The theme was right on first paint in 26 of 26 loads, with no flash. Two traps: the stale webpack cache in .next-staging, and writing into the repo while next dev runs breaks pages.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

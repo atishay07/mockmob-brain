@@ -1,0 +1,284 @@
+{
+ "kind": "authored_w2_engine_check",
+ "label": "working-r5.2",
+ "source": "claude-authored-2026-10-14-w2",
+ "at": "2026-10-14T09:34:51.238Z",
+ "engine": {
+  "root": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-hotfix",
+  "file": "data/nta_engine.js",
+  "version": "nta-engine-2026.10.14-r5.2",
+  "sha256": "d51959c6e83a74edff7416044bc52ce1a0339b8bc3e991680d2b46087b790674",
+  "mtime": "2026-10-14T09:30:08.044Z",
+  "minScore": 8,
+  "minFit": 8
+ },
+ "method": "ntaEligibility (quality gate with the agent scores, content gates, CUET-fit gate) on every accepted wave-2 question with the committed agent and fit tables of the named checkout plus the wave-2 entries merged in memory (policy admit). Nothing in data/ is written. Rows are mapped like the wave-1 publisher (toQuestionRow); case-set items typed single_mcq are mapped as passage children.",
+ "candidatesSha256": "f9593e13ac206cee147fe2278a16cb37fe5e4b738f0b9564e4f98e88e76dfbf2",
+ "planned": 390,
+ "engineEligible": 380,
+ "engineIneligible": 10,
+ "engineIneligibleReasons": {
+  "malformed_question_text": 4,
+  "answer_guard_options_invalid": 3,
+  "options_invalid": 3,
+  "orphan_passage_question": 1,
+  "sequence_key_is_listed_order": 1,
+  "sequence_order_narrated_in_stem": 1
+ },
+ "ineligibleByGate": {
+  "veto": 10
+ },
+ "bySubject": {
+  "biology": {
+   "planned": 56,
+   "eligible": 53,
+   "ineligible": 3,
+   "reasons": {
+    "orphan_passage_question": 1,
+    "sequence_key_is_listed_order": 1,
+    "sequence_order_narrated_in_stem": 1
+   }
+  },
+  "computer_science": {
+   "planned": 78,
+   "eligible": 77,
+   "ineligible": 1,
+   "reasons": {
+    "answer_guard_options_invalid": 1,
+    "options_invalid": 1
+   }
+  },
+  "english": {
+   "planned": 55,
+   "eligible": 54,
+   "ineligible": 1,
+   "reasons": {
+    "answer_guard_options_invalid": 1,
+    "options_invalid": 1
+   }
+  },
+  "general_test": {
+   "planned": 72,
+   "eligible": 72,
+   "ineligible": 0,
+   "reasons": {}
+  },
+  "geography": {
+   "planned": 51,
+   "eligible": 51,
+   "ineligible": 0,
+   "reasons": {}
+  },
+  "mathematics": {
+   "planned": 69,
+   "eligible": 64,
+   "ineligible": 5,
+   "reasons": {
+    "malformed_question_text": 4,
+    "answer_guard_options_invalid": 1,
+    "options_invalid": 1
+   }
+  },
+  "political_science": {
+   "planned": 9,
+   "eligible": 9,
+   "ineligible": 0,
+   "reasons": {}
+  }
+ },
+ "passageSets": [
+  {
+   "set_id": "english__p1__set3",
+   "subject": "english",
+   "chapter": "Literary Passage",
+   "passage_words": 277,
+   "passage_words_range": {
+    "min": 200,
+    "target": 280,
+    "max": 300
+   },
+   "min_children": 4,
+   "wave1_children": 3,
+   "wave1_children_eligible": 3,
+   "wave2_children": 1,
+   "wave2_children_eligible": 1,
+   "distinct_eligible_children": 4,
+   "blueprint_serves_sets": true,
+   "servable": true
+  }
+ ],
+ "placementProblems": [],
+ "informational": {
+  "authoredTypeVersusEngineType": [
+   {
+    "id": "0bc7e3fd-ca5f-4abb-8058-b2df046889e4",
+    "subject": "english",
+    "note": "fit judges majority chapter differs from the authored chapter",
+    "authored_chapter": "Correct Word Usage",
+    "fit_chapter": "Vocabulary"
+   },
+   {
+    "id": "1e2a6ba5-ebe1-43f1-b5ec-da78024a63c5",
+    "subject": "general_test",
+    "note": "fit judges majority chapter differs from the authored chapter",
+    "authored_chapter": "General Knowledge",
+    "fit_chapter": "General Science and Environment Literacy"
+   }
+  ]
+ },
+ "refused": [
+  {
+   "id": "dbbeb54a-2a90-448d-bc03-d52a07078ded",
+   "subject": "biology",
+   "batch": "biology__b1",
+   "chapter": "Reproductive Health",
+   "authored_type": "match_the_following",
+   "engine_type": "match_the_following",
+   "reasons": [
+    "orphan_passage_question"
+   ],
+   "cause": [
+    "the stem reads as passage-linked because of \"based on\" but the row has no passage"
+   ],
+   "stem": "Match List-I with List-II.\nList-I: (A) Vasectomy, (B) Copper-T, (C) Lactational amenorrhoea, (D) Saheli\nList-II: (I) Intrauterine device, (I"
+  },
+  {
+   "id": "4b3919e1-b58b-44eb-a11c-42cca7d43ca7",
+   "subject": "biology",
+   "batch": "biology__b1",
+   "chapter": "Principles of Inheritance & Variation",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "sequence_key_is_listed_order"
+   ],
+   "cause": [
+    "the correct option lists the items in the same order as the stem prints them"
+   ],
+   "stem": "The recombination frequencies between three linked genes on the same chromosome of a plant are: gene P and gene Q, 12%; gene Q and gene R, 8"
+  },
+  {
+   "id": "a6e15328-3f33-4874-b956-dd25c0a63f39",
+   "subject": "biology",
+   "batch": "biology__b2",
+   "chapter": "Evolution",
+   "authored_type": "sequence_ordering",
+   "engine_type": "sequence_ordering",
+   "reasons": [
+    "sequence_order_narrated_in_stem"
+   ],
+   "cause": [
+    "the stem itself narrates the order (two or more ordering cues)"
+   ],
+   "stem": "Arrange the following hominids in the order of their first appearance in the fossil record, earliest first:\n(A) Homo sapiens\n(B) Homo erectu"
+  },
+  {
+   "id": "5efc8343-0618-4451-9700-e8858f0599b6",
+   "subject": "computer_science",
+   "batch": "computer_science__b2",
+   "chapter": "Queue",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "options_invalid"
+   ],
+   "cause": [
+    "option text is a single letter a-d (read as a placeholder): A, B, C"
+   ],
+   "stem": "The following Python code uses a list as a queue:\n\nq = []\nq.append('A')\nq.append('B')\nq.append('C')\nq.pop(0)\nprint(q[0])\n\nWhat is the output"
+  },
+  {
+   "id": "a3eb6b10-fe92-4abc-a2d0-8dacc0900a72",
+   "subject": "english",
+   "batch": "english__v2",
+   "chapter": "Correct Word Usage",
+   "authored_type": "fill_in_blank",
+   "engine_type": "fill_in_blank",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "options_invalid"
+   ],
+   "cause": [
+    "option text is a single letter a-d (read as a placeholder): A"
+   ],
+   "stem": "Choose the option that correctly fills the blank: He is ______ honest man whose word can always be trusted."
+  },
+  {
+   "id": "2bcb43e0-f75e-40d3-b4ff-725752064937",
+   "subject": "mathematics",
+   "batch": "mathematics__b1",
+   "chapter": "Matrices",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "malformed_question_text"
+   ],
+   "cause": [
+    "the stem or an option contains \"[[\" or \"]]\" (nested brackets, for example matrix notation): in the stem"
+   ],
+   "stem": "If A = [[1, 2], [3, 4]] and B = [[0, 1], [1, 0]], then AB is equal to"
+  },
+  {
+   "id": "cb4f1503-5165-4373-a4d4-037a199e073a",
+   "subject": "mathematics",
+   "batch": "mathematics__b1",
+   "chapter": "Matrices",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "options_invalid"
+   ],
+   "cause": [
+    "option text is a single letter a-d (read as a placeholder): B"
+   ],
+   "stem": "If A is a square matrix such that A² = A and I is the identity matrix of the same order, then (I + A)³ − 7A is equal to"
+  },
+  {
+   "id": "1bfb4dd7-d130-4baa-97eb-22b59d735a9a",
+   "subject": "mathematics",
+   "batch": "mathematics__b1",
+   "chapter": "Determinants",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "malformed_question_text"
+   ],
+   "cause": [
+    "the stem or an option contains \"[[\" or \"]]\" (nested brackets, for example matrix notation): in the stem"
+   ],
+   "stem": "If A = [[1, 2], [3, 4]], then the value of det(2A) is"
+  },
+  {
+   "id": "87c9264b-613d-4c51-bb97-9de06bbe6fe8",
+   "subject": "mathematics",
+   "batch": "mathematics__b1",
+   "chapter": "Matrices",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "malformed_question_text"
+   ],
+   "cause": [
+    "the stem or an option contains \"[[\" or \"]]\" (nested brackets, for example matrix notation): in the stem"
+   ],
+   "stem": "If A = [[1, 2], [0, 1]], then A³ is equal to"
+  },
+  {
+   "id": "d66d55ac-929f-4786-8a67-59576d0aa5c7",
+   "subject": "mathematics",
+   "batch": "mathematics__b1",
+   "chapter": "Matrices",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "malformed_question_text"
+   ],
+   "cause": [
+    "the stem or an option contains \"[[\" or \"]]\" (nested brackets, for example matrix notation): in the stem"
+   ],
+   "stem": "If A = [[1, 4], [2, 3]], then the matrix P = (A + Aᵀ)/2 is"
+  }
+ ]
+}

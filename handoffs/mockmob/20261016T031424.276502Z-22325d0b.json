@@ -1,0 +1,27 @@
+{
+  "id": "20261016T031424.276502Z-22325d0b",
+  "observed_at": "2026-10-16T03:14:24.276502+00:00",
+  "agent": "claude-opus-5.5 subagent (deploy gate fixer, wt-batch)",
+  "task": "Deploy gate fixes for deploy/batch-1016 (blocker + 36 majors + minors)",
+  "status": "complete",
+  "done": "Commit 09421b29 on deploy/batch-1016 (wt-batch). Fixed the /pricing/prepos blocker (now /pricing/ai-credits with 308 redirect) and all 36 majors: .rv-empty collision (Revise namespaced .rvs-*), Ask Mobi naming + Radar/Compass descriptors, chapter review/points in public copy, icon tiles/nested cards/numbered discs/kickers/dots/thick side borders/arrows removed, Practice cost truth + denominators + real-cohort rank + dock timing, Compass Pro cutoff load states + range-first projection + calculator-first free page, leaderboard real ranks, base buttons no caps/glow, /recovery /features /contact rewritten, SEO sentence case. Many minors fixed (see docs/design-decisions/deploy-batch-1016.md).",
+  "next": "Owner/critic re-gate using mockmob-next/tmp/1016-gate/after/ (41 screens x 390/1440 x Night/Day). On merge with the landing branch keep that branch's landing copy. Open minors listed under 'Not changed' in the design note.",
+  "blockers": [
+    "next.config.mjs line-ending change left unstaged as instructed",
+    "Nothing pushed or deployed"
+  ],
+  "evidence": [
+    "npm run lint clean",
+    "test:app 328/328, recovery 231/231, learning 277/277, nta 169/169, du 19/19, auth 52/52, answer-integrity 11/11, study 37/38 (pre-existing WordNet licence CRLF check)",
+    "next build --webpack passed (Turbopack refuses symlinked node_modules)",
+    "captures: mockmob-next/tmp/1016-gate/after/"
+  ],
+  "touched_files": [
+    "wt-batch/src (114 files)",
+    "wt-batch/docs/design-decisions/deploy-batch-1016.md",
+    "wt-batch/src/app/pricing/ai-credits/page.js"
+  ],
+  "verification": "Headless Chrome CDP captures at 390x844 and 1440x900, Night and Day, looked at; redirect 308 verified in dev log; Practice dock/card exclusivity measured via JS.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "20261018T175213.561158Z-46405f09",
+  "observed_at": "2026-10-18T17:52:13.562157+00:00",
+  "agent": "claude-opus-subagent track C (credits core)",
+  "task": "Track C: finish ONE credits balance core after STOP POINT 6c23b11c in wt-credits-core (web/credits-core-1018)",
+  "status": "complete",
+  "done": "Reviewed and kept 6c23b11c (old-database probe, period fix, Ask Mobi one-balance context). Fixed /api/ai/context normalCreditBalance to stay users.credit_balance. Documented field contract. Decided per-user AI cap: only BOUGHT (bonus) credits lift it, USD 0.02 each (mm_bought_ai_credits_spent, row student_bought_credit); users.credit_balance (111,961 signup/reward credits on prod, none bought) pays for AI under the owner's cap. Final file applied on STAGING only; md5s equal; matrix OK; undo dry-run back to production md5s. Commits 4431e42a, cdf2dcef, 4eb36198.",
+  "next": "Main session: release 10 production steps per the structured notes (pre-check 5 md5s, apply file, post-check 8 md5s; web may ship before DB thanks to the probe; undo = code first). Confirm the bought-only cap decision with the owner if desired.",
+  "blockers": [],
+  "evidence": [
+    "wt-credits-core 4eb36198 docs/brain/STATUS.md top entry",
+    "staging onwkqxmjqjrhfbjjdydu migrations one_credits_balance_20261018210000_final and _bought_cap"
+  ],
+  "touched_files": [
+    "supabase/migrations/20261018210000_one_credits_balance.sql",
+    "supabase/undo/20261018210000_one_credits_balance.undo.sql",
+    "data/tests/one_credits_balance.test.mjs",
+    "data/tests/one_balance_ship_together.test.mjs",
+    "src/app/api/ai/context/route.js",
+    "src/services/credits/unifiedWallet.js",
+    "package.json",
+    "docs/brain/STATUS.md"
+  ],
+  "verification": "eslint clean; test:billing 238/238; test:learning 357/357; test:app 692 pass 1 skip; test:recovery 604 pass 3 todo 0 fail",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

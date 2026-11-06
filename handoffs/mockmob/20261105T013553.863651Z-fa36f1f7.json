@@ -1,0 +1,36 @@
+{
+  "id": "20261105T013553.863651Z-fa36f1f7",
+  "observed_at": "2026-11-05T01:35:53.863651+00:00",
+  "agent": "claude-opus-5.5 subagent R2-A (night 1105)",
+  "task": "R2-A: carry the app's motion to the logged-in web (owner LK95): digit roll, finish stamp, Start sheet container transform",
+  "status": "complete",
+  "done": "Branch web/1105-motion commit b3da31a08 (from main 7b47b4c90, not pushed, not deployed). RollNumber (app MonumentalNumber, 500 ms emphasized, settle wait, memoryKey ink), stampFigure (app FinishCeremony 1.12 to 1, ring for 70%+ sets on Celebrations Full, not NTA; shards not ported; ring fitted to web figure) on the result score replacing the count-up; StartSheet container transform from the pressed key (clip 420 ms on app grow curve, glass 45% to 100%, key volt dissolves, content 38-78%, close 280 ms into the key; desktop panel starts on sidebar key and travels home); reduced motion 120 ms fade; focusout guard fixes focus dropping to body when the plan arrives. No page recede: app morph sheet does not recede (shared token unused in app).",
+  "next": "Orchestrator: merge web/1105-motion; owner phone look at result first open and Start sheet. Optional follow-ups: swap Today BigNumber and other count-ups to RollNumber memoryKey (not this packet's files); compositor-only morph skin if the clip stutters on low-end phones.",
+  "blockers": [
+    "motion-pass-1016e.test.mjs (in no npm script) fails on main too: onboarding.css scale(0..) entrance, not this packet's"
+  ],
+  "evidence": [
+    "wt-1105-motion/tmp/night-1105/r2a/<tag>/ frames: result-strong and start-review at 390x844, 1024x768, 1440x900 Night and Day, reduced, quiet, avg",
+    "Chrome trace: clip-path morph animation not composited (compositeFailed 8192); transform/opacity parts composited"
+  ],
+  "touched_files": [
+    "src/lib/motion/RollNumber.jsx",
+    "src/lib/motion/rollPlan.js",
+    "src/lib/motion/stampPlan.js",
+    "src/lib/motion/stampFigure.js",
+    "src/app/motion-kit.css",
+    "src/components/result/ResultHero.jsx",
+    "src/app/(app)/result/[id]/ResultPageClient.jsx",
+    "src/components/recovery/result.css",
+    "src/components/start/StartSheet.jsx",
+    "src/components/start/start.css",
+    "src/components/start/morphPlan.mjs",
+    "data/tests/web_motion_1105.test.mjs",
+    "data/tests/web_fixb_1019.test.mjs",
+    "package.json",
+    "docs/design-decisions/web-1105-motion.md"
+  ],
+  "verification": "Headless Chrome 151 dev build films seeked at 50 ms; focus inside after open, back on key after Esc, hit tests clean, all six size/theme pairs. test:dock 63 pass, test:app 1009 pass, test:recovery 637 pass (3 todo), eslint clean. Not verified on a real phone or production build.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "20261024T131338.156049Z-4af8cd44",
+  "observed_at": "2026-10-24T13:13:38.157049+00:00",
+  "agent": "claude-opus-5.5 session b448f889 (Reel orchestrator)",
+  "task": "MockMob 9:16 Reel v2: final + 30 s / 15 s cuts delivered",
+  "status": "complete",
+  "done": "Owner approved the 6:05 pm final (\"looks good to me\"). Sent r2 final (out/reel916/final-r2/: master, ig30, ig60, phone 27 MB, SRT/VTT; -14.0 LUFS, TP -1.44; opening bit-identical to cand4; 3 voice pops removed via voice set p10; foley timing, answer key entry, exam-day NTA label fixed) at 6:38 pm and both cuts (out/reel916/final-cuts/: cut30 26.9 s, cut15 15.0 s; -14.0 LUFS, TP <= -1.43) at 6:45 pm. Fixed on the way: orphan b37 bake (REEL_MUSIC restored to b36sgs), voiceBandReel.json keyed by voice path (p10 keys added).",
+  "next": "Nothing required. Optional, owner's call: the cover still (bash scripts/deliver_reel.sh out/reel916/final-r2/mockmob-reel916-master.mp4 --only cover), the R03 '78.' voice pop at 20.26 s inside the approved opening.",
+  "blockers": [],
+  "evidence": [
+    "docs/NOTES.md 'done reel916 FINAL' (6:45 pm)",
+    "docs/OWNER-LEDGER.md 24 Oct ~6:10 pm approval",
+    "out/reel916/final/make_final2.log",
+    "out/reel916/final/make_cuts.log"
+  ],
+  "touched_files": [
+    "src/reel/planReel.ts (REEL_VOICE p10, REEL_MUSIC b36sgs)",
+    "src/reel/voiceBandReel.json (+p10 keys)",
+    "public/vo/el_himanshu_reel_p10/",
+    "scripts/deliver_reel.sh (audio copy band 150-330 kb/s)",
+    "src/reel/chapters/answer/Screens.tsx",
+    "src/reel/chapters/ExamDay.tsx",
+    "src/reel/chapters/examday/InterfacePane.tsx",
+    "public/art/nta/q24-idle-noeyebrow.png",
+    "src/reel/tactile/foley/answer.ts",
+    "src/reel/tactile/foley/askmobi.ts",
+    "src/reel/cuts/tactileCuts.ts"
+  ],
+  "verification": "tsc clean; both timelines 0 warnings; deliver_reel.sh PASS; null test opening -199..-227 dB per second vs cand4; ebur128 on every copy",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

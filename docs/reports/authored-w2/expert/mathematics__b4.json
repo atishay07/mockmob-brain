@@ -1,0 +1,33 @@
+{
+  "batch": "mathematics__b4",
+  "subject": "mathematics",
+  "pass": "wave2 expert pass (Sonnet-equivalent CUET expert review, same procedure as wave 1 step 5)",
+  "date": "2026-10-14",
+  "scope": "accepted=true questions in wave2-acceptance-2026-10-14.json for mathematics__b4 (16 of 20). Four questions have accepted=false and were not reviewed.",
+  "source_file": "tmp/authored-w2/mathematics/mathematics__b4.json",
+  "counts": {"ready": 16, "repaired": 0, "practice": 0, "reject": 0},
+  "verdicts": [
+    {"id": "7a12093c-01aa-4349-82bb-f27976ad9639", "verdict": "ready", "why": "Split at x = 1 gives 1/2 + 1/2 = 1, which is key B. Decoys 0 (modulus ignored), 2 and 1/2 are the standard slips."},
+    {"id": "cdf391c1-3a14-4e83-99a9-8bd6f5172413", "verdict": "ready", "why": "pi/4 -> II, 1 -> I, 4 -> III, 2 -> IV. Only option C gives all four pairs correctly."},
+    {"id": "e8315021-641c-4a24-992d-1e84bf875aed", "verdict": "ready", "why": "Area between y = x and y = x^2 on [0, 1] is 1/2 - 1/3 = 1/6, key D. The 1/3 decoy is the x^2-only slip."},
+    {"id": "a1b188fb-050e-4f97-9a58-a218945270c8", "verdict": "ready", "why": "Area of the parabola segment cut by x = 3 is the integral of 4 sqrt(x) over [0, 3], which is 8 sqrt(3), key B. The 4 sqrt(3) decoy is the single-branch area. The hard label is generous but not an error."},
+    {"id": "aa1a4498-0bb6-4217-b803-bea0966cfca0", "verdict": "ready", "why": "The equation is polynomial in its derivatives, so the order is 2 and the degree is 3 (the power of d2y/dx2). The sum is 5, key C. The option 2 decoy is the order-only slip."},
+    {"id": "2a6c8576-fcef-4d2f-aa94-89ed19ccc690", "verdict": "ready", "why": "Separation gives ln y = x^2 with y(0) = 1, so y(1) = e, key B. The e^2 decoy is the factor-of-two slip."},
+    {"id": "7a8a4cad-f919-42e1-862e-690f51c34587", "verdict": "ready", "why": "For P = tan x the integrating factor is e^(integral of tan x) = sec x, key D. The cos x decoy is the reciprocal slip."},
+    {"id": "c2b41eb3-2c03-4f84-a642-18d1d26e636d", "verdict": "ready", "why": "a.b = 5 and |a| = 3, so the scalar projection of b on a is 5/3, key B. The 5/9 decoy divides by |a|^2 and 5/sqrt(14) divides by |b|."},
+    {"id": "2ef9f058-fb7a-4751-9910-b01bc28f836f", "verdict": "ready", "why": "a x b = (-7, 3, 5), magnitude sqrt(83), so the triangle area is sqrt(83)/2, key C. The sqrt(83) decoy omits the 1/2."},
+    {"id": "2bc0d9a5-09b2-4ef1-92ba-e425e6570f7c", "verdict": "ready", "why": "A (dot product commutes) and C (Lagrange identity) are true. B fails because the cross product changes sign and D fails because a.b = 0 means perpendicular. Only option B matches."},
+    {"id": "ec33e59c-d249-4003-aaab-c8c7a14cd47b", "verdict": "ready", "why": "Direction ratios are 3, 4, 12 with magnitude 13, so the direction cosines are 3/13, 4/13, 12/13, key C. The unnormalised and squared options are the standard decoys."},
+    {"id": "c262ba31-18ea-4444-82f6-a918bcec0984", "verdict": "ready", "why": "Dot product -5 over magnitudes 3 and 5 gives |cos| = 1/3 for the acute angle, key A. The -1/3 decoy is the obtuse angle and 5/9 uses the wrong magnitude."},
+    {"id": "f9de9cf0-1ebb-4200-a032-079e7c6a1e9c", "verdict": "ready", "why": "|2 + 6 + 18 - 11| / 7 = 15/7, key D. The 26/7 decoy forgets the constant and 15/49 omits the square root."},
+    {"id": "bef93c5a-79c0-4741-bd76-ccb608b4c742", "verdict": "ready", "why": "For independent events P(A u B) = 0.4 + 0.5 - 0.2 = 0.7, key D. The 0.9 decoy adds the probabilities and 0.2 is P(A n B)."},
+    {"id": "903ed426-c63d-4b7b-9c74-bf91b1628735", "verdict": "ready", "why": "Sum of kx over 1..4 gives k = 1/10, so P(X > 2) = 0.3 + 0.4 = 0.7, key A. The decoys 0.3 (P(X <= 2)) and 0.9 (P(X >= 2)) are correct and not keys."},
+    {"id": "7e6677ee-60aa-4c21-bf06-fbf5d767082d", "verdict": "ready", "why": "P(X = 1) = 4 (1/3)(2/3)^3 = 32/81, key D. The 8/81 decoy swaps p and q, 16/81 is P(X = 0) and 65/81 is P(X >= 1)."}
+  ],
+  "not_reviewed": [
+    {"id": "14cb75b8-45ee-41be-a49a-b04d87b51a70", "reason": "accepted=false in wave-2 acceptance (duplicate of 88f6b629-ab46-4461-8205-eab727097947)."},
+    {"id": "f94a996b-09c4-4e5e-8073-d523a1e7adaa", "reason": "accepted=false in wave-2 acceptance (probable duplicate of 35f55f2c-9dff-4ee8-a977-d2268c091670)."},
+    {"id": "4fbae055-7808-4e12-a528-f269e8a4a946", "reason": "accepted=false in wave-2 acceptance (probable duplicate of fb49ae9d-67bf-43c2-a22c-892e32b2e08d)."},
+    {"id": "9bc95d59-4f87-429f-b8c0-f835c9221c22", "reason": "accepted=false in wave-2 acceptance (fit median 5, two fit flags)."}
+  ]
+}

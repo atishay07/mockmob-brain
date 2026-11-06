@@ -1,0 +1,15 @@
+{
+  "id": "20261015T184136.373806Z-63cd1dfe",
+  "observed_at": "2026-10-15T18:41:36.373806+00:00",
+  "agent": "builder-q6-web",
+  "task": "Q6 Mobi quality pass, website port",
+  "status": "complete",
+  "done": "MobiReact now draws the app's vector Mobi from data/mobi_rig.v2.json (engine, sim, SVG figure, SSR first frame, /preview/mobi). Commit 5b2038f2 on web/mobi-1015.",
+  "next": "Owner/CTO: run the dev server once and look at /preview/mobi in Night and Day (mid-motion never visually checked, only still poses via headless render); landing Mascot/PipGuide raster still to port; merge web/mobi-1015 after review.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

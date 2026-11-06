@@ -1,0 +1,27 @@
+{
+  "kind": "authored_w2_expert_pass",
+  "batch": "english__v3",
+  "subject": "english",
+  "date": "2026-10-14",
+  "scope": "accepted=true questions in docs/brain/reports/authored-w2/wave2-acceptance-2026-10-14.json for english__v3 (16 of 20). The 4 non-accepted questions (3b561c52, c5b1ae7c, 30e565c0, 8b86cb14) are not reviewed here.",
+  "repaired_file": "tmp/authored-w2/english/english__v3.json",
+  "counts": {"ready": 15, "repaired": 1, "practice": 0, "reject": 0},
+  "verdicts": [
+    {"id": "26707a19-3d7b-49f3-8b26-2de25e53a06d", "verdict": "ready", "why": "Synonym of sanguine is optimistic (key A, unchanged). Distractors are the antonym and two unrelated temper or energy words. Unique key."},
+    {"id": "e61683bd-48e7-4b55-af5f-4a258b71f13d", "verdict": "ready", "why": "Synonym of scrupulous is meticulous (key B, unchanged). Careless is the antonym. Unique key."},
+    {"id": "6277710e-49ef-44b3-8b99-c9b740be056f", "verdict": "ready", "why": "Antonym of ephemeral is perpetual (key C, unchanged). The other three options are near-synonyms. Unique key."},
+    {"id": "aad6e033-fbdd-4cb2-9502-682cc1a6c66b", "verdict": "ready", "why": "Antonym of loquacious is taciturn (key D, unchanged). Verbose, garrulous and effusive all mean talkative. Unique key."},
+    {"id": "ac18327a-64ba-4967-afba-533b6d52d969", "verdict": "ready", "why": "Idiom throw in the towel means give up or surrender (key D, unchanged). Distractors are literal misreadings. Unique key."},
+    {"id": "7add3e4c-1dc1-4d82-9284-42a27b6e7d66", "verdict": "ready", "why": "One-word substitution for a writer of another person's life story is biographer (key A, unchanged). Autobiographer is a fair trap. Unique key."},
+    {"id": "0bc7e3fd-ca5f-4abb-8058-b2df046889e4", "verdict": "ready", "why": "Ratify fits formal approval of an amendment (key B, unchanged). Abrogate and revoke reverse the sense and adjourn does not fit. Unique key."},
+    {"id": "b4463536-61eb-4f36-a1e8-443ce9d683f1", "verdict": "repaired", "why": "Key D (of) is correct and unique. The explanation said incapable of is always followed by a gerund, which overclaims because nouns can also follow it. Narrowed to a claim about this sentence.", "repair": "Explanation changed from 'The expression incapable of is always followed by a gerund such as telling.' to 'The expression incapable of is followed by a gerund here, as in telling.' Key, stem and options unchanged."},
+    {"id": "23d1a6d9-b3f1-45be-8c34-e137f593a9cf", "verdict": "ready", "why": "Reported speech shifts present perfect to past perfect, so had (key C, unchanged) is required. Has keeps the tense, and was and having do not fit. Unique key."},
+    {"id": "52668c11-c6a1-4040-bbc8-d278d345c49f", "verdict": "ready", "why": "All four idiom meanings check out: beat about the bush (II), break the ice (III), cut corners (IV), hit the sack (I). Key A is the only option with every pair correct."},
+    {"id": "7f92a8a8-a739-4458-81f7-d0877e73e720", "verdict": "ready", "why": "Call off (III), look into (I), put up with (II), carry out (IV). Key C is the only option with every pair correct. Standard CUET phrasal-verb form."},
+    {"id": "9b76313f-15f3-4abf-a848-e9461dd9960a", "verdict": "ready", "why": "Mendacious (III), obsequious (I), pragmatic (II), lethargic (IV). Key D is the only option with every pair correct. Option B fails on the last two pairs as the explanation says."},
+    {"id": "e4b4d635-05ab-4989-8293-47c7613c6fb8", "verdict": "ready", "why": "Reneged on (A-II), lodged (B-IV), brokered (C-I), turned down (D-III). Key B is the only option with every pair correct. Each word fits one sentence only."},
+    {"id": "7e08da35-1f57-4e6f-a8a9-b4a5fc4f5475", "verdict": "ready", "why": "The recent floods have damaged several bridges in the northern districts: B, D, A, C (key B, unchanged). The other orders break the grammar. Unique key."},
+    {"id": "443f8496-3874-4042-81b1-e598caa3b4b0", "verdict": "ready", "why": "The ability to recognise faces is linked to a specific region of the brain: C, D, B, A (key B, unchanged). Only key B yields a grammatical sentence."},
+    {"id": "e6d38f6b-2bf8-45af-aeab-ba187b71c2fe", "verdict": "ready", "why": "Although the novel was written in the nineteenth century, its themes remain relevant today: C, D, A, B (key A, unchanged). Only key A gives a grammatical order."}
+  ]
+}

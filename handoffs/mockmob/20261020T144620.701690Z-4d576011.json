@@ -1,0 +1,30 @@
+{
+  "id": "20261020T144620.701690Z-4d576011",
+  "observed_at": "2026-10-20T14:46:20.701690+00:00",
+  "agent": "claude-opus-subagent v15-calm review fixer",
+  "task": "v15-calm review fixes (consent promotion, D181 first result per attempt, D181 arming via router, privacy unanswered key, privacy test truth)",
+  "status": "complete",
+  "done": "Commit 555d8e45f on ui/1020-v15-calm (wt-1020-v15-calm). setAnalyticsAllowed never changes the age band and refuses turn-on for minor or unanswered; after-sign-in switch is shown from the account's consent; Pro row first result decided per attempt id (first_result pref) and only counted when its route is current; returns to Today counted by a router listener (ShellPlace) in the controller; privacy unanswered key \"Answer the age question\".",
+  "next": "Orchestrator: merge with the parallel upgrade-sheet/save-step worktree; website must accept unknown+allowed.",
+  "blockers": [],
+  "evidence": [
+    "flutter analyze: No issues found",
+    "test/unit/pro_nudge 92 pass",
+    "onboarding+you+core_data+core_auth+billing 1402 pass",
+    "core/router+core_ui+native_touches+result+practice 1481 pass",
+    "goldens: only known onboarding drift fails plus privacy_unanswered x4 regenerated"
+  ],
+  "touched_files": [
+    "flutter_app/lib/core/repositories/consent_repository.dart",
+    "flutter_app/lib/core/router/router.dart",
+    "flutter_app/lib/core/router/app_shell.dart",
+    "flutter_app/lib/features/onboarding/screens/after_sign_in_sheet.dart",
+    "flutter_app/lib/features/pro_nudge/data/*",
+    "flutter_app/lib/features/pro_nudge/widgets/pro_nudge_row.dart",
+    "flutter_app/lib/features/you/copy.dart",
+    "flutter_app/lib/features/you/privacy/privacy_screen.dart"
+  ],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

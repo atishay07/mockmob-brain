@@ -1,0 +1,18 @@
+{
+  "id": "20261014T090726.682431Z-92b624b9",
+  "observed_at": "2026-10-14T09:07:26.682431+00:00",
+  "agent": "claude-opus-5.5 session cc0bf1af",
+  "task": "App phases 1-4, NTA follow-ups, web Phase 2, question wave 2, art",
+  "status": "active",
+  "done": "mockmob-next 7e80faf: Phase 1A of the blitz merge (unit failures fixed; 45 unwired items wired: subject emblems everywhere, Mobi nudge/encourage/proud/loading/listen, entrances, count-ups, skeleton shimmer, dock breathing, page transitions; R6 late-night 11 PM-5 AM, U1 'Round 1 minimum, 2026', U2 plain category words, U3 10-minute Start repair; raster subject objects and Lucide glyph retired, -741 KiB). Findings: Today's entrance used to rebuild widget trees on landing (fixed in TodayEnter); SubjectEmblem idle loop hangs pumpAndSettle (core added a test switch). Question wave 2 authored and verified (24 batches, 263 Haiku agents) in mockmob-hotfix/tmp/authored-w2.",
+  "next": "Running: wf_eadb33e8-cff Phase 1B (cross-area items from tmp/phase1-cross-area.md, one golden regen with before images in tmp/golden-old3, 16 Sonnet area design reviewers + fixers, Opus stabiliser to full green); wave-2 acceptance agent (docs/brain/reports/authored-w2); art final set agent (tmp/art-explore/final); NTA follow-up agent on deploy/nta-r5; web Phase 2 wf_bcd47b4b-528. Then art integration, Phase 2 emulator walkthrough with motion frame captures (3 GB AVD), Phase 3 release APK.",
+  "blockers": [],
+  "evidence": [
+    "mockmob-next 7e80faf",
+    "tmp/phase1-cross-area.md"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

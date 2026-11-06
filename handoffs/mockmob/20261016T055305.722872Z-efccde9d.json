@@ -1,0 +1,38 @@
+{
+  "id": "20261016T055305.722872Z-efccde9d",
+  "observed_at": "2026-10-16T05:53:05.722872+00:00",
+  "agent": "claude-w1-web-mobi-moments",
+  "task": "W1: Mobi at real moments on the website (wt-polish, deploy/batch-1016c)",
+  "status": "complete",
+  "done": "Committed 1217aeb6 on deploy/batch-1016c. Audit of all arena screens (no two Mobis in view anywhere; gaps were moments with no reaction). Added src/lib/mobiScreens.js (moments map + pure rules), MomentMobi slot; Revise answer/retired/end/empty/failed Mobi; Rule book nod on confirmed choice, rest when empty, FailedMobi; result Lab RuleCheck kept proud / not kept encourage only when hero off screen; Today proud once per week on met goal (shared mm:rhythm-cheer key) with 'Week goal met: N of M study days.'; ArenaCompanion once acts wait until in view; recovery journey calm empty/error figures. Fixed broken wt-polish node_modules junction (pointed at C:\\C:\\...). Dev server on 3180 left running.",
+  "next": "Open: Rival result reveal has no Mobi; Contribute save nod; Reduce motion makes companion non-reaction acts report done at once (MobiReact rig owner); fold Today's extra /api/me/rhythm GET into RhythmCard once W2 is done there. Not pushed or deployed.",
+  "blockers": [],
+  "evidence": [
+    "commit 1217aeb6",
+    "mobi_moments 23 pass (9 new)",
+    "test:app 337 pass",
+    "test:learning 277 pass",
+    "test:recovery 281 pass",
+    "eslint clean on touched files",
+    "captures 390x844 and 1440x900 Night/Day with real CDP pointer clicks"
+  ],
+  "touched_files": [
+    "src/lib/mobiScreens.js",
+    "src/components/brand/MomentMobi.jsx",
+    "src/components/brand/moment-mobi.css",
+    "src/components/brand/ArenaCompanion.jsx",
+    "src/components/revise/ReviseRun.jsx",
+    "src/components/revise/revise.css",
+    "src/components/rules/RuleBook.jsx",
+    "src/components/result/RuleCheck.jsx",
+    "src/app/(app)/today/page.jsx",
+    "src/app/(app)/recovery/page.jsx",
+    "src/components/LearningNextAction.jsx",
+    "data/tests/mobi_moments.test.mjs",
+    "docs/design-decisions/web-mobi-moments-1016.md",
+    "docs/design-decisions/captures-web-mobi-1016/"
+  ],
+  "verification": "Headless Chrome over CDP against /preview/arena on port 3180; acts sampled live (Revise cards correct x3 then proud; end cheer for 4/4; rules nod after confirm; Today proud when scrolled into view); reduced motion shows still pose (data-live=false); no horizontal overflow.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>One gesture, one step (LK69 prototype)</title>
+<!-- A test bench, not product code: the landing's ScrollStory geometry (scroll-story.css: a sticky 100svh stage in a
+     track of 100svh + steps x beat, invisible beats read by an IntersectionObserver at the window's middle) with the
+     proposed touch controller and edge latches. Query: ?ctrl=0 turns the controller off (today's free scroll),
+     ?latch=0 turns the edge latches off. -->
+<style>
+  :root { color-scheme: dark; --nav: 61px; }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: #0e120c; color: #eef0ea; font: 16px/1.4 system-ui, sans-serif; }
+  nav { position: fixed; inset: 0 0 auto; height: var(--nav); background: #0e120cee; border-bottom: 1px solid #2a3326; z-index: 5; display: flex; align-items: center; padding: 0 16px; font-weight: 800; }
+  .filler { padding: 90px 16px; min-height: 1400px; border-top: 1px solid #2a3326; }
+  .filler p { max-width: 30ch; color: #aab4a2; }
+  /* scroll-story.css, as on the landing */
+  .ss { --ss-beat: 72svh; --ss-gap: calc(var(--ss-steps) * var(--ss-beat) / max(1, var(--ss-steps) - 1)); position: relative; }
+  .ss__track { position: relative; height: calc(100svh + var(--ss-steps) * var(--ss-beat)); }
+  .ss__stage { position: sticky; top: 0; height: 100svh; padding: calc(var(--nav) + 12px) 16px 16px; display: grid; grid-template-rows: auto auto 1fr; gap: 14px; }
+  .ss__beat { position: absolute; left: 0; width: 1px; top: calc(50svh + (var(--i) - 0.5) * var(--ss-gap)); height: var(--ss-gap); pointer-events: none; }
+  .ss__beat[data-edge='first'] { top: 0; height: calc(50svh + 0.5 * var(--ss-gap)); }
+  .ss__beat[data-edge='last'] { height: calc(50svh + 0.5 * var(--ss-gap)); }
+  .protoA { --ss-beat: 76svh; }
+  .protoB { --ss-beat: 58svh; }
+  /* Step-driven (never scroll-driven) progress: each fill animates in time when its step comes on. */
+  .bar { display: grid; grid-auto-flow: column; gap: 6px; }
+  .bar i { display: block; height: 4px; background: #2a3326; border-radius: 2px; overflow: hidden; }
+  .bar i b { display: block; height: 100%; background: #c6f432; transform: scaleX(0); transform-origin: left; transition: transform 420ms cubic-bezier(.2,.8,.2,1); }
+  .bar i[data-state='on'] b, .bar i[data-state='done'] b { transform: scaleX(1); }
+  .slides { position: relative; display: grid; }
+  .slide { grid-area: 1 / 1; display: grid; place-items: center; border: 1px solid #2a3326; border-radius: 22px; background: #151b12; font: 800 64px/1 system-ui; opacity: 0; transform: translate3d(0, 1rem, 0); transition: opacity 240ms ease, transform 420ms cubic-bezier(.2,.8,.2,1); }
+  .slide[data-on='true'] { opacity: 1; transform: none; }
+  .slide[data-past='true'] { transform: translate3d(0, -1rem, 0); }
+  @media (prefers-reduced-motion: reduce) { .slide, .bar i b { transition-duration: 120ms; transform: none !important; } }
+  /* Edge latches (touch only): a fling cannot pass a story's first or last resting place. */
+  .ss__latch { position: absolute; left: 0; width: 1px; height: 1px; pointer-events: none; }
+  .ss__latch--start { top: 0; }
+  .ss__latch--end { bottom: 0; }
+  @media (pointer: coarse) {
+    html.latch { scroll-snap-type: y proximity; }
+    html.latch .ss__latch--start { scroll-snap-align: start; scroll-snap-stop: always; }
+    html.latch .ss__latch--end { scroll-snap-align: end; scroll-snap-stop: always; }
+  }
+</style>
+</head>
+<body>
+<nav>prototype · one gesture, one step</nav>
+<section class="filler"><h1>Hero (free scroll)</h1><p>Normal page scroll above the held stories.</p></section>
+<div class="ss protoA" data-steps="4" style="--ss-steps:4"><div class="ss__track"></div></div>
+<section class="filler"><h2>Between (free scroll)</h2><p>Normal page scroll between the stories.</p></section>
+<div class="ss protoB" data-steps="10" style="--ss-steps:10"><div class="ss__track"></div></div>
+<section class="filler"><h2>After (free scroll)</h2><p>Normal page scroll after the stories.</p></section>
+<section class="filler"><h2>Footer</h2></section>
+<script>
+const q = new URLSearchParams(location.search);
+const CTRL = q.get('ctrl') !== '0';
+if (q.get('latch') !== '0') document.documentElement.classList.add('latch');
+
+// Build the stories (stage, beats, latches).
+const stories = [...document.querySelectorAll('.ss')].map((root) => {
+  const steps = Number(root.dataset.steps);
+  const track = root.querySelector('.ss__track');
+  track.innerHTML = `<div class="ss__stage"><div class="bar">${'<i><b></b></i>'.repeat(steps)}</div><p class="cap"></p><div class="slides">${Array.from({ length: steps }, (_, i) => `<div class="slide" data-on="${i === 0}">${i + 1}</div>`).join('')}</div></div>`
+    + Array.from({ length: steps }, (_, i) => `<span class="ss__beat" data-beat="${i}" ${i === 0 ? 'data-edge="first"' : i === steps - 1 ? 'data-edge="last"' : ''} style="--i:${i}"></span>`).join('')
+    + '<i class="ss__latch ss__latch--start"></i><i class="ss__latch ss__latch--end"></i>';
+  return { root, track, stage: track.querySelector('.ss__stage'), steps, step: 0, top: 0, hold: 0 };
+});
+function show(s, n) {
+  s.step = n; s.root.dataset.step = n;
+  s.track.querySelectorAll('.slide').forEach((el, i) => { el.dataset.on = String(i === n); el.dataset.past = String(i < n); });
+  s.track.querySelectorAll('.bar i').forEach((el, i) => { el.dataset.state = i < n ? 'done' : i === n ? 'on' : 'off'; });
+  s.track.querySelector('.cap').textContent = `${s.root.className.split(' ')[1]}: step ${n + 1} of ${s.steps}`;
+}
+stories.forEach((s) => show(s, 0));
+
+// Geometry cached once per resize: the hot path reads only scrollY.
+function measure() { for (const s of stories) { const r = s.track.getBoundingClientRect(); s.top = Math.round(r.top + scrollY); s.hold = s.track.offsetHeight - s.stage.offsetHeight; } }
+measure();
+new ResizeObserver(measure).observe(document.body);
+const rest = (s, k) => Math.round(s.top + (s.hold * k) / (s.steps - 1));
+const holding = () => { const y = scrollY; return stories.find((s) => y >= s.top - 2 && y <= s.top + s.hold + 2) || null; };
+
+// The beats (as ScrollStory today): a native scroll (desktop wheel, keys, scrollbar, a fling from outside) still sets the step.
+const io = new IntersectionObserver((entries) => {
+  for (const e of entries) if (e.isIntersecting) { const s = stories.find((x) => x.track.contains(e.target)); const i = Number(e.target.dataset.beat); if (s.step !== i) show(s, i); }
+}, { rootMargin: '-50% 0px -50% 0px', threshold: 0 });
+document.querySelectorAll('.ss__beat').forEach((b) => io.observe(b));
+
+// The proposed controller: touch only. One touch sequence (touchstart..touchend) = at most one step, whatever its speed.
+const SLOP = 8;        // px before a direction is chosen; under it the page waits (held) or it is a tap
+const TRIGGER = 32;    // px of finger travel that fires the step during the move
+const FLICK_PX = 12;   // a shorter flick still fires at release ...
+const FLICK_V = 0.3;   // ... when it leaves the glass at 0.3 px/ms or faster (last 80 ms)
+const LOCK_MS = 420;   // the swap's own duration: a gesture begun inside it is swallowed (never a queued second step)
+let g = null; let busyUntil = 0;
+const velocity = (samples) => { const last = samples[samples.length - 1]; const from = samples.find((p) => last.t - p.t <= 80) || samples[0]; const dt = last.t - from.t; return dt > 0 ? (last.y - from.y) / dt : 0; };
+function fire(s, dir) {
+  const next = Math.max(0, Math.min(s.steps - 1, s.step + dir));
+  if (next === s.step) return;
+  show(s, next);
+  window.scrollTo({ top: rest(s, next), behavior: 'instant' }); // invisible: the stage is sticky; only its content swaps
+  busyUntil = performance.now() + LOCK_MS;
+}
+if (CTRL) {
+  addEventListener('touchstart', (e) => {
+    if (e.touches.length !== 1) { g = null; return; }
+    const p = e.touches[0];
+    g = { x: p.clientX, y: p.clientY, story: holding(), claim: undefined, fired: false, dir: 0, samples: [{ t: e.timeStamp, y: p.clientY }] };
+  }, { passive: true });
+  addEventListener('touchmove', (e) => {
+    if (!g) return;
+    if (e.touches.length !== 1) { g = null; return; }
+    const p = e.touches[0]; const dx = p.clientX - g.x; const dy = p.clientY - g.y;
+    g.samples.push({ t: e.timeStamp, y: p.clientY }); if (g.samples.length > 10) g.samples.shift();
+    if (g.claim === undefined) {
+      if (!g.story) { g.claim = false; return; }
+      if (Math.max(Math.abs(dx), Math.abs(dy)) < SLOP) { if (e.cancelable) e.preventDefault(); return; }
+      const dir = dy < 0 ? 1 : -1;
+      if (Math.abs(dx) > Math.abs(dy)) g.claim = false;                       // sideways: chips, reels
+      else if (performance.now() < busyUntil) g.claim = 'spent';              // inside the lock: swallowed
+      else if ((dir > 0 && g.story.step >= g.story.steps - 1) || (dir < 0 && g.story.step <= 0)) g.claim = false; // the way out: native
+      else { g.claim = true; g.dir = dir; }
+    }
+    if (!g.claim) return;
+    if (e.cancelable) e.preventDefault();
+    if (g.claim === true && !g.fired && -dy * g.dir >= TRIGGER) { g.fired = true; fire(g.story, g.dir); }
+  }, { passive: false });
+  const end = () => {
+    if (!g) return; const s = g; g = null;
+    if (s.claim !== true || s.fired) return;
+    const dy = s.samples[s.samples.length - 1].y - s.y; const v = velocity(s.samples);
+    if (-dy * s.dir >= FLICK_PX && -v * s.dir >= FLICK_V) fire(s.story, s.dir);
+  };
+  addEventListener('touchend', end, { passive: true });
+  addEventListener('touchcancel', () => { g = null; }, { passive: true });
+}
+</script>
+</body>
+</html>

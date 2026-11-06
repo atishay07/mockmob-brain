@@ -1,0 +1,30 @@
+{
+  "id": "20261016T094842.679989Z-1fd6d5a5",
+  "observed_at": "2026-10-16T09:48:42.683555+00:00",
+  "agent": "claude-code subagent (wt-w2h)",
+  "task": "Web Rival result reveal: one Mobi moment (branch web/rival-mobi-1016)",
+  "status": "complete",
+  "done": "Resumed the crashed run's partial edits and committed c1ff52e9 on web/rival-mobi-1016. The reveal order is score (0 ms), comparison (320 ms), Mobi (760 ms), next move (1060 ms). Each part takes 280 ms on the ease-out curve as a CSS transition. A tap or key lands all parts at once. Parts not yet shown are inert. Reduce motion shows a still frame. Mobi acts: win cheer (nod under Quiet, still under Off), loss encourage, tie tilt. Each plays once, then he stands still with no loop. Night is pinned because the Rival console is a dark island in Day too. The accuracy note shows its denominator. Preview: /preview/arena?view=rival&battle=win|loss|tie. DESIGN_DECISIONS note added.",
+  "next": "Batch gate: headless visual check of /preview/arena?view=rival&battle=win|loss|tie at 390x844 and 1440x900, Night and Day, with frames during the reveal. The script is in the scratchpad (reveal-shots.mjs; playwright-core from the codex runtime plus system Chrome). Separately, the Rival shell's ALL-CAPS mono 'Daily pressure loop' pill is still there.",
+  "blockers": [
+    "Visual check not done because of RAM; left to the batch gate"
+  ],
+  "evidence": [
+    "commit c1ff52e9",
+    "node --test rival_reveal, rival_submission, mobi_rig, mobi_moments: 40/40",
+    "npm run test:learning: 307/307",
+    "eslint on changed files clean"
+  ],
+  "touched_files": [
+    "src/components/ai/AIRivalArena.jsx",
+    "src/components/ai/rivalReveal.mjs",
+    "src/components/ai/rival-reveal.css",
+    "data/tests/rival_reveal.test.mjs",
+    "src/app/preview/arena/ArenaPreviewClient.jsx",
+    "package.json",
+    "docs/design-decisions/web-rival-mobi-1016.md"
+  ],
+  "verification": "Unit tests and lint pass. No visual check: the dev server on port 3190 started with 3.1 GB free, but free RAM fell below 1 GB while /preview/arena compiled, and headless Chrome closed, so I stopped the server (port released).",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

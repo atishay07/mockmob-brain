@@ -1,0 +1,15 @@
+{
+  "id": "20261022T052221.617820Z-e1e820da",
+  "observed_at": "2026-10-22T05:22:21.617820+00:00",
+  "agent": "claude-opus-5.5 session 7a597d08 (promo film orchestrator)",
+  "task": "MockMob launch film v7 final (3D Mobi host) rendered, mastered and sent",
+  "status": "active",
+  "done": "Resumed the stalled v7 at 3:20 am; relaunched sound, Unlimited, exam day, problem/end fixes, face r2, prod kit and five 3D host animators; fix rounds; candidate critics (internal: owner 80, craft 74, sound 74, truth 88); final fix round; final render CRF 10 slow, master, phone copy; sent about 10:52 am (3 h late).",
+  "next": "Owner notes go to docs/OWNER-LEDGER.md and a v7.1. Pending at send: unlimited+findfix host fix/check and logo recheck (wf_5bb4529d-c2a); a thin dark seam at the whip into unlimited (about 27.75 s). Later: 9:16 cut, explainer; paid ElevenLabs audio before paid ads; Remotion licence headcount.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [],
+  "verification": "Master -13.9 LUFS, TP -2.0 dBFS, 63.9 s 1080p60; check_av worst VO offset 1 ms; tsc clean; timeline 0 warnings.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,109 @@
+{
+  "batch": "geography__b1",
+  "subject": "geography",
+  "pass": "expert, wave 2",
+  "scope": "accepted=true questions only (19 of 20); 5522c6a5-e81d-4439-ad79-50a26642271c is rejected upstream (fit median 6) and is not reviewed",
+  "verdicts": [
+    {
+      "id": "e7eb2bca-eaa3-48f9-bebf-1998db117d92",
+      "verdict": "ready",
+      "why": "Key A is correct: environmental determinism holds that the environment sets limits on human action. Distractors are clearly from other concepts (possibilism is the contrast, the other two are method concepts). Stem and explanation are sound."
+    },
+    {
+      "id": "b6d23a37-de5f-4ecd-aa68-6a1663edd2b6",
+      "verdict": "ready",
+      "why": "Natural growth rate = CBR minus CDR = 21 per 1,000 = 2.1%. Net migration is correctly excluded. Distractor 2.3% (total growth) and 0.21% (decimal slip) are plausible and wrong."
+    },
+    {
+      "id": "4e27ea47-76be-4af9-b5dd-77b000253b42",
+      "verdict": "ready",
+      "why": "Stage II is the high birth, falling death, rapid growth stage of the DTM. Stage I and III and IV descriptions in the explanation are accurate."
+    },
+    {
+      "id": "f92f3699-2f61-4c22-a11e-cf947bc020c9",
+      "verdict": "ready",
+      "why": "Physiological density 480 over arithmetic 120 gives arable land equal to one-quarter of total area, so key A is correct. Option B is the reverse reading and is clearly wrong."
+    },
+    {
+      "id": "5aa61571-c798-4e5e-8b1b-89f3f4d8378b",
+      "verdict": "ready",
+      "why": "Drought and crop failure are classic push factors at the origin. The three other options are destination-side pull factors. Key C is unique."
+    },
+    {
+      "id": "8b40da05-e62e-4112-b9e3-9320246384ca",
+      "verdict": "ready",
+      "why": "HDI has three components: life expectancy, education and income (GNI per capita at PPP). Infant mortality is not a component. Key D is correct and unique."
+    },
+    {
+      "id": "fdbdd72a-aa89-4f36-b2ff-bd69aae539af",
+      "verdict": "repaired",
+      "why": "Key C (52.5 years) is correct: 0.50 = (LE minus 20) / 65 gives LE = 52.5. The explanation wrongly attributed 62.5 to forgetting to subtract the minimum; 62.5 comes from dividing by the maximum 85 instead of the range 65. Explanation corrected to attribute 42.5 (multiply by maximum, skip minimum) and 62.5 (divide by 85) correctly. Key and options unchanged.",
+      "repair": "Explanation rewritten to correct the attribution of the distractors 42.5 and 62.5. Key C unchanged."
+    },
+    {
+      "id": "e32b79ff-4e21-40bd-bea9-9cece01ffa68",
+      "verdict": "ready",
+      "why": "HDI 0.72 falls in the UNDP high band (0.700 to 0.799). Band boundaries in the explanation match UNDP classes. Key D is unique."
+    },
+    {
+      "id": "ad34719d-44fc-49cc-bbbb-b649adaf32dd",
+      "verdict": "practice",
+      "why": "Key B is correct under the current UNDP method: (A), (B) and (C) are true and (D) is false. But the geometric-mean aggregation dates from the 2010 methodology change and is not in the NCERT Class 12 text, so the item tests knowledge beyond the CUET syllabus. Kept as practice."
+    },
+    {
+      "id": "a1a985d8-c58d-4586-8e62-91999fa88b46",
+      "verdict": "ready",
+      "why": "2011 Census literacy: Kerala 93.91, Mizoram 91.58, Himachal Pradesh 83.78, Bihar 61.80. Order (C), (D), (A), (B) is correct, and each distractor is a plausible wrong order. Options are balanced in length."
+    },
+    {
+      "id": "12a442fa-6cee-441a-9d44-24964d13d688",
+      "verdict": "ready",
+      "why": "Jhum (North-eastern India), Milpa (Central America), Ladang (Malaysia), Conuco (Venezuela). Key B is the only option that matches all four pairs. Terms are in NCERT Ch 5."
+    },
+    {
+      "id": "694a21d0-314c-4fa4-a036-b52baef85d12",
+      "verdict": "ready",
+      "why": "Commercial grain farming and plantation agriculture are correctly described in (A) and (C). Shifting cultivation is subsistence, not commercial, and uses no chemical fertiliser, so (B) is false. Key A is unique."
+    },
+    {
+      "id": "524da815-d899-4ece-8c8e-1877ba78d84c",
+      "verdict": "ready",
+      "why": "Fishing, mining and forestry are primary. Pottery making is manufacturing (secondary). Key C is unique and matches NCERT Ch 5 classification."
+    },
+    {
+      "id": "ff6a9f3a-7ddd-4738-a651-24069d405c10",
+      "verdict": "ready",
+      "why": "Soft drink bottling adds water, a ubiquitous input, so it is weight-gaining. Iron ore smelting and sugar refining are weight-losing; electronic goods assembly is footloose. Key C is unique."
+    },
+    {
+      "id": "e614bf7c-e905-495a-860c-5e445124e0d0",
+      "verdict": "ready",
+      "why": "Footloose: electronic goods assembly (IV). Cottage: hand-loom weaving (III). Weight-losing: iron ore smelting (II). Large-scale: automobile assembly plant (I). Key B is the only option matching all four."
+    },
+    {
+      "id": "e3457ff7-533e-40c6-b29c-1c5634b4f888",
+      "verdict": "ready",
+      "why": "R&D is the textbook quaternary (knowledge-based) activity. Retail and road transport are tertiary; coal mining is primary. Key A is unique."
+    },
+    {
+      "id": "f5ceaadd-0e02-4556-978e-5690c51b638b",
+      "verdict": "ready",
+      "why": "Decreasing direct dependence on natural resources follows the standard sequence primary, secondary, tertiary, quaternary, giving (B), (D), (A), (C). Key D is the only option in that order. Stem is clear enough for the sequence."
+    },
+    {
+      "id": "aa03d13c-d893-4772-bdcb-5b16892ddf37",
+      "verdict": "ready",
+      "why": "Banking, insurance and tourism are tertiary, so (A) and (C) are correct. Cattle rearing is primary and iron ore smelting is secondary, so (B) and (D) are false. Key B is unique."
+    },
+    {
+      "id": "ba4a2cf9-4f58-4c95-ad3e-1e1e383ac602",
+      "verdict": "ready",
+      "why": "A bakery transforms raw materials into a finished good, so it is secondary. Selling to residents does not make it tertiary. Key D is correct and the stem is unambiguous."
+    }
+  ],
+  "counts": {
+    "ready": 17,
+    "repaired": 1,
+    "practice": 1
+  }
+}

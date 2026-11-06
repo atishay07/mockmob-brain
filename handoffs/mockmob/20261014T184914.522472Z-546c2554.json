@@ -1,0 +1,22 @@
+{
+  "id": "20261014T184914.522472Z-546c2554",
+  "observed_at": "2026-10-14T18:49:14.522472+00:00",
+  "agent": "claude-opus-5.5 (session cc0bf1af, account support@mockmob.in)",
+  "task": "15 Oct 00:25 IST: repair deployed, wave 2 published, app round 2 finishing",
+  "status": "active",
+  "done": "**Production (owner approved each step in chat):**\n- Repair reliability fixes deployed: main 79a013d5, then c25bfef7 (publish records).\n- Haiku 5.5 price row migration applied (20261014183050).\n- Authored wave 2 published: 382 questions plus 1 case set; plan 73b63070. Restore file: docs/brain/reports/authored-publish/authored-publish-restore-2026-10-14T18-48-05-150Z.json.\n- Decisions log: the owner granted standing database authority (Supabase MCP connected) and enabled bypass permissions.\n\n**Diagnosis:**\n- Since the Luna-only deploy (5 Oct), repairs failed before any model call. The guard and budget are fine.\n- The cause is in the Vercel env (OPENAI_API_KEY or AI_REPAIR_MODEL). Unconfirmed: the Vercel MCP returns 403 for scope atishay07s-projects.\n- There are 6 Vercel projects named mockmob* (mockmob, mockmob-1uhb, -mmzs, -pf37, -nxud, -sjsj). They may all build each push and burn Hobby limits.\n\n**App:**\n- Round 2 wf_113e84d6-978: 4 of 5 fixers done; audit+onboarding is still running, then check-2.\n- A Sonnet agent is fixing the repair client on both sides: web in wt-repair (not pushed), app in wt-phase2 review.",
+  "next": "1. When round 2 and check-2 are done:\n   - commit on ui/phase2;\n   - profile demo build; record and send;\n   - merge into feat/app-and-web;\n   - run the full suite;\n   - build the release APK (mockmob-next, prod.json).\n2. When the repair client agent is done: push the wt-repair web commit to main (the owner allowed repair deploys). Commit the app part.\n3. Vercel: the owner re-authorizes the connector for scope atishay07s-projects. Then check the Production env (OPENAI_API_KEY, ANTHROPIC_API_KEY, AI_REPAIR_MODEL), deployments and logs. Ask about removing the duplicate projects.\n4. Later:\n   - Repair v2 (richer paid repair, audit section 5), with web and app parity.\n   - Regenerate 4 subject renders (Accountancy, Computer Science, Business Studies, Languages) for the owner to pick.",
+  "blockers": [
+    "Vercel connector 403 for scope atishay07s-projects (owner must re-authorize)"
+  ],
+  "evidence": [
+    "origin/main c25bfef7",
+    "supabase migration 20261014183050",
+    "authored-publish-restore-2026-10-14T18-48-05-150Z.json",
+    "wf_113e84d6-978 journal"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

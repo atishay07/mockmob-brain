@@ -1,0 +1,29 @@
+{
+  "id": "20261031T000523.785533Z-b67423c3",
+  "observed_at": "2026-10-31T00:05:23.785533+00:00",
+  "agent": "claude-opus-5.5 session 16f96fa8",
+  "task": "Key cards + intelligence layer: built end to end on branches; waiting for the owner's look",
+  "status": "paused",
+  "done": "web/1031-keycards 90fddb40d (wt-1031-keycards-web) = syllabus v2 + Key cards server + web screens + polish (no middle dots, NCERT ellipsis) + 5,721 published NCERT cards (acc 863, bs 875, econ 1184, bio 1392, polsci 1089, english 318; 137 quarantined) + 1,632 question links + re-tag file (85 re-tagged, 440 leave pools). Validator gained pdfium second extraction, front_dangling check, long running-head strip, syllabus-named decks, -text gitattributes. App ui/1031-keycards bb4da376b done (Revise entry for cards-only, Free line gate). Handoff docs/brain/HANDOFF-2026-10-31-KEYCARDS-2.md + NOW + prompt on feat/app-and-web 26264e1a5.",
+  "next": "1. Owner sees web shots (wt-1031-kc-ui/tmp/walk-1031/web) and app goldens; decides KEY_CARDS_ENABLED and the pool shrink (Biology -18%, Chemistry -15%, CS -14%). 2. Real-deck web preview mode + shots. 3. Production: dry-run + apply syllabus_v2 (with retag) and key_cards migrations, undo saved, pool check, merge to main, deploy flag off. 4. App v17 emulator demo walk then build. 5. Content follow-ups: 5 suspect answer keys (accountancy 2370d28b, b29a66fb, 01dc09dc, 577f9005, d0e86513), live-question chapter re-tag, English links, question fill (USD 500 key).",
+  "blockers": [
+    "Owner must see the screens before KEY_CARDS_ENABLED is turned on",
+    "Owner should accept the question-pool shrink before the syllabus v2 migration"
+  ],
+  "evidence": [
+    "Integration suites: keycards 42, keycards-ui 10, syllabus 22, nta 229, subjects 60, learning 357, today 120, egress 101, recovery 637, study 61/62 (WordNet licence, fails on base too); lint clean; next build --webpack passes",
+    "loadDecks: 6 subjects, 5,721 cards, none disabled; links 1,632",
+    "Re-tag table docs/brain/intel-1031/RETAG-2026-10-31.md",
+    "App: analyze clean; unit keycards 55, golden keycards 42, learn/review unit+golden pass"
+  ],
+  "touched_files": [
+    "wt-1031-keycards-web (web/1031-keycards)",
+    "wt-1031-keycards-app (ui/1031-keycards)",
+    "wt-1031-kc-ui (web/1031-kc-ui)",
+    "ncert-books/drafts, reviews, fixlists, links, *-BRIEF-2026-10-31.md",
+    "mockmob-next docs/brain HANDOFF-2026-10-31-KEYCARDS-2.md, NOW.md, PROMPT-NEXT-SESSION-2026-10-31.md"
+  ],
+  "verification": "Every published card passed machine checks 1-5 and an independent review. Production was read only (re-tag and links). Nothing pushed, deployed or written to production. Build folders removed; no leftover node/dart/flutter processes.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

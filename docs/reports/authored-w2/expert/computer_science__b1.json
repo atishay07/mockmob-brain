@@ -1,0 +1,115 @@
+{
+  "batch": "computer_science__b1",
+  "subject": "computer_science",
+  "pass": "expert-wave2",
+  "reviewer": "Haiku 5.5 expert pass",
+  "accepted_count": 20,
+  "counts": {
+    "ready": 19,
+    "repaired": 1,
+    "practice": 0,
+    "reject": 0
+  },
+  "verdicts": [
+    {
+      "id": "11448e97-cc49-44a6-bdc2-8d2099a05f1d",
+      "verdict": "ready",
+      "why": "Degree 5 and cardinality 8 are read directly; B swaps the terms and C/D are the sum and product distractors."
+    },
+    {
+      "id": "870158c8-e71a-4092-82c0-9601916b28e2",
+      "verdict": "ready",
+      "why": "DROP TABLE removes structure and data; DELETE, TRUNCATE and ALTER are clearly distinct."
+    },
+    {
+      "id": "34abbb63-2fda-4850-a491-50ba1e837976",
+      "verdict": "ready",
+      "why": "DESCRIBE EMP is the standard command for column names and types; the other options are clearly different commands."
+    },
+    {
+      "id": "ee23240c-4d71-4840-b91e-3c8a8d43984f",
+      "verdict": "ready",
+      "why": "Full mesh of 6 nodes needs n(n-1)/2 = 15 links; 6, 12 and 30 are the standard wrong formulas."
+    },
+    {
+      "id": "5ce0947b-63b0-4007-94b8-672d655c91de",
+      "verdict": "ready",
+      "why": "Only C is false: a table has exactly one primary key, while composite keys (D) are valid."
+    },
+    {
+      "id": "37a84b9a-74ef-413b-8d33-1047dcbc8656",
+      "verdict": "ready",
+      "why": "HR and Sales have 2 rows each and Marketing has 1, so HAVING leaves HR 2 and Sales 2; option C is the HAVING-omitted distractor."
+    },
+    {
+      "id": "a676e4c1-9ef0-4606-9c67-c0dfa89e7f93",
+      "verdict": "ready",
+      "why": "(A) and (C) are true, (B) and (D) false; key B is unique."
+    },
+    {
+      "id": "e2142431-1eb8-4fb3-83a7-ea677a3ae37f",
+      "verdict": "ready",
+      "why": "Hub-III, Repeater-II, Router-I, Switch-IV is the standard mapping; only D matches."
+    },
+    {
+      "id": "cc4ffd23-289c-4651-98ed-6a47619b6636",
+      "verdict": "ready",
+      "why": "LIKE S% is the only pattern-matching condition for names beginning with S."
+    },
+    {
+      "id": "156a0465-c764-4f87-953f-c67bb3aa7831",
+      "verdict": "ready",
+      "why": "Bit < Field < Record < Database gives (B),(D),(C),(A), matching the key."
+    },
+    {
+      "id": "f9debc0f-c921-4e41-b0ab-1816fdd7b143",
+      "verdict": "ready",
+      "why": "After USE school, SHOW TABLES lists the tables; the other options name different commands."
+    },
+    {
+      "id": "d7ea058b-6475-4c93-b139-16a3f96c04ce",
+      "verdict": "ready",
+      "why": "WHERE filters rows before grouping and HAVING filters groups; A reverses them and B is the aggregate-in-WHERE error."
+    },
+    {
+      "id": "93db1f1d-baf8-4e64-9a1f-b6102fd54457",
+      "verdict": "ready",
+      "why": "(A) and (C) true, (B) and (D) false; key B is unique."
+    },
+    {
+      "id": "d493ed4c-5e83-4f21-a4b8-aebbdd36b8a2",
+      "verdict": "ready",
+      "why": "SUM ignores NULL (50) and COUNT(QTY) counts 3 non-NULL values; option A is the COUNT(*) distractor. Judges split on hard vs medium, which affects the label only."
+    },
+    {
+      "id": "32692e63-1787-4b18-a922-ffb324f7946f",
+      "verdict": "ready",
+      "why": "Increasing area is PAN, LAN, MAN, WAN, i.e. (B),(D),(C),(A), matching the key."
+    },
+    {
+      "id": "4b2e5816-6992-4a23-95f1-20a93459c5ee",
+      "verdict": "ready",
+      "why": "int('12a') raises ValueError; the other exceptions are for different errors."
+    },
+    {
+      "id": "8728426d-4bfb-48e6-a509-c74bad994499",
+      "verdict": "ready",
+      "why": "ZeroDivisionError-III, FileNotFoundError-II, IndexError-IV, KeyError-I is the only matching option."
+    },
+    {
+      "id": "8cfc8e96-89de-4cc0-9ac4-707e27e37561",
+      "verdict": "ready",
+      "why": "Append mode keeps Hello and adds World, giving HelloWorld; no newline means no separator is added."
+    },
+    {
+      "id": "28a9c911-fc9f-4f5e-b5ef-3f6691d96974",
+      "verdict": "ready",
+      "why": "read(5) leaves the file position at 5 and tell() reports it; the off-by-one options are distractors."
+    },
+    {
+      "id": "cb5101b5-3bdd-4d79-8337-30667d59a867",
+      "verdict": "repaired",
+      "why": "Key A is correct: f(0) returns -1 after finally prints done, f(4) returns 2 after printing done, and the final print gives -1 2. The stem had no cue that commas separate output lines, which made the options ambiguous. Added that cue to the stem in tmp/authored-w2/computer_science/computer_science__b1.json; key unchanged."
+    }
+  ]
+}

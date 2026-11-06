@@ -1,0 +1,21 @@
+{
+  "id": "20261015T183132.326290Z-ac708010",
+  "observed_at": "2026-10-15T18:31:32.326290+00:00",
+  "agent": "you-app (Q5 builder)",
+  "task": "Q5 You as a real hub (app) and Credits page",
+  "status": "complete",
+  "done": "Credits page /you/credits reading GET /api/me/credits v1 (fixture parsed in Dart test), hub restructured with plan and credits, one-tap Night/Day/Match phone, study days, notifications with times and quiet hours, tappable course/colleges/name, account and privacy with sign out, FAQ in hub and Help. Commit c3a6fe7a on ui/phase2.",
+  "next": "Owner: web parity of credit names; Ask/Repair/Start strings (other owners) to use CreditsCopy names; goal/subjects/delete_recorded goldens differ because of the in-progress Mobi redraw (not mine). No deploy, no production DB work.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "flutter_app/lib/features/credits/**",
+    "flutter_app/lib/features/you/**",
+    "flutter_app/lib/features/account_sheet/**",
+    "flutter_app/lib/core/router/router.dart (one line)",
+    "flutter_app/lib/core/router/routes.dart (youCredits)"
+  ],
+  "verification": "analyze clean on lib and my tests; 235 tests pass in test/unit/you, credits, account_sheet; core/core_ui/platform router suites pass; goldens regenerated and opened.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

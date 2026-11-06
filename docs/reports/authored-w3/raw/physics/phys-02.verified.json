@@ -1,0 +1,831 @@
+{
+  "batch": "phys-02",
+  "subject": "physics",
+  "questions": [
+    {
+      "id": "2686431a-ab28-4bf0-844a-4be4f88f754a",
+      "subject": "physics",
+      "unit": "Electronic Devices",
+      "chapter": "Semiconductor Electronics",
+      "type": "single_mcq",
+      "stem": "At absolute zero temperature, a pure (intrinsic) silicon crystal behaves as:",
+      "options": [
+        {
+          "key": "A",
+          "text": "A conductor"
+        },
+        {
+          "key": "B",
+          "text": "A superconductor"
+        },
+        {
+          "key": "C",
+          "text": "A perfect insulator"
+        },
+        {
+          "key": "D",
+          "text": "An n-type semiconductor"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "At 0 K the valence band of intrinsic silicon is completely filled and the conduction band is empty, so there are no free charge carriers. The crystal therefore acts as a perfect insulator until thermal energy excites electrons across the band gap.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 14 Semiconductor Electronics: Materials, Devices and Simple Circuits, Section 14.3 Intrinsic Semiconductor",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "c9fd89c4-508e-43f3-991f-a7881e54fd72",
+      "subject": "physics",
+      "unit": "Electronic Devices",
+      "chapter": "Semiconductor Electronics",
+      "type": "single_mcq",
+      "stem": "Among a conductor, an intrinsic semiconductor and an insulator, which has the largest forbidden energy gap?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Conductor"
+        },
+        {
+          "key": "B",
+          "text": "Intrinsic semiconductor"
+        },
+        {
+          "key": "C",
+          "text": "Insulator"
+        },
+        {
+          "key": "D",
+          "text": "Conductor and semiconductor are equal"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "In a conductor the valence and conduction bands overlap, so the gap is effectively zero. Semiconductors have a small gap of about 1 eV, while insulators have a wide gap of several eV, which is why they do not conduct at ordinary temperatures.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 14 Semiconductor Electronics: Materials, Devices and Simple Circuits, Section 14.2 Classification of Metals, Conductors and Semiconductors",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "4b294509-bfcb-4828-a8cd-d2513aa29da3",
+      "subject": "physics",
+      "unit": "Electronic Devices",
+      "chapter": "Semiconductor Electronics",
+      "type": "single_mcq",
+      "stem": "A half-wave rectifier is fed from a 60 Hz mains supply. The frequency of the output pulses is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "30 Hz"
+        },
+        {
+          "key": "B",
+          "text": "60 Hz"
+        },
+        {
+          "key": "C",
+          "text": "120 Hz"
+        },
+        {
+          "key": "D",
+          "text": "0 Hz, since the output is pure DC"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "A half-wave rectifier conducts only during the positive half of each cycle, so it produces one output pulse per input cycle. The output pulse frequency therefore equals the input frequency, 60 Hz. A full-wave rectifier would instead give 120 Hz.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 14 Semiconductor Electronics: Materials, Devices and Simple Circuits, Section 14.7 Application of Junction Diode as a Rectifier",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "a5de8f62-b02d-4723-8192-449d5eaa6266",
+      "subject": "physics",
+      "unit": "Electronic Devices",
+      "chapter": "Semiconductor Electronics",
+      "type": "statement_based",
+      "stem": "A Zener diode is used as a voltage regulator. Statement I: A Zener diode is used as a voltage regulator because it operates in reverse breakdown. Statement II: In reverse breakdown, the voltage across the Zener diode stays nearly constant over a wide range of currents.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Both I and II are true, and II is the correct explanation of I"
+        },
+        {
+          "key": "B",
+          "text": "Both I and II are true, but II is not the correct explanation of I"
+        },
+        {
+          "key": "C",
+          "text": "I is true, but II is false"
+        },
+        {
+          "key": "D",
+          "text": "I is false, but II is true"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "A Zener diode is designed to break down sharply at a fixed reverse voltage, and in that region the voltage across it stays almost constant while the current changes. This constant voltage is exactly what makes it useful as a regulator, so statement II explains statement I.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 14 Semiconductor Electronics: Materials, Devices and Simple Circuits, Section 14.8 Special Purpose p-n Junction Diodes",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "363ac2b3-431d-45f1-a7b4-d03bce246584",
+      "subject": "physics",
+      "unit": "Electronic Devices",
+      "chapter": "Semiconductor Electronics",
+      "type": "single_mcq",
+      "stem": "In a solar cell, the electron-hole pairs produced by illumination are separated and driven across the junction mainly by:",
+      "options": [
+        {
+          "key": "A",
+          "text": "The built-in electric field of the depletion region"
+        },
+        {
+          "key": "B",
+          "text": "An external battery connected in reverse bias"
+        },
+        {
+          "key": "C",
+          "text": "Diffusion alone, with no electric field"
+        },
+        {
+          "key": "D",
+          "text": "The Earth's magnetic field"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Light creates electron-hole pairs on both sides of the junction. The built-in electric field across the depletion region sweeps electrons to the n-side and holes to the p-side, producing a photo-voltage and current without any external battery.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 14 Semiconductor Electronics: Materials, Devices and Simple Circuits, Section 14.8 Special Purpose p-n Junction Diodes",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "deb9beb8-bb5d-48af-b1c0-fecad65bee2b",
+      "subject": "physics",
+      "unit": "Electronic Devices",
+      "chapter": "Semiconductor Electronics",
+      "type": "single_mcq",
+      "stem": "In a silicon p-n junction diode, the forward current becomes significant only after the applied forward voltage exceeds about 0.7 V. This voltage is called the:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Breakdown voltage"
+        },
+        {
+          "key": "B",
+          "text": "Knee (cut-in) voltage"
+        },
+        {
+          "key": "C",
+          "text": "Zener voltage"
+        },
+        {
+          "key": "D",
+          "text": "Saturation voltage"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "The forward characteristic of a silicon diode is nearly flat until about 0.7 V, after which the current rises steeply. This turn-on point is called the knee or cut-in voltage, which is about 0.3 V for germanium.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 14 Semiconductor Electronics: Materials, Devices and Simple Circuits, Section 14.6 Semiconductor Diode",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "48b434ae-1e86-41b4-aae0-aae582c8a520",
+      "subject": "physics",
+      "unit": "Electronic Devices",
+      "chapter": "Semiconductor Electronics",
+      "type": "single_mcq",
+      "stem": "A sinusoidal AC voltage with peak value 10 V is applied to an ideal half-wave rectifier with a resistive load. The average (DC) output voltage is approximately:",
+      "options": [
+        {
+          "key": "A",
+          "text": "3.18 V"
+        },
+        {
+          "key": "B",
+          "text": "6.37 V"
+        },
+        {
+          "key": "C",
+          "text": "5.00 V"
+        },
+        {
+          "key": "D",
+          "text": "10.0 V"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "For a half-wave rectifier the output over one full cycle is zero for half the time, so the average value is V_m divided by pi. Here 10/pi is about 3.18 V. The value 6.37 V would be the average for a full-wave rectifier, which is 2V_m/pi.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 14 Semiconductor Electronics: Materials, Devices and Simple Circuits, Section 14.7 Application of Junction Diode as a Rectifier",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "3c52abd8-b99f-46ac-aa70-29811ca6fe13",
+      "subject": "physics",
+      "unit": "Electronic Devices",
+      "chapter": "Semiconductor Electronics",
+      "type": "match_the_following",
+      "stem": "Match List-I with List-II. List-I: (A) AND gate (B) OR gate (C) NOR gate (D) NOT gate. List-II: (I) Output is the complement of the OR output (II) Output is 1 when at least one input is 1 (III) Output is 1 only when all inputs are 1 (IV) Output is the complement of the single input. Choose the correct answer from the options given below.",
+      "options": [
+        {
+          "key": "A",
+          "text": "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+        },
+        {
+          "key": "B",
+          "text": "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)"
+        },
+        {
+          "key": "C",
+          "text": "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)"
+        },
+        {
+          "key": "D",
+          "text": "(A)-(IV), (B)-(I), (C)-(II), (D)-(III)"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "An AND gate gives 1 only when all inputs are 1, so A matches III. An OR gate gives 1 when any input is 1, so B matches II. A NOR gate is the complement of OR, so C matches I. A NOT gate complements its single input, so D matches IV.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 14 Semiconductor Electronics: Materials, Devices and Simple Circuits, Section 14.10 Digital Electronics and Logic Gates",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "898006b1-95b2-4d03-93dc-23c3afb8a925",
+      "subject": "physics",
+      "unit": "Electronic Devices",
+      "chapter": "Semiconductor Electronics",
+      "type": "single_mcq",
+      "stem": "Two inputs A and B give the output Y for the input combinations 00, 01, 10 and 11 as 1, 1, 1 and 0 respectively. The gate is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "AND"
+        },
+        {
+          "key": "B",
+          "text": "OR"
+        },
+        {
+          "key": "C",
+          "text": "NAND"
+        },
+        {
+          "key": "D",
+          "text": "XOR"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "The output is 0 only when both inputs are 1, which is the truth table of a NAND gate. An AND gate would give 0,0,0,1, and an XOR gate would give 0,1,1,0, so both are ruled out.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 14 Semiconductor Electronics: Materials, Devices and Simple Circuits, Section 14.10 Digital Electronics and Logic Gates",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "dff97aad-a78a-4772-bb3b-335df7f6577a",
+      "subject": "physics",
+      "unit": "Electronic Devices",
+      "chapter": "Semiconductor Electronics",
+      "type": "single_mcq",
+      "stem": "In a logic circuit, inputs A and B feed an OR gate, and the output of the OR gate feeds a NOT gate. The final output Y equals:",
+      "options": [
+        {
+          "key": "A",
+          "text": "A.B"
+        },
+        {
+          "key": "B",
+          "text": "A + B"
+        },
+        {
+          "key": "C",
+          "text": "(A + B)'"
+        },
+        {
+          "key": "D",
+          "text": "(A.B)'"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "The OR gate gives A + B, and the NOT gate complements it, so Y = (A + B)'. This combination is a NOR gate. The expression (A.B)' describes a NAND gate, which is the common mistake when the OR and AND gates are confused.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 14 Semiconductor Electronics: Materials, Devices and Simple Circuits, Section 14.10 Digital Electronics and Logic Gates",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "7f417185-bf9c-48af-a21b-ea3e7a065115",
+      "subject": "physics",
+      "unit": "Electronic Devices",
+      "chapter": "Semiconductor Electronics",
+      "type": "statement_based",
+      "stem": "A half-wave rectifier with a capacitor filter gives a smoother DC output. Statement I: Increasing the filter capacitance reduces the ripple voltage. Statement II: Increasing the load resistance reduces the ripple voltage, because the capacitor discharges more slowly.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Both I and II are true, and II is the correct explanation of I"
+        },
+        {
+          "key": "B",
+          "text": "Both I and II are true, but II is not the correct explanation of I"
+        },
+        {
+          "key": "C",
+          "text": "I is true, but II is false"
+        },
+        {
+          "key": "D",
+          "text": "I is false, but II is true"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "The ripple voltage is approximately V_m divided by (f R C), so it falls when either C or R increases. Statement I is true. Statement II is also true, but it describes the effect of R, not the effect of C, so it does not explain statement I.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 14 Semiconductor Electronics: Materials, Devices and Simple Circuits, Section 14.7 Application of Junction Diode as a Rectifier",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "0d5f2ae0-8dca-4ccc-aa7f-eaa1a54ab5f8",
+      "subject": "physics",
+      "unit": "Electronic Devices",
+      "chapter": "Semiconductor Electronics",
+      "type": "single_mcq",
+      "stem": "A light-emitting diode is made from a semiconductor of band gap 2.0 eV. The approximate wavelength of the light it emits is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "620 nm"
+        },
+        {
+          "key": "B",
+          "text": "310 nm"
+        },
+        {
+          "key": "C",
+          "text": "1240 nm"
+        },
+        {
+          "key": "D",
+          "text": "400 nm"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "The emitted photon energy is approximately equal to the band gap. Using lambda = hc / E_g, with hc about 1240 eV nm, gives lambda = 1240 / 2.0 = 620 nm, which is in the red part of the spectrum.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 14 Semiconductor Electronics: Materials, Devices and Simple Circuits, Section 14.8 Special Purpose p-n Junction Diodes",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "14640fcc-4496-4528-84bb-930a5d17bbae",
+      "subject": "physics",
+      "unit": "Dual Nature of Matter and Radiation",
+      "chapter": "Dual Nature of Radiation & Matter",
+      "type": "single_mcq",
+      "stem": "A metal has work function 2.0 eV. Using h = 4.14 x 10^-15 eV s, the threshold frequency of the metal is approximately:",
+      "options": [
+        {
+          "key": "A",
+          "text": "4.83 x 10^14 Hz"
+        },
+        {
+          "key": "B",
+          "text": "2.07 x 10^14 Hz"
+        },
+        {
+          "key": "C",
+          "text": "8.28 x 10^14 Hz"
+        },
+        {
+          "key": "D",
+          "text": "3.0 x 10^8 Hz"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "The threshold frequency is f0 = phi / h. Substituting gives f0 = 2.0 / (4.14 x 10^-15) = 4.83 x 10^14 Hz. The last option is the speed of light, which is a common unit mix-up and not a frequency.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 11 Dual Nature of Radiation and Matter, Section 11.6 Einstein's Photoelectric Equation",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "b99f8b77-0523-4011-8194-f9f00c0c1ecb",
+      "subject": "physics",
+      "unit": "Dual Nature of Matter and Radiation",
+      "chapter": "Dual Nature of Radiation & Matter",
+      "type": "single_mcq",
+      "stem": "In a graph of stopping potential V0 against frequency f of the incident light in the photoelectric effect, the slope of the straight line is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "h/e"
+        },
+        {
+          "key": "B",
+          "text": "e/h"
+        },
+        {
+          "key": "C",
+          "text": "h/(2e)"
+        },
+        {
+          "key": "D",
+          "text": "phi/e"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Einstein's equation gives e V0 = h f - phi, so V0 = (h/e) f - phi/e. The slope is h/e, which is the same for all metals, while the intercept on the frequency axis gives the threshold frequency.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 11 Dual Nature of Radiation and Matter, Section 11.6 Einstein's Photoelectric Equation",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "3238f380-53b1-4775-b76b-5576a417e983",
+      "subject": "physics",
+      "unit": "Dual Nature of Matter and Radiation",
+      "chapter": "Dual Nature of Radiation & Matter",
+      "type": "single_mcq",
+      "stem": "Light of photon energy 4.0 eV falls on a metal surface, and the stopping potential for the emitted electrons is 1.5 V. The work function of the metal is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "2.5 eV"
+        },
+        {
+          "key": "B",
+          "text": "5.5 eV"
+        },
+        {
+          "key": "C",
+          "text": "1.5 eV"
+        },
+        {
+          "key": "D",
+          "text": "4.0 eV"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "The maximum kinetic energy equals the stopping potential in electron-volts, so K_max = 1.5 eV. From Einstein's equation, phi = hf - K_max = 4.0 - 1.5 = 2.5 eV. The value 1.5 eV confuses the stopping potential with the work function.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 11 Dual Nature of Radiation and Matter, Section 11.6 Einstein's Photoelectric Equation",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "ff1c150d-b69e-4daf-8ea1-753dcc7ca034",
+      "subject": "physics",
+      "unit": "Dual Nature of Matter and Radiation",
+      "chapter": "Dual Nature of Radiation & Matter",
+      "type": "statement_based",
+      "stem": "Light of frequency above the threshold falls on a photosensitive metal. Statement I: Increasing the intensity of the light increases the saturation photocurrent. Statement II: Increasing the intensity of the light increases the maximum kinetic energy of the emitted photoelectrons.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Both I and II are true, and II is the correct explanation of I"
+        },
+        {
+          "key": "B",
+          "text": "Both I and II are true, but II is not the correct explanation of I"
+        },
+        {
+          "key": "C",
+          "text": "I is true, but II is false"
+        },
+        {
+          "key": "D",
+          "text": "I is false, but II is true"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Intensity sets the number of photons per second, and so the number of photoelectrons emitted per second, which is the saturation photocurrent. The maximum kinetic energy depends only on the frequency of the light, so statement II is false.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 11 Dual Nature of Radiation and Matter, Section 11.5 Photoelectric Effect and Wave Theory of Light",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "2c39441e-d740-4186-869a-98f8013dca61",
+      "subject": "physics",
+      "unit": "Dual Nature of Matter and Radiation",
+      "chapter": "Dual Nature of Radiation & Matter",
+      "type": "single_mcq",
+      "stem": "A proton and an alpha particle are accelerated from rest through the same potential difference. The ratio of the de Broglie wavelength of the proton to that of the alpha particle is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "2 root 2"
+        },
+        {
+          "key": "B",
+          "text": "1/(2 root 2)"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "1/2"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "The de Broglie wavelength is lambda = h / root(2 m q V), so lambda is proportional to 1 / root(m q). The alpha particle has mass 4u and charge 2e, so m q is 8 times that of the proton. The ratio lambda_p / lambda_alpha is root(8) = 2 root 2.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 11 Dual Nature of Radiation and Matter, Section 11.8 Wave Nature of Matter",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "3840357a-d19c-49f6-aa10-173701a99c42",
+      "subject": "physics",
+      "unit": "Dual Nature of Matter and Radiation",
+      "chapter": "Dual Nature of Radiation & Matter",
+      "type": "single_mcq",
+      "stem": "An electron and a proton have the same kinetic energy. The ratio of the de Broglie wavelength of the electron to that of the proton is closest to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "42.9"
+        },
+        {
+          "key": "B",
+          "text": "1/42.9"
+        },
+        {
+          "key": "C",
+          "text": "1836"
+        },
+        {
+          "key": "D",
+          "text": "1"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "The de Broglie wavelength for a given kinetic energy is lambda = h / root(2 m K), so lambda is proportional to 1 / root(m). The ratio is root(m_p / m_e) = root(1836), which is about 42.9. The electron therefore has the longer wavelength.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 11 Dual Nature of Radiation and Matter, Section 11.8 Wave Nature of Matter",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "3613d550-a4c8-426a-b3ab-2737252b2959",
+      "subject": "physics",
+      "unit": "Dual Nature of Matter and Radiation",
+      "chapter": "Dual Nature of Radiation & Matter",
+      "type": "match_the_following",
+      "stem": "Match List-I with List-II. List-I: (A) Threshold frequency (B) Stopping potential (C) Work function (D) Slope of the V0 versus f graph. List-II: (I) phi = h f0 (II) h/e (III) V0 = (hf - phi)/e (IV) f0 = phi/h. Choose the correct answer from the options given below.",
+      "options": [
+        {
+          "key": "A",
+          "text": "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+        },
+        {
+          "key": "B",
+          "text": "(A)-(IV), (B)-(III), (C)-(I), (D)-(II)"
+        },
+        {
+          "key": "C",
+          "text": "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)"
+        },
+        {
+          "key": "D",
+          "text": "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "The threshold frequency is f0 = phi / h, so A matches IV. The stopping potential is V0 = (hf - phi)/e, so B matches III. The work function is phi = h f0, so C matches I. The slope of the V0 versus f graph is h/e, so D matches II.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 11 Dual Nature of Radiation and Matter, Section 11.6 Einstein's Photoelectric Equation",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "2dd3f1b3-dd5a-4465-83a7-b8da3eb6449f",
+      "subject": "physics",
+      "unit": "Dual Nature of Matter and Radiation",
+      "chapter": "Dual Nature of Radiation & Matter",
+      "type": "assertion_reason",
+      "stem": "Assertion (A): No photoelectrons are emitted below the threshold frequency, however intense the light is. Reason (R): Each photon carries energy hf, and emission depends on the energy of a single photon, not on the number of photons.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Both A and R are true, and R is the correct explanation of A"
+        },
+        {
+          "key": "B",
+          "text": "Both A and R are true, but R is not the correct explanation of A"
+        },
+        {
+          "key": "C",
+          "text": "A is true, but R is false"
+        },
+        {
+          "key": "D",
+          "text": "A is false, but R is true"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Below the threshold, a single photon has energy hf smaller than the work function, so no electron can escape however many photons arrive. This photon-by-photon argument is the correct explanation of the threshold behaviour.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 11 Dual Nature of Radiation and Matter, Section 11.3 Photoelectric Effect",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "f2018a0d-8361-4072-b88f-fa2b356c2a4b",
+      "subject": "physics",
+      "unit": "Atoms and Nuclei",
+      "chapter": "Atoms",
+      "type": "single_mcq",
+      "stem": "In Rutherford's alpha-particle scattering experiment, most alpha particles pass through a thin gold foil with little or no deflection. This shows that:",
+      "options": [
+        {
+          "key": "A",
+          "text": "The atom is mostly empty space, with its positive charge concentrated in a tiny nucleus"
+        },
+        {
+          "key": "B",
+          "text": "Alpha particles are electrically neutral"
+        },
+        {
+          "key": "C",
+          "text": "The gold foil is an insulator"
+        },
+        {
+          "key": "D",
+          "text": "Electrons are heavier than alpha particles"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Most alpha particles pass straight through because the atom is largely empty space. Only the rare particles that come very close to the small, dense, positively charged nucleus are deflected through large angles.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 12 Atoms, Section 12.2 Alpha-Particle Scattering and Rutherford's Nuclear Model of the Atom",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "c1e4cf45-80e1-46e1-93d0-c86e37752d8b",
+      "subject": "physics",
+      "unit": "Atoms and Nuclei",
+      "chapter": "Atoms",
+      "type": "single_mcq",
+      "stem": "In the Bohr model of the hydrogen atom, the ratio of the total energy E2 of the electron in the n = 2 orbit to its total energy E1 in the n = 1 orbit is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "1/4"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "1/2"
+        },
+        {
+          "key": "D",
+          "text": "2"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "The energy of the nth orbit is E_n = -13.6 / n^2 eV. Therefore E2 = -3.4 eV and E1 = -13.6 eV, and the ratio E2 / E1 = 1/4.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "easy",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 12 Atoms, Section 12.4 Bohr Model of the Hydrogen Atom",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "3d3a5b97-0249-4275-9f58-5fd7ab90a3d3",
+      "subject": "physics",
+      "unit": "Atoms and Nuclei",
+      "chapter": "Atoms",
+      "type": "match_the_following",
+      "stem": "Match List-I with List-II. List-I: (A) Lyman series (B) Balmer series (C) Paschen series (D) Brackett series. List-II: (I) Lower level n = 1 (II) Lower level n = 2 (III) Lower level n = 3 (IV) Lower level n = 4. Choose the correct answer from the options given below.",
+      "options": [
+        {
+          "key": "A",
+          "text": "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)"
+        },
+        {
+          "key": "B",
+          "text": "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+        },
+        {
+          "key": "C",
+          "text": "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)"
+        },
+        {
+          "key": "D",
+          "text": "(A)-(IV), (B)-(III), (C)-(II), (D)-(I)"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "The spectral series of hydrogen are named by the lower energy level the electron falls to. Lyman ends at n = 1, Balmer at n = 2, Paschen at n = 3 and Brackett at n = 4. The Lyman series is in the ultraviolet and the Balmer series is in the visible region.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 12 Atoms, Section 12.3 Atomic Spectra",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "0ac2e9bd-113f-4e47-bbb4-becf5cfbd80d",
+      "subject": "physics",
+      "unit": "Atoms and Nuclei",
+      "chapter": "Atoms",
+      "type": "single_mcq",
+      "stem": "Using the Rydberg constant R = 1.1 x 10^7 m^-1, the wavelength of the photon emitted when a hydrogen electron falls from n = 3 to n = 2 is approximately:",
+      "options": [
+        {
+          "key": "A",
+          "text": "655 nm"
+        },
+        {
+          "key": "B",
+          "text": "486 nm"
+        },
+        {
+          "key": "C",
+          "text": "122 nm"
+        },
+        {
+          "key": "D",
+          "text": "365 nm"
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "The Rydberg formula gives 1/lambda = R (1/2^2 - 1/3^2) = 5R/36. So lambda = 36 / (5 x 1.1 x 10^7) m, which is about 6.55 x 10^-7 m or 655 nm. This is the red Balmer-alpha line. The 486 nm line is the n = 4 to n = 2 transition.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 12 Atoms, Section 12.5 Explanation of the Line Spectra and the Bohr Model",
+      "source": "claude-authored-2026-10-17-w3"
+    },
+    {
+      "id": "447cb804-4233-4e18-bd61-d45642719b58",
+      "subject": "physics",
+      "unit": "Atoms and Nuclei",
+      "chapter": "Atoms",
+      "type": "single_mcq",
+      "stem": "What energy is required to remove the electron completely from the ground state of a singly ionised helium ion (He+, Z = 2)? Use the hydrogen-like formula E_n = -13.6 Z^2 / n^2 eV.",
+      "options": [
+        {
+          "key": "A",
+          "text": "13.6 eV"
+        },
+        {
+          "key": "B",
+          "text": "27.2 eV"
+        },
+        {
+          "key": "C",
+          "text": "54.4 eV"
+        },
+        {
+          "key": "D",
+          "text": "3.4 eV"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "For the ground state n = 1, the energy is E_1 = -13.6 x Z^2 = -13.6 x 4 = -54.4 eV. Removing the electron requires this amount of energy. The value 13.6 eV is the answer for ordinary hydrogen, which has Z = 1.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 12 Atoms, Section 12.4 Bohr Model of the Hydrogen Atom",
+      "source": "claude-authored-2026-10-17-w3"
+    }
+  ]
+}

@@ -1,0 +1,657 @@
+{
+  "batch": "physics",
+  "subject": "physics",
+  "wave": 3,
+  "pass": "wave3 expert pass (Sonnet-equivalent CUET expert review, same procedure as waves 1 and 2)",
+  "date": "2026-10-17",
+  "reviewer_model": "Claude Sonnet 5.5 (single reviewer, no other model run)",
+  "method": "Every accepted physics question was solved by the reviewer, then the key, explanation, options (longest-option giveaway, listed-order sequence keys, grammatical cues), chapter and unit against data/nta_blueprints/physics.json, the NCERT Class 12 section, the CUET level and time (72 s per question, no calculator) and the engine content gates were checked. The engine content gates (answer integrity, quality gate, structure, wording, corrupted wording, listed-order key) were re-run offline on the repaired text: 0 reasons on all remaining questions.",
+  "scope": "the 67 physics rows of docs/brain/reports/authored-w3/wave3-candidates-scored-2026-10-17.json (accepted by the rule); 4 of them had been refused by the engine content gates (dff97aad, fe0417ed, fc6098bd, d72339f5).",
+  "source_file": "docs/brain/reports/authored-w3/wave3-candidates-scored-2026-10-17.json",
+  "counts": {
+    "reviewed": 67,
+    "ready": 42,
+    "repaired": 17,
+    "drop": 8
+  },
+  "solver_visible_text_changed": [
+    "c1e3486d-b7db-4a63-aaf1-597489351bfb",
+    "fe0417ed-5791-41de-82df-dc27964ca5bb",
+    "fc6098bd-ef63-4d76-8a35-0568d11957ae",
+    "d72339f5-bbbc-48ea-9e57-12b89e48e029"
+  ],
+  "notes": [
+    "drop (8): 704cf988 is beyond NCERT; a5de8f62, 363ac2b3, 3c52abd8, 898006b1, dff97aad, 7f417185 and 0d5f2ae0 (Zener, solar cell, logic gates x3, capacitor-filter ripple, LED) are outside the CUET UG 2026 Physics Electronic Devices unit that the nine-unit blueprint implies (energy bands, diode I-V, rectifier). Basis: the blueprint excludes Communication Systems as outside the 9-unit syllabus and a public syllabus summary lists the unit that way; it was not checked against the NTA PDF (other coaching pages still list the older 10-unit syllabus). If the owner confirms the older syllabus, a5de8f62, 363ac2b3, 3c52abd8, 898006b1, 7f417185 and 0d5f2ae0 can return (their keys and explanations are correct) and dff97aad as a repaired item with its options written in words.",
+    "The 4 repairs with solver-visible text changed (c1e3486d, fe0417ed, fc6098bd, d72339f5) need the blind re-solve of waves 1 and 2 (3 solvers on the final text); the other repairs change only the difficulty label, chapter or NCERT reference.",
+    "Keys moved to D in the four visible repairs (the physics pool had 6 of 67 keys on D, 26 on B).",
+    "Left as is: weak but not giveaway distractors (c9fd89c4 option D, 4b294509 option D); the Ch 9 telescope reference of ab6c6117 (9.7; 9.8 in the unrationalised book), because the rationalised numbering could not be checked.",
+    "Syllabus call confirmed 2026-10-17 against the official CUET (UG) 2026 Physics syllabus PDF in the repo (data/CUET 2026/physics.pdf): Unit 9 Electronic Devices lists energy bands (qualitative), intrinsic/extrinsic semiconductors, p-n junction diode I-V characteristics, and the diode as a rectifier only. Zener, solar cell, LED, logic gates and ripple/capacitor filter are not listed, so the 7 Electronic Devices drops stand (the earlier caveat that this was not checked against the NTA PDF is closed). 704cf988 stays dropped for the separate reason that it is beyond NCERT."
+  ],
+  "verdicts": [
+    {
+      "id": "8e7aff9c-f05f-4057-9522-f15da970e0d7",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Key D: a p-n diode is the non-ohmic device; copper, manganin and nichrome are ohmic at constant temperature. Unique, options similar in length, NCERT 3.6 correct. Easy.",
+      "repair": null
+    },
+    {
+      "id": "9891beba-0610-4b37-9d91-7185798e2470",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Key B: a fuse wire needs high resistivity (large I^2R heating) and a low melting point. Unique; options near equal length. Easy.",
+      "repair": null
+    },
+    {
+      "id": "c1e3486d-b7db-4a63-aaf1-597489351bfb",
+      "verdict": "repaired",
+      "key": "D",
+      "why": "Key B (zero potential difference across the galvanometer) is correct, but the key was 88 characters against 47, 42 and 40, a clear longest-option giveaway that also restated the explanation. Options rewritten to 47 to 51 characters and the key moved to D (the pool had only 6 keys on D in 67). Same physics, same distractors.",
+      "repair": "Options rewritten and reordered for equal length, key B to D. Stem and explanation unchanged. Solver-visible text changed.",
+      "solver_visible_changed": true,
+      "fields": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The current through the galvanometer is maximum"
+          },
+          {
+            "key": "B",
+            "text": "The current drawn from the battery drops to zero"
+          },
+          {
+            "key": "C",
+            "text": "The galvanometer has an infinitely large resistance"
+          },
+          {
+            "key": "D",
+            "text": "Both galvanometer terminals are at equal potential"
+          }
+        ],
+        "correct_key": "D"
+      }
+    },
+    {
+      "id": "aea26296-5917-40a2-9a7c-d9cf913a5363",
+      "verdict": "ready",
+      "key": "B",
+      "why": "E = Pt = 1100 x 600 = 6.6 x 10^5 J, key B. 1.1 x 10^5 J (t = 100 s) and 6.6 x 10^4 J are decimal slips. Easy, one step.",
+      "repair": null
+    },
+    {
+      "id": "d06e022d-f926-4494-9d39-1a979e20b2e5",
+      "verdict": "ready",
+      "key": "C",
+      "why": "3 and 6 in parallel give 2 ohm, plus 4 gives 6 ohm, key C. 9 ohm is the plain sum, 2 ohm the parallel only. Medium is generous, fine.",
+      "repair": null
+    },
+    {
+      "id": "22940911-16a7-4f7e-be0f-515fa516f89f",
+      "verdict": "ready",
+      "key": "A",
+      "why": "X/12 = 25/75 so X = 4 ohm, key A; 36 ohm is the inverted ratio. Null at 25 cm from the left with X on the left is stated clearly.",
+      "repair": null
+    },
+    {
+      "id": "91ad1938-d1fc-4ea4-a0d3-95d96326e2ef",
+      "verdict": "ready",
+      "key": "D",
+      "why": "I = 2/(3.5+0.5) = 0.5 A, V = IR = 1.75 V, key D. 2.00 V (the emf) and 1.50 V are traps.",
+      "repair": null
+    },
+    {
+      "id": "255e305e-85cc-4d30-a824-239c53989517",
+      "verdict": "ready",
+      "key": "C",
+      "why": "v_d = I/(neA) = 4/(5e28 x 1.6e-19 x 2e-6) = 2.5e-4 m/s, key C. 1.25e-4 is the area-halved slip, 2.5e-2 the exponent slip. Two-step, medium.",
+      "repair": null
+    },
+    {
+      "id": "06fb3fe8-7f7f-463d-a602-1a5953423084",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Sensitivity rises with a smaller potential gradient and a longer wire, so I and II, key B. III and IV do the opposite. Options are unique; NCERT 3.16.",
+      "repair": null
+    },
+    {
+      "id": "22bb7974-074f-4e40-a1b4-5d3b55052192",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Metal resistivity rises, intrinsic semiconductor resistivity falls with temperature: I and II, key A. Unique. NCERT 3.8.",
+      "repair": null
+    },
+    {
+      "id": "62c2ce5f-251f-4b6b-a2c2-be45de07dfc3",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Manganin has a near-zero temperature coefficient, which is exactly why it is used for standard coils: A and R true, R explains A, key A. NCERT 3.7.",
+      "repair": null
+    },
+    {
+      "id": "0f01b716-922a-4b3f-9b32-ed8ab40dc7e8",
+      "verdict": "repaired",
+      "key": "B",
+      "why": "Net emf 6 V, total resistance 3 ohm, I = 2 A, P = I^2R = 12 W, key B; 6 W and 24 W are plausible slips. Three simple steps: the label hard is too high, medium is right.",
+      "repair": "difficulty_label hard -> medium. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium"
+      }
+    },
+    {
+      "id": "c62678e0-eb15-4186-811e-45a6452e528e",
+      "verdict": "ready",
+      "key": "A",
+      "why": "v parallel to B gives F = qvB sin0 = 0, key A. The option \"perpendicular to both\" is the general direction rule, not an answer here. Easy.",
+      "repair": null
+    },
+    {
+      "id": "b1dbbe04-24d4-49ee-83b0-ef74ef7d95f4",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Ideal long solenoid: field outside is approximately zero, key B. Unique. NCERT 4.8.",
+      "repair": null
+    },
+    {
+      "id": "4e338fa8-83d5-427e-83be-2c4b18735148",
+      "verdict": "repaired",
+      "key": "A",
+      "why": "B = mu0 I/(2R) = 4pi x 10^-7 x 2/0.2 = 1.26 x 10^-5 T, key A; 2.51e-5 is the missing-2 slip. The field at the centre of a loop is in NCERT 4.6 (on the axis of a circular loop) with the law in 4.5.",
+      "repair": "ncert_ref section 4.6 Biot-Savart law -> sections 4.5 Biot-Savart law and 4.6 field of a circular current loop. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "ncert_ref": "NCERT Class 12 Physics Part I, Ch 4 Moving Charges and Magnetism, sections 4.5 Biot-Savart law and 4.6 Magnetic field on the axis of a circular current loop"
+      }
+    },
+    {
+      "id": "39a9f1f5-675b-4aa4-961e-56b0b6be1145",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Parallel currents attract with force per length mu0 I1 I2/(2 pi d): I and II, key A. III and IV are false. NCERT 4.9.",
+      "repair": null
+    },
+    {
+      "id": "9ef7bafe-2ca1-4e14-a12a-08890c27374c",
+      "verdict": "ready",
+      "key": "B",
+      "why": "A voltmeter needs a large resistance in series, key B; the small shunt in parallel is the ammeter. Options are balanced in length. NCERT 4.11.",
+      "repair": null
+    },
+    {
+      "id": "118b1495-3889-49b3-8002-f805c6ca1e57",
+      "verdict": "ready",
+      "key": "B",
+      "why": "tau = NIAB sin(theta) with theta between the normal and B: maximum when the plane of the loop is parallel to the field, key B. Unique.",
+      "repair": null
+    },
+    {
+      "id": "340a6c47-3d6f-42c8-a1a5-af3a9bb0830f",
+      "verdict": "repaired",
+      "key": "B",
+      "why": "r = mv/(qB) = (1.6e-27 x 1e6)/(1.6e-19 x 0.1) = 0.1 m, key B. Correct and unique. The reference named the cyclotron section; circular motion in a uniform field is NCERT 4.3.",
+      "repair": "ncert_ref section 4.5 Cyclotron -> section 4.3 Motion in a magnetic field. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "ncert_ref": "NCERT Class 12 Physics Part I, Ch 4 Moving Charges and Magnetism, section 4.3 Motion in a magnetic field"
+      }
+    },
+    {
+      "id": "8172d9b4-c41c-413a-a5c2-70ea7df2adf0",
+      "verdict": "repaired",
+      "key": "B",
+      "why": "Enclosed current 5 A - 3 A = 2 A (the outside 4 A does not count), so the integral is 2 mu0, key B; 4 mu0 and 8 mu0 are the outside-wire and add-all traps. Two steps from one law: medium, not hard.",
+      "repair": "difficulty_label hard -> medium. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium"
+      }
+    },
+    {
+      "id": "704cf988-599d-49f6-a9cf-c15e4dfdda8f",
+      "verdict": "drop",
+      "key": null,
+      "why": "Correct conclusion (the field of a finite wire is smaller than that of an infinite wire at the same distance) but the explanation rests on the finite-wire formula with sin(theta1) + sin(theta2), which NCERT does not teach; the syllabus asks for the infinite straight wire (Ampere) and the circular loop (Biot-Savart). The cited section 4.6 does not cover it. Beyond NCERT, so not publishable as an NCERT item.",
+      "repair": null
+    },
+    {
+      "id": "80ca588c-3c3a-415f-ab76-b6b5a5cd4ec8",
+      "verdict": "repaired",
+      "key": "C",
+      "why": "Work = U(180) - U(0) = MB - (-MB) = 2MB, key C; 0 and MB are the slips, -2MB the sign trap. Correct, unique. The potential energy of a dipole is taught in Ch 5 (Magnetism and Matter), not under moving charges, so the chapter and reference are moved to match the blueprint chapter Magnetism & Matter.",
+      "repair": "chapter Moving Charges & Magnetism -> Magnetism & Matter; ncert_ref -> Ch 5 Magnetism and Matter, section 5.2 The bar magnet (dipole in a uniform magnetic field). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "chapter": "Magnetism & Matter",
+        "ncert_ref": "NCERT Class 12 Physics Part I, Ch 5 Magnetism and Matter, section 5.2 The bar magnet: dipole in a uniform magnetic field"
+      }
+    },
+    {
+      "id": "2686431a-ab28-4bf0-844a-4be4f88f754a",
+      "verdict": "ready",
+      "key": "C",
+      "why": "At 0 K intrinsic silicon has a full valence band and an empty conduction band: perfect insulator, key C. Unique. NCERT 14.3.",
+      "repair": null
+    },
+    {
+      "id": "c9fd89c4-508e-43f3-991f-a7881e54fd72",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Insulators have the widest gap, key C. Option D (\"conductor and semiconductor are equal\") fits the stem grammatically less well than the others, a mild weakness, not a giveaway of the key. Easy.",
+      "repair": null
+    },
+    {
+      "id": "4b294509-bfcb-4828-a8cd-d2513aa29da3",
+      "verdict": "ready",
+      "key": "B",
+      "why": "A half-wave rectifier gives one pulse per input cycle, so 60 Hz, key B; 120 Hz is the full-wave value. The 60 Hz mains is not the Indian 50 Hz but the physics is unaffected. NCERT 14.7.",
+      "repair": null
+    },
+    {
+      "id": "a5de8f62-b02d-4723-8192-449d5eaa6266",
+      "verdict": "drop",
+      "key": null,
+      "why": "Outside the CUET UG 2026 Physics syllabus, confirmed against the official syllabus text. Official CUET (UG) 2026 Physics syllabus (data/CUET 2026/physics.pdf, page 4), Unit 9: Electronic Devices lists only: \"Energy bands in conductors, semiconductors and insulators (qualitative ideas only). Intrinsic and extrinsic semiconductors, p-type and n-type, p-n junction Semiconductor diode its I-V characteristics in forward and reverse bias. Application of junction diode -diode as a rectifier.\" Here Zener diode / voltage regulation is not listed. Drop kept. The physics (Zener regulation in reverse breakdown, key A) is correct.",
+      "repair": null,
+      "syllabus_check": "official-pdf-2026-10-17"
+    },
+    {
+      "id": "363ac2b3-431d-45f1-a7b4-d03bce246584",
+      "verdict": "drop",
+      "key": null,
+      "why": "Outside the CUET UG 2026 Physics syllabus, confirmed against the official syllabus text. Official CUET (UG) 2026 Physics syllabus (data/CUET 2026/physics.pdf, page 4), Unit 9: Electronic Devices lists only: \"Energy bands in conductors, semiconductors and insulators (qualitative ideas only). Intrinsic and extrinsic semiconductors, p-type and n-type, p-n junction Semiconductor diode its I-V characteristics in forward and reverse bias. Application of junction diode -diode as a rectifier.\" Here solar cell is not listed. Drop kept. The physics (solar cell, built-in field separates the pairs, key A) is correct.",
+      "repair": null,
+      "syllabus_check": "official-pdf-2026-10-17"
+    },
+    {
+      "id": "deb9beb8-bb5d-48af-b1c0-fecad65bee2b",
+      "verdict": "ready",
+      "key": "B",
+      "why": "The forward-bias turn-on point of a silicon diode (about 0.7 V) is the knee or cut-in voltage, key B. Part of the I-V characteristics, in syllabus. Easy.",
+      "repair": null
+    },
+    {
+      "id": "48b434ae-1e86-41b4-aae0-aae582c8a520",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Half-wave average = Vm/pi = 3.18 V, key A; 6.37 V is the full-wave value, 5.00 V the half-peak slip. In syllabus (rectifier). Medium.",
+      "repair": null
+    },
+    {
+      "id": "3c52abd8-b99f-46ac-aa70-29811ca6fe13",
+      "verdict": "drop",
+      "key": null,
+      "why": "Outside the CUET UG 2026 Physics syllabus, confirmed against the official syllabus text. Official CUET (UG) 2026 Physics syllabus (data/CUET 2026/physics.pdf, page 4), Unit 9: Electronic Devices lists only: \"Energy bands in conductors, semiconductors and insulators (qualitative ideas only). Intrinsic and extrinsic semiconductors, p-type and n-type, p-n junction Semiconductor diode its I-V characteristics in forward and reverse bias. Application of junction diode -diode as a rectifier.\" Here logic gates are not listed. Drop kept. The matching (AND = III, OR = II, NOR = I, NOT = IV, key B) is correct.",
+      "repair": null,
+      "syllabus_check": "official-pdf-2026-10-17"
+    },
+    {
+      "id": "898006b1-95b2-4d03-93dc-23c3afb8a925",
+      "verdict": "drop",
+      "key": null,
+      "why": "Outside the CUET UG 2026 Physics syllabus, confirmed against the official syllabus text. Official CUET (UG) 2026 Physics syllabus (data/CUET 2026/physics.pdf, page 4), Unit 9: Electronic Devices lists only: \"Energy bands in conductors, semiconductors and insulators (qualitative ideas only). Intrinsic and extrinsic semiconductors, p-type and n-type, p-n junction Semiconductor diode its I-V characteristics in forward and reverse bias. Application of junction diode -diode as a rectifier.\" Here logic gates are not listed. Drop kept. The truth table 1, 1, 1, 0 is a NAND gate, key C, correct.",
+      "repair": null,
+      "syllabus_check": "official-pdf-2026-10-17"
+    },
+    {
+      "id": "dff97aad-a78a-4772-bb3b-335df7f6577a",
+      "verdict": "drop",
+      "key": null,
+      "why": "Outside the CUET UG 2026 Physics syllabus, confirmed against the official syllabus text. Official CUET (UG) 2026 Physics syllabus (data/CUET 2026/physics.pdf, page 4), Unit 9: Electronic Devices lists only: \"Energy bands in conductors, semiconductors and insulators (qualitative ideas only). Intrinsic and extrinsic semiconductors, p-type and n-type, p-n junction Semiconductor diode its I-V characteristics in forward and reverse bias. Application of junction diode -diode as a rectifier.\" Here logic gates are not listed. Drop kept.  The engine had also refused it (options differ only by symbols).",
+      "repair": null,
+      "syllabus_check": "official-pdf-2026-10-17"
+    },
+    {
+      "id": "7f417185-bf9c-48af-a21b-ea3e7a065115",
+      "verdict": "drop",
+      "key": null,
+      "why": "Outside the CUET UG 2026 Physics syllabus, confirmed against the official syllabus text. Official CUET (UG) 2026 Physics syllabus (data/CUET 2026/physics.pdf, page 4), Unit 9: Electronic Devices lists only: \"Energy bands in conductors, semiconductors and insulators (qualitative ideas only). Intrinsic and extrinsic semiconductors, p-type and n-type, p-n junction Semiconductor diode its I-V characteristics in forward and reverse bias. Application of junction diode -diode as a rectifier.\" Here the capacitor filter and ripple voltage are not listed (only the diode as a rectifier is). Drop kept. Statements are true, key B. The ripple formula is also beyond NCERT.",
+      "repair": null,
+      "syllabus_check": "official-pdf-2026-10-17"
+    },
+    {
+      "id": "0d5f2ae0-8dca-4ccc-aa7f-eaa1a54ab5f8",
+      "verdict": "drop",
+      "key": null,
+      "why": "Outside the CUET UG 2026 Physics syllabus, confirmed against the official syllabus text. Official CUET (UG) 2026 Physics syllabus (data/CUET 2026/physics.pdf, page 4), Unit 9: Electronic Devices lists only: \"Energy bands in conductors, semiconductors and insulators (qualitative ideas only). Intrinsic and extrinsic semiconductors, p-type and n-type, p-n junction Semiconductor diode its I-V characteristics in forward and reverse bias. Application of junction diode -diode as a rectifier.\" Here the LED and the band-gap-to-wavelength calculation are not listed (bands are qualitative only). Drop kept. The physics (620 nm for a 2.",
+      "repair": null,
+      "syllabus_check": "official-pdf-2026-10-17"
+    },
+    {
+      "id": "14640fcc-4496-4528-84bb-930a5d17bbae",
+      "verdict": "ready",
+      "key": "A",
+      "why": "f0 = phi/h = 2.0/4.14e-15 = 4.83e14 Hz, key A; the 3.0e8 option is the speed of light, a unit mix-up. NCERT 11.6.",
+      "repair": null
+    },
+    {
+      "id": "b99f8b77-0523-4011-8194-f9f00c0c1ecb",
+      "verdict": "ready",
+      "key": "A",
+      "why": "V0 = (h/e)f - phi/e, slope h/e, key A; phi/e is the intercept. Easy. NCERT 11.6.",
+      "repair": null
+    },
+    {
+      "id": "3238f380-53b1-4775-b76b-5576a417e983",
+      "verdict": "ready",
+      "key": "A",
+      "why": "K_max = 1.5 eV, phi = 4.0 - 1.5 = 2.5 eV, key A; 1.5 eV confuses V0 with phi. Medium.",
+      "repair": null
+    },
+    {
+      "id": "ff1c150d-b69e-4daf-8ea1-753dcc7ca034",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Intensity raises the saturation current but not the maximum kinetic energy: I true, II false, key C. NCERT 11.5.",
+      "repair": null
+    },
+    {
+      "id": "2c39441e-d740-4186-869a-98f8013dca61",
+      "verdict": "repaired",
+      "key": "A",
+      "why": "lambda proportional to 1/sqrt(mq); the alpha particle has mq = 8 times the proton, so lambda_p/lambda_alpha = sqrt(8) = 2 root 2, key A. One formula, one ratio: medium, not hard.",
+      "repair": "difficulty_label hard -> medium. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium"
+      }
+    },
+    {
+      "id": "3840357a-d19c-49f6-aa10-173701a99c42",
+      "verdict": "ready",
+      "key": "A",
+      "why": "lambda proportional to 1/sqrt(m) at equal kinetic energy; ratio sqrt(1836) = 42.9, key A. 1/42.9 inverts, 1836 forgets the root. Medium.",
+      "repair": null
+    },
+    {
+      "id": "3613d550-a4c8-426a-b3ab-2737252b2959",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Threshold frequency f0 = phi/h (IV), stopping potential (hf - phi)/e (III), work function h f0 (I), slope h/e (II): key B, the only option matching all four. Key is not in listed order.",
+      "repair": null
+    },
+    {
+      "id": "2dd3f1b3-dd5a-4465-83a7-b8da3eb6449f",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Below threshold a single photon cannot free an electron however many arrive: A and R true, R explains A, key A. Easy.",
+      "repair": null
+    },
+    {
+      "id": "c1e4cf45-80e1-46e1-93d0-c86e37752d8b",
+      "verdict": "ready",
+      "key": "A",
+      "why": "E_n = -13.6/n^2, E2/E1 = 1/4, key A. Easy.",
+      "repair": null
+    },
+    {
+      "id": "3d3a5b97-0249-4275-9f58-5fd7ab90a3d3",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Lower levels: Lyman n = 1 (III), Balmer n = 2 (IV), Paschen n = 3 (II), Brackett n = 4 (I): key B, unique, not in listed order.",
+      "repair": null
+    },
+    {
+      "id": "0ac2e9bd-113f-4e47-bbb4-becf5cfbd80d",
+      "verdict": "repaired",
+      "key": "A",
+      "why": "1/lambda = R(1/4 - 1/9) = 5R/36 so lambda = 655 nm, key A. Correct. The NCERT section title is \"The line spectra of the hydrogen atom\" (12.5).",
+      "repair": "ncert_ref section title corrected to 12.5 The line spectra of the hydrogen atom. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "ncert_ref": "NCERT Class 12 Physics Part II, Ch 12 Atoms, Section 12.5 The Line Spectra of the Hydrogen Atom"
+      }
+    },
+    {
+      "id": "c37ac200-ac31-42a5-b383-c0a8150a1771",
+      "verdict": "ready",
+      "key": "B",
+      "why": "beta = lambda D/d = 600e-9 x 1.0/0.5e-3 = 1.2 mm, key B; 2.4 mm is the doubled slip. Easy.",
+      "repair": null
+    },
+    {
+      "id": "fe0417ed-5791-41de-82df-dc27964ca5bb",
+      "verdict": "repaired",
+      "key": "D",
+      "why": "Key B (envelope of secondary wavelets) is correct, but the stem began \"According to\", which the engine reads as a passage-linked stem (orphan_passage_question) and refuses; the key was also the longest option (86 against 71, 57 and 76). Stem reworded, options rebalanced (65 to 71 characters) and the key moved to D.",
+      "repair": "Stem reworded without \"According to\"; options rebalanced; key B to D. Explanation unchanged. Solver-visible text changed.",
+      "solver_visible_changed": true,
+      "fields": {
+        "stem": "How is the new position of a wavefront obtained from its previous position in Huygens' principle?",
+        "options": [
+          {
+            "key": "A",
+            "text": "By joining the source to the point of observation with a straight line"
+          },
+          {
+            "key": "B",
+            "text": "As the surface on which all the rays meet at a single focus point"
+          },
+          {
+            "key": "C",
+            "text": "As the locus of points where the path difference at two slits is zero"
+          },
+          {
+            "key": "D",
+            "text": "As the envelope of secondary wavelets from points of the old wavefront"
+          }
+        ],
+        "correct_key": "D"
+      }
+    },
+    {
+      "id": "0e2ae512-b283-4e41-80ef-31ef6ac18fd1",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Amplitude ratio 2:1, Imax/Imin = (2+1)^2/(2-1)^2 = 9:1, key B; 3:1 is the amplitude ratio, 5:1 and 4:1 are slips. Medium.",
+      "repair": null
+    },
+    {
+      "id": "ac790a10-fd25-4723-8101-0ef4ac18fde3",
+      "verdict": "ready",
+      "key": "D",
+      "why": "y = lambda D/a = 600e-9 x 1.5/0.3e-3 = 3 mm, key D; 6 mm is the full central width, 1.5 mm half. Medium.",
+      "repair": null
+    },
+    {
+      "id": "5c5ecfa2-89c2-4360-ae66-4d20bc0a5239",
+      "verdict": "repaired",
+      "key": "C",
+      "why": "I0/2 x cos^2 60 = I0/8, key C; I0/4 is the forgotten-halving trap. Two steps, one law: medium, not hard.",
+      "repair": "difficulty_label hard -> medium. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium"
+      }
+    },
+    {
+      "id": "75299146-fa6b-4a36-a45e-8d012723a4ec",
+      "verdict": "ready",
+      "key": "B",
+      "why": "phi = 2 pi/3, I = 4 I0 cos^2(pi/3) = I0, key B. Unique. Medium.",
+      "repair": null
+    },
+    {
+      "id": "0731d7d3-671e-4714-8b36-65d0a388117c",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Shift = (mu - 1)t/lambda = 0.5 x 10e-6/500e-9 = 10 fringes, key D. Hard is fair: a sheet-shift problem is one step beyond the NCERT text but standard at board level.",
+      "repair": null
+    },
+    {
+      "id": "4b97458d-a381-4f1a-a2b7-fcceb8a3cd94",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Displacement current is eps0 dPhiE/dt, key A. Unique; the options are four distinct quantities and the key is not the longest. Easy.",
+      "repair": null
+    },
+    {
+      "id": "68e3c2d7-242d-4736-b989-93d19ef92835",
+      "verdict": "ready",
+      "key": "C",
+      "why": "c = 1/sqrt(mu0 eps0) = 3.0e8 m/s, key C. Options differ by powers of ten and the square of c. Easy.",
+      "repair": null
+    },
+    {
+      "id": "fc6098bd-ef63-4d76-8a35-0568d11957ae",
+      "verdict": "repaired",
+      "key": "D",
+      "why": "The ordering gamma, visible, microwaves, radio (shortest first) is correct, but the key equalled the order listed in the stem (sequence_key_is_listed_order) and the items were unlabelled, so the engine refused it (sequence_options_not_orderings_of_stem_items). Items relabelled (A) to (D) in a shuffled order, options now orderings of the labels, key (C), (B), (D), (A) on D.",
+      "repair": "Stem relabelled with items (A) Radio waves (B) Visible light (C) Gamma rays (D) Microwaves; options now label orderings; key A -> D; section reference 8.5 -> 8.4. Solver-visible text changed.",
+      "solver_visible_changed": true,
+      "fields": {
+        "stem": "Arrange the following electromagnetic waves in order of increasing wavelength, shortest wavelength first.\n(A) Radio waves\n(B) Visible light\n(C) Gamma rays\n(D) Microwaves\nChoose the correct answer from the options given below:",
+        "options": [
+          {
+            "key": "A",
+            "text": "(A), (B), (C), (D)"
+          },
+          {
+            "key": "B",
+            "text": "(A), (D), (B), (C)"
+          },
+          {
+            "key": "C",
+            "text": "(C), (D), (B), (A)"
+          },
+          {
+            "key": "D",
+            "text": "(C), (B), (D), (A)"
+          }
+        ],
+        "correct_key": "D",
+        "ncert_ref": "NCERT Class 12 Physics Part II, Ch 8 Electromagnetic Waves, Sec 8.4 (Electromagnetic spectrum)"
+      }
+    },
+    {
+      "id": "d72339f5-bbbc-48ea-9e57-12b89e48e029",
+      "verdict": "repaired",
+      "key": "D",
+      "why": "Pairing is correct (infrared with thermal imaging and remote controls, UV with sterilising, X-rays with radiographs, microwaves with radar), but lower-case list labels and P to S letters are not read as pairs by the engine (match_options_not_pairings). Labels changed to (A) to (D) and (I) to (IV) like the other match items, options rewritten, key moved to D; section 8.5 -> 8.4.",
+      "repair": "Stem and options relabelled to upper-case (A)-(D) and (I)-(IV); key B -> D; explanation updated to the new labels; section reference 8.5 -> 8.4. Solver-visible text changed.",
+      "solver_visible_changed": true,
+      "fields": {
+        "stem": "Match List-I (electromagnetic wave) with List-II (use).\nList-I: (A) Infrared, (B) Ultraviolet, (C) X-rays, (D) Microwaves\nList-II: (I) Sterilising water and killing bacteria, (II) Radiographs of bones, (III) Thermal imaging and TV remote controls, (IV) Radar and satellite communication\nChoose the correct answer from the options given below:",
+        "options": [
+          {
+            "key": "A",
+            "text": "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+          },
+          {
+            "key": "B",
+            "text": "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)"
+          },
+          {
+            "key": "C",
+            "text": "(A)-(IV), (B)-(III), (C)-(II), (D)-(I)"
+          },
+          {
+            "key": "D",
+            "text": "(A)-(III), (B)-(I), (C)-(II), (D)-(IV)"
+          }
+        ],
+        "correct_key": "D",
+        "explanation": "Infrared is used in thermal imaging and remote controls (III), ultraviolet sterilises water and kills bacteria (I), X-rays produce radiographs of bones (II), and microwaves are used in radar and satellite communication (IV). The correct pairing is (A)-(III), (B)-(I), (C)-(II), (D)-(IV).",
+        "ncert_ref": "NCERT Class 12 Physics Part II, Ch 8 Electromagnetic Waves, Sec 8.4 (Electromagnetic spectrum and uses)"
+      }
+    },
+    {
+      "id": "90eccf23-4148-4c31-b430-b3d4ab676ad3",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Propagation along E x B: with B on +x and travel along -z, E is along +y (y x x = -z), key B. Unique. Medium.",
+      "repair": null
+    },
+    {
+      "id": "3a02b025-c5f6-4fce-b1ea-065b95c32dbd",
+      "verdict": "repaired",
+      "key": "D",
+      "why": "lambda = c/f = 3e8/1.5e9 = 0.2 m, key D. Correct. NCERT section for the spectrum is 8.4 (there is no 8.5).",
+      "repair": "ncert_ref Sec 8.5 -> Sec 8.4. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "ncert_ref": "NCERT Class 12 Physics Part II, Ch 8 Electromagnetic Waves, Sec 8.4 (Electromagnetic spectrum)"
+      }
+    },
+    {
+      "id": "fb9cd358-0b96-4d88-948d-61c5f12549d6",
+      "verdict": "ready",
+      "key": "B",
+      "why": "1/f = 0.5(1/20 + 1/20) = 1/20 so f = 20 cm, key B; the sign slip gives infinity. Medium.",
+      "repair": null
+    },
+    {
+      "id": "4e2730f5-b6b5-4784-8ad4-fb9b909398de",
+      "verdict": "ready",
+      "key": "C",
+      "why": "mu = sin 45/sin 30 = 1.41, key C; 1.73 is sin 60/sin 30 and 1.33 and 1.50 are common values. Medium.",
+      "repair": null
+    },
+    {
+      "id": "abb95356-5484-457f-87c3-9668cd683b07",
+      "verdict": "ready",
+      "key": "B",
+      "why": "sin C = 1/1.5, C about 42 degrees, key B; 48 degrees is the complement. Easy.",
+      "repair": null
+    },
+    {
+      "id": "ab6c6117-e474-4b8c-907a-59951e5ceb37",
+      "verdict": "ready",
+      "key": "A",
+      "why": "M = fo/fe = 120/4 = 30, key A; 116 is fo - fe. Easy.",
+      "repair": null
+    },
+    {
+      "id": "405b35f7-e06b-4e4f-a3c7-fd61928658d4",
+      "verdict": "repaired",
+      "key": "C",
+      "why": "Half-cycle average of sin is 2 I0/pi, key C; I0/sqrt2 is the rms value. Correct, but it needs an integral, so easy is too low: medium.",
+      "repair": "difficulty_label easy -> medium. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium"
+      }
+    },
+    {
+      "id": "2be3fcb0-30ce-427f-ae83-14e5d868f7d0",
+      "verdict": "repaired",
+      "key": "B",
+      "why": "X_C = 1/(2 pi f C) = 31.8 ohm, key B; 318 ohm and 3.2 ohm are decimal slips. The capacitor section in NCERT Ch 7 is 7.5 (7.4 is the inductor).",
+      "repair": "ncert_ref Sec 7.4 -> Sec 7.5 (AC voltage applied to a capacitor). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "ncert_ref": "NCERT Class 12 Physics Part I, Ch 7 Alternating Current, Sec 7.5 (AC voltage applied to a capacitor)"
+      }
+    },
+    {
+      "id": "f3677c62-dac9-4fbd-9c40-f3874e49b06c",
+      "verdict": "repaired",
+      "key": "D",
+      "why": "P = I^2 R = 100 x 3 = 300 W, key D; 500 W is I^2 Z. Z = 5 ohm and cos phi = 0.6 check out. Two short steps: medium, not hard. Series LCR is NCERT 7.6, power 7.7.",
+      "repair": "difficulty_label hard -> medium; ncert_ref Sec 7.5 and 7.7 -> Sec 7.6 and 7.7. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium",
+        "ncert_ref": "NCERT Class 12 Physics Part I, Ch 7 Alternating Current, Sec 7.6 and 7.7 (series LCR circuit and power in AC circuits)"
+      }
+    },
+    {
+      "id": "7156b397-65f5-4272-aad7-2444451f0d72",
+      "verdict": "repaired",
+      "key": "B",
+      "why": "f0 = 1/(2 pi sqrt(LC)) = 1/(2 pi x 3.16e-4) = 503 Hz, key B. One formula: medium, not hard. Resonance is in NCERT 7.6.",
+      "repair": "difficulty_label hard -> medium; ncert_ref Sec 7.5 -> Sec 7.6. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium",
+        "ncert_ref": "NCERT Class 12 Physics Part I, Ch 7 Alternating Current, Sec 7.6 (LCR series circuit and resonance)"
+      }
+    },
+    {
+      "id": "8e7f15cc-e80f-455f-81f0-fbbd13ee56b3",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Vs = 4600 V, Ip = Vs Is/Vp = 4600 x 0.5/230 = 10 A, key C. NCERT 7.9.",
+      "repair": null
+    }
+  ]
+}

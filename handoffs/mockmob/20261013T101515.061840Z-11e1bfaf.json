@@ -1,0 +1,44 @@
+{
+  "id": "20261013T101515.061840Z-11e1bfaf",
+  "observed_at": "2026-10-13T10:15:15.061840+00:00",
+  "agent": "claude-opus-5.5 (workflow subagent)",
+  "task": "Build NTA paper engine on fix/nta-mode: score-bar eligibility, blueprint assembly, session wiring, tests, read-only production run",
+  "status": "complete",
+  "done": "Commit 053d2a0 on fix/nta-mode (not pushed). data/nta_engine.js (NTA_MIN_SCORE=8 mean of Luna+Gemini judge scores; hard gates; seeded greedy fill + swap repair + layout per data/nta_blueprints; closest/refused with plain-language notice), data/nta_pool.js (shared loader, selects only), wired into db.getQuestions(nta) -> getNtaPaper, practiceSessions/recoverySessions via src/lib/server/ntaPaper.js, /api/sessions returns message+detail, publicSessionView exposes meta.ntaPaper, TestPageClient shows differences. Saved (not applied) migration 20261013170000_nta_paper_shortfalls.sql. Production read-only run in docs/brain/NTA-ENGINE-RUN.md.",
+  "next": "Owner decisions: (1) score the 4,677 unscored questions (11 subjects have none) so they can enter NTA; (2) English needs a second complete 4-5 question passage set at score >= 8 (at 7.5 it would serve); (3) author case sets for commerce/domain subjects; (4) apply shortfall migration; (5) browser-check the notice UI on a premium account before deploy.",
+  "blockers": [
+    "Only 4 of 15 subjects have scored questions",
+    "No case/passage sets in commerce banks; English has 1 qualifying passage set"
+  ],
+  "evidence": [
+    "npm run test:nta 76/76 (29 new engine tests)",
+    "test:recovery 39/39, answer-integrity 11/11, auth 33/33, learning 91/91, du 19/19, selector/session 22/22",
+    "test:study 21/22: WordNet LICENSE_UNAVAILABLE in worktree, unrelated",
+    "next build --webpack passed",
+    "production read-only run: accountancy exact; business_studies/economics closest (sets substituted); english refused (1 passage set); 11 subjects refused (unscored); 0.9-3.4 s end to end"
+  ],
+  "touched_files": [
+    "data/nta_engine.js",
+    "data/nta_pool.js",
+    "data/db.js",
+    "data/nta_blueprints/_types.json",
+    "data/nta_paper_pattern.js",
+    "data/tests/nta_engine.test.mjs",
+    "data/tests/ntaEngineFixtures.mjs",
+    "scripts/nta-engine-run.mjs",
+    "src/lib/server/ntaPaper.js",
+    "src/lib/server/practiceSessions.js",
+    "src/lib/server/recoverySessions.js",
+    "src/app/api/sessions/route.js",
+    "shared/recoveryContract.js",
+    "src/app/(app)/test/TestPageClient.jsx",
+    "supabase/migrations/20261013170000_nta_paper_shortfalls.sql",
+    "docs/brain/NTA-ENGINE-RUN.md",
+    "docs/brain/reports/NTA-ENGINE-RUN.json",
+    "docs/brain/STATUS.md",
+    "package.json"
+  ],
+  "verification": "Tests and build listed in evidence; production data read with selects only; no model calls; no sessions created; notice UI not browser-verified.",
+  "cost_and_pending_requests": "USD 0; no paid API calls",
+  "confidence": "agent-reported; verify evidence before acting"
+}

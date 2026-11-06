@@ -1,0 +1,39 @@
+{
+  "id": "20261015T145233.771787Z-123bed78",
+  "observed_at": "2026-10-15T14:52:33.771787+00:00",
+  "agent": "core builder (slice 3)",
+  "task": "Mistake Lab v4 slice 3 server and data layer on web/lab-s3 (wt-deploy)",
+  "status": "complete",
+  "done": "Commits b297706a (contract shapes), 27c5f7f5 (core), 85238460 (tests + note retired), b0ef84c6 (denominator). data/across_mocks.js, data/rule_book.js, data/repair_order.js, data/lab_loop.js; resultHistory labLoop + ruleSourcesOf; GET /api/me/rules; GET/POST /api/me/playbook; src/lib/server/ruleBook.js + playbook.js; copy keys across/rules/ruleCheck/startSheet/repairOrder; contracts contract_across_v1, contract_rules_v1, contract_rulecheck_v1, contract_repair_order_v1 built by scripts/mistake-lab/build-s3-fixtures.mjs. No migration: recovery_playbook rows use strategy rule:<id>, reflection = rule words, evidence_state active/retired.",
+  "next": "Web builder: render lab.acrossMocks, lab.rules countLabel link, lab.prove.ruleCheck in Prove, lab.repairOrder on the hero key, Rule book page from GET /api/me/rules, start sheet strings from GET /api/me/playbook. App builder: copy the four contracts byte for byte. Not pushed, not deployed.",
+  "blockers": [],
+  "evidence": [
+    "test:recovery 175/175",
+    "test:learning 277/277",
+    "test:nta 155/155",
+    "test:app 213/213",
+    "eslint clean on changed files",
+    "read-only prod check: recovery_playbook has 0 rows, no CHECK constraints, RLS on with service role only; 2 NTA mocks with records (1 student)"
+  ],
+  "touched_files": [
+    "data/across_mocks.js",
+    "data/rule_book.js",
+    "data/repair_order.js",
+    "data/lab_loop.js",
+    "data/mock_swot.js",
+    "data/mistake_lab.copy.json",
+    "src/app/api/attempts/[id]/route.js",
+    "src/app/api/recovery/route.js",
+    "src/app/api/me/playbook/route.js",
+    "src/app/api/me/rules/route.js",
+    "src/lib/server/ruleBook.js",
+    "src/lib/server/playbook.js",
+    "src/components/ScoreRecoveryLab.jsx",
+    "scripts/mistake-lab/build-s3-fixtures.mjs",
+    "data/tests/*.test.mjs (5 new)",
+    "package.json"
+  ],
+  "verification": "node --test suites above; next build not run (shared worktree)",
+  "cost_and_pending_requests": "none (no paid calls)",
+  "confidence": "agent-reported; verify evidence before acting"
+}

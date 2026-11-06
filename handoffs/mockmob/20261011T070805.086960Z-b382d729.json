@@ -1,0 +1,27 @@
+{
+  "id": "20261011T070805.086960Z-b382d729",
+  "observed_at": "2026-10-11T07:08:05.086960+00:00",
+  "agent": "codex-subagent-provider-research",
+  "task": "Delegated provider research for Cloudflare audit only; parent audit remains active",
+  "status": "complete",
+  "done": "Created provider-findings.md with current official provider documentation, runtime limits, adapter comparison, pricing formulas, qualified DAU/concurrency scenarios, and CI/cache acceptance guidance.",
+  "next": "Parent integrates findings with repository audit and real test results; verify region/account billing and actual adapter workerd build before migration verdict.",
+  "blockers": [
+    "No live provider billing/usage access; current FX unavailable; Vercel dynamic Mumbai table not text-readable; no adapter build performed by this research subtask."
+  ],
+  "evidence": [
+    "tmp/cloudflare-audit/provider-findings.md",
+    "package.json",
+    "next.config.mjs",
+    "middleware.js",
+    "src/app/opengraph-image.jsx",
+    "https://developers.cloudflare.com/workers/platform/limits/",
+    "https://www.hostinger.com/in/nodejs-hosting"
+  ],
+  "touched_files": [
+    "tmp/cloudflare-audit/provider-findings.md"
+  ],
+  "verification": "Read local package/config and relevant filesystem/image paths. Used Context7 and browsed current official Cloudflare/OpenNext/vinext/Vercel/Hostinger docs. No infrastructure purchases/deployments/production behavior edits. Pricing arithmetic is scenario modeling, not observed production spend.",
+  "cost_and_pending_requests": "No paid model or infrastructure requests; zero purchases.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

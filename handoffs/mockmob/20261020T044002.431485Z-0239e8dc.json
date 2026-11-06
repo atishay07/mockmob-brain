@@ -1,0 +1,21 @@
+{
+  "id": "20261020T044002.431485Z-0239e8dc",
+  "observed_at": "2026-10-20T04:40:02.431991+00:00",
+  "agent": "app-v13-release-owner (session 604ced81 resumed 20 Oct 9:05 am)",
+  "task": "App version 13 release: blockers, Folds poses, tests, demo walk, signed build",
+  "status": "active",
+  "done": "ui/v17-release (wt-1020-app-rel) d46ba5fe: L-01 app recovery across thread sessions, L-02..L-12 app copy/truth, L-06 AI note + report via question report queue, L-07a from=app marker, L-11 unknown outcome wording, Mob reveal facts per Fold, finish F1/F2/F8, Mobi H1 chapter picker, sign-in signup type, Folds shrug x12 + wave x11; full unit suite fixed (16 failures -> 0 on rerun); demo walk at 360 Night+Day in tmp/walk-1020/app-v13/r2",
+  "next": "Goldens of touched areas (running), regenerate intended; set 1.0.16+13; build_release_aab.sh --sell; arm64 APK; apksigner; emulator launch; copy to Desktop\\MockMob-build-13 with README",
+  "blockers": [
+    "Web owner: server L-01b replay, L-02b creditCopy wording (keep FIRST_ONE_FREE clause text for the app's detection), L-07b honour ?from=app, L-08 legal pages; ANDROID_CERT_SHA256 for the email link (sign-in H2)"
+  ],
+  "evidence": [
+    "tmp/walk-1020/app-v13/r2/*.png",
+    "flutter analyze clean at c95bf098",
+    "test/unit full run: 7121 tests, 16 failures fixed then rerun green per file"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "20261017T195158.605324Z-7d15821a",
+  "observed_at": "2026-10-17T19:51:58.605324+00:00",
+  "agent": "claude-opus-5.5 (session 604ced81, main)",
+  "task": "18 Oct ~1:20 am IST: web release 4 pushed (owner night feedback N1-N13); v15, Mob gate, landing still running",
+  "status": "active",
+  "done": "Pushed main 9578ee66 = web release 4 (deploy/web-1017d): Today N1 (one weeks figure, This week, Full mocks, Coming up, Change plan sheet, no slider/strip), result/review restore N12 (Mobi reveal, counting score, 4 counts, 50-bubble map, one next move + repair cost, full analysis open), weak chapters N13/N15, practice polish N2/N3/N5/N7/N8/N11, Ask Mobi Help door N9/N17, CUET max 5 subjects N6 (2026 bulletin). Verifier PASS (app 502, recovery 415, learning 357, auth 110, billing 153, nta 188, today 32, mob 45, subjects 30, du 42, dock 74). Caveats: Ask Mobi panel dark in Day; mobile Mobi SVG makes body scrollWidth 393-426 (no visible scroll); N4 fine-tune structure unchanged. Earlier: R3 5d0c46f2, R2 12997f5a live; v13 APK delivered. Storage: C: 115 GB free; OneDrive and Play Games were logical sizes (cloud-only/sparse), on-disk survey running (scratchpad/ondisk.ps1 -> ondisk.txt).",
+  "next": "Verify Vercel READY + runtime errors for 9578ee66; STATUS entry for R2-R4 in next push. Running: wf_5bd828cd-281 app-v15 (packets today/result/polish running -> integrate -> walk + critic -> fix -> walk 2 -> release 1.0.15 apk+aab) target 7-8 am; wf_b167ffb5-960 landing checklist (fixer 2); wf_2f81582e-2f5 Mob gate (F15 revise/concepts done: wt-lr2, wt-lr3). Next web release 5: F15 revise+concepts, landing, Mob (only at 10/10), remaining ledger items (re-audit live).",
+  "blockers": [],
+  "evidence": [
+    "git push 5d0c46f2..9578ee66",
+    "R4 verifier pass"
+  ],
+  "touched_files": [],
+  "verification": "R4 verified by an independent verifier; Vercel check pending.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "20261013T172321.107299Z-de409611",
+  "observed_at": "2026-10-13T17:23:21.107299+00:00",
+  "agent": "claude-opus-5.5 session cc0bf1af (default login, Mockmob team)",
+  "task": "Resume from HANDOVER-2026-10-13-NIGHT: this session is the live MockMob orchestrator; focus on finishing the app",
+  "status": "active",
+  "done": "Read handover. Audited git: mockmob-next feat/app-and-web 7f14970 has 2 uncommitted web legal edits (privacy + account-deletion: Android reminders are local, delete path You > Account), consistent with round-3 Play-policy package and with no FCM in the app. mockmob-hotfix fix/nta-mode ad2023c: only pipeline log noise + tmp. mockmob-web2: clean apart from tmp/.next-staging. mockmob-phone: detached 2e85f0f with about 170 older uncommitted app files, left alone (no context). 'mockmob copy' main: 855 long-standing uncommitted changes, left alone. Relay watcher not running; relay status shows default 5-hour at 100% (this session still works) and personal rate_limited, so starting the watcher would fork this session onto a rate-limited account; not started.",
+  "next": "App: full flutter test suite (running), fix failures, emulator walk-through (AVD mockmob_budget, 2 GB), review the 10 round-3 packages, build the REAL app for the owner's phone (owner deleted the 3 old apps). Then NTA CUET-fit rest.",
+  "blockers": [
+    "Relay watcher left off: it would fork this session to the rate-limited personal account"
+  ],
+  "evidence": [
+    "git status of all worktrees 13 Oct 22:55 IST",
+    "relay.py status and poll 22:52 IST"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

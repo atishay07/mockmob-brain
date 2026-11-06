@@ -1,0 +1,3860 @@
+{
+ "kind": "question_reorder_plan",
+ "version": 1,
+ "mode": "dry-run",
+ "source": "db",
+ "seed": "listed-order-2026-10-14",
+ "at": "2026-10-14T03:34:42.534Z",
+ "summary": {
+  "requested": 63,
+  "found": 63,
+  "missing": [],
+  "reorder": 59,
+  "holdFallback": 3,
+  "notListedOrder": 1,
+  "notListedOrderIds": [
+   "7c9d79eb923e3c7cd31062b712f4f196"
+  ],
+  "explanationRewritten": 19,
+  "reorderBySubject": {
+   "economics": 15,
+   "business_studies": 19,
+   "accountancy": 15,
+   "biology": 2,
+   "english": 4,
+   "history": 2,
+   "political_science": 2
+  },
+  "holdReasons": {
+   "list_two_not_found": 1,
+   "options_printed_in_stem": 2
+  }
+ },
+ "rows": [
+  {
+   "id": "022715ffbd5f9ddc00637221a98a8363",
+   "subject": "economics",
+   "chapter": "Environment & Sustainable Development",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "labelMap": {
+    "1": "2",
+    "2": "1",
+    "3": "4",
+    "4": "3"
+   },
+   "before": {
+    "stem": "Four developments concerning pesticide control are listed below.\n1. Milk, meat and fish were found to be contaminated.\n2. Efforts were made to bring in better methods of pest control.\n3. Pesticides based on plant products were used as one such step.\n4. Pest-controlling chemicals isolated from neem were being used.\nArrange them in the order that moves from the reported problem to the specific plant-based response.\nChoose the correct sequence:",
+    "options": [
+     "2-1-3-4",
+     "1-3-2-4",
+     "1-2-3-4",
+     "1-2-4-3"
+    ],
+    "explanation": "The reported contamination is followed by efforts to bring in better methods of pest control. The account then identifies pesticides based on plant products as one such step and describes chemicals isolated from neem as a specific example. The sequence is therefore 1-2-3-4."
+   },
+   "after": {
+    "stem": "Four developments concerning pesticide control are listed below.\n1. Efforts were made to bring in better methods of pest control.\n2. Milk, meat and fish were found to be contaminated.\n3. Pest-controlling chemicals isolated from neem were being used.\n4. Pesticides based on plant products were used as one such step.\nArrange them in the order that moves from the reported problem to the specific plant-based response.\nChoose the correct sequence:",
+    "options": [
+     "1-2-4-3",
+     "2-4-1-3",
+     "2-1-4-3",
+     "2-1-3-4"
+    ],
+    "explanation": "The reported contamination is followed by efforts to bring in better methods of pest control. The account then identifies pesticides based on plant products as one such step and describes chemicals isolated from neem as a specific example. The sequence is therefore 2-1-4-3."
+   },
+   "explanationChanged": true,
+   "keyBefore": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "03824f20d921c1ad06b965b1d0a4b44e",
+   "subject": "business_studies",
+   "chapter": "Organising",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    0,
+    1,
+    3
+   ],
+   "labelMap": {
+    "III": "I",
+    "I": "II",
+    "II": "III",
+    "IV": "IV"
+   },
+   "before": {
+    "stem": "A company is organising its work through four separate decisions. Match each decision in List-I with the corresponding step in the organising process in List-II.\nList-I\n(A) Before deciding departments or job-holders, management breaks the total workload into identifiable activities.\n(B) Activities with related features are grouped into departments, without yet naming the employees who will perform them.\n(C) After the departments have been settled, specified duties are allotted to particular employees.\n(D) For each position, the direct superior to whom its holder reports is recorded.\nList-II\n(I) Identification and division of work\n(II) Departmentalisation\n(III) Assignment of Duties\n(IV) Establishing reporting relationships\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)"
+    ],
+    "explanation": "Breaking the workload into identifiable activities is identification and division of work, while grouping related activities into departments is departmentalisation. Allocating specified duties to employees is assignment of duties; recording who reports to whom establishes reporting relationships. Thus, option B gives the correct one-to-one matching."
+   },
+   "after": {
+    "stem": "A company is organising its work through four separate decisions. Match each decision in List-I with the corresponding step in the organising process in List-II.\nList-I\n(A) Before deciding departments or job-holders, management breaks the total workload into identifiable activities.\n(B) Activities with related features are grouped into departments, without yet naming the employees who will perform them.\n(C) After the departments have been settled, specified duties are allotted to particular employees.\n(D) For each position, the direct superior to whom its holder reports is recorded.\nList-II\n(I) Assignment of Duties\n(II) Identification and division of work\n(III) Departmentalisation\n(IV) Establishing reporting relationships\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)",
+     "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
+     "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)"
+    ],
+    "explanation": "Breaking the workload into identifiable activities is identification and division of work, while grouping related activities into departments is departmentalisation. Allocating specified duties to employees is assignment of duties; recording who reports to whom establishes reporting relationships. Thus, option B gives the correct one-to-one matching."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "0770bc13c7a41ec756bd3eb7e647b84b",
+   "subject": "business_studies",
+   "chapter": "Consumer Protection",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    1,
+    2,
+    0
+   ],
+   "labelMap": {
+    "B": "A",
+    "C": "B",
+    "A": "C"
+   },
+   "before": {
+    "stem": "Riya is selecting a household product and will then use it. Arrange the following consumer responsibilities in the order that moves from making an informed market choice to selecting a product and then using it safely.\n(A) Be aware of the goods and services available in the market so that an intelligent and wise choice can be made.\n(B) Buy only standardised goods.\n(C) Learn about risks associated with the product, follow the manufacturer’s instructions and use it safely.\nChoose the correct order from the options given below:",
+    "options": [
+     "(A)-(C)-(B)",
+     "(C)-(B)-(A)",
+     "(B)-(A)-(C)",
+     "(A)-(B)-(C)"
+    ],
+    "explanation": "The progression is from awareness of available goods and services to choosing standardised goods, and then to learning about risks and using the product safely. Therefore, the order is (A)-(B)-(C), which is option D."
+   },
+   "after": {
+    "stem": "Riya is selecting a household product and will then use it. Arrange the following consumer responsibilities in the order that moves from making an informed market choice to selecting a product and then using it safely.\n(A) Buy only standardised goods.\n(B) Learn about risks associated with the product, follow the manufacturer’s instructions and use it safely.\n(C) Be aware of the goods and services available in the market so that an intelligent and wise choice can be made.\nChoose the correct order from the options given below:",
+    "options": [
+     "(C)-(B)-(A)",
+     "(B)-(A)-(C)",
+     "(A)-(C)-(B)",
+     "(C)-(A)-(B)"
+    ],
+    "explanation": "The progression is from awareness of available goods and services to choosing standardised goods, and then to learning about risks and using the product safely. Therefore, the order is (C)-(A)-(B), which is option D."
+   },
+   "explanationChanged": true,
+   "keyBefore": [
+    "A",
+    "B",
+    "C"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "0de322e27637f76ac593c99028e4cafa",
+   "subject": "economics",
+   "chapter": "Income Determination",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "labelMap": {
+    "B": "A",
+    "D": "B",
+    "A": "C",
+    "C": "D"
+   },
+   "before": {
+    "stem": "A producer plans to add ₹1,20,000 to inventory by the end of the year. To meet extra demand, she later sells goods worth ₹35,000 from that inventory. Assume no other changes to inventory occur. Arrange the following events and steps in the order that leads from the producer’s plan to identifying actual investment.\n(A) The producer plans an addition of ₹1,20,000 to inventory.\n(B) The producer sells ₹35,000 worth of goods from inventory to meet extra demand.\n(C) The net increase in inventory is calculated as ₹1,20,000 − ₹35,000 = ₹85,000.\n(D) The amount of ₹85,000 is identified as actual (ex post) investment.\nChoose the correct sequence:\nA. (A)-(C)-(B)-(D)\nB. (B)-(A)-(C)-(D)\nC. (A)-(B)-(C)-(D)\nD. (A)-(B)-(D)-(C)",
+    "options": [
+     "(A)-(C)-(B)-(D)",
+     "(B)-(A)-(C)-(D)",
+     "(A)-(B)-(C)-(D)",
+     "(A)-(B)-(D)-(C)"
+    ],
+    "explanation": "The planned addition is ₹1,20,000, and the later sale from inventory reduces the net increase by ₹35,000. Thus, actual investment is ₹1,20,000 − ₹35,000 = ₹85,000. The plan and sale must be accounted for before calculating and identifying the actual investment."
+   },
+   "after": {
+    "stem": "A producer plans to add ₹1,20,000 to inventory by the end of the year. To meet extra demand, she later sells goods worth ₹35,000 from that inventory. Assume no other changes to inventory occur. Arrange the following events and steps in the order that leads from the producer’s plan to identifying actual investment.\n(A) The producer plans an addition of ₹1,20,000 to inventory.\n(B) The producer sells ₹35,000 worth of goods from inventory to meet extra demand.\n(C) The net increase in inventory is calculated as ₹1,20,000 − ₹35,000 = ₹85,000.\n(D) The amount of ₹85,000 is identified as actual (ex post) investment.\nChoose the correct sequence:\nA. (B)-(A)-(C)-(D)\nB. (A)-(B)-(D)-(C)\nC. (A)-(C)-(B)-(D)\nD. (A)-(B)-(C)-(D)",
+    "options": [
+     "(C)-(D)-(A)-(B)",
+     "(A)-(C)-(D)-(B)",
+     "(C)-(A)-(D)-(B)",
+     "(C)-(A)-(B)-(D)"
+    ],
+    "explanation": "The planned addition is ₹1,20,000, and the later sale from inventory reduces the net increase by ₹35,000. Thus, actual investment is ₹1,20,000 − ₹35,000 = ₹85,000. The plan and sale must be accounted for before calculating and identifying the actual investment."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [
+     "options_repeated_in_stem"
+    ],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "24ff7d610823ce693405abfbdfc938f6",
+   "subject": "business_studies",
+   "chapter": "Controlling",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "hold",
+   "reasons": [
+    "list_two_not_found"
+   ],
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "251bc7fd6f8435645205895462340198",
+   "subject": "business_studies",
+   "chapter": "Financial Markets",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "labelMap": {
+    "II": "I",
+    "I": "II",
+    "IV": "III",
+    "III": "IV"
+   },
+   "before": {
+    "stem": "Use this stated objective: “One of the main objectives of the primary market is to allow companies to raise capital through the issuance of securities.” Match each statement in List-I with its interpretation in List-II.\n\nList-I\n(A) Companies may raise capital through the issuance of securities.\n(B) Every company seeking to raise capital must issue securities.\n(C) Issuance of securities is the sole route by which companies can raise capital.\n(D) Issuing securities cannot enable companies to raise capital.\n\nList-II\n(I) Expresses the stated enabling link.\n(II) Claims that securities issuance is necessary whenever a company seeks capital.\n(III) Claims that securities issuance is the only route to raise capital.\n(IV) Denies the stated enabling link.\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)"
+    ],
+    "explanation": "The stated objective identifies securities issuance as a way for companies to raise capital, so (A) expresses the enabling link. The objective does not establish that companies must use this route or that it is the only route. Statement (D) denies the stated link."
+   },
+   "after": {
+    "stem": "Use this stated objective: “One of the main objectives of the primary market is to allow companies to raise capital through the issuance of securities.” Match each statement in List-I with its interpretation in List-II.\n\nList-I\n(A) Companies may raise capital through the issuance of securities.\n(B) Every company seeking to raise capital must issue securities.\n(C) Issuance of securities is the sole route by which companies can raise capital.\n(D) Issuing securities cannot enable companies to raise capital.\n\nList-II\n(I) Claims that securities issuance is necessary whenever a company seeks capital.\n(II) Expresses the stated enabling link.\n(III) Denies the stated enabling link.\n(IV) Claims that securities issuance is the only route to raise capital.\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+     "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+     "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)",
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)"
+    ],
+    "explanation": "The stated objective identifies securities issuance as a way for companies to raise capital, so (A) expresses the enabling link. The objective does not establish that companies must use this route or that it is the only route. Statement (D) denies the stated link."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "277920fc14f2de7866f7a4fd4f9e93a7",
+   "subject": "accountancy",
+   "chapter": "Cash Flow Statement",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "labelMap": {
+    "II": "I",
+    "IV": "II",
+    "I": "III",
+    "III": "IV"
+   },
+   "before": {
+    "stem": "Match List-I with List-II.\n\nList-I\n(A) Method characterised by disclosure of major classes of gross cash receipts and gross cash payments\n(B) Method characterised by adjustment of net profit or loss for the specified effects\n(C) Starting point under the indirect method\n(D) Statement about the availability under the indirect method of information useful in estimating future cash flows\n\nList-II\n(I) Direct method\n(II) Adjustment of net profit or loss for non-cash transactions, deferrals or accruals of operating cash receipts, and income or expenses associated with investing or financing cash flows\n(III) Net profit or loss before taxation and extraordinary items\n(IV) Information useful in estimating future cash flows is not available under the indirect method\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+     "(A)-(IV), (B)-(II), (C)-(III), (D)-(I)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+    ],
+    "explanation": "The direct method discloses major classes of gross cash receipts and payments, while the indirect method adjusts net profit or loss for the specified effects. The indirect method starts with net profit or loss before taxation and extraordinary items. Information useful in estimating future cash flows is not available under the indirect method."
+   },
+   "after": {
+    "stem": "Match List-I with List-II.\n\nList-I\n(A) Method characterised by disclosure of major classes of gross cash receipts and gross cash payments\n(B) Method characterised by adjustment of net profit or loss for the specified effects\n(C) Starting point under the indirect method\n(D) Statement about the availability under the indirect method of information useful in estimating future cash flows\n\nList-II\n(I) Adjustment of net profit or loss for non-cash transactions, deferrals or accruals of operating cash receipts, and income or expenses associated with investing or financing cash flows\n(II) Information useful in estimating future cash flows is not available under the indirect method\n(III) Direct method\n(IV) Net profit or loss before taxation and extraordinary items\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(III), (C)-(IV), (D)-(II)",
+     "(A)-(III), (B)-(I), (C)-(II), (D)-(IV)",
+     "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)",
+     "(A)-(III), (B)-(I), (C)-(IV), (D)-(II)"
+    ],
+    "explanation": "The direct method discloses major classes of gross cash receipts and payments, while the indirect method adjusts net profit or loss for the specified effects. The indirect method starts with net profit or loss before taxation and extraordinary items. Information useful in estimating future cash flows is not available under the indirect method."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "2c8b0866864628fdac320cbf3f44005b",
+   "subject": "economics",
+   "chapter": "Money & Banking",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "labelMap": {
+    "II": "I",
+    "I": "II",
+    "IV": "III",
+    "III": "IV"
+   },
+   "before": {
+    "stem": "Match each central-bank action in List-I with its corresponding implication in List-II.\n\nList-I\n(A) The RBI buys a Government bond in the open market and pays by cheque.\n(B) The RBI sells a Government bond to a private individual or institution.\n(C) The RBI raises the reserve ratio.\n(D) The central bank uses moral suasion to encourage commercial banks to lend.\n\nList-II\n(I) Increases reserves and, consequently, money supply.\n(II) Reduces reserves and, consequently, money supply.\n(III) Reduces banks’ lending and money supply when the reserve ratio is raised.\n(IV) Uses qualitative persuasion to encourage commercial-bank lending.\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)"
+    ],
+    "explanation": "When the RBI buys a Government bond and pays by cheque, reserves and money supply increase; selling a bond reduces reserves and money supply. Raising the reserve ratio reduces banks’ lending and money supply. Moral suasion is qualitative persuasion that can be used to encourage commercial-bank lending."
+   },
+   "after": {
+    "stem": "Match each central-bank action in List-I with its corresponding implication in List-II.\n\nList-I\n(A) The RBI buys a Government bond in the open market and pays by cheque.\n(B) The RBI sells a Government bond to a private individual or institution.\n(C) The RBI raises the reserve ratio.\n(D) The central bank uses moral suasion to encourage commercial banks to lend.\n\nList-II\n(I) Reduces reserves and, consequently, money supply.\n(II) Increases reserves and, consequently, money supply.\n(III) Uses qualitative persuasion to encourage commercial-bank lending.\n(IV) Reduces banks’ lending and money supply when the reserve ratio is raised.\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+     "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)",
+     "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)"
+    ],
+    "explanation": "When the RBI buys a Government bond and pays by cheque, reserves and money supply increase; selling a bond reduces reserves and money supply. Raising the reserve ratio reduces banks’ lending and money supply. Moral suasion is qualitative persuasion that can be used to encourage commercial-bank lending."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "341d2ffb9c69a0f0bef64c9eea5e2706",
+   "subject": "accountancy",
+   "chapter": "Change in Profit Sharing Ratio",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    3,
+    0,
+    1
+   ],
+   "labelMap": {
+    "III": "I",
+    "IV": "II",
+    "I": "III",
+    "II": "IV"
+   },
+   "before": {
+    "stem": "A, B, C and D are existing partners. Their old profit-sharing ratio is 8:5:3:4 and their new profit-sharing ratio is 5:6:5:4. Match each partner with the change in that partner’s share of total profits.\nList-I\n(A) Partner A\n(B) Partner B\n(C) Partner C\n(D) Partner D\nList-II\n(I) Sacrifices 3/20 share\n(II) Gains 1/20 share\n(III) Gains 2/20 share\n(IV) Share remains unchanged\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+     "(A)-(IV), (B)-(II), (C)-(III), (D)-(I)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+    ],
+    "explanation": "Both ratios total 20, so each partner’s share is the partner’s ratio part divided by 20. A’s share falls from 8/20 to 5/20, B’s rises from 5/20 to 6/20, C’s rises from 3/20 to 5/20, and D’s remains 4/20. These changes match option D."
+   },
+   "after": {
+    "stem": "A, B, C and D are existing partners. Their old profit-sharing ratio is 8:5:3:4 and their new profit-sharing ratio is 5:6:5:4. Match each partner with the change in that partner’s share of total profits.\nList-I\n(A) Partner A\n(B) Partner B\n(C) Partner C\n(D) Partner D\nList-II\n(I) Gains 2/20 share\n(II) Share remains unchanged\n(III) Sacrifices 3/20 share\n(IV) Gains 1/20 share\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
+     "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+     "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)",
+     "(A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+    ],
+    "explanation": "Both ratios total 20, so each partner’s share is the partner’s ratio part divided by 20. A’s share falls from 8/20 to 5/20, B’s rises from 5/20 to 6/20, C’s rises from 3/20 to 5/20, and D’s remains 4/20. These changes match option D."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "3571e2d7-70ff-406f-9b28-3a4bf169286b",
+   "subject": "biology",
+   "chapter": "Human Health & Disease",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "labelMap": {
+    "1": "2",
+    "2": "1",
+    "3": "4",
+    "4": "3"
+   },
+   "before": {
+    "stem": "Match List I (contraceptive method) with List II (primary mechanism): List I: A Copper IUD, B Male condom, C Tubectomy, D Progestin pill. List II: 1 Copper ion toxic to sperm/prevents fertilisation, 2 Physical barrier preventing sperm entry, 3 Surgical interruption of fallopian tube, 4 Thickens cervical mucus and may inhibit ovulation. Choose the correct matching set.",
+    "options": [
+     {
+      "key": "A",
+      "text": "A A–1, B–2, C–3, D–4"
+     },
+     {
+      "key": "B",
+      "text": "B A–4, B–1, C–2, D–3"
+     },
+     {
+      "key": "C",
+      "text": "C A–1, B–3, C–2, D–4"
+     },
+     {
+      "key": "D",
+      "text": "D A–2, B–1, C–3, D–4"
+     }
+    ],
+    "explanation": "Copper IUD acts spermicidally (1), condoms form a barrier (2), tubectomy severs tubes (3), progestin thickens mucus and can inhibit ovulation (4)."
+   },
+   "after": {
+    "stem": "Match List I (contraceptive method) with List II (primary mechanism): List I: A Copper IUD, B Male condom, C Tubectomy, D Progestin pill. List II: 1 Physical barrier preventing sperm entry, 2 Copper ion toxic to sperm/prevents fertilisation, 3 Thickens cervical mucus and may inhibit ovulation, 4 Surgical interruption of fallopian tube. Choose the correct matching set.",
+    "options": [
+     {
+      "key": "A",
+      "text": "A A–2, B–1, C–4, D–3"
+     },
+     {
+      "key": "B",
+      "text": "B A–3, B–2, C–1, D–4"
+     },
+     {
+      "key": "C",
+      "text": "C A–2, B–4, C–1, D–3"
+     },
+     {
+      "key": "D",
+      "text": "D A–1, B–2, C–4, D–3"
+     }
+    ],
+    "explanation": "Copper IUD acts spermicidally (2), condoms form a barrier (1), tubectomy severs tubes (4), progestin thickens mucus and can inhibit ovulation (3)."
+   },
+   "explanationChanged": true,
+   "keyBefore": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [
+     "match_options_not_pairings"
+    ],
+    "structuralAfter": [
+     "match_options_not_pairings"
+    ]
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "3bc7fafa93e813835f6814a18d27ec72",
+   "subject": "business_studies",
+   "chapter": "Business Environment",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    3,
+    2,
+    0,
+    1
+   ],
+   "labelMap": {
+    "D": "A",
+    "C": "B",
+    "A": "C",
+    "B": "D"
+   },
+   "before": {
+    "stem": "Assume a country has political stability and peace. Arrange the following stages in the resulting progression, from the first consequence to the final outcome:\n(A) People gain confidence to invest.\n(B) Investment is made in long-term projects.\n(C) New businesses are created through those projects.\n(D) The economy grows.\nChoose the correct sequence from the options given below:",
+    "options": [
+     "(A), (B), (C), (D)",
+     "(B), (A), (C), (D)",
+     "(A), (C), (B), (D)",
+     "(A), (B), (D), (C)"
+    ],
+    "explanation": "Political stability builds confidence among people to invest. The stated progression then moves from investment in long-term projects to creating new businesses and growth of the economy."
+   },
+   "after": {
+    "stem": "Assume a country has political stability and peace. Arrange the following stages in the resulting progression, from the first consequence to the final outcome:\n(A) The economy grows.\n(B) New businesses are created through those projects.\n(C) People gain confidence to invest.\n(D) Investment is made in long-term projects.\nChoose the correct sequence from the options given below:",
+    "options": [
+     "(C), (D), (B), (A)",
+     "(D), (C), (B), (A)",
+     "(C), (B), (D), (A)",
+     "(C), (D), (A), (B)"
+    ],
+    "explanation": "Political stability builds confidence among people to invest. The stated progression then moves from investment in long-term projects to creating new businesses and growth of the economy."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "3d27077cf078b2c9d27c44a98b86feae",
+   "subject": "accountancy",
+   "chapter": "Retirement & Death of Partner",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    1,
+    3,
+    0
+   ],
+   "labelMap": {
+    "III": "I",
+    "II": "II",
+    "IV": "III",
+    "I": "IV"
+   },
+   "before": {
+    "stem": "Assume all four items below apply and are attributable to the deceased partner. Match List-I with List-II.\n\nList-I\n(A) Deceased partner’s share of accumulated profits (reserves)\n(B) Deceased partner’s share of accumulated losses\n(C) Interest on the deceased partner’s capital up to the date of death\n(D) Interest on the deceased partner’s drawings up to the date of death\n\nList-II\n(I) Included in the deceased partner’s claim as a share of accumulated profits\n(II) Deducted from the deceased partner’s claim as a share of accumulated losses\n(III) Included in the deceased partner’s claim as interest on capital\n(IV) Deducted from the deceased partner’s claim as interest on drawings\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+     "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+    ],
+    "explanation": "The deceased partner’s share of accumulated profits and interest on capital up to the date of death are included in the claim. The share of accumulated losses and interest on drawings are deductions, giving the mapping (A)-(I), (B)-(II), (C)-(III) and (D)-(IV)."
+   },
+   "after": {
+    "stem": "Assume all four items below apply and are attributable to the deceased partner. Match List-I with List-II.\n\nList-I\n(A) Deceased partner’s share of accumulated profits (reserves)\n(B) Deceased partner’s share of accumulated losses\n(C) Interest on the deceased partner’s capital up to the date of death\n(D) Interest on the deceased partner’s drawings up to the date of death\n\nList-II\n(I) Included in the deceased partner’s claim as interest on capital\n(II) Deducted from the deceased partner’s claim as a share of accumulated losses\n(III) Deducted from the deceased partner’s claim as interest on drawings\n(IV) Included in the deceased partner’s claim as a share of accumulated profits\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+     "(A)-(IV), (B)-(II), (C)-(III), (D)-(I)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+     "(A)-(IV), (B)-(II), (C)-(I), (D)-(III)"
+    ],
+    "explanation": "The deceased partner’s share of accumulated profits and interest on capital up to the date of death are included in the claim. The share of accumulated losses and interest on drawings are deductions, giving the mapping (A)-(IV), (B)-(II), (C)-(I) and (D)-(III)."
+   },
+   "explanationChanged": true,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "43406ac6c98c08f1737d73974a91b8ec",
+   "subject": "business_studies",
+   "chapter": "Organising",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    0,
+    3,
+    1
+   ],
+   "labelMap": {
+    "III": "I",
+    "I": "II",
+    "IV": "III",
+    "II": "IV"
+   },
+   "before": {
+    "stem": "A firm groups related jobs into departments according to function. Match each situation in List-I with the corresponding advantage in List-II.\nList-I\n(A) A new employee’s training is limited to a narrow range of skills used in the assigned function.\n(B) A redesign reduces the repeated performance of the same activity by different teams.\n(C) The organisational structure gives a place to each of the firm’s different functions.\n(D) Employees in one department perform similar tasks.\nList-II\n(I) Training becomes easier because the focus is on a limited range of skills.\n(II) Minimal duplication of effort supports economies of scale and lower cost.\n(III) Different functions receive due attention.\n(IV) Similar tasks promote control and coordination within a department.\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+     "(A)-(IV), (B)-(II), (C)-(III), (D)-(I)",
+     "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)"
+    ],
+    "explanation": "A limited range of skills makes training easier, while reducing repeated effort leads to economies of scale and lower cost. Giving each function a place ensures that different functions receive due attention, and similar tasks within a department promote control and coordination."
+   },
+   "after": {
+    "stem": "A firm groups related jobs into departments according to function. Match each situation in List-I with the corresponding advantage in List-II.\nList-I\n(A) A new employee’s training is limited to a narrow range of skills used in the assigned function.\n(B) A redesign reduces the repeated performance of the same activity by different teams.\n(C) The organisational structure gives a place to each of the firm’s different functions.\n(D) Employees in one department perform similar tasks.\nList-II\n(I) Different functions receive due attention.\n(II) Training becomes easier because the focus is on a limited range of skills.\n(III) Similar tasks promote control and coordination within a department.\n(IV) Minimal duplication of effort supports economies of scale and lower cost.\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+     "(A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+     "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)",
+     "(A)-(II), (B)-(IV), (C)-(III), (D)-(I)"
+    ],
+    "explanation": "A limited range of skills makes training easier, while reducing repeated effort leads to economies of scale and lower cost. Giving each function a place ensures that different functions receive due attention, and similar tasks within a department promote control and coordination."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "48d224455d1f1c8c7720bc233da3597f",
+   "subject": "economics",
+   "chapter": "Indian Economic Development 1950–1990",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    3,
+    1,
+    0,
+    2
+   ],
+   "labelMap": {
+    "IV": "I",
+    "II": "II",
+    "I": "III",
+    "III": "IV"
+   },
+   "before": {
+    "stem": "A review records the following observations about agricultural change and development goals. Match each observation in List-I with the most appropriate interpretation in List-II. In (B) and (C), the stated distribution of prosperity is the only distributional information to be considered.\n\nList-I\n(A) Agricultural change associated with HYV seeds brings about a revolution in Indian agriculture.\n(B) Prosperity from agricultural change reaches poor sections as well as the rich.\n(C) Prosperity from agricultural change is enjoyed only by the rich.\n(D) A development assessment treats equity as important alongside growth, modernisation and self-reliance.\n\nList-II\n(I) HYV seeds are linked to an agricultural revolution.\n(II) Equity is reflected in prosperity reaching poor sections as well as the rich.\n(III) The stated equity concern is not met when prosperity is enjoyed only by the rich.\n(IV) Equity is considered alongside the other three stated goals.\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+     "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
+     "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)"
+    ],
+    "explanation": "HYV seeds are associated with a revolution in Indian agriculture, so (A) matches (I). When prosperity reaches poor sections as well as the rich, it reflects the stated equity concern; prosperity enjoyed only by the rich does not. The remaining match treats equity as important alongside growth, modernisation and self-reliance."
+   },
+   "after": {
+    "stem": "A review records the following observations about agricultural change and development goals. Match each observation in List-I with the most appropriate interpretation in List-II. In (B) and (C), the stated distribution of prosperity is the only distributional information to be considered.\n\nList-I\n(A) Agricultural change associated with HYV seeds brings about a revolution in Indian agriculture.\n(B) Prosperity from agricultural change reaches poor sections as well as the rich.\n(C) Prosperity from agricultural change is enjoyed only by the rich.\n(D) A development assessment treats equity as important alongside growth, modernisation and self-reliance.\n\nList-II\n(I) Equity is considered alongside the other three stated goals.\n(II) Equity is reflected in prosperity reaching poor sections as well as the rich.\n(III) HYV seeds are linked to an agricultural revolution.\n(IV) The stated equity concern is not met when prosperity is enjoyed only by the rich.\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(III), (B)-(II), (C)-(IV), (D)-(I)",
+     "(A)-(IV), (B)-(II), (C)-(III), (D)-(I)",
+     "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)",
+     "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)"
+    ],
+    "explanation": "HYV seeds are associated with a revolution in Indian agriculture, so (A) matches (III). When prosperity reaches poor sections as well as the rich, it reflects the stated equity concern; prosperity enjoyed only by the rich does not. The remaining match treats equity as important alongside growth, modernisation and self-reliance."
+   },
+   "explanationChanged": true,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "4d69e552876e65aff448b861f358824b",
+   "subject": "accountancy",
+   "chapter": "Retirement & Death of Partner",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    3,
+    0,
+    2,
+    1
+   ],
+   "labelMap": {
+    "D": "A",
+    "A": "B",
+    "C": "C",
+    "B": "D"
+   },
+   "before": {
+    "stem": "A deceased partner’s claim is being prepared. Assume all applicable credit items and deductions have already been identified and their amounts are known. No other adjustments or payments affect the claim. Arrange the following stages in the order needed to determine and deal with the amount due.\n\n(A) Add the applicable credit items to obtain the gross claim.\n(B) Subtract the applicable deductions from the gross claim to obtain the net amount due.\n(C) Transfer the resulting claim to the deceased partner’s executors.\n(D) Settle the executors’ claim in the same manner as a retired partner’s claim.\n\nChoose the correct sequence:",
+    "options": [
+     "(B), (A), (C), (D)",
+     "(A), (C), (B), (D)",
+     "(A), (B), (D), (C)",
+     "(A), (B), (C), (D)"
+    ],
+    "explanation": "The claim includes applicable credit items, and applicable deductions are then made from it to arrive at the net amount due. In the case of death, that claim is transferred to the deceased partner’s executors and settled in the same manner as a retired partner’s claim."
+   },
+   "after": {
+    "stem": "A deceased partner’s claim is being prepared. Assume all applicable credit items and deductions have already been identified and their amounts are known. No other adjustments or payments affect the claim. Arrange the following stages in the order needed to determine and deal with the amount due.\n\n(A) Settle the executors’ claim in the same manner as a retired partner’s claim.\n(B) Add the applicable credit items to obtain the gross claim.\n(C) Transfer the resulting claim to the deceased partner’s executors.\n(D) Subtract the applicable deductions from the gross claim to obtain the net amount due.\n\nChoose the correct sequence:",
+    "options": [
+     "(D), (B), (C), (A)",
+     "(B), (C), (D), (A)",
+     "(B), (D), (A), (C)",
+     "(B), (D), (C), (A)"
+    ],
+    "explanation": "The claim includes applicable credit items, and applicable deductions are then made from it to arrive at the net amount due. In the case of death, that claim is transferred to the deceased partner’s executors and settled in the same manner as a retired partner’s claim."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "52b9d78d281ebd92bf8a312e697d1130",
+   "subject": "economics",
+   "chapter": "Employment",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    2,
+    1,
+    3,
+    0
+   ],
+   "labelMap": {
+    "C": "A",
+    "B": "B",
+    "D": "C",
+    "A": "D"
+   },
+   "before": {
+    "stem": "Arrange the following groups in descending order of worker-population ratio, from greatest to least. The stated ratio values are:\n(A) Men in urban areas — 56.4\n(B) Men in rural areas — 56.3\n(C) Women in rural areas — 34.8\n(D) Women in urban areas — 20.7\nChoose the correct sequence from the options given below:",
+    "options": [
+     "(B)-(A)-(C)-(D)",
+     "(A)-(B)-(D)-(C)",
+     "(A)-(B)-(C)-(D)",
+     "(D)-(C)-(B)-(A)"
+    ],
+    "explanation": "A higher worker-population ratio indicates greater engagement in economic activities. Since 56.4 > 56.3 > 34.8 > 20.7, the descending order is (A)-(B)-(C)-(D)."
+   },
+   "after": {
+    "stem": "Arrange the following groups in descending order of worker-population ratio, from greatest to least. The stated ratio values are:\n(A) Women in rural areas — 34.8\n(B) Men in rural areas — 56.3\n(C) Women in urban areas — 20.7\n(D) Men in urban areas — 56.4\nChoose the correct sequence from the options given below:",
+    "options": [
+     "(B)-(D)-(A)-(C)",
+     "(D)-(B)-(C)-(A)",
+     "(D)-(B)-(A)-(C)",
+     "(C)-(A)-(B)-(D)"
+    ],
+    "explanation": "A higher worker-population ratio indicates greater engagement in economic activities. Since 56.4 > 56.3 > 34.8 > 20.7, the descending order is (D)-(B)-(A)-(C)."
+   },
+   "explanationChanged": true,
+   "keyBefore": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "5482e7dfb92bb644e603093b75664fe7",
+   "subject": "business_studies",
+   "chapter": "Marketing Management",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    3,
+    1,
+    0,
+    2
+   ],
+   "labelMap": {
+    "IV": "I",
+    "II": "II",
+    "I": "III",
+    "III": "IV"
+   },
+   "before": {
+    "stem": "Match List-I with List-II.\n\nList-I\n(A) A firm has a larger number of warehouses serving customers at different locations.\n(B) An agricultural product requires long-term storage.\n(C) A product, such as machinery, is bulky and difficult to ship.\n(D) A product, such as bakery goods, is perishable.\n\nList-II\n(I) A larger warehouse count is generally associated with less time to serve customers at different locations and greater warehousing cost.\n(II) Warehouses are located near production sites to help minimise charges on transporting the goods.\n(III) Warehouses are placed at different locations near the market in view of bulk and shipping difficulty.\n(IV) Warehouses are placed at different locations near the market for a perishable product.\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+     "(A)-(IV), (B)-(II), (C)-(III), (D)-(I)"
+    ],
+    "explanation": "A larger number of warehouses is generally associated with less time to serve customers at different locations but greater warehousing cost, so (A) matches (I). Long-term storage of agricultural products is associated with warehouses near production sites to help minimise transportation charges, so (B) matches (II). Bulky, hard-to-ship products and perishable products are both kept at different locations near the market, matching (C) with (III) and (D) with (IV)."
+   },
+   "after": {
+    "stem": "Match List-I with List-II.\n\nList-I\n(A) A firm has a larger number of warehouses serving customers at different locations.\n(B) An agricultural product requires long-term storage.\n(C) A product, such as machinery, is bulky and difficult to ship.\n(D) A product, such as bakery goods, is perishable.\n\nList-II\n(I) Warehouses are placed at different locations near the market for a perishable product.\n(II) Warehouses are located near production sites to help minimise charges on transporting the goods.\n(III) A larger warehouse count is generally associated with less time to serve customers at different locations and greater warehousing cost.\n(IV) Warehouses are placed at different locations near the market in view of bulk and shipping difficulty.\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(III), (B)-(II), (C)-(IV), (D)-(I)",
+     "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+     "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)"
+    ],
+    "explanation": "A larger number of warehouses is generally associated with less time to serve customers at different locations but greater warehousing cost, so (A) matches (III). Long-term storage of agricultural products is associated with warehouses near production sites to help minimise transportation charges, so (B) matches (II). Bulky, hard-to-ship products and perishable products are both kept at different locations near the market, matching (C) with (IV) and (D) with (I)."
+   },
+   "explanationChanged": true,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "559f599c8fa9caddcb113a5b81282e96",
+   "subject": "economics",
+   "chapter": "Employment",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    0,
+    3,
+    1,
+    2
+   ],
+   "labelMap": {
+    "A": "A",
+    "D": "B",
+    "B": "C",
+    "C": "D"
+   },
+   "before": {
+    "stem": "Arrange the statements in the logical order of the concluding argument, with the government response at the end.\n(A) The structure of the workforce in India has changed.\n(B) Newly emerging jobs are found mostly in the service sector.\n(C) Growth in domestic product is not accompanied by a simultaneous increase in employment opportunities.\n(D) The government takes initiatives to generate employment opportunities, particularly in rural areas.\nChoose the correct sequence from the options given below:",
+    "options": [
+     "(A), (C), (B), (D)",
+     "(A), (B), (C), (D)",
+     "(B), (A), (C), (D)",
+     "(A), (B), (D), (C)"
+    ],
+    "explanation": "The sequence is (A)-(B)-(C)-(D): it moves from the change in workforce structure to where newly emerging jobs are mostly found, then to the lack of a matching increase in employment opportunities alongside domestic-product growth. The stated government initiatives, particularly in rural areas, follow as the response to that employment concern."
+   },
+   "after": {
+    "stem": "Arrange the statements in the logical order of the concluding argument, with the government response at the end.\n(A) The structure of the workforce in India has changed.\n(B) The government takes initiatives to generate employment opportunities, particularly in rural areas.\n(C) Newly emerging jobs are found mostly in the service sector.\n(D) Growth in domestic product is not accompanied by a simultaneous increase in employment opportunities.\nChoose the correct sequence from the options given below:",
+    "options": [
+     "(A), (D), (C), (B)",
+     "(A), (C), (D), (B)",
+     "(C), (A), (D), (B)",
+     "(A), (C), (B), (D)"
+    ],
+    "explanation": "The sequence is (A)-(C)-(D)-(B): it moves from the change in workforce structure to where newly emerging jobs are mostly found, then to the lack of a matching increase in employment opportunities alongside domestic-product growth. The stated government initiatives, particularly in rural areas, follow as the response to that employment concern."
+   },
+   "explanationChanged": true,
+   "keyBefore": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "5740306fa88c829b6907f6410bb4e246",
+   "subject": "economics",
+   "chapter": "Employment",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "labelMap": {
+    "B": "A",
+    "D": "B",
+    "A": "C",
+    "C": "D"
+   },
+   "before": {
+    "stem": "A private-sector establishment initially employs 10 hired workers. One hired worker then leaves, and the establishment continues with 9 hired workers. Arrange the following statements in the correct sequence, from the initial situation to the classification of the remaining workers.\n(A) The establishment employs 10 hired workers and is a formal-sector establishment.\n(B) One hired worker leaves, reducing the number of hired workers to 9.\n(C) With 9 hired workers, the establishment no longer meets the stated threshold for formal-sector status.\n(D) The remaining workers are classified as informal-sector workers.\nChoose the correct sequence from the options given below:",
+    "options": [
+     "(A)-(C)-(B)-(D)",
+     "(A)-(B)-(C)-(D)",
+     "(B)-(A)-(C)-(D)",
+     "(A)-(B)-(D)-(C)"
+    ],
+    "explanation": "A private establishment employing 10 hired workers meets the stated threshold for formal-sector status. After one worker leaves, it employs 9, so it is among the other enterprises classified as informal, along with the workers employed there. The correct sequence is (A)-(B)-(C)-(D)."
+   },
+   "after": {
+    "stem": "A private-sector establishment initially employs 10 hired workers. One hired worker then leaves, and the establishment continues with 9 hired workers. Arrange the following statements in the correct sequence, from the initial situation to the classification of the remaining workers.\n(A) One hired worker leaves, reducing the number of hired workers to 9.\n(B) The remaining workers are classified as informal-sector workers.\n(C) The establishment employs 10 hired workers and is a formal-sector establishment.\n(D) With 9 hired workers, the establishment no longer meets the stated threshold for formal-sector status.\nChoose the correct sequence from the options given below:",
+    "options": [
+     "(C)-(D)-(A)-(B)",
+     "(C)-(A)-(D)-(B)",
+     "(A)-(C)-(D)-(B)",
+     "(C)-(A)-(B)-(D)"
+    ],
+    "explanation": "A private establishment employing 10 hired workers meets the stated threshold for formal-sector status. After one worker leaves, it employs 9, so it is among the other enterprises classified as informal, along with the workers employed there. The correct sequence is (C)-(A)-(D)-(B)."
+   },
+   "explanationChanged": true,
+   "keyBefore": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "5bde762f1a36a3a7d894f0aa45f655e9",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    3,
+    1,
+    0
+   ],
+   "labelMap": {
+    "III": "I",
+    "IV": "II",
+    "II": "III",
+    "I": "IV"
+   },
+   "before": {
+    "stem": "In each independent case, a new partner brings a cash premium for goodwill, and the existing partners sacrifice part of their shares. Match each situation in List-I with its accounting treatment in List-II.\n\nList-I\n(A) The new partner pays the premium directly and privately to the existing partners.\n(B) The premium is received through the firm and initially credited to Premium for Goodwill A/c.\n(C) The premium is received through the firm and initially credited to the new partner’s capital account before distribution to the sacrificing partners.\n(D) The premium has been credited to the existing partners’ capital accounts in their sacrificing ratio, and they retain the amount in the business.\n\nList-II\n(I) No entry is passed in the firm’s books.\n(II) Bank A/c Dr. to Premium for Goodwill A/c; then Goodwill A/c Dr. to the sacrificing partners’ capital accounts individually.\n(III) Bank A/c Dr. to the new partner’s capital account; then the new partner’s capital account Dr. to the sacrificing partners’ capital accounts individually.\n(IV) No additional entry is passed for retaining the credited amounts in the business.\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+     "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+    ],
+    "explanation": "A premium paid directly and privately to the existing partners requires no entry in the firm’s books. When the premium is received through the firm, the entries depend on whether it is credited initially to Premium for Goodwill A/c or to the new partner’s capital account. If the credited amounts are retained in the business, no additional entry is passed."
+   },
+   "after": {
+    "stem": "In each independent case, a new partner brings a cash premium for goodwill, and the existing partners sacrifice part of their shares. Match each situation in List-I with its accounting treatment in List-II.\n\nList-I\n(A) The new partner pays the premium directly and privately to the existing partners.\n(B) The premium is received through the firm and initially credited to Premium for Goodwill A/c.\n(C) The premium is received through the firm and initially credited to the new partner’s capital account before distribution to the sacrificing partners.\n(D) The premium has been credited to the existing partners’ capital accounts in their sacrificing ratio, and they retain the amount in the business.\n\nList-II\n(I) Bank A/c Dr. to the new partner’s capital account; then the new partner’s capital account Dr. to the sacrificing partners’ capital accounts individually.\n(II) No additional entry is passed for retaining the credited amounts in the business.\n(III) Bank A/c Dr. to Premium for Goodwill A/c; then Goodwill A/c Dr. to the sacrificing partners’ capital accounts individually.\n(IV) No entry is passed in the firm’s books.\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+     "(A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+     "(A)-(I), (B)-(III), (C)-(IV), (D)-(II)",
+     "(A)-(IV), (B)-(III), (C)-(I), (D)-(II)"
+    ],
+    "explanation": "A premium paid directly and privately to the existing partners requires no entry in the firm’s books. When the premium is received through the firm, the entries depend on whether it is credited initially to Premium for Goodwill A/c or to the new partner’s capital account. If the credited amounts are retained in the business, no additional entry is passed."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "5f649f52cbfb1439a77ef9b48ba42e8b",
+   "subject": "business_studies",
+   "chapter": "Controlling",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "labelMap": {
+    "B": "A",
+    "A": "B",
+    "D": "C",
+    "C": "D"
+   },
+   "before": {
+    "stem": "A firm is establishing a control procedure for one key result area. The manager must set up the procedure and then handle a deviation that qualifies for managerial attention. Arrange the following stages from earliest to latest:\n(A) Set the critical point and permissible limit for the key result area.\n(B) Identify a deviation that requires managerial attention by assessing it against the permissible limit.\n(C) Bring the significant deviation beyond the permissible limit to management’s notice.\n(D) Analyse the causes of the deviation requiring managerial attention.\nChoose the correct sequence from the options given below:",
+    "options": [
+     "(A), (B), (C), (D)",
+     "(B), (A), (C), (D)",
+     "(A), (C), (B), (D)",
+     "(A), (B), (D), (C)"
+    ],
+    "explanation": "The manager first establishes the critical point and permissible limit, then identifies which deviation requires attention. A deviation beyond that limit is brought to management’s notice, and the identified deviation is then analysed for its causes. The other sequences place identification before setting the limit, notification before confirming the deviation qualifies, or cause analysis before notification."
+   },
+   "after": {
+    "stem": "A firm is establishing a control procedure for one key result area. The manager must set up the procedure and then handle a deviation that qualifies for managerial attention. Arrange the following stages from earliest to latest:\n(A) Identify a deviation that requires managerial attention by assessing it against the permissible limit.\n(B) Set the critical point and permissible limit for the key result area.\n(C) Analyse the causes of the deviation requiring managerial attention.\n(D) Bring the significant deviation beyond the permissible limit to management’s notice.\nChoose the correct sequence from the options given below:",
+    "options": [
+     "(B), (A), (D), (C)",
+     "(A), (B), (D), (C)",
+     "(B), (D), (A), (C)",
+     "(B), (A), (C), (D)"
+    ],
+    "explanation": "The manager first establishes the critical point and permissible limit, then identifies which deviation requires attention. A deviation beyond that limit is brought to management’s notice, and the identified deviation is then analysed for its causes. The other sequences place identification before setting the limit, notification before confirming the deviation qualifies, or cause analysis before notification."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "63d0bf8816190dc2b39ed3a6956ef437",
+   "subject": "business_studies",
+   "chapter": "Organising",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    3,
+    1,
+    0,
+    2
+   ],
+   "labelMap": {
+    "D": "A",
+    "B": "B",
+    "A": "C",
+    "C": "D"
+   },
+   "before": {
+    "stem": "In a workplace, employees form social ties through interaction and use those ties to communicate about a proposal. Assume the communication uses an informal network rather than a planned route. Arrange the following events in a logically supported sequence, from the origin of the network to its communication outcome.\n(A) Employees interact socially.\n(B) A network of social relationships arises from their interaction.\n(C) Communication takes place through a route that is not planned.\n(D) Information spreads faster and feedback is quick.",
+    "options": [
+     "(A), (C), (B), (D)",
+     "(A), (B), (C), (D)",
+     "(B), (A), (C), (D)",
+     "(A), (B), (D), (C)"
+    ],
+    "explanation": "Social interaction gives rise to the informal network, which can carry communication through an unplanned route. The communication advantage follows: information spreads faster and feedback is quick. The other sequences place communication before the network, the network before its stated origin, or the outcome before the communication."
+   },
+   "after": {
+    "stem": "In a workplace, employees form social ties through interaction and use those ties to communicate about a proposal. Assume the communication uses an informal network rather than a planned route. Arrange the following events in a logically supported sequence, from the origin of the network to its communication outcome.\n(A) Information spreads faster and feedback is quick.\n(B) A network of social relationships arises from their interaction.\n(C) Employees interact socially.\n(D) Communication takes place through a route that is not planned.",
+    "options": [
+     "(C), (D), (B), (A)",
+     "(C), (B), (D), (A)",
+     "(B), (C), (D), (A)",
+     "(C), (B), (A), (D)"
+    ],
+    "explanation": "Social interaction gives rise to the informal network, which can carry communication through an unplanned route. The communication advantage follows: information spreads faster and feedback is quick. The other sequences place communication before the network, the network before its stated origin, or the outcome before the communication."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "6cb91dc50c0e981ac4c14fcd7b9c15f0",
+   "subject": "accountancy",
+   "chapter": "Share Capital",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    1,
+    0,
+    5,
+    2,
+    4,
+    3
+   ],
+   "labelMap": {
+    "II": "I",
+    "I": "II",
+    "VI": "III",
+    "III": "IV",
+    "V": "V",
+    "IV": "VI"
+   },
+   "before": {
+    "stem": "A company has authorised 12,000 shares of ₹10 each. It issues all 10,000 shares offered to the public. Applications are received for 9,000 shares, and those 9,000 shares are allotted. The company calls ₹6 per allotted share and receives ₹48,600 in total against this call. No other amount has been called or received. Arrange the following capital amounts from largest to smallest:\n(I) Authorised capital\n(II) Issued capital\n(III) Subscribed capital\n(IV) Called-up capital\n(V) Paid-up capital\n(VI) Uncalled capital\nChoose the correct answer from the options given below:",
+    "options": [
+     "(I), (II), (III), (VI), (IV), (V)",
+     "(I), (II), (III), (IV), (VI), (V)",
+     "(I), (II), (III), (IV), (V), (VI)",
+     "(I), (III), (II), (IV), (V), (VI)"
+    ],
+    "explanation": "The amounts are authorised capital ₹1,20,000, issued capital ₹1,00,000, subscribed capital ₹90,000, called-up capital ₹54,000, paid-up capital ₹48,600, and uncalled capital ₹36,000. The uncalled amount is the subscribed capital not yet called: ₹90,000 − ₹54,000. In descending order, the amounts correspond to (I), (II), (III), (IV), (V) and (VI)."
+   },
+   "after": {
+    "stem": "A company has authorised 12,000 shares of ₹10 each. It issues all 10,000 shares offered to the public. Applications are received for 9,000 shares, and those 9,000 shares are allotted. The company calls ₹6 per allotted share and receives ₹48,600 in total against this call. No other amount has been called or received. Arrange the following capital amounts from largest to smallest:\n(I) Issued capital\n(II) Authorised capital\n(III) Uncalled capital\n(IV) Subscribed capital\n(V) Paid-up capital\n(VI) Called-up capital\nChoose the correct answer from the options given below:",
+    "options": [
+     "(II), (I), (IV), (III), (VI), (V)",
+     "(II), (I), (IV), (VI), (III), (V)",
+     "(II), (I), (IV), (VI), (V), (III)",
+     "(II), (IV), (I), (VI), (V), (III)"
+    ],
+    "explanation": "The amounts are authorised capital ₹1,20,000, issued capital ₹1,00,000, subscribed capital ₹90,000, called-up capital ₹54,000, paid-up capital ₹48,600, and uncalled capital ₹36,000. The uncalled amount is the subscribed capital not yet called: ₹90,000 − ₹54,000. In descending order, the amounts correspond to (II), (I), (IV), (VI), (V) and (III)."
+   },
+   "explanationChanged": true,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "6fab29cd296a469da2128386c355f75b",
+   "subject": "economics",
+   "chapter": "Rural Development",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    3,
+    2,
+    0,
+    1
+   ],
+   "labelMap": {
+    "IV": "I",
+    "III": "II",
+    "I": "III",
+    "II": "IV"
+   },
+   "before": {
+    "stem": "Match each item in List-I with its corresponding implication in List-II.\nList-I\n(A) Dependence exclusively on farming for livelihood\n(B) The Rabi season in an area with inadequate irrigation facilities\n(C) Diversification towards new areas\n(D) Expansion into other sectors\nList-II\n(I) Greater risk from depending exclusively on farming for livelihood\n(II) Difficulty finding gainful employment\n(III) Reduced risk from the agriculture sector and productive, sustainable livelihood options\n(IV) Supplementary gainful employment and higher income\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(IV), (C)-(II), (D)-(III)"
+    ],
+    "explanation": "Exclusive dependence on farming is associated with greater livelihood risk, while inadequate irrigation during the Rabi season can make it difficult to find gainful employment. Diversification towards new areas can reduce agriculture-sector risk and provide productive, sustainable livelihood options. Expansion into other sectors is described as a way to provide supplementary gainful employment and help realise higher income levels. Thus, the mapping is A-I, B-II, C-III and D-IV."
+   },
+   "after": {
+    "stem": "Match each item in List-I with its corresponding implication in List-II.\nList-I\n(A) Dependence exclusively on farming for livelihood\n(B) The Rabi season in an area with inadequate irrigation facilities\n(C) Diversification towards new areas\n(D) Expansion into other sectors\nList-II\n(I) Supplementary gainful employment and higher income\n(II) Reduced risk from the agriculture sector and productive, sustainable livelihood options\n(III) Greater risk from depending exclusively on farming for livelihood\n(IV) Difficulty finding gainful employment\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+     "(A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+     "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)",
+     "(A)-(III), (B)-(I), (C)-(IV), (D)-(II)"
+    ],
+    "explanation": "Exclusive dependence on farming is associated with greater livelihood risk, while inadequate irrigation during the Rabi season can make it difficult to find gainful employment. Diversification towards new areas can reduce agriculture-sector risk and provide productive, sustainable livelihood options. Expansion into other sectors is described as a way to provide supplementary gainful employment and help realise higher income levels. Thus, the mapping is A-III, B-IV, C-II and D-I."
+   },
+   "explanationChanged": true,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "714de597221c734abca065eeda2bb6f8",
+   "subject": "business_studies",
+   "chapter": "Staffing",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    3,
+    0,
+    1,
+    2
+   ],
+   "labelMap": {
+    "D": "A",
+    "A": "B",
+    "B": "C",
+    "C": "D"
+   },
+   "before": {
+    "stem": "Arrange the following stages in the order in which staffing responsibility is described as an organisation moves from a small organisation to a larger one:\n(A) Managers in a small organisation may handle employees’ salaries, welfare and working conditions.\n(B) The organisation grows and the number of persons employed increases.\n(C) A separate human resource department is formed.\n(D) Specialists in that department manage people.\nChoose the correct sequence:",
+    "options": [
+     "(B)-(A)-(C)-(D)",
+     "(A)-(C)-(B)-(D)",
+     "(A)-(B)-(D)-(C)",
+     "(A)-(B)-(C)-(D)"
+    ],
+    "explanation": "At the small scale, managers may handle duties related to employees’ salaries, welfare and working conditions. As the organisation grows and employs more people, a separate human resource department is formed, with specialists to manage people. The resulting order is (A)-(B)-(C)-(D)."
+   },
+   "after": {
+    "stem": "Arrange the following stages in the order in which staffing responsibility is described as an organisation moves from a small organisation to a larger one:\n(A) Specialists in that department manage people.\n(B) Managers in a small organisation may handle employees’ salaries, welfare and working conditions.\n(C) The organisation grows and the number of persons employed increases.\n(D) A separate human resource department is formed.\nChoose the correct sequence:",
+    "options": [
+     "(C)-(B)-(D)-(A)",
+     "(B)-(D)-(C)-(A)",
+     "(B)-(C)-(A)-(D)",
+     "(B)-(C)-(D)-(A)"
+    ],
+    "explanation": "At the small scale, managers may handle duties related to employees’ salaries, welfare and working conditions. As the organisation grows and employs more people, a separate human resource department is formed, with specialists to manage people. The resulting order is (B)-(C)-(D)-(A)."
+   },
+   "explanationChanged": true,
+   "keyBefore": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "73c3c2cd2255cbbb03c466b8b3a89273",
+   "subject": "business_studies",
+   "chapter": "Planning",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    0,
+    3,
+    1
+   ],
+   "labelMap": {
+    "III": "I",
+    "I": "II",
+    "IV": "III",
+    "II": "IV"
+   },
+   "before": {
+    "stem": "Match List-I with List-II.\n\nList-I\n(A) The role of objectives in planning\n(B) The future position management seeks to reach\n(C) The required quantitative expression of objectives\n(D) The period attached to a statement of desired results\n\nList-II\n(I) Objectives represent the end point of planning.\n(II) Objectives describe a desired future position.\n(III) Objectives should be measurable in quantitative terms.\n(IV) Desired results are to be achieved within a given time period.\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(III), (C)-(IV), (D)-(II)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+     "(A)-(IV), (B)-(II), (C)-(I), (D)-(III)"
+    ],
+    "explanation": "Objectives represent the end point of planning, while also describing the future position management would like to reach. They should be measurable in quantitative terms, and state desired results to be achieved within a given time period. These links correspond to (A)-(I), (B)-(II), (C)-(III) and (D)-(IV)."
+   },
+   "after": {
+    "stem": "Match List-I with List-II.\n\nList-I\n(A) The role of objectives in planning\n(B) The future position management seeks to reach\n(C) The required quantitative expression of objectives\n(D) The period attached to a statement of desired results\n\nList-II\n(I) Objectives should be measurable in quantitative terms.\n(II) Objectives represent the end point of planning.\n(III) Desired results are to be achieved within a given time period.\n(IV) Objectives describe a desired future position.\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(IV), (B)-(II), (C)-(I), (D)-(III)",
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+     "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)"
+    ],
+    "explanation": "Objectives represent the end point of planning, while also describing the future position management would like to reach. They should be measurable in quantitative terms, and state desired results to be achieved within a given time period. These links correspond to (A)-(II), (B)-(IV), (C)-(I) and (D)-(III)."
+   },
+   "explanationChanged": true,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "74bee44cf60bb259dda6590b3cf1ffdf",
+   "subject": "economics",
+   "chapter": "Balance of Payments",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    0,
+    3,
+    1,
+    2
+   ],
+   "labelMap": {
+    "A": "A",
+    "D": "B",
+    "B": "C",
+    "C": "D"
+   },
+   "before": {
+    "stem": "A report writer is arranging the reasoning that explains the third element of the Balance of Payments (BoP). Arrange the steps in a logical order, beginning with the current and capital accounts.\n(A) Set out the current and capital accounts as the BoP elements already named in the description.\n(B) Note that it is difficult to record all international transactions accurately.\n(C) Introduce an additional, third BoP element to reflect the recording difficulty.\n(D) Name that third element errors and omissions.\nChoose the correct sequence:",
+    "options": [
+     "(B), (A), (C), (D)",
+     "(A), (C), (B), (D)",
+     "(C), (A), (D), (B)",
+     "(A), (B), (C), (D)"
+    ],
+    "explanation": "Begin with the current and capital accounts, then recognise the difficulty of recording all international transactions accurately. The BoP includes a third element, errors and omissions, which reflects that difficulty."
+   },
+   "after": {
+    "stem": "A report writer is arranging the reasoning that explains the third element of the Balance of Payments (BoP). Arrange the steps in a logical order, beginning with the current and capital accounts.\n(A) Set out the current and capital accounts as the BoP elements already named in the description.\n(B) Name that third element errors and omissions.\n(C) Note that it is difficult to record all international transactions accurately.\n(D) Introduce an additional, third BoP element to reflect the recording difficulty.\nChoose the correct sequence:",
+    "options": [
+     "(C), (A), (D), (B)",
+     "(A), (D), (C), (B)",
+     "(D), (A), (B), (C)",
+     "(A), (C), (D), (B)"
+    ],
+    "explanation": "Begin with the current and capital accounts, then recognise the difficulty of recording all international transactions accurately. The BoP includes a third element, errors and omissions, which reflects that difficulty."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "7714c60329545f7b4effbd1021ff7c18",
+   "subject": "accountancy",
+   "chapter": "Share Capital",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "labelMap": {
+    "II": "I",
+    "I": "II",
+    "IV": "III",
+    "III": "IV"
+   },
+   "before": {
+    "stem": "A company forfeits 100 shares of ₹10 each, issued at par. The full ₹10 per share has been called up. Each shareholder paid ₹3 per share on application but did not pay the ₹2 per share allotment money or the ₹5 per share call money. No other amount is unpaid.\n\nMatch each account and entry direction in List-I with the amount to be recorded in the forfeiture entry in List-II.\n\nList-I\n(A) Share Capital A/c (Dr.)\n(B) Share Forfeiture A/c (Cr.)\n(C) Share Allotment A/c (Cr.)\n(D) Share Calls A/c (Cr.)\n\nList-II\n(I) ₹1,000\n(II) ₹300\n(III) ₹200\n(IV) ₹500\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+     "(A)-(IV), (B)-(II), (C)-(III), (D)-(I)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+    ],
+    "explanation": "Share Capital is debited with the called-up amount: 100 × ₹10 = ₹1,000. Share Forfeiture is credited with the amount received: 100 × ₹3 = ₹300. The unpaid allotment and call amounts are credited to their respective accounts: 100 × ₹2 = ₹200 and 100 × ₹5 = ₹500, respectively."
+   },
+   "after": {
+    "stem": "A company forfeits 100 shares of ₹10 each, issued at par. The full ₹10 per share has been called up. Each shareholder paid ₹3 per share on application but did not pay the ₹2 per share allotment money or the ₹5 per share call money. No other amount is unpaid.\n\nMatch each account and entry direction in List-I with the amount to be recorded in the forfeiture entry in List-II.\n\nList-I\n(A) Share Capital A/c (Dr.)\n(B) Share Forfeiture A/c (Cr.)\n(C) Share Allotment A/c (Cr.)\n(D) Share Calls A/c (Cr.)\n\nList-II\n(I) ₹300\n(II) ₹1,000\n(III) ₹500\n(IV) ₹200\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
+     "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)"
+    ],
+    "explanation": "Share Capital is debited with the called-up amount: 100 × ₹10 = ₹1,000. Share Forfeiture is credited with the amount received: 100 × ₹3 = ₹300. The unpaid allotment and call amounts are credited to their respective accounts: 100 × ₹2 = ₹200 and 100 × ₹5 = ₹500, respectively."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "7b4662c4e2166c62f863a6ae1da78ba6",
+   "subject": "accountancy",
+   "chapter": "Partnership Fundamentals",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    2,
+    3,
+    0,
+    1
+   ],
+   "labelMap": {
+    "C": "A",
+    "D": "B",
+    "A": "C",
+    "B": "D"
+   },
+   "before": {
+    "stem": "A partner’s capital accounts are maintained under the fixed capital method. The transactions being considered are capital introduced or withdrawn, share of profit, drawings, interest on capital and interest on drawings. Arrange the following reasoning steps in a coherent order, from identifying the method to determining the treatment of transactions and the resulting capital-account balance:\n(A) Identify the stipulated method as the fixed capital method.\n(B) Maintain a separate Capital Account and Current Account for the partner.\n(C) Allocate capital introductions or withdrawals to the Capital Account and the other listed transactions to the Current Account.\n(D) Conclude that the Capital Account changes only for capital introductions or withdrawals.\nChoose the correct sequence.",
+    "options": [
+     "(A), (C), (B), (D)",
+     "(A), (B), (C), (D)",
+     "(B), (A), (C), (D)",
+     "(A), (B), (D), (C)"
+    ],
+    "explanation": "Under the fixed capital method, separate Capital and Current Accounts are maintained. Capital introductions or withdrawals affect the Capital Account, while the other listed partner transactions are recorded in the Current Account. The coherent reasoning therefore identifies the method, establishes the two accounts, allocates the transactions, and then states the effect on the capital balance."
+   },
+   "after": {
+    "stem": "A partner’s capital accounts are maintained under the fixed capital method. The transactions being considered are capital introduced or withdrawn, share of profit, drawings, interest on capital and interest on drawings. Arrange the following reasoning steps in a coherent order, from identifying the method to determining the treatment of transactions and the resulting capital-account balance:\n(A) Allocate capital introductions or withdrawals to the Capital Account and the other listed transactions to the Current Account.\n(B) Conclude that the Capital Account changes only for capital introductions or withdrawals.\n(C) Identify the stipulated method as the fixed capital method.\n(D) Maintain a separate Capital Account and Current Account for the partner.\nChoose the correct sequence.",
+    "options": [
+     "(C), (A), (D), (B)",
+     "(C), (D), (A), (B)",
+     "(D), (C), (A), (B)",
+     "(C), (D), (B), (A)"
+    ],
+    "explanation": "Under the fixed capital method, separate Capital and Current Accounts are maintained. Capital introductions or withdrawals affect the Capital Account, while the other listed partner transactions are recorded in the Current Account. The coherent reasoning therefore identifies the method, establishes the two accounts, allocates the transactions, and then states the effect on the capital balance."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "7c9d79eb923e3c7cd31062b712f4f196",
+   "outcome": "skip",
+   "reasons": [
+    "not_a_listed_order_key"
+   ],
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "7e7fd38d335993753a03453ae8d818f7",
+   "subject": "economics",
+   "chapter": "Introduction & Theory of Consumer Behaviour",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    0,
+    3,
+    1
+   ],
+   "labelMap": {
+    "III": "I",
+    "I": "II",
+    "IV": "III",
+    "II": "IV"
+   },
+   "before": {
+    "stem": "For each case below, consumer income is unchanged. Match each price change with its effect on the slope of the budget line.\n\nList-I\n(A) The price of bananas rises while the price of mangoes remains unchanged.\n(B) The price of bananas falls while the price of mangoes remains unchanged.\n(C) The prices of both bananas and mangoes remain unchanged.\n(D) The prices of both bananas and mangoes rise, but their proportional increases are not stated.\n\nList-II\n(I) The budget line becomes steeper.\n(II) The budget line becomes flatter.\n(III) The slope of the budget line remains unchanged.\n(IV) The direction of the change in slope cannot be determined from the stated information.\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+     "(A)-(I), (B)-(IV), (C)-(III), (D)-(II)"
+    ],
+    "explanation": "With the price of mangoes unchanged, a rise in the price of bananas makes the budget line steeper, while a fall makes it flatter. If neither price changes, the price ratio and hence the slope remain unchanged. When both prices rise by unspecified proportions, their price ratio may change in different directions or remain the same, so the direction of the slope change cannot be determined."
+   },
+   "after": {
+    "stem": "For each case below, consumer income is unchanged. Match each price change with its effect on the slope of the budget line.\n\nList-I\n(A) The price of bananas rises while the price of mangoes remains unchanged.\n(B) The price of bananas falls while the price of mangoes remains unchanged.\n(C) The prices of both bananas and mangoes remain unchanged.\n(D) The prices of both bananas and mangoes rise, but their proportional increases are not stated.\n\nList-II\n(I) The slope of the budget line remains unchanged.\n(II) The budget line becomes steeper.\n(III) The direction of the change in slope cannot be determined from the stated information.\n(IV) The budget line becomes flatter.\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+     "(A)-(IV), (B)-(II), (C)-(I), (D)-(III)",
+     "(A)-(II), (B)-(IV), (C)-(III), (D)-(I)",
+     "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)"
+    ],
+    "explanation": "With the price of mangoes unchanged, a rise in the price of bananas makes the budget line steeper, while a fall makes it flatter. If neither price changes, the price ratio and hence the slope remain unchanged. When both prices rise by unspecified proportions, their price ratio may change in different directions or remain the same, so the direction of the slope change cannot be determined."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "864f95c5082df34b7069a666787820bb",
+   "subject": "business_studies",
+   "chapter": "Principles of Management",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    3,
+    0,
+    1
+   ],
+   "labelMap": {
+    "III": "I",
+    "IV": "II",
+    "I": "III",
+    "II": "IV"
+   },
+   "before": {
+    "stem": "Match List-I with List-II:\nList-I\n(A) Science, not the rule of thumb\n(B) Harmony, not discord\n(C) Cooperation, not individualism\n(D) Development of each person to greatest efficiency and prosperity\nList-II\n(I) A manager rejects a method chosen solely because it is customary and selects one supported by scientific study.\n(II) Managers and workers seek harmonious relations rather than discord.\n(III) Workers and managers coordinate their efforts instead of acting individually.\n(IV) A manager develops each employee towards the greatest efficiency and prosperity.\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+    ],
+    "explanation": "The customary method is contrasted with a scientifically supported method, matching science rather than the rule of thumb. The other cases correspond respectively to harmony, cooperation, and developing each person to greatest efficiency and prosperity."
+   },
+   "after": {
+    "stem": "Match List-I with List-II:\nList-I\n(A) Science, not the rule of thumb\n(B) Harmony, not discord\n(C) Cooperation, not individualism\n(D) Development of each person to greatest efficiency and prosperity\nList-II\n(I) Workers and managers coordinate their efforts instead of acting individually.\n(II) A manager develops each employee towards the greatest efficiency and prosperity.\n(III) A manager rejects a method chosen solely because it is customary and selects one supported by scientific study.\n(IV) Managers and workers seek harmonious relations rather than discord.\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
+     "(A)-(IV), (B)-(III), (C)-(I), (D)-(II)",
+     "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)",
+     "(A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+    ],
+    "explanation": "The customary method is contrasted with a scientifically supported method, matching science rather than the rule of thumb. The other cases correspond respectively to harmony, cooperation, and developing each person to greatest efficiency and prosperity."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "89cfa7dc25a1ec3a95e633660a40ce0d",
+   "subject": "business_studies",
+   "chapter": "Consumer Protection",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "hold",
+   "reasons": [
+    "options_printed_in_stem"
+   ],
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "8a22899760eeac80109c033f919d3933",
+   "subject": "economics",
+   "chapter": "Rural Development",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    1,
+    2,
+    0,
+    3
+   ],
+   "labelMap": {
+    "B": "A",
+    "C": "B",
+    "A": "C",
+    "D": "D"
+   },
+   "before": {
+    "stem": "Arrange the statements in the logical order of the problem-to-response progression described below.\n(A) Conventional agriculture relies on chemical fertilisers and toxic pesticides.\n(B) These inputs enter the food supply and water sources, harm livestock, deplete soil and damage natural ecosystems.\n(C) Eco-friendly technologies are needed for sustainable development.\n(D) Organic farming is identified as one such eco-friendly technology.\nChoose the correct sequence:",
+    "options": [
+     "(B), (A), (C), (D)",
+     "(A), (C), (B), (D)",
+     "(A), (B), (D), (C)",
+     "(A), (B), (C), (D)"
+    ],
+    "explanation": "The sequence begins with the use of chemical inputs and then gives their stated effects on food, water, livestock, soil and ecosystems. Those effects lead to the need for eco-friendly technologies, with organic farming identified as one such technology."
+   },
+   "after": {
+    "stem": "Arrange the statements in the logical order of the problem-to-response progression described below.\n(A) These inputs enter the food supply and water sources, harm livestock, deplete soil and damage natural ecosystems.\n(B) Eco-friendly technologies are needed for sustainable development.\n(C) Conventional agriculture relies on chemical fertilisers and toxic pesticides.\n(D) Organic farming is identified as one such eco-friendly technology.\nChoose the correct sequence:",
+    "options": [
+     "(A), (C), (B), (D)",
+     "(C), (B), (A), (D)",
+     "(C), (A), (D), (B)",
+     "(C), (A), (B), (D)"
+    ],
+    "explanation": "The sequence begins with the use of chemical inputs and then gives their stated effects on food, water, livestock, soil and ecosystems. Those effects lead to the need for eco-friendly technologies, with organic farming identified as one such technology."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "8ad2e554e891c8095bb7e5cabd4426b9",
+   "subject": "accountancy",
+   "chapter": "Admission of Partner",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    2,
+    1,
+    3,
+    0
+   ],
+   "labelMap": {
+    "C": "A",
+    "B": "B",
+    "D": "C",
+    "A": "D"
+   },
+   "before": {
+    "stem": "On admission of a new partner, a firm has an accumulated profit of ₹1,20,000 in its General Reserve that has not been transferred to any partner’s account. The old partners, P and Q, shared profits in the ratio 3:2. Arrange the following steps for distributing this accumulated profit.\n(A) Identify ₹1,20,000 as the accumulated profit to be distributed.\n(B) Restrict the distribution to P and Q and use their old profit-sharing ratio of 3:2.\n(C) Calculate P’s share as ₹72,000 and Q’s share as ₹48,000.\n(D) Transfer the respective shares to P’s and Q’s capital/current accounts.\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(C)-(B)-(D)",
+     "(C)-(A)-(B)-(D)",
+     "(A)-(B)-(D)-(C)",
+     "(A)-(B)-(C)-(D)"
+    ],
+    "explanation": "The accumulated profit is distributed among the old partners in their old profit-sharing ratio, and the new partner is not entitled to a share in it. P’s share is ₹1,20,000 × 3/5 = ₹72,000, and Q’s share is ₹1,20,000 × 2/5 = ₹48,000. The respective amounts are then transferred to P’s and Q’s capital/current accounts."
+   },
+   "after": {
+    "stem": "On admission of a new partner, a firm has an accumulated profit of ₹1,20,000 in its General Reserve that has not been transferred to any partner’s account. The old partners, P and Q, shared profits in the ratio 3:2. Arrange the following steps for distributing this accumulated profit.\n(A) Calculate P’s share as ₹72,000 and Q’s share as ₹48,000.\n(B) Restrict the distribution to P and Q and use their old profit-sharing ratio of 3:2.\n(C) Transfer the respective shares to P’s and Q’s capital/current accounts.\n(D) Identify ₹1,20,000 as the accumulated profit to be distributed.\nChoose the correct answer from the options given below:",
+    "options": [
+     "(D)-(A)-(B)-(C)",
+     "(A)-(D)-(B)-(C)",
+     "(D)-(B)-(C)-(A)",
+     "(D)-(B)-(A)-(C)"
+    ],
+    "explanation": "The accumulated profit is distributed among the old partners in their old profit-sharing ratio, and the new partner is not entitled to a share in it. P’s share is ₹1,20,000 × 3/5 = ₹72,000, and Q’s share is ₹1,20,000 × 2/5 = ₹48,000. The respective amounts are then transferred to P’s and Q’s capital/current accounts."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "8c33b254f02833e867ac2224fd9cb2b1",
+   "subject": "business_studies",
+   "chapter": "Financial Markets",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    2,
+    0,
+    1
+   ],
+   "labelMap": {
+    "C": "A",
+    "A": "B",
+    "B": "C"
+   },
+   "before": {
+    "stem": "The stages below describe one company’s single capital-raising episode. Arrange them from the initial aim to the completed outcome.\n(A) The company seeks to raise capital.\n(B) The company issues securities in the primary market.\n(C) The company raises capital through the issuance.\nChoose the correct sequence from the options below:",
+    "options": [
+     "(A)-(C)-(B)",
+     "(A)-(B)-(C)",
+     "(B)-(A)-(C)",
+     "(C)-(B)-(A)"
+    ],
+    "explanation": "The company’s aim to raise capital comes first, followed by issuing securities in the primary market. The stated outcome is that capital is raised through that issuance, so it follows the issue of securities."
+   },
+   "after": {
+    "stem": "The stages below describe one company’s single capital-raising episode. Arrange them from the initial aim to the completed outcome.\n(A) The company raises capital through the issuance.\n(B) The company seeks to raise capital.\n(C) The company issues securities in the primary market.\nChoose the correct sequence from the options below:",
+    "options": [
+     "(B)-(A)-(C)",
+     "(B)-(C)-(A)",
+     "(C)-(B)-(A)",
+     "(A)-(C)-(B)"
+    ],
+    "explanation": "The company’s aim to raise capital comes first, followed by issuing securities in the primary market. The stated outcome is that capital is raised through that issuance, so it follows the issue of securities."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "A",
+    "B",
+    "C"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "9c305b5aa044a48c55786a3aef03d903",
+   "subject": "accountancy",
+   "chapter": "Goodwill Valuation",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    3,
+    0,
+    1,
+    2
+   ],
+   "labelMap": {
+    "D": "A",
+    "A": "B",
+    "B": "C",
+    "C": "D"
+   },
+   "before": {
+    "stem": "A firm's profits for its three past years were ₹36,000, ₹48,000 and ₹60,000. Take their arithmetic average as the past average profit. The agreed number of years' purchase is 4, and no adjustment to these figures is required. Arrange the actions for calculating goodwill under the Average Profits Method.\n(A) Add the three annual profits.\n(B) Divide their total by 3 to find the past average profit.\n(C) Multiply the past average profit by 4 years' purchase.\n(D) Record ₹1,92,000 as the goodwill.\nChoose the correct sequence:",
+    "options": [
+     "(B)-(A)-(C)-(D)",
+     "(A)-(C)-(B)-(D)",
+     "(A)-(B)-(C)-(D)",
+     "(A)-(B)-(D)-(C)"
+    ],
+    "explanation": "First, add the profits to get ₹1,44,000, then divide by 3 to obtain an average profit of ₹48,000. Multiplying ₹48,000 by 4 years' purchase gives goodwill of ₹1,92,000, so the correct sequence is (A)-(B)-(C)-(D)."
+   },
+   "after": {
+    "stem": "A firm's profits for its three past years were ₹36,000, ₹48,000 and ₹60,000. Take their arithmetic average as the past average profit. The agreed number of years' purchase is 4, and no adjustment to these figures is required. Arrange the actions for calculating goodwill under the Average Profits Method.\n(A) Record ₹1,92,000 as the goodwill.\n(B) Add the three annual profits.\n(C) Divide their total by 3 to find the past average profit.\n(D) Multiply the past average profit by 4 years' purchase.\nChoose the correct sequence:",
+    "options": [
+     "(C)-(B)-(D)-(A)",
+     "(B)-(D)-(C)-(A)",
+     "(B)-(C)-(D)-(A)",
+     "(B)-(C)-(A)-(D)"
+    ],
+    "explanation": "First, add the profits to get ₹1,44,000, then divide by 3 to obtain an average profit of ₹48,000. Multiplying ₹48,000 by 4 years' purchase gives goodwill of ₹1,92,000, so the correct sequence is (B)-(C)-(D)-(A)."
+   },
+   "explanationChanged": true,
+   "keyBefore": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "9e6357fe-7ace-405a-b6fd-fae598603200",
+   "subject": "biology",
+   "chapter": "Human Health & Disease",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    3,
+    0,
+    1
+   ],
+   "labelMap": {
+    "1": "3",
+    "2": "4",
+    "3": "1",
+    "4": "2"
+   },
+   "before": {
+    "stem": "Match List I (vector) with List II (disease): List I: A Anopheles mosquito, B Sandfly, C Tsetse fly, D Ixodes tick. List II: 1 Malaria, 2 Leishmaniasis, 3 African trypanosomiasis, 4 Lyme disease. Choose the correct set.",
+    "options": [
+     {
+      "key": "A",
+      "text": "A A–1, B–2, C–3, D–4"
+     },
+     {
+      "key": "B",
+      "text": "B A–2, B–1, C–4, D–3"
+     },
+     {
+      "key": "C",
+      "text": "C A–1, B–3, C–2, D–4"
+     },
+     {
+      "key": "D",
+      "text": "D A–4, B–3, C–2, D–1"
+     }
+    ],
+    "explanation": "Anopheles transmits malaria, sandflies transmit leishmaniasis, tsetse flies transmit African trypanosomiasis, and Ixodes ticks transmit Lyme disease."
+   },
+   "after": {
+    "stem": "Match List I (vector) with List II (disease): List I: A Anopheles mosquito, B Sandfly, C Tsetse fly, D Ixodes tick. List II: 1 African trypanosomiasis, 2 Lyme disease, 3 Malaria, 4 Leishmaniasis. Choose the correct set.",
+    "options": [
+     {
+      "key": "A",
+      "text": "A A–3, B–4, C–1, D–2"
+     },
+     {
+      "key": "B",
+      "text": "B A–4, B–3, C–2, D–1"
+     },
+     {
+      "key": "C",
+      "text": "C A–3, B–1, C–4, D–2"
+     },
+     {
+      "key": "D",
+      "text": "D A–2, B–1, C–4, D–3"
+     }
+    ],
+    "explanation": "Anopheles transmits malaria, sandflies transmit leishmaniasis, tsetse flies transmit African trypanosomiasis, and Ixodes ticks transmit Lyme disease."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [
+     "match_options_not_pairings"
+    ],
+    "structuralAfter": [
+     "match_options_not_pairings"
+    ]
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "afc43092abb2114fd7e994a035d2c7e7",
+   "subject": "business_studies",
+   "chapter": "Business Environment",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "labelMap": {
+    "B": "A",
+    "D": "B",
+    "A": "C",
+    "C": "D"
+   },
+   "before": {
+    "stem": "A business prepares a cigarette advertisement. Assume that the applicable regulation requires the statutory warning and that omitting it constitutes non-compliance. Arrange the following stages in logical order, from the applicable requirement to its possible consequence.\n(A) The regulation requires the statutory warning in the advertisement.\n(B) The advertiser omits the required warning.\n(C) The advertisement is non-compliant with the regulation.\n(D) The business may face legal problems due to non-compliance.\nChoose the correct sequence from the options given below:",
+    "options": [
+     "(B), (A), (C), (D)",
+     "(A), (B), (C), (D)",
+     "(A), (C), (B), (D)",
+     "(A), (B), (D), (C)"
+    ],
+    "explanation": "The requirement comes first; under the stated assumption, omitting the warning makes the advertisement non-compliant. Non-compliance can lead to legal problems, so that possible consequence follows the non-compliance."
+   },
+   "after": {
+    "stem": "A business prepares a cigarette advertisement. Assume that the applicable regulation requires the statutory warning and that omitting it constitutes non-compliance. Arrange the following stages in logical order, from the applicable requirement to its possible consequence.\n(A) The advertiser omits the required warning.\n(B) The business may face legal problems due to non-compliance.\n(C) The regulation requires the statutory warning in the advertisement.\n(D) The advertisement is non-compliant with the regulation.\nChoose the correct sequence from the options given below:",
+    "options": [
+     "(A), (C), (D), (B)",
+     "(C), (A), (D), (B)",
+     "(C), (D), (A), (B)",
+     "(C), (A), (B), (D)"
+    ],
+    "explanation": "The requirement comes first; under the stated assumption, omitting the warning makes the advertisement non-compliant. Non-compliance can lead to legal problems, so that possible consequence follows the non-compliance."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "b5df7177ed911c47b68418405ff1dedb",
+   "subject": "accountancy",
+   "chapter": "Goodwill Valuation",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "labelMap": {
+    "B": "A",
+    "C": "B",
+    "D": "C",
+    "A": "D"
+   },
+   "before": {
+    "stem": "A firm reports profits of ₹48,000, ₹56,000, ₹64,000 and ₹72,000 in four successive past years. The partners have agreed to value goodwill by the Average Profits Method at three years’ purchase. Treat average profit as the arithmetic mean of the four stated annual profits, with no other adjustment. Arrange the steps in the correct order to determine goodwill.\n(A) Add the four annual profits.\n(B) Divide their total by four to obtain average past profit.\n(C) Multiply the average past profit by three.\n(D) State the resulting amount as goodwill.\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(B)-(C)-(D)",
+     "(B)-(A)-(C)-(D)",
+     "(A)-(C)-(B)-(D)",
+     "(A)-(B)-(D)-(C)"
+    ],
+    "explanation": "The total of the four profits is ₹2,40,000, giving an arithmetic average of ₹60,000. Applying the agreed three years’ purchase gives goodwill of ₹1,80,000, so the steps are to total the profits, calculate the average, multiply it and state the result."
+   },
+   "after": {
+    "stem": "A firm reports profits of ₹48,000, ₹56,000, ₹64,000 and ₹72,000 in four successive past years. The partners have agreed to value goodwill by the Average Profits Method at three years’ purchase. Treat average profit as the arithmetic mean of the four stated annual profits, with no other adjustment. Arrange the steps in the correct order to determine goodwill.\n(A) Divide their total by four to obtain average past profit.\n(B) Multiply the average past profit by three.\n(C) State the resulting amount as goodwill.\n(D) Add the four annual profits.\nChoose the correct answer from the options given below:",
+    "options": [
+     "(D)-(A)-(B)-(C)",
+     "(A)-(D)-(B)-(C)",
+     "(D)-(B)-(A)-(C)",
+     "(D)-(A)-(C)-(B)"
+    ],
+    "explanation": "The total of the four profits is ₹2,40,000, giving an arithmetic average of ₹60,000. Applying the agreed three years’ purchase gives goodwill of ₹1,80,000, so the steps are to total the profits, calculate the average, multiply it and state the result."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "b83fde0bf273e92c0790a2bbe9f86f1a",
+   "subject": "business_studies",
+   "chapter": "Financial Markets",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    3,
+    1,
+    0,
+    2
+   ],
+   "labelMap": {
+    "IV": "I",
+    "II": "II",
+    "I": "III",
+    "III": "IV"
+   },
+   "before": {
+    "stem": "Company Q is the issuer of the shares. It first issues shares to Aruna, an investor. Later, Aruna transfers part of her holding to Bala, an investor; Bala transfers some of those shares to Charu, an investor; and Charu sells shares to Company Q. Each transaction is direct between the named parties, and each concerns shares. Match each transaction in List-I with its description in List-II. Determine only whether each transaction fits the secondary-market definition.\nList-I\n(A) Company Q first issues shares to Aruna.\n(B) Aruna transfers shares to Bala.\n(C) Bala transfers shares to Charu.\n(D) Charu sells shares to Company Q.\nList-II\n(I) The issuer supplies shares to an investor; the transaction is not between investors.\n(II) Aruna supplies shares to Bala; both are investors.\n(III) Bala supplies shares to Charu; both are investors.\n(IV) Charu supplies shares to the issuer; the transaction is not between investors.\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+     "(A)-(IV), (B)-(II), (C)-(III), (D)-(I)",
+     "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+    ],
+    "explanation": "The stated definition describes secondary-market dealings as an investor buying or selling shares from another investor rather than the issuer. The transfers from Aruna to Bala and from Bala to Charu are between investors, while the initial issue is from the issuer and Charu’s sale is to the issuer. The party-specific descriptions distinguish the two investor-to-investor transfers, giving the mapping in option D."
+   },
+   "after": {
+    "stem": "Company Q is the issuer of the shares. It first issues shares to Aruna, an investor. Later, Aruna transfers part of her holding to Bala, an investor; Bala transfers some of those shares to Charu, an investor; and Charu sells shares to Company Q. Each transaction is direct between the named parties, and each concerns shares. Match each transaction in List-I with its description in List-II. Determine only whether each transaction fits the secondary-market definition.\nList-I\n(A) Company Q first issues shares to Aruna.\n(B) Aruna transfers shares to Bala.\n(C) Bala transfers shares to Charu.\n(D) Charu sells shares to Company Q.\nList-II\n(I) Charu supplies shares to the issuer; the transaction is not between investors.\n(II) Aruna supplies shares to Bala; both are investors.\n(III) The issuer supplies shares to an investor; the transaction is not between investors.\n(IV) Bala supplies shares to Charu; both are investors.\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+     "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)",
+     "(A)-(III), (B)-(II), (C)-(IV), (D)-(I)"
+    ],
+    "explanation": "The stated definition describes secondary-market dealings as an investor buying or selling shares from another investor rather than the issuer. The transfers from Aruna to Bala and from Bala to Charu are between investors, while the initial issue is from the issuer and Charu’s sale is to the issuer. The party-specific descriptions distinguish the two investor-to-investor transfers, giving the mapping in option D."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "bb9b372e0b1d5755194b0fa9b32c5a2f",
+   "subject": "business_studies",
+   "chapter": "Financial Markets",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    1,
+    3,
+    0
+   ],
+   "labelMap": {
+    "III": "I",
+    "II": "II",
+    "IV": "III",
+    "I": "IV"
+   },
+   "before": {
+    "stem": "Match List-I with List-II. All named persons other than “the issuer” are investors, and each entry describes a single transaction in shares or securities with the stated counterparty.\n\nList-I\n(A) Investor P buys shares from Investor Q.\n(B) Investor R sells shares to Investor S.\n(C) Investor T buys shares from the issuer.\n(D) Investor V sells shares to the issuer.\n\nList-II\n(I) Secondary-market purchase\n(II) Secondary-market sale\n(III) Investor purchase from the issuer\n(IV) Investor sale to the issuer\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+    ],
+    "explanation": "A and B are investor-to-investor transactions, so they are respectively a secondary-market purchase and a secondary-market sale. C and D are transactions with the issuer: in C the investor purchases from the issuer, while in D the investor sells to the issuer."
+   },
+   "after": {
+    "stem": "Match List-I with List-II. All named persons other than “the issuer” are investors, and each entry describes a single transaction in shares or securities with the stated counterparty.\n\nList-I\n(A) Investor P buys shares from Investor Q.\n(B) Investor R sells shares to Investor S.\n(C) Investor T buys shares from the issuer.\n(D) Investor V sells shares to the issuer.\n\nList-II\n(I) Investor purchase from the issuer\n(II) Secondary-market sale\n(III) Investor sale to the issuer\n(IV) Secondary-market purchase\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(IV), (B)-(II), (C)-(I), (D)-(III)",
+     "(A)-(IV), (B)-(II), (C)-(III), (D)-(I)",
+     "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+     "(A)-(I), (B)-(III), (C)-(IV), (D)-(II)"
+    ],
+    "explanation": "A and B are investor-to-investor transactions, so they are respectively a secondary-market purchase and a secondary-market sale. C and D are transactions with the issuer: in C the investor purchases from the issuer, while in D the investor sells to the issuer."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "bba704f2476d1a93fd7bffb1d59cb20b",
+   "subject": "accountancy",
+   "chapter": "Change in Profit Sharing Ratio",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    0,
+    1,
+    3
+   ],
+   "labelMap": {
+    "III": "I",
+    "I": "II",
+    "II": "III",
+    "IV": "IV"
+   },
+   "before": {
+    "stem": "Four existing partners change their future profit-sharing ratio from 8:5:4:3 to 5:7:5:3, with no admission or retirement. The firm has goodwill, and only the goodwill adjustment arising from this ratio change is considered. Match each partner with the change in share and the corresponding goodwill-adjustment treatment.\n\nList-I\n(A) Partner A\n(B) Partner B\n(C) Partner C\n(D) Partner D\n\nList-II\n(I) Loses 3/20; sacrificing partner, credited\n(II) Gains 2/20; gaining partner, debited\n(III) Gains 1/20; gaining partner, debited\n(IV) Share unchanged; neither gaining nor sacrificing\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)"
+    ],
+    "explanation": "Both ratios total 20, so the partners’ shares can be compared using a denominator of 20. A’s share falls by 3/20, B’s rises by 2/20, C’s rises by 1/20, and D’s is unchanged. The sacrificing partner is credited and the gaining partners are debited in the goodwill adjustment, giving the mapping in option A."
+   },
+   "after": {
+    "stem": "Four existing partners change their future profit-sharing ratio from 8:5:4:3 to 5:7:5:3, with no admission or retirement. The firm has goodwill, and only the goodwill adjustment arising from this ratio change is considered. Match each partner with the change in share and the corresponding goodwill-adjustment treatment.\n\nList-I\n(A) Partner A\n(B) Partner B\n(C) Partner C\n(D) Partner D\n\nList-II\n(I) Gains 1/20; gaining partner, debited\n(II) Loses 3/20; sacrificing partner, credited\n(III) Gains 2/20; gaining partner, debited\n(IV) Share unchanged; neither gaining nor sacrificing\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)",
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
+     "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)"
+    ],
+    "explanation": "Both ratios total 20, so the partners’ shares can be compared using a denominator of 20. A’s share falls by 3/20, B’s rises by 2/20, C’s rises by 1/20, and D’s is unchanged. The sacrificing partner is credited and the gaining partners are debited in the goodwill adjustment, giving the mapping in option A."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "bcec7ae463601afaeee89c49449b3cd6",
+   "subject": "business_studies",
+   "chapter": "Financial Management",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    0,
+    1,
+    3
+   ],
+   "labelMap": {
+    "III": "I",
+    "I": "II",
+    "II": "III",
+    "IV": "IV"
+   },
+   "before": {
+    "stem": "Match List-I with List-II.\nList-I\n(A) Interest Coverage Ratio (ICR)\n(B) Debt Service Coverage Ratio (DSCR)\n(C) Return on Investment (RoI)\n(D) Cost of debt\nList-II\n(I) A higher value indicates lower risk of failing to meet interest payments, but this measure does not capture a low cash balance or repayment obligations.\n(II) Cash profits from operations are compared with the total cash required to service debt and preference share capital; this measure addresses the stated deficiencies of the interest-based ratio.\n(III) A higher value can support the use of trading on equity to increase EPS; this factor concerns the company’s return from investment.\n(IV) A lower rate at which the firm can borrow increases its capacity to employ debt.\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)"
+    ],
+    "explanation": "ICR measures how many times EBIT covers interest, and a higher ratio indicates lower risk of failing to meet interest payments, though it does not account for low cash balances or repayment obligations. DSCR compares operating cash profits with the total cash required for debt and preference-share service. RoI relates to the use of trading on equity to increase EPS, whereas a lower cost of debt increases the capacity to employ debt; hence the correct mapping is option C."
+   },
+   "after": {
+    "stem": "Match List-I with List-II.\nList-I\n(A) Interest Coverage Ratio (ICR)\n(B) Debt Service Coverage Ratio (DSCR)\n(C) Return on Investment (RoI)\n(D) Cost of debt\nList-II\n(I) A higher value can support the use of trading on equity to increase EPS; this factor concerns the company’s return from investment.\n(II) A higher value indicates lower risk of failing to meet interest payments, but this measure does not capture a low cash balance or repayment obligations.\n(III) Cash profits from operations are compared with the total cash required to service debt and preference share capital; this measure addresses the stated deficiencies of the interest-based ratio.\n(IV) A lower rate at which the firm can borrow increases its capacity to employ debt.\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
+     "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+     "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)",
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)"
+    ],
+    "explanation": "ICR measures how many times EBIT covers interest, and a higher ratio indicates lower risk of failing to meet interest payments, though it does not account for low cash balances or repayment obligations. DSCR compares operating cash profits with the total cash required for debt and preference-share service. RoI relates to the use of trading on equity to increase EPS, whereas a lower cost of debt increases the capacity to employ debt; hence the correct mapping is option C."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "cbda21e6a857dda3c4f29b0ce3a13c4d",
+   "subject": "accountancy",
+   "chapter": "Share Capital",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    2,
+    1,
+    3,
+    0
+   ],
+   "labelMap": {
+    "C": "A",
+    "B": "B",
+    "D": "C",
+    "A": "D"
+   },
+   "before": {
+    "stem": "A company issues shares for cash and collects the amount in four separate instalments: application money, allotment money, a first call and a final call. The calls are made successively, with the first call preceding the final call. Arrange the instalments in chronological order.\n(A) Application money\n(B) Allotment money\n(C) First call money\n(D) Final call money\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(B)-(C)-(D)",
+     "(B)-(A)-(C)-(D)",
+     "(A)-(C)-(B)-(D)",
+     "(A)-(B)-(D)-(C)"
+    ],
+    "explanation": "The stages for collecting share money are application, allotment and call or calls, in that order. Since the stem states that the first call precedes the final call, the sequence is (A)-(B)-(C)-(D)."
+   },
+   "after": {
+    "stem": "A company issues shares for cash and collects the amount in four separate instalments: application money, allotment money, a first call and a final call. The calls are made successively, with the first call preceding the final call. Arrange the instalments in chronological order.\n(A) First call money\n(B) Allotment money\n(C) Final call money\n(D) Application money\nChoose the correct answer from the options given below:",
+    "options": [
+     "(D)-(B)-(A)-(C)",
+     "(B)-(D)-(A)-(C)",
+     "(D)-(A)-(B)-(C)",
+     "(D)-(B)-(C)-(A)"
+    ],
+    "explanation": "The stages for collecting share money are application, allotment and call or calls, in that order. Since the stem states that the first call precedes the final call, the sequence is (D)-(B)-(A)-(C)."
+   },
+   "explanationChanged": true,
+   "keyBefore": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "d34d98f5c8e8a86179e7009c710a86cd",
+   "subject": "business_studies",
+   "chapter": "Business Environment",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "labelMap": {
+    "II": "I",
+    "IV": "II",
+    "I": "III",
+    "III": "IV"
+   },
+   "before": {
+    "stem": "Match List-I with List-II on the basis of the business environment dimension or element each development represents. Each description states the complete development; do not infer any unstated formal direction or legal instrument.\n\nList-I\n(A) Government officials express a favourable attitude towards business, without issuing a formal direction.\n(B) The government passes legislation governing a business matter.\n(C) A government authority issues an administrative order governing a business matter.\n(D) A commission at the state level renders a decision concerning a business matter.\n\nList-II\n(I) Political environment—attitudes of government officials\n(II) Legal environment—legislation passed by the government\n(III) Legal environment—administrative orders issued by government authorities\n(IV) Legal environment—decisions rendered by commissions\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+    ],
+    "explanation": "Government officials’ attitudes towards business are part of the political environment. Legislation passed by the government, administrative orders issued by government authorities and decisions rendered by commissions are included in the legal environment. Therefore, the four developments map to (I), (II), (III) and (IV), respectively."
+   },
+   "after": {
+    "stem": "Match List-I with List-II on the basis of the business environment dimension or element each development represents. Each description states the complete development; do not infer any unstated formal direction or legal instrument.\n\nList-I\n(A) Government officials express a favourable attitude towards business, without issuing a formal direction.\n(B) The government passes legislation governing a business matter.\n(C) A government authority issues an administrative order governing a business matter.\n(D) A commission at the state level renders a decision concerning a business matter.\n\nList-II\n(I) Legal environment—legislation passed by the government\n(II) Legal environment—decisions rendered by commissions\n(III) Political environment—attitudes of government officials\n(IV) Legal environment—administrative orders issued by government authorities\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(III), (C)-(IV), (D)-(II)",
+     "(A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+     "(A)-(III), (B)-(I), (C)-(II), (D)-(IV)",
+     "(A)-(III), (B)-(I), (C)-(IV), (D)-(II)"
+    ],
+    "explanation": "Government officials’ attitudes towards business are part of the political environment. Legislation passed by the government, administrative orders issued by government authorities and decisions rendered by commissions are included in the legal environment. Therefore, the four developments map to (III), (I), (IV) and (II), respectively."
+   },
+   "explanationChanged": true,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "e60626a40aa29da30296f560b1588371",
+   "subject": "business_studies",
+   "chapter": "Directing",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    3,
+    0,
+    1
+   ],
+   "labelMap": {
+    "III": "I",
+    "IV": "II",
+    "I": "III",
+    "II": "IV"
+   },
+   "before": {
+    "stem": "Match List-I with List-II.\n\nList-I\n(A) Employees initially oppose a needed change in the organisation.\n(B) The manager explains the change, provides training, and uses motivation and leadership.\n(C) After the manager’s intervention, employees accept the change and cooperate in introducing it.\n(D) Cooperation and commitment among people across groups help the organisation remain steady and balanced.\n\nList-II\n(I) A tendency to resist organisational change\n(II) Directing used to reduce resistance and develop cooperation\n(III) Acceptance of change and cooperation in its introduction\n(IV) Stability and balance associated with cooperation and commitment\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+     "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)"
+    ],
+    "explanation": "Initial opposition reflects the tendency to resist organisational change, while the manager’s actions are forms of directing that help reduce resistance and develop cooperation. The employees’ subsequent acceptance and cooperation match the introduction of change. Ongoing cooperation and commitment are associated with stability and balance in the organisation."
+   },
+   "after": {
+    "stem": "Match List-I with List-II.\n\nList-I\n(A) Employees initially oppose a needed change in the organisation.\n(B) The manager explains the change, provides training, and uses motivation and leadership.\n(C) After the manager’s intervention, employees accept the change and cooperate in introducing it.\n(D) Cooperation and commitment among people across groups help the organisation remain steady and balanced.\n\nList-II\n(I) Acceptance of change and cooperation in its introduction\n(II) Stability and balance associated with cooperation and commitment\n(III) A tendency to resist organisational change\n(IV) Directing used to reduce resistance and develop cooperation\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(IV), (B)-(III), (C)-(I), (D)-(II)",
+     "(A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+     "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)",
+     "(A)-(I), (B)-(IV), (C)-(III), (D)-(II)"
+    ],
+    "explanation": "Initial opposition reflects the tendency to resist organisational change, while the manager’s actions are forms of directing that help reduce resistance and develop cooperation. The employees’ subsequent acceptance and cooperation match the introduction of change. Ongoing cooperation and commitment are associated with stability and balance in the organisation."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "eb1958766a21035ab526db1f780f7200",
+   "subject": "accountancy",
+   "chapter": "Cash Flow Statement",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "labelMap": {
+    "II": "I",
+    "IV": "II",
+    "I": "III",
+    "III": "IV"
+   },
+   "before": {
+    "stem": "Match List-I with List-II.\nList-I\n(A) A non-financial company receives cash on disposal of machinery used as a fixed asset.\n(B) A financial enterprise makes cash advances and loans to third parties as part of its operating activities.\n(C) A company pays cash to acquire machinery for use as a fixed asset.\n(D) A non-financial company makes a cash loan to a third party.\nList-II\n(I) Investing cash inflow from disposal of a fixed asset\n(II) Operating cash flow from advances and loans made by a financial enterprise\n(III) Investing cash outflow to acquire a fixed asset\n(IV) Investing cash outflow for a loan or advance to a third party by a non-financial enterprise\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(IV), (C)-(III), (D)-(II)",
+     "(A)-(IV), (B)-(II), (C)-(III), (D)-(I)"
+    ],
+    "explanation": "Cash received from disposing of a fixed asset is an investing inflow, while cash paid to acquire one is an investing outflow. A cash loan to a third party is an investing outflow, except that advances and loans made by a financial enterprise as part of its operating activities are operating cash flows. These classifications give the mapping in option B."
+   },
+   "after": {
+    "stem": "Match List-I with List-II.\nList-I\n(A) A non-financial company receives cash on disposal of machinery used as a fixed asset.\n(B) A financial enterprise makes cash advances and loans to third parties as part of its operating activities.\n(C) A company pays cash to acquire machinery for use as a fixed asset.\n(D) A non-financial company makes a cash loan to a third party.\nList-II\n(I) Operating cash flow from advances and loans made by a financial enterprise\n(II) Investing cash outflow for a loan or advance to a third party by a non-financial enterprise\n(III) Investing cash inflow from disposal of a fixed asset\n(IV) Investing cash outflow to acquire a fixed asset\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(IV), (B)-(I), (C)-(III), (D)-(II)",
+     "(A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
+     "(A)-(III), (B)-(II), (C)-(IV), (D)-(I)",
+     "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)"
+    ],
+    "explanation": "Cash received from disposing of a fixed asset is an investing inflow, while cash paid to acquire one is an investing outflow. A cash loan to a third party is an investing outflow, except that advances and loans made by a financial enterprise as part of its operating activities are operating cash flows. These classifications give the mapping in option B."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "fb730c06677c81e8bc5dfa47822cb49e",
+   "subject": "business_studies",
+   "chapter": "Controlling",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    3,
+    0,
+    1,
+    2
+   ],
+   "labelMap": {
+    "IV": "I",
+    "I": "II",
+    "II": "III",
+    "III": "IV"
+   },
+   "before": {
+    "stem": "Match List-I with List-II.\n\nList-I\n(A) Actual results are consolidated in performance reports.\n(B) A standard is stated as defects per 1,000 units, and actual defects are recorded per 1,000 units.\n(C) During an assembling task, each part is checked as it is produced.\n(D) A manager requires the measure of actual performance to be objective and reliable.\n\nList-II\n(I) Use a stated technique for measuring actual performance.\n(II) Use the same units for actual performance and the standard.\n(III) Measure work during performance where possible.\n(IV) Ensure that actual performance is measured objectively and reliably.\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(IV), (C)-(III), (D)-(II)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+    ],
+    "explanation": "The correct mapping is (A)-(I), (B)-(II), (C)-(III) and (D)-(IV). Performance reports are listed as a technique for measuring performance; using the same units makes comparison with the standard easier. The excerpt also supports measuring work during performance where possible and measuring actual performance objectively and reliably."
+   },
+   "after": {
+    "stem": "Match List-I with List-II.\n\nList-I\n(A) Actual results are consolidated in performance reports.\n(B) A standard is stated as defects per 1,000 units, and actual defects are recorded per 1,000 units.\n(C) During an assembling task, each part is checked as it is produced.\n(D) A manager requires the measure of actual performance to be objective and reliable.\n\nList-II\n(I) Ensure that actual performance is measured objectively and reliably.\n(II) Use a stated technique for measuring actual performance.\n(III) Use the same units for actual performance and the standard.\n(IV) Measure work during performance where possible.\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)",
+     "(A)-(III), (B)-(II), (C)-(IV), (D)-(I)",
+     "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)",
+     "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)"
+    ],
+    "explanation": "The correct mapping is (A)-(II), (B)-(III), (C)-(IV) and (D)-(I). Performance reports are listed as a technique for measuring performance; using the same units makes comparison with the standard easier. The excerpt also supports measuring work during performance where possible and measuring actual performance objectively and reliably."
+   },
+   "explanationChanged": true,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "fdafe2a9bcd4bac693681c5e31984a91",
+   "subject": "accountancy",
+   "chapter": "Share Capital",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "labelMap": {
+    "II": "I",
+    "IV": "II",
+    "I": "III",
+    "III": "IV"
+   },
+   "before": {
+    "stem": "Match List-I with List-II.\n\nList-I\n(A) Authorised capital\n(B) Issued capital\n(C) Subscribed capital\n(D) Called-up capital\n\nList-II\n(I) The amount of share capital a company is authorised to issue by its Memorandum of Association\n(II) The part of authorised capital actually issued to the public for subscription, including shares allotted to vendors and signatories to the company’s memorandum\n(III) The part of issued capital actually subscribed by the public\n(IV) The part of subscribed capital called up by the company for payment\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)"
+    ],
+    "explanation": "Authorised capital is the amount the company is authorised to issue, while issued capital is the part of authorised capital actually issued for subscription. Subscribed capital is the part of issued capital actually subscribed by the public, and called-up capital is the part of subscribed capital the company has asked shareholders to pay. These definitions give the matching in Option A."
+   },
+   "after": {
+    "stem": "Match List-I with List-II.\n\nList-I\n(A) Authorised capital\n(B) Issued capital\n(C) Subscribed capital\n(D) Called-up capital\n\nList-II\n(I) The part of authorised capital actually issued to the public for subscription, including shares allotted to vendors and signatories to the company’s memorandum\n(II) The part of subscribed capital called up by the company for payment\n(III) The amount of share capital a company is authorised to issue by its Memorandum of Association\n(IV) The part of issued capital actually subscribed by the public\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
+     "(A)-(I), (B)-(III), (C)-(IV), (D)-(II)",
+     "(A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+     "(A)-(III), (B)-(I), (C)-(II), (D)-(IV)"
+    ],
+    "explanation": "Authorised capital is the amount the company is authorised to issue, while issued capital is the part of authorised capital actually issued for subscription. Subscribed capital is the part of issued capital actually subscribed by the public, and called-up capital is the part of subscribed capital the company has asked shareholders to pay. These definitions give the matching in Option A."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "2e7ee67a5644cd51b1ece61d2af07979",
+   "subject": "english",
+   "chapter": "Match the Following",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    0,
+    1,
+    3
+   ],
+   "labelMap": {
+    "III": "I",
+    "I": "II",
+    "II": "III",
+    "IV": "IV"
+   },
+   "before": {
+    "stem": "For the task in every case, the complete required message is: “Submit the signed form to Room 4 by noon.” Each detail in this message is necessary. Match each draft with the assessment that best describes it. Each entry in List-II is to be used once.\n\nList-I\n(A) “Submit the signed form to Room 4 by noon.”\n(B) “Submit the signed form to Room 4 by noon. The office has blue walls.”\n(C) “Submit the form to Room 4 by noon.”\n(D) “Please submit the signed form to Room 4 by noon, and ensure that the signed form reaches Room 4 by noon.”\n\nList-II\n(I) Gives the necessary information in few words\n(II) Adds information that is not needed for the stated purpose\n(III) Leaves out information needed for the stated purpose\n(IV) Repeats the same required information in extra words\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+    ],
+    "explanation": "Concise writing gives only necessary and important information, using few words. Draft (A) gives all the required details briefly, (B) adds information stated to be unrelated, (C) omits the necessary detail “signed”, and (D) repeats required information; therefore, the mapping in option D is correct."
+   },
+   "after": {
+    "stem": "For the task in every case, the complete required message is: “Submit the signed form to Room 4 by noon.” Each detail in this message is necessary. Match each draft with the assessment that best describes it. Each entry in List-II is to be used once.\n\nList-I\n(A) “Submit the signed form to Room 4 by noon.”\n(B) “Submit the signed form to Room 4 by noon. The office has blue walls.”\n(C) “Submit the form to Room 4 by noon.”\n(D) “Please submit the signed form to Room 4 by noon, and ensure that the signed form reaches Room 4 by noon.”\n\nList-II\n(I) Leaves out information needed for the stated purpose\n(II) Gives the necessary information in few words\n(III) Adds information that is not needed for the stated purpose\n(IV) Repeats the same required information in extra words\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
+     "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+     "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)"
+    ],
+    "explanation": "Concise writing gives only necessary and important information, using few words. Draft (A) gives all the required details briefly, (B) adds information stated to be unrelated, (C) omits the necessary detail “signed”, and (D) repeats required information; therefore, the mapping in option D is correct."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "576dc4a91d39eee85df6729f99ed8a96",
+   "subject": "english",
+   "chapter": "Match the Following",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    0,
+    1,
+    3
+   ],
+   "labelMap": {
+    "III": "I",
+    "I": "II",
+    "II": "III",
+    "IV": "IV"
+   },
+   "before": {
+    "stem": "Match List-I with List-II. Each entry in List-I is to be matched with one entry in List-II, and each entry in List-II is to be used once.\n\nList-I\n(A) A reply is aggressive or unfriendly, and its speaker is ready to argue.\n(B) An event occurs only occasionally, at irregular intervals.\n(C) A household uses only as much money as is necessary.\n(D) An item is known to be genuine and not a copy.\n\nList-II\n(I) Hostile\n(II) Sporadic\n(III) Frugal\n(IV) Authentic\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)"
+    ],
+    "explanation": "An aggressive or unfriendly reply from someone ready to argue is hostile. An event occurring occasionally at irregular intervals is sporadic; using only the necessary amount of money is frugal; and something genuine rather than a copy is authentic. These meanings give the complete matching in option A."
+   },
+   "after": {
+    "stem": "Match List-I with List-II. Each entry in List-I is to be matched with one entry in List-II, and each entry in List-II is to be used once.\n\nList-I\n(A) A reply is aggressive or unfriendly, and its speaker is ready to argue.\n(B) An event occurs only occasionally, at irregular intervals.\n(C) A household uses only as much money as is necessary.\n(D) An item is known to be genuine and not a copy.\n\nList-II\n(I) Frugal\n(II) Hostile\n(III) Sporadic\n(IV) Authentic\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)",
+     "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)"
+    ],
+    "explanation": "An aggressive or unfriendly reply from someone ready to argue is hostile. An event occurring occasionally at irregular intervals is sporadic; using only the necessary amount of money is frugal; and something genuine rather than a copy is authentic. These meanings give the complete matching in option A."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "6aa7facf-006e-4f84-8e37-2861dcdb511a",
+   "subject": "history",
+   "chapter": "Kings, Farmers & Towns",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    3,
+    0,
+    1
+   ],
+   "labelMap": {
+    "1": "3",
+    "2": "4",
+    "3": "1",
+    "4": "2"
+   },
+   "before": {
+    "stem": "Match List I with List II: List I: (A) Batai (B) Raiyat (C) Zamindar (D) Panchayat. List II: (1) Division of crop between cultivator and owner (2) Cultivator or tenant (3) Revenue intermediary/landholder (4) Village council. Choose the correct matching.",
+    "options": [
+     {
+      "key": "A",
+      "text": "A A-1, B-2, C-3, D-4"
+     },
+     {
+      "key": "B",
+      "text": "B A-2, B-1, C-3, D-4"
+     },
+     {
+      "key": "C",
+      "text": "C A-1, B-3, C-2, D-4"
+     },
+     {
+      "key": "D",
+      "text": "D A-4, B-2, C-1, D-3"
+     }
+    ],
+    "explanation": "Correct matches are batai=share of crop, raiyat=tenant, zamindar=revenue intermediary, panchayat=village council."
+   },
+   "after": {
+    "stem": "Match List I with List II: List I: (A) Batai (B) Raiyat (C) Zamindar (D) Panchayat. List II: (1) Revenue intermediary/landholder (2) Village council (3) Division of crop between cultivator and owner (4) Cultivator or tenant. Choose the correct matching.",
+    "options": [
+     {
+      "key": "A",
+      "text": "A A-3, B-4, C-1, D-2"
+     },
+     {
+      "key": "B",
+      "text": "B A-4, B-3, C-1, D-2"
+     },
+     {
+      "key": "C",
+      "text": "C A-3, B-1, C-4, D-2"
+     },
+     {
+      "key": "D",
+      "text": "D A-2, B-4, C-3, D-1"
+     }
+    ],
+    "explanation": "Correct matches are batai=share of crop, raiyat=tenant, zamindar=revenue intermediary, panchayat=village council."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [
+     "match_options_not_pairings"
+    ],
+    "structuralAfter": [
+     "match_options_not_pairings"
+    ]
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "be39abb660525f86fd664b8df9629b11",
+   "subject": "economics",
+   "chapter": "Balance of Payments",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    0,
+    3,
+    1
+   ],
+   "labelMap": {
+    "III": "I",
+    "I": "II",
+    "IV": "III",
+    "II": "IV"
+   },
+   "before": {
+    "stem": "In each case, the initially announced fixed exchange rate is ₹80 per unit of foreign currency. The quote is expressed in rupees per unit of foreign currency, and the change is made by the government. Calculate the percentage change relative to ₹80 and match each case with its interpretation.\n\nList-I\n(A) The government raises the quote from ₹80 to ₹88.\n(B) The government lowers the quote from ₹80 to ₹72.\n(C) The government raises the quote from ₹80 to ₹84.\n(D) The government lowers the quote from ₹80 to ₹76.\n\nList-II\n(I) Increase of 10%; devaluation; domestic currency becomes cheaper\n(II) Decrease of 10%; revaluation; domestic currency becomes costlier\n(III) Increase of 5%; devaluation; domestic currency becomes cheaper\n(IV) Decrease of 5%; revaluation; domestic currency becomes costlier\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+     "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
+     "(A)-(I), (B)-(IV), (C)-(III), (D)-(II)",
+     "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)"
+    ],
+    "explanation": "The changes from ₹80 are ₹8 for (A) and (B), or 10%, and ₹4 for (C) and (D), or 5%. An increase in the exchange rate in a fixed system is devaluation, which makes the domestic currency cheaper; a decrease is revaluation, which makes it costlier. Therefore, the matching in option A is correct."
+   },
+   "after": {
+    "stem": "In each case, the initially announced fixed exchange rate is ₹80 per unit of foreign currency. The quote is expressed in rupees per unit of foreign currency, and the change is made by the government. Calculate the percentage change relative to ₹80 and match each case with its interpretation.\n\nList-I\n(A) The government raises the quote from ₹80 to ₹88.\n(B) The government lowers the quote from ₹80 to ₹72.\n(C) The government raises the quote from ₹80 to ₹84.\n(D) The government lowers the quote from ₹80 to ₹76.\n\nList-II\n(I) Increase of 5%; devaluation; domestic currency becomes cheaper\n(II) Increase of 10%; devaluation; domestic currency becomes cheaper\n(III) Decrease of 5%; revaluation; domestic currency becomes costlier\n(IV) Decrease of 10%; revaluation; domestic currency becomes costlier\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+     "(A)-(I), (B)-(IV), (C)-(II), (D)-(III)",
+     "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)",
+     "(A)-(IV), (B)-(II), (C)-(III), (D)-(I)"
+    ],
+    "explanation": "The changes from ₹80 are ₹8 for (A) and (B), or 10%, and ₹4 for (C) and (D), or 5%. An increase in the exchange rate in a fixed system is devaluation, which makes the domestic currency cheaper; a decrease is revaluation, which makes it costlier. Therefore, the matching in option A is correct."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "bf566d6b-c449-4c71-95e9-7314c90c40c7",
+   "subject": "political_science",
+   "chapter": "Globalisation",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    0,
+    1
+   ],
+   "labelMap": {
+    "1": "2",
+    "2": "3",
+    "3": "1"
+   },
+   "before": {
+    "stem": "Match the South Asian challenge (List I) with the globalization-driven cause (List II).\nList I: A Cross-border migration, B Domestic industries facing trade pressure, C Water-sharing disputes\nList II: 1 Increased labour mobility across borders, 2 Exposure to competitive global markets, 3 Competition for resources intensified by integrated markets\nChoose the correct matching.",
+    "options": [
+     {
+      "key": "A",
+      "text": "A A–1, B–2, C–3"
+     },
+     {
+      "key": "B",
+      "text": "B A–2, B–1, C–3"
+     },
+     {
+      "key": "C",
+      "text": "C A–1, B–3, C–2"
+     },
+     {
+      "key": "D",
+      "text": "D A–3, B–2, C–1"
+     }
+    ],
+    "explanation": "Globalisation raises labour mobility (migration), exposes industries to competition, and intensifies resource competition affecting water-sharing."
+   },
+   "after": {
+    "stem": "Match the South Asian challenge (List I) with the globalization-driven cause (List II).\nList I: A Cross-border migration, B Domestic industries facing trade pressure, C Water-sharing disputes\nList II: 1 Competition for resources intensified by integrated markets, 2 Increased labour mobility across borders, 3 Exposure to competitive global markets\nChoose the correct matching.",
+    "options": [
+     {
+      "key": "A",
+      "text": "A A–2, B–3, C–1"
+     },
+     {
+      "key": "B",
+      "text": "B A–3, B–2, C–1"
+     },
+     {
+      "key": "C",
+      "text": "C A–2, B–1, C–3"
+     },
+     {
+      "key": "D",
+      "text": "D A–1, B–3, C–2"
+     }
+    ],
+    "explanation": "Globalisation raises labour mobility (migration), exposes industries to competition, and intensifies resource competition affecting water-sharing."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "1",
+    "2",
+    "3"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [
+     "match_options_not_pairings"
+    ],
+    "structuralAfter": [
+     "match_options_not_pairings"
+    ]
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "bf62bee1-9c45-494b-b3d0-330f60d4b8bf",
+   "subject": "history",
+   "chapter": "Kinship, Caste & Class",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "labelMap": {
+    "1": "2",
+    "2": "1",
+    "3": "4",
+    "4": "3"
+   },
+   "before": {
+    "stem": "Match List I (Peasant/Role) with List II (Characteristic): List I: A Ryot, B Landless agricultural labourer, C Artisan-peasant, D Village headman. List II: 1 cultivates his own/ancestral land, 2 works for wages in the fields, 3 provides skilled services like carpentry, 4 negotiates with state and leads the village. Correctly pair them.",
+    "options": [
+     {
+      "key": "A",
+      "text": "A A-1, B-2, C-3, D-4"
+     },
+     {
+      "key": "B",
+      "text": "B A-2, B-1, C-3, D-4"
+     },
+     {
+      "key": "C",
+      "text": "C A-1, B-3, C-2, D-4"
+     },
+     {
+      "key": "D",
+      "text": "D A-4, B-2, C-3, D-1"
+     }
+    ],
+    "explanation": "Ryots are cultivators, landless labourers work for wages, artisan-peasants supply skilled services, and headmen liaise with higher authorities."
+   },
+   "after": {
+    "stem": "Match List I (Peasant/Role) with List II (Characteristic): List I: A Ryot, B Landless agricultural labourer, C Artisan-peasant, D Village headman. List II: 1 works for wages in the fields, 2 cultivates his own/ancestral land, 3 negotiates with state and leads the village. Correctly pair them, 4 provides skilled services like carpentry.",
+    "options": [
+     {
+      "key": "A",
+      "text": "A A-2, B-1, C-4, D-3"
+     },
+     {
+      "key": "B",
+      "text": "B A-1, B-2, C-4, D-3"
+     },
+     {
+      "key": "C",
+      "text": "C A-2, B-4, C-1, D-3"
+     },
+     {
+      "key": "D",
+      "text": "D A-3, B-1, C-4, D-2"
+     }
+    ],
+    "explanation": "Ryots are cultivators, landless labourers work for wages, artisan-peasants supply skilled services, and headmen liaise with higher authorities."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [
+     "match_options_not_pairings"
+    ],
+    "structuralAfter": [
+     "match_options_not_pairings"
+    ]
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "c22fe4759d5ec9f195e45c733209481e",
+   "subject": "english",
+   "chapter": "Match the Following",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    0,
+    1,
+    3
+   ],
+   "labelMap": {
+    "III": "I",
+    "I": "II",
+    "II": "III",
+    "IV": "IV"
+   },
+   "before": {
+    "stem": "Use \"coherent\" to mean that ideas are logically organised and that the writing is easy to understand and clear. Each entry describes a report about a process; classify it using only these two features.\n\nList-I\n(A) The report presents the stages in an order that follows the process, and explains each stage clearly and in wording that is easy to understand.\n(B) The report presents the stages in an order that follows the process, but the explanations are unclear and difficult to understand.\n(C) The report presents the stages in an order that does not follow the process, but explains each stage clearly and in wording that is easy to understand.\n(D) The report presents the stages in an order that does not follow the process, and the explanations are unclear and difficult to understand.\n\nList-II\n(I) Both features are present\n(II) Only logical organisation is present\n(III) Only clarity and ease of understanding are present\n(IV) Neither feature is present\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(III), (C)-(IV), (D)-(II)",
+     "(A)-(IV), (B)-(II), (C)-(I), (D)-(III)"
+    ],
+    "explanation": "A has both logical organisation and clarity, while B has logical organisation but not clarity. C has clarity but not logical organisation, and D has neither feature; therefore the matches are (A)-(I), (B)-(II), (C)-(III) and (D)-(IV)."
+   },
+   "after": {
+    "stem": "Use \"coherent\" to mean that ideas are logically organised and that the writing is easy to understand and clear. Each entry describes a report about a process; classify it using only these two features.\n\nList-I\n(A) The report presents the stages in an order that follows the process, and explains each stage clearly and in wording that is easy to understand.\n(B) The report presents the stages in an order that follows the process, but the explanations are unclear and difficult to understand.\n(C) The report presents the stages in an order that does not follow the process, but explains each stage clearly and in wording that is easy to understand.\n(D) The report presents the stages in an order that does not follow the process, and the explanations are unclear and difficult to understand.\n\nList-II\n(I) Only clarity and ease of understanding are present\n(II) Both features are present\n(III) Only logical organisation is present\n(IV) Neither feature is present\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
+     "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)",
+     "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)",
+     "(A)-(IV), (B)-(III), (C)-(II), (D)-(I)"
+    ],
+    "explanation": "A has both logical organisation and clarity, while B has logical organisation but not clarity. C has clarity but not logical organisation, and D has neither feature; therefore the matches are (A)-(II), (B)-(III), (C)-(I) and (D)-(IV)."
+   },
+   "explanationChanged": true,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "ce6a917f-2469-4f3a-83e9-c1287315d676",
+   "subject": "political_science",
+   "chapter": "Globalisation",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    0,
+    1
+   ],
+   "labelMap": {
+    "1": "2",
+    "2": "3",
+    "3": "1"
+   },
+   "before": {
+    "stem": "Match List I (Policy initiative) with List II (Primary outcome) in the context of India's globalisation-era external strategies.\nList I: A Look East Policy, B 1991 Economic Liberalisation, C Diaspora engagement programmes\nList II: 1 Stronger ties with ASEAN economies, 2 Surge in foreign investment and trade openness, 3 Political and lobbying leverage abroad",
+    "options": [
+     {
+      "key": "A",
+      "text": "A A–1, B–2, C–3"
+     },
+     {
+      "key": "B",
+      "text": "B A–2, B–1, C–3"
+     },
+     {
+      "key": "C",
+      "text": "C A–3, B–2, C–1"
+     },
+     {
+      "key": "D",
+      "text": "D A–1, B–3, C–2"
+     }
+    ],
+    "explanation": "Look East strengthened ASEAN ties; liberalisation increased FDI/trade; diaspora engagement produced overseas political leverage."
+   },
+   "after": {
+    "stem": "Match List I (Policy initiative) with List II (Primary outcome) in the context of India's globalisation-era external strategies.\nList I: A Look East Policy, B 1991 Economic Liberalisation, C Diaspora engagement programmes\nList II: 1 Political and lobbying leverage abroad, 2 Stronger ties with ASEAN economies, 3 Surge in foreign investment and trade openness",
+    "options": [
+     {
+      "key": "A",
+      "text": "A A–2, B–3, C–1"
+     },
+     {
+      "key": "B",
+      "text": "B A–3, B–2, C–1"
+     },
+     {
+      "key": "C",
+      "text": "C A–1, B–3, C–2"
+     },
+     {
+      "key": "D",
+      "text": "D A–2, B–1, C–3"
+     }
+    ],
+    "explanation": "Look East strengthened ASEAN ties; liberalisation increased FDI/trade; diaspora engagement produced overseas political leverage."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "1",
+    "2",
+    "3"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [
+     "match_options_not_pairings"
+    ],
+    "structuralAfter": [
+     "match_options_not_pairings"
+    ]
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "d07b4f779e64ceaabc490eebdd437dcd",
+   "subject": "economics",
+   "chapter": "Indian Economic Development 1950–1990",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    3,
+    2,
+    0,
+    1
+   ],
+   "labelMap": {
+    "D": "A",
+    "C": "B",
+    "A": "C",
+    "B": "D"
+   },
+   "before": {
+    "stem": "Arrange the following statements in the order of the reasoning, from the perceived problem to the stated outcome.\n(A) Farmers may view a new technology as risky.\n(B) Subsidies were needed to encourage farmers to test the new HYV technology.\n(C) Indian agricultural productivity had increased sufficiently.\n(D) India was thereby able to be self-sufficient in food grains by the late 1960s.\nChoose the correct sequence:",
+    "options": [
+     "(A)-(B)-(C)-(D)",
+     "(B)-(A)-(C)-(D)",
+     "(A)-(B)-(D)-(C)",
+     "(C)-(D)-(A)-(B)"
+    ],
+    "explanation": "The reasoning begins with farmers viewing new technology as risky, followed by the role of subsidies in encouraging them to test it. It then moves to the increase in agricultural productivity, which is stated to have enabled self-sufficiency in food grains by the late 1960s."
+   },
+   "after": {
+    "stem": "Arrange the following statements in the order of the reasoning, from the perceived problem to the stated outcome.\n(A) India was thereby able to be self-sufficient in food grains by the late 1960s.\n(B) Indian agricultural productivity had increased sufficiently.\n(C) Farmers may view a new technology as risky.\n(D) Subsidies were needed to encourage farmers to test the new HYV technology.\nChoose the correct sequence:",
+    "options": [
+     "(C)-(D)-(B)-(A)",
+     "(D)-(C)-(B)-(A)",
+     "(C)-(D)-(A)-(B)",
+     "(B)-(A)-(C)-(D)"
+    ],
+    "explanation": "The reasoning begins with farmers viewing new technology as risky, followed by the role of subsidies in encouraging them to test it. It then moves to the increase in agricultural productivity, which is stated to have enabled self-sufficiency in food grains by the late 1960s."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "dfe119a36518933ac33780d01f3d313a",
+   "subject": "economics",
+   "chapter": "Indian Economic Development 1950–1990",
+   "type": "sequence_ordering",
+   "gateBefore": [
+    "sequence_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "sequence",
+   "stemField": "body",
+   "order": [
+    0,
+    2,
+    3,
+    1
+   ],
+   "labelMap": {
+    "I": "I",
+    "III": "II",
+    "IV": "III",
+    "II": "IV"
+   },
+   "before": {
+    "stem": "A planning team is arranging a framework with five-year plans and a twenty-year long-term plan. Arrange the following elements in a coherent sequence, beginning with the shorter-horizon objectives, moving to the longer horizon, identifying the long-term plan, and then stating the relationship between the plans.\n\nI. Specify objectives to be attained within a five-year plan.\nII. Specify what is to be achieved over a twenty-year period.\nIII. Identify the twenty-year long-term plan as the perspective plan.\nIV. Treat the five-year plans as the basis for the perspective plan.\n\nChoose the correct sequence:",
+    "options": [
+     "I → III → II → IV",
+     "II → I → III → IV",
+     "I → II → IV → III",
+     "I → II → III → IV"
+    ],
+    "explanation": "Begin with the objectives for the five-year horizon, followed by what is to be achieved over twenty years. The twenty-year long-term plan is the perspective plan, and the five-year plans provide its basis. Therefore, the correct sequence is I, II, III, IV."
+   },
+   "after": {
+    "stem": "A planning team is arranging a framework with five-year plans and a twenty-year long-term plan. Arrange the following elements in a coherent sequence, beginning with the shorter-horizon objectives, moving to the longer horizon, identifying the long-term plan, and then stating the relationship between the plans.\n\nI. Specify objectives to be attained within a five-year plan.\nII. Identify the twenty-year long-term plan as the perspective plan.\nIII. Treat the five-year plans as the basis for the perspective plan.\nIV. Specify what is to be achieved over a twenty-year period.\n\nChoose the correct sequence:",
+    "options": [
+     "I → II → IV → III",
+     "IV → I → II → III",
+     "I → IV → III → II",
+     "I → IV → II → III"
+    ],
+    "explanation": "Begin with the objectives for the five-year horizon, followed by what is to be achieved over twenty years. The twenty-year long-term plan is the perspective plan, and the five-year plans provide its basis. Therefore, the correct sequence is I, IV, II, III."
+   },
+   "explanationChanged": true,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "e19e65cb0bf8741eea6dbd48826f6566",
+   "subject": "economics",
+   "chapter": "Money & Banking",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "hold",
+   "reasons": [
+    "options_printed_in_stem"
+   ],
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "e28748f678ef9c8fff1c553cb667a2a2",
+   "subject": "economics",
+   "chapter": "Human Capital Formation",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    0,
+    3,
+    1,
+    2
+   ],
+   "labelMap": {
+    "I": "I",
+    "IV": "II",
+    "II": "III",
+    "III": "IV"
+   },
+   "before": {
+    "stem": "Use the following unemployment data for the same youth snapshot (2011–12): male youth with graduation and above had rates of 19 per cent in rural areas and 16 per cent in urban areas; young rural female graduates had a rate of nearly 30 per cent; male youth with primary-level education in rural and urban areas had a rate of about 3–6 per cent. Treat “nearly” and “about” as approximate; the 3–6 per cent rate is the reported range for rural and urban areas together. Match List-I with List-II.\nList-I\n(A) Difference between unemployment rates for rural and urban male youth with graduation and above\n(B) Difference between rates for rural female and rural male graduates\n(C) Group with the highest reported unemployment rate among those listed\n(D) Male youth with primary-level education in rural and urban areas compared with male youth with graduation and above\nList-II\n(I) Rural male graduates: 3 percentage points higher than urban male graduates\n(II) Rural female graduates: nearly 11 percentage points higher than rural male graduates\n(III) Young rural female graduates, at nearly 30 per cent\n(IV) Primary-level male youth: about 3–6 per cent, below the male-graduate rates of 16 and 19 per cent\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(IV), (B)-(II), (C)-(III), (D)-(I)",
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)"
+    ],
+    "explanation": "The rural–urban difference for male graduates is 19 − 16 = 3 percentage points. The rural female-graduate rate is nearly 11 percentage points above the rural male-graduate rate, since nearly 30 − 19 is nearly 11. Nearly 30 per cent is the highest reported rate, while about 3–6 per cent is below both male-graduate rates."
+   },
+   "after": {
+    "stem": "Use the following unemployment data for the same youth snapshot (2011–12): male youth with graduation and above had rates of 19 per cent in rural areas and 16 per cent in urban areas; young rural female graduates had a rate of nearly 30 per cent; male youth with primary-level education in rural and urban areas had a rate of about 3–6 per cent. Treat “nearly” and “about” as approximate; the 3–6 per cent rate is the reported range for rural and urban areas together. Match List-I with List-II.\nList-I\n(A) Difference between unemployment rates for rural and urban male youth with graduation and above\n(B) Difference between rates for rural female and rural male graduates\n(C) Group with the highest reported unemployment rate among those listed\n(D) Male youth with primary-level education in rural and urban areas compared with male youth with graduation and above\nList-II\n(I) Rural male graduates: 3 percentage points higher than urban male graduates\n(II) Primary-level male youth: about 3–6 per cent, below the male-graduate rates of 16 and 19 per cent\n(III) Rural female graduates: nearly 11 percentage points higher than rural male graduates\n(IV) Young rural female graduates, at nearly 30 per cent\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+     "(A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
+     "(A)-(I), (B)-(III), (C)-(IV), (D)-(II)",
+     "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)"
+    ],
+    "explanation": "The rural–urban difference for male graduates is 19 − 16 = 3 percentage points. The rural female-graduate rate is nearly 11 percentage points above the rural male-graduate rate, since nearly 30 − 19 is nearly 11. Nearly 30 per cent is the highest reported rate, while about 3–6 per cent is below both male-graduate rates."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  },
+  {
+   "id": "f58d7ce329f167054f7e42d9774a6203",
+   "subject": "english",
+   "chapter": "Match the Following",
+   "type": "match_the_following",
+   "gateBefore": [
+    "match_key_is_listed_order"
+   ],
+   "outcome": "reorder",
+   "reasons": [],
+   "kind": "match",
+   "stemField": "body",
+   "order": [
+    2,
+    0,
+    1,
+    3
+   ],
+   "labelMap": {
+    "III": "I",
+    "I": "II",
+    "II": "III",
+    "IV": "IV"
+   },
+   "before": {
+    "stem": "Match each situation in List-I with the assessment in List-II. Match the person’s stated preference separately from whether the person is currently alone or with others.\n\nList-I\n(A) Asha joins an optional group gathering because she says she enjoys being with other people.\n(B) Bilal works alone because his task requires him to work in a quiet room; he says he likes being with other people.\n(C) Charu declines an optional group gathering and says she prefers spending time alone.\n(D) Deepa attends a team meeting because participation is required; she says she prefers spending her free time alone.\n\nList-II\n(I) Likes company and chooses it voluntarily.\n(II) Likes company but is alone because the task requires it.\n(III) Prefers being alone and chooses it voluntarily.\n(IV) Prefers being alone but joins others because participation is required.\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(I), (B)-(IV), (C)-(III), (D)-(II)",
+     "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+     "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)"
+    ],
+    "explanation": "The definition concerns liking to be with other people, so match each person’s stated preference separately from their current situation. Asha chooses company because she enjoys it; Bilal likes company but works alone because his task requires it. Charu prefers being alone and chooses it, while Deepa prefers being alone but attends because participation is required. Therefore, option C gives the correct one-to-one matching."
+   },
+   "after": {
+    "stem": "Match each situation in List-I with the assessment in List-II. Match the person’s stated preference separately from whether the person is currently alone or with others.\n\nList-I\n(A) Asha joins an optional group gathering because she says she enjoys being with other people.\n(B) Bilal works alone because his task requires him to work in a quiet room; he says he likes being with other people.\n(C) Charu declines an optional group gathering and says she prefers spending time alone.\n(D) Deepa attends a team meeting because participation is required; she says she prefers spending her free time alone.\n\nList-II\n(I) Prefers being alone and chooses it voluntarily.\n(II) Likes company and chooses it voluntarily.\n(III) Likes company but is alone because the task requires it.\n(IV) Prefers being alone but joins others because participation is required.\n\nChoose the correct answer from the options given below:",
+    "options": [
+     "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+     "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
+     "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)",
+     "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)"
+    ],
+    "explanation": "The definition concerns liking to be with other people, so match each person’s stated preference separately from their current situation. Asha chooses company because she enjoys it; Bilal likes company but works alone because his task requires it. Charu prefers being alone and chooses it, while Deepa prefers being alone but attends because participation is required. Therefore, option C gives the correct one-to-one matching."
+   },
+   "explanationChanged": false,
+   "keyBefore": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "checks": {
+    "gateAfter": [],
+    "structuralBefore": [],
+    "structuralAfter": []
+   },
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active",
+   "is_deleted": false
+  }
+ ]
+}

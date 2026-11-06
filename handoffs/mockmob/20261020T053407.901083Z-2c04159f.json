@@ -1,0 +1,23 @@
+{
+  "id": "20261020T053407.901083Z-2c04159f",
+  "observed_at": "2026-10-20T05:34:07.901083+00:00",
+  "agent": "app-v13-release-owner (session 604ced81, 20 Oct)",
+  "task": "App version 13 release: blockers, Folds poses, tests, demo walk, signed build",
+  "status": "complete",
+  "done": "ui/v17-release head fe076156 (binaries from 19ac295b, 1.0.16+13). All L-01..L-12 app parts + app-* HIGHs + coordinator follow-ups (from=app, CUET-style wording, L-10 share note, L-01 replay results). Folds shrug x12, wave x11. Unit+widget 7337 passed. 454 intended goldens regenerated. Demo walk 360 Night+Day with 6 fixes. Signed AAB + arm64 APK in Desktop\\MockMob-build-13 with README.",
+  "next": "Owner: upload the AAB to closed testing; set ANDROID_CERT_SHA256; content rating + Data safety. Later: B1 Mob title at 1.3x goldens, C1/C2/C3 golden flakes, demo review index so Fix runs in the demo, Stamp wave pose.",
+  "blockers": [],
+  "evidence": [
+    "C:/Users/atish/Desktop/MockMob-build-13/README.txt (SHA-256s, signer 62:AC:58:08..EC:47)",
+    "tmp/walk-1020/app-v13/r2/JUDGEMENTS.txt and screenshots",
+    "unit2 run: +7337 All tests passed",
+    "golden verify: 1415 pass; remaining failures are B1 x4, C2 x9, C3 x2, C4 x2 and the C1 decode flake"
+  ],
+  "touched_files": [
+    "wt-1020-app-rel flutter_app lib/ and test/ (commits 22278d19..fe076156)",
+    "C:/Users/atish/Desktop/MockMob-build-13"
+  ],
+  "verification": "flutter analyze clean; full test/unit + test/widget green; goldens of touched areas verified; release APK signer checked with apksigner, AAB with keytool; x86_64 twin launched on emulator",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

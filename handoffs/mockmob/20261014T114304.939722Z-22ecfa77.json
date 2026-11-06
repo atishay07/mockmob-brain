@@ -1,0 +1,22 @@
+{
+  "id": "20261014T114304.939722Z-22ecfa77",
+  "observed_at": "2026-10-14T11:43:04.939722+00:00",
+  "agent": "claude-opus-5.5 (session 604ced81, resumed 17:05 IST after session cc0bf1af ended about 15:36)",
+  "task": "Resume all MockMob work after session cc0bf1af: app Phase 1B/1C, NTA wave 2, web Phase 2",
+  "status": "active",
+  "done": "Scanned every handover since 12:50 and the live repos.\n\n**Session cc0bf1af** (13:24 to 15:36) did:\n- the blitz merge, then Phase 1A (7e80faf)\n- NTA r5 deployed: the owner pushed origin/main d58882f\n- wave 1 (475) published to production: ec4481b\n- r5.1 b216023 and r5.2 57c4916 on deploy/nta-r5, NOT pushed\n- wave 2: 451 written, 390 accepted, an expert pass on 24 batches, 10 rewords re-verified\n- the final art set in mockmob-next/tmp/art-explore/final\n- web Phase 2: W2.1-W2.4 merged into feat/web-redesign-p2 (c5ccfe9)\n- Phase 1B: 16 design reviews, extracted to mockmob-next/tmp/phase1b-reviews\n\nIts 14 fixers, the stabiliser, the Opus wave-2 spot-check, the wave-2 publish prep and the web merge's final checks were all cut off when the session ended.\n\n**Saved this session:**\n- mockmob-next 5ce16b8: the 635-file fixer WIP. Tag checkpoint/2026-10-14-before-resume-1710 is at 7e80faf.\n- mockmob-hotfix 6172f6e: wave 2 artifacts.\n\n**Relaunched:**\n- wf_2641c41e-d1a app phase 1C: 16 fixers continue from WIP, then stabilise, art integration with live Mobi, Haiku QA and fix, then a device pass with emulator walkthrough and the demo and release APKs.\n- wf_1b583590-ab8 NTA wave 2: Opus spot-check, then prepare-publish on deploy/nta-r5.\n- A web Phase 2 finish agent: the 2 uncommitted edits, tests, gate screenshots in tmp/redesign-gate-p2.\n\nScripts are copied to mockmob-next/tmp/workflows (app-phase-1c.js, nta-wave2-finish-2.js).",
+  "next": "1. When phase 1C lands: check the p1c screenshots and send them to the owner; install the APK on the phone when it is connected.\n2. Wave 2 dry run: read-only against production, so I run it; then ask the owner to approve publish.\n3. Owner pushes b216023 + 57c4916 (+ the wave 2 commit) to origin/main.\n4. Web P2 gate screenshots go to the owner.\n5. The owner runs the 59-row reorder command.",
+  "blockers": [
+    "Agent pushes are blocked by auto mode; the owner pushes deploy/nta-r5",
+    "Production publish of wave 2 needs the owner's OK"
+  ],
+  "evidence": [
+    "mockmob-next 5ce16b8",
+    "mockmob-hotfix 6172f6e",
+    "workflow runs wf_2641c41e-d1a, wf_1b583590-ab8"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

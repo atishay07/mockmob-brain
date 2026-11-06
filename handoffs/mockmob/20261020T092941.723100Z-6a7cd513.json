@@ -1,0 +1,31 @@
+{
+  "id": "20261020T092941.723100Z-6a7cd513",
+  "observed_at": "2026-10-20T09:29:41.723100+00:00",
+  "agent": "mob-formats-server (subagent)",
+  "task": "D167 Mob formats server: timed races, Full mock together, live rooms fixes (L-55)",
+  "status": "active",
+  "done": "Branch web/1020-mob-formats (wt-1020-mob-formats-srv) from main 024a889a: migration 20261020140000_mob_v3_formats + undo; race (5/10 min, one pool served one at a time, server clock, 2 s grace), Full mock together (practice runner mode full via /api/mob/paper/start {mob, game}, held until close, podium sheets), L-55 presence via POST /room/presence + server broadcast, mob_private.mob_room_ok, web-security #1/#2 fixes, L-60 copy, MOB_FORMATS_ENABLED flag. 57 contract fixtures in data/tests/fixtures/mob_v3. Staging onwkqxmjqjrhfbjjdydu: applied, smoke (rolled back) caught a NULL-minutes check hole (fixed), undo restored snapshot 704b029d (460 objects) exactly, re-applied; function hash dda5ecae equals repo on PGlite.",
+  "next": "Finish suites (lint, test:mob/app/billing/recovery, next build --webpack), STATUS entry, report to main. Production: apply 100400 then 140000 (owner grant), MOB_FORMATS_ENABLED=true; live needs Realtime 'Allow public access' OFF (owner dashboard click), clients without track(), then MOB_LIVE_ENABLED=true.",
+  "blockers": [
+    "Realtime 'Allow public access' cannot be read or set through the Supabase MCP: owner dashboard click",
+    "Production migrations need the owner's grant (main session)"
+  ],
+  "evidence": [
+    "test:mob 274/274 at b638b5442",
+    "staging smoke JSON: race_without_minutes refused, race_past_grace expired, mock_record recorded marks 140, presence roster, run_before_go not_started, policies [mob_room_receive:SELECT]",
+    "staging undo hash 704b029d334fe40ebd90497266c34da3 == pre"
+  ],
+  "touched_files": [
+    "supabase/migrations/20261020140000_mob_v3_formats.sql",
+    "supabase/undo/20261020140000_mob_v3_formats.undo.sql",
+    "src/lib/mob/{games,starts,live,quest,model,paperHold,sheets}.mjs",
+    "src/lib/server/mob/{games,service,deps,http}.js",
+    "src/lib/server/practiceSessions.js",
+    "src/app/api/mob/game/[id]/room/presence/route.js",
+    "data/tests/mob_v3_formats.test.mjs",
+    "data/tests/fixtures/mob_v3/*"
+  ],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

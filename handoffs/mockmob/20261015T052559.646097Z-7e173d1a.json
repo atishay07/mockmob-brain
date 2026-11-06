@@ -1,0 +1,33 @@
+{
+  "id": "20261015T052559.646097Z-7e173d1a",
+  "observed_at": "2026-10-15T05:25:59.646097+00:00",
+  "agent": "IA4 builder (Opus, web IA workflow)",
+  "task": "Web IA packet IA4: landing and public chrome in wt-web-ia (branch web/ia-1015), plan sections 4 and 2.3",
+  "status": "complete",
+  "done": "Landing rebuilt to 7 sections (hero with live 5-question sample and Mobi, How it works 4-step tabs with ExamComparator and example screens, all 15 subjects, Free DU tools, pricing from plan_facts and publicOffer, proof with live bank numbers and creator band, FAQ 6 and close). Sample writes mm:sample:v1 handoff and shows the in-place result with Save this and start free (/signup?from=sample). New public header (How it works, Subjects, Free tools menu, Pricing, visitor variants via data-visitor), footer from FOOTER_COLUMNS (15 subjects, non-affiliation line), phone dock Try 5 questions to /#try. Logo B behind brand_flags. Marketing tokens moved to Night Sheet warm charcoal and Daylight paper. Dead landing components and 4 landing CSS files deleted; CompassLadder and CollegeDestinations kept for IA8. Not committed.",
+  "next": "Integrator: Gate A captures of / (hero, sample answered, How it works steps, phone 375 and 360, Night and Day, ?brand=art). IA1: theme init sets html data-visitor and data-visitor-plan before first paint. IA8: move ladder, college tiles and Pro aside to the calculator page, delete PriceIncreaseCountdown, update combination page dock props, prune old lp-* rules in landing.css.",
+  "blockers": [
+    "None for IA4. The data-visitor attribute before first paint depends on IA1's init script; until then NavBar sets it after the session check (a returning or member visitor can see the new-guest header briefly)."
+  ],
+  "evidence": [
+    "node --test data/tests/landing_ia4.test.mjs 8/8 pass",
+    "npm run test:ia 62/62 pass (glossary count only went down)",
+    "npm run test:app 146/147: the one failure is mobi_kit 'profile and onboarding copy' asserting onboarding text, from IA3's parallel onboarding edit, not IA4",
+    "npx eslint on all IA4 files: clean"
+  ],
+  "touched_files": [
+    "src/app/page.js",
+    "src/app/marketing-theme.css",
+    "src/components/NavBar.jsx",
+    "src/components/MarketingFooter.jsx",
+    "src/components/MobileDock.jsx",
+    "src/components/LandingActions.jsx",
+    "src/components/Logo.jsx",
+    "src/components/landing/*",
+    "src/app/{feature-tour,tour-screens,mistake-lab,hero-depth}.css (deleted)",
+    "data/tests/landing_ia4.test.mjs"
+  ],
+  "verification": "Unit tests, eslint and code reading only. No dev server, no browser, no build, per the orchestrator. Layout, page height, above-the-fold targets and Lighthouse not measured; they need the Gate A capture.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "20261015T142617.773106Z-58d5911e",
+  "observed_at": "2026-10-15T14:26:17.773106+00:00",
+  "agent": "claude-opus-5.5 (session 604ced81)",
+  "task": "15 Oct ~20:20 IST: website v2 and Lab slice 2 live; APK v8 building; slice 3 and the speed pass running",
+  "status": "active",
+  "done": "Website v2 is deployed (f652aba0), with the repair copy fixed to be truthful. Lab slice 2 is merged in wt-deploy (branch deploy/slice2-1015) and live on main 48309076; the first Vercel build failed on a transient Google Fonts fetch and the retry was READY with 0 runtime errors. App: slice 2 fixes (57aed8a9, the old-server fallback) plus polish wave 2 (Today truth and motion 7f685790, repair run motion 5a677e4c, Practice tab and empty scenes 775bb896) merged into feat/app-and-web b0a61496; the APK v8 build is running in the background. The owner was told where the Supabase Confirm email toggle is (Authentication > Sign In / Providers > Email).",
+  "next": "1. Send APK v8 (tmp/apk/MockMob-v8-release.zip) when the build finishes. 2. Speed and CI workflow wf_b5d5d70e-d19 in wt-web-v2 (branch web/v2-1015, based on f652aba0): when done, merge web/v2-1015 into main via wt-deploy and deploy. 3. Lab slice 3 workflow wf_08ca7750-ebb (web branch web/lab-s3 in wt-deploy; app ui/phase2): when done, review the truth findings, merge and deploy, then APK v9. 4. Next, per the CTO list: the analytics funnel on the consent switch, crash reporting, and arena phone polish pass 3. 5. Update the goal checklist doc.",
+  "blockers": [],
+  "evidence": [
+    "origin/main 48309076 READY",
+    "mockmob-next feat/app-and-web b0a61496",
+    "wt-deploy web/lab-s3"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

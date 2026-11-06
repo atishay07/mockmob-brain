@@ -1,0 +1,52 @@
+{
+  "ranAt": "2026-10-03T19:05:58.288Z",
+  "results": [
+    {
+      "provider": "openai",
+      "model": "gpt-4.1-mini",
+      "reservedUsd": 0.0004272,
+      "actualUsd": 0.000068,
+      "inTok": 46,
+      "outTok": 31,
+      "ms": 1681,
+      "jsonOk": true,
+      "reply": "Sacrificing ratio is the proportion of profit a partner gives up to a new or existing partner when admitting or changing partnership terms.",
+      "failure": null,
+      "receipted": true
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4.1-mini",
+      "reservedUsd": 0.0004272,
+      "actualUsd": 0.000076,
+      "inTok": 46,
+      "outTok": 36,
+      "ms": 1125,
+      "jsonOk": true,
+      "reply": "A sacrificing ratio is the ratio in which existing partners give up their share of profits to a new partner or among themselves during admission or reconstituti",
+      "failure": null,
+      "receipted": true
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "reservedUsd": 0.0001602,
+      "actualUsd": 0.0000249,
+      "inTok": 46,
+      "outTok": 30,
+      "ms": 1886,
+      "jsonOk": true,
+      "reply": "A sacrificing ratio is the proportion in which existing partners in a partnership agree to sacrifice their profit share to accommodate a new partner.",
+      "failure": null,
+      "receipted": true
+    }
+  ],
+  "budget": {
+    "id": "student_ai",
+    "funded_usd": 0,
+    "spent_usd": 0.0040694,
+    "reserved_usd": 0,
+    "paused": false,
+    "monthly_cap_usd": 25
+  }
+}

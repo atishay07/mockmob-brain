@@ -1,0 +1,32 @@
+{
+  "id": "20261022T173403.503347Z-1b281026",
+  "observed_at": "2026-10-22T17:34:03.503347+00:00",
+  "agent": "claude-auto",
+  "task": "Auto-capture: claude session b448f889",
+  "status": "paused",
+  "done": "Auto-captured at Stop. Turns: 5. Last message: The final v8 render has started. All 7 fix lanes from the judge panel passed their independent checks.\n\nThe 20 single-frame arm glitches in unlimited, findfix, examday, mob and everything are re-rendered. Their independent check is still running. If it fails, I fix those frames and re-render the film, which costs about 12 minutes.\n\nWhen the render finishes I master it, run the quality checks (bitr",
+  "next": "Unverified auto-capture. Read the session transcript and live repo state before continuing.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\b448f889-ae88-4a58-b8a4-87f72631156e.jsonl"
+  ],
+  "touched_files": [
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\src\\teaser\\hosts\\logo.ts",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\src\\teaser\\hosts\\open.ts",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\mobi3d\\perf\\dropout_scan.py",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\mobi3d\\perf\\dropout_sheet.py",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\mobi3d\\perf\\dropout_legcheck.py",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\mobi3d\\perf\\dropout_fix_gpu.sh",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\mobi3d\\perf\\dropout_publish.py",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\mobi3d\\perf\\dropout_check.py",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\mobi3d\\perf\\dropout_rescan.sh",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\src\\teaser\\hosts\\unlimited.ts",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\src\\teaser\\hosts\\findfix.ts",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\src\\teaser\\hosts\\examday.ts",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\src\\teaser\\hosts\\mob.ts",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\src\\teaser\\hosts\\everything.ts"
+  ],
+  "verification": "auto-captured by hook; not agent-verified",
+  "cost_and_pending_requests": "unknown; hook does not see provider receipts",
+  "confidence": "agent-reported; verify evidence before acting"
+}

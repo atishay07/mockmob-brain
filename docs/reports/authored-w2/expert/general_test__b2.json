@@ -1,0 +1,38 @@
+{
+  "batch": "general_test__b2",
+  "subject": "general_test",
+  "pass": "wave2 expert pass (CUET UG subject expert, final pass)",
+  "date": "2026-10-14",
+  "source": "tmp/authored-w2/general_test/general_test__b2.json",
+  "acceptance": "docs/brain/reports/authored-w2/wave2-acceptance-2026-10-14.json",
+  "reviewed": 20,
+  "accepted_in_batch": 20,
+  "counts": {
+    "ready": 20,
+    "repaired": 0,
+    "practice": 0,
+    "reject": 0
+  },
+  "verdicts": [
+    {"id": "40c2f17d-3e9b-4dc1-8177-bf009411a05c", "verdict": "ready", "why": "Letter series advances 3 places each step (B2, E5, H8, K11, N14). Key N is unique."},
+    {"id": "47730dcc-530f-4298-a89d-09f77dc8095b", "verdict": "ready", "why": "Standard tool-to-user analogy (scalpel to surgeon, chalk to teacher). Blackboard is a surface, not the user, so it is not a second valid answer."},
+    {"id": "941bb178-a104-4198-983c-2c941f45efb3", "verdict": "ready", "why": "Carrot is the only vegetable among fruits. Key A is unique."},
+    {"id": "b6398420-3a25-4d85-bd4b-0d9844017249", "verdict": "ready", "why": "Position coding checks out: C3, A1, T20, D4, O15, G7. BIRD gives 2-9-18-4, which is option D."},
+    {"id": "0c58063b-c5ec-4c3d-a70d-40ffd57a09f1", "verdict": "ready", "why": "The man's mother is the husband's sister, so the husband is the man's uncle and the woman is his aunt by marriage. Key B is sound."},
+    {"id": "c0721313-c1f4-4c43-9b62-cd527f663d7f", "verdict": "ready", "why": "Net displacement is 8 km east (6 N, 8 E, 6 S). Key A is correct and the distractors are plausible."},
+    {"id": "45d72b33-adf7-4697-a63e-7195b0353ee0", "verdict": "ready", "why": "Differences are 5, 7, 9, 11, 13, so 35 + 13 = 48. Key C is correct."},
+    {"id": "9803c1c4-d942-4658-98c9-aba3b1293e19", "verdict": "ready", "why": "Each letter of MOUSE shifts +1, so HORSE gives IPSTF. Key A is correct."},
+    {"id": "d440a620-d1e9-46f0-9ad1-fb13ffc0377b", "verdict": "ready", "why": "Total = 12 + 18 - 1 = 29. Key B is correct."},
+    {"id": "92d3d84e-a352-4dc2-9bfc-43619398b020", "verdict": "ready", "why": "Each term is 2x + 2 of the previous one (1,4,10,22,46,94). Key C is correct."},
+    {"id": "2bdd62df-b031-40d4-b8cb-6a02a5e9180d", "verdict": "ready", "why": "CP 100, MP 140, SP 112, so profit is 12%. Key D is correct."},
+    {"id": "0bd5276c-3963-46d9-9ca2-57d801e28dc1", "verdict": "ready", "why": "(3x+6)/(5x+6) = 9/13 gives x = 4, so B is 20. Verified by substitution (18/26 = 9/13). Key D is correct."},
+    {"id": "d6be12b9-c0b1-4559-a5aa-07d473ad544a", "verdict": "ready", "why": "Work done in 4 days is 5/9, leaving 4/9. B needs 4/9 x 18 = 8 days. Key C is correct."},
+    {"id": "b47dcf13-1b47-4488-8f7e-d5f3a20ff583", "verdict": "ready", "why": "Annual compounding gives 2,100. Distractors 2,000 (simple interest) and 2,155.06 (half-yearly) are correctly explained."},
+    {"id": "e411bdc7-87fa-450e-8d39-eacb32946ee7", "verdict": "ready", "why": "15 m/s x 3.6 = 54 km/h. Key B is correct."},
+    {"id": "eca07a38-50c8-4346-bd53-c63e6072703e", "verdict": "ready", "why": "Total 120 minus 88 gives 32. Key A is correct."},
+    {"id": "f4cbe5ec-4495-460b-9751-9f9a1bf9403d", "verdict": "ready", "why": "2/5 = 0.4 (II), 3/4 = 75% (IV), 5/4 = 125% (III), 1/8 = 0.125 (I). Key B is correct and unique."},
+    {"id": "0a6c2551-06c7-4be3-a1df-8b3e11ebb0e1", "verdict": "ready", "why": "Decimals 2/3 = 0.667, 5/11 = 0.455, 4/9 = 0.444, 3/7 = 0.429 give the descending order C, B, D, A. Key B is correct."},
+    {"id": "cd7595ed-0ad7-4971-b751-620d04f3a27d", "verdict": "ready", "why": "LCM(4,6) = 12 and HCF(18,24) = 6 are true. 0.1 x 0.1 = 0.01 is false. 2^5 = 32 is true. Key A is correct."},
+    {"id": "d2d1e440-1447-4fc4-be52-6f03764331e4", "verdict": "ready", "why": "A is true. R is true and is the form used in the proof of A, so option D is a sound key. The difficulty label 'hard' is generous but does not affect the key."}
+  ]
+}

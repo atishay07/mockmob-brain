@@ -1,0 +1,28 @@
+{
+  "id": "20261103T231315.466196Z-6cc7b57b",
+  "observed_at": "2026-11-03T23:13:15.466196+00:00",
+  "agent": "claude-opus-5.5 session 34abe724 (single)",
+  "task": "4 Nov single session: Lane A app 1.0.20+18 (fix, settle, walk, AAB); Lane B home page LK67-LK75 (investigate, design, spec, build, ship)",
+  "status": "active",
+  "done": "Web parity fix LIVE main ced6f747f (coach line true for every card, one feed checkpoint count, whole-card deck edges; dpl_DP3B34H1NjgFudfSbiVWzxk3onaf READY, no runtime errors). App ui/1103-app-18 at acd7be66d: WIP edits taken (b3c3507a7), 5 medium + 5 low review findings fixed with tests (sync 6e9d589f8 merged 2d39d0880; Learn 65be52363, 42fa00a88), goldens re-recorded and viewed, full suite 12,428 pass / 111 known drift. Home: audit, real-touch scroll forensics, brand inventory, 3 designs with mock-ups, 3 judges; CTO spec SPEC-HOME-1104.md (Desk Light + 19 decisions) committed in mockmob-next c590f932b.",
+  "next": "Workflow wf_1a6e4870-8c5: emulator walk (+walk fix, rewalk) on ui/1103-app-18. Then bump 1.0.20+18, build signed AAB --sell (key.properties from MockMob-keys, prod.json from wt-1020-v16; remove both after), package Desktop/MockMob-build-18 with OWNER-STEPS.md (draft in scratchpad), push ui/1103-app-18. Workflow wf_bdf97b8b-54d: 5 home packets in wt-1104-web-polish -> integrate -> gate; then review, push main, check deploy, look live. Finally NOW/ledger/STATUS, push branches (few) + archive tags, checkpoint.",
+  "blockers": [
+    "610 MB snapshot push still needs the owner's command (classifier)",
+    "explore-learn-calm-3 needs a server field (not a regression)"
+  ],
+  "evidence": [
+    "main ced6f747f READY dpl_DP3B34H1NjgFudfSbiVWzxk3onaf",
+    "ui/1103-app-18 acd7be66d settle: 12428 pass, 111 fail all known drift",
+    "mockmob-next c590f932b docs/brain/handoff-1104/home-spec/",
+    "mockmob-next 7181bbfdc NOW interim"
+  ],
+  "touched_files": [
+    "wt-1103-app-rel (ui/1103-app-18)",
+    "wt-1104-app-sync (ui/1104-app-sync)",
+    "wt-1104-web-polish (web/1104-polish)",
+    "mockmob-next docs/brain NOW.md, handoff-1104/home-spec/"
+  ],
+  "verification": "Web: test:learn 429, keycards 125, keycards-ui 40, full node suite only pre-existing failures; eslint 0; webpack + Turbopack builds pass; 20 parity shots opened. App: analyze clean; unit 8950 pass; settle full suite 12428/111 known drift.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "20261013T083532.620385Z-da36a816",
+  "observed_at": "2026-10-13T08:35:32.620385+00:00",
+  "agent": "claude-code opus-5.5 (desktop session 604ced81, orchestrator)",
+  "task": "MockMob app pass 2 and sign-in reliability (13 Oct 2026)",
+  "status": "active",
+  "done": "Sign-in reliability DEPLOYED to production by the owner at about 14:00 IST: origin/main = 5f7d53e (branch fix/auth-reliability in mockmob-hotfix, built on 52de7fe): src/proxy.js session refresh, cookie-safe server reads (503 on transient), refresh calls keep sessions on 429/5xx, return-to-page, hardened callback, email code resend and limits, sign out of other devices, NextAuth removed; test:auth 33/33, next build passes; prod /login, /, /api/auth/me (401 signed out), /auth/callback respond. Migration supabase/migrations/20261013150000_auth_unconfirmed_passwords.sql saved, NOT applied (optional). Same work plus the app side committed on feat/app-and-web as f4451cd (app: session vault fixing secure-storage wipes on read errors, months-long sessions, Google one-tap + PKCE browser fallback via in.mockmob.app://login-callback, password sign-in/set/reset, sign out other devices, phone built but off; docs flutter_app/docs/AUTH.md, docs/brain/AUTH-RELIABILITY-2026-10-13.md with owner dashboard steps). Pass 2 (wf_6de0e3bb-fdf, script tmp/workflows/app-pass-2.js): web-parity, nta-spec, mascot, nta-mode, practice, tools, insights, onboarding, today-rhythm done; you builder finishing; then integrate (emulator), review (Sonnet for truth-flow and perf-a11y), round 2 only if owner-feedback min score < 8. ChatGPT desktop app closed to free RAM (owner allowed managing RAM).",
+  "next": "1) Owner is testing the website on his phone: Google sign-in, switch apps, still signed in after more than 1 hour, email code UI; collect his result. 2) When pass 2 integration has the emulator up, ask owner to run node --use-system-ca scripts/dev/staging-otp.mjs app-e2e-student@example.com in mockmob-next and type the code into the emulator once; then test real signed-in flows against staging (practice subject and length, NTA mode, result reveal, repair, tools, insights, You edit subjects). 3) Place account_access widgets (GoogleButton, SignInMethods, password, SignOutOtherDevicesCard) into lib/features/auth and You > Account. 4) Owner dashboard steps from AUTH docs (Supabase sessions, redirect URLs incl. in.mockmob.app://login-callback, Google provider client IDs; Google Cloud Android OAuth client with SHA-1s; Vercel NEXT_PUBLIC_SITE_URL). 5) Report honest score with screenshots; update walkthrough artifact https://claude.ai/artifact/7jTHM5Rsdz5zj5YT8Wr39f.",
+  "blockers": [
+    "Owner one-time sign-in on the emulator for real signed-in testing",
+    "Owner dashboard steps for Google sign-in in the app",
+    "Claude usage near the 5-hour limit: resume workflows with resumeFromRunId if stopped"
+  ],
+  "evidence": [
+    "origin/main 5f7d53e",
+    "mockmob-next f4451cd",
+    "docs/brain/AUTH-RELIABILITY-2026-10-13.md",
+    "flutter_app/docs/AUTH.md"
+  ],
+  "touched_files": [
+    "mockmob-hotfix branch fix/auth-reliability",
+    "mockmob-next src/** auth files, flutter_app/lib/core/auth, lib/features/account_access"
+  ],
+  "verification": "Hotfix: npm run test:auth 33/33 pass, next build --webpack passes with Proxy (Middleware) listed; production URLs checked after deploy. Real Google and inbox sign-in not yet verified (owner testing now).",
+  "cost_and_pending_requests": "None.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

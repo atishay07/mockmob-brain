@@ -1,0 +1,30 @@
+{
+  "id": "20261012T221215.617598Z-925ff580",
+  "observed_at": "2026-10-12T22:12:15.617598+00:00",
+  "agent": "claude-code opus-5.5 (desktop session 604ced81)",
+  "task": "MockMob app redesign overnight (\"Night Sheet\") after the owner rejected the first build on 13 Oct; owner asleep, told the agent not to ask anything and to bring the app \"to 90 by morning\"",
+  "status": "active",
+  "done": "Research workflow wf_5256c072-b8a wrote docs/brain/design-2026-10-13/{ref-high,ref-revolut,ref-fampay,owner-materials,onboarding-research,flutter-feasibility,directions}.md plus a critique. Decision taken on the owner's behalf: \"Night Sheet\" = Afterhours material (dark cinematic room, smoked glass on floating parts, one volt light, condensed monumental numbers) built around the student's OMR answer sheet as the central object, WARMED per the owner's note (\"very ice cold ... refine, don't copy-paste\"): warm charcoal neutrals, honey desk-lamp environment light, Indian lived-in objects, existing lime folded-paper Mobi kept and re-rendered. Authority: docs/brain/design-2026-10-13/BUILD-BRIEF.md. Concept renders tmp/design-concepts/afterhours/concept-1..4.png (cold, layout only). Warm art via Codex $imagegen (ChatGPT plan) in tmp/design-concepts/assets: hero-desk, 7 Mobi poses, 5 subject objects, paper-tile, foil-seal, 3 brass tokens. Fonts: Bricolage Grotesque variable in scratchpad/fonts. Wave A committed e01bfb3 (1201 tests). tool/flutter_locked.sh serialises heavy Flutter runs. Emulator AVD mockmob_budget set to 300 dpi (M06-like). Build workflow wf_77bfdfde-171 launched: foundation, 7 screen builders (onboarding, today, runner, result, review, practice, you), integrate on emulator, 2 review+fix rounds.",
+  "next": "When wf_77bfdfde-171 finishes: inspect v2 screenshots (tmp/app-shots/v2), run more polish rounds on the emulator, commit. After 7:36 AM IST (ChatGPT image limit reset): re-render mobi-rest (sitting on the floor, no block) and empty-state vignettes if code composition is weak. Morning: M06 benchmarks B1/B2 (glass dock over scrolling art), profile build on the M06, owner review of BUILD-BRIEF decisions (direction, 3 tabs + Start with You behind avatar, Bricolage, brand mark).",
+  "blockers": [
+    "ChatGPT image usage limit until 07:36 IST",
+    "M06 not connected (owner asleep); emulator is not representative of Mali-G57 performance",
+    "Owner push of mockmob-hotfix 52de7fe still pending",
+    "Google OAuth / Firebase IDs (owner)"
+  ],
+  "evidence": [
+    "docs/brain/design-2026-10-13/BUILD-BRIEF.md",
+    "tmp/design-concepts/assets/*.png (17 warm assets)",
+    "tmp/design-concepts/afterhours/concept-1..4.png"
+  ],
+  "touched_files": [
+    "docs/brain/design-2026-10-13/",
+    "tmp/design-concepts/",
+    "flutter_app/tool/flutter_locked.sh",
+    "C:/Users/atish/.android/avd/mockmob_budget.avd/config.ini (density 300)",
+    "memory/mockmob-design-direction.md"
+  ],
+  "verification": "Assets and renders opened and judged visually. Build not yet verified (workflow running).",
+  "cost_and_pending_requests": "No MockMob API budget spent. Image generation used the owner's ChatGPT plan via Codex (owner authorised); limit reached until 07:36.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

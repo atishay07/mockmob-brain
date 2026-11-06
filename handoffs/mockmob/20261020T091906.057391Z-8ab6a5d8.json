@@ -1,0 +1,33 @@
+{
+  "id": "20261020T091906.057391Z-8ab6a5d8",
+  "observed_at": "2026-10-20T09:19:06.057391+00:00",
+  "agent": "web-explainer (Claude Opus 5.5 subagent)",
+  "task": "Mob explainer on the web (D166, K9 copy, D168/D169 setup steps)",
+  "status": "complete",
+  "done": "Branch web/1020-mob-explainer head c4546a705 in wt-1020-web-explainer: src/components/mob/v3/explainer (model, motion engine, 7 slide builders, frame, explainer, setup, flow, css), DenStart gate + D0 link, MobPage settings replay row, JoinMob invite gate, billingOn from the server on /mob and /join, /preview/mob-explainer, public/mob/explainer Mobi art, data/tests/mob_explainer_1020.test.mjs in test:mob.",
+  "next": "Parent merges the branch; no push or deploy done. Owner sign-off on the web screenshots.",
+  "blockers": [],
+  "evidence": [
+    "npm run test:mob 262/262 pass",
+    "npm run lint clean",
+    "next build --webpack exit 0",
+    "clicktest 69/69 real-pointer checks, no console errors",
+    "screens tmp/walk-1020/mob-explainer-web r1 r2 r3 click"
+  ],
+  "touched_files": [
+    "src/components/mob/v3/explainer/*",
+    "src/components/mob/den/DenStart.jsx",
+    "src/components/mob/MobPage.jsx",
+    "src/components/mob/JoinMob.jsx",
+    "src/app/(app)/mob/page.jsx",
+    "src/app/(app)/mob/MobPageClient.jsx",
+    "src/app/join/[code]/page.jsx",
+    "src/app/preview/mob-explainer/*",
+    "public/mob/explainer/*",
+    "data/tests/mob_explainer_1020.test.mjs",
+    "package.json"
+  ],
+  "verification": "Headless Chrome 390x844 and 1440x900, Night and Day, reduced motion; not on a real phone.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

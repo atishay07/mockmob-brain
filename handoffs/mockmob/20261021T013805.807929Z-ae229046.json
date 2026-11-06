@@ -1,0 +1,40 @@
+{
+  "id": "20261021T013805.807929Z-ae229046",
+  "observed_at": "2026-10-21T01:38:05.808930+00:00",
+  "agent": "promo-film integrator r2",
+  "task": "MockMob teaser integrator round 2 (shared fixes)",
+  "status": "complete",
+  "done": "60 fps film; headline exit clears 1 frame before next sentence + timeline lint + render dev check; holds problem/unlimited/askmobi/mob; chrome band plate + isolation; decor strip->clay mock-deck, max 2; arrival convention; pose cut mode during hops. Film 55.850 s = 3351 frames.",
+  "next": "Chapter agents fix their chapters per docs/BUILD.md section 8 and NOTES r2 list (problem hero 142 exit, end/folds decor, end circle frame 0, coins in chrome band). Composer re-score (film length and beats changed).",
+  "blockers": [],
+  "evidence": [
+    "out/teaser-r2-infra.mp4 60 fps 55.85 s",
+    "check_av 9/9 VO 0 ms, cuts -5..+7 ms",
+    "out/r2-ch-askmobi-60_sheet_01.png vs ch-askmobi-v3_sheet_01.png match"
+  ],
+  "touched_files": [
+    "src/teaser/plan.ts",
+    "src/teaser/sound.ts",
+    "src/teaser/Teaser.tsx",
+    "src/components/Whip.tsx",
+    "src/components/KaraokeHeadline.tsx",
+    "src/components/ChapterFrame.tsx",
+    "src/components/Decor.tsx",
+    "src/components/CharacterRig.tsx",
+    "src/components/Characters.tsx",
+    "src/components/BrutalCard.tsx",
+    "src/components/PeekIn.tsx",
+    "src/motion/time.ts",
+    "src/teaser/chapters/Mob.tsx",
+    "src/teaser/chapters/Mob/times.ts",
+    "scripts/timeline.mjs",
+    "scripts/render.sh",
+    "scripts/check_av.py",
+    "docs/BUILD.md",
+    "docs/ARCHITECTURE.md",
+    "docs/NOTES.md"
+  ],
+  "verification": "tsc clean; timeline.mjs; full render via render.sh; check_av pass",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

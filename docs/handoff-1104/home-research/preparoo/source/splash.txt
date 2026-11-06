@@ -1,0 +1,282 @@
+   1  #### About
+   2  Source: https://ug.preparoo.app/ (index.html 1,111,207 bytes decoded; fetched 3 Nov 2026 20:42 UTC). Excerpts reformatted for reading (one statement per line); code otherwise unchanged. Analysis only, not for reuse.
+   3  
+   4  #### A. Critical inline CSS in <head> (index.html char 61128): splash painted at first paint, children hidden
+   5  <style id="preloader-fix">.brand_wrap{display:flex!important;}.brand_wrap>*{opacity:0;}</style>
+   6  
+   7  #### B. Inline CSS (char 61531): logo/word zoom-in keyframes
+   8  /* Preload zoom-in effect */
+   9  .brand_wrap>*{
+  10    transform:scale(0.85);
+  11    opacity:0;
+  12    will-change:transform,opacity;
+  13  }
+  14  @keyframes brand-zoom-in{
+  15    0%{
+  16  opacity:0;
+  17  transform:scale(0.85);
+  18  }
+  19    100%{
+  20  opacity:1;
+  21  transform:scale(1);
+  22  }
+  23  }
+  24  .brand_wrap.is-ready>*{
+  25    animation:brand-zoom-in 0.8s cubic-bezier(0.16,1,0.3,1) forwards;
+  26  }
+  27  </style>
+  28  
+  29  #### C. theme-color meta in <head>
+  30  <meta name="theme-color" content="#000000" id="dyn-theme-color"/>
+  31  
+  32  #### D. Splash markup (char 68272): wordmark text + kangaroo PNG + striped edge image
+  33  <div class="brand_wrap"><div style="display:flex;
+  34  align-items:flex-end;
+  35  justify-content:center;
+  36  gap:0;
+  37  width:auto;
+  38  "><span style="color:white;
+  39  font-family:'BDO Grotesk VF',Arial,sans-serif;
+  40  font-size:3.5rem;
+  41  font-weight:600;
+  42  letter-spacing:-0.03em;
+  43  white-space:nowrap;
+  44  line-height:1;
+  45  ">Preparoo</span><img decoding="async" src="images/preparoo-logo-white-hd.png" alt="" style="height:4.2rem;
+  46  width:auto;
+  47  object-fit:contain;
+  48  margin-left:0.15rem;
+  49  margin-bottom:0.7rem;
+  50  "/></div><img decoding="async" src="images/mask.png" loading="lazy" width="1918" height="246" sizes="100vw" srcset="images/mask-p-500.png 500w, images/mask-p-800.png 800w, images/mask-p-1080.png 1080w, images/mask-p-1600.png 1600w, images/mask.png 1918w" alt="" class="brand_lines"/></div>
+  51  
+  52  #### E. Webflow CSS (css/preparoo.ef0833b7b.css) + inline CLS fix
+  53  .brand_wrap {
+  54    z-index: 102;
+  55    background-color: var(--_colors---primary--black);
+  56    flex-flow: column;
+  57    justify-content: center;
+  58    align-items: center;
+  59    width: 100%;
+  60    height: 100vh;
+  61    display: none;
+  62    position: fixed;
+  63    inset: 0%;
+  64  }
+  65  .brand_logo {
+  66    width: var(--fixed--7rem);
+  67  }
+  68  .brand_lines {
+  69    width: 100%;
+  70    height: 20vh;
+  71    position: absolute;
+  72    top: 100%;
+  73  }
+  74  .brand_lines{aspect-ratio:1918/246;}
+  75  
+  76  #### F. Webflow IX2 event e-100 (PAGE_START, home page -> action list a-60), js/webflow.schunk.d61b41edd968cc6d.js
+  77  "e-100":{
+  78  id:"e-100",name:"",animationType:"custom",eventTypeId:"PAGE_START",action:{
+  79  id:"",actionTypeId:"GENERAL_START_ACTION",config:{
+  80  delay:0,easing:"",duration:0,actionListId:"a-60",affectedElements:{
+  81  }
+  82  ,playInReverse:!1,autoStopEventId:"e-101"}
+  83  }
+  84  ,mediaQueries:["main","medium","small","tiny"],target:{
+  85  id:"6840876d4d1ed0e8e2a330fc",appliesTo:"PAGE",styleBlockIds:[]}
+  86  ,targets:[{
+  87  id:"6840876d4d1ed0e8e2a330fc",appliesTo:"PAGE",styleBlockIds:[]}
+  88  ],config:{
+  89  loop:!1,playInReverse:!1,scrollOffsetValue:null,scrollOffsetUnit:null,delay:null,direction:null,effectIn:null}
+  90  ,createdOn:0x197c7ed2bc8}
+  91  
+  92  #### G. Webflow IX2 action list a-60 "Brand fade" (durations in ms; easing names are Webflow presets)
+  93  "a-60":{
+  94  id:"a-60",title:"Brand fade",actionItemGroups:[{
+  95  actionItems:[{
+  96  id:"a-60-n",actionTypeId:"GENERAL_DISPLAY",config:{
+  97  delay:0,easing:"",duration:0,target:{
+  98  selector:".brand_wrap",selectorGuids:["aff5e2bb-ecb0-0741-9340-b185bed3bd76"]}
+  99  ,value:"flex"}
+ 100  }
+ 101  ,{
+ 102  id:"a-60-n-8",actionTypeId:"STYLE_SIZE",config:{
+ 103  delay:0,easing:"",duration:500,target:{
+ 104  selector:".brand_wrap",selectorGuids:["aff5e2bb-ecb0-0741-9340-b185bed3bd76"]}
+ 105  ,widthValue:100,heightValue:100,widthUnit:"%",heightUnit:"vh",locked:!1}
+ 106  }
+ 107  ,{
+ 108  id:"a-60-n-13",actionTypeId:"TRANSFORM_MOVE",config:{
+ 109  delay:0,easing:"",duration:500,target:{
+ 110  selector:".brand_wrap",selectorGuids:["aff5e2bb-ecb0-0741-9340-b185bed3bd76"]}
+ 111  ,yValue:0,xUnit:"PX",yUnit:"vh",zUnit:"PX"}
+ 112  }
+ 113  ,{
+ 114  id:"a-60-n-6",actionTypeId:"TRANSFORM_SCALE",config:{
+ 115  delay:0,easing:"",duration:500,target:{
+ 116  selector:".brand_logo",selectorGuids:["49e73bd4-e3b0-3f94-33c7-a40b8d8582f3"]}
+ 117  ,xValue:.8,yValue:.8,locked:!0}
+ 118  }
+ 119  ,{
+ 120  id:"a-60-n-4",actionTypeId:"STYLE_OPACITY",config:{
+ 121  delay:0,easing:"",duration:500,target:{
+ 122  selector:".brand_logo",selectorGuids:["49e73bd4-e3b0-3f94-33c7-a40b8d8582f3"]}
+ 123  ,value:0,unit:""}
+ 124  }
+ 125  ]}
+ 126  ,{
+ 127  actionItems:[{
+ 128  id:"a-60-n-5",actionTypeId:"STYLE_OPACITY",config:{
+ 129  delay:0,easing:"ease",duration:750,target:{
+ 130  selector:".brand_logo",selectorGuids:["49e73bd4-e3b0-3f94-33c7-a40b8d8582f3"]}
+ 131  ,value:1,unit:""}
+ 132  }
+ 133  ,{
+ 134  id:"a-60-n-7",actionTypeId:"TRANSFORM_SCALE",config:{
+ 135  delay:0,easing:"outCubic",duration:750,target:{
+ 136  selector:".brand_logo",selectorGuids:["49e73bd4-e3b0-3f94-33c7-a40b8d8582f3"]}
+ 137  ,xValue:1,yValue:1,locked:!0}
+ 138  }
+ 139  ,{
+ 140  id:"a-60-n-9",actionTypeId:"STYLE_SIZE",config:{
+ 141  delay:600,easing:"inOutCubic",duration:750,target:{
+ 142  selector:".brand_wrap",selectorGuids:["aff5e2bb-ecb0-0741-9340-b185bed3bd76"]}
+ 143  ,widthValue:100,heightValue:0,widthUnit:"%",heightUnit:"vh",locked:!1}
+ 144  }
+ 145  ,{
+ 146  id:"a-60-n-14",actionTypeId:"TRANSFORM_MOVE",config:{
+ 147  delay:600,easing:"inOutCubic",duration:750,target:{
+ 148  selector:".brand_wrap",selectorGuids:["aff5e2bb-ecb0-0741-9340-b185bed3bd76"]}
+ 149  ,yValue:-20,xUnit:"PX",yUnit:"vh",zUnit:"PX"}
+ 150  }
+ 151  ]}
+ 152  ,{
+ 153  actionItems:[{
+ 154  id:"a-60-n-15",actionTypeId:"GENERAL_DISPLAY",config:{
+ 155  delay:0,easing:"",duration:0,target:{
+ 156  selector:".brand_wrap",selectorGuids:["aff5e2bb-ecb0-0741-9340-b185bed3bd76"]}
+ 157  ,value:"none"}
+ 158  }
+ 159  ]}
+ 160  ],useFirstGroupAsInitialState:!0,createdOn:0x197c7ed34ea}
+ 161  
+ 162  #### H. Splash control script at the end of <body> (char 1072878)
+ 163  /* Splash control. Keep Webflow's built-in PAGE_START reveal — the curtain
+ 164     that slides up with the .brand_lines at the bottom — as the exit transition on
+ 165     both desktop and mobile. We only:
+ 166     (a) gate the logo/word zoom on the brand font so "Preparoo" doesn't zoom in the
+ 167         fallback font and reflow when BDO Grotesk VF arrives (the "weird zoom"), and
+ 168     (b) drop the preloader-fix !important display once IX2 starts driving the splash,
+ 169         otherwise it could never hide it. */
+ 170  var pf=document.getElementById("preloader-fix");
+ 171  var bw=document.querySelector(".brand_wrap");
+ 172  if(bw){
+ 173  var revealed=false;
+ 174  var mo=new MutationObserver(function(m){
+ 175  m.forEach(function(r){
+ 176  if(r.attributeName==="style"&&bw.style.display){
+ 177  if(pf&&pf.parentNode)pf.remove();
+ 178  mo.disconnect();
+ 179  }
+ 180  }
+ 181  );
+ 182  }
+ 183  );
+ 184  mo.observe(bw,{
+ 185  attributes:true}
+ 186  );
+ 187  setTimeout(function(){
+ 188  if(pf&&pf.parentNode)pf.remove();
+ 189  mo.disconnect();
+ 190  }
+ 191  ,3000);
+ 192  function revealBrand(){
+ 193  if(revealed)return;
+ 194  revealed=true;
+ 195  requestAnimationFrame(function(){
+ 196  requestAnimationFrame(function(){
+ 197  bw.classList.add("is-ready");
+ 198  }
+ 199  );
+ 200  }
+ 201  );
+ 202  }
+ 203  var logoOk=false,fontOk=false;
+ 204  function maybeReveal(){
+ 205  if(logoOk&&fontOk)revealBrand();
+ 206  }
+ 207  if(document.fonts&&document.fonts.ready){
+ 208  document.fonts.ready.then(function(){
+ 209  fontOk=true;
+ 210  maybeReveal();
+ 211  }
+ 212  );
+ 213  try{
+ 214  document.fonts.load("700 1.25rem 'BDO Grotesk VF'").then(function(){
+ 215  fontOk=true;
+ 216  maybeReveal();
+ 217  }
+ 218  );
+ 219  }
+ 220  catch(e){
+ 221  }
+ 222  }
+ 223  else{
+ 224  fontOk=true;
+ 225  }
+ 226  var logo=bw.querySelector("img");
+ 227  if(logo){
+ 228  if(logo.complete&&logo.naturalWidth>0){
+ 229  logoOk=true;
+ 230  maybeReveal();
+ 231  }
+ 232  else{
+ 233  logo.addEventListener("load",function(){
+ 234  logoOk=true;
+ 235  maybeReveal();
+ 236  }
+ 237  );
+ 238  logo.addEventListener("error",function(){
+ 239  logoOk=true;
+ 240  maybeReveal();
+ 241  }
+ 242  );
+ 243  }
+ 244  }
+ 245  else{
+ 246  logoOk=true;
+ 247  maybeReveal();
+ 248  }
+ 249  setTimeout(revealBrand,300);
+ 250  /* Restore the site light chrome tint once the splash is gone (theme-color was #000 so iOS Safari status bar + bottom toolbar matched the black splash). */var tcm=document.getElementById("dyn-theme-color");
+ 251  function siteChrome(){
+ 252  if(tcm)tcm.setAttribute("content","#ffffff");
+ 253  }
+ 254  var dmo=new MutationObserver(function(){
+ 255  try{
+ 256  if(getComputedStyle(bw).display==="none"){
+ 257  siteChrome();
+ 258  dmo.disconnect();
+ 259  }
+ 260  }
+ 261  catch(e){
+ 262  }
+ 263  }
+ 264  );
+ 265  try{
+ 266  dmo.observe(bw,{
+ 267  attributes:true,attributeFilter:["style"]}
+ 268  );
+ 269  }
+ 270  catch(e){
+ 271  }
+ 272  setTimeout(function(){
+ 273  siteChrome();
+ 274  try{
+ 275  dmo.disconnect();
+ 276  }
+ 277  catch(e){
+ 278  }
+ 279  }
+ 280  ,2500);
+ 281  }
+ 282  

@@ -1,0 +1,27 @@
+{
+  "id": "20261020T225154.242539Z-bb65bdb3",
+  "observed_at": "2026-10-20T22:51:54.243539+00:00",
+  "agent": "claude-opus-5.5 session 7a597d08 (promo film orchestrator)",
+  "task": "D196 round 2: MockMob teaser film (16:9 first) at TixFox/Pocketsflow level, rendered MP4 with voice, music, SFX",
+  "status": "active",
+  "done": "Round 1 (Claude Motion artifact) rejected by owner as \"way off\". Round 2 project C:\\Users\\atish\\Desktop\\MockMob-promo-film (Remotion 4.0.537). Bible PRODUCTION.md, docs/TREATMENT.md, docs/CHAPTERS.md, docs/BUILD.md. Reference sheets docs/ref (TixFox mb_*, Pocketsflow zn_*, Stripe, Duolingo, Preparoo). Sound analysis docs/SOUND-ANALYSIS.md (112 BPM, pauses 0.30/0.58/0.70 s, word rise 3 frames before onset). Owner decisions 21 Oct: Fold-colour chapter grounds OK, generated on-model Mobi poses OK (approved batch 1), clean clay (no halftone), bright and bouncy, ~45 s all beats, 16:9 first, young Indian woman's voice, approved lines \"Find it. Fix it. Check it held.\" and \"Free to start on Google Play\", advertise Rs 99 a month everywhere (149 only in the Play app), include the website (Mistake Lab etc.). Images via Codex CLI image_gen (main account hit limit with GPT-6.1-Sol; second ChatGPT account in C:\\Users\\atish\\.codex-alt with lean config GPT-6-Luna high). Art in public/art/gen (16 Mobi poses, Fold ledge + run poses, 11 props, paper texture). Skeleton renders (out/skeleton.mp4, 51.6 s, VO at 0 ms offset, whips on 112 BPM beats). Voice: Kokoro hf_alpha_gb current (no true Indian English in Kokoro); Indic Parler-TTS gated on HF (needs owner login).",
+  "next": "Running: workflow we1j1sqnz (6 chapter agents + composer r2 with FluidSynth/SoundFont), w44s7tr68 (voice round 2: MeloTTS EN_INDIA + objective accent/MOS/WER scoring, morning voice pack out/voice-pack). Then: integrate, mix (voice ~-15 LUFS, master -14 LUFS/-1 dBTP), full render, critique panel vs references, fix rounds; morning notes for owner; then 9:16 version and the explainer.",
+  "blockers": [
+    "Indic Parler-TTS needs the owner's Hugging Face login + gate acceptance",
+    "Remotion licence: free only up to 3 people at MockMob; owner must confirm headcount before publishing"
+  ],
+  "evidence": [
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\out\\skeleton.mp4",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\out\\art-sheet-characters.png",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\SOUND-ANALYSIS.md",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\out\\timeline.json"
+  ],
+  "touched_files": [
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film (new project, all files)",
+    "C:\\Users\\atish\\.codex-alt (lean Codex home for the second ChatGPT account; full config copy kept as config.full-copy.toml)",
+    "memory: promo-film-bar.md, codex-image-gen-cheap.md"
+  ],
+  "verification": "Contact sheets checked by eye for art and style test; skeleton A/V offsets checked by cross-correlation (integrator). Nothing audio has been listened to by anyone; voice/music/SFX quality judged by numbers only.",
+  "cost_and_pending_requests": "USD 0 (Codex image generation on the owner's ChatGPT plans; no paid API)",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "20261024T075023.472172Z-e705b536",
+  "observed_at": "2026-10-24T07:50:23.473172+00:00",
+  "agent": "claude-opus-5.5 session 792c2e1f (Reel orchestrator)",
+  "task": "MockMob 9:16 Reel v2: candidate 4 sent; judges -> last fix -> final running; cutdowns building",
+  "status": "active",
+  "done": "fix1025b Fix phase complete (answer r2, mob, sound BGM/beats rework, plumb: all independently checked PASS); sound sync -> bed public/music/reel-b33gs.wav. The Haiku render agent was hijacked by the injected handoff and rendered nothing; workflow stopped; orchestrator rendered out/reel916/cand/cand4.mp4 (68.59 s, -13.7 LUFS, TP -1.2), looked at 2 fps sheets, sent phone copy out/reel916/owner/reel-v2-cand4-phone.mp4 (17.1 MB) to the owner at ~1:25 pm. finish1025.js (judges owner-lens/sound/picture -> last fix with checks -> final) running as wf_0e9b1f5a-849. Cuts build running as wf_bf95bf61-85a (stage build); cuts refresh stage after the main FINAL.",
+  "next": "Watch wf_0e9b1f5a-849 (fin4 monitor) and wf_bf95bf61-85a (cuts monitor). After \"done reel916 FINAL\": look at the master (sheet, 390 px, ebur128), send the owner the phone copy + every path; then run cuts.js with args {stage: 'refresh'} (regenerate with mk_cuts.py first), look at both cuts, send them. If the owner replies to candidate 4: ledger verbatim, fold into the last fix / final.",
+  "blockers": [],
+  "evidence": [
+    "out/reel916/cand/cand4.mp4",
+    "out/reel916/owner/reel-v2-cand4-phone.mp4",
+    "out/reel916/cand/look4/",
+    "docs/NOTES.md ORCHESTRATOR 1:15 PM and 1:25 PM",
+    "tools/reel916-orch/mk_finish1025.py",
+    "tools/reel916-orch/finish1025.js"
+  ],
+  "touched_files": [
+    "tools/reel916-orch/fix1025.js",
+    "tools/reel916-orch/mk_finish1025.py",
+    "tools/reel916-orch/finish1025.js",
+    "tools/reel916-orch/mk_cuts.py",
+    "tools/reel916-orch/cuts.js",
+    "docs/NOTES.md"
+  ],
+  "verification": "cand4 ebur128 I -13.7 LUFS, TP -1.2 dBFS, LRA 4.9; ffprobe 1080x1920 60 fps 68.59 s; render log no errors; sheets viewed.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

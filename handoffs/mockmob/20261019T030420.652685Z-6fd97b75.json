@@ -1,0 +1,27 @@
+{
+  "id": "20261019T030420.652685Z-6fd97b75",
+  "observed_at": "2026-10-19T03:04:20.652685+00:00",
+  "agent": "C2 (Ask Mobi B, app)",
+  "task": "Build Ask Mobi option B in the Flutter app (brief 16) + D101 record Pro rows",
+  "status": "complete",
+  "done": "Ask Mobi B built and walked on the emulator (fresh c2-fresh-1019b, heavy app-e2e-student, 3103 via shim). D101 record Pro rows restored. Walk findings fixed: doors reachable after a conversation ('Ask something new', card door starts over); 0-credit stage says it once. Head e3e86934.",
+  "next": "Main session merges ui/1019-c2-ask into ui/v15.3-1019; at merge add trailing: AskMobiButton() to A1's Mob tab TabRootHeader; regenerate Today/Practice/Mob/You goldens after A1/A2b merges. Open: Day mode on device (the app ignored uimode), offline banner on device, last-paper ask on a heavy account once its paper list loads.",
+  "blockers": [],
+  "evidence": [
+    "tmp/walk-1019/cand-app/G21_*.png (18 shots)",
+    "tmp/walk-1019/frames/G21-doors-open/timing.md + sheet",
+    "tmp/walk-1019/r4/G21_*_before-after_night.png",
+    "unit: full run 6353 pass, 1 pre-existing broken test; insights+billing 357 pass after last change"
+  ],
+  "touched_files": [
+    "flutter_app/lib/features/insights/**",
+    "today_header.dart",
+    "practice_screen.dart",
+    "top_rows.dart",
+    "you_page.dart",
+    "mob_screen.dart"
+  ],
+  "verification": "analyze clean; tests and goldens committed; emulator walk with screenshots opened",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

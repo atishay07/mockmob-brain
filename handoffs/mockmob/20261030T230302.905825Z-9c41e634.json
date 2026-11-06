@@ -1,0 +1,20 @@
+{
+  "id": "20261030T230302.905825Z-9c41e634",
+  "observed_at": "2026-10-30T23:03:02.905825+00:00",
+  "agent": "claude-opus-5.5 session 16f96fa8",
+  "task": "Key cards + intelligence layer: wave 2 in progress",
+  "status": "active",
+  "done": "Integration web/1031-keycards (wt-1031-keycards-web) now = syllabus v2 (129c3b5b0) + kc-server (33f645c25) merged, plus my commits 34002970e (static v2 import, IgnorePlugin hack removed, test uses v2), f97f98316 (quote check also reads pdfium reading-order text via scripts/keycards/pdfium_pages.py; pdftotext interleaves 2-column pages), af1caee60 + c2d7afe7a (shape:front_dangling check; fixture fixed). Suites on integration: keycards 42/42, syllabus 22, nta 229, subjects 60, learning 357, today 120, egress 101, recovery 637 (3 todo); study 61/62 (WordNet LICENSE_UNAVAILABLE, pre-existing on base); heroScene test fails on base too (CRLF). All 28 Bio/PolSci drafts authored (ncert-books/drafts). Reviews done: all old econ (5 missing done), lebo102-113, leps101-104. Fixed + re-reviewed: leec202, leec204, leec205 (reviewer chapter flags were wrong: CUET Unit II holds revenue, Unit III holds shifts in D/S), keec101-102, leac101-102; keec103-105 fixed (not yet re-reviewed). Production read-only check: questions has question/body/explanation/is_deleted/is_cuet_syllabus; learning_allowances PK (user_id,kind,period).",
+  "next": "Remaining: fixers for leac103-206, lebs*, keec106-108, leec102-106/201/203, english, lebo102-113, leps101-104 (fixlists regenerated with kc-out3 incl. front_dangling); reviews lebo101, leps105-107, leps201-208 then their fixes; re-reviews of every fixed code; a sweep of residual dangling fronts in already-fixed codes; final validate + review-merge into integration data/keycards; merge web/1031-kc-ui (Opus agent still running) and app branch (Opus agent still running); next build --webpack; visual pass 390/1440 Night/Day; UI should show leading ellipsis on backs that start mid-sentence (19% of backs).",
+  "blockers": [
+    "Usage pacing: ~6 concurrent agents until the 5:20 am IST window reset"
+  ],
+  "evidence": [],
+  "touched_files": [
+    "wt-1031-keycards-web: scripts/keycards/lib.mjs, scripts/keycards/pdfium_pages.py, src/lib/server/keycardsSyllabus.js, next.config.mjs, data/tests/keycards.test.mjs, data/keycards fixtures",
+    "ncert-books: AUTHOR/FIX/REVIEW-BRIEF-2026-10-31.md, drafts/*, reviews/*, fixlists/*"
+  ],
+  "verification": "Suites listed above run on integration 34002970e..c2d7afe7a. Nothing pushed, deployed or written to production.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

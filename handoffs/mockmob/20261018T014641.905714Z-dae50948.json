@@ -1,0 +1,41 @@
+{
+  "id": "20261018T014641.905714Z-dae50948",
+  "observed_at": "2026-10-18T01:46:41.905714+00:00",
+  "agent": "claude-opus-subagent-r6-fixes",
+  "task": "Release 6 website: fix the independent verifier's defects (docked Ask Mobi layouts, not-found, Time part truth, Progress CLS, targets, copy) in wt-rel6",
+  "status": "complete",
+  "done": "All 9 items fixed on deploy/web-1018-r6, 10 commits on top of c9269c7e, head 0922d26f. 1+2: result analysis (.ap, side by side from 880 px) and Review (.rvw, two columns from 720 px) are container queries, so the docked panel cannot squeeze them; audited at 1280/1366/1440 docked, Night and Day, all six parts: 0 mid-word breaks, 0 elements under the panel. 3: root src/app/not-found.js + SiteNotFound (arena shell scope, themed, way home). 4: Time part says there is no replay and gives the paper's 5m 03s and 2 changed answers (data/replay.js cutSentence/knownRecord). 5: week card reserves 320 px (340 under 380 px); CLS 0.198/0.344/0.198 before, 0.006 x5 after. 6: replay slots 44 px hit area + nearestSlot press resolution, badge names, Bests link, Today Why this?, Review inline link all 44 px, no line moved. 7: aiRenewsLine on the chapter cost line and the answer sheet; the Practise line unchanged on purpose (practice credits do not renew). 8: Free chip and Key text are ink 2 in the Ask panel. 9: earned row shares hairline with reel row; reel moments by clock; Esc returns focus to More (returnTo); one heading on phones.",
+  "next": "Orchestrator: review the 10 commits on deploy/web-1018-r6 (not pushed), decide on the Practise zero-credit line (spec says They renew on a date, but practice credits never renew, so it was left honest), then deploy only after the owner looks at the walk in wt-rel6/tmp/fix-r6 (about 50 screenshots).",
+  "blockers": [
+    "none"
+  ],
+  "evidence": [
+    "wt-rel6/tmp/fix-r6/*.png (about 50 headless screenshots, Night and Day)",
+    "wt-rel6/tmp/fix-r6/tests/final-*.log",
+    "wt-rel6/tmp/fix-r6/build.log"
+  ],
+  "touched_files": [
+    "wt-rel6/src/components/result/result-parts.css",
+    "wt-rel6/src/components/result/AnalysisParts.jsx",
+    "wt-rel6/src/components/review/review-1018.css",
+    "wt-rel6/src/app/not-found.js",
+    "wt-rel6/src/components/SiteNotFound.jsx",
+    "wt-rel6/src/components/site-not-found.css",
+    "wt-rel6/data/replay.js",
+    "wt-rel6/data/mistake_lab.copy.json",
+    "wt-rel6/data/review_input.mjs",
+    "wt-rel6/src/components/result/ReplaySlots.jsx",
+    "wt-rel6/src/components/result/replay-slots.css",
+    "wt-rel6/src/components/RhythmCard.jsx",
+    "wt-rel6/src/app/(app)/student-pages.css",
+    "wt-rel6/src/components/ai/ask-mobi.css",
+    "wt-rel6/src/components/ai/askMobi.mjs",
+    "wt-rel6/src/components/ai/AskMobiHost.jsx",
+    "wt-rel6/src/components/ai/AssistantDrawer.jsx",
+    "wt-rel6/data/tests/release6_fixes_1018.test.mjs",
+    "wt-rel6/package.json"
+  ],
+  "verification": "test:recovery 554 tests (551 pass, 3 todo, 0 fail); test:app 596/596 (includes 17 new tests in release6_fixes_1018.test.mjs); test:learning 357/357; test:today 32/32; test:community 11/11; test:auth 110/110; test:billing 153/153; eslint clean on every changed JS file; npx next build --webpack exit 0 (compiled in 49 s, no warnings), .next and .next-dev deleted, dev server on 3212 stopped. Fixtures only (/preview/arena), never signed in. Not verified on a real device or a signed-in student (the not-found page for a signed-in student shows Go to Today and Open Practice, checked by source only).",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

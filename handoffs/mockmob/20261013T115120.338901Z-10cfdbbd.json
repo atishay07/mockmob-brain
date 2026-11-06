@@ -1,0 +1,22 @@
+{
+  "id": "20261013T115120.338901Z-10cfdbbd",
+  "observed_at": "2026-10-13T11:51:20.338901+00:00",
+  "agent": "claude-opus-5.5 (workflow subagent, logo round 4 finals)",
+  "task": "Logo round 4 finals: refine Mobi-o wordmark finalists A (Cabinet, first o), B (Cabinet, second o), C (Clash, first o) per round4/CRITIQUE.md",
+  "status": "complete",
+  "done": "Built tmp/logo/round4/finals: build_finals.py (geometry; G1-smooth body replacing mobi.pillow, real flap-cut geometry as one contour, tapered tip one cut width short of the right corner, visor centred on x-height midline, tall oval eyes left inked/right ring, full/small/micro masters, no deep green, no antenna), render.py (PNGs, boards, comparison), geom.py. Per finalist folder: svg/ (dark, paper, mono-ink, mono-white, each full/small/micro, with and without ground; icons tile/square/mono/instagram; Android adaptive fg/bg/monochrome), png/ (standard sizes), board-*.png. comparison.png, measures.json, png-manifest.json. Recommendation A.",
+  "next": "Owner decides first o (A) vs second o (B) and Cabinet (A/B) vs Clash (C). Then: hand kerning review on the chosen one at 400 px, export Android mipmaps from android-adaptive-*.svg (small master), favicon set from micro master. Codex merch mock-ups were optional and not made.",
+  "blockers": [],
+  "evidence": [
+    "tmp/logo/round4/finals/comparison.png",
+    "tmp/logo/round4/finals/A-lead-mobi/board-A-lead-mobi.png",
+    "tmp/logo/round4/finals/measures.json: Mobi 1.13 x 1.103 x-height (A/B), 1.14 x 1.167 (C); adaptive icon max radius 30.97 / 30.6 dp of 33",
+    "114 SVGs parse; 93 PNGs rendered with headless Chrome"
+  ],
+  "touched_files": [
+    "tmp/logo/round4/finals/"
+  ],
+  "verification": "Rendered and opened: boards, comparison, 400/120 px wordmarks on dark and paper, 2 px blur test at 120 px, icons at 512/96/48/32/24 incl. 3x nearest zoom, mono versions at 1536.",
+  "cost_and_pending_requests": "none (no paid model calls; Codex not used)",
+  "confidence": "agent-reported; verify evidence before acting"
+}

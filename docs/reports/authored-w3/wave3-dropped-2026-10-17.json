@@ -1,0 +1,379 @@
+[
+  {
+    "id": "fdcc5566-3c7d-47ca-94e3-9e157d3a3a25",
+    "subject": "chemistry",
+    "batch": "chemistry__w3b2",
+    "chapter": "Biomolecules",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j2_quality_3; j2_flags_factual_error"
+  },
+  {
+    "id": "4ea4ceb5-ceb7-42eb-98f1-e189af38ba84",
+    "subject": "chemistry",
+    "batch": "chemistry__w3b3",
+    "chapter": "Biomolecules",
+    "type": "single_mcq",
+    "first_pass": "accepted_in_the_first_pass",
+    "category": "expert_drop",
+    "reason": "expert verdict drop: Chemistry is correct (the complement of 5'-ATGC-3' is 5'-GCAT-3') but it is a direction-reversal trap that depends on antiparallel strand polarity, which is Class 12 Biology (Molecular Basis of Inheritance), not Class 12 Chemistry NCERT, whose Nucleic acids section names only complementary base pairing. Outside the CUET Chemistry syllabus depth."
+  },
+  {
+    "id": "d90fb3b0-ebc2-4edf-a790-e8d6df73df18",
+    "subject": "chemistry",
+    "batch": "chemistry__w3b3",
+    "chapter": "Haloalkanes & Haloarenes",
+    "type": "assertion_reason",
+    "first_pass": "accepted_in_the_first_pass",
+    "category": "expert_drop",
+    "reason": "expert verdict drop: Same fact as item d35538dc-eb46-472f-a5b6-ab3d1b3ab56d (chlorobenzene resists nucleophilic substitution, partial double-bond character from resonance): two near-identical assertion-reason items on one fact, which one paper could carry together. The harder two-reason version d35538dc is kept. This one also carries an old-edition NCERT chapter number."
+  },
+  {
+    "id": "9b644ffc-735c-4f84-ac54-623d8c0b3fc1",
+    "subject": "chemistry",
+    "batch": "chemistry__w3b4",
+    "chapter": "d- and f-Block Elements",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j1_quality_6"
+  },
+  {
+    "id": "b0385c9a-67b6-4970-881c-51ffcb9dd566",
+    "subject": "chemistry",
+    "batch": "chemistry__w3b4",
+    "chapter": "Electrochemistry",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j2_quality_5; j2_flags_answer_in_stem"
+  },
+  {
+    "id": "c291f0d4-25c2-408a-b0c1-87bdf36b0011",
+    "subject": "chemistry",
+    "batch": "chemistry__w3b4",
+    "chapter": "Electrochemistry",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j1_quality_3; j1_flags_factual_error"
+  },
+  {
+    "id": "fff99b39-cd2a-4a4a-a168-da9586b4c3b6",
+    "subject": "chemistry",
+    "batch": "chemistry__w3b4",
+    "chapter": "Electrochemistry",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "fit_median_6"
+  },
+  {
+    "id": "699befa6-e1f7-4cc1-9b97-42421013c718",
+    "subject": "chemistry",
+    "batch": "chemistry__w3b4",
+    "chapter": "Coordination Compounds",
+    "type": "single_mcq",
+    "first_pass": "accepted_in_the_first_pass",
+    "category": "expert_drop",
+    "reason": "expert verdict drop: The key (entropy gain from chelation) is the textbook answer but the entropy argument is beyond NCERT Class 12, which states only that chelates are more stable; and option A (en is a stronger-field ligand than NH3, larger delta-o) is a true fact that contributes to enthalpy, so the item is not cleanly single-correct at CUET depth."
+  },
+  {
+    "id": "0d4b69da-b95d-4c26-a1bc-264acb7c6188",
+    "subject": "general_test",
+    "batch": "general_test__w3b1",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "duplicate",
+    "reason": "duplicate_stem_of_wave2_941bb178-a104-4198-983c-2c941f45efb3"
+  },
+  {
+    "id": "456934c8-38ec-409e-bbc0-48a263b34226",
+    "subject": "general_test",
+    "batch": "general_test__w3b1",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "duplicate",
+    "reason": "duplicate_probable_of_wave2_24361ef4-3e77-4b72-afdd-0873839e9e2d"
+  },
+  {
+    "id": "fa2c18d3-01f9-4649-b00e-a9e8ff238ad0",
+    "subject": "general_test",
+    "batch": "general_test__w3b2",
+    "chapter": "General Knowledge",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "fit_median_6"
+  },
+  {
+    "id": "06136942-8436-4390-a2b3-5b8fe1fe0e55",
+    "subject": "general_test",
+    "batch": "general_test__w3b2",
+    "chapter": "General Knowledge",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "fit_median_6"
+  },
+  {
+    "id": "6f4b8986-14b3-429a-a6b3-5be84ad78968",
+    "subject": "general_test",
+    "batch": "general_test__w3b2",
+    "chapter": "General Knowledge",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "fit_median_6"
+  },
+  {
+    "id": "ccfced58-510d-48ef-abb4-96e5bef0c79c",
+    "subject": "general_test",
+    "batch": "general_test__w3b2",
+    "chapter": "General Knowledge",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "fit_median_6"
+  },
+  {
+    "id": "4c35a04e-9361-4752-b43a-1d8dcd390199",
+    "subject": "general_test",
+    "batch": "general_test__w3b2",
+    "chapter": "General Knowledge",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "fit_median_6"
+  },
+  {
+    "id": "e6889e85-b985-4243-ad3a-4c642d6af9c3",
+    "subject": "general_test",
+    "batch": "general_test__w3b2",
+    "chapter": "General Knowledge",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "fit_median_6"
+  },
+  {
+    "id": "03df7dbd-0b5a-44c3-bd70-35e0fe87db04",
+    "subject": "general_test",
+    "batch": "general_test__w3b2",
+    "chapter": "General Knowledge",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "fit_median_6"
+  },
+  {
+    "id": "134b88cc-ad0d-4e64-a43d-e913e5c50b8b",
+    "subject": "general_test",
+    "batch": "general_test__w3b2",
+    "chapter": "General Knowledge",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "fit_median_6"
+  },
+  {
+    "id": "e9a3d150-6b7f-4c28-9d4e-3f1a8c6b0e29",
+    "subject": "general_test",
+    "batch": "general_test__w3b3",
+    "chapter": "Quantitative Reasoning",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j1_quality_3; j1_flags_factual_error"
+  },
+  {
+    "id": "c7a53dc5-7fcd-4abe-b119-dcf3a7faeecc",
+    "subject": "general_test",
+    "batch": "general_test__w3b4",
+    "chapter": "General Mental Ability",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j2_quality_5"
+  },
+  {
+    "id": "7367fbed-0bb2-40de-ad1a-bef8a0ebb962",
+    "subject": "general_test",
+    "batch": "general_test__w3b5",
+    "chapter": "General Mental Ability",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j1_quality_3; j1_flags_factual_error; j2_quality_3; j2_flags_factual_error"
+  },
+  {
+    "id": "012e2c37-e60a-4306-bee3-7b8eafd080b4",
+    "subject": "general_test",
+    "batch": "general_test__w3b5",
+    "chapter": "Logical & Analytical Reasoning",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j1_quality_5; j1_flags_answer_in_stem; j2_quality_5; j2_flags_answer_in_stem"
+  },
+  {
+    "id": "8047d343-60de-4479-a898-a502de89b2e4",
+    "subject": "physics",
+    "batch": "physics__w3b1",
+    "chapter": "Current Electricity",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j1_quality_6"
+  },
+  {
+    "id": "17dddc0d-85f8-4438-aba7-5c65c48991b0",
+    "subject": "physics",
+    "batch": "physics__w3b1",
+    "chapter": "Current Electricity",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j1_quality_6"
+  },
+  {
+    "id": "a04b8ad0-2dee-416b-9e0d-631bd2f3f25b",
+    "subject": "physics",
+    "batch": "physics__w3b1",
+    "chapter": "Current Electricity",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "fit_median_6"
+  },
+  {
+    "id": "704cf988-599d-49f6-a9cf-c15e4dfdda8f",
+    "subject": "physics",
+    "batch": "physics__w3b2",
+    "chapter": "Moving Charges & Magnetism",
+    "type": "single_mcq",
+    "first_pass": "accepted_in_the_first_pass",
+    "category": "expert_drop",
+    "reason": "expert verdict drop: Correct conclusion (the field of a finite wire is smaller than that of an infinite wire at the same distance) but the explanation rests on the finite-wire formula with sin(theta1) + sin(theta2), which NCERT does not teach; the syllabus asks for the infinite straight wire (Ampere) and the circular loop (Biot-Savart). The cited section 4.6 does not cover it. Beyond NCERT, so not publishable as an NCERT item."
+  },
+  {
+    "id": "a5de8f62-b02d-4723-8192-449d5eaa6266",
+    "subject": "physics",
+    "batch": "physics__w3b2",
+    "chapter": "Semiconductor Electronics",
+    "type": "statement_based",
+    "first_pass": "accepted_in_the_first_pass",
+    "category": "expert_drop",
+    "reason": "expert verdict drop: Outside the CUET UG 2026 Physics syllabus, confirmed against the official syllabus text. Official CUET (UG) 2026 Physics syllabus (data/CUET 2026/physics.pdf, page 4), Unit 9: Electronic Devices lists only: \"Energy bands in conductors, semiconductors and insulators (qualitative ideas only). Intrinsic and extrinsic semiconductors, p-type and n-type, p-n junction Semiconductor diode its I-V characteristics in forward and reverse bias. Application of junction diode -diode as a rectifier.\" Here Zener diode / voltage regulation is not listed. Drop kept. The physics (Zener regulation in reverse breakdown, key A) is correct.",
+    "syllabus_check": "official-pdf-2026-10-17"
+  },
+  {
+    "id": "363ac2b3-431d-45f1-a7b4-d03bce246584",
+    "subject": "physics",
+    "batch": "physics__w3b2",
+    "chapter": "Semiconductor Electronics",
+    "type": "single_mcq",
+    "first_pass": "accepted_in_the_first_pass",
+    "category": "expert_drop",
+    "reason": "expert verdict drop: Outside the CUET UG 2026 Physics syllabus, confirmed against the official syllabus text. Official CUET (UG) 2026 Physics syllabus (data/CUET 2026/physics.pdf, page 4), Unit 9: Electronic Devices lists only: \"Energy bands in conductors, semiconductors and insulators (qualitative ideas only). Intrinsic and extrinsic semiconductors, p-type and n-type, p-n junction Semiconductor diode its I-V characteristics in forward and reverse bias. Application of junction diode -diode as a rectifier.\" Here solar cell is not listed. Drop kept. The physics (solar cell, built-in field separates the pairs, key A) is correct.",
+    "syllabus_check": "official-pdf-2026-10-17"
+  },
+  {
+    "id": "3c52abd8-b99f-46ac-aa70-29811ca6fe13",
+    "subject": "physics",
+    "batch": "physics__w3b2",
+    "chapter": "Semiconductor Electronics",
+    "type": "match_the_following",
+    "first_pass": "accepted_in_the_first_pass",
+    "category": "expert_drop",
+    "reason": "expert verdict drop: Outside the CUET UG 2026 Physics syllabus, confirmed against the official syllabus text. Official CUET (UG) 2026 Physics syllabus (data/CUET 2026/physics.pdf, page 4), Unit 9: Electronic Devices lists only: \"Energy bands in conductors, semiconductors and insulators (qualitative ideas only). Intrinsic and extrinsic semiconductors, p-type and n-type, p-n junction Semiconductor diode its I-V characteristics in forward and reverse bias. Application of junction diode -diode as a rectifier.\" Here logic gates are not listed. Drop kept. The matching (AND = III, OR = II, NOR = I, NOT = IV, key B) is correct.",
+    "syllabus_check": "official-pdf-2026-10-17"
+  },
+  {
+    "id": "898006b1-95b2-4d03-93dc-23c3afb8a925",
+    "subject": "physics",
+    "batch": "physics__w3b2",
+    "chapter": "Semiconductor Electronics",
+    "type": "single_mcq",
+    "first_pass": "accepted_in_the_first_pass",
+    "category": "expert_drop",
+    "reason": "expert verdict drop: Outside the CUET UG 2026 Physics syllabus, confirmed against the official syllabus text. Official CUET (UG) 2026 Physics syllabus (data/CUET 2026/physics.pdf, page 4), Unit 9: Electronic Devices lists only: \"Energy bands in conductors, semiconductors and insulators (qualitative ideas only). Intrinsic and extrinsic semiconductors, p-type and n-type, p-n junction Semiconductor diode its I-V characteristics in forward and reverse bias. Application of junction diode -diode as a rectifier.\" Here logic gates are not listed. Drop kept. The truth table 1, 1, 1, 0 is a NAND gate, key C, correct.",
+    "syllabus_check": "official-pdf-2026-10-17"
+  },
+  {
+    "id": "dff97aad-a78a-4772-bb3b-335df7f6577a",
+    "subject": "physics",
+    "batch": "physics__w3b2",
+    "chapter": "Semiconductor Electronics",
+    "type": "single_mcq",
+    "first_pass": "accepted_in_the_first_pass",
+    "category": "expert_drop",
+    "reason": "expert verdict drop: Outside the CUET UG 2026 Physics syllabus, confirmed against the official syllabus text. Official CUET (UG) 2026 Physics syllabus (data/CUET 2026/physics.pdf, page 4), Unit 9: Electronic Devices lists only: \"Energy bands in conductors, semiconductors and insulators (qualitative ideas only). Intrinsic and extrinsic semiconductors, p-type and n-type, p-n junction Semiconductor diode its I-V characteristics in forward and reverse bias. Application of junction diode -diode as a rectifier.\" Here logic gates are not listed. Drop kept.  The engine had also refused it (options differ only by symbols).",
+    "syllabus_check": "official-pdf-2026-10-17"
+  },
+  {
+    "id": "7f417185-bf9c-48af-a21b-ea3e7a065115",
+    "subject": "physics",
+    "batch": "physics__w3b2",
+    "chapter": "Semiconductor Electronics",
+    "type": "statement_based",
+    "first_pass": "accepted_in_the_first_pass",
+    "category": "expert_drop",
+    "reason": "expert verdict drop: Outside the CUET UG 2026 Physics syllabus, confirmed against the official syllabus text. Official CUET (UG) 2026 Physics syllabus (data/CUET 2026/physics.pdf, page 4), Unit 9: Electronic Devices lists only: \"Energy bands in conductors, semiconductors and insulators (qualitative ideas only). Intrinsic and extrinsic semiconductors, p-type and n-type, p-n junction Semiconductor diode its I-V characteristics in forward and reverse bias. Application of junction diode -diode as a rectifier.\" Here the capacitor filter and ripple voltage are not listed (only the diode as a rectifier is). Drop kept. Statements are true, key B. The ripple formula is also beyond NCERT.",
+    "syllabus_check": "official-pdf-2026-10-17"
+  },
+  {
+    "id": "0d5f2ae0-8dca-4ccc-aa7f-eaa1a54ab5f8",
+    "subject": "physics",
+    "batch": "physics__w3b2",
+    "chapter": "Semiconductor Electronics",
+    "type": "single_mcq",
+    "first_pass": "accepted_in_the_first_pass",
+    "category": "expert_drop",
+    "reason": "expert verdict drop: Outside the CUET UG 2026 Physics syllabus, confirmed against the official syllabus text. Official CUET (UG) 2026 Physics syllabus (data/CUET 2026/physics.pdf, page 4), Unit 9: Electronic Devices lists only: \"Energy bands in conductors, semiconductors and insulators (qualitative ideas only). Intrinsic and extrinsic semiconductors, p-type and n-type, p-n junction Semiconductor diode its I-V characteristics in forward and reverse bias. Application of junction diode -diode as a rectifier.\" Here the LED and the band-gap-to-wavelength calculation are not listed (bands are qualitative only). Drop kept. The physics (620 nm for a 2.",
+    "syllabus_check": "official-pdf-2026-10-17"
+  },
+  {
+    "id": "f2018a0d-8361-4072-b88f-fa2b356c2a4b",
+    "subject": "physics",
+    "batch": "physics__w3b3",
+    "chapter": "Atoms",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j2_quality_6"
+  },
+  {
+    "id": "447cb804-4233-4e18-bd61-d45642719b58",
+    "subject": "physics",
+    "batch": "physics__w3b3",
+    "chapter": "Atoms",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j1_quality_5; j1_flags_answer_in_stem"
+  },
+  {
+    "id": "dc2ce9a0-e395-4cd7-8eb0-65f3f42725fe",
+    "subject": "physics",
+    "batch": "physics__w3b3",
+    "chapter": "Wave Optics",
+    "type": "single_mcq",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j1_quality_6"
+  },
+  {
+    "id": "0392836e-9179-49bd-b40b-efb9cd1dad4e",
+    "subject": "physics",
+    "batch": "physics__w3b4",
+    "chapter": "Wave Optics",
+    "type": "assertion_reason",
+    "first_pass": "not_accepted_in_the_first_pass",
+    "category": "not_accepted_by_the_rule",
+    "reason": "j1_quality_3; j1_flags_doubtful_key; j1_blind_answer_B"
+  }
+]

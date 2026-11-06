@@ -1,0 +1,22 @@
+{
+  "id": "20261020T205655.476006Z-f128dee8",
+  "observed_at": "2026-10-20T20:56:55.476006+00:00",
+  "agent": "claude-fable-5.1 session b7e1b5da (CEO/CTO)",
+  "task": "21 Oct night: version 16 app + website (D191)",
+  "status": "active",
+  "done": "Website release 16 live (main 832e88031, STATUS entry 0b7d6bc03): pricing like the app, phone hero, onboarding preset, statement/Mistake Lab/tour, invite copy, deletionRequestedAt; monthly 99 and live rooms on. App ui/1020-v16 0fd6f644a: all five v16 pieces merged, analyze clean, full suite 10,638 pass / 118 fail (expected drift; rerun capturing names in progress). Promo kit delivered (price corrected to 99 only, D197). Disk 1 GB -> 117 GB; sweep and junction-safe remove scripts; lesson: worktree removal through node_modules junctions emptied mockmob-next/node_modules (restored with npm ci).",
+  "next": "Classify unit failures vs tmp/v15-night/known-drift.txt; walk agent results (tmp/walk-1021/app-v16) -> fixes; signed 1.0.18+16 (--bump --name 1.0.18 --sell + arm64 APK) to Desktop\\MockMob-build-16 with README/OWNER-STEPS; final NOW + checkpoint. See docs/brain/NOW.md \"21 Oct 2:28 am\".",
+  "blockers": [
+    "none; waiting on the suite rerun and the walk agent"
+  ],
+  "evidence": [
+    "wt-1020-v16 0fd6f644a",
+    "mockmob-next tmp/v16-unit.txt",
+    "STATUS.md 2026-10-21 entry",
+    "Desktop/MockMob-promo-kit/PROMPT.md"
+  ],
+  "touched_files": [],
+  "verification": "Web: all suites green, build ok, QA pass no blockers, live smoke ok. App: analyze clean; suite 10,638/10,756 with 118 failures pending classification.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

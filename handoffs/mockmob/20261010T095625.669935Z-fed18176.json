@@ -1,0 +1,15 @@
+{
+  "id": "20261010T095625.669935Z-fed18176",
+  "observed_at": "2026-10-10T09:56:25.669935+00:00",
+  "agent": "claude",
+  "task": "RAG prototype: rag_search registered for Claude and Codex (AI OS)",
+  "status": "active",
+  "done": "",
+  "next": "Owner decides whether to keep the Codex block and project .mcp.json; the rerank is not adopted. Next: restart Claude/Codex sessions to load the tool, then test a real rag_search call from each.</next>\n<parameter name=\"done\">Applied the registration after Atishay's chat go-ahead. Created C:/Users/atish/Desktop/AI OS/.mcp.json (server continuum-rag, stdio). Backed up ~/.codex/config.toml to config.toml.bak-rag and appended [mcp_servers.continuum_rag]. Checks: Codex config parses; existing servers unchanged (continuum entry byte-identical); codex mcp list shows continuum_rag enabled; hooks.json not touched. Live stdio handshake: tools/list returns rag_search; tools/call returns top-5 with sources. Default mode set to hybrid to match the decided default. Unit tests 12/12 OK. Known limit: scratch test_registration.py now fails on a second append (it copies the real config, which already has the block); the real file is fine.</done>\n<evidence>[\"~/.codex/config.toml.bak-rag\", \"~/.codex/config.toml (continuum_rag block)\", \"AI OS/.mcp.json\", \"codex mcp list output: continuum_rag enabled\", \"apps/rag/data/handshake.out\"]</evidence>\n<touched>[\"C:/Users/atish/Desktop/AI OS/.mcp.json\", \"~/.codex/config.toml (appended block)\", \"apps/rag/mcp_server.py\"]</touched>\n<verification>Parse, unchanged-continuum comparison, codex mcp list, live handshake on the real server, unit tests 12/12. Did not start a new Claude or Codex session, so the in-harness tool call is not yet verified.</verification>\n<blockers>[]</blockers>\n<cost>No paid calls.</cost>\n",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

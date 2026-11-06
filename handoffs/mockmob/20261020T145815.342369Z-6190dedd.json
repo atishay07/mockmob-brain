@@ -1,0 +1,35 @@
+{
+  "id": "20261020T145815.342369Z-6190dedd",
+  "observed_at": "2026-10-20T14:58:15.343379+00:00",
+  "agent": "Sonnet 5.5 (web release 15 integration subagent)",
+  "task": "Website release 15 integration in wt-1020-webrel (branch web/1020-v15-release): merges, egress review, v3.fix on the server",
+  "status": "complete",
+  "done": "Merged fulltogether-price, referral-any, mob-hours (migration renamed 151000), egress (18 commits plus reviewed STOP POINT with fixes); consent-d183 skipped (its worktree is dirty). Implemented v3.fix (mob_den_fix migration 152000, denFix.mjs, games.js, tests, contract 2.14, STATUS). Suites all pass except the pre-existing test:study wordnet failure; build exit 0.",
+  "next": "Orchestrator: merge web/1020-consent-d183 once its worktree is clean (its migration 20261020160000_usage_consent_d183 is free of clashes now), then deploy gate and migration apply order 150000, 150100, 150200, 151000, 152000, 160000, 160100; add the v3.fix line to NOW.md (steps 2-3 live only after 152000 is applied).",
+  "blockers": [
+    "web/1020-consent-d183 not merged: wt-1020-consent has uncommitted edits"
+  ],
+  "evidence": [
+    "head c3c0fd0e3 on web/1020-v15-release in C:/Users/atish/Desktop/mockmob copy/wt-1020-webrel",
+    "test:mob 348/348, test:billing 453/453, test:egress 101/101, test:app 962 pass, test:recovery 637 pass",
+    "test:study 1 failure identical on clean origin/main 85c715756 (wordnet LICENSE_UNAVAILABLE)",
+    "next build --webpack exit 0"
+  ],
+  "touched_files": [
+    "supabase/migrations/20261020152000_mob_den_fix.sql",
+    "supabase/undo/20261020152000_mob_den_fix.undo.sql",
+    "src/lib/mob/denFix.mjs",
+    "src/lib/server/mob/games.js",
+    "data/tests/mob_den_fix_1020.test.mjs",
+    "data/tests/mob_v3_contract.test.mjs",
+    "data/attempt_reads.js",
+    "data/tests/egress_review.test.mjs",
+    "data/tests/egress_lean.test.mjs",
+    "docs/brain/APP-API-CONTRACT.md",
+    "docs/brain/STATUS.md",
+    "package.json"
+  ],
+  "verification": "Local node tests and PGlite only; no network call to Supabase, nothing deployed, pushed or applied.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

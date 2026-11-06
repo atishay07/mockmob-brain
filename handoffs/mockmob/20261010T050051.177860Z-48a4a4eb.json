@@ -1,0 +1,24 @@
+{
+  "id": "20261010T050051.177860Z-48a4a4eb",
+  "observed_at": "2026-10-10T05:00:51.177860+00:00",
+  "agent": "codex",
+  "task": "Owner-authorized focused V717 final pass",
+  "status": "active",
+  "done": "Current process/ledger/native state refreshed. V716 99 frozen hashes unchanged. Added V717 profile, runner/publication/session interfaces; fixed answer-relative NOT/EXCEPT prompt, contradictory-report classification, legitimate explanation entailment, observed difficulty schema and illustrative anchors with comparator identity binding. No fresh benchmark revealed yet, no paid calls.",
+  "next": "Independent Luna regression tests and build/recovery checks; freeze only after reviewed corrections. Construct fresh four-subject source-strict cases after freeze with independent hidden-answer custody. Exactly one qualification capped USD1; pilot only after pass.",
+  "blockers": [
+    "No staging project configured; qualification pending. Goal tracker remains paused from prior turn; no resume operation exposed, but user explicitly authorized resumed work."
+  ],
+  "evidence": [
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v716/V716-QUALIFICATION-RESULT-20261010.md",
+    "scripts/pipeline/lib/scorecardPolicyV717.mjs",
+    "scripts/pipeline/lib/difficultyPolicyV717.mjs"
+  ],
+  "touched_files": [
+    "scripts/pipeline/lib/*V717*.mjs",
+    "scripts/pipeline/tools/*V717.mjs"
+  ],
+  "verification": "Read-only native/process and frozen V716 hash checks refreshed. Independent tests assigned to Luna, pending. No qualification/release/pilot claims.",
+  "cost_and_pending_requests": "Settled39.078107, historicheld.821324, committed39.899431, remaining10.100569 under lifetime50;65oldunresolved; no new spend or active provider rows.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

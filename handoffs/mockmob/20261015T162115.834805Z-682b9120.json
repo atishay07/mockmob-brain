@@ -1,0 +1,18 @@
+{
+  "id": "20261015T162115.834805Z-682b9120",
+  "observed_at": "2026-10-15T16:21:15.835803+00:00",
+  "agent": "tools packet (resume)",
+  "task": "App tools packet: Admission Compass hierarchy, Combo Planner integration, tool English",
+  "status": "complete",
+  "done": "Verified WIP a04c0169 tools work (best options, Other programmes fold, score reason and latest-mocks fill, Today rows, ToolsOrigin hand-over, English). Fixed 3 stale tests, added tools_flow_test, regenerated and opened 46 tools goldens. Commit a50aff45.",
+  "next": "Owner device check of Compass on APK. Optional: Start-sheet entry (not added, would clutter).",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "flutter_app/test/unit/tools/*",
+    "flutter_app/test/golden/tools/*"
+  ],
+  "verification": "analyze clean; test/unit/tools + test/golden/tools 173 pass",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

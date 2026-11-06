@@ -1,0 +1,151 @@
+night entries 95 day entries 65
+7 1x mm-nav | span.mm-theme-toggle__thumb
+   N: lit inset rim (light)[rgba(237,241,223,1) -6/-2/0/0 inset] ; VOLT GLOW[rgba(222,236,196,0.22) 0/0/10/1]
+   D: lit inset rim (light)[rgba(237,241,223,1) 0/0/0/0 inset] ; ring (box-shadow spread)[rgba(255,203,58,0.26) 0/0/0/3] ; colour glow[rgba(255,186,40,0.5) 0/0/12/1]
+7 10x your-prep | button.ft__row
+   N: VOLT inset rim[rgba(210,240,0,0.5) 0/0/0/1 inset] ; VOLT EDGE[rgba(210, 240, 0, 0.5) [TRBL]]
+   D: (not in Day list)
+7 1x your-prep | figure.ts
+   N: lit inset rim (light)[rgba(255,255,255,0.07) 0/1/0/0 inset] ; VOLT GLOW[rgba(210,240,0,0.18) 0/18/40/-24]
+   D: lit inset rim (light)[rgba(255,255,255,0.07) 0/1/0/0 inset]
+7 14x compass | div.cl__group button
+   N: VOLT inset rim[rgba(210,240,0,0.5) 0/0/0/1 inset] ; VOLT EDGE[rgba(210, 240, 0, 0.5) [TRBL]]
+   D: (not in Day list)
+6 1x compass | aside.rv.lp-cpro
+   N: lit inset rim (light)[rgba(255,255,255,0.12) 0/1/0/0 inset] ; glass (backdrop-filter)[blur(22px) saturate(1.7)] ; VOLT EDGE[rgba(210, 240, 0, 0.5) [TRBL]]
+   D: lit inset rim (light)[rgba(255,255,255,0.95) 0/1/0/0 inset] ; glass (backdrop-filter)[blur(22px) saturate(1.7)]
+6 1x du-eligibility | aside.rv.lp-combo
+   N: lit inset rim (light)[rgba(255,255,255,0.12) 0/1/0/0 inset] ; glass (backdrop-filter)[blur(22px) saturate(1.7)] ; VOLT EDGE[rgba(210, 240, 0, 0.5) [TRBL]]
+   D: lit inset rim (light)[rgba(255,255,255,0.95) 0/1/0/0 inset] ; glass (backdrop-filter)[blur(22px) saturate(1.7)]
+5 1x inside-the-lab | div.lcd__frame
+   N: ring (box-shadow spread)[rgba(244,245,240,0.08) 0/0/0/5] ; lit inset rim (light)[rgba(255,255,255,0.06) 0/1/0/0 inset] ; bright hairline[rgba(244, 245, 240, 0.18) [TRBL]]
+   D: lit inset rim (light)[rgba(255,255,255,0.06) 0/1/0/0 inset]
+5 3x inside-the-lab | ul.lct__key i
+   N: colour gradient[repeating-linear-gradient(135deg, rgb(232, 195, 90) 0px, rgb] ; colour gradient[repeating-linear-gradient(135deg, rgb(255, 138, 125) 0px, rg] ; bright hairline[rgba(242, 244, 236, 0.45) [TRBL]]
+   D: colour gradient[repeating-linear-gradient(135deg, rgb(23] ; colour gradient[repeating-linear-gradient(135deg, rgb(25]
+5 6x inside-the-lab | span.lcc__chip
+   N: VOLT EDGE[rgb(166, 220, 74) [TRBL]]
+   D: VOLT EDGE[rgb(166, 220, 74) [TRBL]]
+5 3x inside-the-lab | i.lcc__head
+   N: VOLT EDGE[rgb(166, 220, 74) [TR]]
+   D: VOLT EDGE[rgb(166, 220, 74) [TR]]
+5 2x inside-the-lab | span.lcp-plan__n
+   N: VOLT EDGE[rgb(210, 240, 0) [TRBL]] ; bright hairline[rgba(244, 245, 240, 0.18) [TRBL]]
+   D: VOLT EDGE[rgb(210, 240, 0) [TRBL]]
+5 2x inside-the-lab | span.lcp-plan__go
+   N: VOLT EDGE[rgb(210, 240, 0) [TRBL]] ; bright hairline[rgba(244, 245, 240, 0.18) [TRBL]]
+   D: VOLT EDGE[rgb(210, 240, 0) [TRBL]]
+5 1x your-prep | ol.ts__ladder li
+   N: VOLT EDGE[rgba(210, 240, 0, 0.55) [TRBL]] ; volt tint fill[rgba(210,240,0,0.12)]
+   D: VOLT EDGE[rgba(210, 240, 0, 0.55) [TRBL]] ; volt tint fill[rgba(210,240,0,0.12)]
+5 1x compass | span.cl__tag
+   N: VOLT EDGE[rgba(210, 240, 0, 0.35) [TRBL]]
+   D: VOLT EDGE[rgba(210, 240, 0, 0.35) [TRBL]]
+5 19x du-eligibility | button.du-chip
+   N: VOLT EDGE[rgb(210, 240, 0) [TRBL]] ; volt tint fill[rgba(210,240,0,0.1)]
+   D: (none of these)
+5 6x on-instagram | span.rl__cover-mark
+   N: VOLT EDGE[rgba(210, 240, 0, 0.45) [TRBL]]
+   D: VOLT EDGE[rgba(210, 240, 0, 0.45) [TRBL]]
+5 6x on-instagram | span.rl__cover-orbit
+   N: VOLT EDGE[rgba(210, 240, 0, 0.35) [TRBL]]
+   D: VOLT EDGE[rgba(210, 240, 0, 0.35) [TRBL]]
+5 1x mm-foot | span.mm-new
+   N: colour inset rim[rgba(82,103,0,0.7) 0/0/0/1 inset] ; colour inset rim[rgba(82,103,0,0.35) 0/-2/0/0 inset]
+   D: colour inset rim[rgba(82,103,0,0.7) 0/0/0/1 inset] ; colour inset rim[rgba(82,103,0,0.35) 0/-2/0/0 inset]
+4 1x lp-hero | div.lp-stage::before
+   N: lit inset rim (light)[rgba(244,245,240,0.07) 0/1/0/0 inset] ; light radial spot (gradient)[radial-gradient(75% 42% at 50% 42%, rgba(210, 240, 0, 0.086)]
+   D: VOLT radial glow (gradient)[radial-gradient(75% 42% at 50% 42%, rgba]
+4 1x lp-proof | nav.lp-proof
+   N: lit inset rim (light)[rgba(255,255,255,0.14) 0/1/0/0 inset] ; glass (backdrop-filter)[blur(24px) saturate(1.7)] ; bright hairline[rgba(244, 245, 240, 0.16) [TRBL]]
+   D: lit inset rim (light)[rgba(255,255,255,0.95) 0/1/0/0 inset] ; glass (backdrop-filter)[blur(24px) saturate(1.7)]
+4 4x lp-proof | nav.lp-proof a
+   N: lit inset rim (light)[rgba(244,245,240,0.09) -1/0/0/0 inset] ; lit inset rim (light)[rgba(244,245,240,0.09) 0/-1/0/0 inset]
+   D: (not in Day list)
+4 4x inside-the-lab | span.lc__rail-ico
+   N: VOLT EDGE[rgb(210, 240, 0) [TRBL]]
+   D: VOLT EDGE[rgb(210, 240, 0) [TRBL]]
+4 1x score-recovery-lab | figure.ml__stage
+   N: ring (box-shadow spread)[rgba(244,245,240,0.08) 0/0/0/5] ; lit inset rim (light)[rgba(244,245,240,0.08) 0/1/0/0 inset]
+   D: lit inset rim (light)[rgba(244,245,240,0.08) 0/1/0/0 inset]
+4 1x compass | aside.rv.lp-cpro::before
+   N: VOLT radial glow (gradient)[radial-gradient(closest-side, rgba(210, 240, 0, 0.16), rgba(]
+   D: VOLT radial glow (gradient)[radial-gradient(closest-side, rgba(170, ]
+4 19x du-eligibility | span.du-chip__tick
+   N: VOLT EDGE[rgb(210, 240, 0) [TRBL]]
+   D: VOLT EDGE[rgb(210, 240, 0) [TRBL]]
+4 1x du-eligibility | aside.rv.lp-combo::before
+   N: VOLT radial glow (gradient)[radial-gradient(closest-side, rgba(210, 240, 0, 0.14), rgba(]
+   D: VOLT radial glow (gradient)[radial-gradient(closest-side, rgba(210, ]
+4 5x exam-experience | ul.lp-exam__legend span
+   N: VOLT EDGE[rgb(210, 240, 0) [TRBL]]
+   D: VOLT EDGE[rgb(210, 240, 0) [TRBL]]
+4 1x on-instagram | dl.rl__summary
+   N: lit inset rim (light)[rgba(255,255,255,0.14) 0/1/0/0 inset] ; glass (backdrop-filter)[blur(22px) saturate(1.7)] ; bright hairline[rgba(244, 245, 240, 0.16) [TRBL]]
+   D: lit inset rim (light)[rgba(255,255,255,0.9) 0/1/0/0 inset] ; glass (backdrop-filter)[blur(22px) saturate(1.7)]
+4 1x on-instagram | dl.rl__summary::before
+   N: VOLT radial glow (gradient)[radial-gradient(closest-side, rgba(210, 240, 0, 0.22), rgba(]
+   D: VOLT radial glow (gradient)[radial-gradient(closest-side, rgba(170, ]
+3 1x mm-nav | span.mm-theme-toggle__sky
+   N: VOLT gradient[linear-gradient(rgb(241, 246, 217), rgb(220, 231, 173))]
+   D: VOLT gradient[linear-gradient(rgb(241, 246, 217), rgb(]
+3 1x lp-hero | div.mm-screen.mm-drill
+   N: lit inset rim (light)[rgba(244,245,240,0.08) 0/1/0/0 inset] ; bright hairline[rgba(244, 245, 240, 0.2) [TRBL]]
+   D: lit inset rim (light)[rgba(244,245,240,0.08) 0/1/0/0 inset]
+3 1x lp-hero | div.mm-screen.mm-drill::before
+   N: VOLT gradient[linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(210, 240, 0, 0]
+   D: VOLT gradient[linear-gradient(90deg, rgba(0, 0, 0, 0),]
+3 4x inside-the-lab | div.lcp-block
+   N: VOLT EDGE[color(srgb 0.823529 0.941176 0 / 0.38) [TRBL]]
+   D: VOLT EDGE[color(srgb 0.823529 0.941176 0 / 0.38) []
+3 2x inside-the-lab | li.lcp-plan
+   N: VOLT EDGE[color(srgb 0.823529 0.941176 0 / 0.4) [TRBL]]
+   D: VOLT EDGE[color(srgb 0.823529 0.941176 0 / 0.4) [T]
+3 4x score-recovery-lab | ol.ml__steps li
+   N: VOLT EDGE[rgba(210, 240, 0, 0.5) [TRBL]]
+   D: (not in Day list)
+3 4x du-eligibility | button.du-preset
+   N: VOLT EDGE[rgba(210, 240, 0, 0.35) [TRBL]]
+   D: (not in Day list)
+3 1x du-eligibility | a.du-live
+   N: VOLT EDGE[rgba(210, 240, 0, 0.5) [TRBL]]
+   D: VOLT EDGE[rgba(210, 240, 0, 0.5) [TRBL]]
+3 6x on-instagram | button.rl__card::before
+   N: VOLT gradient[linear-gradient(90deg, rgba(0, 0, 0, 0) 49.75%, rgba(210, 24]
+   D: VOLT gradient[linear-gradient(90deg, rgba(0, 0, 0, 0) ]
+3 6x on-instagram | button.rl__card::after
+   N: VOLT EDGE[rgba(210, 240, 0, 0.28) [TRBL]]
+   D: VOLT EDGE[rgba(210, 240, 0, 0.28) [TRBL]]
+3 1x pricing | div.lp-plan.lp-plan--pro
+   N: VOLT EDGE[rgba(210, 240, 0, 0.5) [TRBL]]
+   D: (not in Day list)
+3 1x mm-foot | a.mm-foot__key
+   N: VOLT EDGE[rgb(210, 240, 0) [TRBL]]
+   D: VOLT EDGE[rgb(210, 240, 0) [TRBL]]
+3 1x mm-dock | div.mm-dock
+   N: lit inset rim (light)[rgba(255,255,255,0.5) 0/1/0/0 inset] ; glass (backdrop-filter)[blur(20px) saturate(1.6)]
+   D: lit inset rim (light)[rgba(255,255,255,0.5) 0/1/0/0 inset] ; glass (backdrop-filter)[blur(20px) saturate(1.6)]
+2 1x mm-nav | span.mm-theme-toggle__sky::after
+   N: ring (box-shadow spread)[rgba(255,255,255,1) -5/-2/0/1]
+   D: ring (box-shadow spread)[rgba(255,255,255,1) -5/-2/0/1]
+2 2x lp-hero | div.lp-bg__grid
+   N: light sheen/gradient[linear-gradient(90deg, rgba(244, 245, 240, 0.086) 1px, rgba(]
+   D: (not in Day list)
+2 2x lp-hero | div.lp-bg__dots
+   N: light radial spot (gradient)[radial-gradient(circle at 1px 1px, rgba(244, 245, 240, 0.4) ]
+   D: (not in Day list)
+2 1x lp-statement | div.lp-shelf::before
+   N: colour radial glow (gradient)[radial-gradient(closest-side, rgba(255, 196, 120, 0.1), rgba]
+   D: colour radial glow (gradient)[radial-gradient(closest-side, rgba(255, ]
+2 5x lp-statement | span.subj-obj__sheen
+   N: colour gradient[linear-gradient(135deg, rgba(0, 0, 0, 0) 54.7%, rgb(255, 241]
+   D: (not in Day list)
+2 2x lp-statement | span.subj-obj__light
+   N: colour radial glow (gradient)[radial-gradient(closest-side, rgba(255, 212, 150, 0.24), rgb]
+   D: colour radial glow (gradient)[radial-gradient(closest-side, rgba(255, ]
+2 12x score-recovery-lab | b.pip-eye__ball
+   N: light radial spot (gradient)[radial-gradient(120% 90% at 40% 30%, rgb(255, 253, 246), rgb]
+   D: (not in Day list)
+2 1x compass | figure.cl__stage
+   N: lit inset rim (light)[rgba(244,245,240,0.08) 0/1/0/0 inset]
+   D: lit inset rim (light)[rgba(244,245,240,0.08) 0/1/0/0 inset]

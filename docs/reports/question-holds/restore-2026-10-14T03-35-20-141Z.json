@@ -1,0 +1,41 @@
+{
+ "kind": "question_hold",
+ "mode": "apply",
+ "reason": "listed-order key that cannot be reordered automatically (NTA review clean-up 13 Oct 2026)",
+ "at": "2026-10-14T03:35:20.139Z",
+ "requested": 3,
+ "found": 3,
+ "missing": [],
+ "alreadyHidden": 0,
+ "toHold": 3,
+ "toHoldBySubject": {
+  "business_studies": 2,
+  "economics": 1
+ },
+ "rows": [
+  {
+   "id": "24ff7d610823ce693405abfbdfc938f6",
+   "subject": "business_studies",
+   "chapter": "Controlling",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "89cfa7dc25a1ec3a95e633660a40ce0d",
+   "subject": "business_studies",
+   "chapter": "Consumer Protection",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  },
+  {
+   "id": "e19e65cb0bf8741eea6dbd48826f6566",
+   "subject": "economics",
+   "chapter": "Money & Banking",
+   "status": "live",
+   "verification_state": "verified",
+   "exploration_state": "active"
+  }
+ ]
+}

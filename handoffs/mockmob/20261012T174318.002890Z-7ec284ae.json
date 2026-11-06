@@ -1,0 +1,31 @@
+{
+  "id": "20261012T174318.002890Z-7ec284ae",
+  "observed_at": "2026-10-12T17:43:18.002890+00:00",
+  "agent": "claude-code opus-5.5 (desktop session 604ced81)",
+  "task": "Implement the approved MockMob Android app (Flutter) + website upgrade + interlinking (PLAN-2026-10-12-APP-AND-WEB-EXPERIENCE.md); owner approved implementation 12 Oct.",
+  "status": "active",
+  "done": "Worktree C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next on branch feat/app-and-web (from origin/main; ~20 local commits, NOT pushed). Backend: bearer access, consent-gated usage data (adult-only), notification prefs (quiet 23:00-07:00), devices, weekly goal/rhythm+history, deletion requests+dry-run processor, attempts summary, repair record, recap block, sample import, structured actions, session finaliser cron (every 5 min - see blocker), practice check (B13, off until SESSION_CHECK_ENABLED=1; submit honours checked answers), inventory snapshot. Website: homepage restructured around loop (all features kept), /app page+AppBand (env-driven Play URLs), assetlinks route, profile consent+deletion, /account-deletion, privacy update, result QR handoff. Flutter app (flutter_app/, package in.mockmob.app): core done (507 tests, analyze clean), routes split per feature (lib/features/<f>/<f>_routes.dart). Specs: docs/brain/APP-DESIGN-SPEC.md (+orchestrator amendments: folded-sheet reveal, no codegen outside core, no Firebase v1), APP-API-CONTRACT.md, flutter_app/docs/CORE_API.md. Staging (onwkqxmjqjrhfbjjdydu): owner applied 8 migrations; check scripts scripts/dev/check-staging-app-schema.mjs + staging-app-api-check.mjs (24/24 pass). PRODUCTION: security hotfix f31f7ba deployed+verified (users PATCH allowlist, users GET owner-only, questions/pending moderator-only, timing-safe webhook). Owner ran production SQL public_inventory_snapshot. Speed fix e2a9dab pushed but did NOT deploy (no Vercel status; likely Hobby-plan cron limit); fix commit cd755e2 (daily cron) on branch perf/inventory-snapshot in worktree mockmob-hotfix awaiting owner push.",
+  "next": "1) Owner pushes: git -C \"C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-hotfix\" push origin HEAD:main ; then verify https://www.mockmob.in/api/internal/refresh-inventory?x=<rand> returns 403 and /api/stats responds fast (prod /api/stats currently times out at 300s, 3/3 calls). If Vercel is Hobby, change feat branch vercel.json finalise-sessions cron to daily + finalise a student's expired sessions on demand. 2) Wave A workflow wf_c3d72890-ffa (auth, onboarding, rhythm, practice, learn, you, notifications) was running; read its journal (subagents/workflows/wf_c3d72890-ffa/journal.jsonl), verify (source flutter_app/tool/android_env.sh; flutter analyze; flutter test -j 2; build with dart_defines/dev.json; emulator mockmob_budget), commit. 3) Wave B: today (M4), runner (M6). Wave C: result+recap fold reveal (M7), review+repair (M8), platform widget/shortcuts (M12). Then quality harness, owner phone test (Vivo V2413, serial 10BF370PA6002XR, use phone.json + adb reverse tcp:3101), merge hotfix branches into feat/app-and-web, STATUS.md entry, Play closed test prep.",
+  "blockers": [
+    "Speed fix not live until owner pushes cd755e2",
+    "Vercel plan likely Hobby: crons limited to daily (affects 5-min session finaliser design)",
+    "Firebase project + Google OAuth client IDs needed for push and Google sign-in",
+    "Budget test phone pending",
+    "Fresh-question content gate still closed (practice, not proof)"
+  ],
+  "evidence": [
+    "origin/main f31f7ba then e2a9dab (pushed by owner)",
+    "prod probes after hotfix: /api/questions/pending 401, /api/users/x GET 401, PATCH 401, apex 307->www, www 200",
+    "prod /api/stats 000 after 300s x3 (pre speed-fix)",
+    "staging 24/24 bearer API checks; 132 new backend tests + existing suites pass",
+    "Flutter: 507 tests pass, analyze clean; phone cold start 565-692 ms (profile build)"
+  ],
+  "touched_files": [
+    "mockmob-next (feat/app-and-web): src/app/api/{me/*,events,attempts/summary,internal/*,sessions/[id]/check,assetlinks,users/[id]}, src/lib/server/{usage,rhythm,appPrefs,attemptSummary,repairRecord,recap,sampleImport,actionFields,sessionFinaliser,sessionCheck,accountDeletion,inventory,inventorySnapshot,profilePatch}.js, supabase/migrations/20261012*-20261013*, src/app/page.js, src/components/app/**, src/app/app/**, profile/account-deletion/privacy pages, flutter_app/**, docs/brain/{PLAN-2026-10-12-APP-AND-WEB-EXPERIENCE,APP-DESIGN-SPEC,APP-API-CONTRACT}.md, scripts/dev/*, vercel.json",
+    "mockmob-hotfix: hotfix/security-2026-10-12 (deployed), perf/inventory-snapshot (cd755e2 pending push)",
+    "C:\\Users\\atish\\.android\\avd\\mockmob_budget; ~/.mockmob-build/truststore.jks (Avast root for Gradle)"
+  ],
+  "verification": "Backend: node tests + npm test suites + webpack production build pass (Google Fonts fetch at build is intermittent on this PC due to Avast TLS scanning). Staging E2E 24/24. Production security hotfix verified by HTTP probes. App: emulator + owner phone launch verified for core only; feature screens not yet verified.",
+  "cost_and_pending_requests": "USD 0 paid model spend; no budget-guarded calls.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

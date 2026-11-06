@@ -1,0 +1,22 @@
+{
+  "id": "20261016T222225.743202Z-8750546c",
+  "observed_at": "2026-10-16T22:22:25.743202+00:00",
+  "agent": "claude-opus-5.5 (session 604ced81, main)",
+  "task": "17 Oct ~4:05 am IST: full handoff and next-session prompt written; session paused at 87% usage",
+  "status": "paused",
+  "done": "Handoff mockmob-next/docs/brain/HANDOFF-2026-10-17-MORNING.md and NEXT-SESSION-PROMPT-2026-10-17-MORNING.md, workflow scripts in docs/brain/workflows-1017, saved agent results in tmp/resume-1017b (committed on feat/app-and-web). Web done: live fixes da626be6, review F17 4298f1ff, subject claim 533e32cc. Wave 3: 245 scored, 219 accepted (57bc1baa), experts committed (GAT 53/30/0, physics 42/17/8, chemistry 24/42/3). Everything else is a STOP POINT per section 5 of the handoff. v12 dropped (the owner called it very bad); v13 is next.",
+  "next": "Next session: follow NEXT-SESSION-PROMPT-2026-10-17-MORNING.md; start at section 5 of HANDOFF-2026-10-17-MORNING.md. Wave 1: Track A ship verify, 5 unfinished web packets, UX-pass integrator, content continuation; wave 2: v13 packets, web gate; wave 3: v13 integrate/walk/critic/release, landing, apply wave 3 8+.",
+  "blockers": [
+    "Usage window resets about 6:50 am IST",
+    "Owner: Anthropic API key, Avast exception, Hindi reviewer, free first Repair pricing"
+  ],
+  "evidence": [
+    "get_usage 87% at 3:48 am IST",
+    "production main e192c59e unchanged",
+    "STOP POINT commits listed per worktree in the handoff"
+  ],
+  "touched_files": [],
+  "verification": "Handoff facts checked against git logs and saved agent results; nothing new is live or verified on device.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

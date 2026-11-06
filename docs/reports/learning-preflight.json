@@ -1,0 +1,135 @@
+{
+  "generatedAt": "2026-10-02T08:02:05.173Z",
+  "mode": "local_read_only",
+  "databaseApplied": false,
+  "paidCalls": 0,
+  "sourceCount": 0,
+  "calibrationState": "paused",
+  "pathwayState": "blocked_sources",
+  "pathwayCount": 0,
+  "missing": [
+    {
+      "concept": "sacrificing_gaining",
+      "subject": "accountancy",
+      "missing": true,
+      "requirements": [
+        "permitted versioned source",
+        "authenticated pathway digest and rules",
+        "independent held-out calibration",
+        "six independent families",
+        "complete delayed sequence"
+      ]
+    },
+    {
+      "concept": "revaluation",
+      "subject": "accountancy",
+      "missing": true,
+      "requirements": [
+        "permitted versioned source",
+        "authenticated pathway digest and rules",
+        "independent held-out calibration",
+        "six independent families",
+        "complete delayed sequence"
+      ]
+    },
+    {
+      "concept": "national_income",
+      "subject": "economics",
+      "missing": true,
+      "requirements": [
+        "permitted versioned source",
+        "authenticated pathway digest and rules",
+        "independent held-out calibration",
+        "six independent families",
+        "complete delayed sequence"
+      ]
+    },
+    {
+      "concept": "nominal_real",
+      "subject": "economics",
+      "missing": true,
+      "requirements": [
+        "permitted versioned source",
+        "authenticated pathway digest and rules",
+        "independent held-out calibration",
+        "six independent families",
+        "complete delayed sequence"
+      ]
+    },
+    {
+      "concept": "delegation_decentralisation",
+      "subject": "business_studies",
+      "missing": true,
+      "requirements": [
+        "permitted versioned source",
+        "authenticated pathway digest and rules",
+        "independent held-out calibration",
+        "six independent families",
+        "complete delayed sequence"
+      ]
+    },
+    {
+      "concept": "planning_controlling",
+      "subject": "business_studies",
+      "missing": true,
+      "requirements": [
+        "permitted versioned source",
+        "authenticated pathway digest and rules",
+        "independent held-out calibration",
+        "six independent families",
+        "complete delayed sequence"
+      ]
+    },
+    {
+      "concept": "explicit_inference",
+      "subject": "english",
+      "missing": true,
+      "requirements": [
+        "permitted versioned source",
+        "authenticated pathway digest and rules",
+        "independent held-out calibration",
+        "six independent families",
+        "complete delayed sequence"
+      ]
+    },
+    {
+      "concept": "main_idea",
+      "subject": "english",
+      "missing": true,
+      "requirements": [
+        "permitted versioned source",
+        "authenticated pathway digest and rules",
+        "independent held-out calibration",
+        "six independent families",
+        "complete delayed sequence"
+      ]
+    }
+  ],
+  "invalid": [],
+  "releaseGates": {
+    "content": false,
+    "authenticatedJourney": false,
+    "stagingPayments": false,
+    "economics": false
+  },
+  "currentOffer": {
+    "planId": "pro_cuet_2027",
+    "rupees": 99,
+    "expires": "31 July 2027"
+  },
+  "targetOffer": {
+    "planId": "pro_cuet_2027_v2",
+    "rupees": 299,
+    "expires": "31 July 2027",
+    "state": "not_released"
+  },
+  "flags": {
+    "sessionMigration": "off unless LEARNING_SESSIONS_ENABLED=true",
+    "recovery": "off unless durable sessions, released manifest, current signed question evidence and registered pathway digest all pass",
+    "persistentRateLimits": "off unless PERSISTENT_LIMITS_ENABLED=true",
+    "decisionCoaching": "not released",
+    "newOffer": "not released",
+    "optionalPaidAi": "paused; zero authorized runtime funding"
+  },
+  "nextAcceptanceCriterion": "Stage 1: explicit staging migration and authenticated owner-bound baseline/session → review → shared-plan flow. Stage 2 remains blocked on sources and academic calibration."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "20261031T080318.936647Z-6e79b7b4",
+  "observed_at": "2026-10-31T08:03:18.936647+00:00",
+  "agent": "claude-opus-5.5 session 16f96fa8",
+  "task": "Key cards ON for students",
+  "status": "paused",
+  "done": "Owner said \"Turn it on\". KEY_CARDS_ENABLED=true was set in Vercel Production (env id upxHGi3akyKdAkvi) and redeployed as dpl_7dHWVGYYCxR753iJ8wW6Ppgaoyx4. The STATUS commit d00f4194e was pushed to main; NOW and handoff were updated on feat/app-and-web (84276e4c2).",
+  "next": "- Watch the runtime logs for `[keycards]` warnings on the first signed-in requests.\n- Owner: decide on the 218 outside-syllabus questions; app version 17 build.",
+  "blockers": [],
+  "evidence": [
+    "docs/brain/STATUS.md top entry on main (d00f4194e)"
+  ],
+  "touched_files": [],
+  "verification": "- Signed out, /api/keycards*, /api/me/chapters and /api/me/revise answer 401 (were 404 off); pages 200; no runtime errors.\n- A local build traces the 7 decks, links and manifest into the routes.\n- The signed-in flow on production has not been seen by an agent.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

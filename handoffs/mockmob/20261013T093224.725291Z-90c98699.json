@@ -1,0 +1,23 @@
+{
+  "id": "20261013T093224.725291Z-90c98699",
+  "observed_at": "2026-10-13T09:32:24.725291+00:00",
+  "agent": "claude-opus-5.5 backend release reviewer (subagent)",
+  "task": "Adversarial review of release/app-backend (mockmob-backend worktree) before production deploy",
+  "status": "complete",
+  "done": "Reviewed 84-file diff vs origin/main 5f7d53e: no landing/homepage UI, no reverts of proxy/inventory/evidence registry/auth (no deletions). All new routes use auth(request) with owner-scoped user ids; cron routes secret-gated; check route flag-off and rate-limited. Production SQL file matches migration hashes, one transaction with preflight, idempotent, RLS + revokes on every new table, no destructive DML on existing rows. Fixed one defect: per-student finaliser pass in /api/attempts and /api/attempts/summary lacked onEpisodeCheck, which would strand learning episodes (SESSION_ALREADY_SUBMITTED). Commit 4bf41b8.",
+  "next": "Owner: run PRODUCTION-app-backend-2026-10-13.sql in prod SQL editor (all ok=true), then git fetch and push release/app-backend:main (now 4bf41b8), set CRON_SECRET and ANDROID_CERT_SHA256 in Vercel. Follow-ups: schedule purge_usage_events (180-day promise), per-user rate limits on /api/me writes and /api/events, run deletion processor within 30 days, merge main into feat/app-and-web.",
+  "blockers": [],
+  "evidence": [
+    "commit 4bf41b8 on release/app-backend",
+    "sha256 prefixes of 9 migrations match the PRODUCTION SQL header"
+  ],
+  "touched_files": [
+    "mockmob-backend/src/lib/server/finaliseEpisodeCheck.js",
+    "mockmob-backend/src/app/api/attempts/route.js",
+    "mockmob-backend/src/app/api/attempts/summary/route.js",
+    "mockmob-backend/data/tests/session_finaliser.test.mjs"
+  ],
+  "verification": "test:app 108/108, test:auth 50/50, test:recovery 39/39, test:learning 91/91; next build --webpack exit 0 before and after fix.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

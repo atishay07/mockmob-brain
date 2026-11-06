@@ -1,0 +1,24 @@
+{
+  "id": "20261010T115256.829210Z-741f51e5",
+  "observed_at": "2026-10-10T11:52:56.829210+00:00",
+  "agent": "claude",
+  "task": "MockMob facts from Continuum drift audit: git state, production, pilot authorization, staging conflict (read-only, no MockMob changes)",
+  "status": "active",
+  "done": "Read-only check of the live checkout C:/Users/atish/Desktop/mockmob copy/mockmob copy. Nothing changed there. STATUS.md sha 1d8a5e8a matches Continuum manifest. Git: local main 6c5e05b (4 Oct); origin/main 4476a5a (7 Oct), local main 30 commits behind; worktree 80 modified and 771 untracked. STATUS 7 Oct records Vercel deployment 8MzzAQ... and production student check 575/575 at 14:36:23 UTC. Pilot: 10 Oct owner decision for measurement-only 40-candidate pilot without qualification (STATUS 2652-2654), V7.12 pilot stopped after wave 1 with input_bound_exceeded tooling defect; V717 rule says pilot only after a genuine pass. Staging conflict: STATUS 7-8 Oct staging entries vs V717 checkpoint 9f2e4417 \"No configured staging project\". Corrections appended to wiki/entities/mockmob.md; full table in audits/mockmob-drift-20261010.md.",
+  "next": "Owner (or a MockMob session with owner approval) to decide: pilot authorization still valid or not; whether a staging project exists; whether to fetch and merge origin/main (dirty tree, do not reset). Before any MockMob work, re-check live STATUS hash and git status.",
+  "blockers": [
+    "Owner decision: pilot authorization status and staging status"
+  ],
+  "evidence": [
+    "C:/Users/atish/Desktop/mockmob copy/mockmob copy/docs/brain/STATUS.md lines 108-130, 2652-2654, 2885-2898",
+    "audits/mockmob-drift-20261010.md",
+    "wiki/entities/mockmob.md (corrections section)"
+  ],
+  "touched_files": [
+    "audits/mockmob-drift-20261010.md",
+    "wiki/entities/mockmob.md"
+  ],
+  "verification": "Live STATUS sha checked; git refs counted read-only (rev-list HEAD..origin/main = 30); raw vs live diff; not verified: live site, staging, ledger, frozen-file hashes.",
+  "cost_and_pending_requests": "No paid calls.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

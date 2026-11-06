@@ -1,0 +1,35 @@
+{
+  "id": "20261024T000521.018932Z-e0b6d6a1",
+  "observed_at": "2026-10-24T00:05:21.018932+00:00",
+  "agent": "sound-lane-resume3 (Sonnet 5.5 subagent)",
+  "task": "MockMob Reel916 sound resume: one continuous bed, p8 master, v8 end sound, voice band, owner 3:30 am haptic lift, real-render measures",
+  "status": "complete",
+  "done": "Bed b21 / b21g (render-pass guard) is live as REEL_MUSIC. Real render real_b21g.wav: I -14.26 LUFS, TP -1.14 dBTP (AAC 192k -1.12), 0 clipped, 141 of 141 words >= +6 dB on the phone model (min +6.2). Bed continuous from re-entry (fold into Ask Mobi +0.98 dB, no restart). End chime ring lifted +3 dB (m3 file) so the decay matches v8 within about 1.7 dB. Owner 3:30 am haptic: frame-0 hit now the hook knock stack (phone 100 ms -9 vs -19), bed's first kick steps back 9 dB, marks' felt +6, Mobi +4, slams +3. NOTES line appended: \"done reel916 resume sound\".",
+  "next": "Orchestrator runs the SOUND SYNC (documented in the NOTES line, about 12 min) after the other lanes finish picture changes: chain on a new tag, real render, guard_pass.sh, second render, realcheck.py. Owner's ear judges haptic level; knobs are OPEN_HAPTIC and OPEN_F0_LAYERS in src/reel/tactile/mix.ts.",
+  "blockers": [
+    "Remotion plays SFX and VO 16 samples off the offline model, so every final bed needs the render-pass guard (offline TP -1.18 vs real -1.04 before it).",
+    "out/.tmp-render-145249 (3.9 GB) and 8 out/.work-audio-* dirs left by earlier dead runs are not mine to delete; disk is at 43 GB free."
+  ],
+  "evidence": [
+    "out/reel916/sound/resume/real_b21g.wav",
+    "out/reel916/sound/resume/guard_b21g.log",
+    "out/reel916/sound/basics/b21_mix.txt",
+    "out/_bak-reel916/sound/20261024-0450-resume2/"
+  ],
+  "touched_files": [
+    "src/reel/tactile/mix.ts",
+    "tools/music-el/build_reel_b.py",
+    "tools/music-el/build_reel_b_tail.py",
+    "public/music/reel-b21.wav",
+    "public/music/reel-b21-nodip.wav",
+    "public/music/reel-b21g.wav",
+    "public/music/reel-b-end_resolve_v7d-m3.wav",
+    "src/reel/voiceBandReel.json",
+    "src/reel/planReel.ts (REEL_MUSIC line)",
+    "docs/NOTES.md (append)",
+    "out/reel916/sound/resume/ (realcheck.py, opencues.py, cue1.py, h.sh, guard_pass.sh, real_b21g.wav, s21g stems)"
+  ],
+  "verification": "tsc clean; scripts/timeline.mjs and --plan reel 0 warnings; real-render checks via realcheck.py with VO lines aligned per line; no Teaser16 file touched.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

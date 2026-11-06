@@ -1,0 +1,600 @@
+{
+  "subject": "political_science",
+  "examined": 251,
+  "counts": {
+    "ok": 140,
+    "move": 32,
+    "outside_syllabus": 24,
+    "outside_ncert": 52,
+    "flawed": 3
+  },
+  "items": {
+    "018dd717-3918-4226-a05d-0f53507437eb": {
+      "stored": "India's External Relations",
+      "verdict": "outside_ncert",
+      "why": "India-ASEAN engagement assertion is not an NCERT line"
+    },
+    "028404cf-0fb2-4025-abad-341db3dd3978": {
+      "stored": "Recent Issues and Challenges",
+      "verdict": "move",
+      "why": "Decline of one-party dominance and regional parties is Ch 5 content",
+      "to": "Challenges to & Restoration of the Congress System"
+    },
+    "04cf80e8-f447-4210-a699-f1924a9c430b": {
+      "stored": "Environment & Natural Resources",
+      "verdict": "outside_ncert",
+      "why": "Globalisation and natural-resource governance; generic, not an NCERT line"
+    },
+    "056d7931-f874-41c9-af92-28d208a35213": {
+      "stored": "Era of One-Party Dominance",
+      "verdict": "outside_syllabus",
+      "why": "Percentage and growth-rate arithmetic: Public/private investment share arithmetic, not an era-of-dominance topic"
+    },
+    "06ab766e-e646-44d7-952a-2e15233fa48f": {
+      "stored": "End of Bipolarity",
+      "verdict": "outside_ncert",
+      "why": "Regional environmental treaty diplomacy scenario; not NCERT and not the chapter"
+    },
+    "093c87f4-dc35-4f40-aebb-d867a931b5a3": {
+      "stored": "Alternative Centres of Power",
+      "verdict": "move",
+      "why": "MNCs, NGOs and regional organisations as new international actors is the CUET International Organisations unit",
+      "to": "International Organisations"
+    },
+    "0a258a6d-6789-4a6a-8e78-a8cbb93fbd9b": {
+      "stored": "Regional Aspirations",
+      "verdict": "outside_ncert",
+      "why": "Generic regions-and-natural-resources link; no NCERT line settles it"
+    },
+    "0a79564d-bc7c-4578-93bb-34ff180f9202": {
+      "stored": "Security in the Contemporary World",
+      "verdict": "outside_ncert",
+      "why": "Generic non-state-group policy scenario; no NCERT line"
+    },
+    "0b9272ad-80ce-4987-b2b5-ae034a5c9a6e": {
+      "stored": "India's External Relations",
+      "verdict": "outside_ncert",
+      "why": "Statement II (stronger position in regional forums) is not settled by NCERT"
+    },
+    "0c729b27-ef4c-45f1-9fde-e5f923347fc3": {
+      "stored": "End of Bipolarity",
+      "verdict": "outside_ncert",
+      "why": "MNC investment in strategic mineral scenario; not NCERT"
+    },
+    "0da69b45-e344-4ac4-8cc7-da6697bbcdc7": {
+      "stored": "Recent Issues and Challenges",
+      "verdict": "outside_syllabus",
+      "why": "US hegemony in world politics: Retired chapter topic, in no CUET 2026 unit"
+    },
+    "12051b75-049a-451c-95e3-f07bb05ae9cb": {
+      "stored": "Alternative Centres of Power",
+      "verdict": "outside_ncert",
+      "why": "BRICS and US hegemony is not in the NCERT chapter"
+    },
+    "176de835-622b-4afe-9e91-b517fabab9bb": {
+      "stored": "Democratic Upsurge and Coalition Politics",
+      "verdict": "outside_ncert",
+      "why": "Pre-electoral, minimum-winning and grand coalition typology is not in NCERT"
+    },
+    "18036b67-dea9-4aab-b38d-bc4ce1651042": {
+      "stored": "Globalisation",
+      "verdict": "move",
+      "why": "Post-1991 decline of Congress system and rise of regional parties is Ch 8 content",
+      "to": "Democratic Upsurge and Coalition Politics"
+    },
+    "1b1f25b4-bdb7-4817-826d-5c08c36d3cee": {
+      "stored": "Recent Issues and Challenges",
+      "verdict": "outside_syllabus",
+      "why": "Domestic environmental policy and NGOs in India: Local jobs-versus-pollution scenario; in no Political Science unit"
+    },
+    "1b50b4d1-51af-4cd9-9329-1042fb2b289f": {
+      "stored": "Contemporary South Asia",
+      "verdict": "flawed",
+      "why": "Options A, B and D are all genuine India water disputes (Farakka, Mahakali, Brahmaputra); stem asks for one"
+    },
+    "1bf88f46-0139-4b53-9d54-ceebcbfa8d3e": {
+      "stored": "Globalisation",
+      "verdict": "outside_syllabus",
+      "why": "Percentage and growth-rate arithmetic: Trade openness ratio calculation; pure calculation, no Political Science unit tests it"
+    },
+    "226f361a-90d7-4f92-a62f-823d7282bfa4": {
+      "stored": "Regional Aspirations",
+      "verdict": "outside_ncert",
+      "why": "Generic border-district migration scenario; no NCERT rule"
+    },
+    "2291e2c6-0a5d-4120-865b-6be68a858f44": {
+      "stored": "Era of One-Party Dominance",
+      "verdict": "move",
+      "why": "Planning Commission is planned development content",
+      "to": "Politics of Planned Development"
+    },
+    "2511c977-670c-440d-a2ae-8551630175fb": {
+      "stored": "Security in the Contemporary World",
+      "verdict": "move",
+      "why": "Post-bipolarity world politics is End of Bipolarity content",
+      "to": "End of Bipolarity"
+    },
+    "285f148a-338c-4bbf-8353-e02abccb541c": {
+      "stored": "Globalisation",
+      "verdict": "outside_ncert",
+      "why": "Diaspora diplomacy as a tool of India's external relations is not in NCERT"
+    },
+    "28cbd2bd-f9aa-47ba-9830-6485b83c1ffc": {
+      "stored": "Recent Issues and Challenges",
+      "verdict": "outside_syllabus",
+      "why": "Environmental movements in India (Chipko, Narmada, Silent Valley): Domestic environmental movements are in no CUET 2026 unit"
+    },
+    "297c295e-9097-4e76-beae-9e5aab1f2bb7": {
+      "stored": "End of Bipolarity",
+      "verdict": "outside_ncert",
+      "why": "Resource nationalism is not an NCERT term"
+    },
+    "2a1831d5-d246-49fd-b316-5f417f3e5baa": {
+      "stored": "Recent Issues and Challenges",
+      "verdict": "move",
+      "why": "Internal party democracy in the dominant party",
+      "to": "Era of One-Party Dominance"
+    },
+    "30f76149-4cbf-4dfd-bda4-db870e440d68": {
+      "stored": "Era of One-Party Dominance",
+      "verdict": "move",
+      "why": "Centralised planning and implementation delays is planned development content",
+      "to": "Politics of Planned Development"
+    },
+    "3254fe26-4580-49ce-b51a-9d0e9157d98f": {
+      "stored": "Regional Aspirations",
+      "verdict": "flawed",
+      "why": "Environmental tactic match: options B/C both defensible (dam and farmers both blockades; B has 1-A) and generic environmental topic"
+    },
+    "3286c625-55cb-44c6-ae5f-ed53eb4e7755": {
+      "stored": "India's External Relations",
+      "verdict": "outside_ncert",
+      "why": "Generic regional security dialogue and CBM assertion; not NCERT"
+    },
+    "37ba5757-71d1-4a1e-8795-90250d949e7b": {
+      "stored": "Security in the Contemporary World",
+      "verdict": "move",
+      "why": "Effect of end of bipolarity on states' alignments",
+      "to": "End of Bipolarity"
+    },
+    "3932e313-9943-4245-bf7f-ca484fb6f5aa": {
+      "stored": "Challenges of Nation Building",
+      "verdict": "outside_syllabus",
+      "why": "Trade union membership as an alternative centre of power: Not a nation-building topic and in no Political Science unit"
+    },
+    "3cbfd2eb-b7d7-4fce-9c03-839a14065af5": {
+      "stored": "Contemporary South Asia",
+      "verdict": "outside_syllabus",
+      "why": "Percentage and growth-rate arithmetic: Poverty-decline calculation on a planned development scheme; no Political Science unit tests it"
+    },
+    "3e17cfd2-5149-4387-a5f3-d0c237646197": {
+      "stored": "Globalisation",
+      "verdict": "outside_ncert",
+      "why": "Economic diplomacy classification of IT firm expansion is not in NCERT"
+    },
+    "3fd2611e-35ea-4b7d-a26b-d649f634aee2": {
+      "stored": "Contemporary South Asia",
+      "verdict": "move",
+      "why": "Planned development policies matched with political outcomes",
+      "to": "Politics of Planned Development"
+    },
+    "44981956-f6d9-44d2-9430-624f79bbbcb1": {
+      "stored": "End of Bipolarity",
+      "verdict": "outside_ncert",
+      "why": "Growth of transnational NGOs after bipolarity is not an NCERT line"
+    },
+    "49008990-c618-4714-bff7-b160052bbce7": {
+      "stored": "Recent Issues and Challenges",
+      "verdict": "outside_syllabus",
+      "why": "Domestic environmental policy and NGOs in India: Pollution policy instruments (market-based) are in no Political Science unit"
+    },
+    "4bae3e49-011a-4e2b-bcfe-bdd386dd4d27": {
+      "stored": "Crisis of the Democratic Order",
+      "verdict": "move",
+      "why": "1967 elections as turning point is Ch 5 content",
+      "to": "Challenges to & Restoration of the Congress System"
+    },
+    "4f5246b6-77fc-4968-a3a1-4414b335d8cb": {
+      "stored": "Security in the Contemporary World",
+      "verdict": "move",
+      "why": "Tests crisis of democratic order, not security",
+      "to": "Crisis of the Democratic Order"
+    },
+    "4f6026a2-7853-40bd-8bff-b34413916f38": {
+      "stored": "End of Bipolarity",
+      "verdict": "outside_syllabus",
+      "why": "Percentage and growth-rate arithmetic: Pollution-concentration percentage calculation; no Political Science unit tests it"
+    },
+    "5c4bcaf9-bf6d-46e2-9dc4-879b6a050490": {
+      "stored": "Era of One-Party Dominance",
+      "verdict": "move",
+      "why": "Emergency of 1975-77 is Crisis of the Democratic Order content",
+      "to": "Crisis of the Democratic Order"
+    },
+    "5c5099c8-9861-4360-9efd-5420be9e81be": {
+      "stored": "Challenges to & Restoration of the Congress System",
+      "verdict": "move",
+      "why": "Golaknath judgment belongs with the Parliament-judiciary conflict (committed judiciary)",
+      "to": "Crisis of the Democratic Order"
+    },
+    "5c8ad9de-06f8-4e43-b57b-000ca63fdfdf": {
+      "stored": "Recent Issues and Challenges",
+      "verdict": "outside_syllabus",
+      "why": "First-past-the-post seat-vote disproportion: Electoral-system mechanics are in no CUET 2026 Political Science unit"
+    },
+    "5d5620b3-6bd7-447f-9c5b-cef4b5881ec3": {
+      "stored": "Era of One-Party Dominance",
+      "verdict": "move",
+      "why": "Princely states and language as nation-building challenges",
+      "to": "Challenges of Nation Building"
+    },
+    "5e77d9bb-e5b3-4552-843f-0859a110e6f3": {
+      "stored": "Alternative Centres of Power",
+      "verdict": "move",
+      "why": "Role of non-state actors is International Organisations (new actors) content",
+      "to": "International Organisations"
+    },
+    "6362f0a4-0fd0-4902-9142-6ca9e5049342": {
+      "stored": "Security in the Contemporary World",
+      "verdict": "move",
+      "why": "Tests one-party dominance, not security",
+      "to": "Era of One-Party Dominance"
+    },
+    "66e6cfe9-1e72-4251-9921-cbce7941015c": {
+      "stored": "Contemporary South Asia",
+      "verdict": "outside_ncert",
+      "why": "Hydropower displacement scenario; no NCERT line settles it"
+    },
+    "6877d2f2-89a5-4c48-99ce-85ffd7ab80a9": {
+      "stored": "Alternative Centres of Power",
+      "verdict": "outside_ncert",
+      "why": "Generic river-sharing regional body scenario; not NCERT"
+    },
+    "6a1f40e7-35c5-4f5a-b416-b16382578fe3": {
+      "stored": "Environment & Natural Resources",
+      "verdict": "outside_syllabus",
+      "why": "Percentage and growth-rate arithmetic: Displacement percentage calculation; no Political Science unit tests it"
+    },
+    "6b103633-584a-4563-bd0b-9ea2782c67be": {
+      "stored": "Challenges to & Restoration of the Congress System",
+      "verdict": "flawed",
+      "why": "Key B calls the 1969 split primarily ideological; NCERT frames it as a power struggle between Indira Gandhi and the Syndicate"
+    },
+    "6e369199-3019-4219-b9c7-171afb53f78d": {
+      "stored": "India's External Relations",
+      "verdict": "outside_ncert",
+      "why": "Neighbourhood First is not in NCERT"
+    },
+    "6e95da75-0b29-4fd7-9cb3-00702ae469dd": {
+      "stored": "Politics of Planned Development",
+      "verdict": "move",
+      "why": "How the early Congress system sustained dominance",
+      "to": "Era of One-Party Dominance"
+    },
+    "719a1990-51b5-4c4b-a748-2d693400eadc": {
+      "stored": "Recent Issues and Challenges",
+      "verdict": "outside_syllabus",
+      "why": "Percentage and growth-rate arithmetic: Per-capita consumption versus population-growth reasoning; in no Political Science unit"
+    },
+    "743645ba-6a79-4a6f-96de-3b3d2e28b765": {
+      "stored": "Crisis of the Democratic Order",
+      "verdict": "outside_ncert",
+      "why": "Role of international organisations in a South Asian democratic crisis; not NCERT"
+    },
+    "752eb7aa-3a90-4611-bd4c-f70a77fd0cdb": {
+      "stored": "Crisis of the Democratic Order",
+      "verdict": "move",
+      "why": "Garibi Hatao campaign of 1971 is Ch 5 content",
+      "to": "Challenges to & Restoration of the Congress System"
+    },
+    "790d57d1-7535-4a24-9365-9233fca3ae92": {
+      "stored": "Contemporary South Asia",
+      "verdict": "move",
+      "why": "Centralised planning and bureaucracy is planned development content",
+      "to": "Politics of Planned Development"
+    },
+    "82c99454-9f7e-4345-9d3c-bd457e7223e6": {
+      "stored": "Recent Issues and Challenges",
+      "verdict": "outside_syllabus",
+      "why": "Domestic environmental policy and NGOs in India: Environmental PIL in India is in no CUET 2026 unit"
+    },
+    "82edc76d-d0d5-4628-8e2b-fffbca657f70": {
+      "stored": "End of Bipolarity",
+      "verdict": "outside_ncert",
+      "why": "Information technology and popular movements; not NCERT and not the chapter"
+    },
+    "844d8d6c-3ae0-4d88-b88d-20775de4b143": {
+      "stored": "International Organisations",
+      "verdict": "outside_ncert",
+      "why": "WHO headquarters city is not in the NCERT text"
+    },
+    "88b08cde-319a-4f9a-bd3a-860701d03692": {
+      "stored": "Recent Issues and Challenges",
+      "verdict": "outside_syllabus",
+      "why": "Domestic environmental policy and NGOs in India: National environmental policy instruments matched to problems; in no unit"
+    },
+    "9175dd49-6760-4614-b6e3-c340eea3f924": {
+      "stored": "Regional Aspirations",
+      "verdict": "outside_syllabus",
+      "why": "Coal reserve share percentage arithmetic: Resource-share arithmetic belongs to no Political Science unit"
+    },
+    "92a5159c-f8cf-44ba-b806-8f7c07e52bf1": {
+      "stored": "End of Bipolarity",
+      "verdict": "outside_ncert",
+      "why": "Fishing-rights joint panel scenario; not NCERT"
+    },
+    "92fc1fd3-940a-49ee-90f3-8b65d647583b": {
+      "stored": "Politics of Planned Development",
+      "verdict": "move",
+      "why": "Regional parties challenging Congress dominance is not planned development",
+      "to": "Challenges to & Restoration of the Congress System"
+    },
+    "95a03267-9721-43c1-9065-919a9dddbc43": {
+      "stored": "Security in the Contemporary World",
+      "verdict": "outside_ncert",
+      "why": "Cross-chapter phenomena-consequence match; not an NCERT line"
+    },
+    "976b1cc0-d2b0-41be-9687-2852646f8f1f": {
+      "stored": "Politics of Planned Development",
+      "verdict": "move",
+      "why": "Non-alignment as guiding principle of early foreign policy",
+      "to": "India's External Relations"
+    },
+    "9923ff3f-71d7-4b14-a409-3b1d02c96e42": {
+      "stored": "International Organisations",
+      "verdict": "outside_ncert",
+      "why": "Civil society pressing WHO on reporting guidelines; not an NCERT line"
+    },
+    "9a3d3199-3a9e-40aa-b378-7028024ed010": {
+      "stored": "Contemporary South Asia",
+      "verdict": "outside_ncert",
+      "why": "Generic state citizenship-verification scenario; no NCERT rule"
+    },
+    "9da30f79-1ab5-46bc-8328-f208cafcb503": {
+      "stored": "Recent Issues and Challenges",
+      "verdict": "outside_ncert",
+      "why": "Neighbouring country influence scenario (Neighbourhood policy); not NCERT"
+    },
+    "a063bb05-ca97-4199-8619-9895a749264b": {
+      "stored": "Environment & Natural Resources",
+      "verdict": "outside_ncert",
+      "why": "Supply-chain disruption and environmental risk; not in NCERT"
+    },
+    "a23c323c-fd8d-4a5e-a946-e00aedd83656": {
+      "stored": "Recent Issues and Challenges",
+      "verdict": "move",
+      "why": "Defines the era of one-party dominance",
+      "to": "Era of One-Party Dominance"
+    },
+    "a3c8bb1d-725a-4d83-8750-7845b9216eae": {
+      "stored": "India's External Relations",
+      "verdict": "outside_ncert",
+      "why": "Statement III on regional conflicts and peacekeeping is not settled by NCERT"
+    },
+    "a5bfe458-c8e1-45ed-bd4e-2cd9c3f38c13": {
+      "stored": "Globalisation",
+      "verdict": "outside_ncert",
+      "why": "Globalisation causing rise of regional parties is not stated in NCERT"
+    },
+    "a62593a5-28b8-4a5a-88ba-db9ad3df9127": {
+      "stored": "India's External Relations",
+      "verdict": "outside_ncert",
+      "why": "Neighbourhood First is not in NCERT"
+    },
+    "ab8bb858-c647-4394-b83e-cba088cbd1d6": {
+      "stored": "Politics of Planned Development",
+      "verdict": "outside_ncert",
+      "why": "Generic rural-investment electoral effect scenario; no NCERT line"
+    },
+    "ac6e039d-1ec2-4faa-bc32-661fcc8f0e7b": {
+      "stored": "Crisis of the Democratic Order",
+      "verdict": "outside_ncert",
+      "why": "Vague generic restoration-after-authoritarian-interlude case; no NCERT line"
+    },
+    "acfd5b53-654f-456e-8e4e-5e3b4141239e": {
+      "stored": "End of Bipolarity",
+      "verdict": "outside_ncert",
+      "why": "Post-bipolar triggers matched to popular responses; not NCERT"
+    },
+    "ad9c640a-ad26-4c1b-81af-523c7d12c2e1": {
+      "stored": "Security in the Contemporary World",
+      "verdict": "outside_ncert",
+      "why": "Unipolar moment phrase is not NCERT and not security"
+    },
+    "ae0cf70f-336f-40a2-9f95-442fa0f44f8e": {
+      "stored": "Regional Aspirations",
+      "verdict": "outside_ncert",
+      "why": "Global integration and local environmental standards; generic, not NCERT"
+    },
+    "b5e8da4f-fb35-471c-b6f1-2380bc8bffc2": {
+      "stored": "Regional Aspirations",
+      "verdict": "outside_syllabus",
+      "why": "Regional environmental grievances (generic geography): Region-to-environmental-grievance match is in no Political Science unit"
+    },
+    "b8207d36-243e-4fa6-8c8d-53d80cfd7ad3": {
+      "stored": "Globalisation",
+      "verdict": "outside_syllabus",
+      "why": "Percentage and growth-rate arithmetic: CAGR calculation on India-neighbour trade; pure calculation, no Political Science unit tests it"
+    },
+    "bac189c5-b80c-489e-83e7-ad69f89eb040": {
+      "stored": "End of Bipolarity",
+      "verdict": "outside_ncert",
+      "why": "Roles of UNEP, World Bank and WTO in environmental governance; not NCERT"
+    },
+    "bc99de7a-fce8-4047-bc2b-d5b4921d23c6": {
+      "stored": "Politics of Planned Development",
+      "verdict": "outside_ncert",
+      "why": "Integrated Rural Development Programme comparison is not in NCERT"
+    },
+    "bf566d6b-c449-4c71-95e9-7314c90c40c7": {
+      "stored": "Globalisation",
+      "verdict": "outside_ncert",
+      "why": "South Asian challenges matched to globalisation causes; not an NCERT line"
+    },
+    "bf589862-fe59-4561-9bf2-562dce6b276c": {
+      "stored": "Contemporary South Asia",
+      "verdict": "outside_syllabus",
+      "why": "Percentage and growth-rate arithmetic: Agricultural growth shortfall calculation; no Political Science unit tests it"
+    },
+    "c59fdcc4-6e30-44a4-825d-09a7926c5206": {
+      "stored": "Environment & Natural Resources",
+      "verdict": "outside_syllabus",
+      "why": "Percentage and growth-rate arithmetic: Material consumption percentage calculation; no Political Science unit tests it"
+    },
+    "c63ee5c4-6f0c-4d58-8e62-e27ab9a32ae2": {
+      "stored": "Globalisation",
+      "verdict": "move",
+      "why": "India infrastructure offers to neighbours and regional cooperation limits is South Asia content",
+      "to": "Contemporary South Asia"
+    },
+    "cb58ae10-a547-483a-bbde-c826cc7b8229": {
+      "stored": "India's External Relations",
+      "verdict": "outside_ncert",
+      "why": "Neighbourhood First, Look East and SAARC pairing is not in NCERT"
+    },
+    "cc3cc955-65d4-4a73-94b0-49f94050fa32": {
+      "stored": "Regional Aspirations",
+      "verdict": "outside_ncert",
+      "why": "Economic opening fuelling regional claims; generic, not NCERT"
+    },
+    "cd206de7-1638-47d9-96fb-b2fa42084992": {
+      "stored": "Regional Aspirations",
+      "verdict": "outside_ncert",
+      "why": "Generic inter-state river pollution scenario; no NCERT rule"
+    },
+    "cdcca627-05b1-4bd1-a4d3-60df01ab3817": {
+      "stored": "Recent Issues and Challenges",
+      "verdict": "outside_syllabus",
+      "why": "Domestic environmental policy and NGOs in India: NGOs in Indian environmental issues; in no CUET 2026 unit"
+    },
+    "ce6a917f-2469-4f3a-83e9-c1287315d676": {
+      "stored": "Globalisation",
+      "verdict": "outside_ncert",
+      "why": "Look East Policy and diaspora programmes outcomes not in NCERT"
+    },
+    "d1caf0b5-79c5-4735-87ea-181ce1dd0cc7": {
+      "stored": "Challenges of Nation Building",
+      "verdict": "move",
+      "why": "1970s Soviet arms purchases and strategic alignment is external relations content",
+      "to": "India's External Relations"
+    },
+    "d346cc25-6f2c-465d-a0ca-b19be0bc8df5": {
+      "stored": "Contemporary South Asia",
+      "verdict": "move",
+      "why": "Land reform and rural inequality is planned development content",
+      "to": "Politics of Planned Development"
+    },
+    "d3bfcfc3-3aab-4d0f-af2a-0f5605ad837e": {
+      "stored": "Environment & Natural Resources",
+      "verdict": "outside_syllabus",
+      "why": "Percentage and growth-rate arithmetic: Emissions-intensity percentage calculation; no Political Science unit tests it"
+    },
+    "d546bfa3-c2de-4797-9529-f901adf9d564": {
+      "stored": "End of Bipolarity",
+      "verdict": "move",
+      "why": "Defines alternative centres of power, the topic of that chapter",
+      "to": "Alternative Centres of Power"
+    },
+    "d679ea00-84ea-4739-b735-edcadb4726fc": {
+      "stored": "Globalisation",
+      "verdict": "move",
+      "why": "IMF versus World Bank roles is NCERT Ch 4 International Organisations",
+      "to": "International Organisations"
+    },
+    "d75c4256-544f-4db7-b851-dd9421ac1f00": {
+      "stored": "End of Bipolarity",
+      "verdict": "outside_syllabus",
+      "why": "Percentage and growth-rate arithmetic: Influence-share percentage calculation; no Political Science unit tests it"
+    },
+    "dc0842a7-1096-42fd-9e20-b6af15674eaa": {
+      "stored": "Globalisation",
+      "verdict": "outside_syllabus",
+      "why": "Percentage and growth-rate arithmetic: Percentage increase in remittances calculation; pure calculation, no Political Science unit tests it"
+    },
+    "dc3de76c-ff85-46c9-b126-158b8059a77a": {
+      "stored": "Security in the Contemporary World",
+      "verdict": "outside_ncert",
+      "why": "Balancing versus bandwagoning is IR theory, not in NCERT"
+    },
+    "dc49133f-162e-4f06-8c08-c6236f6ad097": {
+      "stored": "Globalisation",
+      "verdict": "move",
+      "why": "SAARC limited integration is South Asia chapter content",
+      "to": "Contemporary South Asia"
+    },
+    "dd0366dd-ce6b-48a6-8a53-a70f746aef83": {
+      "stored": "Alternative Centres of Power",
+      "verdict": "outside_ncert",
+      "why": "MNC environmental standards scenario; not NCERT"
+    },
+    "e32a7295-fc58-4768-8837-35f982fa462d": {
+      "stored": "India's External Relations",
+      "verdict": "outside_ncert",
+      "why": "Generic border-dispute instruments question; no NCERT line"
+    },
+    "e580b7bd-633a-44b1-9635-c7cc47f06956": {
+      "stored": "Globalisation",
+      "verdict": "outside_syllabus",
+      "why": "Balance of payments, current account and remittances accounting: Economics BOP accounting is in no Political Science unit"
+    },
+    "e8515f69-2a2c-44d1-a3d2-911b0c13d97a": {
+      "stored": "Contemporary South Asia",
+      "verdict": "move",
+      "why": "Elected government versus bureaucracy in planning",
+      "to": "Politics of Planned Development"
+    },
+    "ee879651-1527-4380-8c13-3dc30e32c727": {
+      "stored": "Globalisation",
+      "verdict": "outside_ncert",
+      "why": "Consequences of globalisation on India's foreign policy not stated in NCERT"
+    },
+    "ee9d8ca9-bb7c-42ca-9be9-01834dfe9662": {
+      "stored": "India's External Relations",
+      "verdict": "outside_ncert",
+      "why": "Look East policy is not in NCERT"
+    },
+    "f37f7cb9-0750-433d-b481-cb793b49aa62": {
+      "stored": "Democratic Upsurge and Coalition Politics",
+      "verdict": "outside_ncert",
+      "why": "US hegemony influence on coalition governments is not an NCERT line"
+    },
+    "f425836e-ef88-42e9-99d7-e47ce9976383": {
+      "stored": "Environment & Natural Resources",
+      "verdict": "outside_ncert",
+      "why": "Carrying capacity and ecological footprint terms are not in the NCERT text"
+    },
+    "f4fe3eb8-a480-4a9c-b0f0-f42209130422": {
+      "stored": "Alternative Centres of Power",
+      "verdict": "move",
+      "why": "MNCs and NGOs as non-state actors is International Organisations content",
+      "to": "International Organisations"
+    },
+    "f74ade63-6c5d-4b3c-a839-4942847d6f23": {
+      "stored": "Contemporary South Asia",
+      "verdict": "outside_ncert",
+      "why": "Transit-agreement and security balance scenario (Neighbourhood policy); not in NCERT"
+    },
+    "fa059145-9b9a-4240-8993-03c2b0df12d5": {
+      "stored": "Crisis of the Democratic Order",
+      "verdict": "move",
+      "why": "Bangladesh, Pakistan and Sri Lanka developments are South Asia content",
+      "to": "Contemporary South Asia"
+    },
+    "fa1c61cc-53ac-4758-869b-a59c88cdf087": {
+      "stored": "Contemporary South Asia",
+      "verdict": "move",
+      "why": "Electoral cycles versus long-term planning is planned development content",
+      "to": "Politics of Planned Development"
+    },
+    "fe714433-6c02-441a-a6c0-cdfe44ae03e6": {
+      "stored": "India's External Relations",
+      "verdict": "outside_ncert",
+      "why": "Generic China and Pakistan comparison; no NCERT line"
+    },
+    "ffce7323-dfe2-4e57-93f2-e5a43ee3d91b": {
+      "stored": "Contemporary South Asia",
+      "verdict": "outside_ncert",
+      "why": "Island-state debt sustainability with distant power; not in NCERT"
+    }
+  }
+}

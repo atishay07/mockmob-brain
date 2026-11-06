@@ -1,0 +1,698 @@
+{
+ "subject": "business_studies",
+ "examined": 411,
+ "counts": {
+  "ok": 291,
+  "move": 85,
+  "outside_syllabus": 27,
+  "outside_ncert": 5,
+  "flawed": 3
+ },
+ "items": {
+  "04f61cbe-19a5-4808-b379-7c369f45d636": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Controlling",
+   "why": "percentage variance formula tests controlling"
+  },
+  "070385bb-3ef9-45c2-bea6-efab69c76298": {
+   "stored": "Business Environment",
+   "verdict": "move",
+   "to": "Organising",
+   "why": "delegation versus decentralisation"
+  },
+  "0f1182af-2169-439e-b4a2-b125e2b33f46": {
+   "stored": "Controlling",
+   "verdict": "outside_syllabus",
+   "why": "social entrepreneurship control mix"
+  },
+  "106dcfd2-db2b-4b64-8f79-77bfd8465259": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Organising",
+   "why": "decentralisation and delegation"
+  },
+  "111d7bcb-049c-49eb-91a4-dfb6d5588070": {
+   "stored": "Directing",
+   "verdict": "outside_syllabus",
+   "why": "span of management arithmetic"
+  },
+  "1225bb88-b8a9-4600-808d-53b2dd7aa021": {
+   "stored": "Marketing Management",
+   "verdict": "move",
+   "to": "Consumer Protection",
+   "why": "consumer awareness and information asymmetry"
+  },
+  "17ce534e-0dcb-41e3-8eac-32f1e6804c96": {
+   "stored": "Principles of Management",
+   "verdict": "flawed",
+   "why": "Harmony not Discord (mutual understanding) and Cooperation not Individualism both fit the stem; key B"
+  },
+  "1bca7c49-174a-4c3b-8a76-cce9f180eba8": {
+   "stored": "Staffing",
+   "verdict": "outside_syllabus",
+   "why": "selection ratio calculation"
+  },
+  "1d2f75b7-dc09-4a36-82a2-774773374d41": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Directing",
+   "why": "directing as a continuous function"
+  },
+  "1fc36c5f-5604-427d-a348-cb0ccc700176": {
+   "stored": "Financial Management",
+   "verdict": "move",
+   "to": "Financial Markets",
+   "why": "role of financial markets in allocating capital"
+  },
+  "205be945-6daf-40ea-ada7-16a3ff44601f": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Marketing Management",
+   "why": "positioning and target niche"
+  },
+  "24eeeaf4-eda5-4614-9bd2-07449973b87c": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Marketing Management",
+   "why": "marketing mix distribution choice"
+  },
+  "270e4431-d332-4536-8c50-6cabb9e23092": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Directing",
+   "why": "leadership styles"
+  },
+  "289b4f28-5113-4b7b-a50c-f00a22358b4e": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Directing",
+   "why": "directing function"
+  },
+  "28fd898a-0f44-490a-8f50-964e1aadad57": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Controlling",
+   "why": "management by exception"
+  },
+  "29519eca-ea91-4b4e-89a3-f7d8bda01d70": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Directing",
+   "why": "communication and feedback in directing"
+  },
+  "298fcceb-2012-45ce-b515-941b567a0836": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Directing",
+   "why": "directing versus planning"
+  },
+  "2a5ac9a1-cc61-4e21-8901-e89a915a3a97": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Controlling",
+   "why": "controlling function"
+  },
+  "2b95da9e-f498-4a1f-98ef-558877999055": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Principles of Management",
+   "why": "Fayol authority and responsibility"
+  },
+  "2b9af2ff-7e3f-4337-9900-710db8ce5a44": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Principles of Management",
+   "why": "Fayol scalar chain"
+  },
+  "310e14fe-9de2-489e-be4a-8caf095a9c92": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Planning",
+   "why": "planning and uncertainty"
+  },
+  "31b45d5b-2be3-4bc8-8808-9b11ed9da77c": {
+   "stored": "Staffing",
+   "verdict": "outside_syllabus",
+   "why": "span of control decision"
+  },
+  "339ab8b4-e77e-4f1c-b253-3fa4ff743248": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Directing",
+   "why": "components of directing"
+  },
+  "34d69511-c23b-4bf8-a1a4-6a0036199362": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Marketing Management",
+   "why": "marketing philosophies"
+  },
+  "3646c587-cfb4-4819-a10b-aced1f36af5f": {
+   "stored": "Financial Management",
+   "verdict": "move",
+   "to": "Financial Markets",
+   "why": "IPO and functions of financial markets"
+  },
+  "36cb5995-c8b3-40af-9246-582047a2014b": {
+   "stored": "Principles of Management",
+   "verdict": "move",
+   "to": "Staffing",
+   "why": "selection versus recruitment cost"
+  },
+  "3812ba3f-64fb-4ed8-b266-d1658a470866": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "outside_ncert",
+   "why": "tactical versus strategic marketing decisions not in NCERT"
+  },
+  "3884836e-0c99-40b9-a4c2-124a45013919": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Controlling",
+   "why": "first step in controlling process"
+  },
+  "3ad58506-4795-4b17-a345-90c3e12a911c": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "outside_syllabus",
+   "why": "management versus administration"
+  },
+  "3f1d5884-4e4d-4e67-a522-0b1bd65751bd": {
+   "stored": "Principles of Management",
+   "verdict": "outside_syllabus",
+   "why": "span of management"
+  },
+  "3f32ffce-4188-4944-a9ec-48b8ea3434b5": {
+   "stored": "Organising",
+   "verdict": "outside_syllabus",
+   "why": "matrix structure conflicts"
+  },
+  "3f56f8be-61e5-461c-9a54-7a7b646ac0d4": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "outside_syllabus",
+   "why": "entrepreneur versus intrapreneur"
+  },
+  "4076d892-a564-4438-acce-d8144a118839": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "outside_syllabus",
+   "why": "price elasticity profit calculation"
+  },
+  "43c249f4-127a-4dc8-8351-69c9865c32fa": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Business Environment",
+   "why": "environmental scanning"
+  },
+  "4402580a-4d33-4b89-9634-f0f066c935bf": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Staffing",
+   "why": "staffing as managerial and operative function"
+  },
+  "45636fdf-d927-4280-9c6e-498959cfb565": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Marketing Management",
+   "why": "billing and marketing moves"
+  },
+  "46fd9e1e-94b9-4463-b833-da6addd69a83": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Planning",
+   "why": "participation in planning"
+  },
+  "47ab87f8-2ea3-4256-8823-d7d55565649d": {
+   "stored": "Business Environment",
+   "verdict": "move",
+   "to": "Principles of Management",
+   "why": "unity of command"
+  },
+  "4d79f765-3b5b-4709-b075-a36d605685bc": {
+   "stored": "Planning",
+   "verdict": "outside_syllabus",
+   "why": "strategic versus operational planning"
+  },
+  "5172a633-d793-4307-ad8e-e045b6a0cd80": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Marketing Management",
+   "why": "marketing functions"
+  },
+  "5176d853-7167-4983-8f9a-38878feda66c": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Principles of Management",
+   "why": "Fayol equity"
+  },
+  "51d2679b-a6eb-43fe-a7f2-95b31489b1fd": {
+   "stored": "Principles of Management",
+   "verdict": "outside_syllabus",
+   "why": "percentage comparison of complaints and resolution time"
+  },
+  "583771ae-238b-4b84-ba17-02385085c626": {
+   "stored": "Financial Markets",
+   "verdict": "outside_syllabus",
+   "why": "exchange listing committee bans on moral grounds"
+  },
+  "5a802a74-656e-43ea-bb61-902d395f238a": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Planning",
+   "why": "planning horizons"
+  },
+  "5bc6b7a6-f017-4527-8b0d-54bc47c5b789": {
+   "stored": "Planning",
+   "verdict": "outside_syllabus",
+   "why": "strategic versus operational planning"
+  },
+  "5d8d881f-7eae-4e83-870f-2a78e1d1d5a9": {
+   "stored": "Controlling",
+   "verdict": "outside_ncert",
+   "why": "control by exception versus management by exception distinction not in NCERT"
+  },
+  "5d9de513-5d9b-462d-a003-7fd819503821": {
+   "stored": "Marketing Management",
+   "verdict": "move",
+   "to": "Staffing",
+   "why": "retraining the sales team"
+  },
+  "6014c017-69f9-44f5-89aa-6d86bb768077": {
+   "stored": "Principles of Management",
+   "verdict": "move",
+   "to": "Controlling",
+   "why": "controlling as forward-looking"
+  },
+  "61c80ae8-6558-4216-8236-c8d3f1e2b93f": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Planning",
+   "why": "planning and uncertainty"
+  },
+  "61d14e70-28df-4d6f-859f-098f3bde59ca": {
+   "stored": "Business Environment",
+   "verdict": "move",
+   "to": "Controlling",
+   "why": "statistical control charts"
+  },
+  "63b27d62-98e0-4274-b84f-2cd0cbf01b99": {
+   "stored": "Principles of Management",
+   "verdict": "outside_ncert",
+   "why": "Fayol equity applied to consumers is not in NCERT"
+  },
+  "640f4b0c-6f17-41cc-b1c9-31cb7bc83a1a": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Staffing",
+   "why": "steps in staffing"
+  },
+  "671f272e-273c-46cf-87fb-4db772ba5314": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Directing",
+   "why": "elements of directing"
+  },
+  "67be1843-82f1-4863-9a3a-7b6a899242ab": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Directing",
+   "why": "communication feedback in directing"
+  },
+  "684ad365-e82c-4fd5-b008-8c97a090bd9f": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Controlling",
+   "why": "cost-benefit of control"
+  },
+  "6f7dee7d-e211-44eb-824f-da5d7e442d9c": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Organising",
+   "why": "delegation and accountability"
+  },
+  "6ff4df00-decf-4247-a67e-324e45698eb5": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Principles of Management",
+   "why": "Fayol remuneration"
+  },
+  "7009134d-be46-4b64-9894-d5eddd27ae55": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Directing",
+   "why": "motivation"
+  },
+  "772c430e-b598-43ed-9cae-80ad4a4a44cf": {
+   "stored": "Controlling",
+   "verdict": "outside_syllabus",
+   "why": "entrepreneurship stages"
+  },
+  "7acf7d32-8b05-4819-880f-5468e01b65b6": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Directing",
+   "why": "two-way communication in directing"
+  },
+  "7f020b4e-ce58-4850-9b19-96b1e99a55b0": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Directing",
+   "why": "directing function"
+  },
+  "7f42972b-b2af-463e-8325-fcf02976a267": {
+   "stored": "Directing",
+   "verdict": "flawed",
+   "why": "stem gives 80% completion and asks which element is most relevant; key B is not settled by any fact and span of control option is not a directing element"
+  },
+  "835f571f-6aa8-4511-a3d0-5592a58e7e4e": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Controlling",
+   "why": "controlling as continuous"
+  },
+  "87c490c3-a53e-4e47-bd70-88ea1d137f96": {
+   "stored": "Business Environment",
+   "verdict": "move",
+   "to": "Organising",
+   "why": "delegation and decentralisation"
+  },
+  "88ecf1d9-29af-41f2-8018-7cf42b7f168e": {
+   "stored": "Planning",
+   "verdict": "outside_syllabus",
+   "why": "single-use versus standing plans"
+  },
+  "8afe6514-73eb-4af5-9e2f-02d388ab2d8f": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Planning",
+   "why": "planning and uncertainty"
+  },
+  "8d717d23-185c-45b0-9045-792c8b6eaa60": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "outside_syllabus",
+   "why": "contingency and scenario planning"
+  },
+  "8e918f6f-4aba-4f12-b520-3d1af6bc9414": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Consumer Protection",
+   "why": "consumer protection provisions"
+  },
+  "93fbdc79-d3d6-4957-abde-ee0ebe65de41": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Controlling",
+   "why": "analysing deviations"
+  },
+  "96942872-4d9e-4655-beb4-5c04218ac5f2": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Controlling",
+   "why": "pervasive characteristic of controlling"
+  },
+  "9a749c96-a907-4f47-b43b-2876444e050e": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Marketing Management",
+   "why": "sustainable packaging marketing"
+  },
+  "9ab17662-defe-4fb4-980e-2a2d0bc5c6ac": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "outside_syllabus",
+   "why": "strategic tactical operational plan classification"
+  },
+  "9e782f46-8a24-4143-92ef-aea0edcc75c0": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Controlling",
+   "why": "corrective action"
+  },
+  "9ff559b9-90cc-439a-9db6-bda5213ca40f": {
+   "stored": "Principles of Management",
+   "verdict": "flawed",
+   "why": "Budgetary Control, Management by Exception and Network Analysis are all controlling techniques; key A only"
+  },
+  "aad02d53-35d6-4f5c-9aa8-d6af04ef8a2c": {
+   "stored": "Business Environment",
+   "verdict": "outside_syllabus",
+   "why": "span of management"
+  },
+  "aaf54202-0bbf-4452-9b54-4e5b36e63e3f": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Marketing Management",
+   "why": "marketing philosophies"
+  },
+  "ab19d811-8dc0-4c77-9a39-b3db151ba2c4": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Organising",
+   "why": "informal organisation"
+  },
+  "ab553036-b645-4bbd-9ceb-3ba185a28b98": {
+   "stored": "Directing",
+   "verdict": "outside_syllabus",
+   "why": "span of management arithmetic"
+  },
+  "ad14387e-df87-4462-9ce6-25b23b80de04": {
+   "stored": "Marketing Management",
+   "verdict": "move",
+   "to": "Consumer Protection",
+   "why": "puffery and deceptive advertising"
+  },
+  "b167f338-c97a-4a5f-acbd-5247033eb455": {
+   "stored": "Business Environment",
+   "verdict": "move",
+   "to": "Principles of Management",
+   "why": "scalar chain"
+  },
+  "b30a8267-484d-4790-8802-6aecb62851ff": {
+   "stored": "Business Environment",
+   "verdict": "move",
+   "to": "Controlling",
+   "why": "controlling versus inspection"
+  },
+  "b461fc8b-b185-416d-a08f-7130c67362c6": {
+   "stored": "Business Environment",
+   "verdict": "move",
+   "to": "Controlling",
+   "why": "lax standards control failure"
+  },
+  "b62bcd13-9561-4048-8120-5da11bdc6e39": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Financial Management",
+   "why": "financial management versus accounting"
+  },
+  "b8435e0a-5b80-4df2-8c03-cded2e919a9c": {
+   "stored": "Principles of Management",
+   "verdict": "move",
+   "to": "Business Environment",
+   "why": "complexity of business environment"
+  },
+  "b8641b52-ef84-411e-9441-7f654f97c112": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Marketing Management",
+   "why": "complaint response marketing actions"
+  },
+  "b8a35951561b0ad8929b3334534212a9": {
+   "stored": "Planning",
+   "verdict": "move",
+   "to": "Controlling",
+   "why": "comparing output with standards"
+  },
+  "b8d84c07-5fc1-4b77-ac7d-918e7e462c99": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "outside_syllabus",
+   "why": "rolling planning and plan types"
+  },
+  "bade1dc1-d923-4fb2-99e8-e4c5d56c09bb": {
+   "stored": "Business Environment",
+   "verdict": "move",
+   "to": "Controlling",
+   "why": "feedback control"
+  },
+  "bcec7ae463601afaeee89c49449b3cd6": {
+   "stored": "Financial Management",
+   "verdict": "outside_syllabus",
+   "why": "ICR, DSCR and RoI ratio analysis"
+  },
+  "c1b42597-6313-486e-a45c-0e54455fe3e1": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Planning",
+   "why": "alternative schedules as planning"
+  },
+  "c2b4ae43-dbf1-43b5-8bd0-bc4a093b15aa": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Controlling",
+   "why": "relationship of planning and controlling"
+  },
+  "c51acb05-3236-4bb4-a722-9799113a477c": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Marketing Management",
+   "why": "societal marketing concept"
+  },
+  "c5bafc3f-1657-40f7-ae62-817a0d98dc7e": {
+   "stored": "Marketing Management",
+   "verdict": "outside_ncert",
+   "why": "warranty versus guarantee distinction not in NCERT"
+  },
+  "c63e6486-8466-4747-abc1-d01ed45a7310": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "outside_syllabus",
+   "why": "matrix and line-and-staff structures"
+  },
+  "c7efc153-a756-47f6-bebb-65c9d4f5ac19": {
+   "stored": "Marketing Management",
+   "verdict": "outside_syllabus",
+   "why": "markup pricing and discount profit effect"
+  },
+  "ca8304ea-46d5-4744-84ba-a945eca08822": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Organising",
+   "why": "decentralisation"
+  },
+  "cd3bd25d-60ac-4b95-9cb3-924f3953d91e": {
+   "stored": "Financial Markets",
+   "verdict": "outside_syllabus",
+   "why": "broker trade supervision and exchange penalties"
+  },
+  "cf7a26b5-5eda-46d1-849b-6926c751a9d0": {
+   "stored": "Planning",
+   "verdict": "move",
+   "to": "Controlling",
+   "why": "planning and control relationship"
+  },
+  "d48fc61e-fb62-42ef-8148-0a254fcc2c92": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Staffing",
+   "why": "selection process"
+  },
+  "d4df619d-2982-4a3e-a2d4-220ed997175d": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Principles of Management",
+   "why": "Taylor principles"
+  },
+  "d553c3f8-77f9-4773-b981-0fee810db9cf": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Organising",
+   "why": "functional versus divisional structure"
+  },
+  "d763745e-f0c6-4108-b539-b842fc6d3e83": {
+   "stored": "Marketing Management",
+   "verdict": "move",
+   "to": "Staffing",
+   "why": "internal recruitment cost"
+  },
+  "dbc281da-787b-42a9-9b92-a9b2661816d9": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Marketing Management",
+   "why": "misleading advertising and quality"
+  },
+  "dbdf39d3-594e-4650-bd14-a575b47ef6e0": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Organising",
+   "why": "decentralisation as extension of delegation"
+  },
+  "dbf31688-ce71-4576-92b8-30f841b070ee": {
+   "stored": "Business Environment",
+   "verdict": "move",
+   "to": "Nature & Significance of Management",
+   "why": "management as science and art"
+  },
+  "dcd5e60a-ba6f-48f2-b9e2-2b99226076e7": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Controlling",
+   "why": "importance of controlling"
+  },
+  "e12b6a58-251e-43f8-a482-88db0d89ae35": {
+   "stored": "Marketing Management",
+   "verdict": "move",
+   "to": "Consumer Protection",
+   "why": "online marketplace liability"
+  },
+  "e3c99082-6cad-4170-bec7-18a06b82710a": {
+   "stored": "Financial Markets",
+   "verdict": "outside_syllabus",
+   "why": "clearinghouse novation and netting"
+  },
+  "e7e188a1-e903-4ebc-8956-3abb74be1b35": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Staffing",
+   "why": "staffing versus HRM"
+  },
+  "ee91342b-5505-44cf-ad73-8936b02c5790": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Staffing",
+   "why": "staffing continuous function"
+  },
+  "eec814ee-44de-4dc4-8df7-bd62fa73da1e": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Controlling",
+   "why": "variance computation"
+  },
+  "f0a4acdb-dd1b-4e64-b914-440e416559d4": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Financial Management",
+   "why": "wealth maximisation objective"
+  },
+  "f290d5be-ab46-414b-a19b-2068243c7a67": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Marketing Management",
+   "why": "product concept"
+  },
+  "f4931d12-ea47-4ee2-8c3a-2823a1ba3c87": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Principles of Management",
+   "why": "flexibility of principles"
+  },
+  "f4e9e2b3-65ee-4abd-82ee-21a6ed804c5e": {
+   "stored": "Controlling",
+   "verdict": "outside_ncert",
+   "why": "principle of controllability of standards not in NCERT"
+  },
+  "f5240750-6e21-4f9e-b322-8f9db313cb0a": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Controlling",
+   "why": "output-based control"
+  },
+  "f7c04790-ee85-4dff-9b99-5cc701802546": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Planning",
+   "why": "documentation in planning"
+  },
+  "f9e0ed7f-7c1c-4d66-a61a-2f4b105baed9": {
+   "stored": "Financial Markets",
+   "verdict": "outside_syllabus",
+   "why": "market makers versus brokers duties"
+  },
+  "fc67a215-23eb-4752-b865-fd44815df3d7": {
+   "stored": "Financial Management",
+   "verdict": "outside_syllabus",
+   "why": "bonus shares and efficient market effect"
+  },
+  "ffc2e78e-e4db-4055-803d-18dc771cc573": {
+   "stored": "Nature & Significance of Management",
+   "verdict": "move",
+   "to": "Planning",
+   "why": "forecasting versus planning"
+  }
+ }
+}

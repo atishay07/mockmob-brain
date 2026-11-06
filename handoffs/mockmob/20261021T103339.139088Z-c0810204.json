@@ -1,0 +1,29 @@
+{
+  "id": "20261021T103339.139088Z-c0810204",
+  "observed_at": "2026-10-21T10:33:39.139088+00:00",
+  "agent": "promo-film chapter agent A (v6.1)",
+  "task": "Teaser v6.1 lane A: reveal +4 beats, real-time full-screen reveal, app-exact result count-up, problem hand-off check",
+  "status": "complete",
+  "done": "The reveal got +4 beats in plan.ts. Film is 63.900 s, impact 11.783 s (frame 707, beat 22). The night take now runs the Screen-Submit timeline at real time (nightTake rewrite), timed to the DIRECTOR v6.1 beat sheet. Result screen matched to kit 20-22: stacked tallies, contiguous marks bar. Cameras re-framed. Reveal cues re-keyed with no count-up ticks. Problem key-press position fixed. Logged done v6.1, REQUESTs and REVEAL v2 FILM BEATS in docs/NOTES.md.",
+  "next": "Integrator: merge reveal_click_b / reveal_drone_rise_b / reveal_reverse_swell into public/sfx manifest, fade the heartbeats by 10.183, consider problem tail ~1.0 s, re-score the music to the 63.9 s timeline.",
+  "blockers": [],
+  "evidence": [
+    "C:/Users/atish/Desktop/MockMob-promo-film/out/ch-A-v6.mp4",
+    "C:/Users/atish/Desktop/MockMob-promo-film/out/verify61/A/kit-vs-film-*.png"
+  ],
+  "touched_files": [
+    "src/teaser/plan.ts (reveal fixed only)",
+    "src/teaser/chapters/desk/nightTake.tsx",
+    "src/teaser/chapters/Open.tsx",
+    "src/teaser/chapters/Reveal.tsx",
+    "src/teaser/chapters/Problem.tsx",
+    "src/screen/timeline.ts",
+    "src/screen/ScreenSubmit.tsx",
+    "src/screen/Result.tsx",
+    "src/components/DeskShot.tsx",
+    "docs/NOTES.md"
+  ],
+  "verification": "tsc clean for lane A files; timeline.mjs no warnings; check_av L01-L03 +0 ms; render.sh dev checks none; Ch-end and Preview-OpenReveal render",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

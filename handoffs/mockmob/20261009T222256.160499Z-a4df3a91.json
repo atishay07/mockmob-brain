@@ -1,0 +1,22 @@
+{
+  "id": "20261009T222256.160499Z-a4df3a91",
+  "observed_at": "2026-10-09T22:22:56.160499+00:00",
+  "agent": "/root/difficulty_selection_final",
+  "task": "V716 end-to-end NTA difficulty ordering review",
+  "status": "active",
+  "done": "Confirmed the underlying NTA selector is correctly invoked by V716 using complete signed synthetic rows and registered Accountancy chapter. With inventoryComplete:true it selects Medium then Easy then Hard; without completeness it suppresses Hard. Saved the review JSON with 17/17 and 18/18 test results plus body artifact/helper hashes.",
+  "next": "Parent to continue guarded session/publish bridge work. No more body capture until contract modules are complete.",
+  "blockers": [],
+  "evidence": [
+    "18/18 focused V716 tests passed.",
+    "NTA integration used complete signed synthetic Easy/Medium/Hard rows, real strict NTA selector, and showed Medium>Easy>Hard with explicit complete inventory; truncated inventory suppressed Hard.",
+    "Sizing artifact SHA-256 bddb06f1f32561a17babe13b45243d8b42244006e0ddc5566789d4e8d7558e60: 222 requests, maximum 26,692 bytes, zero provider calls."
+  ],
+  "touched_files": [
+    "scripts/pipeline/tests/v716ScorecardPolicy.test.mjs",
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v713/qualification-fresh31-regression6/diagnosis/V716-FOCUSED-REVIEW-20261010.json"
+  ],
+  "verification": "node --test scripts/pipeline/tests/v716ScorecardPolicy.test.mjs passed 18/18. Existing V716 body diagnostic retained; no recapture.",
+  "cost_and_pending_requests": "No provider calls.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

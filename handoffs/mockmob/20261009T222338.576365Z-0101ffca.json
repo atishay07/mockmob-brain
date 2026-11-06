@@ -1,0 +1,33 @@
+{
+  "id": "20261009T222338.576365Z-0101ffca",
+  "observed_at": "2026-10-09T22:23:38.576365+00:00",
+  "agent": "/root/final_verification_recovery",
+  "task": "V716 campaign session and publication bridge integration review",
+  "status": "complete",
+  "done": "Reviewed R3 native guard/store/transport, V716 campaign session, publication bridge, and current publication/schema routes. Added a bounded stub-only test file covering campaign guard scope, queued and unresolved request non-redispatch, and publication fail-closed behavior. V716 module import check succeeded; smoke tests passed 5/5. Sent root the session-stage/body identity, transport-fault classification, question schema visibility/quality band, and active route integration findings.",
+  "next": "Root should repair remaining V716 session identity/fault-state and persistence representation gaps, then wire only an explicit V716-aware current-profile route. Any further tests should remain stub/offline until exact contract and runtime profile are frozen and qualified.",
+  "blockers": [
+    "Author helper supplies job_id in request body but no options.candidate_id; the V716 session currently requires options.candidate_id.",
+    "Transport/capacity/budget faults are persisted as state error rather than nonacademic paused/stopped.",
+    "Bridge proposes quality_band practice and question mode_visibility fields that current migrations do not support; no V716 active app publication/retrieval route exists yet."
+  ],
+  "evidence": [
+    "scripts/pipeline/lib/campaignSessionV716.mjs",
+    "scripts/pipeline/lib/publicationBridgeV716.mjs",
+    "scripts/pipeline/lib/campaignGuardV713.mjs",
+    "scripts/pipeline/lib/factoryStore.mjs",
+    "scripts/pipeline/lib/factoryTransportV713.mjs",
+    "scripts/pipeline/lib/publishTimeInspection.mjs",
+    "scripts/pipeline/lib/publish.mjs",
+    "scripts/pipeline/lib/cuetFitPublicationV713.mjs",
+    "supabase/migrations/0037_nta_passage_groups.sql",
+    "supabase/migrations/0005_phase1_schema.sql",
+    "scripts/pipeline/tests/v716SessionPublicationBridge.smoke.test.mjs"
+  ],
+  "touched_files": [
+    "scripts/pipeline/tests/v716SessionPublicationBridge.smoke.test.mjs"
+  ],
+  "verification": "In-memory stub smoke tests passed 5/5 via `node --test scripts/pipeline/tests/v716SessionPublicationBridge.smoke.test.mjs`; V716 session and bridge import-only check succeeded. No real ledger, provider, DB writer, or broad test suite was used.",
+  "cost_and_pending_requests": "No provider calls or ledger changes; no external costs.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

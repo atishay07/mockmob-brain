@@ -1,0 +1,137 @@
+{
+  "batch": "computer_science__b4",
+  "subject": "computer_science",
+  "date": "2026-10-14",
+  "reviewer_model": "claude-haiku-5-5",
+  "method": "Wave-2 expert pass per AUTHORED-QUESTIONS-WAVE1-2026-10-14.md step 5. Checked each key against the stem and the table or statements, the explanation, option balance, stem cues and whether each distractor is clearly wrong. Only accepted=true items were judged (docs/brain/reports/authored-w2/wave2-acceptance-2026-10-14.json). All 20 items in the batch are accepted. Keys were not changed.",
+  "counts": {
+    "accepted_in_batch": 20,
+    "ready": 19,
+    "repaired": 1,
+    "practice": 0,
+    "reject": 0
+  },
+  "verdicts": [
+    {
+      "id": "34148722-3b98-4ab7-a093-863880075b88",
+      "verdict": "ready",
+      "key": "A",
+      "why": "WHERE Dept = 'Sales' keeps rows 101 and 103. COUNT(*) is 2 and COUNT(Salary) is 1 because the NULL salary is not counted, so (2, 1) is correct. The distractors cover the NULL-counting error and the row-count error."
+    },
+    {
+      "id": "ad7558f0-8a58-4825-9239-25ff0a40d898",
+      "verdict": "ready",
+      "key": "D",
+      "why": "WHERE Salary > 45000 leaves Meena (HR, 52000), Kavya (IT, 61000) and Imran (HR, 48000). HR sums to 100000 with COUNT 2, IT has COUNT 1 and is removed by HAVING, so HR 100000 only is correct. Option C wrongly includes Sales, which the WHERE clause removed."
+    },
+    {
+      "id": "d1d56cc5-c272-4be5-9f63-4702d5983de0",
+      "verdict": "ready",
+      "key": "B",
+      "why": "HAVING is the clause that filters groups on aggregate values after GROUP BY. WHERE acts on rows before grouping. The distractors ORDER BY and DISTINCT are clearly not filtering clauses."
+    },
+    {
+      "id": "1fe7b2d3-819c-4607-936f-00626e2ba7c7",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Salary > 40000 keeps four rows (Sales, HR, IT, HR). The NULL row is excluded. DISTINCT on Dept leaves Sales, HR and IT, so 3 rows. The count is correct and the distractors 2, 4 and 5 map to clear errors."
+    },
+    {
+      "id": "54fde7aa-8540-4135-85b1-3353318a0d30",
+      "verdict": "ready",
+      "key": "A",
+      "why": "(A) is false because a PRIMARY KEY cannot hold NULL. (B) is false because DELETE removes rows, not the table definition. (C) and (D) are true. The key '(C) and (D) only' is the only option that matches this, and the option text matches the explanation."
+    },
+    {
+      "id": "b007ca7b-ccf0-414e-b474-6bf5a98ee6af",
+      "verdict": "ready",
+      "key": "D",
+      "why": "The clause order in a SELECT query is SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY. Among the four clauses given, the order is (C), (B), (D), (A), which is option D. The other options swap positions in a way that is clearly wrong."
+    },
+    {
+      "id": "e056011f-1958-4eda-8fe0-0f40fe290aea",
+      "verdict": "ready",
+      "key": "B",
+      "why": "LIKE 'R%' matches names beginning with R, which is the only option that does this. '%R' matches names ending in R, 'R_' matches only two-character names, and '=' does no pattern matching."
+    },
+    {
+      "id": "3c7696c4-651f-426b-afdc-f8e7e63290de",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Coverage increases from PAN to LAN to MAN to WAN, so the increasing order is (B), (D), (A), (C). This matches key C. The other options place MAN or WAN before LAN, or swap PAN and LAN."
+    },
+    {
+      "id": "3ffd7721-d64e-412a-a5e0-90935309a0f6",
+      "verdict": "ready",
+      "key": "A",
+      "why": "The stem describes a star topology: each device has its own cable to a central hub or switch. Bus, ring and mesh are each clearly different in cabling and do not match the description."
+    },
+    {
+      "id": "aca7d405-4315-4156-9724-6b5e862e29f2",
+      "verdict": "ready",
+      "key": "B",
+      "why": "A full mesh of 6 computers needs 15 cables and a star needs 6, so the difference is 9. The key is correct and the working is shown in the explanation. The label is hard while two judges said medium, but the item is sound and the label was left as it is."
+    },
+    {
+      "id": "1acc4c7e-a3f1-46c9-80a8-90953bc6e44b",
+      "verdict": "ready",
+      "key": "D",
+      "why": "A router forwards packets between different networks using the destination IP address. Hub and repeater work at signal level within one network, and a switch forwards frames within a LAN using MAC addresses, so none of these fits the stem."
+    },
+    {
+      "id": "60c9fee2-de37-45cb-b04c-edcbd198782b",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Hub to (IV), repeater to (II), modem to (I) and gateway to (III) are all correct. The key (A)-(IV), (B)-(II), (C)-(I), (D)-(III) is the only option that matches all four."
+    },
+    {
+      "id": "59bb6703-5d17-400d-9e3e-62083c60ba1f",
+      "verdict": "ready",
+      "key": "A",
+      "why": "HTTP to (IV) web pages, FTP to (III) file transfer, SMTP to (II) sending mail and POP3 to (I) retrieving mail. This matches key A, and the other options each swap at least two pairs."
+    },
+    {
+      "id": "cd8f0b68-45d5-4970-af1e-78af118397f5",
+      "verdict": "repaired",
+      "key": "B",
+      "why": "The key 12 s is correct: 3 MB is 24 x 10^6 bits and 24 x 10^6 / 2 x 10^6 is 12 s. The explanation did not account for the distractor 24 s, so it was extended. The difficulty label is hard while the judges said medium, and this was left unchanged.",
+      "repair": "Explanation only: added that using 1 Mbps instead of 2 Mbps gives 24 s. Key, stem, options and label are unchanged."
+    },
+    {
+      "id": "9e827e5e-1b2e-4e2c-ae4f-9d12b463a08b",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Half duplex allows communication in both directions but not at the same time. Simplex is one direction only, full duplex is both at once, and broadband is a bandwidth term, not a mode."
+    },
+    {
+      "id": "b405c7ba-bada-4c82-b41d-265ce94dfc87",
+      "verdict": "ready",
+      "key": "B",
+      "why": "(A) is true because optical fibre uses light and is immune to EMI. (B) is false because twisted pair is guided. (C) is true because microwave is unguided and needs line of sight. (D) is false because bandwidth is measured in bits per second. The correct set is (A) and (C) only, which is option B."
+    },
+    {
+      "id": "0c46aa90-0caf-4e35-80eb-52fb4683e211",
+      "verdict": "ready",
+      "key": "D",
+      "why": "A worm copies itself and spreads across a network without a host file. A virus needs a host, a Trojan disguises itself as useful software, and spyware collects user information. Only the worm fits."
+    },
+    {
+      "id": "68f3fe66-b4d4-4b65-87e6-df5ca35a8263",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Phishing uses fake e-mails or websites that imitate a trusted organisation to obtain passwords or bank details. Spamming is bulk mail, sniffing captures traffic and a cookie is a stored file, so only phishing fits."
+    },
+    {
+      "id": "820e86a4-8e21-49cb-b70b-4c1c451f225b",
+      "verdict": "ready",
+      "key": "C",
+      "why": "A firewall monitors incoming and outgoing traffic and blocks traffic that breaks its rules, which matches key C. The other options describe caching, modem conversion and antivirus removal. One judge rated the difficulty easy against the medium label, and the label was left as it is."
+    },
+    {
+      "id": "f61a4fa2-ee22-4b25-82f9-14b2aab48ea6",
+      "verdict": "ready",
+      "key": "D",
+      "why": "(A) is false because a reused password is unsafe even when long. (B) is true because two-step verification adds a second factor. (C) is false because unknown software is unsafe even with antivirus. (D) is true because updates close security holes. The correct set is (B) and (D) only, which is option D."
+    }
+  ]
+}

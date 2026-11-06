@@ -1,0 +1,37 @@
+{
+  "id": "20261018T223044.902124Z-abe4705e",
+  "observed_at": "2026-10-18T22:30:44.903124+00:00",
+  "agent": "C1-web-nav (Opus, resumed)",
+  "task": "Web navigation option A (G24, D114) on web/1019-c1-nav in wt-1019-c1",
+  "status": "active",
+  "done": "Reviewed WIP b7d71d72. Done since: sidebar compaction thresholds (980/934/880 px, verified at boundary heights), You sheet 24 px shorter (531 at 390; fits from 692 px tall), the 7 old nav tests updated (dock_alignment + dock_measure + dock_primary_quiet, community_1018, release9_nav, help_faq, wallet_1018, ask_mobi_entries, motion-tokens), new data/tests/web_nav_a_1019.test.mjs (16 tests) added to test:dock, Mobi door open state, tour wording; lint, test:app 756/757, test:today 120, test:dock 47 (+DOM run 96 checks via playwright), test:recovery 604 (3 todo). Captures at 1440/390/360 Night+Day fresh+heavy cand and live (R4), tab-row nudge frame sequence every 40 ms, real-pointer/keyboard/overflow verify, tour walk, merge-tree clean vs r11 and a4b (trial merge tests pass).",
+  "next": "Restore the sidebar's top-to-bottom entrance stagger (R4: --i on sidebar rows was lost) and the sheet's continuous stagger; mob=off preview switch + captures; final verify + DOM dock run; next build --webpack then delete .next; stop dev server 3641; final report.",
+  "blockers": [
+    "none; waiting on final verification run, then build"
+  ],
+  "evidence": [
+    "captures: wt-1019-c1/tmp/c1-captures/{cand,live,R4,nudge,trial,moboff}",
+    "scratch scripts: scratchpad/c1/{caps,verify,nudge,tour,compare}.mjs",
+    "help_faq credits-copy test fails on main 23a7c090 too (not part of this change)"
+  ],
+  "touched_files": [
+    "src/lib/arenaNavigation.js",
+    "src/app/(app)/AppLayoutClient.jsx",
+    "src/app/(app)/nav-places.css",
+    "src/app/(app)/arena.css",
+    "src/components/nav/PlaceTabs.jsx",
+    "src/components/nav/placeTabsPeek.mjs",
+    "src/components/start/start.css",
+    "src/components/start/StartKey.jsx",
+    "src/lib/appTour.mjs",
+    "src/lib/motion/placeTransition.js",
+    "src/app/preview/arena/ArenaPreviewClient.jsx",
+    "data/tests/web_nav_a_1019.test.mjs",
+    "data/tests/dock_alignment.test.mjs",
+    "data/tests/dock_measure.mjs",
+    "package.json"
+  ],
+  "verification": "lint exit 0; test:app 756 pass 1 skipped; test:today 120; test:dock 47 pass 1 skipped (DOM test run separately, 96 checks pass); test:recovery 604 pass 3 todo; merge-tree clean vs deploy/web-1019-r11 (2ef0f994) and web/1019-a4b-ux.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

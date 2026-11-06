@@ -1,0 +1,19 @@
+{
+  "id": "20261017T173711.795212Z-95fa9d23",
+  "observed_at": "2026-10-17T17:37:11.795212+00:00",
+  "agent": "claude-opus-5.5 (session 604ced81, main)",
+  "task": "17 Oct ~11:10 pm IST: release train running; web R2 live; owner night feedback N1-N19 recorded; R3 rebuilt without result branch; R4 from his feedback launched",
+  "status": "active",
+  "done": "LIVE: main 12997f5a (web release 2: security 1+2, AI cap W-098, start and pricing ledger fixes), Vercel dpl_C7KUvYzEbxjuwvkorugsdMPtciR6 READY, 0 runtime errors; production migrations applied with pre/post checks: create_pending_payout_lock, account_deletion_runtime_ai_scrub, default_privileges_server_only. Owner night feedback saved: docs/brain/OWNER-FEEDBACK-2026-10-17-NIGHT.md (commit 1b3dd6f9 on feat/app-and-web): N1 Today still confusing (road strip + mock slider), N12 result/review redesign REJECTED (restore mascot + rich screen), N2 blur too strong, N3 fine-tune copy, N5 segmented animation, N6 CUET subject count, N7 CS/IP overflow, N8 NTA bar + timer, N9 Ask Mobi orb, N11 Start spacing, N17 guide. Memory: landing-checklist-gate (owner chose fixed checklist), owner-feedback-1017 updated. Running workflows: wf_4bea9487-275 app-v13-ship (build check at 715e26b7, then walk, then APK), wf_d91a84bd-0f9 app-v14-fixers (glass, today, result, practice in wt-v14-*), wf_b167ffb5-960 landing-checklist (wt-land2), wf_f592d7f5-c7e web-r3b-train (deploy/web-1017c in wt-rel3 = main + today f69f8a86 + nav 49dc3426; result branch excluded, saved as deploy/web-1017c-withresult), wf_b4ce44ef-8f8 web-r4-owner-night (today, result restore, practice polish, mobi/guide, subject count; integrate deploy/web-1017d; verify).",
+  "next": "Push R3 when its verifier passes (main session; GitHub sign-in may prompt the owner). Send the v13 APK when released. Push R4 after its verifier. Landing push when the checklist passes. Then v14 integrate + walk + APK (note: v14 Today/result must follow N1/N12 too). Mob gate after.",
+  "blockers": [],
+  "evidence": [
+    "Vercel 12997f5a READY 0 errors; curl 200s",
+    "SQL post-checks: lock true, prefix true, 0 browser sequence grants",
+    "usage 34% at ~11:05 pm, resets ~2:50 am"
+  ],
+  "touched_files": [],
+  "verification": "R2 verified live; others in flight.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

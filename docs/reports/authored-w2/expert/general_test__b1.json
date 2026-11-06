@@ -1,0 +1,36 @@
+{
+  "kind": "authored_w2_expert_pass",
+  "source": "claude-authored-2026-10-14-w2",
+  "batch": "general_test__b1",
+  "subject": "general_test",
+  "date": "2026-10-14",
+  "reviewer": "claude-haiku-5-5 (expert pass, wave 2)",
+  "scope": "19 questions accepted in docs/brain/reports/authored-w2/wave2-acceptance-2026-10-14.json. 45184964-ad65-4dba-96e4-5e8e9194905e is excluded from this batch's accepted set: 6ff2fb86-0c17-445d-8d1a-3fe8a3be1917 (accepted=false, fit_median_6) is not reviewed here.",
+  "counts": {
+    "ready": 16,
+    "repaired": 3,
+    "practice": 0,
+    "reject": 0
+  },
+  "verdicts": [
+    {"id": "45184964-ad65-4dba-96e4-5e8e9194905e", "verdict": "ready", "why": "Article 17 abolishes untouchability; key C is unique. Explanation accurately distinguishes Articles 15, 16 and 18."},
+    {"id": "1293b2cf-edd3-40b1-8a3c-344d7edb9185", "verdict": "ready", "why": "ICJ sits at The Hague (Peace Palace); it is the only principal UN organ not in New York. Key A correct."},
+    {"id": "1521ce75-dac8-4724-bca8-9105d486cc24", "verdict": "ready", "why": "Karnam Malleswari, bronze in weightlifting at Sydney 2000, was the first Indian woman Olympic medallist. Mary Kom and Saina Nehwal (2012 bronze) and Sindhu (2016 silver) are correctly described distractors."},
+    {"id": "62964f0b-dff3-4d75-bc39-9f1633f7c220", "verdict": "ready", "why": "Nehru (Discovery of India) = III, Tagore (Gitanjali) = IV, Kalam (Wings of Fire) = I, Premchand (Godan) = II, giving option C. Other options each break at least one pairing."},
+    {"id": "7c1cf0ba-1230-4b4e-8cbd-f0ded1345add", "verdict": "ready", "why": "Plassey 1757, Revolt 1857, Partition of Bengal 1905, Jallianwala Bagh 1919 gives order B, A, C, D = option D. Key correct; distractors are distinct orders."},
+    {"id": "4791a3ed-a6a2-404f-8e26-5e80e1dff1fa", "verdict": "repaired", "why": "Statements A, B and D are correct and C is false (President is elected indirectly), so key B is correct and unique. Solver and judge difficulty checks were medium, so the label was changed from hard to medium.", "repair": "difficulty_label hard -> medium in tmp/authored-w2/general_test/general_test__b1.json (key B unchanged)."},
+    {"id": "0294ad19-6934-4748-90f0-7546d812aed4", "verdict": "ready", "why": "Assertion is false (most peninsular rivers are seasonal, rain-fed) and reason is true, giving key D. Hard label is supported by one judge; the other judge said medium, which is acceptable."},
+    {"id": "602079b2-d095-49a1-a25c-0d5d0a59a704", "verdict": "ready", "why": "Konark Sun Temple is in Odisha. Modhera (Gujarat) is a correctly flagged distractor."},
+    {"id": "1e2a6ba5-ebe1-43f1-b5ec-da78024a63c5", "verdict": "ready", "why": "Nitrogen is about 78 per cent of dry air by volume, the largest share. Explanation figures are accurate."},
+    {"id": "e79d39ef-c9f2-41cf-bc2b-b3029acdf307", "verdict": "ready", "why": "Gujarat has the longest coastline of any Indian state (about 1,200 km mainland, more with islands and creeks), so key C is robust to measurement choice. AP and TN are close to 1,000 km; Maharashtra is much shorter."},
+    {"id": "7bd6aebb-d4c9-481f-ae27-bd498bbb5752", "verdict": "ready", "why": "Mother Teresa received the 1979 Nobel Peace Prize. Satyarthi (2014), Tagore (Literature 1913) and Sen (Economics 1998) are correctly described distractors."},
+    {"id": "e6b07044-da29-41d8-bff8-3f405098c294", "verdict": "ready", "why": "The Constitution was adopted on 26 November 1949 (Constitution Day). The other options (26 January 1950 commencement, 15 August 1947, 9 December 1946 first meeting) are distinct, correct dates for other events."},
+    {"id": "2b039f56-6f22-4734-987b-ed7476a2c105", "verdict": "repaired", "why": "Dronacharya Award honours coaches, key D is unique. Both judges rated it easy, but the label said medium, so the label was changed to easy.", "repair": "difficulty_label medium -> easy in tmp/authored-w2/general_test/general_test__b1.json (key D unchanged)."},
+    {"id": "24361ef4-3e77-4b72-afdd-0873839e9e2d", "verdict": "ready", "why": "Differences 4, 6, 8, 10 give next term 42 (also n(n+1) for n=6). Key C is unique."},
+    {"id": "41d605e8-8efc-4570-af29-fcc6054f366a", "verdict": "ready", "why": "Each letter is advanced by one (MOUSE to NPVTF) and CLOUD gives DMPVE. BKNTC is a sensible reverse-shift distractor."},
+    {"id": "a88352db-ad96-4211-8667-743d0b452afb", "verdict": "ready", "why": "5 km N, 3 km E, 5 km S gives net 3 km east of the start. Key D is unique and the explanation's direction sequence is correct."},
+    {"id": "72d7dce3-33a7-4592-be70-e2955f4b8477", "verdict": "ready", "why": "15 per cent of 800 is 120, so the selling price is 680 (key B). 720 is a 10 per cent discount error; 120 is the discount itself."},
+    {"id": "c3c0debe-ef10-4b5e-8d53-785e754965e4", "verdict": "ready", "why": "Amount 5000 x 1.1 x 1.1 = 6050, compound interest 1050 (key A). 1000 is simple interest and 6050 is the amount, both correctly flagged as distractors."},
+    {"id": "337e86b5-7591-4f38-8ae9-dff483ad3b25", "verdict": "repaired", "why": "Distance 150 + 250 = 400 m in 20 s gives 20 m/s = 72 km/h (key C). Judges rated it medium, so the label was changed from hard to medium.", "repair": "difficulty_label hard -> medium in tmp/authored-w2/general_test/general_test__b1.json (key C unchanged)."}
+  ]
+}

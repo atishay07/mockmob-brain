@@ -1,0 +1,32 @@
+{
+  "id": "20261014T022012.210328Z-57f4b829",
+  "observed_at": "2026-10-14T02:20:12.210328+00:00",
+  "agent": "claude-opus-5.5 subagent sync-session fixer (session cc0bf1af)",
+  "task": "Fix bughunt-r2 sync-session bugs (01,02,04,05,06,07) in flutter_app",
+  "status": "complete",
+  "done": "All six fixed in working tree (no commits): restored provider emits distinct tokens; attempt replies need non-empty id else SubmitPending; archived drafts keep updatedAtMs on re-save; submitter skips cache/result note after account switch and deletes draft pinned to owner; backup job replaces pinned Sending with honest swipeable status on window closed/rejected/not sent; engine archives+submits expired unsent drafts and archives+schedules unexpired unsent ones before overwrite.",
+  "next": "Orchestrator: review and commit. Optionally run test/unit/runner/engine_session_test.dart, session_robustness_test.dart, test/unit/practice/practice_starter_test.dart (they construct SessionSubmitter/engine; not run by me per folder rule).",
+  "blockers": [],
+  "evidence": [
+    "test/unit/core_data: +444 All tests passed",
+    "analyze lib/core/{sync,connectivity,repositories,notifications,api} test/unit/core_data: No issues",
+    "negative check in scratch copy with fixes reverted: 15 of 19 new tests fail (the 4 passing are unchanged-behaviour controls)"
+  ],
+  "touched_files": [
+    "flutter_app/lib/core/connectivity/connectivity_providers.dart",
+    "flutter_app/lib/core/sync/session/session_api.dart",
+    "flutter_app/lib/core/sync/session/session_submitter.dart",
+    "flutter_app/lib/core/repositories/session_draft_repository.dart",
+    "flutter_app/lib/core/sync/sync_providers.dart",
+    "flutter_app/lib/core/sync/background_tasks.dart",
+    "flutter_app/lib/core/sync/session/session_notifications.dart",
+    "flutter_app/lib/core/sync/session/session_heartbeat.dart",
+    "flutter_app/lib/core/notifications/notification_service.dart",
+    "flutter_app/lib/core/sync/session/session_engine.dart",
+    "flutter_app/test/unit/core_data/sync_session_r2_test.dart",
+    "flutter_app/test/unit/core_data/background_tasks_test.dart"
+  ],
+  "verification": "flutter test test/unit/core_data green; analyze clean",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

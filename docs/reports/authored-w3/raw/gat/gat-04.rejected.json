@@ -1,0 +1,40 @@
+{
+  "batch": "gat-04",
+  "subject": "general_test",
+  "questions": [
+    {
+      "id": "c37d6a6a-0b02-4b0d-9d43-6e2b39a7bfad",
+      "subject": "general_test",
+      "unit": "Quantitative Reasoning",
+      "chapter": "Basic Mathematical Concepts",
+      "type": "single_mcq",
+      "stem": "In a class of 60 students, 35 play cricket, 28 play football and 10 play neither game. How many students play both games?",
+      "options": [
+        {
+          "key": "A",
+          "text": "11"
+        },
+        {
+          "key": "B",
+          "text": "13"
+        },
+        {
+          "key": "C",
+          "text": "15"
+        },
+        {
+          "key": "D",
+          "text": "23"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Students who play at least one game are 60 − 10 = 50. By the set formula n(A ∪ B) = n(A) + n(B) − n(A ∩ B), we get 50 = 35 + 28 − n(A ∩ B), so n(A ∩ B) = 13.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "medium",
+      "ncert_ref": "NCERT Class 10 Mathematics: Chapter 1 Sets (union and intersection of sets)",
+      "source": "claude-authored-2026-10-17-w3",
+      "reason": "Chapter citation is wrong: ncert_ref cites NCERT Class 10 Mathematics Chapter 1, which is Real Numbers. Sets is NCERT Class 11 Mathematics Chapter 1. The key (13) and the arithmetic are correct, so only the citation fails; fix it and re-verify."
+    }
+  ]
+}

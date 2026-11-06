@@ -1,0 +1,24 @@
+{
+  "id": "20261010T054751.539937Z-578a678c",
+  "observed_at": "2026-10-10T05:47:51.539937+00:00",
+  "agent": "/root/difficulty_selection_final",
+  "task": "Bounded offline review of V717 results exporter",
+  "status": "complete",
+  "done": "Syntax-checked the V717 exporter and ran it against the completed V716 qualification-fresh32b fixture in a disposable output directory. Confirmed fixed 32-item sample output, 20 criteria, scoped settled-cost reconciliation, no holds, and publication reported false/zero. Identified held-cost reconciliation, empty-receipt vacuous completeness, and denominator identity-validation gaps for parent review.",
+  "next": "Parent should decide whether to add the three fail-closed accounting/input assertions before using this exporter for a real V717 report.",
+  "blockers": [
+    "Exporter does not reconcile item-level held cost to campaign held cost.",
+    "Empty request arrays pass .every(receipt settled), potentially enabling a zero-dollar pilot forecast if all jobs are terminal.",
+    "Exporter uses registration.jobs length without validating uniqueness or exact membership against the frozen case set."
+  ],
+  "evidence": [
+    "Disposable V716 export: artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/review-export-v716-20261010/questions-and-evidence.json",
+    "Observed 32/32 terminal, 16 eligible, 16 NTA-eligible; $0.192796 settled, $0 held; 85 scoped requests; 32 unique registered jobs, 8 per subject; 20 criteria per item and 20 quality parameters; publication_verified=false and production_published=0."
+  ],
+  "touched_files": [
+    "artifacts/question-factory/cuet-readiness-2026-10-09/execution/final-pass-v717/review-export-v716-20261010/questions-and-evidence.json"
+  ],
+  "verification": "node --check passed. Offline exporter ran successfully; database opened read-only. No registered/frozen inputs, costs, or provider state changed.",
+  "cost_and_pending_requests": "No provider calls or spend.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,750 @@
+{
+ "verdicts": [
+  {
+   "subject": "business_studies — CUET 2026 official syllabus lens (data/CUET 2026/business_studies.pdf, 4 pages, full text extracted with pdftotext; Read tool could not render pages)",
+   "items": [
+    {
+     "id": "BS-H1",
+     "claim_checked": "'Entrepreneurship Development' is not in the CUET 2026 Business Studies syllabus (CUET half only; NCERT/CBSE half not checked under this lens)",
+     "verdict": "confirmed",
+     "evidence": "The PDF lists exactly 12 units (I Nature and Significance of Management, p2 ... XII Consumer Protection, p4). No unit or sub-topic mentions entrepreneur/entrepreneurship, innovation, start-up or enterprise: a case-insensitive search of the full text found 0 hits. Unit XII on p4 ends with 'Role of consumer organizations and NGOs.'",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\business_studies.pdf pp.1-4 (p1 cover, Units I-VI p2, VII-XI p3, XII p4)",
+     "correction": "CUET half confirmed. Whether it is a current Class 12 NCERT/CBSE chapter was not checked under this lens."
+    },
+    {
+     "id": "BS-ctx-finance",
+     "claim_checked": "Is 'Business Finance' or 'Financial Management' the right current title?",
+     "verdict": "partly",
+     "evidence": "p3: 'Unit IX: Business Finance', and its first bullet reads 'Business finance - meaning, role, objectives of financial management.' So the CUET unit title is 'Business Finance', and 'financial management' appears only as a sub-topic.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\business_studies.pdf p3",
+     "correction": "Use 'Business Finance' to match CUET 2026. Using 'Financial Management' as an alias is acceptable because the term appears in the unit's sub-topics."
+    },
+    {
+     "id": "BS-ctx-marketing",
+     "claim_checked": "Is 'Marketing' or 'Marketing Management' the right current title?",
+     "verdict": "partly",
+     "evidence": "p3: 'Unit XI: Marketing', with sub-topics on meaning, functions, the marketing/selling distinction and the 4Ps marketing mix. The phrase 'Marketing Management' does not appear anywhere in the PDF.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\business_studies.pdf p3",
+     "correction": "The CUET 2026 unit title is 'Marketing'. 'Marketing Management' is not the CUET title (it may be the older NCERT name)."
+    },
+    {
+     "id": "BS-ctx-other-units",
+     "claim_checked": "Rest of the CUET 2026 unit list, for chapter-map comparison",
+     "verdict": "confirmed",
+     "evidence": "Units: I Nature and Significance of Management; II Principles of Management; III Business Environment; IV Planning; V Organising; VI Staffing; VII Directing; VIII Controlling; IX Business Finance; X Financial Markets; XI Marketing; XII Consumer Protection (Consumer Protection Act 2019).",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\business_studies.pdf pp.2-4"
+    }
+   ]
+  },
+  {
+   "subject": "biology (CUET 2026 official syllabus, data/CUET 2026/biology.pdf, 2 pages, text extracted with pdftotext because the Read tool could not render the PDF)",
+   "items": [
+    {
+     "id": "BI-H1",
+     "claim_checked": "'Reproduction in Organisms' (asexual reproduction, vegetative propagation, life span) is not in the CUET 2026 Biology syllabus",
+     "verdict": "confirmed",
+     "evidence": "Unit-VI: Reproduction lists only 3 chapters: 'Sexual Reproduction in Flowering Plants', 'Human Reproduction', 'Reproductive Health' (p1). There is no match for asexual, vegetative, life span or 'Reproduction in Organisms' anywhere in the PDF, and none survives as a sub-topic.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\biology.pdf p1 (Unit-VI)"
+    },
+    {
+     "id": "BI-H2",
+     "claim_checked": "'Environmental Issues' (pollution, ozone, global warming, deforestation, waste) is not in the CUET 2026 Biology syllabus",
+     "verdict": "confirmed",
+     "evidence": "Unit-X: Ecology and Environment has only 'Organisms and Populations', 'Ecosystem', 'Biodiversity and Conservation' (p2). No match for pollution, ozone, warming, greenhouse, deforestation, waste or eutrophication. 'Ethical issues' (p2, Unit-IX) means biopiracy and patents only.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\biology.pdf p2 (Unit-X)"
+    }
+   ]
+  },
+  {
+   "subject": "mathematics (CUET 2026 official syllabus, data/CUET 2026/mathematics.pdf, 10 pages, all read via pdftotext since the Read tool could not render the PDF)",
+   "items": [
+    {
+     "id": "MA-H1",
+     "claim_checked": "CUET 2026 Mathematics defines separate sections or options, so a core-Maths candidate is not tested on the Applied topics (Numbers Quantification and Numerical Applications, Probability Distributions, Time Based Data, Inferential Statistics, Financial Mathematics), and the reverse is also true.",
+     "verdict": "partly",
+     "evidence": "p1: one subject, 'Mathematics/Applied Mathematics - 319'. p2: 'Section A1' is a common block. p3: 'Section B1: Mathematics'. p5: 'Section B2: Applied Mathematics', Unit I 'Numbers, Quantification and Numerical Applications'. p8: B2 Unit IV 'Probability Distributions' and Unit V 'Time Based Data'. p8-9: Unit VI 'Inferential Statistics'. p9: Unit VII 'Financial Mathematics'. Section B1 (core) has none of these units. No page has any rule on attempting or choosing a section: searches for attempt, choose, option, either and candidate found nothing.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\mathematics.pdf, pp.1-10",
+     "correction": "Partly confirmed. The syllabus splits paper 319 into three sections: A1 is common to both, B1 is core Mathematics and B2 is Applied Mathematics. Four of the named chapters appear only in B2: Numbers Quantification, Time Based Data, Inferential Statistics and Financial Mathematics. Putting them in one pool with core NCERT Maths therefore goes against the official split. Two parts of the claim need correcting. First, 'Probability Distributions' is not Applied-only. Common Section A1 (p2) has '5. Probability Distributions - Simple Probability', so at least simple probability belongs to both streams; only the B2 content (random variables, Binomial, Poisson and Normal distributions) is Applied-only. Second, the PDF does not say how a candidate picks B1 or B2, or that they are tested on only one. Separation by stream is implied by the section headings, not stated. Topics that appear in both B1 and B2 (matrices, determinants, derivatives, integrals, differential equations, linear programming) should stay shared."
+    }
+   ]
+  },
+  {
+   "subject": "history - CUET 2026 official syllabus lens (data/CUET 2026/history.pdf, 2 pages: p1 cover, p2 the full theme list; read through pdftotext because the PDF renderer was unavailable)",
+   "items": [
+    {
+     "id": "HI-H1",
+     "claim_checked": "Kings & Chronicles (the Mughal courts) is absent from the CUET 2026 History syllabus.",
+     "verdict": "confirmed",
+     "evidence": "p2: the Part II themes are V Travellers Accounts, VI Bhakti-Sufi, VII Vijayanagara and VIII 'The Mughal Empire and Agrarian Society'. The words court, chronicle, king, Akbar and Abul Fazl appear nowhere. The only Mughal theme is the agrarian one (the NCERT chapter 'Peasants, Zamindars and the State'), not the courts chapter.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\history.pdf p2",
+     "correction": "Only the CUET half of the claim is checked here; the NCERT and CBSE halves were not checked in this lens. The PDF lists theme titles only, with no sub-topics, so no sub-topic could carry the Mughal courts content. Theme VIII covers Mughal agrarian society, not the courts."
+    },
+    {
+     "id": "HI-H2",
+     "claim_checked": "Understanding Partition is absent from the CUET 2026 History syllabus.",
+     "verdict": "confirmed",
+     "evidence": "p2: Part III has only IX 'Colonialism and Rural Society', X 'Revolt of 1857', XI 'Mahatma Gandhi and National Movements' and XII 'The Making of the Constitution'. The words partition, 1947 and Pakistan appear nowhere in the PDF.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\history.pdf p2",
+     "correction": "Only the CUET half of the claim is checked here; the NCERT and CBSE halves were not checked in this lens. The syllabus has 12 themes and no sub-topic lines. No theme or title word refers to Partition."
+    }
+   ]
+  },
+  {
+   "subject": "physics: CUET 2026 syllabus check of PH-H1 (Communication Systems)",
+   "items": [
+    {
+     "id": "PH-H1",
+     "claim_checked": "Communication Systems (and its sub-topics: modulation, amplitude modulation, bandwidth, antenna, signal propagation, sky/ground/space waves, transmitter/receiver) is absent from the CUET 2026 Physics (322) syllabus, while canonical_syllabus.js still teaches it.",
+     "verdict": "confirmed",
+     "evidence": "Read all 4 pages of physics.pdf as extracted text (pdftotext; page 1 is the cover only). Pages 2-4 list Units 1-9, and the last unit is 'Unit 9: Electronic Devices', which ends with 'Application of junction diode -diode as a rectifier.' (p.4). There is no Unit 10. A case-insensitive search for communic, modulat, antenna, bandwidth, propagat, transmit, signal, amplitude, demodul, sky wave, ground wave, satellite, internet and fax found 0 matches. The only close topic is Unit 5's 'Electromagnetic spectrum ... elementary facts about their uses' (p.3), which is EM waves, not communication systems. On the app side, canonical_syllabus.js line 257 has unit('Existing Physics Coverage', ['Communication Systems']), so the chapter is still taught.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\physics.pdf pp.1-4; C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\canonical_syllabus.js line 257",
+     "correction": "Confirmed only for the CUET 2026 half. This lens did not check the NCERT and CBSE 2026-27 halves (that the book ends at Ch 14 Semiconductor Electronics and the chapter is not in CBSE 2026-27). Side note: Unit 9 Electronic Devices in CUET covers only energy bands, semiconductors, the p-n junction diode and the rectifier, with no transistors or logic gates. So the 'Semiconductor Electronics' chapter may also be wider than the CUET scope."
+    }
+   ]
+  },
+  {
+   "subject": "economics: CUET 2026 official syllabus check (data/CUET 2026/economics.pdf, 4 PDF pages; all read through pdftotext because the Read tool cannot render PDFs here)",
+   "items": [
+    {
+     "id": "EC-H1",
+     "claim_checked": "Infrastructure is absent from the CUET 2026 Economics syllabus (CUET half only).",
+     "verdict": "confirmed",
+     "evidence": "No Infrastructure unit or sub-topic on any page. A full-text search for infrastruct/energy/power/health/transport/communication found 0 matches. PDF p.4 Unit III 'Current challenges' lists only Human Capital Formation, Rural development, Employment and Environment and Sustainable Development.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\economics.pdf p.4 (printed footer 2-3)",
+     "correction": "The CUET part is confirmed. This PDF cannot show whether Infrastructure was dropped from NCERT or from CBSE 2026-27, so that part is unverifiable with this lens."
+    },
+    {
+     "id": "EC-M-micro",
+     "claim_checked": "CUET 2026 Economics includes Introductory Microeconomics units.",
+     "verdict": "confirmed",
+     "evidence": "PDF p.2: 'Course I Introductory Microeconomics', with Units I-IV covering Consumer Behaviour, Production and Costs, the firm under perfect competition, and Market Equilibrium (Price ceiling and flooring).",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\economics.pdf p.2"
+    },
+    {
+     "id": "EC-M-eve",
+     "claim_checked": "Indian Economy on the Eve of Independence is in CUET 2026.",
+     "verdict": "confirmed",
+     "evidence": "PDF p.4, IED Unit I (Development Policies and Experience 1947-90): 'A brief introduction of the state of Indian economy on the eve of independence.' It appears as a sub-topic, not as its own chapter.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\economics.pdf p.4",
+     "correction": "It is in CUET 2026, but only as a sub-topic of IED Unit I. This PDF cannot show whether it is in the current NCERT IED book."
+    }
+   ]
+  },
+  {
+   "subject": "Chemistry (CUET UG 2026, subject code 306): checking the audit defects CH-H1 to CH-H6 against the official syllabus PDF data/CUET 2026/chemistry.pdf. Only the CUET half of each claim was checked; the NCERT and CBSE parts were outside this check. The PDF has 4 pages: page 1 is the cover, and PDF pages 2-4 are printed as pages 1-3. Text was pulled with pdftotext and every page was read in full. The syllabus has exactly 10 units: I Solutions, II Electrochemistry, III Chemical Kinetics, IV d and f Block Elements, V Coordination Compounds, VI Haloalkanes and Haloarenes, VII Alcohols, Phenols and Ethers, VIII Aldehydes, Ketones and Carboxylic Acids, IX Amines, X Biomolecules. The text was searched for these keywords: solid, crystal, lattice, unit cell, packing, adsor, colloid, emulsion, catal, metallurg, ore, isolation, extraction, refin, p-block, group 15-18, nitrogen, oxygen, halogen, noble, sulphur, polymer, rubber, nylon, drug, medicine, soap, detergent, everyday, food, antiseptic, semiconductor, defect. Only 6 phrases matched, and none of them is one of the disputed chapters surviving inside another unit.",
+   "items": [
+    {
+     "id": "CH-H1",
+     "claim_checked": "Solid State is not in the CUET 2026 Chemistry syllabus",
+     "verdict": "confirmed",
+     "evidence": "No Solid State unit appears; the 10 units run from Unit I Solutions to Unit X Biomolecules. 'solid' appears only as 'solubility of a solid in liquid' (Unit I, p.1). 'crystal' appears only as 'crystal field theory (CFT)' (Unit V, p.2). No match for lattice, unit cell, packing, defects or semiconductors.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\chemistry.pdf, printed pp.1-3 (PDF pp.2-4)",
+     "correction": "Only the CUET half was checked and it holds. The claims about NCERT 12 and CBSE were not checked here."
+    },
+    {
+     "id": "CH-H2",
+     "claim_checked": "Surface Chemistry is not in the CUET 2026 Chemistry syllabus",
+     "verdict": "confirmed",
+     "evidence": "No unit on adsorption, colloids or emulsions. The only catalysis mentions are 'factors influencing rate of reaction: concentration, temperature, catalyst' (Unit III, p.1) and 'Catalytic properties' of transition elements (Unit IV, p.1).",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\chemistry.pdf, printed pp.1-3",
+     "correction": "The CUET half holds. Catalysis survives only as a rate factor in Kinetics and a d-block property, not as Surface Chemistry. The CBSE formative-only claim was not checked here."
+    },
+    {
+     "id": "CH-H3",
+     "claim_checked": "General Principles and Processes of Isolation of Elements is not in the CUET 2026 Chemistry syllabus",
+     "verdict": "confirmed",
+     "evidence": "No unit or sub-topic matches metallurgy, ores, extraction, refining or isolation. The nearest text is 'Electrolytic Cells & Electrolysis, Faraday's Laws of Electrolysis, Products of Electrolysis' (Unit II, p.1), which is electrochemistry, not metallurgy.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\chemistry.pdf, printed pp.1-3",
+     "correction": "The CUET half holds. The CBSE half was not checked here."
+    },
+    {
+     "id": "CH-H4",
+     "claim_checked": "p-Block Elements is not in the CUET 2026 Chemistry syllabus",
+     "verdict": "confirmed",
+     "evidence": "No p-block unit, and no Group 15-18, nitrogen, oxygen, sulphur, halogen or noble-gas content. The only 'halogen' match is 'Important Polyhalogen Compounds (...freons & DDT)' (Unit VI, p.2), which is organic chemistry. Unit IV is 'd and f Block Elements' only.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\chemistry.pdf, printed pp.1-2",
+     "correction": "The CUET half holds. The claim that p-Block was removed from Class 12 NCERT was not checked here."
+    },
+    {
+     "id": "CH-H5",
+     "claim_checked": "Polymers is not in the CUET 2026 Chemistry syllabus",
+     "verdict": "confirmed",
+     "evidence": "No Polymers unit; no match for polymer, rubber or nylon. The only polymer-like content is 'polysaccharides: starch, cellulose and glycogen' and proteins inside Unit X Biomolecules (p.3).",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\chemistry.pdf, printed p.3",
+     "correction": "The CUET half holds. Natural biopolymers appear only under Biomolecules. The CBSE formative-only claim was not checked here."
+    },
+    {
+     "id": "CH-H6",
+     "claim_checked": "Chemistry in Everyday Life is not in the CUET 2026 Chemistry syllabus",
+     "verdict": "confirmed",
+     "evidence": "No unit and no match for drugs, medicines, food chemicals, soaps, detergents or antiseptics. The nearest text is 'Some Commercially important Alcohols like methanol & Ethanol' (Unit VII, p.2), which is part of the alcohols chapter.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\chemistry.pdf, printed p.2",
+     "correction": "The CUET half holds. The CBSE formative-only claim was not checked here."
+    }
+   ]
+  },
+  {
+   "subject": "psychology: CUET 2026 official syllabus check (data/CUET 2026/psychology.pdf, 4 PDF pages: cover plus 3 pages of content) for PY-H1 and PY-H2",
+   "items": [
+    {
+     "id": "PY-H1",
+     "claim_checked": "The CUET 2026 Psychology (324) syllabus does not include 'Psychology & Life' (old NCERT Ch 8). Its sub-topics are human-environment relationship, noise, pollution, crowding, disasters, pro-environmental behaviour, poverty, aggression, violence, health and the impact of television.",
+     "verdict": "confirmed",
+     "evidence": "The PDF has exactly 7 units: Variations, Self and Personality, Meeting Life Challenges, Psychological Disorders, Therapeutic Approaches, Attitude and Social Cognition, and Social Influence and Group Processes. It ends at 'Unit 7 ... Social Loafing; Group Polarization.' (PDF p.4, footer 3). A grep for environment, pollution, crowding, noise, poverty, aggression, violence, prosocial, television and media found nothing. The only nearby words belong to other chapters: 'Prejudice and Discrimination' (Unit 6, p.4) and 'Stress and Health / Lifestyle' (Unit 3, p.3).",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\psychology.pdf, pp.2-4 (text from pdftotext; the embedded images are only the cover title graphics 'Psychology -324' and 'Syllabus for'). The repo file data\\canonical_syllabus.js line 279 lists 'Psychology & Life' under unit 'Existing Psychology Coverage'."
+    },
+    {
+     "id": "PY-H2",
+     "claim_checked": "The CUET 2026 Psychology syllabus does not include 'Developing Psychological Skills' (old NCERT Ch 9). Its sub-topics are observational skills, communication (speaking, listening, body language), testing skills, interviewing skills and counselling skills.",
+     "verdict": "confirmed",
+     "evidence": "None of the 7 units is a skills chapter. A grep for communication, interview, counselling, observational and skill found only 'Promoting Positive Health and Well-being: Life Skills' (Unit 3, p.3), which belongs to the Meeting Life Challenges chapter and is not the Ch 9 skills set. Testing, assessment and ethics do appear, but only inside their own chapters: 'Assessment of Psychological Attributes' (Unit 1, p.2), 'Assessment of Personality' (Unit 2, p.2), and 'Therapeutic Relationship' and 'Ethics in Psychotherapy' (Unit 5, p.4).",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\psychology.pdf, pp.2-4. The repo file data\\canonical_syllabus.js line 279 lists 'Developing Psychological Skills' under 'Existing Psychology Coverage'."
+    }
+   ]
+  },
+  {
+   "subject": "Biology chapter-map defects BI-H1 and BI-H2: checks against current NCERT Class 12 and CBSE curricula only (CUET half not checked)",
+   "items": [
+    {
+     "id": "BI-H1",
+     "claim_checked": "'Reproduction in Organisms' is no longer in the NCERT Class 12 Biology book and is not in the CBSE Class 12 syllabus",
+     "verdict": "confirmed",
+     "evidence": "The NCERT Biology XII prelims (Reprint 2026-27) list 13 chapters. Unit VI Reproduction starts at Ch 1 Sexual Reproduction in Flowering Plants, then Ch 2 Human Reproduction and Ch 3 Reproductive Health. 'Reproduction in Organisms' does not appear anywhere. The CBSE Biology (044) 2026-27 Class XII course (p.9-11) uses the same Ch 1-3. That phrase is not in the 2026-27 or 2025-26 curriculum PDFs, not even in the formative-only lists. Prescribed book: Biology Class XII, NCERT.",
+     "source": "https://ncert.nic.in/textbook/pdf/lebo1ps.pdf (contents page, 'Reprint 2026-27'); https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Biology_SecP2_2026-27.pdf (Class XII course structure, p.9-11); https://cbseacademic.nic.in/web_material/CurriculumMain26/SrSec/Biology_SrSec_2025-26.pdf",
+     "correction": "Only the NCERT and CBSE half was checked. The book and the board syllabus both support this defect, so 'Reproduction in Organisms' should be removed from the Class 12 map. The 'not in CUET 2026' part was not checked here."
+    },
+    {
+     "id": "BI-H2",
+     "claim_checked": "'Environmental Issues' is CBSE formative-only / reading material and is not in the NCERT Class 12 book",
+     "verdict": "confirmed",
+     "evidence": "CBSE 2026-27 Class XII, Unit X (p.11-12): 'included in the syllabus but will be assessed only formatively ... without adding to summative assessments'. It then lists 'Environmental Issues (available as a part of CBSE Reading Material)'. The NCERT Reprint 2026-27 contents end Unit X at Ch 13 Biodiversity and Conservation; there is no Environmental Issues chapter. In the 2025-26 CBSE curriculum, Unit X has only Ch 11-13 and Environmental Issues is absent altogether.",
+     "source": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Biology_SecP2_2026-27.pdf (p.11-12, Unit X note); https://ncert.nic.in/textbook/pdf/lebo1ps.pdf (contents); https://cbseacademic.nic.in/web_material/CurriculumMain26/SrSec/Biology_SrSec_2025-26.pdf (Unit X)",
+     "correction": "The NCERT and CBSE half is accurate. One detail to add: for 2026-27, Environmental Issues is back in the CBSE syllabus as formative-only CBSE Reading Material, not an NCERT chapter, and it is not in the board theory paper. In 2025-26 it was not in the CBSE syllabus at all. The 'not in CUET 2026' part was not checked here."
+    }
+   ]
+  },
+  {
+   "subject": "political_science: CUET 2026 syllabus check of the audit's chapter-map defects (PS-H1, PS-H2, PS-H3, PS-M) against data/canonical_syllabus.js lines 264-265",
+   "items": [
+    {
+     "id": "PS-H1",
+     "claim_checked": "CUET half only: 'Cold War Era' is not in the CUET 2026 Political Science syllabus. The NCERT and CBSE halves were outside this lens and not checked.",
+     "verdict": "confirmed",
+     "evidence": "The Contemporary World Politics list has 7 units, and none is Cold War Era. Unit 1 is 'Disintegration of the Second World and the Collapse of Bipolarity'. The words 'Cold War' appear only in 'South Asia in the Post Cold War Era' (unit 3). None of the old chapter's sub-topics appear: no NAM, blocs, arms race or Cuban crisis. The only overlap is 'politics of disarmament' (unit 5).",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\political_science.pdf, PDF page 3 (printed footer 2|Page). The PDF has 3 pages. Page 1 is the cover and holds all the images; pages 2-3 have no images, so pdftotext got their full text."
+    },
+    {
+     "id": "PS-H2",
+     "claim_checked": "CUET half only: 'US Hegemony in World Politics' is not in the CUET 2026 syllabus.",
+     "verdict": "confirmed",
+     "evidence": "None of the 7 Contemporary World Politics units covers US hegemony or dominance. A full-text search finds no 'hegemony', 'America', 'US', 'superpower', 'Iraq' or 'Gulf'. The only nearby phrase is the unit title 'International Organisations in a Unipolar World' (unit 4), and that unit is about restructuring the UN.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\political_science.pdf, PDF page 3 (printed footer 2|Page)"
+    },
+    {
+     "id": "PS-H3",
+     "claim_checked": "CUET half only: 'Rise of Popular Movements' is not in the CUET 2026 syllabus.",
+     "verdict": "confirmed",
+     "evidence": "Politics in India lists 9 units, and none is popular movements. There is no Chipko, Narmada, farmers' movement, Dalit Panthers or RTI. Nearby sub-topics sit in other units: 'Navnirman movement in Gujarat and the Bihar movement' (unit 6) and 'Dalit politics in electoral and non-electoral arena' (unit 9).",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\political_science.pdf, PDF page 2 (printed footer 1|Page)",
+     "correction": "No change to the verdict. Questions on the Bihar or Navnirman movements, civil liberties groups or Dalit politics should go to the Crisis/Emergency unit or Recent Issues, not to a Popular Movements chapter."
+    },
+    {
+     "id": "PS-M-1",
+     "claim_checked": "'Alternative Centres of Power' is now titled 'Contemporary Centres of Power', which would make the current MockMob title wrong.",
+     "verdict": "refuted",
+     "evidence": "CUET 2026 still uses the Alternative title: '2. Alternative Centers of Economic and Political Power: Rise of China ... European Union, ASEAN'. 'Contemporary Centres' does not appear anywhere in the PDF.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\political_science.pdf, PDF page 3 (printed footer 2|Page)",
+     "correction": "MockMob's 'Alternative Centres of Power' matches the CUET 2026 title. The NCERT rename, if real, is not reflected in the official CUET 2026 syllabus, so this is not a CUET defect. At most, add 'Contemporary Centres of Power' as an alias for NCERT."
+    },
+    {
+     "id": "PS-M-2",
+     "claim_checked": "'Democratic Upsurge and Coalition Politics' and 'Recent Issues and Challenges' are really one chapter, 'Recent Developments in Indian Politics', and should be merged.",
+     "verdict": "refuted",
+     "evidence": "CUET 2026 lists them as two separate numbered units: '8. Democratic Upsurge and Coalition Politics: ... UF and NDA governments. Elections 2004-2019' and '9. Recent Issues and Challenges: ... Rise of OBCs ... Ayodhya issue'.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\political_science.pdf, PDF page 2 (printed footer 1|Page)",
+     "correction": "Keep both chapters, because the CUET 2026 exam syllabus splits them. NCERT may combine them in one chapter, but CUET does not. Mapping both to the one NCERT chapter for reading material is fine; merging them in the chapter map is not."
+    },
+    {
+     "id": "PS-M-3",
+     "claim_checked": "Whether 'Era of One-Party Dominance' is still a current chapter, given that the audit implies NCERT removed it.",
+     "verdict": "refuted",
+     "evidence": "It is unit 1 of Politics in India in CUET 2026: '1. Era of One-Party Dominance: First three general elections, nature of Congress dominance at the National level ...'.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\political_science.pdf, PDF page 2 (printed footer 1|Page)",
+     "correction": "Keep 'Era of One-Party Dominance', because it is in the CUET 2026 syllabus whatever NCERT did. Note that CUET 2026 follows the older 9 + 7 unit layout, so do not drop or rename chapters on NCERT grounds alone. The remaining MockMob chapters map to CUET units as follows: 'Crisis of the Democratic Order' to 'Crises of the Constitutional Order', 'End of Bipolarity' to 'Disintegration of the Second World and the Collapse of Bipolarity', 'Contemporary South Asia' to 'South Asia in the Post Cold War Era', and 'Challenges of Nation Building' to 'Nation-Building and Its Problems'."
+    }
+   ]
+  },
+  {
+   "subject": "Geography (CUET 2026 code 313): CUET-side check of GE-H1..H3 against data/CUET 2026/geography.pdf. I read all 3 pages as extracted text with pdftotext and pypdf, because the Read tool could not render the PDF (pdftoppm missing). The 7 images on page 1 are the title graphic and a blank frame, with no syllabus text. Page 2 (printed 1) is 'A. Fundamentals of Human Geography' and page 3 (printed 2) is 'B. India: People and Economy'. The PDF has no stream options or candidate choice. Taught map checked: canonical_syllabus.js lines 156-166 put 'Migration' under unit 'People' and 'Manufacturing Industries' under unit 'Resources and Development'.",
+   "items": [
+    {
+     "id": "GE-H1",
+     "claim_checked": "'Manufacturing Industries' (taught under the 'Resources and Development' unit) is not in CUET 2026, having been removed from India: People and Economy.",
+     "verdict": "partly",
+     "evidence": "Part B Unit III lists only Land, Water, Mineral and energy resources, and Planning. No industry bullet. Yet Part A p.2 has 'Secondary activities – concept; manufacturing; agro-processing, household, small-scale, large-scale Industries'.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\geography.pdf, p.3 (Part B Unit III) and p.2 (Part A Unit III)",
+     "correction": "Split the claim in two. India-specific manufacturing is absent from CUET 2026 Part B: there is nothing on Indian industries, industrial regions or iron and steel. (Unit III's only industry word is in 'industrial and other uses' of water.) But 'manufacturing' and 'large-scale Industries' are still in CUET 2026 as a world-level sub-topic of Part A Unit III, Secondary activities, which the existing 'Secondary Activities' chapter already covers. So the defect stands: a separate India 'Manufacturing Industries' chapter under Resources and Development is out of syllabus. The wording 'not in CUET 2026' is too broad."
+    },
+    {
+     "id": "GE-H2",
+     "claim_checked": "'Migration' as a chapter is not in CUET 2026. CUET mentions rural-urban migration only under Issues and Problems.",
+     "verdict": "confirmed",
+     "evidence": "The word 'migration' occurs once, in Part B Unit V: 'Urbanization-rural-urban migration; problems of slums'. Part B Unit I People has distribution, density, growth and composition, with no migration.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\geography.pdf, p.3 (Part B Units I and V); p.2 (Part A Unit II)",
+     "correction": "Caveat, not a refutation. Part A Unit II (p.2) lists 'Population change – spatial patterns and structure; determinants of population change'. In NCERT that sub-topic can include migration as a component of population change (push and pull factors), so world-level migration questions under population change may be defensible. A standalone Migration chapter (types, causes, consequences) is not in CUET 2026."
+    },
+    {
+     "id": "GE-H3",
+     "claim_checked": "India P&E 'Land Resources and Agriculture', 'Water Resources' and 'Mineral and Energy Resources' are real syllabus content but are missing as chapters, collapsed into one 'Resources & Development' chapter.",
+     "verdict": "partly",
+     "evidence": "Part B 'Unit – III: Resources and Development' has separate bullets: 'Land resources-general land use; agriculture land use…', 'Water resources – availability and utilization…', 'Mineral and energy resources – metallic and non-metallic…'.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\geography.pdf, p.3 (Part B Unit III)",
+     "correction": "All three topics are in CUET 2026, so they must be covered. CUET does not make them separate units, though: it lists them as three bullets in one unit titled 'Resources and Development', the same title the app uses. The fourth bullet is 'Planning in India – target area planning; sustainable development'. The defect is uneven granularity: three distinct CUET bullets share one generic 'Resources & Development' chapter, while the fourth (Planning) gets its own chapter and an out-of-syllabus 'Manufacturing Industries' sits beside them. 'Missing from CUET structure' is not the problem."
+    }
+   ]
+  },
+  {
+   "subject": "business_studies (data/canonical_syllabus.js lines 84-97): NCERT/CBSE Class 12 check",
+   "items": [
+    {
+     "id": "BS-H1",
+     "claim_checked": "'Entrepreneurship Development' (canonical_syllabus.js line 97, unit 'Existing Business Studies Coverage') is not a current NCERT Class 12 chapter and is not in the CBSE Class 12 syllabus.",
+     "verdict": "confirmed",
+     "evidence": "The CBSE Business Studies (054) 2026-27 curriculum lists Class XII Units 1-12 plus Unit 13 Project Work. None is about entrepreneurship. Entrepreneurship appears only in Class XI ('Small Business and Enterprises'). The current NCERT Part II book has only Ch 9 Financial Management, Ch 10 Financial Markets, Ch 11 Marketing and Ch 12 Consumer Protection. 'Ch 13 Entrepreneurship Development' is filed under SelfStudys' 'NCERT Old Book' listing. As corroboration, Careers360 quotes that NTA 'has deleted the entrepreneurship development chapter' from CUET 2026. Limit: cbseacademic.nic.in and ncert.nic.in failed TLS certificate checks, so the CBSE text was read from an AglaSem-hosted copy titled 'CBSE Senior Secondary Syllabus 2027, Business Studies (054)'. NCERT rationalisation lists do not agree on the year the chapter left the textbook. All other sources are secondary.",
+     "source": "https://docs.aglasem.com/view/7fd8ed58-7571-11f1-bd49-0aa932765c8b (copy of CBSE 054 curriculum 2026-27); https://www.selfstudys.com/books/ncert-new-book/english/12th/Business-Studies-Part-II/Prelims/144033 (current NCERT Part II chapters 9-12); https://www.selfstudys.com/books/ncert-old-book/english/12th/business-studies-ii/13-entrepreneurship-development/16596 (old-book Ch 13); https://university.careers360.com/articles/cuet-business-studies-revised-syllabus-2026 (CUET corroboration); https://cuet.hitbullseye.com/class-12/business-studies/chapters-index.php (secondary list with no Entrepreneurship Development)"
+    },
+    {
+     "id": "BS-CTX-titles",
+     "claim_checked": "Are 'Business Finance' with subtopic 'Financial Management' (line 93) and 'Marketing' with subtopic 'Marketing Management' (line 95) the right current titles?",
+     "verdict": "partly",
+     "evidence": "CBSE 2026-27 calls Unit 9 'Financial Management'. 'Business Finance and Marketing' is the name of Part B, not of a unit. NCERT Ch 9 is also 'Financial Management'. The CUET 2026 list (Careers360) does name its unit 9 'Business Finance'. For Unit 11, the CBSE detailed heading says 'Marketing' and its marks table says 'Marketing Management'. The current NCERT Ch 11 is titled 'Marketing'; the old book used 'Marketing Management'. Unit 10 'Financial Markets' is still in CBSE 2026-27 and in the current NCERT Part II, although some secondary sites (MTG, Vedantu, Hitbullseye) list it as dropped from NCERT.",
+     "source": "https://docs.aglasem.com/view/7fd8ed58-7571-11f1-bd49-0aa932765c8b; https://www.selfstudys.com/books/ncert-new-book/english/12th/Business-Studies-Part-II/Prelims/144033; https://university.careers360.com/articles/cuet-business-studies-revised-syllabus-2026; https://syllabus4u.com/cbse-class-12-business-studies-syllabus/",
+     "correction": "The labels are not wrong, but they mix sources. The NCERT/CBSE chapter title for Unit 9 is 'Financial Management' and for Unit 11 is 'Marketing'. 'Business Finance' is the CBSE Part B heading and the CUET 2026 unit label. 'Marketing Management' is the CBSE marks-table label and the old NCERT chapter title. Keeping 'Business Finance' as the CUET unit name with 'Financial Management' as the NCERT chapter is defensible, and so is 'Marketing' with 'Marketing Management'. Neither pair is a defect."
+    }
+   ]
+  },
+  {
+   "subject": "computer_science: CUET 2026 syllabus check of CS-H1 and CS-H2 against data/CUET 2026/computer_science.pdf. The Read tool could not render the pages because pdftoppm is missing, so I pulled the text of all 9 PDF pages (a cover plus printed pages 1-8) with pdftotext and pypdf. I also looked at the cover images; they hold only the title text. In data/canonical_syllabus.js, line 122 lists 'Boolean Algebra' in the Section B1 chapters and line 123 holds the Section B2 chapters.",
+   "items": [
+    {
+     "id": "CS-H1",
+     "claim_checked": "CUET half only: 'Boolean Algebra' is not in the CUET 2026 Computer Science/Informatics Practices (308) syllabus, either as a chapter or as a sub-topic inside another unit. I did not check the NCERT CS Class 12 or CBSE 083 Class 11 parts of the claim.",
+     "verdict": "confirmed",
+     "evidence": "I searched the full text of every page for boolean, logic, gate, truth table, De Morgan, binary and number system. None of these appears as a Boolean-logic topic. The only 'Boolean' match is a Pandas indexing topic: 'Indexing using Labels, Boolean Indexing' (Section B2, Data Handling using Pandas I, printed p.6 / PDF p.7). 'Binary' appears only as 'binary file' and 'Binary search' (B1, printed p.2-3). Section B1 runs from Exception and File Handling through Security Aspects and has no Boolean or logic unit.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\computer_science.pdf, all pages (Section B1 on printed pp.2-5 / PDF pp.3-6; Boolean Indexing on printed p.6 / PDF p.7). Chapter map: C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\canonical_syllabus.js line 122 lists 'Boolean Algebra' under Section B1."
+    },
+    {
+     "id": "CS-H2",
+     "claim_checked": "CUET half only: does the CUET 2026 PDF define Section A as common, plus a choice between B1 (Computer Science) and B2 (Informatics Practices)? Are Pandas, Matplotlib and Societal Impacts only in B2, and Stack, Queue and Sorting only in B1?",
+     "verdict": "partly",
+     "evidence": "The PDF has three headings: 'Section A' (printed p.1), 'Section B1: Computer Science' (printed p.2) and 'Section B2: Informatics Practices' (printed p.6). At chapter level the lists do not overlap: Stack, Queue, Searching and Sorting appear only in B1; Pandas I and II, Matplotlib and Societal Impacts appear only in B2. However, no page says Section A is common or that the candidate picks B1 or B2. A search for choose, choice, either, option, attempt and question found nothing.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\computer_science.pdf, printed p.1 (Section A), p.2 (Section B1 heading), pp.2-5 (B1 units 1-11), p.6 (Section B2 heading), pp.6-8 (B2 units 1-7)",
+     "correction": "The PDF supports the substance of the defect: it splits the syllabus into Section A, Section B1: Computer Science and Section B2: Informatics Practices, and the B1 and B2 chapter lists do not overlap. But the PDF never says Section A is 'common' or that the candidate chooses B1 or B2. That rule needs another source, such as the NTA information bulletin. Three caveats: (1) Section A's topics (Database Concepts, SQL, Computer Networks) are repeated inside B1 (units 7-9) and partly inside B2 (units 1 and 5). (2) B2's Pandas II includes 'Sorting' as a DataFrame operation, which is not the sorting algorithms of B1. (3) 'Hackers and Crackers' (B1 Security Aspects) overlaps with 'hacking' (B2 Societal Impacts). So 'not tested on Societal Impacts' is true only at chapter level, not for every topic inside it."
+    }
+   ]
+  },
+  {
+   "subject": "economics: canonical_syllabus.js line 132 (IED unit) checked against the NCERT Reprint 2026-27 books and the CBSE 2026-27 Economics (030) curriculum",
+   "items": [
+    {
+     "id": "EC-H1",
+     "claim_checked": "'Infrastructure' is listed as a standalone IED chapter (canonical_syllabus.js line 132). The audit says it was deleted from NCERT Indian Economic Development in the rationalisation and is absent from CBSE 2026-27.",
+     "verdict": "confirmed",
+     "evidence": "The NCERT IED Reprint 2026-27 contents run Ch1 Eve of Independence, Ch2 1950-1990, Ch3 LPG, Ch4 Human Capital, Ch5 Rural Development, Ch6 Employment, Ch7 Environment & SD, Ch8 Comparative Development. There is no Infrastructure chapter (it was the old Ch8, and Poverty, the old Ch4, also went). 'Infrastructure' survives only as a sub-heading inside Ch1, p.11. CBSE 2026-27 Unit 7 lists only Human Capital, Rural Development, Employment and Sustainable Development.",
+     "source": "https://ncert.nic.in/textbook/pdf/keec1ps.pdf (contents p.xiv-xv, 'Reprint 2026-27'); https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Economics_SecP2_2026-27.pdf (Class XII Part B, Units 6-8); corroboration: blog.mtg.in/deleted-syllabus-of-class-11-economics (secondary)",
+     "correction": "Confirmed for NCERT and CBSE: no standalone chapter exists. Remove 'Infrastructure' as a chapter. Colonial-era infrastructure is a sub-topic of Ch1 (Eve of Independence), so only that part stays testable. Note that NCERT labels IED 'Textbook for Class XI' (ISBN 81-7450-551-2), but CBSE examines it in Class XII. I did not check the CUET 2026 half against the NTA PDF. One secondary source (Careers360) lists CUET Course III with no Infrastructure or Poverty."
+    },
+    {
+     "id": "EC-M-micro",
+     "claim_checked": "All of Introductory Microeconomics is CBSE Class 11 material but is tested in CUET 2026, and CUET 2026 Economics includes microeconomics units.",
+     "verdict": "partly",
+     "evidence": "CBSE 2026-27 Class XI Part B (Introductory Microeconomics) has Units 4-7: Introduction, Consumer's Equilibrium & Demand, Producer Behaviour & Supply, Perfect Competition. Class XII has only Macro and IED. The NCERT book, however, is labelled 'Textbook for Class XII' (Reprint 2026-27) and has 5 chapters (Non-competitive Markets is gone).",
+     "source": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Economics_SecP2_2026-27.pdf (Class XI, Part B); https://ncert.nic.in/textbook/pdf/leec2ps.pdf (title page and contents); CUET half, secondary only: https://university.careers360.com/articles/cuet-ug-economics-new-syllabus-2026",
+     "correction": "The CBSE half is right: CBSE examines Microeconomics in Class XI. But 'Class 11 content' is wrong at the NCERT level, because NCERT publishes Introductory Microeconomics as a Class XII textbook. So calling it out-of-class material for a 'NCERT Class 12' exam is misleading. In NCERT's labelling the IED book is the Class XI one. The current micro book has 5 chapters: Introduction, Consumer Behaviour, Production & Costs, Firm under Perfect Competition, Market Equilibrium. Non-competitive Markets is not in the current book or in CBSE. On the CUET side, Careers360 (secondary, not NTA) lists Course I Introductory Microeconomics with 4 units, so micro does appear to be in CUET 2026. Confirm against the NTA PDF."
+    },
+    {
+     "id": "EC-M-eve",
+     "claim_checked": "Is 'Indian Economy on the Eve of Independence' in current NCERT IED and in CBSE / CUET 2026?",
+     "verdict": "confirmed",
+     "evidence": "NCERT IED Reprint 2026-27: 'CHAPTER 1: INDIAN ECONOMY ON THE EVE OF INDEPENDENCE' (p.3), under Unit I Development Policies and Experience (1947-90). CBSE 2026-27 Unit 6 opens with 'A brief introduction of the state of Indian economy on the eve of independence.'",
+     "source": "https://ncert.nic.in/textbook/pdf/keec1ps.pdf (contents p.xiv); https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Economics_SecP2_2026-27.pdf (Class XII Unit 6); CUET, secondary: https://university.careers360.com/articles/cuet-ug-economics-new-syllabus-2026",
+     "correction": "The chapter exists as NCERT IED Ch1 and is board-examined by CBSE, but only as a brief introduction inside Unit 6, not as a full unit. Careers360 (secondary) reports the same 'brief introduction' wording in CUET 2026 Course III Unit I. Keeping it as a chapter is fine; it should be weighted lightly."
+    }
+   ]
+  },
+  {
+   "subject": "mathematics: MA-H1, Applied Mathematics chapters sharing one pool with core NCERT Maths (data/canonical_syllabus.js line 216)",
+   "items": [
+    {
+     "id": "MA-H1",
+     "claim_checked": "The five Applied Mathematics chapters (Numbers, Quantification and Numerical Applications; Probability Distributions; Time Based Data; Inferential Statistics; Financial Mathematics) are not core NCERT Maths. They belong to a separate CBSE course and a separate CUET section, so pooling them under 'Mathematics' (canonical_syllabus.js line 216, unit 'Applied Mathematics' inside the core Maths subject) is wrong. The file also has a standalone Applied Mathematics subject at line 221.",
+     "verdict": "confirmed",
+     "evidence": "CBSE 241 Grade XII (2026-27), 80-mark board paper: Numbers/Quantification 11, Algebra 10, Calculus 15, Prob. Distributions 10, Inferential Statistics 05, Time-based data 06, Financial Maths 15, LP 08, plus Internal Assessment 20. CBSE 041 Class XII (2026-27) has only Relations and Functions, Algebra, Calculus, Vectors and 3D Geometry, LP and Probability, with NCERT Maths Part I/II as textbooks. CBSE FAQ Q3 says a student takes either Mathematics or Applied Mathematics, not both. NTA CUET 2026 syllabus 319 has Section A1 (common), Section B1 Mathematics and Section B2 Applied Mathematics; all five chapters are B2 units.",
+     "source": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Applied_Mathematics_SecP2_2026-27.pdf (Grade XII unit table, p.10); https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Maths_SecP2_2026-27.pdf (Class XII units; recommended books list); https://cbseacademic.nic.in/web_material/Circulars/2020/FAQs-Applied_Mathematics.pdf (Q3, Q5); https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2025/12/202512271521179041.pdf (CUET 2026 Mathematics/Applied Mathematics 319 syllabus, Sections A1/B1/B2)",
+     "correction": "Mostly accurate, but sharpen the wording. (1) None of the five is an NCERT Class XII textbook chapter. NCERT Maths Part I/II has no such chapters, and the CBSE 241 curriculum names no NCERT textbook. They are CBSE Applied Mathematics (241) Class XII units, all in the 80-mark board theory paper, none internal-only. Use the CBSE titles: 'Time-based data' and 'Financial Mathematics'. (2) The official CUET 2026 syllabus confirms the A1 common, B1 Mathematics and B2 Applied Mathematics split. The rule that a candidate attempts A1 plus only one of B1 or B2 comes from coaching sites (Adda247, PW, Careers360); I did not find it in the syllabus PDF, and the official bulletin/FAQ PDF I checked did not cover it. (3) Section A1 is common to both groups and covers Matrices/Determinants, derivatives, integration, differential equations, simple probability and LP, so a core-Maths candidate is not entirely free of shared content. (4) Side note: CUET B2 and CBSE 241 also include Algebra, Calculus and Linear Programming units. The standalone 'Applied Mathematics' subject at line 223 lists only the five chapters, so it is incomplete too."
+    }
+   ]
+  },
+  {
+   "subject": "Chemistry chapter map (data/canonical_syllabus.js): NCERT/CBSE half of CH-H1 to CH-H6, checked against NCERT Class 12 Chemistry Reprint 2026-27 (lech1ps.pdf, lech2ps.pdf) and CBSE Senior Secondary Curriculum 2026-27 Chemistry (043) plus its reading-material PDF. The CUET 2026 half was not checked here. Both sites fail certificate checks in WebFetch, so the PDFs were fetched with curl -k and read with pdftotext. Scratch copies were deleted afterwards.",
+   "items": [
+    {
+     "id": "CH-H1",
+     "claim_checked": "'Solid State' is no longer in NCERT Class 12 Chemistry and is not in the CBSE Class 12 syllabus.",
+     "verdict": "confirmed",
+     "evidence": "The NCERT Reprint 2026-27 contents run Unit 1 Solutions, 2 Electrochemistry, 3 Chemical Kinetics, 4 The d- and f-Block Elements, 5 Coordination Compounds (Part I), then Units 6-10 Haloalkanes to Biomolecules (Part II). There is no Solid State unit. The CBSE 2026-27 Class XII theory table lists 10 units totalling 70 marks without Solid State, and Solid State is also absent from the formative-only note and the reading material. The 2025-26 curriculum does not list it either.",
+     "source": "https://ncert.nic.in/textbook/pdf/lech1ps.pdf (Contents, p. xiii-xiv); https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Chemistry_SecP2_2026-27.pdf (Class XII Course Structure, p. 7-8); https://cbseacademic.nic.in/web_material/CurriculumMain26/SrSec/Chemistry_SrSec_2025-26.pdf"
+    },
+    {
+     "id": "CH-H2",
+     "claim_checked": "'Surface Chemistry' is formative-only in CBSE Class 12.",
+     "verdict": "confirmed",
+     "evidence": "CBSE 2026-27 Class XII has a note listing topics 'assessed only formatively ... without adding to summative assessments'. Item 1 is 'Surface Chemistry - Adsorption ... colloids ... emulsion'. It is not a chapter in the NCERT Reprint 2026-27 book, so CBSE supplies the NCERT text separately as reading material.",
+     "source": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Chemistry_SecP2_2026-27.pdf (p. 8-9); https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Chemistry_SecP2_2026-27_RM.pdf (Class-XII section); https://ncert.nic.in/textbook/pdf/lech1ps.pdf",
+     "correction": "Two notes. (1) The formative-only status is new for 2026-27: the 2025-26 Class XII syllabus did not list Surface Chemistry at all. (2) The 2026-27 practical syllabus still includes 'A. Surface Chemistry' experiments (lyophilic/lyophobic sols, dialysis, emulsifying agents), so it is part of the lab work, not only formative theory."
+    },
+    {
+     "id": "CH-H3",
+     "claim_checked": "'General Principles and Processes of Isolation of Elements' is formative-only in CBSE Class 12.",
+     "verdict": "confirmed",
+     "evidence": "Item 2 of the CBSE 2026-27 Class XII formative-only note reads: 'General Principles and Processes of Isolation of Elements - Principles and methods of extraction - concentration, oxidation, reduction - electrolytic method and refining'. It is not a unit in the NCERT Reprint 2026-27 book. The CBSE reading material reproduces it as 'GENERAL PRINCIPLES AND PROCESSES OF ISOLATION OF ELEMENTS'.",
+     "source": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Chemistry_SecP2_2026-27.pdf (p. 8-9); https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Chemistry_SecP2_2026-27_RM.pdf; https://ncert.nic.in/textbook/pdf/lech1ps.pdf",
+     "correction": "The formative-only status is new for 2026-27. In 2025-26 this topic was absent from the CBSE Class XII syllabus entirely."
+    },
+    {
+     "id": "CH-H4",
+     "claim_checked": "'p-Block Elements' has been removed from Class 12.",
+     "verdict": "partly",
+     "evidence": "Confirmed for Class 12: NCERT Reprint 2026-27 Parts I and II have no p-Block unit, and the CBSE 2026-27 Class XII theory table and formative note do not include it. However, the CBSE 2026-27 Class XI formative-only note lists '1. s & p Block Elements', and the Class XI reading material covers Groups 13, 14, 15, 16, 17 and 18. Groups 15-18 are taken from the old Class 12 p-Block unit, with its Table 7.x numbering.",
+     "source": "https://ncert.nic.in/textbook/pdf/lech1ps.pdf; https://ncert.nic.in/textbook/pdf/lech2ps.pdf; https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Chemistry_SecP2_2026-27.pdf (Class XI note, p. 3-4; Class XII, p. 7-9); https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Chemistry_SecP2_2026-27_RM.pdf (Class-XI reading material, Group 13-18 sections)",
+     "correction": "It is removed from NCERT Class 12 and from the CBSE Class 12 syllabus. Under CBSE 2026-27 it is not gone entirely: 's & p Block Elements', including the former Class 12 Group 15-18 material, sits in Class XI as formative-only (not summatively assessed)."
+    },
+    {
+     "id": "CH-H5",
+     "claim_checked": "'Polymers' is formative-only in CBSE Class 12.",
+     "verdict": "confirmed",
+     "evidence": "Item 3 of the CBSE 2026-27 Class XII formative-only note reads: 'Polymers - Polymerisation, Homopolymers and copolymer with few examples'. Polymers is not a unit in the NCERT Reprint 2026-27 book (Part II runs Units 6-10, Haloalkanes to Biomolecules). The reading material reproduces the old NCERT polymers unit (15.1 Classification of Polymers).",
+     "source": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Chemistry_SecP2_2026-27.pdf (p. 8-9); https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Chemistry_SecP2_2026-27_RM.pdf; https://ncert.nic.in/textbook/pdf/lech2ps.pdf",
+     "correction": "Formative-only status is new for 2026-27. In 2025-26 Polymers was absent from the CBSE Class XII syllabus. The 2026-27 scope is narrow: polymerisation, homopolymers and copolymers only."
+    },
+    {
+     "id": "CH-H6",
+     "claim_checked": "'Chemistry in Everyday Life' is formative-only in CBSE Class 12.",
+     "verdict": "confirmed",
+     "evidence": "Item 4 of the CBSE 2026-27 Class XII formative-only note reads: 'Chemistry in Everyday life - Chemicals in medicines - analgesics, tranquilizers ... antacids, antihistamines. Chemicals in food - preservatives, artificial sweetening agents, antioxidants'. It is not a unit in the NCERT Reprint 2026-27 book. The reading material reproduces the old NCERT unit 16 (16.3.1 Antacids).",
+     "source": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Chemistry_SecP2_2026-27.pdf (p. 9); https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Chemistry_SecP2_2026-27_RM.pdf; https://ncert.nic.in/textbook/pdf/lech2ps.pdf",
+     "correction": "Formative-only status is new for 2026-27. In 2025-26 this topic was absent from the CBSE Class XII syllabus. Cleansing agents are not in the 2026-27 formative list."
+    }
+   ]
+  },
+  {
+   "subject": "History (CBSE/NCERT half only): HI-H1 Kings and Chronicles, HI-H2 Understanding Partition",
+   "items": [
+    {
+     "id": "HI-H1",
+     "claim_checked": "'Kings and Chronicles: The Mughal Courts' is no longer in NCERT Themes in Indian History Part II and is not in the CBSE Class 12 syllabus (NCERT/CBSE half only; CUET 2026 not checked here).",
+     "verdict": "confirmed",
+     "evidence": "The NCERT Part II front matter (marked 'Reprint 2026-27') lists the Part II contents as Theme Five Through the Eyes of Travellers (p.115), Six Bhakti-Sufi Traditions (p.140), Seven An Imperial Capital: Vijayanagara (p.170) and Eight Peasants, Zamindars and the State (p.196). There is no Kings and Chronicles theme; Theme Nine is now Colonialism and the Countryside, in Part III. The CBSE 2025-26 Class XII course structure lists Part II as Themes 5-8 only. 'Chronicle' does not appear anywhere in the CBSE PDF, including the project topics. Secondary sources say the chapter was removed in the 2022-23 rationalisation and reported in April 2023: the full title was 'Kings and Chronicles: The Mughal Courts (c. 16th-17th centuries)', formerly Theme 9 of Part II.",
+     "source": "https://ncert.nic.in/textbook/pdf/lehs2ps.pdf (front matter, Contents p.xiii-xiv, 'Reprint 2026-27'); https://cbseacademic.nic.in/web_material/CurriculumMain26/SrSec/History_SrSec_2025-26.pdf (Class XII Course Structure); secondary corroboration: https://educationforallinindia.com/five-years-of-ncert-textbook-revisions-2022-to-2026/ , https://www.onmanorama.com/career-and-campus/top-news/2023/04/04/ncert-removes-chapters-on-mughal-empire-from-history-textbook-class-12.amp.html",
+     "correction": "Fine as stated. Two precision points. First, the removed chapter was the old Theme 9 of Part II; the number 9 is now used by Colonialism and the Countryside. Second, the CBSE 2026-27 curriculum PDF was not found at the expected cbseacademic URL (it returned 404), so the CBSE check rests on the 2025-26 curriculum plus the NCERT 2026-27 reprint. A secondary listing (oswalpublishers.com) shows the same 12 themes for 2026-27. Partly covered elsewhere: the Mughal agrarian context remains in Theme 8, Peasants, Zamindars and the State."
+    },
+    {
+     "id": "HI-H2",
+     "claim_checked": "'Understanding Partition' is no longer in NCERT Themes in Indian History Part III and is not in the CBSE Class 12 syllabus (NCERT/CBSE half only; CUET 2026 not checked here).",
+     "verdict": "confirmed",
+     "evidence": "The NCERT Part III contents (marked 'Reprint 2026-27') list exactly four themes: Nine Colonialism and the Countryside (p.227), Ten Rebels and the Raj (p.258), Eleven Mahatma Gandhi and the Nationalist Movement (p.286) and Twelve Framing the Constitution (p.316). There is no Partition theme. The CBSE 2025-26 Part III list is the same: 09-12, ending with 'Framing of the Constitution'. 'Partition' does not appear anywhere in the CBSE PDF, including the suggested project topics, so it is not even internal or formative content. Secondary sources (a UBSE deleted list and The Wire) describe 'Understanding Partition: Politics, Memories, Experiences' (old Theme 14) and Colonial Cities (old Theme 12) as complete-chapter deletions.",
+     "source": "https://ncert.nic.in/textbook/pdf/lehs3ps.pdf (front matter, Contents, 'Reprint 2026-27'); https://cbseacademic.nic.in/web_material/CurriculumMain26/SrSec/History_SrSec_2025-26.pdf (Class XII Course Structure, Part III); secondary: https://thewire.in/history/whither-rationalisation-ncerts-changes-only-leave-a-black-hole-in-our-history-textbooks , https://getmyuni.com/articles/cbse-class-12-history-deleted-syllabus",
+     "correction": "Fine as stated. Precision point: the removed chapter is the old Theme 14, 'Understanding Partition: Politics, Memories, Experiences'. Part III now ends at Theme 12, Framing the Constitution. Colonial Cities (old Theme 12) was removed in the same rationalisation, so if the chapter map also teaches Colonial Cities, that is a defect too. The CBSE 2026-27 PDF was not available at the expected URL (404); the check uses the 2025-26 curriculum and the NCERT 2026-27 reprint."
+    }
+   ]
+  },
+  {
+   "subject": "Psychology (CBSE code 037, NCERT Class XII 'Psychology', book code 12123): NCERT/CBSE check only of PY-H1 and PY-H2 against data/canonical_syllabus.js line 279. That line is unit('Existing Psychology Coverage', ['Psychology & Life', 'Developing Psychological Skills']). The CUET 2026 half was not checked.",
+   "items": [
+    {
+     "id": "PY-H1",
+     "claim_checked": "'Psychology & Life' was old NCERT Class 12 Chapter 8 and is not in the current NCERT book or the CBSE 2026-27 board syllabus (NCERT/CBSE half only; CUET 2026 not checked here).",
+     "verdict": "confirmed",
+     "evidence": "NCERT rationalisation booklet, p.71: \"Chapter 8: Pyschology and Life 152–176 Full Chapter\" (dropped). The Reprint 2026-27 contents stop at Ch 7. CBSE 2026-27 lists Units I-VII only.",
+     "source": "https://ncert.nic.in/pdf/BookletClass12.pdf (PDF p.72, printed p.71, entry 12123 Psychology); https://ncert.nic.in/textbook/pdf/lepy1ps.pdf (Reprint 2026-27; Contents ends at 'Chapter 7 Social Influence and Group Processes 120'; Note for Teachers says 'seven chapters'); https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Psychology_SecP2_2026-27.pdf (p.8, Class XII Units I-VII totalling 70 marks; prescribed book is NCERT Psychology Class XII); https://cbseacademic.nic.in/web_material/CurriculumMain20/SrSecondary/Psychology.pdf (2019-20: 'VIII Psychology and Life 13 6' confirms the old numbering)",
+     "correction": "The defect holds. One precision: the official old title is 'Psychology and Life' (old Ch 8, pp.152-176). NCERT dropped the whole chapter in the 2022 rationalisation, and the Revised Edition of January 2023 has seven chapters. The CBSE 2026-27 document gives it no formative or internal-assessment role: Class XII theory is Units I-VII only. The CBSE PDF body still reads '2025-26' with a '(2026-27)' overstamp."
+    },
+    {
+     "id": "PY-H2",
+     "claim_checked": "'Developing Psychological Skills' was old NCERT Class 12 Chapter 9 and is not in the current NCERT book or the CBSE 2026-27 board syllabus (NCERT/CBSE half only; CUET 2026 not checked here).",
+     "verdict": "confirmed",
+     "evidence": "NCERT rationalisation booklet, p.72: \"Chapter 9: Developing Psychological Skills 177–195 Full Chapter\" (dropped). The Reprint 2026-27 contents have Chapters 1-7 only.",
+     "source": "https://ncert.nic.in/pdf/BookletClass12.pdf (PDF p.73, printed p.72, entry 12123 Psychology); https://ncert.nic.in/textbook/pdf/lepy1ps.pdf (Reprint 2026-27 contents: Ch 1-7, then Guidelines for Practicals p.132, Glossary, Suggested Readings); https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Psychology_SecP2_2026-27.pdf (p.8 Units I-VII; p.11 Practical); https://cbseacademic.nic.in/web_material/CurriculumMain20/SrSecondary/Psychology.pdf (2019-20: 'IX Developing Psychological Skills 13 6')",
+     "correction": "The defect holds as a theory chapter. One nuance: the CBSE 2026-27 Practical (30 marks) asks for a case profile 'using appropriate methods like interview, observation & psychological tests' and five administered tests. That overlaps the skills the old Ch 9 covered (observational, interviewing, testing skills), but the chapter itself is neither in the NCERT book nor named in the CBSE syllabus, as theory or as internal-only."
+    }
+   ]
+  },
+  {
+   "subject": "sociology — SO-M (CUET 2026 lens). The official PDF C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\sociology.pdf has 3 physical pages: a cover, printed page \"1|Page\" (Indian Society) and printed page \"2|Page\" (Change and Development in India). The Read tool could not render it because pdftoppm is missing, so all 3 pages were extracted with pdftotext -layout. On the CUET side, all four topics are in the syllabus in substance. Two match their NCERT titles exactly (Market, Globalisation) and two appear under different names (Story of Indian Democracy, Mass Media). Map file data\\canonical_syllabus.js line 295 puts 'Market as a Social Institution' under the wrong book. The CBSE 2026-27 and current-NCERT side cannot be checked under this lens because no CBSE or NCERT document is in the repo's data folder.",
+   "items": [
+    {
+     "id": "SO-M.1",
+     "claim_checked": "'Market as a Social Institution' is in the CUET 2026 sociology syllabus",
+     "verdict": "confirmed",
+     "evidence": "Indian Society, Unit II 'Social Institutions: Continuity and Change' lists the bullet 'The Market as a Social Institution' (printed p.1, physical p.2).",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\sociology.pdf, printed page 1 (physical page 2)",
+     "correction": "The topic is present, but CUET places it under Indian Society (Unit II, Social Institutions), not under Social Change and Development in India. canonical_syllabus.js line 295 puts it in the 'Social Change and Development in India' unit, and it should move to the 'Indian Society' unit (line 294)."
+    },
+    {
+     "id": "SO-M.2",
+     "claim_checked": "'Story of Indian Democracy' is in the CUET 2026 sociology syllabus",
+     "verdict": "partly",
+     "evidence": "The chapter title does not appear. Its content is printed p.2, Unit II 'Social Change and the Polity': 'The Constitution as an instrument of Social Change', 'Parties, Pressure Groups and Democratic Politics', 'Panchayati Raj…'.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\sociology.pdf, printed page 2 (physical page 3)",
+     "correction": "The content is in CUET 2026 but not under that chapter title. CUET Unit II 'Social Change and the Polity' has the three sub-topics of NCERT's old Ch 3 'The Story of Indian Democracy': the Constitution, parties and pressure groups, and Panchayati Raj. The defect should say the topic is present as 'Social Change and the Polity', not as a chapter called 'Story of Indian Democracy'."
+    },
+    {
+     "id": "SO-M.3",
+     "claim_checked": "'Globalisation and Social Change' is in the CUET 2026 sociology syllabus",
+     "verdict": "confirmed",
+     "evidence": "Unit IV 'New Arenas of Social Change' lists the bullet 'Globalisation and Social Change' (printed p.2).",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\sociology.pdf, printed page 2 (physical page 3)"
+    },
+    {
+     "id": "SO-M.4",
+     "claim_checked": "'Mass Media and Communications' is in the CUET 2026 sociology syllabus",
+     "verdict": "partly",
+     "evidence": "Unit IV 'New Arenas of Social Change' lists 'Media and Social Change' (printed p.2). The exact NCERT title 'Mass Media and Communications' does not appear.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\sociology.pdf, printed page 2 (physical page 3)",
+     "correction": "The topic is in CUET 2026 as 'Media and Social Change' under Unit IV 'New Arenas of Social Change', not under the NCERT chapter title. Do not confuse it with the separate CUET subject 'Mass Media and Mass Communication' (data\\CUET 2026\\mass_media_and_mass_communication.pdf)."
+    },
+    {
+     "id": "SO-M.5",
+     "claim_checked": "Context: is the CUET 2026 sociology syllabus split into separate sections or options for the candidate to choose between?",
+     "verdict": "confirmed",
+     "evidence": "There are no sections, options or choice instructions. There is one list: Indian Society Units I-IV (p.1) and Change and Development in India Units I-V (p.2), all assessed together.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\CUET 2026\\sociology.pdf, pages 1-3 (all pages)"
+    },
+    {
+     "id": "SO-M.6",
+     "claim_checked": "CBSE half: the four chapters are still printed in the current NCERT book but are out of the CBSE 2026-27 board exam",
+     "verdict": "unverifiable",
+     "evidence": "Outside this CUET-only lens. The data folder has only the CUET 2026 PDFs and du-csas-2026, and no CBSE 2026-27 curriculum or NCERT contents file was found to check against.",
+     "source": "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data (directory listing; no CBSE/NCERT file)",
+     "correction": "Check the CBSE half against the official CBSE 2026-27 Sociology curriculum and the current rationalised NCERT contents pages before relying on it."
+    }
+   ]
+  },
+  {
+   "subject": "physics",
+   "items": [
+    {
+     "id": "PH-H1",
+     "claim_checked": "'Communication Systems' is taught in the chapter map. The audit says it was removed from NCERT, the book ends at Ch 14 Semiconductor Electronics, and it is not in CBSE 2026-27. Only the NCERT/CBSE half was checked; the CUET 2026 part was out of scope.",
+     "verdict": "confirmed",
+     "evidence": "The CBSE 2026-27 Physics (042) curriculum, via an AglaSem copy, has 9 units and 14 chapters. Unit IX is Ch 14 'Semiconductor Electronics: Materials, Devices and Simple Circuits'. The books are NCERT Physics XII Part I and Part II. Communication Systems appears nowhere: not in the board-exam syllabus and not as an internal or formative item. The current NCERT Part II has 6 chapters (Ch 9 Ray Optics to Ch 14 Semiconductor Electronics); this comes from Competishun, with no chapter 15. The Goa Board 2024-25 syllabus, which follows NCERT Part I and II, also stops at Ch 14. Limits: ncert.nic.in and cbseacademic.nic.in failed TLS certificate checks, so the official pages were not opened directly. The CBSE text comes from a copy of the official document on a third-party host, and the NCERT chapter count comes from secondary sites. One more note: the NCERT 'List of Rationalised Content' (a copy hosted by PW) has no 'Ch 15 full chapter' row. So this check did not find NCERT's own record of the drop. The current six-chapter Part II is confirmed only by secondary sources.",
+     "source": "https://docs.aglasem.com/view/9f6df168-7571-11f1-a695-0aa932765c8b (CBSE Senior Secondary Syllabus 2027 Physics 042, Class XII unit and chapter list); https://www.adda247.com/school/cbse-class-12-physics-syllabus-2026-27-chapter-wise-topics-weightage-and-exam-pattern/ (corroboration: 9 units, 14 chapters, Ch 14 Semiconductor Electronics); https://competishun.com/ncert-book/part-2-2/ (NCERT Part II, 6 chapters ending with Semiconductor Electronics); https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS_BLOGS/36aa5371-8047-44b5-970a-14b79f567d17.pdf (Goa Board 2024-25 Physics, chapters per NCERT Part I and II end at Ch 14); https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS_BLOGS/25781c3a-49c0-4260-8355-a8635d64f8fa.pdf (copy of the NCERT rationalised-content list; Physics Part II rows end at Ch 14)",
+     "correction": "No correction to the NCERT/CBSE half. Communication Systems (the old Ch 15) is not a chapter in the current NCERT Class 12 Physics Part II, which ends at Ch 14 'Semiconductor Electronics: Materials, Devices and Simple Circuits'. It is not in the CBSE 2026-27 Class 12 Physics (042) syllabus, either for the board exam or for internal assessment. Before relying on this as primary-source proof, check the official PDFs on ncert.nic.in and cbseacademic.nic.in in a browser with working TLS."
+    }
+   ]
+  },
+  {
+   "subject": "geography",
+   "items": [
+    {
+     "id": "GE-H1",
+     "claim_checked": "NCERT/CBSE half only: 'Manufacturing Industries' is no longer a chapter of the current NCERT Class 12 'India: People and Economy', and it is not in the CBSE 2026-27 Class XII Geography (029) syllabus. The map still teaches it (canonical_syllabus.js line 164, unit 'Resources and Development').",
+     "verdict": "confirmed",
+     "evidence": "The NCERT India P&E prelims, marked 'Reprint 2026-27', list 9 chapters in Contents: 1 Population: Distribution, Density, Growth and Composition; 2 Human Settlements; 3 Land Resources and Agriculture; 4 Water Resources; 5 Mineral and Energy Resources; 6 Planning and Sustainable Development in Indian Context; 7 Transport and Communication; 8 International Trade; 9 Geographical Perspective on Selected Issues and Problems. None is Manufacturing Industries. The CBSE 2026-27 Class XII course structure (printed p.11) and course content (pp.14-15) list the same 9 chapters, and its formative-only note names only Migration for this book (pp.18-19). Nuance: manufacturing itself is still examined through Fundamentals of Human Geography Ch 5 'Secondary Activities'. The CBSE content there includes 'Characteristics of Modern large-Scale Manufacturing', classification of manufacturing industries and high-tech industry. The map already has 'Secondary Activities' under Human Activities.",
+     "source": "https://ncert.nic.in/textbook/pdf/legy2ps.pdf (Contents, Reprint 2026-27); https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Geography_SecP2_2026-27.pdf (Class XII course structure p.11, course content pp.13-15, formative note pp.18-19); https://ncert.nic.in/textbook/pdf/legy1ps.pdf (Fundamentals contents: 5. Secondary Activities); index page https://cbseacademic.nic.in/curriculum_2027.html",
+     "correction": "Defect stands for the India P&E chapter. One refinement: remove 'Manufacturing Industries', the old Indian-industries chapter (old Ch 8), as a chapter. General manufacturing concepts (industrial location, classification, high-tech) stay valid under Fundamentals Ch 5 'Secondary Activities', so retag those questions there instead of deleting them. The CUET half was not checked here."
+    },
+    {
+     "id": "GE-H2",
+     "claim_checked": "NCERT/CBSE half only: 'Migration' (old India P&E chapter 'Migration: Types, Causes and Consequences') is no longer an NCERT India P&E chapter, and CBSE assesses it only formatively. The map teaches it as a chapter (canonical_syllabus.js line 160, unit 'People').",
+     "verdict": "confirmed",
+     "evidence": "The CBSE 2026-27 curriculum (pp.18-19) says the listed topics are 'included in the syllabus but will be assessed only formatively', and lists under 'Book- India People and Economy 1.Migration- Types, Causes, Consequences'. The CBSE Reading Material PDF (Class XII 2026-27) reprints 'MIGRATION Types, Causes and Consequences' marked 'Adapted from NCERT textbook of Class XII 2022-23 edition', which is the pre-rationalised edition. The NCERT India P&E Contents (Reprint 2026-27) have no Migration chapter. The board syllabus keeps only 'Rural-Urban Migration: Case Study' inside Ch 9 Geographical Perspective on Selected Issues and Problems (CBSE p.15).",
+     "source": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Geography_SecP2_2026-27.pdf (formative note pp.18-19; Ch 9 content p.15); https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Geography_SecP2_2026-27_RM.pdf (Class XII reading material, Migration section); https://ncert.nic.in/textbook/pdf/legy2ps.pdf (Contents, Reprint 2026-27)",
+     "correction": "Defect stands. Precision: Migration is not fully gone from CBSE. It is still in the syllabus as formative-only, internally assessed material that CBSE supplies as reading material, and it is not in the board exam. Its only board-exam footprint is the rural-urban migration case study in India P&E Ch 9."
+    },
+    {
+     "id": "GE-H3",
+     "claim_checked": "NCERT/CBSE half only: 'Land Resources and Agriculture', 'Water Resources' and 'Mineral and Energy Resources' are real, current, board-examined chapters. The map collapses them into one chapter, 'Resources & Development' (canonical_syllabus.js line 164).",
+     "verdict": "confirmed",
+     "evidence": "NCERT India P&E Contents (Reprint 2026-27) list Unit III: '3. Land Resources and Agriculture', '4. Water Resources', '5. Mineral and Energy Resources'. CBSE 2026-27 lists them as Chapters 3, 4 and 5 of Book B Unit III, each with full course content (pp.14-15). The board map-work list has items for Ch 3 (leading crop-producing states) and Ch 5 (mines and refineries), and none for Ch 4. None of the three is in the formative-only note. A grep of canonical_syllabus.js finds no 'Land Resources', 'Water Resources' or 'Mineral' entry, only 'Resources & Development' on line 164.",
+     "source": "https://ncert.nic.in/textbook/pdf/legy2ps.pdf (Contents, Reprint 2026-27); https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Geography_SecP2_2026-27.pdf (Class XII course structure p.11; course content Ch 3-5 pp.14-15; map work pp.17-18); C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\data\\canonical_syllabus.js line 164",
+     "correction": "Defect stands. Replace 'Resources & Development' with three chapters using the exact NCERT titles: 'Land Resources and Agriculture' (Ch 3), 'Water Resources' (Ch 4) and 'Mineral and Energy Resources' (Ch 5). Keep 'Planning and Sustainable Development in Indian Context' (Ch 6), which is still in the board syllabus."
+    }
+   ]
+  },
+  {
+   "subject": "computer_science: NCERT/CBSE check of CS-H1 and CS-H2 against data/canonical_syllabus.js lines 118-123 (CUET half not checked here)",
+   "items": [
+    {
+     "id": "CS-H1a",
+     "claim_checked": "'Boolean Algebra' is not a chapter in the current NCERT Computer Science Class 12 book",
+     "verdict": "confirmed",
+     "evidence": "The NCERT CS Class XII contents (book 12130, Reprint 2026-27) list 13 chapters, from Ch1 Exception Handling in Python to Ch13 Project Based Learning. No chapter or section covers Boolean algebra or logic.",
+     "source": "https://ncert.nic.in/textbook/pdf/lecs1ps.pdf (contents, prelim pp. ix-xi)"
+    },
+    {
+     "id": "CS-H1b",
+     "claim_checked": "Boolean content sits only in CBSE 083 Class 11, not in the Class 12 board syllabus",
+     "verdict": "confirmed",
+     "evidence": "Class XI Unit 1: \"Boolean logic: NOT, AND, OR, NAND, NOR, XOR, truth tables and De Morgan's laws, Logic circuits\" (p.1). The Class XII units (pp.5-6) have no Boolean topic.",
+     "source": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Computer_Science_SecP2_2026-27.pdf p.1, pp.5-6; the 2025-26 PDF (CurriculumMain26/SrSec/Computer_Science_SrSec_2025-26.pdf) is identical apart from the year labels",
+     "correction": "Use CBSE's own name: \"Boolean logic\", in Class XI Unit 1 'Computer Systems and Organisation' (10 marks, assessed by the school), not 'Boolean Algebra'. It is in neither the 2025-26 nor the 2026-27 Class XII 083 syllabus."
+    },
+    {
+     "id": "CS-H1c",
+     "claim_checked": "Boolean logic has an NCERT home in the Class 11 CS book (implied by 'Class 11 only')",
+     "verdict": "refuted",
+     "evidence": "NCERT CS Class XI (11120, Reprint 2026-27): Ch1 Computer System, Ch2 Encoding Schemes and Number System. The full text of both chapters has zero 'Boolean' hits.",
+     "source": "https://ncert.nic.in/textbook/pdf/kecs1ps.pdf (contents); https://ncert.nic.in/textbook/pdf/kecs101.pdf; https://ncert.nic.in/textbook/pdf/kecs102.pdf",
+     "correction": "No current NCERT CS textbook, Class XI or XII, has a Boolean chapter. Boolean logic appears only in the CBSE 083 Class XI syllabus. This makes the case for removing it from a Class XII chapter map stronger, not weaker."
+    },
+    {
+     "id": "CS-H2a",
+     "claim_checked": "CS and IP are separate CBSE subjects with their own codes, and one student takes only one of them",
+     "verdict": "confirmed",
+     "evidence": "CBSE 2026-27 scheme: of Informatics Practices (065), Computer Science (083) and Information Technology (802), \"a candidate can opt only for one subject.\"",
+     "source": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Curriculum_SecP2_2026-27.pdf p.9 (combinations that cannot be taken together, item b)"
+    },
+    {
+     "id": "CS-H2b",
+     "claim_checked": "Stack, Queue and Sorting belong to the CS book; Pandas, Matplotlib and Societal Impacts belong to the IP book",
+     "verdict": "confirmed",
+     "evidence": "NCERT CS XII (ISBN 978-93-5292-338-0): Ch3 Stack, Ch4 Queue, Ch5 Sorting. NCERT IP XII (12149, ISBN 978-93-5292-361-8): Ch2-3 Pandas I/II, Ch4 Matplotlib, Ch6 Societal Impacts.",
+     "source": "https://ncert.nic.in/textbook/pdf/lecs1ps.pdf and https://ncert.nic.in/textbook/pdf/leip1ps.pdf (contents, both Reprint 2026-27)"
+    },
+    {
+     "id": "CS-H2c",
+     "claim_checked": "The CBSE 2026-27 Class XII board syllabi split as the claim says (083 has Stack, Queue and Sorting; 065 has Pandas, Matplotlib and Societal Impacts)",
+     "verdict": "partly",
+     "evidence": "083 XII units: Programming-2 (40), Networks (10), Database Management (20). Its only data structure is Stack. 065 XII: Pandas+Visualization 25, SQL 25, Networks 10, Societal Impacts 10.",
+     "source": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Computer_Science_SecP2_2026-27.pdf pp.5-6; https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Informatics_Practices_SecP2_2026-27.pdf pp.5-7",
+     "correction": "The IP side is right: Pandas, Matplotlib and Societal Impacts are in 065 XII only. On the CS side, Queue and Sorting (also Searching, Understanding Data and Security Aspects) are NCERT CS XII chapters but are not in the CBSE 083 XII board syllabus. Only Stack is."
+    },
+    {
+     "id": "CS-H2d",
+     "claim_checked": "Societal Impacts and Project Based Learning are IP-only chapters (the file puts both under B2 only)",
+     "verdict": "partly",
+     "evidence": "Project Based Learning is NCERT CS XII Ch13 and NCERT IP XII Ch7. 'Societal Impact' is NCERT CS XI Ch11, and CBSE 083 XI has Unit 3 'Society, Law and Ethics'.",
+     "source": "https://ncert.nic.in/textbook/pdf/lecs1ps.pdf; https://ncert.nic.in/textbook/pdf/leip1ps.pdf; https://ncert.nic.in/textbook/pdf/kecs1ps.pdf; Computer_Science_SecP2_2026-27.pdf p.1",
+     "correction": "Project Based Learning is in both Class XII books, so it is not IP-only. Societal Impacts is IP XII content, and also CS Class XI, but not CS XII. SQL and networks appear in both XII books (CS Ch8-10, IP Ch1 and Ch5), which fits a common section."
+    },
+    {
+     "id": "CS-x1",
+     "claim_checked": "Side check, not in the audit: the B1 labels in canonical_syllabus.js line 122 match current NCERT CS XII chapter titles",
+     "verdict": "refuted",
+     "evidence": "NCERT CS XII has no chapters titled 'Python Revision', 'Functions', 'Data Structures', 'Interface Python with MySQL', 'Communication Technologies' or 'Boolean Algebra'. Functions is CS XI Ch7.",
+     "source": "https://ncert.nic.in/textbook/pdf/lecs1ps.pdf; https://ncert.nic.in/textbook/pdf/kecs1ps.pdf; https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Computer_Science_SecP2_2026-27.pdf p.5-6",
+     "correction": "Exact NCERT CS XII titles: 1 Exception Handling in Python; 2 File Handling in Python; 3 Stack; 4 Queue; 5 Sorting; 6 Searching; 7 Understanding Data; 8 Database Concepts; 9 Structured Query Language (SQL); 10 Computer Networks; 11 Data Communication; 12 Security Aspects; 13 Project Based Learning. Python-SQL connectivity is a CBSE 083 XII syllabus topic, not an NCERT chapter."
+    }
+   ]
+  },
+  {
+   "subject": "Sociology SO-M: four chapters said to be in CUET 2026 but out of the CBSE 2026-27 board exam (data/canonical_syllabus.js line 295)",
+   "items": [
+    {
+     "id": "SO-M",
+     "claim_checked": "Four chapters ('Market as a Social Institution', 'Story of Indian Democracy', 'Globalisation and Social Change', 'Mass Media and Communications') are in CUET 2026 but not in the CBSE 2026-27 board exam.",
+     "verdict": "partly",
+     "evidence": "Mostly holds. CBSE 2026-27 Class XII course structure lists units 1,2,3,5,6,7 and 8,9,11,12,15, so units 4, 10, 13 and 14 are absent (pp.6-7). The NTA CUET 2026 Sociology (326) PDF covers all four. The one error is that 'Story of Indian Democracy' is a pre-2022 title.",
+     "source": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Sociology_SecP2_2026-27.pdf (pp.6-8); https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2025/12/20251227621541284.pdf (linked as 'Sociology' from https://cuet.nta.nic.in/cuetug-2026-syllabus/)",
+     "correction": "Use the current NCERT title 'The Constitution and Social Change' (Book 2, Ch 3) in place of 'Story of Indian Democracy'. Also move 'The Market as a Social Institution' from the 'Social Change and Development in India' unit to the 'Indian Society' book, where NCERT prints it as Ch 4. The four-chapter CUET-only status is correct. CBSE 2025-26 is identical (same units missing)."
+    },
+    {
+     "id": "SO-M.1",
+     "claim_checked": "'Market as a Social Institution': in CUET 2026, still in NCERT, not in the CBSE 2026-27 board exam.",
+     "verdict": "confirmed",
+     "evidence": "NCERT 'Indian Society' contents read 'Chapter 4 The Market as a Social Institution', and the chapter PDF is stamped 'Reprint 2026-27'. CBSE 2026-27 Part A goes 3 then 5, with no unit 4. The NTA CUET 2026 Unit II lists 'The Market as a Social Institution'.",
+     "source": "https://ncert.nic.in/textbook/pdf/lesy1ps.pdf (Contents; Revised Edition Sept 2022, reprinted Dec 2025); https://ncert.nic.in/textbook/pdf/lesy104.pdf; https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Sociology_SecP2_2026-27.pdf p.6; NTA CUET 2026 Sociology PDF p.1",
+     "correction": "Claim stands. However, canonical_syllabus.js line 295 files it under 'Social Change and Development in India'. NCERT places it in Book 1 'Indian Society' (Ch 4), which matches CUET Indian Society Unit II."
+    },
+    {
+     "id": "SO-M.2",
+     "claim_checked": "'Story of Indian Democracy': in CUET 2026, still in NCERT, not in the CBSE 2026-27 board exam.",
+     "verdict": "partly",
+     "evidence": "The current NCERT Book 2 contents read 'Chapter 3 The Constitution and Social Change' (Revised Edition Nov 2022; chapter PDF stamped Reprint 2026-27). 'The Story of Indian Democracy' is the old title, listed as Unit 10 in the CBSE 2017 syllabus. CBSE 2026-27 Part B goes 9 then 11, with no unit 10. CUET 2026 Unit II 'Social Change and the Polity' lists 'The Constitution as an instrument of Social Change'.",
+     "source": "https://ncert.nic.in/textbook/pdf/lesy2ps.pdf (Contents); https://ncert.nic.in/textbook/pdf/lesy203.pdf (title page); https://cbseacademic.nic.in/web_material/Curriculum17/SrSecondary/25%20Sociology.pdf (old 'Unit 10: The Story of Indian Democracy'); CBSE 2026-27 PDF p.6; NTA CUET 2026 Sociology PDF p.2",
+     "correction": "The chapter is CUET-only (in CUET 2026, out of the CBSE board exam), but its current NCERT title is 'The Constitution and Social Change' (Social Change and Development in India, Ch 3). The title 'Story of Indian Democracy' no longer exists in the current book or in CUET 2026."
+    },
+    {
+     "id": "SO-M.3",
+     "claim_checked": "'Globalisation and Social Change': in CUET 2026, still in NCERT, not in the CBSE 2026-27 board exam.",
+     "verdict": "confirmed",
+     "evidence": "The NCERT Book 2 contents read 'Chapter 6 Globalisation and Social Change', and the chapter PDF title page is stamped 'Reprint 2026-27'. CBSE 2026-27 Part B goes 12 then 15, with no unit 13. CUET 2026 Unit IV 'New Arenas of Social Change' lists 'Globalisation and Social Change'.",
+     "source": "https://ncert.nic.in/textbook/pdf/lesy2ps.pdf; https://ncert.nic.in/textbook/pdf/lesy206.pdf; https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Sociology_SecP2_2026-27.pdf p.6; NTA CUET 2026 Sociology PDF p.2"
+    },
+    {
+     "id": "SO-M.4",
+     "claim_checked": "'Mass Media and Communications': in CUET 2026, still in NCERT, not in the CBSE 2026-27 board exam.",
+     "verdict": "confirmed",
+     "evidence": "The NCERT Book 2 contents read 'Chapter 7 Mass Media and Communications', and the chapter PDF is stamped 'Reprint 2026-27'. CBSE 2026-27 has no unit 14. CUET 2026 Unit IV lists 'Media and Social Change', which maps to this chapter.",
+     "source": "https://ncert.nic.in/textbook/pdf/lesy2ps.pdf; https://ncert.nic.in/textbook/pdf/lesy207.pdf; https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Sociology_SecP2_2026-27.pdf p.6; NTA CUET 2026 Sociology PDF p.2",
+     "correction": "Claim stands. The NCERT title is exactly 'Mass Media and Communications'. CUET 2026 words the topic as 'Media and Social Change', not with the chapter title."
+    },
+    {
+     "id": "SO-M.5",
+     "claim_checked": "Status of the four chapters in CBSE: formative/internal-only, or dropped from the board syllabus?",
+     "verdict": "unverifiable",
+     "evidence": "The CBSE 2026-27 (and 2025-26) document skips units 4, 10, 13 and 14 in both the course structure and the course content. It carries no note assigning them to internal or formative assessment. Only Ch 1 and Ch 7 (Project Work) are marked non-evaluative. No circular on teaching them was checked.",
+     "source": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Sociology_SecP2_2026-27.pdf pp.6-8; https://cbseacademic.nic.in/web_material/CurriculumMain26/SrSec/Sociology_SrSec_2025-26.pdf p.6",
+     "correction": "Safest wording: still printed in the NCERT books, but not in the CBSE 2026-27 board-exam syllabus. Don't call them 'internal-only' without a CBSE source."
+    }
+   ]
+  },
+  {
+   "subject": "political_science: NCERT Class 12 (Reprint 2026-27) and CBSE 2026-27 (code 028) check of the audit's chapter-map defects in data/canonical_syllabus.js lines 264-265 (NCERT/CBSE half only; the CUET half was not checked)",
+   "items": [
+    {
+     "id": "PS-H1",
+     "claim_checked": "'Cold War Era' (Contemporary World Politics) has been removed from the NCERT book and is not in the CBSE syllabus. Only the NCERT/CBSE half was checked; the CUET 2026 half was not.",
+     "verdict": "confirmed",
+     "evidence": "The NCERT Class XII rationalisation list (May 2022), book 12107, says 'Chapter 1: The Cold War Era, pp. 1-16, Full Chapter' was dropped. The Reprint 2026-27 contents now begin with 'Chapter 1 The End of Bipolarity'. CBSE 2026-27 Part A lists 7 chapters and none is a Cold War chapter. It is not listed as internal-only anywhere: it is simply absent.",
+     "source": "https://ncert.nic.in/pdf/BookletClass12.pdf (PDF p.59, printed p.58); https://ncert.nic.in/textbook/pdf/leps1ps.pdf (Contents p.xi, 'Reprint 2026-27'); https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/PoliticalScience_SecP2_2026-27.pdf (Class XII Course Structure, PDF p.10)"
+    },
+    {
+     "id": "PS-H2",
+     "claim_checked": "'US Hegemony in World Politics' has been removed from the NCERT book and is not in the CBSE syllabus. Only the NCERT/CBSE half was checked; the CUET half was not.",
+     "verdict": "confirmed",
+     "evidence": "The NCERT rationalisation list, book 12107, says 'Chapter 3: US Hegemony in World Politics, pp. 31-50, Full Chapter' was dropped. It is absent from the Reprint 2026-27 contents (7 chapters). The word 'hegemon' appears nowhere in the CBSE 2026-27 or 2025-26 Political Science PDFs.",
+     "source": "https://ncert.nic.in/pdf/BookletClass12.pdf (PDF p.59); https://ncert.nic.in/textbook/pdf/leps1ps.pdf (Contents p.xi); https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/PoliticalScience_SecP2_2026-27.pdf (p.10)"
+    },
+    {
+     "id": "PS-H3",
+     "claim_checked": "'Rise of Popular Movements' has been removed from the NCERT book and is not in CBSE 2026-27. Only the NCERT/CBSE half was checked; the CUET half was not.",
+     "verdict": "confirmed",
+     "evidence": "The NCERT rationalisation list, book 12119, says 'Chapter 7: Rise of Popular Movements, pp. 128-147, Full Chapter' was dropped. The Reprint 2026-27 book has 8 chapters, and Chapter 7 is now 'Regional aspirations'. CBSE 2026-27 Part B lists 8 chapters, and the phrase 'popular movement' appears nowhere in the PDF.",
+     "source": "https://ncert.nic.in/pdf/BookletClass12.pdf (PDF p.72, printed p.71); https://ncert.nic.in/textbook/pdf/leps2ps.pdf (Contents p.xiii); https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/PoliticalScience_SecP2_2026-27.pdf (p.10)"
+    },
+    {
+     "id": "PS-M.1",
+     "claim_checked": "'Alternative Centres of Power' is now titled 'Contemporary Centres of Power'.",
+     "verdict": "confirmed",
+     "evidence": "Reprint 2026-27 Contents: 'Chapter 2 Contemporary Centres of Power ... 15'. CBSE 2026-27 Part A Chapter 2 is 'Contemporary Centres of Power'. The old title 'Alternative Centres of Power' (formerly Chapter 4) is confirmed only by secondary sites such as Vedantu. CBSE 2022-23 used the unit label 'New Centres of Power'.",
+     "source": "https://ncert.nic.in/textbook/pdf/leps1ps.pdf (Contents p.xi); https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/PoliticalScience_SecP2_2026-27.pdf (p.10); secondary: https://www.vedantu.com/ncert-books/ncert-books-class-12-political-science-contemporary-world-politics"
+    },
+    {
+     "id": "PS-M.2",
+     "claim_checked": "'Democratic Upsurge and Coalition Politics' and 'Recent Issues and Challenges' are both covered by the single NCERT chapter 'Recent Developments in Indian Politics'.",
+     "verdict": "confirmed",
+     "evidence": "Neither title exists in the NCERT book. Chapter 8 (p.136) is 'Recent developments in Indian politics'. CBSE lists its topics as Era of Coalition, Mandal, Ayodhya, New Consensus and Lok Sabha Elections 2004-2019. One caveat: CBSE's added sub-topic 'Democratic Upsurges' is filed under Chapter 6, not Chapter 8.",
+     "source": "https://ncert.nic.in/textbook/pdf/leps2ps.pdf (Contents p.xiii); https://ncert.nic.in/textbook/pdf/leps208.pdf; https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/PoliticalScience_SecP2_2026-27.pdf (Ch 8 content PDF p.15; Annexure 'Democratic Upsurges' PDF p.32, under 'Chapter-6 The Crisis of Democratic Order')"
+    },
+    {
+     "id": "PS-M.3",
+     "claim_checked": "Is 'Era of One-Party Dominance' still a current chapter? If it were dropped, the map entry would be a defect.",
+     "verdict": "refuted",
+     "evidence": "It is still current: Reprint 2026-27 Contents lists 'Chapter 2 Era of one-party dominance ... 26', and CBSE 2026-27 Part B lists it as Chapter 2. The 2022 rationalisation dropped only p.41 and the box 'Party competition in Bihar', not the chapter.",
+     "source": "https://ncert.nic.in/textbook/pdf/leps2ps.pdf (Contents p.xiii); https://ncert.nic.in/pdf/BookletClass12.pdf (PDF p.71); https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/PoliticalScience_SecP2_2026-27.pdf (p.10)",
+     "correction": "Keep 'Era of One-Party Dominance' in the map. It is a current chapter (NCERT Ch 2, CBSE Part B Ch 2) and should not be flagged."
+    },
+    {
+     "id": "PS-BOOKS",
+     "claim_checked": "CBSE subject code and prescribed books for Class XII Political Science, plus the full current chapter lists to use for the fix.",
+     "verdict": "confirmed",
+     "evidence": "CBSE code 028 for 2026-27. The books are NCERT 'Contemporary World Politics' (12107) and 'Politics in India since Independence' (12119), plus CBSE's added reference material. Part A: End of Bipolarity, Contemporary Centres of Power, Contemporary South Asia, International Organisations, Security in the Contemporary World, Environment and Natural Resources, Globalisation. Part B: Challenges of Nation Building, Era of One-party Dominance, Politics of Planned Development, India's External Relations, Challenges to and Restoration of the Congress System, The Crisis of Democratic Order, Regional Aspirations, Recent Developments in Indian Politics. CBSE 2025-26 has the same lists.",
+     "source": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/PoliticalScience_SecP2_2026-27.pdf (p.1, p.10, Prescribed Books p.15); https://cbseacademic.nic.in/web_material/CurriculumMain26/SrSec/PoliticalScience_SrSec_2025-26.pdf; https://ncert.nic.in/textbook/pdf/leps1ps.pdf; https://ncert.nic.in/textbook/pdf/leps2ps.pdf"
+    }
+   ]
+  }
+ ],
+ "critic": "Completeness critique of `C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\docs\\brain\\INTELLIGENCE-LAYER-PLAN-2026-10-31.md`. Code facts were read from origin/main, except the Flutter app, which was read from feat/app-and-web. Ranked by importance.\n\n1. **The plan breaks written product rules (sections 5, 6, 8)**\n   - **What is wrong:** it adds a \"Mastered\" level, a mastery ladder, \"Marks at stake = weight x (1 - Answering)\" and the pace labels Careless, Rushing and Guessing.\n   - **What the rules say:**\n     - `docs/brain/CLAUDE-MASTER-HANDOVER.md` rule 5 bans a mastery percentage.\n     - Rule 6 says a wrong answer is \"a hypothesis, not a psychological label\".\n     - Rule 7 says never claim \"mastered\" or \"recovered marks\".\n     - The header of `data/prepos_insights.js` says never \"a mastery level ... or marks you could recover\".\n     - `data/tests/prepos_insights.test.mjs:111` fails on the text `/mastered/`.\n   - **The pace claim is also wrong:** the plan says pace waits for `best_dwell_ms`. But `data/paper_trace.js` and the Mistake Lab already time every question and group answers (quick_wrong, long_stay, changed_from_right). The \"pace coach\" would repeat what exists.\n   - **Fix:**\n     - Rename the levels to evidence states with no claim attached, for example: Not started / Thin record / Needs work / Holding / Fading.\n     - Replace \"Marks at stake\" with the real marks lost from `data/review_chapters.mjs`. Or label it \"chapter weight x gap, not a prediction\".\n     - Drop the pace labels and reuse the Mistake Lab groups.\n     - If the owner wants \"Mastered\" or a marks forecast, add it to section 8 as a decision to override these rules.\n\n2. **Nobody tags the 8,549 questions to concepts (sections 3, 7 phase 1)**\n   - **Why it matters:** \"The line you needed\", reason lines such as \"mostly on Nernst equation\", concept-level state and the phase 5 measurement all need each question tied to a concept. Today `question_concepts` has 0 rows, and generated questions carry one concept per chapter. Phase 1 writes concept lists but never tags any questions.\n   - **Fix:**\n     - Add a tagging pass to phase 1. Each live question gets 1-2 concept IDs with a confidence score.\n     - When the tag is uncertain, store no tag; never force one.\n     - Check a sample of tags before release.\n     - \"The line you needed\" falls back to the chapter's Must-know cards when a question has no tag.\n\n3. **No source text to check cards against (section 4c)**\n   - **What is missing:**\n     - There are no NCERT PDFs in the repo.\n     - The syllabus audit could not read ncert.nic.in.\n     - Under AGENTS.md, a second agent agreeing with the first does not prove a card is true.\n   - **Why it matters:** without the book text, the agents will write cards from memory and invent facts.\n   - **Fix:**\n     - Add step 0: fetch and store each NCERT chapter PDF with its reprint year and sha256, outside the public bundle, and extract the text page by page.\n     - Run machine checks: every number, date, proper noun and term on a card's back must appear in the cited page text, and a cloze answer must be an exact substring of it.\n     - A checker agent may only quarantine a card, never approve one.\n     - Publish only with 0 failed machine checks plus a blind sample audit whose error rate is recorded.\n     - Decks with no NCERT book need named sources or stay quarantined: English (WordNet), GAT (static GK, and current affairs with a dated URL per card) and Applied Maths B2 (no NCERT book).\n\n4. **The card numbers cannot work (sections 4c-4d, 7 phase 2 gate)**\n   - **The limits in code:** `NEW_CARDS_PER_DAY = 5` across all subjects, a 20-item queue, and new cards pause once more than 20 are overdue.\n   - **The arithmetic:**\n     - A commerce student (Accountancy, Business Studies, Economics: about 41 chapters x 30 cards) has about 1,230 cards before English and GAT. At 5 a day that takes about 250 days; CUET 2027 is about 195 days away.\n     - Each card gets about 4 reviews in its first month. So 5 new cards a day already means about 20 reviews a day, which fills the cap. Any skipped day then pauses new cards for good.\n   - **Fix:**\n     - Schedule only Must-know cards (at most about 12 per chapter). Good-to-know cards stay in book-order browsing and Last look.\n     - Set the new-card allowance per chosen chapter set.\n     - Cap FSRS's longest interval at the exam date.\n     - Add a fixture that simulates 180 days for a 5-subject student at 10 minutes a day and checks the backlog stays bounded.\n\n5. **The Learn suite code blocks Key cards and wipes progress on edits (sections 4b, 4d, phase 2)**\n   - **What the code does:**\n     - `taughtRecallCards` only lets in new cards from a *completed lesson*. Key cards have no lesson, so they never enter the queue.\n     - `STUDY_SUBJECTS` is hard-coded to 4 subjects, and `preferences()` throws `INVALID_SUBJECTS` for any other.\n     - `recallQueue` drops a student's state whenever `content_version` changes. Any card fix resets their memory of that card.\n     - A chapter rename changes the study unit hash. Running sessions then get `STUDY_CONTENT_CHANGED`.\n   - **Fix:**\n     - Define \"started\": the chapter deck was opened in book order, or at least 1 question in the chapter was answered.\n     - Build the subject list from the spine instead of hard-coding it.\n     - Add a stable `memory_key` and two edit classes: a typo fix keeps the student's state, a change of meaning resets it.\n     - Run the phase 0 renames through this same rule.\n\n6. **The spine has no stream or board fields, and section 3 contradicts the audit (sections 3, 6)**\n   - **The contradiction:** the plan says \"No Class 11 chapters in the CUET map\" and gives every chapter a \"class 12 only\" field. But CUET Economics tests Introductory Microeconomics, which CBSE teaches in Class 11.\n   - **What is missing:** the audit flags Maths B1/B2 and CS/IP as HIGH, yet the table has no stream field.\n   - **Fix:**\n     - Add these fields: `stream` (Maths A1 + B1/B2, CS Section A + B1/B2, Accountancy AFS/CAS), `cuet_section`, `in_cbse_board_exam` and `cbse_class`.\n     - Add a one-tap stream picker on the subject page (not onboarding).\n     - Filter questions, cards, chapter state, Fix it and mocks by stream.\n     - Name CBSE in the labels (\"CUET only, not in the CBSE board exam\"), because state-board students would read a bare \"board\" wrongly.\n\n7. **The student model will give wrong numbers (section 5)**\n   - **What breaks:**\n     - The table is updated only on writes, but Fading, Remembering and the 3-week half-life change with time alone.\n     - Nothing recomputes the state when a key is corrected or held, a question is re-tagged or quarantined, or an alias changes (handover rule 8 asks for versioned projections).\n     - Answering counts repeats. Rule 7 says repeats, Revise recalls and answers given right after seeing the matching card do not count.\n     - \"5 hard questions right\" is impossible in chapters with fewer than 5 hard questions, and the difficulty tags are not calibrated.\n   - **Fix:**\n     - Store raw counts and compute decay at read time in `chapter_state.js`.\n     - Add a full recompute when evidence changes.\n     - Count only the first attempt at each question.\n     - Set evidence floors relative to how many questions the chapter has.\n\n8. **The rename plan for old attempts fails on splits and old app versions (sections 3, 7 phase 0)**\n   - **What fails:**\n     - An alias map cannot resolve one old name that becomes several chapters: Resources & Development (into 3), Data Structures, Transport/Trade (World vs India) and Pandas I/II.\n     - App versions already on phones send and expect chapter names.\n     - Name users include `cuet_chapter_priorities.json`, `chapter_order.dart`, the upload API and about 20 pipeline scripts.\n   - **Fix:**\n     - Resolve each old answer by question_id to the question's current chapter_id. Use the alias only for deleted questions.\n     - Questions marked `needs_retag` count toward no chapter.\n     - Answers in retired chapters are kept in history but left out of the state.\n     - The API accepts both forms and returns {id, name} for N app releases.\n     - Update every name user in the same change.\n     - Replace the \"half a day\" estimate.\n\n9. **There are more than four weak-chapter rules, and Fix it repeats existing flows (sections 1c, 5, 6)**\n   - **Rules the plan missed:**\n     - `data/mock_swot.js` (weakChapter: Wilson high below 65, at least 6 answered across 2 papers).\n     - `data/review_chapters.mjs` (marks lost, with a Dart port on the app).\n   - **Overlaps:**\n     - \"Fix it\" repeats SWOT's \"Do these next\" (chapterCount 10) and the existing Repair and fresh-check steps.\n     - Handover rule 9 asks for one server-chosen next action, plus at most two alternatives.\n   - **Fix:**\n     - Write a full inventory of the rules and a decision for each surface. Review keeps its marks-lost ranking and adds a level chip. SWOT reads the chapter state for record-level items.\n     - Fix it extends \"Do these next\" instead of adding a new button.\n     - Slot due cards into the existing next-action priority order.\n\n10. **The NCERT quoting plan changes the current policy without saying so (sections 4a, 4c, 8)**\n    - **The current policy:** every authored source today says \"reference only; MockMob explanations ... are original\".\n    - **The risk:** Key line cards and printable chapter sheets would copy NCERT lines into a commercial product, and the static JSON would make them easy to scrape.\n    - **Fix:** decision 2 must say it changes the existing policy. Default to paraphrase. Quote word for word only when the exact wording is what gets tested, at most 25 words and about 5 per chapter, with the page cited. No figures or tables. Chapter sheets are paraphrase only.\n\n11. **The single daily queue mixes two kinds of item and ignores offline use (section 4d)**\n    - **What is mixed:** Revise items are MCQs graded on the server (keys stay there) and take 40 seconds each by `REVISE_RULES`. So 20 items is about 13 minutes, not 5. The three buttons only fit self-rated cards.\n    - **Offline:** in the app, Learn reviews already work offline through the outbox, but Revise only works online.\n    - **Fix:**\n      - Estimate time per item type.\n      - Offline means cards only, with reviews stamped by the device and replayed once (FSRS uses the review time; limit clock skew).\n      - Map the buttons explicitly: Missed/Got it/Easy = FSRS 1/3/4.\n      - Keep the existing 5/10 cap choices.\n      - The app caches the last chapter state and shows its \"as of\" time.\n\n12. **Measurement gaps (sections 5, 7 phase 5)**\n    - **Self-ratings:** Remembering comes from self-ratings that teenagers inflate to clear the queue, and FSRS's default parameters are not tuned to this group.\n    - **Phase 5:** students choose what to review (bias), 12 active students give no statistical power, and no events are logged yet.\n    - **Fix:**\n      - Prefer checked card types (typed cloze, MCQ); `study_engine` already supports them.\n      - Log predicted recall against the actual outcome, and do not let Remembering decide any label until that is calibrated.\n      - Log card events from day 1.\n      - Measure only on fresh question families, and state up front that results cannot be read for months.\n\n13. **The syllabus version is fixed to 2026 (sections 2, 3, 4b)**\n    - **The problem:** today's Class 12 students sit CUET 2027. That syllabus is not published, and new NCF-SE textbooks may change titles and page numbers.\n    - **Fix:**\n      - Key the flags by exam year instead of `in_cuet_2026`.\n      - Each card cites the NCERT reprint year.\n      - Re-run the audit as soon as NTA publishes the 2027 PDFs.\n      - Write a retirement procedure for cards and student states: archive, never delete.\n\n14. **Wrong order of work (sections 1d, 7)**\n    - Thin chapters in the pilot subjects need questions *in phase 2*. Fix it needs 10 fresh questions, and 97 chapters have fewer than 20.\n    - **The Flutter app is not on origin/main** (0 Dart files there; it lives only on feat/app-and-web), so \"all build work starts from origin/main\" fails for app work. A branch plan is needed, with shared fixtures for the pure modules.\n    - Retiring 217 questions may thin the full-mock pools behind the \"unlimited mocks\" claim. Check each subject's pool after phase 0.\n\n15. **Load, egress and RLS (sections 4c, 5, 7)**\n    - **Load and egress:**\n      - `studyRecord` reads all `study_card_states` (`select('*')`).\n      - It loops cards x states.\n      - It hashes every card row on every call.\n      - With about 7,000 cards, Today becomes heavy.\n      - \"Card content comes from the CDN\" contradicts the server reading card rows from Supabase.\n    - **Fix for load:**\n      - Check one digest per deck when the cache fills.\n      - Add an RPC that returns only due states.\n      - Use Map indexes.\n      - Store chapter-state rows only where there is evidence.\n      - Add a load fixture.\n    - **RLS (row-level security):**\n      - Enable it on every new table.\n      - `student_chapter_state` is written only by a security-definer RPC, and students read only their own rows.\n      - Content tables are read-only to students.\n\n16. **No way to report or retract a published card (sections 4b, 4c)**\n    - **Fix:**\n      - Add a \"report this card\" button that quarantines the card automatically at a threshold, like the existing key-quality loop.\n      - If a card contradicts the key of a question on the same fact, quarantine both.\n      - A quarantined card leaves the queues, but the student's state is kept.\n\n17. **No written check of each chapter's content (sections 1, 7)**\n    - **What is missing:** the owner asked about questions, cards *and practice material*. The plan has no target for lessons and no recurring check.\n    - **Fix:**\n      - Add a weekly per-chapter report covering live questions by difficulty and by format, explanations of at least 40 characters, questions per concept (at least 3), past-paper anchors, Must-know cards and lessons.\n      - Mark each chapter pass or fail.\n      - When a chapter's question bank is under the floor, the screens say \"We are adding questions to this chapter\".\n      - Say explicitly that Hindi and the other language papers are out of scope (they are in `canonical_syllabus.js` but not in TOP_SUBJECTS).\n\n18. **Guilt and overload after breaks (sections 4d, 6)**\n    - **Why it matters:** students stop for weeks during the CBSE board exams (about February to March 2027). FSRS then piles up a backlog.\n    - **Fix:**\n      - Show only today's capped number, never the total overdue.\n      - After any gap of more than 7 days, offer a \"fresh start\" that spreads the old reviews out.\n      - A board-exam pause mode.\n      - If there is a streak, count finishing today's capped queue, with freeze days.\n      - At most 4 levels and one visible axis.\n\n19. **Ask Mobi and AI spend (sections 4d, 6)**\n    - **What is wrong:**\n      - Adding cards to Mobi's context adds tokens, so \"costs less\" is unproven.\n      - \"What should I revise tonight? ... free\" does not say whether it calls the model.\n      - Handover rule 4: scheduling and diagnosis must use zero paid model calls.\n    - **Fix:**\n      - That answer is computed with no model call.\n      - Mobi gets at most N Must-know cards, counted in `runtime_ai_budget`.\n      - Measure tokens before and after.\n\n20. **A rival pattern the plan skips (sections 4a, 5)**\n    - **What rivals do:** Testbook offers \"Question Type\" tests as their own axis. NEET apps that quiz each NCERT line use true/false and fill-up items. CUET relies heavily on assertion-reason, match-the-list and \"which statements are correct\" questions, and the trap atlas already detects these formats.\n    - **Fix:**\n      - Add accuracy by question format to the reason lines and to the mix inside Fix it.\n      - Add a \"Statement check\" (true/false) card type."
+}

@@ -1,0 +1,177 @@
+{
+ "conflicts": [
+  {
+   "hold": [
+    "kc.economics.indian-economic-development-1950-1990.fact-agri-population-75"
+   ],
+   "keep": [
+    "kc.economics.indian-economic-development-1950-1990.fact-agri-population-share-1950-90",
+    "kc.economics.indian-economic-development-1950-1990.fact-agri-65-percent-1990"
+   ],
+   "why": "keec102 p.24 says about 75 per cent of the population depended on agriculture at independence; p.27 says 67.5 per cent in 1950 falling to 64.9 per cent by 1990 (p.26: 65 per cent in 1990). Keep the specific figures on p.26-27."
+  },
+  {
+   "hold": [
+    "kc.economics.indian-economy-on-the-eve-of-independence.fact-agrarian-85-per-cent"
+   ],
+   "keep": [
+    "kc.economics.indian-economic-development-1950-1990.fact-agri-population-share-1950-90"
+   ],
+   "why": "keec101 p.5 gives about 85 per cent of the population as living in villages and living off agriculture (colonial rule); keec102 p.27 gives 67.5 per cent dependent on agriculture in 1950. A student holds two answers for the farm-dependent share at independence. Judgement call: held because the exam side is unclear."
+  },
+  {
+   "hold": [
+    "kc.economics.money-and-banking.key-only-rbi-issues-currency"
+   ],
+   "keep": [
+    "kc.economics.money-and-banking.fact-currency-issuers"
+   ],
+   "why": "leec103 p.42 'Reserve Bank is the only institution which can issue currency'; p.48 says notes are issued by RBI but coins by the Government of India."
+  },
+  {
+   "hold": [
+    "kc.economics.theory-of-firms-under-perfect-competition.fact-demand-shift-same-direction"
+   ],
+   "keep": [
+    "kc.economics.theory-of-firms-under-perfect-competition.fact-free-entry-demand-shift",
+    "kc.economics.theory-of-firms-under-perfect-competition.diff-fixed-vs-free-entry-demand-shift",
+    "kc.economics.theory-of-firms-under-perfect-competition.fact-summary-demand-shift-fixed"
+   ],
+   "why": "leec205 p.77 card says price and quantity always move the same way when demand shifts, with no context; p.83 shows that under free entry and exit a demand shift leaves price unchanged. The p.77 card only holds for a fixed number of firms."
+  },
+  {
+   "hold": [
+    "kc.economics.balance-of-payments.fact-bpm6-three-accounts",
+    "kc.economics.balance-of-payments.fact-new-classification-financial-account"
+   ],
+   "keep": [
+    "kc.economics.balance-of-payments.types-bop-accounts"
+   ],
+   "why": "leec106 p.86 body teaches two BoP accounts (current, capital), with capital account recording all asset transactions; footnote cards (p.86, p.90) say BPM6 has three accounts and moves financial assets to a financial account. Chapter body treats two accounts as the model, so the footnote cards are held. Judgement call."
+  },
+  {
+   "hold": [
+    "kc.economics.indian-economic-development-1950-1990.fact-defence-hotels"
+   ],
+   "keep": [
+    "kc.economics.economic-reforms-since-1991.fact-public-sector-reserved"
+   ],
+   "why": "keec102 p.32 'even now only the public sector supplies national defense' versus keec103 p.41 'the only industries now reserved for the public sector are part of atomic energy and some railway activities'. Keep the later, more specific reform-chapter statement."
+  }
+ ],
+ "duplicates": [
+  [
+   "kc.economics.indian-economic-development-1950-1990.def-marketed-surplus",
+   "kc.economics.indian-economic-development-1950-1990.term-marketed-surplus"
+  ],
+  [
+   "kc.economics.indian-economic-development-1950-1990.def-modernisation",
+   "kc.economics.indian-economic-development-1950-1990.term-modernisation"
+  ],
+  [
+   "kc.economics.income-determination.def-mps-box",
+   "kc.economics.income-determination.formula-mps-eq"
+  ],
+  [
+   "kc.economics.income-determination.def-mpc-box",
+   "kc.economics.income-determination.formula-mpc-eq"
+  ],
+  [
+   "kc.economics.income-determination.def-savings",
+   "kc.economics.income-determination.formula-savings-eq"
+  ],
+  [
+   "kc.economics.theory-of-firms-under-perfect-competition.def-profit-def",
+   "kc.economics.theory-of-firms-under-perfect-competition.formula-profit-formula"
+  ],
+  [
+   "kc.economics.production-and-costs.key-sum-mc-tvc",
+   "kc.economics.production-and-costs.key-summary-sum-mc"
+  ],
+  [
+   "kc.economics.production-and-costs.key-tvc-area-smc",
+   "kc.economics.production-and-costs.key-summary-area-smc"
+  ],
+  [
+   "kc.economics.production-and-costs.def-total-revenue",
+   "kc.economics.production-and-costs.formula-total-revenue"
+  ],
+  [
+   "kc.economics.production-and-costs.key-summary-tc",
+   "kc.economics.production-and-costs.frm-tc"
+  ],
+  [
+   "kc.economics.production-and-costs.key-summary-ac",
+   "kc.economics.production-and-costs.frm-sac-avc-afc"
+  ],
+  [
+   "kc.economics.human-capital-formation.def-hc-vs-hd-definition",
+   "kc.economics.human-capital-formation.diff-hc-vs-hd-view"
+  ],
+  [
+   "kc.economics.balance-of-payments.def-revaluation",
+   "kc.economics.balance-of-payments.diff-devaluation-revaluation"
+  ],
+  [
+   "kc.economics.balance-of-payments.def-devaluation",
+   "kc.economics.balance-of-payments.diff-devaluation-revaluation"
+  ],
+  [
+   "kc.economics.balance-of-payments.def-autonomous",
+   "kc.economics.balance-of-payments.fact-autonomous-above-the-line"
+  ],
+  [
+   "kc.economics.balance-of-payments.fact-managed-dirty-floating",
+   "kc.economics.balance-of-payments.fact-managed-official-reserve-nonzero"
+  ],
+  [
+   "kc.economics.indian-economic-development-1950-1990.list-goals-four",
+   "kc.economics.indian-economic-development-1950-1990.kl-goals-four-names"
+  ],
+  [
+   "kc.economics.introduction-and-theory-of-consumer-behaviour.key-optimum-tangent",
+   "kc.economics.introduction-and-theory-of-consumer-behaviour.key-optimum-tangency-summary"
+  ],
+  [
+   "kc.economics.economic-reforms-since-1991.fact-industry-slowdown",
+   "kc.economics.economic-reforms-since-1991.key-industry-slowed"
+  ],
+  [
+   "kc.economics.economic-reforms-since-1991.fact-wto-purpose",
+   "kc.economics.economic-reforms-since-1991.key-wto-objective"
+  ],
+  [
+   "kc.economics.economic-reforms-since-1991.fact-forex-fortnight",
+   "kc.economics.economic-reforms-since-1991.key-reserves-two-weeks"
+  ],
+  [
+   "kc.economics.rural-development.def-agricultural-marketing",
+   "kc.economics.rural-development.list-agricultural-marketing-activities"
+  ],
+  [
+   "kc.economics.money-and-banking.key-quantitative-tools",
+   "kc.economics.money-and-banking.types-tools-types"
+  ],
+  [
+   "kc.economics.money-and-banking.def-liabilities",
+   "kc.economics.money-and-banking.formula-liabilities-formula"
+  ],
+  [
+   "kc.economics.balance-of-payments.list-flexible-merits",
+   "kc.economics.balance-of-payments.key-flexible-major-advantage"
+  ],
+  [
+   "kc.economics.production-and-costs.def-short-run",
+   "kc.economics.production-and-costs.key-summary-sr-lr"
+  ],
+  [
+   "kc.economics.money-and-banking.def-barter-exchange",
+   "kc.economics.national-income-and-related-aggregates.def-barter-exchanges"
+  ],
+  [
+   "kc.economics.employment.def-gdp",
+   "kc.economics.indian-economic-development-1950-1990.def-gdp"
+  ]
+ ],
+ "pairsRead": 323
+}

@@ -1,0 +1,20 @@
+{
+  "id": "20261015T150749.251855Z-1f64ece5",
+  "observed_at": "2026-10-15T15:07:49.252855+00:00",
+  "agent": "claude-opus-5.5 (session 604ced81)",
+  "task": "15 Oct ~21:35 IST: evening handoff written; 5 workflows running; usage about 80%",
+  "status": "active",
+  "done": "Full handoff: mockmob-next/docs/brain/HANDOFF-2026-10-15-EVENING.md (committed). Hosting verdict: docs/brain/HOSTING-VERDICT-2026-10-15.md. Supabase stays Free (grace period ends 9 Nov per the owner; the cycle resets before; conditions: fixes 1-4, fix 5, weekly usage check, backups). Vercel: Pro when payments go live (about $150-250/month at 10k DAU is an estimate, Pro is not unlimited); stay off Cloudflare for now; functions in sin1. Google login works (Supabase redirect added by the owner); the Vercel challenge mode is off.",
+  "next": "Follow HANDOFF-2026-10-15-EVENING.md section 4: deploy usage fixes first (wt-usage), then fix 5 plus backups; merge and deploy the landing fixes and speed pass (wt-web-v2); slice 3 merge and deploy (wt-deploy web/lab-s3); app waves 3 and 4a plus the slice 3 app, then APK v9 installed on the owner's phone over adb; then wave 4b (the You hub, Review copy, UX audit findings).",
+  "blockers": [
+    "Usage about 80%: stop at about 95% after committing every worktree's WIP"
+  ],
+  "evidence": [
+    "docs/brain/HANDOFF-2026-10-15-EVENING.md",
+    "origin/main 48309076 live"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

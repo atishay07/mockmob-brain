@@ -1,0 +1,87 @@
+{
+ "kind": "authored_scores_check",
+ "version": "authored-scores-1",
+ "source": "claude-authored-2026-10-17-w4",
+ "repairedTextPolicy": "admit",
+ "at": "2026-10-17T04:38:05.858Z",
+ "planned": 200,
+ "agentEntries": 200,
+ "hashChangedByRepair": 4,
+ "heldForFreshPass": 0,
+ "engineEligible": 200,
+ "engineIneligible": 0,
+ "engineIneligibleReasons": {},
+ "fitGate": {
+  "mirror": "scripts/lib/authored-scores.mjs fitGateReasons (mirror of data/nta_fit_scores.js ntaFitVerdict)",
+  "minFit": 8,
+  "pass": 200,
+  "reasons": {},
+  "baseTablesMissing": []
+ },
+ "qualityAndFitBoth": 200,
+ "passageSets": {
+  "servable": 0,
+  "of": 2,
+  "blueprint": {
+   "passageWords": {
+    "min": 200,
+    "target": 280,
+    "max": 300
+   },
+   "minChildren": 4
+  },
+  "sets": [
+   {
+    "groupId": "pg_eab9d63caa017afe7b12f2dbbf1e8bdb",
+    "subject": "chemistry",
+    "chapter": "Amines",
+    "words": 221,
+    "children": 3,
+    "eligibleChildren": 3,
+    "servable": false
+   },
+   {
+    "groupId": "pg_b7882a710c1211b3bc786ffe1f79a734",
+    "subject": "general_test",
+    "chapter": "Numerical Ability",
+    "words": 116,
+    "children": 4,
+    "eligibleChildren": 4,
+    "servable": false
+   }
+  ]
+ },
+ "bySubject": {
+  "biology": {
+   "planned": 35,
+   "eligible": 35,
+   "fitPass": 35,
+   "both": 35
+  },
+  "chemistry": {
+   "planned": 42,
+   "eligible": 42,
+   "fitPass": 42,
+   "both": 42
+  },
+  "general_test": {
+   "planned": 39,
+   "eligible": 39,
+   "fitPass": 39,
+   "both": 39
+  },
+  "mathematics": {
+   "planned": 51,
+   "eligible": 51,
+   "fitPass": 51,
+   "both": 51
+  },
+  "physics": {
+   "planned": 33,
+   "eligible": 33,
+   "fitPass": 33,
+   "both": 33
+  }
+ },
+ "ineligible": []
+}

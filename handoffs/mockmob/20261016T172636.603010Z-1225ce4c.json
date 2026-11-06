@@ -1,0 +1,41 @@
+{
+  "id": "20261016T172636.603010Z-1225ce4c",
+  "observed_at": "2026-10-16T17:26:36.604514+00:00",
+  "agent": "claude-ap1-motion-builder",
+  "task": "App pass 1016e packet AP-1 (core motion + Today motion) in wt-appux2, branch ui/ux-social-1016",
+  "status": "paused",
+  "done": "Built AP1-01 container transform (no text under 80% open, 0.94 scale, pop on emphasized.flipped), AP1-02 interruptible tab switch, AP1-04 lead-then-group MmStagger (+Practice rise 8), AP1-10 bar badge, AP1-11 leading-only overscroll suppression, AP1-12 MmScroll.toTop on Today/Practice/Review, AP1-13 MmSheetRoute velocity-seeded close, AP1-14 FoldExit on Out 200+200, AP1-16 timings (sweep 600ms after 300ms, walk 1100ms, caption 2000ms). Commits 26637f46, 9784153d, e1814c37, 5b0a95ac.",
+  "next": "Device walk on rig (Night, Day, Remove animations) for all built items; then AP1-03, 06, 07, 08, 09 (+lint), 10 v12 sites, 15, rest of 16. See docs/design-decisions/pass-1016e/AP1-DECISIONS.md.",
+  "blockers": [
+    "No emulator in this workflow: nothing has been proven on a device yet",
+    "object_art golden ~2.9% diff from another agent's uncommitted hybrid_sims.dart",
+    "test/unit/you failures with MissingPluginException getTemporaryDirectory, not from AP-1 files"
+  ],
+  "evidence": [
+    "analyze clean on touched paths",
+    "1510 unit tests passed (core_ui, core_widgets, core, today, practice, review) after commit 1",
+    "sheet, motion, bar unit + bar golden tests pass",
+    "today_open_frames goldens regenerated and opened at Night and Day"
+  ],
+  "touched_files": [
+    "flutter_app/lib/core/router/transitions.dart",
+    "flutter_app/lib/core/motion/entrance.dart",
+    "flutter_app/lib/core/motion/pull_refresh.dart",
+    "flutter_app/lib/core/motion/scroll_effects.dart",
+    "flutter_app/lib/core/motion/fold_exit.dart",
+    "flutter_app/lib/core/widgets/mm_sheet.dart",
+    "flutter_app/lib/core/widgets/bar/mm_bar.dart",
+    "flutter_app/lib/features/today/widgets/hero_stage.dart",
+    "flutter_app/lib/features/today/widgets/road_timeline.dart",
+    "flutter_app/lib/features/today/screens/today_body.dart",
+    "flutter_app/lib/features/today/screens/today_screen.dart",
+    "flutter_app/lib/features/practice/practice_screen.dart",
+    "flutter_app/lib/features/review/screens/review_screen.dart",
+    "flutter_app/test/unit/core_ui/{container_frames,tab_switch_interrupt,stagger_lead,scroll_to_top,sheet_velocity}_test.dart",
+    "flutter_app/test/golden/today/goldens/today_open_frames_{night,day}.png",
+    "docs/design-decisions/pass-1016e/AP1-DECISIONS.md"
+  ],
+  "verification": "Unit and golden tests only; no rig walk.",
+  "cost_and_pending_requests": "none",
+  "confidence": "agent-reported; verify evidence before acting"
+}

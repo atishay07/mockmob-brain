@@ -1,0 +1,34 @@
+{
+  "id": "20261020T153948.345851Z-5882cb73",
+  "observed_at": "2026-10-20T15:39:48.345851+00:00",
+  "agent": "Sonnet 5.5 (web release fix stage)",
+  "task": "Website release 15: fix reviewer problems on web/1020-v15-release",
+  "status": "complete",
+  "done": "Fixed all five reviewer points on web/1020-v15-release (head 8a4df5a21): missing-function memory (5 min per function) for mob_den_fix and mob_hours_*, family fallback in attempt_question_ids, mob_den_fix filters member state before limit, credit sentences from MOCK_SIT_CREDITS, and merged consent-d183 e4aae0fe9 (clean, merge 2c71cb810). All suites green except the pre-existing test:study wordnet failure; build exit 0.",
+  "next": "Orchestrator: review and merge web/1020-v15-release to main only with the owner's deploy decision; apply the seven new migrations in order on staging first (dry run), compare attempt_question_ids family sets for a few real students, then production; den steps 2 and 3 and Mob hours go live within 5 minutes of 152000 and 151000 being applied.",
+  "blockers": [
+    "Seven new migrations have had no staging or production dry run; STOP POINT SQL profiles tested on PGlite only"
+  ],
+  "evidence": [],
+  "touched_files": [
+    "src/lib/server/mob/missing.js",
+    "src/lib/server/mob/games.js",
+    "src/lib/server/mob/hours.js",
+    "src/lib/mob/model.mjs",
+    "src/lib/mob/v3/denCopy.mjs",
+    "src/lib/mob/denFix.mjs",
+    "supabase/migrations/20261020150100_attempt_question_ids_fn.sql",
+    "supabase/migrations/20261020152000_mob_den_fix.sql",
+    "data/attempt_question_ids.js",
+    "data/tests/mob_den_fix_1020.test.mjs",
+    "data/tests/mob_hours_1020.test.mjs",
+    "data/tests/mob_full_together_1020.test.mjs",
+    "data/tests/egress_ids.test.mjs",
+    "data/tests/egress_review.test.mjs",
+    "docs/brain/APP-API-CONTRACT.md",
+    "docs/brain/STATUS.md"
+  ],
+  "verification": "test:mob 351/351, billing 453/453, app 979 (978 pass 1 skipped), auth 125, recovery 640 (637 pass 3 todo), egress 101, health-egress 56, attempt-reads 12, nta 229, learning 357, today 120, subjects 38, dock 56, community 11, du 42, least-privilege 12, health-auth-board 10, answer-integrity 11, goal-minutes 23, question-reorder 26, authored-publish 159, factory 332; test:study 61/62 (pre-existing wordnet LICENSE_UNAVAILABLE, same on origin/main). next build --webpack exit 0, no warnings. No Supabase call, no push, no deploy.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

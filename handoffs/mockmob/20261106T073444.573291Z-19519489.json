@@ -1,0 +1,30 @@
+{
+  "id": "20261106T073444.573291Z-19519489",
+  "observed_at": "2026-11-06T07:34:44.574294+00:00",
+  "agent": "claude-opus-5.5 session c7c9ed83",
+  "task": "Round 4 web release: final gate and production deploy",
+  "status": "complete",
+  "done": "Fixed stale assertion data/tests/one_gesture_source_1104.test.mjs (outside-touch native classification now checked in onTouchStart; behaviour and preventDefault assertions unchanged). Full gate passed on the 06aed8557 webpack build. Fast-forwarded main 400d647a8..068a7a061; Vercel dpl_34h9RLVRZwqfGwEZ62R93vu4kR7q READY, aliased to www.mockmob.in. STATUS (release branch), NOW and OWNER-MASTER-LEDGER (mockmob-next feat/app-and-web efc877f5f, local, not pushed; LK117-147/LK150 marked live, LK153 added).",
+  "next": "Optional: real-phone and screen-reader check by the owner; signed-in Arena check; App 1.0.21+19 Play upload (owner); Financial Markets Key cards from the 2021 NCERT capture. feat/app-and-web is 4 commits ahead of origin (docs only).",
+  "blockers": [],
+  "evidence": [
+    "wt-1104-web-polish/tmp/r4-release-gate/landing-gate2.log: 437 pass 0 fail",
+    "eslint-gate2.log: clean on all JS changed since 400d647a8",
+    "swipes-gate2.log: cold over100=0 max 97ms; warm over100=0 max 97ms; loaf max 89",
+    "matrix-gate2.log: 4 stories x 32/32 = 128/128, jump ok, no errors",
+    "sections-gate2.log + release-shots/: 72 captures 390/1440 Night/Day all viewed",
+    "keycards-settle.log: bank settles on 16,458 at 1440 and 390",
+    "Vercel get_runtime_errors 15m after deploy: none",
+    "Live 375px: no horizontal overflow, no console errors"
+  ],
+  "touched_files": [
+    "wt-1104-web-polish/data/tests/one_gesture_source_1104.test.mjs",
+    "wt-1104-web-polish/docs/brain/STATUS.md",
+    "mockmob-next/docs/brain/NOW.md",
+    "mockmob-next/docs/brain/OWNER-MASTER-LEDGER.md",
+    "wt-1104-web-polish/tmp/r4-release-gate/keycards-settle.mjs"
+  ],
+  "verification": "Gate run locally on 127.0.0.1:3518 (next start of the 03:14 build at 06aed8557), one headless browser at a time via tmp-devslots/browser-r4-release.lock (old browser.lock preserved). Not exercised: signed-in use, production data, physical phone, screen reader.",
+  "cost_and_pending_requests": "No paid model calls; no production database writes; no sign-in.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

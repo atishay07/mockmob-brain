@@ -1,0 +1,497 @@
+{
+  "version": 1,
+  "source": "flutter_app/lib/core/mascot (MobiMoves, MobiMoments, MobiRation, MobiTapCycle)",
+  "acts": {
+    "idle": {
+      "durationMs": 500,
+      "stance": "stand",
+      "held": true,
+      "celebration": false,
+      "underQuiet": {
+        "act": "idle",
+        "held": "idle"
+      },
+      "underOff": "idle",
+      "reducedMotion": "stance",
+      "reaction": false
+    },
+    "appear": {
+      "durationMs": 750,
+      "stance": "stand",
+      "held": false,
+      "celebration": false,
+      "underQuiet": {
+        "act": "appear",
+        "held": "appear"
+      },
+      "underOff": "appear",
+      "reducedMotion": "stance",
+      "reaction": false
+    },
+    "hello": {
+      "durationMs": 1850,
+      "stance": "stand",
+      "held": false,
+      "celebration": false,
+      "underQuiet": {
+        "act": "hello",
+        "held": "hello"
+      },
+      "underOff": "hello",
+      "reducedMotion": "still",
+      "reaction": false
+    },
+    "talk": {
+      "durationMs": 1600,
+      "stance": null,
+      "held": false,
+      "celebration": false,
+      "underQuiet": {
+        "act": "talk",
+        "held": "talk"
+      },
+      "underOff": "talk",
+      "reducedMotion": "stance",
+      "reaction": false
+    },
+    "cheer": {
+      "durationMs": 1200,
+      "stance": "stand",
+      "held": false,
+      "celebration": true,
+      "underQuiet": {
+        "act": "nod",
+        "held": "rest"
+      },
+      "underOff": null,
+      "reducedMotion": "still",
+      "reaction": false
+    },
+    "celebrate": {
+      "durationMs": 2000,
+      "stance": "stand",
+      "held": false,
+      "celebration": true,
+      "underQuiet": {
+        "act": "nod",
+        "held": "rest"
+      },
+      "underOff": null,
+      "reducedMotion": "still",
+      "reaction": false
+    },
+    "think": {
+      "durationMs": 800,
+      "stance": "think",
+      "held": true,
+      "celebration": false,
+      "underQuiet": {
+        "act": "think",
+        "held": "think"
+      },
+      "underOff": "think",
+      "reducedMotion": "stance",
+      "reaction": false
+    },
+    "point": {
+      "durationMs": 600,
+      "stance": "point",
+      "held": true,
+      "celebration": false,
+      "underQuiet": {
+        "act": "point",
+        "held": "point"
+      },
+      "underOff": "point",
+      "reducedMotion": "stance",
+      "reaction": false
+    },
+    "sleepy": {
+      "durationMs": 2200,
+      "stance": "sleepy",
+      "held": true,
+      "celebration": false,
+      "underQuiet": {
+        "act": "sleepy",
+        "held": "sleepy"
+      },
+      "underOff": "sleepy",
+      "reducedMotion": "stance",
+      "reaction": false
+    },
+    "oops": {
+      "durationMs": 1300,
+      "stance": "stand",
+      "held": false,
+      "celebration": false,
+      "underQuiet": {
+        "act": "oops",
+        "held": "oops"
+      },
+      "underOff": "oops",
+      "reducedMotion": "stance",
+      "reaction": false
+    },
+    "rest": {
+      "durationMs": 900,
+      "stance": "rest",
+      "held": true,
+      "celebration": false,
+      "underQuiet": {
+        "act": "rest",
+        "held": "rest"
+      },
+      "underOff": "rest",
+      "reducedMotion": "stance",
+      "reaction": false
+    },
+    "read": {
+      "durationMs": 700,
+      "stance": "read",
+      "held": true,
+      "celebration": false,
+      "underQuiet": {
+        "act": "read",
+        "held": "read"
+      },
+      "underOff": "read",
+      "reducedMotion": "stance",
+      "reaction": false
+    },
+    "correct": {
+      "durationMs": 1150,
+      "stance": "stand",
+      "held": false,
+      "celebration": false,
+      "underQuiet": {
+        "act": "correct",
+        "held": "correct"
+      },
+      "underOff": "correct",
+      "reducedMotion": "still",
+      "reaction": true
+    },
+    "encourage": {
+      "durationMs": 1450,
+      "stance": "stand",
+      "held": false,
+      "celebration": false,
+      "underQuiet": {
+        "act": "encourage",
+        "held": "encourage"
+      },
+      "underOff": "encourage",
+      "reducedMotion": "still",
+      "reaction": true
+    },
+    "loading": {
+      "durationMs": 600,
+      "stance": "loading",
+      "held": true,
+      "celebration": false,
+      "underQuiet": {
+        "act": "loading",
+        "held": "loading"
+      },
+      "underOff": "loading",
+      "reducedMotion": "stance",
+      "reaction": false
+    },
+    "sleep": {
+      "durationMs": 1700,
+      "stance": "sleep",
+      "held": true,
+      "celebration": false,
+      "underQuiet": {
+        "act": "sleep",
+        "held": "sleep"
+      },
+      "underOff": "sleep",
+      "reducedMotion": "stance",
+      "reaction": false
+    },
+    "nudge": {
+      "durationMs": 1050,
+      "stance": "point",
+      "held": true,
+      "celebration": false,
+      "underQuiet": {
+        "act": "nudge",
+        "held": "nudge"
+      },
+      "underOff": "nudge",
+      "reducedMotion": "stance",
+      "reaction": false
+    },
+    "proud": {
+      "durationMs": 2200,
+      "stance": "stand",
+      "held": false,
+      "celebration": true,
+      "underQuiet": {
+        "act": "nod",
+        "held": "rest"
+      },
+      "underOff": null,
+      "reducedMotion": "still",
+      "reaction": false
+    },
+    "listen": {
+      "durationMs": 550,
+      "stance": "listen",
+      "held": true,
+      "celebration": false,
+      "underQuiet": {
+        "act": "listen",
+        "held": "listen"
+      },
+      "underOff": "listen",
+      "reducedMotion": "stance",
+      "reaction": false
+    },
+    "wake": {
+      "durationMs": 1200,
+      "stance": "stand",
+      "held": false,
+      "celebration": false,
+      "underQuiet": {
+        "act": "wake",
+        "held": "wake"
+      },
+      "underOff": "wake",
+      "reducedMotion": "still",
+      "reaction": true
+    },
+    "nod": {
+      "durationMs": 800,
+      "stance": null,
+      "held": false,
+      "celebration": false,
+      "underQuiet": {
+        "act": "nod",
+        "held": "nod"
+      },
+      "underOff": "nod",
+      "reducedMotion": "still",
+      "reaction": true
+    },
+    "tilt": {
+      "durationMs": 1100,
+      "stance": null,
+      "held": false,
+      "celebration": false,
+      "underQuiet": {
+        "act": "tilt",
+        "held": "tilt"
+      },
+      "underOff": "tilt",
+      "reducedMotion": "still",
+      "reaction": true
+    },
+    "wave": {
+      "durationMs": 1500,
+      "stance": "stand",
+      "held": false,
+      "celebration": false,
+      "underQuiet": {
+        "act": "wave",
+        "held": "wave"
+      },
+      "underOff": "wave",
+      "reducedMotion": "still",
+      "reaction": true
+    },
+    "startle": {
+      "durationMs": 950,
+      "stance": null,
+      "held": false,
+      "celebration": false,
+      "underQuiet": {
+        "act": "startle",
+        "held": "startle"
+      },
+      "underOff": "startle",
+      "reducedMotion": "still",
+      "reaction": true
+    },
+    "brace": {
+      "durationMs": 900,
+      "stance": null,
+      "held": false,
+      "celebration": false,
+      "underQuiet": {
+        "act": "brace",
+        "held": "brace"
+      },
+      "underOff": "brace",
+      "reducedMotion": "still",
+      "reaction": true
+    },
+    "relief": {
+      "durationMs": 1400,
+      "stance": null,
+      "held": false,
+      "celebration": false,
+      "underQuiet": {
+        "act": "relief",
+        "held": "relief"
+      },
+      "underOff": "relief",
+      "reducedMotion": "still",
+      "reaction": true
+    },
+    "walk": {
+      "durationMs": 1000,
+      "stance": "stand",
+      "held": false,
+      "celebration": false,
+      "underQuiet": {
+        "act": "walk",
+        "held": "walk"
+      },
+      "underOff": "walk",
+      "reducedMotion": "still",
+      "reaction": true
+    },
+    "hop": {
+      "durationMs": 800,
+      "stance": null,
+      "held": false,
+      "celebration": true,
+      "underQuiet": {
+        "act": "nod",
+        "held": "rest"
+      },
+      "underOff": null,
+      "reducedMotion": "still",
+      "reaction": true
+    },
+    "curious": {
+      "durationMs": 1400,
+      "stance": null,
+      "held": false,
+      "celebration": false,
+      "underQuiet": {
+        "act": "curious",
+        "held": "curious"
+      },
+      "underOff": "curious",
+      "reducedMotion": "still",
+      "reaction": true
+    },
+    "focus": {
+      "durationMs": 1100,
+      "stance": null,
+      "held": false,
+      "celebration": false,
+      "underQuiet": {
+        "act": "focus",
+        "held": "focus"
+      },
+      "underOff": "focus",
+      "reducedMotion": "still",
+      "reaction": true
+    },
+    "sympathy": {
+      "durationMs": 1800,
+      "stance": null,
+      "held": false,
+      "celebration": false,
+      "underQuiet": {
+        "act": "sympathy",
+        "held": "sympathy"
+      },
+      "underOff": "sympathy",
+      "reducedMotion": "still",
+      "reaction": true
+    },
+    "idea": {
+      "durationMs": 1350,
+      "stance": "stand",
+      "held": false,
+      "celebration": false,
+      "underQuiet": {
+        "act": "idea",
+        "held": "idea"
+      },
+      "underOff": "idea",
+      "reducedMotion": "still",
+      "reaction": true
+    }
+  },
+  "events": {
+    "arrive": "hello",
+    "rightAnswer": "correct",
+    "wrongAnswer": "encourage",
+    "waiting": "loading",
+    "typing": "listen",
+    "milestone": "proud",
+    "sessionDone": "cheer",
+    "showAction": "nudge",
+    "allClear": "rest",
+    "setback": "oops",
+    "answerRight": "correct",
+    "answerWrong": "encourage",
+    "saveConfirmed": "nod",
+    "saveFailed": "oops",
+    "waitLong": "loading",
+    "choiceWitnessed": "listen",
+    "dayCounted": "correct",
+    "goalMet": "proud",
+    "refused": "oops",
+    "goodbye": "wave",
+    "lateNight": "sleepy"
+  },
+  "celebrationLevels": {
+    "full": "every act as authored",
+    "quiet": "celebration acts become a nod; a held hero rests",
+    "off": "celebration acts play nothing, the stance stays"
+  },
+  "celebrationActs": [
+    "celebrate",
+    "cheer",
+    "hop",
+    "proud"
+  ],
+  "rateLimits": {
+    "glanceGapMs": 2500,
+    "nudgeAfterMs": 4000,
+    "failureRunMs": 90000,
+    "reactNowDefaultGapMs": 2500,
+    "helloPerDayPerScreen": 1,
+    "nudgePerDayPerScreen": 1,
+    "speakOncePerRunPerScreen": 1,
+    "waitLongAfterMs": 2000,
+    "loadingScanSeconds": 12.0
+  },
+  "lateNight": {
+    "startHour": 23,
+    "endHour": 5,
+    "sleepFromHour": 1,
+    "sleepyAct": "sleepy",
+    "sleepAct": "sleep"
+  },
+  "tapCycle": {
+    "acts": [
+      "hello",
+      "tilt",
+      "hop",
+      "startle"
+    ],
+    "resetAfterMs": 8000,
+    "capPerVisit": 6,
+    "neverSameActTwice": true,
+    "sleepingWakesWith": "wake",
+    "withoutCycle": {
+      "tap": "squash",
+      "quickTapsForCheer": 3,
+      "quickTapWindowMs": 900
+    }
+  },
+  "followPointer": {
+    "releaseAfterMs": 1200,
+    "clampX": 0.85,
+    "clampY": 0.8,
+    "offUnderReducedMotion": true
+  }
+}

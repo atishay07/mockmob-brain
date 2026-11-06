@@ -1,0 +1,27 @@
+{
+  "id": "20261012T212702.365564Z-e255b76a",
+  "observed_at": "2026-10-12T21:27:02.365564+00:00",
+  "agent": "claude-code sonnet-5.5 (workflow subagent, onboarding research)",
+  "task": "MockMob app onboarding redesign: research on best-in-class onboarding (Duolingo, Speak, Brilliant, Headway, Finch, Opal, Revolut, Fampay, CRED, Snapchat, Indian test-prep apps), CUET UG 2027 personalisation, Play policy for govt-exam apps, DPDP for under-18s, and a proposed 14-step structure",
+  "status": "complete",
+  "done": "Wrote docs/brain/design-2026-10-13/onboarding-research.md (about 450 lines): evidence tables per app with confidence tags, cross-app patterns P1-P12, Play Store audit of 10 Indian/CUET apps (disclaimer lives in store description, never short description), CUET 2027 question audit (use / use if mapped / defer / skip), Play policy findings (non-affiliation statement needed in store listing and description with visible sources; in-app not explicitly required), DPDP findings (child = under 18; verifiable parental consent; substantive obligations from about 13-14 May 2027; MeitY 12-month proposal unconfirmed), 14-step onboarding outline (goal first, local until step 12, age before account, real DU eligibility/cutoff reveal, one warm-up question, rhythm, starter plan with pact, account, reminders, first move = free 10-question check), list of strings to remove, 14 copy directions, decisions D1-D10.",
+  "next": "Owner to answer D1-D10 (esp. D1 the five-question sample stays web-only, D2 under-18 account approach before May 2027 plus counsel review, D4 account methods, D8 hands-on walkthrough of PW/Unacademy/Testbook/Embibe/Adda247/NTA Abhyas on his phone). Then a design spec pass for visuals/motion, a step-deck schema, DU index as app asset, allowlisted profile endpoint, bundled warm-up question pool.",
+  "blockers": [
+    "Public sources do not document in-app onboarding of PW, Unacademy, Testbook, Embibe, Adda247; needs owner phone walkthrough",
+    "DPDP under-18 account approach needs owner decision and counsel",
+    "NTA 2027 pattern decision pending (about 20 Oct 2026, unconfirmed)"
+  ],
+  "evidence": [
+    "Per-app flows from Page Flows/ScreensDesign/Lazyweb recordings (third-party, some old; Revolut about 6 years old)",
+    "Play listing HTML fetched 13 Oct 2026 for PW, Testbook, Testbook CUET, Adda247, cuet.com, EduRev, CUETMOCK, Achieve, Hitbullseye, DUBuddy, FamApp",
+    "Google Play policy pages 9514050 and 9888374 read",
+    "PIB DPDP explainer PDF text read; dcomply commencement page read",
+    "Repo DU index public/du/2026/index.json and offerings read for course/college counts and cutoffs"
+  ],
+  "touched_files": [
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\mockmob-next\\docs\\brain\\design-2026-10-13\\onboarding-research.md"
+  ],
+  "verification": "Document tables checked for consistent columns; ASCII only. Claims tagged O/R/S/V/I. Not verified: Duolingo 20% DAU claim (secondary), Indian apps' in-app first-run screens (not publicly documented; could not install apps), high.live internals, DPDP Gazette text, Play Console age-group wording. Not legal advice.",
+  "cost_and_pending_requests": "No paid model calls; web research only.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

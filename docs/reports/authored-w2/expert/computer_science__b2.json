@@ -1,0 +1,31 @@
+{
+  "batch": "computer_science__b2",
+  "subject": "computer_science",
+  "pass": "wave2 expert pass (per AUTHORED-QUESTIONS-WAVE1-2026-10-14.md step 5)",
+  "date": "2026-10-14",
+  "reviewer": "claude-haiku-5-5 (expert pass)",
+  "scope": "20 questions in computer_science__b2, all accepted=true in wave2-acceptance-2026-10-14.json",
+  "counts": { "ready": 18, "repaired": 2, "practice": 0, "reject": 0 },
+  "verdicts": [
+    { "id": "eb996150-b37e-4a8c-8926-1206d7b0964b", "verdict": "ready", "why": "MID(INFORMATICS,3,4) gives FORM and UCASE leaves it unchanged; key D is unique; distractors ORMA and FORMA are plausible off-by-one results." },
+    { "id": "b4fa99f3-7630-4c8a-ae0b-d2da39027ec7", "verdict": "ready", "why": "A switch forwards a frame only to the intended port; hub, repeater and modem are the standard distractors with one unique key." },
+    { "id": "ba606e62-b626-478e-98ac-b2a50ca3166d", "verdict": "ready", "why": "FTP-II, HTTP-IV, SMTP-I, POP3-III are all correct; option C is the only option with all four pairs right, and each other option has a wrong pair." },
+    { "id": "bb74cb9c-25d6-49ec-9def-07e786400de5", "verdict": "ready", "why": "int('12a') raises ValueError, so except prints B, else is skipped and finally prints D; output B then D is key B." },
+    { "id": "3e17f28f-6c82-4d51-a228-92bc06b0a94a", "verdict": "ready", "why": "Mode 'w' creates the file if missing and truncates existing content; the other options describe 'a', 'r+' and a non-existent error, all wrong." },
+    { "id": "6ba4e407-b55d-4b41-af2b-906e70f08d4c", "verdict": "ready", "why": "(A) and (C) are true, (B) readline returns one line and (D) write rejects a list, so key A is unique." },
+    { "id": "8f1e39da-a6df-4aa9-aad3-1723b050873b", "verdict": "ready", "why": "Each iteration of a for loop over a file object yields one line as a string; key D is unique and the distractors match read() and readlines()." },
+    { "id": "2e8c4457-0a15-47b5-8707-29a5ac4f2268", "verdict": "ready", "why": "Correct order is open, read, print, close, which is key B; the other orders put close or print before the read that supplies the content." },
+    { "id": "3c233735-4d2a-49ad-8a53-b2cba9e6d979", "verdict": "ready", "why": "pop removes 30, append 40 gives [10, 20, 40]; s[-1] is 40 and len is 3, so key A is correct." },
+    { "id": "1aa2dc1c-b699-46d7-90e7-3aa7053b51d0", "verdict": "repaired", "why": "Key pop() is the only top-removing operation, but option B is del s[0], a statement rather than a list method, so the stem cue was inaccurate.", "repair": "Stem changed from 'Which list method removes the top element of such a stack?' to 'Which list operation removes the top element of such a stack?'. Options and key C unchanged." },
+    { "id": "768a8a3a-053a-4349-bbbb-4f7dbcec98a2", "verdict": "ready", "why": "(A) and (C) are true, (B) confuses overflow with underflow and (D) reverses LIFO order; key A is unique." },
+    { "id": "5efc8343-0618-4451-9700-e8858f0599b6", "verdict": "ready", "why": "pop(0) removes A, so q[0] is B; key B is unique and the other options are the list itself or the removed element." },
+    { "id": "6d13d4fd-4412-4469-b16b-409ef1b79ca0", "verdict": "ready", "why": "Tracing the queue gives [9, 7] after the operations, so the front is 9 and key D is correct; the explanation's intermediate trace is accurate." },
+    { "id": "e8e00542-0cee-4b85-b5be-b0e3ba1a47c1", "verdict": "ready", "why": "Worst case for 100 sorted elements is floor(log2 100) + 1 = 7 comparisons, consistent with the explicit halving sequence; 6 is the common off-by-one distractor." },
+    { "id": "13d2fdf2-e5b2-4ac5-81dd-31e1794f128f", "verdict": "ready", "why": "Binary search needs a sorted list and examines the middle element; odd length is not required and unsorted input is invalid, so key C is unique." },
+    { "id": "dd2c0a43-67ff-4ae8-8155-3a9712c931b8", "verdict": "repaired", "why": "The key [1, 4, 2, 5, 8] is correct after the first bubble sort pass, but the explanation's wording 'moves forward past 1, 4 and 2' misdescribes the swap sequence (5 swaps with 1, then 4, then 2).", "repair": "Explanation sentence rewritten to say 5 is swapped in turn with 1, then 4, then 2, and the comparison of 5 with 8 causes no swap. Key D and options unchanged." },
+    { "id": "5237c5d2-2fda-4d1c-a92b-e1f119cf4d64", "verdict": "ready", "why": "Selection sort finds the minimum of the unsorted part and places it next; the other options are a different sort and a search method." },
+    { "id": "31146733-dd3b-4b3b-b2c5-d5d5d6215917", "verdict": "ready", "why": "Celsius is numeric with equal intervals and an arbitrary zero, which is interval data; key C is the standard classification." },
+    { "id": "0108f486-6254-45e5-8ecd-dd9c148200e7", "verdict": "ready", "why": "Cardinality is the number of tuples; degree is columns, domain and primary key are distinct concepts, so key B is unique." },
+    { "id": "fb6091e4-2e68-48c4-a32c-b37110252138", "verdict": "ready", "why": "Sales average 41500 is excluded and HR average 56500 is kept with COUNT 2, so HR, 2 is key A; the arithmetic checks against the table." }
+  ]
+}

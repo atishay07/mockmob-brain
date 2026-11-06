@@ -1,0 +1,38 @@
+{
+ "kind": "authored_w4_engine_precheck",
+ "source": "claude-authored-2026-10-17-w4",
+ "candidatesFile": "docs/brain/reports/authored-w4/wave4-candidates-2026-10-17.json",
+ "method": "ntaEligibility on the row planPublication writes, empty agent and fit tables; score and fit reasons are not listed, only the veto gate (content, wording, structure, answer guard).",
+ "problems": [],
+ "refused": [],
+ "bySubject": {
+  "biology": {
+   "planned": 59,
+   "clean": 59,
+   "refused": 0
+  },
+  "chemistry": {
+   "planned": 60,
+   "clean": 60,
+   "refused": 0
+  },
+  "general_test": {
+   "planned": 60,
+   "clean": 60,
+   "refused": 0
+  },
+  "mathematics": {
+   "planned": 60,
+   "clean": 60,
+   "refused": 0
+  },
+  "physics": {
+   "planned": 40,
+   "clean": 40,
+   "refused": 0
+  }
+ },
+ "reasons": {},
+ "planned": 279,
+ "engineRefused": 0
+}

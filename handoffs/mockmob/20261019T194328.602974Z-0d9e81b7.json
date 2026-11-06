@@ -1,0 +1,20 @@
+{
+  "id": "20261019T194328.602974Z-0d9e81b7",
+  "observed_at": "2026-10-19T19:43:28.602974+00:00",
+  "agent": "claude-opus-5.5 folds-final-art",
+  "task": "Final generated art for the 12 Folds, run 2 on Codex account 2",
+  "status": "paused",
+  "done": "Run 2 made 22 images: Naav idle v3 (half-dome eyes), Crane idle v3 (compact, neck from the side), 5 cheers, parcel pop and open, 12 thinks. Now idle, cheer and think are 12/12 each, the 3 parcel stills and the seal are done, and shrug and wave are 0/12 (refused at the limit). post.py rerun: 36 @256, 24 @512, 12 heads, 4 objects, folds.json with 2 eye boxes on every pose. Sheets rebuilt; FINAL-ART.md and LEDGER.md updated.",
+  "next": "After 5:38 am 20 Oct (account 2), or on account 1 now (its limit reset at 2:58 am): run FINAL-ART.md section 6. That is patang-think! (the eyes picked up pupil-like notches), 12 shrugs, 12 waves and optionally crane-cheer!, then post.py and the sheets.",
+  "blockers": [
+    "Codex account 2 image limit hit at 1:01 am; retry at 5:38 am 20 Oct"
+  ],
+  "evidence": [],
+  "touched_files": [
+    "mockmob-next/tmp/design-1019pm/mob-v3/characters/final/**",
+    "mockmob-next/tmp/design-1019pm/mob-v3/characters/LEDGER.md"
+  ],
+  "verification": "Every new raw image was judged against its Fold's idle with the pairs sheets; the eye boxes for all 36 poses were checked on a zoomed debug sheet; the charcoal and cream sheets were reviewed. Codex PID 43576 belongs to the ChatGPT desktop app, not this run. Nothing was copied to the app and nothing was committed.",
+  "cost_and_pending_requests": "0 USD (ChatGPT plans, rate-limited)",
+  "confidence": "agent-reported; verify evidence before acting"
+}

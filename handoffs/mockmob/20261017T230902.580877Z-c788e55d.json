@@ -1,0 +1,33 @@
+{
+  "id": "20261017T230902.580877Z-c788e55d",
+  "observed_at": "2026-10-17T23:09:02.580877+00:00",
+  "agent": "claude-opus-5.5 (subagent, wt-v15-today2)",
+  "task": "Finish the v15 Today (TODAY-1018) in the Flutter app on ui/v15-today2, merge ui/v15-reel and wire D29, fix D28, meet D26/D27",
+  "status": "complete",
+  "done": "Merged ui/v15-reel (38c32374, clean). Reel card replaces Back from marking on Today (Play it back 20 s volt key, Not now one tap, no move row under it, opens PaperReel over the tab bar, marks the paper seen so Up next returns; home widget opens Today). D28: greeting Hello 0-5 AM; MmPullRefresh lets go after 20 s; cue overflow at 360 fixed. D26: Road to CUET rebuilt as three layers in ink answer bubbles (due today led by the card's own move, due this week with study days and the full mock, overall goal mocks a of M with pace and study days left; unknown never 0). Change plan: tiles and day bubbles, no radios, paces = taken + what the pace needs, shared-axis steps, 44 dp targets, month weekday headers. Returning leads with warm-up; done key = See tonight's repairs; See repair opens saved repair (F17); price line from quote and AI wallet; counted days pop once; motion guard clean. Old v13 glance/road-strip goldens retired; 1018 suite covers every section-5 state.",
+  "next": "Main session: integrate ui/v15-today2 (head c8b58507) into ui/v15-1018 after the other agent finishes; emulator walk at 412 Night/Day of every state (device-truth rule) before release. Open follow-ups: wire PaperReelResultEntry (\"Play it back\") on the result screen (result packet); Change plan step 2 \"See every week\" rail link; Review filtered to a chapter for \"All N in Review\" (no route yet); Revise next-due date for done state; reel moment callout still has a 2 px coral bar.",
+  "blockers": [
+    "none"
+  ],
+  "evidence": [
+    "git c8b58507 on ui/v15-today2 (wt-v15-today2)",
+    "flutter analyze: No issues found",
+    "unit: test/unit/today, paper_reel, home_widget, motion, a11y, demo, notifications: +760 all passed",
+    "goldens: test/golden/today + paper_reel: +71 all passed; 50 today1018 images opened"
+  ],
+  "touched_files": [
+    "flutter_app/lib/features/today/widgets/road_glance.dart",
+    "flutter_app/lib/features/today/widgets/plan_flow_sheet.dart",
+    "flutter_app/lib/features/today/widgets/reel_hero.dart",
+    "flutter_app/lib/features/today/logic/move_price.dart",
+    "flutter_app/lib/features/today/logic/glance_builder.dart",
+    "flutter_app/lib/features/today/screens/today_body.dart",
+    "flutter_app/lib/features/today/screens/today_screen.dart",
+    "flutter_app/lib/core/motion/pull_refresh.dart",
+    "flutter_app/test/unit/today/today_1018_test.dart",
+    "flutter_app/test/golden/today/today_1018_golden_test.dart"
+  ],
+  "verification": "MOCKMOB_FLUTTER_SLOTS=3 bash tool/flutter_locked.sh analyze / test (unit and goldens) all green at c8b58507; every today1018 golden opened and judged; no emulator walk (not allowed in this packet).",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

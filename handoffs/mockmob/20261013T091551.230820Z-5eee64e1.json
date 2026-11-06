@@ -1,0 +1,28 @@
+{
+  "id": "20261013T091551.230820Z-5eee64e1",
+  "observed_at": "2026-10-13T09:15:51.230820+00:00",
+  "agent": "claude-code opus-5.5 (desktop session 604ced81, orchestrator)",
+  "task": "MockMob app, website NTA fix and Play release (13 Oct 2026, 14:45 IST)",
+  "status": "active",
+  "done": "Owner verified website sign-in after deploy 5f7d53e: \"working fine\". Owner then reported production NTA mode broken (English paper all passages to Q15; passage text invisible in NTA style; poor on mobile), signed-in visitors land on marketing home, always-on notices; wider website items saved in docs/brain/WEBSITE-REDESIGN-NOTES-2026-10-13.md (menu, Arena naming, Today slow, Practice first) for the website redesign later today. Owner: \"pick up the pace on the app\", publish for the 14-day closed test once functional. Play: new MockMob app requires 12 testers x 14 days (screenshot); his old app Circuit (com.Campusly) passed the test with Apply for production enabled. Orchestrator recommended a new app with a proper test (reusing Circuit risks misrepresentation in the production application and account suspension; package com.Campusly permanent), recruiting 20-25 testers from MockMob students via a Google Group; owner leaning to rebrand Circuit but OK with option 1 - awaiting his final choice. Workflows: web NTA fix wf_4a0ef016-a2c (script mockmob-next/tmp/workflows/web-nta-fix.js): nta-engine and web-state-home builders done (branches fix/nta-mode in mockmob-hotfix, fix/web-state-home in mockmob-web2); reviews and polish failed at the usage limit. NTA builder handover: root cause found; owner decisions needed: NTA reads only the evidence-certified pool so 11 of 15 subjects cannot start NTA; English paper opens with vocabulary. Play release prep wf_1e5eb3a1-587 (script tmp/workflows/play-release-prep.js): docs/brain/PLAY-RELEASE.md (8f556a4), release build readiness bc240f5 (target 36, 16 KB pass, tool/make_upload_key.ps1, ~15.7 MB download), backend release branch release/app-backend in worktree mockmob-backend with PRODUCTION-app-backend-2026-10-13.sql; backend-check failed at usage limit. App pass 2 wf_6de0e3bb-fdf (script tmp/workflows/app-pass-2.js): all builders done, integrate was running (may have failed at limit).",
+  "next": "After the usage reset (~14:40 IST): resume wf_4a0ef016-a2c, wf_1e5eb3a1-587 and wf_6de0e3bb-fdf with resumeFromRunId (scripts in mockmob-next/tmp/workflows). Present the NTA decisions to the owner clearly. Before owner deploys backend: backend-check go/no-go. Play-release risks to fix: edit_copy.dart steering line about buying Pro on the web, AI mentor needs an in-app report control, privacy policy mismatches (push token, mentor text, view events), seen/attempted/skip events for minors outside consent. Owner actions: decide Play option, Google Group testers, run make_upload_key.ps1, production SQL + push release/app-backend, one-time emulator sign-in.",
+  "blockers": [
+    "Claude usage limit hit at 14:40 IST",
+    "Owner decision: Play option 1 vs 2; NTA certified-pool policy",
+    "Owner: production SQL and pushes"
+  ],
+  "evidence": [
+    "docs/brain/PLAY-RELEASE.md",
+    "flutter_app/docs/RELEASE.md",
+    "mockmob-hotfix branch fix/nta-mode",
+    "mockmob-web2 branch fix/web-state-home",
+    "mockmob-backend branch release/app-backend"
+  ],
+  "touched_files": [
+    "mockmob-hotfix, mockmob-web2, mockmob-backend worktrees",
+    "mockmob-next docs/brain"
+  ],
+  "verification": "Builder-reported only for NTA, home and backend; reviews pending.",
+  "cost_and_pending_requests": "None.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

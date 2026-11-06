@@ -1,0 +1,28 @@
+{
+  "id": "20261014T065105.214566Z-5cee7670",
+  "observed_at": "2026-10-14T06:51:05.216107+00:00",
+  "agent": "claude-opus-subagent web redesign merge",
+  "task": "Merge W1.1-W1.5 review fixes into feat/web-redesign (mockmob-web2), suites, staging-local gate screenshots",
+  "status": "complete",
+  "done": "Merged web/W1.2, W1.1, W1.3, W1.4, W1.5 review-fix tips (--no-ff) into feat/web-redesign; resolved MemberDockAction and DashboardPageClient conflicts; mounted ShellNotices in app shell; one first-check label header+dock; removed member dock arrow; STATUS.md entry. Head b024d33. Not pushed or deployed.",
+  "next": "Real signed-in member walk (S3-S6, Start on, guide tour, notices), 360px and 200% zoom, guest arrows (W2.1), pricing em dashes.",
+  "blockers": [],
+  "evidence": [
+    "test:visitor 111/111, recovery 39/39, auth 50/50, app 108/108, learning 112/112, nta 22/22, du 19/19, answer-integrity 11/11, factory 332/332, study 21/22 (pre-existing WordNet gate)",
+    "eslint 0 on 45 changed files",
+    "mockmob-web2/tmp/redesign-gate/contact-sheet-375.png, contact-sheet-1366.png"
+  ],
+  "touched_files": [
+    "src/app/(app)/AppLayoutClient.jsx",
+    "src/lib/navigation.js",
+    "src/components/MemberDockAction.jsx",
+    "src/components/MobileDock.jsx",
+    "src/components/nav/public-nav.css",
+    "src/app/(app)/dashboard/DashboardPageClient.jsx",
+    "data/tests/navigation.test.mjs",
+    "docs/brain/STATUS.md"
+  ],
+  "verification": "Local webpack dev server against staging, signed out plus simulated member attributes; server stopped after.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

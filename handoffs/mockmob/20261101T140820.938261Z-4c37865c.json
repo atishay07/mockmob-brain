@@ -1,0 +1,29 @@
+{
+  "id": "20261101T140820.938261Z-4c37865c",
+  "observed_at": "2026-11-01T14:08:20.939261+00:00",
+  "agent": "claude-opus-5.5 session 3b7877eb",
+  "task": "Learn v2 round 3: fix the critics' findings on the merged round 2, then deploy; then subscription card waves for 9 subjects (LK34)",
+  "status": "active",
+  "done": "Look workflow wf_9bd18245-a44 finished: 327 shots of the merged round 2 are in wt-1031-learn-v2/tmp/learn-1101/r2-merged (INDEX.md). Two critics returned 36 items (3 blockers: the hero H1 types itself out; feed and run cards are mostly empty slabs; a stopped run's end keys reopen the stopped run). The findings are in the scratchpad (critics-r2.txt).\nWrote R3-SPEC.md (docs/brain/learn-1031/r3/), with rulings W (words), F (one Free rule, true to allowance.js), Z (no zero leads), L1-L7 (layout), H (hero), C (one count source), R (Learn home), T (Today, never cut), X (Explore, Practice, chapter, Saved) and S (shell).\nShared words are in data/learn/words.js. FREE_DONE_HEADLINE and FREE_DONE_LINE are in data/learn/allowance.js. Test: learn_words 4/4.\nCommitted on web/1031-learn-v2 as 73285d9d9.\nReused the round-2 worktrees on new branches web/1101-r3-{run,home,today,explore,hero} at 73285d9d9.\nLaunched the fix workflow wf_475a187b-c7b (task wincsawii): R3-run on Opus, the other four on Sonnet.\nFluid compute: get_project does not report it. The project was created in April 2026, after Fluid became the default for new projects, so it is likely on. Unconfirmed.\nContent check:\n- The 'transfered' typo is NCERT's own text (leac101 line 221), so it is kept under the exact-language rule.\n- 'Define partnership.' cites leac102 p. 48, which is a true citation.\n- The better card is the Section 4 definition from leac101, now in quarantine. Restoring it needs an independent review verdict (check 6). Do it in the content wave, not by hand.",
+  "next": "1. When wincsawii completes, read each packet's report and NOTES.md, then merge the five r3 branches into web/1031-learn-v2.\n2. Run the full suites, lint and `next build --webpack`. Check the fail count before committing.\n3. Capture 390/1440 Night/Day and have one critic look at the r3 shots.\n4. Push to main (fast-forward), then get_runtime_errors and the X-Vercel-Cache check on /api/stats.\n5. After the 5-hour reset (8:50 pm IST), launch content-wave.js in paced waves: chemistry, history and geography first. Mind concurrency, since 20 agents burn about 2.5% a minute.\n6. Content follow-up: restore the Section 4 partnership card through review, and quarantine 'Define partnership.' as its duplicate.\n7. Update NOW, the ledger and STATUS (test:mob has 7 pre-existing failures), then save a checkpoint.",
+  "blockers": [
+    "5-hour usage at 66% with 72 min left; the five fix agents may reach the limit before the 8:50 pm reset. If they do, resume the workflow after the reset."
+  ],
+  "evidence": [
+    "critics: tasks/w86pqfjx2 journal wf_9bd18245-a44",
+    "spec commit 73285d9d9 on web/1031-learn-v2",
+    "usage 66% at 19:58 IST, resets 20:50 IST",
+    "learn_words.test.mjs 4 pass"
+  ],
+  "touched_files": [
+    "wt-1031-learn-v2/docs/brain/learn-1031/r3/R3-SPEC.md",
+    "wt-1031-learn-v2/docs/brain/learn-1031/r3/NOTES.md",
+    "wt-1031-learn-v2/data/learn/words.js",
+    "wt-1031-learn-v2/data/learn/allowance.js",
+    "wt-1031-learn-v2/data/tests/learn_words.test.mjs",
+    "wt-1031-learn-v2/package.json"
+  ],
+  "verification": "Only the spec commit and the words test so far. The fixes are in progress, and nothing from round 2 or 3 is live: production is still main 978edc236.",
+  "cost_and_pending_requests": "Subscription only (no API spend). The fix round uses 1 Opus and 4 Sonnet agents.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,831 @@
+{
+ "batch": "gat-02",
+ "subject": "general_test",
+ "questions": [
+  {
+   "id": "5d4111c6-388a-4181-9870-48f2433614c7",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "Which Schedule of the Constitution of India lists the languages recognised by the Constitution?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Fifth Schedule"
+    },
+    {
+     "key": "B",
+     "text": "Seventh Schedule"
+    },
+    {
+     "key": "C",
+     "text": "Eighth Schedule"
+    },
+    {
+     "key": "D",
+     "text": "Tenth Schedule"
+    }
+   ],
+   "correct_key": "C",
+   "explanation": "The Eighth Schedule of the Constitution lists the languages recognised by it, and it is the list used for official recognition of languages. The Fifth Schedule concerns administration of Scheduled Areas, the Seventh Schedule divides legislative subjects between the Union and the States, and the Tenth Schedule contains the anti-defection provisions.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "easy",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Indian Constitution, Schedules",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "fa2c18d3-01f9-4649-b00e-a9e8ff238ad0",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "Which Indian state has the largest geographical area?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Madhya Pradesh"
+    },
+    {
+     "key": "B",
+     "text": "Maharashtra"
+    },
+    {
+     "key": "C",
+     "text": "Uttar Pradesh"
+    },
+    {
+     "key": "D",
+     "text": "Rajasthan"
+    }
+   ],
+   "correct_key": "D",
+   "explanation": "Rajasthan is the largest state of India by area, lying in the north-west of the country. Uttar Pradesh is the most populous state, which is a different measure, so students should not confuse area with population. Madhya Pradesh is large but smaller than Rajasthan.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "easy",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Indian geography, states and area",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "06136942-8436-4390-a2b3-5b8fe1fe0e55",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "Who wrote the lyrics of the National Anthem of India, 'Jana Gana Mana'?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Bankim Chandra Chattopadhyay"
+    },
+    {
+     "key": "B",
+     "text": "Rabindranath Tagore"
+    },
+    {
+     "key": "C",
+     "text": "Sarojini Naidu"
+    },
+    {
+     "key": "D",
+     "text": "Muhammad Iqbal"
+    }
+   ],
+   "correct_key": "B",
+   "explanation": "Rabindranath Tagore wrote the lyrics of 'Jana Gana Mana', which was first sung in 1911 and adopted as the National Anthem of India in 1950. Bankim Chandra Chattopadhyay wrote 'Vande Mataram', which is the National Song, not the anthem. Students should keep national symbols and their authors apart.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "easy",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: National symbols and literature",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "6f4b8986-14b3-429a-a6b3-5be84ad78968",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "On which date is National Youth Day celebrated in India every year?",
+   "options": [
+    {
+     "key": "A",
+     "text": "15 August"
+    },
+    {
+     "key": "B",
+     "text": "2 October"
+    },
+    {
+     "key": "C",
+     "text": "26 January"
+    },
+    {
+     "key": "D",
+     "text": "12 January"
+    }
+   ],
+   "correct_key": "D",
+   "explanation": "National Youth Day is observed on 12 January, the birth anniversary of Swami Vivekananda, to honour his message to the youth of India. The other dates are associated with Independence Day, Gandhi Jayanti and Republic Day respectively. Recall each national day with the event it commemorates.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "easy",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: National and important days",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "ccfced58-510d-48ef-abb4-96e5bef0c79c",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "Which festival is widely known as the 'Festival of Lights' in India?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Diwali"
+    },
+    {
+     "key": "B",
+     "text": "Holi"
+    },
+    {
+     "key": "C",
+     "text": "Onam"
+    },
+    {
+     "key": "D",
+     "text": "Baisakhi"
+    }
+   ],
+   "correct_key": "A",
+   "explanation": "Diwali is known as the Festival of Lights, celebrated with lamps, rangoli and sweets across much of India. Holi is the festival of colours, Onam is the harvest festival of Kerala, and Baisakhi marks the harvest season in Punjab. Festival names are best learned with their regional and seasonal context.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "easy",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Indian festivals and culture",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "4c35a04e-9361-4752-b43a-1d8dcd390199",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "Bharatanatyam, one of the classical dance forms of India, is traditionally associated with which state?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Kerala"
+    },
+    {
+     "key": "B",
+     "text": "Odisha"
+    },
+    {
+     "key": "C",
+     "text": "Tamil Nadu"
+    },
+    {
+     "key": "D",
+     "text": "Manipur"
+    }
+   ],
+   "correct_key": "C",
+   "explanation": "Bharatanatyam is a classical dance form that developed in Tamil Nadu and is performed as a solo dance with expressive footwork and hand gestures. Kathakali belongs to Kerala, Odissi to Odisha and Manipuri to Manipur. Each classical dance is tied to the region where it evolved.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "easy",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Indian art and classical dance",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "78eb3759-1464-4e8b-bc15-a4c44426e185",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "The SI unit of electrical resistance is:",
+   "options": [
+    {
+     "key": "A",
+     "text": "Farad"
+    },
+    {
+     "key": "B",
+     "text": "Henry"
+    },
+    {
+     "key": "C",
+     "text": "Tesla"
+    },
+    {
+     "key": "D",
+     "text": "Ohm"
+    }
+   ],
+   "correct_key": "D",
+   "explanation": "Electrical resistance is measured in ohms, given by the ratio of voltage to current according to Ohm's law. The farad is the unit of capacitance, the henry is the unit of inductance and the tesla is the unit of magnetic flux density. Knowing which quantity each SI unit measures helps in elimination.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "easy",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Science basics, SI units",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "774478bb-024f-426b-9322-d3efb4995839",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "Which vitamin does the human skin synthesise when it is exposed to sunlight?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Vitamin D"
+    },
+    {
+     "key": "B",
+     "text": "Vitamin A"
+    },
+    {
+     "key": "C",
+     "text": "Vitamin K"
+    },
+    {
+     "key": "D",
+     "text": "Vitamin C"
+    }
+   ],
+   "correct_key": "A",
+   "explanation": "Ultraviolet B radiation from sunlight helps the skin convert a precursor into vitamin D. Vitamin D helps the body absorb calcium and maintain healthy bones. Vitamin A, vitamin K and vitamin C are obtained mainly from diet.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "easy",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Human health and nutrition",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "e4bffc63-34a2-454c-a824-04a67523ea3c",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "The words 'socialist' and 'secular' were added to the Preamble of the Constitution of India by which amendment?",
+   "options": [
+    {
+     "key": "A",
+     "text": "24th Amendment"
+    },
+    {
+     "key": "B",
+     "text": "44th Amendment"
+    },
+    {
+     "key": "C",
+     "text": "73rd Amendment"
+    },
+    {
+     "key": "D",
+     "text": "42nd Amendment"
+    }
+   ],
+   "correct_key": "D",
+   "explanation": "The 42nd Amendment of 1976 inserted 'socialist', 'secular' and 'integrity' into the Preamble, describing India as a sovereign socialist secular democratic republic. The 44th Amendment of 1978 is known for removing the right to property from the Fundamental Rights. The 73rd Amendment dealt with Panchayati Raj.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "medium",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Indian Constitution, amendments",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "27a22460-7b41-4d9e-bfa1-d1423c8ddeb4",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "Under which Article of the Constitution of India can the President proclaim a National Emergency?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Article 352"
+    },
+    {
+     "key": "B",
+     "text": "Article 356"
+    },
+    {
+     "key": "C",
+     "text": "Article 360"
+    },
+    {
+     "key": "D",
+     "text": "Article 370"
+    }
+   ],
+   "correct_key": "A",
+   "explanation": "Article 352 empowers the President to proclaim a National Emergency on grounds of war, external aggression or armed rebellion. Article 356 provides for President's Rule in a State, Article 360 for a Financial Emergency, and Article 370 gave special status to Jammu and Kashmir, which was later modified. Each emergency provision addresses a different situation.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "medium",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Emergency provisions of the Constitution",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "29d9c92f-3fce-40f7-b1ea-c4c56f07ab15",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "statement_based",
+   "stem": "Consider the following statements about the Constitution of India.\n(A) The right to property was removed from Part III (Fundamental Rights) by the 44th Amendment.\n(B) Directive Principles of State Policy are enforceable by courts.\n(C) Dr. B. R. Ambedkar described Article 32 as the heart and soul of the Constitution.\n(D) Fundamental Duties are listed in Part IVA of the Constitution.\nWhich of the statements given above are correct? Choose the correct answer from the options given below.",
+   "options": [
+    {
+     "key": "A",
+     "text": "(A) and (C) only"
+    },
+    {
+     "key": "B",
+     "text": "(A), (C) and (D)"
+    },
+    {
+     "key": "C",
+     "text": "(B) and (D) only"
+    },
+    {
+     "key": "D",
+     "text": "(A), (B) and (C)"
+    }
+   ],
+   "correct_key": "B",
+   "explanation": "The 44th Amendment removed the right to property from Part III and made it a legal right under Article 300A. Directive Principles are not enforceable in courts, which is why statement (B) is false, while Article 32 is the remedy Ambedkar called the heart and soul of the Constitution. Fundamental Duties appear in Part IVA under Article 51A.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "medium",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Fundamental Rights, DPSP and Fundamental Duties",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "e6889e85-b985-4243-ad3a-4c642d6af9c3",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "Which mountain pass connects the Kashmir Valley with Ladakh along the Srinagar-Leh highway?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Nathu La"
+    },
+    {
+     "key": "B",
+     "text": "Shipki La"
+    },
+    {
+     "key": "C",
+     "text": "Zoji La"
+    },
+    {
+     "key": "D",
+     "text": "Bomdi La"
+    }
+   ],
+   "correct_key": "C",
+   "explanation": "Zoji La is a high mountain pass in the Himalayas that connects the Kashmir Valley to Ladakh on the Srinagar-Leh road. Nathu La connects Sikkim with Tibet, Shipki La connects Himachal Pradesh with Tibet, and Bomdi La lies in Arunachal Pradesh. Passes are best remembered by the states and borders they link.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "medium",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Physical geography of Indian mountain passes",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "03df7dbd-0b5a-44c3-bd70-35e0fe87db04",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "Which is the longest river of Peninsular India?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Krishna"
+    },
+    {
+     "key": "B",
+     "text": "Narmada"
+    },
+    {
+     "key": "C",
+     "text": "Godavari"
+    },
+    {
+     "key": "D",
+     "text": "Kaveri"
+    }
+   ],
+   "correct_key": "C",
+   "explanation": "The Godavari, often called the Dakshin Ganga, is the longest river of Peninsular India, flowing about 1,465 km to the Bay of Bengal. The Narmada is the longest west-flowing river of the peninsula and the Krishna and Kaveri are shorter peninsular rivers. Compare length as well as direction of flow when answering river questions.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "medium",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Indian rivers and drainage",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "190d65d3-c340-4f52-9200-f993ae17254d",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "Which of the following is a direct tax levied in India?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Goods and Services Tax"
+    },
+    {
+     "key": "B",
+     "text": "Customs duty"
+    },
+    {
+     "key": "C",
+     "text": "Excise duty"
+    },
+    {
+     "key": "D",
+     "text": "Income tax"
+    }
+   ],
+   "correct_key": "D",
+   "explanation": "A direct tax is paid by the person on whom it is legally imposed and cannot be shifted to another person, as in the case of income tax. Goods and Services Tax, customs duty and excise duty are indirect taxes, because they are levied on goods and services and can be passed on to the consumer. Students should learn this distinction for the economy section.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "medium",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Indian economy, taxation basics",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "134b88cc-ad0d-4e64-a43d-e913e5c50b8b",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "Alexander Fleming is associated with the discovery of:",
+   "options": [
+    {
+     "key": "A",
+     "text": "Penicillin"
+    },
+    {
+     "key": "B",
+     "text": "Insulin"
+    },
+    {
+     "key": "C",
+     "text": "The smallpox vaccine"
+    },
+    {
+     "key": "D",
+     "text": "The polio vaccine"
+    }
+   ],
+   "correct_key": "A",
+   "explanation": "Alexander Fleming discovered penicillin in 1928, the first antibiotic, which led to its later development as a drug. Insulin was associated with Banting and Best, the smallpox vaccine with Edward Jenner and the polio vaccine with Jonas Salk. Matching each discovery to its scientist is a common recall question.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "medium",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Science and technology, discoveries in medicine",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "527b4906-0de1-4107-96da-3b6fbd53111f",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "When zinc metal reacts with dilute hydrochloric acid, the gas evolved is:",
+   "options": [
+    {
+     "key": "A",
+     "text": "Oxygen"
+    },
+    {
+     "key": "B",
+     "text": "Hydrogen"
+    },
+    {
+     "key": "C",
+     "text": "Carbon dioxide"
+    },
+    {
+     "key": "D",
+     "text": "Chlorine"
+    }
+   ],
+   "correct_key": "B",
+   "explanation": "Most metals above hydrogen in the reactivity series react with dilute acids to release hydrogen gas, and zinc is one of them. The reaction forms zinc chloride along with hydrogen. Oxygen and chlorine are not produced by this reaction, and carbon dioxide needs a carbonate rather than a metal.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "medium",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Chemistry basics, metals and acids",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "7fc9c9ea-2cc0-43af-91bf-099821f07bff",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "The headquarters of the International Atomic Energy Agency (IAEA) are located in:",
+   "options": [
+    {
+     "key": "A",
+     "text": "Geneva"
+    },
+    {
+     "key": "B",
+     "text": "Vienna"
+    },
+    {
+     "key": "C",
+     "text": "Paris"
+    },
+    {
+     "key": "D",
+     "text": "The Hague"
+    }
+   ],
+   "correct_key": "B",
+   "explanation": "The IAEA, the United Nations body that promotes peaceful use of nuclear energy and safeguards against its military use, has its headquarters in Vienna, Austria. Geneva hosts the WHO and ILO, Paris hosts UNESCO and The Hague hosts the International Court of Justice. Headquarters locations of UN agencies are a frequent CUET question.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "medium",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: International organisations and their headquarters",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "8d00f227-84a2-4ed5-8e30-a13421089559",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "The headquarters of the United Nations Environment Programme (UNEP) is located in:",
+   "options": [
+    {
+     "key": "A",
+     "text": "Nairobi"
+    },
+    {
+     "key": "B",
+     "text": "New York"
+    },
+    {
+     "key": "C",
+     "text": "Rome"
+    },
+    {
+     "key": "D",
+     "text": "Bonn"
+    }
+   ],
+   "correct_key": "A",
+   "explanation": "UNEP, which coordinates environmental activities within the United Nations system, has its headquarters in Nairobi, Kenya. New York hosts the UN Secretariat and UNDP, Rome hosts FAO, and Bonn hosts the secretariat of the UN Framework Convention on Climate Change. Remember the headquarters of each UN agency along with its mandate.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "medium",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: International organisations and their headquarters",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "58e99246-9e9e-45b8-a31c-31662eb1f502",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "The Great Stupa at Sanchi, a UNESCO World Heritage Site, is located in which state?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Bihar"
+    },
+    {
+     "key": "B",
+     "text": "Gujarat"
+    },
+    {
+     "key": "C",
+     "text": "Madhya Pradesh"
+    },
+    {
+     "key": "D",
+     "text": "Uttar Pradesh"
+    }
+   ],
+   "correct_key": "C",
+   "explanation": "The Great Stupa at Sanchi, built under the Mauryan and later Shunga rule, is a Buddhist monument in Madhya Pradesh. It is known for its carved gateways and is a UNESCO World Heritage Site. Bodh Gaya, where the Buddha attained enlightenment, is in Bihar.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "medium",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Indian architecture and UNESCO heritage sites",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "d9f17d54-ca5e-4301-88f7-9ea53cbbf264",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "The book 'The Discovery of India' was written by:",
+   "options": [
+    {
+     "key": "A",
+     "text": "Mahatma Gandhi"
+    },
+    {
+     "key": "B",
+     "text": "Sardar Vallabhbhai Patel"
+    },
+    {
+     "key": "C",
+     "text": "Maulana Abul Kalam Azad"
+    },
+    {
+     "key": "D",
+     "text": "Jawaharlal Nehru"
+    }
+   ],
+   "correct_key": "D",
+   "explanation": "Jawaharlal Nehru wrote 'The Discovery of India' during his imprisonment in the Ahmednagar Fort in 1944, tracing the history and culture of the country. Gandhi wrote 'Hind Swaraj' and his autobiography, while Patel and Azad were leaders of the freedom movement who did not write this book. Keep famous books paired with their authors.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "medium",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Books and authors",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "40c5bdcc-4867-421d-85e8-b9049b3b736a",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "assertion_reason",
+   "stem": "Assertion (A): The President of India can be removed from office before the end of the term through impeachment.\nReason (R): Article 61 lays down a procedure under which a charge may be preferred by either House of Parliament and the other House investigates it.\nIn the light of the above statements, choose the correct answer from the options given below.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Both (A) and (R) are true and (R) is the correct explanation of (A)"
+    },
+    {
+     "key": "B",
+     "text": "Both (A) and (R) are true but (R) is not the correct explanation of (A)"
+    },
+    {
+     "key": "C",
+     "text": "(A) is true but (R) is false"
+    },
+    {
+     "key": "D",
+     "text": "(A) is false but (R) is true"
+    }
+   ],
+   "correct_key": "A",
+   "explanation": "Under Article 61, the President can be removed only through impeachment for violation of the Constitution, and the procedure allows a charge to be preferred by either House. The other House then investigates the charge, so the procedure described in the reason is exactly how the removal in the assertion takes place. Both statements are true and the reason explains the assertion.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "hard",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Constitution, President and impeachment",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "4d609f5a-fe44-4fbc-b574-688115b283c0",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "match_the_following",
+   "stem": "Match List-I with List-II.\nList-I: (A) Sabarmati (B) Brahmaputra (C) Yamuna (D) Mahanadi.\nList-II: (I) Guwahati (II) Cuttack (III) Ahmedabad (IV) Delhi.\nChoose the correct answer from the options given below.",
+   "options": [
+    {
+     "key": "A",
+     "text": "(A)-(I), (B)-(III), (C)-(IV), (D)-(II)"
+    },
+    {
+     "key": "B",
+     "text": "(A)-(III), (B)-(I), (C)-(IV), (D)-(II)"
+    },
+    {
+     "key": "C",
+     "text": "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)"
+    },
+    {
+     "key": "D",
+     "text": "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)"
+    }
+   ],
+   "correct_key": "B",
+   "explanation": "The Sabarmati flows past Ahmedabad, the Brahmaputra past Guwahati, the Yamuna past Delhi and the Mahanadi past Cuttack in Odisha. Matching each river to the major city on its course is a standard geography question. Each city is therefore paired with the river that flows through it.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "hard",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Indian rivers and the cities on them",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "13acff28-0d34-4e66-9f98-c2db0415b060",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "sequence_ordering",
+   "stem": "Arrange the following constitutional amendments of India in the chronological order of their enactment.\n(A) 1st Amendment\n(B) 42nd Amendment\n(C) 73rd Amendment\n(D) 86th Amendment\nChoose the correct answer from the options given below.",
+   "options": [
+    {
+     "key": "A",
+     "text": "(B), (A), (C), (D)"
+    },
+    {
+     "key": "B",
+     "text": "(A), (C), (B), (D)"
+    },
+    {
+     "key": "C",
+     "text": "(A), (B), (D), (C)"
+    },
+    {
+     "key": "D",
+     "text": "(A), (B), (C), (D)"
+    }
+   ],
+   "correct_key": "D",
+   "explanation": "The 1st Amendment was enacted in 1951, the 42nd in 1976, the 73rd in 1992 and the 86th in 2002. The chronological order is therefore A, B, C, D. Remembering the decade of major amendments helps in answering ordering questions.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "hard",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Indian Constitution, amendments in order",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "301660c4-85f8-48f2-a8ad-07497eb84325",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "Which Article of the Constitution of India provides for the appointment of the Comptroller and Auditor General of India?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Article 124"
+    },
+    {
+     "key": "B",
+     "text": "Article 148"
+    },
+    {
+     "key": "C",
+     "text": "Article 280"
+    },
+    {
+     "key": "D",
+     "text": "Article 324"
+    }
+   ],
+   "correct_key": "B",
+   "explanation": "Article 148 provides for the Comptroller and Auditor General of India, who audits the accounts of the Union and the States. Article 124 concerns the Supreme Court, Article 280 the Finance Commission and Article 324 the Election Commission. Learning the Article for each constitutional body helps in polity questions.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "hard",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Constitutional bodies and their Articles",
+   "source": "claude-authored-2026-10-17-w3"
+  },
+  {
+   "id": "015244d0-de83-4f32-98b1-c2e293f25c58",
+   "subject": "general_test",
+   "unit": "General Knowledge and Current Affairs",
+   "chapter": "General Knowledge",
+   "type": "single_mcq",
+   "stem": "Which Article of the Constitution of India provides for the constitution of a Finance Commission?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Article 265"
+    },
+    {
+     "key": "B",
+     "text": "Article 300"
+    },
+    {
+     "key": "C",
+     "text": "Article 280"
+    },
+    {
+     "key": "D",
+     "text": "Article 324"
+    }
+   ],
+   "correct_key": "C",
+   "explanation": "Article 280 requires the President to constitute a Finance Commission at regular intervals, which recommends the distribution of tax revenues between the Union and the States. Article 265 says no tax shall be levied except by authority of law, Article 300 deals with suits against the government and Article 324 with the Election Commission. Article 280 is the key provision for fiscal federalism.",
+   "passage_text": null,
+   "set_id": null,
+   "difficulty_label": "hard",
+   "ncert_ref": "CUET GAT syllabus, General Knowledge: Centre-State finance and constitutional bodies",
+   "source": "claude-authored-2026-10-17-w3"
+  }
+ ]
+}

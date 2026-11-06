@@ -1,0 +1,42 @@
+{
+  "id": "20261015T185240.776451Z-007b00c2",
+  "observed_at": "2026-10-15T18:52:40.776451+00:00",
+  "agent": "builder lab4-app (Opus 5.5)",
+  "task": "Q7 Mistake Lab slice 4, app (wt-phase2 flutter_app, ui/phase2)",
+  "status": "complete",
+  "done": "Committed 27f90c1b on ui/phase2. App renders lab.traps (trap tag under the student's own wrong option in the opened answer), Traps you meet (GET /api/me/traps, disclosure in the Rule book and at the end of Find on the result), Same mistakes later (lab.prove.later) in Prove with Open Revise when ready, Revise at /review/revise (GET /api/me/revise, POST /api/me/revise/answer, four box lanes, 5 or 10 a day, server-graded, end line) with a Review entry. Slice 3 gaps closed: Rule book draws the 95% interval band; recap card 4 (record_card.dart, the card with the repair key) follows the cohort repair order (key, length chips, link and the server's line). Models in lib/core/models/mistake_lab_traps.dart.",
+  "next": "Owner/parent: (1) the credits route in lib/core/router/router.dart (committed by the You/Credits agent in c3a6fe7a) sits after the closing of tabRoot(you), so go_router asserts and 40 router tests fail (router_widget_test, cold_start_router_test); move page('credits'...) inside the You tabRoot routes. (2) Mobi rig v2 goldens (card1 to card4, repair, review empty/error) still differ from committed PNGs by about 0.3 percent; regenerate them once, and the two of mine with Mobi (card4_cohort_lead, revise_unavailable) at the same time. (3) Do not ship the app build that reads lab.traps before the server is live and the migrations are applied (see lab4-core prodSteps).",
+  "blockers": [
+    "Pre-existing: go_router assertion from the credits route breaks test/unit/core_ui/router_widget_test.dart and cold_start_router_test.dart (not mine)",
+    "Pre-existing: Mobi rig v2 not yet reflected in committed goldens"
+  ],
+  "evidence": [
+    "git log ui/phase2 27f90c1b",
+    "test/unit/result/lab_slice4_model_test.dart",
+    "test/unit/review/revise_test.dart",
+    "test/golden/review/goldens/revise_*.png",
+    "test/golden/result/goldens/card4_cohort_lead_*.png"
+  ],
+  "touched_files": [
+    "flutter_app/lib/core/models/mistake_lab_traps.dart",
+    "flutter_app/lib/core/models/mistake_lab.dart",
+    "flutter_app/lib/core/models/models.dart",
+    "flutter_app/lib/core/router/router.dart",
+    "flutter_app/lib/core/router/routes.dart",
+    "flutter_app/lib/features/rules/**",
+    "flutter_app/lib/features/review/revise/**",
+    "flutter_app/lib/features/review/review_routes.dart",
+    "flutter_app/lib/features/review/screens/review_screen.dart",
+    "flutter_app/lib/features/result/full/answer_row.dart",
+    "flutter_app/lib/features/result/full/full_result_screen.dart",
+    "flutter_app/lib/features/result/full/full_sections.dart",
+    "flutter_app/lib/features/result/recap/record_card.dart",
+    "flutter_app/lib/features/result/recap/record_parts.dart",
+    "flutter_app/lib/features/result/result_nav.dart",
+    "flutter_app/lib/features/result/widgets/trap_tag.dart",
+    "flutter_app/test/fixtures/mistake_lab/mistake_lab.copy.json"
+  ],
+  "verification": "analyze clean on rules/result/review/models/router and the tests. New unit tests pass: lab_slice4_model_test (19), trap_tag_test (8), lab_slice4_result_test (5), record_card_cohort_test (7), rule_book_slice4_test (14), revise_test (17). Full test/unit/review (276 with a11y guidelines) and test/unit/result plus domain (374) pass. Goldens for the changed and new screens regenerated once and opened (rule_book x3 views, traps_meet, revise card/right/wrong/end/unavailable, trap tags, Same mistakes later, card 4 cohort lead; Night and Day). Review tab non-Mobi goldens unchanged. Fixtures contract_traps_v1 and contract_later_v1 cmp-identical to the web; the web copy file copied byte for byte (git hash d7d3d4d0). No emulator, no build.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,40 @@
+{
+  "batch": "phys-03",
+  "subject": "physics",
+  "questions": [
+    {
+      "id": "7994264f-2354-41ac-84c0-00f289ae0a3a",
+      "subject": "physics",
+      "unit": "Optics",
+      "chapter": "Ray Optics & Optical Instruments",
+      "type": "single_mcq",
+      "stem": "A compound microscope has an objective of focal length 1 cm and an eyepiece of focal length 5 cm. The separation between the objective and the eyepiece is 20 cm. In normal adjustment the final image is formed at the least distance of distinct vision, 25 cm. What is the magnifying power?",
+      "options": [
+        {
+          "key": "A",
+          "text": "20"
+        },
+        {
+          "key": "B",
+          "text": "125"
+        },
+        {
+          "key": "C",
+          "text": "500"
+        },
+        {
+          "key": "D",
+          "text": "100"
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "In normal adjustment the magnifying power is M = (L/f_o)(D/f_e), where L is the separation (about the tube length) and D = 25 cm. So M = (20/1)(25/5) = 100. Using only the objective factor gives 20, which is an incomplete answer.",
+      "passage_text": null,
+      "set_id": null,
+      "difficulty_label": "hard",
+      "ncert_ref": "NCERT Class 12 Physics Part II, Ch 9 Ray Optics, Sec 9.7 (Optical instruments: microscope)",
+      "source": "claude-authored-2026-10-17-w3",
+      "reason": "Stem and key use different conventions. The stem says the final image is at the least distance of distinct vision (25 cm), which gives M = m_o x (1 + D/f_e) = 20 x 6 = 120 with v_o ~ L and u_o ~ f_o. The key 100 uses the relaxed-eye formula (L/f_o)(D/f_e), which is the infinity-image case. The explanation calls the 25 cm image setting normal adjustment, which is internally inconsistent. Not unambiguous, so fail."
+    }
+  ]
+}

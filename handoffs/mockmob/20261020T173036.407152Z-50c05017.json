@@ -1,0 +1,17 @@
+{
+  "id": "20261020T173036.407152Z-50c05017",
+  "observed_at": "2026-10-20T17:30:36.407152+00:00",
+  "agent": "claude-opus-5.5 session 604ced81 (CEO/CTO, night)",
+  "task": "20 Oct night: owner's first feedback on installed v15",
+  "status": "paused",
+  "done": "10:30 pm owner feedback on v15 recorded verbatim. Findings: (A) Mob explainer is wired only to Start/Join taps (mob_v3_nav.dart startMob/joinMob) or See how it works, never automatic on first Mob tab visit: real gap. (B) Live hidden because MOB_LIVE_ENABLED unset pending owner's Supabase Realtime switch: expected. (C) Invite row needs /api/referrals live:true (REFERRALS_ENABLED=true is set) and no invitedState; why it did not show is unknown: to investigate. (D) Only one production account created in prior 4 h (8:06 pm, 976aea05...), credit_balance 0, only -10 spends, no welcome grant: the 150/200 the owner saw is not in credit_transactions; wallet figure source to trace. All four written as items A-D into docs/brain/NEXT-PROMPT-1020-VERIFY.md (copy Desktop/MockMob-build-15/VERIFY-PROMPT.md).",
+  "next": "Fresh session pastes VERIFY-PROMPT.md: fix A, C, D with tests; B after owner's Realtime switch; full final walk; rebuild 1.0.17+16.",
+  "blockers": [
+    "Account usage 90% at 10:31 pm (resets 12:10 am)"
+  ],
+  "evidence": [],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

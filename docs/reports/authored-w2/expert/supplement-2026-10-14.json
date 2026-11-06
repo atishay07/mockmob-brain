@@ -1,0 +1,154 @@
+{
+ "batch": "supplement",
+ "subject": "mixed (english, general_test, geography, mathematics)",
+ "pass": "supplementary review of the questions that became accepted only after the judge files were re-run",
+ "date": "2026-10-14",
+ "reviewer_model": "Claude Sonnet 5.5 (the session that prepared the wave-2 publish dry-run)",
+ "method": "Each of the 27 questions was solved blind (stem and options only, before the key and explanation were shown), then the key, the explanation, the distractors and the NCERT reference were checked, as in the wave-2 expert pass. One reviewer, not the 24 batch reviewers; no model other than the reviewer was run. A verdict of ready or repaired is not a repeat check by another reviewer.",
+ "scope": "accepted by the rule after the re-run of general_test__b4 h1, geography__b2 h1, geography__b3 h2, mathematics__b1 h1 and the duplicate screen, with no expert verdict yet: 27 questions",
+ "counts": {
+  "reviewed": 27,
+  "ready": 23,
+  "repaired": 2,
+  "practice": 2
+ },
+ "verdicts": [
+  {
+   "id": "06298513-8dfe-4653-9454-4dbaac8ed520",
+   "verdict": "ready",
+   "why": "Key B: a starting point in time (2015) takes since with the present perfect continuous; for needs a length of time, from and during do not fit. Unique. Easy."
+  },
+  {
+   "id": "e252a37c-a83d-44fb-8dbb-d94ce33d477b",
+   "verdict": "ready",
+   "why": "HCF x LCM = product: 12 x 360 / 36 = 120, key B. 60 pairs with LCM 180 and 12 and 180 do not fit. Unique."
+  },
+  {
+   "id": "7449b255-0c69-4598-942d-9826de726b22",
+   "verdict": "ready",
+   "why": "7 leaves 2 mod 5 and 2^4 = 16 leaves 1, so 7^51 leaves 2^3 = 8, remainder 3. Key A unique."
+  },
+  {
+   "id": "0a7c932c-26bf-42c3-8e97-902a58192da4",
+   "verdict": "ready",
+   "why": "4 = sqrt 16, sqrt 17, 3 sqrt 2 = sqrt 18, 2 sqrt 5 = sqrt 20, so D, C, A, B. Key C unique."
+  },
+  {
+   "id": "dd881d0d-14f6-4bb6-8244-93d40eebc02b",
+   "verdict": "ready",
+   "why": "Totals 120 and 98 give the removed value 22. Key A unique."
+  },
+  {
+   "id": "6ad20aac-599f-4d7f-a552-3243a8a1c831",
+   "verdict": "ready",
+   "why": "Data 4, 7, 7, 9, 13: mean 8, median 7 (so B false), mode 7, range 9. A, C, D only is key B, unique."
+  },
+  {
+   "id": "66f791a5-a4e6-4377-afbe-4eef78e000c5",
+   "verdict": "ready",
+   "why": "A and B are correct, C describes primary extraction and D is false. Key A unique and in line with NCERT Fundamentals of Human Geography Ch 7."
+  },
+  {
+   "id": "3dc623cc-4185-4477-b025-b76d7938e6f1",
+   "verdict": "ready",
+   "why": "Area between y = x^2 and y = 4 is the integral of 4 - x^2 from -2 to 2 = 32/3. Key B unique; the 16/3 distractor is the half-area slip."
+  },
+  {
+   "id": "66c40b7a-966b-41d5-a141-8d286986967d",
+   "verdict": "ready",
+   "why": "lim sin 3x / x = 3, so k = 3, key C. The stem writes sin 3x / x without brackets (the expert pass bracketed the same notation in 8e614805); this is the NCERT form and the options 1, 9, 3, 1/3 leave no second reading, so it is left as authored."
+  },
+  {
+   "id": "14ff42d5-aedd-4d92-814a-de2a8af6c976",
+   "verdict": "ready",
+   "why": "4,800 / 12,000 x 100 = 40 km per 100 sq km, key A. NCERT Ch 8 road density. Unique."
+  },
+  {
+   "id": "9ddc9446-5806-4be7-bb59-9eaa6ed75941",
+   "verdict": "ready",
+   "why": "Suez Canal, key B, correct. Dropped as a repeat of 5edcbcb0 (see the drop decisions), not for its key."
+  },
+  {
+   "id": "5a9aecd3-212f-4efb-a84a-db6bed3a2177",
+   "verdict": "ready",
+   "why": "Broad gauge carries most of the Indian Railways route length, key D. Unique."
+  },
+  {
+   "id": "75dc1722-2c50-4a6c-b862-813621007361",
+   "verdict": "repaired",
+   "why": "Key A (railways) is the NCERT answer for heavy bulk cargo overland. The explanation said pipelines carry liquids and gases, not solid ore, which overstates it (NCERT also mentions slurry); explanation changed, stem, options and key unchanged.",
+   "repair": "Explanation only: pipelines are said to be built mainly for liquids and gases, so they are not the standard way to move solid ore."
+  },
+  {
+   "id": "0ece0098-615c-4f81-9795-5ac0eab4aae3",
+   "verdict": "ready",
+   "why": "Golden Quadrilateral = Delhi, Mumbai, Chennai, Kolkata, key D. Dropped as a repeat of 902b410c, not for its key."
+  },
+  {
+   "id": "df6bc8d7-5108-4469-b832-52df9a5fb6d5",
+   "verdict": "ready",
+   "why": "Pipelines for crude oil and natural gas, key A. Unique."
+  },
+  {
+   "id": "c48dd176-8f98-437c-9089-bff9a6b3e21b",
+   "verdict": "repaired",
+   "why": "Key D (B, C, D) is right: A is false because pipelines are for liquids and gases, solid bulk goes by rail or water. The explanation said pipelines carry no solid bulk cargo at all; reworded to the NCERT emphasis. Stem, options and key unchanged.",
+   "repair": "Explanation only: pipelines are built mainly for liquids and gases, and solid bulk cargo moves more cheaply by rail or water."
+  },
+  {
+   "id": "d66cda69-fd2f-41ac-abcf-b94e8d391e3b",
+   "verdict": "ready",
+   "why": "A and B true, C false (satellites relay across continents), D false. Key A unique."
+  },
+  {
+   "id": "812f00de-3707-4607-9c98-0b4420b6a82f",
+   "verdict": "ready",
+   "why": "Kandla, Mumbai, Mangalore, Kochi from north to south, key A. Dropped as a repeat of 6a0c3146, not for its key."
+  },
+  {
+   "id": "1b79114f-4c92-477a-b2cc-94dd50b89654",
+   "verdict": "practice",
+   "why": "Key B (telegraph in India 1851, first transatlantic cable, telephone patent 1876, INSAT-1A 1982) is right on the dates, but the dates of these technology milestones are not NCERT Class 12 Geography content (the same fault the spot-check found in 1445658c), and the first successful transatlantic cable (1858 or 1866) is itself disputed. Practice-grade, not for an NTA-pattern paper."
+  },
+  {
+   "id": "819e826f-4bb2-4dcf-b3f2-f02f85a761ac",
+   "verdict": "ready",
+   "why": "Rhine (II), Panama (I), Trans-Siberian (III), NH 44 (IV): key B. Each pair is an NCERT statement. Unique."
+  },
+  {
+   "id": "af69a573-bbd4-4fb1-9c09-33acedec4003",
+   "verdict": "ready",
+   "why": "180 - 215 = -35: deficit of US$ 35 billion, key B. The stem fixes the figures as visible goods, so the goods-versus-services wording question does not arise. Unique."
+  },
+  {
+   "id": "c7fc6288-9655-4ae2-ba08-de74316b385d",
+   "verdict": "ready",
+   "why": "Earnings from tourism are invisible trade, key C. The others are tangible goods. Unique."
+  },
+  {
+   "id": "dff435fd-f205-422e-8f43-9d02733241d1",
+   "verdict": "practice",
+   "why": "Key D is the only workable matching, but List-II (IV) defines the balance of trade over visible goods only, which the spot-check found conflicts with the NCERT Class 12 Geography wording (goods and services). Fixable by making (IV) \"Net value of exports minus imports\", which changes the options and needs a new blind re-solve. Practice-grade until then."
+  },
+  {
+   "id": "1dbeb430-f5dc-46c5-95bd-6bc8c85de9e5",
+   "verdict": "ready",
+   "why": "Dhanaura: 6,800 people, density about 567, 81 per cent non-agricultural male workers, no municipal body: a census town, key C. NCERT Ch 10 census-town criteria. Unique."
+  },
+  {
+   "id": "1481e367-bdd8-49f2-ad50-50dd94e820b6",
+   "verdict": "ready",
+   "why": "6,800 / 12 = 566.7, so 567, key C. Unique."
+  },
+  {
+   "id": "3a33a94e-5e2e-4abe-8183-78dc0d77cba8",
+   "verdict": "ready",
+   "why": "Municipal governance is the statutory-town criterion, so D is the item that is NOT a census-town criterion. Key D unique."
+  },
+  {
+   "id": "7d9c3a0b-c8d6-4c10-8aff-0abca88d519a",
+   "verdict": "ready",
+   "why": "A bank branch and a weekly market are tertiary activity, key C. Unique."
+  }
+ ]
+}

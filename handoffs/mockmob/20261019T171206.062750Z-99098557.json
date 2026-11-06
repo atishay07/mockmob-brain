@@ -1,0 +1,21 @@
+{
+  "id": "20261019T171206.062750Z-99098557",
+  "observed_at": "2026-10-19T17:12:06.062750+00:00",
+  "agent": "claude-opus-5.5 folds-final-art",
+  "task": "Final generated art for the 12 Folds (poses, parcel, seal, cut-outs, folds.json)",
+  "status": "paused",
+  "done": "30 Codex image_gen images: idle 12/12 (9 regenerations: Dart plane read, Hop frog x2, Naav eyes, Patang eyes/shape x3, Sticky pupils, Hexa gem), cheer 7/12, parcel-sealed, quest-seal. post.py rewritten (shared per-Fold scale, @256 all, @512 idle/cheer, heads @128, enclosed-gap matte, objects) + folds.json v2. Contact sheets in characters/final/sheets. FINAL-ART.md written; CHARACTER-WORLD.md updated (colours, Kandil awake, Hop, Patang, shrug, watch list resolved); LEDGER.md appended.",
+  "next": "After 2:58 am 20 Oct: run the resume commands in characters/final/FINAL-ART.md section 6 (5 cheers, parcel pop/open, think/shrug/wave x12), judge, post.py, sheets. Integrator: spec 0.4 colour column is stale for Hexa/Naav/Cutting/Dog-ear; use folds.json paper.",
+  "blockers": [
+    "Codex ChatGPT-plan image limit hit 10:33 pm; retry at 2:58 am 20 Oct"
+  ],
+  "evidence": [],
+  "touched_files": [
+    "mockmob-next/tmp/design-1019pm/mob-v3/characters/final/**",
+    "mockmob-next/docs/design-decisions/pass-1019pm/mob-v3/CHARACTER-WORLD.md",
+    "mockmob-next/tmp/design-1019pm/mob-v3/characters/LEDGER.md"
+  ],
+  "verification": "Every raw PNG opened and judged; idle sets on charcoal and cream sheets; eye boxes checked on zoomed visor debug sheet; edges zoomed on both grounds (object rim fixed); no processes left from this run; nothing copied to app worktrees, nothing committed.",
+  "cost_and_pending_requests": "0 USD (ChatGPT plan, rate-limited)",
+  "confidence": "agent-reported; verify evidence before acting"
+}

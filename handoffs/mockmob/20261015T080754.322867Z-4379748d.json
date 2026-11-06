@@ -1,0 +1,37 @@
+{
+  "id": "20261015T080754.322867Z-4379748d",
+  "observed_at": "2026-10-15T08:07:54.322867+00:00",
+  "agent": "claude-opus-5.5 subagent (web v2 packet: controls)",
+  "task": "Web v2 (wt-web-v2, branch web/v2-1015) packet \"designed controls\": replace undesigned selects, segmented controls, chips, toggles and disclosures on signed-in pages with one premium accessible control set, Night and Day",
+  "status": "complete",
+  "done": "New control set in src/components/ui/controls/: Listbox (APG select-only combobox: trigger keeps focus, aria-activedescendant, arrows/Home/End/Page/Enter/Space/Escape/Tab, typeahead, groups replace optgroup, portal popover with sliding hover lens that flips above when short of room, bottom sheet with scrim on coarse phones), SegmentedControl (radiogroup, roving tab stop, volt keycap lens that slides with a mild spring, wraps on narrow phones, busy state keeps focus), Chip (aria-pressed, ring fills volt and inks a tick: state not by colour alone, no layout shift), ToggleRow (label row + existing ui/Switch), SmoothDetails (native details kept, WAAPI height ease open 280 ms / close 220 ms, data-closing turns chevrons back at once, optional chevron). controls.css: tokens on :root follow html[data-theme] (Day default, Night dark) so portalled lists match; reduced motion = instant. controlsModel.mjs pure logic + 9 node tests. Call sites swapped: Explore (DiscoveryFeed: 3 native selects to Listbox), Compass Pro (category, programme, college selects), cutoff calculator (category radios to SegmentedControl, other-quota select, both sort selects to Listbox, only-clearing checkbox to ToggleRow, Not-eligible/nested/Bulletin-notes details to SmoothDetails), Practice (local Segmented replaced by SegmentedControl for exam screen, question count, difficulty; Fine-tune details to SmoothDetails; chapter pills to Chip in ctl-chipset), Today (LearningNextAction time choice to SegmentedControl sm with busy), Compass sources details to SmoothDetails with chevron. Audited and left as designed: Saved filter chips (sv-chip), Review/Progress (RecoveryOverview, RhythmCard have no undesigned controls).",
+  "next": "Checker: commit the packet and capture Explore filters (open list, both themes, phone sheet), Practice Fine-tune open/close and segmented lens, Today time choice, Compass Pro shortlist selects, /cuet-cutoff-calculator category + quota + sort + toggle + Not eligible yet disclosure. Outside needs (other owners): Learn StudyWorkspace prefs selects (usual time, weekly subject/minutes), PrepOS MockMobAIHub Focus select, Contribute UploadForm selects (Listbox has a name prop for forms), Account age-band radios; prune now-unused CSS (.pr-seg, .na__seg, .pr-chapters in arena.css; .du-seg, .du-check, .du-select select in du.css); add src/components/ui/controls/controlsModel.test.mjs to an npm test script.",
+  "blockers": [
+    "None. Did not touch result page, ScoreRecoveryLab, recovery/**, result/**, NTA runner, credit/payment/auth code, or other workers' uncommitted files (onboarding, Logo, landing art, start/)."
+  ],
+  "evidence": [
+    "node --test src/components/ui/controls/controlsModel.test.mjs: 9 pass 0 fail",
+    "npx eslint on src/components/ui/controls and the 6 call sites: clean",
+    "SSR smoke render (Next bundled Babel + react-dom/server, scratchpad script) of all five controls: 9/9 markup checks ok"
+  ],
+  "touched_files": [
+    "src/components/ui/controls/Listbox.jsx",
+    "src/components/ui/controls/SegmentedControl.jsx",
+    "src/components/ui/controls/Chip.jsx",
+    "src/components/ui/controls/ToggleRow.jsx",
+    "src/components/ui/controls/SmoothDetails.jsx",
+    "src/components/ui/controls/controls.css",
+    "src/components/ui/controls/controlsModel.mjs",
+    "src/components/ui/controls/controlsModel.test.mjs",
+    "src/components/ui/controls/index.js",
+    "src/components/feed/DiscoveryFeed.jsx",
+    "src/components/du/CompassPro.jsx",
+    "src/components/du/CutoffCalculator.jsx",
+    "src/app/(app)/dashboard/DashboardPageClient.jsx",
+    "src/components/LearningNextAction.jsx",
+    "src/app/(app)/admission-compass/AdmissionCompassPageClient.jsx"
+  ],
+  "verification": "Unit tests, eslint and an SSR render only. Not rendered in a browser (packet rule: no dev server; checker captures). No commit, push or deploy.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

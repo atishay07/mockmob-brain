@@ -1,0 +1,31 @@
+{
+  "id": "20261017T230910.769805Z-f3dc1cd3",
+  "observed_at": "2026-10-17T23:09:10.770806+00:00",
+  "agent": "Claude Opus 5.5 (subagent, wt-v15-askmobi)",
+  "task": "Ask Mobi app (ASK-MOBI-1018 P5) finished on branch ui/v15-askmobi",
+  "status": "complete",
+  "done": "Finished the app's Ask Mobi sheet and its in-context entries: question (Review repair, result mistake, question stream), result mock line, Practice row, Today why sheet, page (Review header, record strip). Credits line is a link to AI credits; priced asks before every call; balance updates after reply. 1757 unit tests and related goldens pass; analyzer clean. Not merged into ui/v15-1018.",
+  "next": "Main session: merge ui/v15-askmobi into the fixed v15 base. Expected conflicts in flutter_app/lib/features/result/full/full_result_screen.dart (mock line after ResultHead; onAsk in _row) and answer_row.dart (onAsk, Ask line after repair), and the 14 result goldens under test/golden/result/goldens (regenerate after merge and open). 37 practice goldens fail on this base already (inherited, not from this branch). Then emulator walk at 412 Night and Day against D6, D7, D12, D5, W-060.",
+  "blockers": [],
+  "evidence": [
+    "git head df3c3956 on ui/v15-askmobi",
+    "flutter_app/test/golden/insights/goldens/ask_sheet_*_412_{night,day}.png (18 cases)",
+    "flutter_app/test/golden/insights/goldens/ask_entries_*.png"
+  ],
+  "touched_files": [
+    "flutter_app/lib/features/insights/widgets/ask_sheet.dart",
+    "flutter_app/lib/features/insights/widgets/ask_entries.dart",
+    "flutter_app/lib/features/insights/data/ask_suggestions.dart",
+    "flutter_app/lib/features/insights/data/ask_mock_lines.dart",
+    "flutter_app/lib/features/insights/data/ask_mobi_context.dart",
+    "flutter_app/lib/features/result/full/answer_row.dart",
+    "flutter_app/lib/features/result/full/full_result_screen.dart",
+    "flutter_app/lib/features/result/model/ask_context.dart",
+    "flutter_app/lib/features/practice/widgets/more_rows.dart",
+    "flutter_app/lib/features/today/screens/why_sheet.dart",
+    "flutter_app/lib/features/today/logic/why_ask.dart"
+  ],
+  "verification": "analyze clean; test/unit insights, result, practice, today, review: 1757 passed; test/golden insights, today, review pass; result goldens regenerated (14) and opened; practice goldens: 37 failures inherited from the base, none touch this branch's code. No emulator walk done (not allowed).",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

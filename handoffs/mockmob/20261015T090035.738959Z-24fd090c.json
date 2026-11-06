@@ -1,0 +1,37 @@
+{
+  "id": "20261015T090035.738959Z-24fd090c",
+  "observed_at": "2026-10-15T09:00:35.738959+00:00",
+  "agent": "claude-opus-5.5 web-I1 subagent",
+  "task": "web-I1: the app's painted quiet-state rooms (SceneImage, SceneLife, scene empty/error states) on the website, wt-web-v2 web/v2-1015",
+  "status": "complete",
+  "done": "Commit ff7ce3f1 on web/v2-1015 (not pushed). 92 scene files in public/art/scenes (rooms and milestone band Night/Day at 768/1280/1536 w, welcome and plan seal at 1080/1296 w; AVIF and WebP; PSNR 41-44 dB against the masters). data/scene-anchors.json byte-identical to wt-phase2/shared (sha256 dbaf0a9a...). src/components/scenes: sceneModel.mjs, SceneImage, SceneVignette, SceneLife, StateRoom, scenes.css, tools/build-scene-files.mjs, sceneModel.test.mjs. Skeleton EmptyState/ErrorState take an opt-in scene prop (no change without it, so the NTA test page and inline form errors are unchanged). Wired: Saved empty (saved), Review empty (nothingYet, Mobi still tappable), Explore (noResults or nothingYet), Leaderboard and My uploads empties, moderation queue clear (allClear), full-page errors on Analytics, Practice (dashboard), Leaderboard, My uploads (unreachable; offline desk while navigator is offline).",
+  "next": "Owner review on the local server: /saved with no saves, /review with no sessions, /explore with filters that match nothing, Night and Day. Not wired (other owners): the Result/Lab \"Nothing to repair\" (allClear) belongs to the Lab v4 work; the web has no milestone moment, so the band files and the tall rooms are unused for now. One production build still to run in the wave check.",
+  "blockers": [
+    "Owner OK before any push of web/v2-1015"
+  ],
+  "evidence": [
+    "wt-web-v2 commit ff7ce3f1",
+    "npx eslint --max-warnings 0 on src/components/scenes, Skeleton.jsx and the 8 call sites: exit 0",
+    "npm run test:app: 207 pass, 0 fail (adds sceneModel.test.mjs, 7 tests)",
+    "lightningcss parse of scenes.css: 0 warnings; star centring moved off translate because the minifier dropped translate next to an animated transform",
+    "headless Chrome render of a static mock (file://, own profile, removed after): Mobi on the lit ellipse, stars in the window sky, motes in the cone"
+  ],
+  "touched_files": [
+    "data/scene-anchors.json",
+    "public/art/scenes/**",
+    "src/components/scenes/**",
+    "src/components/ui/Skeleton.jsx",
+    "src/app/(app)/saved/SavedPageClient.jsx",
+    "src/components/RecoveryOverview.jsx",
+    "src/components/feed/DiscoveryFeed.jsx",
+    "src/app/(app)/moderation/ModerationPageClient.jsx",
+    "src/app/(app)/leaderboard/LeaderboardPageClient.jsx",
+    "src/app/(app)/my-uploads/MyUploadsPageClient.jsx",
+    "src/app/(app)/analytics/AnalyticsPageClient.jsx",
+    "src/app/(app)/dashboard/DashboardPageClient.jsx",
+    "package.json (test:app)"
+  ],
+  "verification": "Lint, test:app, CSS parse and a headless static mock only. No next build, no dev server, no real page render (the web components were not rendered in Next).",
+  "cost_and_pending_requests": "none (no paid model calls)",
+  "confidence": "agent-reported; verify evidence before acting"
+}

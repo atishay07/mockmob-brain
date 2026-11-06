@@ -1,0 +1,812 @@
+{
+ "kind": "authored_scores_check",
+ "version": "authored-scores-1",
+ "source": "claude-authored-2026-10-14",
+ "repairedTextPolicy": "hold",
+ "at": "2026-10-14T06:23:18.307Z",
+ "planned": 479,
+ "agentEntries": 479,
+ "hashChangedByRepair": 60,
+ "heldForFreshPass": 60,
+ "engineEligible": 402,
+ "engineIneligible": 77,
+ "engineIneligibleReasons": {
+  "question_changed_since_scored": 60,
+  "answer_guard_options_invalid": 3,
+  "answer_guard_near_duplicate_options": 3,
+  "options_invalid": 3,
+  "wording_corrupted_connective": 1,
+  "orphan_passage_question": 15
+ },
+ "fitGate": {
+  "mirror": "data/nta_fit_scores.js on wip/cuet-fit (ntaFitGateReasons + the content-hash check)",
+  "minFit": 8,
+  "pass": 419,
+  "reasons": {
+   "fit_question_changed": 60
+  },
+  "baseTablesMissing": [
+   "chemistry",
+   "english",
+   "history",
+   "political_science",
+   "psychology",
+   "sociology"
+  ]
+ },
+ "qualityAndFitBoth": 402,
+ "passageSets": {
+  "servable": 5,
+  "of": 12,
+  "blueprint": {
+   "passageWords": {
+    "min": 200,
+    "target": 280,
+    "max": 300
+   },
+   "minChildren": 4
+  },
+  "sets": [
+   {
+    "groupId": "pg_a55d6933b991898f4e4b700b046bf2de",
+    "chapter": "Factual Passage",
+    "words": 299,
+    "children": 5,
+    "eligibleChildren": 4,
+    "servable": true
+   },
+   {
+    "groupId": "pg_20aabfc462664e85ddcb5cf1aef5d7d6",
+    "chapter": "Narrative Passage",
+    "words": 292,
+    "children": 5,
+    "eligibleChildren": 4,
+    "servable": true
+   },
+   {
+    "groupId": "pg_b1c0212d23fa9117786356ede1fc95f7",
+    "chapter": "Literary Passage",
+    "words": 277,
+    "children": 4,
+    "eligibleChildren": 2,
+    "servable": false
+   },
+   {
+    "groupId": "pg_c9a1c2e7267af4c9bf4748cd080c7976",
+    "chapter": "Factual Passage",
+    "words": 249,
+    "children": 5,
+    "eligibleChildren": 4,
+    "servable": true
+   },
+   {
+    "groupId": "pg_4be65e802682a481da1537a400827fdb",
+    "chapter": "Narrative Passage",
+    "words": 282,
+    "children": 5,
+    "eligibleChildren": 3,
+    "servable": false
+   },
+   {
+    "groupId": "pg_a19306ccfb79082951e15b7c418f6d6a",
+    "chapter": "Literary Passage",
+    "words": 266,
+    "children": 5,
+    "eligibleChildren": 2,
+    "servable": false
+   },
+   {
+    "groupId": "pg_a026673c3e0f23beb17064ea26702f62",
+    "chapter": "Factual Passage",
+    "words": 270,
+    "children": 5,
+    "eligibleChildren": 3,
+    "servable": false
+   },
+   {
+    "groupId": "pg_58c5acf369b459ca6924912852791ac3",
+    "chapter": "Narrative Passage",
+    "words": 296,
+    "children": 5,
+    "eligibleChildren": 5,
+    "servable": true
+   },
+   {
+    "groupId": "pg_580969bc3f0e14374cfe92cbd2bca6f5",
+    "chapter": "Literary Passage",
+    "words": 293,
+    "children": 5,
+    "eligibleChildren": 4,
+    "servable": true
+   },
+   {
+    "groupId": "pg_b7f3e595617ca904b33d5982c889fc7f",
+    "chapter": "Factual Passage",
+    "words": 261,
+    "children": 5,
+    "eligibleChildren": 2,
+    "servable": false
+   },
+   {
+    "groupId": "pg_e4b30a4c8346748791f06d5efdc63f6b",
+    "chapter": "Narrative Passage",
+    "words": 276,
+    "children": 5,
+    "eligibleChildren": 2,
+    "servable": false
+   },
+   {
+    "groupId": "pg_27dbca206f074f871d6b636f24b4bbfe",
+    "chapter": "Literary Passage",
+    "words": 254,
+    "children": 5,
+    "eligibleChildren": 3,
+    "servable": false
+   }
+  ]
+ },
+ "bySubject": {
+  "chemistry": {
+   "planned": 95,
+   "eligible": 86,
+   "fitPass": 90,
+   "both": 86
+  },
+  "english": {
+   "planned": 59,
+   "eligible": 38,
+   "fitPass": 38,
+   "both": 38
+  },
+  "history": {
+   "planned": 82,
+   "eligible": 73,
+   "fitPass": 74,
+   "both": 73
+  },
+  "political_science": {
+   "planned": 83,
+   "eligible": 72,
+   "fitPass": 73,
+   "both": 72
+  },
+  "psychology": {
+   "planned": 79,
+   "eligible": 61,
+   "fitPass": 71,
+   "both": 61
+  },
+  "sociology": {
+   "planned": 81,
+   "eligible": 72,
+   "fitPass": 73,
+   "both": 72
+  }
+ },
+ "ineligible": [
+  {
+   "id": "c3a0d29d-038e-4323-8efe-f95c82290c16",
+   "subject": "chemistry",
+   "chapter": "Solutions",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "599f0f43-7fdb-46ba-b5bd-86ef6273dc0d",
+   "subject": "chemistry",
+   "chapter": "Electrochemistry",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "35087f71-5855-47b3-bd54-d5f26054f8bf",
+   "subject": "chemistry",
+   "chapter": "Electrochemistry",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ]
+  },
+  {
+   "id": "6f5a70c3-9d94-4bf6-912d-6c171d1d92e9",
+   "subject": "chemistry",
+   "chapter": "Electrochemistry",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ]
+  },
+  {
+   "id": "0575b5e7-b2ea-4e69-9831-6dad960632ab",
+   "subject": "chemistry",
+   "chapter": "Chemical Kinetics",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ]
+  },
+  {
+   "id": "6c30583b-f385-4d4b-bc21-39f692770dcb",
+   "subject": "chemistry",
+   "chapter": "d- and f-Block Elements",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "cf0089e7-356e-4131-b9de-ef4a94447c62",
+   "subject": "chemistry",
+   "chapter": "Haloalkanes & Haloarenes",
+   "reasons": [
+    "wording_corrupted_connective"
+   ]
+  },
+  {
+   "id": "ab74ad4f-f6ae-41e8-a885-5c2c5c971a21",
+   "subject": "chemistry",
+   "chapter": "Haloalkanes & Haloarenes",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "3b6ecbe6-50e3-4117-9bb4-30ef828eaa48",
+   "subject": "chemistry",
+   "chapter": "Amines",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "78dda431-bf55-4f0c-85ec-b6a82655fd96",
+   "subject": "english",
+   "chapter": "Factual Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "b7cb84cd-9770-4288-a594-982dd354b114",
+   "subject": "english",
+   "chapter": "Narrative Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "76ffa08b-7b32-4ec2-a618-c69e375ae18e",
+   "subject": "english",
+   "chapter": "Literary Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "5417fab7-c777-435a-851d-c06d92c7480a",
+   "subject": "english",
+   "chapter": "Literary Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "cdffd36c-6665-4509-a239-0a90ba822b14",
+   "subject": "english",
+   "chapter": "Factual Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "8d43488d-66a0-4dd4-8777-745a8bdc52bc",
+   "subject": "english",
+   "chapter": "Narrative Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "722e2427-34ac-46aa-b456-d4c6c567ec81",
+   "subject": "english",
+   "chapter": "Narrative Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "52a77ae5-7f63-4282-adfd-646041bde6d7",
+   "subject": "english",
+   "chapter": "Literary Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "8111195d-6716-46fd-8dcd-68a5adc765b4",
+   "subject": "english",
+   "chapter": "Literary Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "6684adf8-1584-4b9b-a950-3917c050c89d",
+   "subject": "english",
+   "chapter": "Literary Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "a168208f-7491-4d9c-859c-4bcd75b18eb0",
+   "subject": "english",
+   "chapter": "Factual Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "85dfa1f7-bac4-4606-b46a-2089a7cd3e56",
+   "subject": "english",
+   "chapter": "Factual Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "f0f27e9a-d1d7-4f4a-bdcd-e11a075d3436",
+   "subject": "english",
+   "chapter": "Literary Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "275efdf9-8160-4f14-b0a3-ff8341f34add",
+   "subject": "english",
+   "chapter": "Factual Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "ef70ca89-35a4-4cc5-a5d4-955838ab953f",
+   "subject": "english",
+   "chapter": "Factual Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "f25a6011-2547-4c4d-9531-ccdf2536574a",
+   "subject": "english",
+   "chapter": "Factual Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "eaf2f023-d10b-4579-ae18-82800ae58b88",
+   "subject": "english",
+   "chapter": "Narrative Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "ee88ef51-eb37-46af-97e7-b64357c342f5",
+   "subject": "english",
+   "chapter": "Narrative Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "e69e9e2b-50dd-4c2e-bcbf-59097d74a7ab",
+   "subject": "english",
+   "chapter": "Narrative Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "7be10dcd-3fbb-45f4-be06-3bbe0e3d07af",
+   "subject": "english",
+   "chapter": "Literary Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "4e843818-bc84-4f13-8c64-7e0bc4545473",
+   "subject": "english",
+   "chapter": "Literary Passage",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "b16e61da-8dd0-4db7-aba7-eb389885bdf7",
+   "subject": "history",
+   "chapter": "Kings, Farmers & Towns",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "2aeac152-79f9-4bc3-b24d-a4fe11c51c3b",
+   "subject": "history",
+   "chapter": "Thinkers, Beliefs & Buildings",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "e58cdd9f-dc2f-4dba-b5e0-798058c6a2a3",
+   "subject": "history",
+   "chapter": "Bhakti-Sufi Traditions",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "8aa1a412-8fe5-44bc-abf7-183e306e48a8",
+   "subject": "history",
+   "chapter": "An Imperial Capital — Vijayanagara",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "053d6a2a-ad8e-439d-93d7-40ea0716fd8a",
+   "subject": "history",
+   "chapter": "An Imperial Capital — Vijayanagara",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "9895ac8c-d530-4e07-836a-55876cc39c42",
+   "subject": "history",
+   "chapter": "Colonialism & the Countryside",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "b91df30f-91a7-4ff3-9152-a0e2c293e78d",
+   "subject": "history",
+   "chapter": "Mahatma Gandhi & the Nationalist Movement",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "c9e70f56-930b-4d27-9ce4-55128d15e4f9",
+   "subject": "history",
+   "chapter": "Mahatma Gandhi & the Nationalist Movement",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "0b11dcd8-9d5e-4c40-93c5-c244edd4034f",
+   "subject": "history",
+   "chapter": "Framing the Constitution",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "47736958-cb1f-4b0d-856d-61d715a61b76",
+   "subject": "political_science",
+   "chapter": "Challenges of Nation Building",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "58a1fa5f-f56f-495f-ad13-d8a96dafa54e",
+   "subject": "political_science",
+   "chapter": "Challenges of Nation Building",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "2159e619-84bd-446f-8055-8d0677f37212",
+   "subject": "political_science",
+   "chapter": "Politics of Planned Development",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "641761d6-e74d-457b-abd0-118d2b347de4",
+   "subject": "political_science",
+   "chapter": "India's External Relations",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "a436d28f-1c2b-42a8-bd9f-e6881077b4ab",
+   "subject": "political_science",
+   "chapter": "India's External Relations",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "0cb72baf-f1e3-4953-9dd2-3f2472353de1",
+   "subject": "political_science",
+   "chapter": "Challenges to & Restoration of the Congress System",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "0eb088d1-af3e-4f95-b3a1-f4ab57473656",
+   "subject": "political_science",
+   "chapter": "Regional Aspirations",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "5ca1431b-c5b9-4b09-909e-304e00e7ba85",
+   "subject": "political_science",
+   "chapter": "End of Bipolarity",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "94a6e9c1-9d1a-4e64-bbc7-a208027a3c1a",
+   "subject": "political_science",
+   "chapter": "Contemporary South Asia",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "bfe02c5b-46a2-478e-a826-fc0392cdff7f",
+   "subject": "political_science",
+   "chapter": "Environment & Natural Resources",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "7620ca67-81e1-4155-8b15-c0f56c847aff",
+   "subject": "political_science",
+   "chapter": "Globalisation",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "b956b2d0-3469-48c4-9946-dea9d5d1bf48",
+   "subject": "psychology",
+   "chapter": "Variations in Psychological Attributes",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "7fbbdf38-f2f6-4c7a-8277-1003d6dd8e8f",
+   "subject": "psychology",
+   "chapter": "Variations in Psychological Attributes",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "1ba0f260-1afb-4325-897d-1a1822873983",
+   "subject": "psychology",
+   "chapter": "Variations in Psychological Attributes",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "3a87c16d-9491-4bae-a677-36a9f2550856",
+   "subject": "psychology",
+   "chapter": "Self & Personality",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "418ddeef-3a09-4960-9d47-13756c978a82",
+   "subject": "psychology",
+   "chapter": "Self & Personality",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "65419fcc-b767-45e0-9ff6-4c17becbe99a",
+   "subject": "psychology",
+   "chapter": "Self & Personality",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "98822b78-c610-4cba-9653-98112b3457b3",
+   "subject": "psychology",
+   "chapter": "Self & Personality",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "6c7d53f9-814f-4252-b120-da2469629d80",
+   "subject": "psychology",
+   "chapter": "Meeting Life Challenges",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "5598d26a-aff7-4fdf-b3e3-de91de05a055",
+   "subject": "psychology",
+   "chapter": "Meeting Life Challenges",
+   "reasons": [
+    "question_changed_since_scored",
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "93635377-c28d-42d8-bb0d-e18a96653d76",
+   "subject": "psychology",
+   "chapter": "Psychological Disorders",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "9494cdab-0c64-4944-b891-c1b8ca956314",
+   "subject": "psychology",
+   "chapter": "Therapeutic Approaches",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "608f1640-b710-4c21-b5a4-360353f65f95",
+   "subject": "psychology",
+   "chapter": "Therapeutic Approaches",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "ddfcb147-ba95-48de-9cd4-488256fc83b5",
+   "subject": "psychology",
+   "chapter": "Therapeutic Approaches",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "fc5deffb-c7d6-4bc4-b228-d30d19867c97",
+   "subject": "psychology",
+   "chapter": "Therapeutic Approaches",
+   "reasons": [
+    "question_changed_since_scored",
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "d55eb552-81d2-428e-a87c-6a8cada00595",
+   "subject": "psychology",
+   "chapter": "Therapeutic Approaches",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "596483d2-d834-437d-b197-93cdd37db9d5",
+   "subject": "psychology",
+   "chapter": "Attitude & Social Cognition",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "50878637-d492-46ae-9cbe-75b3b2283971",
+   "subject": "psychology",
+   "chapter": "Attitude & Social Cognition",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "74dbac5d-bac3-4416-af0e-3f79dfc9c4ca",
+   "subject": "psychology",
+   "chapter": "Attitude & Social Cognition",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "51f152fd-81d3-4634-ba2c-c50efb903927",
+   "subject": "sociology",
+   "chapter": "Demographic Structure",
+   "reasons": [
+    "orphan_passage_question"
+   ]
+  },
+  {
+   "id": "41fe326d-c5a9-4c28-9f56-81bb1639c884",
+   "subject": "sociology",
+   "chapter": "Social Institutions",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "64b92c21-03eb-49a6-8f15-ad92acb9e502",
+   "subject": "sociology",
+   "chapter": "Patterns of Social Inequality",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "bed85dcd-3466-406d-b98c-cbe89f3497b8",
+   "subject": "sociology",
+   "chapter": "Structural Change",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "75121651-2d17-4399-b2a1-e22fa6e6308b",
+   "subject": "sociology",
+   "chapter": "Structural Change",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "7c80c5fe-89ab-43bc-903a-937c3ce3024b",
+   "subject": "sociology",
+   "chapter": "Cultural Change",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "5a4a4a4f-3587-4527-807e-42a466d39ff4",
+   "subject": "sociology",
+   "chapter": "Change & Development in Rural Society",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "c1d99702-33a4-426d-8b97-fd6df2c0cbf3",
+   "subject": "sociology",
+   "chapter": "Change & Development in Rural Society",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  },
+  {
+   "id": "867e49bb-d660-482a-ba23-506c8c82824d",
+   "subject": "sociology",
+   "chapter": "Mass Media & Communications",
+   "reasons": [
+    "question_changed_since_scored"
+   ]
+  }
+ ]
+}

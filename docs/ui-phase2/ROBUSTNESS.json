@@ -1,0 +1,336 @@
+[
+ {
+  "id": "onboarding-01",
+  "severity": "P1",
+  "where": "lib/features/onboarding/state/sheet_sync.dart:185 (run() reads auth.subjects), lib/core/auth/auth_controller.dart:253-255 and 269-273 (cached profile applied as signedIn with fromCache:true), lib/core/auth/auth_controller.dart:330-331 (subjects from cache), sheet_sync.dart:274-294 (_writeProfile PATCH subjects, PUT goal, PUT notification prefs)",
+  "what": "The 'never overwrite an existing plan' guard trusts auth.subjects, which can come from the on-phone cached profile before the network profile loads. A cached profile saved while the account had no subjects (signed in on this phone earlier) makes the account look new, so a sealed, unsynced sheet parked for that account overwrites its real goal, study window and subjects on the server.",
+  "repro": "Phone B: sign in as account A while A has no subjects (cache stores subjects []), then sign out. Account A completes onboarding on another phone (subjects saved server-side). On phone B, seal a sheet for A while offline (so it stays unsynced and is parked on sign-out). Later, with a slow or failing profile request, sign in as A on phone B: _applyProfile(fromCache:true) sets signedIn with subjects [], the authSnapshot listener calls _maybeRun, and run() proceeds past 'if (auth.subjects.isNotEmpty)' and writes goal, study window and subjects over A's plan.",
+  "fix": "Only treat the account as new from a network profile. Add a profileFresh flag to AuthSnapshot (true only when fromCache is false) and skip sheet sync until it is set, or re-read the profile with loadAuthMe inside run() and keep the sheet (kept phase) when the server already has subjects. Never use cached subjects for the overwrite decision.",
+  "short_summary": "Cached empty subjects let sync overwrite an existing plan"
+ },
+ {
+  "id": "onboarding-02",
+  "severity": "P1",
+  "where": "lib/features/onboarding/state/sheet_sync.dart:262-268 (_writeAge: writes when consent is not loaded), lib/core/repositories/consent_repository.dart:87-89 (setAgeBand: keepOn is false unless consent is already loaded and adult)",
+  "what": "When the consent state has not loaded, _writeAge skips the 'already set' check and calls setAgeBand. keepOn is then false, so the PUT /api/me/consent sends analyticsAllowed:false and overwrites the account's age band with the onboarding answer. A student's usage-data opt-in is switched off on the server with no message.",
+  "repro": "Returning account on a new phone: it has no subjects yet (for example it skipped subjects earlier) and usage data is on. Seal onboarding with an age answer before the consent repository loads (it loads on auth, which is not awaited in run()). _writeAge sees isLoaded false, calls setAgeBand, and the server stores analyticsAllowed false with the new age band. Analytics also closes its queue through the withdrawal hooks.",
+  "fix": "Await the consent load (or read GET /api/me/consent) before deciding, and never send analyticsAllowed:false unless the student changed it. Skip the age write when the server already holds an age band, or ask the student before changing it. Keep the current analyticsAllowed value when writing the age band.",
+  "short_summary": "Unloaded consent makes age sync turn usage data off"
+ },
+ {
+  "id": "onboarding-03",
+  "severity": "P1",
+  "where": "lib/features/onboarding/state/answers_store.dart:62-75 (every broken or newer read calls _backUp, which returns false when the write fails), lib/features/onboarding/state/answers_controller.dart:65 (startFresh refuses when not backed up), answers_controller.dart:73 (_set drops every write while !_readOk), lib/features/onboarding/screens/onboarding_flow.dart:246 (retry offered only when not backed up) and 146 (_onStart)",
+  "what": "If the stored sheet cannot be parsed and the backup write also fails (the usual cause is a full or failing phone storage), the student has no way forward in onboarding. Start-fresh is refused, every write is dropped, and the only action is Retry, which reads the same broken text again. Sign-in stays reachable, but the onboarding path is stuck until app data is cleared.",
+  "repro": "Corrupt the onboarding_sheet preference with invalid JSON, and make the storage refuse writes (for example a nearly full phone, so onboarding_sheet.bak cannot be written). Open the app: Welcome shows the 'sheet unreadable' notice and Retry. Each Retry calls load(), which fails the same way. The Start key never opens the deck, and no control discards the broken sheet.",
+  "fix": "When the backup fails, still offer an explicit 'Start over' that discards the unreadable sheet after a clear confirmation, so the student is never stuck. Also try an in-memory or alternate backup key and report the failure to the student. Keep the confirm step so nothing is removed without consent.",
+  "short_summary": "Unreadable sheet plus failed backup traps onboarding"
+ },
+ {
+  "id": "onboarding-04",
+  "severity": "P2",
+  "where": "lib/features/onboarding/state/answers_controller.dart:73-79 (_set updates state before the write is queued) and 273 (_queue swallows write errors with catchError)",
+  "what": "Each answer appears on screen before it is saved, and a failed write is dropped silently. Seal, age and step changes can therefore be lost on process death or a storage error without any sign to the student, and the Save step can show the sheet as sealed when the next launch finds it unsealed.",
+  "repro": "On a low-memory Android phone, answer the last onboarding step (seal) and switch to another app right away. The OS kills the process before SharedPreferences commits the write (writes are asynchronous and nothing waits on them). On relaunch the sheet is at an earlier step and not sealed, although the student saw it sealed. The same happens silently when setString throws, because the catchError discards it.",
+  "fix": "Await the save before advancing on seal, age and sign-in-relevant changes. Flush pending writes on AppLifecycleState.paused (the controller already has flushed()). Surface a failed save as a small notice with a retry instead of catching it silently.",
+  "short_summary": "Answers show before saving; failed saves vanish silently"
+ },
+ {
+  "id": "onboarding-05",
+  "severity": "P2",
+  "where": "lib/core/router/router_redirect.dart:21 (IntendedRoute keeps _location in memory only), lib/features/auth/sign_in_controller.dart:176-204 (_watchBrowserReturn listens on a live stream held only by the controller), sign_in_controller.dart:246 (_remembered snapshot)",
+  "what": "The remembered deep link, the browser-return listener and the 'code sent' cooldown all live in memory. When the OS kills the app during sign-in (common when the student switches to the mail app or the Google browser), the target page is lost and the after-sign-in sheet is never offered, so a first-time student never sees it.",
+  "repro": "Start from a deep link (for example a specific practice page) while signed out, so it is remembered and sign-in opens. Go to the mail app to copy the code, let Android kill MockMob, then enter the code. The app lands on Today instead of the remembered page. Or: pick Google sign-in, complete it in the browser after a process death. The callback signs in through the core auth listener, but the sign-in controller's stream is gone, so _offerSheet never runs and the first-sign-in sheet is not shown.",
+  "fix": "Persist the remembered location (with its timestamp and owner account id) in app prefs, and restore it on launch. Offer the after-sign-in sheet from the auth signed-in event itself (checking beforeYouStartOffered), not only from the sign-in controller's future or stream.",
+  "short_summary": "Process death drops deep link and first-sign-in sheet"
+ },
+ {
+  "id": "onboarding-06",
+  "severity": "P2",
+  "where": "lib/features/onboarding/state/answers_controller.dart:193-220 (takeFor: identical(state.value, a) checks at lines 205 and 215), sheet_sync.dart (_maybeRun, whenComplete reruns only when owner already equals userId)",
+  "what": "If the student edits the sheet while another account's sign-in is being handed over, takeFor returns without swapping. The sheet stays owned by the previous account and is shown to the new one. Nothing re-runs takeFor until the next edit, so the new account's sealed sheet is not synced and the wrong account's answers stay on screen.",
+  "repro": "Account A signed out, account B signs in on the same phone. While B's takeFor awaits _writes (a moment after the sign-in), the student taps a choice on the Save step. _set changes state, so identical(state.value, a) is false at line 215 and takeFor returns. The sheet on screen still belongs to A (its answers, subjects and study days), and B's sync does not start until another change.",
+  "fix": "Re-read state after the await and loop until owner matches the signed-in account, or re-run takeFor from the whenComplete handler whenever the owner still differs. Do not return silently; leave the state in a retryable form.",
+  "short_summary": "Account switch mid-edit shows the previous student's sheet"
+ },
+ {
+  "id": "you-02",
+  "severity": "P1",
+  "where": "lib/features/rhythm/data/rhythm_prefs.dart:51-60 (ensureLoaded assigns state after the await) and :70-72 (setHidden); lib/features/you/you_providers.dart:31-41 (PrefToggle._load assigns state; set)",
+  "what": "A stored-preference load that is still in flight overwrites a choice the student just made, and the rhythm load also mixes the old and new account keys.",
+  "repro": "Cold start: ensureLoaded is awaiting SharedPreferences.getBool. Before it resolves the student taps Turn off rhythm, so setHidden sets state.hidden=true and writes the store. The pending load then returns the old value and rhythm_prefs.dart:60 sets state back to hidden=false, so the strip reappears. The store and the screen now disagree until the next launch. The same happens with PrefToggle (you_providers.dart:34 overwrites set() at :41) for Open results directly and Late-night lines. Account switch: _key('celebrations') at line 59 is evaluated after the await, so it reads the new account key while hidden came from the old account.",
+  "fix": "Track a generation or a dirty flag: any set() during the load wins, so the load only fills fields that were not touched. Compute both keys for one user id captured before the first await (userId read once at the start of ensureLoaded)."
+ },
+ {
+  "id": "you-03",
+  "severity": "P1",
+  "where": "lib/features/notifications/data/reminder_state.dart:86-110 (fromJsonString returns an empty ReminderState on any error); lib/features/notifications/data/reminder_store.dart:28-35 (update loads, changes, and writes back)",
+  "what": "One unreadable record in the notification state silently resets everything, including the mute and paused categories, and the reset is then written back to storage.",
+  "repro": "Store a notif_feature_state value with one malformed field (for example a delivered entry with a null 'a', or a category with a non-map value). The cast throws, fromJsonString returns const ReminderState(), and the next ReminderStore.update (any settle, sync or Mute tap) writes that default over the real value. Result: a student who muted reminders for 7 days gets them again, and a category paused after 3 unopened reminders resumes. No error is shown.",
+  "fix": "Parse each delivered and categories entry independently and skip only the bad ones. If the whole string cannot be decoded, keep the raw value and refuse to write over it (or back it up under another key) instead of replacing it with defaults."
+ },
+ {
+  "id": "you-04",
+  "severity": "P1",
+  "where": "lib/core/notifications/notification_service.dart:119 (ledger loaded at start of schedule) and :165-168 (save runs even for respondsToStudentAction, using the stale snapshot); lib/core/sync/session/session_notifications.dart:54 (student-action post)",
+  "what": "The reminder cap ledger is a lost-update read-modify-write shared by reminder scheduling and the background result post, so the one-push-a-day and weekly caps can be undercounted.",
+  "repro": "A reminder sync is scheduling study-window reminders (schedule() loads the ledger, awaits the gateway, adds its entry) while a result-ready post with respondsToStudentAction=true runs. The post's schedule() loaded the ledger before that entry was added, skips the ledger change (line 165) but still calls _ledger.save(ledger) at line 168 with the old snapshot. The reminder's ledger entry disappears, so the daily cap (planNotification, notification_planner.dart:140) lets a second reminder through the same day. The same race can undo a cancel() that freed a slot.",
+  "fix": "Only save the ledger when this call changed it, and do the load-modify-save inside one serialized queue shared by schedule(), cancel() and cancelAll() (the way ReminderStore serializes its writes)."
+ },
+ {
+  "id": "you-05",
+  "severity": "P1",
+  "where": "lib/features/you/privacy/usage_data_controller.dart:48-61 (setAllowed catches only ApiError; state set to enabling/withdrawing before the try)",
+  "what": "Any non-API error during a usage-data change leaves the controller busy forever, which disables the switch and keeps the spinner until the screen is left.",
+  "repro": "Turn usage data off while a platform write fails. consent_repository.dart _put runs the before-withdrawal hooks and then prefs.setPendingWithdrawalFor (a PlatformException or drift error, not an ApiError). setAllowed rethrows past its ApiError-only catch, so state stays phase=withdrawing. UsageDataUi.busy is true, so usage_data_card.dart sets onChanged to null and setAllowed returns early on every later tap. The card shows Turning off forever.",
+  "fix": "Catch Object in setAllowed (and changeAge), map non-API failures to unreached/deleteFailed, and always leave the busy phase in a finally block."
+ },
+ {
+  "id": "you-06",
+  "severity": "P2",
+  "where": "lib/features/notifications/data/reminder_store.dart and lib/features/notifications/logic/reminder_outcomes.dart:settleDeliveredReminders (called on resume from reminder_scheduler.dart settle()); lib/features/notifications/services/notification_providers.dart:NotificationsRuntime._open (onResume) and :reminderTapHandlerProvider",
+  "what": "A reminder the student taps after more than 2 hours can be counted as ignored, which can pause its category after three such taps.",
+  "repro": "A study reminder is due at 7:00 PM and the app is in the background. At 9:30 PM the student taps the notification. The resume lifecycle event runs _open, which calls settle() before the tap callback: now - d.at is over respondedWindow (2h), so the record is counted as unopened and removed (reminder_outcomes.dart settle branch). The tap handler then calls markEngaged, which finds no record and does nothing. Three such taps in a row pause the category even though every one was opened.",
+  "fix": "Record the tap before settling: have the tap handler (or the resume path, when the app was launched by a tap) mark the task engaged first, or keep the record until the tap window passes so a late tap can still clear it."
+ },
+ {
+  "id": "today-01",
+  "severity": "P1",
+  "where": "lib/core/router/quick_start.dart:189-200 (go() has no once-guard) and lib/features/practice/widgets/choice_deck.dart:329-332 (ChoiceOption onTap has no guard)",
+  "what": "The Start sheet stays hit-testable while it animates out. A second tap calls Navigator.pop() again, which can pop the page underneath the sheet, and router.go/push runs again. Resume uses push for /run/ routes (line 195-196), so two identical run screens can stack.",
+  "repro": "Open Start from Today, then tap 'Quick 10' (or Resume) twice within about 250 ms. Expected one practice setup or run screen. Actual: a second pop may close the screen under the sheet, and a duplicate push lands for /run/ routes. Not verified on a device.",
+  "fix": "Add a _leaving flag in _QuickStartSheetState, set it in go(), and return early if it is already set. Wrap the sheet body in AbsorbPointer once leaving so the second tap never reaches the choices."
+ },
+ {
+  "id": "today-02",
+  "severity": "P1",
+  "where": "lib/features/review/data/review_providers.dart:55-64 (quickRepairFromReviewProvider reads reviewIndexProvider, which has no dismissals) versus lib/features/today/data/today_providers.dart notToday() and lib/features/today/logic/move_builder.dart:63 (dismissed)",
+  "what": "'Not today' hides the client-built repair on Today until 4 AM, but the Start sheet's 'Repair the next mistake' row and the 10-minute repair shortcut ignore the dismissal. Today and Start name different things for the same paper.",
+  "repro": "On Today, tap 'Not today' on the repair card. Then open the dock Start sheet. The 'Repair the next mistake' row still appears for the same paper, and its shortcut opens the repair that was dismissed.",
+  "fix": "Make quickRepairFromReviewProvider return null when todayDismissalsProvider contains dismissalKeyFor(basis), or move the dismissal filter into the review index so Start and Today share one rule."
+ },
+ {
+  "id": "today-03",
+  "severity": "P1",
+  "where": "lib/core/router/quick_start.dart:38-43 (resumeDraftProvider) and line 186 (ref.watch(nowProvider)())",
+  "what": "nowProvider is a plain DateTime.now function (lib/core/api/api_providers.dart:58), so watching it does not tick. resumeDraftProvider re-runs only when latestSessionDraftProvider emits. Today uses todayClockProvider and does tick, so the two screens disagree after a deadline.",
+  "repro": "Open Start with a mock draft whose deadline is 10:40 PM. Keep the sheet open or the provider cached past 10:40 PM. The Resume row still says 'Ends at 10:40 PM' and tapping it opens the run screen for an ended session. Today, which watches the clock, has already moved on.",
+  "fix": "In resumeDraftProvider, watch todayClockProvider and compute resumability from that tick, or schedule an invalidation at endsAtWallMs plus the submission grace."
+ },
+ {
+  "id": "today-04",
+  "severity": "P1",
+  "where": "lib/features/today/data/today_providers.dart endedAttemptExistsProvider (family, not autoDispose; the 404 result is cached as false) and TodayClock.refresh, which does not invalidate it. Only TodayActions.refresh does.",
+  "what": "A 404 cached as exists=false is never re-asked on resume or after the draft changes. If the answers reach the server later, Today keeps saying they were not recorded or still being sent.",
+  "repro": "A mock ends while the phone is offline or the submit is still in flight. Today reads 404 and caches false. The submit then succeeds in the background. On app resume, TodayClock.refresh rebuilds todayDraftProvider, but endedAttemptExistsProvider still returns false, so the ended hero keeps its windowClosed or beingSent wording until the student pulls to refresh.",
+  "fix": "Cache only true, or invalidate endedAttemptExistsProvider(sessionId) on resume, when the draft changes, and after a submit succeeds."
+ },
+ {
+  "id": "today-05",
+  "severity": "P1",
+  "where": "lib/core/repositories/remote_state.dart:109-113 (refresh returns the running read whenever one exists for the same user, ignoring force)",
+  "what": "A force refresh joins a read that started before the request, so it can return data from before the change the student just made.",
+  "repro": "Today opens and the attempts auto-read (scheduled in build) is still in flight on a slow connection. The student finishes a mock, returns to Today and pulls to refresh. The refresh resolves at once with the pre-submit list, and the new paper and its sealed result do not appear. TodayScreen.initState's post-frame refresh(force:true) can join the same stale read.",
+  "fix": "When force is set and a read is already running, await it and then start a fresh _refresh(id, true), or track a generation counter so a read started before the request is never joined."
+ },
+ {
+  "id": "ask-01",
+  "severity": "P1",
+  "where": "lib/features/insights/screens/stream_screen.dart:270-271 (Next and Skip wired straight to controller.next / controller.skip); lib/core/widgets/key_button.dart:150-152 (_commit calls onPressed with no lock); lib/features/insights/data/stream_controller.dart:199-220 (skip() and next() advance state.index with no check of which question was tapped)",
+  "what": "Next and Skip are not guarded against a second tap. KeyButton has no tap lock, and skip()/next() advance by one from whatever the current index is. A double tap therefore moves the feed two questions on. The second tap can land on the next question's Skip button, which logs a 'skip' interaction for a question the student never answered and removes it from the session.",
+  "repro": "Open the question stream, answer Q1 so Next shows, then tap Next twice about 150 ms apart. The first tap rebuilds to Q2 (Skip now in the same slot). The second tap calls skip() on Q2: stream_controller.dart:201 logs 'skip' for Q2 through feed_api.dart:71, then next() moves to Q3. Q2 was on screen for about one frame and was never answered or read, yet the server records a skip. The same happens with a double tap on Skip.",
+  "fix": "Pass the id of the question the button was rendered for: controller.next(q.id) and controller.skip(q.id), and return early when state.current?.id != id. Optionally add a short (about 300 ms) lock on navigation taps in KeyButton for advance actions."
+ },
+ {
+  "id": "ask-03",
+  "severity": "P2",
+  "where": "lib/features/insights/data/ask_controller.dart:90-97 (AskState held only in memory); lines 137-138 and 151 (requestId created and kept only in memory); line 179 (model origin charges a credit)",
+  "what": "A model request that is in flight when Android kills the process is lost. The server may already have charged the credit, but on relaunch the thread is empty and nothing re-sends or recovers the reply. The code's own retry logic (ask_controller.dart:191-192) assumes the server dedupes by requestId, but that id is never persisted, so the student cannot use it.",
+  "repro": "Ask a question that goes to the model (for example 'Give me a 10 minute revision plan for tonight'), switch apps while 'Thinking it through' shows, and let the OS kill the process. Reopen Ask: the thread is empty, no reply arrived, and the credit balance has dropped by one.",
+  "fix": "Write {text, requestId, sessionId} to prefs when the pending bubble is created (line 137-138) and clear it when the request settles. On the next open of Ask, show the question as a failed bubble with Send again that reuses the stored requestId, so the server's dedupe applies and a charged reply is not paid for twice."
+ },
+ {
+  "id": "ask-04",
+  "severity": "P2",
+  "where": "lib/features/insights/screens/ask_screen.dart:95 (composer cleared before the send); lib/features/insights/data/ask_controller.dart:127-129 (tooLong appends no student bubble and no retryText); lib/features/insights/widgets/ask_messages.dart:129-134 and 147 (canRetry false for noCredits, paused, tooLong, so the send-again key is hidden); lib/features/insights/screens/ask_screen.dart:52 (seed is not truncated to askMaxChars)",
+  "what": "The draft is removed from the composer before the request is known to succeed. For noCredits and paused the bubble has no send-again key, so after topping up credits the student has to retype the question. For tooLong the question is not appended as a bubble at all, so it disappears entirely.",
+  "repro": "With zero credits, send a model question: the bubble says no credits, there is no send-again key, and the field is empty. Separately, open Ask from a seed longer than 1500 characters (the seed is passed to TextEditingController without maxLength truncation) and press Send: 'too long' appears and the question is gone with no bubble.",
+  "fix": "Keep the draft in the composer until the request succeeds, or on a non-retryable failure restore the text and show it again. For tooLong append the student bubble so the question stays visible, and truncate the seed to askMaxChars before it is shown."
+ },
+ {
+  "id": "ask-05",
+  "severity": "P2",
+  "where": "lib/core/repositories ... see lib/features/insights/data/saved_repository.dart:97-117 (SaveController.set writes state after await at lines 104-109 and 114; build() resets only on userId at line 93)",
+  "what": "A save started on account A that completes after account B signs in writes A's acknowledged mark and A's count and limit into B's SaveMarks. The request itself is sent with A's token and no expectUserId, so the server result belongs to A, but the client state shown to B does not.",
+  "repro": "As account A, tap save on a question on a slow connection, then sign out and sign in as account B before the response arrives. When the response lands, the same question shows as saved in B's stream, and B's save count and limit show A's values until the app restarts.",
+  "fix": "Before the await, capture owner = ref.read(userIdProvider). After the await, return the outcome without writing state if the current userId differs. Pass expectUserId: owner to post so the write is refused, not sent, if the account changed before it went out."
+ },
+ {
+  "id": "ask-06",
+  "severity": "P2",
+  "where": "lib/features/insights/widgets/ask_messages.dart:177 (Report key always shown on a model reply); lib/features/insights/data/ai_reply_report.dart:10 and 36-58 (endpoint documented as missing); lib/core/api/api_error.dart:100-106 (notFound is a definitive refusal, so the outbox drops the item); lib/features/insights/screens/ask_screen.dart:160-164 (failed line shown)",
+  "what": "The Report this reply control cannot succeed. The endpoint /api/ai/mentor/report does not exist, the 404 is treated as a definitive refusal, the outbox drops the item, and the student is told it did not reach us. A student who flags a bad model answer always gets a failure.",
+  "repro": "Get any model reply, tap Report this reply, choose a reason. The snackbar says the report did not reach us, every time, and nothing is kept for later.",
+  "fix": "Show the Report key only when the server advertises the endpoint (a capability or a feature flag), or keep reports in a local queue with a 'kept on this phone' line until the endpoint is live. Do not show an entry point that is known to fail."
+ },
+ {
+  "id": "result-01",
+  "severity": "P1",
+  "where": "lib/features/result/recap/record_card.dart:50 (late int _minutes = widget.model.defaultRepairMinutes), :141-143 (KeyButton label/ResultNav.repair with _minutes); lib/features/result/model/recap_model.dart:135-142 (defaultRepairMinutes returns 0 when tonightCount is 0); lib/core/domain/repair_candidates.dart:49-53 (repairMinutes(0) is null); lib/features/result/result_nav.dart:23-31",
+  "what": "_minutes is initialised once in initState-time field initialiser from the model. When the card mounts with no repairable candidates (keys unavailable), defaultRepairMinutes is 0 and _minutes stays 0 for the life of the State. When candidates later arrive (the state is never re-derived), RepairPanel shows chips with none lit, the CTA reads 'Start 0-minute repair', and ResultNav.repair passes minutes=0.",
+  "repro": "Open a result whose answer keys are unavailable (reviewsUnavailable, record_card shows the keysUnavailable banner). Reach card 4: hasRepair is false, _minutes = 0. Tap the banner's 'Try again' (record_card.dart:193 -> recap_flow.dart:183 -> attemptDetailProvider refresh). Keys arrive, candidates become non-empty, the model rebuilds but RecordCard keeps _minutes = 0. The primary key reads 'Start 0-minute repair' and tapping it navigates to /review/repair/... with minutes=0 (result_nav.dart:30).",
+  "fix": "Do not freeze the default in a field. Store only the student's explicit choice (int? _chosen) and compute effective minutes each build as _chosen ?? model.defaultRepairMinutes, with defaultRepairMinutes never returning 0 when candidates exist (fall back to repairMinutes(tonightCount) or the smallest option). Optionally reset _chosen when it is no longer in repairDurationOptions(m.tonightCount).",
+  "_source": "static"
+ },
+ {
+  "id": "result-03",
+  "severity": "P1",
+  "where": "lib/features/result/recap/recap_flow.dart:365-385 (RecapPlaceholder, sealed skeleton branch when error == null and !page); lib/features/result/recap/recap_screens.dart:45-48, :57-59, :79-81 (detailPending gates the sealed and recap screens on the detail read); lib/core/api/api_client.dart:79-81, :157 (receive timeout 30 s, GET retries 2)",
+  "what": "While the attempt detail is pending, the sealed and recap screens show a skeleton with no action, no timeout and no back control (RecapRoom has no app bar). The only escape is the error branch (recap_flow.dart:387-392), which is reached only after the request fails. A slow connection can keep the student on an unexplained skeleton for a long time, because each GET can take up to 30 s receive timeout plus 15 s connect, retried twice.",
+  "repro": "Throttle the network to 2G or make the detail endpoint hang. Open a result from Review or Today, which routes to /result/:id/sealed or /recap/:card. The screen shows the folded-sheet skeleton (detailPending, recap_screens.dart:57-59) with no label, no back key and no 'taking longer' message. It stays for minutes while the retries run.",
+  "fix": "Track elapsed time in the placeholder (for example a 6 s timer). After it fires, show a StateView with ResultCopy.loading still visible, a 'Try again' primary and 'Back to Review' secondary, and keep the sealed skeleton beneath it. Also let the system back key leave the sealed route (it currently does, but nothing on screen says so).",
+  "_source": "static"
+ },
+ {
+  "id": "result-04",
+  "severity": "P2",
+  "where": "lib/features/result/model/recap_model.dart:248-257 (_firstMockToken: token when no earlier mock is in the list); lib/features/result/data/result_providers.dart:84-91 and :98-103 (model built from cached list; mock ordinal and token depend on it); lib/core/repositories/attempts_repository.dart:58-61 (cacheFirst: the list is served from drift and not refreshed when cached)",
+  "what": "The first-mock token and the 'Mock N' ordinal are derived from the cached attempts list, which is served cache-first and not refreshed when the result opens. If the cached list lacks the student's earlier mock (for example it was taken on another device or on the web), a later mock is shown as the first mock with the first_full_mock token. The milestone's achievedAt is never compared with this attempt, so the check is only 'no earlier mock in this list'.",
+  "repro": "Take Mock 1 on the web, then Mock 2 on the phone. The phone's cached list was read before Mock 1 existed and contains only Mock 2 (or the list was cached from the phone's own submit via upsertSubmitted). recapDataProvider builds the model with earlier empty (recap_model.dart:255), and the first-mock token and 'Mock 1' label appear on Mock 2's sheet and card 4 (record_card.dart:58-59 calls acknowledgeFirstMock).",
+  "fix": "Only award the token when the milestone's achievedAt matches this attempt's completedAt (to the second), or when the server returns the attempt id for the milestone. Before showing an ordinal or token for a mock, force a list refresh when the list is older than the attempt's completedAt, and hide the ordinal until then.",
+  "_source": "static"
+ },
+ {
+  "id": "result-05",
+  "severity": "P2",
+  "where": "lib/features/result/data/result_providers.dart:145-158 (recapRitualProvider reads sheetsOpened, skipRevealHintShown from appPrefs), :184-195 (markOpened increments the global counter), :245 (declineReminder writes the global last-pre-prompt time); lib/core/storage/app_prefs.dart:21-22, :64-72, :83",
+  "what": "The sealed-ritual counters and the reminder spacing are stored once per phone, not per account. A second account on the same phone inherits another account's ritual state, and per-account data (alreadyOpened, progress) is keyed by user. The ritual, the 'Prefer to skip the reveal?' hint and the reminder spacing therefore leak across accounts.",
+  "repro": "Account A opens three sealed sheets (sheets_opened = 3). Sign out and sign in as account B on the same phone. B's first new result has ritual.decayed = true (result_providers.dart:139), so the sheet opens by a tap fade, not the full swipe, and firstEver is false, so the nudge never plays. B's skip hint is also suppressed if A already saw it.",
+  "fix": "Key sheets_opened, skip_reveal_hint_shown and last_pre_prompt by userId (the same way _progressKey does at result_providers.dart:163), or move them to the per-user drift cache. Keep open_results_directly global only if it is meant as a device setting.",
+  "_source": "static"
+ },
+ {
+  "id": "review-02",
+  "severity": "P1",
+  "where": "lib/features/learn/data/run_controller.dart:291-313 (_send catches only ApiError at line 309); lib/features/learn/data/study_api.dart:38-45; lib/features/learn/data/run_controller.dart:143-154 (_onStateChanged) and 264 (_act guard)",
+  "what": "_send sets state.sending = true and only handles ApiError. Any other exception, such as a TypeError from StudyRun.fromJson on an unexpected server payload (study_api.dart:44) or a local DB failure in _store.clearPending or _cacheRun (lines 297-298), escapes and leaves sending = true with pending set. The retry timer is only scheduled when !sending (lines 149-153), so nothing retries. _act is blocked while pending != null (line 264), and RunStep treats sending as a spinner. The step shows a spinner with no exit until the app restarts.",
+  "repro": "Learn run, tap an answer while the study events endpoint returns a body whose shape StudyRun.fromJson does not accept (or while the local DB write fails). The spinner never clears, taps do nothing, and the retry timer never starts. Only a process restart clears it, via load() and _adopt.",
+  "fix": "In _send, catch Object as well as ApiError: clear sending, set notice to sendFailed, and keep the pending event so the existing retry logic runs. Wrap the cache writes so a local failure cannot skip that reset."
+ },
+ {
+  "id": "review-03",
+  "severity": "P1",
+  "where": "lib/core/sync/session/session_engine.dart:509-521 (onPaused has no guard around flushNow); lib/core/sync/session/session_syncer.dart:158-179 (_doSend catches only ApiError at line 173); lib/core/sync/session/session_api.dart:43-50 (putEvents cast at line 50); lib/features/runner/screens/runner_host.dart:47 (unawaited onPaused)",
+  "what": "onPaused awaits _syncer.flushNow() without a try. flushNow awaits _send, and _doSend catches only ApiError. A non-ApiError from the PUT (for example a TypeError from the `as num?` cast on acknowledgedSequence at session_api.dart:50) propagates out of onPaused. flushDraft (line 515), the paused status notification (lines 516-520) and the backup-job scheduling (line 521) are then skipped. The runner calls onPaused unawaited, so the error is silent. _doSend also leaves status stuck at sending with no retry scheduled.",
+  "repro": "During an active mock, make the PUT /api/sessions response return a non-numeric acknowledgedSequence (or any non-ApiError exception from the client), then background the app. The draft (current index, marked, visited) is not saved, no backup job is rescheduled, and the sync pill stays 'sending'. Killing the app then loses the latest navigation state.",
+  "fix": "Wrap flushNow in onPaused in try/on Object so the draft save, status and scheduling always run. In _doSend, catch Object as well as ApiError and treat it like a failing transient error with back-off so status and retries recover."
+ },
+ {
+  "id": "offline-01",
+  "severity": "P1",
+  "where": "lib/core/auth/auth_controller.dart:298-301 (_applyProfile clears the previous account); lib/core/storage/app_database.dart:55-59 (clearUserData deletes answer_journal and session_draft rows unconditionally; keepOutbox only spares the outbox); lib/core/auth/auth_controller.dart:115-117 (sessionLost leaves prefs lastUserId set)",
+  "what": "When a different account signs in on the same phone, the earlier account's unsent paper is deleted: its answer_journal rows and its session_draft row, including unacknowledged answers and a pendingSubmission paper. The server submission window for that paper is still open until endsAt + 120 s, so the answers could still be sent.",
+  "repro": "Account A starts a 50-question mock offline and answers 30 questions (unsynced), without submitting. A's refresh token is rejected, so sessionLost (auth_controller.dart:115-117) sets state to signedOut with userId null, while prefs lastUserId stays A. B signs in on the same phone. _applyProfile line 301 runs clearUserData(A), which deletes A's answer_journal and session_draft rows. A signs back in within the window: Today has no Continue slot, runner_loader.dart:52 returns RunnerMissing for that session, and the WorkManager job (background_tasks.dart runSubmitSessionTask) finds no draft and returns true. The 30 answers cannot be recovered and nothing tells A.",
+  "fix": "Do not delete answer_journal or session_draft rows that hold unacknowledged answers or pendingSubmission when switching accounts. Keep them under their own userId (they are already user-scoped) and resume them when that account signs in again, purging only after the attempt is recorded or windowClosed. If a switch must remove them, submit owed papers first and show a notice naming the paper.",
+  "outcome": null
+ },
+ {
+  "id": "offline-02",
+  "severity": "P1",
+  "where": "lib/core/auth/auth_controller.dart:467-470 (doc says only queued study writes stay on sign-out) and :491 (clearUserData(userId, keepOutbox: keepQueuedWork)); lib/core/storage/app_database.dart:57 and :59",
+  "what": "Explicit sign-out with the default keepQueuedWork=true keeps the outbox but still deletes answer_journal and session_draft for the account. The doc comment says only the queued writes stay, so an unsent in-progress or owed paper is removed even though the sign-out warning counts those answers (SessionDraftRepository.unsentAnswerCount).",
+  "repro": "A student is partway through a mock with 12 unsynced answers. Settings > Sign out shows the unsent-answers warning, and the student confirms. clearUserData(userId, keepOutbox: true) deletes the journal and draft rows (app_database.dart:57, :59). Signing in again later: Today has no Continue for that paper, and the 12 answers are gone while the server window may still be open.",
+  "fix": "On sign-out with keepQueuedWork, keep answer_journal and session_draft rows (they are keyed by userId and resumableDraft already gates expired ones), and delete them only on account deletion (keepQueuedWork=false) or after the attempt is recorded. Align the comment at auth_controller.dart:467-470 with the behaviour.",
+  "outcome": null
+ },
+ {
+  "id": "offline-04",
+  "severity": "P2",
+  "where": "lib/core/sync/session/session_engine.dart:149 (onConflict starts _recoverFromConflict unawaited) and :770-791 (only ApiError is caught, at :788); lib/core/sync/session/session_syncer.dart conflict branch in _handleError (no retry scheduled)",
+  "what": "After EVENT_CONFLICT, recovery makes exactly one resume call. If that call fails with any ApiError (offline, 5xx), nothing schedules a retry, and the syncer stays in conflict. A database exception from journal.replaceWith is not an ApiError, so it escapes an unawaited future and leaves the same stuck state.",
+  "repro": "The phone's copy of the event log diverges from the server's, for example after a reload on another device. The PUT returns 409 EVENT_CONFLICT and the syncer enters conflict. The POST /api/sessions resume then fails with a 503 or a timeout. _recoverFromConflict catches it, does nothing, and the status stays conflict. deriveSaveState maps conflict to waitingForNetwork while the phone is online. The unsynced answers are only resent on the next tap, pause or submit.",
+  "fix": "Retry the resume with the same syncBackoff schedule used for PUT, catch all errors (not just ApiError), and keep the pill honest about the state. Only clear conflict after replaceWith and the answer re-append both succeed.",
+  "outcome": null
+ },
+ {
+  "id": "offline-05",
+  "severity": "P2",
+  "where": "lib/core/sync/session/session_clock.dart:51-60 (restore uses wall-clock ms); lib/core/sync/session/session_engine.dart:320-323 (restore) and :740-760 (_reanchorFromServer, online only)",
+  "what": "After a process kill, the remaining time is recomputed from the phone's wall clock against the saved endsAtWallMs. Setting the phone clock back while the app is closed adds that much time to the paper when restored offline, and the timer shows it.",
+  "repro": "A student kills the app with 10 minutes left on a mock (draft endsAtWallMs = T+600000). They set the phone clock back 15 minutes while the app is closed, then reopen it offline. restore() computes remaining = endsAtWall - nowWall = 25 minutes, and the timer shows 25 minutes. Answers given after the real server deadline show as 'On this phone'. At submit the server rejects them and the outcome is SubmitWindowClosed. Going online corrects the clock via _reanchorFromServer, but only after the student has already answered past the deadline.",
+  "fix": "Persist the server-anchored remaining time together with a monotonic or boot-based elapsed counter (for example elapsedRealtime on Android) so a restore does not depend on the wall clock. Offline restores should show 'time not checked' until the next server anchor, and answers taken after the last known server deadline should be flagged.",
+  "outcome": null
+ },
+ {
+  "id": "practice-02",
+  "severity": "P1",
+  "where": "mockmob-next/flutter_app/lib/features/runner/data/runner_session.dart:170-182 (close); lib/core/sync/session/session_engine.dart:206 (start saves draft), :709-730 (_scheduleDraftSave, flushDraft writes _draft by draftKey); lib/core/repositories/session_draft_repository.dart:35-54 (save keys the row by draftKey); lib/features/runner/data/runner_loader.dart:59 (closed() only consulted when opening the runner)",
+  "what": "The draft table holds one row per draftKey. A leaving engine A can still call flushDraft after close() waits up to 6 s for its PUT. If a new session B with the same selection is started in that window, start() saves B's draft under the same key, then A's flushDraft overwrites the row with A's draft. Opening B later finds no draft for B's sessionId (RunnerMissing), while A is shown instead. start() never waits for an earlier close (only the runner opener does, and only for the same sessionId), and _settleEarlierDraft returns without archiving A when A has no unsent answers.",
+  "repro": "Start Quick practice in subject X, answer a question on a slow network, and leave the runner (the PUT is still in flight, so close() waits up to 6 s). Within those seconds, return to Practice and start Quick practice in subject X with the same count. B's draft is saved, then A's close() writes A over the same row. Continue from Today or open B: the app shows the 'session not found' state for B while A's draft reappears, and B's journal is orphaned.",
+  "fix": "Make the draft write conditional on ownership: save only when the stored row's sessionId equals this draft's sessionId (or key the row by sessionId and keep draftKey as an index). In start(), await EngineRunnerSession.closed(...) for any engine still closing under the same draftKey before saving. Add a test that a close landing after a new start does not replace the new row."
+ },
+ {
+  "id": "practice-04",
+  "severity": "P2",
+  "where": "mockmob-next/flutter_app/lib/core/models/session.dart:109 (expiresAt falls back to epoch 0); lib/features/practice/data/practice_starter.dart:127-129 (only questions and ids are checked); lib/core/sync/session/session_clock.dart (anchor: remaining = 0 when expiresAt <= serverNow); lib/core/sync/session/session_engine.dart:671-676 (_tick submits at zero)",
+  "what": "If a start response has no parseable expiresAt, SessionView falls back to the epoch. The clock anchors with zero time remaining, the engine's first tick hits zero, and submit(timedOut: true) runs at once. A fresh paper is then submitted empty and the student is shown time up. The start path validates questions but not the deadline.",
+  "repro": "Make the POST /api/sessions response omit expiresAt or send it in a format asDate cannot parse, with questions present. PracticeStarter accepts it, SessionEngine.start anchors the clock, _begin calls _tick, and ms == 0 triggers submit(timedOut: true). The paper is submitted with no answers.",
+  "fix": "Reject a start whose expiresAt is missing, epoch or not after serverNow as a generic failure before any draft is saved. In SessionEngine.start, refuse to start (and not submit) when the clock reads zero on the first tick."
+ },
+ {
+  "id": "practice-05",
+  "severity": "P2",
+  "where": "mockmob-next/flutter_app/lib/features/runner/data/runner_session.dart:170-182 (close flushes then disposes); lib/core/sync/session/session_engine.dart:689-695 (_onAcknowledged), :709-710 (_scheduleDraftSave returns when disposed), :798-799 (dispose cancels timer); lib/core/repositories/session_draft_repository.dart:125-141 (unsentAnswerCount)",
+  "what": "close() waits at most 6 s for the PUT and then writes the draft. A PUT still in flight when dispose() runs can acknowledge later. _onAcknowledged then updates only the in-memory draft and cannot schedule a save, so the persisted draft keeps the old acknowledgedSequence. On reopen, answers the server already holds show as unsaved.",
+  "repro": "On a slow network, answer several questions and leave the runner while the PUT is still running. The 6 s flush gives up, flushDraft writes the old acknowledgement, and dispose() runs. The PUT then returns and the ack is lost. Reopen the session: the save pill reads 'Not saved yet' or 'On this phone', and the sign-out warning counts those answers as unsent until the next PUT runs.",
+  "fix": "Let close() wait for the in-flight PUT (or a short bounded wait) before flushDraft and dispose, and persist the acknowledgement directly from _onAcknowledged even after disposal, or write the draft in dispose's path after the syncer settles. Add a test: ack arriving after close() is persisted on the next open."
+ },
+ {
+  "id": "practice-06",
+  "severity": "P2",
+  "where": "mockmob-next/flutter_app/lib/core/sync/session/session_syncer.dart:215-222 (resumeAfterConflict clears _stopped with no _disposed check, then notifyChanged); lib/core/sync/session/session_engine.dart:149 (onConflict), :770-791 (_recoverFromConflict has no disposal check)",
+  "what": "An EVENT_CONFLICT starts _recoverFromConflict, which awaits api.resume. If the student leaves the runner first, dispose() has already run. When the resume returns, resumeAfterConflict sets _stopped to false and notifyChanged can schedule a PUT on a disposed syncer. Any local answers restored from the conflict are then sent for a session the student has left, and a repeat conflict re-enters recovery.",
+  "repro": "Trigger EVENT_CONFLICT by answering on a second device for the same session, then leave the runner before api.resume returns. Where local unsynced answers are reapplied, a PUT is scheduled after the engine is disposed, and the server response can run _recoverFromConflict again.",
+  "fix": "Return early from _recoverFromConflict after each await when _disposed is true, and make SessionSyncer.resumeAfterConflict a no-op when disposed (_disposed check before touching _stopped or scheduling)."
+ },
+ {
+  "id": "practice-08",
+  "severity": "P2",
+  "where": "mockmob-next/flutter_app/lib/features/practice/practice_start_screen.dart:94-100 (_run), :147 (mounted guard before navigation), :203-243 (no PopScope while _working); lib/features/practice/data/launch_flow.dart:60-66 (launch not cancelled by unmount)",
+  "what": "The auto-start screen has no back guard while it is working. If the student leaves during the launch, the launch continues, the server session is created and the draft is saved, but the mounted check at line 147 drops the navigation. The student never sees the runner and only finds the session as a resume card on Today.",
+  "repro": "Open a free Quick practice link (for example from a notification or Today) and press back during the first second, while the quote and start are in flight. The session is created and saved on the phone with no runner shown, and the student did not choose to start it.",
+  "fix": "Block back while _working (PopScope canPop false while working, with a cancel path), or on unmount open the runner through the router after the start completes instead of dropping it. Ensure the cancelled start does not leave an unseen session."
+ },
+ {
+  "id": "practice-09",
+  "severity": "P2",
+  "where": "mockmob-next/flutter_app/lib/features/practice/practice_setup_screen.dart:35-44 (_resolveInitial settles only when attempts have loaded), :66 (ValueKey(initial.subjectId) on PracticeComposer); lib/features/practice/widgets/practice_composer.dart:214 (controller created once from initial)",
+  "what": "Until the attempts list settles, the composer's initial selection follows the current subject, and the composer is keyed by its subject. On a slow network, changing the subject (or the default resolving from attempts) rebuilds the composer, which discards the length, difficulty and chapter the student has already set.",
+  "repro": "On a slow network with attempts still loading, open /practice/setup/quick, set the length to 20 and difficulty to a non-default level, then tap another subject tile. The composer rebuilds and the length and difficulty return to defaults. Once attempts settle, the same change no longer rebuilds the composer.",
+  "fix": "Key the composer by a stable identity (the route, not the subject), and apply the resolved default subject through the composer's own change method instead of rebuilding it. Keep the user's count, difficulty and chapters across the settle."
+ },
+ {
+  "id": "NTA-02",
+  "severity": "P1",
+  "where": "flutter_app/lib/features/runner/data/runner_loader.dart:49-66 (runnerOpenerProvider, RunnerEnded branch); core/domain/session_rules.dart:11-23 (resumableDraft); core/sync/session/session_engine.dart:732-737 (_scheduleBackgroundSubmit, the only automatic sender); core/sync/background_tasks.dart:102-140",
+  "what": "A paper whose clock ran out while the app was killed, with answers not yet sent, is never submitted from the app. resumableDraft returns false once endsAt has passed unless pendingSubmission is already set, so the opener returns RunnerEnded and never builds an engine. The only sender is the WorkManager job scheduled at endsAt-90 s. If the OS defers that job past endsAt+120 s (submissionGraceMs), the answers become windowClosed and are never recorded. Today still says the answers are 'being sent' while the window is open (session_rules.dart:35-37).",
+  "repro": "Start an NTA paper, answer several questions, swipe the app away (killed) and let the clock run out with the phone in Doze so the backup job is deferred. Reopen the app from Today's Continue at endsAt+60 s. The student sees RunnerEnded ('ended') with no submit started. Nothing sends the journal until the window is checked later, when the attempt is reported as not recorded.",
+  "fix": "In runnerOpenerProvider, before returning RunnerEnded, if the draft is past endsAt but within submissionGraceMs, not rejected or windowClosed, and has unsent answers (journal.unsyncedQuestionIds non-empty), reopen it with draft.copyWith(pendingSubmission: true). restore() then builds the engine, _tick sees remaining 0 and calls submit(timedOut: true) at once. Keep RunnerEnded only for drafts past the grace window."
+ },
+ {
+  "id": "NTA-03",
+  "severity": "P2",
+  "where": "flutter_app/lib/features/runner/nta/nta_layout.dart:94 (wide flag), :106-116 and :119 (SingleChildScrollView key), :155-186 (wide branch wraps the same main Column in a Row)",
+  "what": "Crossing the 840 dp breakpoint (phone rotated to landscape on large phones, foldables, split-screen resize) changes the widget tree above the question scroll view (Column becomes Row > Expanded). The scroll view's element is recreated, so the scroll offset resets to the top. The passage well's own scroll and the open _RulesDisclosure state are also lost.",
+  "repro": "On a 900 dp-wide device, open an NTA question with a long passage, scroll it to the options, then rotate to landscape (or resize the window past 840). The question jumps back to the top and the passage scroll resets. Rotating back does the same.",
+  "fix": "Keep one stable tree for the paper and only toggle the palette sibling: hold a ScrollController in NtaRunnerView (or give the main subtree a GlobalKey) and restore the offset after the layout switch."
+ },
+ {
+  "id": "NTA-04",
+  "severity": "P2",
+  "where": "flutter_app/lib/features/runner/nta/nta_skin.dart:246-252 (question/option/passage sizes are multiplied by the A+ step); nta_paper.dart:60-61, :80, :139-150 (question and option Text not clamped); compare nta_header.dart:26, nta_status_strip.dart:53, nta_paper.dart:83 (clamped to 1.3)",
+  "what": "The paper's question, options and passage use the A+ step (up to 1.3x) on top of the system text scale, with no cap. At system 1.3x with A+ at maximum, question text is 18 x 1.3 x 1.3 = 30.4 sp and option text 27 sp. Chrome is clamped at 1.3x, so the paper grows far beyond the bar and keys around it, which is inconsistent with the stated 1.3x limit.",
+  "repro": "Set the Android font size to large (1.3x) on a 360 dp phone. Tap A+ three times. Question and option text grows to about 1.69x of the design size while the bar and keys stay at 1.3x. Long options wrap to many lines and the paper's scroll height grows sharply.",
+  "fix": "Decide the cap: compute an effective scale (systemScale x stepScale) and clamp it, for example with MediaQuery.withClampedTextScaling(maxScaleFactor: 1.3) around the paper body, or apply the A+ step as the only scaler by setting TextScaler.noScaling on the system factor for paper text."
+ }
+]

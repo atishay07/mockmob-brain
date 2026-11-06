@@ -1,0 +1,15 @@
+{
+  "id": "20261015T191200.655825Z-ea1fb3f4",
+  "observed_at": "2026-10-15T19:12:00.656824+00:00",
+  "agent": "packet-L-shared-kit",
+  "task": "Packet L shared kit: StudyWeek and ChipRail",
+  "status": "active",
+  "done": "Packet L committed 2a8d59d2 on ui/phase2: StudyWeek (compact, ring, full, key on first view and long press) in core/widgets/bubbles/week_bubbles.dart; ChipRail (snap, 24 dp fade, clean peek) in core/widgets/controls/chip_rail.dart; tests and Night/Day goldens opened and checked.",
+  "next": "Other packets adopt StudyWeek (Today, You hub, Rhythm, week sheet) and ChipRail (practice setup, insights, compass). A rail's first view with a very wide cut chip is dissolved by an adaptive fade, not moved.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

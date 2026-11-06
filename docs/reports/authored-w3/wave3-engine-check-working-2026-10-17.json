@@ -1,0 +1,225 @@
+{
+ "kind": "authored_w3_engine_check",
+ "label": "working",
+ "source": "claude-authored-2026-10-17-w3",
+ "at": "2026-10-16T22:04:38.599Z",
+ "engine": {
+  "root": "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-wave3",
+  "file": "data/nta_engine.js",
+  "version": "nta-engine-2026.10.14-r5.2",
+  "sha256": "17f81f2365ff08cb82cad88dc94976d7e47c8fc65bcd57a633e9d315bad7b105",
+  "mtime": "2026-10-16T19:51:01.971Z",
+  "minScore": 8,
+  "minFit": 8
+ },
+ "method": "ntaEligibility (quality gate with the agent scores, content gates, CUET-fit gate) on every accepted wave-3 question with the committed agent and fit tables of the named checkout plus the wave-3 entries merged in memory (policy admit). Nothing in data/ is written. Rows are mapped like the wave-1 publisher (toQuestionRow); case-set items typed single_mcq are mapped as passage children.",
+ "candidatesSha256": "beee5615a2358b8873f4ac0bf0767a05bc0c8a6dfdca181776e62c6fff767f4f",
+ "planned": 219,
+ "engineEligible": 211,
+ "engineIneligible": 8,
+ "engineIneligibleReasons": {
+  "sequence_options_not_orderings_of_stem_items": 4,
+  "statement_options_use_labels_not_in_stem": 1,
+  "answer_guard_options_invalid": 1,
+  "answer_guard_near_duplicate_options": 1,
+  "options_invalid": 1,
+  "orphan_passage_question": 1,
+  "match_options_not_pairings": 1
+ },
+ "ineligibleByGate": {
+  "veto": 8
+ },
+ "bySubject": {
+  "chemistry": {
+   "planned": 69,
+   "eligible": 69,
+   "ineligible": 0,
+   "reasons": {}
+  },
+  "general_test": {
+   "planned": 83,
+   "eligible": 79,
+   "ineligible": 4,
+   "reasons": {
+    "sequence_options_not_orderings_of_stem_items": 3,
+    "statement_options_use_labels_not_in_stem": 1
+   }
+  },
+  "physics": {
+   "planned": 67,
+   "eligible": 63,
+   "ineligible": 4,
+   "reasons": {
+    "answer_guard_options_invalid": 1,
+    "answer_guard_near_duplicate_options": 1,
+    "options_invalid": 1,
+    "orphan_passage_question": 1,
+    "sequence_options_not_orderings_of_stem_items": 1,
+    "match_options_not_pairings": 1
+   }
+  }
+ },
+ "passageSets": [],
+ "placementProblems": [],
+ "informational": {
+  "authoredTypeVersusEngineType": [
+   {
+    "id": "5e3b444f-ec85-4577-a7c0-33efbda8bdb0",
+    "subject": "general_test",
+    "authored_type": "single_mcq",
+    "engine_type": "statement_based"
+   },
+   {
+    "id": "72c5b422-6100-4243-87c5-e6da84a6f8c7",
+    "subject": "general_test",
+    "authored_type": "single_mcq",
+    "engine_type": "statement_based"
+   },
+   {
+    "id": "78eb3759-1464-4e8b-bc15-a4c44426e185",
+    "subject": "general_test",
+    "note": "fit judges majority chapter differs from the authored chapter",
+    "authored_chapter": "General Knowledge",
+    "fit_chapter": "General Science and Environment Literacy"
+   },
+   {
+    "id": "774478bb-024f-426b-9322-d3efb4995839",
+    "subject": "general_test",
+    "note": "fit judges majority chapter differs from the authored chapter",
+    "authored_chapter": "General Knowledge",
+    "fit_chapter": "General Science and Environment Literacy"
+   },
+   {
+    "id": "527b4906-0de1-4107-96da-3b6fbd53111f",
+    "subject": "general_test",
+    "note": "fit judges majority chapter differs from the authored chapter",
+    "authored_chapter": "General Knowledge",
+    "fit_chapter": "General Science and Environment Literacy"
+   }
+  ]
+ },
+ "refused": [
+  {
+   "id": "6bbde2ac-85d2-4b61-a2e7-25ad64d121d3",
+   "subject": "general_test",
+   "batch": "general_test__w3b1",
+   "chapter": "Logical & Analytical Reasoning",
+   "authored_type": "sequence_ordering",
+   "engine_type": "sequence_ordering",
+   "reasons": [
+    "sequence_options_not_orderings_of_stem_items"
+   ],
+   "cause": [
+    "the options order the items by name (Tab, Table, Tablet, Tail, Tiger) and the stem labels none of them; the engine's sequence check wants every option to be an ordering of at least three labelled items of the stem ((A), (B), (C) or 1, 2, 3)"
+   ],
+   "stem": "Arrange the following words in the order they would appear in a dictionary, from first to last: Tiger, Tablet, Table, Tail, Tab."
+  },
+  {
+   "id": "f05bce07-08b2-491b-937f-d70bca9926c5",
+   "subject": "general_test",
+   "batch": "general_test__w3b1",
+   "chapter": "Logical & Analytical Reasoning",
+   "authored_type": "sequence_ordering",
+   "engine_type": "sequence_ordering",
+   "reasons": [
+    "sequence_options_not_orderings_of_stem_items"
+   ],
+   "cause": [
+    "the options order the items by name (Ajay, Chirag, Bina, Divya, Esha) and the stem labels none of them; the engine's sequence check wants every option to be an ordering of at least three labelled items of the stem ((A), (B), (C) or 1, 2, 3)"
+   ],
+   "stem": "Ajay is taller than Bina. Bina is taller than Chirag. Divya is shorter than Chirag but taller than Esha. Arrange the five persons from the t"
+  },
+  {
+   "id": "4650a47a-f12a-4916-975a-1e2bbd999de5",
+   "subject": "general_test",
+   "batch": "general_test__w3b2",
+   "chapter": "Logical & Analytical Reasoning",
+   "authored_type": "sequence_ordering",
+   "engine_type": "sequence_ordering",
+   "reasons": [
+    "sequence_options_not_orderings_of_stem_items"
+   ],
+   "cause": [
+    "the options order the items by name (S, R, P, Q, T) and the stem labels only R, P; the engine's sequence check wants every option to be an ordering of at least three labelled items of the stem ((A), (B), (C) or 1, 2, 3)"
+   ],
+   "stem": "Five books, P, Q, R, S and T, are placed on a shelf from left to right. S is at the left end. P is immediately to the right of R. Q is to th"
+  },
+  {
+   "id": "c397d567-7836-4f84-a2ff-2e3913967ac9",
+   "subject": "general_test",
+   "batch": "general_test__w3b5",
+   "chapter": "Logical & Analytical Reasoning",
+   "authored_type": "statement_based",
+   "engine_type": "statement_based",
+   "reasons": [
+    "statement_options_use_labels_not_in_stem"
+   ],
+   "cause": [
+    "an option names statement labels the engine does not find in the stem (it finds P, S, Q, R, I; options use I, III, II): labels written inline (\"I. ... S. II. ...\") are lost when the text before them also ends in a label-like capital and a full stop; put each statement on its own line or in brackets, (I), (II), (III)"
+   ],
+   "stem": "Statements: P > Q ≥ R; S < R; T ≥ P. Conclusions: I. T > S. II. S > Q. III. P > R. Which conclusions follow?"
+  },
+  {
+   "id": "dff97aad-a78a-4772-bb3b-335df7f6577a",
+   "subject": "physics",
+   "batch": "physics__w3b2",
+   "chapter": "Semiconductor Electronics",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "answer_guard_options_invalid",
+    "answer_guard_near_duplicate_options",
+    "options_invalid"
+   ],
+   "cause": [
+    "options A, B, C, D are identical once everything except letters and digits is dropped (\"a b\"): they differ only by symbols, signs, superscripts or brackets"
+   ],
+   "stem": "In a logic circuit, inputs A and B feed an OR gate, and the output of the OR gate feeds a NOT gate. The final output Y equals:"
+  },
+  {
+   "id": "fe0417ed-5791-41de-82df-dc27964ca5bb",
+   "subject": "physics",
+   "batch": "physics__w3b3",
+   "chapter": "Wave Optics",
+   "authored_type": "single_mcq",
+   "engine_type": "single_mcq",
+   "reasons": [
+    "orphan_passage_question"
+   ],
+   "cause": [
+    "the stem reads as passage-linked because of \"According to\" but the row has no passage"
+   ],
+   "stem": "According to Huygens' principle, how is the new position of a wavefront obtained from its previous position?"
+  },
+  {
+   "id": "fc6098bd-ef63-4d76-8a35-0568d11957ae",
+   "subject": "physics",
+   "batch": "physics__w3b4",
+   "chapter": "Electromagnetic Waves",
+   "authored_type": "sequence_ordering",
+   "engine_type": "sequence_ordering",
+   "reasons": [
+    "sequence_options_not_orderings_of_stem_items"
+   ],
+   "cause": [
+    "the options order the items by name (Gamma rays → visible light → microwaves → radio waves) and the stem labels none of them; the engine's sequence check wants every option to be an ordering of at least three labelled items of the stem ((A), (B), (C) or 1, 2, 3)"
+   ],
+   "stem": "Arrange the following electromagnetic waves in order of increasing wavelength, that is, shortest wavelength first: gamma rays, visible light"
+  },
+  {
+   "id": "d72339f5-bbbc-48ea-9e57-12b89e48e029",
+   "subject": "physics",
+   "batch": "physics__w3b4",
+   "chapter": "Electromagnetic Waves",
+   "authored_type": "match_the_following",
+   "engine_type": "match_the_following",
+   "reasons": [
+    "match_options_not_pairings"
+   ],
+   "cause": [
+    "an option is not read as a set of pairs (a–P, b–Q, c–R, d–S): the engine reads pairs only as upper-case A-F with I-VI, 1-6 or P-T, and List I labels as upper-case (A)-(F); lower-case a, b, c, d are not recognised"
+   ],
+   "stem": "Match List I (electromagnetic wave) with List II (use). List I: (a) Infrared (b) Ultraviolet (c) X-rays (d) Microwaves. List II: (P) Sterili"
+  }
+ ]
+}

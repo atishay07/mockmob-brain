@@ -1,0 +1,29 @@
+{
+  "id": "20261015T181423.868243Z-ea2528b2",
+  "observed_at": "2026-10-15T18:14:23.868243+00:00",
+  "agent": "claude-sonnet-5-5 (Q8b)",
+  "task": "Q8b: NTA index that never goes stale",
+  "status": "complete",
+  "done": "Commit 0bc29cf2 on web/q8b-1015: publish-path rebuild, daily cron /api/internal/rebuild-nta-index, pool fallback to full read when index older than newest live question. Migration unchanged.",
+  "next": "Orchestrator: merge/deploy after owner OK; apply migration 20261013190000 on production, run build with --write --allow-production, set CUET_EVIDENCE_SIGNING_KEY in Vercel production, verify poolSource index and the cron.",
+  "blockers": [],
+  "evidence": [],
+  "touched_files": [
+    "data/nta_index.js",
+    "data/nta_index_freshness.js",
+    "data/nta_pool.js",
+    "scripts/nta-index-build.mjs",
+    "scripts/question-publish-authored.mjs",
+    "src/app/api/internal/rebuild-nta-index/route.js",
+    "vercel.json",
+    "package.json",
+    "data/tests/nta_index_fresh.test.mjs",
+    "data/tests/authored_publish.test.mjs",
+    "data/tests/vercel_config.test.mjs",
+    "docs/brain/STATUS.md",
+    "docs/brain/RUNBOOK-NTA-QUESTION-INDEX-2026-10-15.md"
+  ],
+  "verification": "test:nta 169, recovery 182, app 235 pass; eslint clean; authored-publish 78/83 with one failure in wave-2 merge byte-compare (untouched code, pre-existing)",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

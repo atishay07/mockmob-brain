@@ -1,0 +1,455 @@
+{
+  "batch": "mathematics",
+  "subject": "mathematics",
+  "wave": 4,
+  "pass": "wave4 expert pass (Sonnet-equivalent CUET expert review, same procedure as waves 1, 2 and 3)",
+  "date": "2026-10-17",
+  "reviewer_model": "Claude Sonnet 5.5 (single reviewer, no other model run)",
+  "method": "Every accepted mathematics question was solved by the reviewer (by hand, with a numerical cross-check for the matrix, LP, least-squares, t-test, Bayes, integral and corner-point items), then the key, the explanation and each distractor claim, the options (longest-option giveaway, listed-order keys, option consensus in match items), the chapter and unit against data/nta_blueprints/mathematics.json (all 58 chapter and unit pairs are valid), the syllabus line in data/CUET 2026/mathematics.pdf (Section A1, B1 and B2 text), the NCERT chapter reference, the CUET level and time (72 s per question, no calculator) and the content gates were checked.",
+  "scope": "the 58 mathematics rows of docs/brain/reports/authored-w4/wave4-candidates-scored-2026-10-17.json (accepted by the rule).",
+  "counts": {
+    "reviewed": 58,
+    "ready": 52,
+    "repaired": 6,
+    "drop": 0
+  },
+  "solver_visible_text_changed": [],
+  "notes": [
+    "No key, explanation, option or stem needed repair: all 58 keys re-derived and unique. The 6 repairs are difficulty labels only (hard to medium: 80d1f709, 05715cc3, 4413281e, c4f775b9, a901a9e5, 09ff07f0); 7 hard labels stay (d5032300, 23a5438b, 3ad2e2ed, d724586b, 4d8fefa8, 6cdff47f, fe67257f), 12 percent of the set, inside the blueprint band of 10 to 30 percent.",
+    "No drop: no question is outside the 2026 syllabus. Two are worth a second look and are kept ready: 57d63f4c prints four non-trivial constraints against the syllabus line 'optimal feasible solutions (up to three non-trivial constraints)' (one is redundant and the item counts corner points, it does not optimise), and 05715cc3 (time and work) rests on Section B2 Unit I D 'Numerical Problems: solve real life problems mathematically', the same ratio reasoning as the named pipes and cisterns.",
+    "Batch-level observation, no repair: in all 6 match items (fe53af95, 7da4d02e, 300047ea, f80e1ebf, 9567d87f, c8af2dc3) the key is the option that agrees with the others on the most pairs, and in the 2 four-statement items 0e1790f3 and 8653f8fb the key is the one option without the single false statement. A test-wise student gains a little from this; it is the usual shape of authored matching items and none of it lets the key be found without subject knowledge, so no question was reworded (a reword would change solver-visible text and need a blind re-solve).",
+    "Key positions over the 58: A 15, B 15, C 13, D 15. No longest-option giveaway (two length outliers, b5078728 and 6cdff47f, are numerals)."
+  ],
+  "verdicts": [
+    {
+      "id": "1413fb21-57bd-4f2a-a970-c87ad9f10e22",
+      "verdict": "ready",
+      "key": "C",
+      "why": "345 x 29 = 10005, remainder 5 on division by 8, key C; 6 is the add-the-remainders slip. Syllabus: Unit I modulo arithmetic. One step, easy, option lengths equal.",
+      "repair": null
+    },
+    {
+      "id": "df8f1dc2-817f-4beb-94d7-79fa21ae35e5",
+      "verdict": "ready",
+      "key": "A",
+      "why": "x = 7m + 3 gives 3, 10, ..., 59: nine values, key A; 8 is the floor(60/7) slip. Congruence modulo is in Unit I. Two steps, medium is right.",
+      "repair": null
+    },
+    {
+      "id": "0588bad0-9280-44b9-bc61-2dc16a9f8eb1",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Allegation (80-72):(72-60) = 8:12 = 2:3, key D; 3:2 is the reversed ratio. Allegation is named in Unit I. Easy, direct.",
+      "repair": null
+    },
+    {
+      "id": "c6aed432-8bcf-47f4-838d-0fcf91e6b87f",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Upstream 4, downstream 6, stream (6-4)/2 = 1 km/h, key B; 2 and 5 are the half-difference and still-water slips. Boats and streams is named in Unit I. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "61688b26-9f1d-4fe8-af95-fcb90ccff688",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Net rate 1/12 + 1/20 - 1/30 = 1/10, so 10 hours, key C; 7.5 and 6 are the ignore-outlet and outlet-as-inlet slips (checked: 60/8 and 60/10). Pipes and cisterns is named in Unit I. About 60 s.",
+      "repair": null
+    },
+    {
+      "id": "80d1f709-f1db-4e6a-86d3-426cef7fa59c",
+      "verdict": "repaired",
+      "key": "B",
+      "why": "A:B = 10:9 and B:C = 10:9, so A:C = 100:81 and A beats C by 500 - 405 = 95 m, key B; 100 is the add-the-margins slip. Races and games is named in Unit I. Two ratio steps and a standard textbook item: medium, not hard.",
+      "repair": "difficulty_label hard -> medium. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium"
+      }
+    },
+    {
+      "id": "0e1790f3-7da1-462b-9088-8fd54ec251fd",
+      "verdict": "ready",
+      "key": "D",
+      "why": "(A), (C), (D) are true and (B) is false for c <= 0, so (A), (C) and (D) only, key D (checked with 2 > 1 and c = -1). Numerical inequalities are named in Unit I. Four short statements, about 70 s.",
+      "repair": null
+    },
+    {
+      "id": "05715cc3-5ce9-4a38-b4c3-18ce7e19913f",
+      "verdict": "repaired",
+      "key": "A",
+      "why": "Efficiency 3:2, 5 units a day, total 60 units, B alone 30 days, key A (check 1/20 + 1/30 = 1/12); 20 is A's time. Sits under Unit I D (Numerical Problems: real-life problems), the same ratio work as pipes and cisterns. Two or three short steps: medium, not hard.",
+      "repair": "difficulty_label hard -> medium. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium"
+      }
+    },
+    {
+      "id": "692b21ba-8a97-4c40-a18b-7e596ef70759",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Perpetuity PV = 6000/0.08 = 75,000, key C; 480 is payment x rate. Perpetuity is named in Unit VII. One step, easy.",
+      "repair": null
+    },
+    {
+      "id": "73fd584b-e7ae-410e-9954-92afabb63682",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Flat rate: interest 12,000, total 72,000, over 24 months = 3,000, key D; 2,500 omits interest. EMI by flat rate is within Unit VII B (various methods). Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "89e2254f-528c-499b-99db-452c534573b0",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Fund after 2 years = 1.1P + P = 2.1P = 46,200, P = 22,000, key A (check 24,200 + 22,000); 23,100 ignores interest. Sinking fund is named in Unit VII. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "fe53af95-1c40-4ab0-ac4a-33300a6485f5",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Perpetuity IV, sinking fund III, rate of return I, straight-line depreciation II, key B; the four definitions are correct and distinct. Terms are all in Unit VII. Easy, list labels (A)-(D) and (I)-(IV) are well-formed.",
+      "repair": null
+    },
+    {
+      "id": "4413281e-b267-4c9e-b508-d943bdc632b7",
+      "verdict": "repaired",
+      "key": "D",
+      "why": "1.25 x 1.80 = 2.25, (1+g)^2 = 2.25, g = 50%, key D; 52.5 and 62.5 are the average and total/2 slips. CAGR is named in Unit VII. One formula and a square root: medium, not hard.",
+      "repair": "difficulty_label hard -> medium. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium"
+      }
+    },
+    {
+      "id": "23fda7f6-04bb-43cf-8611-002db1847e7c",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Depreciation (180000-30000)/5 = 30,000 a year, book value after 2 years 1,20,000, key A; 1,08,000 ignores the residual value. Linear depreciation is named in Unit VII. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "d1c6ce3a-f7fe-480a-b211-4b242271ae06",
+      "verdict": "ready",
+      "key": "D",
+      "why": "E(X) = 2.1, E(X^2) = 4.9, variance 0.49, key D (0.70 is the SD). Variance of a discrete variable is named in Unit IV. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "c4f775b9-10e7-422b-a200-45fbcdaa9efc",
+      "verdict": "repaired",
+      "key": "B",
+      "why": "np = 6 and npq = 4.5 give q = 3/4, p = 1/4, n = 24, key B (check 24 x 1/4 x 3/4 = 4.5); 8 is the p and q swap. Standard binomial item: medium, not hard.",
+      "repair": "difficulty_label hard -> medium. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium"
+      }
+    },
+    {
+      "id": "7da4d02e-7b39-468a-8c49-74a862dd16b8",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Binomial mean 4, binomial variance 3, Poisson variance 6, standard normal variance 1: (A)-(IV), (B)-(I), (C)-(II), (D)-(III), key C. All in Unit IV. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "b0e6bcaf-f295-4a35-b480-e6dd158bc133",
+      "verdict": "ready",
+      "key": "A",
+      "why": "lambda + lambda^2 = 12, lambda = 3, variance 3, key A (the other root -4 is rejected). Poisson is named in Unit IV. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "68fa91db-5fc7-494a-848d-e39d802d467d",
+      "verdict": "ready",
+      "key": "B",
+      "why": "35 and 45 are mu -/+ sigma, so about 68%, key B. Normal distribution and the area relationship are named in Unit IV. Easy.",
+      "repair": null
+    },
+    {
+      "id": "875af04a-7a23-45c0-b4d5-361e69891b04",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Winter-summer repeat inside a year is seasonal variation, key C; the others are defined correctly in the explanation. Components of a time series are named in Unit V. Easy, standard recall.",
+      "repair": null
+    },
+    {
+      "id": "c88a4ac5-7a46-41a8-98f4-ee80e8c09247",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Third value 3 x 17 - 25 = 26, fourth value 3 x 19 - 41 = 16, key A (26 is the third value). Moving average is a method of measuring trend, Unit V E. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "d5032300-ad44-4c93-a73b-a025bf921683",
+      "verdict": "ready",
+      "key": "D",
+      "why": "a = 85/5 = 17 and b = 30/10 = 3 (sum t y = -20 - 14 + 0 + 20 + 44 = 30), trend value at t = 2 is 23, key D; 29 follows from dividing by 5 instead of 10. Least squares trend is a method of measuring trend (Unit V E). Top of the CBT range for time but fair: hard label kept.",
+      "repair": null
+    },
+    {
+      "id": "a925a1b9-ee41-494d-b328-df3810fbd5a8",
+      "verdict": "ready",
+      "key": "B",
+      "why": "k = 400/20 = 20, selected 6, 26, 46, 66, so the fourth is 66, key B. Systematic sampling is named in Unit VI. Easy.",
+      "repair": null
+    },
+    {
+      "id": "11d82cd8-6286-4725-b3bf-73accec44fda",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Samples are subsets: 6C3 = 20, key D; 120 counts ordered selections. Counting simple random samples is within Unit VI A (draw a sample by simple random sampling). Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "23a5438b-200a-465f-b39e-aed23d8c2dae",
+      "verdict": "ready",
+      "key": "A",
+      "why": "SE = 4.8/4 = 1.2, t = 3/1.2 = 2.5 > 2.13, reject H0, key A; the 2.5 option with 'do not reject' is the decision slip, 0.625 and 10 are SE slips. One-sample t-test is in Unit VI C. Hard but fair.",
+      "repair": null
+    },
+    {
+      "id": "b5078728-0359-48b0-9ec0-947cc05d2988",
+      "verdict": "ready",
+      "key": "B",
+      "why": "a13 = a and a31 = 8 give a = -8, a23 = 7 and a32 = b give b = -7, a + b = -15, key B; the sum 15 is the symmetric-matrix slip. Skew-symmetric matrices are in Unit II. Easy.",
+      "repair": null
+    },
+    {
+      "id": "300047ea-3dc7-4cf4-bc6f-abcb00cd5b7f",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Scalar IV, skew-symmetric I, row 1 x n (II), column m x 1 (III): (A)-(IV), (B)-(I), (C)-(II), (D)-(III), key C. Types of matrices are in Unit II. Easy.",
+      "repair": null
+    },
+    {
+      "id": "045b9853-199e-4a62-9fd7-fc740a9daf0b",
+      "verdict": "ready",
+      "key": "A",
+      "why": "AB = [0, 2k+4; 0, 6k+12] vanishes only for k = -2, key A (checked both columns). Non-zero matrices with zero product are named in the syllabus. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "2e6341d0-3c9d-4b33-9d5f-44c898973dbe",
+      "verdict": "ready",
+      "key": "D",
+      "why": "det = 12 - 10 = 2, inverse = (1/2)[2 -5; -2 6] = [1 -5/2; -1 3], key D (confirmed numerically); option A is the adjoint. Inverse of a 2 x 2 matrix is in Unit II. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "3ad2e2ed-633e-48a0-bb67-00dda43613f7",
+      "verdict": "ready",
+      "key": "B",
+      "why": "(A+B)^2 - (A^2 + 2AB + B^2) = BA - AB, with AB = [5 2; 2 1] and BA = [1 2; 2 5], so [-4 0; 0 4], key B (sign-reversed option C is the AB - BA slip). Non-commutativity is named in Unit II. Two 2 x 2 products, about 70 s: hard is acceptable.",
+      "repair": null
+    },
+    {
+      "id": "8653f8fb-63aa-4521-9771-c25fd61bb3ac",
+      "verdict": "ready",
+      "key": "C",
+      "why": "(A), (C), (D) are true and (B) is false (|I+I| = 4 against |I|+|I| = 2), so (A), (C) and (D) only, key C. Properties of determinants are in Unit II. Four short statements.",
+      "repair": null
+    },
+    {
+      "id": "a9fcf18d-71e5-4e22-8a28-2668842a5f62",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Determinant 2k - 12 = 0 gives k = 6, and 4x + 6y = 9 contradicts 2 x (first) = 10, so no solution, key A. Consistency of a system is named in Unit II. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "a901a9e5-50a3-43d6-9540-1e10fbe1e36f",
+      "verdict": "repaired",
+      "key": "D",
+      "why": "|2AB^-1| = 2^3 x 3 x 1/2 = 12, key D; 3, 24 and 48 are the 2 for 2^3, missing B^-1 and |B^-1| = |B| slips. Determinant properties are in Unit II. Three rules, one line: medium, not hard.",
+      "repair": "difficulty_label hard -> medium. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium"
+      }
+    },
+    {
+      "id": "f80e1ebf-e7d6-422c-b65c-8f5df6ba0725",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Decision variables II, feasible solution I, unbounded region IV, infeasible problem III: (A)-(II), (B)-(I), (C)-(IV), (D)-(III), key B. LP terminology is named in Unit V. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "9879a378-c4e8-4fc9-adb2-8bf56840dc45",
+      "verdict": "ready",
+      "key": "D",
+      "why": "(2, 3) satisfies both constraints (7 <= 10, 11 <= 15); (4, 3) and (5, 1) give 11 > 10, (2, 5) gives 17 > 15, key D, unique. Feasible region is in Unit V. Easy.",
+      "repair": null
+    },
+    {
+      "id": "19373bf0-535e-40e8-b7a0-41756d8d2981",
+      "verdict": "ready",
+      "key": "C",
+      "why": "3x + 2y <= 30 (flour limit) and x >= 4 (at least 4), key C. Formulating an LPP is in the LP unit. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "de6a00a2-8803-4417-a2b5-061d58f92d92",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Corners (0,8), (2,4), (10,0) give Z = 16, 18, 50, minimum 16, key A (checked by enumerating the intersections; Z has positive coefficients so the minimum exists on the unbounded region). Two constraints, within the syllabus limit. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "57d63f4c-db78-4fe2-9139-842ea2014063",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Corners (0,0), (4,0), (4,2), (2,4), (0,4): five, key C (confirmed by enumerating all line intersections); x + 2y <= 20 is redundant. Syllabus Unit V says \"up to three non-trivial constraints\"; here four are printed but one is redundant and the item counts corners, it does not optimise, so it is kept. Reviewer's call, not a hard breach.",
+      "repair": null
+    },
+    {
+      "id": "9d7ba844-d9df-49d4-9bf5-1464df25413a",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Reflexive relations on 3 elements: 2^(9-3) = 64, key B; 512 is all relations, 8 counts the forced pairs. Types of relations are in Unit I B1. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "9afe3afa-ab58-487c-8b4a-7b04ef37c60a",
+      "verdict": "ready",
+      "key": "B",
+      "why": "(1,2) lies on the curve; dy/dx = -(2x+y)/(x+2y) = -4/5, key B (-2/5 is the dropped-y slip). Implicit differentiation is named in Unit III. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "c0d61bdc-7072-4121-a1b0-be91ad4757b6",
+      "verdict": "ready",
+      "key": "D",
+      "why": "dy/dx = 3t/2, d2y/dx2 = (3/2)/(2t) = 3/(4t) = 3/8 at t = 2, key D (3/2 and 3 are the two slips named). Parametric second derivatives are named in Unit III. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "9567d87f-af20-4df4-afd1-8656a2b1edcd",
+      "verdict": "ready",
+      "key": "A",
+      "why": "d/dx e^(3x) = 3e^(3x) (IV), log(3x) gives 1/x (I), tan^-1(3x) gives 3/(1+9x^2) (II), sin^-1 x gives 1/sqrt(1-x^2) (III), key A. Derivatives of these functions are named in Unit III. Easy.",
+      "repair": null
+    },
+    {
+      "id": "93acdf0c-24cc-46b2-864e-99207aceac5b",
+      "verdict": "ready",
+      "key": "B",
+      "why": "f'(x) = 2(x^2 - 1)/x is positive only for x > 1, so (1, infinity), key B; f decreases on (0, 1). Increasing and decreasing functions are in Unit III. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "09ff07f0-c60c-46c9-bc65-88f4e0bc323e",
+      "verdict": "repaired",
+      "key": "A",
+      "why": "y = 12 - x, f = 12x^2 - x^3, f' = 0 at x = 8, f'' < 0, maximum 64 x 4 = 256, key A; 216 is the equal-split slip. Maxima and minima are in Unit III. Standard NCERT optimisation, one derivative: medium, not hard.",
+      "repair": "difficulty_label hard -> medium. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium"
+      }
+    },
+    {
+      "id": "4e3389a9-e5f6-464e-94da-097ecfa1b56a",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Integral over [0,2] of f is 7 - 3 = 4, so 2(4) + 2 = 10, key D; 9 and 22 are the named slips. Properties of definite integrals are in Unit III. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "f1fce836-0049-44b7-95a1-a2399fc7c66f",
+      "verdict": "ready",
+      "key": "C",
+      "why": "By parts: [x^2/2 log x - x^2/4] from 1 to e = e^2/4 + 1/4 = (e^2 + 1)/4, key C (confirmed numerically); (e^2 - 1)/4 is the sign slip. Integration by parts is named in Unit III. About 80 s, medium.",
+      "repair": null
+    },
+    {
+      "id": "a2b66f59-7b62-4b7c-9a2b-6e36fc09b9f7",
+      "verdict": "ready",
+      "key": "A",
+      "why": "[x^3/3 + 2x] from 1 to 4 = 27, key A; 21 drops 2x, 69 drops the division by 3. Area under a curve is in Unit III. Easy.",
+      "repair": null
+    },
+    {
+      "id": "e3728829-e160-4205-abb4-b411b380a303",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Roots 0 and 4, area [2x^2 - x^3/3] from 0 to 4 = 32/3, key D; 32 drops the x^2 term. Area under a parabola is named in the syllabus. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "d724586b-c52b-43c1-b3b1-ea045c7d032f",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Area = 1/4 (below the axis) + 4 = 17/4, key B; 15/4 is the signed integral. Area when the curve crosses the axis is a standard NCERT trap. Hard is acceptable (the sign trap needs a prepared student).",
+      "repair": null
+    },
+    {
+      "id": "4d8fefa8-332e-4969-a17b-0cf0f8215738",
+      "verdict": "ready",
+      "key": "C",
+      "why": "y = vx gives v = ln x + C, y = x ln x + 2x, y(e) = 3e, key C; e + 2 loses the factor x. Homogeneous equations are named in Unit III. Four steps with an initial condition: hard is right.",
+      "repair": null
+    },
+    {
+      "id": "7ded8cb6-0906-4e49-84fa-82130df4cf14",
+      "verdict": "ready",
+      "key": "D",
+      "why": "(A) x y' = 2y true, (B) homogeneous true, (C) solution is y = Cx so false, (D) y^2 - x^2 = C true, so (A), (B) and (D) only, key D. Forming equations, homogeneous and separable equations are in Unit III. Four statements; medium is right.",
+      "repair": null
+    },
+    {
+      "id": "7b509c66-2951-4c21-b23f-a1c74e1aafa9",
+      "verdict": "ready",
+      "key": "A",
+      "why": "dx/dy - x/y = 2y, P = -1/y, IF = e^(-ln y) = 1/y, key A; y is the sign slip. The dx/dy + Px = Q form is named in the syllabus. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "6cdff47f-24b5-4a1a-9db2-057d41f22bd0",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Cross product of the diagonals is (8, 4, -8), magnitude 12, area 6, key C (confirmed numerically); 12 forgets the half, 3 sqrt17/2 is half the product of the diagonal lengths. Cross product is named in Unit IV. Two steps: hard label is a notch high but kept to hold the mix.",
+      "repair": null
+    },
+    {
+      "id": "c8af2dc3-ec6e-43a1-b174-88e3969c1037",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Perpendicular a . b = 0 (II), parallel a x b = 0 (IV), area |a x b| (I), unit vector a/|a| (III), key B. All named in Unit IV. Easy.",
+      "repair": null
+    },
+    {
+      "id": "c7a6e607-a11b-4015-981a-dd1b3e7188c9",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Direction ratios (4, k, 2) and (3, -2, -1): 12 - 2k - 2 = 0, k = 5, key D; 7 and 6 are the named slips. Perpendicular lines in 3D are in Unit IV. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "a525b67f-b222-4d47-b6dd-3f40ee01659a",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Direction ratios (2, 3, 4), point (-2 + 2t, 1 + 3t, 5 + 4t), x = 4 gives t = 3, z = 17, key A. Line through two points is in Unit IV. Easy.",
+      "repair": null
+    },
+    {
+      "id": "8506b7fc-87af-46b8-ad02-5766ad045a34",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Principal values 2 pi/3, -pi/3, -pi/4 sum to pi/12, key C; 13 pi/12 uses 3 pi/4 for tan^-1(-1). Principal value branches are in Unit I B1. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "fe67257f-25f9-46f8-911c-63ce57d6ed0c",
+      "verdict": "ready",
+      "key": "B",
+      "why": "P(defective) = 0.045, P(B|defective) = 0.015/0.045 = 1/3, key B (3/10, 4/9 and 2/9 are B's share, C's and A's posteriors). Total probability and Bayes are named in Unit VI. Standard three-source Bayes, about 75 s: hard is acceptable.",
+      "repair": null
+    }
+  ]
+}

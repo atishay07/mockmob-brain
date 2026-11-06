@@ -1,0 +1,26 @@
+{
+  "conflicts": [
+    {
+      "hold": ["kc.biology.evolution.fact-life-appeared"],
+      "keep": ["kc.biology.evolution.fact-first-noncellular", "kc.biology.evolution.fact-first-cellular"],
+      "why": "NCERT Biology p.111 says life appeared almost 4 billion years back; the same page says the first non-cellular forms could have originated 3 billion years back (p.112: first cellular ~2000 mya). A student learning 'when did life appear' vs 'when did the first non-cellular life originate' holds 4 bya and 3 bya. Keep the specific dated stages, hold the generic one."
+    },
+    {
+      "hold": ["kc.biology.biodiversity-and-conservation.fact-z-value-range"],
+      "keep": ["kc.biology.biodiversity-and-conservation.fact-z-value-continents"],
+      "why": "p.220: card says Z is 0.1-0.2 'regardless of the taxonomic group or the region' (no scale context), while the continents card says Z is 0.6-1.2 for very large areas. The first only holds for smaller areas and does not say so. Hold it until it states 'for smaller areas' (or re-add with that context)."
+    },
+    {
+      "hold": ["kc.biology.principles-of-inheritance-and-variation.fact-frame-shift"],
+      "keep": ["kc.biology.molecular-basis-of-inheritance.fact-frameshift-insertion-or-deletion-mutations-64", "kc.biology.molecular-basis-of-inheritance.fact-insertion-or-deletion-of-three-65"],
+      "why": "Principles of Inheritance p.72 card says deletions and insertions of base pairs cause frame-shift mutations with no qualifier; Molecular Basis p.98 says only 1 or 2 bases shift the frame, while 3 or multiples of 3 leave the reading frame unaltered. The p.72 card breaks the p.98 rule out of context."
+    }
+  ],
+  "duplicates": [
+    ["kc.biology.principles-of-inheritance-and-variation.fact-honeybee-chromosomes", "kc.biology.principles-of-inheritance-and-variation.def-haplodiploid"],
+    ["kc.biology.human-reproduction.fact-mammary-late", "kc.biology.human-reproduction.def-lactation"],
+    ["kc.biology.organisms-and-populations.term-sigmoid", "kc.biology.organisms-and-populations.fact-verhulst-pearl"],
+    ["kc.biology.principles-of-inheritance-and-variation.def-linkage", "kc.biology.principles-of-inheritance-and-variation.def-recombination"]
+  ],
+  "pairsRead": 300
+}

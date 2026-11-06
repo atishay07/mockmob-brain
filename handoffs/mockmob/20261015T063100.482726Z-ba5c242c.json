@@ -1,0 +1,37 @@
+{
+  "id": "20261015T063100.482726Z-ba5c242c",
+  "observed_at": "2026-10-15T06:31:00.482726+00:00",
+  "agent": "claude-sonnet-ia7",
+  "task": "Web IA packet IA7 (You) in wt-web-ia, branch web/ia-1015, finishing the packet cut at the usage limit",
+  "status": "complete",
+  "done": "IA7 finished on top of WIP cdddb6c8 (uncommitted, Gate A integrator commits). Kept the earlier You hub, Account, goal control, personal bests, Start on, sign out and youModel. Added: Contribute questions with two tabs (Submit, Your submissions via /upload?tab=mine) with a Many questions at once disclosure; Submissions and BulkImport components; UploadForm without its own page head; /my-uploads and /progress now permanentRedirect fallbacks; Leaderboard with students ranked apart and simulated rivals in a closed labelled disclosure; Cutoff calculator page with the tool first and the preamble cut; Account Night/Day parity (tokens, no tailwind zinc, no uppercase labels); views/you.jsx (you, progress, profile, upload, my-uploads, ranks, compass) with fixture handlers for goal, bests, rhythm, leaderboard, consent; data/tests/you.test.mjs (38 tests).",
+  "next": "Integrator (IA9): wire data/tests/you.test.mjs into test:ia; fix data/tests/route_moves.test.mjs expectation (it still expects /you to be a non-existent page); point /progress links in RhythmCard, DiscoveryFeed, StudyLibrary at /you#progress; add /you, /today, /practice, /ask to robots disallow; proxy must read the mm_start_on cookie for signed-in / to make the Start on copy true; rename Compass Pro copy inside src/components/du (IA8); drop legacy.jsx imports of MyUploadsPageClient and ProgressPage once next.config redirects land, then delete my-uploads/MyUploadsPageClient.jsx. Gate A headless captures of ?view=you (goal=unset|paused|fail|offline|slow, bests=empty|first|error, sheet=empty, brand=art), profile, upload, my-uploads, ranks (board=empty|rivals|error), compass in Night and Day.",
+  "blockers": [],
+  "evidence": [
+    "data/tests/you.test.mjs",
+    "src/components/profile/youModel.mjs"
+  ],
+  "touched_files": [
+    "src/app/(app)/you/YouPageClient.jsx",
+    "src/app/(app)/profile/ProfilePageClient.jsx",
+    "src/app/(app)/profile/LookAndFeelCard.jsx",
+    "src/app/(app)/profile/look-and-feel.css",
+    "src/app/(app)/profile/profile-privacy.css",
+    "src/app/(app)/upload/UploadPageClient.jsx",
+    "src/app/(app)/my-uploads/page.js",
+    "src/app/(app)/my-uploads/MyUploadsPageClient.jsx",
+    "src/app/(app)/progress/page.jsx",
+    "src/app/(app)/leaderboard/LeaderboardPageClient.jsx",
+    "src/app/(app)/admission-compass/AdmissionCompassPageClient.jsx",
+    "src/components/profile/youModel.mjs",
+    "src/components/profile/you.css",
+    "src/components/profile/Submissions.jsx",
+    "src/components/profile/BulkImport.jsx",
+    "src/components/feed/UploadForm.jsx",
+    "src/app/preview/arena/views/you.jsx",
+    "data/tests/you.test.mjs"
+  ],
+  "verification": "node --test data/tests/you.test.mjs: 38 pass. navigation, ia_modules, shell, first_run, glossary, contribution_ui suites pass. route_moves.test.mjs has 1 failing test that is stale (expects /you not to exist). npx eslint on every owned path: clean. All @/ and relative imports in owned files resolve. No browser, dev server or next build was run (rules for this packet); visuals are unchecked until Gate A.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

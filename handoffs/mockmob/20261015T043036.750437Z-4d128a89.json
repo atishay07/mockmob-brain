@@ -1,0 +1,38 @@
+{
+  "id": "20261015T043036.750437Z-4d128a89",
+  "observed_at": "2026-10-15T04:30:36.751438+00:00",
+  "agent": "P1 builder (Claude Code subagent)",
+  "task": "Repair v3 P1: web server and UI in wt-web-refine (spec mockmob-next/tmp/repair-v3/SPEC.md C.3 P1)",
+  "status": "complete",
+  "done": "providerCore optional maxTokens (clamped 200..2000, default unchanged); mistake_repair.js v3 (REPAIR_PROMPT_VERSION switch, schema, LIMITS_V3, buildRepairPromptV3, interpretRepairV3 with cleanup, fitSentence, claimsAboutStudent, contradictsKey, others all-or-nothing, hook dedupe, withLegacyAliases); repair_pattern.js buildRepairPattern; repairFlow v3 wiring (maxTokens 1400, subject display name, receipt promptVersion/subject/chapter, version 3, aliases out only, pattern after commit and on stored reopen with 1.5 s cap, interpret log line); mistakeRepair.js findRepairTraps; repair_presentation v3 blocks, checkChip, REPAIR_COPY, REPAIR_LOADING, recordLines; MistakeRepair.jsx A.1 order with exported RepairDone, insights prop, other-options disclosure, another-way reveal, loading line on real elapsed time; CSS single column, no nested cards, A.8 motion, reduced motion. Not committed.",
+  "next": "Integrator: commit P1 files, run npm run build and npm run lint in W (not run here to avoid clashing with the audit dev server), then the D.2 live repair only with owner OK.",
+  "blockers": [
+    "findRepairTraps PostgREST JSON-path select not exercised against the live database (a failure yields pattern null)"
+  ],
+  "evidence": [
+    "P1 acceptance node --test set: 150 pass, 0 fail",
+    "npm run test:learning 263 pass; npm run test:app 147 pass; npm run test:recovery 40 pass",
+    "eslint on changed P1 files clean",
+    "SSR render of RepairDone via Next SWC: v1, v3 full (blocks 1-12 order) and v3 bare payloads asserted in repair_wiring.test.mjs",
+    "Static preview at 375, 490 and 1366 px: no horizontal scroll, targets >= 44 px, AA contrast >= 5.6 light and 6.4 dark for muted text, reduced motion gives animation none"
+  ],
+  "touched_files": [
+    "data/mistake_repair.js",
+    "data/repair_pattern.js",
+    "data/repair_presentation.mjs",
+    "src/services/ai/providerCore.js",
+    "src/services/recovery/repairFlow.js",
+    "src/services/recovery/mistakeRepair.js",
+    "src/components/recovery/MistakeRepair.jsx",
+    "src/components/recovery/mistake-repair.css",
+    "data/tests/mistake_repair.test.mjs",
+    "data/tests/repair_flow.test.mjs",
+    "data/tests/repair_pattern.test.mjs",
+    "data/tests/repair_wiring.test.mjs",
+    "data/tests/provider_runtime.test.mjs",
+    "data/tests/repair_client.test.mjs"
+  ],
+  "verification": "Fake-dependency tests only; no live model call, no DB write, no deploy.",
+  "cost_and_pending_requests": "USD 0 (no model calls)",
+  "confidence": "agent-reported; verify evidence before acting"
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "authored_w2_expert_pass",
+  "batch": "mathematics__b2",
+  "subject": "mathematics",
+  "date": "2026-10-14",
+  "scope": "accepted=true questions in docs/brain/reports/authored-w2/wave2-acceptance-2026-10-14.json for mathematics__b2 (18 of 20). Not reviewed: 66c40b7a-966b-41d5-a141-8d286986967d (rejected as near-duplicate of 8e614805) and d526ba30-0c6e-4896-85a5-675034c4bccf (rejected by quality judge j2 score 3 with factual_error flag; the key B is in fact correct, since dy/dx = tan t = 1 at t = π/4, so the rejection is a judge error and the item is outside this pass).",
+  "repaired_file": "tmp/authored-w2/mathematics/mathematics__b2.json",
+  "counts": {"ready": 17, "repaired": 1, "practice": 0, "reject": 0},
+  "verdicts": [
+    {"id": "d2371b4a-f9c6-4bfa-aa45-6ff3bf2fbad0", "verdict": "ready", "why": "f'(x) = 6(x-1)(x-2); f''(1) = -6 < 0 so x = 1 is the local maximum; f(1) = 6 (key D). Distractor 5 is the local minimum at x = 2. Key verified."},
+    {"id": "83193176-5484-442e-921d-adc71ffa1dde", "verdict": "ready", "why": "f'(x) = 3(x-1)(x-3) < 0 exactly on (1, 3) (key A). Option B is the set where f increases. Key verified."},
+    {"id": "303622fe-4aca-41f1-8344-f9ffda8c303c", "verdict": "repaired", "why": "Key B = 1 verified: integration by parts gives [e^x(x-1)] from 0 to 1 = 0 - (-1) = 1. The explanation's last sentence was wrong (dropping a boundary term does not produce e - 1). Repaired to say e - 1 is the value of the integral of e^x, which results from dropping the factor x. Stem, options and key unchanged."},
+    {"id": "09560701-a1b7-41b7-9a05-ae9f490e70ed", "verdict": "ready", "why": "(1/2) tan^-1(x/2) from 0 to 2 = (1/2)(pi/4) = pi/8 (key D). Omitting the 1/2 gives pi/4, a plausible distractor. Key verified."},
+    {"id": "35f55f2c-9dff-4ee8-a977-d2268c091670", "verdict": "ready", "why": "Standard x -> pi/2 - x symmetry trick; 2I = pi/2 so I = pi/4 (key C). Key verified; the labelled difficulty 'hard' is appropriate."},
+    {"id": "e386c364-5b1b-4a08-a613-6d905e95b716", "verdict": "ready", "why": "f(x) = x|x| is continuous at 0 and f'(0) = lim |h| = 0, so A is the unique true option (key A). B, C and D are false. Key verified."},
+    {"id": "99c1f863-82e3-4c75-ac09-6efc2fb7790d", "verdict": "ready", "why": "For f = |x|: (A) true, (B) false, (C) true, (D) false, so the key (A) and (C) only (key D) is the unique correct pairing. Key verified."},
+    {"id": "c692e563-f533-44b8-b390-dbbfc1fdaf18", "verdict": "ready", "why": "dS/dt = 8 pi r dr/dt = 8 pi x 4 x 0.5 = 16 pi (key A). Omitting the 0.5 gives 32 pi. Key verified."},
+    {"id": "dcd0ea24-c4b2-455f-9e31-df781517974f", "verdict": "ready", "why": "At x = 1 the point is (1, 0) and the slope is -2, giving 2x + y - 2 = 0 (key C). Key verified."},
+    {"id": "7d497a12-099b-42ab-a058-a8738afbe148", "verdict": "ready", "why": "Critical point x = -1 lies in [-2, 0]; f(-2) = -1, f(-1) = 3, f(0) = 1, so the maximum is 3 (key B). Key verified."},
+    {"id": "386d01b7-740a-49ed-8930-68da67b0b8bc", "verdict": "ready", "why": "g'(x) = 0 gives x = 4 and g''(4) > 0, so the minimum is g(4) = 8 (key D). Key verified."},
+    {"id": "2b6807ae-c16c-4267-b420-5722c0ed952d", "verdict": "ready", "why": "The integrand equals d/dx(e^x/x), so the antiderivative is e^x/x + C (key C). Option D is the integrand itself. Key verified."},
+    {"id": "0b389a28-d962-4675-b824-6d109263b27d", "verdict": "ready", "why": "Integral of cos^2 x over [0, pi/2] = pi/4 (key A). The 'possible duplicate' warning is a dice-similarity hit on a different integral, not a true duplicate. Key verified."},
+    {"id": "331c760a-015f-4cb8-9964-346d263143bf", "verdict": "ready", "why": "1/(x^2 - 1) = (1/2)[1/(x-1) - 1/(x+1)], antiderivative (1/2) ln|(x-1)/(x+1)| + C (key B). Option A is the negative. Key verified."},
+    {"id": "dd06bea3-4893-4a36-8a45-d04462c30f51", "verdict": "ready", "why": "Integral of x^2 over [-1, 1] = 2/3 and integral of |x| = 1, total 5/3 (key D). Key verified."},
+    {"id": "1088f5be-e57b-4d2b-806c-3ed58b414414", "verdict": "ready", "why": "Values: (A) 1/2 = IV, (B) 1/3 = III, (C) e - 1 = I, (D) 1 = II. Key B pairs all four correctly and no other option does. Key verified."},
+    {"id": "75ec0a5b-8dfd-45bc-b80f-eda482f3a181", "verdict": "ready", "why": "Values: (A) 2 = II, (B) pi/4 = III, (C) 4 = IV, (D) (e - 1)/2 = I. Key C pairs all four correctly. Key verified."},
+    {"id": "12731fb4-c956-4aca-bb97-1a5ef2813c42", "verdict": "ready", "why": "1 + cos x = 2 cos^2(x/2) gives integrand (1/2) sec^2(x/2), antiderivative tan(x/2), value tan(pi/4) - tan 0 = 1 (key A). Forgetting the 1/2 gives 2. Key verified."}
+  ]
+}

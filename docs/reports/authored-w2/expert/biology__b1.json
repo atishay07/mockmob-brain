@@ -1,0 +1,33 @@
+{
+  "batch": "biology__b1",
+  "subject": "biology",
+  "pass": "wave2 expert pass (Sonnet-equivalent CUET expert review, same procedure as wave 1 step 5)",
+  "date": "2026-10-14",
+  "scope": "accepted=true questions in wave2-acceptance-2026-10-14.json for biology__b1 (19 of 20). Question 8b3bdf02-7aa5-4388-a182-4ae9d3569802 has accepted=false and was not reviewed.",
+  "source_file": "tmp/authored-w2/biology/biology__b1.json",
+  "counts": {"ready": 19, "repaired": 0, "practice": 0, "reject": 0},
+  "verdicts": [
+    {"id": "15342484-fa9f-4b7d-8caf-a7bb1d1ab98e", "verdict": "ready", "why": "Tapetum is the innermost anther wall layer and nourishes microspores; the distractors (epidermis, endothecium, middle layer) carry the stated functions. Key A is unique."},
+    {"id": "0902ebdd-8a2d-4b2b-9a62-2f40621a9410", "verdict": "ready", "why": "Mature embryo sac has 7 cells (egg apparatus of 3, 3 antipodals, central cell) and 8 nuclei (two polar nuclei). Only option D matches."},
+    {"id": "40d5dcdf-7fd5-4890-a27b-12c3e61f5c7c", "verdict": "ready", "why": "Germination on stigma, tube growth through style, entry through micropyle, then gamete discharge. Only option C gives this order."},
+    {"id": "1ddcf424-0782-4524-8755-d8e0903cf273", "verdict": "ready", "why": "Chasmogamy-IV, cleistogamy-II, geitonogamy-III, xenogamy-I. Only option B gives all four pairs correctly."},
+    {"id": "247f2a11-5326-4137-984a-146846e77c9f", "verdict": "ready", "why": "Diploid primary spermatocyte has 46 chromosomes, so each spermatid has 23 after two divisions. The 46 and 92 options are standard decoys."},
+    {"id": "1f51f8e3-79a9-4f4e-8fc2-a2359d0dd3f6", "verdict": "ready", "why": "Primordial, primary, secondary, then Graafian follicle. Key D is correct and the stem is unambiguous. One solver of five missed it, which is a clarity note only."},
+    {"id": "e0662139-d12b-460e-b21e-f9f702af769c", "verdict": "ready", "why": "Corpus luteum secretes progesterone, which maintains the endometrium in the luteal phase. LH and hCG are plausible decoys that are not the answer."},
+    {"id": "44926a51-3cd1-425b-aceb-d922c705ae25", "verdict": "ready", "why": "Statements A (Sertoli nutrition), C (spermiogenesis) and D (oocytes arrested in prophase I until puberty) are correct. B is false because Leydig cells secrete testosterone. Key B matches."},
+    {"id": "dbbeb54a-2a90-448d-bc03-d52a07078ded", "verdict": "ready", "why": "Vasectomy is a male surgical method (II), Copper-T is an IUD (I), lactational amenorrhoea relies on breastfeeding (III), and Saheli is a once-a-week non-steroidal pill (IV). Key D is the only full match."},
+    {"id": "64769864-4d52-4923-a60e-254db2153479", "verdict": "ready", "why": "Genital herpes is the only viral STD among the options. Gonorrhoea and syphilis are bacterial and trichomoniasis is protozoan."},
+    {"id": "a14eb498-aca2-4963-a9a7-f60ae65f05f7", "verdict": "ready", "why": "Round (3/4) and green (1/4) assort independently, giving 3/16. The 9/16 round-yellow fraction is correctly marked as a decoy."},
+    {"id": "6ef6f350-e64a-4e0b-80c7-1badb1e2612d", "verdict": "ready", "why": "Incomplete dominance gives a 1 red : 2 pink : 1 white phenotypic ratio in F2. The 3:1 decoy is correctly excluded."},
+    {"id": "4b3919e1-b58b-44eb-a11c-42cca7d43ca7", "verdict": "ready", "why": "P-R (20) equals P-Q (12) plus Q-R (8), so Q lies between P and R. R-Q-P is the reverse of P-Q-R, the only option equivalent to the correct order. The 'hard' label is generous but not an error."},
+    {"id": "009cdde5-c914-475a-b773-c30818aa0ff8", "verdict": "ready", "why": "Grasshopper is XX-XO with a single X in males and no Y. Drosophila is XX-XY, domestic fowl is ZZ-ZW with female heterogamety, and honey bees are haplodiploid."},
+    {"id": "ef42f443-9296-4920-80d9-c32ff88d049e", "verdict": "ready", "why": "Griffith 1928, Avery-McLeod-McCarty 1944, Hershey-Chase 1952, Meselson-Stahl 1958. Only option C gives this chronology."},
+    {"id": "245978df-4555-41c5-8fa7-4ee3c9c0b349", "verdict": "ready", "why": "The lac repressor binds the operator in the absence of lactose. Lactose (inducer) and CAP (activator) are correct decoys because neither blocks transcription."},
+    {"id": "e62f37ab-f81f-4005-9d11-5f32032d1075", "verdict": "ready", "why": "q^2 = 0.04, so q = 0.2 and p = 0.8. Then 2pq = 0.32, which is 160 of 500. Key C is correct and the 80 option is the pq trap."},
+    {"id": "141e815f-01fe-4ce7-80a2-ab8fc6f73417", "verdict": "ready", "why": "Pentadactyl limb is homologous (II), bird and insect wings are analogous (III), Darwin's finches show adaptive radiation (I), and the peppered moth shows natural selection (IV). Key A is the only full match."},
+    {"id": "f6e0d72d-c2d1-48eb-986c-4f6f639a33e2", "verdict": "ready", "why": "Statements A (random mating is an assumption) and C (selection disturbs equilibrium) are correct. B is false because drift is strongest in small populations, and D is false because migration changes allele frequencies. Key B matches."}
+  ],
+  "not_reviewed": [
+    {"id": "8b3bdf02-7aa5-4388-a182-4ae9d3569802", "reason": "accepted=false in wave-2 acceptance (2 of 5 solvers matched the key; duplicate screen not passed). Out of scope for this pass. The key B (5'-ATGCCT-3') was checked by hand and is correct, so the rejection likely reflects solver polarity confusion, not an unsound key."}
+  ]
+}

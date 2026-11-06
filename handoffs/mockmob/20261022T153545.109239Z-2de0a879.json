@@ -1,0 +1,27 @@
+{
+  "id": "20261022T153545.109239Z-2de0a879",
+  "observed_at": "2026-10-22T15:35:45.110240+00:00",
+  "agent": "claude-opus-5.5 session 792c2e1f (promo film orchestrator)",
+  "task": "MockMob launch film v8 finish: clean stop at owner's 95 % usage (all agents stopped, stop points documented)",
+  "status": "paused",
+  "done": "At 9:04 pm stopped workflow wf_edf100d6-4ef and killed every render job my agents had started (feat-a slice, feat-b check slice, type check render loop run_ck.sh); removed out/.render-lock and stale out/.tmp-render-*; verified no render/GPU/remotion/Chrome process, tsc clean, timeline 0 warnings, C: 46 GB. Added section 6 STOP POINTS to docs/HANDOFF-2026-10-22-2100.md: per-agent what was done on disk and how to pick up (feat-a fix 1: findfix-host-r8c-f2 + unlimited-host-r8c-f1 published and wired, no done line, no re-check; feat-b fix 1 done, re-check unfinished with partial evidence in out/v8f-check/host feat-b/; type fix 2 done, re-check unfinished with slices in out/v8f-check/type/). 9 lanes complete and checked (table in section 6).",
+  "next": "New session: paste docs/NEXT-SESSION-PROMPT-2026-10-22-2100.md; pick up the 3 stop points (independent re-checks; fix only if failing), archive superseded public/mobi3d dirs, full candidate render, review panel + planner, one fix round, final render CRF 10 slow, master, gate, send.",
+  "blockers": [
+    "none; 3 independent re-checks pending (feat-a fix 1, feat-b, type)"
+  ],
+  "evidence": [
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\HANDOFF-2026-10-22-2100.md (section 6 STOP POINTS)",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\NEXT-SESSION-PROMPT-2026-10-22-2100.md",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\NOTES.md (ORCHESTRATOR STOP lines)"
+  ],
+  "touched_files": [
+    "docs/HANDOFF-2026-10-22-2100.md",
+    "docs/NEXT-SESSION-PROMPT-2026-10-22-2100.md",
+    "docs/NOTES.md",
+    "out/.render-lock (removed, stale)",
+    "out/.tmp-render-* (removed, stale)"
+  ],
+  "verification": "9:06 pm: no render.sh/gpu_run/blender/remotion/chrome-headless process; no locks; npx tsc --noEmit clean; node scripts/timeline.mjs 0 warnings; C: 46 GB free",
+  "cost_and_pending_requests": "no paid API calls; no ElevenLabs credits",
+  "confidence": "agent-reported; verify evidence before acting"
+}

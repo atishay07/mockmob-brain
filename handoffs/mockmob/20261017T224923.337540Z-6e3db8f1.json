@@ -1,0 +1,35 @@
+{
+  "id": "20261017T224923.337540Z-6e3db8f1",
+  "observed_at": "2026-10-17T22:49:23.338541+00:00",
+  "agent": "claude-opus-5.5 (subagent, web Today 1018 finish)",
+  "task": "Finish web Today 1018 in wt-today18 (branch web/today-1018): D26 road, D27 polish, states, tests, captures, dev server for owner review",
+  "status": "paused",
+  "done": "Head 7f572d6a on web/today-1018 (4 commits over STOP POINT fa55c354). Road to CUET rebuilt: goal headline (27 weeks to CUET UG, Expected from Sat 1 May 2027, 94 study days at 4 a week) over three stops on one road (Due today 1 of 2, This week 3 of 4, Overall goal 2 of 14 full mocks + flag), each a segmented stretch; tapped stop's readout under one sliding indicator. Change plan step 1/3 answers are tiles (date / number), days are round toggles; no radio rows. mockPace counts this week (14 over 27 weeks = one a fortnight). Lead: living subject object (as Practice), Revise shows due subjects' objects, number climbs once and rolls on swap, price line (Revise free; free account names practice credits), number never wraps. Due today never lists Revise twice. my_colleges test pointed at TodayColleges (approved TodayRows split).",
+  "next": "Owner reviews live at http://192.168.1.8:3207/preview/arena?view=today (dev server node PID 22136, launched via cmd 33164 in wt-today18). Then merge/ship per his verdict. Open: greeting says Good evening 11 PM-5 AM (owner flagged D28 on app; today_1017 test pins it); returning week caption uses R3 copy not the spec's; DOM order on phones follows R3 (main/side + CSS order).",
+  "blockers": [
+    "Owner live review (D30 pattern) before any push"
+  ],
+  "evidence": [
+    "git 7f572d6a web/today-1018",
+    "npm run test:today 44/44 pass",
+    "npm run test:app 502/502",
+    "npm run test:recovery 415/415",
+    "prepos_insights 8/8",
+    "eslint Today files clean",
+    "36 captures wt-today18/tmp/today1018/final (390 and 1440, Night and Day, active/dayone/returning/done/loading/error/offline/sparse/long, swap, length, week, road stops, plan steps, plan saved, chapter open, reduced motion); real pointer clicks with hit test, no overflow, no console errors"
+  ],
+  "touched_files": [
+    "src/components/today/TodayRoad.jsx",
+    "src/components/today/TodayPlanFlow.jsx",
+    "src/components/today/TodayMove.jsx",
+    "src/components/today/today.css",
+    "src/components/today/useToday.js",
+    "src/app/(app)/today/page.jsx",
+    "src/lib/today/road.mjs",
+    "data/tests/today_1018.test.mjs",
+    "data/tests/my_colleges.test.mjs"
+  ],
+  "verification": "Headless playwright-core captures against the preview fixture only; no production sign-in or writes; staging rig not used. Fixture shows behaviour on supplied data, not real-device performance.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

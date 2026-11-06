@@ -1,0 +1,45 @@
+{
+  "id": "20261018T225701.850345Z-5107bd96",
+  "observed_at": "2026-10-18T22:57:01.850345+00:00",
+  "agent": "C1-web-nav (Opus, resumed)",
+  "task": "Web navigation option A (G24, D114): finished, branch web/1019-c1-nav head cd8d8e73 in wt-1019-c1",
+  "status": "complete",
+  "done": "All items done to DONE WHEN. Five places in the sidebar (no headers, Mobi door above Night and Day), five-slot phone bar (Today, Practice, Start centre 56 px, Mob, You), You sheet (24 px shorter, no scroll from 692 px tall at 390), Practice and Mob tab rows with the G27 cue (peek, one 24 px nudge, edge fades, chevron, reduced motion none), Revise count on Practice / Your papers, tour follows the map, compaction thresholds 980/934/880, rail and sheet entrance stagger kept (R4), tab row places the current tab again when the count lands, preview fixture &mob=off. 7 old nav tests updated, web_nav_a_1019 (18 tests) in test:dock.",
+  "next": "Main session merges web/1019-c1-nav into deploy/web-1019-r11 (merge-tree clean vs r11, a4a, a4b; a trial merge with r11 passes the nav tests and renders with A4b's Sign out words). Open for others: Review page H1 still says \"Review\" while the nav says \"Your papers\" (A4b/D106); help_faq credits test already fails on main.",
+  "blockers": [
+    "none"
+  ],
+  "evidence": [
+    "mockmob-next/tmp/c1-1019/R4 (live 23a7c090 vs candidate sheets, 1440 and 390, Night and Day, fresh and heavy)",
+    "mockmob-next/tmp/c1-1019/nudge/NUDGE-CONTACT-dark.png and -light.png (20 frames, 40 ms)",
+    "mockmob-next/tmp/c1-1019/cand (84 frames at 1440, 390, 360), moboff, trial",
+    "mockmob-next/tmp/c1-1019/scripts (caps, verify, nudge, tour, compare)"
+  ],
+  "touched_files": [
+    "src/lib/arenaNavigation.js",
+    "src/app/(app)/AppLayoutClient.jsx",
+    "src/app/(app)/nav-places.css",
+    "src/app/(app)/arena.css",
+    "src/components/nav/PlaceTabs.jsx",
+    "src/components/nav/placeTabsPeek.mjs",
+    "src/components/start/start.css",
+    "src/components/start/StartKey.jsx",
+    "src/lib/appTour.mjs",
+    "src/lib/motion/placeTransition.js",
+    "src/app/preview/arena/ArenaPreviewClient.jsx",
+    "data/tests/web_nav_a_1019.test.mjs",
+    "data/tests/dock_alignment.test.mjs",
+    "data/tests/dock_measure.mjs",
+    "data/tests/dock_primary_quiet.test.mjs",
+    "data/tests/community_1018.test.mjs",
+    "data/tests/release9_nav_1018.test.mjs",
+    "data/tests/help_faq.test.mjs",
+    "data/tests/wallet_1018.test.mjs",
+    "data/tests/ask_mobi_entries.test.mjs",
+    "src/lib/motion-tokens.test.mjs",
+    "package.json"
+  ],
+  "verification": "lint exit 0; test:app 756 pass 1 skipped; test:today 120; test:dock 49 pass 1 skipped; DOM dock run 96/96 via playwright-core; test:recovery 604 pass 3 todo; next build --webpack exit 0 (.next deleted); verify.mjs 0 failures (58 checks: real-pointer on every rail, dock, sheet and tab link, keyboard order, 44 px, no sideways scroll at 390 and 360, tour walk).",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

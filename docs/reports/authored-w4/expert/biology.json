@@ -1,0 +1,512 @@
+{
+  "batch": "biology",
+  "subject": "biology",
+  "wave": 4,
+  "pass": "wave4 expert pass (Sonnet-equivalent CUET expert review, same procedure as waves 2 and 3)",
+  "date": "2026-10-17",
+  "reviewer_model": "Claude Sonnet 5.5 (single reviewer, no other model run)",
+  "method": "Every accepted biology question was solved by the reviewer from the stem, options and passage alone, then the key, explanation, options (longest-option giveaway, listed-order sequence keys, grammatical cues, option-set shape for match, sequence and statement items), unit and chapter against data/nta_blueprints/biology.json, the NCERT Class 12 Biology section (current 13-chapter numbering), the official CUET (UG) 2026 Biology syllabus PDF (data/CUET 2026/biology.pdf, units VI to X), the CUET level and time (72 s per question, no calculator) and the engine content gates were checked. The two passage sets were read as sets (passage word count, one chapter per set, 4 and 5 questions). The judge difficulty checks and notes in wave4-score-entries-2026-10-17.json were read after the independent solve and used to calibrate labels only.",
+  "scope": "the 55 biology rows of docs/brain/reports/authored-w4/wave4-candidates-scored-2026-10-17.json (accepted by the rule), in file order: 46 standalone questions and two passage sets (w4-bio-02-set-1 with 4 questions, w4-bio-03-set-1 with 5 questions).",
+  "source_file": "docs/brain/reports/authored-w4/wave4-candidates-scored-2026-10-17.json",
+  "counts": {
+    "reviewed": 55,
+    "ready": 32,
+    "repaired": 23,
+    "drop": 0
+  },
+  "solver_visible_text_changed": [],
+  "notes": [
+    "No drops. All 55 questions sit in the CUET UG 2026 Biology syllabus (data/CUET 2026/biology.pdf, units VI to X): each stem maps to a named line, for example Unit X Biodiversity and Conservation lists 'narrowly utilitarian, broadly utilitarian and ethical' (Q55) and Unit IX lists 'molecular diagnosis' (the ELISA and probe set). Unit and chapter labels match data/nta_blueprints/biology.json for all 55; no excluded chapter (Reproduction in Organisms, Environmental Issues) is used.",
+    "Every key was re-derived independently and is correct and unique; no solver-visible text was changed (stems, options and passages are as accepted), so no blind re-solve is needed for these repairs. The 23 repairs touch only difficulty_label (7), ncert_ref (18) and explanation (3), with some questions carrying more than one.",
+    "difficulty_label (7): 5 hard to medium (f9edc91a, 89ff99c8, d8c5c153, ad0c0f11, cf3ce18f: single NCERT facts, linked NCERT lines or four recall statements; both quality judges' difficulty checks said medium for four of them, the fifth was split hard and medium), 1 medium to easy (ccbe9308, Trichoderma recall, both judges easy), 1 easy to medium (c4a7ad38, classifying a conservation argument, both judges medium). After this the pool is easy 17, medium 37, hard 1 against a blueprint target of 35, 50 and 15 percent; the only hard item left is 83d1ddf7 (anticodon from a template strand). The engine will have to fill the hard share from other waves or fall back to medium.",
+    "ncert_ref (18): chapter numbers 11, 13, 14 and 15 in the references were the unrationalised-book numbers for some chapters and wrong for the book the other references (Ch 7, 8, 9) use. Corrected to the current 13-chapter NCERT Class 12 Biology: Biotechnology and its Applications is Ch 10, Organisms and Populations Ch 11, Ecosystem Ch 12, Biodiversity and Conservation Ch 13. Section titles were not changed. This is from knowledge of the rationalised table of contents and was not checked against a copy of the book.",
+    "explanation (3): d157c263 (about 200 bp is the NCERT figure for a nucleosome, not the DNA wound round the octamer core), c2cb9280 (loose because-clause about the single-stranded probe), dc0f5ddb (unsupported 'common belief' remark). Stems, options and keys unchanged.",
+    "Passage sets: w4-bio-02-set-1 (cancer case, 4 questions, about 190 words) and w4-bio-03-set-1 (ELISA, PCR and probe case, 5 questions, about 230 words) are within the blueprint passage size (120 to 300 words), one chapter per set, 4 or 5 questions, every question answerable from the passage plus NCERT. Items 80acdc79, 53f7ec15 and 65134122 are easy partly because the passage states the cue; accepted as passage-reading items.",
+    "Left as is, noted: key position is balanced (A 14, B 13, C 14, D 14); longest-option checks show no giveaway (largest ratio 1.22 for 97c20f8d, 1.10 to 1.11 for 914f319b and c4e0c49c); 302af2c0 statement D (LH and FSH increase gradually in the follicular phase) is a direct NCERT line although one judge called it loose; b9de7d62 option says 'of menstruation' where NCERT says 'of the cycle' (same days 1 to 5); 83d1ddf7 needs the 3'/5' anticodon polarity, which is beyond the plainest NCERT wording but fair for the hard slot; a790d203 treats tRNA charging as step one, which is the NCERT order. No overlap with the wave 2 biology questions on a stem and option word-overlap screen.",
+    "Engine content gates (answer integrity, quality gate, structure, wording, corrupted wording, listed-order key) were re-run offline on the 55 rows with the repairs applied (scripts/authored-w4-engine-precheck.mjs on a patched copy kept outside the repo): 55 clean, 0 veto reasons."
+  ],
+  "verdicts": [
+    {
+      "id": "2fe86fe0-ba8b-492b-942d-876c45bf78ea",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Vallisneria (and Hydrilla) is the NCERT water-pollinated plant; water hyacinth and water lily flowers rise above the water and use insects or wind, maize is a wind-pollinated grass. Key C is unique. Direct recall, easy.",
+      "repair": null
+    },
+    {
+      "id": "3920888b-72d1-4cfd-ad56-301ef2e89c5f",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Zygote, proembryo, globular, heart-shaped, mature embryo is the NCERT dicot order, so C, D, A, B (key A) is the only valid sequence; the other options each break the globular-before-heart rule or put the mature embryo early. Key is not the listed order. Medium.",
+      "repair": null
+    },
+    {
+      "id": "dd66dcf5-ca4a-4e15-9722-6292d102a490",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Seed coat (integuments) and pericarp (ovary wall) are maternal tissue; embryo and endosperm come from fertilisation. Key D is unique (the embryo-seed coat slip is distractor B). Options are of equal length. Medium is right.",
+      "repair": null
+    },
+    {
+      "id": "1382b67c-0605-4d03-81fc-9fff6a87148a",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Testis, rete testis, vasa efferentia, epididymis, vas deferens, ejaculatory duct, urethra: C, A, D, B (key B). One blind solver of five picked the epididymis before the vasa efferentia, a slip not an ambiguity. Easy.",
+      "repair": null
+    },
+    {
+      "id": "302af2c0-97c5-4b82-beff-ecf2d2d061bc",
+      "verdict": "ready",
+      "key": "D",
+      "why": "A is true (corpus luteum degenerates, endometrium breaks down, menstruation), D is true (NCERT: LH and FSH secretion increases gradually in the follicular phase, then peaks mid-cycle), B false (ovulation is mid-cycle, ends the follicular phase), C false. Key D (Only A and D) is unique. About 91 s, medium.",
+      "repair": null
+    },
+    {
+      "id": "f9edc91a-cf7d-4bc9-afe7-7fc485d72a76",
+      "verdict": "repaired",
+      "key": "A",
+      "why": "Secondary oocyte is arrested at metaphase II and completes meiosis II only when a sperm enters; key A is unique (B is the meiosis I step, C and D are the primary-oocyte stages). Correct and a standard board item, but both quality judges rated it medium and it is a single NCERT fact, so the label hard is too high.",
+      "repair": "difficulty_label hard -> medium. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium"
+      }
+    },
+    {
+      "id": "84a951f7-b80d-4981-b476-3e4be990ce39",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Trophoblast attaches to the endometrium, inner cell mass forms the embryo (NCERT). Key C is unique; the other rows each swap one role. Options of similar length. Medium.",
+      "repair": null
+    },
+    {
+      "id": "4e623f32-98a2-4674-ae0b-c6fbac945b8c",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Amniocentesis-IV, MTP-II, IUI-III, ZIFT-I (key A) match the NCERT definitions (ZIFT: zygote or early embryo up to 8 blastomeres into the fallopian tube). Options are real pairings, none is the listed order, A to D and I to IV are defined in the stem. Medium.",
+      "repair": null
+    },
+    {
+      "id": "b9de7d62-9120-43a8-9742-13d19f226543",
+      "verdict": "ready",
+      "key": "C",
+      "why": "NCERT: pills are started preferably within the first five days of the menstrual cycle and taken for 21 days; key C is unique and A, B, D would be too late. The option says 'of menstruation' where NCERT says 'of the cycle', which is the same days 1 to 5 and not ambiguous. Left as is. Easy.",
+      "repair": null
+    },
+    {
+      "id": "dccaf7b2-9f8f-4112-88c7-f7850938c25a",
+      "verdict": "ready",
+      "key": "B",
+      "why": "A is false (glutamic acid is replaced by valine, not the reverse), B, C and D are true NCERT statements, so B, C and D only (key B) is unique. Medium, four recall statements.",
+      "repair": null
+    },
+    {
+      "id": "d5ba952f-51c4-4b06-91b5-52233df6cd8b",
+      "verdict": "ready",
+      "key": "D",
+      "why": "One gene (phenylalanine hydroxylase) causing mental retardation and reduced pigmentation is pleiotropy, the NCERT example. Key D is unique. Direct recall; the stem is only mildly signposted. Easy.",
+      "repair": null
+    },
+    {
+      "id": "a1762cac-8859-4104-b5b8-440a33eacf15",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Queen has 32 chromosomes, the drone from an unfertilised egg is haploid with 16 and makes sperms by mitosis, so 16 and 16 (key B); 16 and 8 is the meiosis slip. NCERT haplodiploidy. Medium.",
+      "repair": null
+    },
+    {
+      "id": "a790d203-801b-4206-abd4-812c7135eb6a",
+      "verdict": "ready",
+      "key": "C",
+      "why": "tRNA charging, ribosome binding at AUG, elongation, release factor at the stop codon: B, D, A, C (key C). Elongation cannot precede initiation and the release factor comes last. Charging first is the NCERT order of translation. Medium.",
+      "repair": null
+    },
+    {
+      "id": "d157c263-e53d-43ab-8a75-2f725d2f815f",
+      "verdict": "repaired",
+      "key": "A",
+      "why": "Histones are basic and rich in lysine and arginine (NCERT); key A is unique. The explanation said about 200 bp 'wind around each octamer' (the core wraps about 146 bp; 200 bp is the NCERT figure for a typical nucleosome including linker), reworded to the NCERT wording. Stem, options and key unchanged.",
+      "repair": "explanation reworded. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "explanation": "Histones are positively charged basic proteins because they are rich in the basic amino acids lysine and arginine. This lets the octamer bind the negatively charged phosphate backbone of DNA, and a typical nucleosome contains about 200 base pairs of DNA helix. Aspartic and glutamic acids are acidic and would repel the DNA."
+      }
+    },
+    {
+      "id": "787ef85b-5eb6-43a2-8f91-d91230268051",
+      "verdict": "ready",
+      "key": "D",
+      "why": "35S labels the protein coat, which stays outside the bacteria and is found in the supernatant after blending and centrifugation; key D is unique. Options are of equal length. Medium.",
+      "repair": null
+    },
+    {
+      "id": "83d1ddf7-0c21-44f5-9572-f9d1822321bc",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Template 3'-TACGGATCC-5' gives mRNA 5'-AUGCCUAGG-3'; third codon AGG; the antiparallel anticodon is 3'-UCC-5' (key C). 3'-GGA-5' is the anticodon of codon two, 3'-AGG-5' copies the codon. Unique, all four options same length. Hard is the right label (both judges), within CUET reach with NCERT's codon-anticodon pairing.",
+      "repair": null
+    },
+    {
+      "id": "43c048d0-4697-411f-9819-a9a56b1c234c",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Miller's mixture was methane, ammonia, hydrogen and water vapour with no free oxygen; key D is unique. Easy.",
+      "repair": null
+    },
+    {
+      "id": "97c20f8d-1a42-4f39-aa50-3303ce3135e7",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Both extremes favoured and the mean disfavoured is disruptive selection: two peaks (key A); stabilising gives one narrower peak, directional shifts one peak. Key A is slightly the longest (48 against 37 to 43) but not a giveaway. Medium.",
+      "repair": null
+    },
+    {
+      "id": "1ed56924-fcf9-4015-8327-e71c2be3dbe5",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Typhoid is confirmed by the Widal test (NCERT); ELISA (HIV), biopsy (cancer) and PCR are the other NCERT tests. Key C is unique. Easy.",
+      "repair": null
+    },
+    {
+      "id": "3434a96f-2ebc-45ae-932b-f5729c83538b",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Allergy: IgE antibodies and histamine release from mast cells (NCERT); IgA is the colostrum antibody and macrophages are phagocytes. Key A is unique, options equal in length. Medium.",
+      "repair": null
+    },
+    {
+      "id": "93f0a684-7f2b-4742-81bd-b68eef0a280e",
+      "verdict": "ready",
+      "key": "D",
+      "why": "NCERT order: HIV enters a macrophage, RNA copied to DNA by reverse transcriptase, viral DNA integrates into host DNA, progeny viruses attack helper T cells: D, B, C, A (key D). Medium.",
+      "repair": null
+    },
+    {
+      "id": "09a87281-edba-4507-85d1-c3e313dd7071",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Heroin (diacetylmorphine) is made by acetylation of morphine from Papaver somniferum and is a depressant (NCERT). Key B is unique, the other rows change the drug, plant or effect. Medium.",
+      "repair": null
+    },
+    {
+      "id": "80acdc79-32e8-47ce-893b-76579df268fc",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Passage set 1, item 1. Cells that keep dividing when crowded have lost contact inhibition (NCERT); metastasis is gained, neoplastic transformation is what has happened, not a property lost. Key A is unique. The passage restates the behaviour, so it is easy.",
+      "repair": null
+    },
+    {
+      "id": "7d4b6c6f-9f8e-4e6f-a243-bdcda52cb355",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Passage set 1, item 2. Cells in a lymph node mean spread, which defines a malignant tumour (NCERT); benign tumours stay at the site. Key C is unique, options of equal length. Medium.",
+      "repair": null
+    },
+    {
+      "id": "89ff99c8-222d-48d8-8071-e65f3656d7cd",
+      "verdict": "repaired",
+      "key": "B",
+      "why": "Passage set 1, item 3. A normal gene regulating division switched on permanently is a proto-oncogene activated into an oncogene; tobacco is a chemical carcinogen (NCERT). Key B is unique. Both quality judges rated it medium (two linked ideas, direct NCERT lines), so the label hard is too high.",
+      "repair": "difficulty_label hard -> medium. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium"
+      }
+    },
+    {
+      "id": "f6b8e854-fac9-4ea3-8f17-24481236c2ea",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Passage set 1, item 4. Chemotherapy acts through the body and can reach spread cells; the other options (immune clearance, gene repair, conversion to benign) are false. Key D is unique; it is among the longest options (89 against 80 to 92, no real gap). Medium.",
+      "repair": null
+    },
+    {
+      "id": "b833fc48-2bbc-4a6c-93b6-862a27d26db6",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Starter curd added, lactic acid bacteria multiply, lactic acid made from milk sugar, acid coagulates and partially digests the proteins: B, C, D, A (key B), as in NCERT. Easy.",
+      "repair": null
+    },
+    {
+      "id": "d97512d6-e8e1-4f10-bf26-da7b7f30b701",
+      "verdict": "ready",
+      "key": "A",
+      "why": "NCERT secondary treatment: aerate primary effluent, aerobic flocs form and BOD falls, flocs settle as activated sludge, remaining sludge goes to anaerobic digesters: B, A, D, C (key A). Medium.",
+      "repair": null
+    },
+    {
+      "id": "9cb149e1-92bd-451d-8cd8-f092d0d7e74a",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Aspergillus niger-citric acid, Acetobacter aceti-acetic acid, Saccharomyces-ethanol, Streptococcus-streptokinase: (A)-III, (B)-IV, (C)-II, (D)-I (key D). All four pairs are NCERT. Medium.",
+      "repair": null
+    },
+    {
+      "id": "d8c5c153-958e-43f3-83f9-1af6b137e1ce",
+      "verdict": "repaired",
+      "key": "B",
+      "why": "A true (wine and beer are not distilled), B false (whisky, brandy and rum are distilled), C false (the clot buster is streptokinase, lipases go into detergents), D true (Penicillium notatum). Key B (Only A and D) is unique. Four recall statements: medium, not hard (the second judge said medium, and wave 2 relabelled the same shape).",
+      "repair": "difficulty_label hard -> medium. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium"
+      }
+    },
+    {
+      "id": "914f319b-fe73-4d95-ac69-112442cffdd4",
+      "verdict": "ready",
+      "key": "C",
+      "why": "Statins from Monascus purpureus lower blood cholesterol by competitively inhibiting the enzyme that makes it (NCERT). Key C is unique (it is the longest option, 82 against 71 to 78, no real gap). Medium.",
+      "repair": null
+    },
+    {
+      "id": "ccbe9308-e3df-46c1-a7ec-6d9c25cf9073",
+      "verdict": "repaired",
+      "key": "A",
+      "why": "Trichoderma is the NCERT biocontrol agent against plant (fungal) pathogens; Bt and baculovirus act on insects, ladybird on aphids. Key A is unique. One-fact recall, both quality judges rated it easy, so medium is one notch high.",
+      "repair": "difficulty_label medium -> easy. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "easy"
+      }
+    },
+    {
+      "id": "569476e7-3a80-40fd-bb83-996b09c75b2c",
+      "verdict": "ready",
+      "key": "D",
+      "why": "Anabaena is the photosynthetic, nitrogen-fixing cyanobacterium used in paddy fields that also adds organic matter (NCERT); the other three are not photosynthetic. Key D is unique. Easy.",
+      "repair": null
+    },
+    {
+      "id": "b52d4156-825a-4124-86e1-a4eba1f28fb5",
+      "verdict": "ready",
+      "key": "C",
+      "why": "PCR: mix template, primers, Taq and nucleotides, denature, anneal, extend: C, D, B, A (key C). Medium.",
+      "repair": null
+    },
+    {
+      "id": "66a5caed-b85f-4f55-b455-26ff8f422d8c",
+      "verdict": "ready",
+      "key": "D",
+      "why": "The origin of replication starts replication and controls the copy number of the linked DNA (NCERT). Key D is unique. Easy.",
+      "repair": null
+    },
+    {
+      "id": "c4e0c49c-4d53-4ce3-a21f-e5a5d39da739",
+      "verdict": "ready",
+      "key": "B",
+      "why": "Stirrer of a stirred-tank bioreactor gives even mixing and oxygen availability throughout (NCERT). Key B is unique; the other options are other steps. Easy.",
+      "repair": null
+    },
+    {
+      "id": "b8374232-3875-4669-a6aa-d2a27190437b",
+      "verdict": "ready",
+      "key": "A",
+      "why": "Cellulase for plant cell walls, ribonuclease for RNA, protease for proteins (NCERT); lysozyme is bacterial and chitinase fungal, D swaps the substrates. Key A is unique, all options 74 to 75 characters. Medium.",
+      "repair": null
+    },
+    {
+      "id": "2174cc38-ef8a-41be-9d52-6db3b89bf9a8",
+      "verdict": "repaired",
+      "key": "C",
+      "why": "Isolate the cry gene, insert it into the Ti plasmid, infect explants with Agrobacterium, regenerate plants by tissue culture: C, B, D, A (key C). Unique sequence. The chapter number in the NCERT reference was 11; in the current NCERT, Biotechnology and its Applications is Chapter 10.",
+      "repair": "ncert_ref chapter number corrected to the current NCERT numbering (Ch 10 Biotechnology and its Applications). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "ncert_ref": "NCERT Class 12 Biology, Ch 10 Biotechnology and its Applications: Bt crops and the steps in making a transgenic plant (Ti plasmid, Agrobacterium, tissue culture)"
+      }
+    },
+    {
+      "id": "df20c45d-ee4a-4663-bf36-621580f47bca",
+      "verdict": "repaired",
+      "key": "A",
+      "why": "Chains A and B were made in separate E. coli cultures, extracted and joined by disulphide bonds (NCERT); DNA ligase joins DNA, the C peptide is a proinsulin feature. Key A is unique. Easy. NCERT chapter number corrected from 11 to 10.",
+      "repair": "ncert_ref chapter number corrected to the current NCERT numbering (Ch 10 Biotechnology and its Applications). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "ncert_ref": "NCERT Class 12 Biology, Ch 10 Biotechnology and its Applications: genetically engineered insulin (chains A and B joined by disulphide bonds)"
+      }
+    },
+    {
+      "id": "58f32816-a7bf-41db-9e06-3b4add80291a",
+      "verdict": "repaired",
+      "key": "D",
+      "why": "Patenting a product from farmers' bioresources without permission or compensation is biopiracy (NCERT); bioprospecting is the lawful exploration. Key D is unique. Easy. NCERT chapter number corrected from 11 to 10.",
+      "repair": "ncert_ref chapter number corrected to the current NCERT numbering (Ch 10 Biotechnology and its Applications). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "ncert_ref": "NCERT Class 12 Biology, Ch 10 Biotechnology and its Applications: ethical issues, biopiracy and patents"
+      }
+    },
+    {
+      "id": "d37125e8-0209-40a9-aa19-4be3804a1682",
+      "verdict": "repaired",
+      "key": "B",
+      "why": "NCERT: transgenic animals carry genes that make them more sensitive to toxic substances, so toxicity tests give results in less time. Key B is unique. Medium. NCERT chapter number corrected from 11 to 10.",
+      "repair": "ncert_ref chapter number corrected to the current NCERT numbering (Ch 10 Biotechnology and its Applications). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "ncert_ref": "NCERT Class 12 Biology, Ch 10 Biotechnology and its Applications: transgenic animals and chemical safety (toxicity) testing"
+      }
+    },
+    {
+      "id": "53f7ec15-6f15-490b-bc13-2454749bf0a1",
+      "verdict": "repaired",
+      "key": "B",
+      "why": "Passage set 3, item 1. Antigen-coated plate, serum antibodies, enzyme-linked second antibody and colour substrate describe ELISA (NCERT molecular diagnosis). Key B is unique. Easy. NCERT chapter number corrected from 11 to 10.",
+      "repair": "ncert_ref chapter number corrected to the current NCERT numbering (Ch 10 Biotechnology and its Applications). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "ncert_ref": "NCERT Class 12 Biology, Ch 10 Biotechnology and its Applications: molecular diagnosis, ELISA"
+      }
+    },
+    {
+      "id": "65134122-0ff0-4601-b4e4-1dc76ae6bf66",
+      "verdict": "repaired",
+      "key": "D",
+      "why": "Passage set 3, item 2. One day after exposure no antibodies yet, but the amplification test can already find a few particles: antibodies not detected, genetic material detected (key D). Both rules come from the passage. Medium. NCERT chapter number corrected from 11 to 10.",
+      "repair": "ncert_ref chapter number corrected to the current NCERT numbering (Ch 10 Biotechnology and its Applications). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "ncert_ref": "NCERT Class 12 Biology, Ch 10 Biotechnology and its Applications: molecular diagnosis, PCR for early detection and ELISA"
+      }
+    },
+    {
+      "id": "ad0c0f11-adaa-4a9b-aae2-95288ca2e8e5",
+      "verdict": "repaired",
+      "key": "A",
+      "why": "Passage set 3, item 3. The probe pairs with the normal sequence, so only a baby with both copies mutated gives no spot (key A); a carrier still binds the probe (NCERT: the clone with the mutated gene does not appear on the film). Both quality judges rated it medium (two short steps), so hard is too high. NCERT chapter number corrected from 11 to 10.",
+      "repair": "difficulty_label hard -> medium; ncert_ref chapter number corrected to the current NCERT numbering (Ch 10 Biotechnology and its Applications). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium",
+        "ncert_ref": "NCERT Class 12 Biology, Ch 10 Biotechnology and its Applications: molecular diagnosis, probe hybridisation and autoradiography"
+      }
+    },
+    {
+      "id": "f6532e00-b9e0-4b76-82a0-296ef910b429",
+      "verdict": "repaired",
+      "key": "C",
+      "why": "Passage set 3, item 4. Denaturing separates the strands so the labelled single-stranded fragment can base-pair (key C); the label is on the probe, not on the baby's DNA. Unique. Medium. NCERT chapter number corrected from 11 to 10.",
+      "repair": "ncert_ref chapter number corrected to the current NCERT numbering (Ch 10 Biotechnology and its Applications). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "ncert_ref": "NCERT Class 12 Biology, Ch 10 Biotechnology and its Applications: molecular diagnosis, hybridisation of a labelled single-stranded probe"
+      }
+    },
+    {
+      "id": "c2cb9280-2619-4f53-91d3-a150d13d433a",
+      "verdict": "repaired",
+      "key": "A",
+      "why": "Passage set 3, item 5. A, B, D agree with the passage; C is false because the passage says the fragment is single-stranded. Key A (A, B and D only) is unique. The explanation gave a loose because-clause for the probe, reworded to say the description states it is single-stranded. NCERT chapter number corrected from 11 to 10.",
+      "repair": "ncert_ref chapter number corrected to the current NCERT numbering (Ch 10 Biotechnology and its Applications); explanation reworded. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "ncert_ref": "NCERT Class 12 Biology, Ch 10 Biotechnology and its Applications: molecular diagnosis, ELISA and probe hybridisation",
+        "explanation": "Statements A, B and D agree with the description: the serum test finds antibodies, the second antibody carries the colour-forming enzyme, and the second test relies on base pairing of the probe. The description says the labelled fragment is single-stranded, so the statement calling it double-stranded is false."
+      }
+    },
+    {
+      "id": "7139c5fb-2849-4497-a671-21a9c5bf2e81",
+      "verdict": "repaired",
+      "key": "D",
+      "why": "NCERT: tiger census in reserves is based on pug marks and faecal pellets, an indirect estimate of population density. Key D is unique. Easy. NCERT chapter number corrected from 13 to 11.",
+      "repair": "ncert_ref chapter number corrected to the current NCERT numbering (Ch 11 Organisms and Populations). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "ncert_ref": "NCERT Class 12 Biology, Ch 11 Organisms and Populations: population density and its estimation"
+      }
+    },
+    {
+      "id": "03f95952-f882-4150-acef-2ef0449a2aca",
+      "verdict": "repaired",
+      "key": "C",
+      "why": "Logistic growth: lag phase, acceleration, deceleration, asymptote near carrying capacity: B, D, A, C (key C). Medium. NCERT chapter number corrected from 13 to 11.",
+      "repair": "ncert_ref chapter number corrected to the current NCERT numbering (Ch 11 Organisms and Populations). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "ncert_ref": "NCERT Class 12 Biology, Ch 11 Organisms and Populations: population growth, logistic (sigmoid) growth phases"
+      }
+    },
+    {
+      "id": "b00e6e59-df3f-43dc-80d5-338ccfb71dfa",
+      "verdict": "repaired",
+      "key": "B",
+      "why": "Commensalism-orchid on mango branch, predation-Cactoblastis on prickly pear, competition-Abingdon tortoise and goats, parasitism-Cuscuta: (A)-II, (B)-III, (C)-IV, (D)-I (key B). Each example is NCERT. Medium. NCERT chapter number corrected from 13 to 11.",
+      "repair": "ncert_ref chapter number corrected to the current NCERT numbering (Ch 11 Organisms and Populations). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "ncert_ref": "NCERT Class 12 Biology, Ch 11 Organisms and Populations: population interactions with examples"
+      }
+    },
+    {
+      "id": "dc0f5ddb-206b-4a54-acf9-c705ed8b971d",
+      "verdict": "repaired",
+      "key": "A",
+      "why": "NCERT: grazing food chain is the major route in aquatic ecosystems and detritus food chain in terrestrial ones, so detritus then grazing (key A) is unique. The explanation ended with an unsupported remark about a common belief, replaced with a plain statement. NCERT chapter number corrected from 14 to 12.",
+      "repair": "ncert_ref chapter number corrected to the current NCERT numbering (Ch 12 Ecosystem); explanation reworded. Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "ncert_ref": "NCERT Class 12 Biology, Ch 12 Ecosystem: energy flow, grazing and detritus food chains",
+        "explanation": "In an aquatic ecosystem the grazing food chain is the major conduit of energy flow, since phytoplankton are eaten directly, while in a terrestrial ecosystem a much larger fraction of energy flows through the detritus food chain as dead plant matter is decomposed. Reversing the two is the usual slip."
+      }
+    },
+    {
+      "id": "9b3560f6-3b1c-4865-ac59-98027ad40a31",
+      "verdict": "repaired",
+      "key": "C",
+      "why": "Fragmentation, catabolism, humification, mineralisation: C, D, A, B (key C), the NCERT order of decomposition. Medium. NCERT chapter number corrected from 14 to 12.",
+      "repair": "ncert_ref chapter number corrected to the current NCERT numbering (Ch 12 Ecosystem). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "ncert_ref": "NCERT Class 12 Biology, Ch 12 Ecosystem: decomposition (fragmentation, leaching, catabolism, humification, mineralisation)"
+      }
+    },
+    {
+      "id": "47f1daf6-2e46-4659-80ba-53388a92114f",
+      "verdict": "repaired",
+      "key": "B",
+      "why": "Incident solar radiation, then PAR (under 50 percent), then GPP (2 to 10 percent of PAR), then NPP: D, A, B, C (key B). Medium. NCERT chapter number corrected from 14 to 12.",
+      "repair": "ncert_ref chapter number corrected to the current NCERT numbering (Ch 12 Ecosystem). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "ncert_ref": "NCERT Class 12 Biology, Ch 12 Ecosystem: productivity, PAR, GPP and NPP"
+      }
+    },
+    {
+      "id": "cf3ce18f-6c8c-4264-8cf8-b8ebc95aee46",
+      "verdict": "repaired",
+      "key": "D",
+      "why": "A true (sea biomass pyramid generally inverted), B false (NCERT: pyramids do not account for a species on two trophic levels), C true, D true; key D (A, C and D only) is unique. All four are NCERT limitation lines, both quality judges rated it medium and wave 2 relabelled the same shape, so hard is too high. NCERT chapter number corrected from 14 to 12.",
+      "repair": "difficulty_label hard -> medium; ncert_ref chapter number corrected to the current NCERT numbering (Ch 12 Ecosystem). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium",
+        "ncert_ref": "NCERT Class 12 Biology, Ch 12 Ecosystem: ecological pyramids and their limitations"
+      }
+    },
+    {
+      "id": "61165895-71ee-4a42-accb-05ee502b7960",
+      "verdict": "repaired",
+      "key": "B",
+      "why": "NCERT lists long undisturbed evolutionary time, less seasonal constant environment and more solar energy for tropical diversity; temperate regions were glaciated, not the tropics. Key B (the NOT item) is unique. Medium. NCERT chapter number corrected from 15 to 13.",
+      "repair": "ncert_ref chapter number corrected to the current NCERT numbering (Ch 13 Biodiversity and Conservation). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "ncert_ref": "NCERT Class 12 Biology, Ch 13 Biodiversity and Conservation: patterns of biodiversity, latitudinal gradient"
+      }
+    },
+    {
+      "id": "c4a7ad38-8758-41ef-9095-d08d22ef8c74",
+      "verdict": "repaired",
+      "key": "C",
+      "why": "Broadly utilitarian arguments rest on ecosystem services such as pollination (NCERT); A and D are direct economic uses (narrowly utilitarian), B is the ethical argument. Key C is unique. Both quality judges rated it medium (the student must classify each argument), so easy is one notch low. NCERT chapter number corrected from 15 to 13.",
+      "repair": "difficulty_label easy -> medium; ncert_ref chapter number corrected to the current NCERT numbering (Ch 13 Biodiversity and Conservation). Solver-visible text unchanged.",
+      "solver_visible_changed": false,
+      "fields": {
+        "difficulty_label": "medium",
+        "ncert_ref": "NCERT Class 12 Biology, Ch 13 Biodiversity and Conservation: why conserve biodiversity (narrowly utilitarian, broadly utilitarian, ethical)"
+      }
+    }
+  ]
+}
