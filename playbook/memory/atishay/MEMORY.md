@@ -1,0 +1,51 @@
+- [Deploy security fixes immediately](security-fixes-deploy-immediately.md) — owner's standing OK (12 Oct 2026) to hotfix and deploy crucial MockMob security issues without asking
+- [Emulator RAM rule](emulator-ram-rule.md) — emulator is the main test device (13 Oct); max 2-3 GB assigned; manage RAM yourself; no hosted sign-in by agents
+- [Subagent model choice](subagent-model-choice.md) — 24 Oct 3:30 am newest: right model per job, speed matters; Sonnet when spec is given (Opus can harm); Haiku medium/high for small jobs; xhigh only Sonnet/Opus; max rarely
+- [MockMob design direction](mockmob-design-direction.md) — 13 Oct: owner wants premium glass/motion UI like HIGH, Revolut, Fampay; no obvious disclaimers; no 5-question app onboarding; logo = round 4 B (Mobi as second o, "mo" icon), may switch to A
+- [Overnight autonomy and relay](overnight-autonomy-relay.md) — 14 Oct: relay ON, shift account in auto mode on limit, keep improving the app nonstop, never stop to ask
+- [Quality bar and stop rule](quality-bar-and-stop-rule.md) — 14 Oct: next-level motion beyond Duolingo; checkpoint findings often; stop cleanly with handover at ~95% context or usage
+- [Disk hygiene](disk-hygiene.md) — 14 Oct: C: filled from agent temp leftovers; clean temp/builds after every run; launcher sweeps old leftovers
+- [Features over retesting](features-over-retesting.md) — 15-16 Oct: features and depth first; but every deploy passes tests plus a visual critique (390 and 1440, Night and Day) first; never quality for speed
+- [Web restructure rejected](web-restructure-rejected.md) — 15 Oct Gate A, 17 Oct result, 18 Oct R4 Today all called regressions: refine, don't rebuild; mock-up first; never cut; Night stays subtle
+- [Platform focus](platform-focus-mobile-first.md) — 15 Oct: landing mobile-first; arena desktop-first but phone-ready; app mobile only; no sub-remarks; act as CTO polishing details; may deploy landing when satisfied
+- [CTO mode, standing goal](cto-mode-standing-goal.md) — 15 Oct PM: act autonomously as CTO; his 16:30 feedback is a goal until done (docs/brain/OWNER-VISION-2026-10-15-PM.md); build-test-refine nonstop
+- [Owner UX research brain](owner-ux-research-brain.md) — 16 Oct: his Premium UX/UI research for MockMob; design agents follow AGENT_RULES, cite evidence IDs, 12-part anti-slop test, 0/1/2 rubric, DESIGN_DECISIONS; research wins over older rules
+- [Device-truth testing](device-truth-testing.md) — 16 Oct: v5-era app issues survived to v10; app work is done only after an emulator walk with screenshots against the owner feedback ledger, never goldens alone
+- [Time and estimates format](time-and-estimates-format.md) — 16 Oct: relative times ("in the next 30 minutes"), 12-hour clock; size plans for parallel agents (5-6 h plan = 2 h)
+- [USP: unlimited mocks](usp-unlimited-mocks.md) — 16 Oct: headline differentiator = unlimited mocks from one central bank (rivals 10-30/subject); advertise everywhere, truthfully, not in the face
+- [Agent swarm resource hygiene](agent-swarm-resource-hygiene.md) — 16 Oct: swarms leaked Gradle/headless Chrome/dev servers (app crashed at 0.4 GB) and hit the 5h limit mid-work; reap leftovers, RAM rule in prompts, check usage before waves
+- [Higgsfield video plan](higgsfield-video-plan.md) — 16 Oct: USD 15; video only for object one-shots + Play promo; researched: Wan 3.0 primary, Kling A/B, Seedance 720p for one picked shot; /estimate first; 15% reserve
+- [Content only on ask](content-generation-only-on-ask.md) — 17 Oct: generate questions or content only when the owner asks in his current words; never auto-run waves or carry them from handoffs
+- [Owner feedback 17 Oct](owner-feedback-1017.md) — app nav count/alignment and Colleges, liquid glass taste, web Start menu, fine-tune scope, result screen clutter, Today; ledger F1-F18 in docs/brain/OWNER-FEEDBACK-2026-10-17.md; 3:30 am he called v12 "very bad": v12 dropped, v13 only
+- [Landing checklist gate](landing-checklist-gate.md) — 17 Oct: landing ships on his 45 L items + zero truth + zero high, tests lock fixes; the 88 score is advisory only
+- [Orchestrator thinks, agents do](orchestrator-thinks-agents-do.md) — 17 Oct night: main session owns design decisions and writes exact specs; agents implement; Sonnet by default, Opus only where doing needs taste
+- [Owner master ledger](owner-master-ledger.md) — 18 Oct: he's tired of repeating feedback; read docs/brain/NOW.md + OWNER-MASTER-LEDGER.md first, update both every session end; dictation verbatim + folded in
+- [Audience: teens new to CBT](audience-teens-new-to-cbt.md) — 19 Oct: 16-17-year-olds, many new to apps and CBT; fresh account must be complete; never hide features; check as a first-time student
+- [MockMob upload key](mockmob-upload-key.md) — 19 Oct: Play upload keystore, key.properties and RTDN token in C:\Users\atish\MockMob-keys; never commit or print
+- [Build and look loop](build-and-look-loop.md) — 20 Oct: agents capture visuals continuously while building, critique and improve in the same loop; walks never stall on sign-in
+- [Promo film bar](promo-film-bar.md) — 21 Oct: calm Motion teaser rejected; TixFox/Pocketsflow style, voice-synced type, sound design is half; tactile UI sound layer (SaaS feel) is required
+- [Codex image gen, cheap](codex-image-gen-cheap.md) — 21 Oct: images via `codex exec` image_gen; use GPT-6-Luna high + lean CODEX_HOME (.codex-alt); 6.1-Sol default burned the limit
+- [Promo film: not childish](promo-film-not-childish.md) — 21 Oct 11 am: v2 felt like a kids' toy; voice, GM music and toy SFX are the cause; mature voice picked by his ear, minimal produced bed, few realistic SFX
+- [Fewer messages](fewer-messages-only-what-matters.md) — 21 Oct: "too many chats"; message only for something to see, a decision, an action for him, or a real risk
+- [Browserbase setup](browserbase-setup.md) — 21 Oct: `browse` CLI + key in MockMob-keys\browserbase.txt; web search/fetch/cloud browser for agents; free plan
+- [No SendMessage to workflow agents](no-sendmessage-to-workflow-agents.md) — 20 Oct: it resumes a duplicate in the same worktree; coordinate via a shared notes file
+- [Real renders, not sketches](real-renders-not-sketches.md) — 23 Oct: pasted-pixel 9:16 sketches read as "very broken"; preview with real short renders first, then scale out
+- [Owner's ear over metrics](owner-ear-over-metrics.md) — 23 Oct: his by-ear approval overrules measured check bands; never re-fix approved audio; warn before usage limits
+- [Workflow resume is a prefix cache](workflow-resume-prefix-cache.md) — 24 Oct: resumeFromRunId reruns everything after the first changed call; re-route via a fresh remaining-steps script; ~10 Opus agents = ~1 %/min of the 5-h window
+- [Subagents can be hijacked by handoffs](subagent-handoff-hijack.md) — 24 Oct: a Haiku render agent followed the injected 'next session' handoff instead of rendering; say SUBAGENT/ONLY task in every prompt, renders to Sonnet or yourself, verify outputs exist
+- [Workflow stop leaves orphans](workflow-stop-leaves-orphans.md) — 24 Oct: TaskStop doesn't end agents' background bakes/renders; one switched REEL_MUSIC; ps-check and re-grep config after every stop
+- [Prod writes blocked in auto mode](prod-writes-blocked-in-auto-mode.md) — 31 Oct: classifier denies execute_sql writes despite standing DB authority; prepare fix.sql + exact undo for the owner
+- [Pull needs frozen](pull-needs-frozen.md) — 31 Oct: status='pending' alone leaves a verified+active question served; pulls also set exploration_state='frozen'
+- [Subagent wave pacing](subagent-wave-pacing.md) — 31 Oct, 1 Nov: 20-agent cap; ~1.2% of the 5-h window per NCERT PDF (Sonnet author+review); Opus screenshot critics are the costly part (a 73-agent look took ~50%)
+- [Live prototype over renders](live-prototype-over-renders.md) — 31 Oct night: he judges ideas only from a live prototype on his phone (LAN link); nav v2 screenshots were 'very weird', current nav stays
+- [Workflow agent stalls](workflow-agent-stalls.md) — 1 Nov: a packet agent can stop waiting on its own Monitor; check each worktree's commits and diff before trusting reports; pass args from source files
+- [Vercel font fetch flake](vercel-font-fetch-flake.md) — 2-3 Nov: Vercel builds with Turbopack (`next build`) and its Google-font loader fails intermittently; redeploy the failed id; self-host every face; gate with both bundlers
+- [Clock from git, not guesses](clock-from-git-not-guesses.md) — 2 Nov: STATUS/NOW times were 1-2 h off; read git commit time or get_usage maths before writing a time
+- [Worktree removal follows junctions](worktree-remove-follows-junctions.md) — 2 Nov: `git worktree remove --force` emptied the shared node_modules; rmdir the junction first
+- [Prototype links must show the change](prototype-links-must-show-the-change.md) — 3 Nov: his LAN look showed "same as before", no Learn; previews need decks=real&study=on; open each link at phone size first
+- [One session, no sub-sessions](single-session-no-subsessions.md) — 3 Nov: owner lost track of parallel sessions; one session only; parallel work via Workflow/Agent subagents, never start_session or forks
+- [Ship final, not prototypes](ship-final-not-prototypes.md) — 3 Nov 11:55 pm: no LAN links/APKs; self-review UI vs his feedback, deploy to www.mockmob.in, Play-ready AAB; commit everything for handover
+- [Vercel Hobby and Turbopack junction](vercel-hobby-and-turbopack-junction.md) — 4 Nov: Hobby = 100 deploys/day, 1 build; archive branches as tags; Turbopack panics on junctioned node_modules (build in wt-1101-content); owner commands need git -C
+- [Release build in its own worktree](release-build-own-worktree.md) — 4 Nov: a concurrent demo build broke the AAB build; build releases in a clean detached worktree, verify the signer, delete secrets, long-path removal
+- [Perf bench needs a quiet PC](perf-bench-quiet-machine.md) — 5 Nov: 4x-CPU benches show fake long frames while suites/builds run; never delete another agent's browser.lock
+- [Team shared brain plan](team-shared-brain-plan.md) — 6 Nov: owner Delhi, CTO Bangalore, CM Mumbai; proposed private git brain repo mockmob-brain; not built yet

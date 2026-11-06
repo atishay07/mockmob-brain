@@ -1,0 +1,30 @@
+{
+  "id": "20261106T145353.538628Z-751ae5d6",
+  "observed_at": "2026-11-06T14:53:53.538628+00:00",
+  "agent": "claude-opus-5.5 session c7c9ed83",
+  "task": "Round 5 owner feedback: scroll, hero, pricing value card, Pro-first, exam full screen",
+  "status": "complete",
+  "done": "Live main d629a2939 (dpl_DkxPwhLNPpNJSUH7v86zDTkGGRoF READY, no runtime errors). Mouse-wheel edge shake fixed; mobile multi-step skip fixed (touch-action on held track, once-per-catch fling stop, edge adoption) verified on Android emulator Chrome (0 skips in 88 real swipes). Hero CUET by colour/size, 3D strip objects, grain. Value card = usual spend (Rs500+Rs250/subject typical) vs Rs99 a month. /pricing Pro-first switch on phones. Exam full screen portrait. Docs: NOW, ledger LK154-LK169, MODEL-TRIAL result (feat/app-and-web, local).",
+  "next": "LK169: make the edge-catch cheaper (one 100-170 ms frame at 4x CPU per catch; speed bench fails). Owner will iterate the value card. Preview env lacks the monthly plan id (shows one-time). feat/app-and-web docs commits not pushed.",
+  "blockers": [],
+  "evidence": [
+    "wt-1104-web-polish/tmp/r5-feedback/gate6/device-{down,up,slow}.log: 0 multi-step jumps",
+    "gate10/matrix.log: 128/128",
+    "gate6 wheel 10/10 incl spin",
+    "suites 0 fail (landing 450, app 1020, billing 453)",
+    "gate10/swipes-*.log: FAIL over100 2-8"
+  ],
+  "touched_files": [
+    "src/components/landing/storyController.mjs",
+    "src/app/scroll-story.css",
+    "src/components/landing/PlanValue.jsx",
+    "src/lib/payments/receipt.mjs",
+    "src/components/pricing/PlanChoice.jsx",
+    "src/components/landing/ExamScreen.jsx",
+    "src/app/hero-scene.css",
+    "src/components/landing/HeroBeatStrip.jsx"
+  ],
+  "verification": "Real Android Chrome on emulator (owner approved Chrome ToS on emulator); headless matrices; live Vercel + 375px check.",
+  "cost_and_pending_requests": "No paid calls; no prod DB writes; no sign-in.",
+  "confidence": "agent-reported; verify evidence before acting"
+}

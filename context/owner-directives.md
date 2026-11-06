@@ -1,4 +1,4 @@
-# Owner directives about MockMob (copied 6 Nov 2026)
+# Owner directives about MockMob (copied automatically)
 
 The owner's own words from prompts that set a standing rule. Newer decisions can supersede them.
 

@@ -1,1 +1,17 @@
-{"people":[{"id":"atishay","name":"Atishay","role":"owner","email":"","domains":["product","design","copy","students","priorities"]}]}
+{
+  "people": [
+    {
+      "id": "atishay",
+      "name": "Atishay",
+      "role": "owner",
+      "email": "support@mockmob.in",
+      "domains": [
+        "product",
+        "design",
+        "copy",
+        "students",
+        "priorities"
+      ]
+    }
+  ]
+}

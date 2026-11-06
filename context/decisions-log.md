@@ -1,4 +1,4 @@
-# MockMob decisions from the owner's brain (copied 6 Nov 2026)
+# MockMob decisions from the owner's brain (copied automatically)
 
 Entries about MockMob from `AI OS/decisions/log.md`, oldest first. New decisions go in `docs/` or a handover, not here.
 
