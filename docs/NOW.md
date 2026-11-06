@@ -6,7 +6,15 @@
 - Hero: CUET 2027 by colour and size, no highlighter; 3D strip objects back and sharper; paper grain behind the hero.
 - Pricing: /pricing on phones is Pro first with a Pro | Free switch; the home value card compares what students usually pay (₹500 + ₹250 a subject, typical) with ₹99 a month. Exam full screen stays upright on phones.
 - Live checks: Vercel READY, no runtime errors, 375 px renders, no sideways scroll. Suites 0 failures; both bundlers built; touch 128/128; wheel 10/10.
-- Not passed: the 22-swipe speed bench (one long frame per edge catch, 100-170 ms at 4x CPU). LK169 follow-up. Preview links fall back to the one-time offer (monthly plan ID is production-only).
+- Not passed at the time: the 22-swipe speed bench (one long frame per edge catch, 100-170 ms at 4x CPU); LK169 is now fixed, see the 7 Nov update below. Preview links fall back to the one-time offer (monthly plan ID is production-only).
+- 7 Nov 2026 update (Round 5 scroll fix, pushed to main c267858d1; commits e0f323057 + c267858d1 on top of bac4ae9ab; main was d629a2939). Vercel deploy is being verified separately.
+  - Mobile multi-step skip, root cause: the edge catch required the previous scroll frame to be more than 1 px outside a story, so a fling frame landing exactly 1 px short (1735 for a top of 1736) and then crossing was never caught and flew through every step. Reproduced 4/4, fixed (strict outside check, also in the wheel look-ahead).
+  - LK169 edge hitch, root cause: marking the held story (a class that changes the track's touch-action) restyles the whole story, about 90-100 ms at 4x CPU, and it was done inside the fling catch and inside a step's own frame. Now the catch only stops the fling; the mark is set at rest (settle, 150 ms after the page stops).
+  - The fling-stop guard now resets on settle and on each touch (it never reset before, so a second fling into the same story ran on; live had that bug).
+  - Speed bench (22 swipes at 4x CPU, cold and warm, quiet machine): 8-10 frames over 100 ms before, 0-3 after, none in the scroll code. Round 4 baseline on the same PC also ranges 0-6, so the strict "zero over 100 ms" gate is not met consistently on this machine.
+  - Touch matrix 128/128 at 390x844 and 390x740 and wheel matrix at 1440 passed on the build with the 1 px fix (gate19). The final build's matrices were still running at push time; results to be added.
+  - Not done: a real Android emulator swipe test on the final build (owner asked to ship within 10 minutes). The value card iteration remains open to the owner.
+  - Machine note: the AI OS nightly (rag index --vectors, two embed-pending jobs, brain ingest) held the CPU at about 60-100% for over an hour on the night of 6-7 Nov and invalidated speed benches; two embed-pending ran at once (possible duplicate).
 
 ## 6 Nov 2026, about 1:05 pm IST — Round 4 live (main 068a7a061, dpl_34h9RLVRZwqfGwEZ62R93vu4kR7q)
 

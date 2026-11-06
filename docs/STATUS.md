@@ -1,4 +1,15 @@
-## 6 Nov 2026, about 1:00 pm IST — Round 4 release gate passed; pushed to main
+## 7 Nov 2026 — Round 5 scroll fix pushed to main
+
+- Pushed to main `c267858d1` (commits `e0f323057` + `c267858d1` on top of `bac4ae9ab`; main was `d629a2939`). The Vercel deploy is being verified separately.
+- Mobile multi-step skip, root cause: the edge catch required the previous scroll frame to be more than 1 px outside a story, so a fling frame landing exactly 1 px short (1735 for a top of 1736) and then crossing was never caught and flew through every step. Reproduced 4/4, fixed (strict outside check, also in the wheel look-ahead).
+- LK169 edge hitch, root cause: marking the held story (a class that changes the track's touch-action) restyles the whole story, about 90-100 ms at 4x CPU, and it ran inside the fling catch and inside a step's own frame. Now the catch only stops the fling; the mark is set at rest (settle, 150 ms after the page stops).
+- The fling-stop guard now resets on settle and on each touch (it never reset before, so a second fling into the same story ran on; live had that bug).
+- Speed bench (22 swipes at 4x CPU, cold and warm, quiet machine): 8-10 frames over 100 ms before, 0-3 after, none in the scroll code. The Round 4 baseline on the same PC also ranges 0-6, so the strict "zero over 100 ms" gate is not met consistently on this machine.
+- Touch matrix 128/128 at 390x844 and 390x740 and wheel matrix at 1440 passed on the build with the 1 px fix (gate19). The final build's matrices were still running at push time; results to be added.
+- Not done: a real Android emulator swipe test on the final build (owner asked to ship within 10 minutes). The value card iteration remains open to the owner.
+- Machine note: the AI OS nightly (rag index --vectors, two embed-pending jobs, brain ingest) held the CPU at about 60-100% for over an hour on the night of 6-7 Nov and invalidated speed benches; two embed-pending ran at once (possible duplicate).
+
+## 6 Nov 2026, about 1:00 pm IST — Round 5... 
 
 - Runtime unchanged from `06aed8557` (the webpack build of 03:14 am served on 127.0.0.1:3518). The only code change is the source assertion in `data/tests/one_gesture_source_1104.test.mjs`: outside touches are now checked as `native` in `onTouchStart`; the preventDefault and behaviour assertions are unchanged.
 - Landing suites (`src/components/landing/*.test.mjs`, `*_1104`, `*_1105`, `web_landing_health_1020`): 437 pass, 0 fail, 11 skipped, 12 todo. ESLint on every JS file changed since `400d647a8`: clean.
