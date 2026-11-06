@@ -1,17 +1,24 @@
 ---
 name: team-shared-brain-plan
-description: "6 Nov: remote team (owner Delhi, CTO Bangalore, CM Mumbai); proposed private git brain repo mockmob-brain with local clones, pull at start, push at handover; not built yet"
+description: "6 Nov: MockMob team brain built (private repo atishay07/mockmob-brain, clone C:\\Users\\atish\\mockmob-brain); owner in bridge mode, CTO installs standalone; GitHub repo creation was pending"
 metadata:
   node_type: memory
   type: project
   originSessionId: 204dccba-6bad-4e60-8bb6-73166cbdb15c
-  modified: 2026-11-06T13:54:33.911Z
+  modified: 2026-11-06T16:10:35.771Z
 ---
 
-Team as of 6 Nov 2026: owner in Delhi, CTO in Bangalore (Claude Team seat since 28 Oct), CM in Mumbai. The owner wants every person's agents to share one context without clashes.
+Team as of 6 Nov 2026: the owner and the CTO only (no CM yet).
 
-Proposed on 6 Nov, waiting for the owner's go: a private GitHub repo `mockmob-brain` as the single shared context. Each person keeps a local clone and their own search index, pulls at session start and pushes at handover. Every write is a new file, NOW is split into lanes, claims are pushed at start, code goes through PRs for everyone, and every entry carries an author. Packaged as one Claude Code plugin. The repo did not exist on 6 Nov, and `atishay07/mockmob` is public.
+Built on 6 Nov: the team brain at `C:\Users\atish\mockmob-brain`, remote `https://github.com/atishay07/mockmob-brain.git` (private). It holds the docs moved from the code repo's `docs/brain`, the context mirrored from AI OS, every MockMob handover, the playbook (mirrored Claude memory), claims, and the tools in `.brain/` (design in `.brain/DESIGN.md`).
 
-**Why:** the context lived only on the owner's PC (AI OS plus 51 auto-memory files), and living docs sat on a side branch of the public code repo.
+- **Owner machine, bridge mode** (`~/.mockmob-brain/config.json`):
+  - AI OS `handoffs/mockmob` is a junction into the brain.
+  - `AI OS/scripts/team_bridge.py` is called from hook.py and brain.py: pull at start, background push, claims, edit warnings, mirrors, and a transition catch-up of code-repo `docs/brain` edits until 6 Dec.
+  - The old handovers folder is archived at `AI OS/archive/handoffs-mockmob-pre-team-20261106`.
+- **CTO machine:** clone the repo, then run `python ~/mockmob-brain/.brain/install.py` (standalone). It gives the same `continuum_*` and `rag_search` tool names.
+- **Status on 6 Nov, about 9:45 pm:** the GitHub repo did not exist yet; 10 commits are waiting and push automatically once it exists (empty or README-initialised). Branch `chore/team-brain-pointer` on the code repo (AGENTS.md pointer, docs/brain frozen) still needs a merge.
 
-**How to apply:** before building, check the decisions log for the owner's answer. Move project lessons from this memory folder into the shared brain's playbook. Keep personal preferences private. Related: [[ship-final-not-prototypes]], [[single-session-no-subsessions]].
+**Why:** the context lived only on the owner's PC, and the living docs sat on a side branch of the public code repo.
+
+**How to apply:** for MockMob docs, read and update the brain's `docs/`, not the code repo's `docs/brain`. Never run git in the brain by hand. Related: [[preserve-mtimes-when-copying-into-ai-os]], [[single-session-no-subsessions]].

@@ -48,4 +48,5 @@
 - [Vercel Hobby and Turbopack junction](vercel-hobby-and-turbopack-junction.md) — 4 Nov: Hobby = 100 deploys/day, 1 build; archive branches as tags; Turbopack panics on junctioned node_modules (build in wt-1101-content); owner commands need git -C
 - [Release build in its own worktree](release-build-own-worktree.md) — 4 Nov: a concurrent demo build broke the AAB build; build releases in a clean detached worktree, verify the signer, delete secrets, long-path removal
 - [Perf bench needs a quiet PC](perf-bench-quiet-machine.md) — 5 Nov: 4x-CPU benches show fake long frames while suites/builds run; never delete another agent's browser.lock
-- [Team shared brain plan](team-shared-brain-plan.md) — 6 Nov: owner Delhi, CTO Bangalore, CM Mumbai; proposed private git brain repo mockmob-brain; not built yet
+- [Team shared brain](team-shared-brain-plan.md) — 6 Nov: built at C:\Users\atish\mockmob-brain (bridge mode here, CTO installs standalone); MockMob docs live in its docs/; GitHub repo creation was pending
+- [Preserve mtimes in AI OS folders](preserve-mtimes-when-copying-into-ai-os.md) — 6 Nov: a mass mtime change made continuum search re-index for 10+ min; copy with copy2/os.utime
