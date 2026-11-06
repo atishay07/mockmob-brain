@@ -846,6 +846,29 @@ def _cleanup_own_claims(repo: _Repo) -> list[str]:
     return removed
 
 
+FRESH_REPO_FILES = {"README.md", "README", "LICENSE", "LICENSE.md", ".gitignore", ".gitattributes"}
+
+
+def _adopt_fresh_remote(repo: _Repo, ref: str, remote_files: list, behind_n: int) -> dict | None:
+    """A brand-new GitHub repo created with a README, licence or .gitignore has a history unrelated to the brain.
+    Rebasing the whole brain onto it would clash (both add README.md) and the fallback would rewrite every file.
+    When the remote is only such a starter commit (at most 3 commits, only those files), record it as a parent with
+    our tree kept (merge -s ours), so the next push simply carries the brain up. Anything else: None (normal path)."""
+    if behind_n > 3 or not remote_files or not set(remote_files) <= FRESH_REPO_FILES:
+        return None
+    mg = repo.git("merge", "--allow-unrelated-histories", "-s", "ours", "--no-edit",
+                  "-m", "brain: adopt the new GitHub repo's starter commit (our files kept)", ref)
+    if not mg.ok:
+        repo.git("merge", "--abort")
+        return None
+    repo._ahead = None
+    head = repo.head()
+    _record_sync(last_fetch_at=_iso(), last_pull_ok_at=_iso(), last_attempt_at=_iso(), status="ok",
+                 message="adopted the new remote's starter commit", head=head, unpushed=repo.ahead())
+    return _result("ok", "adopted the new remote's starter commit; the brain goes up with the next push",
+                   head=head, unpushed=repo.ahead())
+
+
 def _pull_locked(repo: _Repo, force: bool, min_interval: float, timeout: float, pre=None) -> dict:
     """Fetch and rebase. ``pre`` is an already computed ``_commit_locked`` outcome (sync does the
     commit first); without it the pending files are committed after the throttle check.
