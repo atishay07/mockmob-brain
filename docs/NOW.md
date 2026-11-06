@@ -1,5 +1,13 @@
 # NOW: MockMob current state
 
+## 6 Nov 2026, about 8:40 pm IST — round 5 live (main d629a2939, dpl_DkxPwhLNPpNJSUH7v86zDTkGGRoF)
+
+- Mobile scroll (LK161): reproduced on real Android Chrome (emulator, adb touch): quick swipes skipped 2-3 steps. Fixed with touch-action on the held story (pan only the way out), one fling stop per edge catch, and edge adoption. After: 0 multi-step jumps in 88 real swipes. Desktop: a spun mouse wheel no longer shakes at story edges (LK154).
+- Hero: CUET 2027 by colour and size, no highlighter; 3D strip objects back and sharper; paper grain behind the hero.
+- Pricing: /pricing on phones is Pro first with a Pro | Free switch; the home value card compares what students usually pay (₹500 + ₹250 a subject, typical) with ₹99 a month. Exam full screen stays upright on phones.
+- Live checks: Vercel READY, no runtime errors, 375 px renders, no sideways scroll. Suites 0 failures; both bundlers built; touch 128/128; wheel 10/10.
+- Not passed: the 22-swipe speed bench (one long frame per edge catch, 100-170 ms at 4x CPU). LK169 follow-up. Preview links fall back to the one-time offer (monthly plan ID is production-only).
+
 ## 6 Nov 2026, about 1:05 pm IST — Round 4 live (main 068a7a061, dpl_34h9RLVRZwqfGwEZ62R93vu4kR7q)
 
 - Round 4 (LK117-LK147, LK150) is on www.mockmob.in. Runtime is `06aed8557`; `068a7a061` adds only the corrected source assertion (outside touches checked in `onTouchStart`) and the STATUS gate note.
