@@ -945,6 +945,9 @@ def _pull_locked(repo: _Repo, force: bool, min_interval: float, timeout: float, 
                 rt = repo.git("ls-tree", "-r", "--name-only", "-z", ref)
                 local_changed = _split_z(lt.out) if lt.ok else []
                 remote_changed = _split_z(rt.out) if rt.ok else []
+                adopted = _adopt_fresh_remote(repo, ref, remote_changed, behind_n)
+                if adopted is not None:
+                    return adopted
         parked, park_dir = _park_leftovers(repo, leftovers, ref)
         rb = repo.git("rebase", ref, timeout=REBASE_TIMEOUT)
         if rb.ok:
