@@ -4,13 +4,12 @@
   "session": "15ed50b2-2dc9-4057-bf23-6c3cfa4b0f05",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-07T20:49:23.932305+00:00",
-  "last_active": "2026-11-07T22:36:52.393975+00:00",
+  "last_active": "2026-11-07T22:53:09.624550+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    ".claude/launch.json",
     "tmp/r8-craft/BRIEF.md",
     "tmp/r8-craft/baseline/arena-practice/shot.mjs",
     "tmp/r8-craft/REFERENCES.md",
@@ -45,7 +44,6 @@
     "src/components/landing/homeHero.test.mjs",
     "src/components/landing/heroScene.test.mjs",
     "src/components/landing/landingCopy.test.mjs",
-    "src/components/landing/heroTaps.test.mjs",
     "src/components/landing/landingWayIn.test.mjs",
     "src/app/(app)/arena.css",
     "src/components/result/rowDiagnosis.mjs",
@@ -53,6 +51,9 @@
     "src/components/landing/landingMobi.test.mjs",
     "data/tests/landing_checklist_1104.test.mjs",
     "tmp/r8-craft/CHANGES-w1a-hero-demo.md",
-    "tmp/r8-craft/w4/verify.mjs"
+    "tmp/r8-craft/w4/verify.mjs",
+    "tmp/r8-craft/CHANGES-w7-tokens.md",
+    "tmp/r8-craft/CHANGES-w3-practice.md",
+    "src/components/landing/heroTaps.test.mjs"
   ]
 }
