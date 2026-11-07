@@ -4,7 +4,7 @@
   "session": "15ed50b2-2dc9-4057-bf23-6c3cfa4b0f05",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-07T20:49:23.932305+00:00",
-  "last_active": "2026-11-07T21:14:45.273142+00:00",
+  "last_active": "2026-11-07T21:25:10.399947+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
@@ -28,6 +28,11 @@
     "tmp/r8-craft/baseline/arena-recovery/step.mjs",
     "tmp/r8-craft/baseline/hero-demo/nav.mjs",
     "tmp/r8-craft/baseline/hero-demo/dock.mjs",
-    "tmp/r8-craft/baseline/hero-demo/hang.mjs"
+    "tmp/r8-craft/baseline/hero-demo/hang.mjs",
+    "tmp/r8-craft/baseline/hero-demo/scores.mjs",
+    "tmp/r8-craft/baseline/arena-learn/s4-run.mjs",
+    "tmp/r8-craft/baseline/arena-learn/s5-ratetime.mjs",
+    "tmp/r8-craft/baseline/arena-learn/s6-swipecheck.mjs",
+    "tmp/r8-craft/baseline/arena-learn/s7-frames.mjs"
   ]
 }
