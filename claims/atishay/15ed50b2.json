@@ -4,12 +4,22 @@
   "session": "15ed50b2-2dc9-4057-bf23-6c3cfa4b0f05",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-07T20:49:23.932305+00:00",
-  "last_active": "2026-11-07T20:52:35.405351+00:00",
+  "last_active": "2026-11-07T21:03:22.806017+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    ".claude/launch.json"
+    ".claude/launch.json",
+    "tmp/r8-craft/BRIEF.md",
+    "tmp/r8-craft/baseline/arena-practice/shot.mjs",
+    "tmp/r8-craft/REFERENCES.md",
+    "tmp/r8-craft/baseline/arena-recovery/cap.mjs",
+    "tmp/r8-craft/baseline/arena-learn/lib.mjs",
+    "tmp/r8-craft/baseline/arena-learn/s1-survey.mjs",
+    "tmp/r8-craft/baseline/hero-demo/lib.mjs",
+    "tmp/r8-craft/baseline/hero-demo/hero.mjs",
+    "tmp/r8-craft/baseline/continuity/cap.mjs",
+    "tmp/r8-craft/baseline/arena-recovery/journey.mjs"
   ]
 }
