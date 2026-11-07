@@ -4,15 +4,12 @@
   "session": "15ed50b2-2dc9-4057-bf23-6c3cfa4b0f05",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-07T20:49:23.932305+00:00",
-  "last_active": "2026-11-07T23:22:17.886473+00:00",
+  "last_active": "2026-11-07T23:39:15.835712+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "tmp/r8-craft/baseline/arena-recovery/cap.mjs",
-    "tmp/r8-craft/baseline/arena-learn/lib.mjs",
-    "tmp/r8-craft/baseline/arena-learn/s1-survey.mjs",
     "tmp/r8-craft/baseline/hero-demo/lib.mjs",
     "tmp/r8-craft/baseline/hero-demo/hero.mjs",
     "tmp/r8-craft/baseline/continuity/cap.mjs",
@@ -54,6 +51,9 @@
     "src/components/landing/heroTaps.test.mjs",
     "src/components/landing/heroTaps.mjs",
     "tmp/r8-craft/CHANGES-w4-recovery.md",
-    "tmp/r8-craft/CHANGES-a1-app.md"
+    "tmp/r8-craft/CHANGES-a1-app.md",
+    "src/components/learn2/home/homeModel.mjs",
+    "src/components/learn2/home/__tests__/r7Webfull.test.mjs",
+    "tmp/r8-craft/CHANGES-w5-tools.md"
   ]
 }
