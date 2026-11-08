@@ -1,0 +1,22 @@
+{
+  "id": "20261108T123010.696157Z-6d0b1052",
+  "observed_at": "2026-11-08T12:30:10.696157+00:00",
+  "agent": "claude-opus-5.5 (session 15ed50b2)",
+  "task": "Owner go 8 Nov evening: merge hero round 7 with R8, Arena texture, deploy website, build app 20",
+  "status": "complete",
+  "done": "Merged web/r7-hero (launch film, college strip) into web/r8-craft; restored Arena warm hairline grid (a017c2555). Pushed main 2f0d6b489..a017c2555; Vercel dpl_8ZMizFw6Cx4pGNiYQUDeoZqiD9mf READY. App 1.0.22+20 (ui/r8-app-craft 813eaa495, pushed as a branch) built and signed in Desktop/MockMob-build-20 (sells AAB, arm64 APK, symbols, OWNER-STEPS.md). Preview servers stopped, guide page deleted, build worktree and secrets removed.",
+  "next": "Owner uploads app 20 to Play closed testing. Owner checks Learn and Key cards signed in on www (the LAN preview hid Learn without study=on). Open: owner decisions R8-6; profile the 22-swipe bench. Fold brain docs/_from-code-repo copies into docs.",
+  "blockers": [
+    "Play upload is the owner's step"
+  ],
+  "evidence": [
+    "wt-1108-craft/tmp/r8-craft/gate3/summary.txt (only baseline Mob 7 and Study 1 fail); gate3/turbopack.log exit 0; landing tests 317/317; no Vercel runtime errors in 15 min; www pages 200; AAB and APK signed with upload key 62:AC:58:08...EC:47; 16 KB alignment 10/10"
+  ],
+  "touched_files": [
+    "src/app/(app)/arena.css; merge of web/r7-hero; flutter_app/pubspec.yaml"
+  ],
+  "verification": "Live smoke at 390 and 1440, Night and Day: no sideways scroll, no page errors. Not verified: signed-in production flows, app 20 on a physical phone.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}

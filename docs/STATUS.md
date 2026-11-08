@@ -1,3 +1,9 @@
+## 8 Nov 2026 (evening) — R8 visible-craft pass and hero round 7 live
+
+- Production: main a017c2555 (Vercel dpl_8ZMizFw6Cx4pGNiYQUDeoZqiD9mf READY, no runtime errors in the first 15 min). Contents: R8 web pass (160-finding audit, 8 batches, 34-fix sweep), hero round 7 (launch film, college strip, sample desk in #try), Arena warm hairline grid back.
+- Verification: test suites (only baseline Mob 7 / Study 1 fail), landing 317/317, Turbopack build, live smoke at 390/1440. Not verified: signed-in production flows, a physical phone.
+- App 1.0.22+20 built and signed (Desktop/MockMob-build-20); upload is the owner's step.
+
 ## 7 Nov 2026 — Pricing marketing pass live (owner's four changes)
 
 - main f30bb1059, Vercel dpl_AUjRSddvYHZWeaX8ByuJ5pXPcqSJ READY, no runtime errors, live text checked.

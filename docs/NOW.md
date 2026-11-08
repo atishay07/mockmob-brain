@@ -1,5 +1,13 @@
 # NOW: MockMob current state
 
+## 8 Nov 2026, evening IST — R8 + hero round 7 LIVE (main a017c2555, dpl_8ZMizFw6Cx4pGNiYQUDeoZqiD9mf); app 20 built
+
+- Owner go (8 Nov evening): merge yesterday's hero (launch film, college strip) with R8, deploy, then the app. web/r7-hero merged into web/r8-craft cleanly; Arena's warm hairline grid restored (owner: the earlier texture looked better; warm palette kept). Pushed main 2f0d6b489..a017c2555.
+- Gate: suites 0 new failures (baseline Mob 7, Study 1); hero/landing tests 317/317; eslint clean on hero files; Turbopack build passed. Live: Vercel READY, no runtime errors, www / /pricing /signup /learn /cuet/accountancy 200, film and logos served, 390/1440 no sideways scroll.
+- Learn "gone" in the LAN preview: the preview hides Learn unless the link has &study=on; R8 did not touch Learn's nav or flags. Not checked signed-in on production.
+- App 1.0.22+20 (ui/r8-app-craft 813eaa495, pushed as a branch): Desktop/MockMob-build-20 (sells AAB + arm64 APK, upload-key signer checked, 16 KB ok, OWNER-STEPS.md). Awaits the owner's Play upload. Not installed on a phone.
+- Open: 22-swipe bench slightly heavier than pre-R8; owner decisions (keycap vs pill, Score Recovery on sale, Repair Q42 verb, Day samples, app swipe, APP-11/14/20).
+
 ## 8 Nov 2026, about 12:30 pm IST — R8 visible-craft pass finished locally (NOT deployed)
 
 - Branches: web `web/r8-craft` (worktree wt-1108-craft, from main 2f0d6b489; 8 batches + 15 sweep commits); app `ui/r8-app-craft` (wt-1108-app). Nothing pushed.
