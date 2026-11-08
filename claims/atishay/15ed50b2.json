@@ -4,14 +4,12 @@
   "session": "15ed50b2-2dc9-4057-bf23-6c3cfa4b0f05",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-07T20:49:23.932305+00:00",
-  "last_active": "2026-11-08T04:00:28.434401+00:00",
+  "last_active": "2026-11-08T04:20:04.872768+00:00",
   "repo": "mockmob",
   "branch": "web/r8-craft",
   "cwd_name": "r8-craft",
   "task": "",
   "touched": [
-    "src/components/landing/landingCopy.test.mjs",
-    "src/components/landing/landingWayIn.test.mjs",
     "src/app/(app)/arena.css",
     "src/components/result/rowDiagnosis.mjs",
     "data/tests/demo_sample_1105.test.mjs",
@@ -54,6 +52,9 @@
     "flutter_app/lib/features/result/full/full_result_screen.dart",
     "tmp/r8-craft/sweep/continuity/j5.json",
     "tmp/r8-craft/sweep/landing-hero/verify2/v.mjs",
-    "tmp/r8-craft/sweep/landing-hero/verify2/probe.mjs"
+    "tmp/r8-craft/sweep/landing-hero/verify2/probe.mjs",
+    "tmp/r8-craft/sweep/pricing-public/combo.mjs",
+    "tmp/r8-craft/sweep/continuity/j9.json",
+    "tmp/r8-craft/sweep/landing-sections/verify1/v.mjs"
   ]
 }
