@@ -1,5 +1,12 @@
 # NOW: MockMob current state
 
+## 9 Nov 2026, about 1 am IST — phone scroll prototype (LK179), preview only, NOT live
+
+- Owner (9 Nov): no forced scroll-through on phones ("They can see if they want to"); desktop may keep it. Reverses L-029/LK69/LK103 on phones.
+- Prototype: branch proto/phone-free-scroll 27b8da7ac (from main a017c2555), Vercel preview dpl_5r5XHhqCH3X4Pov2o9MHA2dWkHcX (protected; a share link valid until about midnight 9-10 Nov IST was given to the owner in chat). ScrollStory holds only at (min-width: 960px) with hover and a fine pointer; phones and touch screens scroll freely; Mistake Lab = sideways row of 4 scene cards + tabs; statement scrubs; tour and Recovery Lab use their free modes.
+- Checked: eslint clean, landing tests 231/231, headless touch walk at 390 (local and preview): one swipe moves the page about 1,300 px, a sideways swipe moves one Lab scene, tabs move the row, no sideways page scroll, 0 page errors; desktop 1440 still holds. Not checked: a real phone, signed-in pages.
+- Next: owner looks on his phone; on his yes, merge to main and deploy; decide whether the tour keeps its autoplay on phones.
+
 ## 8 Nov 2026, evening IST — R8 + hero round 7 LIVE (main a017c2555, dpl_8ZMizFw6Cx4pGNiYQUDeoZqiD9mf); app 20 built
 
 - Owner go (8 Nov evening): merge yesterday's hero (launch film, college strip) with R8, deploy, then the app. web/r7-hero merged into web/r8-craft cleanly; Arena's warm hairline grid restored (owner: the earlier texture looked better; warm palette kept). Pushed main 2f0d6b489..a017c2555.

@@ -845,3 +845,9 @@ Owner of this round: the app port session (c4dbd3b5), coordinating with the Key 
 | DONE 8 Nov evening | **R8-9** Arena: "you have removed the texture ... the previous one looked better. This looks a bit cleaner also ... the color and the warmth ... make it a bit better." Warm hairline grid restored with the warm palette. Sidebar unchanged by R8 apart from labels. |
 | ANSWERED 8 Nov evening | **R8-10** "The key cards and all of that are gone ... The Learn section, I think, is entirely gone." The LAN preview hides Learn without &study=on; R8 did not change Learn's nav or flags. Owner to confirm signed in on www. |
 | DONE 8 Nov evening; upload OPEN (owner) | **R8-11** "Firstly, deploy the website with all the changes live, and then give me the app ... Start ASAP." Website live; app 1.0.22+20 in Desktop/MockMob-build-20. |
+
+## Home page scroll on phones, 9 Nov 2026 (owner, pasted in chat)
+
+| Status | Item |
+|---|---|
+| PROTOTYPE 9 Nov (branch proto/phone-free-scroll 27b8da7ac, Vercel preview; NOT live) | **LK179** "Can you make a hero section with a revised scroll function? We don't like forcefully forcing people to scroll through the entire section. They can see if they want to ... what we have implemented right now would be irritating on a mobile phone. It could be okay on a desktop, but on a mobile phone, that full functionality stopping deliberately in some places would be frustrating or maybe lower the conversion rate ... let me know which is the best approach, and then make a prototype link which I can see on my phone." This reverses L-029 / LK69 / LK103 (held stories, one gesture one step) on phones. Prototype: nothing holds on phones or touch screens; Mistake Lab is a sideways row of four scene cards with its tabs; the statement scrubs with the scroll; the tour and Recovery Lab use their swipe/tap modes. Desktop with a mouse keeps the holds. Waits for his look on the phone. |
