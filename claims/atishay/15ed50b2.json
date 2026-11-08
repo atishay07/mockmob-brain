@@ -4,13 +4,12 @@
   "session": "15ed50b2-2dc9-4057-bf23-6c3cfa4b0f05",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-07T20:49:23.932305+00:00",
-  "last_active": "2026-11-08T19:17:02.520583+00:00",
+  "last_active": "2026-11-08T19:21:44.184857+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "data/tests/learn_r4_1105.test.mjs",
     "tmp/r8-craft/CHANGES-w6-learn.md",
     "tmp/r8-craft/CHANGES-w1b-sections.md",
     "tmp/r8-craft/w2/verify/v.mjs",
@@ -54,6 +53,7 @@
     "tmp/r8-craft/device-walk/WALK.md",
     "tmp/r8-gate/ba.mjs",
     "tmp/r8-gate/make_report.py",
-    "tmp/r8-gate/make_guide.py"
+    "tmp/r8-gate/make_guide.py",
+    "src/components/landing/ScrollStory.jsx"
   ]
 }
