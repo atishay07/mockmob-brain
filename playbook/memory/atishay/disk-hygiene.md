@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: b7e1b5da-f870-46f3-a18e-ee64c0679147
-  modified: 2026-10-21T08:13:01.928Z
+  modified: 2026-11-08T04:59:58.104Z
 ---
 
 C: has filled twice: 14 Oct (temp leftovers, 200 GB freed) and again 21 Oct 2026 (1 GB free at 12:20 am). The owner's words, 21 Oct: "We had a standing rule ... every agent will, from now on, follow practices that will not fill up the space again ... in just barely 2, 3 days, you have filled 200 GB again."
@@ -15,5 +15,7 @@ C: has filled twice: 14 Oct (temp leftovers, 200 GB freed) and again 21 Oct 2026
 **How to apply:** run `bash "C:\Users\atish\Desktop\mockmob copy\scripts\sweep_build_output.sh" "<regex of active worktrees>"` before any build and at the end of every wave; tell every agent to delete its own `.next`/`build` when done; prune merged worktrees (`git worktree remove`) at session end. Related: [[agent-swarm-resource-hygiene]], [[emulator-ram-rule]].
 
 **Standing floor (owner, 21 Oct 1:40 pm): keep at least 50 GB free on C: at all times.** In the promo-film project the big swings were 60 fps PNG frame sequences (10-15 GB per full-film render) and open-source TTS models and venvs (about 40 GB, removed 21 Oct). Delete frame folders right after encoding and check `df -h /c` before big renders.
+
+**Page file (8 Nov 2026, 10:26 am):** C: went from 14.5 GB to 0 in about an hour because Windows grew the system-managed pagefile.sys to 28 GB under memory pressure (emulator plus an 8-agent headless-browser sweep plus a dev server). It stays allocated until a reboot; changing it is a system setting (owner only). Never run the emulator alongside a browser-critic workflow; check free space before each wave. The AVD's userdata-qemu.img.qcow2 is 14 GB on its own (wiping it is the owner's call).
 
 **Never rm -rf or `git worktree remove` a worktree whose node_modules is a junction** (21 Oct 12:42 am: it emptied mockmob-next/node_modules; `npm ci` restored it). Use `bash scripts/remove_worktree.sh <wt...>`, which unlinks the junction first (`cmd //c rmdir`).
