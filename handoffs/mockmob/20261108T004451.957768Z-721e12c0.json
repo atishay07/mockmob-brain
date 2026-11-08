@@ -1,0 +1,20 @@
+{
+  "id": "20261108T004451.957768Z-721e12c0",
+  "observed_at": "2026-11-08T00:44:51.959130+00:00",
+  "agent": "claude-opus-5.5",
+  "task": "R8 visible-craft pass (8 Nov 2026 brief): overnight local refinement of web and Flutter app",
+  "status": "active",
+  "done": "Audit: 160 findings (wt-1108-craft/tmp/r8-craft/INVENTORY.md), 6 owner decisions (OWNER-DECISIONS.md). DESIGN.md contract f66a28ae0. Nine fix batches built in wt-1108-w1a/w1b/w2/w3/w4/w5/w6/w7 and wt-1108-app. Usage limit cut 5 agents; relaunched 6:15 am as wf_be033ffd-2f7. Merged locally into web/r8-craft, no conflicts: w7 tokens, w4 recovery, w3 practice, w1a hero demo.",
+  "next": "After wf_be033ffd-2f7: merge w1b, w2, w5, w6; full gate (suites, eslint, both bundlers, touch matrix); visual sweep 390/1440/360/768 Night+Day with critics; app goldens + emulator walk; RUNNING-LOG, brain NOW/LEDGER/STATUS, morning report. No push, no deploy.",
+  "blockers": [
+    "Owner decisions: keycap vs pill; Score Recovery availability; Day samples; app swipe; paid-key verb (Repair Q42 vs Fix it for good); APP-11/14/20. web/r7-hero still waits for owner."
+  ],
+  "evidence": [
+    "wt-1108-craft/tmp/r8-craft/resume/*.json; CHANGES-*.md in each worktree tmp/r8-craft/"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
