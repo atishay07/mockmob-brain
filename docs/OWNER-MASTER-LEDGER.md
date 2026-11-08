@@ -828,3 +828,15 @@ Owner of this round: the app port session (c4dbd3b5), coordinating with the Key 
 | LIVE 7 Nov (main 548f8804c) | **LK176** Landing: things that take space "can be collapsed into collapsible things, like the domain subjects, [the subject planner] and 'Which DU courses are open to you'. The domain subjects can be collapsed because we already have Quick start and Language." |
 | LIVE 7 Nov (main 548f8804c) | **LK177** "We have 73 programmes. That section can also be made more useful, and some parts are repeated above" (the college cutoff cards repeat Compass). Pricing stays at the bottom: "first show every feature, then show the pricing." |
 | STANDING 7 Nov | **LK178** "Your call ... small refinements you can do yourself, then show me the final product overall. We are at 95% right now, so one final push ... revisit the older feedback and double down on anything still not done." |
+
+
+## R8 visible-craft pass, 8 Nov 2026 (brief recorded verbatim in AI OS handoff 20261107T201947.797018Z-c242d906)
+
+| Status | Item |
+|---|---|
+| DONE LOCAL 8 Nov (web/r8-craft, ui/r8-app-craft; not deployed) | **R8-1** The 8 Nov brief: refine the website and app (thoughtful, tactile, confident, fast, finished), not a rebrand; keep the Keep list; the missed question carries through diagnosis, explanation, repair and next action; walk phone, tablet, desktop and the app; verify; "This prompt authorises local improvement work, not automatic production deployment." |
+| DONE 8 Nov | **R8-2** "I'm going to sleep right now so just continue working. Keep noting down and compiling every change that you are making before and after all that and update me in the morning once everything is completely done" (running log + before/after report). |
+| DONE 8 Nov | **R8-3** After the usage limit reset: "Please continue from where you left off." |
+| DONE 8 Nov | **R8-4** "What's the update on everything? ... The API spend is almost $500. I want an update on what all is done, what's left, and what took so long." |
+| DONE 8 Nov | **R8-5** "We can finish everything that is left ... I just need proper tangible visuals of before, after, what was done, and what was not done. Get all the remaining stuff completed in the next 30 mins." (R8-BEFORE-AFTER.html) |
+| OPEN (owner) | **R8-6** Decisions: keycap vs pill primary key; Score Recovery on sale or hidden; "Repair Q42" vs "Fix it for good"; Day samples dark or Day; app swipe ratings; APP-11/14/20; hero r7 walk. |

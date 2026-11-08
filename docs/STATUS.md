@@ -7,6 +7,14 @@
 - Note: Pro gets 50 credits a month (AI_PRO_INCLUDED_MONTHLY_CREDITS), the same as Free; the owner thought 100.
 - Checks: landing/pricing tests 335, billing 453, app 1021, keycards 125, all pass; 390 Day and 1440 Night looked at.
 
+## 8 Nov 2026 — R8 visible-craft pass, local only (not deployed)
+
+- Web web/r8-craft (wt-1108-craft): 160-finding audit; 8 batches (tokens, recovery chain, practice/run, hero demo, home sections, Arena tools, Learn, pricing/public) each built, critiqued in a real browser, revised; merged with no conflicts; merged-site sweep fixed 34 more (focus, labels, spacing, counts).
+- App ui/r8-app-craft (wt-1108-app): 19 findings + 5 from an emulator walk (Night/Day, 1.3x, reduced motion).
+- Verified: all npm suites (only baseline Mob 7 / Study 1 fail), eslint 180 files clean, webpack 115/115, Turbopack 115/115 (wt-1101-content detached, restored), touch 128/128, wheel 30/30, 70 section shots, 88 before/after shots, flutter analyze clean.
+- Not met: strict 22-swipe bench (R8 0-1 cold, 1-2 warm over 100 ms; pre-R8 0 / 1-2 on the same PC). Not exercised: physical phone, screen reader, signed-in production use.
+- Deployment gate: owner decisions pending (key shape, Score Recovery on sale, paid key verb, Day samples, app swipe, APP-11/14/20); then the normal release gate.
+
 ## 7 Nov 2026 — Round 5 scroll fix pushed to main
 
 - Pushed to main `c267858d1` (commits `e0f323057` + `c267858d1` on top of `bac4ae9ab`; main was `d629a2939`). The Vercel deploy is being verified separately.

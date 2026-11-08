@@ -1,5 +1,13 @@
 # NOW: MockMob current state
 
+## 8 Nov 2026, about 12:30 pm IST — R8 visible-craft pass finished locally (NOT deployed)
+
+- Branches: web `web/r8-craft` (worktree wt-1108-craft, from main 2f0d6b489; 8 batches + 15 sweep commits); app `ui/r8-app-craft` (wt-1108-app). Nothing pushed.
+- Visual report (before/after, done, not done): wt-1108-craft/tmp/r8-craft/report/R8-BEFORE-AFTER.html. Every change: tmp/r8-craft/RUNNING-LOG.md and tmp/r8-craft/changes/CHANGES-*.md.
+- Checks: suites 0 new failures (baseline Mob 7, Study 1); eslint clean (180 files); webpack and Turbopack 115/115; touch 128/128, wheel 30/30; 70 home section shots looked at (Key cards on); app analyze clean + emulator walk.
+- Open before release: 22-swipe bench R8 0-1 cold / 1-2 warm over 100 ms vs pre-R8 0 / 1-2 on the same PC (slightly heavier; profile first). Owner decisions in tmp/r8-craft/OWNER-DECISIONS.md and sweep/OWNER-FLAGS-raw.md.
+- Local launcher fix: KEY_CARDS_ENABLED must be 'true' (not '1') or every Key cards surface is off in previews.
+
 ## 6 Nov 2026, about 8:40 pm IST — round 5 live (main d629a2939, dpl_DkxPwhLNPpNJSUH7v86zDTkGGRoF)
 
 - Mobile scroll (LK161): reproduced on real Android Chrome (emulator, adb touch): quick swipes skipped 2-3 steps. Fixed with touch-action on the held story (pan only the way out), one fling stop per edge catch, and edge adoption. After: 0 multi-step jumps in 88 real swipes. Desktop: a spun mouse wheel no longer shakes at story edges (LK154).

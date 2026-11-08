@@ -1,0 +1,20 @@
+{
+  "id": "20261108T060520.012598Z-10988dc4",
+  "observed_at": "2026-11-08T06:05:20.013598+00:00",
+  "agent": "claude-opus-5.5",
+  "task": "R8 visible-craft pass (8 Nov 2026 brief): local refinement of web and Flutter app",
+  "status": "complete",
+  "done": "Audit 160 findings; 8 web batches built, critiqued, revised and merged into web/r8-craft (wt-1108-craft); merged-site sweep fixed 34 more (15 commits); app ui/r8-app-craft 19 findings + 5 device-walk fixes. Before/after report wt-1108-craft/tmp/r8-craft/report/R8-BEFORE-AFTER.html; running log tmp/r8-craft/RUNNING-LOG.md; change notes tmp/r8-craft/changes/.",
+  "next": "Owner reviews the report and decides: key shape, Score Recovery on sale, paid key verb, Day samples, app swipe, APP-11/14/20, r7 hero. Then profile the swipe bench (R8 slightly heavier than pre-R8), rerun the release gate, and ship only with the owner's go. Rebuild the app demo APK before the next device walk.",
+  "blockers": [
+    "Owner decisions listed in tmp/r8-craft/OWNER-DECISIONS.md and sweep/OWNER-FLAGS-raw.md; strict 22-swipe bench not met on this PC (pre-R8 also misses warm). Nothing pushed or deployed."
+  ],
+  "evidence": [
+    "Suites tmp/r8-craft/gate2/ (only baseline Mob 7, Study 1 fail); eslint 180 files clean; webpack and Turbopack 115/115; touch 128/128, wheel 30/30 (tmp/r8-gate/); 70 section shots looked at; A/B bench tmp/r8-gate/ab.log; app WALK.md in wt-1108-app/tmp/r8-craft/device-walk/"
+  ],
+  "touched_files": [],
+  "verification": "not reported",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
