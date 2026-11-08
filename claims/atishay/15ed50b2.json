@@ -4,10 +4,10 @@
   "session": "15ed50b2-2dc9-4057-bf23-6c3cfa4b0f05",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-07T20:49:23.932305+00:00",
-  "last_active": "2026-11-08T02:49:23.159858+00:00",
+  "last_active": "2026-11-08T03:27:02.077655+00:00",
   "repo": "mockmob",
   "branch": "web/r8-craft",
-  "cwd_name": "decisions",
+  "cwd_name": "r8-craft",
   "task": "",
   "touched": [
     "tmp/r8-craft/baseline/arena-recovery/step.mjs",
