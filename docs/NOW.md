@@ -1,5 +1,12 @@
 # NOW: MockMob current state
 
+## 9 Nov 2026, about 5:05 am IST — hero walkthrough film r1 LIVE (main dd8c63a7a, dpl_AHnX3v99eotaj95SCVdMUag48Vd9)
+
+- Owner (9 Nov ~2:30 am): the main walkthrough video of the platform for the hero, reframed from the promo, highly converting; discretion on the player. Owner (~4 am): visitors already half-trust us; build trust, show we are the best and everything we offer, not first-time promotion (LK180, LK181).
+- Film: Hero16 in Desktop/MockMob-promo-film (now a git repo; spec docs/HERO-FILM-SPEC.md, notes docs/HERO-NOTES.md). 66.967 s, muted-first, loops. Hook (Preparing for CUET 2027? / 142 / "But where did the other 108 go?") then the study loop: Mistake Repair, Learn (new), Ask Mobi, Key cards (new), unlimited mocks, exam-day screen, plan and colleges, the Mob, What you get (new: the site's subject claim and value card, ₹3,750 the usual way vs ₹99 a month), Sign up free. Every line holds long enough to read muted (lint: 0.6 s + 0.12 s a word). No Google Play claim (the old end card had one). Sound: paid-account audio only, -16.2 LUFS.
+- Player (web/r9-hero-film): keys moved off the picture into a bar under it (pause, ten chapter segments that jump, sound), tap the picture to pause, 480/720/1080 by width x DPR. Tests 70/70, webpack build, 390/1440 Night/Day checked locally and live; no runtime errors.
+- Next: r2 polish render in progress (Mobi gestures re-timed to the beats, "Mock after mock," readable, bigger end card at phone size, Key card off the right edge, sound overlaps); ship r2 if clearly better. Old teaser files public/video/hero-480/720/poster still in the repo (remove in a later cleanup). Owner should judge the sound by ear.
+
 ## 9 Nov 2026, about 1 am IST — phone scroll prototype (LK179), preview only, NOT live
 
 - Owner (9 Nov): no forced scroll-through on phones ("They can see if they want to"); desktop may keep it. Reverses L-029/LK69/LK103 on phones.

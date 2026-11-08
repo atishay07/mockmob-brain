@@ -1,0 +1,29 @@
+{
+  "id": "20261108T233105.396113Z-1c367016",
+  "observed_at": "2026-11-08T23:31:05.396113+00:00",
+  "agent": "claude-opus-5.5 (session a8618789)",
+  "task": "Hero walkthrough film (LK180) + owner funnel note (LK181): r1 live, r2 polish in progress",
+  "status": "active",
+  "done": "Hero16 r1 LIVE on www.mockmob.in: main dd8c63a7a (fast-forward from a017c2555), Vercel dpl_AHnX3v99eotaj95SCVdMUag48Vd9 READY, no runtime errors. Film 66.967 s muted-first loop, ten chapters (Your score, Mistake Repair, Learn, Ask Mobi, Key cards, Mocks, Exam screen, Plan and colleges, The Mob, What you get), new chapters Learn / Key cards / Proof (subject claim + value card), logo intro cut per owner funnel note, end card Sign up free (no Google Play), paid-only audio -16.2 LUFS. Player: keys under the picture, ten-segment chapter bar with seek, tap to pause, 480/720/1080 by width x DPR (heroFilmConfig.mjs). Promo project now a git repo (commits e9d8b06..2ad0e1e+). Brain NOW/STATUS/ledger (LK180, LK181) updated.",
+  "next": "r2 polish agent (Mobi gestures retimed, open sentence readable, bigger end card at phone width, Key card off right edge, sound overlaps) -> review r2 sheets vs r1 -> if clearly better, copy out/hero/web-r2/* over public/video/hero-v2-* in wt-1109-hero (same names, chapters unchanged), run hero tests, push main, verify live. Later: remove old public/video/hero-480/720/poster + update hero_film_r7 test; owner judges sound by ear; owner may want a 1:1 phone cut.",
+  "blockers": [
+    "Disk C: ~37 GB free (floor 40-50); promo out/reel916/sound (3.2 GB) and reel916-check (1.4 GB) are old check renders the owner could approve deleting"
+  ],
+  "evidence": [
+    "out/hero/hero-r1-master.mp4 + r1_sheet_01..09 / r1_phone_01..06 reviewed by orchestrator",
+    "timeline --plan hero: 66.967 s, all readability PASS; teaser/reel timelines identical to baseline",
+    "hero tests 70 pass 0 fail; next build --webpack exit 0; Vercel preview + production builds READY",
+    "live: /video/hero-v2-* 206, page label 'MockMob walkthrough, 67 seconds', 0 'Google Play', chapter 5 seek at 29.5 s playing"
+  ],
+  "touched_files": [
+    "C:/Users/atish/Desktop/MockMob-promo-film/src/hero/**",
+    "C:/Users/atish/Desktop/MockMob-promo-film/docs/HERO-FILM-SPEC.md",
+    "C:/Users/atish/Desktop/MockMob-promo-film/docs/HERO-NOTES.md",
+    "wt-1109-hero: src/components/landing/HeroFilm.jsx, heroFilmConfig.mjs, src/app/hero-film.css, data/tests/hero_film_r7.test.mjs, src/components/landing/homeHero.test.mjs, data/tests/landing_checklist_1104.test.mjs, public/video/hero-v2-*",
+    "mockmob-brain/docs/NOW.md, STATUS.md, OWNER-MASTER-LEDGER.md"
+  ],
+  "verification": "Checked in headless/in-app browser at 375 (live, Night) and 1440 Day/Night (local prod build). Not checked on a physical phone; sound not judged by ear.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
