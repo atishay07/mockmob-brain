@@ -1,8 +1,11 @@
 # Round 10: landing taste refinement and the phone scroll decision (10 Nov 2026)
 
-Branch `web/1110-conversion` (worktree `wt-1110-convert`), on top of main `5dbcea349`. Commits: `a0745a808` (the first
-pass: sample result carried to sign-up, theme note off the phone headline, funnel steps), `1d81f27eb` (round 10 visual
-refinement), `100427445` (phone scroll: flow), merged as `6aff554e1`. Status and deploy facts: NOW.md and STATUS.md.
+LIVE on www.mockmob.in since 10 Nov 2026, about 4:30 am IST: main `7c28f3ea7` (Vercel `dpl_6cJqMnU6b1AwqjBNna1FX1KJTGdt`;
+rollback `dpl_F112hcu3ezRJratCkZem1eQMpYSm`, main `5dbcea349`). Branch `web/1110-conversion` (worktree `wt-1110-convert`).
+Commits: `a0745a808` (the first pass: sample result carried to sign-up, theme note off the phone headline, funnel
+steps), `1d81f27eb` (round 10 visual refinement), `100427445` (phone scroll: flow), merged as `6aff554e1`, then
+`857d2193f` (reserved section heights, Compass fill variable) and `7c28f3ea7` (subgrid guard). Verification counts:
+STATUS.md.
 
 ## The owner's words
 
@@ -46,7 +49,18 @@ If he wants more grip: raise FLOW_SHARE (0.6) toward 1, or land on every story e
 landing off (`land={false}` on a story). Both are one-line changes.
 
 Checked in real Chrome with real touch flings at 390x844 (`oneGestureBench.mjs` modes `flow`, `landing`, `journey`):
-see STATUS.md for the counts.
+flow 78/78 cells, landing 8/8 (also 8/8 on the live site). The journey, 300 px flicks from the top of the page until
+the plans are within half a screen:
+
+| Flick | Before (5dbcea349, held) | Now (7c28f3ea7, flow, live) |
+|---|---|---|
+| Gentle, 1200 px/s | 41 | 38 |
+| Ordinary, 2000 px/s | 31 | 19 |
+| Quick, 3000 px/s | 23 | 10 |
+| Page height at 390 px | 27,173 px | 22,956 px |
+
+A gentle reader still gets every step, one per swipe; an ordinary one reaches the plans in about 40% fewer flicks, a quick
+one in under half. Not checked: a physical phone, iPhone Safari, an in-app browser.
 
 ## Round 10 visual refinement (five groups, each looked at before and after at 390 and 1440, Day and Night)
 

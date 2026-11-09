@@ -53,4 +53,5 @@
 - [No useless background work](no-useless-background-work.md) — 7 Nov: AI OS pop-ups and CPU hogs angered him; jobs windowless, low priority, only when output is needed; hub briefs gated on views
 - [Conversion baseline and funnel switch](conversion-baseline-and-funnel-switch.md) — 10 Nov: no visitor data exists; aggregate funnel built but FUNNEL_ENABLED is his open switch; activation 48%/36%, paid 6.7%; every lift is a hypothesis
 - [Conversion means taste, not metrics](conversion-means-taste-not-metrics.md) — 10 Nov: "10x / 50%" is a hypothetical quality bar; he wants deep visible UI/UX taste refinement, no funnel analysis; deploy when satisfied
+- [Phone scroll is FLOW](phone-scroll-flow-model.md) — 10 Nov: touch screens flow (stage pins, native scroll, one landing per story, 0.6 hold); mouse keeps one step; knobs FLOW_SHARE and `land`; test with the bench's flow/landing/journey
 - [Create junctions with PowerShell](junction-create-with-powershell.md) — 10 Nov: mklink via Git Bash made a broken node_modules junction (C:\C:\...); use New-Item -ItemType Junction and test a file through it

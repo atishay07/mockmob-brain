@@ -5,14 +5,15 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 585e670b-982c-44d4-b5f2-1ceca346163e
-  modified: 2026-11-09T20:55:30.769Z
+  modified: 2026-11-09T23:11:49.082Z
 ---
 
 As of 10 Nov 2026 the website records no visitors: Vercel Web Analytics is not enabled (the API answers
 `web_analytics_not_enabled`) and `funnel_daily` holds 0 rows. The first-party aggregate funnel (15-16 Oct: `/api/funnel`,
 `src/lib/funnel.js`, `/admin/funnel`, both migrations applied on production) counts only while `FUNNEL_ENABLED=true`,
-which the owner has not set since 16 Oct. The home page only sends its steps from branch `web/1110-conversion`
-(a0745a808, built 10 Nov, not live when written).
+which the owner has not set since 16 Oct. The home page sends its steps since main 7c28f3ea7 (live 10 Nov); with the
+switch off the route answers an empty 204. On 10 Nov he said he does not want measurement
+([[conversion-means-taste-not-metrics]]), so do not raise the switch again unless he asks about numbers.
 
 Rates that do exist (production, read 10 Nov): 1,493 sign-ups in Apr-May 2026, 61 from June to 9 Nov (about 12 a
 month, some are test accounts); a first set finished within 24 h of sign-up by 48% last season and 36% since June;
