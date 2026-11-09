@@ -1,0 +1,30 @@
+{
+  "id": "20261109T094725.234765Z-98562ced",
+  "observed_at": "2026-11-09T09:47:25.234765+00:00",
+  "agent": "claude-opus-5.5 (session a8618789)",
+  "task": "Hero film r5 from the owner's notes on r4 (LK183)",
+  "status": "complete",
+  "done": "r5 LIVE on www.mockmob.in: main 1184acb84, Vercel dpl_GBHvgoKK9gESDaVQzXfzvLdzdtz6, 53.0 s, files hero-v5-{480,720,1080}.mp4 + hero-v5-poster.webp (r4 files removed). Same voice (Yash) and the same nine chapter times. Built by Workflow wf_d5fcdd62-445 (4 designers, 1 builder, 3 critics x 2 rounds, 2 fix rounds). Promo commits 60a47b0, f7ac0b7, d112f9a, 595ef7d, 8a1df31, aa67c41 (docs). Changes: the richer open is back (3D Mobi, college cards on three depths, the volt CUET UG 2027 chip, 'Preparing for CUET 2027?') with a new exit (the cards spiral into the wordmark's o, an iris opens on cream, Mobi lands in the o). 5-10 s is a staged tour of whole devices (exam laptop push and press, Road to CUET, then the set recedes under 'Everything for CUET 2027. In one place.'). Features 02-07 show whole devices. 01 Mocks is rebuilt on cream. The colleges row says 'Not yet' (was 'Below last year'). The previous end card is back (Mob shelf, Mobi in the o, 'Find it. Fix it. Check it held.', Sign up free, Pro Rs 99 a month). The sound ends on one pop at 51.43 s and is silent by 52.9 s. The film ends on the end card. Brain STATUS and ledger LK183 are updated.",
+  "next": "The owner watches r5 with sound on and muted. Known, left as is: the product screens show the demo app's '27 weeks to CUET UG' (captured late Oct). The Ask Mobi query reads 'Where am I losing marks?' (owner's call). The exam laptop shot appears in the tour and again in 01 Mocks. About 0.1 s of dark frame with a volt dot at 3.7 s (the gather before the iris).",
+  "blockers": [],
+  "evidence": [
+    "C:/Users/atish/Desktop/MockMob-promo-film/out/hero/hero-r5-master.mp4",
+    "C:/Users/atish/Desktop/MockMob-promo-film/out/hero/r5_sheet_01..07.png and r5_phone_01..04.png",
+    "C:/Users/atish/Desktop/MockMob-promo-film/out/hero/web-r5/",
+    "C:/Users/atish/Desktop/MockMob-promo-film/docs/HERO-NOTES.md",
+    "wt-1109-hero commit 1184acb84 on main",
+    "phone copy wt-1109-hero/tmp/hero-film-r9/MockMob-hero-r5.mp4"
+  ],
+  "touched_files": [
+    "wt-1109-hero/src/components/landing/heroFilmConfig.mjs",
+    "wt-1109-hero/data/tests/hero_film_r7.test.mjs",
+    "wt-1109-hero/data/tests/landing_checklist_1104.test.mjs",
+    "wt-1109-hero/public/video/hero-v5-*",
+    "MockMob-promo-film/src/hero/r5/*, src/hero/r4/*, scripts/hero5.mjs, scripts/hero-sound/build_hero_r5_mix.py",
+    "mockmob-brain/docs/STATUS.md, OWNER-MASTER-LEDGER.md (LK183)"
+  ],
+  "verification": "I reviewed the sheets, the phone sheets and 16 full-size frames myself. The builder fixed the round-2 critic findings, but no critic re-reviewed them. Master: -16.0 LUFS, -1.8 dBTP, sync check passes. Teaser16 and Reel916 timelines are unchanged. Hero tests pass 70/70. Live: the four files return 200 at the exact sizes, the label reads 53 seconds, 9 chapter segments and the Sound on key are present, and there are no runtime errors. Not verified: sound by ear, a physical phone, live playback (the browser pane was hidden).",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
