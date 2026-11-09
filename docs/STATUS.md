@@ -1,3 +1,8 @@
+## 9 Nov 2026 (midday) — hero film r4 live: 52 s narrated walkthrough
+
+- Production: main 89b9b4d01 (player 52e267a71: "Sound on" key in the picture corner until first unmute; first unmute rewinds to the chapter start). Hero16 r4 (promo commits 35c925f, 1bbea5b, 7124faa): voice Yash A Malhotra (owner's pick from 5 auditions), one continuous take on the paid ElevenLabs account; straight opening + product montage, 01 Mocks .. 07 The Mob numbered features after klayprep's grammar, close on 15 subjects and Sign up free. Nine player chapters. r3 (101 s, Himanshu) was live 10:05 am - 12:10 pm and is replaced.
+- Verification: hero tests 70/70; sheets and phone sheets reviewed; live homepage serves hero-v4 (sizes match), no runtime errors. Not verified: sound by ear, a physical phone.
+
 ## 9 Nov 2026 (early morning) — hero walkthrough film live (r2)
 
 - Production: main be44eafca (Vercel dpl_Vtz6tKbgL61KmefrF26DgLygcPKw READY, no runtime errors; live file sizes match the r2 encodes). r1 went live first at dd8c63a7a. The hero film is the new 67 s walkthrough (Hero16 r2) with a ten-chapter bar under the picture.
