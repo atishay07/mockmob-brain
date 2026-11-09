@@ -1,0 +1,27 @@
+{
+  "id": "20261109T001548.315698Z-1c461127",
+  "observed_at": "2026-11-09T00:15:48.315698+00:00",
+  "agent": "claude-opus-5.5 (session a8618789)",
+  "task": "Hero walkthrough film (LK180, LK181): r2 live",
+  "status": "complete",
+  "done": "Hero16 r2 LIVE: main be44eafca (Vercel dpl_Vtz6tKbgL61KmefrF26DgLygcPKw READY, no runtime errors, live hero-v2-480/720/1080 sizes match r2 encodes). r1 went live first at dd8c63a7a. r2 polish (promo commit 0ddcf42): Mobi 3D gestures re-timed per chapter (src/hero/hosts.ts), open sentence reads whole, end card tagline 80 px + 680x156 Sign up free key appearing whole, Key card 40 px left (clear of rounded frame), Mocks strobe fixed, two sound overlaps cleared; 66.967 s and chapter times unchanged; -16.2 LUFS, -1.6 dBTP. Brain NOW/STATUS/ledger updated. Phone copy sent to owner (wt-1109-hero/tmp/hero-film-r9/MockMob-hero-walkthrough-r2.mp4).",
+  "next": "Owner watches muted then with sound; owner decides: sound by ear; whether Learn/Ask Mobi/Mob phones (28-50 px from right edge, v8 layout) should move in; whether to make a 1:1 phone cut. Cleanup later: remove old public/video/hero-480/720/hero-poster.webp and flip the hero_film_r7 test; proto/phone-free-scroll (LK179) still awaits his look and is separate.",
+  "blockers": [
+    "Disk C: 37 GB free (below floor); 4.6 GB of old Reel check renders in promo out/reel916/sound and out/reel916-check await owner OK to delete"
+  ],
+  "evidence": [
+    "r2_sheet_01/04/09 reviewed by orchestrator vs r1",
+    "hero tests 70/70 before push",
+    "curl -I live: Content-Length 4562593 / 8080852 / 13126395 = r2 files",
+    "Vercel runtime errors: none in 40 min"
+  ],
+  "touched_files": [
+    "wt-1109-hero public/video/hero-v2-*.mp4 (r2)",
+    "MockMob-promo-film src/hero/hosts.ts, mix.ts, chapters/*, components/Characters.tsx (opt-in remap3d)",
+    "mockmob-brain/docs NOW.md STATUS.md OWNER-MASTER-LEDGER.md"
+  ],
+  "verification": "Visual review of r2 sheets; live file identity by size; player behaviour verified on r1 deploy (unchanged code). Not verified: physical phone; sound by ear.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}

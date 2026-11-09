@@ -1,6 +1,6 @@
-## 9 Nov 2026 (early morning) — hero walkthrough film r1 live
+## 9 Nov 2026 (early morning) — hero walkthrough film live (r2)
 
-- Production: main dd8c63a7a (Vercel dpl_AHnX3v99eotaj95SCVdMUag48Vd9 READY, no runtime errors). The hero film is the new 67 s walkthrough (Hero16 r1) with a ten-chapter bar under the picture.
+- Production: main be44eafca (Vercel dpl_Vtz6tKbgL61KmefrF26DgLygcPKw READY, no runtime errors; live file sizes match the r2 encodes). r1 went live first at dd8c63a7a. The hero film is the new 67 s walkthrough (Hero16 r2) with a ten-chapter bar under the picture.
 - Verification: hero tests 70/70 (83 incl. todo/skip), eslint clean, local webpack production build, Vercel Turbopack build, live smoke at 390 (Night) and local 1440 Day/Night; chapter jump and tap-to-pause checked live. Not verified: a physical phone; the sound by ear.
 
 ## 8 Nov 2026 (evening) — R8 visible-craft pass and hero round 7 live
