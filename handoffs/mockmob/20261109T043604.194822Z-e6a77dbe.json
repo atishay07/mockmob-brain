@@ -1,0 +1,19 @@
+{
+  "id": "20261109T043604.194822Z-e6a77dbe",
+  "observed_at": "2026-11-09T04:36:04.194822+00:00",
+  "agent": "claude-opus-5.5 (session a8618789)",
+  "task": "Hero walkthrough film r3: narrated (owner 9 Nov: \"it should have a voice\")",
+  "status": "complete",
+  "done": "Narrated Hero16 r3 LIVE on www.mockmob.in: main 00bdde944 (player 52e267a71), Vercel dpl_BDwqcMV5PbuSAmtyZ5DKpc5SxaoV, no runtime errors. Voice Himanshu eleven_v4 on owner's PAID ElevenLabs account, flow ViJU5guLJQWU8z8XA2eZ, 1,958 credits logged. New lines for problem/learn/keycards. Film 100.7 s, headlines as captions, -16 LUFS. Promo commits 172e6e8, 4c331fe. Player: Sound on key until first unmute; first unmute rewinds to chapter start. Deleted 4.6 GB old Reel renders (owner OK).",
+  "next": "Owner listens with sound on. Possible tighter cut (19 s of reading holds). Bed rebuilt from r2 finished bed: repeated loops under problem and proof need a listen.",
+  "blockers": [],
+  "evidence": [
+    "C:/Users/atish/Desktop/MockMob-promo-film/out/hero/hero-r3-master.mp4",
+    "C:/Users/atish/Desktop/MockMob-promo-film/out/hero/sync_r3.json"
+  ],
+  "touched_files": [],
+  "verification": "Sheets reviewed; hero tests 70/70; local prod build pointer test of Sound on; live homepage serves hero-v3. Not verified: by ear, real phone.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
