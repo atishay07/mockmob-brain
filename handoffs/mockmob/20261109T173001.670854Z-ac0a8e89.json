@@ -1,0 +1,27 @@
+{
+  "id": "20261109T173001.670854Z-ac0a8e89",
+  "observed_at": "2026-11-09T17:30:01.670854+00:00",
+  "agent": "claude-opus-5.5 (session 65d73ea1)",
+  "task": "Homepage five-question sample: result explains itself (Packet A); demo arrival on short phones (Packet B, only if reproduced). Local diff only.",
+  "status": "complete",
+  "done": "Verified production = main 1184acb84 (Vercel dpl_GBHvgoKK9gESDaVQzXfzvLdzdtz6 READY). Worktree wt-1109-demo-result, branch web/1109-demo-result, commit 5dbcea349 (local, not pushed). Packet A: heading 'What you missed in these five'; miss rows lead with Q<n> chip + chapter (repeated chapters stay distinct); open miss shows 'Your answer' (x) and 'Correct answer' (tick) with option texts, then the reason; next-step line 'Sign up free, then choose chapters like this one in Practice.'; 'A full mock gives you a broader chapter review.' above the one volt key (not on 5/5); worked sums wrap instead of clipping at 150% text. Only DemoDrill.jsx and demo-subject.css changed; miss record gains n and picked (option index already in the handler). Packet B: not reproduced at 360x640, 360x800, 390x844 across first jump, repeat jumps after progress, result, keyboard Enter, fresh /#try-practice: dock never drawn, head and first control always clear; no change.",
+  "next": "Owner reviews the report (wt-1109-demo-result/tmp/1109-demo/report/index.html). On his yes: merge web/1109-demo-result into main and deploy (production release is his separate decision). Optional later: the question card's own reveal (.mm-drill__why) may clip the same no-break worked sum at 150% text; not touched in this patch. Phone scroll share prototype (proto/1109-share) stays a separate decision.",
+  "blockers": [],
+  "evidence": [
+    "Paired images and side-by-side GIF: wt-1109-demo-result/tmp/1109-demo/report/ (pair-1..6, recording-q5-result-miss-390-night.gif, index.html)",
+    "Walk logs per state: tmp/1109-demo/shots/*/log.json; Packet B rectangles: tmp/1109-demo/probe/*/probe.json",
+    "Suites: tmp/1109-demo/suites-final.log (391 pass, 1 fail also failing on 1184acb84)",
+    "Perf: tmp/1109-demo/perf/before.json, after.json"
+  ],
+  "touched_files": [
+    "wt-1109-demo-result/src/components/landing/DemoDrill.jsx",
+    "wt-1109-demo-result/src/components/landing/demo-subject.css",
+    "mockmob-brain/docs/NOW.md (new top entry)",
+    "mockmob-brain/docs/OWNER-MASTER-LEDGER.md (LK184)",
+    ".claude/launch.json (demo-result entry) + .claude/demo-result-dev.cjs"
+  ],
+  "verification": "Headless Chrome (playwright-core, Android touch emulation) walks on two local dev servers: 390x844 and 1440x900 Day/Night, 360x640 Night, 360x800 Day, scores 0/2/3/5 of 5, Accountancy fixture (two misses in one chapter, long option, long chapter), slow subject (8 s timeout then retry) and 503 then retry, failed subject mid-way keeps progress, 150% text + reduced motion; 0 page errors. 33 landing/homepage test files: 391/415 pass, 0 new failures. eslint clean; next build --webpack passes. Lab perf (dev, 4x CPU, throttled, 3 runs): same 58-request URL set, +3 KB, result transition 230-242 vs 227-243 ms, LCP/CLS unchanged. Film r5 plays, chapter jump works, hero actions present. Not verified: physical phone, screen reader by ear, signed-in pages, field metrics.",
+  "cost_and_pending_requests": "No paid calls.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}

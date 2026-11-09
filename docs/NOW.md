@@ -1,5 +1,13 @@
 # NOW: MockMob current state
 
+## 9 Nov 2026, about 11 pm IST — sample result polish, LOCAL ONLY (branch web/1109-demo-result 5dbcea349 from live main 1184acb84; not pushed, not deployed)
+
+- Brief (owner, 9 Nov night, pasted research prompt): make the homepage five-question sample's result explain itself (Packet A); fix demo arrival only if a phone reproduces the dock covering it (Packet B); local diff, release is a separate owner decision.
+- Done (Packet A): heading "What you missed in these five" (was "After a full mock, chapter review would flag:"); each miss row leads with its question number (Q2, Q4), so two misses in one chapter stay distinct; an open miss shows "Your answer" and "Correct answer" with option texts, then the reason; its line says the real next step ("Sign up free, then choose chapters like this one in Practice."); "A full mock gives you a broader chapter review." above the one volt key (not on 5/5); a no-break worked sum wraps at 150% text instead of being clipped. Files: src/components/landing/DemoDrill.jsx, demo-subject.css only.
+- Packet B: not reproduced at 360x640, 360x800, 390x844 (first jump, repeat jumps after progress, result, keyboard, fresh /#try-practice): the dock is never drawn there; head and first control always clear. No code change.
+- Checks: before/after walks on two local servers (Day/Night, 390/1440/360, scores 0-5, fixture with repeated chapter and long texts, slow and failed subject with retry): 0 page errors. Landing suites 391/415 pass, the 1 failure also fails on 1184acb84 (0 new). eslint clean, webpack build passes. Lab perf (dev, 4x CPU, throttled): same 58 requests, +3 KB, result transition unchanged. Not checked: a physical phone, a screen reader by ear.
+- Evidence: wt-1109-demo-result/tmp/1109-demo/report/index.html (paired images, recording, table). Next: owner reviews; on his yes, merge to main and deploy.
+
 ## 9 Nov 2026, about 5:50 am IST — hero walkthrough film r2 LIVE (main be44eafca, dpl_Vtz6tKbgL61KmefrF26DgLygcPKw; r1 was dd8c63a7a)
 
 - Owner (9 Nov ~2:30 am): the main walkthrough video of the platform for the hero, reframed from the promo, highly converting; discretion on the player. Owner (~4 am): visitors already half-trust us; build trust, show we are the best and everything we offer, not first-time promotion (LK180, LK181).
