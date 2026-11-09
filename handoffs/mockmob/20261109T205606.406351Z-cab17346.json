@@ -1,0 +1,37 @@
+{
+  "id": "20261109T205606.406351Z-cab17346",
+  "observed_at": "2026-11-09T20:56:06.407352+00:00",
+  "agent": "claude-fable-5 (session 585e670b)",
+  "task": "Website conversion pass (LK185-LK188): walk the live site as a first-time CUET student, implement the most valuable changes, define the conversion event and baseline; local branch only",
+  "status": "complete",
+  "done": "Walked www.mockmob.in (main 5dbcea349) at 390 and 1440, Day and Night, hero through the five-question sample into /signup. Kept the hero, sample, film and sections as they are. Three leaks found and fixed on branch web/1110-conversion a0745a808 (worktree wt-1110-convert, committed, NOT pushed, NOT deployed): (1) the sample's result is carried to /signup in the browser (sampleCarry.mjs; \"You got 3 of 5. Keep going.\" plus the missed chapters in the card's own next step; five of five points at the full mock; one day, never sent, cleared on sign-in; invites keep their words); (2) below 960 px the first-visit theme note is no longer drawn over the headline (the switch still pulses); (3) the home page now sends landing_view, sample_started, sample_subject_chosen, sample_done, signup_click, login_click to the existing aggregate funnel (FunnelBeacon.jsx, DemoDrill.jsx). Conversion definitions and the baseline are written in mockmob-brain/docs/CONVERSION-PASS-2026-11-10.md; NOW, STATUS and the ledger (LK185-LK188) are updated.",
+  "next": "Owner decides: deploy web/1110-conversion (fast-forward main from 5dbcea349; the deploy is the first Turbopack build of the commit), and set FUNNEL_ENABLED=true in Vercel then redeploy so visits and sign-ups are counted (open since 16 Oct). After two weeks of counts read signup_complete / landing_view by device kind at /admin/funnel. Next levers, not built, his call (LK188): the first run after sign-up (about half of sign-ups never finish a set), a proof line by the hero key, the free first full mock switch (appears off on production), restoring a finished sample on return from /signup.",
+  "blockers": [],
+  "evidence": [
+    "Branch web/1110-conversion a0745a808 in C:/Users/atish/Desktop/mockmob copy/wt-1110-convert (8 files, +342/-5)",
+    "Before/after boards and logs: wt-1110-convert/tmp/1110-convert/ (1-signup-after-sample-phone.jpg, 2-signup-after-sample-desktop.jpg, 3-theme-note-phone.jpg, suite and build logs)",
+    "mockmob-brain/docs/CONVERSION-PASS-2026-11-10.md",
+    "Production read-only 10 Nov: users 1,493 Apr-May 2026 and 61 since June; first set within 24 h 715/1,493 and 22/61; May payers 96 of 1,430 sign-ups; funnel_daily 0 rows; funnel_increment, funnel_count_once, users.funnel_seen present; Vercel Web Analytics not enabled",
+    "Live timing: hero key to usable sign-up form about 0.85 s at 390"
+  ],
+  "touched_files": [
+    "src/components/landing/sampleCarry.mjs",
+    "src/components/landing/sampleCarry.test.mjs",
+    "src/components/landing/FunnelBeacon.jsx",
+    "src/components/landing/DemoDrill.jsx",
+    "src/app/signup/SignupPageClient.jsx",
+    "src/app/page.js",
+    "src/app/marketing-theme.css",
+    "package.json",
+    "mockmob-brain/docs/NOW.md",
+    "mockmob-brain/docs/STATUS.md",
+    "mockmob-brain/docs/OWNER-MASTER-LEDGER.md",
+    "mockmob-brain/docs/CONVERSION-PASS-2026-11-10.md",
+    "C:/Users/atish/Desktop/mockmob copy/.claude/launch.json",
+    "C:/Users/atish/Desktop/mockmob copy/.claude/convert-dev.cjs"
+  ],
+  "verification": "Local dev build, headless Chrome with touch: sample to sign-up at 390x844, 360x640 and 1440x900, Day and Night, scores 1, 3 and 5: 0 page errors, no sideways scroll, screenshots looked at. Funnel beacons intercepted: each step once across a restart, two back navigations and a second press; body is the step name only; none under Global Privacy Control; live /api/funnel answers 204. Tests: sampleCarry 6/6; landing + funnel + sign-up suites 300 pass, 0 fail, 11 skipped; test:app 1,030 pass, 0 fail; eslint clean on changed files; next build --webpack 115/115. NOT verified: Turbopack build, a physical phone, a screen reader, the signed-in first run after sign-up, any conversion lift (no baseline exists).",
+  "cost_and_pending_requests": "No paid API or generation calls. No production writes. Dev server stopped; .next removed from the worktree.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}

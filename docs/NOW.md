@@ -1,5 +1,15 @@
 # NOW: MockMob current state
 
+## 10 Nov 2026, about 2:30 am IST — conversion pass built locally (branch web/1110-conversion a0745a808, NOT pushed, NOT live; live is still 5dbcea349)
+
+- Brief (owner, 10 Nov ~1:40 am, pasted): walk the site as a first-time CUET student, choose and implement the most valuable polish and conversion changes, define the event, audience and baseline for "10x conversion and a 50%+ rate", verify on phone and desktop. Full write-up: CONVERSION-PASS-2026-11-10.md.
+- Found (live walk at 390 and 1440, Day and Night): the hero, the sample and the path to the sign-up form (about 0.85 s) work. Three leaks: the sample's result vanished on /signup; the first-visit theme note covered "CUET 2027." on phones for about 8 s; nothing counts visitors (Web Analytics off, funnel_daily 0 rows, the landing never sent its steps).
+- Built: /signup opens on the sample finisher's own result ("You got 3 of 5. Keep going." + the missed chapters; five of five points at the full mock; kept in the browser one day, never sent); the theme note is not drawn below 960 px (the switch still pulses); the home page sends landing_view, sample_started, sample_subject_chosen, sample_done, signup_click, login_click to the existing aggregate funnel.
+- Checked locally: sample to sign-up at 390, 360x640 and 1440, Day and Night, scores 1, 3 and 5; 0 page errors, no sideways scroll; each funnel step sent once (restart, back, second press), none under Global Privacy Control; new tests 6/6, landing + funnel + sign-up suites 300 pass / 0 fail, test:app 1,030 pass / 0 fail, eslint clean, webpack build 115/115. Not checked: Turbopack build (junctioned node_modules), a physical phone, a screen reader, the signed-in steps after sign-up.
+- Baseline that exists: sign-ups 1,493 last season, 61 since June; first set within 24 h of sign-up 48% last season, 36% since June; 6.7% of May sign-ups paid. Visitor stage: no data.
+- Needs him: (1) deploy or not; (2) FUNNEL_ENABLED=true in Vercel so visits and sign-ups are counted from that day (open since 16 Oct); (3) his call on the next levers (after sign-up first run, a proof line by the hero key, the free first full mock switch).
+- Evidence: wt-1110-convert/tmp/1110-convert/ (three before/after boards, suite and build logs).
+
 ## 9 Nov 2026, about 11 pm IST — sample result polish LIVE (main 5dbcea349, dpl_F112hcu3ezRJratCkZem1eQMpYSm; was 1184acb84)
 
 - Brief (owner, 9 Nov night, pasted research prompt): make the homepage five-question sample's result explain itself (Packet A); fix demo arrival only if a phone reproduces the dock covering it (Packet B); local diff, release is a separate owner decision.

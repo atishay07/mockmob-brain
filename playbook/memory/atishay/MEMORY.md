@@ -51,3 +51,5 @@
 - [Team shared brain](team-shared-brain-plan.md) — 6 Nov: built at C:\Users\atish\mockmob-brain (bridge mode here, CTO installs standalone); MockMob docs live in its docs/; GitHub repo creation was pending
 - [Preserve mtimes in AI OS folders](preserve-mtimes-when-copying-into-ai-os.md) — 6 Nov: a mass mtime change made continuum search re-index for 10+ min; copy with copy2/os.utime
 - [No useless background work](no-useless-background-work.md) — 7 Nov: AI OS pop-ups and CPU hogs angered him; jobs windowless, low priority, only when output is needed; hub briefs gated on views
+- [Conversion baseline and funnel switch](conversion-baseline-and-funnel-switch.md) — 10 Nov: no visitor data exists; aggregate funnel built but FUNNEL_ENABLED is his open switch; activation 48%/36%, paid 6.7%; every lift is a hypothesis
+- [Create junctions with PowerShell](junction-create-with-powershell.md) — 10 Nov: mklink via Git Bash made a broken node_modules junction (C:\C:\...); use New-Item -ItemType Junction and test a file through it
