@@ -4,12 +4,19 @@
   "session": "65d73ea1-721d-4039-8c84-892cc64b3f8f",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-09T17:00:34.792765+00:00",
-  "last_active": "2026-11-09T17:04:59.976887+00:00",
+  "last_active": "2026-11-09T17:16:21.269403+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "tmp/1109-demo/walk.mjs"
+    "src/components/landing/DemoDrill.jsx",
+    "tmp/1109-demo/fixture-acc.json",
+    "tmp/1109-demo/pair_gif.py",
+    "tmp/1109-demo/perf.mjs",
+    "tmp/1109-demo/walk.mjs",
+    "tmp/1109-demo/pair_png.py",
+    "src/components/landing/demo-subject.css",
+    "tmp/1109-demo/probe.mjs"
   ]
 }
