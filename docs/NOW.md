@@ -7,7 +7,7 @@
 - Packet B: not reproduced at 360x640, 360x800, 390x844 (first jump, repeat jumps after progress, result, keyboard, fresh /#try-practice): the dock is never drawn there; head and first control always clear. No code change.
 - Checks: before/after walks on two local servers (Day/Night, 390/1440/360, scores 0-5, fixture with repeated chapter and long texts, slow and failed subject with retry): 0 page errors. Landing suites 391/415 pass, the 1 failure also fails on 1184acb84 (0 new). eslint clean, webpack build passes. Lab perf (dev, 4x CPU, throttled): same 58 requests, +3 KB, result transition unchanged. Not checked: a physical phone, a screen reader by ear.
 - Evidence: wt-1109-demo-result/tmp/1109-demo/report/index.html (paired images, recording, table).
-- Deployed on the owner's "Yes, deploy it" (9 Nov ~11:20 pm): fast-forward 1184acb84..5dbcea349, Vercel READY, no runtime errors in 30 min. Live walk on www at 390: Night default five 3/5 (Q2, Q4, your/correct answers, 0 errors); Day live Accountancy set 1/5 with three misses in one chapter shown as Q1, Q2, Q5. Not checked live: a physical phone.
+- Deployed on the owner's "Yes, deploy it" (9 Nov ~11:30 pm): fast-forward 1184acb84..5dbcea349, Vercel READY, no runtime errors in 30 min. Live walk on www at 390: Night default five 3/5 (Q2, Q4, your/correct answers, 0 errors); Day live Accountancy set 1/5 with three misses in one chapter shown as Q1, Q2, Q5. Not checked live: a physical phone.
 
 ## 9 Nov 2026, about 5:50 am IST — hero walkthrough film r2 LIVE (main be44eafca, dpl_Vtz6tKbgL61KmefrF26DgLygcPKw; r1 was dd8c63a7a)
 
