@@ -4,7 +4,7 @@
   "session": "896125b8-1f9e-4660-b761-2d31487746ee",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-10T08:50:58.625710+00:00",
-  "last_active": "2026-11-10T09:37:22.434020+00:00",
+  "last_active": "2026-11-10T09:38:34.807951+00:00",
   "repo": "mockmob",
   "branch": "web/1110-conversion",
   "cwd_name": "wt-1110-convert",
@@ -27,8 +27,12 @@
     "src/components/profile/SetPasswordCard.jsx",
     "src/components/recovery/result.css",
     "src/components/profile/CreditsSection.jsx",
-    "src/components/review/ReviewChapters.jsx",
+    "src/app/(app)/profile/ProfilePageClient.jsx",
     "src/components/du/TodayCompass.jsx",
-    "src/app/(app)/profile/ProfilePageClient.jsx"
+    "src/components/review/ReviewChapters.jsx",
+    "src/components/review/review-1018.css",
+    "src/app/(app)/recovery/page.jsx",
+    "src/app/(app)/admission-compass/compass.css",
+    "src/app/(app)/arena-support.css"
   ]
 }
