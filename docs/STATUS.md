@@ -1,3 +1,9 @@
+## 10 Nov 2026 (about 1:15 pm) — round 11 live: phone scroll v2, one Lab, five-tool tour
+
+- Live: main 79b9c49cb (commits 49b5d9ca1 scroll v2, 79b9c49cb the page); was 7c28f3ea7, rollback dpl_6cJqMnU6b1AwqjBNna1FX1KJTGdt.
+- Verified: landing gate 567 tests, 542 pass, 1 old fail (LK141); test:app, test:dock, test:du, test:keycards-ui, test:auth pass; eslint clean; next build --webpack 115/115; Vercel preview READY before main. Real-Chrome bench at 390x844 (dev build): flow 58/58, landing 6/6, jump 12/12, wheel 20/20; journey 30 / 19 / 10 flicks at 1200 / 2000 / 3000 px/s.
+- Unresolved: not run on a physical phone or iPhone Safari; reserved heights off by about 324 px at 1024x768 touch; details in NOW.md.
+
 ## 10 Nov 2026 (about 4:30 am) — round 10 live: landing refinement, phone scroll flow
 
 - Production: main 7c28f3ea7 (Vercel dpl_6cJqMnU6b1AwqjBNna1FX1KJTGdt READY, aliases www.mockmob.in and mockmob.in; fast-forward 5dbcea349..7c28f3ea7, six commits: a0745a808 first pass, 1d81f27eb round 10 visuals, 100427445 phone scroll flow, 6aff554e1 merge, 857d2193f reserved heights and the Compass fill variable, 7c28f3ea7 subgrid guard). Rollback: dpl_F112hcu3ezRJratCkZem1eQMpYSm (5dbcea349). The branch's preview build (dpl_A1eAn8qbcUbAJAVzwCr3Pzqb5kAF) was READY first, so Vercel's own bundler had built this commit before main moved.
