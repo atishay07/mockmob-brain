@@ -4,15 +4,12 @@
   "session": "585e670b-982c-44d4-b5f2-1ceca346163e",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-09T20:10:48.284718+00:00",
-  "last_active": "2026-11-10T07:08:55.474765+00:00",
+  "last_active": "2026-11-10T07:23:23.329137+00:00",
   "repo": "mockmob",
   "branch": "web/1110-conversion",
   "cwd_name": "wt-1110-convert",
   "task": "",
   "touched": [
-    "src/components/landing/labStory.test.mjs",
-    "src/components/landing/stripObjects.mjs",
-    "src/components/landing/heroTaps.mjs",
     "tmp/1110-refine/r11/trim/el.mjs",
     "src/app/r10-lab-tour.css",
     "src/app/page.js",
@@ -58,6 +55,9 @@
     "data/tests/landing_content.test.mjs",
     "src/components/landing/HeroFilm.jsx",
     "data/tests/hero_film_r7.test.mjs",
-    "tmp/r12/widths.mjs"
+    "tmp/r12/widths.mjs",
+    "tmp/r12/cards.mjs",
+    "tmp/r12/reduced.mjs",
+    "tmp/r12-docs.py"
   ]
 }
