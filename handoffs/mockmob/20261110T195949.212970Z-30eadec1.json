@@ -1,0 +1,20 @@
+{
+  "id": "20261110T195949.212970Z-30eadec1",
+  "observed_at": "2026-11-10T19:59:49.212970+00:00",
+  "agent": "claude-fable-5 (session 896125b8)",
+  "task": "Finish the owner's 10 Nov feedback: the guide with auto-start (LK221) and web onboarding polish (LK216); review of the other session's four releases",
+  "status": "complete",
+  "done": "main 230de48e8 pushed (was 97192a222). Guide rebuilt in src/components/guide (six short stops, one spotlight, card never covers its target, starts once for a student who finished onboarding on this device in the last 24 hours, on Today or Practice). Web onboarding polished (main key at the bottom edge, soft selected fills, no nested cards). The other session's Pro sheet, You card with Mob profile, home sample and Wallet states were looked at again at 390 and 360 in both themes and hold. Ledger, NOW and STATUS updated.",
+  "next": "Owner looks on his phone: make a new account to see onboarding and the guide starting by itself; \"Show me around\" from the account sheet for the guide by hand. His decisions: Wallet selling (WALLET_COMMERCE_OPEN after a test payment), an account-level guide flag (schema change) if it should start on a second device, verified past-paper data for sample labels. Not checked: physical phone, iPhone Safari, the keyboard lift in onboarding search, a screen reader, signed-in production pages.",
+  "blockers": [],
+  "evidence": [
+    "commit 230de48e8 on origin/main",
+    "Vercel preview dpl_9z4VqU3ky1jJZD35SstxYwxQzUSy READY before main",
+    "wt-1110-convert/tmp/1110-app/notes-guide.md, notes-onboarding.md, shots/guide, shots/onb-after, shots/rv"
+  ],
+  "touched_files": [],
+  "verification": "Landing gate 572 tests (548 pass, 0 fail), test:app 1,035, dock 63, du 43, keycards-ui 40, auth 141, billing 455, subjects 62, today 146, guide and onboarding files 57, eslint clean, next build --webpack 115/115. Signed-in screens seen only on the dev preview in headless Chrome.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}

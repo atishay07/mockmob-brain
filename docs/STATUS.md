@@ -1,3 +1,8 @@
+## 11 Nov 2026 (about 1:29 am IST) — the guide and web onboarding live
+
+- Live: main 230de48e8 (was 97192a222). Verified: landing gate 572 (0 fail), app 1,035, dock 63, du 43, keycards-ui 40, auth 141, billing 455, subjects 62, today 146, guide and onboarding 57; eslint clean; next build --webpack 115/115; preview READY before main.
+- Unresolved: no physical phone, iPhone Safari or signed-in production check; the auto-start is per device; Wallet selling closed.
+
 ## 11 Nov 2026, 12:15 am IST — Guide design ready for review (LK221)
 
 - Design only. Production remains on 97192a222. No product files changed for LK221.

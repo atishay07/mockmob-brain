@@ -1,5 +1,12 @@
 # NOW: MockMob current state
 
+## 11 Nov 2026, about 1:29 am IST — the guide and web onboarding are LIVE (main 230de48e8; was 97192a222)
+
+- All six items of his 10 Nov feedback have shipped. This sitting: the guide rebuilt with a once-only auto-start for a just-onboarded student (LK221) and web onboarding polish (LK216); the other session's four releases were reviewed on screen and hold.
+- Verified: landing gate 572 tests (0 fail), test:app 1,035, dock 63, du 43, keycards-ui 40, auth 141, billing 455, subjects 62, today 146, guide and onboarding files 57; eslint clean; next build --webpack 115/115; Vercel preview READY before main. Seen in headless Chrome on the dev preview only.
+- Not checked: a physical phone, iPhone Safari, a real new account's hand-off from onboarding into the guide, a screen reader, signed-in pages on production.
+- Open and his: Wallet selling (WALLET_COMMERCE_OPEN, after a test payment); whether the guide should also start on a second device (needs an account-level flag, a schema change); past-paper labels for sample questions (needs verified data).
+
 ## 11 Nov 2026, 12:15 am IST — Guide design ready for review (LK221)
 
 - The owner can try the three-stop Today guide in the design preview delivered in the Codex chat. The live guide is still manual. The current completion flag is browser-local.
