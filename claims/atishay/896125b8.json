@@ -4,7 +4,7 @@
   "session": "896125b8-1f9e-4660-b761-2d31487746ee",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-10T08:50:58.625710+00:00",
-  "last_active": "2026-11-10T09:29:53.259952+00:00",
+  "last_active": "2026-11-10T09:31:28.075695+00:00",
   "repo": "mockmob",
   "branch": "web/1110-conversion",
   "cwd_name": "wt-1110-convert",
@@ -17,6 +17,7 @@
     "tmp/1110-app/pricing-walk.mjs",
     "tmp/1110-app/learn-walk.mjs",
     "tmp/1110-app/mob-walk.mjs",
-    "tmp/1110-app/review-probe.mjs"
+    "tmp/1110-app/review-probe.mjs",
+    "tmp/1110-app/learn-run.mjs"
   ]
 }
