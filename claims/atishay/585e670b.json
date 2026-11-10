@@ -4,19 +4,12 @@
   "session": "585e670b-982c-44d4-b5f2-1ceca346163e",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-09T20:10:48.284718+00:00",
-  "last_active": "2026-11-10T04:32:05.476736+00:00",
+  "last_active": "2026-11-10T04:43:22.788482+00:00",
   "repo": "mockmob",
   "branch": "web/1110-conversion",
   "cwd_name": "wt-1110-convert",
   "task": "",
   "touched": [
-    "src/app/r10-hero.css",
-    "tmp/1110-refine/hero/states.mjs",
-    "src/app/r10-sample.css",
-    "src/components/du/EligibilityTeaser.jsx",
-    "src/components/landing/Statement.jsx",
-    "src/components/landing/ExamScreen.jsx",
-    "src/components/landing/DemoJump.jsx",
     "tmp/1110-refine/tools/board.py",
     "tmp/1110-refine/close/board.py",
     "src/app/r10-close.css",
@@ -45,6 +38,14 @@
     "tmp/bench-flow2-patch.py",
     "tmp/1110-refine/diag-flow2.mjs",
     "tmp/bench-flick-patch.py",
-    "data/tests/one_gesture_source_1104.test.mjs"
+    "data/tests/one_gesture_source_1104.test.mjs",
+    "tmp/1110-refine/r11/SHARED.md",
+    "tmp/1110-refine/r11/LAB.md",
+    "tmp/1110-refine/r11/HERO.md",
+    "tmp/1110-refine/r11/TRIM.md",
+    "tmp/1110-refine/r11/trim/shoot.mjs",
+    "tmp/1110-refine/r11/trim/edit1.py",
+    "tmp/1110-refine/r11/lab/shoot.mjs",
+    "tmp/1110-refine/r11/hero/shoot.mjs"
   ]
 }
