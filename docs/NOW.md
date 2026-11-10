@@ -1,5 +1,12 @@
 # NOW: MockMob current state
 
+## 10 Nov 2026, about 10:20 pm IST — his feedback on the app-refine pass, part done and LIVE (main 7444fb291); the rest waits for the next usage window
+
+- His feedback (LK212-LK224 in the ledger). LIVE: the refund words (/pricing support line and /refunds), the Pro timeline graphic, a fourth "Also in Pro" tile, the Accountancy onboarding note (checked against the 2026 syllabus; all subjects re-read), the Night/Day switch beside the mark on phones, locked difficulty levels open the Pro sheet, the chosen practice tile's ring, the Wallet's first screen and pack cards.
+- NOT done (the 5-hour usage window was nearly spent by about 10 pm, so two helpers were paused; it resets about 12:50 am): the Wallet's history and rarer states; the Pro pop-up graphic; the You card, even subjects and a Mob profile (helper `youcard`, paused); the home sample's loading state and finest questions (helper `sample`, paused); the guide redesign with auto-start; web onboarding polish. The two paused helpers resume by agent id with SendMessage; their briefs are in this session's transcript and the owner's words are in the ledger.
+- Buying credits: closed by WALLET_COMMERCE_OPEN (Vercel Production). The path has never been run with a payment. His decision and a test-card run come first (tmp/1110-app/notes-wallet.md).
+- Verified: test:app 1,034, dock 63, subjects 62, billing 453, landing gate 570 (0 fail), pricing/refunds/wallet/credit files 206; eslint clean; Vercel preview READY before main each time. Seen in headless Chrome at 390 (Night and Day) and 1440; not on a phone; signed-in pages only on the dev preview.
+
 ## 10 Nov 2026, about 9:10 pm IST — the app-refine pass is LIVE (main becb9055b; was ca0991ae8, rollback dpl_jgpwQVt4eiE6Cm3iAh9ZJgMf4nq4)
 
 - His brief (PROMPT-2026-11-10-APP-REFINE.md, LK199-LK207): make the signed-in product on a phone feel finished and easy; a clear Day/Night choice in the app and on the home page; each feature one level deeper (the Mob first); Sign out twice, the theme transition, the landing texture; /pricing from 9 to 10; the hero pictures reordered. Outcomes per item are in OWNER-MASTER-LEDGER.md (LK199-LK211).

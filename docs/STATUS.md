@@ -1,3 +1,9 @@
+## 10 Nov 2026 (about 10:20 pm IST) — owner feedback, first part live: refund words, Pro timeline, fourth tile, Accountancy note, switch place, locked levels, Wallet first screen
+
+- Live: main 7444fb291 (commits a3f239194 and 7444fb291; was becb9055b).
+- Verified: test:app 1,034 (0 fail), dock 63, subjects 62, billing 453, landing gate 570 (0 fail), pricing/refunds/wallet/credit files 206, eslint clean; Vercel previews READY before main. No local production build this time (Vercel built both commits).
+- Unresolved: LK216, LK218, LK219, LK221, LK223 not done; Wallet selling closed by WALLET_COMMERCE_OPEN and never tested with a payment; no physical phone, no iPhone Safari, no signed-in production pages.
+
 ## 10 Nov 2026 (about 9:10 pm IST) — the app-refine pass live: signed-in phone screens, Night/Day switch, one Sign out, texture, /pricing
 
 - Live: main becb9055b (was ca0991ae8; rollback dpl_jgpwQVt4eiE6Cm3iAh9ZJgMf4nq4). Vercel preview dpl_FPoMfyNN9FRNCWY9hqgyZ9g3k5dq READY first, production dpl_9HAX3Y9Ta4P9YjeVwpoT5xdM8ohC.

@@ -1,0 +1,43 @@
+{
+  "id": "20261110T164905.212765Z-30f4cfee",
+  "observed_at": "2026-11-10T16:49:05.212765+00:00",
+  "agent": "claude-fable-5 (session 896125b8)",
+  "task": "Owner feedback on the app-refine pass, 10 Nov evening (LK212-LK224): first part live, rest waits for the next usage window",
+  "status": "paused",
+  "done": "LIVE on www.mockmob.in: main 7444fb291 (commits a3f239194 and 7444fb291; was becb9055b). Done: refund question out of /pricing's questions, the position said once in the support line and /refunds reworded and dated 10 November 2026 (never a flat no); \"What happens when you get Pro\" as a drawn timeline built from data; a fourth \"Also in Pro\" tile; onboarding's Accountancy note corrected against the CUET 2026 syllabus (Computerised Accounting is \"Optional to Unit V\"; all 16 live subjects' syllabi re-read, only Mathematics, Computer Science and Accountancy carry a choice); Night/Day switch moved beside the mark on phones; locked difficulty levels open the Pro sheet; the chosen practice tile's ring settles in whole; Wallet first screen and pack cards rebuilt. Ledger LK212-LK224, NOW.md and STATUS.md updated.",
+  "next": "Not done, in the owner's order of emphasis: Wallet history and rarer states, and buying (closed by WALLET_COMMERCE_OPEN in Vercel Production; the path has never been run with a payment: needs his decision and a test-card run on a preview with Razorpay test keys; notes in wt-1110-convert/tmp/1110-app/notes-wallet.md); the Pro pop-up graphic (plan in notes-pricing2.md); You card, even subject layout and a Mob profile (paused helper, agent id acce59b85946bc8a5); home sample loading state and finest questions with truthful \"asked in\" labels only where a stored field says so (paused helper, agent id a02be090744ea0f23); the guide redesign with auto-start (only at a high standard); web onboarding polish. Resume the paused helpers with SendMessage to their ids after the usage window resets (about 12:50 am IST, 11 Nov).",
+  "blockers": [
+    "5-hour usage window nearly spent on 10 Nov about 10 pm IST; resets about 12:50 am IST",
+    "Wallet selling needs the owner's decision and a test payment before WALLET_COMMERCE_OPEN is set"
+  ],
+  "evidence": [
+    "commits a3f239194 and 7444fb291 on origin/main",
+    "Vercel previews dpl_9VgGv6sstF1z35JuwxdL9LdM2vNA and dpl_GnwteX2HyjHiGHT23FZZWJ6Ea8Ad READY before main",
+    "live check by curl: /pricing serves 'normally not refunded' and no refund question, /refunds serves 'Refunds on the website' and 10 November 2026",
+    "data/CUET 2026/accountancy.pdf: 'Optional to Unit V: Computerised Accounting System'",
+    "wt-1110-convert/tmp/1110-app: notes-wallet.md, notes-pricing2.md, shots/fb1, shots/fb3, shots/pr3, shots/wallet-after"
+  ],
+  "touched_files": [
+    "src/app/(app)/AppLayoutClient.jsx",
+    "src/app/(app)/nav-places.css",
+    "src/app/onboarding/optionChoices.mjs",
+    "src/components/ui/controls/SegmentedControl.jsx",
+    "src/components/ui/controls/controls.css",
+    "src/app/(app)/dashboard/DashboardPageClient.jsx",
+    "src/app/(app)/dashboard/practice.css",
+    "src/app/pricing/page.js",
+    "src/app/pricing/pro-page.css",
+    "src/components/pricing/payCopy.mjs",
+    "src/app/refunds/page.js",
+    "src/app/(app)/wallet/WalletPageClient.jsx",
+    "src/app/(app)/wallet/wallet.css",
+    "src/components/wallet/walletModel.mjs",
+    "data/tests/brand_r3_1105.test.mjs",
+    "data/tests/legal_play_1020.test.mjs",
+    "data/tests/pricing_pay_steps_1110.test.mjs"
+  ],
+  "verification": "test:app 1,034 (1,032 pass, 2 skipped), dock 63, subjects 62, billing 453, landing gate 570 (546 pass, 0 fail), pricing/refunds/wallet/credit test files 206 (0 fail), eslint clean on changed script files. No local production build (Vercel built both commits). Seen in headless Chrome at 390 (Night and Day) and 1440; not at 360 for the Wallet; not on a phone; signed-in pages only on the dev preview with fixtures.",
+  "cost_and_pending_requests": "No paid model calls; no content generated; production database not touched; no production setting changed.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
