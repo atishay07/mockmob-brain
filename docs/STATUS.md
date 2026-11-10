@@ -1,3 +1,8 @@
+## 11 Nov 2026, 12:15 am IST — Guide design ready for review (LK221)
+
+- Design only. Production remains on 97192a222. No product files changed for LK221.
+- Prototype uses the local first-day Today fixture. All 18 target and card placements are disjoint. Back, Next, Done, Skip, Escape and focus return passed. Owner design review and a durable account-scoped first-visit claim are open. Web onboarding is queued after the guide.
+
 ## 11 Nov 2026, 12:09 am IST — Wallet history and states live (LK217)
 
 - Main 97192a222. Preview dpl_C3TRpKniUKHWaptWRRaHbvdj9Re1 was READY before production dpl_F82HMuFKG2eyZKrAhANwQjSHaWDz, which owns www.mockmob.in.

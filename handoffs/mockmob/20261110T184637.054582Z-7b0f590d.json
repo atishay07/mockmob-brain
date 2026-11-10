@@ -1,0 +1,32 @@
+{
+  "id": "20261110T184637.054582Z-7b0f590d",
+  "observed_at": "2026-11-10T18:46:37.054582+00:00",
+  "agent": "Codex (GPT-6)",
+  "task": "10–11 Nov app-refine feedback rest, four releases and LK221 design for owner review",
+  "status": "paused",
+  "done": "Released LK218 Pro sheet (trigger name, desk art, pinned price and action), LK219 You and Mob identity (account name and initial, wallet link, two-column subjects, shared Mob editor), LK223 home sample (shape-preserving subject loading, cache, ranked selection, signed-only past-paper labels), and LK217 Wallet activity and rarer states (four newest, disclosure, confirmed credit receipt and refresh retry). Prototype only for LK221 Start, Practice and Ask Mobi over actual first-day Today local fixtures. Kept live guide manual. Updated team brain NOW, STATUS and LK217/LK218/LK219/LK221/LK223 ledger rows. Stopped own dev server and removed .next and .next-dev. Clean worktree HEAD and origin/main 97192a222.",
+  "next": "Owner reviews the guide prototype. If approved, establish a durable account-scoped first-Today-visit claim for newly onboarded students with the CTO, including simultaneous tabs/devices, Done/Skip, eligible shell after onboarding and no test or conflicting dialog. Keep auto-start off until first-visit evidence works and the live design meets review. LK216 web onboarding polish follows LK221 in owner's stated order. Separately owner decides whether to test Wallet ₹29/150 in Razorpay Test Mode on isolated Preview, and whether to open selling after that.",
+  "blockers": [
+    "LK221 owner design review. Existing account-keyed completion is browser-local. First visit and cross-device completion need durable account-level state with atomic claim. LK216 is sequenced after LK221.",
+    "Wallet selling closed by the production flag. Owner approval and a Razorpay Test Mode purchase on an isolated preview precede any opening. Refund clawback for packs remains open."
+  ],
+  "evidence": [
+    "LK218 da4555622 preview dpl_GyFKeaiqZQuTT2VN2jmcNdaWPG9F prod dpl_AZYV4RFeYUpTEZuyYN9RJ56bv8rX.",
+    "LK219 755dd31fe preview dpl_3zm4AwRiDpZLXFuxifVdWF81ccYo prod dpl_8Q2DatvUNcU9NukxFBm2kQCxHVX2.",
+    "LK223 4461487f5 preview dpl_J2A4f3UubAH8qqpgMQtonzZxq9Jx prod dpl_59Cqzg4r6E3GeTYmWsMQrG85zqvH.",
+    "LK217 97192a222 preview dpl_C3TRpKniUKHWaptWRRaHbvdj9Re1 prod dpl_F82HMuFKG2eyZKrAhANwQjSHaWDz READY on www.mockmob.in.",
+    "LK221 review HTML and JPEG at C:/Users/atish/.codex/visualizations/2026/11/10/01a1c66f-0940-7c30-92cd-f1d67caff707/MockMob Guide.html and MockMob Guide.jpg. Verification and captures in wt-1110-convert/tmp/1110-app/lk221-review.mjs and lk221-capture.mjs. Wallet owner test plan at tmp/1110-app/lk217-design-decisions.md.",
+    "Live team records C:/Users/atish/mockmob-brain/docs/NOW.md, STATUS.md and OWNER-MASTER-LEDGER.md."
+  ],
+  "touched_files": [
+    "LK218 src/components/pricing/UpgradeSheet.jsx and Pro nudge styles.",
+    "LK219 You/profile card and styles, current Mob GET identity projection and shared Mob editor.",
+    "LK223 src/components/landing/DemoDrill.jsx and styles, src/lib/demoSample.mjs and sample API.",
+    "LK217 src/app/(app)/wallet and src/components/wallet, dev Wallet checkout fixtures and tests.",
+    "LK221 design artifacts only. No tracked product code changes."
+  ],
+  "verification": "Each release preview READY before fast-forward main, production READY verified by alias. All four release gates zero failures with ESLint and webpack 115/115. LK217 billing 455/455 and targeted 78/78. Existing Mob test failures 7/352 outside gate. Local Chromium phone and desktop, Day and Night, signed-in fixtures. LK223 read-only Accountancy selection spans 12 chapters and zero current signed past-paper labels in the checked window, signed-out production walk intercepted sample responses. LK217 stub 108→258 with exactly one activity entry and retry. LK221 18 distinct card and target placements at 360×672, 390×844, 1440×900 both themes, controls, pointer, keyboard, replay and Escape. No physical phone, iPhone Safari, signed-in production or payment run.",
+  "cost_and_pending_requests": "No paid work or payment. No pending paid request. No Vercel or Razorpay settings changed, no production database mutations.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}

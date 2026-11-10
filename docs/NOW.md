@@ -1,5 +1,10 @@
 # NOW: MockMob current state
 
+## 11 Nov 2026, 12:15 am IST — Guide design ready for review (LK221)
+
+- The owner can try the three-stop Today guide in the design preview delivered in the Codex chat. The live guide is still manual. The current completion flag is browser-local.
+- Chromium verified 18 placements at 360 × 672, 390 × 844 and 1440 × 900 in both themes, plus touch, keyboard, replay and dismissal. No physical phone or Safari check. LK216 follows after LK221.
+
 ## 11 Nov 2026, 12:09 am IST — Wallet history and states live (LK217)
 
 - In Wallet, Recent activity lists the four latest entries and opens older activity on request. The states and 360 px layout were checked locally. Main 97192a222 serves www.mockmob.in.
