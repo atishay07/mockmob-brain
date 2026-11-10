@@ -1,5 +1,9 @@
 # NOW: MockMob current state
 
+## 10 Nov 2026, about 10:35 pm IST — the rest of his feedback is handed off (HANDOFF-2026-11-10-FEEDBACK-REST.md, PROMPT-2026-11-10-FEEDBACK-REST.md)
+
+- He asked for a handoff and a detailed prompt for a smaller model in another window. Left, in order: the Pro pop-up graphic, the You card with even subjects and a Mob profile, the home sample (loading state, finest questions), the rest of the Wallet (selling stays closed until he tests and decides), the guide with auto-start, web onboarding polish. Nothing is half-built: main 7444fb291 is live and the working tree is clean.
+
 ## 10 Nov 2026, about 10:20 pm IST — his feedback on the app-refine pass, part done and LIVE (main 7444fb291); the rest waits for the next usage window
 
 - His feedback (LK212-LK224 in the ledger). LIVE: the refund words (/pricing support line and /refunds), the Pro timeline graphic, a fourth "Also in Pro" tile, the Accountancy onboarding note (checked against the 2026 syllabus; all subjects re-read), the Night/Day switch beside the mark on phones, locked difficulty levels open the Pro sheet, the chosen practice tile's ring, the Wallet's first screen and pack cards.
