@@ -4,19 +4,12 @@
   "session": "896125b8-1f9e-4660-b761-2d31487746ee",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-10T08:50:58.625710+00:00",
-  "last_active": "2026-11-10T10:06:16.269960+00:00",
+  "last_active": "2026-11-10T10:10:03.373956+00:00",
   "repo": "mockmob",
   "branch": "web/1110-conversion",
   "cwd_name": "wt-1110-convert",
   "task": "",
   "touched": [
-    "tmp/1110-app/walk.mjs",
-    "tmp/1110-app/sheet.py",
-    "tmp/1110-app/FINDINGS.md",
-    "tmp/1110-app/BRIEF-COMMON.md",
-    "tmp/1110-app/pricing-walk.mjs",
-    "tmp/1110-app/learn-walk.mjs",
-    "tmp/1110-app/mob-walk.mjs",
     "tmp/1110-app/review-probe.mjs",
     "src/components/RhythmCard.jsx",
     "src/components/LearningNextAction.jsx",
@@ -57,6 +50,14 @@
     "src/components/mob/MobPage.jsx",
     "src/components/account/AccountPopover.jsx",
     "src/components/account/account-popover.css",
-    "src/components/ThemeToggle.jsx"
+    "src/app/marketing-theme.css",
+    "src/components/ThemeToggle.jsx",
+    "data/tests/help_faq.test.mjs",
+    "data/tests/web_fixb_1019.test.mjs",
+    "data/tests/you_account.test.mjs",
+    "data/tests/account_popover_1105.test.mjs",
+    "src/components/landing/sampleCarry.test.mjs",
+    "src/components/mob/mob.css",
+    "data/tests/pricing_pay_steps_1110.test.mjs"
   ]
 }
