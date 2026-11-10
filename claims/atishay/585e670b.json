@@ -4,15 +4,12 @@
   "session": "585e670b-982c-44d4-b5f2-1ceca346163e",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-09T20:10:48.284718+00:00",
-  "last_active": "2026-11-10T06:34:16.843436+00:00",
+  "last_active": "2026-11-10T06:44:49.319638+00:00",
   "repo": "mockmob",
   "branch": "web/1110-conversion",
   "cwd_name": "wt-1110-convert",
   "task": "",
   "touched": [
-    "tmp/bench-flick-patch.py",
-    "data/tests/one_gesture_source_1104.test.mjs",
-    "tmp/1110-refine/r11/SHARED.md",
     "tmp/1110-refine/r11/LAB.md",
     "tmp/1110-refine/r11/HERO.md",
     "tmp/1110-refine/r11/TRIM.md",
@@ -58,6 +55,9 @@
     "tmp/1110-refine/r11/release/sheet.mjs",
     "tmp/1110-refine/r11/release/sheet.py",
     "tmp/r11-docs.py",
-    "tmp/r12/BRIEF.md"
+    "tmp/r12/BRIEF.md",
+    "tmp/r12/probe.mjs",
+    "tmp/r12/shoot.mjs",
+    "tmp/r12/photos.mjs"
   ]
 }
