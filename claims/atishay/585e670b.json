@@ -4,14 +4,12 @@
   "session": "585e670b-982c-44d4-b5f2-1ceca346163e",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-09T20:10:48.284718+00:00",
-  "last_active": "2026-11-10T06:56:07.757190+00:00",
+  "last_active": "2026-11-10T07:08:55.474765+00:00",
   "repo": "mockmob",
   "branch": "web/1110-conversion",
   "cwd_name": "wt-1110-convert",
   "task": "",
   "touched": [
-    "src/components/landing/labStory.mjs",
-    "scripts/brand/build-strip-objects.mjs",
     "src/components/landing/labStory.test.mjs",
     "src/components/landing/stripObjects.mjs",
     "src/components/landing/heroTaps.mjs",
@@ -23,7 +21,6 @@
     "src/components/landing/heroTaps.test.mjs",
     "src/components/landing/homeHero.test.mjs",
     "tmp/1110-refine/r11/hero/widths.mjs",
-    "src/components/landing/heroProof.test.mjs",
     "tmp/1110-refine/r11/hero/shoot.mjs",
     "tmp/1110-refine/r11/lab/shoot.mjs",
     "src/components/landing/keyCards.test.mjs",
@@ -52,12 +49,15 @@
     "src/app/r10-hero.css",
     "src/components/landing/homeCopy.mjs",
     "data/tests/pricing_value_1105.test.mjs",
-    "src/components/landing/HeroFilm.jsx",
     "tmp/r12/probe2.mjs",
     "src/app/hero-film.css",
     "tmp/r12/film-check.mjs",
     "tmp/r12/zoom.mjs",
     "src/app/social-proof.css",
-    "data/tests/hero_film_r7.test.mjs"
+    "src/components/landing/heroProof.test.mjs",
+    "data/tests/landing_content.test.mjs",
+    "src/components/landing/HeroFilm.jsx",
+    "data/tests/hero_film_r7.test.mjs",
+    "tmp/r12/widths.mjs"
   ]
 }
