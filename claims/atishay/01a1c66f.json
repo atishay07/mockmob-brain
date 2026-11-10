@@ -4,7 +4,7 @@
   "session": "01a1c66f-0940-7c30-92cd-f1d67caff707",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-10T17:09:18.960967+00:00",
-  "last_active": "2026-11-10T18:20:50.510984+00:00",
+  "last_active": "2026-11-10T18:31:11.065325+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
@@ -23,7 +23,6 @@
     "src/components/profile/YourSheet.jsx",
     "src/lib/server/mob/http.js",
     "src/components/profile/account.css",
-    "src/app/preview/arena/ArenaPreviewClient.jsx",
     "src/app/preview/arena/previewMob.js",
     "data/tests/mob.test.mjs",
     "tmp/1110-app/lk219-walk.mjs",
@@ -40,7 +39,14 @@
     "tmp/1110-app/lk223-design-decisions.md",
     "src/components/landing/demo-subject.css",
     "tmp/1110-app/lk223-walk.mjs",
+    "src/lib/wallet/startWalletPurchase.js",
+    "src/app/preview/arena/previewWallet.js",
+    "src/app/preview/arena/ArenaPreviewClient.jsx",
+    "data/tests/wallet_1018.test.mjs",
+    "src/app/(app)/wallet/WalletPageClient.jsx",
+    "src/app/(app)/wallet/wallet.css",
     "src/components/wallet/walletModel.mjs",
-    "src/app/(app)/wallet/WalletPageClient.jsx"
+    "tmp/1110-app/lk217-design-decisions.md",
+    "tmp/1110-app/lk217-walk.mjs"
   ]
 }
