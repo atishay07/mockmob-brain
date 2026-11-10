@@ -1,5 +1,12 @@
 # NOW: MockMob current state
 
+## 10 Nov 2026, 11:47 pm IST — Home sample loading and selection live (LK223)
+
+- On the home sample, tap Not your subject? and choose a subject. The card shows what is loading and lets you change your mind. A previously loaded alternate set can open immediately.
+- Main 4461487f5. The new build serves www.mockmob.in. The 30-question Accountancy window spans 12 chapters. No question in that checked window qualified for a past-paper label.
+- Local Chromium covered 360, 390 and 1440 in both themes with delayed responses, cancellation, cache and failure states. A signed-out production check at 390 used intercepted responses. No physical phone, iPhone Safari or signed-in production check.
+- Next is Wallet history and states, then the guide design and web onboarding.
+
 ## 10 Nov 2026, 11:19 pm IST — You and Mob profile live (LK219)
 
 - Open You and scroll to the account card. The saved name and initial lead, the credit balance opens Wallet, and the subjects read in two columns. Edit Mob profile opens the existing name and colour dialog for the displayed Mob.

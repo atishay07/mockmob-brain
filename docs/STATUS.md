@@ -1,3 +1,11 @@
+## 10 Nov 2026, 11:47 pm IST — Home sample loading and selection live (LK223)
+
+- Main 4461487f5. Preview dpl_J2A4f3UubAH8qqpgMQtonzZxq9Jx was READY before the production push. Production dpl_59Cqzg4r6E3GeTYmWsMQrG85zqvH is READY and owns www.mockmob.in.
+- Existing publication and answer checks stay in place. The selection prefers stored quality, coverage across chapters and authenticated provenance. The read-only Accountancy check returned 30 eligible questions from 12 chapters with zero signed past-paper labels. No question content was edited.
+- Landing 548/572 (12 skipped, 12 todo), app 1033/1035 (2 skipped), dock 62/63 (1 skipped), DU 43/43, Key cards UI 40/40, auth 141/141, billing 453/453, subjects 62/62. Zero release-gate failures, ESLint clean, webpack 115/115.
+- Local Chromium verified 360, 390 and 1440 in Night and Day. Signed-out production Chromium at 390 verified the sample with intercepted requests. The 15-minute Vercel check found no runtime errors on the selected routes.
+- LK217 remaining Wallet states, LK221 guide design and LK216 onboarding are open.
+
 ## 10 Nov 2026, 11:19 pm IST — You and Mob profile live (LK219)
 
 - Main 755dd31fe. Vercel preview dpl_3zm4AwRiDpZLXFuxifVdWF81ccYo was READY before the production push. Production dpl_8Q2DatvUNcU9NukxFBm2kQCxHVX2 is READY and owns www.mockmob.in.
