@@ -57,3 +57,4 @@
 - [Phone scroll is FLOW](phone-scroll-flow-model.md) — 10 Nov: touch screens flow (stage pins, native scroll, one landing per story, 0.6 hold); mouse keeps one step; knobs FLOW_SHARE and `land`; test with the bench's flow/landing/journey
 - [Create junctions with PowerShell](junction-create-with-powershell.md) — 10 Nov: mklink via Git Bash made a broken node_modules junction (C:\C:\...); use New-Item -ItemType Junction and test a file through it
 - [Weekly limit: keep working](weekly-limit-keep-working.md) — 10 Nov: never stop or shrink scope for the weekly usage figure; finish the work in hand
+- [Older-model rules not binding](older-model-rules-not-binding.md) — 10 Nov: work-style rules for earlier models (sub-agents, model choice, UI procedures) do not bind the newest model; taste evidence and safety facts still do
