@@ -4,18 +4,12 @@
   "session": "896125b8-1f9e-4660-b761-2d31487746ee",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-10T08:50:58.625710+00:00",
-  "last_active": "2026-11-10T19:31:55.869373+00:00",
+  "last_active": "2026-11-10T19:43:14.588724+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "src/app/(app)/dashboard/practice.css",
-    "tmp/1110-app/tour.mjs",
-    "tmp/1110-app/compass-walk.mjs",
-    "src/components/study/StudyChapterSummary.jsx",
-    "src/components/feed/UploadForm.jsx",
-    "src/components/arena/first-time.css",
     "tmp/1110-app/reveal.mjs",
     "src/components/pro/pro-nudge.css",
     "src/app/(app)/analytics/analytics.css",
@@ -53,6 +47,10 @@
     "src/components/guide/guidePlace.mjs",
     "src/components/guide/AppGuide.jsx",
     "src/components/guide/app-guide.css",
-    "tmp/1110-app/guide-walk.mjs"
+    "tmp/1110-app/guide-walk.mjs",
+    "src/app/onboarding/OnboardingPageClient.jsx",
+    "src/app/onboarding/OptionPicker.jsx",
+    "data/tests/app_guide_1110.test.mjs",
+    "tmp/1110-app/notes-guide.md"
   ]
 }
