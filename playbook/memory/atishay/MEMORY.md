@@ -56,3 +56,4 @@
 - [Phone is the product](phone-is-the-product.md) — 10 Nov 5 am: he judges only on his phone (100% of conversions); may add/remove anything on the landing; normal swipe = one step, flick free; Round 11 spec in the brain
 - [Phone scroll is FLOW](phone-scroll-flow-model.md) — 10 Nov: touch screens flow (stage pins, native scroll, one landing per story, 0.6 hold); mouse keeps one step; knobs FLOW_SHARE and `land`; test with the bench's flow/landing/journey
 - [Create junctions with PowerShell](junction-create-with-powershell.md) — 10 Nov: mklink via Git Bash made a broken node_modules junction (C:\C:\...); use New-Item -ItemType Junction and test a file through it
+- [Weekly limit: keep working](weekly-limit-keep-working.md) — 10 Nov: never stop or shrink scope for the weekly usage figure; finish the work in hand
