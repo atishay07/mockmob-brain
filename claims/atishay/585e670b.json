@@ -4,19 +4,12 @@
   "session": "585e670b-982c-44d4-b5f2-1ceca346163e",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-09T20:10:48.284718+00:00",
-  "last_active": "2026-11-10T04:21:20.551890+00:00",
+  "last_active": "2026-11-10T04:32:05.476736+00:00",
   "repo": "mockmob",
   "branch": "web/1110-conversion",
   "cwd_name": "wt-1110-convert",
   "task": "",
   "touched": [
-    "tmp/1110-refine/sample/probe-names.js",
-    "tmp/1110-refine/hero/measure2.mjs",
-    "src/components/landing/keyCardsCopy.mjs",
-    "src/app/page.js",
-    "src/components/landing/FeatureTour.jsx",
-    "tmp/1110-refine/hero/typing.mjs",
-    "tmp/1110-refine/lab-tour/bar.mjs",
     "src/app/r10-hero.css",
     "tmp/1110-refine/hero/states.mjs",
     "src/app/r10-sample.css",
@@ -44,6 +37,14 @@
     "data/tests/hero_film_r7.test.mjs",
     "src/components/landing/CompassLadder.jsx",
     "tmp/flow2-patch.py",
-    "tmp/flow2b-patch.py"
+    "tmp/flow2b-patch.py",
+    "tmp/flow2-block.mjs",
+    "tmp/flow2-source-test.mjs",
+    "tmp/flow2-source-patch.py",
+    "tmp/bench-flow2.mjs",
+    "tmp/bench-flow2-patch.py",
+    "tmp/1110-refine/diag-flow2.mjs",
+    "tmp/bench-flick-patch.py",
+    "data/tests/one_gesture_source_1104.test.mjs"
   ]
 }
