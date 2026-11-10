@@ -4,7 +4,7 @@
   "session": "896125b8-1f9e-4660-b761-2d31487746ee",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-10T08:50:58.625710+00:00",
-  "last_active": "2026-11-10T09:44:54.719303+00:00",
+  "last_active": "2026-11-10T09:46:32.571020+00:00",
   "repo": "mockmob",
   "branch": "web/1110-conversion",
   "cwd_name": "wt-1110-convert",
@@ -39,6 +39,8 @@
     "src/app/(app)/wallet/WalletPageClient.jsx",
     "src/components/recovery/mistake-repair.css",
     "src/components/review/ReviewPage.jsx",
-    "src/components/review/review-1017.css"
+    "src/components/review/review-1017.css",
+    "tmp/1110-app/notes-you.md",
+    "tmp/1110-app/notes-review.md"
   ]
 }
