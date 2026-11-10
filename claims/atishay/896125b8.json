@@ -4,7 +4,7 @@
   "session": "896125b8-1f9e-4660-b761-2d31487746ee",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-10T08:50:58.625710+00:00",
-  "last_active": "2026-11-10T09:50:19.538672+00:00",
+  "last_active": "2026-11-10T09:51:29.255378+00:00",
   "repo": "mockmob",
   "branch": "web/1110-conversion",
   "cwd_name": "wt-1110-convert",
@@ -48,6 +48,8 @@
     "src/components/ai/ask-doors.css",
     "src/components/ai/mobi-jobs.css",
     "src/components/ai/AskMobiDoors.jsx",
-    "src/app/(app)/explore/explore.css"
+    "src/app/(app)/explore/explore.css",
+    "tmp/1110-app/notes-learn.md",
+    "src/app/(app)/AppLayoutClient.jsx"
   ]
 }
