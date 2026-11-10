@@ -1,3 +1,7 @@
+## 10 Nov 2026 (about 2:50 pm) — round 12 live: creators, sixth Pro feature, film sound and full screen
+
+- Live: main ca0991ae8 (was 79b9c49cb). Landing gate 570 tests, 545 pass, 1 old fail (LK141); eslint clean; Vercel preview READY before main; live page checked for the new figure, pictures and key. Not run: webpack build locally, a physical phone, iPhone Safari.
+
 ## 10 Nov 2026 (about 1:15 pm) — round 11 live: phone scroll v2, one Lab, five-tool tour
 
 - Live: main 79b9c49cb (commits 49b5d9ca1 scroll v2, 79b9c49cb the page); was 7c28f3ea7, rollback dpl_6cJqMnU6b1AwqjBNna1FX1KJTGdt.

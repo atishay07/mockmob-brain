@@ -1,5 +1,11 @@
 # NOW: MockMob current state
 
+## 10 Nov 2026, about 2:50 pm IST — round 12 LIVE: creators' real profiles, sixth Pro feature, film sound and full screen (main ca0991ae8; was 79b9c49cb)
+
+- His words (10 Nov, after round 11): the Pro card's five icons "feel a bit out of place ... make it six"; the proof line's profiles were blank, "pick up their profiles from Instagram", add the other creators, "remove Prathna" from the featured ones but keep her in the Instagram section; the film's first sound-on "should play from the start"; a full-screen mode for the hero film. He approved the round 11 cuts after hearing the list.
+- Done: creators re-read from Instagram on 10 Nov (du__club 208K, garima.again 28K, rahul.guides 12K, radhikagaur_055 8,814 new with reel DX11ggsyKFf, prathnajains23 180); profile pictures in public/brand/creators; featured = Garima, Radhika, Rahul (figure computes to 256K+); reel views from his screenshot (77.4K, 17.1K, 5,749, 1,364; matched to reels by the order of the reels tab); "NTA mode" is the sixth Pro feature; the first sound-on restarts the film; a full-screen key (in the picture's corner on phones, in the key row on wider screens).
+- Gate: landing 570 tests, 545 pass, 1 old fail (LK141); eslint clean; Vercel preview dpl_9eS1YsaPdtdwud4x7PJ2B5SFhqKK READY, then main; the live page serves the figure, the pictures and the key. Not checked: a physical phone, iPhone Safari full screen, leaving full screen with Escape (headless Chrome ignores it). Garima's 695 likes are from 3 Oct.
+
 ## 10 Nov 2026, about 1:15 pm IST — round 11 LIVE: consistent phone scroll, one Lab, a five-tool tour (main 79b9c49cb; was 7c28f3ea7, rollback dpl_6cJqMnU6b1AwqjBNna1FX1KJTGdt)
 
 - His words: LK191-LK198 (verbatim in ROUND-11-SPEC-2026-11-10.md). Later the same morning: "Don't worry about the weekly usage limit ... keep working until what you are doing is done" (weekly usage is no reason to stop or shrink scope).
