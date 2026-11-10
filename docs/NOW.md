@@ -1,5 +1,10 @@
 # NOW: MockMob current state
 
+## 11 Nov 2026, 12:09 am IST — Wallet history and states live (LK217)
+
+- In Wallet, Recent activity lists the four latest entries and opens older activity on request. The states and 360 px layout were checked locally. Main 97192a222 serves www.mockmob.in.
+- Checkout was exercised with a local stub. No payment, physical phone, iPhone Safari or signed-in production check. Selling is closed. Next is the guide design.
+
 ## 10 Nov 2026, 11:47 pm IST — Home sample loading and selection live (LK223)
 
 - On the home sample, tap Not your subject? and choose a subject. The card shows what is loading and lets you change your mind. A previously loaded alternate set can open immediately.

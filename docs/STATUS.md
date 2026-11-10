@@ -1,3 +1,9 @@
+## 11 Nov 2026, 12:09 am IST — Wallet history and states live (LK217)
+
+- Main 97192a222. Preview dpl_C3TRpKniUKHWaptWRRaHbvdj9Re1 was READY before production dpl_F82HMuFKG2eyZKrAhANwQjSHaWDz, which owns www.mockmob.in.
+- Billing 455/455, targeted 78/78, release gate and ESLint clean, webpack 115/115. Local Chromium verified Wallet states and a stubbed confirmed purchase with one activity entry and balance refresh retry.
+- Selling is closed. A Razorpay Test Mode purchase on an isolated preview and the owner’s decision are pending. Pack refund clawback remains open.
+
 ## 10 Nov 2026, 11:47 pm IST — Home sample loading and selection live (LK223)
 
 - Main 4461487f5. Preview dpl_J2A4f3UubAH8qqpgMQtonzZxq9Jx was READY before the production push. Production dpl_59Cqzg4r6E3GeTYmWsMQrG85zqvH is READY and owns www.mockmob.in.
