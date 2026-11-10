@@ -4,7 +4,7 @@
   "session": "01a1c66f-0940-7c30-92cd-f1d67caff707",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-10T17:09:18.960967+00:00",
-  "last_active": "2026-11-10T17:40:06.381651+00:00",
+  "last_active": "2026-11-10T17:54:19.108883+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
@@ -28,6 +28,8 @@
     "data/tests/mob.test.mjs",
     "tmp/1110-app/lk219-walk.mjs",
     "src/components/mob/MobIdentityDialog.jsx",
-    "data/tests/web_fixa_1019.test.mjs"
+    "data/tests/web_fixa_1019.test.mjs",
+    "tmp/1110-app/lk219-design-decisions.md",
+    "src/components/landing/DemoDrill.jsx"
   ]
 }
