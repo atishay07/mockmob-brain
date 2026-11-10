@@ -58,3 +58,4 @@
 - [Create junctions with PowerShell](junction-create-with-powershell.md) — 10 Nov: mklink via Git Bash made a broken node_modules junction (C:\C:\...); use New-Item -ItemType Junction and test a file through it
 - [Weekly limit: keep working](weekly-limit-keep-working.md) — 10 Nov: never stop or shrink scope for the weekly usage figure; finish the work in hand
 - [Older-model rules not binding](older-model-rules-not-binding.md) — 10 Nov: work-style rules for earlier models (sub-agents, model choice, UI procedures) do not bind the newest model; taste evidence and safety facts still do
+- [Resume sub-agents after a limit stop](resume-subagents-after-limit.md) — 10 Nov: agents cut off by the 5-h limit resume by agent id via SendMessage; 5 Fable agents burned a window in an hour; keep to 2-3
