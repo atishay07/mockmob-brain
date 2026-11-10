@@ -1,5 +1,12 @@
 # NOW: MockMob current state
 
+## 10 Nov 2026, 10:55 pm IST — Pro sheet refinement live (LK218)
+
+- In Practice, tap Smart practice, NTA mode or a locked difficulty. The sheet names the feature, shows a MockMob desk object and keeps the real price, terms and action together below the benefits.
+- Main da4555622. Preview dpl_GyFKeaiqZQuTT2VN2jmcNdaWPG9F READY before production dpl_AZYV4RFeYUpTEZuyYN9RJ56bv8rX, which owns www.mockmob.in.
+- Verified in local Chromium fixtures at 390 × 844, 360 × 740, 360 × 672 and 1440 × 900, in both themes. Physical phones, iPhone Safari and signed-in production were not checked.
+- Next in order: You and Mob identity, home sample, Wallet, guide design, web onboarding.
+
 ## 10 Nov 2026, about 10:35 pm IST — the rest of his feedback is handed off (HANDOFF-2026-11-10-FEEDBACK-REST.md, PROMPT-2026-11-10-FEEDBACK-REST.md)
 
 - He asked for a handoff and a detailed prompt for a smaller model in another window. Left, in order: the Pro pop-up graphic, the You card with even subjects and a Mob profile, the home sample (loading state, finest questions), the rest of the Wallet (selling stays closed until he tests and decides), the guide with auto-start, web onboarding polish. Nothing is half-built: main 7444fb291 is live and the working tree is clean.

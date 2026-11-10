@@ -1,3 +1,11 @@
+## 10 Nov 2026, 10:55 pm IST — Pro sheet refinement live (LK218)
+
+- Main da4555622. Preview dpl_GyFKeaiqZQuTT2VN2jmcNdaWPG9F READY; production dpl_AZYV4RFeYUpTEZuyYN9RJ56bv8rX READY and www.mockmob.in resolved to it.
+- The triggered feature and a desk object lead the sheet. The existing benefits, pricing and terms remain. Get Pro and Not now stay in view while details can scroll.
+- Gate: targeted 71/71, landing 546/570 (12 skipped, 12 todo), app 1032/1034 (2 skipped), dock 62/63 (1 skipped), DU 43/43, Key cards UI 40/40, auth 141/141, billing 453/453, subjects 62/62. Zero failures, ESLint clean, webpack 115/115.
+- Eight local Chromium cases and screenshots passed. Verified pointer taps, pricing navigation, Escape and focus return, reduced motion on the shortest viewport. No physical phone, iPhone Safari or signed-in production check.
+- Unresolved: LK219, LK223, LK217 remaining states, LK221, LK216.
+
 ## 10 Nov 2026 (about 10:20 pm IST) — owner feedback, first part live: refund words, Pro timeline, fourth tile, Accountancy note, switch place, locked levels, Wallet first screen
 
 - Live: main 7444fb291 (commits a3f239194 and 7444fb291; was becb9055b).
