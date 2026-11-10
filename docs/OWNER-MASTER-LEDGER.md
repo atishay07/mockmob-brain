@@ -890,3 +890,18 @@ Owner of this round: the app port session (c4dbd3b5), coordinating with the Key 
 | LIVE 10 Nov (main 79b9c49cb) | **LK195** NTA mode's "0/3 warnings" on the home page is not interactive ("The counter doesn't increase by doing anything. Not sure if we should keep it or remove it."). Decision: remove the counter, say the rule in words if the runner really does it. |
 | LIVE 10 Nov (main 79b9c49cb) | **LK196** "the autoplay and story-style inside [MockMob] slides have gone but there is still the play/pause button. Either remove it or, if we are keeping it, then bring back that old UI that we had." Decision: remove the key; demos play once per arrival. |
 | STANDING | **LK198** "After that I need a very finished product in every sense ... You have the authority to add or remove anything on the landing page. The goal is to make it the best for conversion and converting students into paying customers". Newer than "never cut" for the landing page: remove repeats, keep each feature's best demo once. |
+
+## Signed-in phone UI, themes and consistency, 10 Nov 2026 about 3 pm (LK199-LK206; verbatim in HANDOFF-2026-11-10-APP-REFINE.md; prompt in PROMPT-2026-11-10-APP-REFINE.md)
+
+| Status | Item |
+|---|---|
+| OPEN (handed off, not started) | **LK199** "refine the mobile UI after logging in, basically the practice arena UI/UX": placement and clarity on a phone; many passes have not got there. |
+| OPEN (handed off) | **LK200** Day and Night: "how to properly give them to the user"; the top switch "has been replaced with Ask [Mobi]"; the home page pop-up is gone on phones; Night "still gives kind of an AI slop vibe"; Day is weaker. |
+| OPEN (handed off) | **LK201** "refine each and every feature more, like the mob feature." |
+| OPEN (handed off) | **LK202** "In the profile pop-up the sign-out button is repeated." |
+| OPEN (handed off) | **LK203** "The light/dark mode transition can be refined." |
+| OPEN (handed off) | **LK204** "The texture of the background on the hero section and overall landing page can be made a bit more defined." |
+| OPEN (handed off) | **LK205** /pricing "is already like a 9/10 but some areas can be improvised and a few things can be added." |
+| OPEN (handed off) | **LK206** Hero creator pictures: Garima first, Radhika second, Rahul third (hero only): "the first circle one is the most recognizable and it's not cut out, you have to think about such things yourself." |
+| STANDING | **LK207** Work-style instructions written for older models (sub-agents, specific ways of working, UI/UX procedures) do not apply to the newest model: "You are free to use your own thinking ... the entire codebase is yours." Weekly usage is no reason to stop (same day). |
+

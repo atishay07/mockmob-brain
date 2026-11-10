@@ -1,5 +1,9 @@
 # NOW: MockMob current state
 
+## 10 Nov 2026, about 3:15 pm IST — next task handed off, not started (LK199-LK207)
+
+- The owner approved rounds 11 and 12, then asked for a pass on the signed-in phone UI (the arena), a clear Day/Night choice, each feature deeper (the Mob), named inconsistencies (Sign out twice, theme transition, landing texture), /pricing from 9 to 10, and the hero pictures reordered (Garima, Radhika, Rahul). This account is at 94% weekly, so he asked for a handoff and a prompt for a new account instead of the work: HANDOFF-2026-11-10-APP-REFINE.md and PROMPT-2026-11-10-APP-REFINE.md. Nothing of it is built.
+
 ## 10 Nov 2026, about 2:50 pm IST — round 12 LIVE: creators' real profiles, sixth Pro feature, film sound and full screen (main ca0991ae8; was 79b9c49cb)
 
 - His words (10 Nov, after round 11): the Pro card's five icons "feel a bit out of place ... make it six"; the proof line's profiles were blank, "pick up their profiles from Instagram", add the other creators, "remove Prathna" from the featured ones but keep her in the Instagram section; the film's first sound-on "should play from the start"; a full-screen mode for the hero film. He approved the round 11 cuts after hearing the list.
