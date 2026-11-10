@@ -4,17 +4,12 @@
   "session": "896125b8-1f9e-4660-b761-2d31487746ee",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-10T08:50:58.625710+00:00",
-  "last_active": "2026-11-10T14:41:10.220506+00:00",
+  "last_active": "2026-11-10T14:52:26.578083+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "tmp/1110-app/learn-run.mjs",
-    "src/app/(app)/progress/progress.css",
-    "src/components/profile/account.css",
-    "src/components/result/traps-later.css",
-    "src/components/profile/SetPasswordCard.jsx",
     "src/components/recovery/result.css",
     "src/app/(app)/profile/ProfilePageClient.jsx",
     "src/components/du/TodayCompass.jsx",
@@ -48,7 +43,6 @@
     "src/components/account/AccountPopover.jsx",
     "src/components/account/account-popover.css",
     "src/app/marketing-theme.css",
-    "src/components/ThemeToggle.jsx",
     "data/tests/help_faq.test.mjs",
     "data/tests/web_fixb_1019.test.mjs",
     "data/tests/you_account.test.mjs",
@@ -58,6 +52,12 @@
     "tmp/1110-app/montage.py",
     "src/components/mob/mob.css",
     "tmp/1110-app/notes-pricing.md",
-    "tmp/1110-app/notes-mob.md"
+    "tmp/1110-app/notes-mob.md",
+    "src/lib/social.js",
+    "src/components/landing/HeroProof.jsx",
+    "src/app/r10-hero.css",
+    "src/components/landing/heroProof.test.mjs",
+    "tmp/1110-app/land.mjs",
+    "src/components/ThemeToggle.jsx"
   ]
 }
