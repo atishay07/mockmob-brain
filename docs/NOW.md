@@ -1,5 +1,11 @@
 # NOW: MockMob current state
 
+## 10 Nov 2026, about 5:15 am IST — his phone look at round 10 (LK191-LK198); round 11 specified, scroll fix in progress
+
+- His words (verbatim in ROUND-11-SPEC-2026-11-10.md): flow is the right direction but normal swipes are uneven ("skips too much or too little", worst in What's inside MockMob); flicks running on is fine; not held. Merge the Mistake Lab and the Score Recovery Lab (same feature, two sections). The "0/3 warnings" on the exam screen is not interactive. The tour's play/pause key has no autoplay behind it: remove it or bring back the story UI. More marketing thinking; the phone is the product (100% of conversions); he gives authority to add or remove anything on the landing page; he wants a finished product.
+- Decided (the spec has the build detail): scroll v2 = a normal swipe is exactly one step, a flick is free, longer steps; one Lab of five scenes (Chapters, Time, Changes, Repair, Plan), the Recovery section and its three repeat tour slides go; the tour becomes "More inside MockMob" with five tools and no play key; the warnings pill goes; exam screen moves above the DU tools; hero key gets "No card needed"; a creators proof line under the hero keys.
+- State: live is still round 10 (main 7c28f3ea7). Session 585e670b's context window was 92% full and weekly usage 87% when this was written, so the work continues from the spec (this session after compaction, or a new one with the spec as its brief). No large agent swarm at this usage.
+
 ## 10 Nov 2026, about 4:30 am IST — round 10 LIVE: landing taste refinement and the phone scroll decision (main 7c28f3ea7, dpl_6cJqMnU6b1AwqjBNna1FX1KJTGdt; was 5dbcea349, rollback dpl_F112hcu3ezRJratCkZem1eQMpYSm)
 
 - His words (10 Nov, three messages; ledger LK185-LK190): a polish and conversion pass; then "take it deeper ... more as a UI/UX refinement and design taste refinement ... When you are satisfied ... commit the site and deploy it live" (no measuring wanted); then settle the phone scroll ("if we remove scroll, we aren't able to really show the features ... If we keep the scroll, then it feels very locked in"). Write-up: ROUND-10-LANDING-2026-11-10.md.
