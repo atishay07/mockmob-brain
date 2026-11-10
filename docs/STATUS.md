@@ -1,3 +1,11 @@
+## 10 Nov 2026, 11:19 pm IST — You and Mob profile live (LK219)
+
+- Main 755dd31fe. Vercel preview dpl_3zm4AwRiDpZLXFuxifVdWF81ccYo was READY before the production push. Production dpl_8Q2DatvUNcU9NukxFBm2kQCxHVX2 is READY and owns www.mockmob.in.
+- The card leads with the account name and initial. Add a subject is beside Edit subjects. Monthly credit breakdown remains in Wallet and Credits. The current Mob's identity is read from the existing GET action in read-only mode. Saving uses the existing PATCH.
+- Landing 546/570 (12 skipped, 12 todo), app 1033/1035 (2 skipped), dock 62/63 (1 skipped), DU 43/43, Key cards UI 40/40, auth 141/141, billing 453/453, subjects 62/62. Zero failures in the release gate. ESLint clean, webpack 115/115. Mob suite 345/352 with the same seven documented server failures.
+- Verified in local Chromium at 390 × 844 and 360 × 740 with one through five subjects, Free and Pro, Night and Day, and at 1440 × 900 in both themes. Mob edits were tested against fixtures, including validation, save and focus return. No physical phone, iPhone Safari or signed-in production check.
+- LK223, the remaining LK217 Wallet states, LK221 guide design and LK216 onboarding are open.
+
 ## 10 Nov 2026, 10:55 pm IST — Pro sheet refinement live (LK218)
 
 - Main da4555622. Preview dpl_GyFKeaiqZQuTT2VN2jmcNdaWPG9F READY; production dpl_AZYV4RFeYUpTEZuyYN9RJ56bv8rX READY and www.mockmob.in resolved to it.

@@ -1,0 +1,39 @@
+{
+  "id": "20261110T175000.424981Z-cb56699c",
+  "observed_at": "2026-11-10T17:50:00.424981+00:00",
+  "agent": "Codex (GPT-6)",
+  "task": "10 Nov app-refine feedback rest, LK218 and LK219 released, continuing in order",
+  "status": "active",
+  "done": "LK218 da4555622 live: triggered feature, existing desk object and always-visible price/actions. LK219 755dd31fe live: You name and initial, Free/Pro, Wallet balance link, two-column subjects, Mob identity and existing scoped editor. Updated live NOW, STATUS and ledger rows. The existing GET /api/mob identity mode only calls the membership read; the same PATCH edits the selected Mob.",
+  "next": "Continue item 3 LK223 from PROMPT-2026-11-10-FEEDBACK-REST.md, then Wallet states, guide design first, web onboarding. Keep release order. Dev fixture server currently 127.0.0.1:3571 using webpack.",
+  "blockers": [],
+  "evidence": [
+    "LK218 production dpl_AZYV4RFeYUpTEZuyYN9RJ56bv8rX and LK219 dpl_8Q2DatvUNcU9NukxFBm2kQCxHVX2 verified READY on www.mockmob.in in order.",
+    "Worktree wt-1110-convert, branch web/1110-conversion, commit 755dd31fe. Local notes tmp/1110-app/lk218-design-decisions.md and lk219-design-decisions.md; fixtures shots/lk218-verified and shots/lk219-verified."
+  ],
+  "touched_files": [
+    "src/components/pro/UpgradeSheet.jsx",
+    "src/components/pro/pro-nudge.css",
+    "data/tests/mob.test.mjs",
+    "data/tests/web_fixa_1019.test.mjs",
+    "src/app/(app)/profile/ProfilePageClient.jsx",
+    "src/app/preview/arena/ArenaPreviewClient.jsx",
+    "src/app/preview/arena/previewMob.js",
+    "src/components/mob/MobPage.jsx",
+    "src/components/mob/MobIdentityDialog.jsx",
+    "src/components/mob/useMob.js",
+    "src/components/profile/AccountCredits.jsx",
+    "src/components/profile/AccountMobIdentity.jsx",
+    "src/components/profile/YourSheet.jsx",
+    "src/components/profile/account.css",
+    "src/lib/server/mob/http.js",
+    "src/lib/server/mob/service.js",
+    "mockmob-brain/docs/NOW.md",
+    "mockmob-brain/docs/STATUS.md",
+    "mockmob-brain/docs/OWNER-MASTER-LEDGER.md"
+  ],
+  "verification": "Both release gates and webpack 115/115 passed. Pro sheet 8 Chromium cases with pointer, pricing link and focus. You tested 390/360 one through five subjects in Free/Pro in both themes, plus 1440 in both themes; local Mob loading/error/empty/off and edited name/colour with validation and focus return. Mob suite 345/352 with seven handoff baseline failures. No physical phone, iPhone Safari or signed-in production.",
+  "cost_and_pending_requests": "No paid model or payment requests. No direct production database writes.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}

@@ -1,5 +1,12 @@
 # NOW: MockMob current state
 
+## 10 Nov 2026, 11:19 pm IST — You and Mob profile live (LK219)
+
+- Open You and scroll to the account card. The saved name and initial lead, the credit balance opens Wallet, and the subjects read in two columns. Edit Mob profile opens the existing name and colour dialog for the displayed Mob.
+- Main 755dd31fe. Preview dpl_3zm4AwRiDpZLXFuxifVdWF81ccYo and production dpl_8Q2DatvUNcU9NukxFBm2kQCxHVX2 are READY. www.mockmob.in resolves to this production build.
+- Local Chromium covered one to five subjects in Free and Pro at 390 and 360, both themes, and Day and Night at 1440. Mob identity, editing, loading, error, no Mob and feature-off states were checked using fixtures. A physical phone, iPhone Safari and signed-in production were not checked.
+- Next is the home sample, then the remaining Wallet states, guide design and web onboarding.
+
 ## 10 Nov 2026, 10:55 pm IST — Pro sheet refinement live (LK218)
 
 - In Practice, tap Smart practice, NTA mode or a locked difficulty. The sheet names the feature, shows a MockMob desk object and keeps the real price, terms and action together below the benefits.
