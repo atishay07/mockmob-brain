@@ -4,7 +4,7 @@
   "session": "896125b8-1f9e-4660-b761-2d31487746ee",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-10T08:50:58.625710+00:00",
-  "last_active": "2026-11-10T09:55:14.266757+00:00",
+  "last_active": "2026-11-10T09:56:02.268877+00:00",
   "repo": "mockmob",
   "branch": "web/1110-conversion",
   "cwd_name": "wt-1110-convert",
@@ -40,7 +40,6 @@
     "src/components/recovery/mistake-repair.css",
     "src/components/review/ReviewPage.jsx",
     "src/components/review/review-1017.css",
-    "tmp/1110-app/notes-you.md",
     "src/components/learn2/home/learn-home.css",
     "src/components/learn2/home/__tests__/r7Webfull.test.mjs",
     "src/components/learn2/chapter/chapter.css",
@@ -50,6 +49,7 @@
     "src/app/(app)/explore/explore.css",
     "src/app/(app)/AppLayoutClient.jsx",
     "tmp/1110-app/notes-review.md",
-    "tmp/1110-app/notes-learn.md"
+    "tmp/1110-app/notes-learn.md",
+    "tmp/1110-app/notes-you.md"
   ]
 }
