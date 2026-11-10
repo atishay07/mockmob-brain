@@ -190,3 +190,6 @@ The owner's own words from prompts that set a standing rule. Newer decisions can
 
 - id: 381e9ad731 | 2026-11-09 | claude | mockmob
   > Not much of a difference but it's important to keep all this in mind, just keep running, and do whatever you can within your possibilities.
+
+- id: 13673765ff | 2026-11-10 | claude | mockmob
+  > An 8% weekly usage limit is a lot so keep working until what you are doing is done
