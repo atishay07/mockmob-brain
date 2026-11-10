@@ -1,3 +1,9 @@
+## 10 Nov 2026 (about 9:10 pm IST) — the app-refine pass live: signed-in phone screens, Night/Day switch, one Sign out, texture, /pricing
+
+- Live: main becb9055b (was ca0991ae8; rollback dpl_jgpwQVt4eiE6Cm3iAh9ZJgMf4nq4). Vercel preview dpl_FPoMfyNN9FRNCWY9hqgyZ9g3k5dq READY first, production dpl_9HAX3Y9Ta4P9YjeVwpoT5xdM8ohC.
+- Verified: landing gate 570 tests, 546 pass, 0 fail (the old LK141 failure is fixed); test:app 1,034 (1,032 pass, 2 skipped), dock 63, du 43, keycards-ui 40, auth 141, billing 453, today 146, subjects 62, recovery 642 (639 pass, 3 todo), learn 440; new tests 27; eslint clean; next build --webpack 115/115; live public pages checked after deploy (home, /pricing).
+- Unresolved: not run on a physical phone or iPhone Safari; signed-in pages checked only on the dev preview with fixtures; test:mob 7 server-side failures and test:study 1 (content gate) exist with or without this change; owner confirmations on /pricing (LK205).
+
 ## 10 Nov 2026 (about 2:50 pm) — round 12 live: creators, sixth Pro feature, film sound and full screen
 
 - Live: main ca0991ae8 (was 79b9c49cb). Landing gate 570 tests, 545 pass, 1 old fail (LK141); eslint clean; Vercel preview READY before main; live page checked for the new figure, pictures and key. Not run: webpack build locally, a physical phone, iPhone Safari.

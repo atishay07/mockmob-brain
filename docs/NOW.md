@@ -1,5 +1,14 @@
 # NOW: MockMob current state
 
+## 10 Nov 2026, about 9:10 pm IST — the app-refine pass is LIVE (main becb9055b; was ca0991ae8, rollback dpl_jgpwQVt4eiE6Cm3iAh9ZJgMf4nq4)
+
+- His brief (PROMPT-2026-11-10-APP-REFINE.md, LK199-LK207): make the signed-in product on a phone feel finished and easy; a clear Day/Night choice in the app and on the home page; each feature one level deeper (the Mob first); Sign out twice, the theme transition, the landing texture; /pricing from 9 to 10; the hero pictures reordered. Outcomes per item are in OWNER-MASTER-LEDGER.md (LK199-LK211).
+- Where he looks on his phone: after login, the top bar (the "mo" mark, Ask Mobi, the sun and moon switch, credits and the person); tap the switch; tap the person for the sheet with one Sign out. Then Mob, Colleges (from You), Review, You, Wallet. Signed out: the home page's first visit note under the switch (shows once per browser; a private tab shows it again), the faint grid and grain, the three pictures under the hero keys, /pricing under the plan cards.
+- Verified before deploy: landing gate 570 tests (546 pass, 0 fail), test:app 1,034, dock 63, du 43, keycards-ui 40, auth 141, billing 453, today 146, subjects 62, recovery 642, learn 440, 27 new tests; eslint clean on every changed script file; next build --webpack 115/115; Vercel preview dpl_FPoMfyNN9FRNCWY9hqgyZ9g3k5dq READY before main; production dpl_9HAX3Y9Ta4P9YjeVwpoT5xdM8ohC. Signed-in screens were seen only through the dev preview route with fixture data, in headless Chrome at 390 x 844, 360 x 740, 360 x 672 and 1440 x 900, Night and Day.
+- Not checked: a physical phone, iPhone Safari, signed-in pages on production, the Mob explainer/live/play screens after the change. Not in the gate and failing with or without this change: test:mob (7 server-side tests), test:study (1, the content gate).
+- His to confirm on /pricing: the refund question on that page, "we reply within a day", and the items listed under LK205.
+- Working files (not shipped): wt-1110-convert/tmp/1110-app (walk.mjs, tap.mjs, land.mjs, reveal.mjs, notes-*.md from each sub-agent, FINDINGS.md, shots/).
+
 ## 10 Nov 2026, about 3:15 pm IST — next task handed off, not started (LK199-LK207)
 
 - The owner approved rounds 11 and 12, then asked for a pass on the signed-in phone UI (the arena), a clear Day/Night choice, each feature deeper (the Mob), named inconsistencies (Sign out twice, theme transition, landing texture), /pricing from 9 to 10, and the hero pictures reordered (Garima, Radhika, Rahul). This account is at 94% weekly, so he asked for a handoff and a prompt for a new account instead of the work: HANDOFF-2026-11-10-APP-REFINE.md and PROMPT-2026-11-10-APP-REFINE.md. Nothing of it is built.
