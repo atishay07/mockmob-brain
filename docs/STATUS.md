@@ -1,3 +1,9 @@
+## 13 Nov 2026 (about 1:35 am IST) — round 14: guest Ask Mobi (real model calls), the phone companion, the visual pass: web live
+
+- Live: main 38a09a4e7 (was a218cb9a4; rollback dpl_A8w9FmNKKAMmeJnknspWD5LHjuFY). New public route `POST /api/mobi/guest`, a paid model behind the runtime reservation (no user) and three database limits; worst case ₹0.13 a visitor, about ₹42 a day site-wide. Kill switch `GUEST_MOBI_ENABLED=false`.
+- Verified: test:app 1,065, landing files 280, dock 62, du 43, keycards-ui 40, auth 141, billing 455, subjects 62, today 146, learn 440, AI cap tests 26 (0 failures each); eslint clean; next build --webpack 115/115; Vercel preview READY before the first push to main. On www: a real guest question answered by curl and in the sheet at 390; the fourth-question limit was exercised on the dev server, not on production.
+- Unresolved: no physical phone, iPhone Safari or screen reader; the last two small commits (limiter option, Escape) reached main after a local build only; `ai_cap_route_coverage` now lists the guest route as a declared user-less caller (the CTO should know); guest replies can state CUET facts wrongly.
+
 ## 13 Nov 2026 (about 12:15 am IST) — round 13: the home page's motion, Mobi on the scroll, Ask Mobi on the sample: web live
 
 - Live: main a218cb9a4 (dpl_A8w9FmNKKAMmeJnknspWD5LHjuFY READY, aliased to www.mockmob.in); was 766eb6da9 (rollback dpl_CKT48CAQJP3fESpAJbLWEaPiu2KD). The app is unchanged (1.0.23+21).
