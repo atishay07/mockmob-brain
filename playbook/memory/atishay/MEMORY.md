@@ -62,3 +62,5 @@
 - [Hero film: Fable only](hero-film-fable-only.md) — 12 Nov: film edits by the main session only, no sub-agents; Sonnet agents fine for bug fixes and minor adjustments elsewhere
 - [Resume sub-agents after a limit stop](resume-subagents-after-limit.md) — 10 Nov: agents cut off by the 5-h limit resume by agent id via SendMessage; 5 Fable agents burned a window in an hour; keep to 2-3
 - [Bash heredoc apostrophes](bash-heredoc-apostrophes.md) — 13 Nov: a heredoc body with apostrophes failed to parse; use Write/Edit for file content, script files for multi-step edits
+- [Guest Mobi budget](guest-mobi-budget.md) — 13 Nov: real AI for guests approved; aim Rs 0.5 a visitor, Rs 1 hard max; site-wide daily ceiling is my safeguard
+- [Visible change, build first](visible-change-build-first.md) — 13 Nov: timing-only polish read as "page looks the same"; passes must show on his phone; build first, review at the end against an 8/10 bar
