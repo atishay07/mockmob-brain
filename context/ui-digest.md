@@ -10,3 +10,6 @@ For any UI/UX work, in any project, even when nobody asked for it. The project's
 8. Motion only answers an action or shows state: ease-out, 150-350 ms, reduced motion respected, never hiding a slow flow.
 9. WCAG 2.2 AA, 44 px touch targets, visible focus, no layout shift.
 10. Done means: clicked for real with a pointer (nothing invisible covering the page), exercised in a real browser at real sizes, screenshots looked at, the slop list (section 10 of the full page) checked, and you say exactly what you verified.
+
+<!-- continuum-cook-routing -->
+For substantial reference-led visual builds or redesigns, use the cook skill (brain source: skills/cook/SKILL.md): target, render, compare, critique and iterate. Scale to the task and follow the standards above.
