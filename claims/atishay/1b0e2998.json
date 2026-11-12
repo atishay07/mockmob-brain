@@ -4,7 +4,7 @@
   "session": "1b0e2998-ac98-4f04-83cf-c78491c0f986",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-12T17:58:21.657541+00:00",
-  "last_active": "2026-11-12T19:36:29.763103+00:00",
+  "last_active": "2026-11-12T19:51:18.073083+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
@@ -41,6 +41,9 @@
     "src/app/r14-look.css",
     "tmp/1114-companion/walk.mjs",
     "src/components/landing/MobiCompanion.jsx",
-    "src/lib/server/guestMobi.js"
+    "src/lib/server/guestMobi.js",
+    "tmp/1113-motion/fix_tests.py",
+    "tmp/1113-motion/commit-r14.txt",
+    "tmp/1113-motion/fix_limits.py"
   ]
 }
