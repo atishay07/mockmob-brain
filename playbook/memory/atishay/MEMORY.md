@@ -61,3 +61,4 @@
 - [UI audit log first](ui-audit-log-first.md) — 12 Nov: read and update mockmob-brain/docs/UI-AUDIT-LOG.md before any UI look; he wants visible change, not hours of looking
 - [Hero film: Fable only](hero-film-fable-only.md) — 12 Nov: film edits by the main session only, no sub-agents; Sonnet agents fine for bug fixes and minor adjustments elsewhere
 - [Resume sub-agents after a limit stop](resume-subagents-after-limit.md) — 10 Nov: agents cut off by the 5-h limit resume by agent id via SendMessage; 5 Fable agents burned a window in an hour; keep to 2-3
+- [Bash heredoc apostrophes](bash-heredoc-apostrophes.md) — 13 Nov: a heredoc body with apostrophes failed to parse; use Write/Edit for file content, script files for multi-step edits

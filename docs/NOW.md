@@ -2,6 +2,20 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 13 Nov 2026, about 12:20 am IST — round 13: the motion pass, Mobi on the scroll, Ask Mobi on the sample: web LIVE (main a218cb9a4, dpl_A8w9FmNKKAMmeJnknspWD5LHjuFY; was 766eb6da9, rollback dpl_CKT48CAQJP3fESpAJbLWEaPiu2KD)
+
+- His brief (LK232-LK236, 12 Nov about 11:25 pm, dictated): a controlled pass on the landing's animations and UX: better animations and flows, less "ice block" (read as AI slop), Mobi integrated "using scroll graph" (read as scroll-craft, the skill in `mockmob copy/scroll-craft-main`), and maybe Mobi as a bot in the free trial without sign-up. Both readings are to confirm with him.
+- Where he looks on his phone, in page order:
+  1. "Try five CUET questions": as it scrolls in, the room settles back and Mobi comes forward. Answer the five: each tap dips, the answer lands without a hop, the next question rises in. On the result, tap "Ask Mobi what to do tonight", then the two follow-ups.
+  2. The Mistake Lab and "More inside MockMob": the small Mobi on the bottom bar's step line hops with each swipe; one Lab scene leaves before the next arrives.
+  3. Any section heading further down: it rises in quickly, with no blur.
+  4. The menu (top right): the sign-up keys arrive sooner.
+- Ask Mobi on the sample uses no AI model: the step is worked out in the browser from the five answers, and its last line says so. A Mobi that answers typed questions from guests needs his decision on a guest budget (LK236); not built.
+- Verified before deploy: test:app 1,043, landing files 271, dock 62, du 43, keycards-ui 40, auth 141, billing 455, subjects 62, today 146, learn 440, all 0 failures; eslint clean; next build --webpack 115/115; Vercel preview dpl_7WUXyyZBz5gqCkUWXCjjsBG4fz9L READY before main. In headless Chrome on the dev build at 390 x 844 and 360 x 740 (Day and Night) and 1440 x 900: timed frames of the taps and the Lab change, the whole page top to bottom, Ask Mobi with 0, 3 and 5 misses, Reduce motion (15 reveals visible and still), 0 page errors, nothing past the right edge, real-pointer hit tests on the options, the ask key and Skip. Section heights match the live site except the sample's new line (24 px).
+- Not checked: a physical phone, iPhone Safari (the desk's scroll depth needs a browser with CSS view timelines; others show the plain scene), how the new timings feel in the hand, a screen reader, tablet widths.
+- Open and his: the guest AI budget for a typed Mobi (LK236); from the audit, the seats' hop-in timing and the Lab screens' 2.4 s draw (UI-AUDIT-LOG 2a). Earlier ones stand: Wallet selling, the account-level guide flag, past-paper labels.
+- For other agents: the home page's motion is inventoried in `wt-1110-convert/tmp/1113-motion/AUDIT.md`; round 13's rules are all in `src/app/r13-motion.css`.
+
 ## 12 Nov 2026, about 9:20 pm IST — final pass: web LIVE (main 766eb6da9, dpl_CKT48CAQJP3fESpAJbLWEaPiu2KD; was 230de48e8), app 1.0.23+21 built for his upload
 
 - His brief (LK225-LK230): one final pass on the hero, the home page, the signed-in product on desktop and the app; fix weak points only; deploy the site and build the app for Play.

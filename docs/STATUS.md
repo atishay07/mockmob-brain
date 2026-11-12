@@ -1,3 +1,9 @@
+## 13 Nov 2026 (about 12:15 am IST) — round 13: the home page's motion, Mobi on the scroll, Ask Mobi on the sample: web live
+
+- Live: main a218cb9a4 (dpl_A8w9FmNKKAMmeJnknspWD5LHjuFY READY, aliased to www.mockmob.in); was 766eb6da9 (rollback dpl_CKT48CAQJP3fESpAJbLWEaPiu2KD). The app is unchanged (1.0.23+21).
+- Verified: test:app 1,043, landing files 271, dock 62, du 43, keycards-ui 40, auth 141, billing 455, subjects 62, today 146, learn 440 (0 failures each); eslint clean on page.js, components/landing and NavBar; next build --webpack 115/115; Vercel preview dpl_7WUXyyZBz5gqCkUWXCjjsBG4fz9L READY before main. On www after the deploy, headless Chrome at 390 x 844: a wrong pick, Next, a right pick and a Lab scene change with 0 page errors, nothing past the right edge, real-pointer hits on an option and Skip; Ask Mobi opened and both follow-ups answered; / /pricing /signup /login answer 200; no runtime errors in the hour.
+- Unresolved: no physical phone, no iPhone Safari (the desk's scroll depth needs CSS view timelines; other browsers show the plain scene), no screen reader, no tablet width. test:mob and test:study were not run (their old failures are unrelated). A typed Mobi for guests is not built: it needs the owner's decision on a guest AI budget (LK236).
+
 ## 12 Nov 2026 (about 9:20 pm IST) — final pass: web live, app 1.0.23+21 built
 
 - Live: main 766eb6da9 (dpl_CKT48CAQJP3fESpAJbLWEaPiu2KD); was 230de48e8. App: 1.0.23+21, c79dac51c on ui/1112-final, Desktop/MockMob-build-21.

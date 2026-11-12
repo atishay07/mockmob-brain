@@ -4,7 +4,7 @@ Living file. Started 12 Nov 2026 (about 9:45 pm IST) after the owner's words: "m
 
 **Rule for every agent doing UI work on MockMob:** read this file before capturing or reading any screen. Do not re-walk a surface marked "seen, holds" unless code under it changed after the date shown (check `git log` for the files named). When you look at something, add what you found here, with the date, the commit and the sizes you looked at. A finding without those three is not a finding.
 
-State this log describes: web `main 766eb6da9` (live, 12 Nov 2026), app `ui/1112-final c79dac51c` (version 1.0.23+21).
+State this log describes: web `main a218cb9a4` (live, 13 Nov 2026; sections 2 and 3 were walked on 766eb6da9, section 2a on a218cb9a4), app `ui/1112-final c79dac51c` (version 1.0.23+21).
 
 ---
 
@@ -62,6 +62,38 @@ Looked at on 12 Nov 2026, commit 230de48e8 then 766eb6da9: 390x844 Night (28 scr
 | /pricing, /refunds | Not re-walked 12 Nov | Reworked 10 Nov (LK212-LK214); only checked that they answer 200. |
 
 Not looked at: tablet widths (768 to 1024), iPhone Safari, a physical phone, a screen reader.
+
+### 2a. Home page motion (round 13, 13 Nov 2026, commit a218cb9a4; owner LK232-LK236)
+
+**Every animation on the home page is inventoried in `wt-1110-convert/tmp/1113-motion/AUDIT.md`** (curves and durations in use, each section's animations with trigger, timing and file:line, 26 findings, the list of loops, and exactly what Mobi does on phones and desktop). Read that before touching any motion here; do not re-derive it.
+
+Round 13's own rules are in one file, `src/app/r13-motion.css`, loaded last by `page.js`. Each block's comment says what it replaced.
+
+| Thing | State after round 13 | Notes |
+|---|---|---|
+| Section reveals (`Reveal.jsx`, `.rv`) | **Changed** | Heads: 10 px rise, 320 ms, no blur (was a 6 px blur over 800 ms from 24 px). Blocks: 12 px, 300 ms. `threshold` 0 (was 0.12, which left a blank band under tall blocks on a flick). |
+| Mistake Lab scene change | **Changed** | Out 120 ms, in 90 ms later over 220 ms (was a 420/550 ms crossfade with two scenes showing). The screens inside still take about 2 s to draw their rows (audit F19, owner's call, untouched). |
+| Sample card taps | **Changed** | Press dips to 0.985; right answer swells 1.5 %, wrong shakes 3 px; no 3 px hop; the next question's stem and options rise 6 px in sequence. Mobi's bubble: old line out in 100 ms, new one in after 110 ms. |
+| Sample result: "Ask Mobi what to do tonight" | **New** | `askMobiSample.mjs` (pure, tested). One step from the five answers, two follow-ups. No model, no network. Checked at 390 and 360, Day and Night, with 0, 3 and 5 misses. |
+| Held stories' bottom bar (phones) | **New** | The logo's Mobi (18 px) on the current step, a hop per step (`SectionPosition.jsx` `.lp-bar__mobi`). |
+| Desk scene in "Try five CUET questions" | **New** | Scroll-driven depth (CSS `animation-timeline`): room 1.08 to 1, Mobi 0.92 to 1, bubble last. Done at `contain 30%` on phones, at `entry 100%` from 1024 px. |
+| Press states | **Added** | Tour chips, pricing subject steps, Compass keys, FAQ rows, shelf links, Wall pause, hero DU link. |
+| Sticky hover on touch | **Fixed** | A tap no longer freezes the college rows or leaves the Compass demo key hovered. |
+| Key card flip | **Changed** | 480 ms on the drawer curve (was 600 ms on a slow-start curve). |
+| Phone menu | **Changed (site-wide, `nav-motion.css`)** | 260 ms an item, 25 ms apart: the sign-up keys land by 410 ms (were 640 ms). |
+| Compass sweep | **Changed** | Renders in steps of 5 points (was a render nearly every frame). |
+| Night phone dock | **Changed** | Blur 14 px, saturation 1.2 (was 20 px, 1.6). |
+| Desktop lane Mobi | **Changed** | Fades over 160 ms when he hides or shows (was one frame). |
+| Held stories' step and gesture logic, the hero film, the college marquees, seat hop-ins | **Untouched** | Owner-tuned; the audit lists facts only. |
+
+Traps found:
+- **A timed frame taken with Playwright is 50 to 100 ms later than its label** (the screenshot itself takes that long). Judge a 100 ms transition from several frames, not one.
+- **A scroll-driven animation shows a half state in a still shot** taken while the stage is entering. Compare against where a reader rests, not mid-entry.
+- The page's height differs between local and live by about 70 px in pricing (the local one-time offer wording). Section heights otherwise match; `tmp/1113-motion/heights.mjs <base>` prints them.
+
+Tools added (`wt-1110-convert/tmp/1113-motion`, Git Bash): `node check.mjs <label> 390x844 light` (timed frames of a wrong pick, Next, a right pick and a Lab scene change, plus page errors, right-edge overflow and real-pointer hit tests); `node ask.mjs <label> 390x844 light 0,1,0,0,1` (plays the sample with those picks, opens Ask Mobi, taps each follow-up); `node reduced.mjs` (Reduce motion: every reveal visible and unmoved, the desk finished).
+
+Open, from the audit, his call: seats appear at 55 % visible with an 880 ms hop (F18); Lab screens take about 2.4 s to draw (F19); the film's progress bar restyles every frame (F21, not measured).
 
 ---
 
@@ -126,3 +158,4 @@ Owner constraints that bound all of this: refine, do not rebuild (rejected restr
 ## 6. Change log of this file
 
 - 12 Nov 2026: created from the final pass (LK225-LK230).
+- 13 Nov 2026: section 2a added (round 13, the home page's motion; LK232-LK236).
