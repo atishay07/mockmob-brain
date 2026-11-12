@@ -1,5 +1,7 @@
 # NOW: MockMob current state
 
+**Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
+
 ## 12 Nov 2026, about 9:20 pm IST — final pass: web LIVE (main 766eb6da9, dpl_CKT48CAQJP3fESpAJbLWEaPiu2KD; was 230de48e8), app 1.0.23+21 built for his upload
 
 - His brief (LK225-LK230): one final pass on the hero, the home page, the signed-in product on desktop and the app; fix weak points only; deploy the site and build the app for Play.

@@ -58,5 +58,6 @@
 - [Create junctions with PowerShell](junction-create-with-powershell.md) — 10 Nov: mklink via Git Bash made a broken node_modules junction (C:\C:\...); use New-Item -ItemType Junction and test a file through it
 - [Weekly limit: keep working](weekly-limit-keep-working.md) — 10 Nov: never stop or shrink scope for the weekly usage figure; finish the work in hand
 - [Older-model rules not binding](older-model-rules-not-binding.md) — 10 Nov: work-style rules for earlier models (sub-agents, model choice, UI procedures) do not bind the newest model; taste evidence and safety facts still do
+- [UI audit log first](ui-audit-log-first.md) — 12 Nov: read and update mockmob-brain/docs/UI-AUDIT-LOG.md before any UI look; he wants visible change, not hours of looking
 - [Hero film: Fable only](hero-film-fable-only.md) — 12 Nov: film edits by the main session only, no sub-agents; Sonnet agents fine for bug fixes and minor adjustments elsewhere
 - [Resume sub-agents after a limit stop](resume-subagents-after-limit.md) — 10 Nov: agents cut off by the 5-h limit resume by agent id via SendMessage; 5 Fable agents burned a window in an hour; keep to 2-3
