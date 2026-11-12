@@ -1,0 +1,40 @@
+{
+  "id": "20261112T184536.722571Z-d1123d8f",
+  "observed_at": "2026-11-12T18:45:36.722571+00:00",
+  "agent": "claude-auto",
+  "task": "Auto-capture: claude session 1b0e2998",
+  "status": "paused",
+  "done": "Auto-captured at Stop. Turns: 3. Last message: The pass is live on www.mockmob.in. I checked it in a desktop browser at phone size (390 and 360 wide, Day and Night) and at 1440; I have not seen it on a physical phone or iPhone Safari.\n\nTwo words in your note looked like dictation slips, so I read \"ice block\" as \"AI slop\" and \"scroll graph\" as \"scroll-craft\" (the skill in your `scroll-craft-main` folder). Tell me if either is wrong.\n\nWhat to lo",
+  "next": "Unverified auto-capture. Read the session transcript and live repo state before continuing.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\1b0e2998-ac98-4f04-83cf-c78491c0f986.jsonl"
+  ],
+  "touched_files": [
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\src\\components\\landing\\askMobiSample.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\src\\components\\landing\\askMobiSample.test.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\src\\components\\landing\\heroTaps.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\src\\components\\landing\\heroTaps.test.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\src\\app\\page.js",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\src\\components\\landing\\SectionPosition.jsx",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\src\\components\\landing\\DemoDrill.jsx",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\src\\components\\landing\\demo-subject.css",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1113-motion\\AUDIT.md",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\src\\app\\r13-motion.css",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1113-motion\\apply_js.py",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1113-motion\\check.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1113-motion\\reduced.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1113-motion\\heights.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1113-motion\\commit-msg.txt",
+    "C:\\Users\\atish\\mockmob-brain\\docs\\OWNER-MASTER-LEDGER.md",
+    "C:\\Users\\atish\\mockmob-brain\\docs\\UI-AUDIT-LOG.md",
+    "C:\\Users\\atish\\mockmob-brain\\docs\\NOW.md",
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\memory\\bash-heredoc-apostrophes.md",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1113-motion\\ask.mjs",
+    "C:\\Users\\atish\\mockmob-brain\\docs\\STATUS.md"
+  ],
+  "verification": "auto-captured by hook; not agent-verified",
+  "cost_and_pending_requests": "unknown; hook does not see provider receipts",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
