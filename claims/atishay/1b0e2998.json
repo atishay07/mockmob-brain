@@ -4,7 +4,7 @@
   "session": "1b0e2998-ac98-4f04-83cf-c78491c0f986",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-12T17:58:21.657541+00:00",
-  "last_active": "2026-11-12T19:05:22.549643+00:00",
+  "last_active": "2026-11-12T19:16:15.787967+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
@@ -25,6 +25,18 @@
     "tmp/1113-motion/reduced.mjs",
     "tmp/1113-motion/heights.mjs",
     "tmp/1113-motion/commit-msg.txt",
-    "tmp/1113-motion/ask.mjs"
+    "tmp/1113-motion/ask.mjs",
+    "src/components/landing/companionModel.mjs",
+    "src/components/landing/companionModel.test.mjs",
+    "src/app/r14-look.css",
+    "src/components/landing/MobiCompanion.jsx",
+    "src/app/r14-companion.css",
+    "src/services/ai/providers.js",
+    "package.json",
+    "src/app/api/mobi/guest/route.js",
+    "tmp/1114-companion/walk.mjs",
+    "data/tests/guest_mobi.test.mjs",
+    "src/lib/server/guestMobi.js",
+    "src/components/landing/AskMobiSheet.jsx"
   ]
 }
