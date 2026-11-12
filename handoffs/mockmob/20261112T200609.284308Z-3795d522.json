@@ -1,0 +1,42 @@
+{
+  "id": "20261112T200609.284308Z-3795d522",
+  "observed_at": "2026-11-12T20:06:09.285308+00:00",
+  "agent": "claude-fable-5.2 (session 1b0e2998)",
+  "task": "Round 14 (LK237-LK241): real Ask Mobi for guests with a per-visitor budget, Mobi as the phone scroll companion, the visual slop pass; deployed live",
+  "status": "complete",
+  "done": "LIVE on www.mockmob.in: main 38a09a4e7 (production dpl_HVKC1RyErDXQVvTH5xS8BnewnNjb READY; was a218cb9a4, rollback dpl_A8w9FmNKKAMmeJnknspWD5LHjuFY). Owner's verdict on round 13: \"the entire landing page looks the same\"; he ordered the full guest Ask Mobi (aim Rs 0.5 a visitor, Rs 1 at most), Ask Mobi at the front, a phone scroll companion and a visual slop pass. Shipped: (1) POST /api/mobi/guest (src/lib/server/guestMobi.js): 3 questions a visitor, real model replies (cheapest allowed model, one attempt, 220 output tokens), guarded by the runtime reservation without a user plus three database limits (visitor 3 in 24 days by signed cookie id; network 12 a day; site 1,000 a day or GUEST_MOBI_DAILY_CALLS); worst case Rs 0.042 a call, Rs 0.13 a visitor, about Rs 42 a day site-wide; kill switch GUEST_MOBI_ENABLED=false. Production has no PERSISTENT_LIMITS_ENABLED, so rateLimit.js got an option `persistent: true` that this route uses in production. providers.js exports callProviderOnce. (2) AskMobiSheet (bottom sheet, opened by window event mm:ask-mobi) from the hero strip's Ask Mobi row, the companion and the sample result's key (falls back to the local plan). (3) MobiCompanion on phones: 56 px Mobi on the dock edge, leans with scroll, pose by section, steps out when another Mobi is on screen, tap opens Ask Mobi, one 3 s hello a session. (4) r14-look.css: hero strip two unboxed columns, ten boxes and one gradient removed, seat captions plain text, three larger headings.",
+  "next": "Owner looks on his phone: hero feature list and its Ask Mobi row, the small Mobi on the bottom bar from the college strip on, the sheet with a typed question, the sample result's key. He still has to say which \"inaccurate depictions\" he meant. For the CTO: a new public route calls a paid model with no user (declared in data/tests/ai_cap_route_coverage.test.mjs); rateLimit.js has the new `persistent` option; consider setting PERSISTENT_LIMITS_ENABLED in production. Known small things: the tucked companion's head can sit over a reel card or FAQ row edge; the site-wide ceiling of 1,000 guest calls a day is the agent's safeguard, the owner's to change.",
+  "blockers": [],
+  "evidence": [
+    "commits b46df9e9a, cbda45fd4, 38a09a4e7 on origin/main (branch web/1113-r14)",
+    "Vercel preview dpl_5gDcuPH8MQ7DSzGMcJRwotiqmHvG READY before the first push to main; production dpl_HVKC1RyErDXQVvTH5xS8BnewnNjb READY",
+    "production curl: POST /api/mobi/guest answered 200 with a real reply and left 2",
+    "live proof image: Desktop/mockmob copy/captures/round13/live-round14.jpg",
+    "screens: wt-1110-convert/tmp/1114-ask/shots, tmp/1114-companion/shots, tmp/1114-look",
+    "brain docs: NOW.md (round 14 block), OWNER-MASTER-LEDGER.md (LK237-LK241), UI-AUDIT-LOG.md (2b), STATUS.md"
+  ],
+  "touched_files": [
+    "src/app/api/mobi/guest/route.js (new)",
+    "src/lib/server/guestMobi.js (new)",
+    "src/lib/server/rateLimit.js",
+    "src/services/ai/providers.js",
+    "src/components/landing/AskMobiSheet.jsx (new)",
+    "src/components/landing/ask-sheet.css (new)",
+    "src/components/landing/MobiCompanion.jsx (new)",
+    "src/components/landing/companionModel.mjs (new)",
+    "src/app/r14-companion.css (new)",
+    "src/app/r14-look.css (new)",
+    "src/app/page.js",
+    "src/components/landing/DemoDrill.jsx",
+    "src/components/landing/demo-subject.css",
+    "src/components/landing/heroTaps.mjs",
+    "src/components/landing/HeroBeatStrip.jsx",
+    "data/tests/guest_mobi.test.mjs (new)",
+    "data/tests/ai_cap_route_coverage.test.mjs",
+    "package.json"
+  ],
+  "verification": "test:app 1,065, landing files 280, dock 62, du 43, keycards-ui 40, auth 141, billing 455, subjects 62, today 146, learn 440, AI cap tests 26: 0 failures; eslint clean; next build --webpack 115/115 (alone; one run crashed while captures ran). Guest route by curl on dev: real answer, off-topic refusal, injection refusal, fourth question 429, bad bodies 400. On www at 390 Night: sheet opened from the strip, a real reply, companion present, 0 page errors, no overflow. NOT checked: a physical phone or its keyboard, iPhone Safari, screen reader, tablet widths, the visitor limit on production, factual accuracy of replies beyond a few questions; the last two commits went to main after a local build only.",
+  "cost_and_pending_requests": "Guest model calls during build and checks: about 12 (under Rs 1). Helpers: three Opus agents (about 320K, 250K and 260K tokens). Vercel: 5 builds.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}

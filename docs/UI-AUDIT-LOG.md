@@ -95,6 +95,23 @@ Tools added (`wt-1110-convert/tmp/1113-motion`, Git Bash): `node check.mjs <labe
 
 Open, from the audit, his call: seats appear at 55 % visible with an 880 ms hop (F18); Lab screens take about 2.4 s to draw (F19); the film's progress bar restyles every frame (F21, not measured).
 
+### 2b. Home page, round 14 (13 Nov 2026, commit 38a09a4e7; owner LK237-LK241)
+
+His verdict on round 13: "the entire landing page looks the same". Timing changes do not count as visible change for him. Round 14 is the visible one.
+
+| Thing | State | Notes |
+|---|---|---|
+| Hero feature strip (phones) | **Changed** | Two unboxed columns under one hairline (was six stacked rows in a bordered card, about 455 px; now about 334 px at 390). Its "Ask Mobi" row reads "Ask a question. No sign-up." and opens the sheet. |
+| Boxes | **Removed** | Hero DU link tray, Compass Pro aside, Compass score box, exam NTA note, Key cards bank line, pricing's six tiles and "usual way" panel, Instagram numbers, the tour's "Up next" box, the FAQ band's gradient. All in `src/app/r14-look.css`, each block commented. Left by the owner's earlier word: college chips, the "Or start on Free" panel, the Pro glass card. |
+| Mobi's seat captions | **Changed** | Plain ink-2 text, no pill or tail (DU, pricing, close). |
+| Headings on phones | **Changed** | The sample, Mistake Lab and pricing h2 are 34 px with 48 px above; the rest stay 28 px. |
+| Phone scroll companion | **New** | `MobiCompanion.jsx`, `r14-companion.css`, `companionModel.mjs` (tested). Below 900 px: 56 px Mobi on the dock's top edge, leans with scroll speed, pose by section, steps out when the desk Mobi, a seat, the film or a held story's bar is on screen, tucks to a 26 px head when a control is under him. A tap opens Ask Mobi. One 3 s hello bubble a session. Known: tucked, his head can sit over a reel card's or FAQ row's top edge; he reaches a rising dock about 120 ms before it. |
+| Ask Mobi sheet | **New** | `AskMobiSheet.jsx`, `ask-sheet.css`, opened by the window event `mm:ask-mobi` (strip row, companion, sample result). Real replies from `POST /api/mobi/guest`; three questions a visitor; falls back to the local plan (`askMobiSample.mjs`) for the result's question if the server cannot answer. Checked at 390 and 360 Night and Day and 1440 (Day, 360 and 1440 with mocked replies). |
+
+Capture tools added: `tmp/1114-ask/sheet.mjs`, `tmp/1114-companion/walk.mjs`, `tmp/1114-look/` (before/after montages), `tmp/1113-motion/live14.mjs` (the live sheet and companion; spends one real guest call).
+
+Traps: running captures and `next build` together crashed a build worker once (exit 3221226505); build alone. Production does not set `PERSISTENT_LIMITS_ENABLED`: a route that must have the database limiter passes `persistent: true`.
+
 ---
 
 ## 3. Signed-in website (the arena)
