@@ -1,3 +1,9 @@
+## 12 Nov 2026 (about 9:20 pm IST) — final pass: web live, app 1.0.23+21 built
+
+- Live: main 766eb6da9 (dpl_CKT48CAQJP3fESpAJbLWEaPiu2KD); was 230de48e8. App: 1.0.23+21, c79dac51c on ui/1112-final, Desktop/MockMob-build-21.
+- Verified: web suites and build as in NOW.md (0 new failures; test:mob keeps its 7 old server-side failures); live checks on www. App: Checked: flutter analyze clean; unit folders account_sheet, core/router, core_ui, credits, a11y, you, today (1,460), test/widget (365) and the welcome tests (74) pass; 130 reference images re-recorded and their suites pass (324); the bundle and the APK carry the upload key (SHA-256 62:AC:58:08...EC:47) and pass the 16 KB check; on the emulator, the signed-in screens in the demo build (Night and Day) and the release build itself, installed over version 16: opening screen, welcome, the class, course and college steps.
+- Unresolved: no physical phone, no iPhone Safari, no signed-in production pages; the desktop test-taking screen not seen in this pass. App: a physical phone; a sign-in in the release build; the first-run flow after the college step on a device; the whole unit and golden folders in one run (old drift remains in the credits, start sheet, art scenes, today_resume and share-card reference images; the credits ones fail without these changes too). Debug builds of the real app stop on the opening screen (provider cycle caught by a debug-only check; release unaffected).
+
 ## 11 Nov 2026 (about 1:29 am IST) — the guide and web onboarding live
 
 - Live: main 230de48e8 (was 97192a222). Verified: landing gate 572 (0 fail), app 1,035, dock 63, du 43, keycards-ui 40, auth 141, billing 455, subjects 62, today 146, guide and onboarding 57; eslint clean; next build --webpack 115/115; preview READY before main.
