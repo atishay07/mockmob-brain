@@ -4,7 +4,7 @@
   "session": "1b0e2998-ac98-4f04-83cf-c78491c0f986",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-12T17:58:21.657541+00:00",
-  "last_active": "2026-11-12T18:24:21.016370+00:00",
+  "last_active": "2026-11-12T18:34:47.308098+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
@@ -14,11 +14,16 @@
     "src/components/landing/askMobiSample.test.mjs",
     "src/components/landing/heroTaps.mjs",
     "src/components/landing/heroTaps.test.mjs",
-    "src/app/r13-motion.css",
     "src/app/page.js",
     "src/components/landing/SectionPosition.jsx",
     "src/components/landing/DemoDrill.jsx",
     "src/components/landing/demo-subject.css",
-    "tmp/1113-motion/AUDIT.md"
+    "tmp/1113-motion/AUDIT.md",
+    "src/app/r13-motion.css",
+    "tmp/1113-motion/apply_js.py",
+    "tmp/1113-motion/check.mjs",
+    "tmp/1113-motion/reduced.mjs",
+    "tmp/1113-motion/heights.mjs",
+    "tmp/1113-motion/commit-msg.txt"
   ]
 }
