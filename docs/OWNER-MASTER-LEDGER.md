@@ -978,7 +978,7 @@ Verbatim, second message: "I saw what you have done with the Asmo. I don't know 
 | Status | Item |
 |---|---|
 | STANDING | **LK237** Round 13 read to him as "the entire landing page looks the same": timing changes are not visible change. A pass he asks for must show on his phone within the first screens. Build first, look at the end; do not spend the time reading and looking. |
-| STATUS-R14 | **LK238** The full Ask Mobi for visitors who have not signed up, with real model calls. **Budget, his words:** ₹1 a visitor is the upper limit; aim for ₹0.5 a visitor. |
-| STATUS-R14 | **LK239** Ask Mobi "at the front": reachable from the home page without answering the five questions. |
-| STATUS-R14 | **LK240** Mobi as a scroll companion on phones, "thoughtful and elegant", not cluttered. This lifts the earlier rule that the phone bar carries no Mobi (W-074 stays as "one Mobi in view"). |
-| STATUS-R14 | **LK241** The visual slop pass ("visuals flop pass"): the page must look visibly more deliberate; tasteful, no clutter. Self-review bar: 8 of 10 or more on each of his criteria before it is called done. |
+| LIVE 13 Nov (main 38a09a4e7) | **LK238** The full Ask Mobi for visitors who have not signed up, with real model calls. **Budget, his words:** ₹1 a visitor is the upper limit; aim for ₹0.5 a visitor. |
+| LIVE 13 Nov (main 38a09a4e7) | **LK239** Ask Mobi "at the front": reachable from the home page without answering the five questions. |
+| LIVE 13 Nov (main 38a09a4e7) | **LK240** Mobi as a scroll companion on phones, "thoughtful and elegant", not cluttered. This lifts the earlier rule that the phone bar carries no Mobi (W-074 stays as "one Mobi in view"). |
+| LIVE 13 Nov (main 38a09a4e7) | **LK241** The visual slop pass ("visuals flop pass"): the page must look visibly more deliberate; tasteful, no clutter. Self-review bar: 8 of 10 or more on each of his criteria before it is called done. |
