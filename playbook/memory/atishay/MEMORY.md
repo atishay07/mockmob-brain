@@ -65,3 +65,4 @@
 - [Guest Mobi budget](guest-mobi-budget.md) — 13 Nov: real AI for guests approved; aim Rs 0.5 a visitor, Rs 1 hard max; site-wide daily ceiling is my safeguard
 - [Visible change, build first](visible-change-build-first.md) — 13 Nov: timing-only polish read as "page looks the same"; passes must show on his phone; build first, review at the end against an 8/10 bar
 - [Build features before audits](build-features-before-audits.md) — 15 Nov: he wanted new things built, got audit and fixes; features in the first wave, decide small things myself, list every plan item in updates
+- [Bold, branded, not safe](bold-brand-not-safe.md) — 16 Nov: quiet Daily Five ticket rejected; big blocks in MockMob's own identity, more room, conversion first, state each feature's rhythm plainly
