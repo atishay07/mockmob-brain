@@ -4,7 +4,7 @@
   "session": "9a8783fe-6028-4b9c-8481-d1ef284b0368",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-15T14:08:51.003506+00:00",
-  "last_active": "2026-11-15T16:02:54.148147+00:00",
+  "last_active": "2026-11-15T16:26:35.458012+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
@@ -16,6 +16,15 @@
     "src/lib/server/latePapers.js",
     "src/lib/server/mob/deps.js",
     "data/tests/runner_paper_safety.test.mjs",
-    "data/tests/late_paper_1115.test.mjs"
+    "data/tests/late_paper_1115.test.mjs",
+    "data/tests/full_together_charge_1020.test.mjs",
+    "data/tests/paper_copy.test.mjs",
+    "src/lib/server/dailyFiveAccount.js",
+    "src/lib/server/dailyFiveDeps.js",
+    "data/tests/daily_five_account_1115.test.mjs",
+    "src/app/api/daily/route.js",
+    "tmp/1115-prod/durable-sessions-ready.md",
+    "src/lib/sundayMock.mjs",
+    "tmp/1115-prod/SESS-FOLLOWUP.md"
   ]
 }
