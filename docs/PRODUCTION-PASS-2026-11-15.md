@@ -99,3 +99,26 @@ and alone.
 ## 4. Record
 
 (appended as waves merge and ship)
+
+### 15 Nov, from about 7:40 pm IST (Opus orchestrator, second half)
+
+- Live check: production `6472026f0` (parent pay) is READY (`dpl_FrLEwppYrcbQLF99CvqrRt1eNbST`); `/`, `/pricing`, `/daily`,
+  `/signup`, `/api/daily?day=1` answer 200.
+- Gate on `6472026f0`: all 24 suites green (app 1,237, auth 191, billing 514, Mob 368, learning 377, recovery 646, keycards
+  127, today 146, learn 440, NTA 234, study 62 after restoring the WordNet licence file's LF), eslint clean, `next build
+  --webpack` 116/116.
+- The five red tests outside the scripts, traced (commit `37f917b1b`): `web_r4_nav_1105` A5 followed the F2 start key (15 Nov),
+  `home_sections_r4_1105` followed the round 13 and 14 sheets (13 Nov), `funnel_calls` followed the L4 start routing (15 Nov),
+  `round5_completion` followed the 5 to 999 minute goals (20 Oct): each now checks the new code. `landing_checklist_1104`
+  L-040 was real: Ask Mobi's visual-viewport scroll listener (13 Nov) is now passive.
+- Cleaned: 16 merged lane worktrees removed (junctions unlinked first; the shared `node_modules` checked intact), their
+  captures kept in `wt-1110-convert/tmp/1115-prod/lane-shots/`; `.next` and `.next-dev` deleted.
+- Not done: removing `chart.js` and `react-chartjs-2` (npm's lock-only uninstall also rewrites unrelated optional entries;
+  do it with the Next 16.3 upgrade, which needs a real install anyway).
+- Wave 1 started (four lanes, own worktrees and ports): Daily Five as a habit (`wt-1115-daily`, 3581), the DU data check then
+  cutoff pages (`wt-1115-w2-b`, 3582), the Sunday Mock (`wt-1115-sunday`, 3583), small fixes B11, "course" wording, Open in
+  Chrome on `/signup`, Back with the NTA warning open, unused CloseSheet (`wt-1115-small`, 3584, Sonnet).
+- Decided by me (his "decide small things"): the Sunday Mock is free for every signed-in student, one sitting per subject a
+  week; its answer key opens when the window closes at 10:00 pm; it shows how many sat it and, from 30 sitters, the share
+  right per question, with no rank. The Daily Five goes in the public site's top bar, not the signed-in dock (its item count
+  is his). The Daily Five's "how everyone did" line appears from 30 saved answers per question.
