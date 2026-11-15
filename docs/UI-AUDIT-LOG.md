@@ -128,7 +128,7 @@ Desktop, looked at on 12 Nov at 1440x900 (all views), 1366x768 and 1920x1080 (si
 | Your papers, You, Marks trend, Colleges, Ask Mobi, Explore, Saved, Your standing, Revise | Seen, hold | Two columns where it makes sense. |
 | Learn, Key cards | **Fixed 12 Nov** | Were centred (titles at x 317 and 352 against 252 everywhere else); now `margin-inline: 0 auto`. |
 | Mob (the den) | **Fixed 12 Nov** | Members and settings side by side from 1100 px (`mob.css`, `:has`). The den scene itself uses the width well. |
-| Wallet, Progress, practice result | Seen, acceptable. **Open candidates** | One 960 px column each. Not broken; a two-column desktop layout would be a real gain if desktop work is wanted. |
+| Wallet, Progress, practice result | **Two columns from 1100 px, 16 Nov** (e137d3575) | Left column sticky (score and the next step; the balance; the weeks), right column scrolls; one column while Ask Mobi is docked. Seen at 1440 Day and Night, 1366, 1100. Captures: `wt-1116-desk/tmp/1116-shots/desk/final`. Minor: 1100 to 1180 px, "/ 250 marks" wraps under the score. |
 | Guide, Pro sheet, account pop-over | Not re-walked 12 Nov | Checked at 1440 on 10 and 11 Nov. |
 | Test-taking screen | **Not seen** | See the trap above. The landing's exam section shows the same component. |
 
@@ -181,7 +181,8 @@ reported), `widths.mjs`, `pages.mjs`, `merged.mjs`. Fixture: `/preview/daily?dai
 Traps: the home page's sections measure differently before they are scrolled near (content-visibility), so compare section
 heights on production in the same browser, before and after; the in-app browser pane does not run timers or observers until
 a frame is drawn, so a clock can look empty in its first screenshot; a first visit's block shows the open state for one
-frame before this device's record is read. Open: the other loading states listed in lane load's report (nine button
+frame before this device's record is read. Badges (16 Nov, 91f8f8aaf): one family of stamped marks, three states, the earning moment in the result page and Today; dev sheet of every mark at `/preview/badges`; captures `wt-1116-badges/tmp/1116-shots/badges`. Tablet walk (768x1024, 1024x768, Day, 20 views): nothing past the edge or under the dock.
+Open: the other loading states listed in lane load's report (nine button
 spinners, two skeleton shimmers, the sign-in wait shown to signed-out visitors); the Sunday page's key is quiet by choice.
 
 ## 4. Android app (1.0.23+21)
