@@ -1,0 +1,27 @@
+{
+  "id": "20261115T181219.422312Z-8d14e7d6",
+  "observed_at": "2026-11-15T18:12:19.422312+00:00",
+  "agent": "claude-opus-5.5 (session 9a8783fe)",
+  "task": "Production pass before marketing, continued (owner, 15-16 Nov 2026): held items fixed and shipped; stopped at 90%+ usage",
+  "status": "paused",
+  "done": "LIVE main 6858ccef5: payment fixes 8817b82d6, Sunday draw and small UI fbdf9912b, late papers and durable start race 6858ccef5 (all reviewed, gated, checked live). Earlier tonight: Daily Five habit, Sunday Mock, DU cutoff pages, small fixes, emails built off. Owner tested ask-a-parent-to-pay for real: paid, Pro activated.",
+  "next": "Read mockmob-brain/docs/HANDOFF-2026-11-15-NIGHT.md last two sections. 1) Ship first paint: web/1115-prod acc95ac67 (pushed as branch, not main): run the gate, push to main, compare live / at 390 Day against the recorded baseline, roll back to dpl_Het1EhstDtjofTqpxr1A4FB57YsW on any difference. 2) Owner's new brief: redesign the Daily Five's placement on the landing and the whole /daily UI and flow (study daily-puzzle sites), a thin top progress bar, lighter smaller loading everywhere including the entry loader; build and ship.",
+  "blockers": [
+    "Usage above 90% on this account",
+    "Owner SQL: late-paper cohort and Mob hours migrations; email migration, consent line and privacy page before EMAILS_ENABLED"
+  ],
+  "evidence": [
+    "mockmob-brain/docs/HANDOFF-2026-11-15-NIGHT.md",
+    "mockmob-brain/docs/NOW.md top entry",
+    "wt-1115-paint2/tmp/1115-shots/paint2/"
+  ],
+  "touched_files": [
+    "origin/main 6858ccef5",
+    "origin/web/1115-prod acc95ac67 (first paint, not on main)",
+    "supabase/migrations/20261115200000_*, 20261115210000_*, 20261115180000_* (not applied)"
+  ],
+  "verification": "Each shipped release: suites, lint, build, independent Opus review where money/sessions; live pages 200, cross-site payment POST 403, no runtime errors. First paint: lane proved cascade order-proof and matched live at 390/1440; full gate on the merged branch was still running at stop.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}

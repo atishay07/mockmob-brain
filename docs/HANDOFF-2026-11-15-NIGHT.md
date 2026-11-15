@@ -64,3 +64,44 @@ result, a tablet walk); Next 16.3.8 with `chart.js` removal.
 - The den's rule F2 beats a brief: read the area's own rules before writing a lane brief.
 - Usage: four Opus lanes plus three reviews and a visual check took about 75% of a 5-hour window in 3 hours.
 - Agents share the session scratchpad: give each its own tools folder inside its worktree.
+
+## Update, about 12:15 am IST 16 Nov (session stopped at 90%+ usage)
+
+Shipped after the first part of this handoff (all on main, each checked live, no runtime errors):
+- `8817b82d6` payment fixes: Get Pro checkouts expire like the parent link, referral notes only from server-written data,
+  the four payment routes under the same-origin rule (independent review: no blocker; cross-site POST now 403 live).
+- `fbdf9912b` Sunday draw asks only the missing count when replacing (cached) and prefers verified questions; the `/sunday`
+  title; the calculator opens on the course a cutoff page links; `/daily` loading card no longer shifts the page.
+- `6858ccef5` late papers (kept 7 days for the student's own practice, earn no badge, study day, chain, Fold, funnel step or
+  rank; a result line says so) and the durable start race fix. Two independent reviews. Owner must apply
+  `20261115200000_late_papers_out_of_cohort_stats.sql` and `20261115210000_late_papers_out_of_mob_hours.sql` (undo files in
+  `supabase/undo/`); until then late papers count in cohort stats and Mob hours. CTO: one durable release race to fix before
+  `LEARNING_SESSIONS_ENABLED=true` (`wt-1115-sess/tmp/1115-prod/durable-sessions-ready.md`, end).
+
+NOT shipped, ready: first paint, made order-proof (`web/1115-paint2` merged into `web/1115-prod` at `acc95ac67`, pushed as a
+branch only, main is still `6858ccef5`). A full gate was running when the session stopped: run `bash tmp/gate.sh` in
+`wt-1110-convert`, then push `web/1115-prod:main` and compare `/` live at 390 Day against this baseline taken from live
+before it: `.ft-story` 2,924 px, `.lc` 3,570 px, `--ss-beat` 58svh and 76svh, `.du-teaser__out` background
+rgb(234, 229, 218), page 21,372 px in the Claude browser, 28 stylesheets (expect fewer). Any difference: roll back to
+`dpl_Het1EhstDtjofTqpxr1A4FB57YsW`.
+
+## The owner's words at the stop (15-16 Nov, about 12:10 am; his brief for the next session)
+
+"Overall, things look good. I have tested one thing for now only. I tested that ask-a-pay-to-pay, so that's working well, I
+think, and it was successful. The subscription was activated."
+
+"Now, coming on to the thing which doesn't exactly look good or work:
+* On the landing page, you have mentioned today is daily 5. It's not placed correctly as a proper clock. How do other
+  websites do it? You can see those, and even the entire UI and flow around it is very bad. We need to do something about
+  that.
+* The smaller UI things on the landing page, like having an overall progress bar on the top for the website, maybe we can
+  do like that, and having better loading everywhere. Right now, we have loading when entering the website every time, but
+  it can be improved a bit and smaller, and things like this."
+
+"Don't spend too much time thinking on this and keep building."
+
+Read as: (1) the Daily Five row on the home page (and the whole /daily UI and flow) looks poorly placed and weak; study how
+daily-puzzle sites present a daily challenge (Wordle-style), redesign its placement on the landing and the /daily flow, build
+it, ship it. (2) Landing polish: a thin overall progress bar at the top of the site (page load / route progress), and a
+lighter, smaller, better loading experience everywhere, including the entry loader shown on every visit. Build, look at 390
+Day/Night and 1440 Day, ship. Parent pay: one real payment by the owner succeeded and activated Pro (first real check).

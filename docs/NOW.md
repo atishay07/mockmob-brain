@@ -2,6 +2,11 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 16 Nov 2026, about 12:15 am IST — more of the pass LIVE (main 6858ccef5): payment fixes, Sunday draw and small UI, late papers; first paint ready, not shipped
+
+- LIVE and checked: 8817b82d6 (payments), fbdf9912b (Sunday draw, small UI), 6858ccef5 (late papers, durable start race). His next brief (Daily Five on the landing and its flow, a top progress bar, lighter loading) and the first-paint ship steps: `HANDOFF-2026-11-15-NIGHT.md`, last two sections.
+- He tested "ask a parent to pay" for real: paid, Pro activated.
+
 ## 15 Nov 2026, about 10:50 pm IST — production pass, second half: Daily Five habit, Sunday Mock, DU cutoff pages LIVE (main 79ff0d94e; was 6472026f0)
 
 - His brief (about 7:15 pm): build, not audit; decide small things; push live; keep one list of what waits on him.
