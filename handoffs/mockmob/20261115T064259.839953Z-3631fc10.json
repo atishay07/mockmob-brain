@@ -1,0 +1,28 @@
+{
+  "id": "20261115T064259.839953Z-3631fc10",
+  "observed_at": "2026-11-15T06:42:59.839953+00:00",
+  "agent": "claude-auto",
+  "task": "Auto-capture: claude session 409ddd8f",
+  "status": "paused",
+  "done": "Auto-captured at Stop. Turns: 3. Last message: The rival comparison is in; nine audit agents are still running and nothing is changed yet.\n\nWhat it adds to the plan:\n\n- **Sign-in:** Physics Wallah and Testbook sign students in with a phone number and code only. A WhatsApp code is the one cheap method that also works inside Instagram's browser, where creator traffic lands. It needs a Twilio account and Meta business verification, which are your",
+  "next": "Unverified auto-capture. Read the session transcript and live repo state before continuing.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\409ddd8f-7b5b-4a40-b2f3-25fada6ee352.jsonl"
+  ],
+  "touched_files": [
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1115-prod\\BRIEF.md",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1115-prod\\t\\links.cjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1115-prod\\t\\a11y.cjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1115-prod\\t\\outline.cjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1115-prod\\t\\deps.cjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1115-prod\\bugs-static.md",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\2a3a9f0ba1f7252b\\409ddd8f-7b5b-4a40-b2f3-25fada6ee352\\scratchpad\\m1-replay.test.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1115-prod\\sec-social-repro.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1115-prod\\rivals.md"
+  ],
+  "verification": "auto-captured by hook; not agent-verified",
+  "cost_and_pending_requests": "unknown; hook does not see provider receipts",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
