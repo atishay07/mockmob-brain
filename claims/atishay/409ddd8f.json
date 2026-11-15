@@ -4,20 +4,12 @@
   "session": "409ddd8f-7b5b-4a40-b2f3-25fada6ee352",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-15T06:18:56.037699+00:00",
-  "last_active": "2026-11-15T11:56:47.741065+00:00",
+  "last_active": "2026-11-15T12:24:36.387753+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "src/components/errors/error-state.css",
-    "tmp/w2a/sections.mjs",
-    "src/services/ai-rival/rivalGate.js",
-    "src/app/(app)/rival/page.js",
-    "src/app/api/ai/rival/start/route.js",
-    "src/app/api/ai/rival/submit/route.js",
-    "src/services/ai-rival/createAIRivalBattle.js",
-    "data/tests/rival_gate.test.mjs",
     "src/app/home-sections.css",
     "src/app/(app)/dashboard/DashboardPageClient.jsx",
     "src/app/page.js",
@@ -57,6 +49,13 @@
     "data/tests/runtime_ai_global_cap_1115.test.mjs",
     "data/tests/hero_film_r7.test.mjs",
     "src/components/landing/HeroFilm.jsx",
-    "src/lib/mob/model.mjs"
+    "src/lib/mob/model.mjs",
+    "src/lib/mob/nameTerms.mjs",
+    "src/services/ai/supportCheck.js",
+    "src/lib/server/emailLoginPolicy.js",
+    "src/app/api/billing/cancel/route.js",
+    "src/lib/server/practiceSessions.js",
+    "data/tests/sec_review_1115.test.mjs",
+    "data/tests/practice_start.test.mjs"
   ]
 }
