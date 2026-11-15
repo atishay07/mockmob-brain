@@ -1,0 +1,26 @@
+{
+  "id": "20261115T070113.777940Z-22fbbecf",
+  "observed_at": "2026-11-15T07:01:13.778939+00:00",
+  "agent": "claude-fable-5.2 (session 409ddd8f)",
+  "task": "Production pass before marketing (owner, 15 Nov 2026 about 11:45 am): audit, plan, then build with Opus/Sonnet agents. Plan and running record: mockmob-brain/docs/PRODUCTION-PASS-2026-11-15.md",
+  "status": "active",
+  "done": "Audit done (11 read-only lanes + DB via Supabase MCP); notes in wt-1110-convert/tmp/1115-prod/*.md (sec-auth, sec-money, sec-social, sec-learning, bugs-core, bugs-static, flow-first-run, prod-ready, ledger, rivals, db; ux-fresh still running at 1:05 pm). Plan written. Integration branch web/1115-prod in wt-1110-convert (from main 38a09a4e7): merged W1-E cleanup (fdc188257), removed the old teaser files (aa5d30844), hero film no autoplay on 2G/3G (f623876ff). Nothing pushed, nothing deployed, no production writes.",
+  "next": "Agents running in own worktrees (each on its own branch from origin/main, node_modules junction to wt-1103-web-cards/node_modules; rmdir the junction before removing a worktree): security wt-1115-sec-a..e (fix/1115-sec-a feed+bookmarks, -b Mob, -c learning+AI safety, -d payments, -e auth limits+headers); product wt-1115-w1-a runner, -b error pages, -c result, -d first run; wt-1115-w2-a public pages, -w2-b DU cutoff data check, wt-1115-next Next.js upgrade trial (own node_modules). When each reports: review its diff, merge. Security lanes merge into ONE branch from origin/main and ship first and alone (owner's standing order of 12 Oct): full suites, eslint, next build --webpack, independent Opus review, Vercel preview, then main, live checks. Then merge product lanes into web/1115-prod; mount ResumePaper on Practice and Today; wave 2 (sign-in card: Open in Chrome inside Instagram, Google One Tap, remembered method; result share card; invite links must not go to the unlisted Play page (src/lib/referrals/friendInvite.mjs, after sec-d merges); fresh-account fixes from ux-fresh; B8 server half; B9). Wave 3 behind switches: parent pay link, DU cutoff pages. Add new test files to package.json scripts (agents report them). Dev server convert-1110 on port 3571 is running; stop it and delete .next at the end.",
+  "blockers": [
+    "Owner decisions listed in the plan doc section 3 (daily five, place among N, WhatsApp OTP, day-2 email, pricing 'until you cancel' vs 24 payments, durable sessions, 480p film on phones)",
+    "Owner-only: Vercel Hobby and Supabase Free to Pro; Resend plan unknown (100/day on free breaks email sign-in); DMARC record; deletion request of 20 Oct due 19 Nov; Rs 69 payment of 26 Apr captured at Razorpay but stored failed; one real Rs 99 purchase and cancel"
+  ],
+  "evidence": [
+    "mockmob-brain/docs/PRODUCTION-PASS-2026-11-15.md",
+    "wt-1110-convert/tmp/1115-prod/ (BRIEF.md, FIX-BRIEF.md, BUILD-BRIEF.md and one notes file per lane)",
+    "git: web/1115-prod aa5d30844 (local only)"
+  ],
+  "touched_files": [
+    "wt-1110-convert: src/components/landing/HeroFilm.jsx, heroFilmConfig.mjs, data/tests/hero_film_r7.test.mjs, public/video (3 files removed), W1-E merge",
+    "mockmob-brain/docs/PRODUCTION-PASS-2026-11-15.md"
+  ],
+  "verification": "Audit lanes ran the existing suites: lint 0 errors, 24 of 26 test scripts green (test:mob 7 and test:study 1 known; study fixed by W1-E line-ending rule, 62/62). hero_film_r7 15/15 after my change. No build, no deploy, no browser check of merged work yet.",
+  "cost_and_pending_requests": "No paid model calls by this pass. One guest Ask Mobi call may have been spent by an audit capture: none reported.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}

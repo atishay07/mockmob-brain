@@ -22,7 +22,8 @@ every lane: `wt-1110-convert/tmp/1115-prod/` (not shipped). Status words below: 
 | First run | Inside Instagram's browser the first key leads to Google's block page. The first run ends on Practice with the Start key 1.4 screens down and a six-stop guide over it. The sample's subject is dropped at sign-up. Nothing reaches a student on day 2. |
 | Rivals | PW and Testbook sign in by phone code only. Rivals have previous-year papers, an all-India rank and a scheduled mock; none has a shared daily set, a result share card, parent pay or cutoff pages. PW (Rs 599 a stream) and Testbook (Rs 479 a year) cost less than Pro to May (Rs 693): lead on unlimited mocks and fixing, not on price. |
 | Owner's open asks | Most October rows are done in code or replaced by later instructions; the ledger was never updated. Truly open: the answer-sheet bubble texture still on three home sections (he rejected it, LK208); "until you cancel" against a 24-payment plan; Compass cutoffs never checked against the DU PDFs; tablets never walked; badges kept but never refined. |
-| Launch readiness, fresh-account screens | Still running when this was written. |
+| Launch readiness | Vercel is on Hobby and Supabase on Free (confirmed 15 Nov). A friend's invite link on Android sends the friend to a Play listing that is not public (404). The hero film is 3.6 to 6.4 MB of every phone visit. Home LCP 4.9 s on a slow phone profile (CLS 0). Nothing would tell anyone the site is down: logs last one hour, no error capture, no analytics. The home share image is 330 KB (WhatsApp may drop it). The privacy page leaves out what the code does with cookies, the referral device id and guest Ask Mobi. |
+| Fresh-account screens | Still running when this was written. |
 
 ## 2. The waves
 
@@ -50,7 +51,9 @@ every lane: `wt-1110-convert/tmp/1115-prod/` (not shipped). Status words below: 
 
 - Sign-in card: an "Open in Chrome" key inside Instagram's browser with the email code first; Google One Tap on Chrome; "last time you used Google"; a typo catch for email addresses; the code first in the sign-in email.
 - A share card for a result (opt-in, carries the referral link).
-- Fresh-account screens (from the walk), launch readiness (search, link previews, phone speed, email), and the small open asks (the bubble texture, course/programme wording, the AI-cap migration).
+- Launch readiness: invite links stay on web sign-up until the Play listing is public; a lighter first paint on a budget phone (a phone-size poster, the font preload, long-lived caching for the film); a share image under 300 KB and real previews for Mob and invite links; the service worker registered from the app shell; the privacy page brought in line with the code (his wording to confirm).
+- Fresh-account screens (from the walk) and the small open asks (the bubble texture, course/programme wording, the AI-cap migration).
+- DONE 15 Nov (main session, f623876ff): the hero film no longer starts by itself on a link the browser calls 2G or 3G.
 - The server half of a late upload for a paper finished offline; Today and Review counting open mistakes the same way.
 - Next.js security upgrade on its own branch with the full gate (CTO's call to ship).
 - The one known fault that blocks server-saved papers (durable sessions), so that switch is ready.
@@ -81,7 +84,10 @@ and alone.
 
 ### Only he can do
 
-- Hosting: Vercel Hobby forbids commercial use and the site takes payments; Supabase Free has no backups. (Plans being confirmed by the launch-readiness lane.)
+- Hosting, confirmed 15 Nov: Vercel is on Hobby (it forbids commercial use, the site takes payments, and runtime logs last one hour); Supabase is on Free (no backups, and a second egress overage restricts the project at once). Both to Pro before marketing (about USD 45 a month together).
+- Switches for seeing what happens: `FUNNEL_ENABLED`, Vercel Web Analytics and Speed Insights, an uptime ping.
+- The hero film on phones: most Androids download the 720p file (6.4 MB). Phones could always take 480p (3.6 MB). His eye decides; not changed.
+- The privacy page needs the legal entity, an address and a grievance contact, and counsel on consent for under-18s (DPDP).
 - Check the Resend plan: on the free plan (100 emails a day) email sign-in stops after the hundredth code.
 - Add a DMARC record for mockmob.in.
 - Vercel: mark the four production secrets it flags (database service key, session secret, Anthropic key, internal secret) as Sensitive.
