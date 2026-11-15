@@ -982,3 +982,16 @@ Verbatim, second message: "I saw what you have done with the Asmo. I don't know 
 | LIVE 13 Nov (main 38a09a4e7) | **LK239** Ask Mobi "at the front": reachable from the home page without answering the five questions. |
 | LIVE 13 Nov (main 38a09a4e7) | **LK240** Mobi as a scroll companion on phones, "thoughtful and elegant", not cluttered. This lifts the earlier rule that the phone bar carries no Mobi (W-074 stays as "one Mobi in view"). |
 | LIVE 13 Nov (main 38a09a4e7) | **LK241** The visual slop pass ("visuals flop pass"): the page must look visibly more deliberate; tasteful, no clutter. Self-review bar: 8 of 10 or more on each of his criteria before it is called done. |
+
+## The production pass before marketing, 15 Nov 2026 (11:45 am and about 7:15 pm; record in PRODUCTION-PASS-2026-11-15.md, handoffs HANDOFF-2026-11-15-PRODUCTION-PASS.md and HANDOFF-2026-11-15-NIGHT.md)
+
+Verbatim, about 7:15 pm: "Focus more on building and building more things, and thinking about just the ideas to build more. Rather than just doing an audit and thinking long on smaller things and refinements ... it is build-focused and production-focused. Keep building things and improvising them ... tangible, actual results, not small refinements." "You can think for yourself what's useful, what's not, and apply everything. Push it to live. Then we'll come back to the pending decisions."
+
+| Status | Item |
+|---|---|
+| STANDING | **LK242** The final pass before marketing is a build pass: new, visible things, shipped live; no long audits; decide small product questions; one running list of what waits on him; every update lists every plan item with its status. |
+| LIVE 15 Nov (main 79ff0d94e) | **LK243** The Daily Five as a habit (account record from server-checked answers, a study day, the Mob's rows, the public bar, how everyone did from 30). |
+| LIVE 15 Nov (main 79ff0d94e) | **LK244** The Sunday Mock, free, one sitting a subject a week, no ranking line (his decision pending); first on 22 Nov. |
+| LIVE 15 Nov (main 12516f20f) | **LK245** DU cutoff pages per course and college, checked against DU's PDFs. |
+| BUILT, OFF (waits on him) | **LK246** Welcome and day-2 emails: his consent line, the migration, the privacy page, then the switch. |
+| BUILT, HELD | **LK247** First paint (cascade check) and late upload with the durable start fix (no rewards for late papers first). |

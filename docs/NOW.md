@@ -2,6 +2,13 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 15 Nov 2026, about 10:50 pm IST — production pass, second half: Daily Five habit, Sunday Mock, DU cutoff pages LIVE (main 79ff0d94e; was 6472026f0)
+
+- His brief (about 7:15 pm): build, not audit; decide small things; push live; keep one list of what waits on him.
+- LIVE: small fixes (a3bad4078), the DU data check and 136 cutoff pages (12516f20f), the Daily Five as a habit, the Sunday Mock (first on 22 Nov), the welcome and day-2 emails built and OFF (79ff0d94e). Each release: suites, lint, build, an independent Opus review for money, sign-in or runner code, a merged visual check, and live checks.
+- Built, NOT live: first paint (held: joined home sheet changed the cascade in the webpack build; Turbopack order unverified) and late upload plus the durable start race (held: a late paper must earn no badges, study day, chain or Mob hours first). Exact steps: `HANDOFF-2026-11-15-NIGHT.md`.
+- His to do: the email migration, consent line and privacy page before `EMAILS_ENABLED=true`; the earlier list in `HANDOFF-2026-11-15-PRODUCTION-PASS.md` still stands.
+
 ## 15 Nov 2026, about 5:55 pm IST — production pass before marketing: the security release is LIVE (main e6b041acf, dpl_8hgVk5zUo8EqbVhSuP7xvnWQeX3k; was 38a09a4e7, rollback dpl_HVKC1RyErDXQVvTH5xS8BnewnNjb); the rest of the pass is built and gated, not deployed
 
 - His brief (15 Nov, about 11:45 am): the final pass before marketing: features, flows, sign-in options, bugs, security, anything else for a 10/10 product; content is a separate track; orchestrate Opus and Sonnet agents. Plan, findings, his decisions and the owner-only list: `PRODUCTION-PASS-2026-11-15.md`. Refund runbook: `RUNBOOK-REFUNDS-2026-11-15.md`.

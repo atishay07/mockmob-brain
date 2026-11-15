@@ -1,0 +1,32 @@
+{
+  "id": "20261115T164036.597039Z-2eff590d",
+  "observed_at": "2026-11-15T16:40:36.598044+00:00",
+  "agent": "claude-opus-5.5 (session 9a8783fe)",
+  "task": "Production pass before marketing, second half (owner, 15 Nov 2026, about 7:40 to 11 pm IST): build and ship new things",
+  "status": "paused",
+  "done": "LIVE on www.mockmob.in, main 79ff0d94e: a3bad4078 small fixes (B11 average, course wording, Open in Chrome on /signup, NTA warning vs Android Back, CloseSheet); 12516f20f DU data check (3 rounds, 17,316 scores match) and 136 cutoff pages /du-cutoffs; 79ff0d94e Daily Five as a habit (server-checked answers, first check stands, study day, Mob rows per rule F2, public bar, how everyone did from 30), Sunday Mock (free, one sitting a subject a week, seeded draw skipping 8 Sundays, answers 11:05 pm, first 22 Nov), welcome and day-2 emails built OFF. Five red tests outside scripts traced and fixed (37f917b1b). 16+ merged worktrees removed.",
+  "next": "Read mockmob-brain/docs/HANDOFF-2026-11-15-NIGHT.md. 1) First paint (web/1115-paint, reverted in 79ff0d94e): make the home cascade order-proof (scroll-story.css, section-position.css, du.css vs the joined home sheet), then ship and compare / on production with rollback ready. 2) web/1115-sess (late upload + durable start race): do tmp/1115-prod/SESS-FOLLOWUP.md (late papers earn no badges, study day, chain, Mob hours; fail-soft readLatePapers; free row released on RPC failure), review, ship alone. 3) Sunday Mock before 22 Nov: replacement draw cost and tier preference; /sunday top-bar title. 4) Small payment items, then the ideas list.",
+  "blockers": [
+    "Owner: email migration, under-18 consent line and privacy page before EMAILS_ENABLED=true",
+    "Owner: earlier list in HANDOFF-2026-11-15-PRODUCTION-PASS.md (Vercel and Supabase Pro, Resend plan, webhook events, DMARC, 19 Nov deletion request, real Rs 99 purchase)",
+    "Usage: about 75% of the 5-hour window at 10:50 pm; resets 12:30 am IST"
+  ],
+  "evidence": [
+    "mockmob-brain/docs/HANDOFF-2026-11-15-NIGHT.md",
+    "mockmob-brain/docs/PRODUCTION-PASS-2026-11-15.md section 4",
+    "mockmob-brain/docs/NOW.md top entry",
+    "mockmob-brain/docs/UI-AUDIT-LOG.md 3b",
+    "wt-1110-convert/tmp/1115-prod/lane-shots/"
+  ],
+  "touched_files": [
+    "wt-1110-convert branch web/1115-prod = origin/main 79ff0d94e",
+    "branch web/1115-sess (pushed, held)",
+    "branch web/1115-paint (reverted from release)",
+    "supabase/migrations/20261115180000_student_emails.sql (not applied)",
+    "mockmob-brain/docs: HANDOFF-2026-11-15-NIGHT.md, NOW.md, OWNER-MASTER-LEDGER.md, PRODUCTION-PASS-2026-11-15.md, UI-AUDIT-LOG.md"
+  ],
+  "verification": "Gate on the release: all 24 suites (app 1,274, billing 533, auth 224, recovery 646, Mob 368, NTA 234 after a flake rerun), eslint clean, next build --webpack 256 pages; Vercel preview READY; three independent Opus reviews (blocker and should-fixes applied); merged visual check; live: public pages 200, Daily Five API carries no key, unsigned unsubscribe 400, no runtime errors. Not checked: signed-in flows on production, a real Sunday sitting, a physical phone.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}

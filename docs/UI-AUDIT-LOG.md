@@ -155,6 +155,20 @@ Audit `wt-1110-convert/tmp/1115-prod/ux-fresh.md` (on 38a09a4e7: 390 Day and Nig
 
 ---
 
+### 3b. New surfaces, 15 Nov 2026 night (merged branch 41710cfc4, webpack dev; 390 Day, 390 Night, 1440 Day)
+
+Seen and hold: `/daily` (start, a guest run to the score), `/du-cutoffs`, `/du-cutoffs/b-com-hons`,
+`/du-cutoffs/colleges/hindu-college`, `/sunday-mock`, `/signup` (Open in Chrome line in Android in-app browsers), the public
+bar with Daily Five (desktop and the phone menu), Today with all 17 Sunday card states, the den with the Daily Five strip and
+the 5 Sunday block states, Practice (Sunday chip, Average score), the result (open and held Sunday). Captures:
+`wt-1115-look/tmp/look/` (the worktree may be removed; copies in `wt-1110-convert/tmp/1115-prod/lane-shots/`).
+
+Open: the `/sunday` page has no top-bar title (1440); `/daily` loading placeholder taller than the card (CLS 0.05-0.08, also
+live); the first-paint join (`web/1115-paint`, reverted from the release) put `home-sheets.css` before `scroll-story.css`,
+`section-position.css` and `du.css` in the webpack build: tour hold +502 px at 390, Lab cinema -144 px, the DU teaser card
+fill wrong in both themes. Trap: local webpack builds already differ from live Turbopack in sheet order (the local home page
+is 359 px taller at 390 than live, 21,244 against 20,885), so compare cascade questions against production, not local.
+
 ## 4. Android app (1.0.23+21)
 
 Looked at on 12 Nov: 117 emulator shots of the demo build (Today to the bottom, Start sheet, Practice with its four sub-tabs, a Quick practice from setup to result, the repair flow, Mob, You, the account sheet and every row, Wallet, Ask Mobi, Colleges; Day for the main ones), the onboarding reference renders, and the release build's first run through the college step.

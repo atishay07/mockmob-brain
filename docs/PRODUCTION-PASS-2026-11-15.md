@@ -133,3 +133,17 @@ and alone.
   Open: the calculator opened from a course page waits for subjects before showing that course (next small batch); the
   Bulletin's free-text course notes are mis-parsed in places (B.Com carries the BBA text), so the pages leave them out:
   content track.
+- LIVE `79ff0d94e` (about 10:50 pm): the Daily Five as a habit, the Sunday Mock, the emails built and off. Two independent
+  Opus reviews: the Sunday draw was predictable and repeating (BLOCKER, fixed: seeded draw, skips 8 Sundays); a Sunday
+  sitting used up the free first Full mock (fixed); stats for any week (fixed); the den named non-sitters against rule F2
+  (fixed in both strips); answers opened while late starters sat (now 11:05 pm); a scripted 5/5 Daily Five (fixed: server
+  checks, first check stands); a sign-in blip made a student a guest (fixed: 503). Merged visual check: everything holds
+  except the home page cascade from the first-paint join, so first paint was reverted out of this release. Gate on the
+  release: all 24 suites, lint, build 256 pages; Vercel preview READY.
+- HELD: first paint (`web/1115-paint`) and late upload plus the durable start (`web/1115-sess`); steps in
+  `HANDOFF-2026-11-15-NIGHT.md`.
+- Checked live after `79ff0d94e` (about 10:55 pm): `/`, `/daily`, `/sunday-mock`, `/du-cutoffs`, `/pricing`, `/signup`, `/login`,
+  `/cuet/accountancy` 200; `/api/today` 401; `/api/daily?day=1` 200 with no answer key in the body, a wrong day 400; an
+  unsigned unsubscribe POST 400; `/sunday-mock` in the sitemap; 28 stylesheets on `/` (27 before: the Daily Five bar sheet);
+  no runtime errors in 20 minutes. Not checked: any signed-in flow on production, a real Sunday sitting (first on 22 Nov), a
+  physical phone.
