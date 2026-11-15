@@ -4,7 +4,7 @@
   "session": "9a8783fe-6028-4b9c-8481-d1ef284b0368",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-15T14:08:51.003506+00:00",
-  "last_active": "2026-11-15T15:41:52.966111+00:00",
+  "last_active": "2026-11-15T15:52:53.809155+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
@@ -19,7 +19,6 @@
     "data/tests/sunday_draw.test.mjs",
     "tmp/1115-daily-tools/model-head.txt",
     "tmp/1115-daily-tools/splice.py",
-    "src/lib/server/dailyFiveAccount.js",
     "src/app/api/daily/me/route.js",
     "src/app/api/daily/check/route.js",
     "src/lib/server/appPrefs.js",
@@ -35,6 +34,10 @@
     "tmp/1115-daily-tools/e9.py",
     "tmp/1115-daily-tools/test-mid.txt",
     "tmp/1115-daily-tools/splice3.py",
-    "tmp/1115-daily-tools/daily-shots.mjs"
+    "tmp/1115-daily-tools/daily-shots.mjs",
+    "src/lib/server/dailyFiveAccount.js",
+    "data/tests/first_full_mock_1019.test.mjs",
+    "src/lib/server/practiceSessions.js",
+    "data/late_paper.js"
   ]
 }
