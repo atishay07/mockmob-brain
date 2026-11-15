@@ -4,19 +4,12 @@
   "session": "ec03baf1-09ed-4ab6-80be-4f81fc956a95",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-15T18:35:36.952528+00:00",
-  "last_active": "2026-11-15T19:29:24.429361+00:00",
+  "last_active": "2026-11-15T19:42:27.322393+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "src/components/progress/NavReadLine.jsx",
-    "src/components/progress/nav-read.css",
-    "src/components/NavBar.jsx",
-    "src/services/mobi/mistakeAsk.js",
-    "src/services/mobi/mistakeDeps.js",
-    "tmp/1116-tools/lib.mjs",
-    "src/app/api/ai/mentor/mistake/route.js",
     "tmp/1116-daily/shots.mjs",
     "tmp/1116-tools/route.mjs",
     "src/app/key-cards/page.js",
@@ -59,6 +52,13 @@
     "tmp/1116-tools/shell.mjs",
     "src/components/arena/ArenaShellSkeleton.jsx",
     "src/components/arena/arena-shell-skeleton.css",
-    "tmp/1116-tools/inventory.mjs"
+    "tmp/1116-tools/inventory.mjs",
+    "src/components/du/ComboPlanner.jsx",
+    "src/components/auth/AuthSessionScreen.jsx",
+    "src/components/ui/wait.css",
+    "src/components/ui/Skeleton.jsx",
+    "tmp/1116-tools/ssr.mjs",
+    "src/components/du/du.css",
+    "tmp/1116-edit10.py"
   ]
 }
