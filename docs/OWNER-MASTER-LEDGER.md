@@ -1006,3 +1006,4 @@ Verbatim, about 7:15 pm: "Focus more on building and building more things, and t
 | LIVE 16 Nov (main 91f8f8aaf) | **LK256** Badges refined: one family of stamped marks, the earning moment, share, the collection in four rows; names and rules unchanged; the new "what it needs" lines are his to read. |
 | LIVE 16 Nov (main e137d3575) | **LK255** Desktop two-column Wallet, Progress and result from 1100 px, with a tablet walk (phones unchanged). NOT STARTED: Mob class leagues, corrections log, durable-sessions SQL, Next 16.3.8. |
 | LIVE 16 Nov (main aecaf31c5) | **LK257** Home Key cards: "Pick your subject and turn a real chapter's cards. No account.", 14 subjects. NEXT in his direction: the rest of the landing feature by feature (`HANDOFF-2026-11-16.md`). |
+| LIVE 16 Nov (main 329e257ba), migration UNAPPLIED (CTO) | **LK258** The free first Full mock's release race for durable sessions, reviewed; two narrow cases left for the CTO before the switch. |

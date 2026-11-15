@@ -12,9 +12,8 @@ his Android phone, from what is live on www.mockmob.in.
 
 ## Do, in this order, without stopping to ask
 
-1. If `web/1116-race` (worktree `wt-1116-race`) is committed and not merged: read its `tmp/1116-race/CTO-NOTE.md`, get an
-   independent Opus review of the diff (credit code), fix what it finds, merge, gate, ship. Its migration stays unapplied for
-   the CTO.
+1. (Done on 16 Nov: the sessions release race is merged and live with its migration unapplied; the CTO's part is in the
+   handoff. Nothing to do here.)
 2. The landing, feature by feature, in his direction. For each feature: look at its section on the live home page at 390 Day
    as a 16-year-old would, decide what one confident block would make them want it, build it large with one idea from
    MockMob's own world (paper, ink, volt, the desk, Mobi), say what it is and when it happens in plain chips or a line, give
