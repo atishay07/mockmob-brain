@@ -4,7 +4,7 @@
   "session": "409ddd8f-7b5b-4a40-b2f3-25fada6ee352",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-15T06:18:56.037699+00:00",
-  "last_active": "2026-11-15T06:44:18.953718+00:00",
+  "last_active": "2026-11-15T06:55:23.844836+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
@@ -20,6 +20,16 @@
     "tmp/1115-prod/rivals.md",
     "tmp/1115-prod/sec-social.md",
     "tmp/1115-prod/sec-learning.md",
-    "tmp/1115-prod/sec-money.md"
+    "tmp/1115-prod/sec-money.md",
+    "tmp/1115-prod/sec-auth.md",
+    "tmp/1115-prod/flow-first-run.md",
+    "tmp/1115-prod/FIX-BRIEF.md",
+    "tmp/1115-prod/bugs-core.md",
+    "tmp/1115-prod/ledger.md",
+    "tmp/1115-prod/BUILD-BRIEF.md",
+    "data/tests/helpers/pgliteClock.mjs",
+    "tmp/pin-clock.mjs",
+    "tmp/1115-prod/prod-ready.md",
+    "src/components/landing/HeroFilm.jsx"
   ]
 }
