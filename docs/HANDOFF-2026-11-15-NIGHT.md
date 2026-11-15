@@ -79,8 +79,8 @@ Shipped after the first part of this handoff (all on main, each checked live, no
   `LEARNING_SESSIONS_ENABLED=true` (`wt-1115-sess/tmp/1115-prod/durable-sessions-ready.md`, end).
 
 NOT shipped, ready: first paint, made order-proof (`web/1115-paint2` merged into `web/1115-prod` at `acc95ac67`, pushed as a
-branch only, main is still `6858ccef5`). A full gate was running when the session stopped: run `bash tmp/gate.sh` in
-`wt-1110-convert`, then push `web/1115-prod:main` and compare `/` live at 390 Day against this baseline taken from live
+branch only, main is still `6858ccef5`). The full gate on `acc95ac67` PASSED after the stop (all 24 suites, lint clean, build ok), so next:
+push `web/1115-prod:main` and compare `/` live at 390 Day against this baseline taken from live
 before it: `.ft-story` 2,924 px, `.lc` 3,570 px, `--ss-beat` 58svh and 76svh, `.du-teaser__out` background
 rgb(234, 229, 218), page 21,372 px in the Claude browser, 28 stylesheets (expect fewer). Any difference: roll back to
 `dpl_Het1EhstDtjofTqpxr1A4FB57YsW`.
