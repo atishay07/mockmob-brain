@@ -4,17 +4,12 @@
   "session": "409ddd8f-7b5b-4a40-b2f3-25fada6ee352",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-15T06:18:56.037699+00:00",
-  "last_active": "2026-11-15T11:45:11.373981+00:00",
+  "last_active": "2026-11-15T11:56:47.741065+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "data/tests/first_full_mock_1019.test.mjs",
-    "data/tests/practice_start.test.mjs",
-    "src/app/preview/arena/resume/page.jsx",
-    "src/app/preview/arena/resume/ResumePreview.jsx",
-    "src/lib/server/practiceStart.js",
     "src/components/errors/error-state.css",
     "tmp/w2a/sections.mjs",
     "src/services/ai-rival/rivalGate.js",
@@ -57,6 +52,11 @@
     "src/app/privacy/page.js",
     "data/tests/privacy_facts_1115.test.mjs",
     "data/tests/fresh_states_1115.test.mjs",
-    "supabase/migrations/20261115120000_runtime_ai_global_cap_removed.sql"
+    "supabase/migrations/20261115120000_runtime_ai_global_cap_removed.sql",
+    "supabase/undo/20261115120000_runtime_ai_global_cap_removed.undo.sql",
+    "data/tests/runtime_ai_global_cap_1115.test.mjs",
+    "data/tests/hero_film_r7.test.mjs",
+    "src/components/landing/HeroFilm.jsx",
+    "src/lib/mob/model.mjs"
   ]
 }
