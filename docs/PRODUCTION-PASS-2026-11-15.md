@@ -147,3 +147,15 @@ and alone.
   unsigned unsubscribe POST 400; `/sunday-mock` in the sitemap; 28 stylesheets on `/` (27 before: the Daily Five bar sheet);
   no runtime errors in 20 minutes. Not checked: any signed-in flow on production, a real Sunday sitting (first on 22 Nov), a
   physical phone.
+
+### 16 Nov, about 12:05 am to 2:05 am IST (Fable orchestrator)
+
+| Release | What | Checked |
+|---|---|---|
+| `acc95ac67` | First paint: the home sheets as one file, order-proof | live `/` at 390 and 1440 Day identical to the baseline (every section height, `.ft-story` 2,924, `.lc` 3,570, the DU teaser fill), 21 sheets from 28, 9 public pages 200, no runtime errors |
+| `85ed294e8` | The Daily Five redesigned: `/daily` around a board, a clock and a run; the home block as a calendar page (second version, after his "not up to the mark") | gate on 001d211e6 (24 suites, lint, build), then app and dock suites, lint and build on the block's rework; headless Chrome walk with real clicks at 360, 390, 1440, Day and Night; live block 533 px at 390, the try section 996 to 1,538, every other section unchanged |
+| `844e608fe` | Lanes merged: route bar, reading line, shorter opening, loading states (`web/1116-load`); public Key card decks (`web/1116-decks`); bring a mistake (`web/1116-mistake`, independent Opus review, three fixes) | gate on the merged branch (24 suites, 0 failures, lint, build); merged captures at 390 Day and Night and 1440; live pages 200, mistake route 401 signed out, no runtime errors |
+| `15286120f` | The week as two calendar pages (Daily Five, Sunday Mock with a clock to next Sunday); `/daily` wears the same day band | app, dock, today suites, lint, build; walk at 360, 390, 1440 |
+
+Rollback points, newest first: the `844e608fe` build, `dpl_8qDxPcYVur2NgGHNFoC5DgQJEHZZ` (`85ed294e8`), `dpl_62mUqYSE1WWeHGv3pwSA7VgkBAss` (`acc95ac67`), `dpl_Het1EhstDtjofTqpxr1A4FB57YsW` (`6858ccef5`).
+Lessons: a broken `package.json` (a regex edit) killed the dev server and blanked a visual check: edit JSON as JSON. A file used by the app shell must not carry `mm-btn` classes (`css_split.test.mjs`). The sticky room in the desk grid slides over anything placed in a second grid row: keep new blocks outside `.lp-desk`.

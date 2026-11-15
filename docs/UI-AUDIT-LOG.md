@@ -169,6 +169,21 @@ live); the first-paint join (`web/1115-paint`, reverted from the release) put `h
 fill wrong in both themes. Trap: local webpack builds already differ from live Turbopack in sheet order (the local home page
 is 359 px taller at 390 than live, 21,244 against 20,885), so compare cascade questions against production, not local.
 
+### 3c. 16 Nov 2026 (main 15286120f; 360, 390 Day and Night, 1440 Day; headless Chrome, real pointer clicks)
+
+Seen and hold: the home page's two calendar pages under the sample card (`.dfh`, DailyFiveRow.jsx: Daily Five open, begun,
+played; the Sunday Mock page), as wide as the desk at 360 to 1920 (tmp/1116-daily/widths.mjs), nothing covering them;
+`/daily` start, playing, result, the played return, signed in with an account record, the failed load; `/key-cards`, a
+chapter, its end state, a 404; the reading line on the home bar; the shell's loading skeleton; the Log in wait. Captures:
+`wt-1110-convert/tmp/1116-daily/shots` and `merged`, and each lane's `tmp/1116-shots/<lane>/`.
+Tools added: `tmp/1116-daily/shots.mjs <WxH> <theme>` (the Daily Five walk with a hit-test before every click, layout shift
+reported), `widths.mjs`, `pages.mjs`, `merged.mjs`. Fixture: `/preview/daily?daily=none|played|error&auth=out&fresh=1`.
+Traps: the home page's sections measure differently before they are scrolled near (content-visibility), so compare section
+heights on production in the same browser, before and after; the in-app browser pane does not run timers or observers until
+a frame is drawn, so a clock can look empty in its first screenshot; a first visit's block shows the open state for one
+frame before this device's record is read. Open: the other loading states listed in lane load's report (nine button
+spinners, two skeleton shimmers, the sign-in wait shown to signed-out visitors); the Sunday page's key is quiet by choice.
+
 ## 4. Android app (1.0.23+21)
 
 Looked at on 12 Nov: 117 emulator shots of the demo build (Today to the bottom, Start sheet, Practice with its four sub-tabs, a Quick practice from setup to result, the repair flow, Mob, You, the account sheet and every row, Wallet, Ask Mobi, Colleges; Day for the main ones), the onboarding reference renders, and the release build's first run through the college step.
@@ -212,3 +227,4 @@ Owner constraints that bound all of this: refine, do not rebuild (rejected restr
 - 12 Nov 2026: created from the final pass (LK225-LK230).
 - 13 Nov 2026: section 2a added (round 13, the home page's motion; LK232-LK236).
 - 15 Nov 2026: section 3a added (fresh-account states, ux-fresh audit and lane W2-C fixes).
+- 16 Nov 2026: section 3c added (the Daily Five pages, the week's pages, the merged wave).
