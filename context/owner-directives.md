@@ -193,3 +193,6 @@ The owner's own words from prompts that set a standing rule. Newer decisions can
 
 - id: 13673765ff | 2026-11-10 | claude | mockmob
   > An 8% weekly usage limit is a lot so keep working until what you are doing is done
+
+- id: 0443ace992 | 2026-11-15 | claude | mockmob
+  > Of the plan, I hope you have done major changes by now.
