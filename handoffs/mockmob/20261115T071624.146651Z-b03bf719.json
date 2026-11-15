@@ -1,0 +1,23 @@
+{
+  "id": "20261115T071624.146651Z-b03bf719",
+  "observed_at": "2026-11-15T07:16:24.146651+00:00",
+  "agent": "claude-fable-5.2 (session 409ddd8f)",
+  "task": "Production pass before marketing (owner, 15 Nov 2026). STOPPED at about 1:20 pm IST by the usage limit, mid-build. Plan and record: mockmob-brain/docs/PRODUCTION-PASS-2026-11-15.md",
+  "status": "paused",
+  "done": "Audit complete (11 lanes + DB); notes in wt-1110-convert/tmp/1115-prod/. Plan written. Integration branch web/1115-prod (wt-1110-convert, from main 38a09a4e7), local only: W1-E cleanup merged (fdc188257), old teaser video removed (aa5d30844), hero film no autoplay on 2G/3G (f623876ff, 948f0ddc8). FINISHED and reported, NOT yet reviewed or merged: fix/1115-sec-a (wt-1115-sec-a, 6 commits: feed needs sign-in, held questions keep their key out of feed and Saved, POST /api/questions closed, insights/analytics/compass apply the Mob hold; new test data/tests/sec_1115_feed_hold.test.mjs to add to test:app). Nothing pushed, nothing deployed, no production writes.",
+  "next": "1. Agents were running when the limit hit and may have been cut off mid-work: fix-mob (wt-1115-sec-b), fix-learning (-sec-c), fix-money (-sec-d), fix-auth (-sec-e), w1-runner (wt-1115-w1-a), w1-shell (-w1-b), w1-result (-w1-c), w1-firstrun (-w1-d), w2-public (wt-1115-w2-a), w2-dudata (-w2-b), w2-fresh (-w2-c), next-upgrade (wt-1115-next, own node_modules). For each: check its worktree's git log and git status; resume by name with SendMessage, or re-brief from tmp/1115-prod/FIX-BRIEF.md / BUILD-BRIEF.md and the lane lists in the plan doc. They may have left dev servers on ports 3581-3587 and .next folders: kill and delete. 2. Follow-ups for the feed lane: a per-account daily cap on feed pages (about 60 pages a day) so a signed-in account cannot page the whole bank; src/services/mobi/standing.js readStanding needs the same held-paper filter. 3. Merge the five security branches into one branch from origin/main, run all suites + eslint + next build --webpack, independent Opus review, Vercel preview, then main (security ships first and alone). 4. Merge product lanes into web/1115-prod; mount ResumePaper on Practice and Today. 5. Wave 2 not started: sign-in card (Open in Chrome inside Instagram, Google One Tap, remembered method), result share card, invite links must not go to the unlisted Play page (src/lib/referrals/friendInvite.mjs), first Pro sheet never over a blank paper, B8 server half, B9. 6. Wave 3 not started: parent pay link, DU cutoff pages.",
+  "blockers": [
+    "Usage limit reached on this account at about 1:20 pm IST, 15 Nov",
+    "Owner decisions and owner-only actions are in the plan doc, section 3"
+  ],
+  "evidence": [
+    "mockmob-brain/docs/PRODUCTION-PASS-2026-11-15.md",
+    "wt-1110-convert/tmp/1115-prod/*.md",
+    "git branches (local): web/1115-prod aa5d30844; fix/1115-sec-a..e; web/1115-w1-a..e; web/1115-w2-a..c; web/1115-next"
+  ],
+  "touched_files": [],
+  "verification": "fix/1115-sec-a per its agent: new test 17/17, test:egress 101, test:learn 440, test:app 1065, test:auth 141, test:mob 345 pass with the 7 known failures, eslint clean on changed files. Not independently reviewed. No build and no browser check of any merged work yet.",
+  "cost_and_pending_requests": "No paid model calls by this pass.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
