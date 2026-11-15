@@ -132,6 +132,27 @@ Desktop, looked at on 12 Nov at 1440x900 (all views), 1366x768 and 1920x1080 (si
 | Guide, Pro sheet, account pop-over | Not re-walked 12 Nov | Checked at 1440 on 10 and 11 Nov. |
 | Test-taking screen | **Not seen** | See the trap above. The landing's exam section shows the same component. |
 
+### 3a. Fresh-account states (15 Nov 2026)
+
+Audit `wt-1110-convert/tmp/1115-prod/ux-fresh.md` (on 38a09a4e7: 390 Day and Night, 1440 Day; 196 shots in its `shots/ux-fresh/`). Fixes on branch `web/1115-w2-c` (0578850e4 to fcddb3986), walked again at the same sizes; shots in `wt-1115-w2-c/tmp/1115-shots/w2-c/`.
+
+**Fresh-account recipe:** `/preview/arena?view=<v>&plan=free&data=empty&student=new&decks=real&study=on&mob=none`. `data=empty` answers every account read empty (now traps and Revise too; the Explore bank feed stays, `feed=empty` empties it). `student=new` gives the fresh Key cards and Review. The wallet is fresh by default under either (`wallet=fresh`: 50 free, nothing held, no history, this month's refill date). `referrals=fresh|some|cap|paused|invited|off|down` (default fresh: a code, nobody joined). `mob=none` is now the den's start as production (`none-v2` the old page). `paper=practice5&rules=new` is a first result with no rule. `firstmock=free`, `ai=live`, `guide=auto` as before; `data=error` and `data=loading` for failed and loading.
+
+| Seen and holds (do not re-walk) | Changed 15 Nov |
+|---|---|
+| Today fresh (hero "Start now", week, road), Start sheet, account sheet, top bar and dock targets, Practice fresh, Learn, a chapter, Explore, Revise empty, Your standing, Colleges, Ask Mobi page and sheet, the den (no Mob, a Mob of one), the guide's six stops, all loading states, Day contrast | U2: one label "Start 10 questions" (`src/lib/firstSet.mjs`) to Practice with the set chosen: Today's first-week practice, Your papers, Revise, Progress, Marks trend, Your standing (empty), Colleges projection, Ask Mobi page and sheet |
+| Fresh Wallet (50, "Refills on 1 December", Kept 0) and the "Bring a friend" card: first seen 15 Nov, both hold | U3: the scene failed-load Try again, Saved's keys and Revise's empty key carry `data-page-primary` (dock and sidebar Start go quiet) |
+| | U5: Marks trend says "No sessions yet.", the empty record has the volt first-set key, "Your rules (n)" waits for a first rule, "...first Full or NTA mock. Your account keeps its record." |
+| | U6: "...is chosen in Your rules." stays one sentence at 360 (inline link, 44 px from padding) |
+| | U7: the run row reads "Day 1 / Your first week at your goal" with no session, "Not yet" after; a new Mob's pennant says "New"; badges untouched |
+| | U8: Your papers empty and failed: room left, words right from 1024 px. U9: Saved's room is 225 px wide on a phone, key above the dock |
+| | U10: Key cards, nothing due and nothing added: names the first chapter, outlined "Open the chapter" to its deck |
+| | U11: every Today read failed: one card, one Try again that reads everything again; a part failing alone keeps its own retry |
+
+**Open, and whose:** U1 first-session Pro sheet timing (result lane, owner's call); U4 "Keep the momentum" after a blank paper (result lane); U12 two colleges offers on Today (owner, R3); U13 "Did your rule hold" on a first paper (result lane; `rules=new` now shows it); U18 Guide vs Show me around (owner's copy). The app's `ask_doors.dart` still says "Practise 10 questions first"; `denCopy.mjs` `pennantLabel(0)` still reads "0 weeks in a row" aloud. Today's day-one hero keeps "Start now" (judged sound); Your standing's ranked state keeps "Start a practice session" (not a first step).
+
+**Traps:** the preview answers in the page, so Playwright's request log stays empty after a retry: judge by the screen. Headless mobile can lay the Marks trend key under the dock at load; scroll before clicking. In a column flex parent a scene room's 372 px flex-basis becomes its height (the Saved bug): give it `flex: none`. Tests pin preview and Today source lines (`today_r3`, `today_bundle`, `learn_integration`, `my_colleges`, `practice_parity_1020`): change those lines with their test.
+
 ---
 
 ## 4. Android app (1.0.23+21)
@@ -176,3 +197,4 @@ Owner constraints that bound all of this: refine, do not rebuild (rejected restr
 
 - 12 Nov 2026: created from the final pass (LK225-LK230).
 - 13 Nov 2026: section 2a added (round 13, the home page's motion; LK232-LK236).
+- 15 Nov 2026: section 3a added (fresh-account states, ux-fresh audit and lane W2-C fixes).
