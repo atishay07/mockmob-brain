@@ -1,0 +1,24 @@
+{
+  "id": "20261115T140318.180798Z-2e2daf4b",
+  "observed_at": "2026-11-15T14:03:18.180798+00:00",
+  "agent": "claude-fable-5.2 (session 409ddd8f)",
+  "task": "Production pass before marketing (owner, 15 Nov 2026). Stopped about 7:35 pm IST at 95% usage; the owner hands the rest to an Opus session.",
+  "status": "paused",
+  "done": "On main (www.mockmob.in): security release e6b041acf (checked live), product half d479b78ef (checked live), result share card 12921356b, Daily Five 2039eb7d6 (/daily 200, in sitemap), ask a parent to pay 6472026f0 (pushed 7:31 pm, Vercel build NOT confirmed). Integration branch web/1115-prod in wt-1110-convert equals origin/main. All lanes merged; no agent running; dev server stopped.",
+  "next": "Read mockmob-brain/docs/HANDOFF-2026-11-15-PRODUCTION-PASS.md and PROMPT-NEXT-SESSION-2026-11-15.md. First: confirm the 6472026f0 build is READY and live, run wt-1110-convert/tmp/gate.sh (no full gate or local build ran after the sign-in, share-card, Daily Five and parent-pay merges), trace five red tests outside the scripts, remove merged lane worktrees (rmdir node_modules junctions first; keep wt-1115-w2-b and wt-1115-next). Then build per the handoff's list: Daily Five saved to the account and in the chain, DU data check then cutoff pages, Sunday Mock without ranking, emails behind a switch, late upload, durable-sessions blocker, first paint. Owner's rule: build new visible things, decide small questions, ship, keep a waiting list.",
+  "blockers": [
+    "Usage limit: 95% of the 5-hour window at 7:30 pm",
+    "Owner decisions and owner-only actions are listed in the handoff"
+  ],
+  "evidence": [
+    "mockmob-brain/docs/HANDOFF-2026-11-15-PRODUCTION-PASS.md",
+    "mockmob-brain/docs/PROMPT-NEXT-SESSION-2026-11-15.md",
+    "mockmob-brain/docs/PRODUCTION-PASS-2026-11-15.md",
+    "origin/main 6472026f0"
+  ],
+  "touched_files": [],
+  "verification": "After the last merges: test:app 1,237, test:billing 514, test:auth 191, test:today 146, 0 failures; eslint clean on changed files. Last full gate (24 suites, lint, webpack build) was on 36511c192, before four later merges. Live checks passed for the security release, the product half and the Daily Five; not for the share card's own behaviour or parent pay. No signed-in production check, no real payment.",
+  "cost_and_pending_requests": "No paid model calls by this pass.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
