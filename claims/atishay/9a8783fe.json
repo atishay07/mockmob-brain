@@ -4,20 +4,12 @@
   "session": "9a8783fe-6028-4b9c-8481-d1ef284b0368",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-15T14:08:51.003506+00:00",
-  "last_active": "2026-11-15T15:00:46.208520+00:00",
+  "last_active": "2026-11-15T15:11:00.773711+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "src/lib/server/sunday/deps.js",
-    "src/components/daily/daily.css",
-    "src/components/daily/DailyFiveRow.jsx",
-    "src/lib/sundayMock.test.mjs",
-    "src/components/daily/DailyFiveStrip.jsx",
-    "src/components/daily/daily-strip.css",
-    "src/components/mob/den/DenV3.jsx",
-    "src/components/NavBar.jsx",
     "src/app/preview/arena/previewDaily.js",
     "src/app/preview/arena/ArenaPreviewClient.jsx",
     "data/tests/sunday_mock.test.mjs",
@@ -48,6 +40,11 @@
     "data/tests/statement_accent_1105.test.mjs",
     "src/lib/homeCss.mjs",
     "data/tests/css_split.test.mjs",
-    "tmp/1115-daily-tools/navfit.mjs"
+    "tmp/1115-daily-tools/navfit.mjs",
+    "src/components/NavBar.jsx",
+    "src/lib/email/studentMailModel.mjs",
+    "src/lib/email/studentMailWords.mjs",
+    "src/components/nav-daily.css",
+    "src/lib/email/studentMail.mjs"
   ]
 }
