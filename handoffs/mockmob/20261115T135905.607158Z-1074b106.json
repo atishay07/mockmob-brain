@@ -1,0 +1,36 @@
+{
+  "id": "20261115T135905.607158Z-1074b106",
+  "observed_at": "2026-11-15T13:59:05.607158+00:00",
+  "agent": "claude-subagent-f-b",
+  "task": "Lane F-B (15 Nov 2026): Ask a parent to pay, monthly Pro via Razorpay hosted short_url",
+  "status": "complete",
+  "done": "Branch web/1115-f-b (worktree wt-1115-f-b), commits 1a4ae0f9e, b71c916e8, 6ad0ecce1, ca15edb34. Server: POST /api/billing/parent-link returns the subscription short_url; checkout logic moved unchanged into src/lib/payments/monthlyCheckout.js and shared with /create-monthly-subscription; route reads no body; per-student persistent limiter with memory fallback; parent links carry expire_by 23h50m and an open Get Pro checkout (no expiry) is never sent out. Grant stays the existing webhook (tests prove it). UI: quiet key under Get Pro on /pricing (signed in) and in the Pro sheet, ParentPaySheet with WhatsApp (volt) and Copy link, all states. Switch PARENT_PAY_ENABLED, default ON (unset), carried in publicOffer().parentPay.",
+  "next": "Main session: merge web/1115-f-b; add data/tests/parent_pay_1115.test.mjs to test:billing and src/components/billing/parentPayModel.test.mjs to test:app; owner does one real Rs 99 hosted-link payment from a second phone before marketing; consider adding expire_by to Get Pro subscriptions too.",
+  "blockers": [
+    "Live Razorpay acceptance of expire_by and the hosted page itself are unexercised; monthly has 0 captured payments in production"
+  ],
+  "evidence": [],
+  "touched_files": [
+    "src/lib/payments/parentPay.js",
+    "src/lib/payments/monthlyCheckout.js",
+    "src/lib/payments/offer.js",
+    "src/app/create-monthly-subscription/route.js",
+    "src/app/api/billing/parent-link/route.js",
+    "src/components/billing/ParentPaySheet.jsx",
+    "src/components/billing/ParentPayKey.jsx",
+    "src/components/billing/parent-pay.css",
+    "src/components/billing/parentPayModel.mjs",
+    "src/components/billing/RazorpayPaymentButton.jsx",
+    "src/components/pro/UpgradeSheet.jsx",
+    "src/components/pro/ProNudgeHost.jsx",
+    "src/components/pro/pro-nudge.css",
+    "src/app/pricing/page.js",
+    "src/app/preview/arena/ArenaPreviewClient.jsx",
+    "data/tests/parent_pay_1115.test.mjs",
+    "src/components/billing/parentPayModel.test.mjs"
+  ],
+  "verification": "test:billing 497 pass (with the new file run separately 17 pass); test:app 1204 pass 0 fail; eslint clean on changed files; captures at 360/390 Day and Night and 1440 Day in tmp/1115-shots/f-b of wt-1115-f-b. No Razorpay call made; hosted page never exercised live.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
