@@ -1003,4 +1003,5 @@ Verbatim, about 7:15 pm: "Focus more on building and building more things, and t
 | LIVE 16 Nov (main 844e608fe) | **LK252** His second point: a top progress bar (built two ways: a route bar on every page, and a reading line on the home bar; he can drop either), the opening shorter and smaller, the shell and sign-in waits redrawn. |
 | LIVE 16 Nov (main 844e608fe) | **LK253** Public Key card decks per chapter at `/key-cards` (the Free taste of 5 a chapter; 183 chapters). |
 | LIVE 16 Nov (main 844e608fe), never run with a real model call | **LK254** Bring a mistake from any test, in Ask Mobi, 1 credit. His decision: the distress pre-check fires on real exam text about suicide in the pasted question. |
-| RUNNING 16 Nov | **LK255** Desktop two-column Wallet, Progress and result with a tablet walk; badges refined. Not started: Mob class leagues, corrections log, durable-sessions SQL, Next 16.3.8. |
+| LIVE 16 Nov (main 91f8f8aaf) | **LK256** Badges refined: one family of stamped marks, the earning moment, share, the collection in four rows; names and rules unchanged; the new "what it needs" lines are his to read. |
+| RUNNING 16 Nov | **LK255** Desktop two-column Wallet, Progress and result with a tablet walk. Not started: Mob class leagues, corrections log, durable-sessions SQL, Next 16.3.8. |
