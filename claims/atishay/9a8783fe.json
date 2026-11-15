@@ -4,7 +4,7 @@
   "session": "9a8783fe-6028-4b9c-8481-d1ef284b0368",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-15T14:08:51.003506+00:00",
-  "last_active": "2026-11-15T17:23:19.041308+00:00",
+  "last_active": "2026-11-15T17:39:59.201442+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
@@ -32,11 +32,12 @@
     "data/tests/mob_hours_1020.test.mjs",
     "data/tests/sun2_1115.test.mjs",
     "data/late_paper.js",
-    "data/tests/late_paper_rewards_1115.test.mjs",
     "scripts/capture-home-elements.mjs",
     "data/tests/home_cascade_order.test.mjs",
     "src/lib/cssCascade.mjs",
     "src/lib/server/mob/games.js",
-    "data/tests/marketing_theme_tokens_1104.test.mjs"
+    "data/tests/marketing_theme_tokens_1104.test.mjs",
+    "data/tests/late_paper_rewards_1115.test.mjs",
+    "src/lib/homeCss.mjs"
   ]
 }
