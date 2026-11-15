@@ -122,3 +122,14 @@ and alone.
   week; its answer key opens when the window closes at 10:00 pm; it shows how many sat it and, from 30 sitters, the share
   right per question, with no rank. The Daily Five goes in the public site's top bar, not the signed-in dock (its item count
   is his). The Daily Five's "how everyone did" line appears from 30 saved answers per question.
+- LIVE `a3bad4078` (about 8:35 pm): small fixes. Practice "Average score" averages signed marks (B11); students read
+  "course" in 19 files (degree names such as "B.A. (Programme)" kept); "Open in Chrome" at the top of `/signup` in Android
+  in-app browsers; a warning dialog closed by Android Back comes back while the paper runs, not after it ended (independent
+  Opus review: no blocker, one should-fix applied); unused CloseSheet deleted. Checked live: the new wording served, nine
+  public routes answer as expected, no runtime errors. Not checked: a real Instagram browser, a physical phone.
+- LIVE `12516f20f` (about 9:10 pm): the DU data check passes all three rounds (17,316 printed scores match the served data;
+  `data/du-csas-2026/verification/REPORT.md`), and the cutoff pages: `/du-cutoffs`, 68 course pages, 67 college pages, in the
+  sitemap (136 entries). Checked live: index, a course, a college 200, an unknown course 404, titles served.
+  Open: the calculator opened from a course page waits for subjects before showing that course (next small batch); the
+  Bulletin's free-text course notes are mis-parsed in places (B.Com carries the BBA text), so the pages leave them out:
+  content track.
