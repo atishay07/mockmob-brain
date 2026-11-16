@@ -2,6 +2,17 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 17 Nov 2026, about 1:05 am IST: his second phone verdict is LIVE (main 3511f1fb3, `dpl_B6tTXUhhhHnV5s4fnisHLvfxAQMp`; was 67146f994, rollback `dpl_6pnWZbgXceJvS9DKoqWgV8ymBUDM`)
+
+The night's five lanes (tour, mistake, rhythm, price, chat) plus Mobi art, and this session's fixes. Ledger LK278-LK289 now say LIVE with outcomes (LK283 PART).
+- Fixed this session: Ask Mobi's start at 390x844 (four tiles ended 4 px under the composer's fade; Mobi's box 64x82, gaps 12); landing test L-041 (the home page imported `bringMistake.mjs` and so its model prompt; prices moved to the prompt-free `src/services/mobi/mistakePrices.mjs`, the ban unchanged); the phone companion never covers words or controls (stands, shows his head, or steps aside at each rest; the hello only over a clear spot; 42-rest audit: live before 8 covering rests, live after 0); the DU calculator's head on the page's one left edge with Mobi at its right (was centred since 7 Nov; his 16 Nov phone rule wins); FLOW source pins follow the tour's free story; the home element fixture recaptured.
+- Looked at, no change: section heads 60-70 px into a section are the brand stamp above them; the real gaps are even.
+- Walk: the whole page at 390 Day with 38 real swipes; 390 Night, 360 Day, 1440 Day for the middle stretch; every new control tapped once by real touch. UI-AUDIT-LOG 2d and the section 3 note.
+- Gate in `wt-1116-next` on 831dbde00: 24 suites 0 failures, lint clean, webpack and Turbopack 442 pages each; the last commit (a test pin) run on its own. Outside the gate's suites: 18 failing tests in `scripts/pipeline` and `authored_w2`, files unchanged since 67146f994 (old, not tonight's).
+- Live: 12 public pages 200, `/mentor` signed out goes to `/login?next=%2Fmentor`, POST `/api/ai/mentor/mistake` 401 signed out, the new markup served, no runtime errors.
+- NOT checked: a physical phone, iPhone Safari, a real phone keyboard over the chat's composer, any signed-in flow on production, a real model reply. The Android app's Ask screen still has the old layout and no photo key. The home page's Mobi (vector) got no new art or motion (LK283 part).
+- Not mine to delete (permission declined): stale 6 Nov copies in `docs/_from-code-repo/mockmob-next/` (nothing in them to fold).
+
 ## 16 Nov 2026, night (10:25 pm to 11:58 pm IST): his second phone verdict; built and merged, NOT shipped (stopped at a usage limit)
 
 Read `PROMPT-NEXT-SESSION-2026-11-17.md` (rewritten tonight): it is the whole state and the ordered list of what is left. Short form:
