@@ -2,6 +2,14 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 17 Nov 2026, about 3:25 am IST: STOPPED at the owner's usage limit; next session prompt is PROMPT-NEXT-SESSION-2026-11-17-B.md
+
+Live is still main 3511f1fb3. Release branch web/1117-prod (wt-1110-convert) at 007f01059: six web lanes merged (tour deck,
+opening, 3D Mobi, streak, NTA, daily college game) plus the calendar seat; 564 merged tests pass; not gated, not pushed.
+Unfinished: reviews (daily, NTA; streak's review fix is WIP 28fa1045a on web/1117-streak, not merged), the gate and ship, both
+app lanes (WIP 9769a2114 on ui/1117-ask and 26f90da01 on ui/1117-daily, untested), app wave 2, release 1.0.24+22. No Fable
+agents (limit hit at 2:27 am). Everything is in the prompt file.
+
 ## 17 Nov 2026, from about 1:15 am IST: his third look (LK290-LK301) is being built (eight lanes; nothing new live yet)
 
 - His words whole in OWNER-MASTER-LEDGER LK290-LK301. Research reports: `wt-1110-convert/tmp/1117/understand/<area>/FULL.md`.
