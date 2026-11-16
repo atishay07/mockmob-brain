@@ -4,17 +4,12 @@
   "session": "4f987731-e66c-4515-9695-3754a6594dc2",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-16T22:03:30.971562+00:00",
-  "last_active": "2026-11-16T22:53:16.519512+00:00",
+  "last_active": "2026-11-16T23:04:47.051004+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "src/components/daily/dailyStripCopy.mjs",
-    "src/components/daily/DailyFiveRow.jsx",
-    "data/tests/runner_nta_saving.test.mjs",
-    "src/components/profile/accountModel.mjs",
-    "data/tests/daily_team_1117.test.mjs",
     "src/components/streak/StreakChip.jsx",
     "src/lib/daily/team.test.mjs",
     "src/components/daily/dailyStripCopy.test.mjs",
@@ -34,6 +29,11 @@
     "flutter_app/test/unit/runner/nta_saving_test.dart",
     "flutter_app/lib/features/daily/widgets/daily_team.dart",
     "flutter_app/test/golden/runner/nta_golden_test.dart",
-    "flutter_app/lib/features/insights/data/mistake.dart"
+    "flutter_app/lib/features/insights/data/mistake.dart",
+    "flutter_app/lib/features/insights/data/mistake_api.dart",
+    "flutter_app/lib/features/insights/data/mistake_photo.dart",
+    "flutter_app/lib/features/insights/widgets/ask_chat.dart",
+    "flutter_app/lib/features/insights/screens/ask_screen.dart",
+    "flutter_app/test/unit/insights/ask_chat_review_1117_test.dart"
   ]
 }
