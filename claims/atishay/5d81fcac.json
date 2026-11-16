@@ -4,18 +4,12 @@
   "session": "5d81fcac-1f7d-429d-a866-b6bab8e4d67d",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-16T18:49:23.738719+00:00",
-  "last_active": "2026-11-16T21:34:02.480130+00:00",
+  "last_active": "2026-11-16T21:47:03.024399+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "flutter_app/lib/features/rhythm/data/server_badges.dart",
-    "src/components/daily/DailyFiveRow.jsx",
-    "src/components/arena/NtaInstructions.jsx",
-    "flutter_app/lib/features/rhythm/widgets/badge_share.dart",
-    "src/components/daily/daily-row.css",
-    "tmp/lane-tools/dshot.mjs",
     "data/tests/streak_1117.test.mjs",
     "tmp/lane-tools/probe-daily.mjs",
     "flutter_app/lib/features/insights/data/mistake.dart",
@@ -24,7 +18,6 @@
     "data/tests/runner_nta_ui.test.mjs",
     "src/components/landing/FeatureTour.jsx",
     "flutter_app/test/golden/daily/daily_golden_test.dart",
-    "tmp/lane-tools/nta-walk.mjs",
     "tmp/fix-tests.py",
     "tmp/tourFree.test.mjs",
     "flutter_app/test/golden/rhythm/badge_stamps_golden_test.dart",
@@ -39,6 +32,14 @@
     "tmp/lane-tools/errs.mjs",
     "tmp/opening-new.css",
     "src/lib/dailyFive.test.mjs",
-    "src/app/sunday-mock/SundayNext.jsx"
+    "src/app/sunday-mock/SundayNext.jsx",
+    "src/app/(app)/test/TestPageClient.jsx",
+    "tmp/new-opening-test.py",
+    "tmp/opening-test-template.mjs",
+    "tmp/lane-tools/nta-build.mjs",
+    "src/components/arena/NtaInstructions.jsx",
+    "tmp/lane-tools/nta-walk.mjs",
+    "src/components/landing/opening.test.mjs",
+    "tmp/1117/briefs/app-wave2.md"
   ]
 }
