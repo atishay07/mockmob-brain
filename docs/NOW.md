@@ -2,6 +2,15 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 16 Nov 2026, night (10:25 pm to 11:58 pm IST): his second phone verdict; built and merged, NOT shipped (stopped at a usage limit)
+
+Read `PROMPT-NEXT-SESSION-2026-11-17.md` (rewritten tonight): it is the whole state and the ordered list of what is left. Short form:
+- His words: OWNER-MASTER-LEDGER LK278-LK289 (tour stack rejected, older held one preferred; mistake copy and the 5-of-10 card; the Daily and Sunday block too small; Mobi art; Ask Mobi "such bad UI", must be a real chat; no provider named; the refused-photo loophole; Free cap to Rs 3.50; Practice's Sunday line only on Saturday).
+- LIVE is still main 67146f994. Release branch `web/1115-prod` (wt-1110-convert) is at f93e85149, local only: five lanes merged cleanly (tour, mistake, rhythm, price, chat) plus Mobi art. Not gated, not pushed.
+- Done on production by the owner himself: `runtime_ai_budget.student_user_free` = 0.0398 (Rs 3.50), read back.
+- Left: look at the chat follow-up screens (code done, unseen), fix test L-041, the merged home-page walk (never done; three known defects), the full gate, push, live checks, records.
+- Sub-agent effort guide (his ask tonight): `AI OS/context/agent-model-routing.md`, top section; always pass effort.
+
 ## 16 Nov 2026, evening (from about 5:45 pm IST): the phone pass after his look at the live site
 
 His words are whole in OWNER-MASTER-LEDGER.md (LK266-LK275): desktop looks good, the phone falls short; Daily Five and Sunday Mock too big and too high; "No. 2" means nothing; the bring-a-mistake block misplaced on phone and desktop, and does Ask Mobi really take a photo and what does it cost; the scrolling Mobi "needs to be interactive and overall fixed"; after the tour's Practice screen the page does "weird movements"; no pulsing dots, no walls of text, words lined up; "the codebase is yours ... don't ... keep asking me stuff".
