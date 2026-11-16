@@ -199,3 +199,9 @@ The owner's own words from prompts that set a standing rule. Newer decisions can
 
 - id: 27ef1ef3e0 | 2026-11-16 | claude | mockmob
   > Okay, good work, keep working on the main tasks that you were doing.
+
+- id: 0210e4b9a5 | 2026-11-17 | claude | mockmob
+  > From now on, don't spawn Fable agents.
+
+- id: 3e77791216 | 2026-11-17 | claude | mockmob
+  > Just make sure that you include everything that was there in my first prompt.
