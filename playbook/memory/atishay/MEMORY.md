@@ -67,3 +67,4 @@
 - [Build features before audits](build-features-before-audits.md) — 15 Nov: he wanted new things built, got audit and fixes; features in the first wave, decide small things myself, list every plan item in updates
 - [Bold, branded, not safe](bold-brand-not-safe.md) — 16 Nov: quiet Daily Five ticket rejected; big blocks in MockMob's own identity, more room, conversion first, state each feature's rhythm plainly
 - [Don't stop for handover](dont-stop-for-handover.md) — 16 Nov: stopping at 81% usage cost 7 idle hours; keep building until the list is finalized, handoff in passing
+- [Console flashes: DETACHED_PROCESS](console-flash-detached-process.md) — 16 Nov: flashing terminals came from background jobs started detached; use CREATE_NO_WINDOW; disk cleanup facts and what is his to delete

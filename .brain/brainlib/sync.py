@@ -1287,7 +1287,7 @@ def spawn_background(reason: str, _script: str | os.PathLike | None = None) -> b
                 )
                 if os.name == "nt":
                     base = (
-                        gitops.DETACHED_PROCESS | gitops.CREATE_NEW_PROCESS_GROUP | gitops.CREATE_NO_WINDOW
+                        gitops.CREATE_NEW_PROCESS_GROUP | gitops.CREATE_NO_WINDOW
                     )
                     try:
                         proc = subprocess.Popen(cmd, creationflags=base | gitops.CREATE_BREAKAWAY_FROM_JOB, **kwargs)
