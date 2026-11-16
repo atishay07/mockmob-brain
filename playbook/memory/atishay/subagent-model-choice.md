@@ -50,3 +50,5 @@ Choose the model per agent, not by default. 12 Oct the owner allowed Opus at hig
 - Sonnet: the main heavy lifter for code and for frontend UI/UX design.
 - Haiku: smaller tasks under about 100k tokens: routine work such as handing over code, basic code, checking, tagging, judging, solving, and bounded content generation such as authoring a batch of questions.
 He objected to spawning many Sonnet agents to write questions ("It will just eat up the usage so much"): question authoring and verification go to Haiku.
+
+16 Nov 2026 (about 12:30 am, 17 Nov IST), owner on tonight: Opus for build lanes and Fable for the taste-critical chat redesign were "correct". For Mobi art that needs 3D or Blender work, use Fable ("for 3D work, Fable is clearly the winner"). He asked which effort level sub-agents run on: say the level plainly; when none is passed they run at the agent type default, which the orchestrator cannot read. If he names a level, pass it explicitly on every Agent call.
