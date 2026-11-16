@@ -13,7 +13,7 @@
   pause-day practice; the top-bar chip now shows only from 640 px up: on phones the streak leads Today and You instead).
 - Merged walk at 390 Day (37 real swipes, 0 page errors), tour deck by touch, opening frames (390 Day/Night, 1440 Day; LCP not
   delayed), companion 0 covering of 38 rests, shadow sweep 0 past-section at 360/390/1440 Day and 390 Night, no overflow at 360.
-- **WEB LIVE about 4:30 am: main 65797fd17 (`dpl_4VGnGGjrHTSsAk8DX88jjjB4vEqT`; rollback `dpl_B6tTXUhhhHnV5s4fnisHLvfxAQMp`
+- **WEB LIVE about 4:12 am: main 65797fd17 (`dpl_4VGnGGjrHTSsAk8DX88jjjB4vEqT`; rollback `dpl_B6tTXUhhhHnV5s4fnisHLvfxAQMp`
   = 3511f1fb3).** Gate in wt-1116-next on af96050e8: 24 suites 0 failures, eslint clean, webpack and Turbopack builds 442 pages
   (the one later commit is CSS-only: pause days 44 px). Live checks: 12 public pages 200; /mentor signed out lands on
   /login?next=%2Fmentor (a redirect inside the page; curl sees 200); POST /api/ai/mentor/mistake, GET /api/me/streak, POST
