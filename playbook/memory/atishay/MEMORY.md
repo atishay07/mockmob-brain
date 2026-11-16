@@ -68,3 +68,5 @@
 - [Bold, branded, not safe](bold-brand-not-safe.md) — 16 Nov: quiet Daily Five ticket rejected; big blocks in MockMob's own identity, more room, conversion first, state each feature's rhythm plainly
 - [Don't stop for handover](dont-stop-for-handover.md) — 16 Nov: stopping at 81% usage cost 7 idle hours; keep building until the list is finalized, handoff in passing
 - [Console flashes: DETACHED_PROCESS](console-flash-detached-process.md) — 16 Nov: flashing terminals came from background jobs started detached; use CREATE_NO_WINDOW; disk cleanup facts and what is his to delete
+- [Phone pass rules, 16 Nov](phone-pass-1116-rules.md) — 16 Nov evening: his verdict on the live landing on his phone; size and place by importance, nothing self-moving, no text walls, one left edge, back every claim; decide, don't ask
+- [Gate in wt-1116-next](gate-in-wt-1116-next.md) — 16 Nov: release gate runs in the worktree with real Next 16.3.8; lint 'rule not found' and Turbopack --use-system-ca traps; recapture the home element fixture
