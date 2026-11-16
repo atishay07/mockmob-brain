@@ -4,7 +4,7 @@
   "session": "4f987731-e66c-4515-9695-3754a6594dc2",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-16T22:03:30.971562+00:00",
-  "last_active": "2026-11-16T22:14:59.847468+00:00",
+  "last_active": "2026-11-16T22:32:35.724937+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
@@ -14,6 +14,21 @@
     "tmp/1116-final/shadow-sweep.mjs",
     "src/lib/chain/chain.mjs",
     "src/lib/server/dailyTeam.js",
-    "src/app/(app)/test/TestPageClient.jsx"
+    "src/lib/daily/team.mjs",
+    "src/components/daily/DailyTeam.jsx",
+    "src/components/arena/NtaInstructions.jsx",
+    "data/test_modes.js",
+    "src/components/daily/DailyFive.jsx",
+    "src/components/daily/dailyStripCopy.mjs",
+    "src/components/daily/DailyFiveRow.jsx",
+    "data/tests/runner_nta_saving.test.mjs",
+    "src/components/profile/accountModel.mjs",
+    "data/tests/daily_team_1117.test.mjs",
+    "src/components/streak/StreakChip.jsx",
+    "src/lib/daily/team.test.mjs",
+    "src/components/daily/dailyStripCopy.test.mjs",
+    "data/tests/streak_1117.test.mjs",
+    "src/app/(app)/test/TestPageClient.jsx",
+    "tmp/1116-final/perf-bench.mjs"
   ]
 }

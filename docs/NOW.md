@@ -2,6 +2,20 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 17 Nov 2026, from about 3:35 am IST: the B session (finishing LK290-LK301 while the owner sleeps) — IN PROGRESS
+
+- Reviews done (Opus xhigh, one per lane) and merged into web/1117-prod (wt-1110-convert): daily d8cd51273 (7 fixes: Sunday
+  board read in ordered 1,000-row pages, a refused college change never shown, shared phones, copy) plus mine 99ba4b013 (the
+  day board's average shows from 10 players, to the nearest half: one more player can no longer give a score away); NTA
+  6528d3dc6 (7 fixes: clock jump after the instructions page, a stalled second, unsaved choice cleared on every submit,
+  reload after Start, accessibility) plus mine 6a11a06e1 ("Saved" / "Not saved yet" beside the question number, since the
+  palette is folded away on phones); streak f4475c037 + c319a0c6d (the WIP kept; walk fixes found by a 20,000-history fuzz;
+  pause-day practice; the top-bar chip now shows only from 640 px up: on phones the streak leads Today and You instead).
+- Merged walk at 390 Day (37 real swipes, 0 page errors), tour deck by touch, opening frames (390 Day/Night, 1440 Day; LCP not
+  delayed), companion 0 covering of 38 rests, shadow sweep 0 past-section at 360/390/1440 Day and 390 Night, no overflow at 360.
+- Gate running in wt-1116-next on af96050e8. App: three agents finishing ui/1117-ask, ui/1117-daily (+ the college game) and a
+  new ui/1117-nta (wt-1117-app-nta) port.
+
 ## 17 Nov 2026, about 3:25 am IST: STOPPED at the owner's usage limit; next session prompt is PROMPT-NEXT-SESSION-2026-11-17-B.md
 
 Live is still main 3511f1fb3. Release branch web/1117-prod (wt-1110-convert) at 007f01059: six web lanes merged (tour deck,
