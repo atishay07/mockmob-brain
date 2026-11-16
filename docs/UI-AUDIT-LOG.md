@@ -149,6 +149,32 @@ Looked at: the whole page at 390x844 Day with 38 real finger swipes (420 px drag
 
 Not looked at: a physical phone, iPhone Safari, tablet widths, a screen reader, Night at 1440 for this stretch.
 
+### 2e. Home page and runner, the 17 Nov lanes (web/1117-prod, merged head af96050e8 / 65797fd17; owner LK290-LK301)
+
+Looked at (17 Nov, about 3:45-4:10 am, local webpack dev server on the merged branch): the whole home page at 390x844 Day with
+37 real finger swipes (420 px; 21,131 px page, 0 page errors); the tour deck by real touch (`wt-1117-tour/tmp/lane-tools/deck.mjs`:
+four sideways swipes one card each, a swipe back, a vertical swipe over the deck scrolls the page, three tab taps, a tap inside);
+the opening frame by frame (`wt-1117-opening/tmp/cap.mjs`, first visit at 390 Day, 390 Night, 1440 Day); the companion audit (38
+rests); a new shadow sweep (`wt-1110-convert/tmp/1116-final/shadow-sweep.mjs`: any box-shadow reaching past its section's bottom,
+and hard shadows) at 390 Day, 390 Night, 360 Day, 1440 Day; sideways overflow at 360 on /, /daily, /sunday-mock
+(`overflow-check.mjs`); the daily block at 360; Today and You with streak fixtures (`?streak=day3|makeup|day30`) at 390 Day and
+Night; NTA mode in the runner fixture (`wt-1117-nta/tmp/lane-tools/nta-walk.mjs`, 390 Day). Shots: `tmp/1116-final/shots/p17day`,
+`d360`; `wt-1117-tour/tmp/lane-tools/shots/m390`; `wt-1117-opening/tmp/shots/m390d`, `m390n`, `m1440`; `tmp/1110-app/shots/st-*`;
+`wt-1117-nta/tmp/lane-tools/shots/m390`.
+
+| Thing | State | Notes |
+|---|---|---|
+| Tour on phones (LK290) | **Rebuilt, seen** | A deck: five still tabs over cards the browser scrolls sideways, next card peeking; one card a swipe; never held. 969 px at 390. Desktop keeps the held tour. |
+| Shadows (LK291) | **Fixed, swept** | 0 shadows past their section at four sizes. The only "hard" hits are the brand's solid 4 px key lips and ring borders (intended). |
+| Opening (LK299) | **Rebuilt, seen** | Answer sheet rain on the page's own ground (no dark flash in Day), the word rises onto the bar logo and lands (desktop: lands by about 1.1 s after release, links fade in by 1.4 s). LCP is page content at first paint (820 ms local), not delayed. |
+| 3D Mobi seats (LK294) | **Seen, hold** | Magnifier, camera, reading, pointing, attentive, calendar, wave; companion at 4 of 38 rests, covering words at 0. |
+| Daily Five block (LK293) | **Rebuilt, seen** | "Five a day. Play for your college.", admit-card Daily Five card with "Playing for", the college board with an honest empty state, the Sunday card. 1,141 px at 360. Board average from 10 players, to the nearest half (privacy). |
+| Streak (LK296) | **Built, seen** | Today's block (days in a row, the milestone line, what today needs, rest passes), You. The top-bar chip shows only from 640 px up (on phones it squeezed Ask Mobi). Pause days 44 px tall. |
+| NTA mode (LK297) | **Built, seen** | Instructions before the clock, saving only by Save & Next / Mark for Review & Next, "Saved" / "Not saved yet" beside the question number, Save & Next on the last question saves and stays, NTA's Exam Summary. |
+
+Not looked at: a physical phone, iPhone Safari, Night at 1440 for the new blocks, the daily board with many players on screen
+(fixture states tested in code only), a screen reader.
+
 ---
 
 ## 3. Signed-in website (the arena)
