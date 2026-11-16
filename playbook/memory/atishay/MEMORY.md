@@ -1,6 +1,6 @@
 - [Deploy security fixes immediately](security-fixes-deploy-immediately.md) — owner's standing OK (12 Oct 2026) to hotfix and deploy crucial MockMob security issues without asking
 - [Emulator RAM rule](emulator-ram-rule.md) — emulator is the main test device (13 Oct); max 2-3 GB assigned; manage RAM yourself; no hosted sign-in by agents
-- [Subagent model choice](subagent-model-choice.md) — 24 Oct 3:30 am newest: right model per job, speed matters; Sonnet when spec is given (Opus can harm); Haiku medium/high for small jobs; xhigh only Sonnet/Opus; max rarely
+- [Subagent model choice](subagent-model-choice.md) — 17 Nov: always pass effort; guide in AI OS context/agent-model-routing.md (Opus xhigh for money/review/loose work, Opus high builds, Fable high taste and 3D, Sonnet only mechanical)
 - [MockMob design direction](mockmob-design-direction.md) — 13 Oct: owner wants premium glass/motion UI like HIGH, Revolut, Fampay; no obvious disclaimers; no 5-question app onboarding; logo = round 4 B (Mobi as second o, "mo" icon), may switch to A
 - [Overnight autonomy and relay](overnight-autonomy-relay.md) — 14 Oct: relay ON, shift account in auto mode on limit, keep improving the app nonstop, never stop to ask
 - [Quality bar and stop rule](quality-bar-and-stop-rule.md) — 14 Oct: next-level motion beyond Duolingo; checkpoint findings often; stop cleanly with handover at ~95% context or usage
