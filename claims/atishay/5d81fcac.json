@@ -4,7 +4,7 @@
   "session": "5d81fcac-1f7d-429d-a866-b6bab8e4d67d",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-16T18:49:23.738719+00:00",
-  "last_active": "2026-11-16T20:29:20.764995+00:00",
+  "last_active": "2026-11-16T20:41:05.916419+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
@@ -20,6 +20,7 @@
     "tmp/1117/understand/tour/shadows.mjs",
     "tmp/1117/understand/streak-nta/shoot.mjs",
     "tmp/1117/understand/daily/mm.mjs",
-    "tmp/1117/understand/tour/reduced.mjs"
+    "tmp/1117/understand/tour/reduced.mjs",
+    "tmp/1117/mk-lanes.ps1"
   ]
 }
