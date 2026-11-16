@@ -112,6 +112,27 @@ Capture tools added: `tmp/1114-ask/sheet.mjs`, `tmp/1114-companion/walk.mjs`, `t
 
 Traps: running captures and `next build` together crashed a build worker once (exit 3221226505); build alone. Production does not set `PERSISTENT_LIMITS_ENABLED`: a route that must have the database limiter passes `persistent: true`.
 
+### 2c. Home page, round 16 (16 Nov 2026 evening, main 516bc9511; owner LK266-LK275)
+
+His verdict on the live page: good on desktop, short on the phone. Looked at: www and the local build at 390x844 Day (whole page, 31 screens, twice), real finger swipes from the Mistake Lab to pricing, 360 and 768 touch for the tour, 390 Night for the new blocks, 1440 Day for the new blocks and the held tour.
+
+| Thing | State | Notes |
+|---|---|---|
+| Daily Five and Sunday Mock on the home page | **Moved and rebuilt** | `#daily-and-sunday` after the exam screen: two rows, 535 px at 390. The full calendar pages live only on /daily and /sunday-mock now. No day number anywhere. |
+| "Got one wrong in another test?" | **Rebuilt** | One card, three tabs (reader-driven, never timed), 956 px at 390. Desktop: words left on one edge, card right, centred. |
+| "More inside MockMob" on touch | **Rebuilt** | A plain stack, no hold, no chip row, no bottom band. Every screen answers taps. Mouse and trackpad keep the held tour. The Mistake Lab stays held on every device. |
+| Phone scroll companion | **Calmed** | On the bottom bar only; no lean, stretch, hop. Still tucks to a head over a control. Tap asks about the section in view. |
+| Mobi's seats on phones | **Calmed** | 260 ms fade and 8 px rise (was an 880 ms hop). The close keeps its one wave. |
+| Compass | **Fixed** | No self-running score on touch (rests at 900: five clear, five short); head on the left edge; Mobi at the head's right. |
+| Range inputs on touch | **Fixed** | Track ignores the finger, knob takes it, vertical drags scroll (`r16-phone.css` block 3). Compass and pricing. |
+| Key cards subjects | **Trimmed on phones** | Six chips and a count chip; all fourteen from 720 px. |
+| /sunday-mock "How it works" | **Rebuilt** | Three figures and a timeline. /daily's head explains the five. |
+| Hero, colleges, sample, statement, Mistake Lab, exam screen, DU tool, creators, pricing, FAQ, close | Seen, hold. **Not changed** | He called the page "competent" up to the tour's first screen. Pricing is 2,442 px at 390: long, his approved design, left. |
+
+Traps: an element screenshot of a tall section is blank (content-visibility): use `tmp/1116-final/walk.mjs <label> "#a,#b" 390x844 light` (viewport steps, joined). `tmp/1116-final/swipe.mjs <label> "#start" <swipes> <px>` makes real finger drags; a drag that starts on a slider sets it. `tmp/1116-final/slider.mjs [base]` tests the slider guard. `sec.mjs` taps through a block's steps and reports whether each control was reachable. In Git Bash a `/path` argument needs `MSYS_NO_PATHCONV=1`.
+
+Open, his call: the pricing section's length on a phone; whether the companion should show at all while a tour screen is under him (he stands over its right corner); Learn's "Then: practise Vocabulary questions" line inside the tour screen.
+
 ---
 
 ## 3. Signed-in website (the arena)
@@ -230,3 +251,4 @@ Owner constraints that bound all of this: refine, do not rebuild (rejected restr
 - 13 Nov 2026: section 2a added (round 13, the home page's motion; LK232-LK236).
 - 15 Nov 2026: section 3a added (fresh-account states, ux-fresh audit and lane W2-C fixes).
 - 16 Nov 2026: section 3c added (the Daily Five pages, the week's pages, the merged wave).
+- 16 Nov 2026, evening: section 2c (round 16, the phone pass after the owner's look at the live site).

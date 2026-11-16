@@ -1034,12 +1034,12 @@ How it was read (the readings are mine, not his): "CAT" is the General Test (GAT
 | Status | Item |
 |---|---|
 | STANDING | **LK266** Desktop is fine; the phone is where the landing falls short. A pass is judged on his phone. |
-| BUILT 16 Nov, ships with this pass | **LK267** Daily Five and Sunday Mock: not under the hero, far smaller. Two short rows in their own section after the exam screen (about 535 px at 390, from about 1,500). |
-| BUILT 16 Nov | **LK268** "Number 2" removed everywhere (home, Today's row, /daily). /daily and the home row say the five come from English and the General Test, the same five for everyone. |
-| BUILT 16 Nov | **LK269** "Got one wrong in another test?" rebuilt: one card walked through in three steps (your question, Mobi's read, a check), words on one left edge, 956 px at 390 from about 1,700. |
+| LIVE 16 Nov (main 516bc9511) | **LK267** Daily Five and Sunday Mock: not under the hero, far smaller. Two short rows in their own section after the exam screen (about 535 px at 390, from about 1,500). |
+| LIVE 16 Nov (main 516bc9511) | **LK268** "Number 2" removed everywhere (home, Today's row, /daily). /daily and the home row say the five come from English and the General Test, the same five for everyone. |
+| LIVE 16 Nov (main 516bc9511) | **LK269** "Got one wrong in another test?" rebuilt: one card walked through in three steps (your question, Mobi's read, a check), words on one left edge, 956 px at 390 from about 1,700. |
 | IN A LANE 16 Nov | **LK270** Ask Mobi reads a PHOTO of a question (until now typed text only), priced (a photo 2 credits, typed 1), names the chapter from MockMob's own list and opens practice on it. Never run against a real model by an agent: his to try once. |
-| BUILT 16 Nov | **LK271** The scrolling Mobi: stands only on the bottom bar, no lean, stretch or hop, and a tap opens Ask Mobi with a question about the section in view. |
-| IN A LANE 16 Nov | **LK272** The tour on phones: a plain stack of the five tools (no held scroll after Practice), and every screen answers a tap. |
-| BUILT 16 Nov | **LK273** Things that moved by themselves or by accident on a phone: the Compass score no longer runs by itself on touch; a thumb scrolling across a slider no longer sets it. Compass head starts on the page's left edge; Key cards shows six subject chips and a count. |
-| BUILT 16 Nov | **LK274** The Sunday Mock page's "How it works": the paper as three figures and the day as a timeline, from the rule's own constants. |
+| LIVE 16 Nov (main 516bc9511) | **LK271** The scrolling Mobi: stands only on the bottom bar, no lean, stretch or hop, and a tap opens Ask Mobi with a question about the section in view. |
+| LIVE 16 Nov (main 516bc9511) | **LK272** The tour on phones: a plain stack of the five tools (no held scroll after Practice), and every screen answers a tap. |
+| LIVE 16 Nov (main 516bc9511) | **LK273** Things that moved by themselves or by accident on a phone: the Compass score no longer runs by itself on touch; a thumb scrolling across a slider no longer sets it. Compass head starts on the page's left edge; Key cards shows six subject chips and a count. |
+| LIVE 16 Nov (main 516bc9511) | **LK274** The Sunday Mock page's "How it works": the paper as three figures and the day as a timeline, from the rule's own constants. |
 | STANDING | **LK275** "The codebase is yours. Feel free to make any changes that you like, so don't be hesitant on that part or keep asking me stuff." No pulsing or flashing dots, no slop fonts; explain a feature with a designed screen, never a wall of text, and line the words up. |
