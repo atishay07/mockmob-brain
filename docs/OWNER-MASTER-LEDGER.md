@@ -1045,3 +1045,54 @@ How it was read (the readings are mine, not his): "CAT" is the General Test (GAT
 | STANDING | **LK275** "The codebase is yours. Feel free to make any changes that you like, so don't be hesitant on that part or keep asking me stuff." No pulsing or flashing dots, no slop fonts; explain a feature with a designed screen, never a wall of text, and line the words up. |
 | OPEN, his decision | **LK276** Ask Mobi pricing on Free: a typed mistake costs 1 credit and a photo 2, but at expected model costs the Rs 2.50 monthly AI cap ends a Free month after about 31 typed or 22 photo asks, before the 50 credits are spent. Leave it, raise the Free cap, or price typed 2 and photo 3. |
 | HIS TO DO | **LK277** Try one photo of a question in Ask Mobi from his own account (2 credits; a failed reply uses none). It is the first real photo call; the receipt then shows the true image cost against the reservation. |
+
+## His second look on his phone, 16 Nov 2026 about 10:25 pm (LK278-LK289; part pasted dictation, part typed)
+
+His words, whole. The first part came as pasted dictation:
+
+> I'll give you feedback one by one on what works and what doesn't.
+>
+> 1. More inside MockMob: I have you spread everything into different sections vertically. The vertical space on mobile is already full, and it's just a wastage of vertical space. I think the older one was better, or I don't think this would work.
+> 2. Keycard is fine, and this is also fine.
+> 3. Pick your subject.
+> 4. This Ask Mobi thing went wrong in another test. I think you had some older type version, and the copywriting on that was, I think, better. It had something like "in your other coaching school" or something like that, or another question was wrong. The student should feel that it is readable.
+> 5. Your question, "Mobbies read," is right now doing a good job, but it's not good enough. It's rated 5 and 10 out of 10 right now. It could be more descriptive of what exactly is needed and what value we are providing them over any other thing. That should be clear.
+> 6. This 5-day one paper on Sunday also needs to be improved. This is looking like a very small subsection, not something important or a major part of the platform, and it is also tucked away and hidden. If you understand what I'm saying, the visual hierarchy is not here completely, and the overall UI should be better. I'll just show you how ours look versus how Prepium's look. The Prepium one is also not perfect because it's consuming a bit too much vertical space on the phone, but it's still better than our implementation.
+> 7. I would just say the Mobi image generations and animations can be improved. We can use the image generator to generate any new animations, or Blender, or whatever you like. Overall, some of that stuff also can be improved.
+>
+> Read this as one ultimate final pass of the landing page. Improve whatever you can on the site and anywhere else.
+>
+> Lastly, coming to the pricing question, if you could, just fit everything within our budget and price things according to it. I think the current 50 free credits that we give, for that, we had capped it to no more than ₹2.05 in monthly API usage.
+>
+> 1. Increase it to ₹3.5, incidental only.
+> 2. Just see if, in all the use cases that we are thinking of, that budget in the 50 credits is sufficient or not, and apply things according to that.
+
+Then typed:
+
+> Then, coming on to the testing AskMobie, I don't see any way to upload a photo here. This is just such bad UI in the AskMobie thing. I'm not even going to try it, but let me just add a random image just for the sake of it, because I've never seen poor UI.
+>
+> Just then, this is an AI chatbot. It should feel like a proper AI agent with a ChatGPT or any Claude-like interface, but even better than that.
+>
+> But it should not be written that we are sending calls to. Not for the sake of hiding it, but any company who is making their own chatbot should mention this if they are using the API, right? We are not required to mention such kinds of things either.
+>
+> Keep the look professional, clean, and beautifully made, and it should feel like more than a chatbot and assistant, but still have all the functionality and UI of a proper chatbot.
+> Now my question is: I uploaded a random photo, and it just showed that this doesn't look like a question from a test, so that's okay, not an issue. That's the correct intentional behavior, but again, it took away the bad user. Leaving that also, if someone keeps spamming random photos, I think this still counts as a call to the API route. I don't know if it costs us credits. It must cost something to create if it's doing a call. It's nigh worthless, but it's costing something, and I don't think we are deducting any credits. We are not deducting any credits, so I think this is kind of a loophole.
+>
+> Overall, this also needs to be thought through more in terms of how to build this properly. Also, make sure the Sunday mark on the top is not showing in the practice section. That should only be done if the date is Saturday, just the Sunday before, marked as a reminder of some sort.
+
+How it was read (the readings are mine, not his). No picture arrived with the message, so "how ours look versus how Prepium's look" was read from Prepium's live page at phone size (its weekly-dose cards: a coloured band with LIVE NOW and a large date, then the name, three chips and a full-width key; about 390 px each). "The older one" for the tour is the one held stage of before 3891f2ace; its self-playing demos and moving chip row are taken as the "weird movements" of the 5:45 pm note, the held stage itself as what he liked. "₹2.05" is the Rs 2.50 Free cap. "Incidental only" is read as: raise it to Rs 3.50 and no further. "The Sunday mark on the top ... in the practice section" is the Sunday Mock line under Practice's heading (`SundayPracticeRow`); read as: show it on Saturday as a reminder, and on Sunday while the paper can still be started, on no other day. "It should not be written that we are sending calls to": no provider is named in the product's own screens; the privacy page keeps naming who processes a photo.
+
+| Status | Item |
+|---|---|
+| IN WORK 16 Nov night | **LK278** The tour on phones: the vertical stack wastes the screen; "the older one was better". Back to one held stage, screens still answer a tap, nothing plays by itself. |
+| NO CHANGE | **LK279** Key cards and "Pick your subject" are fine. |
+| IN WORK 16 Nov night | **LK280** "Got one wrong in another test?": the older copy read better (it named the coaching sheet, the school paper, the book). A student should find it readable. |
+| IN WORK 16 Nov night | **LK281** The three-step card (your question, Mobi's read, check) is "5 out of 10": say what the student has to bring and what MockMob gives that any other tool does not. |
+| IN WORK 16 Nov night | **LK282** "Five a day. One paper a Sunday." is too small, tucked away, no visual hierarchy; it must read as a major part of the platform. Prepium's cards are better but too tall. |
+| IN WORK 16 Nov night | **LK283** Mobi's pictures and animations can be better; the image generator, Blender, anything may be used. |
+| STANDING | **LK284** "Read this as one ultimate final pass of the landing page. Improve whatever you can on the site and anywhere else." |
+| IN WORK 16 Nov night | **LK285** Pricing: raise the Free monthly AI cap from Rs 2.50 to Rs 3.50, check every AI use fits the 50 credits inside it, and price accordingly. Closes LK276. |
+| IN WORK 16 Nov night | **LK286** Ask Mobi: he could not find the photo upload; "such bad UI". It must feel like a proper AI agent, with a ChatGPT or Claude-like interface "but even better", professional and clean, "more than a chatbot" with every function of one. |
+| IN WORK 16 Nov night | **LK287** The product's screens do not say where the calls go (no provider named). |
+| IN WORK 16 Nov night | **LK288** A refused random photo costs us a model call and the student no credits: a loophole; think the whole thing through. |
+| IN WORK 16 Nov night | **LK289** Practice: the Sunday Mock line at the top shows only as a reminder the day before (Saturday). |
