@@ -133,6 +133,22 @@ Traps: an element screenshot of a tall section is blank (content-visibility): us
 
 Open, his call: the pricing section's length on a phone; whether the companion should show at all while a tour screen is under him (he stands over its right corner); Learn's "Then: practise Vocabulary questions" line inside the tour screen.
 
+### 2d. Home page, the merged night lanes (17 Nov 2026, web/1115-prod 3511f1fb3; owner LK278-LK289)
+
+Looked at: the whole page at 390x844 Day with 38 real finger swipes (420 px drags, CDP touch; top to footer, 22,875 px), then 390 Night, 360x740 Day and 1440x900 Day for the stretch from "Got one wrong in another test?" to the DU calculator; a 42-rest companion audit (after each swipe settles, a script reads whether his visible figure or his hello covers a word or a control) on the local build and on live main 67146f994; one real touch tap on each new control. Tools: `wt-1110-convert/tmp/1116-final/` `swipe.mjs`, `walk.mjs`, `mc-audit.mjs`, `taps.mjs`, `taps2.mjs`; shots under `tmp/1116-final/shots/` (`w17day`, `st390n`, `st360`, `st1440`, `mc-new`, `mc-live`, `taps-390`).
+
+| Thing | State | Notes |
+|---|---|---|
+| Tour on phones (LK278) | **Seen, holds** | One held stage again, five still tabs, the browser's own scroll (`free`). In the 390 walk each ordinary swipe moved one tool (Practice, Learn, Ask Mobi, Benchmarks, Mob). All five tabs and a screen choice answer a tap. |
+| "Got one wrong in another test?" (LK280, LK281) | **Seen, holds** | Four steps (Question, Read, Check, Practise), the older concrete copy, "What you leave with". 1,135 px at 390. Every step, "See Mobi's read", an answer (verdict shows), "Then practise" tapped for real; nothing over any of them. |
+| Daily Five and Sunday Mock (LK282) | **Seen, holds** | Stamp, big head, week rail, today's card on ink with its clock and key, the Sunday card. 811 px at 390. "Play today's five" goes to /daily, "See how Sunday works" to /sunday-mock. |
+| Phone companion | **Fixed** | He used to duck only for controls, so he stood over words, and his once-a-session hello could land on a sentence (live: over a word or control at 8 of 42 rests, including the hello over the shelf line and a link, tour keys, the Daily row). Now at each rest he looks for words too: clear, he stands; only his body over something, he shows his head; his head band too, he steps aside until a clear rest. The hello shows only where its own box covers nothing. Local: 0 of 42. He shows less often (6 rests against 12). `MobiCompanion.jsx`, `restSpot` in `companionModel.mjs`. |
+| DU calculator head | **Fixed** | Was centred (7 Nov) over a left-aligned tool: its h2 started 27 px in. Now the Compass's form: head on the left edge, Mobi at its right; the Combo line under the tool is left-aligned. Owner's 16 Nov rule: one left edge per block. |
+| Section heads "60-70 px into the section" | **Looked, no change** | The extra 32-40 px is the brand stamp above those heads (Key cards, Ask Mobi, the week, the Compass, Instagram). From one block's last words to the next block's first element the gap is even, about 55-60 px. |
+| Everything else on the page | Seen, holds | No sideways overflow at 360, 390, 1440; no page errors. |
+
+Not looked at: a physical phone, iPhone Safari, tablet widths, a screen reader, Night at 1440 for this stretch.
+
 ---
 
 ## 3. Signed-in website (the arena)
