@@ -4,7 +4,7 @@
   "session": "4f987731-e66c-4515-9695-3754a6594dc2",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-16T22:03:30.971562+00:00",
-  "last_active": "2026-11-16T22:32:35.724937+00:00",
+  "last_active": "2026-11-16T22:42:59.328240+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
@@ -29,6 +29,15 @@
     "src/components/daily/dailyStripCopy.test.mjs",
     "data/tests/streak_1117.test.mjs",
     "src/app/(app)/test/TestPageClient.jsx",
-    "tmp/1116-final/perf-bench.mjs"
+    "tmp/1116-final/perf-bench.mjs",
+    "flutter_app/lib/features/daily/logic/team_colleges.dart",
+    "flutter_app/lib/features/daily/logic/team_rules.dart",
+    "flutter_app/lib/features/daily/data/team_store.dart",
+    "flutter_app/lib/features/runner/nta/nta_hold.dart",
+    "flutter_app/lib/features/daily/logic/daily_rules.dart",
+    "flutter_app/lib/features/daily/widgets/daily_team.dart",
+    "tmp/1116-final/live-check.mjs",
+    "flutter_app/lib/features/runner/nta/nta_submit_summary.dart",
+    "flutter_app/test/unit/daily/daily_rules_test.dart"
   ]
 }
