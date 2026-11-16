@@ -1096,3 +1096,53 @@ How it was read (the readings are mine, not his). No picture arrived with the me
 | LIVE 17 Nov about 1:03 am (main 3511f1fb3) | **LK287** The product's screens do not say where the calls go (no provider named). Outcome: no provider is named in the product's screens; the privacy page still says who processes a photo. |
 | LIVE 17 Nov about 1:03 am (main 3511f1fb3) | **LK288** A refused random photo costs us a model call and the student no credits: a loophole; think the whole thing through. Outcome: an ask Mobi has to read but cannot use (not a test question, or an unreadable photo) costs 1 credit, once, and the rule shows beside the price before sending; refusals before the model and our own failures stay free. |
 | LIVE 17 Nov about 1:03 am (main 3511f1fb3) | **LK289** Practice: the Sunday Mock line at the top shows only as a reminder the day before (Saturday). Outcome: Practice's Sunday Mock line shows only on Saturday (a reminder) and on Sunday until the last start. |
+
+
+## His third look, 17 Nov 2026 about 1:15 am (LK290-LK301; part pasted dictation, part typed)
+
+His words, whole. The first part came as pasted dictation:
+
+> I'll tell you right now what works and what doesn't.
+>
+> * Coming onto the morning side, that section is still not good. From the ones that you have made, I would say that the previous version, in which you had just spread everything vertically, was the first. That old one was better than this. Though that was not perfect in any sense or good, it was better than this. You have to think about how you can better implement all this. I am just leaving it hanging.
+> * Overall, in the above card of this, there's a weird shadow that got off, so just make it soft and diffused. Keep a focus on the overall visual hierarchy of everything and how the flow is working.
+> * This Asmobi thing, I would say you have depicted all this quite perfectly. This daily 5 and Sunday mock is also depicted quite well. I would just say, if we could do something different, like what Prepium is doing, because this is exactly their version copied. If you see that they don't do it this way
+
+Then typed:
+
+> * What they do is they have all this in a daily challenges section, and they have stuff like English daily 017 number. If you see the website and try to attempt it, what they have done is identify yourself and choose your team to appear on the leaderboard. There are some athletes' names, jersey numbers, and all this.
+>
+> This is just gamification of stuff. I don't know if this is good or not, but it could be something useful in general. I'm thinking in that direction and building something unique from them. What I'm saying is, what works and what's good is the UI and how you have made it look and be understandable: that part is good.
+
+Then pasted dictation again:
+
+> And there were many new generations of Mobi and 3D assets and image generations in the last session but I don't see any changes to that. I don't know if it hasn't been committed or if there is some other issue.
+>
+> The working is good now. Overall, I like the look better. Dot canceling too, but it's good. It's directing the credit also as it should. You have added, I think, some kind of soft blur to the page, which I also really like and which feels good.
+>
+> Also after this, what you have to focus on is improvising the streak system and refining RNTA mode and stuff like that. Overall making the website just feel very fluid and smooth is also very important. It's pretty good right now but still just make it as good as we can.
+>
+> Just one thing: the loading animation while opening the website is still not good at all and needs to be improvised. It should be grand in the phase, with even some animation falling through it after loading the page. Once the page is loaded and the animation has gone up, you can merge it into the MockMob logo at the top and animate the logo a little bit, of some sort. Just think about it.
+
+Then typed:
+
+> Finally, coming onto the app: build everything in the app and send me the final version. Whatever you build, it should be up to date with all the progress that we have made and the most complete product possible. This is our final build for the app also.
+>
+> Just confirm one thing for me: if the web app feature is available on iOS, is it just an extension of the website that saves the information? Or is it a full-fledged, proper app experience, like the haptics and multiple other things that can be done only in the app? Does it do all of those things? If yes, we'll build that also.
+
+How it was read (the readings are mine, not his): "the morning side" is "More inside MockMob" (the tour); "the previous version ... spread everything vertically" is the touch stack of 16 Nov evening (516bc9511), which he now ranks above the held stage he asked for back at 10:25 pm (LK278), while his complaint about the stack (it wastes vertical space) still stands; "I am just leaving it hanging" is read as: the form is mine to decide. "The above card of this" is read as a card in or just above the tour. "This Asmobi thing" is the bring-a-mistake block. "Exactly their version copied" is read as: Prepium's look is copied, and he wants a mechanic of MockMob's own in the direction of their daily challenge (an edition, an identity, a team, a leaderboard). "Dot canceling too" is unclear (possibly a remark on the chat's typing dots); "the working is good now ... directing the credit ... soft blur" is praise for the Ask Mobi chat. "RNTA mode" is "our NTA mode". "Grand in the phase" is read as "grand in its first phase". On the art: the night's generations are in `wt-1110-convert/tmp/1116-art`; the home page's seats already used the 3D poses and only got cleaner edges, and the new poses went into Ask Mobi only, so the home page looked the same.
+
+| Status | Item |
+|---|---|
+| IN WORK 17 Nov | **LK290** "More inside MockMob" on phones is still not good; the vertical stack was better than the held stage, though not good either. A better form is mine to find (it must not waste vertical space). |
+| IN WORK 17 Nov | **LK291** A "weird shadow" on the card above or in that section: make it soft and diffused; mind the visual hierarchy and the flow. |
+| HOLDS 17 Nov | **LK292** The bring-a-mistake block ("depicted quite perfectly"). |
+| IN WORK 17 Nov | **LK293** Daily Five and Sunday Mock read well but look like Prepium's; build something of MockMob's own in the direction of their daily challenge (edition, identity, team, leaderboard), keeping our clear UI. |
+| ANSWERED 17 Nov, IN WORK | **LK294** The night's Mobi generations are not visible. Answer: nothing was lost (tmp/1116-art); the new poses went into Ask Mobi only. Now: place them on the home page where they mean something. |
+| HOLDS 17 Nov | **LK295** Ask Mobi chat: works, looks better, charges as it should, the soft blur is liked. |
+| IN WORK 17 Nov | **LK296** Next focus: improve the streak system. |
+| IN WORK 17 Nov | **LK297** Next focus: refine NTA mode. |
+| STANDING | **LK298** Make the website feel as fluid and smooth as possible. |
+| IN WORK 17 Nov | **LK299** The opening animation is "still not good at all": grand at first, something falling through it, then it rises and merges into the header logo, which animates a little. (Replaces the 16 Nov "smaller" rule pinned by L-043.) |
+| IN WORK 17 Nov | **LK300** The app: build everything into it, up to date with all progress, the most complete product; this is the final app build; send him the final version. |
+| ANSWERED 17 Nov | **LK301** iPhone: is the web app just the website or a full app with haptics? Answer: the website in its own window (full screen, offline, push once on the Home Screen), no haptics, no App Store, no widgets; a full iPhone app means compiling the Flutter app for iOS (Apple Developer account, a Mac or cloud Mac builds, Apple in-app purchase for Pro). His decision whether to build it. |
