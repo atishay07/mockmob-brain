@@ -20,8 +20,13 @@
   /api/me/streak/pause, GET /api/daily/me all 401 signed out; GET /api/daily/board 200, public, aggregate only; the opening on
   production frames (throttled phone: drawn at FCP 1.45 s, landed by 2.9 s, LCP not delayed); the deck by touch on production;
   no runtime errors. Production scroll at 4x CPU: CLS 0.003; long frames not trusted (PC busy), re-bench when quiet.
-- App: ui/1117-ask finished 08a9b3893 (review running); ui/1117-daily (+ the college game) and ui/1117-nta (wt-1117-app-nta)
-  agents running. Then merge into ui/1117-final, wave 2 (art, streak), release 1.0.24+22.
+- **Web hotfix LIVE 4:53 am: main 36e7f1050 (`dpl_7ugK8WDRJcrnStMetqgoBi35vFc3`)**: Ask Mobi's mistake ask never offers a
+  fresh (chargeable) resend after a 5xx it cannot read; found by the app review. Suites run (recovery, learning, billing, app).
+- App: ui/1117-final (wt-1117-app-final) = ask f193b3174 (review: 9 fixes incl. two double-charge paths) + daily 32b1644d4
+  (with the college game) + nta b39197be5 (review: no answer-loss path; 2 fixes) + my 50cb21857 (away-banner copy) and the NTA
+  strip fix; merged clean, whole-app analyze clean. Wave 2 running: ui/1117-w2 (streak, wt-1117-app-w2) and ui/1117-art
+  (3D Mobi, wt-1117-app-art). Then release 1.0.24+22. Old golden drift confirmed on the 1.0.23 base: explore_door (4) and
+  week_sheet (6) fail there too.
 
 ## 17 Nov 2026, about 3:25 am IST: STOPPED at the owner's usage limit; next session prompt is PROMPT-NEXT-SESSION-2026-11-17-B.md
 
