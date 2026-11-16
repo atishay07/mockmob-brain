@@ -2,6 +2,12 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 16 Nov 2026, from about 10:20 am IST — the pass continues (his words: "No need to stop for handover ... only stop when you think everything has been finalized")
+
+- LIVE main 05510626d (about 11:10 am): "bring a mistake" on the home page after Key cards (`src/components/landing/BringMistakeBlock.jsx`, `bringMistakeCopy.mjs` with a test that works out the example's keys): a pasted question on a paper slip, Mobi's read on ink, one check answerable in place, three chips, one key to `/signup?next=/mentor`. Checked: real pointer at 360, 390 Day and Night, 1440; layout shift 0; app, billing, keycards-ui, du, dock suites, lint, build; live sections compared (only the new section added, 1,056 px at 390); no runtime errors. Same release: the remaining spinners and the two skeleton shimmers made one pattern (`web/1116-spin`, CSS only; none of the nine spinners could be seen in a browser, no fixture shows them).
+- Built, in the next release: the Sunday Mock's public page wears the day band with a clock to next Sunday (5b733739a).
+- Running lanes (each in its own worktree): `web/1116-league` (Mob class leagues behind `CLASS_LEAGUES_ENABLED`, migration unapplied), `web/1116-fixes` (public corrections log), `web/1116-first` (the first minute after sign-up: the saved destination kept through onboarding), `web/1116-next` (Next 16.3.8, chart.js removed, own node_modules), `web/1116-race2` (the two open cases of the free first Full mock race).
+
 ## 16 Nov 2026, about 2:05 am IST — first paint, the Daily Five as a calendar page, the week's two pages, a route bar and lighter loading, public Key card decks, bring a mistake: LIVE (main 329e257ba by 4:20 am)
 
 - His words this sitting (16 Nov, about 1 am): the first Daily Five redesign (a thin ticket row) was "still not up to the mark"; he showed Prepium's weekly cards, said not to copy them, "think in a unique brand identity direction", "this space is a bit low", "not always taking the safest approach", "a highly converting website is very important", every feature thought through for how it is presented, how it works and its whole flow, and "make sure that it's very clearly depicted: what it is exactly and how we do it every time". He approved the second version ("Yes, that's what I want"). Ledger LK248-LK255.
