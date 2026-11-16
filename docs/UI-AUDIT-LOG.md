@@ -153,6 +153,8 @@ Not looked at: a physical phone, iPhone Safari, tablet widths, a screen reader, 
 
 ## 3. Signed-in website (the arena)
 
+**17 Nov 2026: Ask Mobi (`/mentor`) is a chat now** (web/1116n-chat, owner LK286): a pinned composer with a labelled Photo key, the thread, History (a side column on wide screens, a sheet on phones), Your record as its own tab; the docked panel shares the chat. The 1-credit rule for an ask Mobi reads but cannot use shows beside the price before sending; Mobi waves once on the start (six-frame sprite) and reads (stills) while waiting. Seen at 390 Day and Night and 1440 Day (`wt-1116n-chat/tmp/lane-tools/shots/fu`). Fixed 17 Nov: at 390x844 the four start tiles ended 4 px under the composer's fade (Mobi's box 64x82 on phones, gaps 12). Not seen: a real phone keyboard over the composer, a real model reply.
+
 Phone (390, 360): walked in depth on 10 and 11 Nov (LK199-LK224). On 12 Nov only an overflow scan at 360 Day across every view: clean (only decorative SVG parts of Mobi pass the edge, clipped by their own box).
 
 Desktop, looked at on 12 Nov at 1440x900 (all views), 1366x768 and 1920x1080 (six views):
@@ -268,3 +270,4 @@ Owner constraints that bound all of this: refine, do not rebuild (rejected restr
 - 15 Nov 2026: section 3a added (fresh-account states, ux-fresh audit and lane W2-C fixes).
 - 16 Nov 2026: section 3c added (the Daily Five pages, the week's pages, the merged wave).
 - 16 Nov 2026, evening: section 2c (round 16, the phone pass after the owner's look at the live site).
+- 17 Nov 2026: section 2d (the merged night lanes, the companion and DU head fixes) and the Ask Mobi chat note in section 3.
