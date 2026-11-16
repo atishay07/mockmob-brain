@@ -2,6 +2,18 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 17 Nov 2026, from about 1:15 am IST: his third look (LK290-LK301) is being built (eight lanes; nothing new live yet)
+
+- His words whole in OWNER-MASTER-LEDGER LK290-LK301. Research reports: `wt-1110-convert/tmp/1117/understand/<area>/FULL.md`.
+- Web lanes (worktrees `wt-1117-<lane>`, branches `web/1117-<lane>` from 3511f1fb3; briefs `wt-1110-convert/tmp/1117/briefs/`):
+  tour (phone tour as a tabbed card with a sideways swipe; soft shadows), opening ("Answer sheet rain" into the header logo),
+  daily (Daily Five and Sunday Mock as a college game: "Playing for" a DU college, a private seat number, a board of colleges),
+  art (the 3D Mobi on the home page with job poses), streak (the daily chain everywhere; the Daily Five counts), nta (exam-true
+  saving, instructions page, submit summary, no counter). App lanes: `ui/1117-ask` (Ask Mobi chat with the photo key) and
+  `ui/1117-daily` (Daily Five, Sunday Mock, weekend line, badges) from `ui/1112-final`.
+- Then: merge, full gate, ship web; app wave 2 (art, streak, NTA, the daily team step); release 1.0.24+22 to
+  Desktop/MockMob-build-22 after an emulator walk.
+
 ## 17 Nov 2026, about 1:05 am IST: his second phone verdict is LIVE (main 3511f1fb3, `dpl_B6tTXUhhhHnV5s4fnisHLvfxAQMp`; was 67146f994, rollback `dpl_6pnWZbgXceJvS9DKoqWgV8ymBUDM`)
 
 The night's five lanes (tour, mistake, rhythm, price, chat) plus Mobi art, and this session's fixes. Ledger LK278-LK289 now say LIVE with outcomes (LK283 PART).
