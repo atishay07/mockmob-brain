@@ -1,5 +1,7 @@
 # Prompt for the next session (written 16 Nov 2026, 11:58 pm IST, by the Fable orchestrator)
 
+**DONE 17 Nov 2026, about 1:05 am IST (Opus orchestrator): every item below is shipped or answered; LIVE main 3511f1fb3. See NOW.md's top section. Do not run this list again.**
+
 Continue the MockMob final pass from where the night session stopped at a usage limit. Call continuum_start (project mockmob) first, then read, in this order: this file; `NOW.md` top section ("16 Nov 2026, night"); `OWNER-MASTER-LEDGER.md` LK278-LK289 (the owner's words, whole); `UI-AUDIT-LOG.md` sections 1 and 2c. Follow `C:\Users\atish\Desktop\AI OS\context\agent-model-routing.md` (top section) when starting sub-agents and ALWAYS pass `effort` explicitly. One session only (sub-agents, never new sessions). The owner judges only on his phone; do not ask him about reversible design choices.
 
 ## State
