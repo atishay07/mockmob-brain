@@ -1014,3 +1014,32 @@ Verbatim, about 7:15 pm: "Focus more on building and building more things, and t
 | LIVE, OFF 16 Nov (main a6ab71edc) | **LK263** Mob class leagues behind `CLASS_LEAGUES_ENABLED`; SQL unapplied. His: turn on, and the floor of five against fake accounts. |
 | DONE 16 Nov | **LK264** His words: "keep optimizing the PC side by side. The storage is running low ... terminals continuously popping in and out for about 1 minute ... makes the PC unusable". Fixed at the source (hidden console for six background jobs); 17 GB freed; two large folders wait on his yes. |
 | LIVE 16 Nov (main 79672593c) | **LK265** Next.js 16.3.8, chart.js removed. The build list of 15-16 Nov is finished; what remains waits on him (decisions and SQL). |
+
+## His look at the live site on his phone, 16 Nov 2026 about 5:45 pm (LK266-LK274; typed)
+
+His words, whole:
+
+> I have checked the new site live. Everything which is live right now on the landing page, particularly, looks good on the desktop page but falls short on the mobile page.
+> * The Sunday mocks are consuming too much vertical space on the home page. I don't know if they should be just below the hero section as it is not a very important or useful feature.
+> * "Number 2" is written on the Daily 5. What exactly does it mean? Overall I don't understand what you have built in Today's 5. You have mentioned English in general but when I click on Continue Today's 5, I think there are English and CAT questions only. Never mind. This is not a very useful feature. I don't think this is the way it is implemented but anyway if you want to keep it, you can keep it. It's nice to have but it should not be at the top. It can be somewhere else.
+> * "Got 1 wrong" in another test: this section is broken both on desktop and mobile as the overall placement is very weird. I don't know if we properly have this functionality on our AskMobi chatbot: uploading pictures of any other paper, its capability of integrating it and providing some other value, simply uploading it to ChatGPT, how many credits it would cost, pricing it properly, and all that kind of stuff.
+> * The scrolling of MockMob and its actions, what it is doing: it needs to be interactive and overall fixed in general.
+> * It's fine. I would say up to the Practice Exam section, up to that section, is competent. After that, it's doing weird movements, and the overall scroll needs to be better.
+> * These are some of the things which I have mentioned. Overall, I think there are many more improvements that you can introduce to this also, in all the aspects of the landing page. Do a final pass, and then let's see what you build. Don't use obviously AI slop elements like fonts or flashing, pulsing dots, that kind of stuff. You know what slop is and what good UI looks like, and it's different. Work it in that way, and each screen should be built with high effort and thoughtfully, like how the mocks work. It should have a proper explanation, not just walls of text, and that is also not properly lined.
+>
+> I don't know why I have this result. It is way below expectation, and I don't exactly know why this happened, but this won't cut it. We need major improvisations still. Remember, the codebase is yours. Feel free to make any changes that you like, so don't be hesitant on that part or keep asking me stuff.
+
+How it was read (the readings are mine, not his): "CAT" is the General Test (GAT). "The scrolling of MockMob and its actions" is the phone scroll companion, Mobi (LK240), and the "More inside MockMob" tour. "Up to the Practice Exam section" is the tour's first tool (Practice, an exam screen); from its second tool on the held scroll swapped screens under a still page. "How the mocks work ... walls of text" is the Sunday Mock page's "How it works" (six headings over six paragraphs), reached from "See how the Sunday Mock works".
+
+| Status | Item |
+|---|---|
+| STANDING | **LK266** Desktop is fine; the phone is where the landing falls short. A pass is judged on his phone. |
+| BUILT 16 Nov, ships with this pass | **LK267** Daily Five and Sunday Mock: not under the hero, far smaller. Two short rows in their own section after the exam screen (about 535 px at 390, from about 1,500). |
+| BUILT 16 Nov | **LK268** "Number 2" removed everywhere (home, Today's row, /daily). /daily and the home row say the five come from English and the General Test, the same five for everyone. |
+| BUILT 16 Nov | **LK269** "Got one wrong in another test?" rebuilt: one card walked through in three steps (your question, Mobi's read, a check), words on one left edge, 956 px at 390 from about 1,700. |
+| IN A LANE 16 Nov | **LK270** Ask Mobi reads a PHOTO of a question (until now typed text only), priced (a photo 2 credits, typed 1), names the chapter from MockMob's own list and opens practice on it. Never run against a real model by an agent: his to try once. |
+| BUILT 16 Nov | **LK271** The scrolling Mobi: stands only on the bottom bar, no lean, stretch or hop, and a tap opens Ask Mobi with a question about the section in view. |
+| IN A LANE 16 Nov | **LK272** The tour on phones: a plain stack of the five tools (no held scroll after Practice), and every screen answers a tap. |
+| BUILT 16 Nov | **LK273** Things that moved by themselves or by accident on a phone: the Compass score no longer runs by itself on touch; a thumb scrolling across a slider no longer sets it. Compass head starts on the page's left edge; Key cards shows six subject chips and a count. |
+| BUILT 16 Nov | **LK274** The Sunday Mock page's "How it works": the paper as three figures and the day as a timeline, from the rule's own constants. |
+| STANDING | **LK275** "The codebase is yours. Feel free to make any changes that you like, so don't be hesitant on that part or keep asking me stuff." No pulsing or flashing dots, no slop fonts; explain a feature with a designed screen, never a wall of text, and line the words up. |
