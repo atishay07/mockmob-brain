@@ -1,0 +1,39 @@
+{
+  "id": "20261116T193806.278390Z-abf85854",
+  "observed_at": "2026-11-16T19:38:06.278390+00:00",
+  "agent": "claude-opus-5.5 (orchestrator)",
+  "task": "Owner's second phone verdict (LK278-LK289): finished, gated and LIVE",
+  "status": "complete",
+  "done": "LIVE main 3511f1fb3 (dpl_B6tTXUhhhHnV5s4fnisHLvfxAQMp, READY about 1:03 am IST 17 Nov; was 67146f994, rollback dpl_6pnWZbgXceJvS9DKoqWgV8ymBUDM). Shipped the five night lanes (tour held stage on phones, mistake block in four steps, Daily Five and Sunday Mock main block plus Practice's Saturday-Sunday line, unusable-ask 1 credit and Free cap note, Ask Mobi as a chat) plus Mobi art, and this session's fixes: chat start at 390x844, L-041 via src/services/mobi/mistakePrices.mjs, the phone companion never over words or controls, the DU head on the left edge, FLOW pins, home element fixture. Records updated: NOW.md top, ledger LK278-LK289 (LIVE, LK283 PART), UI-AUDIT-LOG 2d and section 3 note, PRODUCTION-PASS row and rollback point, PROMPT-NEXT-SESSION-2026-11-17 marked done. Lane worktrees wt-1116n-* removed after unlinking their node_modules junctions; branches kept.",
+  "next": "Owner: look at www.mockmob.in on his phone (the tour, the mistake block, the Daily and Sunday block, the companion, the DU head) and Ask Mobi signed in (the chat, the Photo key, one real ask). Open: LK283 home-page Mobi art and motion (vector figure, 4 Nov decision, untouched); the Android app's Ask screen still has the old layout and no photo key (needs an app release); the 18 old failing tests in scripts/pipeline and authored_w2; the earlier open decisions and unapplied SQL of NOW.md's 16 Nov morning section; stale 6 Nov copies in mockmob-brain/docs/_from-code-repo/mockmob-next (deletion declined by the permission check; nothing to fold).",
+  "blockers": [],
+  "evidence": [
+    "mockmob-brain/docs/NOW.md top section (17 Nov about 1:05 am)",
+    "mockmob-brain/docs/OWNER-MASTER-LEDGER.md LK278-LK289",
+    "mockmob-brain/docs/UI-AUDIT-LOG.md section 2d",
+    "mockmob-brain/docs/PRODUCTION-PASS-2026-11-15.md row 3511f1fb3",
+    "wt-1116-next/tmp/gate2.log (24 suites 0 failures, lint clean, both builds 442)",
+    "wt-1110-convert/tmp/1116-final/mc-live.log and shots/mc-live2 (companion audit before 8, after 0)"
+  ],
+  "touched_files": [
+    "src/components/ai/ask-chat.css",
+    "src/services/mobi/mistakePrices.mjs",
+    "src/services/mobi/bringMistake.mjs",
+    "src/app/page.js",
+    "src/components/landing/MobiCompanion.jsx",
+    "src/components/landing/companionModel.mjs",
+    "src/app/home-refinements.css",
+    "src/app/r10-tools.css",
+    "src/app/home-sheets.css",
+    "data/tests/fixtures/home-elements.json",
+    "data/tests/one_gesture_source_1104.test.mjs",
+    "data/tests/du_teaser_r6.test.mjs",
+    "data/tests/free_ai_cap_350.test.mjs",
+    "src/components/landing/bringMistakeCopy.test.mjs",
+    "src/components/landing/companionModel.test.mjs"
+  ],
+  "verification": "Gate in wt-1116-next on 831dbde00: 24 suites 0 failures (recovery's one listed item is a known-gap todo), eslint clean, webpack and Turbopack builds 442 pages; the final test-only commit run on its own (17 pass). Live: 12 public pages 200; /mentor signed out redirects to /login?next=%2Fmentor; POST /api/ai/mentor/mistake 401 signed out; new markup served; no prompt text on the home page; companion audit on www 0 covering of 43 rests; no runtime errors in the hour. Not checked: a physical phone, iPhone Safari, a real phone keyboard in the chat, any signed-in flow on production, a real model reply.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}

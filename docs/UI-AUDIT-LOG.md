@@ -153,7 +153,7 @@ Not looked at: a physical phone, iPhone Safari, tablet widths, a screen reader, 
 
 ## 3. Signed-in website (the arena)
 
-**17 Nov 2026: Ask Mobi (`/mentor`) is a chat now** (web/1116n-chat, owner LK286): a pinned composer with a labelled Photo key, the thread, History (a side column on wide screens, a sheet on phones), Your record as its own tab; the docked panel shares the chat. The 1-credit rule for an ask Mobi reads but cannot use shows beside the price before sending; Mobi waves once on the start (six-frame sprite) and reads (stills) while waiting. Seen at 390 Day and Night and 1440 Day (`wt-1116n-chat/tmp/lane-tools/shots/fu`). Fixed 17 Nov: at 390x844 the four start tiles ended 4 px under the composer's fade (Mobi's box 64x82 on phones, gaps 12). Not seen: a real phone keyboard over the composer, a real model reply.
+**17 Nov 2026: Ask Mobi (`/mentor`) is a chat now** (web/1116n-chat, owner LK286): a pinned composer with a labelled Photo key, the thread, History (a side column on wide screens, a sheet on phones), Your record as its own tab; the docked panel shares the chat. The 1-credit rule for an ask Mobi reads but cannot use shows beside the price before sending; Mobi waves once on the start (six-frame sprite) and reads (stills) while waiting. Seen at 390 Day and Night and 1440 Day (`wt-1110-convert/tmp/1116-final/shots/chat-fu`). Fixed 17 Nov: at 390x844 the four start tiles ended 4 px under the composer's fade (Mobi's box 64x82 on phones, gaps 12). Not seen: a real phone keyboard over the composer, a real model reply.
 
 Phone (390, 360): walked in depth on 10 and 11 Nov (LK199-LK224). On 12 Nov only an overflow scan at 360 Day across every view: clean (only decorative SVG parts of Mobi pass the edge, clipped by their own box).
 
