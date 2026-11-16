@@ -13,8 +13,15 @@
   pause-day practice; the top-bar chip now shows only from 640 px up: on phones the streak leads Today and You instead).
 - Merged walk at 390 Day (37 real swipes, 0 page errors), tour deck by touch, opening frames (390 Day/Night, 1440 Day; LCP not
   delayed), companion 0 covering of 38 rests, shadow sweep 0 past-section at 360/390/1440 Day and 390 Night, no overflow at 360.
-- Gate running in wt-1116-next on af96050e8. App: three agents finishing ui/1117-ask, ui/1117-daily (+ the college game) and a
-  new ui/1117-nta (wt-1117-app-nta) port.
+- **WEB LIVE about 4:30 am: main 65797fd17 (`dpl_4VGnGGjrHTSsAk8DX88jjjB4vEqT`; rollback `dpl_B6tTXUhhhHnV5s4fnisHLvfxAQMp`
+  = 3511f1fb3).** Gate in wt-1116-next on af96050e8: 24 suites 0 failures, eslint clean, webpack and Turbopack builds 442 pages
+  (the one later commit is CSS-only: pause days 44 px). Live checks: 12 public pages 200; /mentor signed out lands on
+  /login?next=%2Fmentor (a redirect inside the page; curl sees 200); POST /api/ai/mentor/mistake, GET /api/me/streak, POST
+  /api/me/streak/pause, GET /api/daily/me all 401 signed out; GET /api/daily/board 200, public, aggregate only; the opening on
+  production frames (throttled phone: drawn at FCP 1.45 s, landed by 2.9 s, LCP not delayed); the deck by touch on production;
+  no runtime errors. Production scroll at 4x CPU: CLS 0.003; long frames not trusted (PC busy), re-bench when quiet.
+- App: ui/1117-ask finished 08a9b3893 (review running); ui/1117-daily (+ the college game) and ui/1117-nta (wt-1117-app-nta)
+  agents running. Then merge into ui/1117-final, wave 2 (art, streak), release 1.0.24+22.
 
 ## 17 Nov 2026, about 3:25 am IST: STOPPED at the owner's usage limit; next session prompt is PROMPT-NEXT-SESSION-2026-11-17-B.md
 
