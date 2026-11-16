@@ -4,15 +4,12 @@
   "session": "ec03baf1-09ed-4ab6-80be-4f81fc956a95",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-15T18:35:36.952528+00:00",
-  "last_active": "2026-11-16T06:48:39.498218+00:00",
+  "last_active": "2026-11-16T07:10:04.590311+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "src/lib/firstRunPromise.mjs",
-    "src/app/corrections/corrections.css",
-    "tmp/1116-tools/stored.mjs",
     "src/app/corrections/CorrectionsWayIn.jsx",
     "tmp/1116-edit15.py",
     "supabase/undo/20261116130000_start_learning_session_own_allowance.undo.sql",
@@ -51,6 +48,9 @@
     "data/tests/class_league_deletion.test.mjs",
     "data/tests/class_league_switch.test.mjs",
     "tmp/1116-tools/nav.mjs",
-    "data/tests/class_league_ui.test.mjs"
+    "data/tests/class_league_ui.test.mjs",
+    "data/tests/class_league_deletion.test.mjs",
+    "tmp/1116-docs7.py",
+    "tmp/1116-docs8.py"
   ]
 }
