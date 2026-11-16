@@ -182,6 +182,7 @@ Traps: the home page's sections measure differently before they are scrolled nea
 heights on production in the same browser, before and after; the in-app browser pane does not run timers or observers until
 a frame is drawn, so a clock can look empty in its first screenshot; a first visit's block shows the open state for one
 frame before this device's record is read. Badges (16 Nov, 91f8f8aaf): one family of stamped marks, three states, the earning moment in the result page and Today; dev sheet of every mark at `/preview/badges`; captures `wt-1116-badges/tmp/1116-shots/badges`. Tablet walk (768x1024, 1024x768, Day, 20 views): nothing past the edge or under the dock.
+16 Nov, later (main 79672593c): seen and hold: the home page's bring-a-mistake block (360, 390 Day and Night, 1440; real pointer on the check; `tmp/1116-daily/bmk.mjs`), the Sunday Mock page's day band, `/corrections` (390 Day and Night, 1440), onboarding's last key with and without a promised page and the arrival lines (`wt-1116-first/tmp/1116-shots/first`), class leagues' states through fixtures (`wt-1116-league/tmp/1116-shots/league`; the feature is OFF in production). Traps: in Git Bash a lone `/` argument becomes a Windows path (`MSYS_NO_PATHCONV=1`); a stamped `.lp-head--left` goes two-up on desktop (make it a column when a block stands beside it).
 Open: the other loading states listed in lane load's report (nine button
 spinners, two skeleton shimmers, the sign-in wait shown to signed-out visitors); the Sunday page's key is quiet by choice.
 

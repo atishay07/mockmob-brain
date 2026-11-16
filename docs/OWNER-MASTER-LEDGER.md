@@ -1013,3 +1013,4 @@ Verbatim, about 7:15 pm: "Focus more on building and building more things, and t
 | LIVE 16 Nov (main b42dd5bb4) | **LK262** The first minute after sign-up: a new student lands on the page they signed up for; the last race cases (migration 20261116130000 unapplied, CTO). |
 | LIVE, OFF 16 Nov (main a6ab71edc) | **LK263** Mob class leagues behind `CLASS_LEAGUES_ENABLED`; SQL unapplied. His: turn on, and the floor of five against fake accounts. |
 | DONE 16 Nov | **LK264** His words: "keep optimizing the PC side by side. The storage is running low ... terminals continuously popping in and out for about 1 minute ... makes the PC unusable". Fixed at the source (hidden console for six background jobs); 17 GB freed; two large folders wait on his yes. |
+| LIVE 16 Nov (main 79672593c) | **LK265** Next.js 16.3.8, chart.js removed. The build list of 15-16 Nov is finished; what remains waits on him (decisions and SQL). |
