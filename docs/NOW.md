@@ -2,7 +2,7 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
-## 17 Nov 2026, from about 3:35 am IST: the B session (finishing LK290-LK301 while the owner sleeps) — IN PROGRESS
+## 17 Nov 2026, 3:35 to 7:55 am IST: the B session — DONE: web live (main 04004f2b2), app version 22 built (Desktop/MockMob-build-22)
 
 - Reviews done (Opus xhigh, one per lane) and merged into web/1117-prod (wt-1110-convert): daily d8cd51273 (7 fixes: Sunday
   board read in ordered 1,000-row pages, a refused college change never shown, shared phones, copy) plus mine 99ba4b013 (the
@@ -19,14 +19,30 @@
   /login?next=%2Fmentor (a redirect inside the page; curl sees 200); POST /api/ai/mentor/mistake, GET /api/me/streak, POST
   /api/me/streak/pause, GET /api/daily/me all 401 signed out; GET /api/daily/board 200, public, aggregate only; the opening on
   production frames (throttled phone: drawn at FCP 1.45 s, landed by 2.9 s, LCP not delayed); the deck by touch on production;
-  no runtime errors. Production scroll at 4x CPU: CLS 0.003; long frames not trusted (PC busy), re-bench when quiet.
+  no runtime errors.
 - **Web hotfix LIVE 4:53 am: main 36e7f1050 (`dpl_7ugK8WDRJcrnStMetqgoBi35vFc3`)**: Ask Mobi's mistake ask never offers a
   fresh (chargeable) resend after a 5xx it cannot read; found by the app review. Suites run (recovery, learning, billing, app).
 - App: ui/1117-final (wt-1117-app-final) = ask f193b3174 (review: 9 fixes incl. two double-charge paths) + daily 32b1644d4
   (with the college game) + nta b39197be5 (review: no answer-loss path; 2 fixes) + my 50cb21857 (away-banner copy) and the NTA
-  strip fix; merged clean, whole-app analyze clean. Wave 2 running: ui/1117-w2 (streak, wt-1117-app-w2) and ui/1117-art
-  (3D Mobi, wt-1117-app-art). Then release 1.0.24+22. Old golden drift confirmed on the 1.0.23 base: explore_door (4) and
-  week_sheet (6) fail there too.
+  strip fix; merged clean, whole-app analyze clean. Wave 2 merged: ui/1117-art eb8dd10de (the 3D Mobi stills, calendar on
+  Daily Five and Sunday Mock, camera in the photo sheet, pointing on empty Colleges; +68 KB) and ui/1117-w2 da246cde6 (the one
+  daily streak: Today, the sheet, You, the den; no top chip, it does not fit at 360 dp).
+- **APP VERSION 22 BUILT (1.0.24+22), ui/1117-final 0a00993b6, local branch, not pushed.** Desktop/MockMob-build-22: signed AAB
+  that sells (SHA-256 9ee587e9...), arm64 APK (173d6667...), symbols and mapping, README.txt, OWNER-STEPS.md (upload, release
+  notes, the NEW Data safety step: Photos collected, not stored, not shared). Signer CN=MockMob 62:AC:58:08...EC:47 checked on both
+  (keytool, apksigner); 16 KB alignment 10 libraries OK. Merged-branch tests: analyze clean; unit today/daily/social/you/
+  insights/runner/mascot/core_ui/release 2,727 pass; golden social 575 pass after re-recording the den/sheet images for the
+  streak's words (c228c3106, looked at); remaining golden failures are old drift that fails on 1.0.23 too: today_resume (2),
+  tools (30: "last year" vs "2026 cutoff", date-dependent), explore_door (4), week_sheet (6). Emulator: the release build
+  installed over 21 and opened; demo build: Today, Ask Mobi chat start, You, Practice, NTA mode end to end ("Not saved yet",
+  Save & Next, "Saved"). Daily Five and the streak show their "did not load" states in the demo build (no stand-in server).
+  Release worktree removed after deleting key.properties and prod.json (one empty locked folder wt-1117-app-releaselutter_app
+  remains until a restart). Later commit 3c873193e: the release script's signer check no longer passes silently without keytool.
+- **Web LIVE 7:28 am: main 04004f2b2 (`dpl_5x5GMJvvQhDD6rzvw5mEKUWaS9Yu`)**: the home daily block settles 1,600 px ahead, so a
+  late board answer no longer moves the Sunday card (CLS 0.125 measured before, intermittent; 0.000/0.002/0.000 after).
+- Open for later: the first swipe below the hero holds one long frame (~380 ms at 4x CPU, rendering, no script; not traced).
+  Lane worktrees (wt-1117-*) are merged and can be removed (web ones: rmdir the node_modules junction first).
+- Owner's open decisions unchanged: iOS app; an evening streak reminder; class leagues SQL; stale 6 Nov doc copies.
 
 ## 17 Nov 2026, about 3:25 am IST: STOPPED at the owner's usage limit; next session prompt is PROMPT-NEXT-SESSION-2026-11-17-B.md
 
