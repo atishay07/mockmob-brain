@@ -4,19 +4,12 @@
   "session": "4f987731-e66c-4515-9695-3754a6594dc2",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-16T22:03:30.971562+00:00",
-  "last_active": "2026-11-16T23:32:59.918892+00:00",
+  "last_active": "2026-11-17T00:57:03.772642+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "src/app/(app)/test/TestPageClient.jsx",
-    "tmp/1116-final/perf-bench.mjs",
-    "flutter_app/lib/features/daily/logic/team_colleges.dart",
-    "flutter_app/lib/features/daily/logic/team_rules.dart",
-    "flutter_app/lib/features/daily/data/team_store.dart",
-    "flutter_app/lib/features/runner/nta/nta_hold.dart",
-    "flutter_app/lib/features/daily/logic/daily_rules.dart",
     "tmp/1116-final/live-check.mjs",
     "flutter_app/lib/features/runner/nta/nta_submit_summary.dart",
     "flutter_app/test/unit/daily/daily_rules_test.dart",
@@ -34,6 +27,15 @@
     "flutter_app/lib/features/runner/nta/nta_status_strip.dart",
     "flutter_app/lib/features/runner/screens/submit_screen.dart",
     "flutter_app/test/unit/runner/nta_saving_test.dart",
-    "flutter_app/lib/features/streak/streak_copy.dart"
+    "flutter_app/lib/features/streak/streak_copy.dart",
+    "flutter_app/lib/features/streak/widgets/streak_parts.dart",
+    "flutter_app/lib/features/streak/widgets/streak_sheet.dart",
+    "flutter_app/test/unit/mascot/mobi_3d_seats_test.dart",
+    "flutter_app/lib/features/streak/widgets/streak_today.dart",
+    "flutter_app/lib/features/streak/widgets/streak_you.dart",
+    "flutter_app/lib/core/domain/study_day.dart",
+    "flutter_app/test/unit/today/support/streak_fixture.dart",
+    "flutter_app/test/unit/today/streak_today_test.dart",
+    "flutter_app/test/golden/today/streak_golden_test.dart"
   ]
 }
