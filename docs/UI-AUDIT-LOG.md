@@ -275,6 +275,22 @@ Old reference-image drift, not caused by this pass and not re-recorded: `credits
 
 Not checked: a physical phone; a sign-in in the release build; the first-run flow after the college step on a device; the Mob, Learn and Key cards on a device (they need servers the demo does not have).
 
+### 4a. Android app 1.0.24+22 (17 Nov 2026, ui/1117-final 0a00993b6; owner LK300)
+
+Looked at on the emulator (mockmob_budget, 720x1600; shots in `wt-1117-app-final/tmp/1117-walk/`): the release build installed
+over 21 and opened (the "mo" opening, the welcome); the demo build: Today (top to the road, the new "Daily streak" block and
+"This week's goal"), Ask Mobi's chat start (Mobi, the record line, four priced starters, the composer with the labelled Photo
+key, the credit line), You, Practice, and NTA mode end to end (instructions with the tick, Start at 00:59:57, a chosen option
+says "Not saved yet" with 0 answered, Save & Next counts it, back shows "Saved" and Answered). Reference images looked at by
+the lanes and by me: Daily Five admit card with seat and "Playing for" and the calendar Mobi, the college board, the NTA held
+state, the den's "Your daily streak" sheet and the week sheet's streak link.
+
+Demo limits (not defects): the Daily Five page shows "Today's five did not load" and the streak block "Your streak did not
+load" in the demo build (no stand-in server for the new APIs); both read production in the real build.
+
+Old drift confirmed on the 1.0.23 base (fail there too): `explore_door` (4), `week_sheet_*` (6), `today_resume` (2). The Mob
+den and sheet images were re-recorded on purpose (the streak's words) and looked at.
+
 ---
 
 ## 5. Open candidates for visible change (owner's to pick; none started)
