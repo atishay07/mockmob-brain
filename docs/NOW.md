@@ -13,7 +13,10 @@
   needs its working beside it; DU Compass should autoplay then pause; "Which DU courses are open to you?" should go or be
   redone; Daily Five's college names worry him; he wants a first-visit "works best on desktop" note on phones; signed-in pages
   have blank space and "nothing really impressive".
-- **Live:** main 0c9099f0e (9:42 pm) PENDING_LINE
+- **Live:** main a5b4f08f8 since 10:22 pm (rollback = 0c9099f0e): the 9:42 pm release with the pencils, markers and sparks off
+  everywhere (LK317, part), pinned by a test in `doodlePaths.test.mjs`. Gate on a5b4f08f8 clean (24 suites 0 failures, test:app 1,546,
+  eslint clean, both builds 0). Live checks: the home page's HTML no longer carries a pen mark, 6 public pages 200, and the
+  plain marks still draw at 390 on www with no pencil or spark element in the page.
 - **Held on `web/1118-prod`, NOT live, NOT gated:** the rebuilt Colleges and Saved pages (merge 83fb1a8ed; the gate on it was
   stopped at eslint to gate the pencil removal first; its suites had passed, test:app 1,550) and the pencil removal as
   0a64a12a2 (the same patch as main's a5b4f08f8). Next session: `git merge main` into `web/1118-prod` first (the two pencil
