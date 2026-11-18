@@ -2,6 +2,28 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 18 Nov 2026, about 10:15 pm: HIS VERDICT on today's rebuild (LK317-LK330). Building here has STOPPED; the next session starts from `PROMPT-NEXT-SESSION-2026-11-18-B.md`
+
+- **Read first:** ledger rows LK317 to LK330 (his words, verbatim, each with a reading) and `docs/PROMPT-NEXT-SESSION-2026-11-18-B.md`
+  (the ten work items in order, the rollback commits to compare against, the rules).
+- **In short, what he said:** the pencils and markers were "highly unprofessional" (removed, see below); the doodle marks stay but
+  should be slower and better timed to the scroll; the first five seconds stutter and the site feels 40 to 50 fps, not 120; the
+  bottom story progress bar is jumpy; the exam screen section and Practice read as regressions against their previous versions;
+  he is unsure old or new is better for the pricing card and DU Compass; pricing goes above Instagram; the "usual way" figure
+  needs its working beside it; DU Compass should autoplay then pause; "Which DU courses are open to you?" should go or be
+  redone; Daily Five's college names worry him; he wants a first-visit "works best on desktop" note on phones; signed-in pages
+  have blank space and "nothing really impressive".
+- **Live:** main 0c9099f0e (9:42 pm) PENDING_LINE
+- **Held on `web/1118-prod`, NOT live, NOT gated:** the rebuilt Colleges and Saved pages (merge 83fb1a8ed; the gate on it was
+  stopped at eslint to gate the pencil removal first; its suites had passed, test:app 1,550) and the pencil removal as
+  0a64a12a2 (the same patch as main's a5b4f08f8). Next session: `git merge main` into `web/1118-prod` first (the two pencil
+  commits are the same change), look at Colleges and Saved against his blank-space remark, then gate. Known wart there: at
+  360 px the four subject objects on Colleges wrap three and one.
+- **Lesson (LK330, the session's own):** three rebuilds read to him as regressions and two as "not sure". Before replacing a
+  section he has accepted, put old and new side by side (rollback commits: home sections 219551a16; Practice, Learn, You
+  c2f12abcd) and keep the old where it wins.
+- Not checked on anything today: a physical phone, Safari, any signed-in page on production.
+
 ## 18 Nov 2026, 9:42 pm: Features, About, the footer and the four guides are LIVE (main 0c9099f0e; rollback = 9c7b563f2, `dpl_RKhjzTB9jXmqihGZ3wJiTNW8p2tv`). One lane RUNNING from 9:50 pm (Colleges and Saved), not merged
 
 - His words: LK316 ("keep going until you match the requirements of my first prompt").

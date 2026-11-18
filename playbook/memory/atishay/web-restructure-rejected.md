@@ -53,3 +53,5 @@ See [[mockmob-design-direction]], [[features-over-retesting]], [[subagent-model-
   - Night mode must stay subtle, not neon.
   - A changed animation must be at least as good as the old one.
 - Ledger: docs/brain/OWNER-MASTER-LEDGER.md (see [[owner-master-ledger]]).
+
+18 Nov 2026, about 10 pm (owner, LK319, LK325, LK328): again. The rebuilt exam screen section and Practice page read as regressions against their previous versions, and he was unsure whether the new pricing card and DU Compass beat the old. **How to apply:** before replacing a section he has already accepted, capture old and new side by side and keep the old where it wins; put a figure's explanation beside the figure, not in a disclosure elsewhere.

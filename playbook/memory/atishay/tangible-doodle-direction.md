@@ -20,3 +20,5 @@ What I built from it the same day: `src/components/doodle` (Doodle, Marked: pen 
 - For streaks, progress bars and icons, look at how Duolingo makes state readable in one look, then do it in MockMob's identity, never a copy (see [[bold-brand-not-safe]]).
 - Load the stored design and motion skills when building UI (he named them).
 - Write a short brain checkpoint at natural points during long work, well under 5% of the time (see [[owner-master-ledger]]).
+
+18 Nov 2026, about 10 pm (owner, LK317): the visible pencil, red pen, marker and sparks added that evening looked "highly unprofessional" and were removed everywhere. The plain marks stay. He wants them a bit slower, more refined and timed exactly to when the words come into view. Never add a drawing tool or other flourish to the marks.
