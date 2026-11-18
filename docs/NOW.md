@@ -2,7 +2,7 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
-## 18 Nov 2026, 9:42 pm: Features, About, the footer and the four guides are LIVE (main 0c9099f0e; rollback = 9c7b563f2, `dpl_RKhjzTB9jXmqihGZ3wJiTNW8p2tv`). Nothing running, nothing waiting to ship
+## 18 Nov 2026, 9:42 pm: Features, About, the footer and the four guides are LIVE (main 0c9099f0e; rollback = 9c7b563f2, `dpl_RKhjzTB9jXmqihGZ3wJiTNW8p2tv`). One lane RUNNING from 9:50 pm (Colleges and Saved), not merged
 
 - His words: LK316 ("keep going until you match the requirements of my first prompt").
 - **LIVE (0c9099f0e), on top of the 9:12 pm release below:**
@@ -31,7 +31,10 @@
 - **Open, his to decide (unchanged):** Free per-chapter counts on Marks trend; two "day" rules side by side (Today, Progress);
   Pro's usage line inside the closed "Everything in Pro" on the home card on phones; "See everything in Pro" beside
   "Everything in Pro".
-- **Left from the first prompt:** signed-in Colleges and Saved are the plainest pages still as they were; Mob, Result, Explore,
+- **RUNNING:** `wt-1119-arena-c` (branch `web/1119-arena-c`, brief `wt-1110-convert/tmp/1118/briefs/arena-c.md`, Opus high): Colleges says its
+  count once and draws each course's 2026 range as a bar; Saved as a shelf. Then: read its montages, merge, `npm run test:app` and
+  the landing checklist, gate once, look, push.
+- **Left from the first prompt:** signed-in Colleges and Saved (in the lane above); Mob, Result, Explore,
   Guide and /pricing were looked at and left; no generated art replaced the dropped 3D Mobi.
 - Not checked: a physical phone, Safari, any signed-in page on production (fixtures only).
 - Housekeeping: lane worktrees `wt-1118-*` and `wt-1119-*` are merged and can be removed (rmdir the `node_modules` junction first).

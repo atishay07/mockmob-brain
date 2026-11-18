@@ -73,3 +73,4 @@
 - [No Fable when limited](no-fable-when-limited.md) — 17 Nov: Fable limit killed 3 lanes; owner: no Fable agents, use Opus or work in context; WIP-commit and stop the workflow before reset
 - [No subpar 3D, use image gen](no-subpar-3d-use-image-gen.md) — 18 Nov: hand-built 3D Mobi called "very bad" from working renders; use generated art; he watches working screenshots live
 - [Tangible doodle direction](tangible-doodle-direction.md) — 18 Nov: visible, characterful changes (pen circles and underlines on scroll, Duolingo-level streak and bars); brain notes at checkpoints under 5% of time
+- [Pre-gate checks](pre-gate-checks.md) — 18 Nov: run test:app and landing_checklist_1104 by hand before the gate; lanes only run their named suites (G26 slip, L-040 slip)
