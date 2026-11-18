@@ -2,6 +2,40 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 18 Nov 2026, 9:42 pm: Features, About, the footer and the four guides are LIVE (main 0c9099f0e; rollback = 9c7b563f2, `dpl_RKhjzTB9jXmqihGZ3wJiTNW8p2tv`). Nothing running, nothing waiting to ship
+
+- His words: LK316 ("keep going until you match the requirements of my first prompt").
+- **LIVE (0c9099f0e), on top of the 9:12 pm release below:**
+  - /features (lane pub-c): nine text cards became a catalogue in three groups (Practise, Fix what you missed, Free DU tools); six
+    parts lead with the home tour's own product screen (Practice, mistake repair, Chapter review, Ask Mobi, DU cutoff calculator,
+    Subject combination planner), three are compact rows with a desk object; long bodies keep their first sentence and fold the
+    rest behind "More" on phones. Every word kept.
+  - /about: the four principles are tiles; three lead with a live figure (15 CUET subjects, the bank's question count, 73 DU
+    courses); unknown count shows no figure. The page refreshes at most hourly.
+  - The footer folds on phones on every public page (was two screens of links; home was already folded).
+  - The four guides (lane pub-d: /cuet-mock-test-free, /cuet-practice-tests-online, /cuet-previous-year-questions, /cuet-2027):
+    a paper facts card (50 questions, 60 minutes, +5, -1, and the live bank line), "On this page" chips, numbered sections at a
+    62-character measure, links as 56 px rows, a "Try five CUET questions" band after section 2, FAQ rows closed. No word of
+    their text, headings or metadata changed; nothing is folded.
+  - Main session: Progress's seven finished-week marks fit whole at 360 px; the Night highlight's turning copy is generated
+    content (a heading holds its words once); the marker rides by transform (landing checklist L-040 had flagged a `left`
+    keyframe: that test file is in no `test:*` script, so the gate does not run it; run
+    `node --test data/tests/landing_checklist_1104.test.mjs` by hand before a gate).
+  - Gate in `wt-1116-next` on 0c9099f0e: 24 suites 0 failures (test:app 1,545), eslint clean, webpack and Turbopack builds 0.
+  - Live checks: the build answered on www at 9:42 pm; 16 public pages 200; /api/practice/quote 401 signed out; /features and
+    /cuet-mock-test-free walked at 390 Day and /about at 390 Night on www (0 page errors); the whole home page walked at 360 on
+    www (30 screens, 0 page errors); no Vercel runtime errors in the hour.
+- **Decided by the lanes, his to overrule:** the guides' facts card is labelled "CUET UG 2026, every subject paper" (new words);
+  "Your standing" has no screen on /features (the Benchmark screen shows a target score, not a rank); the DU calculator's part
+  shows the Compass sample, whose line says "Your practice range".
+- **Open, his to decide (unchanged):** Free per-chapter counts on Marks trend; two "day" rules side by side (Today, Progress);
+  Pro's usage line inside the closed "Everything in Pro" on the home card on phones; "See everything in Pro" beside
+  "Everything in Pro".
+- **Left from the first prompt:** signed-in Colleges and Saved are the plainest pages still as they were; Mob, Result, Explore,
+  Guide and /pricing were looked at and left; no generated art replaced the dropped 3D Mobi.
+- Not checked: a physical phone, Safari, any signed-in page on production (fixtures only).
+- Housekeeping: lane worktrees `wt-1118-*` and `wt-1119-*` are merged and can be removed (rmdir the `node_modules` junction first).
+
 ## 18 Nov 2026, late evening: Practice, Learn, You and the animated pen are LIVE, pushed 9:11 pm (main 9c7b563f2; rollback = c2f12abcd, `dpl_6ZZCxb7ANQr75M2CEZMwUZXy5iaz`). Two public-page lanes RUNNING, not merged
 
 - His words: LK316 still (6:15 pm: "keep going until you match the requirements of my first prompt"); LK314 ("Doodles look good. Some

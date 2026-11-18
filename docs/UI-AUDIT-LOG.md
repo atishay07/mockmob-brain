@@ -235,6 +235,10 @@ the script is in `wt-1110-convert/tmp/1118/mobi3d/src` only. Mobi art comes from
   - Git Bash turns a lone `/` argument into `C:/Program Files/Git/`: `MSYS_NO_PATHCONV=1 node strip.mjs label / 390x844 light`.
   - The Lab's phone screens look half empty in a scroll strip because they are caught mid-animation; `tmp/1118/tools/lab.mjs`
     shoots all five at rest (they are full).
+- **Round 3 (9:42 pm, main 0c9099f0e):** /features, /about, the footer on every public page, the four guides (briefs `pub-c.md`,
+  `pub-d.md`). Look at public pages with `MSYS_NO_PATHCONV=1 node strip.mjs <label> /<path> 390x844 light 780 [base]` from
+  `wt-1110-convert/tmp/1110-app`, then `python grid.py shots/<label> 390-light 260 11`. `data/tests/landing_checklist_1104.test.mjs`
+  is in no `test:*` script: run it by hand (it caught a keyframe animating `left`).
 - **Looked at and left (390 Day, fixtures):** Mob, Result, Your papers, Revise, Explore, Guide read well. Plainest: Colleges
   (signed-in Compass: a long list of text rows) and Saved. Public: /pricing is rich; /features was nine text cards and the four
   article pages were walls of text (both in lanes pub-c and pub-d).
