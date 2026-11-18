@@ -2,8 +2,18 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
-## 18 Nov 2026, from about 12:45 pm IST: the premium rebuild. Two batches LIVE: about 2:00 pm (main 3ee7bca5e) and about 2:25 pm (main fe0dfe8a7, `dpl_CxeSpRJtpzhppNL2KJPxX6RnwXR5`; rollback `dpl_HxZKQinitYWbrxo6pxhnKK57AHyt` = 3ee7bca5e, before that `dpl_5x5GMJvvQhDD6rzvw5mEKUWaS9Yu` = 04004f2b2). A third batch is merged, not gated, NOT live
+## 18 Nov 2026, 12:45 to 2:45 pm IST: the premium rebuild. Three batches LIVE; live is main 747d26f3e (`dpl_3tT838tk5xEQDuJnaFRLoMZFeo7W`, about 2:43 pm; rollback `dpl_CxeSpRJtpzhppNL2KJPxX6RnwXR5` = fe0dfe8a7, before that `dpl_HxZKQinitYWbrxo6pxhnKK57AHyt` = 3ee7bca5e, `dpl_5x5GMJvvQhDD6rzvw5mEKUWaS9Yu` = 04004f2b2)
 
+- **LIVE, third batch (747d26f3e, about 2:43 pm):** Marks trend as an analysis desk (Your chapters, Your pace for Pro, Where
+  your marks go); the pen and the highlighter on 17 other public pages (placements in `src/lib/publicMarks.mjs`, rules in
+  `tmp/1118/briefs/marks.md`); the pen's ink tone is the words' own colour. Gate on 747d26f3e: 24 suites 0 failures (test:app
+  1,508), eslint clean, webpack and Turbopack 442 pages. Live: 12 public pages 200, `/api/analytics` 401 signed out, no
+  runtime errors in the hour. Not looked at in a browser on production after this deploy.
+- **NOT DONE from his brief (told to him at 2:40 pm):** the older sections are not redesigned (home: exam screen, DU Compass,
+  DU courses, creators, pricing, FAQ, footer; arena: Practice, Your papers, Learn, Wallet, You, Progress, Your standing); no
+  3D or generated art in place of the dropped 3D Mobi; bars and icons beyond the streak; nobody has judged the "30 seconds".
+  This is the next session's work. Nothing is running; all lane worktrees `wt-1118-*` are merged and can be removed (rmdir
+  the node_modules junction first).
 - His words whole: OWNER-MASTER-LEDGER LK302-LK312 (the 12:45 pm brief and his 2:05 pm note: tangible output, a doodle vibe on
   scroll, streak/bars/icons at Duolingo's level, notes in the brain, no subpar 3D, use the image generator instead). Why each
   thing is the way it is: `DESIGN-DECISIONS-2026-11-18.md`. What was looked at and the traps: UI-AUDIT-LOG section 2f.
@@ -30,7 +40,7 @@
   `/api/me/streak` 401 signed out; in headless Chrome at 390 Day on www the deck is held with five cards, real 380 px swipes
   move one card each, every mark draws (15, then 18), 0 page errors, nothing past the right edge; Vercel shows no runtime
   errors in the hour.
-- **Merged on `web/1118-prod` (wt-1110-convert, head 5b9a36106), not gated, not live:** Marks trend as an analysis desk
+- Marks trend, detail (now live, see above): Marks trend as an analysis desk
   (`wt-1118-insight`, reviewed, 2 fixes): Your chapters (every chapter of the student's subjects as a tile with the product's
   own states and a detail panel), Your pace (Pro only), Where your marks go. Open and his: Free sees each chapter's
   right-of-answered count (Key cards treats that line as Pro); two figures can differ from Your papers' for the same chapter

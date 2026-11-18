@@ -1,0 +1,20 @@
+{
+  "id": "20261118T091504.242697Z-16d1298f",
+  "observed_at": "2026-11-18T09:15:04.242697+00:00",
+  "agent": "claude-fable-5.2 (orchestrator, 18 Nov rebuild)",
+  "task": "Owner's 18 Nov brief (LK302-LK312): three batches LIVE (main 747d26f3e); the section redesign is not done",
+  "status": "paused",
+  "done": "WEB LIVE main 747d26f3e (dpl_3tT838tk5xEQDuJnaFRLoMZFeo7W, about 2:43 pm IST 18 Nov; rollback dpl_CxeSpRJtpzhppNL2KJPxX6RnwXR5 = fe0dfe8a7). Batch 1: tour as a scroll-dealt deck, Doodle pen and highlighter on the home page, pen verdicts on the sample card, Today's streak block. Batch 2: Search (Ctrl+K), test-screen keys and Cross out tool, pen marks in Lab screens, Mobi on the streak chip, result underline. Batch 3: Marks trend analysis desk, pen marks on 17 public pages, ink tone fix. Each agent lane had an independent Opus xhigh review before merge (marks lane: reviewed by the orchestrator from its contact sheets). All lanes merged into web/1118-prod; nothing running.",
+  "next": "Not done from the brief: redesign the older sections (home: exam screen, DU Compass, DU courses, creators, pricing, FAQ, footer; arena: Practice, Your papers, Learn, Wallet, You, Progress, Your standing); generated art in place of the dropped 3D Mobi (image generator); bars and icons beyond the streak; a first-visit \"30 seconds\" judgement. Open owner decisions: Free seeing per-chapter right-of-answered on Marks trend; two week rows on Today. Owner to try signed-in features on production and on his phone. Remove merged worktrees wt-1118-* (rmdir node_modules junction first).",
+  "blockers": [],
+  "evidence": [
+    "C:/Users/atish/Desktop/mockmob copy/wt-1116-next/tmp/gate2.log",
+    "C:/Users/atish/mockmob-brain/docs/NOW.md",
+    "C:/Users/atish/mockmob-brain/docs/DESIGN-DECISIONS-2026-11-18.md"
+  ],
+  "touched_files": [],
+  "verification": "Gate on 747d26f3e: 24 suites 0 failures (test:app 1,508), eslint clean, webpack and Turbopack builds 442 pages. Live: 12 public pages 200, /api/analytics 401 signed out, Vercel no runtime errors in the hour. Not checked: batch 3 in a browser on production, any signed-in flow on production, a physical phone.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
