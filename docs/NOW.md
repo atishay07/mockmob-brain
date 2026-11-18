@@ -2,6 +2,22 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 18 Nov 2026, from about 12:45 pm IST: the premium rebuild (IN PROGRESS; nothing new live yet; live is still main 04004f2b2)
+
+- His words whole: OWNER-MASTER-LEDGER LK302-LK312 (the 12:45 pm brief and his 2:05 pm note: tangible output, a doodle vibe on
+  scroll, streak/bars/icons at Duolingo's level, notes in the brain, no subpar 3D, use the image generator instead).
+- Release branch `web/1118-prod` in `wt-1110-convert` (from main 04004f2b2). Done on it: "More inside MockMob" is a deck the
+  scroll deals on every pointer (`TourDeck.jsx`, `deckMotion.mjs`, `r18-tour-deck.css`; held by ScrollStory like the Lab; cards
+  rise over each other with the scroll, each demo plays as its card lands). Seen at 390 and 1440 Day; not yet walked by touch.
+- Three Opus lanes running in their own worktrees (briefs `wt-1110-convert/tmp/1118/briefs/`, rules `tmp/1118/LANE-COMMON.md`):
+  `wt-1118-palette` (Search: Ctrl+K, pages, chapters, colleges), `wt-1118-insight` (Marks trend: chapter map, pace, where marks
+  go), `wt-1118-runner` (test screen keys and a visible cross-out tool; NTA style keeps what it has). Each needs an
+  independent review before merge.
+- Dropped: a hand-built real-time 3D Mobi (he saw the renders: "very bad"). Nothing from it ships. Art comes from the existing
+  generated Mobi stills or the image generator.
+- Now building (main session): a hand-drawn pen and highlighter layer on the home page that draws as the reader scrolls
+  (`Doodle`), then the streak, bars and icons.
+
 ## 17 Nov 2026, 3:35 to 7:55 am IST: the B session — DONE: web live (main 04004f2b2), app version 22 built (Desktop/MockMob-build-22)
 
 - Reviews done (Opus xhigh, one per lane) and merged into web/1117-prod (wt-1110-convert): daily d8cd51273 (7 fixes: Sunday

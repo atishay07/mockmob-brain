@@ -1146,3 +1146,42 @@ How it was read (the readings are mine, not his): "the morning side" is "More in
 | LIVE 17 Nov ~4:12 am (main 65797fd17): answer sheet rain on the page's own ground, the word rises onto the bar logo, the logo settles (dot drops, Mobi hops and blinks); never delays LCP | **LK299** The opening animation is "still not good at all": grand at first, something falling through it, then it rises and merges into the header logo, which animates a little. (Replaces the 16 Nov "smaller" rule pinned by L-043.) |
 | BUILT 17 Nov ~6:35 am: version 22 (1.0.24+22) in Desktop/MockMob-build-22 (signed AAB that sells, arm64 APK, symbols, README, OWNER-STEPS with the Data safety photo step): Ask Mobi chat with the Photo key, Daily Five as the college game, Sunday Mock, badges, the one daily streak, NTA mode as the exam's twin, the 3D Mobi; each lane reviewed; emulator walk done (release first run, demo signed-in screens, NTA end to end) | **LK300** The app: build everything into it, up to date with all progress, the most complete product; this is the final app build; send him the final version. |
 | ANSWERED 17 Nov | **LK301** iPhone: is the web app just the website or a full app with haptics? Answer: the website in its own window (full screen, offline, push once on the Home Screen), no haptics, no App Store, no widgets; a full iPhone app means compiling the Flutter app for iOS (Apple Developer account, a Mac or cloud Mac builds, Apple in-app purchase for Pro). His decision whether to build it. |
+
+
+## His brief of 18 Nov 2026, about 12:45 pm, and his note about 2:05 pm (LK302-LK312; pasted dictation)
+
+His words, whole. First, about 12:45 pm:
+
+> Right now, your task is to redesign and rebuild the entire website, not from scratch using our element set, but to make it more premium and more refined.
+>
+> The reason we are doing this is that many sections of the site are rebuilt, but many are very old and were built using the tech from AI models of previous years, which lagged in many ways: UI/UX taste and other things. To take the website to a completely next level, that's our goal.
+>
+> You don't have to spend much time analyzing the website side or doing that kind of thing. Your main goal should be to build, build, and build. This is not just a UI/UX design. This is improvisation of features, adding new features, refining the overall flows, and making the website as good as you can in every aspect. You have to go all out on this.
+>
+> Just a few things to keep in mind that need correction. For example, more inside this section needs to be rethought. Firstly, we had a thing like the mistake lab, in which we had animated cards and scroll animation on them. Now we have these sliding cards, which are not good. They have no animation, or they are a bit weird. If they are touch-responsive, no one will be able to understand that they have to touch it or do something to interact with them. These kinds of things you have to think about.
+>
+> The end goal should be that this website, the main platform, should be more advanced than anything in ECVT or any mock platform out in the market. The end goal should be that if any student visits our website, they should be convinced within 30 seconds that this is the best and most advanced platform available in the market.
+>
+> You have all the instructions and rules set already from the brain. Just one thing to remember for this specific prompt: if you are doing any 3D, animation, or text-related work, then don't want a Fable subagent for it. Do it yourself in this chat only, in this context window, because your responsibility here for today is being the orchestrator plus 3D WebCL designer for all those kinds of tasks. For all the other things, you can follow the guidelines for subagents and stuff that we have, or do it yourself. Everything is up to you. The code basis is yours. Start right now and keep updating me on the progress.
+
+Then, about 2:05 pm, while the work ran:
+
+> Just a thing that I wanted to say: we want tangible output, and you can do smaller things even to make a large difference. After all, it's up to you, but I'll give you some examples.
+>
+> Overall, when people scroll through text, just circling the text in a fancy way, maybe drawing the line under it, and having that kind of a doodle vibe in some cases while keeping it professional also. That's a small example in which you can think of improvising things. There are many other ways, but I'm just giving you a bit of direction so that you don't give me minor improvements. And overall, just thinking through things like how to properly integrate streak features or some sort of bars or icons, whatever we are using. Everything should be refined, taking inspiration from popular apps like Duolingo and other things that we have stored as skills, accessing those, and going out of my way to create a better product. And whatever you are thinking or doing, override your thought processes. Keep noting it down in the brain at a few checkpoints in between so that it's easier to retrieve context, but don't spend too much time on it. This should take less than 5% of the time overall. I was just seeing some working screenshots while you were building the 3D and stuff. It was just very bad, so don't use any subpar outputs. I saw some that you had used previously also, which were mostly way better than what you are doing right now. Anyway, if there is any issue with not getting 3D perfect, then just switch to using the image generator. I think you have access to the GPT image generator, so use that.
+
+How it was read (the readings are mine, not his): "more inside this section" is "More inside MockMob" (the tour); "sliding cards" is the sideways deck a finger got on 17 Nov; "ECVT" is unclear (possibly "ed-tech"); "3D WebCL designer" is 3D and WebGL. "Text-related work" is read as on-screen wording and type. The "working screenshots" he saw were my Blender reference renders of a hand-built real-time 3D Mobi; "some that you had used previously" are the generated 3D Mobi stills already on the site. "Override your thought processes" is read as: write down what I am thinking and doing as I go.
+
+| Status | Item |
+|---|---|
+| STANDING 18 Nov | **LK302** The whole website gets a premium, refined rebuild from the existing element set: not from scratch, and not minor improvements. Build, do not analyse. Features, new features and flows as well as the look. |
+| STANDING 18 Nov | **LK303** The goal: more advanced than any mock platform; a student is convinced within 30 seconds that it is the best and most advanced one. |
+| BUILT 18 Nov (branch web/1118-prod, not live yet) | **LK304** "More inside MockMob": the sideways cards are "not good" (no animation, nobody knows to touch them); the Mistake Lab's animated cards on scroll are the model. Built: one deck the scroll deals on every pointer (cards rise over each other with the scroll, each tool's demo plays as its card lands, the tabs' mark slides with the scroll). |
+| STANDING 18 Nov | **LK305** Today the main session does all 3D, animation and on-screen wording itself; no Fable sub-agent for those. Other work may go to sub-agents by the usual guide. |
+| STANDING 18 Nov | **LK306** "Keep updating me on the progress." |
+| STANDING 18 Nov | **LK307** Tangible output: small things that make a large difference count; minor improvements do not. |
+| IN PROGRESS 18 Nov | **LK308** A doodle vibe, kept professional: as people scroll through text, circle a word "in a fancy way", draw a line under it. One example of the direction, not the whole of it. |
+| IN PROGRESS 18 Nov | **LK309** Streak features, bars and icons: think through how they are integrated; everything refined, taking inspiration from Duolingo and from the stored skills. |
+| STANDING 18 Nov | **LK310** Note thinking and progress in the brain at a few checkpoints; under 5% of the time. |
+| DROPPED 18 Nov | **LK311** The real-time 3D Mobi built by hand (Blender script to a WebGL mesh): he saw the working renders and called them "very bad"; the generated Mobi art already on the site is "way better". Dropped before anything shipped; no subpar output is to be used. |
+| STANDING 18 Nov | **LK312** Where 3D cannot be made perfect, use the image generator (GPT image generation through Codex) instead. |
