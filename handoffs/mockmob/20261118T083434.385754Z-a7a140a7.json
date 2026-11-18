@@ -1,0 +1,23 @@
+{
+  "id": "20261118T083434.385754Z-a7a140a7",
+  "observed_at": "2026-11-18T08:34:34.385754+00:00",
+  "agent": "claude-fable-5.2 (orchestrator, 18 Nov rebuild)",
+  "task": "Owner's 18 Nov brief (LK302-LK312): first batch LIVE (main 3ee7bca5e); second batch built and under review",
+  "status": "active",
+  "done": "WEB LIVE about 2:00 pm IST 18 Nov: main 3ee7bca5e, dpl_HxZKQinitYWbrxo6pxhnKK57AHyt (rollback dpl_5x5GMJvvQhDD6rzvw5mEKUWaS9Yu = 04004f2b2). In it: \"More inside MockMob\" as a deck the scroll deals on every pointer; the pen and highlighter layer (src/components/doodle) with 15 marks on the home page; pen tick and red cross on the sample card; Today's streak block rebuilt (logo Mobi as the streak mark, number, week bubbles, today's bar). Built on web/1118-prod head 8e348cd24, not gated or live: pen marks inside three Lab screens, Mobi on the top-bar streak chip, pen underline on the result page's costliest chapter. Agent lanes built and committed in their own worktrees: wt-1118-palette 791408656 (Search), wt-1118-insight 5a9c91906 (Marks trend desk), wt-1118-runner f9ed97a4a (test-screen keys and Cross out tool). Independent Opus xhigh reviews of all three were running at 2:05 pm; lane marks (pen marks on other public pages, wt-1118-marks) still building. Brain: NOW.md 18 Nov section, ledger LK302-LK312 with statuses, UI-AUDIT-LOG section 2f, DESIGN-DECISIONS-2026-11-18.md. Dropped: hand-built real-time 3D Mobi (owner: \"very bad\"); nothing shipped.",
+  "next": "When each review reports: read it, merge passed lanes into web/1118-prod in wt-1110-convert (package.json test:app conflicts: take the union of test files), run the full gate ONCE in wt-1116-next with the tool's background mode (check Get-CimInstance Win32_Process for gate2.sh first), look at each new feature in a browser, push to main, live checks, update NOW.md and the ledger. If the 5-hour usage window ends first, resume the review agents by id after the reset (about 5:40 pm IST). Open for the owner: LK309 other bars and icons across the arena; two week rows on Today (streak and weekly goal).",
+  "blockers": [
+    "5-hour usage window was 60 percent at 1:55 pm IST with four Opus agents running; resets about 5:40 pm IST"
+  ],
+  "evidence": [
+    "C:/Users/atish/Desktop/mockmob copy/wt-1116-next/tmp/gate2.log",
+    "C:/Users/atish/Desktop/mockmob copy/wt-1110-convert/tmp/1118/tools/shots/live1",
+    "C:/Users/atish/mockmob-brain/docs/NOW.md",
+    "C:/Users/atish/mockmob-brain/docs/DESIGN-DECISIONS-2026-11-18.md"
+  ],
+  "touched_files": [],
+  "verification": "Gate on 3ee7bca5e: 24 suites 0 failures (test:app 1,405; recovery's one listed line is the known-gap todo), eslint clean, webpack and Turbopack builds 442 pages each. Live: / and nine public pages 200; headless Chrome at 390 Day on www: deck held with 5 cards, six real 380 px swipes one card each, 15 marks drawn, 0 page errors, overflow 0; Vercel runtime errors none in the last hour. Not checked: a physical phone, iPhone Safari, signed-in flows on production.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
