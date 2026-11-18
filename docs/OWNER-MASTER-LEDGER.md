@@ -1185,3 +1185,24 @@ How it was read (the readings are mine, not his): "more inside this section" is 
 | STANDING 18 Nov | **LK310** Note thinking and progress in the brain at a few checkpoints; under 5% of the time. |
 | DROPPED 18 Nov | **LK311** The real-time 3D Mobi built by hand (Blender script to a WebGL mesh): he saw the working renders and called them "very bad"; the generated Mobi art already on the site is "way better". Dropped before anything shipped; no subpar output is to be used. |
 | STANDING 18 Nov | **LK312** Where 3D cannot be made perfect, use the image generator (GPT image generation through Codex) instead. |
+
+
+## His look at the three live batches, 18 Nov 2026 about 2:55 pm (LK313-LK315; pasted dictation)
+
+His words, whole:
+
+> I have seen what you have done. Mainly, I can just see the doodles and all, and some animation changes, so it's fine.
+>
+> One thing is utilizing the vertical space. You already have to compact so much on the phone, with so much information in a little space. Still, there is blank space. Optimizing those kinds of things, especially in the WhatsApp-side mockup screen. Sliding-up animation and that all is good, but we can utilize the screen more. All that is very small, and we can make the actual portion size of the graphic and animation larger.
+>
+> Doodles look good. Some can be more animated, and some sort of those things can be thought about more. I hope you have now found out everything which needs to be done, everything that already works, and what needs to be touched.
+>
+> Just create a prompt along with the handoff, which I can now continue in ChatGPT on the side. Just focus upon the main important things and direct it for what we have to do right now. It also has access to brains and all the tools like you, so no need to go very deep into the history and that kind of stuff.
+
+How it was read (mine, not his): "the WhatsApp-side mockup screen" is the "what's inside" mock-up screen, the product screen inside each card of "More inside MockMob" on a phone.
+
+| Status | Item |
+|---|---|
+| OPEN 18 Nov | **LK313** On the phone there is still blank space; the mock-up screens in "More inside MockMob" are "very small". Make the graphic and its animation larger and use the screen. The sliding-up animation is good. |
+| OPEN 18 Nov | **LK314** The doodles "look good"; some can be more animated; think that through further. |
+| DONE 18 Nov | **LK315** A prompt and handoff for the next session (he continues in ChatGPT): `PROMPT-NEXT-SESSION-2026-11-18.md`. |

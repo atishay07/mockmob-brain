@@ -9,6 +9,7 @@
   `tmp/1118/briefs/marks.md`); the pen's ink tone is the words' own colour. Gate on 747d26f3e: 24 suites 0 failures (test:app
   1,508), eslint clean, webpack and Turbopack 442 pages. Live: 12 public pages 200, `/api/analytics` 401 signed out, no
   runtime errors in the hour. Not looked at in a browser on production after this deploy.
+- **Next session: `PROMPT-NEXT-SESSION-2026-11-18.md` (his 2:55 pm verdict LK313-LK315: use the phone screen, larger mock-up screens, livelier doodles).**
 - **NOT DONE from his brief (told to him at 2:40 pm):** the older sections are not redesigned (home: exam screen, DU Compass,
   DU courses, creators, pricing, FAQ, footer; arena: Practice, Your papers, Learn, Wallet, You, Progress, Your standing); no
   3D or generated art in place of the dropped 3D Mobi; bars and icons beyond the streak; nobody has judged the "30 seconds".
