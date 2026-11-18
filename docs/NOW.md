@@ -2,32 +2,46 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
-## 18 Nov 2026, from about 12:45 pm IST: the premium rebuild. First batch LIVE about 2:00 pm (main 3ee7bca5e, `dpl_HxZKQinitYWbrxo6pxhnKK57AHyt`; rollback `dpl_5x5GMJvvQhDD6rzvw5mEKUWaS9Yu` = 04004f2b2). Second batch built, under review, NOT live
+## 18 Nov 2026, from about 12:45 pm IST: the premium rebuild. Two batches LIVE: about 2:00 pm (main 3ee7bca5e) and about 2:25 pm (main fe0dfe8a7, `dpl_CxeSpRJtpzhppNL2KJPxX6RnwXR5`; rollback `dpl_HxZKQinitYWbrxo6pxhnKK57AHyt` = 3ee7bca5e, before that `dpl_5x5GMJvvQhDD6rzvw5mEKUWaS9Yu` = 04004f2b2). A third batch is merged, not gated, NOT live
 
 - His words whole: OWNER-MASTER-LEDGER LK302-LK312 (the 12:45 pm brief and his 2:05 pm note: tangible output, a doodle vibe on
   scroll, streak/bars/icons at Duolingo's level, notes in the brain, no subpar 3D, use the image generator instead). Why each
   thing is the way it is: `DESIGN-DECISIONS-2026-11-18.md`. What was looked at and the traps: UI-AUDIT-LOG section 2f.
-- **LIVE (first batch):** "More inside MockMob" is a deck the scroll deals on every pointer (`TourDeck.jsx`, `deckMotion.mjs`,
-  `r18-tour-deck.css`; held by ScrollStory like the Lab). The pen and the highlighter (`src/components/doodle`: `Doodle`,
-  `Marked`): "One mock." in the hero, the price figure, eleven section headings, the statement's three accent words. The
-  sample card's verdicts are a pen tick and a red cross. Today's streak block: the logo's Mobi as the streak's mark (asleep or
-  lit), the number, the week's seven bubbles, a bar for today's questions, one moment a day.
-- Gate in `wt-1116-next` on 3ee7bca5e: 24 suites 0 failures (test:app 1,405), eslint clean, webpack and Turbopack builds 442
-  pages each. On www after the deploy: `/` and nine public pages 200; in headless Chrome at 390 Day the deck is held with five
-  cards, six real 380 px swipes moved one card each, all 15 marks drew, 0 page errors, nothing past the right edge; Vercel
-  shows no runtime errors in the hour.
-- **Built on `web/1118-prod` (wt-1110-convert, head 8e348cd24), not gated, not live:** the pen inside three Lab screens, Mobi
-  on the top-bar streak chip, a pen underline under the costliest chapter on the result page, and landing test pins.
-- **Agent lanes (each in its own worktree and branch; briefs `wt-1110-convert/tmp/1118/briefs/`, rules `tmp/1118/LANE-COMMON.md`,
-  review rules `tmp/1118/REVIEW-COMMON.md`):** `wt-1118-palette` 791408656 (Search: Ctrl+K, pages, chapters, colleges),
-  `wt-1118-insight` 5a9c91906 (Marks trend: chapter map, pace, where marks go; pace rows Pro only), `wt-1118-runner` f9ed97a4a
-  (test screen keys and a visible Cross out tool; NTA style keeps its old keys). An independent Opus xhigh review of each was
-  running at 2:25 pm; merge only what a review passes. `wt-1118-marks` (the same pen marks on the other public pages, by the
-  rules in its brief) was still building.
-- Next: read each review, merge passed lanes into `web/1118-prod` (expect `package.json` test:app conflicts: take the union),
-  full gate in `wt-1116-next` (start it ONCE, in the tool's background mode), a visual look at each new feature, push, live checks.
+- **LIVE, first batch (3ee7bca5e):** "More inside MockMob" is a deck the scroll deals on every pointer (`TourDeck.jsx`,
+  `deckMotion.mjs`, `r18-tour-deck.css`; held by ScrollStory like the Lab). The pen and the highlighter
+  (`src/components/doodle`: `Doodle`, `Marked`): "One mock." in the hero, the price figure, eleven section headings, the
+  statement's three accent words. The sample card's verdicts are a pen tick and a red cross. Today's streak block: the logo's
+  Mobi as the streak's mark (asleep or lit), the number, the week's seven bubbles, a bar for today's questions, one moment a day.
+- **LIVE, second batch (fe0dfe8a7):**
+  - Search (`src/components/search`, `src/lib/search`): Ctrl+K or `/` on desktop with a Search key in the rail; a Search field on
+    You and in the Start sheet on phones; pages, start actions, every chapter (Enter opens Practice with it chosen), DU colleges
+    and courses. Never opens on the test screen or over another sheet. Reviewed (Opus xhigh): 7 fixes. Open: a chapter of a
+    subject the student has not picked opens Practice on its "not your subject" note; the row's Key cards and Learn links sit
+    inside the listbox option (screen readers).
+  - Test screen, MockMob style: keys (A-D or 1-4, arrows or N/P, M, X, ?), a `Keys` list on mouse devices, and a visible
+    `Cross out` tool (kept through a reload in its own sessionStorage entry keyed by student and paper; never in the answer
+    draft or the submit). NTA style has neither and keeps its old 1-4 and arrows. Reviewed (Opus xhigh): 3 fixes (keys dead
+    while the list is open; cross-out marks kept per student; keys dead once a notice replaces the paper). Mine after review:
+    no Keys list on an NTA-mode paper (full screen: Esc would count as a warning); the refusal line scrolls into view.
+  - The pen inside three Lab screens, Mobi on the top-bar streak chip, a pen underline under the costliest chapter on the
+    result page (names of 20 characters or fewer).
+- Gates in `wt-1116-next`: on 3ee7bca5e and on fe0dfe8a7, each 24 suites 0 failures (test:app 1,405 then 1,477), eslint clean,
+  webpack and Turbopack builds 442 pages each. Live after each deploy: `/` and nine public pages 200; `/api/analytics` and
+  `/api/me/streak` 401 signed out; in headless Chrome at 390 Day on www the deck is held with five cards, real 380 px swipes
+  move one card each, every mark draws (15, then 18), 0 page errors, nothing past the right edge; Vercel shows no runtime
+  errors in the hour.
+- **Merged on `web/1118-prod` (wt-1110-convert, head 5b9a36106), not gated, not live:** Marks trend as an analysis desk
+  (`wt-1118-insight`, reviewed, 2 fixes): Your chapters (every chapter of the student's subjects as a tile with the product's
+  own states and a detail panel), Your pace (Pro only), Where your marks go. Open and his: Free sees each chapter's
+  right-of-answered count (Key cards treats that line as Pro); two figures can differ from Your papers' for the same chapter
+  (different paper ranges); the page reads all of the student's answered rows on each visit.
+- **Still building at 2:25 pm:** `wt-1118-marks` (the same pen marks on the other public pages, by the rules in
+  `tmp/1118/briefs/marks.md`): 18 files changed, not committed, not reported.
+- Next: when lane marks reports, look at its contact sheets, merge, run the full gate ONCE in `wt-1116-next` (tool background
+  mode; check `Get-CimInstance Win32_Process` for `gate2.sh` first), push, live checks, update this section.
 - Dropped: a hand-built real-time 3D Mobi (he saw the renders: "very bad"). Nothing from it shipped.
-- Not checked: a physical phone, iPhone Safari, tablet widths, a screen reader, any signed-in flow on production.
+- Not checked on any batch: a physical phone, iPhone Safari, tablet widths, a screen reader, any signed-in flow on production
+  (Search, the test screen and the streak block were seen only through the preview fixtures).
 - His to do: delete the empty folders `C:\tmp\1118\mobi3d` (Blender wrote test renders there; a safety check stopped me removing them).
 
 ## 17 Nov 2026, 3:35 to 7:55 am IST: the B session — DONE: web live (main 04004f2b2), app version 22 built (Desktop/MockMob-build-22)
