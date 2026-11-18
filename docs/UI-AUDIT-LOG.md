@@ -213,6 +213,32 @@ the script is in `wt-1110-convert/tmp/1118/mobi3d/src` only. Mobi art comes from
 
 ---
 
+### 2g. Round 2 and 3 of 18 Nov (evening; main c2f12abcd then 9c7b563f2; owner LK313-LK316)
+
+- **What was rebuilt:** home (exam screen, DU Compass, DU courses, creators, pricing, FAQ, close, footer), arena (Progress, Your
+  standing, Your papers, Wallet, Practice, Learn's home, You). Briefs: `wt-1110-convert/tmp/1118/briefs/` (`R2-COMMON.md` holds the
+  method: the graphic is 70% of the section's first phone screen, one left edge, detail behind a real disclosure, before/after
+  montage or it is not done).
+- **The pen in view** (`src/components/doodle`): `pen` and `accent="spark"` on `Doodle`/`Marked`. Look with
+  `node tmp/1118/tools/pen2.mjs <label> 390x844 light` then `python tmp/1118/tools/pen.py <label> 390-light`: it pauses each
+  mark's own animations at fixed times, so the pencil and the stroke head can be compared exactly (timed screenshots cannot).
+  `pen.mjs` shoots real-time frames, including the scroll-held pencil on the Lab's heading.
+- **Traps found tonight:**
+  - An `<svg>` with width or height 0 paints nothing, even with `overflow: visible`: the pencil was invisible until its svg was 1 x 1.
+  - A lane runs only the suites its brief names. arena-b moved Practice's heading from the mode to the subject and no test it ran
+    said so; `src/components/start/__tests__/startModel.test.mjs` (owner G26) caught it only in the full gate. Before a gate, run
+    `npm run test:app` once in the release worktree (about a minute) so a pin failure does not cost a 15-minute gate.
+  - Practice's phone bar: a key that names the set ("Start 10 questions") is 170 to 190 px wide; measure the text beside it
+    (`tmp/1118/tools/barfit.mjs` prints clientWidth against scrollWidth per width and mode) instead of trusting a screenshot.
+  - Night highlighter: turning the words dark all at once leaves the words ahead of a slower swipe dark on the dark page; the
+    clipped copy (`.dd__over`) fixes it.
+  - Git Bash turns a lone `/` argument into `C:/Program Files/Git/`: `MSYS_NO_PATHCONV=1 node strip.mjs label / 390x844 light`.
+  - The Lab's phone screens look half empty in a scroll strip because they are caught mid-animation; `tmp/1118/tools/lab.mjs`
+    shoots all five at rest (they are full).
+- **Looked at and left (390 Day, fixtures):** Mob, Result, Your papers, Revise, Explore, Guide read well. Plainest: Colleges
+  (signed-in Compass: a long list of text rows) and Saved. Public: /pricing is rich; /features was nine text cards and the four
+  article pages were walls of text (both in lanes pub-c and pub-d).
+
 ## 3. Signed-in website (the arena)
 
 **17 Nov 2026: Ask Mobi (`/mentor`) is a chat now** (web/1116n-chat, owner LK286): a pinned composer with a labelled Photo key, the thread, History (a side column on wide screens, a sheet on phones), Your record as its own tab; the docked panel shares the chat. The 1-credit rule for an ask Mobi reads but cannot use shows beside the price before sending; Mobi waves once on the start (six-frame sprite) and reads (stills) while waiting. Seen at 390 Day and Night and 1440 Day (`wt-1110-convert/tmp/1116-final/shots/chat-fu`). Fixed 17 Nov: at 390x844 the four start tiles ended 4 px under the composer's fade (Mobi's box 64x82 on phones, gaps 12). Not seen: a real phone keyboard over the composer, a real model reply.

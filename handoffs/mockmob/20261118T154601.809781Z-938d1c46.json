@@ -1,0 +1,33 @@
+{
+  "id": "20261118T154601.809781Z-938d1c46",
+  "observed_at": "2026-11-18T15:46:01.809781+00:00",
+  "agent": "claude-fable-5.2 (orchestrator, 18 Nov late evening)",
+  "task": "Owner LK316 (18 Nov 6:15 pm): keep going until the first prompt (rebuild the whole website, more premium) is met; LK314: doodles more animated",
+  "status": "active",
+  "done": "LIVE on www.mockmob.in since 9:12 pm IST 18 Nov: main 9c7b563f2 (Vercel dpl_RKhjzTB9jXmqihGZ3wJiTNW8p2tv; rollback c2f12abcd dpl_6ZZCxb7ANQr75M2CEZMwUZXy5iaz). Contents: lane arena-b (Practice as a ticket always in view, Learn's roadmap with chapter states, You as one card; Opus xhigh review, 2 fixes) plus main-session fixes (Start key names the set; phone bar never cuts text at 360/390/412; ticket heading is the mode again, owner G26) and the animated pen (Doodle props pen and accent=\"spark\": a volt pencil, red pen or marker rides the stroke; Night highlight turns words with the swipe). Committed on web/1118-prod but NOT gated or live: bdedd4781 (Progress week marks fit at 360), b12594146 (highlight copy as generated content, so headings hold their words once). Brain docs updated: NOW.md top section, ledger outcome row, UI-AUDIT-LOG 2g (tools and traps).",
+  "next": "1) Two Opus high lanes are running: wt-1119-pub-c (branch web/1119-pub-c, brief wt-1110-convert/tmp/1118/briefs/pub-c.md: /features as a catalogue of the tour's product screens, /about with live figures, footer folded on phones on every public page) and wt-1119-pub-d (web/1119-pub-d, pub-d.md: the four SeoContentPage article pages made scannable, every word kept). When each reports: check its commits and diff, read its before/after montages at 390, merge into web/1118-prod in wt-1110-convert (footer file may conflict between lanes: pub-d was told not to touch MarketingFooter). 2) Run npm run test:app once in wt-1110-convert, then git -C wt-1116-next checkout --detach web/1118-prod and bash tmp/gate2.sh ONCE in background mode; on 24 suites at fail 0, empty eslint and both builds exit 0, fast-forward push to main and check live (pages 200, pen via tmp/1118/tools/pen2.mjs against https://www.mockmob.in, Vercel runtime errors). 3) Update NOW.md, ledger, UI-AUDIT-LOG. 4) Remaining candidates: signed-in Colleges and Saved (plainest pages), lane worktrees wt-1118-* and wt-1119-* can be removed (rmdir the node_modules junction first).",
+  "blockers": [],
+  "evidence": [
+    "C:/Users/atish/mockmob-brain/docs/NOW.md (top section)",
+    "C:/Users/atish/Desktop/mockmob copy/wt-1116-next/tmp/gate2.log (9c7b563f2: 24 suites fail 0, eslint empty, webpack and turbopack exit 0, DONE)",
+    "C:/Users/atish/Desktop/mockmob copy/wt-1110-convert/tmp/1118/shots/livepen/390-light-sheet.jpg",
+    "C:/Users/atish/Desktop/mockmob copy/wt-1110-convert/tmp/1118/briefs/pub-c.md",
+    "C:/Users/atish/Desktop/mockmob copy/wt-1110-convert/tmp/1118/briefs/pub-d.md"
+  ],
+  "touched_files": [
+    "src/app/(app)/dashboard/DashboardPageClient.jsx",
+    "src/app/(app)/dashboard/practice.css",
+    "src/components/doodle/Doodle.jsx",
+    "src/components/doodle/doodle.css",
+    "src/components/doodle/doodlePaths.mjs",
+    "src/app/page.js",
+    "src/components/landing/HeroMark.jsx",
+    "src/app/(app)/progress/progress.css",
+    "data/tests/arena_b_1119.test.mjs",
+    "src/components/start/__tests__/startModel.test.mjs"
+  ],
+  "verification": "Gate on 9c7b563f2 clean. Live: 12 public pages 200, /api/practice/quote 401 signed out, pen marks drew on www at 390 Day and Night with 0 page errors, no Vercel runtime errors in the hour. Not checked: a physical phone, Safari, any signed-in page on production (fixtures only at 360, 390, 1440).",
+  "cost_and_pending_requests": "No paid model calls. 5-hour window was 68% used at about 9:05 pm, resets about 11:00 pm IST; two Opus high lanes running.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}

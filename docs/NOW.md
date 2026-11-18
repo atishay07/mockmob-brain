@@ -2,6 +2,42 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 18 Nov 2026, late evening: Practice, Learn, You and the animated pen are LIVE, pushed 9:11 pm (main 9c7b563f2; rollback = c2f12abcd, `dpl_6ZZCxb7ANQr75M2CEZMwUZXy5iaz`). Two public-page lanes RUNNING, not merged
+
+- His words: LK316 still (6:15 pm: "keep going until you match the requirements of my first prompt"); LK314 ("Doodles look good. Some
+  can be more animated").
+- **LIVE (9c7b563f2, Vercel `dpl_RKhjzTB9jXmqihGZ3wJiTNW8p2tv`):**
+  - Practice (lane arena-b, reviewed by Opus xhigh, 2 fixes): the session is a "ticket" always in view. Desktop: the sticky card
+    with the subject's desk object, the MODE as its heading (owner G26, restored by the main session after the lane had put the
+    subject there; `startModel.test.mjs` caught it in the gate), then Subject, Questions, Time, Marking, Cost and the key
+    "Start 10 questions in Accountancy". Phones: a bar pinned above the dock with the object, the subject, the time and the
+    price, and the key "Start 10 questions". The bar never cuts its text at 360, 390 or 412 (`tmp/1118/tools/barfit.mjs`): the
+    count is not said twice, the key drops its glyph under 430 px, the object shrinks under 400 and gives way under 380.
+  - Learn's home: every chapter row shows its state (shape and word) with a thin bar; each part is a disclosure saying
+    "n of m chapters started". You: the account card first (name, plan, credits, streak Mobi, subjects as desk objects), then
+    the places as one list of 56 px rows with their live figures.
+  - Doodles, more animated (main session): `Doodle` takes `pen` (a small volt pencil rides the stroke's head at a hand's pace
+    and lifts away; a red pen on a mistake's mark; a marker on a highlight; with `followScroll` the reader's scroll moves it)
+    and `accent="spark"` (three flicks after a circle). On: the hero's "One mock.", "five", the Lab's "a moment." (scroll),
+    "wrong", "open to you?" (+ sparks), "unlimited mocks.", "first mock?"; sparks on the price hook's figure. Never loops;
+    hidden under reduced motion and without CSS motion paths. Night: a highlighter's words now turn dark exactly where the
+    swipe has reached (a clipped copy, `.dd__over`), not all at once.
+  - Gate in `wt-1116-next` on 9c7b563f2: 24 suites 0 failures (test:app 1,537), eslint clean, webpack and Turbopack builds 0.
+  - Live from 9:12 pm (the home page's HTML carried the pen marks on the fourth 10-second try after the push): 12 public pages 200; /api/practice/quote 401 signed out; the seven timed pen marks drew on www at 390 Day with the pencil at the stroke's head and all eight (with the scroll-held one) in Night, 0 page errors; no Vercel runtime errors in the hour. Signed-in pages (Practice, Learn, You) seen through fixtures only at 360, 390 and 1440, Day and Night.
+- **Committed on `web/1118-prod`, NOT gated or live:** bdedd4781 (Progress at 360: seven finished-week marks fit whole).
+- **RUNNING (Opus high, briefs in `wt-1110-convert/tmp/1118/briefs/`):** `wt-1119-pub-c` (`pub-c.md`: /features as a catalogue of
+  the tour's real product screens, /about with the live figure behind each principle, the footer folded on phones on every
+  public page) and `wt-1119-pub-d` (`pub-d.md`: the four long article pages made scannable, every word kept). Then: read their
+  montages, merge, gate once with bdedd4781, look, push.
+- **Open, his to decide (unchanged):** Free per-chapter counts on Marks trend; two "day" rules side by side (Today, Progress);
+  Pro's usage line inside the closed "Everything in Pro" on the home card on phones; "See everything in Pro" beside
+  "Everything in Pro".
+- **Not done from the first prompt:** no generated art replaced the dropped 3D Mobi (nothing needed it yet); Mob, Explore, Saved,
+  Result, Colleges, Guide and the pricing page were looked at tonight at 390 and left as they are (they read well; Colleges and
+  Saved are the plainest).
+- Not checked: a physical phone, Safari (the pen needs CSS motion paths: Safari 16+; older shows the mark without the pencil),
+  any signed-in page on production (fixtures only).
+
 ## 18 Nov 2026, night: the section redesign is LIVE, about 7:42 pm (main c2f12abcd; rollback = 219551a16). One lane (Practice, Learn, You) RUNNING, not merged
 
 - His words: LK316 (6:15 pm: "get this all done, keep going until you match the requirements of my first prompt").
