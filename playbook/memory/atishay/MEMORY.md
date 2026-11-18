@@ -71,3 +71,5 @@
 - [Phone pass rules, 16 Nov](phone-pass-1116-rules.md) — 16 Nov evening: his verdict on the live landing on his phone; size and place by importance, nothing self-moving, no text walls, one left edge, back every claim; decide, don't ask
 - [Gate in wt-1116-next](gate-in-wt-1116-next.md) — 16 Nov: release gate runs in the worktree with real Next 16.3.8; lint 'rule not found' and Turbopack --use-system-ca traps; recapture the home element fixture
 - [No Fable when limited](no-fable-when-limited.md) — 17 Nov: Fable limit killed 3 lanes; owner: no Fable agents, use Opus or work in context; WIP-commit and stop the workflow before reset
+- [No subpar 3D, use image gen](no-subpar-3d-use-image-gen.md) — 18 Nov: hand-built 3D Mobi called "very bad" from working renders; use generated art; he watches working screenshots live
+- [Tangible doodle direction](tangible-doodle-direction.md) — 18 Nov: visible, characterful changes (pen circles and underlines on scroll, Duolingo-level streak and bars); brain notes at checkpoints under 5% of time
