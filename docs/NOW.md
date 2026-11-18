@@ -2,6 +2,34 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 18 Nov 2026, night: the section redesign is LIVE, about 7:42 pm (main c2f12abcd; rollback = 219551a16). One lane (Practice, Learn, You) RUNNING, not merged
+
+- His words: LK316 (6:15 pm: "get this all done, keep going until you match the requirements of my first prompt").
+- **LIVE (c2f12abcd), built by three Opus lanes to the main session's briefs (`wt-1110-convert/tmp/1118/briefs/R2-COMMON.md`,
+  `home-a.md`, `home-b.md`, `arena-a.md`), each with before-and-after montages at 390:**
+  - Home: the exam screen is a real readable question at phone scale (monitor kept on desktop); DU Compass is one card (score,
+    slider, "n of m cleared" re-inking, a pen tick per cleared college; Compass Pro one line plus a disclosure); DU courses
+    leads with the count and four quick-start keys (subject pickers behind a disclosure on phones); creators lead with the
+    three counts and reel cards show the creator's figure; pricing is one card (price, six desk objects, picker, the comparison
+    as one line, two disclosures) at 1,282 px on a 390 phone (was 2,442); FAQ rows 56 px, all closed; the closing card's Mobi
+    160 px; the footer's link groups fold on phones (691 px, was 1,089). Home page at 390: 21,762 px (was 23,865).
+  - Signed-in: Progress (streak Mobi, this week's bubbles, week marks, a four-figure record), Your standing (rank as the
+    largest figure, one ladder with the student's row and the points gap), Your papers (one repair bar), Wallet (what the
+    balance covers, as desk objects).
+  - Reviews (Opus xhigh) before merge: arena-a 5 fixes (tied totals named a place nobody holds; own row could show another
+    student's mocks; Wallet "covers" ignored set sizes; streak number shown twice; loading shift), home-b 3 fixes (disclosures
+    unreachable without script on older Safari and Firefox; a resize closing an opened disclosure; a placeholder band) and its
+    money words proved identical in 16 offer cases. home-a was reviewed by the main session from its montages only.
+  - Gate in `wt-1116-next` on c2f12abcd: 24 suites 0 failures (test:app 1,525), eslint clean, webpack and Turbopack 442 pages.
+    Live: 11 public pages 200; the whole page walked at 390 on www (28 screens, 0 page errors); nothing past the edge at 360;
+    deck 0 errors; 31 marks drew in Night; no runtime errors in the hour.
+- **RUNNING:** `wt-1119-arena-b` (brief `arena-b.md`): Practice as a ticket always in view, Learn's roadmap with chapter states,
+  You as one identity card. Then: independent review (it touches Practice's start), merge, gate once, look, push.
+- **Open, his to decide:** Progress shows the daily streak's Mobi beside study-day bubbles (two rules for "a day"; same question
+  as Today's two week rows); Pro's included usage line sits inside the closed "Everything in Pro" on the home card on phones;
+  Free per-chapter counts on Marks trend. At 360 the finished-weeks row on Progress scrolls sideways with the oldest half cut.
+- Not checked: a physical phone, Safari, any signed-in page on production (fixtures only).
+
 ## 18 Nov 2026, evening: fourth batch LIVE about 6:27 pm (main 219551a16; rollback = 747d26f3e, `dpl_3tT838tk5xEQDuJnaFRLoMZFeo7W`). Round 2 redesign lanes RUNNING, not merged, not live
 
 - His words: LK313-LK315 (2:55 pm: use the phone screen, larger mock-up screens, livelier doodles) and LK316 (6:15 pm: "get
