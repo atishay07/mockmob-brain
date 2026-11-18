@@ -4,19 +4,16 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-18T13:40:37.456832+00:00",
+  "last_active": "2026-11-18T13:51:07.033629+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "tmp/lane-tools/ha-probe.mjs",
-    "src/components/review/ReviewChapters.jsx",
     "tmp/lane-tools/hb-sec.mjs",
     "tmp/lane-tools/hb-stitch.py",
     "tmp/1118/tools/brain_release4.py",
     "src/components/landing/homeCopy.mjs",
-    "src/components/landing/Unfold.jsx",
     "src/components/landing/PlanValue.jsx",
     "src/components/landing/homeCopy.mjs",
     "src/components/landing/HomePricing.jsx",
@@ -24,9 +21,7 @@
     "tmp/lane-tools/ha-measure.mjs",
     "tmp/lane-tools/clicks-a.mjs",
     "tmp/lane-tools/ha-fit.mjs",
-    "src/app/r19-home-b.css",
     "src/app/r19-home-a.css",
-    "data/tests/pricing_value_1105.test.mjs",
     "tmp/lane-tools/hb-measure.mjs",
     "tmp/lane-tools/hb-taps.mjs",
     "tmp/lane-tools/ha-taps.mjs",
@@ -41,6 +36,9 @@
     "tmp/lane-tools/ha-ba.py",
     "data/tests/du_teaser_r6.test.mjs",
     "src/components/RhythmCard.jsx",
-    "src/app/(app)/progress/progress.css"
+    "src/app/(app)/progress/progress.css",
+    "src/components/landing/Unfold.jsx",
+    "data/tests/pricing_value_1105.test.mjs",
+    "src/app/r19-home-b.css"
   ]
 }
