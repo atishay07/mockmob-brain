@@ -1,0 +1,20 @@
+{
+  "id": "20261118T094145.258754Z-7823c794",
+  "observed_at": "2026-11-18T09:41:45.259754+00:00",
+  "agent": "codex",
+  "task": "18 Nov follow-up, code committed before release verification",
+  "status": "active",
+  "done": "Committed c6cd8f840. Deck gives the mobile preview the card's width and more height. Added scroll-linked ink, correct-answer feedback and settled figure re-inking. Updated seven public sections and the seven signed-in views without changing billing, scoring, or the owner's two open decisions.",
+  "next": "Read full gate status, try an offline Chrome render, verify any authorized live reads, and record what remains.",
+  "blockers": [],
+  "evidence": [
+    "wt-1110-convert commit c6cd8f840",
+    "wt-1110-convert/tmp/1118/tools/lk313-landing.log",
+    "wt-1116-next/tmp/lk313-gate.log"
+  ],
+  "touched_files": [],
+  "verification": "Release checkout detached at c6cd8f840. The MSYS executable is blocked on Windows; native PowerShell is running the same listed suites and both builds. Basic curl and Git remote DNS and Node loopback connections failed in this session.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
