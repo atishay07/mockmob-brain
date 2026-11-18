@@ -205,3 +205,6 @@ The owner's own words from prompts that set a standing rule. Newer decisions can
 
 - id: 3e77791216 | 2026-11-17 | claude | mockmob
   > Just make sure that you include everything that was there in my first prompt.
+
+- id: 23b695baf1 | 2026-11-18 | claude | mockmob
+  > Whatever you see, write and get this all done, keep going until you match the requirements of my first prompt.
