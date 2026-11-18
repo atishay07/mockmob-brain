@@ -1,0 +1,22 @@
+{
+  "id": "20261118T081148.593679Z-5b9d14d1",
+  "observed_at": "2026-11-18T08:11:48.593679+00:00",
+  "agent": "claude-fable-5.2 (orchestrator, 18 Nov rebuild)",
+  "task": "Owner's 18 Nov brief (LK302-LK312): premium rebuild of the website; first batch built, gate running",
+  "status": "active",
+  "done": "Branch web/1118-prod in wt-1110-convert (from main 04004f2b2), 5 commits: (1) \"More inside MockMob\" is a deck the scroll deals on every pointer (TourDeck.jsx, deckMotion.mjs, r18-tour-deck.css; held by ScrollStory; real 380 px swipes move one card each). (2) Doodle: a hand-drawn pen and highlighter layer (src/components/doodle: Doodle.jsx, doodlePaths.mjs, doodle.css; Marked helper) on 12 home headings, the statement's three accent words, the hero's \"One mock.\" (HeroMark) and the price hook; marks draw once when reached. (3) Sample card verdicts are pen ticks and red crosses. (4) Today's streak block: Mobi from the logo as the streak mark (asleep/lit), the number, a 7-day bubble strip, a bar for today's questions, one moment a day (Streak.jsx StreakMobi/WeekStrip, TodayStreak.jsx, streakCopy todayProgress). (5) tests + pins + home element fixture. Owner's words whole in OWNER-MASTER-LEDGER LK302-LK312; NOW.md has an 18 Nov section. Dropped: hand-built real-time 3D Mobi (owner saw renders, \"very bad\"); nothing shipped from it.",
+  "next": "Read wt-1116-next/tmp/gate2.log when DONE (24 suites, eslint, webpack + Turbopack builds); if clean push web/1118-prod to main and run live checks. Three Opus lanes still running in wt-1118-palette (Search), wt-1118-insight (Marks trend desk), wt-1118-runner (keys + cross-out): each needs an independent Opus xhigh review, merge, gate, ship as a second release. Then: more of the owner's direction (LK307-LK309): streak mark on the top-bar chip and You, bars and icons across the arena, more doodle moments, hero on phones. Update UI-AUDIT-LOG.md and NOW.md at the end.",
+  "blockers": [
+    "5-hour usage window at about 45 percent at 1:50 pm IST; resets about 5:40 pm IST"
+  ],
+  "evidence": [
+    "C:/Users/atish/Desktop/mockmob copy/wt-1110-convert/tmp/1118/tools/shots (deck-swipes.jpg, marks-night.jpg, marks-desk.jpg, streak-night.jpg, s1, m1)",
+    "C:/Users/atish/Desktop/mockmob copy/wt-1110-convert/tmp/1118/briefs",
+    "C:/Users/atish/mockmob-brain/docs/NOW.md"
+  ],
+  "touched_files": [],
+  "verification": "test:app 1390 tests 0 fail after pin updates, plus 32 new tests pass; streak_1117 27 pass; eslint clean on changed files; seen at 390 Day and Night, 1440 Day (home marks, deck), streak block in six fixture states at 390 Day and two at 1440 Night; 8 real touch swipes through the deck, 0 page errors. NOT yet: full gate result, production.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
