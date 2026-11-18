@@ -2,6 +2,25 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 18 Nov 2026, evening: fourth batch LIVE about 6:27 pm (main 219551a16; rollback = 747d26f3e, `dpl_3tT838tk5xEQDuJnaFRLoMZFeo7W`). Round 2 redesign lanes RUNNING, not merged, not live
+
+- His words: LK313-LK315 (2:55 pm: use the phone screen, larger mock-up screens, livelier doodles) and LK316 (6:15 pm: "get
+  this all done, keep going until you match the requirements of my first prompt").
+- **LIVE (219551a16):** the Codex session's work (7eb3388bc, 6ee99ef37, 04a5155fa), reviewed here in a browser: the tour's
+  product screens fill the phone card (Practice screen 340 x 498 px at 390, fit 0.937, was 308 x 358 at 0.734); the Lab
+  heading's pen follows the scroll; the Compass score and pricing total re-ink; small bars on Practice, Your papers, Wallet,
+  Your standing. Plus one fix of mine: Learn showed "6 of 11 done" twice. The older sections still look almost as before.
+  Gate in `wt-1116-next` on 219551a16: 24 suites 0 failures (test:app 1,508), eslint clean, webpack and Turbopack 442 pages.
+  Live: 10 public pages 200; deck at 390 and 360 on www with 0 errors and no overflow; 20 marks drew; no runtime errors.
+- **RUNNING (Opus high, briefs in `wt-1110-convert/tmp/1118/briefs/`: `R2-COMMON.md`, `home-a.md`, `home-b.md`, `arena-a.md`):**
+  `wt-1119-home-a` (exam screen readable in place, DU Compass as one card, DU courses answer first), `wt-1119-home-b`
+  (pricing in one card at half the height, creators, FAQ, close, footer), `wt-1119-arena-a` (Progress, Your standing as a
+  ladder, Your papers summary, Wallet). Each must show a before-and-after montage at 390. Then: independent review for the
+  money lane (home-b) and the data lane (arena-a), merge (union of `package.json` test:app and `HOME_SHEETS`), regenerate
+  `home-sheets.css`, recapture `home-elements.json`, landing tests, full gate once, look, push.
+- Still open after that: Practice, Learn, You; generated art; the two owner decisions (Free per-chapter counts on Marks trend;
+  two week rows on Today).
+
 ## 18 Nov 2026, 12:45 to 2:45 pm IST: the premium rebuild. Three batches LIVE; live is main 747d26f3e (`dpl_3tT838tk5xEQDuJnaFRLoMZFeo7W`, about 2:43 pm; rollback `dpl_CxeSpRJtpzhppNL2KJPxX6RnwXR5` = fe0dfe8a7, before that `dpl_HxZKQinitYWbrxo6pxhnKK57AHyt` = 3ee7bca5e, `dpl_5x5GMJvvQhDD6rzvw5mEKUWaS9Yu` = 04004f2b2)
 
 - **LIVE, third batch (747d26f3e, about 2:43 pm):** Marks trend as an analysis desk (Your chapters, Your pace for Pro, Where

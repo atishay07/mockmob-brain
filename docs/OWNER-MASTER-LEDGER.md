@@ -1206,3 +1206,6 @@ How it was read (mine, not his): "the WhatsApp-side mockup screen" is the "what'
 | OPEN 18 Nov | **LK313** On the phone there is still blank space; the mock-up screens in "More inside MockMob" are "very small". Make the graphic and its animation larger and use the screen. The sliding-up animation is good. |
 | OPEN 18 Nov | **LK314** The doodles "look good"; some can be more animated; think that through further. |
 | DONE 18 Nov | **LK315** A prompt and handoff for the next session (he continues in ChatGPT): `PROMPT-NEXT-SESSION-2026-11-18.md`. |
+| LIVE 18 Nov about 6:27 pm (main 219551a16): the tour's screens fill the phone card; the rest of LK313 (other sections) is in the round 2 lanes | **LK313 outcome** |
+| PART LIVE 18 Nov about 6:27 pm (main 219551a16): the Lab heading's pen follows the scroll; figures re-ink | **LK314 outcome** |
+| STANDING 18 Nov about 6:15 pm | **LK316** His words: "Basically, ask me to implement all the changes. Whatever you see, write and get this all done, keep going until you match the requirements of my first prompt." Read as: implement everything that is left myself, without stopping, until the first prompt (LK302, LK303) is met. |
