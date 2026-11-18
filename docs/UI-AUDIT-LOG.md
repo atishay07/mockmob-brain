@@ -175,6 +175,42 @@ Night; NTA mode in the runner fixture (`wt-1117-nta/tmp/lane-tools/nta-walk.mjs`
 Not looked at: a physical phone, iPhone Safari, Night at 1440 for the new blocks, the daily board with many players on screen
 (fixture states tested in code only), a screen reader.
 
+### 2f. Home page and arena, the 18 Nov rebuild (web/1118-prod; owner LK302-LK312)
+
+Looked at (18 Nov, about 12:50 to 2:10 pm, local webpack dev server): the whole home page at 390x844 Day and 1440x900 Day before
+any change (contact sheets `wt-1110-convert/tmp/1110-app/shots/r18a/sheets`), every signed-in view at 390 Day and 1440 Day
+(`shots/r18arena`). Then each change as it was built. Tools added in `wt-1110-convert/tmp/1118/tools` (Git Bash, from that
+folder): `deck.mjs <label> <WxH> <theme>` (the tour deck at each rest and two mid-deal frames), `marks.mjs <label> <WxH> <theme>`
+(scrolls like a reader and shoots every pen mark once drawn), `drill.mjs` (answers the sample card), `lab.mjs` (three Lab scenes
+after the pen has marked them), `streak.mjs <label> <WxH> <theme> [states]` (Today's streak block cropped, per fixture state),
+`sheet_any.py <dir> <thumb w> <per row>` (contact sheets of any folder).
+
+| Thing | State | Notes |
+|---|---|---|
+| "More inside MockMob" (LK304) | **Rebuilt, seen** | One deck the scroll deals, on every pointer (`TourDeck.jsx`, `deckMotion.mjs`, `r18-tour-deck.css`): held by ScrollStory like the Lab; five still tabs whose mark slides with the scroll; the card on show on top, passed tools as edges above it, the next card rising from the pile's foot as the page scrolls; each tool's demo plays once as its card comes on. Eight real 380 px finger swipes moved exactly one card each (scrollY 7574, 8219, 8865, 9511, 10156), 0 page errors. Seen at 390 Day, 1440 Day. `FeatureTour.jsx` and `r16-tour-stack.css` are no longer rendered (kept in the repository; tests now pin `TourDeck`). |
+| The pen and the highlighter (LK308) | **New, seen** | `src/components/doodle` (`Doodle.jsx`, `doodlePaths.mjs`, `doodle.css`; `Marked` wraps a phrase of a copy string). Every mark is generated for its words' own box (never a stretched template), seeded by the words, drawn once when the words are 20% clear of the screen's foot. On the home page: "One mock." (highlighter, `HeroMark`, after the opening), the price figure (circle), 11 section headings (one mark each), the statement's three accent words, the sample card's verdicts (tick, red cross), three Lab screens (the worst chapter's marks, the net effect, the first plan line). On the result page: an underline under the costliest chapter when its name is 20 characters or fewer. Seen at 390 Day and Night, 1440 Day. A marked phrase never wraps (`white-space: nowrap`): keep marked phrases to three words. |
+| Today's streak block (LK309) | **Rebuilt, seen** | `StreakMobi` (the logo's Mobi: an outline with shut eyes until today counts, volt with open eyes once it does), the number beside him, `WeekStrip` (the seven bubbles, moved up from the sheet), a segmented bar of today's answers (`todayProgress`, the server's own figures; the make-up's 10 when a day is open), then the status line, the passes and the door to the sheet. One moment a day when today first shows counted (Mobi wakes, the number rolls, today's bubble lands); none under Celebrations Off or Reduce motion. Six fixture states at 390 Day, two at 1440 Night. The top-bar chip (640 px and up) wears the same Mobi. The block is about 100 px taller than before (393 to 501 px at 390). |
+| Everything else on the home page and in the arena | Seen, not changed | The arena's content column, rail and pages as section 3 says. |
+
+Traps found:
+- **Two files in one folder that differ only by case or by extension stem resolve wrongly on Windows** (`TourDeck.jsx` beside
+  `tourDeck.mjs`: the import of the component got the module). The dev server also keeps the wrong answer until `.next-dev` is
+  deleted and the server restarted.
+- **A Blender render path that is relative lands in `C:\tmp`**, not the working folder: pass an absolute path.
+- **A gate started with `( ... & )` inside a Bash tool call keeps running after the call returns** even though `ps` in Git Bash
+  does not list it; starting a second one runs two builds in one folder. Start the gate once, with the tool's own background
+  mode, and check `Get-CimInstance Win32_Process` for `gate2.sh` before starting another.
+- Landing tests outside the gate's named suites pin `page.js` lines (`landing_checklist_1104`, `homeHero`, `hero_film_r7`,
+  `du_teaser_r6`, `brand_r3_1105`, `pricing_value_1105`, `landingPosition`, `tourTaps`): run
+  `node --test src/components/landing/*.test.mjs data/tests/landing_checklist_1104.test.mjs` after changing a heading's markup.
+
+Not looked at: a physical phone, iPhone Safari, tablet widths, a screen reader, the deck under a slow phone CPU, Night at 1440
+for the deck.
+
+Tried and dropped: a real-time 3D Mobi (a Blender script to a compact mesh for a hand-written WebGL renderer). The owner saw
+the working renders and called them "very bad" against the generated Mobi art already on the site (LK311). Nothing shipped;
+the script is in `wt-1110-convert/tmp/1118/mobi3d/src` only. Mobi art comes from the existing stills or the image generator.
+
 ---
 
 ## 3. Signed-in website (the arena)
@@ -313,3 +349,4 @@ Owner constraints that bound all of this: refine, do not rebuild (rejected restr
 - 16 Nov 2026: section 3c added (the Daily Five pages, the week's pages, the merged wave).
 - 16 Nov 2026, evening: section 2c (round 16, the phone pass after the owner's look at the live site).
 - 17 Nov 2026: section 2d (the merged night lanes, the companion and DU head fixes) and the Ask Mobi chat note in section 3.
+- 18 Nov 2026: section 2f (the rebuild: the tour as a deck the scroll deals, the pen and the highlighter, Today's streak block; the dropped 3D Mobi; four traps).
