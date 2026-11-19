@@ -4,16 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-19T21:01:54.288374+00:00",
+  "last_active": "2026-11-19T21:15:06.148853+00:00",
   "repo": "mockmob",
   "branch": "web/1118-prod",
   "cwd_name": "wt-1110-convert",
   "task": "",
   "touched": [
-    "tmp/1120-speed/chromebook.mjs",
-    "tmp/1120-speed/mobi/press.mjs",
-    "tmp/1120-speed/levels/levels.mjs",
-    "tmp/1120-speed/film_edit.py",
     "src/lib/search/searchModel.mjs",
     "src/lib/search/searchSources.mjs",
     "tmp/1120-speed/film_test_edit.py",
@@ -32,8 +28,6 @@
     "src/components/landing/DesktopCursor.jsx",
     "tmp/1120-speed/snap_css_edit.py",
     "tmp/1120-speed/levels/errs.mjs",
-    "src/components/ai/AskMobiPanel.jsx",
-    "src/components/ai/MentorRecordPage.jsx",
     "src/components/search/SearchButtons.jsx",
     "tmp/1120-speed/lite_edit.py",
     "src/components/ai/mobi-launch.css",
@@ -57,7 +51,14 @@
     "src/components/landing/landingMobi.test.mjs",
     "src/components/ai/AssistantDrawer.jsx",
     "src/app/(app)/analytics/analytics.css",
+    "src/components/ai/AskMobiLauncher.jsx",
+    "src/app/(app)/dashboard/practice.css",
+    "src/components/ai/askMobiLauncher.test.mjs",
+    "data/tests/ask_mobi_panel.test.mjs",
     "src/components/profile/account.css",
-    "src/components/ai/AskMobiLauncher.jsx"
+    "tmp/1120-speed/mobi/extra.mjs",
+    "src/components/ai/AskMobiPanel.jsx",
+    "src/components/ai/MentorRecordPage.jsx",
+    "tmp/1120-speed/commit-msg.txt"
   ]
 }
