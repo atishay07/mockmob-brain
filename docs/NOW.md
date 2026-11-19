@@ -2,6 +2,23 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 19 Nov 2026, 7:45 pm IST: LIVE = main c22456209 (desktop pointer layer, scroll depth, marks clear of their neighbours); rollback = 23432d0e7 (then ef915b1f9, b941dc2dd, 64efe70d8). The DESKTOP pass (LK333-LK336) continues: he said "Yes, continue" at about 7:14 pm
+
+- **Read `wt-1110-convert/tmp/1119-phone/STATE.md` first** (the log of the day, the tools, what is next).
+- Live for a mouse or trackpad only (nothing on touch, nothing with reduced motion): the ring closes to a volt dot and the
+  action's name rides beside the arrow (Play or Pause on the film, Turn on the key card, Drag on the Compass slider, Watch on
+  a reel, Open on a subject object); primary keys lean up to 7 px toward the arrow; the hero film and the exam monitor turn
+  up to 4.5 degrees to face it; a faint light lies on the paper under it; the ring stretches along a scroll. Component
+  `src/components/landing/DesktopCursor.jsx`; targets carry `data-cursor` and `data-tilt`.
+- Desktop scroll depth: the picture of the Key cards, Ask Mobi and exam sections drifts 40 px against its words (CSS view
+  timeline, no script). The wheel walk stays 0 stuck, 0 jumps.
+- Marks at 1440: each photographed and measured (`tmp/1119-phone/marks.mjs`). Fixed: the statement's comma wrapped alone
+  after the circled "where"; loops and the highlighter touched the next word. Every mark now measures 0 px into a neighbour.
+- Checked in headless Chrome only (a scripted mouse). NOT checked with a real mouse, in Safari or Firefox (Firefox has no
+  view timelines, so it gets no scroll depth; everything else works there in principle, unverified).
+- Still open on desktop: the signed-in pages at 1440 (Today's two columns, about 230 px empty right of the 960 px column);
+  his own look with a real mouse.
+
 ## 19 Nov 2026, 5:08 pm IST: LIVE = main 23432d0e7 (desktop: wheel flows, circle mark, even gaps, cursor ring); rollback = ef915b1f9, then b941dc2dd, 64efe70d8. Nothing is waiting unpushed. The DESKTOP pass (LK333-LK336) has only begun
 
 - 4:54 pm ef915b1f9 (the four widest desktop gaps 193-277 px brought to 142-157 px); 5:06 pm 23432d0e7 (`DesktopCursor.jsx`: a ring that trails a mouse pointer, opens over anything pressable, one ring out on a click; fine pointer only). Each passed the full gate. Live wheel walk at 1440: 0 stuck, 0 jumps.
