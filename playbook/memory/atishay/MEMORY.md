@@ -75,3 +75,4 @@
 - [Tangible doodle direction](tangible-doodle-direction.md) — 18 Nov: visible, characterful changes (pen circles and underlines on scroll, Duolingo-level streak and bars); brain notes at checkpoints under 5% of time
 - [Pre-gate checks](pre-gate-checks.md) — 18 Nov: run test:app and landing_checklist_1104 by hand before the gate; lanes only run their named suites (G26 slip, L-040 slip)
 - [Desktop separate and richer](desktop-separate-and-richer.md) — 19 Nov: desktop judged buggier than phone; walk 1440 with a real wheel; richer cursor/scroll/click motion on desktop
+- [Percent from a counted list](percent-from-a-counted-list.md) — 19 Nov: no round "85%"; count his items done and verified over total, show the list with the number
