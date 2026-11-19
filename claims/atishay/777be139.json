@@ -4,16 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-19T20:30:32.484596+00:00",
+  "last_active": "2026-11-19T20:41:13.771138+00:00",
   "repo": "mockmob",
   "branch": "web/1118-prod",
   "cwd_name": "wt-1110-convert",
   "task": "",
   "touched": [
-    "src/lib/search/searchSources.mjs",
-    "src/components/search/SearchButtons.jsx",
-    "src/components/search/SearchHost.jsx",
-    "src/components/search/SearchPalette.jsx",
     "src/components/search/search.css",
     "src/components/learn2/home/LearnHome.jsx",
     "tmp/1119-phone/mobieyes.mjs",
@@ -55,6 +51,10 @@
     "tmp/1119-phone/pkg_add.py",
     "tmp/1119-phone/commit-msg6.txt",
     "tmp/1119-phone/commit-msg7.txt",
-    "tmp/1119-phone/picture.py"
+    "tmp/1119-phone/picture.py",
+    "tmp/1120-speed/chromebook.mjs",
+    "tmp/1120-speed/mobi/press.mjs",
+    "tmp/1120-speed/levels/levels.mjs",
+    "tmp/1120-speed/search/search.mjs"
   ]
 }
