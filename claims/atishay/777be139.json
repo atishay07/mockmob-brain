@@ -4,15 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-19T10:00:31.648555+00:00",
+  "last_active": "2026-11-19T10:13:56.280942+00:00",
   "repo": "mockmob",
   "branch": "HEAD",
   "cwd_name": "wt-1116-next",
   "task": "",
   "touched": [
-    "src/components/doodle/doodle.css",
-    "tmp/1119-phone/doodle_tests.py",
-    "tmp/lane-tools/gaps.mjs",
     "tmp/1119-phone/perf_edits1.py",
     "tmp/1119-phone/later.py",
     "tmp/1119-phone/opening.py",
@@ -59,6 +56,9 @@
     "tmp/1119-phone/loaf.mjs",
     "tmp/1119-phone/cpu2.mjs",
     "tmp/1119-phone/cpu3.mjs",
-    "tmp/1119-phone/task.mjs"
+    "tmp/1119-phone/task.mjs",
+    "tmp/1119-phone/authstore.py",
+    "tmp/1119-phone/authsim.mjs",
+    "tmp/1119-phone/owl.py"
   ]
 }
