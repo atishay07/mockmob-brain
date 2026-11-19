@@ -2,7 +2,7 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
-## 19 Nov 2026, 7:57 pm IST: LIVE = main ce131e9b7 (desktop: pointer layer, scroll depth, marks, sticky cards, Today at 1120 px, hover answers); rollback = c22456209, then 23432d0e7. Batch 3 (04ebba139: torch off over pictures, loop room on phones) is in the gate, NOT live. The DESKTOP pass (LK333-LK336) continues: he said "Yes, continue" at about 7:14 pm
+## 19 Nov 2026, 8:31 pm IST: LIVE = main ddecb3941 (desktop: pointer layer, scroll depth, marks, sticky cards, Today at 1120 px, hover answers); rollback chain = 04ebba139, ce131e9b7, c22456209, 23432d0e7. Nothing is waiting unpushed. Waiting for HIS look with a real mouse
 
 - **Read `wt-1110-convert/tmp/1119-phone/STATE.md` first** (the log of the day, the tools, what is next).
 - Live for a mouse or trackpad only (nothing on touch, nothing with reduced motion): the ring closes to a volt dot and the
@@ -22,6 +22,10 @@
 - Measured on live after both: wheel walk 0 stuck, 0 jumps; every mark 0 px into a neighbour; a sweep of the page at 1440 in
   Day and Night found no console error, sideways overflow or clipped text (`tmp/1119-phone/sweep.mjs`); the pointer layer
   costs 1 frame over 20 ms in 600 while the mouse sweeps the hero (`ptrperf.mjs`).
+- Third and fourth batches: 8:17 pm 04ebba139 (the torch goes out over films, photographs and screens; a looped word keeps
+  room on phones too) and 8:31 pm ddecb3941 (the ring re-aims after the page scrolls under a resting mouse: it kept the state
+  of what had scrolled away; a loop is 0.17 of the type size wider than its word, so it clears the word's own last letter).
+  Verified on live at 8:35 pm: `reaim.mjs` correct, wheel 0 stuck 0 jumps, marks clear, sweep clean, 10 public pages 200.
 - Decisions that are his: the torch (a faint light under the arrow) is a decorative glow, which his UI standards normally
   refuse; it is there because he asked for more on desktop, and one line removes it. The pointer layer is on the home page
   only; the other public pages have none yet (waiting for his look with a real mouse before spreading it).
