@@ -4,13 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-19T07:22:19.370770+00:00",
+  "last_active": "2026-11-19T07:51:47.527644+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "src/components/learn2/home/homeModel.mjs",
     "src/components/learn2/home/ChapterMap.jsx",
     "src/app/(app)/dashboard/practice.css",
     "src/app/(app)/dashboard/DashboardPageClient.jsx",
@@ -53,6 +52,7 @@
     "tmp/1118/tools/tick.mjs",
     "tmp/1118/tools/penoff.py",
     "tmp/1118/tools/brain_feedback.py",
-    "tmp/1118/tools/brain_release8.py"
+    "tmp/1118/tools/brain_release8.py",
+    "tmp/1119-phone/perf2.mjs"
   ]
 }
