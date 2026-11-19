@@ -1,0 +1,23 @@
+{
+  "id": "20261119T074611.567927Z-d72b51b5",
+  "observed_at": "2026-11-19T07:46:11.568927+00:00",
+  "agent": "Codex",
+  "task": "19 Nov phone feedback LK317–330, paused at owner's request",
+  "status": "paused",
+  "done": "Uncommitted phone pass in wt-1110-convert on web/1118-prod at 10f38a04f. Implemented provisional home changes and Practice changes, compared historical screenshots, attempted browser walks and preflight.",
+  "next": "Read wt-1110-convert/tmp/1119-phone/CLAUDE-HANDOFF.md, preserve dirty tree, measure baseline and candidate, resolve remaining verification and spacing, fix preflight, then gate and deploy.",
+  "blockers": [
+    "Owner requested stop at 10% usage remaining.",
+    "No accepted performance trace; incomplete fixture QA; app and landing checklist failures. Git Bash startup and webpack had Windows permission errors here."
+  ],
+  "evidence": [
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1119-phone\\CLAUDE-HANDOFF.md",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1119-phone\\preflight.log",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1119-phone\\checklist.log"
+  ],
+  "touched_files": [],
+  "verification": "Vercel latest ready production a5b4f08f8; nothing deployed. Six failing app tests and two landing checklist failures; unfinished Chromium walk. No production sign-ins or paid calls.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
