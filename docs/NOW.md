@@ -2,7 +2,7 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
-## 19 Nov 2026, 7:45 pm IST: LIVE = main c22456209 (desktop pointer layer, scroll depth, marks clear of their neighbours); rollback = 23432d0e7 (then ef915b1f9, b941dc2dd, 64efe70d8). The DESKTOP pass (LK333-LK336) continues: he said "Yes, continue" at about 7:14 pm
+## 19 Nov 2026, 7:57 pm IST: LIVE = main ce131e9b7 (desktop: pointer layer, scroll depth, marks, sticky cards, Today at 1120 px, hover answers); rollback = c22456209, then 23432d0e7. Batch 3 (04ebba139: torch off over pictures, loop room on phones) is in the gate, NOT live. The DESKTOP pass (LK333-LK336) continues: he said "Yes, continue" at about 7:14 pm
 
 - **Read `wt-1110-convert/tmp/1119-phone/STATE.md` first** (the log of the day, the tools, what is next).
 - Live for a mouse or trackpad only (nothing on touch, nothing with reduced motion): the ring closes to a volt dot and the
@@ -16,8 +16,16 @@
   after the circled "where"; loops and the highlighter touched the next word. Every mark now measures 0 px into a neighbour.
 - Checked in headless Chrome only (a scripted mouse). NOT checked with a real mouse, in Safari or Firefox (Firefox has no
   view timelines, so it gets no scroll depth; everything else works there in principle, unverified).
-- Still open on desktop: the signed-in pages at 1440 (Today's two columns, about 230 px empty right of the 960 px column);
-  his own look with a real mouse.
+- Second batch, live 7:57 pm (main ce131e9b7): in Key cards and Ask Mobi the card is sticky in its column (from 1100 px wide
+  and 780 px tall), so the blank paper under it is gone; signed-in Today takes 1120 px from 1360 px (it stopped at 960 and left
+  about 210 px empty at 1440); the tour's and the exam screen's keys answer a hover; reel cards tilt.
+- Measured on live after both: wheel walk 0 stuck, 0 jumps; every mark 0 px into a neighbour; a sweep of the page at 1440 in
+  Day and Night found no console error, sideways overflow or clipped text (`tmp/1119-phone/sweep.mjs`); the pointer layer
+  costs 1 frame over 20 ms in 600 while the mouse sweeps the hero (`ptrperf.mjs`).
+- Decisions that are his: the torch (a faint light under the arrow) is a decorative glow, which his UI standards normally
+  refuse; it is there because he asked for more on desktop, and one line removes it. The pointer layer is on the home page
+  only; the other public pages have none yet (waiting for his look with a real mouse before spreading it).
+- Still open on desktop: his own look with a real mouse; Safari and Firefox unchecked; the other signed-in pages at 1440.
 
 ## 19 Nov 2026, 5:08 pm IST: LIVE = main 23432d0e7 (desktop: wheel flows, circle mark, even gaps, cursor ring); rollback = ef915b1f9, then b941dc2dd, 64efe70d8. Nothing is waiting unpushed. The DESKTOP pass (LK333-LK336) has only begun
 
