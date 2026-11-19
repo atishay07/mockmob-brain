@@ -2,6 +2,18 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 19 Nov 2026, about 4:35 pm IST: the phone pass (LK317-LK330) is BUILT on `web/1118-prod`, being measured; NOT gated, NOT live (production is still main a5b4f08f8)
+
+- His words today (about 1:15 pm): GPT ran 10 to 15 minutes and stopped at its usage limit; "check how much it has done, what all
+  is left, and go back to my first original prompt, achieving 100% completion and even beyond my expectations".
+- **Read `wt-1110-convert/tmp/1119-phone/STATE.md` first**: what is done per ledger item, the measured frame numbers, the tools,
+  and the exact steps left before the release (merge lane `web/1120-arena-d`, reserved heights, final look, tests, gate, push).
+- What Codex left (commit 8df7f7a82, kept): drafts of all ten items, none looked at in a browser; its hero-film change (no
+  autoplay) was not asked for and was taken back; its Practice patch was replaced by restoring c2f12abcd whole.
+- The finding that matters beyond today: **`:has()` with an attribute or pseudo-class inside, or a "no" answer on html/body,
+  makes the browser rescan the page on every DOM change** (3.2 ms per change on a fast PC on the home page; 0.003 ms without).
+  Fixed on the home page; the signed-in site still has many (`grep ':has(' src/components`).
+
 ## 18 Nov 2026, about 10:15 pm: HIS VERDICT on today's rebuild (LK317-LK330). Building here has STOPPED; the next session starts from `PROMPT-NEXT-SESSION-2026-11-18-B.md`
 
 - **Read first:** ledger rows LK317 to LK330 (his words, verbatim, each with a reading) and `docs/PROMPT-NEXT-SESSION-2026-11-18-B.md`
