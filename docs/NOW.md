@@ -2,6 +2,21 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 19 Nov 2026, 4:43 pm IST: LIVE = main b941dc2dd (desktop wheel and circle mark); rollback = 64efe70d8. In the gate: ef915b1f9 (desktop gaps). The DESKTOP pass (LK333-LK336) has only begun
+
+- Today's releases: 3:18 pm e8a2d917d (phone pass LK317-LK328); 4:15 pm 64efe70d8 (the session store and the `> * + *` rules:
+  the 0.6 s freeze after load is gone on live); 4:43 pm b941dc2dd (the mouse wheel scrolls the Mistake Lab and the tour
+  natively: 0 stuck notches, 0 jumps, was 24 of 40 stuck; a step costs 0.62 beat on a mouse; circle marks clear the next word).
+- His words at about 4:20 pm (ledger LK332-LK336): the pricing adds-up is what he likes; desktop "should be way more impressive
+  than the mobile side, which it is not yet ... cursor animations, animating cursors, scrolls, and clicks"; desktop scroll
+  "stuck or very jumpy"; treat phone and desktop as separate optimisations; marks overlap letters; too much white space on
+  desktop; "keep going" until I call it perfect; stop only above 95% usage.
+- NOT started for desktop: a cursor layer and click feedback (fine pointer only), a richer desktop hero and scroll effects, a
+  check of every mark at 1440, the signed-in pages at 1440 (Today's two columns, the empty right side), the `:has()` cure on
+  the signed-in site. Tools: `tmp/1119-phone/wheel.mjs`, `wheelsteps.mjs`, `gaps.mjs` (desktop), plus the phone ones.
+- A rare flake, not ours: `billing_monthly_webhook.test.mjs` "payment.captured after subscription.charged ..." failed once in a
+  gate (the test builds two entities from the clock a few ms apart); 29 solo runs pass, no billing code changed. For the CTO.
+
 ## 19 Nov 2026, 3:18 pm IST: the phone pass (LK317-LK328) is LIVE: main e8a2d917d (`dpl_APnzH2ATvD7jfccEWU1gJah5RdV1`); rollback = a5b4f08f8 (`dpl_Dp4t4tomaTauyWZopYA6CfYAmrEo`). A second smoothness fix is committed on `web/1118-prod` (f86083631), being measured: NOT gated, NOT live
 
 - His words today (about 1:15 pm): GPT ran 10 to 15 minutes and stopped at its usage limit; "check how much it has done, what all
