@@ -18,3 +18,5 @@ Owner, 15 Oct 2026, after reviewing website v2 on the local server (he called it
 - **Act as the CTO:** keep progressing on your own and keep fixing small details (small logos, easing, horizontal scroll that doesn't work on desktop) until it is truly refined. He authorised deploying the landing once I am satisfied with it myself.
 
 **How to apply:** design and check every landing change at phone width first (390x844), then desktop. Check the arena at both sizes. Never leave a desktop-only effect that degrades on phones. See [[web-restructure-rejected]], [[features-over-retesting]], [[mockmob-design-direction]].
+
+**20 Nov 2026, about 2:40 am (ledger LK358), restated while he was testing on a desktop:** "the landing page will be almost 100% mobile" (people arrive from Instagram ads on a phone); the signed-in platform "could be a majority desktop". Do not spend long on fine desktop details of the landing; desktop improvements go to the platform. Measure landing speed on the phone profile first. Also LK353 (same night): the speed yardstick is a cheap Rs 15,000 Chromebook or phone, measured with a slowed processor, never a fast laptop.
