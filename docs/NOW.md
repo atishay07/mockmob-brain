@@ -2,7 +2,9 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
-## 19 Nov 2026, 4:43 pm IST: LIVE = main b941dc2dd (desktop wheel and circle mark); rollback = 64efe70d8. In the gate: ef915b1f9 (desktop gaps). The DESKTOP pass (LK333-LK336) has only begun
+## 19 Nov 2026, 5:08 pm IST: LIVE = main 23432d0e7 (desktop: wheel flows, circle mark, even gaps, cursor ring); rollback = ef915b1f9, then b941dc2dd, 64efe70d8. Nothing is waiting unpushed. The DESKTOP pass (LK333-LK336) has only begun
+
+- 4:54 pm ef915b1f9 (the four widest desktop gaps 193-277 px brought to 142-157 px); 5:06 pm 23432d0e7 (`DesktopCursor.jsx`: a ring that trails a mouse pointer, opens over anything pressable, one ring out on a click; fine pointer only). Each passed the full gate. Live wheel walk at 1440: 0 stuck, 0 jumps.
 
 - Today's releases: 3:18 pm e8a2d917d (phone pass LK317-LK328); 4:15 pm 64efe70d8 (the session store and the `> * + *` rules:
   the 0.6 s freeze after load is gone on live); 4:43 pm b941dc2dd (the mouse wheel scrolls the Mistake Lab and the tour
