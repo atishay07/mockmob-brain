@@ -4,18 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-19T08:59:15.849945+00:00",
+  "last_active": "2026-11-19T09:12:45.836224+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "tmp/1118/tools/brain_feedback.py",
-    "tmp/1118/tools/brain_release8.py",
-    "tmp/1119-phone/perf2.mjs",
-    "tmp/1119-phone/trace1.mjs",
-    "tmp/1119-phone/fix_arena_b_test.py",
-    "tmp/1118/briefs/R3-COMMON.md",
     "tmp/1118/briefs/arena-d.md",
     "tmp/1118/briefs/home-c.md",
     "tmp/lane-tools/full.mjs",
@@ -59,6 +53,12 @@
     "tmp/1119-phone/hascost.mjs",
     "tmp/1119-phone/hasbisect.mjs",
     "tmp/1119-phone/has_edits.py",
-    "tmp/1119-phone/has_edits2.py"
+    "tmp/1119-phone/has_edits2.py",
+    "tmp/1119-phone/opening_perf.py",
+    "tmp/1119-phone/opening_perf2.py",
+    "tmp/1119-phone/opening_perf3.py",
+    "tmp/1119-phone/STATE.md",
+    "tmp/1119-phone/now1.py",
+    "tmp/1119-phone/heights.mjs"
   ]
 }
