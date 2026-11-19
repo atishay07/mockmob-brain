@@ -2,6 +2,31 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 20 Nov 2026, 3:15 am IST: LIVE = main 46b3cc8b2 (speed pass, the snap on the key itself, Today levelled, Search by Shift twice, Ask Mobi as a bottom chat box); rollback chain = 6da135beb, 2e7430340. Nothing unpushed
+
+- His feedback of about 2 am is in the ledger verbatim, LK352 to LK358. Standing: the speed yardstick is a cheap Chromebook or
+  phone, measured with the processor slowed 6x (LK353); the landing is phone-first, desktop effort goes to the platform (LK358).
+- Speed causes found and cured (tools in `wt-1110-convert/tmp/1120-speed/`: `chromebook.mjs`, `tracedesk.mjs`, `cpudesk.mjs`,
+  `layers.mjs`; phone: `tmp/1119-phone/perf2.mjs`):
+  - `HeroFilm.jsx` wrote `--p` on its whole chapters bar every animation frame while the film played (about 60 elements
+    restyled 60 times a second at rest, on phones too). Now on the film's own time updates, on the one segment.
+  - `PipGuide.jsx` (desktop) asked seats in undrawn sections for a box, for visibility and for animations: each lays the whole
+    section out (a stall of about a second at 6x). Now judged from the section's own box (`farOff`).
+  - `DesktopCursor.jsx`: four hit tests a frame became one about sixteen times a second; nothing read per frame.
+  - `html[data-lite]` (inline script in `src/app/layout.js`; `mm:lite:v1` forces it): no blur, no pointer layer, no drift.
+  - `AssetWarm.jsx`: lazy pictures fetched ahead in idle time. A blocking loading screen (LK354) was weighed and not built.
+- Measured on live at 6x, before (2e7430340) and after: phone scroll 41.9 to 72.4 frames a second, frames over 50 ms 171 to
+  41; first 6 s 22 to 43 frames a second; desktop pointer frames over 34 ms 22 of 218 to 0 of 434; desktop load blocked time
+  2,452 to 1,753 ms (worst task 814 to 511 ms). Desktop scroll is NOT better (frames over 34 ms 199 of 756 to 185 of 783): the
+  cost there is drawing each section the first time, still open.
+- Signed-in: Today's greeting alone and columns level under one kind of heading (LK355); Search opens on Shift twice and is a
+  glass bar with a top hit and Tab completion (LK356); Ask Mobi is a glass bar at the bottom right that opens a floating window
+  and never narrows the page (LK357); the snap is the key's own outline (`data-snap`, LK352).
+- NOT checked: Opera GX itself, a real Chromebook or phone, a real signed-in account on live (fixtures and a simulated
+  session only), `html[data-lite]` on a real weak machine.
+- Open: desktop scroll cost per section; old dock rules left in page CSS (harmless, can be deleted); the Ask Mobi window can
+  sit over Practice's session card.
+
 ## 19 Nov 2026, 11:40 pm IST: LIVE = main 2e7430340 (his 10:15 pm feedback: home pointer, top bar and Mobi; Search and Ask Mobi; the streak line; signed-in pages on big screens); rollback chain = ea1bdfa68, ddecb3941. Nothing is waiting unpushed
 
 - **His feedback of about 10:15 pm (a mouse, a 27 inch screen) is in the ledger verbatim, LK337 to LK351.** LK337 is a standing
