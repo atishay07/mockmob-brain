@@ -1,0 +1,30 @@
+{
+  "id": "20261119T111421.121887Z-dd5999f5",
+  "observed_at": "2026-11-19T11:14:21.121887+00:00",
+  "agent": "claude-fable-5.2 (orchestrator, 19 Nov)",
+  "task": "19 Nov: phone pass LK317-LK328 shipped, two smoothness causes fixed, desktop pass (LK333-LK336) begun",
+  "status": "active",
+  "done": "Live on www.mockmob.in today: 3:18 pm main e8a2d917d (phone pass), 4:15 pm 64efe70d8 (session state in a store so React no longer hydrates the whole page in one task; no '> * + *' rules), 4:43 pm b941dc2dd (mouse wheel flows through the held stories; circle marks clear the next word). Committed, in the gate, not live: ef915b1f9 (four widest desktop gaps reduced). Brain docs updated: NOW.md top section, ledger LK317-LK336 rows, UI-AUDIT-LOG section 5a.",
+  "next": "Read wt-1110-convert/tmp/1119-phone/STATE.md. If wt-1116-next/tmp/gate2.log ends DONE with every suite fail 0 for ef915b1f9, fast-forward push it to main (rollback b941dc2dd). Then the desktop pass the owner asked for at 4:20 pm: a fine-pointer cursor layer and click feedback, richer desktop scroll effects, every mark checked at 1440, signed-in pages at 1440, the :has() cure on the signed-in site. Phone and desktop are separate optimisations. Owner: keep going until it is right; stop only above 95% usage.",
+  "blockers": [
+    "A rare flake in data/tests/billing_monthly_webhook.test.mjs (two entities built from the clock): failed once in a gate, 29 solo passes, no billing code changed"
+  ],
+  "evidence": [
+    "C:/Users/atish/Desktop/mockmob copy/wt-1110-convert/tmp/1119-phone/STATE.md",
+    "C:/Users/atish/mockmob-brain/docs/NOW.md",
+    "C:/Users/atish/Desktop/mockmob copy/wt-1116-next/tmp/gate2.log"
+  ],
+  "touched_files": [
+    "src/components/AuthProvider.jsx",
+    "src/components/landing/storyController.mjs",
+    "src/app/scroll-story.css",
+    "src/app/r19-home-b.css",
+    "src/app/marketing.css",
+    "src/components/doodle/doodlePaths.mjs",
+    "data/tests/css_split.test.mjs"
+  ],
+  "verification": "Each release passed the full gate in wt-1116-next (24 suites fail 0, eslint empty, webpack and Turbopack builds). Live checks after 64efe70d8: pages 200, no Vercel runtime errors, no long play-event task. Measured in headless Chrome only (phone profile CPU x4, and a 1440 wheel walk); nothing checked on a physical phone, in Safari, or with a real mouse. Sign-out is not verified by the session simulation.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
