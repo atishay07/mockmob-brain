@@ -2,17 +2,38 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
-## 19 Nov 2026, about 2:35 pm IST: the phone pass (LK317-LK330) is BUILT on `web/1118-prod`, being measured; NOT gated, NOT live (production is still main a5b4f08f8)
+## 19 Nov 2026, 3:18 pm IST: the phone pass (LK317-LK328) is LIVE: main e8a2d917d (`dpl_APnzH2ATvD7jfccEWU1gJah5RdV1`); rollback = a5b4f08f8 (`dpl_Dp4t4tomaTauyWZopYA6CfYAmrEo`). A second smoothness fix is committed on `web/1118-prod` (f86083631), being measured: NOT gated, NOT live
 
 - His words today (about 1:15 pm): GPT ran 10 to 15 minutes and stopped at its usage limit; "check how much it has done, what all
   is left, and go back to my first original prompt, achieving 100% completion and even beyond my expectations".
-- **Read `wt-1110-convert/tmp/1119-phone/STATE.md` first**: what is done per ledger item, the measured frame numbers, the tools,
-  and the exact steps left before the release (merge lane `web/1120-arena-d`, reserved heights, final look, tests, gate, push).
-- What Codex left (commit 8df7f7a82, kept): drafts of all ten items, none looked at in a browser; its hero-film change (no
-  autoplay) was not asked for and was taken back; its Practice patch was replaced by restoring c2f12abcd whole.
-- The finding that matters beyond today: **`:has()` with an attribute or pseudo-class inside, or a "no" answer on html/body,
-  makes the browser rescan the page on every DOM change** (3.2 ms per change on a fast PC on the home page; 0.003 ms without).
-  Fixed on the home page; the signed-in site still has many (`grep ':has(' src/components`).
+- **Read `wt-1110-convert/tmp/1119-phone/STATE.md` first**: what is done per ledger item, the measured frame numbers, the tools.
+- Live since 3:18 pm (gate clean on e8a2d917d: every suite fail 0, eslint empty, webpack and Turbopack builds exit 0; 40 sitemap
+  pages 200; no Vercel runtime errors): plain pen marks, slower and timed to reading position (LK317); the bottom story bar
+  rides the scroll (LK318); the exam screen is the monitor again on phones, the phone runner only on "Try it full screen"
+  (LK319); a first-visit "works best on a laptop or desktop" strip with a cross on phones (LK320); Daily Five without college
+  names, "Five a day. Keep your streak." (LK321, switch `NEXT_PUBLIC_DAILY_COLLEGE_BOARD`); Compass plays one sweep by itself
+  (LK322); the DU courses section is gone from home (LK323); pricing sits above Instagram (LK324); the usual-price sum opens
+  from a key beside the figure (LK325); the opening is 1.75 s on a first visit and 1.1 s after (LK326); Practice is the
+  version he preferred, c2f12abcd (LK328); You, Colleges and Marks trend lose blank space (LK327, part).
+- **Frame numbers, lab phone profile (headless Chrome, 390x844, CPU x4), first six seconds of the home page:** before (main
+  a5b4f08f8) 35 to 43 fps, worst frame 1.13 to 1.15 s; live now 76 to 78 fps, worst frame 0.62 to 0.65 s. Scrolling the whole
+  page: frames over 25 ms 174 to 179 before, 77 to 108 now. Not checked on a physical phone or in Safari.
+- **Found after the release, fixed in f86083631 (not live yet):**
+  1. The session provider (`AuthProvider`, wraps every page) changed its context value from `loading` to `unauthenticated` right
+     after load. A context change above Suspense boundaries that have not hydrated makes React hydrate ALL of them in one
+     blocking task: 577 to 851 ms at CPU x4 on the live home page. The state now lives in a store (`useSyncExternalStore`); the
+     context value never changes. `useAuth()` is unchanged for callers; `useAuthMaybe()` is the non-throwing form.
+  2. Seven `> * + *` spacing rules in `marketing.css` (thirteen in all): a bare `*` left of a sibling combinator puts the rule in
+     the browser's page-wide sibling set, so every element appended to `<body>` restyled the whole page (four times in the
+     first three seconds, 118 to 176 ms each at CPU x4). Now `> :where(:not(:first-child))`. A test in `css_split.test.mjs`
+     refuses both patterns.
+- Earlier finding, live: **`:has()` with an attribute or pseudo-class inside, or a "no" answer on html/body, makes the browser
+  rescan the page on every DOM change**. Fixed on the home page; the signed-in site still has many (`grep ':has(' src`).
+- The session simulation `tmp/1119-phone/authsim.mjs` checks signed-out, signed-in and refused sessions with no real sign-in
+  (a made-up cookie that never leaves the browser; `/api/auth/me` answered by the script). Run it after any change to the
+  provider.
+- Open, his to decide: the simpler Daily Five against the college version; the pricing card's own look ("can be better");
+  Today's two columns at 1440; the items listed under "Owner decisions still open" in STATE.md.
 
 ## 18 Nov 2026, about 10:15 pm: HIS VERDICT on today's rebuild (LK317-LK330). Building here has STOPPED; the next session starts from `PROMPT-NEXT-SESSION-2026-11-18-B.md`
 

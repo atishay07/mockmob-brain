@@ -371,6 +371,41 @@ Owner constraints that bound all of this: refine, do not rebuild (rejected restr
 
 ---
 
+## 5a. Smoothness: how to measure it and what has been found (19 Nov 2026)
+
+Tools in `wt-1110-convert/tmp/1119-phone/` (not shipped). All use a production build (or the live site), headless Chrome not
+marked as driven so the opening really runs, 390x844, CPU x4. Run on a quiet machine. Prefix `MSYS_NO_PATHCONV=1` when an
+argument is a lone `/`.
+
+| Need | Command |
+|---|---|
+| Frame pacing, first 6 s and a full scroll | `node tmp/1119-phone/perf2.mjs <label> <base> short 4` (`first` for a first visit) |
+| Who starts each long script (event, timer, script tag) | `node tmp/1119-phone/loaf.mjs <base> short 4 7000` |
+| The longest tasks opened up: trace events and sampled JavaScript | `node tmp/1119-phone/task.mjs <base> short 7000 4 2` |
+| Style recalculations with what invalidated them | `node tmp/1119-phone/style.mjs <label> <base> load 4 25` (`scroll` for scrolling) |
+| What the GPU and raster threads do in the longest scroll stall | `node tmp/1119-phone/rast.mjs <base> 5 4`, then `rast_read.mjs` |
+| Universal sibling selectors in what a page really loads | `node tmp/1119-phone/owl_built.mjs <base> /` (source: `python tmp/1119-phone/owl.py`) |
+| The session provider's three first answers, no real sign-in | `node tmp/1119-phone/authsim.mjs <dev base>` |
+
+Found, with the cure (each is pinned by a test):
+- **`:has()` with an attribute or pseudo-class inside, or anchored on html/body with a descendant inside**: the browser rescans
+  the page on every DOM insert or remove (3.2 ms per change on a fast PC on the home page; 0.003 ms without). Cure: the owning
+  component mirrors the state onto an ancestor as a plain attribute; page-kind rules are child-only
+  (`html:has(> :where(body) > .mm)`). Done for the home page. **Not done for the signed-in site** (30 rules in `arena.css`
+  alone).
+- **A context value that changes above parts of the page not yet hydrated** (the session provider, around every page): React
+  hydrates every Suspense boundary in one blocking task (577 to 851 ms at CPU x4 on the live home page). Cure: state in a
+  store read with `useSyncExternalStore`, a context value that never changes. Any new page-wide provider must follow this.
+- **A bare `*` on the left of `+` or `~`** (`> * + *`): every element added or removed under a parent restyles that parent's
+  whole subtree; a script appended to `<body>` restyled the whole page. Cure: `> :where(:not(:first-child))`.
+- **Selectors ending in `*` keyed on an `<html>` attribute, custom properties written on `<html>`, `CSS.registerProperty` at
+  load**: each restyles the whole page once. Cure in the opening: a variable on the layer, a one-rule `<style>`, `@property`.
+- **One 0.4 s stall on the second swipe of a scroll, in the old and the new build:** not the page. The trace shows a single GPU
+  raster flush with shader compilation, which a fresh headless profile does on first use and a phone caches. Do not chase it
+  in the lab; it needs a physical phone.
+- Still open: the first frame itself (parse, style and layout of the page, 230 to 450 ms at CPU x4 before anything shows); the
+  Mistake Lab's step swaps (about 450 elements restyled a step); the first drawing of skipped sections while scrolling.
+
 ## 6. Change log of this file
 
 - 12 Nov 2026: created from the final pass (LK225-LK230).
@@ -380,3 +415,4 @@ Owner constraints that bound all of this: refine, do not rebuild (rejected restr
 - 16 Nov 2026, evening: section 2c (round 16, the phone pass after the owner's look at the live site).
 - 17 Nov 2026: section 2d (the merged night lanes, the companion and DU head fixes) and the Ask Mobi chat note in section 3.
 - 18 Nov 2026: section 2f (the rebuild: the tour as a deck the scroll deals, the pen and the highlighter, Today's streak block; the dropped 3D Mobi; four traps).
+- 19 Nov 2026: section 5a added (smoothness: the tools, three page-wide causes and their cures, the shader stall that is not ours). Home page of this log's section 2 changed on 19 Nov (main e8a2d917d): marks, bottom bar, exam screen, desktop note, Daily Five head, Compass autoplay, DU courses removed, pricing above Instagram.
