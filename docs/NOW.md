@@ -2,6 +2,47 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 19 Nov 2026, 11:40 pm IST: LIVE = main 2e7430340 (his 10:15 pm feedback: home pointer, top bar and Mobi; Search and Ask Mobi; the streak line; signed-in pages on big screens); rollback chain = ea1bdfa68, ddecb3941. Nothing is waiting unpushed
+
+- **His feedback of about 10:15 pm (a mouse, a 27 inch screen) is in the ledger verbatim, LK337 to LK351.** LK337 is a standing
+  rule: a percent is counted from a written list (done and verified over asked), shown with the list; never a round figure.
+- **Read `wt-1110-convert/tmp/1119-phone/STATE.md` (last section) first.** Two gated releases: 11:30 pm ea1bdfa68 (home page,
+  the shell lane, the streak lane) and 11:40 pm 2e7430340 (the wide lane). Each: 24 suites fail 0, eslint empty, webpack and
+  Turbopack builds 0.
+- Home, mouse or trackpad only unless said:
+  - LK338 Night's light is 420 px and about half as strong. LK339 the ring snaps onto a key from 12 px away and holds to 18 px
+    (`.lp-snap`, `DesktopCursor.jsx`). LK340 on wide windows Mobi rides the head of the page's reading line and leans the way
+    the page goes; a held story's rule stays plain (`NavReadLine.jsx`). LK341 tour screens say "Try it" beside the arrow.
+  - LK342 a mark waits for a mouse reader (words above the lowest 38% of the window, page still for 130 ms); touch unchanged.
+    The hero's price figure has its three flicks back (`accent="spark"`, that one figure only, pinned by a test).
+  - LK343, a real fault: the desktop guide takes its stops from `[data-pip-station]` seats, and the Lab, the tour and Key
+    cards had lost theirs, so he stood in one pose (the camera) for half the page and the Lab's own acts never played. Fixed
+    with `WAYPOINTS` in `PipGuide.jsx` (a stop at the middle of a section, from the section's own box), eye boxes for the
+    reading, camera and calendar poses (`mobiEyes.js`), a scroll look and a small lift with a resting mouse, and a lane that
+    stays beside the page's column on very wide windows.
+  - LK344 partly: the pricing backdrop word drifts behind its glass card. No other new scroll effect.
+- Signed-in (seen only in the `/preview/arena` fixtures, plus a simulated session on live for the shell):
+  - LK345 Search opens with Ctrl+Space on Windows and Linux (Ctrl+K and "/" still work, a Mac keeps Cmd+K); the first open
+    says "One place to search everything." once. LK348 "/" stays on Learn and a plain letter typed on the page lands in Find.
+  - LK350 Ask Mobi has a round key at the bottom right of a mouse window 1100 px or wider; from 1680 px its panel docks beside
+    the page (`data-mobi-dock`, `--mobi-dock-w`), below that it covers. Hidden while the panel is open.
+  - LK349 the streak is one volt highlighter line through the kept days (`StreakLine.jsx`), with "N questions answered in this
+    streak", a pace line to the exam day (question counts, never marks), and one key that starts something the rule counts.
+    Rules, numbers and routes unchanged. The top of Progress: the streak is a full-width first row, the weekly goal below.
+  - LK346, LK347 pages are centred and their cap grows in steps to 1800 px at 2480; Today, Progress, Marks trend and You go to
+    three columns from 1800; the Practice card's edge closes all round; Marks trend answers hover and focus.
+- Verified on live after the first release: ring states (`reaim.mjs`), Mobi's stops and eyes down the page
+  (`mobipause.mjs`), wheel walk 0 stuck 0 jumps, `sweep.mjs` at 1440 Day and Night 0 findings 0 errors, every site-bar link
+  200, `authsim.mjs` passes, and `liveshell.mjs` (a simulated session, no real sign-in): the rail key reads Ctrl Space,
+  Ctrl+Space opens Search with its first-use line, the Ask Mobi key is there and docks at 1920.
+- NOT checked: a real mouse or trackpad, Safari, Firefox (no scroll-driven rider there: the fallback script draws it), a
+  real phone, a real signed-in account on live (the streak, the wide layouts and Marks trend were seen in fixtures only),
+  the result page's "Today counts" strip with a real just-finished set.
+- Open, his to decide: more scroll effects on the home page (LK344 is only partly done); whether phones also get the
+  subject rows' practice link on Marks trend; the pointer layer is still home-only.
+- Housekeeping: a dev-only React key warning in `PlanValue` (old); `/preview/arena` is not on production, so signed-in
+  screens cannot be looked at on live without a real sign-in.
+
 ## 19 Nov 2026, 8:31 pm IST: LIVE = main ddecb3941 (desktop: pointer layer, scroll depth, marks, sticky cards, Today at 1120 px, hover answers); rollback chain = 04ebba139, ce131e9b7, c22456209, 23432d0e7. Nothing is waiting unpushed. Waiting for HIS look with a real mouse
 
 - **Read `wt-1110-convert/tmp/1119-phone/STATE.md` first** (the log of the day, the tools, what is next).
