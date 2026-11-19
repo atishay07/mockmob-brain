@@ -1,0 +1,28 @@
+{
+  "id": "20261119T145006.776548Z-1a0604e6",
+  "observed_at": "2026-11-19T14:50:06.776548+00:00",
+  "agent": "claude-fable-5.2 (orchestrator, 19 Nov evening)",
+  "task": "19 Nov evening: desktop pass (owner LK333-LK336) after his \"Yes, continue\" at about 7:14 pm",
+  "status": "active",
+  "done": "Live on www.mockmob.in this evening, each through a clean gate in wt-1116-next (24 suites fail 0, eslint empty, webpack and Turbopack builds 0): 7:45 pm main c22456209 (desktop pointer layer in src/components/landing/DesktopCursor.jsx: named cursor via data-cursor, leaning primary keys, data-tilt on the hero film and exam monitor, a faint torch on the paper, ring stretch on scroll; CSS scroll depth on three section pictures; marks fixed at 1440: comma after the circled \"where\" no longer wraps alone, loops and highlighter clear the next word); 7:57 pm ce131e9b7 (Key cards and Ask Mobi cards sticky in their column, signed-in Today at 1120 px from 1360, hover answers on tour and exam keys, reel cards tilt, three stale landing tests fixed); 8:17 pm 04ebba139 (torch goes out over films and photographs, looped words keep room on phones). Committed, in the gate, NOT live: ddecb3941 (ring re-aims after a scroll under a resting mouse; loop 0.17 of type size wider than its word).",
+  "next": "Read wt-1110-convert/tmp/1119-phone/STATE.md (last three sections). If wt-1116-next/tmp/gate2.log ends DONE with every suite fail 0 for ddecb3941, fast-forward push it to main (rollback 04ebba139) and re-run tmp/1119-phone/wheel.mjs, marks.mjs and sweep.mjs against live. Then wait for the owner's look with a real mouse. His open decisions: keep or drop the torch (a decorative glow his UI standards normally refuse); spread the pointer layer to the other public pages (home only now); simpler Daily Five against the college version; pricing card look.",
+  "blockers": [],
+  "evidence": [
+    "C:/Users/atish/Desktop/mockmob copy/wt-1110-convert/tmp/1119-phone/STATE.md",
+    "C:/Users/atish/mockmob-brain/docs/NOW.md",
+    "C:/Users/atish/Desktop/mockmob copy/wt-1110-convert/shots/desktop-1119-evening.png"
+  ],
+  "touched_files": [
+    "src/components/landing/DesktopCursor.jsx",
+    "src/app/r19-home-b.css",
+    "src/components/doodle/doodle.css",
+    "src/components/doodle/doodlePaths.mjs",
+    "src/components/landing/Statement.jsx",
+    "src/components/today/today.css",
+    "data/tests/css_split.test.mjs"
+  ],
+  "verification": "Headless Chrome with a scripted mouse only. On live after batch 2: wheel walk at 1440 0 stuck and 0 jumps; every mark 0 px into a neighbouring word; sweep at 1440 Day and Night found no console error, sideways overflow or clipped text; pointer layer cost 1 frame over 20 ms in 600 while sweeping the hero. NOT checked: a real mouse, Safari, Firefox (no view timelines there, so no scroll depth), a physical phone.",
+  "cost_and_pending_requests": "No paid model calls. Four local gate runs (each two production builds reading production Supabase).",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
