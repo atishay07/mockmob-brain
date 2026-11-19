@@ -1,0 +1,22 @@
+{
+  "id": "20261119T090653.073780Z-0518d2f7",
+  "observed_at": "2026-11-19T09:06:53.073780+00:00",
+  "agent": "claude-fable-5.2 (orchestrator, 19 Nov 4:35 pm)",
+  "task": "19 Nov: finish Codex's partial phone pass (owner LK317-LK330), measure and fix smoothness, gate, deploy; then go beyond",
+  "status": "active",
+  "done": "Nothing new is live yet today (production is main a5b4f08f8). On web/1118-prod in wt-1110-convert, committed: Codex's tree as left (8df7f7a82), Practice restored to the owner's preferred version c2f12abcd, lane home-c merged (exam screen is the monitor again on phones), and two \"Phone pass\" commits: doodles rewritten (no forced layout, slower hand pace, timed to reading position), the bottom story marker rides the scroll, first-visit desktop note without a jump, simpler Daily Five behind a switch, Compass autoplay once, DU courses section off the home page, pricing above Instagram with the usual-price sum under its figure, longer opening (1,750 / 1,100 ms). Performance was measured properly: baseline first six seconds 36 to 43 fps with a worst frame over 1.1 s on a throttled phone profile. Root causes found and fixed for the home page: all effects in one task, costly :has() rules (3.2 ms of style work per DOM change, 0.003 ms without them), and three whole-page restyles inside the opening. Full working state, numbers and tools: wt-1110-convert/tmp/1119-phone/STATE.md.",
+  "next": "Read wt-1110-convert/tmp/1119-phone/STATE.md and follow its \"Remaining before release\": finish the production build (tmp/1119-phone/build-wip4.log), restart preview convert-1110-start (port 3591) and run node tmp/1119-phone/perf2.mjs for the final numbers against the baseline on port 3601; merge web/1120-arena-d; fix the reserved section heights; walk home at 390/360 Day and Night and 1440; npm run test:app and the landing checklist; gate once in wt-1116-next (take the baseline numbers first: the gate deletes that build); fast-forward push to main; live checks; update NOW.md, ledger outcome rows LK317-LK328, UI-AUDIT-LOG; report measured frame numbers. Then the signed-in site's :has() rules, a creative addition and generated art.",
+  "blockers": [],
+  "evidence": [
+    "C:/Users/atish/Desktop/mockmob copy/wt-1110-convert/tmp/1119-phone/STATE.md",
+    "C:/Users/atish/Desktop/mockmob copy/wt-1110-convert/tmp/1119-phone/perf (json of every run)",
+    "C:/Users/atish/Desktop/mockmob copy/wt-1110-convert/tmp/1119-phone/CLAUDE-HANDOFF.md (Codex's handoff)",
+    "C:/Users/atish/Desktop/mockmob copy/wt-1120-home-c/tmp/lane-tools/shots/montage/xs-390-old-vs-new.jpg",
+    "C:/Users/atish/Desktop/mockmob copy/wt-1120-arena-d/tmp/lane-tools/shots/montage"
+  ],
+  "touched_files": [],
+  "verification": "Measured in headless Chrome on production builds only (CPU x4, phone size). Tests: test:app and the landing checklist passed before the last :has() and opening edits; they must be run again. No gate run today, nothing deployed. Not checked: a physical phone, Safari, signed-in pages on production.",
+  "cost_and_pending_requests": "No paid model calls. 5-hour window 51% used at 4:35 pm IST, resets about 6:10 pm; session context at 94%.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
