@@ -4,21 +4,17 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-20T21:10:46.585703+00:00",
+  "last_active": "2026-11-20T21:29:30.879406+00:00",
   "repo": "mockmob",
   "branch": "web/1118-prod",
   "cwd_name": "wt-1110-convert",
   "task": "",
   "touched": [
-    "tmp/1120-speed/homephone/touchprobe.mjs",
-    "tmp/1121-2026-papers/coverage/acc26_templates.mjs",
-    "tmp/1120-speed/homephone/trace.mjs",
     "src/components/search/search.css",
     "tmp/1121-2026-papers/coverage/acc26_facts.mjs",
     "tmp/1121-2026-papers/coverage/acc26_build_A.mjs",
     "tmp/1121-app-phone/INDEX.md",
     "tmp/1121-2026-papers/coverage/econ26_B_facts.txt",
-    "tmp/1121-lab/COMPARE.md",
     "tmp/1121-2026-papers/coverage/acc26_B_facts.txt",
     "tmp/1121-2026-papers/coverage/bst26_B_facts.txt",
     "src/components/landing/DesktopCursor.jsx",
@@ -42,10 +38,12 @@
     "tmp/1121-critic/contrast.mjs",
     "src/components/landing/heroFilmConfig.mjs",
     "src/components/landing/onePlaceCopy.mjs",
-    "tmp/1121-oneplace/zoomseq.mjs",
     "tmp/1120-speed/speed2/whichlayer.mjs",
     "tmp/1121-lab/cls.mjs",
     "tmp/1121-oneplace/skip.mjs",
-    "tmp/1121-oneplace/touchhold.mjs"
+    "tmp/1121-oneplace/touchhold.mjs",
+    "tmp/1121-oneplace/zoomseq.mjs",
+    "tmp/1120-speed/speed2/shots.mjs",
+    "tmp/1121-lab/COMPARE.md"
   ]
 }
