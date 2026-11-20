@@ -4,15 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-20T20:41:28.026558+00:00",
+  "last_active": "2026-11-20T20:56:48.848600+00:00",
   "repo": "mockmob",
   "branch": "web/1118-prod",
   "cwd_name": "wt-1110-convert",
   "task": "",
   "touched": [
-    "src/components/landing/LoadingKit.jsx",
-    "src/app/r14-companion.css",
-    "tmp/1121-oneplace/interact.mjs",
     "tmp/1120-speed/homephone/abserve.mjs",
     "src/components/result/marks-ledger.css",
     "tmp/1121-2026-papers/coverage/acc_build_paper.mjs",
@@ -45,6 +42,8 @@
     "tmp/1120-speed/speed2/tevents.mjs",
     "tmp/1120-speed/speed2/floats.mjs",
     "tmp/1121-critic/misc.mjs",
-    "tmp/1121-critic/contrast.mjs"
+    "tmp/1121-critic/contrast.mjs",
+    "src/components/landing/heroFilmConfig.mjs",
+    "src/components/landing/onePlaceCopy.mjs"
   ]
 }
