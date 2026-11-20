@@ -4,19 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-20T20:30:43.855414+00:00",
+  "last_active": "2026-11-20T20:41:28.026558+00:00",
   "repo": "mockmob",
   "branch": "web/1118-prod",
   "cwd_name": "wt-1110-convert",
   "task": "",
   "touched": [
-    "tmp/1121-oneplace/stuck.mjs",
-    "src/components/brand/MobiReact.jsx",
-    "src/components/brand/PipGuide.jsx",
-    "src/components/landing/TourDeck.jsx",
-    "src/components/landing/PauseOffscreen.jsx",
-    "src/components/landing/CollegeStrip.jsx",
-    "src/app/college-strip.css",
     "src/components/landing/LoadingKit.jsx",
     "src/app/r14-companion.css",
     "tmp/1121-oneplace/interact.mjs",
@@ -45,6 +38,13 @@
     "tmp/1121-critic/takeover.mjs",
     "tmp/1121-critic/lab.mjs",
     "tmp/1120-speed/speed2/gaps.mjs",
-    "tmp/1120-speed/speed2/links.mjs"
+    "tmp/1120-speed/speed2/links.mjs",
+    "tmp/1120-speed/speed2/forced.mjs",
+    "tmp/1121-critic/parts.mjs",
+    "tmp/1121-critic/perf.mjs",
+    "tmp/1120-speed/speed2/tevents.mjs",
+    "tmp/1120-speed/speed2/floats.mjs",
+    "tmp/1121-critic/misc.mjs",
+    "tmp/1121-critic/contrast.mjs"
   ]
 }
