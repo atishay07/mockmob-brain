@@ -2,6 +2,16 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 21 Nov 2026, 5:00 am IST: LIVE = main 270b0a36a (/home-next after two critic rounds; speed rounds 1 and 2; lighter film on weak phones); rollback = 807fdd35e, 2d2db4184
+- The owner went to sleep at about 3 am with: "keep going until all the criteria have been satisfied and we have reached a level of everything which exceeds my expectations. I'll check everything in the morning."
+- An independent critic (Opus xhigh) scored /home-next 7.0 against 7.5 for `/`. After the fixes it scored 8.0 against 7.5 (on the dev build). Round 3 on the live build is running.
+- Frame: phone Practise zooms to the question (12 px or more), looks along the stem, and uses the palette chip for the next question. Touch takeover holds. Rows run 8 s or less, then one pass and rest. The proof lines are back (NTA exact copy, Key cards count, Bring a mistake credits). Tool chips never reach Log in. The desktop stage grows.
+- Lab next look: pace label and key, the +6/-12/-6 totals, the full question, the SWOT heading, 0 layout shift, and 360x800 not trimmed.
+- Speed: on `/`, 17 watched links instead of 79, and a touch scroll costs 7% less main-thread time. A GPU raster stall of 400-500 ms near scroll position 650 is not yet named.
+- Hero film: a weak device (html[data-lite]) plays 480p (3.6 MB) instead of 720p (6.4 MB).
+- Android emulator (mockmob_budget, real Chrome): /home-next opens every time, with no errors. Use -no-snapshot-load: its Quick Boot snapshot is corrupt. On the emulator it found heavier load than `/` (29 long tasks against 10), the bottom bar covering the demo, and green blocks in the film (probably the emulator's decoder: check on a real phone). lane-hn-weight is fixing the load, the bar, the flip, the preloads and the opening.
+- `/` is unchanged apart from the speed fixes, which change nothing at rest. The switch to /home-next waits for his word.
+
 ## 21 Nov 2026, 1:30 am IST: LIVE = main 2d2db4184 (new /home-next on the live home; signed-in phone pass; 2026 coverage as data); rollback = e3d15ca10
 - /home-next = the live home plus "Your whole CUET prep, in one place." (OnePlace.jsx: ExamStage, KeyCardsDemo, BringMistakeCard, each worked by `src/components/landing/demo/CursorDemo.jsx`), and the Lab with `look="next"` (LabNextScreens.jsx, lab-next.css). `/` is unchanged; its Lab is the default look.
 - CUET 2026 coverage: `data/coverage/cuet2026/` (papers, ids, A and B checks, README). 100 of 149 covered. Not shown on any page; showing it waits for his word.

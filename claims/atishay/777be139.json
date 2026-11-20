@@ -4,16 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-20T23:21:51.667767+00:00",
+  "last_active": "2026-11-20T23:32:25.543791+00:00",
   "repo": "mockmob",
   "branch": "web/1118-prod",
   "cwd_name": "wt-1110-convert",
   "task": "",
   "touched": [
-    "tmp/1120-speed/speed2/build.cjs",
-    "tmp/1121-critic/lib.mjs",
-    "tmp/1121-critic/walk.mjs",
-    "tmp/1121-critic/oneplace.mjs",
     "tmp/1121-critic/takeover.mjs",
     "tmp/1121-critic/lab.mjs",
     "tmp/1120-speed/speed2/gaps.mjs",
@@ -49,6 +45,9 @@
     "tmp/1121-weight/check.mjs",
     "tmp/1121-weight/labdbg.mjs",
     "tmp/1121-weight/edit_gates.py",
-    "tmp/1121-weight/flip.mjs"
+    "tmp/1121-weight/strip.py",
+    "tmp/1121-weight/flip.mjs",
+    "tmp/1121-weight/restdiff.mjs",
+    "src/components/landing/key-cards.css"
   ]
 }
