@@ -4,16 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-20T15:52:14.324882+00:00",
+  "last_active": "2026-11-20T16:02:25.699711+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "src/lib/search/searchSources.mjs",
-    "tmp/1120-speed/film_test_edit.py",
-    "data/tests/hero_film_r7.test.mjs",
-    "tmp/1120-speed/guide_edit.py",
     "src/components/search/SearchHost.jsx",
     "src/components/search/searchStore.js",
     "src/components/today/TodayMove.jsx",
@@ -58,6 +54,10 @@
     "tmp/1120-speed/mobi/extra.mjs",
     "src/components/ai/AskMobiPanel.jsx",
     "src/components/ai/MentorRecordPage.jsx",
-    "tmp/1120-speed/commit-msg.txt"
+    "tmp/1120-speed/commit-msg.txt",
+    "tmp/1120-speed/homenext/strip.mjs",
+    "src/components/home2/coverage.mjs",
+    "src/components/home2/autoplay.mjs",
+    "src/components/home2/useAutoplay.js"
   ]
 }
