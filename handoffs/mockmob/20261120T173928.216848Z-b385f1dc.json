@@ -1,0 +1,21 @@
+{
+  "id": "20261120T173928.216848Z-b385f1dc",
+  "observed_at": "2026-11-20T17:39:28.217848+00:00",
+  "agent": "claude-fable-5.2 (orchestrator, 20 Nov late night)",
+  "task": "Final website redesign (LK360 to LK362): /home-next live; CUET 2024 past-paper coverage checked twice; its section being built",
+  "status": "active",
+  "done": "LIVE = main e3d15ca10 (10:51 pm): /home-next is up (noindex, not in the sitemap), the real home page unchanged; rollback 74830a04d. Past-paper coverage, both independent checkers done for three real CUET 2024 papers: Business Studies 35 of 46 counted, Economics 25 of 40, Accountancy 26 of 45; together 86 of 131 (66%). English gets no figure (8 of 28 countable; 21 passage items). Files: wt-1110-convert/tmp/1120-speed/coverage/cuet2024-<subject>-A.json and -B.json, METHOD.md with the decisions. An Opus xhigh agent (lane-coverage-ui) is merging them into data/coverage/cuet-2024.json and building the coverage proof into src/components/home2/Coverage.jsx.",
+  "next": "When lane-coverage-ui reports: check its totals equal 86 of 131, look at its shots in tmp/1120-speed/coverage/shots/ at 390 first, run test:app, commit, gate in wt-1116-next (kill old gate2.sh first; eslint must print nothing), fast-forward push, confirm on live. Then: trim /home-next toward six sections (four are taller than one phone screen: hero, Try five, Compass, creators); author the confirmed gaps (Accountancy 19, Economics 14, Business Studies 11 named in the B files; English 20 words and rules) only if the owner asks for content; get a source for CUET 2026 question text from the owner; switch the real home page ONLY on his word. Report with a counted list (memory percent-from-a-counted-list).",
+  "blockers": [
+    "Weekly Fable limit nearly spent; main context nearly full"
+  ],
+  "evidence": [
+    "C:/Users/atish/Desktop/mockmob copy/wt-1110-convert/tmp/1120-speed/coverage/METHOD.md",
+    "C:/Users/atish/mockmob-brain/docs/HOME-NEXT-SPEC-2026-11-20.md"
+  ],
+  "touched_files": [],
+  "verification": "Each paper: Checker A judged all 50 questions, Checker B wrote its own fact lists first, re-verified every cited id as served or published and searched again for every miss; covered only where both agree. Economics and Business Studies changed only by moving passage or case questions to \"not counted\"; Accountancy lost one disputed match (Q20). /home-next confirmed on live by HTTP: 200, noindex, headings present, home 200. Not seen on a real phone.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
