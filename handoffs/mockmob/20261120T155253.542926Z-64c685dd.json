@@ -1,0 +1,21 @@
+{
+  "id": "20261120T155253.542926Z-64c685dd",
+  "observed_at": "2026-11-20T15:52:53.543927+00:00",
+  "agent": "claude-fable-5.2 (orchestrator, 20 Nov 7:20 pm)",
+  "task": "20 Nov evening: LK359 (first snap restored, live) and LK360 (a clearer home page after his look at Preparoo: build /home-next)",
+  "status": "active",
+  "done": "LIVE = main 74830a04d (the 19 Nov snap restored; rollback 46b3cc8b2). Tree clean. LK360 logged verbatim; design written at mockmob-brain/docs/HOME-NEXT-SPEC-2026-11-20.md (nine sections, one product frame that advances by itself, the Mistake Lab in three beats, a coverage proof from real data, built at /home-next with the live home untouched). An Opus xhigh sub-agent (lane-home-next) is building it in wt-1110-convert; dev server convert-1110 on port 3571 is running for it.",
+  "next": "When lane-home-next reports: look at its shots in wt-1110-convert/tmp/1120-speed/homenext/ at 390 and 1440, Day and Night, judge against the spec and the two Preparoo screenshots, refine, run test:app and the landing checklist, gate in wt-1116-next (kill any old gate2.sh first), fast-forward push, then give the owner https://www.mockmob.in/home-next to open on his phone. Do NOT replace the live home until he says so. Still open from LK359: desktop scroll smoothness on signed-in pages, a full phone pass of the remaining signed-in screens. Weekly Fable usage was 96% at 7:10 pm: use Opus agents, or continue in an Opus session if Fable stops.",
+  "blockers": [
+    "Weekly Fable limit at 96%: the main session may stop before the build is reviewed"
+  ],
+  "evidence": [
+    "C:/Users/atish/mockmob-brain/docs/HOME-NEXT-SPEC-2026-11-20.md",
+    "C:/Users/atish/mockmob-brain/docs/OWNER-MASTER-LEDGER.md"
+  ],
+  "touched_files": [],
+  "verification": "74830a04d passed the full gate (24 suites fail 0, eslint empty, both builds 0) and the live HTML carries the restored snap; post-release scripted checks on live were cut short by a session interruption and not rerun.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
