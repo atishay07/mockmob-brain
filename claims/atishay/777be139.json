@@ -4,17 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-20T19:04:31.048296+00:00",
+  "last_active": "2026-11-20T19:15:03.433322+00:00",
   "repo": "mockmob",
   "branch": "web/1118-prod",
   "cwd_name": "wt-1110-convert",
   "task": "",
   "touched": [
-    "src/components/home2/Coverage.jsx",
-    "data/tests/coverage_2024.test.mjs",
-    "src/components/landing/demo/CursorDemo.jsx",
-    "src/components/landing/demo/cursor-demo.css",
-    "tmp/1121-lab/shoot.mjs",
     "src/components/landing/onePlaceModel.mjs",
     "src/components/landing/onePlaceCopy.mjs",
     "src/components/landing/OnePlace.jsx",
@@ -49,6 +44,16 @@
     "data/tests/desk_columns_1116.test.mjs",
     "tmp/1121-oneplace/navwatch.mjs",
     "src/components/result/marks-ledger.css",
-    "tmp/1121-oneplace/stuck.mjs"
+    "tmp/1121-oneplace/stuck.mjs",
+    "tmp/1121-lab/COMPARE.md",
+    "src/components/landing/DesktopCursor.jsx",
+    "src/components/brand/MobiReact.jsx",
+    "src/components/brand/PipGuide.jsx",
+    "src/components/landing/TourDeck.jsx",
+    "src/components/landing/PauseOffscreen.jsx",
+    "src/components/landing/CollegeStrip.jsx",
+    "src/app/college-strip.css",
+    "src/components/landing/LoadingKit.jsx",
+    "src/app/r14-companion.css"
   ]
 }
