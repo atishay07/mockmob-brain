@@ -4,14 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-20T17:36:30.352934+00:00",
+  "last_active": "2026-11-20T17:48:17.940739+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "tmp/1120-speed/commit-msg.txt",
-    "tmp/1120-speed/homenext/strip.mjs",
     "src/components/home2/coverage.mjs",
     "src/components/home2/useAutoplay.js",
     "src/components/home2/Window.jsx",
@@ -51,6 +49,9 @@
     "tmp/1120-speed/coverage/accB_snapshot.mjs",
     "tmp/1120-speed/coverage/accB_search.mjs",
     "tmp/1120-speed/coverage/econB_build.mjs",
-    "tmp/1120-speed/coverage/bst_build_B.mjs"
+    "tmp/1120-speed/coverage/bst_build_B.mjs",
+    "tmp/1120-speed/coverage/cuet2024-accountancy-B.json",
+    "scripts/coverage/merge-2024.mjs",
+    "src/components/home2/pastPaperModel.mjs"
   ]
 }
