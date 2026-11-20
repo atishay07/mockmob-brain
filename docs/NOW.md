@@ -2,6 +2,14 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 20 Nov 2026, 11:55 pm IST: HIS VERDICT on /home-next (LK363): 6/10 against the live home's 8/10. LIVE = main e3d15ca10 (the real home is unchanged; /home-next is noindex). Building the next /home-next now
+- **His verdict:** keep the live home as the base. Keep the idea of one frame for the whole prep, but each of its screens must be the product's ACTUAL screen, worked live by a cursor for 5 to 8 s (for example, the exam screen switching between MockMob and NTA style while questions are answered). The Lab goes back to the live Lab story, with its screens redone. No coverage section on the home page; the eventual goal is the CUET 2026 paper (LK362). Memories updated: web-restructure-rejected, final-redesign-pass.
+- **In progress (two Opus lanes, dev server on port 3571):**
+  - lane-oneplace: /home-next becomes the live page plus one section ("Your whole CUET prep, in one place."). It has three rows (Practise = the landing's real ExamScreen, Key cards = KeyCardsDemo, Ask Mobi = the BringMistakeBlock card), each worked by `src/components/landing/demo/CursorDemo.jsx`. The section replaces the tour deck, Key cards, Bring a mistake and the exam screen sections there.
+  - lane-lab: LabCinema gets `look="next"`, with its five screens redone in the real result page's look and worked by the cursor. The default look stays as the live page has it. Review page: /preview/lab-next (dev only).
+- **Coverage:** the CUET 2024 data is kept, not shown: `data/coverage/cuet-2024.json`, `scripts/coverage/merge-2024.mjs` (commit 725a08adc, not pushed). The coverage section built for the page is parked on the LOCAL branch `wip/coverage-ui-1120`; never push it. Figures: Business Studies 35 of 46, Economics 25 of 39, Accountancy 26 of 45; together 86 of 130.
+- **Phone report:** he could not open /home-next on his phone. Not reproduced. In a slowed phone browser it loads in 2.4 s with no errors, and one scroll freeze of 745 ms was measured. The Android app's links only claim /today, /result, /review, /dashboard and /learn, so the app does not take over /home-next. What his phone showed is still unknown.
+
 ## 20 Nov 2026, 3:15 am IST: LIVE = main 46b3cc8b2 (speed pass, the snap on the key itself, Today levelled, Search by Shift twice, Ask Mobi as a bottom chat box); rollback chain = 6da135beb, 2e7430340. Nothing unpushed
 
 - His feedback of about 2 am is in the ledger verbatim, LK352 to LK358. Standing: the speed yardstick is a cheap Chromebook or
