@@ -125,3 +125,28 @@ Section changes:
 
 His to answer (asked on 20 Nov): may the page say how many students signed up last season (1,493, a production read), or
 stay with creators only? Until he answers: creators only.
+
+## Revision 3 (20 Nov, about 11 pm): the coverage figure is to be BUILT (LK362), and what Preparoo's site actually does
+The main session used ug.preparoo.app in a browser. Their whole page is: a hero with six words of promise; "Make the CUET
+feel simple" with three small LIVE demos (a flashcard you can flip, notes, a mock); one "Ask Preparoo" frame whose four rows
+advance by themselves; the coverage section; pricing; FAQ. Six sections. Ours at /home-next has twelve blocks: the next
+trim should bring it nearer theirs.
+
+Their coverage method, from their own "See assumptions" panel: they checked 9,735 CUET 2026 questions across 12 subjects;
+7,137 (73%) "tested facts or methods already covered" in their mocks, chapter tests or flashcards. Theory question = they had
+taught the fact or concept needed to pick the right answer. Numerical = they had questions with the same formulas and steps.
+Every claimed match can be cross-checked: under each CUET question they show the matching Preparoo question or flashcard,
+and they show the questions they did NOT cover. They say plainly it is not a prediction.
+
+Ours, to build (owner: "They have picked the paper. They have scanned the questions and then just scan it from our database
+if they have it or don't have it. That's the way you do it"):
+1. Real CUET 2026 question papers, per subject and slot, from the official source, stored with their provenance (which
+   paper, which slot, which question number). No invented or remembered question text.
+2. For each real question: the bank questions (and Key cards) that teach the same fact, or use the same formula and steps.
+   A match is recorded with the ids on both sides and a one-line reason. A second, independent check must agree before a
+   match counts; a doubtful match counts as NOT covered.
+3. The figure = matched over checked, per subject and overall, with the count checked and the date. Shown with the real
+   questions under it, covered and not covered, each covered one showing the MockMob question that matches.
+4. The page shows it only for subjects where the whole exercise was done; never a figure for a subject that was sampled.
+Until this data exists the section keeps the true chapter coverage it shows now.
+- Sign-ups: "1,500+ students have signed up" is on the creators section (true floor: 1,493 plus 61).
