@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: cc0bf1af-4c1f-4097-81a5-97ba84470f41
-  modified: 2026-10-15T07:49:34.132Z
+  modified: 2026-11-20T18:19:44.254Z
 ---
 
 On 15 Oct 2026 at about 13:15 IST, the owner reviewed the Gate A previews of the website restructure (branch web/ia-1015, never deployed). He called it "a huge regression", "so basic compared to what we had before", "looking like the old website we had in 2025", and "far, far from the expectations".
@@ -53,5 +53,7 @@ See [[mockmob-design-direction]], [[features-over-retesting]], [[subagent-model-
   - Night mode must stay subtle, not neon.
   - A changed animation must be at least as good as the old one.
 - Ledger: docs/brain/OWNER-MASTER-LEDGER.md (see [[owner-master-ledger]]).
+
+20 Nov 2026, about 11:45 pm (owner, LK363): again, after he gave "complete freedom" for the final redesign. /home-next (a new 12-block page modelled on Preparoo) scored "at max a 6/10" against the live home's 8/10. He kept only the idea of one frame for the whole prep, and he wants that frame to show the ACTUAL product screens worked live by a cursor, not stand-in pieces fading in. The Lab rebuilt as four plain beats was "more basic and even harder to understand": "You just had to redo the screens." **How to apply:** even "complete freedom" means improving the accepted page in place. Start from the live page, swap only the parts he named, and reuse the product's real components (for example, the landing's ExamScreen), never simplified copies.
 
 18 Nov 2026, about 10 pm (owner, LK319, LK325, LK328): again. The rebuilt exam screen section and Practice page read as regressions against their previous versions, and he was unsure whether the new pricing card and DU Compass beat the old. **How to apply:** before replacing a section he has already accepted, capture old and new side by side and keep the old where it wins; put a figure's explanation beside the figure, not in a disclosure elsewhere.

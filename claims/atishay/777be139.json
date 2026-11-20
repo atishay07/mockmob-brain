@@ -4,17 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-20T18:12:10.734639+00:00",
+  "last_active": "2026-11-20T18:22:17.831015+00:00",
   "repo": "mockmob",
   "branch": "web/1118-prod",
   "cwd_name": "wt-1110-convert",
   "task": "",
   "touched": [
-    "src/components/home2/landingParts.js",
-    "src/components/home2/autoplay.mjs",
-    "src/components/home2/AutoFrame.jsx",
-    "src/components/home2/FullScreenTry.jsx",
-    "src/components/home2/PrepScreens.jsx",
     "src/components/home2/PrepFrame.jsx",
     "src/components/home2/LabBeats.jsx",
     "src/components/home2/RhythmRow.jsx",
@@ -46,12 +41,13 @@
     "src/app/home-next/page.js",
     "src/components/home2/coverageModel.mjs",
     "tmp/1120-speed/coverage/shots/cap.mjs",
-    "data/tests/coverage_2024.test.mjs",
-    "src/components/home2/pastPaperModel.mjs",
     "scripts/coverage/merge-2024.mjs",
     "data/tests/home_next_1120.test.mjs",
-    "src/components/home2/Coverage.jsx",
     "src/components/home2/home-next.css",
-    "src/components/home2/homeNextCopy.mjs"
+    "src/components/home2/homeNextCopy.mjs",
+    "src/components/home2/pastPaperModel.mjs",
+    "src/components/home2/Coverage.jsx",
+    "data/tests/coverage_2024.test.mjs",
+    "src/components/landing/demo/CursorDemo.jsx"
   ]
 }

@@ -6,7 +6,7 @@
 - [Quality bar and stop rule](quality-bar-and-stop-rule.md) — 14 Oct: next-level motion beyond Duolingo; checkpoint findings often; stop cleanly with handover at ~95% context or usage
 - [Disk hygiene](disk-hygiene.md) — 14 Oct: C: filled from agent temp leftovers; clean temp/builds after every run; launcher sweeps old leftovers
 - [Features over retesting](features-over-retesting.md) — 15-16 Oct: features and depth first; but every deploy passes tests plus a visual critique (390 and 1440, Night and Day) first; never quality for speed
-- [Web restructure rejected](web-restructure-rejected.md) — 15 Oct Gate A, 17 Oct result, 18 Oct R4 Today all called regressions: refine, don't rebuild; mock-up first; never cut; Night stays subtle
+- [Web restructure rejected](web-restructure-rejected.md) — 15 Oct Gate A, 17 Oct result, 18 Oct R4 Today, 20 Nov /home-next (6/10 vs live 8/10) all called regressions: refine the live page in place, real product components only, never cut
 - [Platform focus](platform-focus-mobile-first.md) — 15 Oct: landing mobile-first; arena desktop-first but phone-ready; app mobile only; no sub-remarks; act as CTO polishing details; may deploy landing when satisfied
 - [CTO mode, standing goal](cto-mode-standing-goal.md) — 15 Oct PM: act autonomously as CTO; his 16:30 feedback is a goal until done (docs/brain/OWNER-VISION-2026-10-15-PM.md); build-test-refine nonstop
 - [Owner UX research brain](owner-ux-research-brain.md) — 16 Oct: his Premium UX/UI research for MockMob; design agents follow AGENT_RULES, cite evidence IDs, 12-part anti-slop test, 0/1/2 rubric, DESIGN_DECISIONS; research wins over older rules
@@ -76,4 +76,4 @@
 - [Pre-gate checks](pre-gate-checks.md) — 18 Nov: run test:app and landing_checklist_1104 by hand before the gate; lanes only run their named suites (G26 slip, L-040 slip)
 - [Desktop separate and richer](desktop-separate-and-richer.md) — 19 Nov: desktop judged buggier than phone; walk 1440 with a real wheel; richer cursor/scroll/click motion on desktop
 - [Percent from a counted list](percent-from-a-counted-list.md) — 19 Nov: no round "85%"; count his items done and verified over total, show the list with the number
-- [Final redesign pass](final-redesign-pass.md) — 20 Nov: home-next is THE final redesign; compile all ledger feedback first, think long, free to remove or add; live home changes only on his word
+- [Final redesign pass](final-redesign-pass.md) — 20 Nov: /home-next rebuild rejected (6/10 vs live 8/10); final pass = live home + one frame of REAL screens worked by a cursor + Lab screens redone; no coverage section
