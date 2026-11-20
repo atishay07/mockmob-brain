@@ -1,0 +1,24 @@
+{
+  "id": "20261120T200127.378289Z-6c3dabd6",
+  "observed_at": "2026-11-20T20:01:27.378289+00:00",
+  "agent": "claude-opus-5.5 (orchestrator, 21 Nov early)",
+  "task": "Final redesign after LK363: /home-next on the live home with real screens worked by a cursor; Lab screens redone; CUET 2026 coverage",
+  "status": "active",
+  "done": "LIVE = main 2d2db4184 (pushed 1:28 am on 21 Nov, serving from 1:30 am; rollback e3d15ca10). /home-next is now the live home plus one section of real components worked by CursorDemo: ExamStage in MockMob and NTA style, KeyCardsDemo, and BringMistakeCard in one app window. The Lab's look=next is the result page's own UI with a cursor, and the live / is unchanged. Also live: the signed-in phone pass (13 screens, 5 fixes) and the PlanValue key warning fix. CUET 2026 coverage is committed as data in data/coverage/cuet2026: NTA master papers from AglaSem (the owner approved the download), with 150 of 150 ids authenticated against NTA's 2026 key. Two checkers per paper: Accountancy 38/55, Economics 32/45, Business Studies 30/49, total 100/149 (67.1%). It is not shown on any page.",
+  "next": "1) When lane-speed reports: review its numbers, commit its files (PipGuide, MobiReact, CollegeStrip, DesktopCursor, LoadingKit, TourDeck, PauseOffscreen, college-strip.css, r14-companion.css, home-sheets.css), then run the full gate in wt-1116-next and push as a fast-forward. 2) The owner's look at https://www.mockmob.in/home-next. Switch / only on his word. 3) If he asks: author the confirmed 2026 gaps (13 Accountancy numerical templates, Financial Markets, Directing, the Economics sums), and/or show the 2026 coverage on the site.",
+  "blockers": [
+    "lane-speed still running (uncommitted files in wt-1110-convert)"
+  ],
+  "evidence": [
+    "wt-1116-next/tmp/gate2.log (2d2db4184: 24 suites fail 0, eslint empty, webpack and turbopack exit 0, DONE)",
+    "data/coverage/cuet2026/README.md",
+    "tmp/1121-oneplace/ (shots, videos)",
+    "tmp/1121-lab/COMPARE.md",
+    "tmp/1121-app-phone/INDEX.md"
+  ],
+  "touched_files": [],
+  "verification": "Live check on www.mockmob.in/home-next at 375x812 in the in-app browser: 200 status with noindex, nofollow; absent from the sitemap; / has no new section. Section order: colleges, try, your-prep, inside-the-lab, daily-and-sunday, compass, pricing, on-instagram, faq. The frame is live and the cursor is visible on the exam screen. No console errors, no sideways overflow. Not checked: his real phone, iPhone Safari, slow-CPU numbers on the live build.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}

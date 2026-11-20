@@ -2,6 +2,12 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 21 Nov 2026, 1:30 am IST: LIVE = main 2d2db4184 (new /home-next on the live home; signed-in phone pass; 2026 coverage as data); rollback = e3d15ca10
+- /home-next = the live home plus "Your whole CUET prep, in one place." (OnePlace.jsx: ExamStage, KeyCardsDemo, BringMistakeCard, each worked by `src/components/landing/demo/CursorDemo.jsx`), and the Lab with `look="next"` (LabNextScreens.jsx, lab-next.css). `/` is unchanged; its Lab is the default look.
+- CUET 2026 coverage: `data/coverage/cuet2026/` (papers, ids, A and B checks, README). 100 of 149 covered. Not shown on any page; showing it waits for his word.
+- Running: lane-speed (phone scroll and load on the home page); its uncommitted files are PipGuide, MobiReact, CollegeStrip, DesktopCursor, LoadingKit, TourDeck, PauseOffscreen, college-strip.css, r14-companion.css, home-sheets.css. They need a full gate before they ship.
+- The local branch `wip/coverage-ui-1120` (the parked 2024 coverage section) must never be pushed.
+
 ## 20 Nov 2026, 11:55 pm IST: HIS VERDICT on /home-next (LK363): 6/10 against the live home's 8/10. LIVE = main e3d15ca10 (the real home is unchanged; /home-next is noindex). Building the next /home-next now
 - **His verdict:** keep the live home as the base. Keep the idea of one frame for the whole prep, but each of its screens must be the product's ACTUAL screen, worked live by a cursor for 5 to 8 s (for example, the exam screen switching between MockMob and NTA style while questions are answered). The Lab goes back to the live Lab story, with its screens redone. No coverage section on the home page; the eventual goal is the CUET 2026 paper (LK362). Memories updated: web-restructure-rejected, final-redesign-pass.
 - **In progress (two Opus lanes, dev server on port 3571):**
