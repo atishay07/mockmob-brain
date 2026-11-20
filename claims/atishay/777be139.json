@@ -4,7 +4,7 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-20T22:16:23.886117+00:00",
+  "last_active": "2026-11-20T23:07:29.451637+00:00",
   "repo": "mockmob",
   "branch": "web/1118-prod",
   "cwd_name": "wt-1110-convert",
@@ -41,7 +41,8 @@
     "tmp/1121-lab/COMPARE.md",
     "tmp/1121-critic/oneplace2.mjs",
     "tmp/1121-oneplace/fonts.mjs",
+    "tmp/1121-emulator/evalpage.mjs",
     "tmp/1121-emulator/collect.mjs",
-    "tmp/1121-emulator/evalpage.mjs"
+    "tmp/1121-weight/measure.mjs"
   ]
 }
