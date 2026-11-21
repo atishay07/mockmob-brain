@@ -1341,3 +1341,8 @@ Things the next agent should know:
   streak rewards; showing the CUET 2026 coverage; authoring the coverage gaps.
 - Known, not fixed: under reduced motion ScrollStory's `fitAll` can measure before the display font loads and fit the
   Repair smaller at 360x676 (text smaller, not cut); a Compass row's words can lag its tick for a moment on a slow phone.
+
+
+## 22 Nov 2026, 3:33 AM IST (orchestrator, Claude Fable 5.2): LK367 released, main 6ad2c7f63
+
+LIVE = main 6ad2c7f63 (rollback aa15bc996). Outcome and open points: ledger row "LK367 outcome". Evidence: `wt-1110-convert/tmp/1122-lk366/` (films, cov-both.jpg, lab-nudge.jpg), gate log in `wt-1116-next/tmp/gate2.log`. Open with the owner: which earlier Lab screens to roll back to; Daily Five for a newcomer; the "most advanced" wording; NCERT line references inside the product. He has an overnight task to brief next. Working rule: small passes in the main session, agents only when they speed things up.
