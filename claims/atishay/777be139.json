@@ -4,15 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-21T22:16:51.971750+00:00",
+  "last_active": "2026-11-21T22:27:01.469914+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "tmp/1121-stories/HANDOFF.md",
-    "tmp/1122-lk366/sect.mjs",
-    "tmp/1122-lk366/tile.py",
     "tmp/1122-lk366/COMMON.md",
     "tmp/1122-lk366/edit_kc.py",
     "tmp/1122-lk366/compass-film.mjs",
@@ -49,6 +46,9 @@
     "src/components/landing/CoverageProof.jsx",
     "src/components/landing/coverage-proof.css",
     "src/components/landing/coverage2026.test.mjs",
-    "tmp/1122-lk366/edit_cov.py"
+    "tmp/1122-lk366/edit_cov.py",
+    "tmp/1122-coverage/UI-SPEC.md",
+    "tmp/1122-coverage/SCOUT.md",
+    "scripts/coverage/build-public.mjs"
   ]
 }
