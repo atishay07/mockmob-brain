@@ -4,18 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-21T16:27:47.481640+00:00",
+  "last_active": "2026-11-21T16:37:50.207170+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "data/tests/pricing_steps_hit_1121.test.mjs",
-    "src/components/daily/dailyMineUi.mjs",
-    "src/components/daily/DailyWhy.jsx",
-    "tmp/1121-stories/daily-landing/edit_row.py",
-    "src/components/daily/DailyEnd.jsx",
-    "tmp/1121-stories/daily-landing/edit_copy.py",
     "tmp/1121-stories/fixes/cscroll.mjs",
     "tmp/1121-stories/daily-landing/edit_today.py",
     "src/components/daily/daily-mine.css",
@@ -58,6 +52,12 @@
     "tmp/1121-stories/critic-rest/compass.mjs",
     "tmp/1121-stories/critic-rest/picker.mjs",
     "tmp/1121-stories/critic-phone/interact.mjs",
-    "tmp/1121-stories/critic-rest/nudge.mjs"
+    "tmp/1121-stories/critic-rest/nudge.mjs",
+    "tmp/1121-stories/critic-rest/nudge2.mjs",
+    "tmp/1121-stories/critic-rest/dailyfilm.mjs",
+    "tmp/1121-stories/critic-rest/sweep.mjs",
+    "tmp/1121-stories/critic-rest/jump.mjs",
+    "tmp/1121-stories/critic-rest/dailyshift.mjs",
+    "tmp/1121-stories/critic-rest/dailypage.mjs"
   ]
 }
