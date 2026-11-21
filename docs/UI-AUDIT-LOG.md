@@ -437,3 +437,21 @@ Candidate main 10ef17bf0814e95289a07dcc0af75f85269693e5. Chrome viewports 390×8
 The release gate in wt-1116-next/tmp/gate2.log passed all 24 suites, ESLint, Webpack and Turbopack. The separate landing checklist passed 43 with 12 existing TODOs. Production Chrome smoke at 390×844 light, 360×676 dark and 1440×900 light confirmed Daily CTA hit testing, Compass autoplay and Pause, pricing edge taps and the hidden Android nudge. The live short-phone film reached all six rows in 12.6–14.5 seconds each with 26 of 26 cursor presses in the viewport and on the right controls. Its console had CSS preload warnings only. Compass on live Chrome at 390×844 with 6× CPU slowdown measured six frames over 50 ms out of 172 playing, versus zero out of 288 paused. Signed-out GET /api/daily/mine returned 401. Vercel had no [daily-mine] events and no /api/daily/mine error or fatal entries in the first 5 minutes 19 seconds after READY.
 
 No personal five was tried signed in on production. No owner device or iPhone hardware was tested.
+
+
+## 22 Nov 2026, 2:23 AM IST: LK366 release aa15bc996 (orchestrator's own look)
+
+Looked at with Chrome, phone context (touch, Android user agent, CPU 6x) at 390x844 light and 360x676 dark, and 1440x900
+light with a mouse wheel. Films and contact sheets: `wt-1110-convert/tmp/1122-lk366/`.
+
+| Area | Before (release 10ef17bf0) | After |
+|---|---|---|
+| One place, Practise | Olive outline boxes round groups, the rest at 0.4; 12.3 s scripted | No box, nothing dimmed; three beats, 10.7 s scripted. `film-390x844-light/sheet-practise-1.jpg`, `film-360x676-dark/` |
+| One place, Key cards | Card dimmed while rating, box round the keys, third line with nothing shown; 11.5 s | No box; the rated card is filed with a time line ("This card is back in 3 days."); 10.1 s. `kc-both.jpg` |
+| One place, desktop | n/a | Plays with no boxes once the working screen's foot is in the window. `orchdesk-1440x900-light/sheet-1.jpg` |
+| Mistake Lab | Five scenes over in 11 s (`lab2-390x844-light/`); device cut by the band before the pin | About 7 s a scene, 35 s in all; content whole at both phone sizes; glides in and plays from the approach. `orchlab-390x844-light/sheet-1.jpg` |
+| Daily Five | Five layers of words, a card in a card, 3 s beats, demo cut by the window (`daily-390x844-light/`) | One surface, plain captions, 3.6 s or more a beat, always in view. `daily-card-390x844-light/sheet-1.jpg` |
+| Compass | Bars jump 3 px a step, no easing | Glide: median movement 0.14 px a frame (lane measurement) |
+| Android nudge | Not reachable on the live site | `/?appnudge=1`: `nudge-390x844-light/f001.jpg` |
+
+Not looked at: a real phone, an iPhone, the Daily block's signed-in states, the Lab's 10-arrival test at 360x676.

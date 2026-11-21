@@ -1,0 +1,38 @@
+{
+  "id": "20261121T205410.412123Z-8ac88b67",
+  "observed_at": "2026-11-21T20:54:10.412123+00:00",
+  "agent": "claude-fable-5.2 (orchestrator, 22 Nov early morning)",
+  "task": "LK366: the owner's verdict on the live home after LK365, fixed and released",
+  "status": "complete",
+  "done": "LIVE = main aa15bc996 since 22 Nov 2026 about 2:22 am IST (fast-forward from 10ef17bf0, the rollback target; Vercel dpl_5vxT6cAmtUDDTTiYpu3gxpqea6S6 READY). Practise and Key cards rows of the one-place frame: stress boxes and dimming removed, three beats each, about 10 s; Key cards shows a filed card with a time line when rated. Ask Mobi and Learn lines made plainer. Mistake Lab: one pace, about 7 s a scene (was 11 s for all five), Repair has two real taps, nothing clipped on a phone, plays only when whole and glides to its resting place when a reader stops with its heading in the top half of the window. Daily Five block: one surface, plain sub line, four beats of 3.6 s or more, demo always in view. Compass bars glide again (Web Animations, transform). /?appnudge=1 previews the Android nudge on the live site. Benchmarks confirmed as the real /rival screen.",
+  "next": "Wait for the owner's verdict on his phone. Open and his to decide: the Lab's new glide into place; college board and Mob strip mixing personal and shared fives; money-value streak rewards; showing CUET 2026 coverage; authoring coverage gaps. Known, not fixed: ScrollStory fitAll can measure before fonts load under reduced motion (Repair fits smaller at 360x676); a Compass row's words can lag its tick briefly on a slow phone. Do not bring outline boxes back to the two real screens.",
+  "blockers": [],
+  "evidence": [
+    "wt-1116-next/tmp/gate2.log (aa15bc996: 24 suites fail 0, eslint empty, both builds exit 0, DONE)",
+    "wt-1110-convert/tmp/1122-lk366/ (films before and after, suites/, lane sheets)",
+    "mockmob-brain/docs/OWNER-MASTER-LEDGER.md rows LK366 and LK366 outcome",
+    "mockmob-brain/docs/UI-AUDIT-LOG.md section 22 Nov LK366"
+  ],
+  "touched_files": [
+    "src/components/landing/onePlaceModel.mjs",
+    "src/components/landing/one-place.css",
+    "src/components/landing/KeyCardsDemo.jsx",
+    "src/components/landing/key-cards.css",
+    "src/components/landing/LabNextScreens.jsx",
+    "src/components/landing/LabCinema.jsx",
+    "src/components/landing/lab-next.css",
+    "src/components/landing/CompassLadder.jsx",
+    "src/components/daily/DailyFiveRow.jsx",
+    "src/components/daily/DailyStory.jsx",
+    "src/components/daily/dailyStoryScript.mjs",
+    "src/components/daily/dailyStripCopy.mjs",
+    "src/components/landing/androidNudge.mjs",
+    "src/components/landing/AndroidAppNudge.jsx",
+    "src/components/landing/stories/mobiStory.mjs",
+    "src/components/landing/stories/learnStory.mjs"
+  ],
+  "verification": "All 24 suites locally and in the gate, landing checklist 43 pass. My own films in Chrome (phone context, CPU 6x): 390x844 light and 360x676 dark for the rows, the Lab and the nudge; 1440x900 for the frame. Live checks: the Lab film on www.mockmob.in shows scene changes at about 7.3, 14.4, 22.2 and 29.3 s; the nudge shows with ?appnudge=1 and stays hidden without it; /api/daily/mine answers 401 signed out. Not checked: the owner's phone, any iPhone, the Daily block's signed-in states, Compass smoothness on the live build (lane measured it on the dev build).",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}

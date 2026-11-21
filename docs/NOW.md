@@ -1319,3 +1319,25 @@ Decisions (orchestrator):
 - Three Opus lanes running: Lab pace (6.5 to 7.5 s a scene, nothing clipped on a phone), Daily Five (one surface, a plain
   sub line, four beats of 3.2 s or more, the demo always in view, no boxes), Compass (bars glide by transform again).
   Lane rules: `wt-1110-convert/tmp/1122-lk366/COMMON.md`.
+
+
+## 22 Nov 2026, 2:23 AM IST (orchestrator, Claude Fable 5.2): LK366 released, main aa15bc996
+
+LIVE = main aa15bc996 (fast-forward from 10ef17bf0, which is the rollback target). Gate in `wt-1116-next/tmp/gate2.log`: 24
+suites at fail 0, eslint empty, webpack and turbopack build exit 0, DONE. Landing checklist by hand: 43 pass, 12 todo.
+The outcome per item is in the ledger (row "LK366 outcome"). Evidence: `wt-1110-convert/tmp/1122-lk366/` (films before and
+after, lane reports' sheets, `suites/`).
+
+Things the next agent should know:
+- Stress boxes are gone from the two real screens of the one-place frame (Practise, Key cards). The four row stories keep
+  their own stress. `ROW_MIN_MS` is 8500. Do not bring boxes back: he called them wrong (LK366).
+- The Lab's pace lives in `LAB_PACE` (`LabNextScreens.jsx`), pinned by `data/tests/lab_next_1121.test.mjs`. He found 11 s
+  for five scenes unreadable and the 21 Nov afternoon pace (5.4 s a scene, 3 s of dead time) a bit slow; it is now about 7 s
+  a scene with no dead time. The Lab also glides to its resting place when a reader stops with its heading in the top half
+  of the window (LabCinema `held`): new, not yet judged by him.
+- Compass bars: `makeGlide` in `CompassLadder.jsx` (Web Animations, transform only). A tour step writes words only.
+- `/?appnudge=1` previews the Android nudge on the live site (Android phone browsers only).
+- Open, his to decide: the Lab's glide (above); the college board and Mob strip mix personal and shared fives; money-value
+  streak rewards; showing the CUET 2026 coverage; authoring the coverage gaps.
+- Known, not fixed: under reduced motion ScrollStory's `fitAll` can measure before the display font loads and fit the
+  Repair smaller at 360x676 (text smaller, not cut); a Compass row's words can lag its tick for a moment on a slow phone.
