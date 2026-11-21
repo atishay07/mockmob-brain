@@ -1248,3 +1248,30 @@ Owner rules this evening: D185 (Get Pro, never "See Pro plans"; no text bombardm
 - **Next session (owner's words tomorrow first):** the three medium walk items (explainer slides 3-6 text density; Today date at text 1.3; repairOpen note next to the repair hero); the web hero rotation phrase "See the lost marks." (owner's call, like D194); Day theme product cards on the website; dense /cuet pages; nudges and welcome sheet on a real account; Supabase staging transfer on 22 Oct afternoon (grace ends); Mob hours on the web; promo video (Desktop\MockMob-promo-kit, another session is cutting the teaser in Claude Motion).
 - **Branches merged into ui/1020-v16:** nudges, welcome, mobwelcome, sweep, fixa (Wallet deep link), walk (Mob clips). Worktrees kept: wt-1020-v16 (app, final), wt-1020-web16 (web, = main), wt-1020-v15app/walk, wt-v15-3; the v16 side worktrees can be removed with scripts/remove_worktree.sh.
 - **Disk:** 1 GB -> ~120 GB free; rules in scripts/sweep_build_output.sh and remove_worktree.sh (junction-safe). Owner's own: Documents\Wondershare 119 GB.
+
+
+## 21 Nov 2026, 8:10 pm IST (orchestrator, Claude Fable 5.2): the owner's notes on the live home (LK365), round started
+
+LIVE is still main 459b9dd3d (the new home, since 3:05 pm). Nothing from this round is committed yet.
+
+His 12 items (ledger LK365): one-place rows too fast and unexplained; Ask Mobi as a film of the real flow (photograph the
+paper, Mobi reads it, the read, the check, the practice); Learn, Benchmarks and the Mob shown working, not as paragraphs;
+the Mistake Lab moves on the moment a scene ends and stacks like cards; the Daily Five rethought or removed; the streak
+worth using; DU Compass never pauses by itself; pricing's subject picker (end numbers); an Android-only app nudge.
+
+Decisions taken (orchestrator):
+- Rows become captioned stories. `CursorDemo` steps now take `say` (the beat's line, reported through `onSay`) and `focus`
+  (the stressed element carries `data-demo-focus`). Story contract and the round's rules: `wt-1110-convert/tmp/1121-stories/COMMON.md`.
+  New story files go under `src/components/landing/stories/` with a dev-only harness (`StoryPreview.jsx`, pages
+  `/preview/story-<id>`).
+- Daily Five rethink = "Your five": a signed-in student's five are built from their own record (2 missed, 2 from weak
+  chapters, 1 from their subjects), wrong picks feed their mistakes, the shared five stays for guests and the Android app.
+  New route `GET /api/daily/mine`, no migration, kill switch `DAILY_MINE_ENABLED`, fail-soft to the shared five. Spec:
+  `wt-1110-convert/tmp/1121-stories/DAILY-SPEC.md`; the server's shapes: `tmp/1121-stories/daily/CONTRACT.md`.
+- Android nudge: the Play listing of in.mockmob.app answers 404 today (checked), so the nudge is built OFF behind the
+  existing `PLAY_LISTING_PUBLIC` switch. It turns on when the owner sets that env value after the listing is public.
+- Streak rewards with money value (credits, free mocks) are NOT built: proposals for the owner only.
+
+Running: workflow `home-lk365` (run wf_5bacbd5a-f61), all agents Opus: four story lanes, frame, Android nudge, Lab,
+Compass and picker, Daily server then review, page and home section, streak; then integrate, assemble (24 suites), three
+critics, fixers, a final check. After it: the orchestrator's own look, the full gate in wt-1116-next, a fast-forward push.
