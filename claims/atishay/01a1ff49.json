@@ -4,7 +4,7 @@
   "session": "01a1ff49-f50b-7ed0-b512-e054775df769",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-21T18:06:48.579742+00:00",
-  "last_active": "2026-11-21T18:56:49.739379+00:00",
+  "last_active": "2026-11-21T19:15:50.783184+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
@@ -37,7 +37,7 @@
     "src/components/landing/CompassLadder.jsx",
     "tmp/1121-stories/codex-oneplace/film.mjs",
     "tmp/1121-stories/codex-oneplace/surfaces.mjs",
-    "tmp/1121-stories/codex-oneplace/record-release.ps1",
-    "data/tests/compass_tour_1121.test.mjs"
+    "data/tests/compass_tour_1121.test.mjs",
+    "tmp/1121-stories/codex-oneplace/record-release.ps1"
   ]
 }
