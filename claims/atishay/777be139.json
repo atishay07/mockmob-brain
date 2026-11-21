@@ -4,7 +4,7 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-21T02:38:51.873368+00:00",
+  "last_active": "2026-11-21T02:49:42.922255+00:00",
   "repo": "mockmob",
   "branch": "web/1118-prod",
   "cwd_name": "wt-1110-convert",
@@ -45,6 +45,8 @@
     "tmp/1121-oneplace/deskmobi.mjs",
     "src/components/landing/idleQueue.mjs",
     "tmp/1121-weight/mutprobe.mjs",
-    "tmp/1121-weight/compass/trace.mjs"
+    "tmp/1121-weight/compass/trace.mjs",
+    "tmp/1121-weight/compass/tan.mjs",
+    "tmp/1121-weight/compass/parked.mjs"
   ]
 }
