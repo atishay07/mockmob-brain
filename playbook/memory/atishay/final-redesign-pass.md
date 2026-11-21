@@ -1,22 +1,19 @@
 ---
 name: final-redesign-pass
-description: "20 Nov 2026: the final website redesign; the /home-next rebuild was rejected (6/10 vs live 8/10), so the final pass refines the LIVE home with real product screens worked by a cursor"
+description: "20-21 Nov 2026: the final website redesign; after a rejected rebuild, the live home was refined with real product screens worked by a cursor, and on 21 Nov 3:05 pm he had it switched live as the real home"
 metadata:
   node_type: memory
   type: project
   originSessionId: 777be139-a000-4c98-9286-70590b597225
-  modified: 2026-11-20T18:19:55.494Z
+  modified: 2026-11-21T09:40:28.776Z
 ---
 
-On 20 Nov 2026 (about 9:25 pm, ledger LK361, after LK360 where he compared the site with Preparoo's) Atishay said: "this is the final on the website redesign ... it should be our best, most polished version in every way possible ... You have complete freedom to remove anything, add anything, or do anything in this pass."
+On 20 Nov 2026 (LK361) Atishay called this "the final on the website redesign". The first /home-next (a new 12-block page) scored "at max a 6/10" against the live home's 8/10 (LK363). It was then rebuilt on the live home. An independent Opus critic scored it after every release overnight (7.0, 8.0, 8.5, 8.7, 9.0 against 7.5 for the old home). After his LK364 notes he said "Switch it live" on 21 Nov, and since 3:05 pm (main 459b9dd3d) `/` is the new page. /home-next redirects (308) to `/`.
 
-At about 11:45 pm the same night (LK363) he scored the built /home-next "at max a 6/10" against the live home's 8/10: "I didn't like this direction that much."
-
-**Why:** he wants a newcomer to understand the product the way Preparoo's page explains theirs: the product's ACTUAL screens, worked live by a cursor, one after another. He does not want a new page structure.
+**Why:** he wants a newcomer to understand the product from its ACTUAL screens, worked live by a cursor, the way Preparoo's page does.
 
 **How to apply:**
-- The base is the live home (`src/app/page.js`). Keep its sections and its Mistake Lab story, and redo the Lab's screens.
-- Unify the tool sections into one frame whose rows are the real components (the landing's ExamScreen in MockMob and NTA style, Key cards, Ask Mobi), worked by a scripted cursor for about 5 to 8 seconds each.
-- No coverage section on the home. The CUET 2024 coverage data is kept, but not shown. The real goal is the CUET 2026 paper (LK362), once a source for its question text exists.
-- Preview at /home-next first. The live home changes only on his word ([[web-restructure-rejected]]).
+- The home is now `src/app/page.js` with OnePlace (six rows: Practise, Key cards, Ask Mobi, Learn, Benchmarks, the Mob) and `<LabCinema look="next" />`.
+- On phones, Practise plays the real phone exam inline. The frame autoplays from its heading to the end. The Lab plays itself until a touch.
+- Future home work refines this page in place ([[web-restructure-rejected]]). Run an independent critic round after big changes; it caught what screenshots missed.
 - Phone first ([[platform-focus-mobile-first]]). Report with a counted list ([[percent-from-a-counted-list]]).
