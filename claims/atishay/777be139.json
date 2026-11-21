@@ -4,15 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-21T06:52:09.162929+00:00",
+  "last_active": "2026-11-21T07:05:06.588287+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "tmp/1121-weight/labdbg.mjs",
-    "tmp/1121-weight/edit_gates.py",
-    "tmp/1121-weight/strip.py",
     "tmp/1121-weight/flip.mjs",
     "tmp/1121-weight/restdiff.mjs",
     "src/components/landing/key-cards.css",
@@ -44,6 +41,8 @@
     "src/components/landing/lab-next.css",
     "tmp/1121-oneplace/trigger.mjs",
     "tmp/1121-lab/autoplay.mjs",
-    "tmp/1121-oneplace/widths.mjs"
+    "tmp/1121-oneplace/widths.mjs",
+    "tmp/1121-oneplace/pressall.mjs",
+    "tmp/1121-oneplace/runvideo.mjs"
   ]
 }
