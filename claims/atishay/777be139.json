@@ -4,17 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-21T06:27:01.464396+00:00",
-  "repo": "mockmob",
-  "branch": "web/1118-prod",
-  "cwd_name": "wt-1110-convert",
+  "last_active": "2026-11-21T06:34:10.649934+00:00",
+  "repo": "",
+  "branch": "",
+  "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "tmp/1121-weight/measure.mjs",
-    "tmp/1121-weight/cssof.mjs",
-    "data/tests/keycards_public.test.mjs",
-    "src/components/landing/OnePlaceGate.jsx",
-    "tmp/1121-weight/edit_oneplace.py",
     "tmp/1121-weight/edit_dock.py",
     "src/components/landing/LabNextGate.jsx",
     "tmp/1121-weight/edit_lab.py",
@@ -48,6 +43,8 @@
     "src/components/landing/CompassLadder.jsx",
     "tmp/1121-weight/compass/cbsec.mjs",
     "tmp/1121-weight/compass/secs.mjs",
-    "tmp/1121-weight/compass/restshot.mjs"
+    "tmp/1121-weight/compass/restshot.mjs",
+    "src/components/landing/LabNextScreens.jsx",
+    "src/components/landing/useLabAutoplay.js"
   ]
 }
