@@ -4,17 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-21T21:18:42.947273+00:00",
+  "last_active": "2026-11-21T21:39:41.577808+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "src/components/landing/stories/MobiStory.jsx",
-    "tmp/1121-stories/fix-oneplace/edit_learn.py",
-    "tmp/1121-stories/fix-oneplace/edit_rival.py",
-    "tmp/1121-stories/fix-oneplace/edit_home_test.py",
-    "tmp/1121-stories/fix-oneplace/edit_story_tests.py",
     "tmp/1121-stories/fix-oneplace/edit_home_test2.py",
     "tmp/1121-stories/fix-misc/check.mjs",
     "tmp/1121-stories/fix-misc/small.mjs",
@@ -53,6 +48,11 @@
     "src/components/landing/LabNextScreens.jsx",
     "tmp/1122-lk366/daily-tools/measure.mjs",
     "src/components/landing/lab-next.css",
-    "tmp/1122-lk366/edit_p2.py"
+    "tmp/1122-lk366/edit_p2.py",
+    "tmp/1122-lk366/edit_kc4.py",
+    "src/components/landing/android-app-nudge.css",
+    "tmp/1122-lk366/edit_app.py",
+    "tmp/1122-lk366/edit_pins2.py",
+    "src/components/landing/coverage2026.mjs"
   ]
 }
