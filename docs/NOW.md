@@ -2,6 +2,8 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 21 Nov 2026, 9:14 am IST: LIVE = main ca5c8f946 (the DU Compass tour waits while the page scrolls: phone Compass slow frames 9 to 1 on /home-next, 4 to 1 on /; the cause was the Lab still drawn one section above). Rollback = cf954f745
+
 ## 21 Nov 2026, 8:20 am IST: LIVE = main cf954f745 (/home-next, critic round 5 fixes); rollback = 216a21369. Morning report sent
 - The phone exam pane stops on whole rows with a soft fade, the shorter phone rows are centred, and the frame and the Lab load in idle time after the opening. A Lab scene already on stage goes live as soon as its code arrives.
 - Still open: on a phone, /home-next has more slow scroll frames per 1,000 px than `/` (about 3 against 1.9), mostly in the shared Compass section. lane-compass-jank is investigating, and will fix only if the fix is clean.
