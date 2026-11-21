@@ -1292,3 +1292,30 @@ Your Five has no migration. The guest and Android shared five still use the exis
 | **Live** | `10ef17bf0` is READY on www.mockmob.in. All 24 suites, the landing checklist, ESLint and both builds passed. Chrome smoke checks passed at all three requested sizes. |
 | **Left from LK365** | No implementation work remains. The Android nudge stays off while Google Play returns 404. A signed-in production Your Five run, the owner's phone and iPhone hardware remain unchecked. Cash-value streak rewards are proposals. |
 | **Brain** | The LK365 ledger, NOW, UI audit and Continuum checkpoint agree. Ready for the next feedback prompt. |
+
+
+## 22 Nov 2026, 1:25 am IST (orchestrator, Claude Fable 5.2): LK366, the owner's verdict on release 10ef17bf0, round in progress
+
+LIVE is main 10ef17bf0 (LK365). Nothing from this round is committed yet. His words are in the ledger, row LK366.
+
+What he likes (approved taste, keep): the captioned story direction of the one-place rows, the Ask Mobi film, the Mob story,
+Benchmarks, the Lab's stacked cards with the automatic hand-off, the Compass tour that never pauses by itself.
+
+What I measured before changing anything (phone 390x844, CPU 6x, films in `wt-1110-convert/tmp/1122-lk366/`):
+- Practise and Key cards rows: hard olive outline boxes round whole groups with the rest dimmed to 0.4, 12 to 14 s a row.
+- Mistake Lab: all five scenes over in 11 s (scene changes at about 2.0, 5.0, 9.0, 10.6 s). Device content clipped on a phone.
+- Daily Five section: five layers of words, a card in a card, beats of about 3 s, the demo cut by the window's bottom.
+- Compass bars: stepping in 10-point jumps with no transition (the 21 Nov jank fix removed it).
+
+Decisions (orchestrator):
+- Practise and Key cards: no stress boxes and no dimming on the two real screens; three beats each, about 10 s; the Key cards
+  third line is now shown (the rated card is filed: "This card is back in 3 days." with a time line, `KeyCardsDemo.jsx`
+  FILE_MS 1500). `ROW_MIN_MS` 8500; the four row stories keep 11 to 13 s.
+- Ask Mobi first line: "Photograph a school or coaching question you got wrong." Learn lines 3 and 4: "Then a quick card
+  checks you remember it." and "Miss one and that card comes back sooner."
+- Android nudge: `/?appnudge=1` now previews it on an Android phone on the live site too (always drawn hidden; a note says
+  the listing is not public). Without the query it still needs `PLAY_LISTING_PUBLIC=true`.
+- Benchmarks checked: it is the real `/rival` screen (levels, timed run, result against the target) plus the Ranks standing.
+- Three Opus lanes running: Lab pace (6.5 to 7.5 s a scene, nothing clipped on a phone), Daily Five (one surface, a plain
+  sub line, four beats of 3.2 s or more, the demo always in view, no boxes), Compass (bars glide by transform again).
+  Lane rules: `wt-1110-convert/tmp/1122-lk366/COMMON.md`.
