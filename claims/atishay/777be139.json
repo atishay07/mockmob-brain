@@ -4,14 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-21T06:34:10.649934+00:00",
+  "last_active": "2026-11-21T06:41:23.622048+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "tmp/1121-weight/edit_dock.py",
-    "src/components/landing/LabNextGate.jsx",
     "tmp/1121-weight/edit_lab.py",
     "tmp/1121-weight/check.mjs",
     "tmp/1121-weight/labdbg.mjs",
@@ -26,7 +24,6 @@
     "tmp/1121-weight/labwalk.mjs",
     "tmp/1121-weight/edit_tests.py",
     "tmp/1121-weight/edit_sync.py",
-    "src/components/landing/lab-next.css",
     "tmp/1121-weight/barshots.mjs",
     "tmp/1121-weight/summary.mjs",
     "tmp/1121-oneplace/phoneseq.mjs",
@@ -45,6 +42,8 @@
     "tmp/1121-weight/compass/secs.mjs",
     "tmp/1121-weight/compass/restshot.mjs",
     "src/components/landing/LabNextScreens.jsx",
-    "src/components/landing/useLabAutoplay.js"
+    "src/components/landing/useLabAutoplay.js",
+    "src/components/landing/lab-next.css",
+    "tmp/1121-oneplace/trigger.mjs"
   ]
 }
