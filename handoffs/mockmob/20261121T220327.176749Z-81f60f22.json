@@ -1,0 +1,20 @@
+{
+  "id": "20261121T220327.176749Z-81f60f22",
+  "observed_at": "2026-11-21T22:03:27.176749+00:00",
+  "agent": "claude-fable-5.2 (orchestrator, 22 Nov 3:33 am)",
+  "task": "LK367: phone Practise, Key cards as NCERT lines, app section, CUET 2026 coverage section, released",
+  "status": "complete",
+  "done": "LIVE = main 6ad2c7f63 since 22 Nov 2026 3:33 am IST (rollback aa15bc996). Phone Practise row shows the whole question and ends in NTA style on Mark for Review and the palette; Key cards are highlighted NCERT lines without pictures; Ask Mobi tag; Lab object removed; Android app section above the FAQ with a Google Play key; new #cuet-2026 coverage section (67%, by subject).",
+  "next": "Owner will brief an overnight task. Open with him: which earlier Mistake Lab screens to roll back to; Daily Five clarity for a newcomer; \"most advanced\" wording for the Ask Mobi tag; NCERT line references inside the product. The Lab's bottom cut on his phone was not reproduced.",
+  "blockers": [],
+  "evidence": [
+    "wt-1116-next/tmp/gate2.log (6ad2c7f63: 24 suites fail 0, eslint empty, both builds 0, DONE)",
+    "wt-1110-convert/tmp/1122-lk366/",
+    "mockmob-brain/docs/OWNER-MASTER-LEDGER.md rows LK367 and LK367 outcome"
+  ],
+  "touched_files": [],
+  "verification": "Gate passed. Films in Chrome phone context at 390x844 and 360x676 on the dev build before commit. Live: only confirmed the new build is served. Not checked: owner's phone, iPhone, desktop film of the new Practise flow.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
