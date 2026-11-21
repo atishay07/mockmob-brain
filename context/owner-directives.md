@@ -208,3 +208,6 @@ The owner's own words from prompts that set a standing rule. Newer decisions can
 
 - id: 23b695baf1 | 2026-11-18 | claude | mockmob
   > Whatever you see, write and get this all done, keep going until you match the requirements of my first prompt.
+
+- id: 0cc3ecbe7d | 2026-11-21 | claude | mockmob
+  > Right now, I'm going to sleep, so keep going on until all the criteria have been satisfied and we have reached a level of everything which exceeds my expectations.
