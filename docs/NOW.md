@@ -1283,3 +1283,12 @@ Production main 10ef17bf0814e95289a07dcc0af75f85269693e5 reached READY on Vercel
 The release gate in wt-1116-next/tmp/gate2.log passed all 24 suites, ESLint, Webpack and Turbopack. The separate landing checklist passed 43 with 12 existing TODOs. Production Chrome smoke at 390×844 light, 360×676 dark and 1440×900 light confirmed Daily CTA hit testing, Compass autoplay and Pause, pricing edge taps and the hidden Android nudge. The live short-phone film reached all six rows in 12.6–14.5 seconds each with 26 of 26 cursor presses in the viewport and on the right controls. Its console had CSS preload warnings only. Compass on live Chrome at 390×844 with 6× CPU slowdown measured six frames over 50 ms out of 172 playing, versus zero out of 288 paused. Signed-out GET /api/daily/mine returned 401. Vercel had no [daily-mine] events and no /api/daily/mine error or fatal entries in the first 5 minutes 19 seconds after READY.
 
 Your Five has no migration. The guest and Android shared five still use the existing routes. The college day average and Mob strip can aggregate personal and shared results across students. A shared answer from an older Android client receives its own grade after a personal run starts on web, with the account retaining the personal run. No signed-in production walkthrough was performed. Kill switch DAILY_MINE_ENABLED=false. The Android web nudge stays off while Play returns 404. Monetary streak rewards remain proposals only. No owner device or iPhone was checked.
+
+### LK365 status board for the next feedback prompt
+
+| Area | Status |
+| --- | --- |
+| **Done** | 12 of 12 implemented and checked. Six captioned home demos, auto-advancing stacked Mistake Lab, Your Five, phone streak chip, Compass autoplay, pricing edge taps and the Android nudge. |
+| **Live** | `10ef17bf0` is READY on www.mockmob.in. All 24 suites, the landing checklist, ESLint and both builds passed. Chrome smoke checks passed at all three requested sizes. |
+| **Left from LK365** | No implementation work remains. The Android nudge stays off while Google Play returns 404. A signed-in production Your Five run, the owner's phone and iPhone hardware remain unchecked. Cash-value streak rewards are proposals. |
+| **Brain** | The LK365 ledger, NOW, UI audit and Continuum checkpoint agree. Ready for the next feedback prompt. |
