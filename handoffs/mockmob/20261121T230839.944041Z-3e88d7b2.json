@@ -1,0 +1,22 @@
+{
+  "id": "20261121T230839.944041Z-3e88d7b2",
+  "observed_at": "2026-11-21T23:08:39.944041+00:00",
+  "agent": "claude-opus-5.5 (hero film v6 side session, b872a7b2)",
+  "task": "LK368 task 2: hero walkthrough film v6 (today's features, better sound)",
+  "status": "active",
+  "done": "Mid-run. Plan written (MockMob-promo-film/docs/HERO-V6-PLAN.md: stock-take, new cut of 10 chapters, script, sound plan, truth checks). Voice: new paid take in the owner's approved voice (Yash, eleven_v4, [conversational]) for Practise..Compass, r4's approved open and close kept sample for sample; 1,920 ElevenLabs credits logged. Real screens recorded frame-exact from the dev server (tools/cap6). Composition Hero16v6 (src/hero/v6), plan checks pass (72.3 s), first mix -16.0 LUFS / -1.8 dBTP. End card facts fixed to Pro ₹99 once, to 31 July 2027 (CURRENT_OFFER).",
+  "next": "Finish 2x recapture + pack, bundle, short test renders per chapter, fix, full master, web encodes hero-v6-*, wire heroFilmConfig/HeroFilm, tests, page check, NOW.md, final checkpoint.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\HERO-V6-PLAN.md",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\ELEVENLABS-CREDITS.md (Lane HERO V6 VOICE)",
+    "out/hero/v6/events.json, out/hero/v6/mix-report.json"
+  ],
+  "touched_files": [
+    "MockMob-promo-film: src/hero/v6/*, src/Root.tsx, src/hero/r4/{Hero4.tsx,end5.ts,EndCard5.tsx} (opt-ins), scripts/hero6.mjs, scripts/hero6-bundle.sh, scripts/hero-sound/build_hero_v6_mix.py, tools/vo-el/hero6/*, tools/cap6/*, public/vo/hero6, public/hero-v6, public/music/hero-v6-mix.wav"
+  ],
+  "verification": "tsc clean; node scripts/hero6.mjs PLAN CHECKS PASS; mix report voice vs bed 18.0 dB, limiter worst 3.45 dB on speech (r5 3.3).",
+  "cost_and_pending_requests": "ElevenLabs 1,920 credits (paid account, logged before charging). No other paid calls.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
