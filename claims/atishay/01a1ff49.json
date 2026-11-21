@@ -4,7 +4,7 @@
   "session": "01a1ff49-f50b-7ed0-b512-e054775df769",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-21T18:06:48.579742+00:00",
-  "last_active": "2026-11-21T18:21:26.957307+00:00",
+  "last_active": "2026-11-21T18:31:32.599532+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
@@ -12,6 +12,21 @@
   "touched": [
     "data/tests/home_next_1120.test.mjs",
     "data/tests/landing_checklist_1104.test.mjs",
-    "tmp/1121-stories/codex-oneplace/surfaces.mjs"
+    "src/lib/dailyFive.mjs",
+    "src/components/daily/DailyFive.jsx",
+    "data/tests/daily_mine_ui_1121.test.mjs",
+    "src/components/landing/AndroidAppNudge.jsx",
+    "src/lib/server/dailyFiveAccount.js",
+    "src/components/landing/ScrollStory.jsx",
+    "src/components/daily/daily.css",
+    "src/components/landing/stories/mobiStory.mjs",
+    "src/components/landing/one-place.css",
+    "tmp/1121-stories/codex-oneplace/surfaces.mjs",
+    "src/lib/server/dailyFiveMine.js",
+    "data/tests/daily_mine_1121.test.mjs",
+    "src/components/landing/onePlaceModel.mjs",
+    "src/components/landing/OnePlace.jsx",
+    "tmp/1121-stories/codex-oneplace/suites.ps1",
+    "src/components/streak/StreakChip.jsx"
   ]
 }
