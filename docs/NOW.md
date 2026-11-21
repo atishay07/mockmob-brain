@@ -2,6 +2,11 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 21 Nov 2026, 8:20 am IST: LIVE = main cf954f745 (/home-next, critic round 5 fixes); rollback = 216a21369. Morning report sent
+- The phone exam pane stops on whole rows with a soft fade, the shorter phone rows are centred, and the frame and the Lab load in idle time after the opening. A Lab scene already on stage goes live as soon as its code arrives.
+- Still open: on a phone, /home-next has more slow scroll frames per 1,000 px than `/` (about 3 against 1.9), mostly in the shared Compass section. lane-compass-jank is investigating, and will fix only if the fix is clean.
+- Waiting for the owner: switching `/` to /home-next; showing the CUET 2026 coverage on the site; authoring the coverage gaps; his look at the phone Practise row, which is now the real phone exam (he liked the monitor picture in LK129; the monitor stays from 640 px); the hero film's green blocks seen on the emulator (check on his phone).
+
 ## 21 Nov 2026, 7:15 am IST: LIVE = main 216a21369 (/home-next after four critic rounds); rollback = 82cecc7a3, 3a7726dbe, 270b0a36a
 - Critic scores (an independent Opus xhigh agent, using the live pages): /home-next 7.0, 8.0, 8.5, 8.7, then 9.0. The live `/` is 7.5 throughout.
 - Phones: Practise plays the REAL phone exam inline: the MockMob runner, then NTA's phone screen. It is sized to the window with the key bar pinned. Every press is on screen at 390x844 down to 360x676 (Galaxy M06). Text is 16-19 px, and a swipe moves the page. Desktop keeps the monitor.
