@@ -4,15 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-20T23:55:47.119283+00:00",
+  "last_active": "2026-11-21T00:12:43.464615+00:00",
   "repo": "mockmob",
   "branch": "web/1118-prod",
   "cwd_name": "wt-1110-convert",
   "task": "",
   "touched": [
-    "tmp/1120-speed/speed2/whichlayer.mjs",
-    "tmp/1121-lab/cls.mjs",
-    "tmp/1121-oneplace/skip.mjs",
     "tmp/1121-oneplace/touchhold.mjs",
     "tmp/1121-oneplace/zoomseq.mjs",
     "tmp/1120-speed/speed2/shots.mjs",
@@ -44,6 +41,8 @@
     "tmp/1121-weight/edit_sync.py",
     "src/components/landing/lab-next.css",
     "tmp/1121-weight/barshots.mjs",
-    "tmp/1121-weight/summary.mjs"
+    "tmp/1121-weight/summary.mjs",
+    "tmp/1121-oneplace/phoneseq.mjs",
+    "tmp/1121-weight/stuck.mjs"
   ]
 }
