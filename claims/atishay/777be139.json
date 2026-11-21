@@ -4,15 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-21T22:38:32.904095+00:00",
+  "last_active": "2026-11-21T22:49:27.953890+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "tmp/1122-lk366/lab-film.mjs",
-    "tmp/1122-lk366/compass-check.mjs",
-    "src/components/daily/dailyStoryScript.mjs",
     "src/components/landing/CompassLadder.jsx",
     "src/components/daily/DailyFiveRow.jsx",
     "tmp/1122-lk366/lab-approach.mjs",
@@ -42,11 +39,14 @@
     "src/components/coverage/coverageCopy.mjs",
     "scripts/coverage/build-public.mjs",
     "src/components/coverage/coverageData.server.js",
-    "src/components/coverage/CoveragePieces.jsx",
     "src/components/coverage/CoverageFilter.jsx",
     "tmp/1122-coverage/COMMON.md",
     "src/app/cuet-2026-coverage/page.js",
     "src/app/cuet-2026-coverage/[subject]/page.js",
-    "src/components/coverage/coverage.css"
+    "src/components/coverage/coverage.css",
+    "tmp/1122-coverage/look/look.mjs",
+    "data/tests/coverage_public_1122.test.mjs",
+    "tmp/1122-coverage/look/tile.py",
+    "src/components/coverage/CoveragePieces.jsx"
   ]
 }
