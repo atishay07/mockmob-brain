@@ -2,6 +2,12 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 21 Nov 2026, 1:42 pm IST: LIVE = main 467cd9540 (his LK364 notes); rollback = ca5c8f946
+- The one-place frame starts when its heading reaches the top and plays all rows to the end. Cause of the misses: a swipe across a stage counted as a takeover; now only a real click or key does. 30 of 30 scroll trials start.
+- Learn, Benchmarks and the Mob are rows 4-6 on the old deck's cards (TourScreens unchanged), with the deck's card slide between rows. Stages are 95% of a phone's width; the chips are one scrolling row.
+- The Lab (next look) plays its five scenes by itself (useLabAutoplay.js, ScrollStory goTo) until a real touch, wheel or key. Two cursor taps a scene with eased reveals. The device is 94% of a phone's width.
+- Out-of-suite tests that still fail and predate today: authored_w2 (13), du_teaser_r6 (1), marketing_theme_tokens_1104 (2), pricing_value_1105 (2). Not in any gate suite.
+
 ## 21 Nov 2026, 9:14 am IST: LIVE = main ca5c8f946 (the DU Compass tour waits while the page scrolls: phone Compass slow frames 9 to 1 on /home-next, 4 to 1 on /; the cause was the Lab still drawn one section above). Rollback = cf954f745
 
 ## 21 Nov 2026, 8:20 am IST: LIVE = main cf954f745 (/home-next, critic round 5 fixes); rollback = 216a21369. Morning report sent
