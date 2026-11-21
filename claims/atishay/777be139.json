@@ -4,14 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-21T07:05:06.588287+00:00",
+  "last_active": "2026-11-21T07:30:06.435697+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "tmp/1121-weight/flip.mjs",
-    "tmp/1121-weight/restdiff.mjs",
     "src/components/landing/key-cards.css",
     "tmp/1121-weight/edit_opening.py",
     "tmp/1121-weight/edit_opening2.py",
@@ -43,6 +41,8 @@
     "tmp/1121-lab/autoplay.mjs",
     "tmp/1121-oneplace/widths.mjs",
     "tmp/1121-oneplace/pressall.mjs",
-    "tmp/1121-oneplace/runvideo.mjs"
+    "tmp/1121-oneplace/runvideo.mjs",
+    "src/components/landing/bottomBar.test.mjs",
+    "tmp/1121-oneplace/latecode.mjs"
   ]
 }
