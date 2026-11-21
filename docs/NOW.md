@@ -1346,3 +1346,24 @@ Things the next agent should know:
 ## 22 Nov 2026, 3:33 AM IST (orchestrator, Claude Fable 5.2): LK367 released, main 6ad2c7f63
 
 LIVE = main 6ad2c7f63 (rollback aa15bc996). Outcome and open points: ledger row "LK367 outcome". Evidence: `wt-1110-convert/tmp/1122-lk366/` (films, cov-both.jpg, lab-nudge.jpg), gate log in `wt-1116-next/tmp/gate2.log`. Open with the owner: which earlier Lab screens to roll back to; Daily Five for a newcomer; the "most advanced" wording; NCERT line references inside the product. He has an overnight task to brief next. Working rule: small passes in the main session, agents only when they speed things up.
+
+
+## 22 Nov 2026, 3:51 AM IST (orchestrator, Claude Fable 5.2): LK368 overnight run started
+
+LIVE = main 6ad2c7f63. The owner's overnight brief is ledger row LK368 (he is asleep; decide and keep going; report by morning).
+Orchestrator's limits told to him: no invented coverage numbers; no "highest in the market" line without proof.
+
+Running, all in the shared checkout `wt-1110-convert` (only the orchestrator commits, gates and deploys):
+- Session `hero-film` (Fable): update the hero walkthrough film for today's product, better sound; delivers
+  `public/video/hero-v6-*` and the player config; v5 files stay for roll-back.
+- Session `lab-redesign` (Fable): the Mistake Lab's cards and motion, old and new looks combined; Lab files only.
+- Agent `cov-ui` (Opus): the coverage pages `/cuet-2026-coverage` and `/cuet-2026-coverage/[subject]`, the build script
+  `scripts/coverage/build-public.mjs`, and the home teaser moved lower. Design: `tmp/1122-coverage/UI-SPEC.md`.
+- Agent `cov-scout` (Opus): read-only map of the papers, the content pipelines and the gaps: `tmp/1122-coverage/SCOUT.md`.
+- Next, from the orchestrator: a multi-agent run that (a) checks more subjects' real CUET 2026 papers question by question,
+  (b) authors the missing content (Key cards for theory gaps ship with a deploy; bank questions need a production publish),
+  (c) re-checks, so each shown subject reaches 80% or more for real.
+
+Design decisions (orchestrator): four statuses per question (same question, same with new numbers, taught, not yet), a
+syllabus-level figure computed from data, every question shown beside its MockMob match. Competitor's published figures seen
+22 Nov: 73% overall; Economics 79, Business Studies 74, Accountancy 73, Mathematics 53 (their own method).
