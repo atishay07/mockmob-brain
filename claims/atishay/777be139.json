@@ -4,17 +4,12 @@
   "session": "777be139-a000-4c98-9286-70590b597225",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-18T07:17:41.021666+00:00",
-  "last_active": "2026-11-21T15:16:35.476895+00:00",
+  "last_active": "2026-11-21T15:32:14.686500+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "tmp/1121-stories/story-rival/film.mjs",
-    "tmp/1121-stories/story-rival/tile.py",
-    "src/components/landing/stories/learn-story.css",
-    "data/tests/story_learn_1121.test.mjs",
-    "src/components/landing/onePlaceModel.mjs",
     "src/components/landing/demo/CursorDemo.jsx",
     "data/tests/story_rival_1121.test.mjs",
     "data/tests/egress_lean.test.mjs",
@@ -58,6 +53,11 @@
     "tmp/1121-stories/daily-landing/edit_test.py",
     "src/components/daily/dailyStoryScript.test.mjs",
     "tmp/1121-stories/frame/takeover.mjs",
-    "tmp/1121-stories/lab/test-block.txt"
+    "tmp/1121-stories/lab/test-block.txt",
+    "tmp/1121-stories/integrate/edit1.py",
+    "tmp/1121-stories/integrate/measure.mjs",
+    "tmp/1121-stories/integrate/probe.mjs",
+    "tmp/1121-stories/integrate/edit2.py",
+    "tmp/1121-stories/integrate/deal.mjs"
   ]
 }
