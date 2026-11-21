@@ -1367,3 +1367,15 @@ Running, all in the shared checkout `wt-1110-convert` (only the orchestrator com
 Design decisions (orchestrator): four statuses per question (same question, same with new numbers, taught, not yet), a
 syllabus-level figure computed from data, every question shown beside its MockMob match. Competitor's published figures seen
 22 Nov: 73% overall; Economics 79, Business Studies 74, Accountancy 73, Mathematics 53 (their own method).
+
+### 4:15 AM update (orchestrator)
+- Usage: the two Fable sessions burned the 5-hour limit fast (36% to 54% in 13 minutes), so both sessions now run on Opus 5.5
+  (session ids local_a01f33a5-babf-4240-8975-caef7be1efea hero-film, local_c4062e0d-cf4c-430c-8147-856f2845fe26 lab-redesign).
+  The limit resets about 5:40 AM. The orchestrator keeps its own calls few.
+- Coverage content runs (rules: `wt-1110-convert/tmp/1122-coverage/COMMON.md`, map: `SCOUT.md`):
+  workflow `coverage-tier1` run wf_4f3b1eb9-780 (Accountancy, Business Studies, Economics: dossier, author, audit, then a
+  wave 5 publish plan in `tmp/1122-coverage/PUBLISH.md`; the apply is the orchestrator's step and may need the owner);
+  workflow `coverage-new-subjects` run wf_23b06b13-8b6 (Political Science, History, Sociology, Psychology: paper, check A,
+  check B, Key cards, audit). Each subject ends in `data/coverage/cuet2026/<id>-final.json`.
+- After they finish: run `scripts/coverage/build-public.mjs` (agent cov-ui is writing it), look at the pages, recapture the
+  home fixture, gate in wt-1116-next, deploy.
