@@ -77,3 +77,4 @@
 - [Desktop separate and richer](desktop-separate-and-richer.md) — 19 Nov: desktop judged buggier than phone; walk 1440 with a real wheel; richer cursor/scroll/click motion on desktop
 - [Percent from a counted list](percent-from-a-counted-list.md) — 19 Nov: no round "85%"; count his items done and verified over total, show the list with the number
 - [Final redesign pass](final-redesign-pass.md) — 21 Nov 3:05 pm: the new home (real screens worked by a cursor, Lab plays itself) is LIVE on / after his "Switch it live"; refine it in place, critic round after big changes
+- [Demo pace and no boxes](demo-pace-and-no-boxes.md) — 22 Nov (LK366): loved the captioned stories and Ask Mobi; rejected outline boxes on real screens; 11 s Lab unreadable, about 7 s a scene; a section must say what the feature is
