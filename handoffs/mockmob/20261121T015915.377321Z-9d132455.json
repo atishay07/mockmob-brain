@@ -1,0 +1,26 @@
+{
+  "id": "20261121T015915.377321Z-9d132455",
+  "observed_at": "2026-11-21T01:59:15.377321+00:00",
+  "agent": "claude-opus-5.5 (orchestrator, 21 Nov overnight)",
+  "task": "Overnight final-redesign push on /home-next (LK363): critic loop, phone exam, speed, CUET 2026 coverage",
+  "status": "active",
+  "done": "LIVE = main 216a21369 (READY 7:11 am, 21 Nov). Rollback chain: 82cecc7a3, 3a7726dbe, 270b0a36a, 807fdd35e, 2d2db4184. An independent critic (Opus xhigh, live pages) scored /home-next 7.0, 8.0, 8.5, 8.7, then 9.0 against 7.5 for `/`. Phone Practise is the real phone exam inline, every press on screen at 390x844 to 360x676. The Lab next look carries its full detail at every size. The frame and Lab load on approach, the bottom bar steps aside, the first-visit 709 ms frame is gone. An emulator check in real Android Chrome: it opens every time, with no errors. CUET 2026 coverage: data/coverage/cuet2026, 100 of 149, not shown on any page. The signed-in phone pass is live. Weak phones get the 480p hero film. The live `/` is unchanged except for speed fixes.",
+  "next": "1) When lane-oneplace (the pane top edge on reveal, centring the phone rows) and lane-hn-weight (idle preload of the frame and Lab; Pricing's slow frames) report: run all 24 suites locally, commit, gate in wt-1116-next, fast-forward push, confirm READY. 2) Critic round 6 if time allows. 3) Morning report to the owner: a counted list, the scores, the live link, what is not verified (his real phone, iPhone Safari, the film's green blocks on the emulator). The switch of `/` to /home-next is HIS word.",
+  "blockers": [
+    "The switch of / to /home-next needs the owner's word",
+    "Showing the 2026 coverage on the site needs the owner's word",
+    "Authoring the coverage gaps needs the owner's word"
+  ],
+  "evidence": [
+    "wt-1116-next/tmp/gate2.log (216a21369: 24 suites fail 0, eslint empty, both builds exit 0, DONE)",
+    "wt-1110-convert/tmp/1121-critic/shots5/",
+    "wt-1110-convert/tmp/1121-emulator/",
+    "wt-1110-convert/tmp/1121-weight/NUMBERS.txt",
+    "C:/Users/atish/mockmob-brain/docs/NOW.md (21 Nov 7:15 am section)"
+  ],
+  "touched_files": [],
+  "verification": "Each release passed the full gate and was confirmed READY on Vercel. The critic's speed numbers are production medians of 3 on a busy PC. 82cecc7a3 showed no CSS reduction on live (664 KB before and after). Not checked: the owner's own phone, iPhone Safari, a quiet-machine perf bench.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
