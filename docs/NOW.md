@@ -2,6 +2,14 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 21 Nov 2026, 7:15 am IST: LIVE = main 216a21369 (/home-next after four critic rounds); rollback = 82cecc7a3, 3a7726dbe, 270b0a36a
+- Critic scores (an independent Opus xhigh agent, using the live pages): /home-next 7.0, 8.0, 8.5, 8.7, then 9.0. The live `/` is 7.5 throughout.
+- Phones: Practise plays the REAL phone exam inline: the MockMob runner, then NTA's phone screen. It is sized to the window with the key bar pinned. Every press is on screen at 390x844 down to 360x676 (Galaxy M06). Text is 16-19 px, and a swipe moves the page. Desktop keeps the monitor.
+- The frame and the Lab load on approach (OnePlaceGate, LabNextGate), and only the shown stage is live. The bottom bar steps aside over the frame. The first-visit opening is quicker on /home-next, and the first visit's 709 ms reveal frame is gone.
+- Speed versus `/` (critic, production, median of 3): worst scroll stall about half; the Chromebook blocks less (1.13 s against 1.48 s); layout shift lower. Still worse: slow frames per 1,000 px on a phone, 2.4 against 1.3, in sections both pages share. lane-hn-weight is moving the frame and Lab loading to idle time.
+- 82cecc7a3 (the error page's sheets loaded lazily) made NO measurable change on live `/`: 664 KB of CSS before and after, because Turbopack chunks them differently. It is harmless, and its commit message overstates it.
+- Running at 7:30 am: lane-oneplace (the pane's top edge on reveal, centring the phone rows) and lane-hn-weight (idle preload, Pricing's slow frames).
+
 ## 21 Nov 2026, 5:00 am IST: LIVE = main 270b0a36a (/home-next after two critic rounds; speed rounds 1 and 2; lighter film on weak phones); rollback = 807fdd35e, 2d2db4184
 - The owner went to sleep at about 3 am with: "keep going until all the criteria have been satisfied and we have reached a level of everything which exceeds my expectations. I'll check everything in the morning."
 - An independent critic (Opus xhigh) scored /home-next 7.0 against 7.5 for `/`. After the fixes it scored 8.0 against 7.5 (on the dev build). Round 3 on the live build is running.
