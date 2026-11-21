@@ -2,6 +2,11 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 21 Nov 2026, 3:05 pm IST: LIVE = main 459b9dd3d. THE NEW HOME IS LIVE ON / (owner: "Switch it live"); rollback = 467cd9540 (the old home on /)
+- `/` = hero, colleges, Try five, one-place frame (6 rows, autoplay from its heading), Statement, Lab next look (plays itself), Daily and Sunday, Compass, pricing, creators (1,500+), FAQ (What do I get free?), close.
+- /home-next 308 to /. Robots index/follow, canonical https://www.mockmob.in. Home tests moved to guard the new `/`; home-elements fixture recaptured.
+- Live check (production, headless, 390x844 light, 360x676 dark, 1440x900 light): frame run starts at the heading; Lab plays 0 to 3 by itself; hero strip and deep links open the right rows; no sideways scroll; no errors.
+
 ## 21 Nov 2026, 1:42 pm IST: LIVE = main 467cd9540 (his LK364 notes); rollback = ca5c8f946
 - The one-place frame starts when its heading reaches the top and plays all rows to the end. Cause of the misses: a swipe across a stage counted as a takeover; now only a real click or key does. 30 of 30 scroll trials start.
 - Learn, Benchmarks and the Mob are rows 4-6 on the old deck's cards (TourScreens unchanged), with the deck's card slide between rows. Stages are 95% of a phone's width; the chips are one scrolling row.

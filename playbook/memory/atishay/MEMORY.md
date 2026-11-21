@@ -76,4 +76,4 @@
 - [Pre-gate checks](pre-gate-checks.md) — 18 Nov: run test:app and landing_checklist_1104 by hand before the gate; lanes only run their named suites (G26 slip, L-040 slip)
 - [Desktop separate and richer](desktop-separate-and-richer.md) — 19 Nov: desktop judged buggier than phone; walk 1440 with a real wheel; richer cursor/scroll/click motion on desktop
 - [Percent from a counted list](percent-from-a-counted-list.md) — 19 Nov: no round "85%"; count his items done and verified over total, show the list with the number
-- [Final redesign pass](final-redesign-pass.md) — 20 Nov: /home-next rebuild rejected (6/10 vs live 8/10); final pass = live home + one frame of REAL screens worked by a cursor + Lab screens redone; no coverage section
+- [Final redesign pass](final-redesign-pass.md) — 21 Nov 3:05 pm: the new home (real screens worked by a cursor, Lab plays itself) is LIVE on / after his "Switch it live"; refine it in place, critic round after big changes
