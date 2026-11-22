@@ -1542,3 +1542,11 @@ Higgsfield free trial = connector in a normal Claude chat only: the connector in
 
 ### 4:30 pm update (orchestrator): ACCOUNT SWITCH, launch film handed over (ledger LK391 to LK394)
 The owner continues the narrated launch film on another Claude account, in Claude Code. START HERE: C:\Users\atish\Desktop\MockMob-promo-film\docs\HANDOFF-2026-11-22-LAUNCH-FILM.md, then docs/LAUNCH-BUILD-STATE.md, then docs/LAUNCH-FILM-DIRECTION.md. State: shots 1 to 8 of 19 built (about 22 s of 48.9 s), shots 9 to 19, the better voice read, the mix and the first full cut not done; nothing sent to him yet; no audio heard by anyone. Higgsfield's free trial is refused from Claude Code (connector and command-line tool both; works only in Claude chat, Cowork, ChatGPT), Fish video is refused on his plan, ElevenLabs credits are nearly spent: so generation runs through paste-ready requests he runs in Cowork (handoff section 5). Hero v5 is live; hero v8 waits for his yes. Remind him on 24 Nov about the Higgsfield charge on 25 Nov.
+
+### 5:00 pm update (launch film build session, NEW ACCOUNT, Claude Fable 5.2): all 19 shots built, cut 1 rendering, Cowork worker running (ledger LK395 to LK402)
+
+The owner moved to his other Claude account; this session builds the narrated launch film in C:\Users\atish\Desktop\MockMob-promo-film (state: docs/LAUNCH-BUILD-STATE.md there, kept current; continuum checkpoint 20261122T113045Z-9d51e78b).
+- Counted: 19 of 19 shots built in code and looked at on check sheets (first pass); a full sound mix exists (measured only, nobody has heard it); cut 1 (48.9 s, 1080p60) is rendering and goes to him as a file.
+- Generation: Higgsfield's trial is refused from Claude Code on this account too. He pasted the standing worker prompt into Claude Cowork at 4:59 pm; it runs gen-queue/requests in order by itself (01: 12 stills re-shot on GPT Image 2.6 + 12 Seedance 2.0 clips; 02: two alternate narrator reads) and writes gen-queue/status.
+- Voice: still the old "test 1" take. Fish Audio was reconnected at 4:50 pm; a better read and alternates are the next audio step. He chooses by ear.
+- Open with the owner: his look at cut 1; his ear on the voice and the mix; the Higgsfield trial decision before 25 Nov (USD 93.22 charge unless cancelled; remind on 24 Nov). Nothing is live; the web repo was not touched.
