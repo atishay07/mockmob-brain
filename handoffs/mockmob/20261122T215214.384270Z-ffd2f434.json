@@ -1,0 +1,39 @@
+{
+  "id": "20261122T215214.384270Z-ffd2f434",
+  "observed_at": "2026-11-22T21:52:14.385270+00:00",
+  "agent": "claude-code launch-film build session (23 Nov, after reset)",
+  "task": "MockMob narrated launch film V4, cut 5 final pass: critic loop rounds 3 to 5, people in The Mob, delivery within the owner's one-hour order",
+  "status": "complete",
+  "done": "Cut 5g sent to the owner at 3:21 am (file) and copied to Desktop\\MockMob Films\\4 Launch film (in progress). Critic scores (Opus high): picture 7.4 (r3), 7.7 (r4), 8.3 (r5 on cut 5f); sound 7.8, 8.3, 8.7 (measurements only). 5g = 5f + three Mob clips + all round 5 fixes, not critic-reviewed. New: three students in The Mob (Codex stills, Seedance 2.5 clips via Cowork), the girl in hook 01 (clip) and close card 01, no bare frames, clean logo dive, held last chord, even pauses. Owner's new workflow (LK420) tested: Codex stills faster and preferred by a blind Opus judge 3/3.",
+  "next": "Wait for the owner's verdict on cut 5g. If he wants more: a critic round on 5g and the open SHOULD items in out/launch/critic/r5/*.md. Remind him on 24 Nov that Higgsfield charges USD 93.22 on 25 Nov unless he cancels. Product copy for him to decide: \"Admission of Partner\", \"5 of 5 mistakes\", DU's \"UR\" without a year.",
+  "blockers": [
+    "Only the owner can judge the sound by ear",
+    "Cut 5g not reviewed by a critic (owner's one-hour order)"
+  ],
+  "evidence": [
+    "MockMob-promo-film/out/launch/launch-v4-cut5g.mp4",
+    "MockMob-promo-film/out/launch/critic/r3, r4, r4p, r5 reviews",
+    "MockMob-promo-film/out/judge/verdict.md (blind judge)",
+    "MockMob-promo-film/docs/LAUNCH-V4-STATE.md section 12",
+    "mockmob-brain/docs/OWNER-MASTER-LEDGER.md LK417 to LK421",
+    "local commit d7af914"
+  ],
+  "touched_files": [
+    "MockMob-promo-film/src/launch/v4/Launch4.tsx",
+    "MockMob-promo-film/src/launch/v4/MobSplit.tsx",
+    "MockMob-promo-film/src/launch/v4/cards5.tsx",
+    "MockMob-promo-film/src/launch/v4/mix5.tsx",
+    "MockMob-promo-film/src/launch/v4/kit4.tsx",
+    "MockMob-promo-film/src/launch/v3/Act6.tsx",
+    "MockMob-promo-film/src/hero/v7/KeyCards7.tsx",
+    "MockMob-promo-film/scripts/launch-sound/build_launch_mix4.py",
+    "MockMob-promo-film/tools/vo-el/launch/build_voice_nat.py",
+    "MockMob-promo-film/gen-queue (requests 10, 11; STOP)",
+    "mockmob-brain/docs/NOW.md",
+    "mockmob-brain/docs/OWNER-MASTER-LEDGER.md"
+  ],
+  "verification": "Every sheet of cuts 5c, 5d and 5f looked at by the builder; 5g checked on frames (The Mob with clips) and decoded end to end; every generated face and hand checked at full size (girl still and clip, three Mob stills and clips). Nobody but the owner has heard the mix.",
+  "cost_and_pending_requests": "No Higgsfield credits spent (free-trial allowance only); Codex images on the lean second account (6 images); critics and judge on Opus high (about 11 sub-agent runs this session).",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
