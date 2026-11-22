@@ -1,0 +1,31 @@
+{
+  "id": "20261122T121813.943767Z-1580e69f",
+  "observed_at": "2026-11-22T12:18:13.943767+00:00",
+  "agent": "claude-fable-5.2 (launch film build, new account, Claude Code session 16f14db0)",
+  "task": "22 Nov 5:48 pm: launch film cut 4 sent after an independent critique (cut 3 was 6 of 10); waiting on the owner's ear and on Higgsfield",
+  "status": "blocked",
+  "done": "Cut 4 sent to the owner as a file at 5:48 pm (MockMob-promo-film/out/launch/launch-v3-cut4.mp4, 38 MB; -phone.mp4, 18 MB; copy in Desktop\\MockMob Films\\4 Launch film (in progress)): 19 of 19 shots, 48.9 s, 1080p60, old narration take, track, 190 effects, -14.0 LUFS, true peak -1.0 dB. An independent read-only critic (Opus) rated cut 3 at 6 of 10 against the direction's ten-point bar and the Lovio and LangEase sheets (\"a well-made template\": flat transition frames, crowded small text, stock-looking glass plates, joins seen not felt). Cut 4 fixes everything on its list that needs no new media (docs/LAUNCH-BUILD-STATE.md section 5a): shot 9 rebuilt with the product's real Ask Mobi camera screen corner-pinned onto the phone in the still (measured quad) and a push into the phone at the shutter; \"Take a photo.\" carried through the flash; the close re-designed (lines left, the opening glass score panel returns and opens into the four chapters with a pen loop on Partnership); \"on Pro · ₹99 once, to 31 July 2027\" as a large held line; 13 larger deck cards; exam slab kept inside the frame with the question dimmed when the camera is on the palette; the key line of shot 4 enlarged on a dark pool; Mock 8 counts up as a tally; map and compass text faults; a coral hit on the map-to-card join. Mobi (the October film's rendered 3D takes) is in three shots since cut 3. Three new narrator reads (Fish, 2,849 credits) were sent at 5:30 pm on the cut 3 picture as voice 1, 2, 3. Request 03 for Higgsfield now asks for a desk-world light picture instead of glass sculptures and for three different candid expressions on the friends. Local commit fb806d0.",
+  "next": "Waits for the owner on two things. (1) VOICE: when he names voice 1 (alt/t1b), 2 (alt/t1a) or 3 (alt/rohan), or keeps the old take: copy that read's wav and json over public/vo/launch/voice.wav and timing.json (keep the old ones as voice-old.wav), copy its word beats into src/launch/v3/grid.ts WB (script in section 5b of LAUNCH-BUILD-STATE.md shows the mapping: the json's sentence ids match build_voice.py's), rebuild the mix, bundle, render, check sheets. (2) HIGGSFIELD: he starts a NEW Cowork task with \"Read the file gen-queue/COWORK-WORKER.txt in this folder and follow it exactly. Start now and do not ask me anything.\"; then watch gen-queue/results/03.jsonl (re-arm a Monitor), download each result (the Higgsfield connector's jobs_wait gives the URL; curl works from Claude Code), LOOK at each still and at frames of each clip, run scripts/launch-place.py (stills also rebuild depth plates), re-bundle, render the next cut. Shot 9 (hands_a) stays a still on purpose (the camera screen is pinned to it): if hands_a is re-shot, re-measure SCREEN_QUAD in Act5.tsx. Never substitute another model for pictures or video (LK403). Remind him on 24 Nov about the Higgsfield charge (USD 93.22 on 25 Nov unless cancelled). Nothing goes live without his explicit yes.",
+  "blockers": [
+    "Owner's pick of the narrator by ear",
+    "Owner starts a new Cowork task for Higgsfield (his 4:59 pm task ended blocked by its sandbox's network allowlist)"
+  ],
+  "evidence": [
+    "MockMob-promo-film/docs/LAUNCH-BUILD-STATE.md (sections 4b, 5, 5a, 5b, 6)",
+    "MockMob-promo-film/out/launch/v3-check/w4-01..04.jpg, g1..g4-01.jpg, crit3/c-01..10.jpg",
+    "MockMob-promo-film/out/launch/music/mix-report.txt",
+    "MockMob-promo-film commit fb806d0",
+    "mockmob-brain/docs/NOW.md (5:48 pm section), OWNER-MASTER-LEDGER.md LK395 to LK403"
+  ],
+  "touched_files": [
+    "MockMob-promo-film/src/launch/v3/Act1.tsx, Act3.tsx, Act4.tsx, Act5.tsx, Act6.tsx, Launch3.tsx, kit.tsx",
+    "MockMob-promo-film/scripts/launch-sound/build_launch_mix3.py",
+    "MockMob-promo-film/gen-queue/requests/03-stills-and-clips-no-transfer.txt",
+    "MockMob-promo-film/docs/LAUNCH-BUILD-STATE.md",
+    "mockmob-brain/docs/NOW.md"
+  ],
+  "verification": "Cut 4 watched whole at 2 frames a second and 335 px width (w4 sheets) plus 4 frames a second sheets of every changed shot (g1 to g4); on-screen facts re-checked (ratio sums, 78 marks, 382 of 416, the offer line, 9 of 10 colleges at 920). Sound measured only: nobody has heard any mix or voice. The critic saw cut 3, not cut 4: its 6 of 10 is not a score for cut 4. No Higgsfield result exists yet; 12 of 13 plates are old stills.",
+  "cost_and_pending_requests": "Fish Audio 2,849 credits this session. Higgsfield 0. ElevenLabs 0. One Opus critic subagent (about 177k tokens).",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
