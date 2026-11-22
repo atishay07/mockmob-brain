@@ -79,3 +79,4 @@
 - [Final redesign pass](final-redesign-pass.md) — 21 Nov 3:05 pm: the new home (real screens worked by a cursor, Lab plays itself) is LIVE on / after his "Switch it live"; refine it in place, critic round after big changes
 - [Demo pace and no boxes](demo-pace-and-no-boxes.md) — 22 Nov (LK366): loved the captioned stories and Ask Mobi; rejected outline boxes on real screens; 11 s Lab unreadable, about 7 s a scene; a section must say what the feature is
 - [Small passes, no sub-agents](small-passes-no-subagents.md) — 22 Nov (LK367): sub-agents slow small fix passes; do small UI tasks myself in one go, still gate before deploy
+- [Nested sessions and usage](nested-sessions-usage.md) — 22 Nov (LK368): nested sessions allowed for big overnight tasks; Fable sessions burn the 5-h limit in minutes, start them on Opus, shared checkout, plan written early

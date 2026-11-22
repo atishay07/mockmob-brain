@@ -19,3 +19,5 @@ On 31 Oct 2026, an attempt to apply a verified answer-key fix (4 UPDATEs on publ
 - Read-only SELECTs still work.
 
 Related: [[security-fixes-deploy-immediately]], [[owner-master-ledger]].
+
+22 Nov 2026 update: the authored-question publisher's apply (`scripts/question-publish-authored.mjs --mode=apply`, run through Bash) was also denied by the auto-mode check, even with the owner's same-night instruction to run the question pipeline. Prepare everything up to a clean dry run, then give the owner the one apply command (and the restore command) to run himself.
