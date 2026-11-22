@@ -1,0 +1,52 @@
+{
+  "id": "20261122T160605.284793Z-26c7f3f9",
+  "observed_at": "2026-11-22T16:06:05.284793+00:00",
+  "agent": "claude-code launch-film build session (new account, Fable 5.2)",
+  "task": "MockMob narrated launch film V4 (\"No one told you\", real video): cut 1 sent; owner's 8:45 pm notes pending; Cowork worker stopped",
+  "status": "blocked",
+  "done": "V4 cut 1 rendered and sent to the owner at 9:35 pm (75.0 s, 1080p60, out/launch/launch-v4-cut1.mp4 + -phone.mp4 + copy in Desktop\\MockMob Films\\4 Launch film (in progress)). 8 of 12 backgrounds are their own Seedance 2.0 clips (face_b, student_b, hall_a, bus, book, friends_b, gate_b, desk2), each watched frame by frame; 4 are stand-in real clips (no stills) because the Cowork worker stopped after clip 8 at 8:49 pm. Cuts on beats, \"MockMob\" a quarter beat after the drop, mix of 91 soft effects (measured only). Owner's 8:45 pm notes logged word for word (ledger LK410) and in memory: faces look hurt and kids look rough (my prompt asked for blemishes), panels over backgrounds are too basic (his split-screen idea for The Mob), pictures repeat the previous film; \"complete it, even for now, then I'll tell you the changes overall\". MobSplit.tsx (his split-screen Mob scene) written and wired, used automatically once clips mob_you, mob_riya, mob_kabir are placed. Request 06 rewritten: 4 missing clips, then 10 stills (clean-skinned face_c, bus_c; three Mob rooms in 9:16). Local commit 09fcad5.",
+  "next": "1. When the owner restarts the Cowork worker (line to paste: \"Continue the queue: request 05 is closed. Do gen-queue/requests/06-clips-2.txt now, part A first.\"): fetch (scripts/launch-fetch.py), check each clip (scripts/launch-clipcheck.py), place (launch-place4.py); the four stand-ins switch back by themselves. 2. Look at the ten new stills at full size (faces must look healthy, not hurt), record picks in gen-queue/picks.json as face_b / bus (replacing) and mob_you (tablet), mob_riya (phone), mob_kabir (laptop); write request 07 for their clips (9:16 for the Mob columns). 3. Check MobSplit rendered with real clips (not yet seen rendered). 4. Apply the owner's overall changes after he has watched cut 1; expect new picture ideas per feature rather than panels over backgrounds. 5. bash scripts/launch-cut4.sh 2 \"label\". Remind him on 24 Nov: Higgsfield charges USD 93.22 on 25 Nov unless cancelled.",
+  "blockers": [
+    "The Cowork generation worker stopped at 8:49 pm; only the owner can restart it (the builder cannot generate: Higgsfield's unlimited trial is refused from Claude Code, and no other model may stand in)",
+    "Owner has not yet watched cut 1 or given his overall changes; has not said yes to script lines 9 to 17; has not picked a narrator; nobody has heard the sound"
+  ],
+  "evidence": [
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\LAUNCH-V4-STATE.md sections 1 to 7",
+    "out/launch/launch-v4-cut1.mp4 (63.7 MB, 75.00 s, h264 1920x1080 60 fps + aac)",
+    "watch-through sheets out/launch/v4-check/watch1-01.jpg, watch1-02.jpg (whole film at 1.5 frames a second, looked at)",
+    "clip sheets out/launch/v4-check/clips-face.jpg, clips-student.jpg, clips-hall.jpg, clips-bus.jpg, bus-zoom.jpg, clips-bf.jpg, clips-gate.jpg, clips-desk.jpg",
+    "out/launch/music/mix4-report.txt (-14.1 LUFS, smallest voice-over-bed margin 12.4 dB)",
+    "gen-queue/status/05-clips.status.md (8 completed, closed by the builder)",
+    "git 09fcad5 in MockMob-promo-film (local, never pushed)"
+  ],
+  "touched_files": [
+    "src/launch/v4/Launch4.tsx",
+    "src/launch/v4/kit4.tsx",
+    "src/launch/v4/MobSplit.tsx",
+    "src/launch/v4/clips4.ts",
+    "src/launch/v4/words.ts",
+    "src/launch/v3/Act5.tsx",
+    "scripts/launch-cut4.sh",
+    "scripts/launch-spot.sh",
+    "scripts/launch-clipcheck.py",
+    "scripts/launch-place4.py",
+    "scripts/launch-fetch.py",
+    "scripts/launch-sound/build_launch_mix4.py",
+    "tools/vo-el/launch/v4/pins.json",
+    "gen-queue/requests/06-clips-2.txt",
+    "gen-queue/results/05.jsonl",
+    "gen-queue/results/06.jsonl",
+    "gen-queue/results/builder.jsonl",
+    "gen-queue/status/05-clips.status.md",
+    "gen-queue/picks.json",
+    "gen-queue/NOTES-TO-WORKER.md",
+    "docs/LAUNCH-V4-STATE.md",
+    "docs/LAUNCH-ASSET-LOG.md",
+    "C:\\Users\\atish\\mockmob-brain\\docs\\OWNER-MASTER-LEDGER.md (LK410)",
+    "C:\\Users\\atish\\mockmob-brain\\docs\\NOW.md (9:35 pm section)"
+  ],
+  "verification": "Full render completed without error; the finished file was watched through as frame sheets at 1.5 frames a second (no black frames, no missing video, type and objects on their words); every clip checked on 8-frame sheets with a motion measure; tsc clean for launch v3, v4 and Root. Not verified: the sound by ear; MobSplit with real clips; faces at full resolution (the owner found them looking hurt, which the builder had missed).",
+  "cost_and_pending_requests": "Higgsfield: free-trial unlimited only, 0 credits (USD 93.22 on 25 Nov unless cancelled). Fish Audio: about 4,550 credits this session.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
