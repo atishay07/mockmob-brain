@@ -1518,3 +1518,7 @@ Rounds 1 and 2 rejected. Round 3 = six files in Desktop\MockMob Films\4 Launch f
 
 ### 2:54 pm update (orchestrator): voice round 4 sent (ledger LK380)
 He liked the STYLE of round 3 number 6 (Fish voice c35257bbca054bc5ab4e47f09f7245eb, model drama-3) but wants it more realistic and Indian. Round 4 (two designed Indian explainer voices, two takes each) is in Desktop\MockMob Films\4 Launch film (in progress)\voice casting. He may send a voice he generates himself. Picture work still waits on the voice.
+
+
+### 3:51 pm update (orchestrator): launch film voice locked, build started (ledger LK383)
+Narrator = Fish voice "test 1" on drama-3, lighter direction and a brisker read (second choice "Rohan"). The narrated build runs in a linked clean-context session ("MockMob narrated launch film (build)", Fable, xhigh) from MockMob-promo-film/docs/LAUNCH-FILM-PLAN.md; its first cut lands at out/launch/launch-v3-cut1.mp4 and in Desktop\MockMob Films\4 Launch film (in progress). The main session reviews that cut before it goes to the owner. Hero v5 is live; hero v8 is ready and waits for his yes. Higgsfield: remind him on 24 Nov (charge on 25 Nov unless cancelled).
