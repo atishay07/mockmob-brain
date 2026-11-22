@@ -1,0 +1,35 @@
+{
+  "id": "20261122T235539.332573Z-04a29375",
+  "observed_at": "2026-11-22T23:55:39.332573+00:00",
+  "agent": "claude-code launch-film build session (23 Nov, overnight)",
+  "task": "MockMob launch film V4: owner-approved cut 5g/5h, then the overnight pass on the hook (cut 5j)",
+  "status": "complete",
+  "done": "Cut 5j sent to the owner at 5:30 am and copied to the delivery folder. Hook rebuilt (frame-1 promise, CUET UG 2027 chip with NTA mark, six named college crests from the owner's folder docking above a live exam screen, frame-1 hit and music, presence on the motif). Three new real clips via the owner's workflow (Codex stills, Seedance 2.5 via Cowork): girl at laptop (close card 01), college gate (DU Compass), breakfast phone (five questions). CUET opening line re-read (Fish, read 2 chosen by the owner). Scores: r6 picture 8.4 / sound 8.6; r7 picture 8.6 / sound 8.7; 5j not reviewed.",
+  "next": "Wait for the owner's verdict on cut 5j. If more: a 4:5 Reels version of the first 16 s (the critic's biggest phone lever); open SHOULD items in out/launch/critic/r7/*.md. Remind him on 24 Nov: Higgsfield charges USD 93.22 on 25 Nov unless cancelled.",
+  "blockers": [
+    "Only the owner can judge the sound by ear",
+    "Cut 5j not critic-reviewed"
+  ],
+  "evidence": [
+    "MockMob-promo-film/out/launch/launch-v4-cut5j.mp4",
+    "MockMob-promo-film/out/launch/critic/r6 and r7 reviews",
+    "MockMob-promo-film/docs/LAUNCH-V4-STATE.md sections 13 and 14",
+    "mockmob-brain/docs/NOW.md 5:30 am entry; ledger LK422 to LK426",
+    "local commit 7b93a3b"
+  ],
+  "touched_files": [
+    "MockMob-promo-film/src/launch/v4/Launch4.tsx",
+    "MockMob-promo-film/src/launch/v4/mix5.tsx",
+    "MockMob-promo-film/src/launch/v4/cards5.tsx",
+    "MockMob-promo-film/src/launch/v4/kit4.tsx",
+    "MockMob-promo-film/src/launch/v3/Act3.tsx",
+    "MockMob-promo-film/scripts/launch-sound/build_launch_mix4.py",
+    "MockMob-promo-film/scripts/launch-sound/build_launch_bed4.py",
+    "MockMob-promo-film/tools/vo-el/launch/make_v9.py and v9 pins",
+    "MockMob-promo-film/gen-queue (requests 12; STOP)"
+  ],
+  "verification": "Every new still and clip face-checked at full size; spot frames of every hook change; 5j decoded end to end and checked on frames 1, 4 s, 30 s, 57 s and 77 s. Nobody but the owner has heard the mix.",
+  "cost_and_pending_requests": "256 Fish credits (CUET takes); Higgsfield free-trial only; Codex stills on the lean second account; Opus critics 4 runs overnight.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
