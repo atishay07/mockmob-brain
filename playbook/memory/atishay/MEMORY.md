@@ -14,7 +14,7 @@
 - [Time and estimates format](time-and-estimates-format.md) — 16 Oct: relative times ("in the next 30 minutes"), 12-hour clock; size plans for parallel agents (5-6 h plan = 2 h)
 - [USP: unlimited mocks](usp-unlimited-mocks.md) — 16 Oct: headline differentiator = unlimited mocks from one central bank (rivals 10-30/subject); advertise everywhere, truthfully, not in the face
 - [Agent swarm resource hygiene](agent-swarm-resource-hygiene.md) — 16 Oct: swarms leaked Gradle/headless Chrome/dev servers (app crashed at 0.4 GB) and hit the 5h limit mid-work; reap leftovers, RAM rule in prompts, check usage before waves
-- [Higgsfield video plan](higgsfield-video-plan.md) — 16 Oct plan (USD 15, /estimate first); 22 Nov: 3-day unlimited trial to 25 Nov (USD 93.22 charge unless cancelled, remind 24 Nov); the Claude Code connector had no generate tool
+- [Higgsfield video plan](higgsfield-video-plan.md) — free trial to 25 Nov (USD 93.22 charge unless cancelled, remind 24 Nov); unlim REFUSED from Claude Code even with generate tools: generate only via the Cowork worker; GPT Image 2.6 max "medium", one picture a job
 - [Content only on ask](content-generation-only-on-ask.md) — 17 Oct: generate questions or content only when the owner asks in his current words; never auto-run waves or carry them from handoffs
 - [Owner feedback 17 Oct](owner-feedback-1017.md) — app nav count/alignment and Colleges, liquid glass taste, web Start menu, fine-tune scope, result screen clutter, Today; ledger F1-F18 in docs/brain/OWNER-FEEDBACK-2026-10-17.md; 3:30 am he called v12 "very bad": v12 dropped, v13 only
 - [Landing checklist gate](landing-checklist-gate.md) — 17 Oct: landing ships on his 45 L items + zero truth + zero high, tests lock fixes; the 88 score is advisory only

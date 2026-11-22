@@ -1609,3 +1609,12 @@ The owner moved to his other Claude account; this session builds the narrated la
 - Generation: the worker was on request 09 (four portraits, rewritten prompts) and was told to stop after its current picture (gen-queue/STOP), because its waiting loop uses the account's usage. Nothing from request 09 has been looked at.
 - To carry on: MockMob-promo-film/docs/NEXT-SESSION-PROMPT-LAUNCH-CUT5.md is the prompt to paste; docs/LAUNCH-V4-STATE.md section 11 has the open list and the commands. Local commits only.
 - Still owed to him: the reminder on 24 Nov that Higgsfield charges USD 93.22 on 25 Nov unless cancelled.
+
+### 2:00 am, 23 Nov update (launch film build session, after the reset): critic round 3 done, round 4 rendering (ledger LK417)
+
+- He restarted the work by pasting the prepared prompt (no new notes). Round 3 (cut 5c) reviewed by the two Opus critics: picture 7.4 (was 7.2), sound 7.8 (was 7.1). The sound critic cannot hear: it judges measurements. The picture critic says a 9 is not reachable without people in The Mob.
+- Request 09: two pictures came. girl_1 passed a full-size face check (clear skin, clean upper lip, natural eyes, believable hand) and now opens the film in hook 01 (a still for the critics; a Seedance 2.5 clip of it is requested and replaces the still before he sees anything). girl_2 rejected (a shadow on the upper lip).
+- Request 10 is written (gen-queue/requests/10-girl-clip-and-rooms.txt): the girl's clip on Seedance 2.5 (1080p, 720p or Seedance 2.0 as fallbacks), then the three Mob rooms, one job each at quality medium (the free trial refuses high and gives one picture a job). STOP removed. He has one line to paste into Cowork; the worker stops 20 minutes after its last item.
+- Cut 5d (round 4) renders with every round 3 note applied: no bare frames, the logo dive without the white slab, the collisions at 72 to 74 s gone, Mobi off the Practise key, the Mob columns shorter with devices on surfaces, right answers lime on every screen, the textbook page with real text; sound: the card lands on the cards, the click before "DU" muted, the pen strikes softer and low-passed, the ending's ring louder, "DU Compass" with 0.85 s before it like the other feature names.
+- Counted against his 8 orders of this pass: 4 done, 2 partly (the mixture: the girl is in, the Mob rooms are not; better generations: one picture passed, clips not yet made), 2 not done (critics at 9; a cut sent to him).
+- Still owed: the reminder on 24 Nov that Higgsfield charges USD 93.22 on 25 Nov unless he cancels.
