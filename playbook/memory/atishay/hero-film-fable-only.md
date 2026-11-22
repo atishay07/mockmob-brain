@@ -22,3 +22,10 @@ Owner, 12 Nov 2026 (about 7:15 pm, final-pass brief): "If you want, you can also
 - Before any film goes live: watch frames through the whole length (2 to 3 a second) beside the previous film, and say plainly what was not heard by ear.
 - Kept v5 scenes can be re-timed to a new voice with a time warp (film project docs/HERO-V7-PLAN.md).
 
+**22 Nov 2026, about 1:20 pm (ledger LK373), on my 72 s rebuild (v7).** It kept v5's scenes but ran on the side session's longer voice take. His words: "the overall script, the voice, it's just all not matching up and how beautifully everything went together in the version 5 ... you are just introducing load unnecessarily ... the version 5 film, the script, overall flow, and everything in that was almost perfect. You just had to add and improvise the graphics and a few things. Even the pronunciation of the words is off. Like NCERT, it's spelling it letter by letter."
+
+**How to apply (added):**
+- v5's voice take, script, captions, chapter times and 53 s length are the standard. An update changes pictures and motion only, pinned to v5's own words. Never lengthen a line or add a clause to fit a new feature; show the feature in the picture instead.
+- A new voice line needs his ear first, and no abbreviation is ever written letter by letter for the voice (N-C-E-R-T was wrong).
+- The scene components for today's product live in the film project's src/hero/v7 and are reused by src/hero/v8 (docs/HERO-V8-PLAN.md).
+

@@ -59,7 +59,7 @@
 - [Weekly limit: keep working](weekly-limit-keep-working.md) — 10 Nov: never stop or shrink scope for the weekly usage figure; finish the work in hand
 - [Older-model rules not binding](older-model-rules-not-binding.md) — 10 Nov: work-style rules for earlier models (sub-agents, model choice, UI procedures) do not bind the newest model; taste evidence and safety facts still do
 - [UI audit log first](ui-audit-log-first.md) — 12 Nov: read and update mockmob-brain/docs/UI-AUDIT-LOG.md before any UI look; he wants visible change, not hours of looking
-- [Hero film: Fable only](hero-film-fable-only.md) — 12 Nov, 22 Nov: main session only (no sub-agents, no side sessions); update the old film's staged scenes, never screen recordings in a window (v6 rejected as "such a regression"); watch it through before release
+- [Hero film: Fable only](hero-film-fable-only.md) — 12 Nov, 22 Nov: main session only; v5's voice, script, flow and 53 s are the standard (LK373): change pictures and motion only, never longer lines or spelled-out letters; no screen recordings in a window; watch it through before release
 - [Resume sub-agents after a limit stop](resume-subagents-after-limit.md) — 10 Nov: agents cut off by the 5-h limit resume by agent id via SendMessage; 5 Fable agents burned a window in an hour; keep to 2-3
 - [Bash heredoc apostrophes](bash-heredoc-apostrophes.md) — 13 Nov: a heredoc body with apostrophes failed to parse; use Write/Edit for file content, script files for multi-step edits
 - [Guest Mobi budget](guest-mobi-budget.md) — 13 Nov: real AI for guests approved; aim Rs 0.5 a visitor, Rs 1 hard max; site-wide daily ceiling is my safeguard
