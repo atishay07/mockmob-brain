@@ -1590,3 +1590,11 @@ The owner moved to his other Claude account; this session builds the narrated la
 - Not in the film yet: clean-skinned re-shoots of the face and bus shots, the new first shot (a girl writing at a sunlit desk: still picked), and the three rooms of his split-screen Mob scene. The Cowork worker is on request 06 (14 stills, then a clip) and is slow tonight; request 07 holds the clips.
 - How timing works now and what to run: MockMob-promo-film/docs/LAUNCH-V4-STATE.md section 8. Local commit c2e2b87.
 - Rule re-learned twice today (now in memory): CUET in narration = the letters run together as one word; the wordmark is the real asset, never drawn; a read is never cut up, sped or squeezed onto a grid.
+
+### 11:21 pm update (launch film build session, new account): cut 4 sent, no generated footage (ledger LK413)
+
+- His notes on cut 3 (10:50 pm): voice 7 of 10; stress every "No one told you" with a very short pause after; the 92% line in marketing style; "overall, the video is just fine right now"; the AI videos look AI-generated, stop generating; switch to a SaaS explainer look instead of footage backgrounds.
+- Cut 4 (MockMob-promo-film/out/launch/launch-v4-cut4.mp4, 75.0 s): every background is a designed stage (charcoal, brand lights, dot grid), the product screens and type are the film; "No one told you" stressed with a 0.2 to 0.26 s pause; new line "Ninety-two percent was already in MockMob" with the on-screen qualifier kept true (382 of 416, nine subjects). He has not answered on cut 4 yet.
+- Honest gaps: no full watch-through by the builder (spot frames only); The Mob scene and the Ask Mobi opening are thin; nobody but him has heard it. The Cowork generation queue is stopped (gen-queue/STOP).
+- What to run and how timing works: MockMob-promo-film/docs/LAUNCH-V4-STATE.md sections 8 and 9. Local commit 0953fab (never pushed).
+- Still owed to him: a reminder on 24 Nov that Higgsfield charges USD 93.22 on 25 Nov unless cancelled.

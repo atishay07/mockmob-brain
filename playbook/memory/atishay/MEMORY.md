@@ -83,3 +83,4 @@
 - [Paste-ready prompt inline](paste-ready-prompt-inline.md) — 22 Nov: when he asks for a prompt to paste, the full text goes in the chat itself, first, in one block; helpers must be self-running through files
 - [Launch film verdict, 22 Nov](launch-film-verdict-1122.md) — cuts 1 to 4 "AI slop": real video only (no stills moved like a slideshow), every picture accurate to CUET (no OMR) and artistic or undetectably real, a fresh script as text, fewer and softer effects
 - [CUET spoken as joined letters](cuet-spoken-as-letters.md) — 22 Oct, 22 Nov: C-U-E-T run together as one word (0.6 to 0.7 s), not "kyoo-et", not separated; natural read (steady model, no speed-up, no pause edits, picture follows the read); real logo asset only
+- [Image gen prompting and settings](image-gen-prompting-and-settings.md) — 23 Nov: "AI slop" people pictures were my prompts and settings; check the model list first, GPT Image 2.6 high, batches of 4, Seedance 2.5, look at every face
