@@ -34,7 +34,7 @@
 - [Workflow resume is a prefix cache](workflow-resume-prefix-cache.md) — 24 Oct: resumeFromRunId reruns everything after the first changed call; re-route via a fresh remaining-steps script; ~10 Opus agents = ~1 %/min of the 5-h window
 - [Subagents can be hijacked by handoffs](subagent-handoff-hijack.md) — 24 Oct: a Haiku render agent followed the injected 'next session' handoff instead of rendering; say SUBAGENT/ONLY task in every prompt, renders to Sonnet or yourself, verify outputs exist
 - [Workflow stop leaves orphans](workflow-stop-leaves-orphans.md) — 24 Oct: TaskStop doesn't end agents' background bakes/renders; one switched REEL_MUSIC; ps-check and re-grep config after every stop
-- [Prod writes blocked in auto mode](prod-writes-blocked-in-auto-mode.md) — 31 Oct: classifier denies execute_sql writes despite standing DB authority; prepare fix.sql + exact undo for the owner
+- [Prod writes blocked in auto mode](prod-writes-blocked-in-auto-mode.md) — 31 Oct, 22 Nov: classifier denies production writes in auto mode; ask him to reply "run it" in chat (his explicit ask lifts it); terminal commands handed to him failed
 - [Pull needs frozen](pull-needs-frozen.md) — 31 Oct: status='pending' alone leaves a verified+active question served; pulls also set exploration_state='frozen'
 - [Subagent wave pacing](subagent-wave-pacing.md) — 31 Oct, 1 Nov: 20-agent cap; ~1.2% of the 5-h window per NCERT PDF (Sonnet author+review); Opus screenshot critics are the costly part (a 73-agent look took ~50%)
 - [Live prototype over renders](live-prototype-over-renders.md) — 31 Oct night: he judges ideas only from a live prototype on his phone (LAN link); nav v2 screenshots were 'very weird', current nav stays
