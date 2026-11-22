@@ -1442,3 +1442,13 @@ Open with the owner: his ear on the film's sound; the Lab on his phone; the Dail
 ### 7:55 AM update (orchestrator): LIVE = main 7d0e31d87
 The Daily Five's sub line now speaks to a newcomer first (LK367). Gate clean on 7d0e31d87 (24 suites, eslint, both builds).
 Everything else as in the 7:35 AM section above; the owner's publish step for the 32 bank questions is still open.
+
+
+## 22 Nov 2026, 12:43 pm IST (orchestrator, Claude Fable 5.2): wave 5 PUBLISHED, Accountancy shown, main 8c74cca7c
+
+LIVE = main 8c74cca7c (rollbacks: 7d0e31d87, fb7f3bbcc, aae55e759, f33bd5018). Outcome: ledger rows LK369 and "LK369 outcome".
+The owner's publish step is DONE (he asked the orchestrator in chat to run it; 12:17 pm; 32 inserted). Nothing waits on him for coverage.
+Coverage now: nine subjects shown, total 382/416 (92%); Accountancy 54/55, Business Studies 44/49, Economics 43/45; held list empty.
+Undo of the publish (hides the 32 rows): `node --use-system-ca scripts/question-publish-authored.mjs --mode=restore --restore=docs/brain/reports/authored-publish/authored-publish-restore-2026-11-22T06-47-45-879Z.json --expect-project=isrxrxzjocewrdureyhp` from wt-1110-convert; after it, set the 20 questions of tmp/1122-coverage/PUBLISH.md section 2g back to not_covered and rebuild.
+Never apply the old 44-row plan (authored-publish-plan-2026-11-22T00-16-56-474Z.json, untracked).
+Open with the owner: his ear on the film's sound; the Lab, coverage pages and film on his phone; Maths and the other sciences (numerical bank questions through the same publish route); the 12 held bank questions (rewrite or drop); NCERT line references in the product; his promised feedback on "the whole CUET prep thing".

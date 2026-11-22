@@ -466,3 +466,12 @@ Not looked at: a real phone, an iPhone, the Daily block's signed-in states, the 
 | Coverage pages | Builder's sheets at 360 dark, 390 light, 1440 light (wt-1110-convert/tmp/1122-coverage/look/); live addresses answer 200; the index shows the built total. Not looked at on a phone. |
 | Mistake Lab | Session's final films at 360x640, 390x844, 1440 (tmp/1122-lab/final-*); live film at 360x640 after release aae55e759 (tmp/1122-lk366/livelab2-360x640-light/sheet-1.jpg): scenes about 7 s, cards whole. |
 | Hero film v6 | One frame per chapter (MockMob-promo-film/out/hero/v6_sheet_*.png, tiled in tmp/1122-coverage/film-grid.jpg); the session's page check at 390 and 1440. Sound not heard. |
+
+
+## 22 Nov 2026, 12:43 pm IST: release 8c74cca7c (coverage after the wave 5 publish; orchestrator's own look)
+
+| Area | What was looked at |
+|---|---|
+| Coverage index | Dev server at 390 wide: 92% of 416, 84 same and 21 new numbers, 114 of 114 chapters, nine subject tiles with Accountancy first; no sideways scroll. Live address checked after the deploy. Not looked at on a phone. |
+| Accountancy page | Dev server at 390 wide: 98%, 54 of 55, four status rows, the Q3 card shows NTA's question beside the new MockMob question; check date 22 November. |
+| Home teaser | Text only (the section mounts late): 92%, six rows led by Accountancy. No layout change was made. |
