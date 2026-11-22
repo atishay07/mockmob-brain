@@ -23,7 +23,7 @@
 - [Audience: teens new to CBT](audience-teens-new-to-cbt.md) — 19 Oct: 16-17-year-olds, many new to apps and CBT; fresh account must be complete; never hide features; check as a first-time student
 - [MockMob upload key](mockmob-upload-key.md) — 19 Oct: Play upload keystore, key.properties and RTDN token in C:\Users\atish\MockMob-keys; never commit or print
 - [Build and look loop](build-and-look-loop.md) — 20 Oct: agents capture visuals continuously while building, critique and improve in the same loop; walks never stall on sign-in
-- [Promo film bar](promo-film-bar.md) — 21 Oct: TixFox/Pocketsflow style, voice-synced type, sound design is half, tactile UI sound; 22 Nov: two more references (Zelios LangEase ad, OpenAI "Refreshed."), mostly silent, study with sound from files
+- [Promo film bar](promo-film-bar.md) — 21 Oct: TixFox/Pocketsflow style, sound design is half; 22 Nov: launch film = no voice-over but full sound, a real storyline, fast and upbeat, glass and depth (a flat type-and-cards slice was "so basic"); references in refmedia/lk371
 - [Codex image gen, cheap](codex-image-gen-cheap.md) — 21 Oct: images via `codex exec` image_gen; use GPT-6-Luna high + lean CODEX_HOME (.codex-alt); 6.1-Sol default burned the limit
 - [Promo film: not childish](promo-film-not-childish.md) — 21 Oct 11 am: v2 felt like a kids' toy; voice, GM music and toy SFX are the cause; mature voice picked by his ear, minimal produced bed, few realistic SFX
 - [Fewer messages](fewer-messages-only-what-matters.md) — 21 Oct: "too many chats"; message only for something to see, a decision, an action for him, or a real risk
