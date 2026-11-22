@@ -81,3 +81,4 @@
 - [Small passes, no sub-agents](small-passes-no-subagents.md) — 22 Nov (LK367): sub-agents slow small fix passes; do small UI tasks myself in one go, still gate before deploy
 - [Nested sessions and usage](nested-sessions-usage.md) — 22 Nov (LK368): nested sessions allowed for big overnight tasks; Fable sessions burn the 5-h limit in minutes, start them on Opus, shared checkout, plan written early; never for the hero film
 - [Paste-ready prompt inline](paste-ready-prompt-inline.md) — 22 Nov: when he asks for a prompt to paste, the full text goes in the chat itself, first, in one block; helpers must be self-running through files
+- [Launch film verdict, 22 Nov](launch-film-verdict-1122.md) — cuts 1 to 4 "AI slop, not usable": photographic plates first, a fresh script shown as text, fewer and softer effects; a critic's score is not his verdict
