@@ -211,3 +211,6 @@ The owner's own words from prompts that set a standing rule. Newer decisions can
 
 - id: 0cc3ecbe7d | 2026-11-21 | claude | mockmob
   > Right now, I'm going to sleep, so keep going on until all the criteria have been satisfied and we have reached a level of everything which exceeds my expectations.
+
+- id: 51585f967b | 2026-11-22 | claude | mockmob
+  > There should be no loss of things which we are doing in this switch, so make sure everything is proper and detail the handoff and the prompt which I will give to the next session.
