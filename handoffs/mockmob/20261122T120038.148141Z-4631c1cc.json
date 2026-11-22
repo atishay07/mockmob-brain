@@ -1,0 +1,32 @@
+{
+  "id": "20261122T120038.148141Z-4631c1cc",
+  "observed_at": "2026-11-22T12:00:38.149143+00:00",
+  "agent": "claude-fable-5.2 (launch film build, new account, Claude Code session 16f14db0)",
+  "task": "22 Nov 5:32 pm: launch film: three new narrator reads (Fish) sent on the cut 3 picture; waiting on the owner's ear and on Higgsfield",
+  "status": "active",
+  "done": "Fish Audio connector came up at 5:25 pm (balance 233,407 before). Made three new reads of the full script on drama-3, four passages each (2,849 credits): t1a = \"test 1\", relaxed product-film direction; t1b = \"test 1\", directed quick, flat, no emphasis; rohan = \"Rohan\". All twelve files recognised word for word (faster-whisper), \"MockMob\" and \"CUET 2027\" included. tools/vo-el/launch/build_voice_alt.py lays any read on the film's phrase beats (matches words by text, keeps the read's own pace, tightens only a phrase that overflows its slot); each read is mixed (-14.0 LUFS) and remuxed onto the SAME cut 3 picture: out/launch/launch-v3-cut3-voice-{t1b,t1a,rohan}.mp4 (+ -phone.mp4), sent to the owner as \"voice 1, 2, 3\" and copied to Desktop\\MockMob Films\\4 Launch film (in progress)\\cut 3 voice options (choose by ear). Measured pace in the film: old take 3.17 words a second, t1b 3.30, t1a 3.24, rohan 3.49. docs/LAUNCH-ASSET-LOG.md and LAUNCH-BUILD-STATE.md updated; NOW.md has a 5:30 pm section; local commit 43e6587. An independent read-only critic (Opus) is reviewing cut 3 sheets (out/launch/v3-check/crit3) against the ten-point bar.",
+  "next": "1) Apply the critic's findings that need no new generated media; render cut 4 only if something real changes; send it. 2) When the owner picks a voice by ear: copy that read's word beats from public/vo/launch/alt/<label>.json into src/launch/v3/grid.ts (WB), make it public/vo/launch/voice.wav + timing.json, rebuild the mix, render. 3) Higgsfield waits for the owner (LK403: no other model): he starts a NEW Cowork task with \"Read the file gen-queue/COWORK-WORKER.txt in this folder and follow it exactly. Start now and do not ask me anything.\"; then results appear as job ids in gen-queue/results/03.jsonl; download each (jobs_wait gives the URL), LOOK, scripts/launch-place.py, re-bundle, render. 4) Remind him on 24 Nov about the Higgsfield charge (USD 93.22 on 25 Nov unless cancelled). Nothing goes live without his explicit yes.",
+  "blockers": [
+    "Higgsfield generation waits for the owner to start a new Cowork task",
+    "Voice choice waits for the owner's ear"
+  ],
+  "evidence": [
+    "MockMob-promo-film/docs/LAUNCH-ASSET-LOG.md (narrator re-reads table, task ids, credits)",
+    "MockMob-promo-film/public/vo/launch/alt/t1a.json, t1b.json, rohan.json",
+    "MockMob-promo-film/out/launch/music/mix-report-t1a.txt, -t1b.txt, -rohan.txt",
+    "MockMob-promo-film/out/launch/voice-options/*.mp4",
+    "MockMob-promo-film commit 43e6587"
+  ],
+  "touched_files": [
+    "MockMob-promo-film/tools/vo-el/launch/build_voice_alt.py",
+    "MockMob-promo-film/tools/vo-el/launch/t1a, t1b, rohan (downloaded takes)",
+    "MockMob-promo-film/public/vo/launch/alt/*",
+    "MockMob-promo-film/public/music/launch-v3-mix-*.wav",
+    "MockMob-promo-film/docs/LAUNCH-ASSET-LOG.md, LAUNCH-BUILD-STATE.md",
+    "mockmob-brain/docs/NOW.md"
+  ],
+  "verification": "Word recognition and loudness measured; NOBODY HAS HEARD any read or mix (Claude cannot listen), so emphasis and naturalness are unjudged: the owner chooses by ear. The picture under the new reads still follows the old take's word beats (phrase starts match, words inside a phrase can be 0.1 to 0.2 s off).",
+  "cost_and_pending_requests": "Fish Audio 2,849 credits this session (balance about 230,558). Higgsfield 0. ElevenLabs 0.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
