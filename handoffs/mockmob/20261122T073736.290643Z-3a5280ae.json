@@ -1,0 +1,33 @@
+{
+  "id": "20261122T073736.290643Z-3a5280ae",
+  "observed_at": "2026-11-22T07:37:36.290643+00:00",
+  "agent": "claude-fable-5.2 (orchestrator, main session 777be139)",
+  "task": "22 Nov midday: wave 5 publish and coverage release; hero film v6 rolled back; hero film v7 rebuild; new launch-film references and the Higgsfield trial",
+  "status": "blocked",
+  "done": "LIVE = web main 8c74cca7c since 22 Nov 2026 12:43 pm IST. (1) The owner asked in chat for the publish to be run: 32 wave-5 bank questions inserted (accountancy 1315 to 1336, business studies 394 to 397, economics 410 to 418), undo file committed; coverage rebuilt from the live bank: nine subjects shown, 382 of 416 (92%), Accountancy 54/55, Business Studies 44/49, Economics 43/45, 84 same questions, 21 with new numbers, 114 of 114 chapters. (2) The owner called hero film v6 'such a regression'; v5 is back on the hero (same release); v6 files stay in public/video. (3) Hero film v7 rebuilt by the main session in Desktop/MockMob-promo-film (commit 02af892, plan docs/HERO-V7-PLAN.md): v5's open, close and its Practise, Mistake Lab, Learn and Mob scenes re-timed to the v6 voice by a time warp, five new staged scenes (Key cards, Ask Mobi photo, Daily Five, Benchmarks, DU Compass), v7 sound events and mix; master out/hero/hero-v7-master.mp4 and web files out/hero/web-v7; first full cut sent to the owner as a file at 1:02 pm, NOT live. (4) He then sent two reference launch films (youtu.be/SgmuplXU2iY Zelios LangEase ad; youtu.be/k3d_xeVxEOE OpenAI 'Refreshed.') to be studied frame by frame with sound, and started Higgsfield's 3-day unlimited trial (to 25 Nov; USD 93.22 charge on 25 Nov unless cancelled).",
+  "next": "WAITING ON THE OWNER: (a) the two reference films as files in Desktop/MockMob-promo-film/refmedia (the browser pane's YouTube player gave adverts, an embed error and an autoplay jump: no reliable frames; I cannot listen, only measure sound from files); (b) Higgsfield generation access: this session's connector has 7 read tools and no generate tool; (c) his verdict on the v7 first cut. Then: frames at 4 a second into docs/ref sheets, measure the sound (tempo, hits, silences, levels), write the study, raise v7 to that bar (more camera and transition motion, a music-led cut for the muted hero, generated Mobi or texture shots if Higgsfield can be driven), re-render (about 5 minutes at 1080p), send as a file; deploy only on his yes: copy out/hero/web-v7 to wt-1110-convert/public/video, heroFilmConfig.mjs and HeroFilm.jsx to hero-v7 with out/hero/v7/chapters.json (web commit fb7f3bbcc shows the same edits for v6), tests, gate in wt-1116-next, fast-forward push. Remind him on 24 Nov about the Higgsfield charge.",
+  "blockers": [
+    "Reference film files not yet provided (needed for dense frames and sound measurement)",
+    "Higgsfield connector in this session exposes no generate tool",
+    "Owner has not yet judged the v7 first cut"
+  ],
+  "evidence": [
+    "wt-1116-next/tmp/gate2.log (8c74cca7c: 24 suites fail 0, eslint empty, webpack 0, turbopack 0, DONE)",
+    "wt-1110-convert/docs/brain/reports/authored-publish/authored-publish-restore-2026-11-22T06-47-45-879Z.json",
+    "wt-1110-convert/data/coverage/cuet2026/public/summary.json (382/416)",
+    "MockMob-promo-film/docs/HERO-V7-PLAN.md",
+    "MockMob-promo-film/out/hero/v7_phone_01..05.png (whole film at 2 fps, phone size)",
+    "MockMob-promo-film/out/hero/v7/mix-report.json",
+    "mockmob-brain/docs/OWNER-MASTER-LEDGER.md rows LK369, LK370, LK371",
+    "mockmob-brain/docs/NOW.md (sections from 12:43 pm to 1:06 pm)"
+  ],
+  "touched_files": [
+    "wt-1110-convert: data/coverage/cuet2026/*-final.json (3), bank-cache.json, public/*; HeroFilm.jsx, heroFilmConfig.mjs and 3 hero tests restored to v5",
+    "MockMob-promo-film: src/hero/v7/* (kit7, KeyCards7, AskMobi7, Daily7, Rival7, Compass7, Hero7, spec7), src/Root.tsx, scripts/hero7.mjs, scripts/hero7-bundle.sh, scripts/hero-sound/build_hero_v7_mix.py, docs/HERO-V7-PLAN.md",
+    "memory: prod-writes-blocked-in-auto-mode, hero-film-fable-only, nested-sessions-usage, higgsfield-video-plan, promo-film-bar"
+  ],
+  "verification": "Release 8c74cca7c: full gate clean; live page serves hero-v5 posters and the coverage index says 416 questions; Accountancy page answers 200; coverage tests 14/14, test:app 1783 pass, test:nta 256 pass. Film v7: tsc clean, plan checks pass, mix -16 LUFS and -1.8 dBTP by the project's meter, whole length looked at on 2 fps phone-size sheets; sound NOT heard by ear; nothing checked on the owner's phone.",
+  "cost_and_pending_requests": "No new paid calls today (v7 reuses the v6 voice take; no ElevenLabs, Fish or Higgsfield generation was run).",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}

@@ -14,7 +14,7 @@
 - [Time and estimates format](time-and-estimates-format.md) — 16 Oct: relative times ("in the next 30 minutes"), 12-hour clock; size plans for parallel agents (5-6 h plan = 2 h)
 - [USP: unlimited mocks](usp-unlimited-mocks.md) — 16 Oct: headline differentiator = unlimited mocks from one central bank (rivals 10-30/subject); advertise everywhere, truthfully, not in the face
 - [Agent swarm resource hygiene](agent-swarm-resource-hygiene.md) — 16 Oct: swarms leaked Gradle/headless Chrome/dev servers (app crashed at 0.4 GB) and hit the 5h limit mid-work; reap leftovers, RAM rule in prompts, check usage before waves
-- [Higgsfield video plan](higgsfield-video-plan.md) — 16 Oct: USD 15; video only for object one-shots + Play promo; researched: Wan 3.0 primary, Kling A/B, Seedance 720p for one picked shot; /estimate first; 15% reserve
+- [Higgsfield video plan](higgsfield-video-plan.md) — 16 Oct plan (USD 15, /estimate first); 22 Nov: 3-day unlimited trial to 25 Nov (USD 93.22 charge unless cancelled, remind 24 Nov); the Claude Code connector had no generate tool
 - [Content only on ask](content-generation-only-on-ask.md) — 17 Oct: generate questions or content only when the owner asks in his current words; never auto-run waves or carry them from handoffs
 - [Owner feedback 17 Oct](owner-feedback-1017.md) — app nav count/alignment and Colleges, liquid glass taste, web Start menu, fine-tune scope, result screen clutter, Today; ledger F1-F18 in docs/brain/OWNER-FEEDBACK-2026-10-17.md; 3:30 am he called v12 "very bad": v12 dropped, v13 only
 - [Landing checklist gate](landing-checklist-gate.md) — 17 Oct: landing ships on his 45 L items + zero truth + zero high, tests lock fixes; the 88 score is advisory only
@@ -23,7 +23,7 @@
 - [Audience: teens new to CBT](audience-teens-new-to-cbt.md) — 19 Oct: 16-17-year-olds, many new to apps and CBT; fresh account must be complete; never hide features; check as a first-time student
 - [MockMob upload key](mockmob-upload-key.md) — 19 Oct: Play upload keystore, key.properties and RTDN token in C:\Users\atish\MockMob-keys; never commit or print
 - [Build and look loop](build-and-look-loop.md) — 20 Oct: agents capture visuals continuously while building, critique and improve in the same loop; walks never stall on sign-in
-- [Promo film bar](promo-film-bar.md) — 21 Oct: calm Motion teaser rejected; TixFox/Pocketsflow style, voice-synced type, sound design is half; tactile UI sound layer (SaaS feel) is required
+- [Promo film bar](promo-film-bar.md) — 21 Oct: TixFox/Pocketsflow style, voice-synced type, sound design is half, tactile UI sound; 22 Nov: two more references (Zelios LangEase ad, OpenAI "Refreshed."), mostly silent, study with sound from files
 - [Codex image gen, cheap](codex-image-gen-cheap.md) — 21 Oct: images via `codex exec` image_gen; use GPT-6-Luna high + lean CODEX_HOME (.codex-alt); 6.1-Sol default burned the limit
 - [Promo film: not childish](promo-film-not-childish.md) — 21 Oct 11 am: v2 felt like a kids' toy; voice, GM music and toy SFX are the cause; mature voice picked by his ear, minimal produced bed, few realistic SFX
 - [Fewer messages](fewer-messages-only-what-matters.md) — 21 Oct: "too many chats"; message only for something to see, a decision, an action for him, or a real risk

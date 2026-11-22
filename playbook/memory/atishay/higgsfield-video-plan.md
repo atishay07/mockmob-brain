@@ -21,3 +21,8 @@ On 16 Oct 2026 the owner added USD 15 of Higgsfield API credit and asked for a j
 - The owner approves 3 test clips in place before any batch.
 
 Status 16 Oct: not connected. See [[usp-unlimited-mocks]], [[owner-ux-research-brain]].
+
+**22 Nov 2026 update (ledger LK371).** He started Higgsfield's 3-day unlimited trial (ends 25 Nov 2026; his card is charged USD 93.22 for a month of Ultra on 25 Nov unless he cancels: remind him on 24 Nov). His words: "Utilize it to its fullest", video, image and audio. Trial limits from the mail: 1 image and 1 video at a time; video Seedance 2.5 (480p, up to 30 s) and Seedance 2.0 (720p, up to 15 s); images Nano Banana Pro / 2.1 / 2, Seedream 5.0 Pro, GPT Image 2 / 2.5 / 2.6; audio Seed Audio 1.0, Eleven v3, Minimax Speech 2.8 HD, VibeVoice, Seed Speech. The USD 15 budget rule above does not apply while the trial runs.
+
+In the Claude Code session of 22 Nov the "Higgsfield AI" connector had only 7 read tools (balance, models_list, models_get, list_workspaces, workspace_select, show_generations, import-claude-motion-from-url): no generate tool, so nothing could be generated from there. Check `session_connectors_status` and the tool list first; if still read-only, write the prompts and have him run them in the Claude chat app, then read results with show_generations. "Fish audio" (199ad0d7) and ElevenLabs (2de647b7) are different connectors that spend their own credits.
+
