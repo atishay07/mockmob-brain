@@ -1428,3 +1428,13 @@ redesigned Lab and re-record if stale; release v6 after it answers. Sound not ch
 Mistake Lab redesign: done by session lab-redesign (notes in its own section above), included in aae55e759.
 Not done from the owner's list: the Daily Five's clarity for a newcomer; more subjects (Maths and the sciences need
 numerical bank questions, so they need the publish route); "highest in the market" is not claimed anywhere.
+
+
+## 22 Nov 2026, 7:35 AM IST (orchestrator, Claude Fable 5.2): LK368 overnight run released, main fb7f3bbcc
+
+LIVE = main fb7f3bbcc (rollbacks: aae55e759, f33bd5018, 6ad2c7f63). Outcome: ledger row "LK368 outcome". Gate log: wt-1116-next/tmp/gate2.log.
+WAITING ON THE OWNER: the wave 5 publish (32 gated bank questions). Command, from wt-1110-convert:
+`node --use-system-ca scripts/question-publish-authored.mjs --mode=apply --plan=docs/brain/reports/authored-publish/authored-publish-plan-2026-11-22T00-56-38-375Z.json --reason="CUET 2026 coverage wave 5: 32 scored commerce questions (accountancy 21, business studies 3, economics 8)" --expect-project=isrxrxzjocewrdureyhp`
+Then: set `needs` to [] on the questions PUBLISH.md lists in the three commerce final files, `node scripts/coverage/build-public.mjs --fetch`, tests, commit, gate, deploy. Accountancy then shows at 54/55.
+To add a subject: the workflow scripts under the session's workflows/scripts (coverage-new-subjects, coverage-geo-bio) run paper, check A, check B, Key cards, audit; rules in wt-1110-convert/tmp/1122-coverage/COMMON.md, map in SCOUT.md. A subject shows only with `<id>-final.json` and 80% or more (scripts/coverage/build-public.mjs SHOW_MIN_PCT).
+Open with the owner: his ear on the film's sound; the Lab on his phone; the Daily Five for a newcomer; whether to keep sub-80 subjects hidden; the 12 held bank questions (rewrite or drop); Maths and the sciences.

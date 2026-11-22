@@ -457,3 +457,12 @@ light with a mouse wheel. Films and contact sheets: `wt-1110-convert/tmp/1122-lk
 Not looked at: a real phone, an iPhone, the Daily block's signed-in states, the Lab's 10-arrival test at 360x676.
 
 22 Nov 2026, about 6:10 am IST (LK368, Mistake Lab cards): earlier look vs new look filmed at 360x640, 360x676, 390x844, 1440x900 (wt-1110-convert/tmp/1122-lab old-*, new-*). Earlier screens won on pictures (chapter bars by question, pace line with hatched overrun, picks and arrows, the struck pick); new look won on real UI, cursor and stack but its cards were settings lists with empty reserved room. Combined cards built: one finding with one pen mark, one picture, the slot; all fit at full size at the four sizes in both themes, nothing under 14 px (after: final-*/sheet-1.jpg). Open: a real phone look; desktop cards keep 100 to 180 px empty under their content.
+
+
+## 22 Nov 2026, 7:35 AM IST: LK368 release fb7f3bbcc (orchestrator's own look)
+
+| Area | What was looked at |
+|---|---|
+| Coverage pages | Builder's sheets at 360 dark, 390 light, 1440 light (wt-1110-convert/tmp/1122-coverage/look/); live addresses answer 200; the index shows the built total. Not looked at on a phone. |
+| Mistake Lab | Session's final films at 360x640, 390x844, 1440 (tmp/1122-lab/final-*); live film at 360x640 after release aae55e759 (tmp/1122-lk366/livelab2-360x640-light/sheet-1.jpg): scenes about 7 s, cards whole. |
+| Hero film v6 | One frame per chapter (MockMob-promo-film/out/hero/v6_sheet_*.png, tiled in tmp/1122-coverage/film-grid.jpg); the session's page check at 390 and 1440. Sound not heard. |
