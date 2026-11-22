@@ -1556,3 +1556,8 @@ The owner moved to his other Claude account; this session builds the narrated la
 - Sent to him as files: cut 1 (5:08 pm) and cut 3 (5:24 pm; MockMob-promo-film/out/launch/launch-v3-cut3.mp4, phone copy -phone.mp4, a copy in Desktop\MockMob Films\4 Launch film (in progress)). Cut 3 = all 19 shots, 48.9 s, Mobi (the October film's rendered 3D takes) in three shots, the 92% line readable, the old voice, the old stills.
 - Higgsfield: his Cowork task generated nothing (its sandbox is refused Higgsfield's file hosts). He said: do what needs no Higgsfield, never another model, stop where it is needed. Ready for him: paste the worker prompt into a NEW Cowork task; the builder now does every upload and download from Claude Code, the worker only generates (MockMob-promo-film/docs/LAUNCH-BUILD-STATE.md section 4b).
 - Next without him: the better narrator read on Fish Audio ("test 1" and "Rohan", drama-3), the same picture with each voice, for his ear.
+
+### 5:30 pm update (launch film build session, new account): three new narrator reads sent for his ear
+
+- Fish Audio came up at 5:25 pm. Made three new reads of the script on drama-3 (2,849 credits; balance about 230,500): "voice 1" = test 1, directed quick and flat; "voice 2" = test 1, relaxed; "voice 3" = Rohan. Each is mixed onto the same cut 3 picture and sent to him as a file (also in Desktop\MockMob Films\4 Launch film (in progress)\cut 3 voice options (choose by ear)). Every word was recognised correctly; nobody has heard them.
+- Waiting on the owner for two things only: his pick of the voice by ear, and a new Cowork task with the worker prompt so Higgsfield can re-shoot the 12 stills and make the 12 clips (no other model stands in; his words, LK403).
