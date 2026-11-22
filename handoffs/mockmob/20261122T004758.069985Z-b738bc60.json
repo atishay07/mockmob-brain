@@ -1,0 +1,29 @@
+{
+  "id": "20261122T004758.069985Z-b738bc60",
+  "observed_at": "2026-11-22T00:47:58.069985+00:00",
+  "agent": "claude-auto",
+  "task": "Auto-capture: claude session b872a7b2",
+  "status": "paused",
+  "done": "Auto-captured at Stop. Turns: 3. Last message: Waiting on the master render; the remux, sheets, web encodes and posters follow straight after.",
+  "next": "Unverified auto-capture. Read the session transcript and live repo state before continuing.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\b872a7b2-50b1-4e81-aa39-6532764138f1.jsonl"
+  ],
+  "touched_files": [
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\HERO-V6-PLAN.md",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\vo-el\\hero6\\build_voice6.py",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\src\\hero\\v6\\script6.ts",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\src\\hero\\v6\\spec6.ts",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\src\\hero\\v6\\Hero6.tsx",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\scripts\\hero6.mjs",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\cap6\\cast.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\data\\tests\\hero_film_r7.test.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\data\\tests\\landing_checklist_1104.test.mjs",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\scripts\\hero-sound\\check_v6.py"
+  ],
+  "verification": "auto-captured by hook; not agent-verified",
+  "cost_and_pending_requests": "unknown; hook does not see provider receipts",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
