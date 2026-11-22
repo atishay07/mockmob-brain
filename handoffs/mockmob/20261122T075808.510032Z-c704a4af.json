@@ -1,0 +1,29 @@
+{
+  "id": "20261122T075808.510032Z-c704a4af",
+  "observed_at": "2026-11-22T07:58:08.510032+00:00",
+  "agent": "claude-fable-5.2 (orchestrator, main session 777be139)",
+  "task": "22 Nov afternoon: hero film v8 (v5's voice and flow with better pictures) sent to the owner; reference films studied",
+  "status": "blocked",
+  "done": "The owner rejected the 72 s rebuild (v7) on its script and voice: v5's script, voice and flow were 'almost perfect', only the graphics should be added to and improved; 'N-C-E-R-T' spelled out was wrong (ledger LK373). Built Hero16v8 in Desktop/MockMob-promo-film (commit 9f39a05, plan docs/HERO-V8-PLAN.md): v5's voice take, script, captions, nine chapters at v5's times and 53.033 s length unchanged; three pictures brought up to today and pinned to v5's words (04 Key cards as an NCERT line card, 05 Ask Mobi's photo of a wrong question, 06's colleges half as DU Compass); chapter 02's pill says Mistake Lab; a slanted volt-edged wipe over every chapter cut; captions land word by word; new cards on a drifting 3D stage. Sound: v5's mix rebuilt by v5's mixer, every report figure identical, only the three pictures' effects swapped (48 to 54 events). Sent to the owner as a file at 1:27 pm, NOT live. Also: his two reference launch films watched frame by frame and their sound measured (docs/REF-STUDY-LK371.md); he then said they are a craft bar, not a style to copy (LK372). Site still LIVE = web main 8c74cca7c (v5 on the hero, coverage 382/416 with Accountancy 54/55).",
+  "next": "WAIT for the owner's verdict on v8. On his yes: copy MockMob-promo-film/out/hero/web-v8/* to wt-1110-convert/public/video; point src/components/landing/heroFilmConfig.mjs and HeroFilm.jsx (phone poster) at hero-v8; keep v5's nine chapters and times (out/hero/v8/chapters.json), chapter 02 named 'Mistake Lab'; update data/tests/hero_film_r7.test.mjs, src/components/landing/homeHero.test.mjs and landing_checklist_1104 if they pin v5 names (web commit fb7f3bbcc shows the v6 edits as a pattern); tests, gate in wt-1116-next, fast-forward push. On his notes: edit src/hero/v8 or the scene in src/hero/v7, bash scripts/hero8-bundle.sh, render (about 4 minutes), node scripts/hero8.mjs --master ... --web v8. Open: Daily Five and Benchmarks are not in the film (no voice line; a new line needs his ear); Higgsfield connector still read-only in this session (7 tools, no generate), trial ends 25 Nov with a USD 93.22 charge unless he cancels (remind 24 Nov).",
+  "blockers": [
+    "Owner's verdict on hero film v8",
+    "Higgsfield connector exposes no generate tool in this session"
+  ],
+  "evidence": [
+    "MockMob-promo-film/docs/HERO-V8-PLAN.md",
+    "MockMob-promo-film/out/hero/v8_phone_01..04.png (whole film, 2 fps, phone size)",
+    "MockMob-promo-film/out/hero/v8/mix-report.json against out/hero/r5/mix-report.json (equal figures)",
+    "MockMob-promo-film/docs/REF-STUDY-LK371.md",
+    "mockmob-brain/docs/OWNER-MASTER-LEDGER.md rows LK370 to LK373",
+    "mockmob-brain/docs/NOW.md (1:06 pm to 1:27 pm sections)"
+  ],
+  "touched_files": [
+    "MockMob-promo-film: src/hero/v8/{spec8.ts,Hero8.tsx}, src/hero/v7/* (scene props, CutWipe, Drift), src/hero/r4/fx.tsx (CaptionModeCtx, opt-in), src/Root.tsx, scripts/hero8.mjs, scripts/hero8-bundle.sh, scripts/hero-sound/build_hero_v8_mix.py, tools/ref_sound_lk371.py, docs/HERO-V8-PLAN.md, docs/REF-STUDY-LK371.md, docs/ref/lk371/*",
+    "memory: hero-film-fable-only, promo-film-bar, higgsfield-video-plan"
+  ],
+  "verification": "tsc clean; plan checks pass (53.033 s = 3182 frames, v5's plan); mix report equals v5's on every figure; whole film looked at on 2 fps phone-size sheets and chapters 04 to 06 at 4 fps. Not heard by ear; not seen on the owner's phone; nothing deployed.",
+  "cost_and_pending_requests": "No paid generation today: v8 uses v5's existing voice take and paid sound files; no ElevenLabs, Fish or Higgsfield call was made.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
