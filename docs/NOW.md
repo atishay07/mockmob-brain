@@ -1395,3 +1395,36 @@ syllabus-level figure computed from data, every question shown beside its MockMo
   check B, Key cards, audit). Each subject ends in `data/coverage/cuet2026/<id>-final.json`.
 - After they finish: run `scripts/coverage/build-public.mjs` (agent cov-ui is writing it), look at the pages, recapture the
   home fixture, gate in wt-1116-next, deploy.
+
+## 22 Nov 2026, 6:40 AM IST (orchestrator, Claude Fable 5.2): LK368 overnight, state for whoever continues
+
+LIVE = main f33bd5018 since 6:21 AM (rollback 6ad2c7f63): /cuet-2026-coverage and its subject pages, audited Key cards.
+In the release gate now: aae55e759 (adds Sociology and History, the redesigned Mistake Lab). Deploy when wt-1116-next/tmp/gate2.log
+shows 24 "fail 0", empty eslint, both builds 0, DONE.
+
+Coverage, true numbers (data/coverage/cuet2026/public/summary.json; build: scripts/coverage/build-public.mjs with
+`--snapshot-dir tmp/1122-coverage/snap/<id>/` for each subject, or `--fetch`): Business Studies 41/49 (84%), Economics 39/45 (87%),
+History 39/42 (93%), Political Science 39/41 (95%), Psychology 48/50 (96%), Sociology 35/41 (85%); total 241/268 (90%).
+Accountancy 41/55 (75%) is HELD (the build shows a subject only with its final check done and at 80% or more).
+Running: workflow coverage-geo-bio run wf_695d580e-c0e (Geography, Biology: paper, checks A and B, Key cards, audit).
+
+Bank questions (wave 5): 44 authored, the wave gate (5 blind solvers, 2 quality judges, 3 fit judges) kept 32
+(accountancy 21, business studies 3, economics 8) and held 12. Dry run clean. The APPLY WAS DENIED to the orchestrator by the
+auto-mode safety check (a production write), so the owner must run it:
+  in wt-1110-convert: node --use-system-ca scripts/question-publish-authored.mjs --mode=apply
+  --plan=docs/brain/reports/authored-publish/authored-publish-plan-2026-11-22T00-56-38-375Z.json
+  --reason="CUET 2026 coverage wave 5: 32 scored commerce questions (accountancy 21, business studies 3, economics 8)"
+  --expect-project=isrxrxzjocewrdureyhp
+(restore command and details: wt-1110-convert/tmp/1122-coverage/PUBLISH.md). After the apply: in the three commerce
+`<id>-final.json` files set `needs` to [] on the questions PUBLISH.md lists, run build-public with `--fetch`, tests, commit,
+gate, deploy. Expected then: Accountancy 54/55, Business Studies 44/49, Economics 43/45.
+NOT yet committed (stage 3): scripts/authored-w2-accept.mjs, scripts/lib/authored-wave.mjs, scripts/authored-w5-scoring-layout.mjs,
+data/nta_agent_scores and data/nta_fit_scores (32 kept rows), docs/brain/reports/authored-w5 and authored-publish plans, and the
+hero film v6 files (public/video/hero-v6-*, HeroFilm.jsx, heroFilmConfig.mjs, hero tests; v5 files stay for roll-back).
+
+Hero film v6: delivered by session hero-film at about 6:25 AM (72.3 s, ten chapters, real screens, the approved voice; it
+used 1,920 ElevenLabs credits). The orchestrator asked it at 6:35 AM to re-check the Mistake Lab chapter against the
+redesigned Lab and re-record if stale; release v6 after it answers. Sound not checked by ear.
+Mistake Lab redesign: done by session lab-redesign (notes in its own section above), included in aae55e759.
+Not done from the owner's list: the Daily Five's clarity for a newcomer; more subjects (Maths and the sciences need
+numerical bank questions, so they need the publish route); "highest in the market" is not claimed anywhere.
