@@ -59,7 +59,7 @@
 - [Weekly limit: keep working](weekly-limit-keep-working.md) — 10 Nov: never stop or shrink scope for the weekly usage figure; finish the work in hand
 - [Older-model rules not binding](older-model-rules-not-binding.md) — 10 Nov: work-style rules for earlier models (sub-agents, model choice, UI procedures) do not bind the newest model; taste evidence and safety facts still do
 - [UI audit log first](ui-audit-log-first.md) — 12 Nov: read and update mockmob-brain/docs/UI-AUDIT-LOG.md before any UI look; he wants visible change, not hours of looking
-- [Hero film: Fable only](hero-film-fable-only.md) — 12 Nov: film edits by the main session only, no sub-agents; Sonnet agents fine for bug fixes and minor adjustments elsewhere
+- [Hero film: Fable only](hero-film-fable-only.md) — 12 Nov, 22 Nov: main session only (no sub-agents, no side sessions); update the old film's staged scenes, never screen recordings in a window (v6 rejected as "such a regression"); watch it through before release
 - [Resume sub-agents after a limit stop](resume-subagents-after-limit.md) — 10 Nov: agents cut off by the 5-h limit resume by agent id via SendMessage; 5 Fable agents burned a window in an hour; keep to 2-3
 - [Bash heredoc apostrophes](bash-heredoc-apostrophes.md) — 13 Nov: a heredoc body with apostrophes failed to parse; use Write/Edit for file content, script files for multi-step edits
 - [Guest Mobi budget](guest-mobi-budget.md) — 13 Nov: real AI for guests approved; aim Rs 0.5 a visitor, Rs 1 hard max; site-wide daily ceiling is my safeguard
@@ -79,4 +79,4 @@
 - [Final redesign pass](final-redesign-pass.md) — 21 Nov 3:05 pm: the new home (real screens worked by a cursor, Lab plays itself) is LIVE on / after his "Switch it live"; refine it in place, critic round after big changes
 - [Demo pace and no boxes](demo-pace-and-no-boxes.md) — 22 Nov (LK366): loved the captioned stories and Ask Mobi; rejected outline boxes on real screens; 11 s Lab unreadable, about 7 s a scene; a section must say what the feature is
 - [Small passes, no sub-agents](small-passes-no-subagents.md) — 22 Nov (LK367): sub-agents slow small fix passes; do small UI tasks myself in one go, still gate before deploy
-- [Nested sessions and usage](nested-sessions-usage.md) — 22 Nov (LK368): nested sessions allowed for big overnight tasks; Fable sessions burn the 5-h limit in minutes, start them on Opus, shared checkout, plan written early
+- [Nested sessions and usage](nested-sessions-usage.md) — 22 Nov (LK368): nested sessions allowed for big overnight tasks; Fable sessions burn the 5-h limit in minutes, start them on Opus, shared checkout, plan written early; never for the hero film

@@ -475,3 +475,12 @@ Not looked at: a real phone, an iPhone, the Daily block's signed-in states, the 
 | Coverage index | Dev server at 390 wide: 92% of 416, 84 same and 21 new numbers, 114 of 114 chapters, nine subject tiles with Accountancy first; no sideways scroll. Live address checked after the deploy. Not looked at on a phone. |
 | Accountancy page | Dev server at 390 wide: 98%, 54 of 55, four status rows, the Q3 card shows NTA's question beside the new MockMob question; check date 22 November. |
 | Home teaser | Text only (the section mounts late): 92%, six rows led by Accountancy. No layout change was made. |
+
+
+## 22 Nov 2026, 12:55 pm IST: hero film (orchestrator's own look)
+
+| Area | What was looked at |
+|---|---|
+| v5 against v6 | One frame every 2.5 s of both films, side by side (scratchpad film-v5-sheet-*, film-v6-sheet-*): v5 = staged scenes in devices, Mobi, big fact cards; v6 = small flat recordings in one window, type too small, no devices, no Mobi. The owner's verdict matches. |
+| Hero after the roll-back | Live page serves hero-v5 posters (curl of www.mockmob.in at 12:43 pm). Not looked at on a phone. |
+| v7 scenes | Three rounds of 3 fps half-size frames of chapters 01 to 09 (MockMob-promo-film/out/hero/v7/seq1, seq2, seq3 sheets): kept v5 scenes land on the new words; new scenes fixed for size, overflow and overlap. Full master not yet reviewed; sound not heard. |

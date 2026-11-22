@@ -1452,3 +1452,11 @@ Coverage now: nine subjects shown, total 382/416 (92%); Accountancy 54/55, Busin
 Undo of the publish (hides the 32 rows): `node --use-system-ca scripts/question-publish-authored.mjs --mode=restore --restore=docs/brain/reports/authored-publish/authored-publish-restore-2026-11-22T06-47-45-879Z.json --expect-project=isrxrxzjocewrdureyhp` from wt-1110-convert; after it, set the 20 questions of tmp/1122-coverage/PUBLISH.md section 2g back to not_covered and rebuild.
 Never apply the old 44-row plan (authored-publish-plan-2026-11-22T00-16-56-474Z.json, untracked).
 Open with the owner: his ear on the film's sound; the Lab, coverage pages and film on his phone; Maths and the other sciences (numerical bank questions through the same publish route); the 12 held bank questions (rewrite or drop); NCERT line references in the product; his promised feedback on "the whole CUET prep thing".
+
+
+## 22 Nov 2026, 12:55 pm IST (orchestrator, Claude Fable 5.2): hero film v6 ROLLED BACK, v7 rebuild in progress
+
+LIVE = main 8c74cca7c (12:43 pm): the hero plays v5 again (heroFilmConfig.mjs, HeroFilm.jsx and the hero tests are the pre-v6 versions); coverage shows nine subjects (382/416). Rollbacks: 7d0e31d87 (v6 film), fb7f3bbcc.
+Owner's verdict on v6 and his brief for the rebuild: ledger row LK370. Rule saved (memory hero-film-fable-only): film work is the main session's, never a side session; update the old film's scenes, never recordings in a window; watch it through before release.
+v7 state: Desktop/MockMob-promo-film, docs/HERO-V7-PLAN.md (structure, the time warp, order of work, status). Files: src/hero/v7/{kit7,KeyCards7,AskMobi7,Daily7,Rival7,Compass7,Hero7}.tsx, spec7.ts, scripts/hero7.mjs, scripts/hero7-bundle.sh, scripts/hero-sound/build_hero_v7_mix.py; mix public/music/hero-v7-mix.wav (-16 LUFS, -1.8 dBTP by the project's meter). Master render out/hero/hero-v7-master.mp4 started about 12:55 pm.
+NEXT: review the master's sheets through its whole length beside v5's; send him the film as a FILE (not a deploy); on his yes: `node scripts/hero7.mjs --master out/hero/hero-v7-master.mp4 --web v7`, copy out/hero/web-v7/* to wt-1110-convert/public/video, point heroFilmConfig.mjs and HeroFilm.jsx at hero-v7 with the ten chapters of out/hero/v7/chapters.json (the v6 commit fb7f3bbcc shows the exact edits and test changes), tests, gate, deploy.
