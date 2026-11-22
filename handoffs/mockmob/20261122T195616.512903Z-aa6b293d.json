@@ -1,0 +1,33 @@
+{
+  "id": "20261122T195616.512903Z-aa6b293d",
+  "observed_at": "2026-11-22T19:56:16.512903+00:00",
+  "agent": "claude-code launch-film build session (new account, Fable 5.2)",
+  "task": "MockMob narrated launch film V4, cut 5 (the owner's \"one last final pass\"): STOPPED at 92 % account usage, mid critic loop",
+  "status": "paused",
+  "done": "Owner stopped the session at 1:20 am, 23 Nov (ledger LK416): no new work, handoff and a paste-ready prompt, brain kept posted. State at the stop: cut 5c (round 3, 82.3 s) rendered with both round 2 reviews applied, NOT reviewed by the critics, NOT sent to the owner. Critic scores so far (Opus, high effort; the sound critic cannot hear): round 1 picture 6.8 / sound 6.4 (cut 5a), round 2 picture 7.2 / sound 7.1 (cut 5b). Counted against his 8 orders of this pass (LK414, LK415): 4 done and measured (pauses between lines; \"No one told you\" about 5 dB over its line with a 0.5 s pause; the generated girl removed; critics run), 2 partly (the mixture: one photograph clip and one clip are in; better generations: stills requested with rewritten prompts, none looked at), 2 not done (both critics at 9; a cut sent to him). Everything is written down: MockMob-promo-film/docs/LAUNCH-V4-STATE.md sections 8, 10, 11; the next-session prompt at docs/NEXT-SESSION-PROMPT-LAUNCH-CUT5.md; brain ledger LK414 to LK416 and NOW.md (1:25 am entry); memory image-gen-prompting-and-settings.",
+  "next": "Paste docs/NEXT-SESSION-PROMPT-LAUNCH-CUT5.md into a new session. Its order: (1) check out/launch/launch-v4-cut5c.mp4; (2) bash scripts/launch-critic-pack.sh out/launch/launch-v4-cut5c.mp4 3 <seconds>; (3) two Opus critics at high effort with out/launch/critic/ROUND.md (written for round 3); (4) fix, re-render, repeat until both give 9 or above; (5) generations: python scripts/launch-fetch.py, face-check request 09's pictures (girl_1.jpg exists; the worker was told to stop after it), then request 10 for clips on Seedance 2.5 with 2.0 as fallback, place with scripts/launch-place5.py; (6) deliver with launch-cut4.sh without NO_DELIVER and send the phone copy; (7) ledger, NOW.md, state doc, checkpoint. Remind the owner on 24 Nov: Higgsfield USD 93.22 on 25 Nov unless cancelled. Check account usage before each critic round (about 0.5 M sub-agent tokens a round).",
+  "blockers": [
+    "Account usage at 92 % (owner's stop)",
+    "Picture score is held back mainly by no people after the hook: needs request 09's portraits to pass a face check",
+    "Only the owner can hear the mix"
+  ],
+  "evidence": [
+    "out/launch/critic/r1 and r2 (four reviews)",
+    "out/launch/launch-v4-cut5b.mp4 (reviewed, 7.2 / 7.1)",
+    "out/launch/launch-v4-cut5c.mp4 (rendering finished or finishing at 1:27 am; verify it plays)",
+    "gen-queue/status/09-people.status.md (quality high refused on the free trial; one picture per job)",
+    "local commits 1673e9d, 79b2ba9 and the one after (never pushed)"
+  ],
+  "touched_files": [
+    "docs/LAUNCH-V4-STATE.md (section 11)",
+    "docs/NEXT-SESSION-PROMPT-LAUNCH-CUT5.md",
+    "gen-queue/STOP",
+    "C:\\Users\\atish\\mockmob-brain\\docs\\OWNER-MASTER-LEDGER.md (LK416)",
+    "C:\\Users\\atish\\mockmob-brain\\docs\\NOW.md (1:25 am entry)",
+    "memory: image-gen-prompting-and-settings.md"
+  ],
+  "verification": "Cuts 5a and 5b were watched end to end on contact sheets by the builder; cut 5c was checked on spot frames and a test mix only (smallest voice margin 12.9 dB, motif 4.8 to 5.5 dB over its line), not watched in full. No sub-agent is running. The Cowork worker should stop itself on gen-queue/STOP after its current picture.",
+  "cost_and_pending_requests": "Fish Audio about 1,430 credits this pass. Higgsfield 0 credits (free trial; charge of USD 93.22 on 25 Nov unless cancelled). Opus critics: four runs, about 1.07 M sub-agent tokens.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}

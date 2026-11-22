@@ -1598,3 +1598,14 @@ The owner moved to his other Claude account; this session builds the narrated la
 - Honest gaps: no full watch-through by the builder (spot frames only); The Mob scene and the Ask Mobi opening are thin; nobody but him has heard it. The Cowork generation queue is stopped (gen-queue/STOP).
 - What to run and how timing works: MockMob-promo-film/docs/LAUNCH-V4-STATE.md sections 8 and 9. Local commit 0953fab (never pushed).
 - Still owed to him: a reminder on 24 Nov that Higgsfield charges USD 93.22 on 25 Nov unless cancelled.
+
+### 1:25 am, 23 Nov update (launch film build session, new account): cut 5 stopped at 92 % usage, mid critic loop (ledger LK414 to LK416)
+
+- His order (LK414, 11:50 pm): one last final pass; a mixture of the designed look and the good generated pictures; the pauses between lines are wrong; "No one told you" still too weak with almost no pause; run Opus critics (picture, sound) until 9 or above; send a higher-quality cut.
+- His correction (LK415, 12:50 am): remove the generated girl ("the face ... so weird", "some sort of a mustache"); the AI look comes from the builder's prompts and settings, GPT Image 2.6 is good; use Seedance 2.5, not 2.0. Checked: he was right about the prompts and about Seedance 2.5. One fact he does not have yet: the free trial covers GPT Image 2.6 only up to quality "medium" ("high" was refused at 1:06 am); batches of four are allowed.
+- Counted against his 8 orders: 4 done and measured (pauses; the motif stronger with a 0.5 s pause; the girl removed; the critics run), 2 partly (the mixture: one photograph and one clip are in; the better generations: stills requested, none checked), 2 not done (critics at 9; a cut sent to him).
+- Critic scores (Opus, high effort; the sound critic cannot hear and judges measurements): round 1 picture 6.8, sound 6.4; round 2 picture 7.2, sound 7.1. Round 3 (cut 5c, 82.3 s) was rendered with both round 2 reviews applied and is NOT yet reviewed. No cut 5 has been sent to him.
+- The film now: the designed stage throughout; a drawn notebook, wrong-answer card, coaching sheet, textbook page, three rows of mocks, three answer cards at the close; The Mob as a divided screen with drawn devices showing five real questions; generated material only the boy thinking (hook 03 and the close) and the college clip in DU Compass. The narration is 82.3 s with real pauses; the mix places effects against the voice itself.
+- Generation: the worker was on request 09 (four portraits, rewritten prompts) and was told to stop after its current picture (gen-queue/STOP), because its waiting loop uses the account's usage. Nothing from request 09 has been looked at.
+- To carry on: MockMob-promo-film/docs/NEXT-SESSION-PROMPT-LAUNCH-CUT5.md is the prompt to paste; docs/LAUNCH-V4-STATE.md section 11 has the open list and the commands. Local commits only.
+- Still owed to him: the reminder on 24 Nov that Higgsfield charges USD 93.22 on 25 Nov unless cancelled.

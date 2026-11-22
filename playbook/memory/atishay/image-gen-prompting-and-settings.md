@@ -16,6 +16,8 @@ On 23 Nov 2026, about 12:50 am (ledger LK415), watching generated pictures for t
 - Before any generation run, read the provider's current model list (`models_explore`) for the newest version and the top quality tier; never trust an older rule file of my own for model names or settings.
 - Images of people: describe ONE real photograph in plain positive terms (who, where, what they are doing, expression, soft even light on the face from the front, lens and distance, true-to-life colour). No long "no this, no that" lists, no golden-hour glow. Ask for a batch of 4 and pick by eye.
 - Look at every face at full size before it goes anywhere near a cut: upper lip, eyes, teeth, hands. A girl with a lip shadow or any "weird" face is rejected by me, not by him.
+- Fact found the same night (1:06 am): Higgsfield's free-trial unlimited allowance refused GPT Image 2.6 at quality "high" and accepted "medium" with a batch of 4. So on the free trial "medium" was the ceiling, and the fix is the prompt and the batch, not the tier; tell him this plainly rather than promise "high".
+- The Cowork worker's waiting loop uses the account's usage: stop it (gen-queue/STOP) whenever no request is open.
 - My own reading (not his words): he watches generations as they land, so a bad picture costs trust even if it never reaches a cut.
 - A film must not depend on generations: keep a designed stand-in so a cut can ship without them.
 Related: [[launch-film-verdict-1122]], [[higgsfield-video-plan]], [[no-subpar-3d-use-image-gen]].
