@@ -1438,3 +1438,7 @@ WAITING ON THE OWNER: the wave 5 publish (32 gated bank questions). Command, fro
 Then: set `needs` to [] on the questions PUBLISH.md lists in the three commerce final files, `node scripts/coverage/build-public.mjs --fetch`, tests, commit, gate, deploy. Accountancy then shows at 54/55.
 To add a subject: the workflow scripts under the session's workflows/scripts (coverage-new-subjects, coverage-geo-bio) run paper, check A, check B, Key cards, audit; rules in wt-1110-convert/tmp/1122-coverage/COMMON.md, map in SCOUT.md. A subject shows only with `<id>-final.json` and 80% or more (scripts/coverage/build-public.mjs SHOW_MIN_PCT).
 Open with the owner: his ear on the film's sound; the Lab on his phone; the Daily Five for a newcomer; whether to keep sub-80 subjects hidden; the 12 held bank questions (rewrite or drop); Maths and the sciences.
+
+### 7:55 AM update (orchestrator): LIVE = main 7d0e31d87
+The Daily Five's sub line now speaks to a newcomer first (LK367). Gate clean on 7d0e31d87 (24 suites, eslint, both builds).
+Everything else as in the 7:35 AM section above; the owner's publish step for the 32 bank questions is still open.
