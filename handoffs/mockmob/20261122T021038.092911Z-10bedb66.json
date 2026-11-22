@@ -1,0 +1,32 @@
+{
+  "id": "20261122T021038.092911Z-10bedb66",
+  "observed_at": "2026-11-22T02:10:38.092911+00:00",
+  "agent": "claude-auto",
+  "task": "Auto-capture: claude session b872a7b2",
+  "status": "paused",
+  "done": "Auto-captured at PreCompact. Turns: 6. Last message: Only the Mistake Lab chapter had to change; v6 is re-encoded and ready to release, with the same file names and chapter times as before. Nothing in `heroFilmConfig.mjs` or the tests needed to change.\n\n1. **Mistake Lab (chapter 02):** it was out of date. The card screens are the same as the ones I recorded, but the rebuilt Lab now plays each scene in about 6.5 s. With the old timing, the end of my ",
+  "next": "Unverified auto-capture. Read the session transcript and live repo state before continuing.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\b872a7b2-50b1-4e81-aa39-6532764138f1.jsonl"
+  ],
+  "touched_files": [
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\docs\\HERO-V6-PLAN.md",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\vo-el\\hero6\\build_voice6.py",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\src\\hero\\v6\\script6.ts",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\src\\hero\\v6\\spec6.ts",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\src\\hero\\v6\\Hero6.tsx",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\scripts\\hero6.mjs",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\cap6\\cast.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\data\\tests\\hero_film_r7.test.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\data\\tests\\landing_checklist_1104.test.mjs",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\scripts\\hero-sound\\check_v6.py",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\tools\\cap6\\pagecheck.mjs",
+    "C:\\Users\\atish\\mockmob-brain\\docs\\NOW.md",
+    "C:\\Users\\atish\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\side-session-notes\\local_ad0c7cc1-cd4b-4779-acca-a273258da548\\hero-film-v6-handover.md"
+  ],
+  "verification": "auto-captured by hook; not agent-verified",
+  "cost_and_pending_requests": "unknown; hook does not see provider receipts",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
