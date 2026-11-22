@@ -1,0 +1,18 @@
+{
+  "id": "20261122T110256.003652Z-8d0dfcc3",
+  "observed_at": "2026-11-22T11:02:56.003652+00:00",
+  "agent": "claude-auto",
+  "task": "Auto-capture: claude session 806068d7",
+  "status": "paused",
+  "done": "Auto-captured at SessionEnd. Turns: 1. Last message: **No. The Higgsfield connector has no tool that generates video or images**, so I stopped at Step 1. Nothing was generated or charged, and I touched no files.\n\nThese are the only Higgsfield tools I have:\n- `balance`\n- `list_workspaces`\n- `workspace_select`\n- `models_list`\n- `models_get`\n- `show_generations`\n- `import-claude-motion-from-url`\n\nThe connector's own instructions say it \"cannot generate",
+  "next": "Unverified auto-capture. Read the session transcript and live repo state before continuing.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\806068d7-f06d-4301-8fc5-018a8288be72.jsonl"
+  ],
+  "touched_files": [],
+  "verification": "auto-captured by hook; not agent-verified",
+  "cost_and_pending_requests": "unknown; hook does not see provider receipts",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}

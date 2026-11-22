@@ -1,0 +1,18 @@
+{
+  "id": "20261122T110255.957618Z-2b9460df",
+  "observed_at": "2026-11-22T11:02:55.957618+00:00",
+  "agent": "claude-auto",
+  "task": "Auto-capture: claude session 051e3c41",
+  "status": "paused",
+  "done": "Auto-captured at SessionEnd. Turns: 1. Last message: I made no clips, because Higgsfield won't let Claude Code use your free unlimited generations.\n\n**Step 1:** I do have a generate tool. The second Higgsfield connector has `generate_video`, and Seedance 2.0 and 2.5 are both on it. The first connector is read-only (balance, models list, generation history).\n\n**Step 2:** I stopped before making the first clip. I asked for a price on Seedance 2.0 (720",
+  "next": "Unverified auto-capture. Read the session transcript and live repo state before continuing.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\051e3c41-b5ac-4ffb-b612-a6809bc5141a.jsonl"
+  ],
+  "touched_files": [],
+  "verification": "auto-captured by hook; not agent-verified",
+  "cost_and_pending_requests": "unknown; hook does not see provider receipts",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
