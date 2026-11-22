@@ -1550,3 +1550,9 @@ The owner moved to his other Claude account; this session builds the narrated la
 - Generation: Higgsfield's trial is refused from Claude Code on this account too. He pasted the standing worker prompt into Claude Cowork at 4:59 pm; it runs gen-queue/requests in order by itself (01: 12 stills re-shot on GPT Image 2.6 + 12 Seedance 2.0 clips; 02: two alternate narrator reads) and writes gen-queue/status.
 - Voice: still the old "test 1" take. Fish Audio was reconnected at 4:50 pm; a better read and alternates are the next audio step. He chooses by ear.
 - Open with the owner: his look at cut 1; his ear on the voice and the mix; the Higgsfield trial decision before 25 Nov (USD 93.22 charge unless cancelled; remind on 24 Nov). Nothing is live; the web repo was not touched.
+
+### 5:25 pm update (launch film build session, new account): cut 3 sent; Higgsfield waits for the owner; the Fish voice re-read is next (ledger LK403)
+
+- Sent to him as files: cut 1 (5:08 pm) and cut 3 (5:24 pm; MockMob-promo-film/out/launch/launch-v3-cut3.mp4, phone copy -phone.mp4, a copy in Desktop\MockMob Films\4 Launch film (in progress)). Cut 3 = all 19 shots, 48.9 s, Mobi (the October film's rendered 3D takes) in three shots, the 92% line readable, the old voice, the old stills.
+- Higgsfield: his Cowork task generated nothing (its sandbox is refused Higgsfield's file hosts). He said: do what needs no Higgsfield, never another model, stop where it is needed. Ready for him: paste the worker prompt into a NEW Cowork task; the builder now does every upload and download from Claude Code, the worker only generates (MockMob-promo-film/docs/LAUNCH-BUILD-STATE.md section 4b).
+- Next without him: the better narrator read on Fish Audio ("test 1" and "Rohan", drama-3), the same picture with each voice, for his ear.
