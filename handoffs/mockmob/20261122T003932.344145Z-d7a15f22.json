@@ -1,0 +1,31 @@
+{
+  "id": "20261122T003932.344145Z-d7a15f22",
+  "observed_at": "2026-11-22T00:39:32.344145+00:00",
+  "agent": "claude-opus-5.5 (Mistake Lab side session, LK368)",
+  "task": "LK368 overnight: Mistake Lab cards redesign (combine old and new looks)",
+  "status": "complete",
+  "done": "Mistake Lab next-look cards rebuilt in wt-1110-convert (uncommitted): each card leads with one finding and one pen mark, then one picture from the earlier screens (chapter bars by question, pace line with hatched overrun, picks and arrows, struck pick and ticked key, plan with Set up), then the tap slot; beat lines follow the taps (LabBeats.mjs); SWOT link shares the line cell on phones. All cards fit at full size at 360x640, 360x676, 390x844, 1440x900, light and dark; text 14 px or more; autoplay hand-offs about 7 s.",
+  "next": "Orchestrator: commit the files listed in side-session-notes/local_ad0c7cc1.../mistake-lab-handover.md, recapture the home element fixture if its test complains, gate, deploy when satisfied; owner judges on his phone.",
+  "blockers": [],
+  "evidence": [
+    "lab_next_1121 11/11, labStory+labTimePlays 15/15, home_next_1120 24/24, landing_checklist_1104 43/43, test:app 1783 pass 0 fail, eslint clean",
+    "tmp/1122-lab/final-*/shots.json metrics: ssfit 1 everywhere, no overflow, no text under 14 px",
+    "tmp/1122-lab/auto-390x844-light step log: hand-offs 7.05, 7.07, 7.9 s at CPU 6x"
+  ],
+  "touched_files": [
+    "src/components/landing/LabNextScreens.jsx",
+    "src/components/landing/LabBeats.mjs",
+    "src/components/landing/LabCinema.jsx",
+    "src/components/landing/lab-next.css",
+    "src/components/landing/LabNextGate.jsx",
+    "src/app/preview/lab-next/page.jsx",
+    "data/tests/lab_next_1121.test.mjs",
+    "src/components/landing/labTimePlays.test.mjs",
+    "mockmob-brain/docs/NOW.md",
+    "mockmob-brain/docs/UI-AUDIT-LOG.md"
+  ],
+  "verification": "Playwright films on the dev server in phone context (touch, Android UA, CPU 6x for autoplay timing) and desktop with a mouse wheel; reduced motion checked; not on a real phone.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}

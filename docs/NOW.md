@@ -2,6 +2,14 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 22 Nov 2026, about 6:10 am IST: Mistake Lab cards rebuilt (LK368, the Lab side session). Built and tested in wt-1110-convert, NOT committed, NOT live
+His brief: keep the new stacked, self-playing look and its 7 s pace, but make the cards better by taking what the earlier screens did better; nothing cut on a phone.
+- Each card now leads with ONE finding in the display face with one pen mark (the result page's own idiom), then ONE picture from the earlier screens at phone size, then the slot the cursor's tap fills. Chapters: "Partnership cost 18 of the 28 marks you missed.", bars cut into Q3 Q4 Q8, Fix first, -18, the three-mock columns. Time: "All 3 wrong answers ran over the 1:12 pace.", pace line, overrun hatched coral or amber. Changes: "= -6" counting up, each change as two picks and an arrow. Repair: the question, the pick struck, the key ticked, the record line, then the repair as a sheet. SWOT: the plan with Set up, four filled tiles.
+- The line under each title follows the taps (LabBeats.mjs, one plain idea a beat, like Ask Mobi). On a phone the SWOT link shares that line's cell, which gave every device about 35 px back (part of his "cut on the bottom").
+- Measured (Playwright, phone context): every card fits at full size at 360x640, 360x676, 390x844 and 1440x900, in light and dark; no text under 14 px (cards, card header, rail); nothing past the card; device 5 px each side, bottom at the band. Autoplay with CPU 6x: scenes hand off at about 7.0 to 7.9 s.
+- Tests: lab_next_1121 11/11 (pins rewritten for the new cards, plus a new test for one finding, one pen mark and the beat lines), labStory + labTimePlays 15/15 (one stale pin from LK366 fixed), home_next_1120 24/24, landing_checklist_1104 43/43, test:app 1783 pass 0 fail; eslint clean.
+- Not verified: a real phone. Design and sheets: wt-1110-convert/tmp/1122-lab/DESIGN.md (before: old-*, new-*; after: final-*).
+
 ## 21 Nov 2026, 3:05 pm IST: LIVE = main 459b9dd3d. THE NEW HOME IS LIVE ON / (owner: "Switch it live"); rollback = 467cd9540 (the old home on /)
 - `/` = hero, colleges, Try five, one-place frame (6 rows, autoplay from its heading), Statement, Lab next look (plays itself), Daily and Sunday, Compass, pricing, creators (1,500+), FAQ (What do I get free?), close.
 - /home-next 308 to /. Robots index/follow, canonical https://www.mockmob.in. Home tests moved to guard the new `/`; home-elements fixture recaptured.

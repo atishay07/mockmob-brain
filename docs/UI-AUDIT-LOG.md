@@ -455,3 +455,5 @@ light with a mouse wheel. Films and contact sheets: `wt-1110-convert/tmp/1122-lk
 | Android nudge | Not reachable on the live site | `/?appnudge=1`: `nudge-390x844-light/f001.jpg` |
 
 Not looked at: a real phone, an iPhone, the Daily block's signed-in states, the Lab's 10-arrival test at 360x676.
+
+22 Nov 2026, about 6:10 am IST (LK368, Mistake Lab cards): earlier look vs new look filmed at 360x640, 360x676, 390x844, 1440x900 (wt-1110-convert/tmp/1122-lab old-*, new-*). Earlier screens won on pictures (chapter bars by question, pace line with hatched overrun, picks and arrows, the struck pick); new look won on real UI, cursor and stack but its cards were settings lists with empty reserved room. Combined cards built: one finding with one pen mark, one picture, the slot; all fit at full size at the four sizes in both themes, nothing under 14 px (after: final-*/sheet-1.jpg). Open: a real phone look; desktop cards keep 100 to 180 px empty under their content.
