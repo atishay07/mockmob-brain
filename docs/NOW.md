@@ -1486,3 +1486,7 @@ NEXT: review the v8 master's sheets through its whole length (out/hero/v8_phone_
 Master MockMob-promo-film/out/hero/hero-v8-master.mp4 (1080p, 60 fps, 53.033 s); web files out/hero/web-v8/hero-v8-{1080,720,480}.mp4 (9.79 / 6.08 / 3.47 MB) and posters; film project commit follows 02af892 (docs/HERO-V8-PLAN.md has the table of what changed and the commands).
 Looked at: the whole length at 2 frames a second at phone size (out/hero/v8_phone_01..04.png); check frames of chapters 04 to 06 at 4 a second. Sound: v5's mix figures reproduced exactly; NOT heard by ear.
 Waiting on the owner's verdict on v8. The site plays v5. Higgsfield: still 7 read-only tools in this session, nothing generated.
+
+
+### 2:22 pm update (orchestrator): hero v8 accepted as fine; new work = a silent LAUNCH film (ledger LK374)
+Two films: (1) hero walkthrough: v8 ready in MockMob-promo-film/out/hero/web-v8, NOT live (no explicit yes yet; the site plays v5); (2) a new launch film, purely launch-focused, NO sound: composition Launch16 in MockMob-promo-film (plan docs/LAUNCH-FILM-PLAN.md). Spine = the site's own words: hero sentence "CUET 2027. One mock. Know what to fix." (web heroLines.mjs, owner-approved) and the end card's "Find it. Fix it. Check it held."; seed element = the volt dot (the o of the wordmark, Mobi). Craft bar: docs/REF-STUDY-LK371.md (continuous morphs, one idea at a time, big type, UI details large in soft 3D), never a copied style. Process: a finished opening slice goes to him first as a real render, then the rest.
