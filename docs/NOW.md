@@ -1522,3 +1522,7 @@ He liked the STYLE of round 3 number 6 (Fish voice c35257bbca054bc5ab4e47f09f724
 
 ### 3:51 pm update (orchestrator): launch film voice locked, build started (ledger LK383)
 Narrator = Fish voice "test 1" on drama-3, lighter direction and a brisker read (second choice "Rohan"). The narrated build runs in a linked clean-context session ("MockMob narrated launch film (build)", Fable, xhigh) from MockMob-promo-film/docs/LAUNCH-FILM-PLAN.md; its first cut lands at out/launch/launch-v3-cut1.mp4 and in Desktop\MockMob Films\4 Launch film (in progress). The main session reviews that cut before it goes to the owner. Hero v5 is live; hero v8 is ready and waits for his yes. Higgsfield: remind him on 24 Nov (charge on 25 Nov unless cancelled).
+
+
+### 4:02 pm update (orchestrator): launch film build re-directed at a higher bar (ledger LK384)
+Folded in: the build session was raised to extra high effort (confirmed in its settings); a full director's brief was written from the day's conversation (MockMob-promo-film/docs/LAUNCH-FILM-DIRECTION.md: his words, each reference and what to take from it, a ten-point bar, story beats, voice rules, all tools) and sent to the session; credits on Fish Audio, ElevenLabs and Higgsfield are approved for this film without a cap, to be reported; independent critics allowed.
