@@ -29,3 +29,11 @@ Owner, 12 Nov 2026 (about 7:15 pm, final-pass brief): "If you want, you can also
 - A new voice line needs his ear first, and no abbreviation is ever written letter by letter for the voice (N-C-E-R-T was wrong).
 - The scene components for today's product live in the film project's src/hero/v7 and are reused by src/hero/v8 (docs/HERO-V8-PLAN.md).
 
+
+**23 Nov 2026 (ledger LK428, LK430, LK431), three wrong answers in one day, then the rule he set.** (1) I sent v8 cropped to 4:5: "literally the same film". (2) I rebuilt the whole film in the launch film's look and re-timed its sound (v9): "You have to just keep the original film only ... You didn't have to copy it and change the sound". (3) His plain version: "You have to retain the first 15-20 seconds, which already work ... It's not necessary that you keep it 53 seconds only or don't add any sound or SFX ... make it better in every way, but you don't have to copy-paste from anywhere ... don't have to make drastic changes to things that are already proper and exist in sync."
+
+**How to apply (this replaces the 53 s and no-new-line rule above for the hero film):**
+- The live film's first 15 to 20 seconds (open, 01 Mocks) stay as they are. After that, chapters may be rebuilt; length, sound and new spoken lines are allowed.
+- "Take the good parts of the launch film" means named pieces (Key cards, Ask Mobi, plan to exam day, Daily Five, fifteen subjects, The Mob, CUET coverage, its glass and lit backgrounds) restaged inside the hero film's own grammar (pill, caption, its voice). Never the launch film's whole look, never a crop or re-export of an old cut.
+- Before building, say back in two lines what stays and what changes; he stopped me twice in a day because I built first.
+- v10 (film project docs/HERO-V10-PLAN.md) is the worked example. Whether he accepted it is in the ledger, not here.

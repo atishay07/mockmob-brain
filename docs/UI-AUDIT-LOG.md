@@ -511,3 +511,10 @@ not proven better). Not changed: the Lab's scroll length on a phone (the tuned f
 under the Statement (the owner's checklist L-038 says keep the shelf; his LK367 words call that art family "AI slop": his call).
 
 Not looked at: a real phone, an iPhone, Safari, Firefox, the page at 360 wide in Day, any signed-in page.
+
+## 23 Nov 2026, about 4:00 pm IST: the Daily Five made visible, release 557db4105 (orchestrator's own look)
+- Why: his LK428 ("nothing ... shows as different"): the first version was three small pictures in a row above an unchanged card.
+- Looked at 390x844, 360x640 and 1440x900 on the dev server before the gate, and 390x844 on the live site after it.
+- Changed: one panel the width of the phone, three rows with a large picture and large words (56 px wrong mark, five bubbles with the returned one filled, the week's bars), small arrows between the rows; the card under it now shows today's line and the Play key before the example; the example has a solid "Example" mark and one line saying what it is.
+- Left: the example demo itself, the Sunday Mock card.
+- Not looked at: Night theme on the live build, a real phone, an iPhone.
