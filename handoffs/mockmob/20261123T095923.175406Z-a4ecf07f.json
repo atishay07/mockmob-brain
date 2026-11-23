@@ -1,0 +1,26 @@
+{
+  "id": "20261123T095923.175406Z-a4ecf07f",
+  "observed_at": "2026-11-23T09:59:23.175406+00:00",
+  "agent": "claude-code disk cleanup (Opus 5.5)",
+  "task": "Owner-asked PC disk cleanup on 23 Nov 2026: free 200-300 GB on C: and find where the space went",
+  "status": "complete",
+  "done": "C: went from 8.9 GB free to 329 GB free (930 GB drive). The disk blocker in the LK427 website-pass handover is cleared. Safe caches removed: NVIDIA DXCache, AppData\\Local\\.dartServer, Temp older than 2 days, MockMob-promo-film/out/.tmp (puppeteer profiles). 125 finished project worktrees removed with scripts/remove_worktree.sh: each was clean and its HEAD was on a branch or tag, so every branch is still there. Kept: wt-1116-next (gate), wt-1110-convert, wt-1101-content, wt-1103-web-cards, wt-1020-web-release2 (dirty), wt-1117-app-release (not git), wt-1101-r2-home and wt-1115-next (node_modules is a real folder, so the script skipped them). The owner explicitly OK'd: deleting all 127 Filmora 2024 exports (106 GB), 4 Downloads files, and uninstalling Forza Horizon 6 (146 GB).",
+  "next": "Nothing is pending. The owner kept 007 First Light (53 GB), VALORANT (33 GB), Roblox Studio's tmp-capture-storage PNG frames (20 GB, written today) and Claude logs older than 14 days (11 GB). He can also run 'powercfg /h off' as admin (hiberfil 12.8 GB) and restart to shrink the 23 GB page file. Keep the 50 GB floor; run df -h /c before builds and renders.",
+  "blockers": [],
+  "evidence": [
+    "df -h /c: 931G size, 603G used, 329G free after cleanup",
+    "git -C mockmob-next branch --list: 594 branches; worktree list: 14 entries",
+    "mockmob-next/node_modules intact (348 entries)",
+    "Get-AppxPackage Microsoft.ForteBaseGame returns nothing; C:\\XboxGames\\Forza Horizon 6 gone"
+  ],
+  "touched_files": [
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-* (125 removed)",
+    "C:\\Users\\atish\\Desktop\\MockMob-promo-film\\out\\.tmp",
+    "C:\\Users\\atish\\Documents\\Wondershare\\Wondershare Filmora\\Output",
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\memory\\disk-hygiene.md"
+  ],
+  "verification": "Free space measured after each step; the shared node_modules and the branch count were checked after the worktree removal.",
+  "cost_and_pending_requests": "none",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
