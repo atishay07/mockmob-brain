@@ -484,3 +484,30 @@ Not looked at: a real phone, an iPhone, the Daily block's signed-in states, the 
 | v5 against v6 | One frame every 2.5 s of both films, side by side (scratchpad film-v5-sheet-*, film-v6-sheet-*): v5 = staged scenes in devices, Mobi, big fact cards; v6 = small flat recordings in one window, type too small, no devices, no Mobi. The owner's verdict matches. |
 | Hero after the roll-back | Live page serves hero-v5 posters (curl of www.mockmob.in at 12:43 pm). Not looked at on a phone. |
 | v7 scenes | Three rounds of 3 fps half-size frames of chapters 01 to 09 (MockMob-promo-film/out/hero/v7/seq1, seq2, seq3 sheets): kept v5 scenes land on the new words; new scenes fixed for size, overflow and overlap. Full master not yet reviewed; sound not heard. |
+
+
+## 23 Nov 2026, about 2:00 pm IST: website pass LK427 (orchestrator's own look, before release)
+
+Looked at with headless Chrome in a phone context (touch, Android user agent) at 390x844 Day and Night and 360x640 Night, and at
+1440x900 Day and Night. Tools and pictures: `wt-1110-convert/tmp/1123/` (`shot.mjs` one part of a page, `film.mjs` a self-playing
+demo with a log of where the demo cursor rests, `cov-walk.mjs` real taps through the CUET 2026 section, `lab-end.mjs`,
+`hash-land.mjs`, `compass-watch.mjs`; pictures in `tmp/1123/out/`). The pane browser's screenshots were cropped after a scripted
+scroll, so every picture is from the scripts.
+
+| Area | Before | After |
+|---|---|---|
+| CUET 2026 on the home page | A teaser: 92%, six of nine subjects as bars, no streams, no question level. | Question by question: stream tabs, subject chips with percent, a strip of every question by status, NTA's question beside the MockMob question or Key card. Tabs to the end of the pair = 1.42 screens at 390x844 (2.0 at 360x640). Real taps checked: Q3 new numbers, Q23 not yet, a reading-skill item, the Science note, a match-list table with "Show all". `cov2-390x844-light.jpg`, `cov4-sheet.jpg`, `walk-sheet-a.jpg`, `walk-sheet-b.jpg`. |
+| CUET 2026, Night | n/a | The "Same question" ring was lost on the dark ground; it is now a dark ring inside a volt edge (both themes). |
+| Daily Five | A six-line paragraph, a faint "Example" chip, the demo cursor parked on row 5 for the whole first beat. | One short line and three small pictures (get one wrong, it comes back, the streak grows); a solid "Example" mark; the cursor shows only while it taps. `daily1-390x844-light.jpg`, `dfilm-sheet-390x844-light.jpg`. |
+| Demo cursor (one-place rows, Lab, Daily) | Rested on the words of the screen between taps. | Shows only while it moves and presses; logged at 1.5 s steps over all six rows: 3 resting samples before the last fix (all pointing moves), 0 in the Lab and the Daily Five after it. `opfilm-sheet-390x844-light.jpg`, `labfilm-sheet-390x844-light.jpg`. |
+| Mistake Lab bottom bar | Stayed on until the Lab was half off the screen, over the next section's first line (measured: bar on while the next heading rose from 849 to 509 px). | Leaves as soon as the next section shows (bar off at 749 px). |
+| DU Compass tour | Swept 600 to 960 on every list: "0 of 10 cleared" for half of each round on the first list. | Sweeps the list's own cutoffs: 800 to 950 on the first list, 1 of 10 cleared at its lowest, 10 of 10 at its highest (logged over one round). Still card starts at 860. |
+| Deep links on a phone | /#compass stayed at the top of the page; /#pricing stopped 980 px short. | /#cuet-2026, /#compass, /#pricing, /#daily-and-sunday land with the section at the top. |
+| Desktop guide (Mobi) | Stood on the CUET section's last lines while the pricing seat was below the window. | Waits in his lane at the right. `cov5-small.jpg`. |
+
+Looked at and left: the six one-place rows play in 10.5 to 15 s each with nothing cut at 390x844; the Lab's five scenes take about
+33 s and fit; the Lab's desktop cards keep reserved room for lines that arrive on a tap (a centring change was tried and undone:
+not proven better). Not changed: the Lab's scroll length on a phone (the tuned flow model); the four generated subject objects
+under the Statement (the owner's checklist L-038 says keep the shelf; his LK367 words call that art family "AI slop": his call).
+
+Not looked at: a real phone, an iPhone, Safari, Firefox, the page at 360 wide in Day, any signed-in page.
