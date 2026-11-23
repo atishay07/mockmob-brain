@@ -512,6 +512,14 @@ under the Statement (the owner's checklist L-038 says keep the shelf; his LK367 
 
 Not looked at: a real phone, an iPhone, Safari, Firefox, the page at 360 wide in Day, any signed-in page.
 
+## 23 Nov 2026, about 5:55 pm IST: hero film v10 on the hero, release 01e0feb56 (orchestrator's own look)
+
+- Looked at: the hero film's player on the local build at 360x640, 390x844 and 1440x900 (Day), and on the live site at 390x844.
+- Holds: the right file by screen (480p at 360, 720p at 390 and in a 1440 window's 566 px frame), 65.9 s, every chapter segment seeks to its picture and names it, no sideways scroll.
+- Found and fixed before release: with ten chapters the bar's last segment sat 12 px under the sound key at 360 px (ten 24 px segments need 240 px; the row has 224). The bar stays at nine chapters. The same fault was in the v6 switch of 22 Nov and no test saw it; `homeHero.test.mjs` now checks the last segment ends before the sound key.
+- Seen, not mine, open: in the dev build the console shows hydration warnings for `MascotSeat` (`data-pip-off` differs between server and client on the Daily, Compass, Pricing and closing seats). Not looked into.
+- Not checked: Night theme, a real phone, an iPhone, Safari, Firefox, full screen, the film's sound.
+
 ## 23 Nov 2026, about 4:00 pm IST: the Daily Five made visible, release 557db4105 (orchestrator's own look)
 - Why: his LK428 ("nothing ... shows as different"): the first version was three small pictures in a row above an unchanged card.
 - Looked at 390x844, 360x640 and 1440x900 on the dev server before the gate, and 390x844 on the live site after it.

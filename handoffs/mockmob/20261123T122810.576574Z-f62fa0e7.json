@@ -1,0 +1,36 @@
+{
+  "id": "20261123T122810.576574Z-f62fa0e7",
+  "observed_at": "2026-11-23T12:28:10.576574+00:00",
+  "agent": "claude-code website pass LK427 (Claude Fable 5.2)",
+  "task": "Hero film v10 switched live on www.mockmob.in (owner LK432: \"Yes, you can switch it to live\")",
+  "status": "complete",
+  "done": "LIVE = main 01e0feb56 (about 5:55 pm IST, 23 Nov 2026; rollback 557db4105). The hero plays film v10 (66 s): public/video/hero-v10-{480,720,1080}.mp4 (4.5 / 7.9 / 12.8 MB) and two posters, made with v5's recipe by MockMob-promo-film/scripts/hero10-web.mjs. More bitrate was tried and measured (SSIM per chapter, cut-out frames at 100%): no visible gain, not spent. The player's chapter bar stays at nine chapters (Start, Mocks, Mistake Lab, Learn and Key cards, Ask Mobi, Daily Five, Plan and colleges, The Mob, CUET coverage) because a tenth segment ran 12 px into the sound key on a 360 px phone; homeHero.test.mjs now measures that. v5 files kept in public/video for roll-back; rejected v6 files removed from the repo. Films folder renamed to say v10 is live; v8 moved to Not used. Brain docs updated: NOW.md top section, ledger rows LK432 and its outcome, UI-AUDIT-LOG entry. Film repo commit e6dcb2b (local only).",
+  "next": "Nothing is pending on the switch. The owner has not yet said anything about the two new spoken sentences in v10 (never heard by ear by the builder); if he asks for a change, docs/HERO-V10-PLAN.md has every command, and re-encoded files need a new version in their name (cached for a year by name). Remind him on 24 Nov: Higgsfield charges USD 93.22 on 25 Nov unless he cancels. Still his to decide: the launch film's key (/?film=1; NEXT_PUBLIC_LAUNCH_FILM=true in Vercel, then a redeploy); the Statement's four subject objects. Only if he asks: 02 Mistake Lab rebuilt; a tall phone cut of v10. Disk was 242 GB free at 5:57 pm and falling from the owner's own download (floor 200 GB): check before any render.",
+  "blockers": [],
+  "evidence": [
+    "web repo origin/main = 01e0feb56",
+    "https://www.mockmob.in/video/hero-v10-720.mp4 returns 200, 7928604 bytes, immutable cache",
+    "live home HTML lists Chapter 1 of 9 to Chapter 9 of 9 and 'MockMob walkthrough, 66 seconds'",
+    "live site at 390x844: video.currentSrc hero-v10-720.mp4, duration 65.9, chapter 8 seeks to The Mob",
+    "wt-1116-next/tmp/gate2.log"
+  ],
+  "touched_files": [
+    "wt-1110-convert/src/components/landing/heroFilmConfig.mjs",
+    "wt-1110-convert/src/components/landing/HeroFilm.jsx",
+    "wt-1110-convert/src/components/landing/homeHero.test.mjs",
+    "wt-1110-convert/src/components/landing/launchFilm.test.mjs",
+    "wt-1110-convert/src/app/hero-film.css",
+    "wt-1110-convert/data/tests/hero_film_r7.test.mjs",
+    "wt-1110-convert/data/tests/landing_checklist_1104.test.mjs",
+    "wt-1110-convert/public/video/hero-v10-*",
+    "MockMob-promo-film/scripts/hero10-web.mjs",
+    "MockMob-promo-film/docs/HERO-V10-PLAN.md",
+    "mockmob-brain/docs/NOW.md",
+    "mockmob-brain/docs/OWNER-MASTER-LEDGER.md",
+    "mockmob-brain/docs/UI-AUDIT-LOG.md"
+  ],
+  "verification": "Gate on 01e0feb56 in wt-1116-next: 24 suites fail 0 (test:app 1793 pass), eslint empty, webpack and Turbopack builds exit 0. Player checked on the local build at 360x640, 390x844 and 1440x900 (file picked, length, every chapter seek, no overflow) and on the live site at 390x844. Not checked: a real phone, an iPhone, Safari, Firefox, Night theme, full screen, the film's sound by ear.",
+  "cost_and_pending_requests": "No paid calls in this step.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}

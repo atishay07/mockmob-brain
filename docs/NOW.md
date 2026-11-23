@@ -2,6 +2,17 @@
 
 **Before any UI work, read `UI-AUDIT-LOG.md` (this folder): what has already been looked at, what holds, what was fixed, what is open, and how to capture screens fast. Add your own findings to it. (Owner, 12 Nov 2026.)**
 
+## 23 Nov 2026, about 5:55 pm IST: LIVE = main 01e0feb56 (hero film v10 is the hero's film, owner LK432 "Yes, you can switch it to live"); rollback = 557db4105
+- Read first: ledger rows LK432 and "LK432 outcome: hero film v10 live".
+- **Hero film v10 is LIVE** on www.mockmob.in: 66 s; `public/video/hero-v10-{480,720,1080}.mp4` (4.5 / 7.9 / 12.8 MB) and two posters; config `src/components/landing/heroFilmConfig.mjs`. Encoded with v5's recipe (`MockMob-promo-film/scripts/hero10-web.mjs`; why not more bitrate: `docs/HERO-V10-PLAN.md` Status). The v5 files stay in `public/video` for roll-back (the v5 config block is in git at 557db4105); the rejected v6 files left the repo.
+- **The chapter bar holds nine chapters, not ten or eleven:** a tenth segment ran 12 px into the sound key on a 360 px phone (the v6 switch of 22 Nov had this fault unseen; `homeHero.test.mjs` now measures the last segment against the sound key). The nine: Start, Mocks, Mistake Lab, Learn and Key cards, Ask Mobi, Daily Five, Plan and colleges, The Mob, CUET coverage (it runs on through the fifteen subjects and the sign-up card).
+- Gate on 01e0feb56: 24 suites fail 0 (test:app 1793), eslint empty, webpack and Turbopack builds exit 0. Live check at 390x844: the 720p file plays, 65.9 s, chapter 8 seeks to The Mob.
+- Still his ear: the film's sound was never heard by the builder (the two new sentences above all). If he asks for a change to a line or a picture: `docs/HERO-V10-PLAN.md` has every command; re-encode with `scripts/hero10-web.mjs`, and give the files a new version in their name (they are cached for a year by name).
+- NOT live, waiting for his word: the launch film's key (`/?film=1`; switch = NEXT_PUBLIC_LAUNCH_FILM=true in Vercel, then a redeploy); his decision on the Statement's four subject objects. Possible follow-ups only if he asks: 02 Mistake Lab rebuilt; a tall phone cut of v10.
+- DISK: 242 GB free at 5:57 pm and falling (the owner's own download; floor 200 GB, LK429). Check before any render.
+- Remind him on 24 Nov: Higgsfield charges USD 93.22 on 25 Nov unless he cancels.
+- Not checked: a real phone, an iPhone, Safari, Firefox; the film on the site at 360 and 1440 was checked on the local build, on the live site only at 390.
+
 ## 23 Nov 2026, about 4:15 pm IST: LIVE = main 557db4105 (the Daily Five made visible, LK428); rollback = 75effbcb9. Hero film v10 built and sent as a file (LK430, LK431); the site keeps v5
 - Read first: ledger rows LK430, LK431, "LK430 / LK431 outcome: hero film v10" and "LK428 outcome, Daily Five made visible".
 - **The hero film rule changed (LK431):** keep the first 15 to 20 seconds of the live film; the rest may be rebuilt with the launch film's good parts, recreated, not pasted; the film may be longer than 53 s and may take new sound and new lines. v9 (the hero voice on the launch film's whole look) was rejected (LK430) and is in "Not used (rejected versions)".

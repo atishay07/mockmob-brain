@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 896125b8-1f9e-4660-b761-2d31487746ee
-  modified: 2026-11-12T14:54:16.101Z
+  modified: 2026-11-23T12:27:52.137Z
 ---
 
 Owner, 12 Nov 2026 (about 7:15 pm, final-pass brief): "If you want, you can also make changes to the main video in the hero section of the website ... if you are making any changes there, they need to be done by Fable only. Don't spawn any subagents for it. In other places, if you are doing some bug fixes and minor adjustments here and there, then, by the way, you can spawn cheaper Sonnet agents."
@@ -36,4 +36,5 @@ Owner, 12 Nov 2026 (about 7:15 pm, final-pass brief): "If you want, you can also
 - The live film's first 15 to 20 seconds (open, 01 Mocks) stay as they are. After that, chapters may be rebuilt; length, sound and new spoken lines are allowed.
 - "Take the good parts of the launch film" means named pieces (Key cards, Ask Mobi, plan to exam day, Daily Five, fifteen subjects, The Mob, CUET coverage, its glass and lit backgrounds) restaged inside the hero film's own grammar (pill, caption, its voice). Never the launch film's whole look, never a crop or re-export of an old cut.
 - Before building, say back in two lines what stays and what changes; he stopped me twice in a day because I built first.
-- v10 (film project docs/HERO-V10-PLAN.md) is the worked example. Whether he accepted it is in the ledger, not here.
+- v10 (film project docs/HERO-V10-PLAN.md) is the worked example. He accepted it: "Yes, you can switch it to live" (LK432, 23 Nov, about 5:30 pm); it is the site's film since main 01e0feb56. So v10 is now the base that later changes keep, not v5.
+- Putting a film on the site: encode with v5's recipe (film project scripts/hero10-web.mjs; he said the earlier quality was fine and load times must not suffer), give the files a new version in the name, and keep the site's chapter bar at nine chapters at most: a tenth runs into the sound key on a 360 px phone.
