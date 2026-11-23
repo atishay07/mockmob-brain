@@ -4,19 +4,12 @@
   "session": "f7d49010-0618-418f-bd73-6ef9aba25a36",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-23T07:33:33.042336+00:00",
-  "last_active": "2026-11-23T17:43:33.915884+00:00",
+  "last_active": "2026-11-23T17:55:17.220925+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "tmp/1123-close/integrate/assemble-w6b2.mjs",
-    "tmp/1123-close/integrate/scoring-layout-w6b2.mjs",
-    "tmp/1123-close/integrate/scoring2/SOLVER.md",
-    "tmp/1123-close/integrate/make-instructions-w6b2.mjs",
-    "tmp/1123-close/integrate/authored_w6.test.mjs",
-    "tmp/1123-papers/chemistry/checkA/build_A.mjs",
-    "tmp/1123-papers/computer-science/checkA/A_facts_before_search.txt",
     "tmp/1123-papers/mathematics/checkA/build_A.mjs",
     "tmp/1123-papers/physics/checkA/A_facts_before_search.txt",
     "tmp/1123-close/PUBLISH-W6B2.md",
@@ -59,6 +52,12 @@
     "tmp/1123-papers/mathematics/checkB/B_facts_before_A.txt",
     "tmp/1123-papers/physics/checkA/build_A.mjs",
     "tmp/1123-papers/computer-science/checkA/build_A.mjs",
-    "tmp/1123-papers/mathematics/checkB/s.mjs"
+    "tmp/1123-papers/mathematics/checkB/s.mjs",
+    "tmp/1123-papers/computer-science/checkB/B_facts_before_A.txt",
+    "tmp/1123-papers/physics/checkB/B_facts_before_A.txt",
+    "tmp/1123-papers/mathematics/checkB/nfind.py",
+    "tmp/1123-papers/chemistry/checkB/buildB.mjs",
+    "tmp/1123-papers/physics/checkB/nfind.mjs",
+    "tmp/1123-papers/mathematics/checkB/build_B.mjs"
   ]
 }
