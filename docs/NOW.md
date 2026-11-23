@@ -1636,3 +1636,9 @@ The owner moved to his other Claude account; this session builds the narrated la
 - Three new real clips in his workflow (Codex stills, Seedance 2.5 via Cowork, every face checked): the girl at a laptop in the close's card 01, a student at a red-brick college gate in DU Compass, a student answering on his phone at breakfast beside "Five questions every morning".
 - For him to check: the hook on his phone; whether showing NTA, DU and college crests in an ad is fine (it can read as endorsement: his call); "No one told you" less deep now; the new faces; copy items ("Admission of Partner", "5 of 5 mistakes", DU "UR" with no year). Idea from the critic: a 4:5 version of the first 16 s for Reels.
 - Generation queue closed (gen-queue/STOP). Local commit 7b93a3b, never pushed. Still owed: the reminder on 24 Nov that Higgsfield charges USD 93.22 on 25 Nov unless he cancels.
+
+### 12:40 pm, 23 Nov update (launch film build session): cut 5j approved as final; website pass prompt written (ledger LK427)
+- He called cut 5j good and final (out/launch/launch-v4-cut5j.mp4; also in Desktop\MockMob Films\4 Launch film (in progress)).
+- His next order is a website pass. The paste-ready prompt is docs/PROMPT-WEBSITE-PASS-2026-11-23.md: CUET 2026 question by question on the home page (first), the Daily Five, the open OnePlace and Lab notes, then the hero film with the launch film's good elements and a place on the site for the launch film (both wait for his word before going live).
+- Live home reviewed at 375x812 by this session; findings are in the prompt and in the ledger row. No web code changed.
+- Reminder still due: Higgsfield charges USD 93.22 on 25 Nov unless he cancels (tell him on 24 Nov).

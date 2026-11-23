@@ -1,0 +1,26 @@
+{
+  "id": "20261123T070725.558554Z-7a321bb1",
+  "observed_at": "2026-11-23T07:07:25.559554+00:00",
+  "agent": "claude-code launch-film build session (23 Nov)",
+  "task": "LK427: the owner approved launch film cut 5j as final, and the paste-ready prompt for the website pass is written",
+  "status": "complete",
+  "done": "The owner called cut 5j final (MockMob-promo-film/out/launch/launch-v4-cut5j.mp4). I reviewed the live home at 375x812 and wrote the paste-ready prompt for the website pass in mockmob-brain/docs/PROMPT-WEBSITE-PASS-2026-11-23.md, covering four tasks in this order:\n1. CUET 2026 question by question on the home page, Preparoo-style: stream tabs, subject chips, a question strip, and each question beside the item that covers it.\n2. The Daily Five's UI and explanation.\n3. The open OnePlace and Mistake Lab notes (LK364 to LK368).\n4. The hero film: v8 plus the launch film's good elements, keeping v5's voice and 53 s, with a phone cut; plus a place for the launch film behind a preview switch.\nThe review findings are folded into the prompt. Ledger: LK427 outcome row added. NOW.md: entry added.",
+  "next": "The owner pastes the prompt into a new session. On 24 Nov, remind him that Higgsfield charges USD 93.22 on 25 Nov unless he cancels.",
+  "blockers": [
+    "Not checked: a real phone, an iPhone, 1440 wide, dark mode"
+  ],
+  "evidence": [
+    "mockmob-brain/docs/PROMPT-WEBSITE-PASS-2026-11-23.md",
+    "mockmob-brain/docs/OWNER-MASTER-LEDGER.md LK427 outcome row",
+    "wt-1110-convert data/coverage/cuet2026/public/summary.json (382/416, nine subjects) at 8c74cca7c"
+  ],
+  "touched_files": [
+    "mockmob-brain/docs/PROMPT-WEBSITE-PASS-2026-11-23.md",
+    "mockmob-brain/docs/OWNER-MASTER-LEDGER.md",
+    "mockmob-brain/docs/NOW.md"
+  ],
+  "verification": "Live home walked in the browser pane at 375x812 (hero, OnePlace, the Mistake Lab's 5 scenes, Daily Five, Compass, CUET 2026 teaser). Coverage numbers read from summary.json. No web code changed.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
