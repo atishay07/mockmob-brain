@@ -4,7 +4,7 @@
   "session": "f7d49010-0618-418f-bd73-6ef9aba25a36",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-23T07:33:33.042336+00:00",
-  "last_active": "2026-11-23T07:47:26.204982+00:00",
+  "last_active": "2026-11-23T08:02:46.961585+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
@@ -18,6 +18,9 @@
     "src/components/landing/CoverageProof.jsx",
     "src/components/landing/coverage-proof.css",
     "src/app/page.js",
-    "tmp/1123/shot.mjs"
+    "tmp/1123/shot.mjs",
+    "tmp/1123/cov-measure.mjs",
+    "src/components/landing/coverage2026.test.mjs",
+    "src/components/daily/DailyHow.jsx"
   ]
 }
