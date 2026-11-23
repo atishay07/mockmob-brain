@@ -4,7 +4,7 @@
 - [MockMob design direction](mockmob-design-direction.md) — 13 Oct: owner wants premium glass/motion UI like HIGH, Revolut, Fampay; no obvious disclaimers; no 5-question app onboarding; logo = round 4 B (Mobi as second o, "mo" icon), may switch to A
 - [Overnight autonomy and relay](overnight-autonomy-relay.md) — 14 Oct: relay ON, shift account in auto mode on limit, keep improving the app nonstop, never stop to ask
 - [Quality bar and stop rule](quality-bar-and-stop-rule.md) — 14 Oct: next-level motion beyond Duolingo; checkpoint findings often; stop cleanly with handover at ~95% context or usage
-- [Disk hygiene](disk-hygiene.md) — 14 Oct: C: filled from agent temp leftovers; clean temp/builds after every run; launcher sweeps old leftovers
+- [Disk hygiene](disk-hygiene.md) — 14 Oct: C: filled from agent temp leftovers; clean temp/builds after every run; 23 Nov: run `df -h /c` at session start (disk hit 0 mid-commit; recovery steps inside)
 - [Features over retesting](features-over-retesting.md) — 15-16 Oct: features and depth first; but every deploy passes tests plus a visual critique (390 and 1440, Night and Day) first; never quality for speed
 - [Web restructure rejected](web-restructure-rejected.md) — 15 Oct Gate A, 17 Oct result, 18 Oct R4 Today, 20 Nov /home-next (6/10 vs live 8/10) all called regressions: refine the live page in place, real product components only, never cut
 - [Platform focus](platform-focus-mobile-first.md) — 15 Oct: landing mobile-first; arena desktop-first but phone-ready; app mobile only; no sub-remarks; act as CTO polishing details; may deploy landing when satisfied
