@@ -1,0 +1,27 @@
+{
+  "id": "20261123T220505.331994Z-10377794",
+  "observed_at": "2026-11-23T22:05:05.331994+00:00",
+  "agent": "claude-auto",
+  "task": "Auto-capture: claude session 9d2a0d17",
+  "status": "paused",
+  "done": "Auto-captured at Stop. Turns: 12. Last message: All five judges are running: two for quality and three for fit, with the real CUET 2026 question as the fit reference. When they finish I'll apply the acceptance rule, and anything that passes goes through the same publish route.",
+  "next": "Unverified auto-capture. Read the session transcript and live repo state before continuing.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\9d2a0d17-12b8-4219-9c55-75319e5e7bf7.jsonl"
+  ],
+  "touched_files": [
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1123-close\\integrate\\apply-cards-w6b3.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1123-close\\integrate\\cover-cards-w6b3.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1123-close\\integrate\\cards-w6b3-verdicts.json",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1123-close\\integrate\\add-reviews-w6b3.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1123-close\\integrate\\held-why.py",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1123-close\\integrate\\owner-release-map.py",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1123-close\\integrate\\assemble-owner-release.mjs",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\wt-1110-convert\\tmp\\1123-close\\integrate\\fresh-fit\\FRESH.md"
+  ],
+  "verification": "auto-captured by hook; not agent-verified",
+  "cost_and_pending_requests": "unknown; hook does not see provider receipts",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
