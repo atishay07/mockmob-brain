@@ -4,7 +4,7 @@
   "session": "9d2a0d17-12b8-4219-9c55-75319e5e7bf7",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-23T19:30:28.495758+00:00",
-  "last_active": "2026-11-23T20:46:04.662632+00:00",
+  "last_active": "2026-11-23T22:04:44.733382+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
@@ -14,6 +14,9 @@
     "tmp/1123-close/integrate/cover-cards-w6b3.mjs",
     "tmp/1123-close/integrate/cards-w6b3-verdicts.json",
     "tmp/1123-close/integrate/add-reviews-w6b3.mjs",
-    "tmp/1123-close/integrate/held-why.py"
+    "tmp/1123-close/integrate/held-why.py",
+    "tmp/1123-close/integrate/owner-release-map.py",
+    "tmp/1123-close/integrate/assemble-owner-release.mjs",
+    "tmp/1123-close/integrate/fresh-fit/FRESH.md"
   ]
 }
