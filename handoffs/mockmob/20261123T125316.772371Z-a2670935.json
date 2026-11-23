@@ -1,0 +1,41 @@
+{
+  "id": "20261123T125316.772371Z-a2670935",
+  "observed_at": "2026-11-23T12:53:16.772371+00:00",
+  "agent": "claude-auto",
+  "task": "Auto-capture: claude session 1be3a5cb",
+  "status": "paused",
+  "done": "Auto-captured at PreCompact. Turns: 6. Last message: The free-space warning is set up for both Claude and Codex.\n\n**At the start of every session:** the agent sees how much space C: has free. Right now that's 265 GB.\n\n**If C: drops below 200 GB:**\n- **In Claude:** you also see a warning saying C: is under your 200 GB limit.\n- **The agent's steps:** it must clean up before any build, render, download or big agent run. That means running the cleanup s",
+  "next": "Unverified auto-capture. Read the session transcript and live repo state before continuing.",
+  "blockers": [],
+  "evidence": [
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\1be3a5cb-9d5c-4f6a-b0fa-cfde0fd3768d.jsonl"
+  ],
+  "touched_files": [
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\0ca2bff075d17d35\\1be3a5cb-9d5c-4f6a-b0fa-cfde0fd3768d\\scratchpad\\dirsizes.py",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\0ca2bff075d17d35\\1be3a5cb-9d5c-4f6a-b0fa-cfde0fd3768d\\scratchpad\\top.py",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\0ca2bff075d17d35\\1be3a5cb-9d5c-4f6a-b0fa-cfde0fd3768d\\scratchpad\\recent.py",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\0ca2bff075d17d35\\1be3a5cb-9d5c-4f6a-b0fa-cfde0fd3768d\\scratchpad\\wt_audit.sh",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\0ca2bff075d17d35\\1be3a5cb-9d5c-4f6a-b0fa-cfde0fd3768d\\scratchpad\\wt_sum.py",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\0ca2bff075d17d35\\1be3a5cb-9d5c-4f6a-b0fa-cfde0fd3768d\\scratchpad\\birth.py",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\0ca2bff075d17d35\\1be3a5cb-9d5c-4f6a-b0fa-cfde0fd3768d\\scratchpad\\newtree.py",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\0ca2bff075d17d35\\1be3a5cb-9d5c-4f6a-b0fa-cfde0fd3768d\\scratchpad\\scan3.py",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\0ca2bff075d17d35\\1be3a5cb-9d5c-4f6a-b0fa-cfde0fd3768d\\scratchpad\\diff.py",
+    "C:\\Users\\atish\\.claude\\CLAUDE.md",
+    "C:\\Users\\atish\\.codex\\AGENTS.md",
+    "C:\\Users\\atish\\Desktop\\AI OS\\AGENTS.md",
+    "C:\\Users\\atish\\Desktop\\AI OS\\CLAUDE.md",
+    "C:\\Users\\atish\\Desktop\\AI OS\\decisions\\log.md",
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\memory\\MEMORY.md",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\0ca2bff075d17d35\\1be3a5cb-9d5c-4f6a-b0fa-cfde0fd3768d\\scratchpad\\lk429.md",
+    "C:\\Users\\atish\\Desktop\\mockmob copy\\scripts\\sweep_build_output.sh",
+    "C:\\Users\\atish\\.claude\\hooks\\disk_floor.py",
+    "C:\\Users\\atish\\.claude\\settings.json",
+    "C:\\Users\\atish\\.codex\\hooks.json",
+    "C:\\Users\\atish\\AppData\\Local\\Temp\\claude\\0ca2bff075d17d35\\1be3a5cb-9d5c-4f6a-b0fa-cfde0fd3768d\\scratchpad\\add_hook_line.py",
+    "C:\\Users\\atish\\.claude\\projects\\C--Users-atish-Desktop-mockmob-copy\\memory\\disk-hygiene.md"
+  ],
+  "verification": "auto-captured by hook; not agent-verified",
+  "cost_and_pending_requests": "unknown; hook does not see provider receipts",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
