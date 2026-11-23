@@ -1,0 +1,29 @@
+{
+  "id": "20261123T115913.732529Z-5a0ddd32",
+  "observed_at": "2026-11-23T11:59:13.733541+00:00",
+  "agent": "claude-code disk cleanup (Opus 5.5)",
+  "task": "Session-start free-space warning for the owner's 200 GB floor on C: (owner said \"Yes, add it\", 23 Nov 2026)",
+  "status": "complete",
+  "done": "Added C:\\Users\\atish\\.claude\\hooks\\disk_floor.py. It runs on SessionStart in Claude Code (a second SessionStart entry in ~/.claude/settings.json, so the Continuum hook.py entry is untouched) and in Codex (a second SessionStart entry in ~/.codex/hooks.json). Every session gets one context line with the GB free. Under 200 GB, Claude also shows the owner a warning (systemMessage) and the agent gets cleanup steps: the sweep script, remove_worktree.sh, its own leftovers, and ask before anything personal. The script never fails a session: it exits 0 on any error. The rule blocks in ~/.claude/CLAUDE.md and ~/.codex/AGENTS.md now mention the hook. Memory disk-hygiene.md updated.",
+  "next": "Nothing is pending. The hook takes effect in new sessions. Codex may ask the owner once to trust the new hook. Never write its trusted_hash into config.toml yourself. To change the floor, edit FLOOR_GB in disk_floor.py and the rule blocks together.",
+  "blockers": [],
+  "evidence": [
+    "C:/Users/atish/.claude/hooks/disk_floor.py",
+    "C:/Users/atish/.claude/settings.json hooks.SessionStart[1]",
+    "C:/Users/atish/.codex/hooks.json hooks.SessionStart[1]",
+    "C:/Users/atish/.claude/CLAUDE.md line 27",
+    "C:/Users/atish/.codex/AGENTS.md line 27"
+  ],
+  "touched_files": [
+    "C:/Users/atish/.claude/hooks/disk_floor.py",
+    "C:/Users/atish/.claude/settings.json",
+    "C:/Users/atish/.codex/hooks.json",
+    "C:/Users/atish/.claude/CLAUDE.md",
+    "C:/Users/atish/.codex/AGENTS.md",
+    "C:/Users/atish/.claude/projects/C--Users-atish-Desktop-mockmob-copy/memory/disk-hygiene.md"
+  ],
+  "verification": "Both settings files parse as JSON. The exact hook commands taken from each file ran with exit 0 in about 0.1 s and reported 265 GB free. The under-floor branch was forced by raising the floor in a test run; it printed the warning and the cleanup steps. Not yet seen firing inside a fresh Claude or Codex session.",
+  "cost_and_pending_requests": "none",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
