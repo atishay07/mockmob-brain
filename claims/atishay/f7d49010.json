@@ -4,7 +4,7 @@
   "session": "f7d49010-0618-418f-bd73-6ef9aba25a36",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-23T07:33:33.042336+00:00",
-  "last_active": "2026-11-23T09:31:35.649576+00:00",
+  "last_active": "2026-11-23T10:00:15.522518+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
@@ -22,12 +22,12 @@
     "tmp/1123/cov-measure.mjs",
     "src/components/landing/coverage2026.test.mjs",
     "src/components/daily/DailyHow.jsx",
-    "src/components/daily/daily-how.css",
     "data/tests/compass_tour_1121.test.mjs",
     "src/components/landing/launchFilm.mjs",
     "src/components/landing/LaunchFilmKey.jsx",
     "src/components/landing/launch-film.css",
     "src/components/landing/launchFilm.test.mjs",
-    "data/tests/landing_checklist_1104.test.mjs"
+    "data/tests/landing_checklist_1104.test.mjs",
+    "src/components/daily/daily-how.css"
   ]
 }
