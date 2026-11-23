@@ -1,0 +1,30 @@
+{
+  "id": "20261123T110042.787256Z-bd4f6d4a",
+  "observed_at": "2026-11-23T11:00:42.788256+00:00",
+  "agent": "claude-code website pass LK427 (Claude Fable 5.2, main session)",
+  "task": "Hero film v10 (LK430, LK431): the live film kept to 23.7 s, the rest rebuilt with the launch film's pieces; the Daily Five made visible on the home page (LK428)",
+  "status": "paused",
+  "done": "LIVE on www.mockmob.in = main 557db4105 (about 4:00 pm IST, 23 Nov 2026; rollback 75effbcb9): the Daily Five on the home page is one panel the width of the phone with three large rows, then today's line and the Play key, then the example under a solid mark with one line saying what it is. Gate clean. Hero film v10 built, watched through on frame sheets and sent to the owner as a file (NOT on the site; the site keeps v5): MockMob-promo-film composition Hero16v10, 65.9 s, local commit 0b4794f, plan docs/HERO-V10-PLAN.md. The open, 01 Mocks and 02 Mistake Lab (0 to 23.7 s) are v5 frame for frame. 03 Learn, 04 Key cards, 05 Ask Mobi, 07 Plan and colleges, 08 The Mob and the close are rebuilt with the launch film's pieces under v5's own pill, caption and voice line. New chapters with one spoken sentence each: 06 Daily Five (line lifted from the v6 take) and the CUET 2026 coverage, 92% (one new paid sentence). v5's end card and pop, 12.85 s later. The owner's rule changed (LK431): keep the live film's first 15 to 20 s; the rest may be rebuilt, may be longer than 53 s and may take new sound and lines; never the launch film's whole look. v9 (rejected, LK430) moved to Not used. Brain ledger rows LK430, LK431 and both outcomes written; NOW.md and UI-AUDIT-LOG updated.",
+  "next": "Wait for the owner's verdict on v10, above all his ear on the two new sentences. If he says switch: encode 1080/720/480 and posters as v5's are, update the site player's chapter list from out/hero/v10/chapters.json (eleven chapters), gate, deploy. Still his to decide: the launch film's key (/?film=1), the Statement's four subject objects. Remind him on 24 Nov that Higgsfield charges USD 93.22 on 25 Nov unless cancelled. Not done: 02 Mistake Lab still has v5's picture (the launch film's mistake map did not fit beside v5's caption without a new layout); a 4:5 phone cut of v10.",
+  "blockers": [
+    "Owner's verdict on hero film v10 (picture and the two new spoken sentences)"
+  ],
+  "evidence": [
+    "web repo origin/main = 557db4105; live home HTML contains the new example line; live screenshot wt-1110-convert/tmp/1123/out/live-daily-390x844-light.jpg",
+    "wt-1116-next/tmp/gate2.log: 24 suites fail 0 (test:app 1793 pass), eslint empty, webpack and Turbopack builds exit 0",
+    "MockMob-promo-film/out/hero/hero-v10-master.mp4 (65.9 s, 55 MB), out/hero/web-v10/hero-v10-720.mp4, out/hero/web-v10/one-frame-a-second.jpg",
+    "ffmpeg SSIM against the v5 master over 0 to 23.6 s: 01 Mocks 0.998, 02 Lab 0.993, open 0.979 (the open's product set shows today's screens, as v8)",
+    "mix report out/hero/v10/mix-report.json: -16.0 LUFS, -1.8 dBTP, LRA 2.1, voice 18.09 dB over the bed; ASR of the finished mix returns all 21 sentences whole and in order",
+    "docs/ELEVENLABS-CREDITS.md lane HERO V10 VOICE: 390 credits"
+  ],
+  "touched_files": [
+    "wt-1110-convert: src/components/daily/DailyFiveRow.jsx, daily-how.css, daily-story.css, dailyStripCopy.mjs and their tests, data/tests/fixtures/home-elements.json",
+    "MockMob-promo-film: src/hero/v10/Hero10.tsx, src/hero/v10/script10.ts, src/Root.tsx, src/hero/r4/Hero4.tsx (EndPop exported), src/launch/v4/MobSplit.tsx (hero prop), src/launch/v3/Act5.tsx (MobiShot drop prop), scripts/hero10-*.{sh,mjs,py}, scripts/hero-sound/build_hero_v10_mix.py, tools/vo-el/hero10/, public/vo/hero10/, public/music/hero-v10-mix.wav, docs/HERO-V10-PLAN.md",
+    "mockmob-brain/docs: OWNER-MASTER-LEDGER.md, NOW.md, UI-AUDIT-LOG.md",
+    "Desktop/MockMob Films: v10 copies added, v9 moved to Not used, READ ME corrected"
+  ],
+  "verification": "Film: every rebuilt chapter looked at as single frames and the whole length at one and two frames a second after the final render; tsc clean. NOT heard by ear by the builder; not seen on a phone; the launch film was not re-rendered after the two optional props were added (defaults keep its behaviour). Web: full gate; live section looked at 390x844 in Day; Night on the live build, a real phone and an iPhone not checked.",
+  "cost_and_pending_requests": "ElevenLabs 390 credits (about INR 7) for one new voice sentence, two takes. No other paid calls. Nothing pending.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
