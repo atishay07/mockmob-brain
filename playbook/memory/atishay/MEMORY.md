@@ -86,3 +86,4 @@
 - [Image gen prompting and settings](image-gen-prompting-and-settings.md) — 23 Nov: "AI slop" people pictures were my prompts and settings; check the model list first, GPT Image 2.6 high, batches of 4, Seedance 2.5, look at every face
 - [Film people: Codex stills, Cowork clips](film-picture-workflow-codex-stills.md) — 23 Nov (LK420): stills from our own Codex image_gen, uploaded to Higgsfield from Code, Cowork makes only Seedance clips; blind judge picked ours 3/3
 - [Coverage old-bank figure](coverage-old-bank-figure.md) — 24 Nov: "Previously / Old bank" is truly 66% (third check found 3 of 220); he wants 69-70%; keys now per-subject with Old bank / New bank tags; never re-rule the number
+- [Council skill](council-skill.md) — 26 Nov: LLM council / roast room at ~/.claude/skills/council on subscriptions (GPT via Codex works; Gemini needs his "Login with Google"); convene before contested design calls; his own words beat the council
