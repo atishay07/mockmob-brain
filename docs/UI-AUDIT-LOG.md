@@ -526,3 +526,20 @@ Not looked at: a real phone, an iPhone, Safari, Firefox, the page at 360 wide in
 - Changed: one panel the width of the phone, three rows with a large picture and large words (56 px wrong mark, five bubbles with the returned one filled, the week's bars), small arrows between the rows; the card under it now shows today's line and the Play key before the example; the example has a solid "Example" mark and one line saying what it is.
 - Left: the example demo itself, the Sunday Mock card.
 - Not looked at: Night theme on the live build, a real phone, an iPhone.
+
+## 26 Nov 2026, about 3:30 am IST: the final home pass (built, NOT live: commit 956278f04 in wt-1110-convert)
+
+Looked at: the whole home page at 390x760 (every screen, contact sheets) and 1440x900, in real Chrome with real touch and mouse (playwright-core, CDP). Tools kept in `wt-1110-convert/tmp/1126-final/`: `audit.mjs` (every section's height at both sizes and the phone page as screens), `sheet.mjs` (contact sheets), `jump.mjs` and `jump-lab.mjs` (does a button move when clicked: every frame's box), `dock.mjs` (is the phone bar aside), `shot.mjs`, `desk.mjs`.
+
+| What | Before | After |
+|---|---|---|
+| Phone page length | 21.3 screens (16,185 px) | 18.2 screens (13,825 px) |
+| Hero on a phone | Laptop note first; under the film six features, a per-mock sum, a calculator link (1.5 screens) | One line under the keys: free to start, unlimited on Pro, the price (1.0 screen) |
+| Statement, colleges band | 2.0 screens on a phone | Wide screens only; the emblems stand in DU Compass |
+| Daily Five and Sunday Mock | A pair with openers, low on the page | One calendar card, two dated rows, right after the five questions (660 px at 390) |
+| DU Compass on a phone | Ten rows, five things under it | Five rows and "Show all 10"; two ways on |
+| Desktop: a click on a Lab tab | The stage, and the tab under the pointer, jumped 10 px and settled back | Still (0.0 px over the click, all five keys) |
+| Desktop: a stream tab in the CUET check | Moved 26 px when Science's chips wrapped | Still |
+| "How we counted" on a phone | Faded up 24 px; the dim and the close cut | Rises from the foot, goes back down |
+
+Seen and hold: the phone bar already steps aside for the Compass, pricing and close keys (measured); the Mistake Lab's five screens (not cut: the council wants four and split on which). Not looked at this pass: Night theme of the new card, a real phone, an iPhone.
