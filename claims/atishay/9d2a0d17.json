@@ -4,18 +4,12 @@
   "session": "9d2a0d17-12b8-4219-9c55-75319e5e7bf7",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-23T19:30:28.495758+00:00",
-  "last_active": "2026-11-25T18:48:44.712508+00:00",
+  "last_active": "2026-11-25T19:02:13.721652+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
   "task": "",
   "touched": [
-    "tmp/1123-close/integrate/apply-cards-w6b3.mjs",
-    "tmp/1123-close/integrate/cover-cards-w6b3.mjs",
-    "tmp/1123-close/integrate/cards-w6b3-verdicts.json",
-    "tmp/1123-close/integrate/add-reviews-w6b3.mjs",
-    "tmp/1123-close/integrate/held-why.py",
-    "tmp/1123-close/integrate/owner-release-map.py",
     "tmp/1123-close/integrate/assemble-owner-release.mjs",
     "tmp/1123-close/integrate/fresh-fit/FRESH.md",
     "tmp/1123-close/integrate/fresh-fit/accountancy/verify/accountancy__w6f__j1.json",
@@ -43,6 +37,16 @@
     "tmp/council/2026-11-26-landing/positions/opus-reducer.md",
     "tmp/council/2026-11-26-landing/positions/haiku-parent.md",
     "tmp/1126-final/jump-lab.mjs",
-    "tmp/council/2026-11-26-landing/reviews/sonnet-aspirant.md"
+    "tmp/council/2026-11-26-landing/reviews/sonnet-aspirant.md",
+    "tmp/council/2026-11-26-landing/reviews/opus-growth.md",
+    "tmp/council/2026-11-26-landing/reviews/opus-reducer.md",
+    "tmp/council/2026-11-26-landing/reviews/haiku-parent.md",
+    "tmp/council/2026-11-26-landing/verdict.md",
+    "src/components/landing/OnlyWide.jsx",
+    "tmp/1126-final/e2.py",
+    "tmp/1126-final/e3.py",
+    "tmp/1126-final/e4.py",
+    "tmp/1126-final/e5.py",
+    "data/tests/compass_tour_1121.test.mjs"
   ]
 }
