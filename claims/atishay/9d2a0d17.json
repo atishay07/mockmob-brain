@@ -4,7 +4,7 @@
   "session": "9d2a0d17-12b8-4219-9c55-75319e5e7bf7",
   "host": "DESKTOP-J4JVOM0",
   "started_at": "2026-11-23T19:30:28.495758+00:00",
-  "last_active": "2026-11-25T18:37:03.014786+00:00",
+  "last_active": "2026-11-25T18:48:44.712508+00:00",
   "repo": "",
   "branch": "",
   "cwd_name": "mockmob copy",
@@ -34,6 +34,15 @@
     "tmp/1124-jump/rep.py",
     "tmp/1124-jump/e-explorer.json",
     "tmp/1124-jump/e8.py",
-    "tmp/1124-jump/e9.py"
+    "tmp/1124-jump/e9.py",
+    "tmp/1126-final/audit.mjs",
+    "tmp/council/2026-11-26-landing/brief.md",
+    "tmp/1126-final/jump.mjs",
+    "tmp/council/2026-11-26-landing/positions/sonnet-aspirant.md",
+    "tmp/council/2026-11-26-landing/positions/opus-growth.md",
+    "tmp/council/2026-11-26-landing/positions/opus-reducer.md",
+    "tmp/council/2026-11-26-landing/positions/haiku-parent.md",
+    "tmp/1126-final/jump-lab.mjs",
+    "tmp/council/2026-11-26-landing/reviews/sonnet-aspirant.md"
   ]
 }
