@@ -1,0 +1,23 @@
+{
+  "id": "20261126T173745.341434Z-4517bca9",
+  "observed_at": "2026-11-26T17:37:45.341434+00:00",
+  "agent": "claude-code Opus 5.5 (session 9d2a0d17)",
+  "task": "Hero film v12 live + desktop jump fix live (owner 26 Nov 2026: \"Push it to the website. Do any other website changes or fix up whatever was required, and then we are done.\")",
+  "status": "complete",
+  "done": "1) Hero film v12 (owner's own coverage line) LIVE at main 021ddc269; label \"MockMob walkthrough, 77 seconds\"; v10 files kept for rollback (458481e2b). 2) Desktop jump fix ALONE (nothing else from scrapped 956278f04) LIVE at main fdc30d686: no stage nudge on a picked story step (storyController.mjs), coverage height floor per window width (CoverageExplorer.jsx), subject chips nowrap from 700 px and the paper name on its own line (coverage-proof.css); test data/tests/desktop_jump_1126.test.mjs added to test:app. 3) Brain: NOW.md top block, OWNER-MASTER-LEDGER rows LK437 plus two outcome rows, UI-AUDIT-LOG note on what of the scrapped table is live. 4) Disk: swept 15 GB of build output; removed clean worktrees wt-1101-r2-home and wt-1115-next (branches web/1102-mathtex and web/1115-next kept).",
+  "next": "Nothing pending from the owner; he said he will lock everything in after this. Never push 956278f04 (scrapped). Disk about 196 GB (under the 200 GB floor) because another project's Remotion render (\"gta 6 video\") is writing to C:; the remaining big MockMob item is about 17 GB of old launch-film renders in MockMob-promo-film/out (owner's call).",
+  "blockers": [],
+  "evidence": [
+    "Vercel production dpl_J225fZn6Uu2CXwaJPam8RNF1mKq7 READY on fdc30d686",
+    "Live measurement, wt-1110-convert/tmp/1126-final/jump.mjs and jump-lab.mjs (real mouse, 1440x900): before the push a CUET stream tab moved 26 px and Lab rail keys 10 px; after, both 0.0 px; every other button 1 px or less",
+    "Screenshots of the coverage summary line on live at 390 and 1440 looked at"
+  ],
+  "touched_files": [
+    "wt-1116-next: src/components/landing/storyController.mjs, CoverageExplorer.jsx, coverage-proof.css, data/tests/desktop_jump_1126.test.mjs, package.json",
+    "mockmob-brain/docs: NOW.md, OWNER-MASTER-LEDGER.md, UI-AUDIT-LOG.md"
+  ],
+  "verification": "Gate (wt-1116-next tmp/gate2.sh) on fdc30d686: 24 suites 0 fail (test:app 1799 pass), eslint clean, webpack and Turbopack builds exit 0. v12 film: 720p file served 200 and the page serves the hero-v12 posters.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
