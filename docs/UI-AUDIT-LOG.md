@@ -543,3 +543,5 @@ Looked at: the whole home page at 390x760 (every screen, contact sheets) and 144
 | "How we counted" on a phone | Faded up 24 px; the dim and the close cut | Rises from the foot, goes back down |
 
 Seen and hold: the phone bar already steps aside for the Compass, pricing and close keys (measured); the Mistake Lab's five screens (not cut: the council wants four and split on which). Not looked at this pass: Night theme of the new card, a real phone, an iPhone.
+
+**26 Nov 2026, afternoon IST: what of the table above is LIVE.** The owner scrapped that pass (956278f04, never live). Only the two desktop jump rows went live, alone, in main fdc30d686 (data/tests/desktop_jump_1126.test.mjs); the sheet motion, the calendar card and the phone cuts are NOT on the site. Live before the push: Lab rail key 10 px, stream tab 26 px (tmp/1126-final/jump.mjs, jump-lab.mjs in wt-1110-convert).
