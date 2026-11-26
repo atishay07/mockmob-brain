@@ -1,0 +1,27 @@
+{
+  "id": "20261126T060529.170370Z-77621284",
+  "observed_at": "2026-11-26T06:05:29.170370+00:00",
+  "agent": "claude-code Fable 5.2 / Opus 5.5 (session 9d2a0d17)",
+  "task": "Final home pass (owner LK435, 26 Nov 2026): phone declutter by council, Daily Five and Sunday as one calendar card, desktop jump, motion, council skill",
+  "status": "paused",
+  "done": "BUILT, NOT LIVE (owner: \"Don't push it to live just now\"): commit 956278f04 in wt-1110-convert, gate clean in wt-1116-next (24 suites fail 0, eslint empty, webpack and turbopack exit 0). LIVE stays main 458481e2b. Phone page 21.3 -> 18.2 screens per a council of five (5-0, tmp/council/2026-11-26-landing/verdict.md) and a roast room of four (tmp/council/2026-11-26-roast). Desktop jump: picked steps no longer nudge the held stage; subject chips never wrap. Night theme checked at 390 and 1440. Council skill at ~/.claude/skills/council (GPT via Codex works; Gemini CLI needs owner's Google sign-in). Brain NOW.md, OWNER-MASTER-LEDGER.md (LK433-LK435) and UI-AUDIT-LOG.md updated.",
+  "next": "Owner decides: push 956278f04 live (git fetch; merge-base check; git push origin 956278f04:main from wt-1110-convert; confirm on / and /home-b) or look first. Hero film NOT touched: ask what \"introducing habits\" means; its coverage chapter says 92% vs site 99% (needs a paid voice take); memory says hero film is Fable-only, say the plan back first. Open: Mistake Lab four screens on a phone (council split on which goes); the laptop note removal reverses his LK320 (flagged). Disk 194 GB, under the 200 GB floor: remaining space is his to release (old film renders in MockMob-promo-film/out ~19 GB, tools/venv-tts2 6.9 GB, old MockMob-build-10..22 folders ~2.4 GB).",
+  "blockers": [],
+  "evidence": [
+    "wt-1116-next tmp/gate2.log on 956278f04: 24 suites fail 0, eslint empty, both builds exit 0",
+    "tmp/1126-final/audit.mjs: phone 13,825 px (18.2 screens) vs 16,185 (21.3)",
+    "tmp/1126-final/jump-lab.mjs: Lab rail keys move 0.0 px over a click (was 10 px)",
+    "test:app 1796 pass 0 fail"
+  ],
+  "touched_files": [
+    "src/app/page.js",
+    "src/app/r19-home-b.css",
+    "src/components/daily/{DailyFiveRow.jsx,daily-row.css,dailyStripCopy.mjs}",
+    "src/components/landing/{OnlyWide.jsx,CollegeStrip.jsx,CompassLadder.jsx,CoverageExplorer.jsx,coverage-proof.css,coverageWords.mjs,storyController.mjs,CreatorReels.jsx}",
+    "tests under data/tests and src/components"
+  ],
+  "verification": "Real Chrome (playwright-core) with CDP touch and mouse at 390x760, 360x800, 1440x900, Day and Night; contact sheets looked at; gate clean. Not checked: a real phone, an iPhone.",
+  "cost_and_pending_requests": "No new receipt information; reconcile source ledger before paid work.",
+  "confidence": "agent-reported; verify evidence before acting",
+  "person": "atishay"
+}
